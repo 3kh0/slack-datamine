@@ -1,0 +1,23 @@
+[Unit]
+Description=Slack Polling Service
+After=slack-cdp.service
+Wants=slack-cdp.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=/root/slack-datamine
+EnvironmentFile=-/root/slack-datamine/.env
+Environment=POLL_SOURCE=cdp
+Environment=CDP_PORT=9222
+Environment=RELOAD_CDP=1
+Environment=SNAPSHOT_DIR=queue/html
+Environment=QUEUE_ONLY=1
+Environment=INLINE_FOLLOWUP=0
+Environment=FOLLOWUP_CHECKS=0
+Environment=FOLLOWUP_INTERVAL=10
+Environment=RUNTIME=/root/.nvm/versions/node/v24.12.0/bin/node
+Environment=GPG_SIGNING_KEY=4DA8B4914D335CE4D6D0C087A1263DC479EDB62F
+ExecStartPre=-/root/slack-datamine/bin/unlock-gpg-agent.sh
+ExecStart=/usr/bin/env bash bin/poll.sh
+TimeoutStartSec=20min
+Nice=10

@@ -1,0 +1,22 @@
+[Unit]
+Description=Slack Build Snapshot Watcher
+After=slack-cdp.service
+Wants=slack-cdp.service
+
+[Service]
+Type=simple
+WorkingDirectory=/root/slack-datamine
+EnvironmentFile=-/root/slack-datamine/.env
+Environment=CDP_PORT=9222
+Environment=SNAPSHOT_DIR=queue/html
+Environment=WATCH_INTERVAL=1
+Environment=FETCH_CLIENT_HTML=1
+Environment=WATCH_LOG_DUPLICATES=0
+Environment=RUNTIME=/root/.nvm/versions/node/v24.12.0/bin/node
+ExecStart=/usr/bin/env bash bin/watch-cdp.sh
+Restart=always
+RestartSec=5
+Nice=10
+
+[Install]
+WantedBy=multi-user.target

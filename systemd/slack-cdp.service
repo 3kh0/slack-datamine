@@ -1,0 +1,19 @@
+[Unit]
+Description=Headless Slack with CDP
+After=network-online.target slack-xvfb.service
+Requires=slack-xvfb.service
+Wants=network-online.target
+
+[Service]
+User=slackbot
+Environment=DISPLAY=:99
+Environment=XDG_RUNTIME_DIR=/run/slackbot
+Environment=HOME=/home/slackbot
+RuntimeDirectory=slackbot
+RuntimeDirectoryMode=0700
+ExecStart=/usr/bin/dbus-run-session -- /usr/bin/slack --disable-gpu --disable-dev-shm-usage --disable-gpu-compositing --disable-accelerated-2d-canvas --use-gl=swiftshader --remote-debugging-address=127.0.0.1 --remote-debugging-port=9222
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
