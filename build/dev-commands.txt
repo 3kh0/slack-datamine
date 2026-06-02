@@ -1,0 +1,24 @@
+build_manifest_last_modified: Override build manifest last-modified timestamp
+devtools: Toggles developer tools panel
+enable_all_features: Enable all features (bypasses feature gates)
+force_ai_permissions: Override AI permissions (comma-separated list)
+force_build_version: Force specific build version
+force_cold_boot: Force cold boot
+force_degraded_list: Force non-virtualized list rendering
+force_error_screen: Force a specific error screen (dev only)
+force_fail_apis: Force API failures (e.g. client.init:fail:100)
+force_huddle_survey: Force huddle survey to show (1) or hide (0)
+force_infinite_list: Force virtualized list rendering
+force_reset_view_state: Reset persisted view state on boot
+force_store_measurement: Enable IDB store size measurement
+js_path: Load local JS from dev server (js_path=1) or when using a custom port (js_path=localhost:1990)
+layout_debug_mode: Show layout debug overlay
+log_level: Set logging level
+multi_team: Show multi-team view in web browser (like desktop)
+persist: Disable IndexedDB persistence (sets to 0)
+react_strict_mode: Enable React Strict Mode (dev only)
+recommended_build_version: Recommended build version for cache-busting
+searchable_text_debug: Show searchable text debug panel in activity
+slack_debug: Force slackDebug availability
+windowing: Enable Conversation Views (multi-window) in browser
+ws_flakiness: Simulate WebSocket unreliability (0.0 to 1.0)
