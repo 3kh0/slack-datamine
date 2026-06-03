@@ -17,6 +17,7 @@ INLINE_FOLLOWUP="${INLINE_FOLLOWUP:-1}"
 FOLLOWUP_CHECKS="${FOLLOWUP_CHECKS:-18}"
 FOLLOWUP_INTERVAL="${FOLLOWUP_INTERVAL:-10}"
 log() { printf '[%s] %s\n' "$(date -u +%H:%M:%S)" "$1"; }
+notify() { bin/notify.sh "$1" || true; }
 
 json() {
   "$RUNTIME" -e "const m=require('./build/meta.json'); console.log($1)"
@@ -102,6 +103,9 @@ commit_build() {
   git rev-parse -q --verify "refs/tags/$TAG" >/dev/null || git tag -a "$TAG" -m "Slack build ${BUILD} / ${HASH}"
   log "committed + tagged $TAG"
   [ "${GIT_PUSH:-0}" != "0" ] && git push -q && git push -q --tags && log "pushed"
+  notify "slack-datamine committed $MESSAGE
+tag: $TAG
+hash: $HASH"
   return 0
 }
 

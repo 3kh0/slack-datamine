@@ -1,0 +1,20 @@
+[Unit]
+Description=Slack Datamine Healthcheck
+After=slack-cdp.service
+Wants=slack-cdp.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=/root/slack-datamine
+EnvironmentFile=-/root/slack-datamine/.env
+Environment=CDP_PORT=9222
+Environment=SNAPSHOT_DIR=queue/html
+Environment=FETCH_CLIENT_TIMEOUT_MS=5000
+Environment=CDP_COMMAND_TIMEOUT_MS=10000
+Environment=HEALTH_CLEAR_CACHE=1
+Environment=HEALTH_QUEUE_STALE_SEC=180
+Environment=HEALTH_SNAPSHOT_STALE_SEC=45
+Environment=RUNTIME=/root/.nvm/versions/node/v24.12.0/bin/node
+ExecStart=/usr/bin/env bash bin/healthcheck.sh
+TimeoutStartSec=2min
+Nice=10
