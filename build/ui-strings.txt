@@ -62,6 +62,7 @@
  is a component originally designed to display in channel forewords. It receives an array of cards as its sole required prop.
  is a low level component for rendering a box.
  is a reserved command.
+ is currently editing this page. Only one person can edit a page at a time.
  is deprecated and will be removed in a future version.
  is invalid.
  is not a mutable property.
@@ -126,6 +127,8 @@
  when started fetching external datasource list.
  when the performance problem arises.
  will be permanently removed. Any tools associated with this MCP server will no longer be available.
+ will clear this status when it starts.
+ will clear this status when they start.
  will have no effect.
  with no warranties. Web search is not FedRAMP compliant.
 #initScripting: Scripting already exists.
@@ -185,7 +188,6 @@
 1D separable convolution is not implemented yet.
 2. Paste the response below, or paste your exported memory file.
 :E.mv.ConfirmationModal,onClose:eG,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
-:E.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:ej?eU:void 0,className:s()(ej||S||eD?
 :E.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:ej?eU:void 0,className:s()(ej||S||eP?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eD?
@@ -253,6 +255,7 @@ A coworker
 A custom emoji has been added or changed
 A data stream read is already in progress for a stream with id 
 A deactivated user
+A description (or alt-text) helps people with visual disabilities understand what you are sharing.
 A detailed walkthrough of building custom automations.
 A different account
 A domain allowlist lets you specify which domains can send emails into Slack using Channel Email Addresses or personal forwarding email addresses.
@@ -437,6 +440,7 @@ AI Button
 AI Channel Recaps
 AI Explain share: missing required thread data
 AI Inbox
+AI Notes
 AI Notes & Transcription
 AI Notes are on
 AI Notes: Off
@@ -474,10 +478,13 @@ AI is temporarily unavailable. Please try again in a moment.
 AI is turned on for your team
 AI message explanations
 AI notes and transcription
+AI notes and transcription are on for this huddle, so thread replies may be summarized in the notes.
 AI notes and transcription are on.
 AI notes and transcription mode is allowed for Huddles.
 AI notes are back on
+AI notes are on
 AI notes are on for this huddle, so thread replies may be summarized in the notes.
+AI notes cancelled and deleted
 AI notes not available for huddles in Slack Connect channels
 AI notes not available for huddles with guests
 AI notes on 2 Outlines
@@ -1312,8 +1319,8 @@ Additional Info
 Additional access needed
 Additional bookmarks
 Additional field content
-Additional open flags for this message
 Additional options
+Additional profile content
 AdditionalDeploymentStatusInfo is deprecated, use DeploymentStatusMessageList instead.
 Addon Purchase Attempt Response Received
 Addons cost fetch failed
@@ -1556,6 +1563,7 @@ All done! Debug tracing disabled.
 All events
 All external people must already be in at least one channel together to share this file.
 All files
+All future huddles
 All groups
 All guests
 All header levels
@@ -1624,7 +1632,6 @@ Allow downloads of workflow form responses. Add a policy to limit who can downlo
 Allow exports of workflow blueprints as JSON files
 Allow external people to run workflows with third-party connector steps
 Allow for all objects
-Allow guests
 Allow huddles in this channel?
 Allow inline editing only for these objects
 Allow invitations for any email address from these domains:
@@ -1643,7 +1650,6 @@ Allow private channel access
 Allow recipients to mute this notification
 Allow replies for this thread
 Allow screen recording access in system preferences.
-Allow sharing & file downloads
 Allow third-party calls in Slack
 Allow this trigger to access 
 Allow users to change their display names
@@ -1692,7 +1698,10 @@ Alter pinned canvases for an external workspace
 Alternate Email
 Alternate Phone
 Always Allow
+Always Start
 Always Start AI Notes
+Always Start AI Notes & Transcription
+Always Start Transcription
 Always Take AI Notes
 Always allow
 Always allow notifications from VIPs
@@ -1842,6 +1851,8 @@ An unusually long chart title intended to exercise wrapping behaviour inside the
 An update of the desktop state from the desktop app
 An update of the window frame state
 Analytics Agent Performance Roadmap
+AnalyticsAgent: Running in manual mode (tracking 
+AnalyticsAgent: Running in multi-component mode
 Analyzing stored device records
 Anatomy of a Product UI
 Anchor Point
@@ -1882,7 +1893,6 @@ Antigua and Barbuda
 Any amount change
 Any changes to your email?
 Any changes to your revised message?
-Any changes?
 Any custom setting
 Any file type
 Any owner or admin
@@ -2401,7 +2411,6 @@ BIRD2 Configuration
 Back in history
 Back to All channels
 Back to Filters
-Back to MCP servers
 Back to Migrations
 Back to Slack
 Back to all templates view
@@ -2544,6 +2553,7 @@ Blue Selector 3
 Blue Style
 BlueJeans Meeting
 Blur background
+Blur video background
 Board Meeting Prep
 Bob Loblaw
 Bob Martinez
@@ -2750,6 +2760,7 @@ Button label
 Buy Scooby Snacks
 By Slack
 By continuing, you agree to the compliance and legal terms.
+By default, Salesforce app unfurls show name and object only. When enabled, unfurls from the Salesforce app will be powered by the Platform Integration user.
 By default, Slack allows canvas editors to access version history and restore prior versions of a canvas.
 By default, Slack encrypts data at rest and in transit as part of our foundational security controls.
 By default, a repeat step can iterate up to 50 times.
@@ -3034,6 +3045,7 @@ Calls the relevant handler for the given message
 Calls the relevant rtm handlers with the given rtm message, skipping the queue and without preprocessing (this is intended for degraded mode usage only)
 Calls users.prefs.setNotifications endpoint
 Calls users.prefs.setNotifications endpoint with multiple pref values
+Camera background
 Camera disabled
 Camera disabled before self video stream was properly bound. Cleaning up.
 Camera failed
@@ -3963,6 +3975,7 @@ Clears the mini player resume state after it has been consumed
 Clears the pending draft request after it was fulfilled or timed out
 Clears the persisted apiCall payload at the key
 Clears the profile of the current user and turns off DND if necessary
+Clears the recording cancellation reason after the toast has been shown
 Clears the selected app
 Clears the story flexpane config (called by the flexpane after changes are applied
 Clears timestamp of the last time something was starred
@@ -4424,6 +4437,7 @@ Confirmation Modal Header Image
 Confirmation dialog enabled for external links
 Confirmations and warnings
 Confirmed Outlines
+Connect (opens in new window)
 Connect Account
 Connect Accounts
 Connect Another Account
@@ -4562,6 +4576,7 @@ Content-Length header not found
 ContentLength is not supported in pre-signed URLs.
 Context + Provider
 Context is already forwarding operations.
+Context type mismatch: expected 
 Continue Editing
 Continue To Purchase
 Continue Without Muting
@@ -4576,6 +4591,8 @@ Continue with Free
 Continue with Pro?
 Continue without saving changes?
 Continue workflow
+Continue your conversation
+Continue your conversation with meeting attendees
 Continuity Camera
 Continuous fuzzy score bonus (fuzzyScore * bonusPoints)
 Contract Line Items
@@ -4785,7 +4802,6 @@ Could not fix indexToLocFormat:
 Could not generate manifest CMCD data.
 Could not generate permalink for shared item
 Could not generate segment CMCD data.
-Could not get Voice Focus transform, setting noise suppression to false
 Could not get VoiceFocusDeviceTransformer
 Could not get VoiceFocusDeviceTransformer for device swap
 Could not get VoiceFocusTransformDevice
@@ -4911,7 +4927,6 @@ Create New Task
 Create New UI
 Create Notification
 Create Opportunity
-Create PR
 Create Page
 Create Product UI
 Create Proposal
@@ -5082,7 +5097,6 @@ CreatedTimestamp is no longer returned by ListEventDataStores
 Creates JSON string of URLs used to submit unfurl data to draft syncing endpoints
 Creates JSON string of file permissions data submit to draft syncing endpoints
 Creates a Native DLP rule with a regex detector
-Creates a Salesforce record and displays save toast
 Creates a beta app for a given app
 Creates a canvas + tab and navigates to the newly create tab
 Creates a canvas and adds it to a file collection
@@ -5441,6 +5455,7 @@ Delete Message Input
 Delete Module
 Delete Notification
 Delete Notification?
+Delete Preview
 Delete Product UI
 Delete Profile
 Delete Redirect URL
@@ -6259,6 +6274,7 @@ Ellipse 135
 Ellipse 137
 Ellipse 138
 Ellipse 139
+Ellipse 14
 Ellipse 1L
 Ellipse 1L: 0
 Ellipse 1L: 0-stroke-mask
@@ -6786,6 +6802,9 @@ Everyone can post
 Everyone can reply to messages
 Everyone except guests can post
 Everyone in the channel
+Everyone in the channel will be able to view the notes and transcript.
+Everyone in the channel will be able to view the notes.
+Everyone in the channel will be able to view the transcript.
 Everyone in the organization
 Everyone in your organization has the ability to edit.
 Everyone in your workspace
@@ -7174,8 +7193,8 @@ Failed to load preview
 Failed to load report
 Failed to load settings. Please try again later.
 Failed to load tools.
-Failed to load tools. Please try again.
 Failed to load widget
+Failed to log out of orgs: orgURL is missing or invalid: [Error logging out: Invalid orgURL.]
 Failed to mark overdue items completed
 Failed to obtain IndexedDB factory because the current environmentis not a web browser.
 Failed to open DM in send message summary
@@ -7872,7 +7891,6 @@ File Block called without a file object or file id
 File Management
 File Storage Used
 File Summary
-File details
 File does not belong to your team
 File download settings updated
 File downloaded.
@@ -7909,6 +7927,7 @@ File summary
 File summary translation
 File too large
 File type not supported.
+File unavailable
 File upload
 File upload aborted!
 File upload failed!
@@ -8305,7 +8324,7 @@ Gain full context into every conversation, project, and task
 Gantry.run has already been called
 Gap is not a flat range
 Gathering ICE candidates timed out. In Chrome, this might indicate that the browser is in a bad state after reconnecting to VPN.
-Gaze into the orb
+Gaze up to the sky
 Geeta Joshi
 Geeta Joshi Outlines
 GenAI is evolving from large, monolithic models trained on massive internet data to complex, multi-component 
@@ -8558,7 +8577,6 @@ Gets unfurl data from store given a list of unfurls and a draftId
 Gets user group matches for a given search term
 Gettext PO
 Getting Started
-Getting Voice Focus transform device as it did not exist
 Getting Work Done
 Getting our stacktrace
 Getting ready to turn meeting stress into meeting success!
@@ -8688,6 +8706,7 @@ Gram-Schmidt process: input must not be null, undefined, or empty
 Grant Access
 Grant user consent for provided scopes for an app
 Grant workspace access?
+Grants (and pins for the session) a proactive Slackbot Everywhere thread hint for a thread
 Grants an app access to additional scopes
 Grants an app access to the current users data
 Granular roles
@@ -8841,7 +8860,6 @@ Group name already exists. Enter a different name.
 Group name is required
 Group name is too long.
 Group options
-Group this channel and manage notifications
 Group this channel with similar conversations in your sidebar and choose when you want to be notified about new messages.
 Group voice and video calls
 Grow your business with AI
@@ -9388,7 +9406,6 @@ Import & export data
 Import CSV
 Import CSV as a list
 Import CSV file
-Import Leads from CSV
 Import Memories
 Import Workflow Failure
 Import Workflow Success
@@ -9814,6 +9831,7 @@ Invite someone else to your huddle
 Invite someone outside your workspace
 Invite someone to this channel
 Invite someone to your huddle
+Invite suggestion exceptions
 Invite team members
 Invite teammates
 Invite them by email instead
@@ -10374,6 +10392,7 @@ Learn more about search
 Learn more about sidebar preferences
 Learn more about the anomalous reasons that flagged this event
 Learn more about the shape of the select state
+Learn more about unfurl settings
 Learn more about verified organizations.
 Learn more about workflows
 Learn more.
@@ -10742,6 +10761,7 @@ Log exposure for the expand_invite_sidebar_entry experiment if it is exposed
 Log exposure for the fast_auto_charge_trial experiment if it is exposed
 Log exposure for the fedramp_banner experiment if it is exposed
 Log exposure for the files_tab_nux_new_teams experiment if it is exposed
+Log exposure for the files_tab_nux_v2 experiment if it is exposed
 Log exposure for the first_login_loader_copy experiment if it is exposed
 Log exposure for the growth_slack_first_crm experiment if it is exposed
 Log exposure for the gx_jp_creator_pocket_guide experiment if it is exposed
@@ -10793,9 +10813,7 @@ Log exposure for the straight_to_checkout experiment if it is exposed
 Log exposure for the streamline_plans_experience experiment if it is exposed
 Log exposure for the team_creation_invite_optimizations_v2 experiment if it is exposed
 Log exposure for the team_creation_segmentation experiment if it is exposed
-Log exposure for the tenured_team_engagement_via_app_integration experiment if it is exposed
 Log exposure for the trials_plan_choice experiment if it is exposed
-Log exposure for the trials_redesign_awareness_badge experiment if it is exposed
 Log exposure for the unlimited_slackbot_promo_q1fy27 experiment if it is exposed
 Log express templates feedback
 Log file
@@ -11857,7 +11875,6 @@ Meeting assistant suggestions
 Meeting assistant window actions
 Meeting notes
 Meeting notes generated
-Meeting reminders
 MeetingSessionTimingManager: No observers set, timing data discarded
 MeetingSessionTimingManager: destroyed
 MeetingSessionTimingManager: expecting remote video in current batch
@@ -12765,6 +12782,7 @@ No data available yet
 No data has been exported yet.
 No data is being shared
 No data sources are available
+No date available
 No date set
 No deeplink found in logs
 No deeplink found in the past 1000 lines
@@ -13080,6 +13098,7 @@ Note: Changing this setting will change the corresponding files setting for Slac
 Note: Domain cannot be changed for sandbox environments.
 Note: If you change your organization domain, Slack will reload and automatically redirect you to the new domain.
 Note: this setting is for this computer only. You may need to restart Slack to receive app updates.
+Notes stopped. Not everyone here can be recorded.
 Notes will appear here once recording begins
 Nothing found
 Nothing found. Filtering from recent notifications.
@@ -13665,6 +13684,7 @@ Opens canvas
 Opens channel topic dialog
 Opens compare plans modal
 Opens either channel invite modal or dm browser modal
+Opens file detail in the huddle window flexpane if the window is open
 Opens greeting invite modal
 Opens in DM
 Opens member profile in the huddle window flexpane if the window is open
@@ -14319,6 +14339,7 @@ Personal use
 Personalize Events
 Personalize Runtime
 Personalize a welcome message
+Persuasion Speed Bump Demo
 Phew! Done.
 Phone number
 Photos and videos
@@ -14356,6 +14377,7 @@ Pin a message in an error
 Pin as Tab
 Pin as channel tab
 Pin as tab
+Pin participant
 Ping the file to mark the user as still viewing it
 Ping the message server if necessary
 Pinned by admin
@@ -14631,6 +14653,7 @@ Preview Image
 Preview Settings
 Preview Your App Submission
 Preview Your Invitation
+Preview deleted.
 Preview fetch failed
 Preview form
 Preview image
@@ -14785,7 +14808,6 @@ Profile 8 Outlines
 Profile Picture
 Profile Summary
 Profile URL
-Profile content
 Profile content removed
 Profile content updated
 Profile options
@@ -15388,7 +15410,14 @@ Rectangle 33
 Rectangle 34
 Rectangle 35
 Rectangle 36
+Rectangle 37
+Rectangle 38
+Rectangle 39
 Rectangle 4
+Rectangle 40
+Rectangle 41
+Rectangle 42
+Rectangle 43
 Rectangle 44
 Rectangle 5
 Rectangle 6
@@ -16883,6 +16912,7 @@ Search channels
 Search cleared
 Search components
 Search contacts
+Search conversations
 Search details: 
 Search error
 Search experiments
@@ -17041,7 +17071,6 @@ See all your records
 See and update the data you gave it access to, even when users are not currently using the app
 See details
 See error.
-See fewer
 See full comparison
 See how AI can make your workday that much more pleasant and productive.
 See how many clips are created and played over time.
@@ -17249,6 +17278,9 @@ Send additional information to agent
 Send an emoji reaction
 Send an invitation to connect
 Send app suggested prompt as message
+Send as a direct message
+Send as a group direct message
+Send as a message to channel
 Send awareness state to other users who are subscribed to the topic
 Send button
 Send button 1
@@ -17361,7 +17393,6 @@ Server URL
 Server and client disagree on thread state; using server state
 Server deleted
 Server name
-Server not found.
 Server overview
 Server rejected the MCP initialize handshake. Check protocol version compatibility.
 Server responded with an error status. Check http_status_code for details.
@@ -17562,7 +17593,6 @@ Set app launcher filter loading status
 Set apps and their profile information coming from the server
 Set apps fetched for solution guide
 Set as absolute value
-Set as default for huddle notes
 Set as default for huddle notes?
 Set as default translation language
 Set as default view
@@ -17614,6 +17644,7 @@ Set current page for App Launcher pagination
 Set current sales bulk grid data
 Set current salesforce org admin ids
 Set current salesforce org member ids
+Set current search result index
 Set current step of the Slack AI NUX tour
 Set currently active full search list view ids for the list view browser
 Set currently active full search query for the list view browser
@@ -17818,6 +17849,7 @@ Set pending state for a new configuration request
 Set pending state for a new installation request
 Set pending state of attachment action and parent attachment
 Set permissions and view options for added security
+Set persistent highlight for Find in Thread (null to clear)
 Set picklist values from api in current sales bulk grid
 Set presence for your Slack app
 Set preview
@@ -17862,8 +17894,10 @@ Set search in channel query
 Set search in channel results
 Set search input
 Set search input value for announcer
+Set search loading state
 Set search query for list
 Set search query for my todos
+Set search results for Find in Thread
 Set search summary error state
 Set search summary loading state
 Set search summary results in state
@@ -18949,12 +18983,12 @@ Sets whether a beta app has socket mode enabled or not or not
 Sets whether a calendar window fetch is in flight
 Sets whether a contact lookup is loading
 Sets whether a shimmering message skeleton is showing for ai app threads
-Sets whether a user is able to manage teams.
 Sets whether all mini window toolbar buttons are shown
 Sets whether an app has link enabled or not or not
 Sets whether an app is distributed or not
 Sets whether an individual message is unhidden from a hidden sender
 Sets whether audio only mode is active or not.
+Sets whether bot-posted unfurls use the admin layout preference
 Sets whether connect invite coachmark should be shown for a channel
 Sets whether deep research mode is active for the next message
 Sets whether digest is empty or stale
@@ -18969,6 +19003,7 @@ Sets whether or not the self tile should be hidden
 Sets whether or not the sidebar is part of the grid layout at normal window sizes
 Sets whether or not the sidebar is part of the grid layout at normal window sizes (use setIsSidebarVisible instead)
 Sets whether popular skills are currently being fetched
+Sets whether reaction animations are disabled for the current huddle session
 Sets whether roles list has been fetched from BE
 Sets whether screen sharing is active in the clip recorder
 Sets whether search was initiated with top results tab active
@@ -19283,6 +19318,7 @@ Show email preview
 Show everything
 Show external canvas or external list reshare warning
 Show external quip doc reshare warning
+Show fewer
 Show fewer details
 Show fewer live huddles
 Show fewer reactions
@@ -19787,7 +19823,6 @@ Something went wrong approving the app for your organization. Wait a moment and 
 Something went wrong creating the channel, please try again.
 Something went wrong drafting the email
 Something went wrong drafting the message
-Something went wrong during modal close
 Something went wrong during notification dismissal
 Something went wrong fetching insights
 Something went wrong in cancel plan API
@@ -19986,6 +20021,7 @@ Start a conversation
 Start a conversation in a DM or channel
 Start a conversation with
 Start a conversation with an agent
+Start a conversation with meeting attendees
 Start a conversation with your team
 Start a direct message
 Start a direct message using Slack Connect.
@@ -20583,6 +20619,7 @@ Talk it out in a huddle
 Talk it out in real time on a huddle, with screen-sharing, expressive reactions and a message thread that automatically saves for later reference.
 Talk it out on a video call with screen sharing
 Talk with a teammate
+Talk with meeting attendees in Slack
 Tap the link to join.
 Target is not a typed array
 Target must be a DOM Element
@@ -20845,6 +20882,7 @@ The following people have requested access to customer management in Slack. Appr
 The free plan includes up to 10 users, 90 days of message history, and 5GB of file storage.
 The generated JSON failed Block Kit validation.
 The global cache-data must be available.
+The huddle language applies to AI notes and captions.
 The huddle language applies to AI notes, transcription and captions.
 The huddle language applies to transcription and captions.
 The huddle language is the same for everyone on the huddle, and applies to transcription and captions.
@@ -21146,6 +21184,7 @@ This field name is already in use. Please choose a different name.
 This field type cannot be changed
 This file cannot be previewed
 This file cannot be selected
+This file is already attached.
 This file is too big to preview
 This file type is not supported. You can add links to Google Docs, Google Slides, or files uploaded to Google Drive in .pdf, .txt, .doc, .docx, or .csv formats.
 This file was deleted.
@@ -21157,6 +21196,7 @@ This group name is not allowed.
 This handles the downmarket CRM CTA logic that provisions CRM, adding teams to our trial if they are not in Bus+
 This has 
 This hour has its own kind of focus.
+This huddle only
 This image description was generated by AI, so some information may be inaccurate
 This image is a bit too big, even after resizing. A smaller file might help?
 This indicates createLog() was never called. Skipping telemetry update.
@@ -21245,6 +21285,7 @@ This operation is deprecated, use ListDeploymentTargets instead.
 This operation was aborted
 This org has SSO configured. Org owner invites are not allowed for SSO-configured organizations.
 This org is using an outdated connection
+This page is being edited
 This parameter has been deprecated. Instead, use the KeySpec parameter.
 This payment method was declined. Please try a different one, or contact the payment provider.
 This person has edit access through a certain channel.
@@ -21605,10 +21646,13 @@ Transcript generation started. This may take a few minutes.
 Transcript in a different language
 Transcript is now available for this video.
 Transcript processing
+Transcription and AI notes will start automatically for all huddles in this channel.
 Transcription failed. Please try again.
 Transcription is now back on and will be included in the AI summary. By participating, you agree to being transcribed.
+Transcription is on for this huddle.
 Transcription only
 Transcription started successfully
+Transcription stopped. Not everyone here can be recorded.
 Transcription will be turned back on and will be included in the AI summary. By participating, you agree to being transcribed. Make sure everyone else is cool with that, too.
 Transfer Ownership
 Transfer canvas ownership
@@ -21812,7 +21856,6 @@ Try smarter search results for your whole team with Business+
 Try today
 Try uploading a .zip version of these files instead.
 Try with Slack lists, or search for a step from an external app.
-Trying noise suppression with no voice focus transform device
 Trying to fetch a module that does not exist
 Trying to fetch top results without being in the experiment
 Trying to nudge playhead over buffer-hole
@@ -21835,6 +21878,7 @@ Turn camera off
 Turn off
 Turn off Automatic AI Notes
 Turn off an active app before you can add a new one
+Turn off animations
 Turn off automatic AI notes and transcription?
 Turn off captions
 Turn off music
@@ -22185,12 +22229,15 @@ Unmute mic
 Unmute microphone
 Unmute notification
 Unmute volume
+Unpause AI Suggested To-dos
+Unpause focus areas
 Unpause focus items
 Unpause highlights
 Unpauses video tile
 Unpausing queue, back online
 Unpin Message from channel
 Unpin canvas
+Unpin participant
 Unpins a Slackbot AI NUX kickoff thread ts so its root message becomes visible
 Unpublish Product UI
 Unpublish a skill from the skill catalog
@@ -22205,7 +22252,6 @@ Unread activity counts
 Unread comments
 Unread conversations
 Unread conversations, plus your Starred section
-Unread from VIP
 Unread items
 Unread threads
 Unreads & drafts
@@ -23063,6 +23109,7 @@ Use localStorage data to restore open workflows data
 Use logos from recognizable brands for maximum impact
 Use message source
 Use mid-page to showcase a product demo, customer story, or feature walkthrough with contextual copy above.
+Use same settings for messages from the Salesforce app
 Use sources from this channel
 Use template
 Use template and make a canvas
@@ -23328,6 +23375,7 @@ VideoFxProcessor destroyed.
 VideoFxProcessor is not supported on host device. Defaulting to non blurred background
 VideoFxProcessor is not supported on host device. Defaulting to non image replaced background
 Viet Nam
+View AI Notes
 View AI Terms and Conditions
 View Audit Logs
 View Channel
@@ -23467,12 +23515,12 @@ View pinned content in channels and conversations that your Slack app has been a
 View preferences
 View profile
 View profile details about people in a workspace
+View profile in Slack
 View project brief
 View project tracker
 View reaction notification
 View reactions
 View reasoning trace
-View reminder
 View reminders and save your own.
 View reminders created by your Slack app
 View remote files added by the app in a workspace
@@ -23748,6 +23796,7 @@ What would you like to do with this list?
 What would you like to do?
 What would you like us to know?
 What you can do with Slack
+When AI huddle notes are set to start automatically, all huddles in this channel will be transcribed and summarized by default.
 When I mark everything as read:
 When [[column_key_and_value]], send a notification to [[user_id]]
 When a UI is set to private, it can only be viewed by invitation
@@ -24193,7 +24242,6 @@ You have reached the maximum number of recommended apps. Remove another app to a
 You have unread messages in Home
 You have unsaved changes
 You have unsaved changes. Do you want to continue?
-You joined
 You joined the huddle
 You left a channel
 You left a private channel
@@ -24360,6 +24408,7 @@ Your recently viewed or updated canvases will show up here.
 Your request has already been submitted.
 Your request was sent
 Your sales notifications
+Your scheduled status 
 Your schema has changed. Open and save this step to update your form.
 Your sidebar is your own.
 Your signature emoji

@@ -55,6 +55,7 @@ admin.apps.certified.list
 admin.apps.clearResolution
 admin.apps.config.lookup
 admin.apps.config.set
+admin.apps.domainWideAuth.list
 admin.apps.getAiPrefs
 admin.apps.installed.list
 admin.apps.internal.list
@@ -1364,6 +1365,7 @@ sfdc.records.changeOwner
 sfdc.records.create
 sfdc.records.delete
 sfdc.records.listRecent
+sfdc.records.performQuickAction
 sfdc.records.undelete
 sfdc.salesTracker.convertLead
 sfdc.salesTracker.getContent
@@ -1590,9 +1592,12 @@ views.get
 views.submit
 views.submitPreview
 wmp.blockPreviews.render
+wmp.documents.acquireLock
 wmp.documents.create
+wmp.documents.heartbeatLock
 wmp.documents.info
 wmp.documents.publish
+wmp.documents.releaseLock
 wmp.documents.save
 wmp.documents.update
 wmp.routes.create
