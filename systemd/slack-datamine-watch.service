@@ -10,7 +10,10 @@ EnvironmentFile=-/root/slack-datamine/.env
 Environment=CDP_PORT=9222
 Environment=SNAPSHOT_DIR=queue/html
 Environment=WATCH_INTERVAL=1
+Environment=SNAPSHOT_TIMEOUT=30
 Environment=FETCH_CLIENT_HTML=1
+Environment=FETCH_CLIENT_TIMEOUT_MS=5000
+Environment=CDP_COMMAND_TIMEOUT_MS=10000
 Environment=WATCH_LOG_DUPLICATES=0
 Environment=RUNTIME=/root/.nvm/versions/node/v24.12.0/bin/node
 ExecStart=/usr/bin/env bash bin/watch-cdp.sh

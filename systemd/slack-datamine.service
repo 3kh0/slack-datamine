@@ -11,6 +11,7 @@ Environment=POLL_SOURCE=cdp
 Environment=CDP_PORT=9222
 Environment=RELOAD_CDP=1
 Environment=SNAPSHOT_DIR=queue/html
+Environment=CDP_COMMAND_TIMEOUT_MS=10000
 Environment=QUEUE_ONLY=1
 Environment=INLINE_FOLLOWUP=0
 Environment=FOLLOWUP_CHECKS=0

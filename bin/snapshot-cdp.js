@@ -15,12 +15,21 @@ const port = opt('--port', process.env.CDP_PORT || '9222');
 const clientUrl = opt('--client-url', process.env.CLIENT_URL || 'https://app.slack.com/client');
 const snapshotDir = opt('--dir', process.env.SNAPSHOT_DIR || path.join('queue', 'html'));
 const timeoutMs = Number(opt('--timeout-ms', process.env.CDP_READY_TIMEOUT_MS || '10000'));
+const fetchTimeoutMs = Number(opt('--fetch-timeout-ms', process.env.FETCH_CLIENT_TIMEOUT_MS || '5000'));
 const skipHash = opt('--skip-hash', process.env.SKIP_VERSION_HASH || '');
 const fetchClient = argv.includes('--fetch-client') || process.env.FETCH_CLIENT_HTML === '1';
 const noReloadFallback = argv.includes('--no-reload-fallback');
 
 const safe = (value) => String(value || 'unknown').replace(/[^a-zA-Z0-9._-]+/g, '_');
 const attr = (html, name) => (html.match(new RegExp(`data-${name}="([^"]*)"`)) || [])[1] || null;
+const timeoutSignal = (ms) => {
+  if (!ms || ms <= 0) return undefined;
+  if (AbortSignal.timeout) return AbortSignal.timeout(ms);
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), ms);
+  timer.unref?.();
+  return controller.signal;
+};
 const skipped = (ready, reason) => ({
   buildNumber: ready.buildNumber,
   versionTs: ready.versionTs,
@@ -83,6 +92,7 @@ async function fetchClientSnapshot(cdp) {
       'Cookie': cookies,
     },
     redirect: 'follow',
+    signal: timeoutSignal(fetchTimeoutMs),
   });
   if (!res.ok) throw new Error(`Slack client HTML fetch returned HTTP ${res.status}`);
 

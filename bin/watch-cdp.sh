@@ -8,6 +8,7 @@ RUNTIME="${RUNTIME:-node}"
 CDP_PORT="${CDP_PORT:-9222}"
 SNAPSHOT_DIR="${SNAPSHOT_DIR:-queue/html}"
 WATCH_INTERVAL="${WATCH_INTERVAL:-1}"
+SNAPSHOT_TIMEOUT="${SNAPSHOT_TIMEOUT:-30}"
 FETCH_CLIENT_HTML="${FETCH_CLIENT_HTML:-1}"
 WATCH_LOG_DUPLICATES="${WATCH_LOG_DUPLICATES:-0}"
 log() { printf '[%s] %s\n' "$(date -u +%H:%M:%S)" "$1"; }
@@ -28,7 +29,12 @@ snapshot_once() {
   current_hash="$(last_hash)"
   [ -n "$current_hash" ] && args+=(--skip-hash "$current_hash")
 
-  if ! ready="$("$RUNTIME" "${args[@]}")"; then
+  if command -v timeout >/dev/null 2>&1; then
+    if ! ready="$(timeout "$SNAPSHOT_TIMEOUT" "$RUNTIME" "${args[@]}")"; then
+      log "CDP snapshot failed"
+      return 1
+    fi
+  elif ! ready="$("$RUNTIME" "${args[@]}")"; then
     log "CDP snapshot failed"
     return 1
   fi
