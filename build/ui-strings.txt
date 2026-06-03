@@ -3730,6 +3730,7 @@ Choose how you want to be notified when anomalies are detected
 Choose if the caution message in conversations with external people has default or high visibility:
 Choose limited group
 Choose list
+Choose member access
 Choose one
 Choose something that your team will recognize, like the name of your company or team.
 Choose something your team will recognize like the name of your company or team. You can always update it later.
@@ -4449,6 +4450,8 @@ Connect Outlook
 Connect Outlook (opens in a new tab)
 Connect Salesforce Org
 Connect Slack with a Salesforce org
+Connect Your Account
+Connect Your Support Email
 Connect a Salesforce Org
 Connect a calendar
 Connect a list of team ids to an idp group
@@ -6956,7 +6959,6 @@ Explore new features
 Explore templates
 Explore tutorials
 Explore your chats
-Explore your premium AI features
 Explore your trial
 Explore your workspace
 Explosion 2
@@ -7995,6 +7997,7 @@ Filter files
 Filter for option list
 Filter huddles
 Filter huddles by type
+Filter members and user groups
 Filter options
 Filter options are open
 Filter out channels that cannot be left
@@ -10755,6 +10758,7 @@ Log exposure for the boost_bus_plus_awareness_and_upgrades experiment if it is e
 Log exposure for the bus_plus_contextualize_upgrade_modal experiment if it is exposed
 Log exposure for the canvas_invite_entry_point_new_teams experiment if it is exposed
 Log exposure for the canvas_invite_entry_point_tenured_teams experiment if it is exposed
+Log exposure for the convert_expired_bespoke_to_ss experiment if it is exposed
 Log exposure for the edu_discount_free_teams experiment if it is exposed
 Log exposure for the email_bridge_dm experiment if it is exposed
 Log exposure for the expand_invite_sidebar_entry experiment if it is exposed
@@ -11803,6 +11807,7 @@ Maybe open remove file tab confirmation modal
 Maybe open thread with failed reply when navigating to a channel
 Maybe open translations settings modal or toggle showing translation
 Maybe override resurrected user welcome ts for dev
+Maybe prefetch Google Contacts for the team-creation invite step
 Maybe prejoin huddle
 Maybe prevent default handling of history on pop state
 Maybe reassign max active api requests
@@ -11908,6 +11913,7 @@ Member reactivation failed
 Member removed from group.
 Member search results
 Member with a long name
+Members and user groups
 Members can automatically start notes in huddles.
 Members can connect to Salesforce from the Salesforce section of Preferences
 Members can easily see which external organizations they are working with in channels, direct messages, and threads.
@@ -13259,6 +13265,7 @@ One or more selected canvases were not found. Choose a different canvas to conti
 One or more selected files were not found. Choose a different file to continue.
 One or more selected lists have restricted sharing. Choose a different list or ask the owner for sharing permissions.
 One or more selected lists were not found. Choose a different list to continue.
+One or more selected members could not be found. Update your selection and try again.
 One or more selected sources have restricted sharing. Choose a different source to continue or ask the owner for sharing permissions.
 One or more workflows failed to load, this list may be incomplete
 One or more workflows failed to save, please try again later
@@ -14527,6 +14534,7 @@ Plugged in
 Plugins passed directly to the view must not have a state component
 Plus access to archives for every existing conversation
 Plus access to archives for every existing conversation.
+Plus, send email without leaving Slack.
 Point 1 Text
 Point 4 Text
 Pointer Control
@@ -16948,6 +16956,7 @@ Search for entities within Slack by query
 Search for external records
 Search for files
 Search for local entities within Slack based on options
+Search for members and user groups
 Search for members in the org context
 Search for messages and files older than 90 days
 Search for objects
@@ -17172,6 +17181,7 @@ Select an item
 Select an option
 Select an option...
 Select an organization
+Select at least one member or user group, then try again.
 Select audio input device
 Select channel
 Select channel types
@@ -17183,6 +17193,7 @@ Select date and time
 Select field
 Select from Google Contacts
 Select members from a list
+Select members who can use this server.
 Select microphone
 Select mode
 Select one or more options
@@ -18944,6 +18955,7 @@ Sets the user object state machine for auto slack onboarding
 Sets the user object state machine for in-product team creation
 Sets the user object state machine for joiner personalized launchpad
 Sets the user object state machine for segmentation in team creation
+Sets the user object state machine for segmentation in team creation V2
 Sets the value and level of page alert
 Sets the value for a single IDP config
 Sets the value for the google auth details for a team
@@ -19039,6 +19051,7 @@ Sets whether the mini player is open or not
 Sets whether the more actions menu is open in compact mode
 Sets whether the org has any usergroups or not
 Sets whether the private channel checkbox is checked
+Sets whether the segmentation in team creation V2 state machine has been loaded
 Sets whether the segmentation in team creation state machine has been loaded
 Sets whether the team is eligible to see the Comprehensible Invites experience
 Sets whether the transcript is being recorded.
@@ -19933,6 +19946,7 @@ Specific Sales Elevate users
 Specific User Groups
 Specific channel
 Specific channel types only
+Specific groups and members
 Specific members
 Specific people
 Specific people and workspaces
@@ -20953,6 +20967,7 @@ The selected channel could not be found.
 The selected channel has been archived. Clear your selection or choose another channel.
 The selected field is used for mapping Slack and Salesforce accounts.
 The selector for 
+The server is unavailable and can
 The server used 
 The signaling channel was closed unexpectedly. This may be due to a network change or backend detected failure.
 The signaling connection failed.
@@ -21833,6 +21848,7 @@ Try a different microphone
 Try a different microphone.
 Try a different speaker
 Try a different speaker.
+Try a jazz club effect
 Try a new app
 Try a template Outlines
 Try adjusting your search.
