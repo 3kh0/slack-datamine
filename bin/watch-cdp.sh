@@ -17,12 +17,16 @@ json_arg() {
   "$RUNTIME" -e "const m=JSON.parse(process.argv[1]); console.log($1 || '')" "$2"
 }
 
+hash_seen() {
+  bin/build-seen.js "$1" >/dev/null 2>&1
+}
+
 last_hash() {
   "$RUNTIME" -e "try { console.log(require('./build/meta.json').versionHash || '') } catch { console.log('') }"
 }
 
 snapshot_once() {
-  local ready build hash existed skipped current_hash
+  local ready build hash html existed skipped current_hash
   local args=(bin/snapshot-cdp.js --port "$CDP_PORT" --dir "$SNAPSHOT_DIR")
   [ "$FETCH_CLIENT_HTML" != "0" ] && args+=(--fetch-client)
 
@@ -41,10 +45,15 @@ snapshot_once() {
 
   build="$(json_arg 'm.buildNumber' "$ready")"
   hash="$(json_arg 'm.versionHash' "$ready")"
+  html="$(json_arg 'm.htmlFile' "$ready")"
   existed="$(json_arg 'm.existed' "$ready")"
   skipped="$(json_arg 'm.skipped' "$ready")"
 
   if [ "$skipped" = "true" ]; then
+    return 1
+  elif [ -n "$hash" ] && hash_seen "$hash"; then
+    [ -n "$html" ] && rm -f "$html" "$html.json"
+    [ "$WATCH_LOG_DUPLICATES" != "0" ] && log "snapshot already mined for build $build (${hash:0:12})"
     return 1
   elif [ "$existed" = "true" ]; then
     [ "$WATCH_LOG_DUPLICATES" != "0" ] && log "snapshot already queued for build $build (${hash:0:12})"

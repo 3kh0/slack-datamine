@@ -36,6 +36,10 @@ head_json() {
   "$RUNTIME" -e "const cp=require('node:child_process'); try { const m=JSON.parse(cp.execFileSync('git', ['show', 'HEAD:build/meta.json'], { encoding: 'utf8' })); console.log($1 || '') } catch { console.log('') }"
 }
 
+hash_seen() {
+  bin/build-seen.js "$1" >/dev/null 2>&1
+}
+
 run_with_timeout() {
   local seconds="$1"
   shift
@@ -258,7 +262,11 @@ head_build="$(head_json 'm.buildNumber')"
 head_hash="$(head_json 'm.versionHash')"
 if [ -n "$direct_hash" ] && { [ -z "$head_hash" ] || [ "$direct_hash" != "$head_hash" ]; }; then
   log "direct client is ahead of HEAD: $direct_build (${direct_hash:0:12}) vs $head_build (${head_hash:0:12})"
-  queue_direct_snapshot "$head_hash" || true
+  if hash_seen "$direct_hash"; then
+    log "direct client build already mined in git history; not queueing"
+  else
+    queue_direct_snapshot "$head_hash" || true
+  fi
 fi
 
 if [ "${#failures[@]}" -gt 0 ]; then

@@ -31,6 +31,10 @@ json_arg() {
   "$RUNTIME" -e "const m=JSON.parse(process.argv[1]); console.log($1 || '')" "$2"
 }
 
+hash_seen() {
+  bin/build-seen.js "$1" >/dev/null 2>&1
+}
+
 numeric_less() {
   "$RUNTIME" -e "const a=process.argv[1], b=process.argv[2]; console.log(/^\\d+$/.test(a) && /^\\d+$/.test(b) && Number(a) < Number(b) ? '1' : '0')" "$1" "$2"
 }
@@ -63,6 +67,10 @@ snapshot_cdp_once() {
 
   if [ "$skipped" = "true" ] || { [ -n "$current_hash" ] && [ "$hash" = "$current_hash" ]; }; then
     log "no change (build $build, ${hash:0:12})"
+    [ -n "$html" ] && rm -f "$html" "$html.json"
+    return 1
+  elif hash_seen "$hash"; then
+    log "already mined (build $build, ${hash:0:12})"
     [ -n "$html" ] && rm -f "$html" "$html.json"
     return 1
   fi
@@ -174,6 +182,12 @@ process_snapshot_queue() {
   while IFS= read -r html; do
     [ -n "$html" ] || continue
     hash="$(snapshot_hash "$html")"
+
+    if [ -n "$hash" ] && hash_seen "$hash"; then
+      log "skipping already mined queued snapshot $(basename "$html") (${hash:0:12})"
+      rm -f "$html" "$html.json"
+      continue
+    fi
 
     log "mining queued snapshot $(basename "$html")"
     "$RUNTIME" datamine.js --html "$html"
