@@ -226,14 +226,6 @@ check_cdp_http
 check_stuck_snapshot
 check_stale_queue
 
-if [ "$HEALTH_CLEAR_CACHE" != "0" ]; then
-  if refreshed="$(reload_and_clear_cache 2>&1)"; then
-    log "cache guard reloaded build $(json_value 'm.buildNumber' "$refreshed") ($(json_value 'm.versionHash' "$refreshed" | cut -c1-12))"
-  else
-    fail "cache guard reload failed: $refreshed"
-  fi
-fi
-
 direct=""
 if direct="$(direct_probe 2>&1)"; then
   direct_build="$(json_value 'm.buildNumber' "$direct")"
@@ -255,7 +247,20 @@ else
 fi
 
 if [ -n "$direct_hash" ] && [ -n "$rendered_hash" ] && [ "$direct_hash" != "$rendered_hash" ]; then
-  fail "rendered build $rendered_build (${rendered_hash:0:12}) differs from direct client build $direct_build (${direct_hash:0:12}) after cache guard"
+  log "rendered build $rendered_build (${rendered_hash:0:12}) differs from direct client build $direct_build (${direct_hash:0:12})"
+  if [ "$HEALTH_CLEAR_CACHE" != "0" ]; then
+    if refreshed="$(reload_and_clear_cache 2>&1)"; then
+      rendered_build="$(json_value 'm.buildNumber' "$refreshed")"
+      rendered_hash="$(json_value 'm.versionHash' "$refreshed")"
+      log "cache guard reloaded build $rendered_build (${rendered_hash:0:12})"
+    else
+      fail "cache guard reload failed: $refreshed"
+    fi
+  fi
+fi
+
+if [ -n "$direct_hash" ] && [ -n "$rendered_hash" ] && [ "$direct_hash" != "$rendered_hash" ]; then
+  fail "rendered build $rendered_build (${rendered_hash:0:12}) still differs from direct client build $direct_build (${direct_hash:0:12}) after cache guard"
 fi
 
 head_build="$(head_json 'm.buildNumber')"
