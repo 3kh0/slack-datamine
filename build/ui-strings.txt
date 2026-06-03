@@ -15,6 +15,7 @@
  account to view diffs for this channel.
  action.
  and accumulates delta time to calculate how many tokens to advance each tick. A configurable refresh rate throttles updates to avoid unnecessary renders.
+ and relevant regional guidelines.
  are both false, the callback will never be executed.
  argument must be a string, an Array, a Buffer, a Uint8Array, or a DataView.
  argument.
@@ -752,6 +753,7 @@ ActivityIA4: Add Selected Filter
 ActivityIA4: Add channel filter
 ActivityIA4: Add channel section filter
 ActivityIA4: Add unscored RTM item feedTs, deduplicated by timestamp
+ActivityIA4: Append to view list
 ActivityIA4: Clear all filter channels and channel sections
 ActivityIA4: Clear all selected filters
 ActivityIA4: Clear channel activity list
@@ -763,6 +765,7 @@ ActivityIA4: Clears context_read_timestamps and unread_timestamps for a thread
 ActivityIA4: Clears peek view list
 ActivityIA4: Hide default view
 ActivityIA4: Hydrate unreads filter state from localStorage without clearing lists
+ActivityIA4: Insert RTM into view list
 ActivityIA4: Remove Selected Filter
 ActivityIA4: Remove activity item
 ActivityIA4: Remove activity items before a given timestamp
@@ -771,6 +774,7 @@ ActivityIA4: Remove channel filter
 ActivityIA4: Remove channel section filter
 ActivityIA4: Remove invite activity item
 ActivityIA4: Remove view
+ActivityIA4: Reset view list
 ActivityIA4: Respond to activity_invalidated by clearing all items
 ActivityIA4: Set error state for activity
 ActivityIA4: Set filter bar state
@@ -782,6 +786,8 @@ ActivityIA4: Set sort order
 ActivityIA4: Set the step of the onboarding coachmark sequence
 ActivityIA4: Set timeout id for activity view reset
 ActivityIA4: Set undoable activity item for potential restoration
+ActivityIA4: Set view list from API
+ActivityIA4: Set view list from cache
 ActivityIA4: Set whether loading more items is enabled
 ActivityIA4: Set whether scoreEntries has been dispatched this session
 ActivityIA4: Set whether to show the filter-in option
@@ -1643,6 +1649,7 @@ Allow microphone access
 Allow microphone access in system preferences.
 Allow microphone access in windows settings. If you
 Allow multi-person direct messages to be changed to a private channel
+Allow once
 Allow people to choose
 Allow people to generate a summary about your profile
 Allow phone number calls in Slack (only in direct messages)
@@ -1670,6 +1677,7 @@ Allowed related objects
 Allowed workspaces are required
 Allowing retracted build reload because we have not recently reloaded due to a retracted build
 Allows an app to read 1 on 1 or group chat threads, on behalf of the signed-in user
+Allows any content allowed by the model provider
 Allows devs to get console logging or trigger breakpoints when state they care about changes
 Allows the app to read the profile of signed-in users. It also allows the app to read basic company information of signed-in users
 Allows your Slack app to manage shared channels
@@ -1689,6 +1697,7 @@ Already in this conversation
 Already joining
 Already running client metrics, skipping
 Also block previews from this website in the future
+Also intended to block targeted employee profiling, like performance and protected class information
 Also sent to the channel, 
 Also sent to the channel.
 Also sent to the group, 
@@ -2352,7 +2361,6 @@ Automated notifications and system messages
 Automatic acceptance
 Automatic by language
 Automatic statuses
-Automatic user account mapping
 Automatically accept all invitations as private channels in any Slack Connect enabled workspace only if approvals are not required
 Automatically accept all invitations as private channels in any Slack Connect enabled workspace only if approvals are not required.
 Automatically accept all invitations as private channels in specific workspaces only if approvals are not required
@@ -2396,6 +2404,7 @@ Avatars of various people
 Average feature usage
 Average messages sent
 Avoid asking to be re-invited
+Avoids prompt attacks and injections, violence, hate speech, sexual content, and other illegal activity
 Awaiting Release
 Awaiting accepted invite
 Awaiting admin approval to join
@@ -2774,6 +2783,7 @@ By priority
 By registering, you confirm that you agree to the processing of your personal data by Salesforce as described in the Privacy Statement.
 By request only
 By submitting this form, you acknowledge and agree that your personal data may be transferred to, stored, and processed on servers located outside of the People
+By turning off guardrails, your organization accepts the higher risk of generating content that violates the 
 CAMERA RESOLUTION READINESS - Completed
 CAMERA RESOLUTION READINESS - Running
 CC Account Address Books
@@ -3738,6 +3748,7 @@ Choose sticker
 Choose the account
 Choose the data field to evaluate, such as the person who used this workflow.
 Choose the default skin tone that will be used whenever you use certain emojis in reactions and messages.
+Choose the guardrail safety sensitivity applied to generative AI experiences in Slack, like Slackbot, canvas creation, and natural language search.
 Choose the maximum number of people allowed in a private channel.
 Choose to allow Slackbot the ability to create, edit, and add content to canvases.
 Choose to have members sign back in whenever they close Slack, or after a certain time period.
@@ -4575,6 +4586,8 @@ Content insertion
 Content item entity
 Content removed
 Content restored
+Content safety filters are disabled. AI responses will not be filtered for harmful content.
+Content safety level
 Content-Length header not found
 ContentLength is not supported in pre-signed URLs.
 Context + Provider
@@ -7322,6 +7335,7 @@ Failed to update category. Please try again.
 Failed to update disconnect restriction setting
 Failed to update effect on existing device, creating new one
 Failed to update field name. Please try again.
+Failed to update huddle status expiration
 Failed to update integration. Before changing Salesforce organizations, a Sales Admin needs to disconnect this integration in Sales settings.
 Failed to update permissions.
 Failed to update profile.
@@ -7898,6 +7912,7 @@ File download settings updated
 File downloaded.
 File dropped. Loading PDF automatically...
 File entity
+File failed to load. The sandbox may be unreachable.
 File is being processed by the backend
 File is ready to be refreshed again
 File is too large.
@@ -8873,6 +8888,7 @@ Gruvbox Light Hard
 Gruvbox Light Medium
 Gruvbox Light Soft
 Guardian Egyptian
+Guardrail sensitivity
 Guest App Use Restrictions
 Guest accounts must be converted to full members before they can be changed to an admin or owner.
 Guest draw should not be mounted without an active peer
@@ -8887,6 +8903,7 @@ HIPAA compliant
 HIPAA logo
 HTML (Derivative)
 HTML content to load into the inner iframe.
+HTML file
 HTTP request failed (DNS, timeout, or connection refused). Verify the server URL is reachable.
 Halt further boot if client is reloading
 Halting the API queue
@@ -9646,6 +9663,7 @@ Integration Grid
 Integration with Enterprise Mobility Management
 Integrations Table
 Integrations with other apps
+Intended to block prompt attacks and injections, violence, hate speech, sexual content, and other illegal activity
 Intentionally closing socket to simulate flakiness
 Intentionally throwing error to simulate flakiness
 Interactive Components
@@ -11743,6 +11761,7 @@ Max selectable items
 Max size of CID is 65,535
 Maximum Children (10)
 Maximum call stack size exceeded
+Maximum content safety filters apply, blocking all flagged content including sensitive workplace topics and protected class information.
 Maximum number of fields reached
 Maximum number of options reached
 Maximum number of people
@@ -12173,6 +12192,7 @@ Mismatched screen and hostWindowBounds.
 Missing 
 Missing Data
 Missing PDF to render
+Missing Slackbot channel id
 Missing audio output element
 Missing cache result fields: 
 Missing call server or callId info
@@ -14230,7 +14250,6 @@ Peer should exist in order to remove
 Pen test was vendor driven
 Pencil and paper
 Pending Approval
-Pending Your Approval
 Pending approval
 People Outlines
 People Search: set sort method
@@ -15566,6 +15585,7 @@ Reloading threads
 Reloads flagged content data for dashboard
 Remaining Tokens for Completion Animation
 Remember, this agent may reference and share information that is not accessible to everyone in the conversation. Be careful when allowing agents to join and respond in conversations.
+Remember: AI can generate information that
 Remind Me
 Remind Me Later
 Remind Me When It Starts
@@ -19616,6 +19636,7 @@ Slack AI is currently available in English, Spanish and Japanese
 Slack AI result Outlines
 Slack AI results have been updated
 Slack AI results ready
+Slack Acceptable Use Policy
 Slack Analytics
 Slack Assistant
 Slack Calls will be restricted and routed through selected regions only.
@@ -19982,12 +20003,14 @@ Staccato222 BT
 Stage changed
 Stale or unexpected session cookies
 Stalk Shadow
+Standard (Default)
 Standard Message
 Standard Plan - 25% off
 Standard User
 Standard User Plus
 Standard User Plus can manage records and customize lists.
 Standard Width Container
+Standard content safety filters apply, blocking dangerous content such as exploitation, terrorism, and illegal substances.
 Standard fields
 Standard light A
 Standard light B
@@ -21105,6 +21128,7 @@ Third party services used by this app
 Third-party call providers
 Third-party connection needed
 This API is deprecated.
+This HTML file could not be loaded.
 This MCP server does not support Dynamic Client Registration.
 This MCP server is missing required OAuth endpoints.
 This MCP server needs to be connected before we can fetch the tools list.
@@ -21897,6 +21921,7 @@ Turn off an active app before you can add a new one
 Turn off animations
 Turn off automatic AI notes and transcription?
 Turn off captions
+Turn off guardrails?
 Turn off music
 Turn off my video
 Turn off notifications for replies
@@ -23443,6 +23468,7 @@ View and edit custom Salesforce Lists directly inside of Slack, keeping your and
 View and manage Slack workflows and Slackbot tasks for your organization.
 View and manage Slack workflows for your organization.
 View app details
+View app in Marketplace
 View app manifest example
 View apps and app requests in a workspace
 View as dense
