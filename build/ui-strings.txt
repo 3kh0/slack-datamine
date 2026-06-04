@@ -758,6 +758,7 @@ ActivityIA4: Clear all filter channels and channel sections
 ActivityIA4: Clear all selected filters
 ActivityIA4: Clear channel activity list
 ActivityIA4: Clear filter bar state
+ActivityIA4: Clear first page cache
 ActivityIA4: Clear timeout id for activity view reset
 ActivityIA4: Clear undoable activity item
 ActivityIA4: Clear unscored items list after scoring
@@ -778,6 +779,7 @@ ActivityIA4: Reset view list
 ActivityIA4: Respond to activity_invalidated by clearing all items
 ActivityIA4: Set error state for activity
 ActivityIA4: Set filter bar state
+ActivityIA4: Set first page cache
 ActivityIA4: Set hidden default view types
 ActivityIA4: Set scored entries loading state
 ActivityIA4: Set scored items
@@ -9398,6 +9400,7 @@ If you decline these migrations, you
 If you encounter inappropriate content or behavior, please report it to Slack.
 If you have multiple monitors, try disconnecting them
 If you have multiple monitors, try disconnecting them.
+If you think you should have access to view or edit this document, contact a WMP admin to have them grant you the right role or content scope.
 If you use an exernal microphone, disconnect and reconnect it.
 If you use an external camera, disconnect and reconnect it
 If you use an external camera, disconnect and reconnect it.
@@ -9450,6 +9453,7 @@ Import & export data
 Import CSV
 Import CSV as a list
 Import CSV file
+Import Leads from CSV
 Import Memories
 Import Workflow Failure
 Import Workflow Success
@@ -11793,6 +11797,7 @@ Maximum number of fields reached
 Maximum number of options reached
 Maximum number of people
 Maximum number of tabs added.
+Maximum of 8 columns allowed.
 Maximum total timeout exceeded
 May 20, 2026
 May not write null values to stream
@@ -21026,6 +21031,8 @@ The orange and yellow status indicators are too hard to tell apart
 The org you logged into has already been added
 The original Slack sidekick
 The original reply will still be visible in its thread.
+The page exceeds the maximum size. Try removing some content, images, or sections, then save again.
+The page may have been deleted by someone else. Go back to Pages and refresh to see the current list.
 The people who can edit this automation will also have access to any files shared here
 The permission type is invalid. Please try again.
 The person using the workflow
@@ -21383,6 +21390,8 @@ This operation was aborted
 This org has SSO configured. Org owner invites are not allowed for SSO-configured organizations.
 This org is using an outdated connection
 This page is being edited
+This page is too large to save
+This page no longer exists
 This parameter has been deprecated. Instead, use the KeySpec parameter.
 This payment method was declined. Please try a different one, or contact the payment provider.
 This person has edit access through a certain channel.
@@ -23750,6 +23759,7 @@ Waited too long for connectivity to come back
 Waiting for approval
 Waiting for blur event to reload
 Waiting for huddle to end to reload
+Waiting for input
 Waiting for rate limit
 Waiting for video PTS in continuity counter 
 Waiting fragment cc (
