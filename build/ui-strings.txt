@@ -12046,6 +12046,7 @@ Merge Paths 6
 Merge Paths 7
 Merge Paths 8
 Merge Paths 9
+Merge partial changes into an MCP server
 Merge sources must be Map nodes or their Aliases
 Merged Shape Layer
 Merged Shape Layer 2
@@ -17509,6 +17510,7 @@ Server URL
 Server and client disagree on thread state; using server state
 Server deleted
 Server name
+Server name updated
 Server overview
 Server rejected the MCP initialize handshake. Check protocol version compatibility.
 Server responded with an error status. Check http_status_code for details.
@@ -22505,8 +22507,6 @@ Update Invoice Data Field
 Update Is Cost Data Loading
 Update Is Plans Data Loading
 Update Is Processing Payment
-Update MCP server display name
-Update MCP server workspace count
 Update OwnedByMe filter pref
 Update Payment Method Selected
 Update Product UI
@@ -22903,8 +22903,8 @@ Updates AI Explain content by summaryId from RTM events
 Updates AI Explain tool progress by summaryId from ai_tool_status RTM events
 Updates MCP server config via sfdc.agentforce.admin.updateMcpServerConfig
 Updates MCP server connection status for one or more servers
-Updates MCP server workspace access and shows toast feedback
-Updates MCP server workspace access via sfdc.agentforce.admin.updateMcpServerConfig
+Updates MCP server display name via updateMcpServerConfig and shows toast feedback
+Updates MCP server workspace access via updateMcpServerConfig and shows toast feedback
 Updates a Salesforce record and manages the toast state
 Updates a calendar event location
 Updates a channel email address from channel id
