@@ -195,6 +195,7 @@
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:ej?eU:void 0,className:s()(ej||S||eD?
 :O instanceof RegExp?
 :_ instanceof RegExp?
+:a?r:void 0,children:p?
 :bulb: Get your team on the same page with canvases.
 :bulb: Stay on track with lists.
 :e instanceof File?
@@ -1708,7 +1709,7 @@ Also sent to the channel,
 Also sent to the channel.
 Also sent to the group, 
 Also sent to the group.
-Alt Text
+Alt Text (override)
 Alter pinned canvases for an external workspace
 Alternate Email
 Alternate Phone
@@ -3750,6 +3751,7 @@ Choose how to configure this step
 Choose how to sort your recap channels
 Choose how you want to be notified when anomalies are detected
 Choose if the caution message in conversations with external people has default or high visibility:
+Choose image
 Choose limited group
 Choose list
 Choose member access
@@ -4285,6 +4287,7 @@ Collapse thread
 Collapse timeline
 Collapse topic
 Collapsed - Offer revealed
+Collapsible Container
 Collapsible Container (Collapsed)
 Collapsible Container (Expanded)
 Collapsible Entity
@@ -4353,7 +4356,6 @@ Company handbook canvas and channel tab creation failed
 Company headquarters location
 Company is a required field. Match a column to Company to continue.
 Company kick off
-Company logo
 Company or team name
 Company size
 Compare Free and Slack Pro Plans
@@ -4580,7 +4582,6 @@ Contact import partially complete
 Contact information
 Contact name or email
 Contact us in #feedback-channel-agent.
-Container Child Header
 Container Title
 Container does not have focus
 Container not set
@@ -7938,8 +7939,8 @@ File download settings updated
 File downloaded.
 File dropped. Loading PDF automatically...
 File entity
-File failed to load. The sandbox may be unreachable.
 File is being processed by the backend
+File is not available in this environment. Try opening the link in a web browser.
 File is ready to be refreshed again
 File is too large.
 File must be a template
@@ -9046,7 +9047,6 @@ Having audio or video issues? Try these tips:
 Having trouble?
 Head back to Home
 Head of IT, Initech
-Header + Context + Actions
 Header Icon
 Header only with hero image
 Header value entry
@@ -9442,8 +9442,6 @@ Image 5.png
 Image Alt Text
 Image Gallery
 Image Source
-Image Source (1x)
-Image Source (2x)
 Image could not be found, switching to default input for device
 Image of Slackbot
 Image placeholder
@@ -9981,7 +9979,6 @@ Items deleted
 Items marked as read
 Iterator Helper
 JIT event updated
-JP simplified onboarding experiment ended; clearing enrollment
 JS AES decrypt
 JSON (coming soon)
 JSON Lines
@@ -10464,6 +10461,7 @@ Leave Page
 Leave a channel
 Leave all temporary channels
 Leave blank to keep current
+Leave blank to use the asset
 Leave channel
 Leave channels
 Leave channels in bulk with undo flow
@@ -10703,6 +10701,7 @@ Load list of all supported Megaphone spaces
 Load megaphone notification data
 Load megaphone notification data after a random delay
 Load members to assign
+Load more
 Load more agent exchange agents
 Load more rows
 Load org usergroups to assign
@@ -10833,7 +10832,6 @@ Log exposure for the inviter_joiner_first_dm_v2 experiment if it is exposed
 Log exposure for the joiner_personalized_launchpad_dm experiment if it is exposed
 Log exposure for the joiner_recent_channel_content experiment if it is exposed
 Log exposure for the joiner_welcome_party experiment if it is exposed
-Log exposure for the jp_simplified_onboarding experiment if it is exposed
 Log exposure for the message_expiry_banner_exp experiment if it is exposed
 Log exposure for the mobile_awareness_team_menu_entrypoint_link_update experiment if it is exposed
 Log exposure for the new_team_launchpad experiment if it is exposed
@@ -16192,8 +16190,8 @@ Reply in thread
 Reply to Email
 Reply to thread
 Report actions
-Report failed to load. The sandbox may be unreachable.
 Report has no content
+Report is not available in this environment. Try opening the link in a web browser.
 Report not available
 Report not found
 Report the contents of this profile?
@@ -16944,7 +16942,6 @@ Screen track should not already be active
 Screens could not be fetched
 Screenshare stop: stream ended
 Screenshare zoom controls
-Screenshot of Slack workspace
 Screenshots (Optional)
 Script already loaded
 Scripting destroyed.
@@ -16990,6 +16987,7 @@ Search an external directory for users and groups matching a query
 Search app actions returns as Promise
 Search apps
 Search apps index
+Search assets
 Search attendees
 Search bar
 Search bar 1
@@ -17131,7 +17129,6 @@ Secondary view has closed
 Secondary view has opened
 Secret Objects
 Secrets Manager
-Section and Divider
 Section has been hidden. Restore it anytime in your notification preferences.
 Section label is required
 Section location
@@ -17534,7 +17531,6 @@ Set Action Library Navigation state
 Set Awareness State for another user
 Set Awareness State for me
 Set Background
-Set CRM provisioning status and possibly the contacts and accounts list composite IDs
 Set Channel Deleted
 Set Channel Pref
 Set Channel To Private
@@ -19649,6 +19645,7 @@ Simple date
 Simple table
 Simplified UI
 Simplified layout mode
+Simplified onboarding disabled; clearing enrollment
 Simplified slack UI
 Simplified user management
 Simulcast is only supported on Chromium-based browsers
@@ -23054,6 +23051,7 @@ Upload a recognizable image for your team or company so everyone knows where the
 Upload an App Icon
 Upload an image
 Upload an image.
+Upload assets from the media library
 Upload attachment
 Upload background image
 Upload file
