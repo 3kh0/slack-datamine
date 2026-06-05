@@ -128,8 +128,6 @@
  when started fetching external datasource list.
  when the performance problem arises.
  will be permanently removed. Any tools associated with this MCP server will no longer be available.
- will clear this status when it starts.
- will clear this status when they start.
  will have no effect.
  with no warranties. Web search is not FedRAMP compliant.
 #initScripting: Scripting already exists.
@@ -1099,6 +1097,7 @@ Add custom emoji
 Add default for future workspaces
 Add description
 Add details to connect MCP servers to your app.
+Add display column
 Add domain
 Add emojis or create your own
 Add entry
@@ -5844,7 +5843,6 @@ Dismiss message suggestions
 Dismiss notification
 Dismiss offer banner
 Dismiss onboarding tasks link from sidebar
-Dismiss overlap warning
 Dismiss save error toast if visible
 Dismiss save success toast if visible
 Dismiss suggested channel from channels list
@@ -14080,7 +14078,6 @@ Outstanding balance
 Ouvrir la carte
 Overall lists activity
 Overflow: input needs wider integers to process
-Overlap detected with an existing scheduled status
 Overlays may not be stateful.
 Overnight Events
 Override client theme based on URL query string
@@ -17326,6 +17323,7 @@ Select your workflow and copy the link to share it with teammates.
 Selected Users
 Selected channels
 Selected channels section
+Selected columns
 Selected items cleared.
 Selected welcome card image
 Selected workspaces
@@ -23985,7 +23983,6 @@ When should the summary be sent
 When someone clicks the workflow link
 When someone views your profile, they can generate an AI summary about you using public information in Slack.
 When the content is 2 characters or less, no gradient will be applied.
-When this status starts, it will clear 
 When using nodeViews, you must provide renderNodeViews callback
 When using prefType view_count, viewCountPrefName is required.
 When using zeroDebias: true, step is required.
@@ -24567,7 +24564,6 @@ Your recently viewed or updated canvases will show up here.
 Your request has already been submitted.
 Your request was sent
 Your sales notifications
-Your scheduled status 
 Your schema has changed. Open and save this step to update your form.
 Your sidebar is your own.
 Your signature emoji
