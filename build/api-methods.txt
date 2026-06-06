@@ -55,13 +55,13 @@ admin.apps.certified.list
 admin.apps.clearResolution
 admin.apps.config.lookup
 admin.apps.config.set
-admin.apps.domainWideAuth.list
 admin.apps.getAiPrefs
 admin.apps.installed.list
 admin.apps.internal.list
 admin.apps.lookup
 admin.apps.permissions.list
 admin.apps.permissions.set
+admin.apps.productivity.getBanner
 admin.apps.recommend.add
 admin.apps.recommend.list
 admin.apps.recommend.remove
@@ -169,7 +169,6 @@ admin.permissions.usergroups.remove
 admin.permissions.users.assign
 admin.permissions.users.list
 admin.permissions.users.remove
-admin.productivity.apps.getBanner
 admin.quip.migration.approveOrgMappingRequest
 admin.quip.migration.deleteOrgMapping
 admin.quip.migration.denyOrgMappingRequest
@@ -1487,7 +1486,6 @@ templates.integrations.get
 templates.provision
 today.focus
 today.ignoreChannels
-today.items.create
 today.items.delete
 today.items.list
 today.items.markRead
@@ -1599,7 +1597,6 @@ wmp.blockPreviews.render
 wmp.components.usages.list
 wmp.contentLibrary.create
 wmp.contentLibrary.delete
-wmp.contentLibrary.info
 wmp.contentLibrary.list
 wmp.contentLibrary.update
 wmp.documents.acquireLock
