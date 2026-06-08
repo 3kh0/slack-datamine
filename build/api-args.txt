@@ -88,6 +88,9 @@ apps.permissions.internal.userSearch:service
 apps.profile.get:app
 apps.profile.get:bot
 apps.profile.get:bot_home_team
+assistant.threads.rename:channel_id
+assistant.threads.rename:thread_ts
+assistant.threads.rename:title
 auth.enterpriseSignout:token
 auth.removePendingTeam:encoded_team_id
 auth.removePendingTeam:token
