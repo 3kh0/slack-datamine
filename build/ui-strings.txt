@@ -189,6 +189,7 @@
 :E.mv.ConfirmationModal,onClose:eG,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :E.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:ej?eU:void 0,className:s()(ej||S||eD?
 :E.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:ej?eU:void 0,className:s()(ej||S||eP?
+:I.mv.ConfirmationModal,onClose:eG,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eD?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eD?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eP?
@@ -310,7 +311,6 @@ A node can have at most one tag
 A notification card with two buttons
 A number of times is required
 A pair of side-by-side testimonial cards, each with a company logo, quote, and attribution (name and title).
-A peek at your day
 A pin was added to a channel
 A pin was removed from a channel
 A place for important notifications
@@ -2396,6 +2396,7 @@ Automatically assign Salesforce Admin role
 Automatically connect your team to a calendar or file app from Google or Microsoft.
 Automatically log interactions with your contacts
 Automatically start AI notes per channel
+Automatically sync your calendar to your Slack status
 Automatically updates
 Automation Rules
 Automation tools
@@ -2944,10 +2945,12 @@ Calendar Welcome Home Banner
 Calendar account
 Calendar connection tip
 Calendar event
+Calendar events in Slack
 Calendar events window: fetch on boot complete
 Calendar huddle access options disabled
 Calendar huddle privacy
 Calendar prefs updated
+Calendar steps in Workflow Builder
 Calendar sync required
 Calibri, 
 Californian FB
@@ -3204,6 +3207,7 @@ Cannot decode transcript data message:
 Cannot decrypt samples of type Uint8Array
 Cannot delete bookmark
 Cannot delete embedded Product UIs.
+Cannot dispatch openHuddleWindowUsingSideEffect: no active huddle team ID
 Cannot drop in phase: 
 Cannot edit bookmark
 Cannot enqueue task message: taskStore and taskMessageQueue are not configured
@@ -3887,6 +3891,7 @@ Clear edit history for a list
 Clear eligibility data for all promos
 Clear error state for a draft
 Clear external connector prefs
+Clear focus area
 Clear form data for editing a given record
 Clear group by
 Clear highlight column in the item flexpane
@@ -3975,6 +3980,7 @@ Clearing desktop file cache
 Clearing timeoutId for eventId
 Clearing video device errors
 Clears Action Library Navigation state
+Clears a today focus item using today.items.clear API
 Clears all activeThreadTsByKey entries that match the given threadTs
 Clears all animated item IDs (used when refreshing)
 Clears all follow-up suggestions for a Slackbot AI thread
@@ -5083,6 +5089,7 @@ Create and manage user groups
 Create and open a doc
 Create and open a list
 Create and share content
+Create and share files without leaving Slack
 Create canvas
 Create channel
 Create channel and send invites from calendar imports from onboarding setup flow
@@ -5316,6 +5323,7 @@ Daily engagement (20-day window)
 Daily engagement (20-day window, area)
 Daily engagement (20-day window, bar)
 Daily orders (intermittent reporting)
+Daily schedule overview
 Daily tools
 Dangling reference to missing 
 Dark Gray Solid 2
@@ -8192,6 +8200,8 @@ Flash fired, red-eye reduction mode
 Flush with border
 Focus Card
 Focus a Quip Embed
+Focus areas cleared for the day
+Focus areas cleared for the day :sunflower:
 Focus back on item in list
 Focus did not transition
 Focus me (via useFocus hook)
@@ -8414,6 +8424,7 @@ Geeta Joshi Outlines
 GenAI is evolving from large, monolithic models trained on massive internet data to complex, multi-component 
 Generate AI Response
 Generate Madlibs
+Generate New Focus Areas
 Generate Prompt
 Generate a list of weekly priorities
 Generate a workflow and trigger preview for a given prompt
@@ -8542,6 +8553,7 @@ Get new leads from your website
 Get new teammates for resurrected user welcome
 Get notifications
 Get notified about all thread replies in this channel
+Get notified about comments, access requests, and shares
 Get notified about every new thread and its replies.
 Get notified about new replies
 Get onboarding data from selector or fetch it
@@ -8765,6 +8777,7 @@ Google Drive Outlines
 Google Drive link
 Google Hangout
 Google Hangouts
+Google Mail
 Google Meet
 Google Meet Meeting
 Google Search
@@ -8790,6 +8803,7 @@ Gradient Stroke 1
 Gradient Type
 Gram-Schmidt process: input must not be null, undefined, or empty
 Grant Access
+Grant file access directly from Slack
 Grant user consent for provided scopes for an app
 Grant workspace access?
 Grants (and pins for the session) a proactive Slackbot Everywhere thread hint for a thread
@@ -13259,6 +13273,7 @@ Notifications about updated items
 Notifications are paused
 Notifications cleared.
 Notifications on
+Notifications when event details change
 Notifications will be sent to Org Owners and Org Admins via Slackbot when a developer requests the ability to create sandboxes.
 Notifications will be sent to Org Owners and Org Admins via Slackbot when a new sandbox has been provisioned for your organization.
 Notifications will be turned off until this status is cleared.
@@ -13406,6 +13421,7 @@ One step away from a more powerful Slack.
 One week before
 One-chip color area sensor
 One-click access to AI tools in Slack
+One-click join for Zoom, Meet, Webex, and Teams
 One-click reactions
 OneDrive and SharePoint
 OneDrive and Sharepoint
@@ -14793,6 +14809,7 @@ Preventing retracted build reload because we don
 Preventing service worker fetch because we already have the latest cached build
 Prevents someone from getting away with it
 Preview AI response
+Preview Google Docs, Sheets, and Slides in Slack
 Preview Image
 Preview Settings
 Preview Your App Submission
@@ -15718,6 +15735,7 @@ Reminder in
 Reminder: Update your opportunities
 Reminders & To-Do
 Reminders are here, too
+Reminders before meetings start
 Remote Work
 Remove & Close All Flags
 Remove AI canvas content from the store
@@ -16480,6 +16498,7 @@ Resource A says X, but Resource B says Y, so you should understand that there is
 Resource Groups
 Resource is not in the state 
 Respect user-level preferences for alt text reminders
+Respond directly to event invitations
 Respond to an invitation to a huddle
 Respond to an invite within the slack window
 Respond to customer support emails without leaving Slack
@@ -17022,6 +17041,7 @@ Search App
 Search Confluence
 Search DMs
 Search Debug Results
+Search Google Drive files from Slack
 Search Google Workspace Directory
 Search MCP servers by name
 Search Microsoft Outlook Contacts
@@ -19389,6 +19409,7 @@ Shared Resources Outlines
 Shared Section 02
 Shared a call
 Shared by
+Shared calendar notifications in channels
 Shared channels
 Shared channels icon
 Shared in
@@ -23036,6 +23057,7 @@ Updates the creator_guided_setup onboarding pref
 Updates the current reply from RTM event
 Updates the current shared invite link
 Updates the currently open tab for the given window and view container
+Updates the date cleared for a today item by item ID
 Updates the date last read for a today item by item ID
 Updates the detail view expiration timestamp
 Updates the domains collection from the server
@@ -24018,6 +24040,7 @@ What should I focus on regarding Q4 forecast variance, DataNet P1 escalation, an
 What should external people know about your role?
 What should they be able to do in this channel?
 What should they be able to do?
+What to focus on today
 What type of canvas do you want to update?
 What type of component is this?
 What went wrong?
@@ -24739,6 +24762,7 @@ is not supported. Use variables instead of inline arguments to overcome this lim
 joined the huddle.
 learningRate for RMSPropOptimizer must be defined.
 left the huddle.
+ll get newly generated ones bright and early tomorrow.
 ll lose any content not yet submitted.
 ll only receive notifications in the hours you choose. Outside of those times, notifications will be paused except for VIPs.
 ll only receive notifications in the hours you choose. Outside of those times, notifications will be paused.
