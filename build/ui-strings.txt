@@ -1506,6 +1506,7 @@ Agent permissions updated
 Agent replies when it can be helpful
 Agent selection
 Agent session
+Agent view
 Agent will not respond
 Agent workspace settings
 Agent-powered productivity for every human in Slack
@@ -1610,7 +1611,6 @@ All records saved successfully
 All resolutions
 All roles
 All selects
-All servers are unavailable and will be permanently deleted in 30 days.
 All set - admins are taking a look
 All sidekicks
 All sources
@@ -5565,7 +5565,6 @@ Delete acknowledgement timed out
 Delete action is not available
 Delete all completed items
 Delete all locally cached records by Salesforce org id
-Delete all servers
 Delete all unavailable servers?
 Delete an existing email domain record and remove from store
 Delete bookmark
@@ -9305,7 +9304,6 @@ How big is your company?
 How big is your org?
 How big is your team?
 How can I find out what version my Product UI is?
-How can I help you?
 How can our sales team help you?
 How do I add or delete elements on my UI?
 How do I rename channels? People?
@@ -10166,7 +10164,6 @@ Jump to a specific date
 Jump to a timestamp in the active channel
 Jump to date
 Jump to latest messages
-Jump to messages
 Jump to new activity
 Jump to the currently edited message
 Jumps to a message and opens the welcome card modal immediately
@@ -10847,6 +10844,7 @@ Loading servers
 Loading subtitle playlist for id 
 Loading threads
 Loading tools
+Loading view
 Loading weight_metrics is not supported yet.
 Loads a new page of channels and adds them to the store
 Loads a subset of channels matching a search query
@@ -12106,7 +12104,7 @@ Members connect to Slack securely through a cloud, which unlocks.
 Members in channel
 Members of
 Members of selected groups will have this skill auto-enabled
-Members of selected workspaces will no longer have access to this server. Org admins and owners will be notified that this server will be removed.
+Members of selected workspaces will no longer have access to this server.
 Members of this channel can:
 Members see banner to connect to Salesforce in Slack Home
 Members will be able to reply and react
@@ -21428,6 +21426,7 @@ There were
 These accounts have been deactivated.
 These apps will appear in a 
 These organizations are no longer connected.
+These servers will be listed as unavailable for 30 days before being permanently deleted.
 They should be available for your organization over the next month
 They will no longer be able to view or edit this app
 Thin Stroke
@@ -22384,6 +22383,7 @@ Unable to load preview
 Unable to load the connectors for enterprise search. Please try again or contact support.
 Unable to load the current limit. Please close and try again.
 Unable to load the image
+Unable to load this view. Please try again later.
 Unable to load thread details
 Unable to load workspaces. Please try searching again.
 Unable to load your Data Cloud connection information
@@ -23869,6 +23869,7 @@ View in Slack Marketplace
 View in browser
 View in full screen
 View information about ongoing and past calls
+View is not available in this environment.
 View item details
 View keyboard shortcuts
 View keyboard shortcuts shortcut - opens Keyboard Shortcuts in flexplan
@@ -24469,7 +24470,6 @@ Workspace name Outlines
 Workspace owners
 Workspace owners and admins can export data from all conversations a single user has been a part of.
 Workspace owners can set their own settings for their workspaces.
-Workspace removed from server
 Workspace restrictions
 Workspace search
 Workspace settings
@@ -24482,7 +24482,6 @@ Workspace-level request must be made for a workspace on the self org
 Workspace-level request nonsensical without unified user
 Workspace-level requests must use a T-id
 WorkspaceDirectory: Error in FetchWorkspaces -
-Workspaces removed from server
 Workspaces tab
 Workspaces tabs hidden
 Workspaces tabs shown
