@@ -191,7 +191,7 @@
 :E.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:ej?eU:void 0,className:s()(ej||S||eD?
 :E.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:ej?eU:void 0,className:s()(ej||S||eP?
 :I.mv.ConfirmationModal,onClose:eG,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eD?
-:I.mv.ConfirmationModal,onClose:eG,headerImageSrc:Y,headerImageAlt:e1,title:eP?eU:void 0,className:s()(eP||S||eO?
+:I.mv.ConfirmationModal,onClose:eG,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eP?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eD?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eP?
@@ -4028,11 +4028,11 @@ Clears the existing pinned items for a channel and sets the loading state
 Clears the jump-to timestamp
 Clears the meeting details event used by the meeting details view
 Clears the member selection state
-Clears the mini player resume state after it has been consumed
 Clears the pending draft request after it was fulfilled or timed out
 Clears the persisted apiCall payload at the key
 Clears the profile of the current user and turns off DND if necessary
 Clears the recording cancellation reason after the toast has been shown
+Clears the resume state after the inline player has consumed it
 Clears the selected app
 Clears the story flexpane config (called by the flexpane after changes are applied
 Clears timestamp of the last time something was starred
@@ -6917,6 +6917,7 @@ Everything is OK so far.
 Everything mentioning you
 Everything you need to know to get started and get to work in Slack.
 Evict archived records from store
+Evicts a docked PiP when a different clip starts playing inline
 Evolution Options
 Ex. 65000
 Ex. Account
@@ -13949,6 +13950,7 @@ Opens the Message Stats modal
 Opens the Opportunity Update Error Modal
 Opens the PendingFileViewer
 Opens the People Browser
+Opens the PiP mini player for a media
 Opens the Quip doc comment thread in the side or flexpane
 Opens the Removed from Workspace Refresh Dialog when a user is removed from a workspace
 Opens the Request Access Done confirmation modal in client
@@ -15731,7 +15733,6 @@ Register organic use of progressive disclosure tip with Megaphone
 Register route listeners
 Register the service worker
 Registering pressure observer
-Registers a mounted inline source player by mediaId
 Regular Member
 Regular Members of:
 Regular members
@@ -18811,7 +18812,6 @@ Sets members count on a team
 Sets members count on a team to current count plus countIncrease
 Sets metadata to send along with the next message sent by the user
 Sets microphone currently active state
-Sets mini video player config
 Sets mobile versions
 Sets one header image
 Sets or updates the active meeting reminder for a channel
@@ -19310,7 +19310,6 @@ Sets whether the huddles bottom bar is visible or not
 Sets whether the in-product team creation state machine has been loaded
 Sets whether the last calendar window fetch errored
 Sets whether the members page is loading
-Sets whether the mini player is open or not
 Sets whether the more actions menu is open in compact mode
 Sets whether the org has any usergroups or not
 Sets whether the private channel checkbox is checked
@@ -22632,7 +22631,6 @@ Unreads summary not available
 Unreads view componentDidCatch
 Unrecognized endpoint parameter instruction: 
 Unrecognized modifier name: 
-Unregisters an unmounted inline source player by mediaId
 Unresolved plain scalar 
 Unrolling is not possible with convolutional RNNs.
 Unsave this file comment
@@ -23194,6 +23192,8 @@ Updates the currently open tab for the given window and view container
 Updates the date cleared for a today item by item ID
 Updates the date last read for a today item by item ID
 Updates the detail view expiration timestamp
+Updates the docked mini player elapsed time during playback
+Updates the docked mini player playing state
 Updates the domains collection from the server
 Updates the expiry date by 30 days after for extended link
 Updates the file sending status
@@ -23207,8 +23207,6 @@ Updates the members table sort options
 Updates the message eligible for unsending
 Updates the messages that were unsent while pending
 Updates the metadata associated with a given workspace
-Updates the mini player elapsed time during playback
-Updates the mini player playing state
 Updates the number of enterprise teams a user is part of
 Updates the number of public retention channels on a team
 Updates the page number
