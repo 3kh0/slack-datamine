@@ -187,9 +187,9 @@
 18-core CPU, 20-core GPU. Largest Retina display. Ideal for ML and video production.
 1D separable convolution is not implemented yet.
 2. Paste the response below, or paste your exported memory file.
-:E.mv.ConfirmationModal,onClose:eG,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :E.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:ej?eU:void 0,className:s()(ej||S||eD?
 :E.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:ej?eU:void 0,className:s()(ej||S||eP?
+:I.mv.ConfirmationModal,onClose:eG,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :I.mv.ConfirmationModal,onClose:eG,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eD?
 :I.mv.ConfirmationModal,onClose:eG,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eP?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
@@ -286,6 +286,7 @@ A link with metadata fields
 A list as value.
 A logger instance is required
 A long text
+A marquee-style row of customer logos that scrolls horizontally in a continuous loop. Respects the user
 A matching contact or account already exists. Please select an existing record.
 A meeting happened
 A meeting has been shared
@@ -950,6 +951,7 @@ Add a file to the open list, and then maybe save to local storage.
 Add a form for this step?
 Add a form to your website and new leads will be automatically posted in this channel.
 Add a link
+Add a link URL on each logo to navigate to its customer story
 Add a list
 Add a list to this channel
 Add a long description
@@ -1715,6 +1717,7 @@ Also sent to the channel,
 Also sent to the channel.
 Also sent to the group, 
 Also sent to the group.
+Alt Text
 Alt Text (override)
 Alter pinned canvases for an external workspace
 Alternate Email
@@ -1891,6 +1894,7 @@ Angular TypeScript
 Animals & Nature
 Animate a message deletion as well as calling the delete API endpoint
 Animation Consistency
+Animations are automatically disabled when the user has reduced-motion preferences
 Animator 1
 Announce a channel has been marked as read
 Announce the first result of a set of Texty autocomplete suggestions and the total number of suggestions
@@ -4668,6 +4672,7 @@ Continue your conversation
 Continue your conversation with meeting attendees
 Continuity Camera
 Continuous fuzzy score bonus (fuzzyScore * bonusPoints)
+Continuous marquee with header
 Contract Line Items
 Control - Trial
 Control - Upgrade
@@ -10674,6 +10679,7 @@ Link Channel
 Link Drive or other tools
 Link Namespace
 Link Text
+Link URL
 Link an existing channel
 Link button
 Link clicked
@@ -10992,6 +10998,9 @@ Logging sidebar noise metrics
 LogiFlow Inc.
 Login state
 Login will be blocked for any other version of the Slack app.
+Logo Bar
+Logo Image URL
+Logo Image URL (2x)
 Logo Position
 Logo above quote
 Logout of Tableau Next
@@ -13723,6 +13732,7 @@ Open invite modal with pre-populated channels
 Open item
 Open items
 Open link
+Open link in a new tab
 Open list
 Open lookup step form as part of loop setup flow
 Open media file in new window
@@ -14264,6 +14274,7 @@ Paid benefits link
 Paid features
 Paint on Transparent
 Pair complementary testimonials (e.g., different industries or use cases)
+Pair with a section header to introduce the strip, or render on its own
 Pair.commentBefore is an alias for Pair.key.commentBefore. To set it, the key must be a Node.
 Pale Blue Solid 1
 Pale Blue Solid 2
@@ -15083,8 +15094,10 @@ Protect your organization and data
 Protect your organization data
 Protocol Buffer 3
 Provide Inputs
+Provide a 2x asset URL when not using SVG to keep logos sharp on retina displays
 Provide a reason
 Provide additional guidance to help Channel Agent decide when to respond.
+Provide at least five or six logos so the marquee feels substantial
 Provide details about the issue...
 Provide either a layer name or layer index
 Provide some details about your experience or suggest improvements
@@ -15411,7 +15424,6 @@ Recent searches
 Recent searches Outlines
 Recent sidekicks
 Recent templates
-Recent topics
 Recent workspaces
 Recently completed
 Recently failed
@@ -16775,6 +16787,7 @@ Rolling up
 Room ID is not defined for pending join
 Room disconnected before room server id was available
 Rotate Token
+Rotating Logo Bar
 Rotis Serif
 Round Corners 1
 Route 53
@@ -17306,7 +17319,6 @@ See Pricing Plans
 See Slack in action
 See Upgrade Options
 See all apps
-See all channels
 See all conversations with 
 See all features
 See all integrations
@@ -19883,6 +19895,8 @@ Sint Maarten (Dutch Part)
 Sit tight, updating the status may take up to 5 minutes. We
 Site routes
 Six Sources (6)
+Six to eight logos produces the most balanced layout
+Six-up logo strip with header
 Skill shared
 Skill sources
 Skills and shortcuts
@@ -20032,6 +20046,7 @@ Slack video tutorials
 Slack workflow builder interface
 Slack works better when you use it together.
 Slack works for every team
+Slack works for organizations of every size
 Slackbot (personal AI agent)
 Slackbot (personal AI companion)
 Slackbot AI
@@ -22163,6 +22178,7 @@ Trump Mediaeval
 Truncate related channel list
 Trust Slack to keep your data secure and meet your compliance requirements.
 Trust and Compliance Documentation
+Trusted by leading teams
 Trusted by teams everywhere
 Try AI search
 Try Again
@@ -23486,6 +23502,7 @@ Use localStorage data to restore open workflows data
 Use logos from recognizable brands for maximum impact
 Use message source
 Use mid-page to showcase a product demo, customer story, or feature walkthrough with contextual copy above.
+Use narrow container
 Use same settings for messages from the Salesforce app
 Use sources from this channel
 Use template
@@ -23510,6 +23527,7 @@ Use when you have a longer-form video (product demo, customer story) hosted on Y
 Use when you have a longer-form video (product demo, customer story) hosted on YouTube.
 Use when you have a short product loop or motion graphic that reinforces the billboard message.
 Use when you have a short product loop or motion graphic that reinforces the headline message.
+Use when you have many logos to display or want a more dynamic alternative to the static Logo Bar. The set repeats across the viewport so the strip stretches across wide screens without gaps.
 Use when you need collapsible content without an FAQ-style header, such as feature lists or progressive disclosure within a page section.
 Use within a section to highlight quantitative impact with proper source attribution.
 Use your full message and file history to easily search resources and get context on past decisions.
@@ -23831,6 +23849,7 @@ View canvas details
 View channel
 View channel details
 View channels
+View comment
 View comments
 View company handbook
 View connections
@@ -24248,7 +24267,6 @@ Where to Start
 Where to apply this rule
 Where to next?
 Where your team is talking
-Where your teammates are talking
 Whether it is OK to interrupt a focus transition
 Whether reports are currently being fetched from the API call
 Whether to include external messages in the export.
