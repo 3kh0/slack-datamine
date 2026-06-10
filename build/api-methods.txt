@@ -516,6 +516,7 @@ conversations.convertToPublic
 conversations.coreProdAIPrototype
 conversations.create
 conversations.createChild
+conversations.createFromDmMpdm
 conversations.delete
 conversations.disconnectShared
 conversations.disconnectSharedTeam
@@ -910,6 +911,7 @@ functions.workflows.collaborators.add
 functions.workflows.collaborators.remove
 functions.workflows.create
 functions.workflows.delete
+functions.workflows.executions.confirmDelivery
 functions.workflows.executions.resume
 functions.workflows.export
 functions.workflows.findWorkflowForBotUsers
@@ -1597,7 +1599,6 @@ views.close
 views.get
 views.submit
 views.submitPreview
-wmp.blockPreviews.render
 wmp.components.usages.list
 wmp.contentLibrary.create
 wmp.contentLibrary.delete
@@ -1606,6 +1607,7 @@ wmp.contentLibrary.update
 wmp.documents.acquireLock
 wmp.documents.create
 wmp.documents.heartbeatLock
+wmp.documents.heartbeats.list
 wmp.documents.info
 wmp.documents.publish
 wmp.documents.releaseLock
