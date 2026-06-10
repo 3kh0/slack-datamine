@@ -1287,7 +1287,6 @@ Add to spreadsheet
 Add to starred
 Add to the list of pinned canvases for an external workspace
 Add to thread
-Add to to-dos
 Add to workspaces
 Add to your to-dos
 Add to-do
@@ -1330,12 +1329,10 @@ Add your workspace icon
 Add yourself as an agent manager
 Add, remove, or mark reminders as complete
 Added by 
-Added by you
 Added members to your Salesforce Org.
 Added on
 Added to channel
 Added to the pinned items
-Added to to-dos
 Added to your saved items
 Added window with dimensions: 
 Adding a data source allows you to start workflows based on something happening in another system. Contact your Slack admin to add a data source.
@@ -1671,6 +1668,7 @@ Allow invitees to sign in via email and password
 Allow members to run workflows with third-party connector steps
 Allow members to share AI answers
 Allow members to share AI explanations
+Allow members to share anniversary celebrations
 Allow microphone access
 Allow microphone access in system preferences.
 Allow microphone access in windows settings. If you
@@ -3786,6 +3784,7 @@ Choose a limit for how many people are allowed in this specific channel. You can
 Choose a name
 Choose a new limit
 Choose a rating
+Choose a schedule
 Choose a server
 Choose a shared CTA
 Choose a specific date
@@ -5181,6 +5180,7 @@ Create section
 Create sidebar section
 Create slack list
 Create spreadsheet from open form step
+Create task
 Create team
 Create the copy data to save to the clipboard in multiple formats
 Create unlimited canvases
@@ -5740,6 +5740,7 @@ Describe what you are looking for
 Describe what you want AI to write
 Describe what you want this step to do
 Describe your edit
+Describe your task
 Description (optional)
 Description for the fifth link unfurl.
 Description for the first link unfurl.
@@ -6677,6 +6678,7 @@ Enter new topic
 Enter regular expression
 Enter text...
 Enter the number of days or months for which the field has not changed
+Enter the prompt that you want the task to run
 Enter the workspace URL 
 Enter to call again.
 Enter to call back.
@@ -7075,6 +7077,7 @@ Experiment not enabled for team, skipping
 Experiments state was overridden
 Expiration date
 Explain Error
+Explain how
 Explain message
 Explain the guidelines you want members to follow when they set their display names.
 Explain this
@@ -7252,6 +7255,7 @@ Failed to create memory canvas
 Failed to create notifications outline canvas
 Failed to create skill. Please try again.
 Failed to create slackbot mini window
+Failed to create task:
 Failed to create the custom field. Please try again.
 Failed to create user.
 Failed to delete activity views
@@ -8784,6 +8788,7 @@ Give me my daily briefing
 Give us feedback
 Give your channel a name to continue. You can always change the name later.
 Give your space a logo
+Give your task a name
 Give your team access
 Given a channel id, navigate to the chat view within the app DM space
 Given a failure message for user group invite, normalizes it to one of our known errors (if applicable)
@@ -9362,7 +9367,6 @@ How do I add or delete elements on my UI?
 How do I rename channels? People?
 How do I request a thingamabob?
 How do you want to set up your org?
-How does Slackbot Memory work?
 How is the transcript? Tell us about your experience.
 How many files should they upload?
 How the UI Generator works
@@ -10565,7 +10569,6 @@ Learn about Automations
 Learn about Canvas
 Learn about Channels
 Learn about Huddles
-Learn about Slackbot Memory
 Learn about saved items
 Learn how
 Learn how Slack keeps data secure
@@ -12154,6 +12157,7 @@ Members can only install apps that have been pre-approved. Only App Managers wil
 Members can only request to work with external people in the workspaces you select.
 Members can share AI answers in Slack channels and DMs
 Members can share AI explanations in Slack channels and DMs
+Members can share anniversary celebrations in Slack channels and DMs
 Members can sign into approved apps with their Slack account.
 Members can sign into apps with their Slack account.
 Members can use Salesforce events in Workflow Builder and Sales Home admin-created notifications to send messages to:
@@ -12163,6 +12167,7 @@ Members can use Salesforce events in Workflow Builder to send messages to privat
 Members cannot automatically start notes in huddles.
 Members cannot share AI answers.
 Members cannot share AI explanations
+Members cannot share anniversary celebrations
 Members connect to Slack securely through a cloud, which unlocks.
 Members in channel
 Members of
@@ -14618,7 +14623,9 @@ Personal account type not supported with v8 one drive file picker
 Personal task tracking
 Personalize Events
 Personalize Runtime
+Personalize Slackbot Memory
 Personalize a welcome message
+Personalize what Slackbot remembers about your unique work.
 Persuasion Speed Bump Demo
 Phew! Done.
 Phone number
@@ -16078,7 +16085,6 @@ Remove from recap
 Remove from recent viewed list
 Remove from recommended apps
 Remove from the list of pinned canvases for an external workspace
-Remove from to-dos
 Remove from workspace
 Remove from your to-dos
 Remove global app actions for apps
@@ -20145,6 +20151,7 @@ Slackbot is not enabled for anyone in your organization.
 Slackbot is off for your organization.
 Slackbot is ready. Type a message or choose a suggested skill to begin.
 Slackbot is thinking
+Slackbot memory saves topics about my work to improve our conversations.
 Slackbot message
 Slackbot response stopped
 Slackbot saved these from your conversations to make future responses more relevant.
@@ -21054,6 +21061,7 @@ Task List (bordered)
 Task List (plain)
 Task card
 Task card block
+Task created successfully.
 Task enqueued! You will receive a response soon.
 Task entity
 Task handlers are not supported in MCP Apps
@@ -21913,6 +21921,7 @@ To send a message to the Salesforce channel created in a previous step, use the 
 To toggle this setting please disable HIPAA compliance.
 To toggle this setting please enable incoming emails.
 To use this workflow, you
+To-do added
 To-do reminder
 Today is an AI-powered landing page to help you get situated, whether at the start of your day or when you need to refocus.
 Today view settings
@@ -23253,6 +23262,7 @@ Updates root comment content
 Updates save toast when saving record completes
 Updates scopes reason and persists them in the backend
 Updates scroll position value for active entity
+Updates segmentation metadata when opening the Channel Details modal to hide the edit icon
 Updates selected custom profile fields
 Updates store with audio connectivity check feedback result
 Updates store with audio input check feedback result
