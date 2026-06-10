@@ -450,9 +450,6 @@ AI Button
 AI Channel Recaps
 AI Explain share: missing required thread data
 AI Inbox
-AI Notes
-AI Notes & Transcription
-AI Notes are on
 AI Notes: Off
 AI Outlines
 AI Prompt writer
@@ -488,14 +485,19 @@ AI huddle notes can be set to start automatically for all huddles in each channe
 AI is temporarily unavailable. Please try again in a moment.
 AI is turned on for your team
 AI message explanations
+AI notes
+AI notes & transcription
+AI notes and transcript
 AI notes and transcription
+AI notes and transcription are on
 AI notes and transcription are on for this huddle, so thread replies may be summarized in the notes.
 AI notes and transcription are on.
-AI notes and transcription mode is allowed for Huddles.
+AI notes and transcription mode is allowed for huddles.
 AI notes are back on
 AI notes are on
 AI notes are on for this huddle, so thread replies may be summarized in the notes.
 AI notes cancelled and deleted
+AI notes cancelled and transcript deleted
 AI notes not available for huddles in Slack Connect channels
 AI notes not available for huddles with guests
 AI notes on 2 Outlines
@@ -504,6 +506,7 @@ AI notes on 4 Outlines
 AI notes on Outlines
 AI notes only
 AI notes will be posted in channel in just a few.
+AI notes will start automatically for all huddles in this channel.
 AI permissions
 AI prompt suggestions
 AI response
@@ -1733,8 +1736,6 @@ Alternate Phone
 Always Allow
 Always Start
 Always Start AI Notes
-Always Start AI Notes & Transcription
-Always Start Transcription
 Always Take AI Notes
 Always allow
 Always allow notifications from VIPs
@@ -1747,6 +1748,9 @@ Always provide a descriptive video-title for screen readers
 Always provide a meaningful video title for accessibility
 Always provide meaningful alt text for accessibility
 Always show collapsed menu
+Always start AI notes
+Always start AI notes & transcription
+Always start transcription
 Amazon API Gateway
 Amazon Athena
 Amazon Chime
@@ -5564,8 +5568,9 @@ Delay must be a valid number.
 Delay must be at most 5 weekdays.
 Delegate access attempt detected, starting deeplink log-reading fallback
 Delegate to workspaces (default)
-Delete AI Notes
 Delete AI Notes & Transcript
+Delete AI notes
+Delete AI notes & transcript
 Delete App
 Delete Channel
 Delete Channel Header
@@ -5588,7 +5593,6 @@ Delete Release Note
 Delete Role
 Delete Simplified Sidebar
 Delete Status
-Delete Transcript
 Delete View
 Delete WMP content library item
 Delete Workflow
@@ -5609,6 +5613,7 @@ Delete all completed items
 Delete all locally cached records by Salesforce org id
 Delete all unavailable servers?
 Delete an existing email domain record and remove from store
+Delete and Cancel
 Delete anyway
 Delete bookmark
 Delete calculation
@@ -5669,6 +5674,7 @@ Delete this scheduled status?
 Delete this template?
 Delete thread
 Delete to-do
+Delete transcript
 Delete transcript and cancel AI notes?
 Delete view
 Delete violating content
@@ -6215,7 +6221,6 @@ Easily update record details
 EcoNet - Energy Management System
 EcoSync - Sustainable Connectivity Platform
 Edit (your own message)
-Edit AI Notes
 Edit AI use setting
 Edit Agent About Section
 Edit Agent Settings
@@ -7081,7 +7086,6 @@ Experiment not enabled for team, skipping
 Experiments state was overridden
 Expiration date
 Explain Error
-Explain how
 Explain message
 Explain the guidelines you want members to follow when they set their display names.
 Explain this
@@ -7414,6 +7418,7 @@ Failed to save agent access settings
 Failed to save ai_apps_settings
 Failed to save app access settings
 Failed to save custom instructions
+Failed to save focus item thread association:
 Failed to save include all files setting
 Failed to save include messages setting
 Failed to save media progress with media.progress.update
@@ -8295,6 +8300,7 @@ Focus areas cleared for the day
 Focus areas cleared for the day :sunflower:
 Focus back on item in list
 Focus did not transition
+Focus item no longer exists in store, skipping thread save:
 Focus me (via useFocus hook)
 Focus mode
 Focus mode ends
@@ -12462,6 +12468,7 @@ Missing required params
 Missing search summary ID
 Missing selection set for object of type 
 Missing some required data, throwing away persisted state
+Missing some sections?
 Missing subrsIndex for 
 Missing team ID for archiveAllThreads
 Missing team ID for markCommentRead
@@ -13560,7 +13567,7 @@ OneDrive and Sharepoint
 Online and unfocused, completing cold boot reload
 Online and unfocused, waiting 10000 ms to reload
 Only 9 people can be in a direct message.
-Only AI notes mode is allowed for Huddles.
+Only AI notes mode is allowed for huddles.
 Only Org Admins and specific people can post
 Only Org Admins can post
 Only Org Owners and Admins will be able to post in this channel.
@@ -13632,7 +13639,7 @@ Only the #general channel on free or standard teams can be read only. Make sure 
 Only the channel owner can add people to this channel.
 Only the people in the workspace you choose will be able to view and join this channel.
 Only the record object is shown. For example, 
-Only transcription mode is allowed for Huddles.
+Only transcription mode is allowed for huddles.
 Only visible to you
 Only you
 Only you can open
@@ -14045,6 +14052,7 @@ Opens the Slack Connect Workspace Kick Confirmation Modal
 Opens the Slack First CRM EAC onboarding dialog
 Opens the SlackBoss widget
 Opens the Slackbot AI feedback modal
+Opens the Slackbot memory NUX via the createSlackbotInitiatedThread backend path
 Opens the Slackiversary Share Modal
 Opens the Solutions Setup Flow modal
 Opens the Sonic Channel Invite Modal in client
@@ -16698,13 +16706,14 @@ Restricted permissions
 Resubmit App
 Resubscribe check is paused, setting incoming client metric report as pending
 Results have come in, flatten and store in Redux
-Resume AI Notes
 Resume AI Notes & Transcription
-Resume Transcription
+Resume AI notes
+Resume AI notes & transcription
 Resume a paused huddle recording
 Resume a paused huddle summary
 Resume notifications
 Resume taking notes with AI?
+Resume transcription
 Resumed signal connection
 Resumes a download on the desktop app
 Resumes a workflow execution by ID and refreshes client token
@@ -17489,6 +17498,7 @@ Select a starting on time
 Select a state
 Select a step category
 Select a tab by id
+Select a teammate
 Select a time range to view analytics for
 Select a user
 Select a value from the controlling field to enable this field
@@ -20009,7 +20019,6 @@ Slack 5 Prototype
 Slack AI
 Slack AI (default)
 Slack AI Feedback
-Slack AI Huddle Notes
 Slack AI Outlines
 Slack AI add-on
 Slack AI is currently available in English, Spanish and Japanese
@@ -20163,7 +20172,6 @@ Slackbot is not enabled for anyone in your organization.
 Slackbot is off for your organization.
 Slackbot is ready. Type a message or choose a suggested skill to begin.
 Slackbot is thinking
-Slackbot memory saves topics about my work to improve our conversations.
 Slackbot message
 Slackbot response stopped
 Slackbot saved these from your conversations to make future responses more relevant.
@@ -20428,7 +20436,6 @@ Star your search
 Starred Outlines
 Starred searches
 Start A Chat
-Start AI Notes & Transcription
 Start Conversation
 Start Date
 Start Flow Animation
@@ -20621,7 +20628,6 @@ Steps are hosted on Slack?
 Still curious? 
 Stone Informal
 Stone Serif
-Stop AI Notes
 Stop Sharing
 Stop a 3P AI app streaming response
 Stop big button mode
@@ -22112,6 +22118,7 @@ Transcription only
 Transcription started successfully
 Transcription stopped. Not everyone here can be recorded.
 Transcription will be turned back on and will be included in the AI summary. By participating, you agree to being transcribed. Make sure everyone else is cool with that, too.
+Transcription will start automatically for all huddles in this channel.
 Transfer Ownership
 Transfer canvas ownership
 Transfer lists ownership
@@ -22344,6 +22351,8 @@ Turn off
 Turn off Automatic AI Notes
 Turn off animations
 Turn off automatic AI notes and transcription?
+Turn off automatic AI notes?
+Turn off automatic transcription?
 Turn off captions
 Turn off guardrails?
 Turn off music
@@ -22689,7 +22698,6 @@ Unlock daily recaps for your whole team with Business+
 Unlock group huddles
 Unlock premium features
 Unlock sales, support and marketing tools built right into Slack with a free 30-day trial of Business+.
-Unlock smarter search results for your whole team with Business+
 Unlock templates that help your team work smarter, together with a free, 30-day trial of Slack Pro.
 Unlock the thread so members can reply and react.
 Unlock working at scale with Business+
@@ -22706,6 +22714,7 @@ Unmute microphone
 Unmute notification
 Unmute volume
 Unpause AI Suggested To-dos
+Unpause Sections
 Unpause focus areas
 Unpause focus items
 Unpause highlights
@@ -23876,6 +23885,7 @@ VideoFxProcessor is not supported on host device. Defaulting to non blurred back
 VideoFxProcessor is not supported on host device. Defaulting to non image replaced background
 Viet Nam
 View AI Notes
+View AI Notes & Transcript
 View AI Terms and Conditions
 View Audit Logs
 View Channel
@@ -24308,7 +24318,9 @@ What would you like to do?
 What would you like us to know?
 What you can do with Slack
 What you get out of the box
+When AI huddle notes are set to start automatically, all huddles in this channel will be summarized by default.
 When AI huddle notes are set to start automatically, all huddles in this channel will be transcribed and summarized by default.
+When AI huddle notes are set to start automatically, all huddles in this channel will be transcribed by default.
 When I mark everything as read:
 When [[column_key_and_value]], send a notification to [[user_id]]
 When a UI is set to private, it can only be viewed by invitation
