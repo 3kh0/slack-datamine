@@ -1956,6 +1956,8 @@ Anything else you want to tell us?
 Apache Conf
 Aperture priority
 Api Call to 
+App ACL group hydration dropped unresolvable ids
+App ACL member hydration dropped unresolvable ids
 App Actions
 App Analytics Coachmark
 App Blade
@@ -2002,6 +2004,7 @@ App activity
 App activity metrics (aggregated only)
 App activity metrics (aggregated)
 App activity metrics (real-time or aggregated)
+App added to workspaces
 App agents & assistants
 App analytics
 App category
@@ -3251,6 +3254,7 @@ Cannot drop in phase:
 Cannot edit bookmark
 Cannot enqueue task message: taskStore and taskMessageQueue are not configured
 Cannot exit frame, the context is empty
+Cannot fetch client.channels: no teamId
 Cannot fetch from Slack API without a valid token. Please include one in args.
 Cannot find Droppable[id: 
 Cannot find document.body
@@ -6812,6 +6816,8 @@ Error loading assigned members from API
 Error loading assigned user groups from API
 Error loading flag details
 Error loading functions for category:
+Error loading org members from search API
+Error loading org user groups from search API
 Error loading roles user groups from admin.roles.listUsergroups API
 Error loading user groups from search API
 Error loading user groups from search.enterprise API
@@ -7418,6 +7424,8 @@ Failed to save settings. Please try again later.
 Failed to save task:
 Failed to schedule forward message
 Failed to search agent exchange agents
+Failed to seed app ACL members
+Failed to seed app ACL user groups
 Failed to send
 Failed to send Huddle logs
 Failed to send awareness query: 
@@ -7934,6 +7942,7 @@ Fetches channel search results
 Fetches channels that the user has marked to digest, if enabled
 Fetches chunks of channel history for the add to mpdm history preview
 Fetches chunks of channel history for the given message IDs
+Fetches client.channels and dispatches full payload
 Fetches custom user statuses
 Fetches data for existing celebration workflow
 Fetches data for existing workflow, hydrates form data and opens notification builder
@@ -10891,12 +10900,14 @@ Loading diff
 Loading files and links
 Loading fragment 
 Loading group names...
+Loading groups
 Loading history
 Loading key for 
 Loading loss_weights is not supported yet.
 Loading meeting thread
 Loading notification schemas...
 Loading part sn: 
+Loading people
 Loading preview
 Loading required assets for the VideoFxProcessor
 Loading sample_weight_mode is not supported yet.
@@ -11749,6 +11760,7 @@ Manage and monitor work as a team so that we can maximize productivity and reach
 Manage and monitor your work as a team all in one place.
 Manage and review Slack Connect invitation requests from members of your organization.
 Manage and review requests to provision new developer sandboxes for your organization
+Manage app access
 Manage app settings
 Manage apps
 Manage apps in a workspace
@@ -17058,6 +17070,7 @@ Save a search query to the user
 Save a timer for delayed progressive disclosure tip
 Save and Choose Google Domain
 Save anomaly event response preferences with optional user allowlists
+Save anyway
 Save as Draft
 Save as private to test with collaborators before sharing widely
 Save changes
@@ -17509,6 +17522,7 @@ Select date
 Select date and time
 Select field
 Select from Google Contacts
+Select groups
 Select members from a list
 Select members who can use this server.
 Select microphone
@@ -17517,6 +17531,7 @@ Select one or more options
 Select operator
 Select options
 Select or deselect an addon by type
+Select people
 Select priority
 Select requires an 
 Select row
@@ -20355,7 +20370,6 @@ Specific channel types only
 Specific groups and members
 Specific members
 Specific people
-Specific people and groups
 Specific people and workspaces
 Specific people can use the agent.
 Specific people can use the app.
@@ -21525,6 +21539,7 @@ Third-party call providers
 Third-party connection needed
 This API is deprecated.
 This HTML file could not be loaded.
+This HTML file is too large to preview here. Download it to view in a browser.
 This MCP server does not support Dynamic Client Registration.
 This MCP server is missing required OAuth endpoints.
 This MCP server needs to be connected before we can fetch the tools list.
