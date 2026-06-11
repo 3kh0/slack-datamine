@@ -8,6 +8,7 @@
  Please make sure the server is serving valid JSON for this request.
  Select Create New UI and follow the flow to choose one of three UI types.
  Something went wrong.
+ That means risk of generating unsafe content is higher.
  There is an issue accessing a knowledge source.
  UI. They all have slightly different capabilities that we are hoping to consolidate. This story builds a simple UI with all 3 components.
  Use the Meeting Prep skill.
@@ -1705,7 +1706,6 @@ Allowed related objects
 Allowed workspaces are required
 Allowing retracted build reload because we have not recently reloaded due to a retracted build
 Allows an app to read 1 on 1 or group chat threads, on behalf of the signed-in user
-Allows any content allowed by the model provider
 Allows devs to get console logging or trigger breakpoints when state they care about changes
 Allows the app to read the profile of signed-in users. It also allows the app to read basic company information of signed-in users
 Allows your Slack app to manage shared channels
@@ -1725,7 +1725,6 @@ Already in this conversation
 Already joining
 Already running client metrics, skipping
 Also block previews from this website in the future
-Also intended to block targeted employee profiling, like performance and protected class information
 Also sent to the channel, 
 Also sent to the channel.
 Also sent to the group, 
@@ -2362,6 +2361,7 @@ Audio file
 Audio input device cannot be undefined
 Audio input initialization failed
 Audio input request failed
+Audio mini player
 Audio stream is undefined, no audio detection will be triggered
 Audio tracks were reset while loading level 
 Audio video huddles
@@ -2452,7 +2452,6 @@ Average feature usage
 Average messages sent
 Average skills used
 Avoid asking to be re-invited
-Avoids prompt attacks and injections, violence, hate speech, sexual content, and other illegal activity
 Awaiting Release
 Awaiting accepted invite
 Awaiting admin approval to join
@@ -2854,7 +2853,7 @@ By priority
 By registering, you confirm that you agree to the processing of your personal data by Salesforce as described in the Privacy Statement.
 By request only
 By submitting this form, you acknowledge and agree that your personal data may be transferred to, stored, and processed on servers located outside of the People
-By turning off guardrails, your organization accepts the higher risk of generating content that violates the 
+By turning off content safety filters, your organization accepts the higher risk of generating content that violates the 
 CAMERA RESOLUTION READINESS - Completed
 CAMERA RESOLUTION READINESS - Running
 CC Account Address Books
@@ -3841,7 +3840,6 @@ Choose sticker
 Choose the account
 Choose the data field to evaluate, such as the person who used this workflow.
 Choose the default skin tone that will be used whenever you use certain emojis in reactions and messages.
-Choose the guardrail safety sensitivity applied to generative AI experiences in Slack, like Slackbot, canvas creation, and natural language search.
 Choose the maximum number of people allowed in a private channel.
 Choose to allow Slackbot the ability to create, edit, and add content to canvases.
 Choose to have members sign back in whenever they close Slack, or after a certain time period.
@@ -4694,8 +4692,8 @@ Content item entity
 Content library items
 Content removed
 Content restored
-Content safety filters are disabled. AI responses will not be filtered for harmful content.
-Content safety level
+Content safety filter sensitivity
+Content safety filters
 Content-Length header not found
 ContentLength is not supported in pre-signed URLs.
 Context + Provider
@@ -5333,6 +5331,7 @@ Customer Stories
 Customer Surveys
 Customer impact
 Customer management and teamwork, together
+Customer management data, including records for leads, opportunities, cases and more, will no longer be accessible.
 Customer relationship management
 Customer relationship management image
 Customer stories
@@ -7151,6 +7150,7 @@ Export un-migrated users list
 Export user mapping CSV
 Export workflow
 Export workflows
+Export your data
 Exporting Audit Logs
 Exports analytics data as a CSV
 Exports can only be generated once per hour, so please try again in a bit.
@@ -7312,7 +7312,6 @@ Failed to fetch list view recommendations
 Failed to fetch more members
 Failed to fetch org default channels
 Failed to fetch popular skills
-Failed to fetch recent channel summaries
 Failed to fetch recommended channels
 Failed to fetch selectable app categories
 Failed to fetch skills
@@ -8009,7 +8008,6 @@ Fetches org retention settings for mc
 Fetches people search results
 Fetches raw bot members
 Fetches recap unread channels
-Fetches recent channel summaries for recommended channels in Joiner Launchpad
 Fetches recommended channels and their relevant metadata for usage in Joiner Launchpad and Resurrected User Welcome
 Fetches record details
 Fetches record summary data, then upserts it
@@ -9080,7 +9078,6 @@ Gruvbox Light Hard
 Gruvbox Light Medium
 Gruvbox Light Soft
 Guardian Egyptian
-Guardrail sensitivity
 Guest App Use Restrictions
 Guest accounts must be converted to full members before they can be changed to an admin or owner.
 Guest draw should not be mounted without an active peer
@@ -9871,7 +9868,8 @@ Integration with Enterprise Mobility Management
 Integrations Table
 Integrations in action
 Integrations with other apps
-Intended to block prompt attacks and injections, violence, hate speech, sexual content, and other illegal activity
+Intended to avoid targeted employee profiling like performance and protected class information, in addition to the default content safety filters
+Intended to block prompt attacks, violence, hate speech, sexual content, and other illegal activity
 Intentionally closing socket to simulate flakiness
 Intentionally throwing error to simulate flakiness
 Interactive Components
@@ -12013,7 +12011,6 @@ Max selectable items
 Max size of CID is 65,535
 Maximum Children (10)
 Maximum call stack size exceeded
-Maximum content safety filters apply, blocking all flagged content including sensitive workplace topics and protected class information.
 Maximum number of fields reached
 Maximum number of options reached
 Maximum number of people
@@ -13026,6 +13023,7 @@ No active recorder found.
 No active recording or not currently paused
 No activity yet
 No additional channels
+No additional hard blocks beyond default model restrictions
 No agents
 No agents are available for your search
 No agents available
@@ -20456,13 +20454,11 @@ Stack Overflow
 Stage changed
 Stale or unexpected session cookies
 Stalk Shadow
-Standard (Default)
 Standard Message
 Standard Plan - 25% off
 Standard User
 Standard User Plus
 Standard Width Container
-Standard content safety filters apply, blocking dangerous content such as exploitation, terrorism, and illegal substances.
 Standard fields
 Standard light A
 Standard light B
@@ -22398,7 +22394,7 @@ Turn off automatic AI notes and transcription?
 Turn off automatic AI notes?
 Turn off automatic transcription?
 Turn off captions
-Turn off guardrails?
+Turn off content safety filters?
 Turn off music
 Turn off my video
 Turn off notifications for replies
@@ -24885,6 +24881,7 @@ Your SSO is now configured.
 Your SSO provider denied your authentication request.
 Your SSO settings prevent you from inviting people from this email domain.
 Your Sales Tracker is ready to go.
+Your Salesforce org will be disconnected
 Your Salesforce record in Slack
 Your Salesforce records in Slack
 Your Slack Connect settings have changed. New Slack Connect channels cannot be added to this workspace.
