@@ -189,9 +189,9 @@
 1D separable convolution is not implemented yet.
 2,600+ apps in the App Marketplace meant fewer tabs and faster decisions.
 2. Paste the response below, or paste your exported memory file.
-:E.mv.ConfirmationModal,onClose:eG,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :E.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eP?eU:void 0,className:s()(eP||S||ej?
 :E.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:ej?eU:void 0,className:s()(ej||S||eD?
+:I.mv.ConfirmationModal,onClose:eG,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :I.mv.ConfirmationModal,onClose:eG,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eD?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eD?
@@ -201,7 +201,7 @@
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:ej?eU:void 0,className:s()(ej||S||eD?
 :O instanceof RegExp?
 :_ instanceof RegExp?
-:a?l:void 0,children:p?
+:a?l:void 0,children:m?
 :bulb: Get your team on the same page with canvases.
 :bulb: Stay on track with lists.
 :e instanceof File?
@@ -487,14 +487,11 @@ AI huddle notes can be set to start automatically for all huddles in each channe
 AI is temporarily unavailable. Please try again in a moment.
 AI is turned on for your team
 AI message explanations
-AI notes
 AI notes & transcription
-AI notes and transcript
 AI notes and transcription
-AI notes and transcription are on
-AI notes and transcription are on for this huddle, so thread replies may be summarized in the notes.
 AI notes and transcription are on.
 AI notes and transcription mode is allowed for huddles.
+AI notes and transcription on
 AI notes are back on
 AI notes are on
 AI notes are on for this huddle, so thread replies may be summarized in the notes.
@@ -502,13 +499,13 @@ AI notes cancelled and deleted
 AI notes cancelled and transcript deleted
 AI notes not available for huddles in Slack Connect channels
 AI notes not available for huddles with guests
+AI notes on
 AI notes on 2 Outlines
 AI notes on 3 Outlines
 AI notes on 4 Outlines
 AI notes on Outlines
 AI notes only
 AI notes will be posted in channel in just a few.
-AI notes will start automatically for all huddles in this channel.
 AI permissions
 AI powered
 AI prompt suggestions
@@ -1096,6 +1093,7 @@ Add by CSV
 Add by channel
 Add by name
 Add by name or channel
+Add by name, channel or email
 Add callout
 Add canvas
 Add canvases to hide on undo
@@ -1759,9 +1757,6 @@ Always provide a descriptive video-title for screen readers
 Always provide a meaningful video title for accessibility
 Always provide meaningful alt text for accessibility
 Always show collapsed menu
-Always start AI notes
-Always start AI notes & transcription
-Always start transcription
 Amazon API Gateway
 Amazon Athena
 Amazon Chime
@@ -1926,6 +1921,7 @@ Announce the first result of a set of Texty autocomplete suggestions and the tot
 Announce to assistive tech how many items were selected
 Announce to assistive tech that item was selected or unselected
 Announce when the secondary view is closed
+Announcement Banner
 Announces to screen readers that the secondary view has changed
 Annual Figma Professional seat for design system work on the Block Kit project.
 Annual Revenue:
@@ -1972,6 +1968,7 @@ Apache Conf
 Aperture priority
 Api Call to 
 App ACL group hydration dropped unresolvable ids
+App ACL group hydration exceeded page limit with unresolved ids
 App ACL member hydration dropped unresolvable ids
 App Actions
 App Analytics Coachmark
@@ -2133,6 +2130,7 @@ Arcado Buendia
 Architecture Recommendations
 Archive Alert
 Archive Channel
+Archive Item
 Archive Product UI
 Archive Recommendation
 Archive a Product UI
@@ -2514,6 +2512,7 @@ Bandwidth test failed
 BandwidthChecker timed out
 BankGothic Md BT
 Banner at top of admin settings home page
+Banner with CTA
 Bar chart
 Bar: max bounds
 Bar: max points (single series)
@@ -4786,6 +4785,7 @@ Converts a server draft to a client draft
 Converts external team from limited to unlimited or unlimited to limited
 Converts message ops array to rich text blocks prepared to be sent as a message
 Cook Islands
+Cookie key
 Cooking up a really really really really extremely very nice dinner
 Cool Person
 Cool white fluorescent (W 3900 - 4500K)
@@ -5603,6 +5603,7 @@ Delete Context Bar
 Delete Draft
 Delete Full Sidebar
 Delete IP Address
+Delete Item
 Delete Message
 Delete Message Input
 Delete Module
@@ -6784,6 +6785,7 @@ Error changing input device
 Error changing output device
 Error checking if no preferred devices in local storage
 Error checking macOS notifications on mount
+Error code
 Error converting file to image
 Error copying debug info
 Error creating ReportingObserver
@@ -6804,6 +6806,7 @@ Error editing MCP server
 Error exporting workflow form data: 
 Error fetching MFA token: 
 Error fetching OAuth Providers
+Error fetching additional page of org user groups
 Error fetching app activities
 Error fetching app functions
 Error fetching app submission id
@@ -7449,6 +7452,7 @@ Failed to report client metrics
 Failed to report dogfood boot
 Failed to report trace
 Failed to resolve 
+Failed to resolve app ACL entity names
 Failed to resolve channel name
 Failed to resolve meeting entity
 Failed to restore a version
@@ -8824,7 +8828,6 @@ Getting our stacktrace
 Getting ready to turn meeting stress into meeting success!
 Getting started actions
 Getting state from IndexedDB
-Getting the latest list data from Salesforce
 Gift trial celebration
 Gift trial welcome animation
 Gill Sans
@@ -8844,7 +8847,6 @@ Give Feedback
 Give feedback
 Give it a name
 Give it another try
-Give it another try in a few minutes.
 Give me a daily sales update from my CRM data every morning.
 Give me my daily briefing
 Give us feedback
@@ -10325,6 +10327,7 @@ Keep a record of team achievements
 Keep access to messages and files older than 90 days.
 Keep all messages, except for revisions
 Keep all messages, including revisions
+Keep banner visible after CTA click
 Keep each citation to a single sentence where possible
 Keep editing
 Keep messages forever
@@ -11654,6 +11657,7 @@ MAC address
 MAC manzil
 MAIN COMP render
 MCP Auth:
+MCP Integration
 MCP Server Connection Details
 MCP Server URL
 MCP Servers
@@ -12018,7 +12022,6 @@ Marks a filter key as fully fetched for aiApps.list memoization
 Marks a thread banner as having been dismissed for a given latestReplyTs
 Marks a today item ID as having completed its typing animation
 Marks a today item for delete for animation prior to calling deleteTodayItem
-Marks a user message as having a shareable prompt
 Marks admin suggested list views for sidebar as fresh
 Marks admin suggested list views for sidebar as stale
 Marks an MCP app resource as recently accessed for LRU tracking
@@ -12899,6 +12902,7 @@ Need size to transform point to curve
 Need the slack window context to listen for messages from the call window
 Need to define VideoStreamIndex and selfAttendeeId if using getObservableVideoMetrics API
 Needs approval
+Needs attention
 Needs attention. Your access to AI workflow steps has ended. Slack AI is available with a paid plan add on. Remove this step to continue using this workflow.
 Needs regenotiation for local video simulcast layer change
 Needs reply
@@ -13462,7 +13466,6 @@ Note: Changing this setting will change the corresponding files setting for Slac
 Note: Domain cannot be changed for sandbox environments.
 Note: If you change your organization domain, Slack will reload and automatically redirect you to the new domain.
 Note: this setting is for this computer only. You may need to restart Slack to receive app updates.
-Notes stopped. Not everyone here can be recorded.
 Notes will appear here once recording begins
 Nothing found
 Nothing found. Filtering from recent notifications.
@@ -13779,6 +13782,7 @@ Open Salesforce organizations menu
 Open Saved for later page
 Open Saved in either page or flexpane
 Open Search
+Open Slack
 Open Slack Connect trial entry point modal
 Open Slackbot
 Open Slackbot AI in empty state
@@ -14728,7 +14732,6 @@ Personalize Runtime
 Personalize Slackbot Memory
 Personalize a welcome message
 Personalize what Slackbot remembers about your unique work.
-Persuasion Speed Bump Demo
 Phew! Done.
 Phone number
 Photos and videos
@@ -15256,6 +15259,7 @@ Provide Inputs
 Provide a 2x asset URL when not using SVG to keep logos sharp on retina displays
 Provide a reason
 Provide additional guidance to help Channel Agent decide when to respond.
+Provide alt text that describes the announcement (e.g. 
 Provide at least five or six logos so the marquee feels substantial
 Provide details about the issue...
 Provide either a layer name or layer index
@@ -15484,6 +15488,7 @@ Read only
 Read only feature
 Read the docs
 Read the full story
+Read the post
 Read the story
 Read this mention from 
 Read this message from 
@@ -15936,6 +15941,7 @@ Relay observed overlays state from OverlaysContextProvider to Redux
 Release Bot
 Release Note
 Release Notes | Product UI Generator | Slack
+Release announcement
 Release v2.5.0
 Relevant people
 Reload Now
@@ -17196,6 +17202,7 @@ Save time catching up on the
 Save time creating new contacts by adding them in bulk from your email account or a CSV file.
 Save time with AI-powered automations
 Save to drafts
+Save your seat
 Save your sorting preference
 Save your team a step. Add verified domains to Google Calendar, Google Drive, Microsoft Outlook Calendar, or OneDrive, and any member using that email domain will automatically be connected.
 Saved contact
@@ -17271,6 +17278,7 @@ Scroll - CTRL
 Scroll Area
 Scroll down
 Scroll editor to line
+Scroll right
 Scroll to next day
 Scroll to previous day
 Scroll to the top
@@ -17630,6 +17638,7 @@ Select people
 Select priority
 Select requires an 
 Select row
+Select specific people and groups who can use the app.
 Select specific people or workspaces
 Select specific people who can use the agent.
 Select specific people who can use the app.
@@ -19657,7 +19666,6 @@ Share a canvas for a message that was shared
 Share a file through a channel
 Share a file to a channel or user and update share_metadata
 Share and Add Salesforce User
-Share as prompt
 Share canvas
 Share canvas with user
 Share channel section
@@ -19694,7 +19702,6 @@ Share this list with 1 person?
 Share this meeting with
 Share this message
 Share this metric
-Share this prompt
 Share this record
 Share this skill
 Share this template
@@ -19864,6 +19871,7 @@ Show name and object only
 Show new items
 Show next items
 Show object only
+Show on mobile
 Show onboarding tasks reminder notification
 Show only
 Show or hide the drag overlay
@@ -20177,6 +20185,8 @@ Slack Scribe
 Slack Scribe dictionary save failed
 Slack Scribe sounds save failed
 Slack Software Engineering Career Path, v3
+Slack Summit is here.
+Slack Summit logo
 Slack and Salesforce are disconnected.
 Slack applied suggested filters and keywords to show the most relevant results.
 Slack brings all your communication, tools, and files together in one place.
@@ -20334,6 +20344,7 @@ Solid background color
 Solomon Islands
 Solutions Complete 01
 Solutions Loading 01
+Some app ACL entity names could not be resolved
 Some canvases hold plans, some hold secrets. Maybe secret plans?
 Some canvases will soon be view only
 Some content failed to load
@@ -20477,6 +20488,7 @@ Specific channel types only
 Specific groups and members
 Specific members
 Specific people
+Specific people and groups can use the app.
 Specific people and workspaces
 Specific people can use the agent.
 Specific people can use the app.
@@ -21430,7 +21442,6 @@ The following people have requested access to customer management in Slack. Appr
 The free plan includes up to 10 users, 90 days of message history, and 5GB of file storage.
 The generated JSON failed Block Kit validation.
 The global cache-data must be available.
-The huddle language applies to AI notes and captions.
 The huddle language applies to AI notes, transcription and captions.
 The huddle language applies to transcription and captions.
 The huddle language is the same for everyone on the huddle, and applies to transcription and captions.
@@ -21578,7 +21589,6 @@ There was a problem creating new integration
 There was a problem disconnecting your Salesforce organization
 There was a problem dismissing this flagged item. Give it another try in a few minutes.
 There was a problem loading members. Give it another try in a few minutes.
-There was a problem loading tasks.
 There was a problem loading these Channel Managers. Give it another try in a few minutes.
 There was a problem loading this page. Try again in a few minutes.
 There was a problem loading your Salesforce organizations
@@ -21650,6 +21660,7 @@ This Salesforce account does not have sufficient API access.
 This Salesforce account is already linked to another Slack user.
 This Skill Set is empty. Add skills to get started.
 This account has been deactivated.
+This action cannot be undone.
 This action cannot be undone. Previous requests that were resolved by this rule will not be changed, but this rule will no longer be executed or available in the future.
 This action has already been completed
 This action is blocked by your connector preferences.
@@ -22193,6 +22204,7 @@ Track already muted
 Track already unmuted
 Track and manage projects
 Track badges cleared when badge counts change
+Track clicks (clog)
 Track contacts
 Track event but no stream
 Track form visibility for editing a given record
@@ -22214,15 +22226,13 @@ Transcript generation started. This may take a few minutes.
 Transcript in a different language
 Transcript is now available for this video.
 Transcript processing
-Transcription and AI notes will start automatically for all huddles in this channel.
+Transcription cancelled and transcript deleted
 Transcription failed. Please try again.
 Transcription is now back on and will be included in the AI summary. By participating, you agree to being transcribed.
-Transcription is on for this huddle.
+Transcription on
 Transcription only
 Transcription started successfully
-Transcription stopped. Not everyone here can be recorded.
 Transcription will be turned back on and will be included in the AI summary. By participating, you agree to being transcribed. Make sure everyone else is cool with that, too.
-Transcription will start automatically for all huddles in this channel.
 Transfer Ownership
 Transfer canvas ownership
 Transfer lists ownership
@@ -22455,8 +22465,6 @@ Turn off
 Turn off Automatic AI Notes
 Turn off animations
 Turn off automatic AI notes and transcription?
-Turn off automatic AI notes?
-Turn off automatic transcription?
 Turn off captions
 Turn off content safety filters?
 Turn off music
@@ -22660,6 +22668,7 @@ Unbinding the video element
 Unbinds video tile from a video element
 Unblock email
 Uncaught error returned by RPC handler for 
+Uncheck 
 Undefined parent App!
 Undefined state 
 Understand how many people use canvases over time.
@@ -23736,6 +23745,7 @@ Use to showcase multiple features or product areas in a compact, interactive sec
 Use to showcase multiple features, solutions, or product areas in a compact card grid. Works well mid-page to highlight key value propositions.
 Use to showcase social proof from two customers. Works well in a section following a feature description or stats block.
 Use to showcase the breadth of integrations available in Slack. Works well beneath a section header that introduces the integration story.
+Use to surface time-bound announcements (events, launches, deprecations) above the page header. Pair with a unique cookie key per announcement so dismissing one banner does not suppress future ones.
 Use up and down to move the slider along the Y axis, left and right to move along the X axis.
 Use up to two CTAs: the first renders filled (primary), the second outline (secondary)
 Use when a short product loop or motion graphic better demonstrates the feature than a static image.
@@ -23996,8 +24006,6 @@ VideoFxProcessor destroyed.
 VideoFxProcessor is not supported on host device. Defaulting to non blurred background
 VideoFxProcessor is not supported on host device. Defaulting to non image replaced background
 Viet Nam
-View AI Notes
-View AI Notes & Transcript
 View AI Terms and Conditions
 View Audit Logs
 View Channel
@@ -24006,6 +24014,7 @@ View DNS records
 View Deactivated Members
 View Details
 View Do Not Disturb settings for people in a workspace
+View Docs
 View Error
 View Event Details
 View Example
@@ -24431,9 +24440,6 @@ What would you like to do?
 What would you like us to know?
 What you can do with Slack
 What you get out of the box
-When AI huddle notes are set to start automatically, all huddles in this channel will be summarized by default.
-When AI huddle notes are set to start automatically, all huddles in this channel will be transcribed and summarized by default.
-When AI huddle notes are set to start automatically, all huddles in this channel will be transcribed by default.
 When I mark everything as read:
 When [[column_key_and_value]], send a notification to [[user_id]]
 When a UI is set to private, it can only be viewed by invitation
@@ -24568,6 +24574,7 @@ With canvases, you can:
 With everything you need together in one spot, you can make the most out of in-office collaboration.
 With everything you need together in one spot, you can stay connected and keep work moving forward.
 With more people, you can:
+With people
 With permission to post only
 With permission to post, invite, and more
 With section header and featured link
@@ -24911,6 +24918,7 @@ You received an invitation from an external organization.
 You received an invitation that has been ignored, expired, or is no longer available for another reason.
 You recently started a trial for the Business+ plan. Check out the features you and your organization now have access to.
 You set a reminder about this file
+You shared this canvas
 You shared this folder
 You shared this list
 You shared this list view
