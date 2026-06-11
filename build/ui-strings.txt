@@ -3989,7 +3989,6 @@ Clear out root messages
 Clear pending draft insert
 Clear permission level intended to be granted for a file of specified fileId in a draft
 Clear progressive disclosure storage value
-Clear query session data on session expiration
 Clear reaction animation
 Clear read messages
 Clear recent record created
@@ -4000,7 +3999,6 @@ Clear search engagement context
 Clear search in channel session data on session expiration
 Clear search in channel session timeout on mount
 Clear search input on SRP exit without ending sessions
-Clear search session data on session expiration
 Clear search summary state
 Clear selected
 Clear selection
@@ -5622,6 +5620,7 @@ Delete Skill Set
 Delete Status
 Delete View
 Delete WMP content library item
+Delete WMP page
 Delete Workflow
 Delete Workflow Failure
 Delete Workflow Success
@@ -5676,6 +5675,7 @@ Delete message
 Delete message attachment
 Delete messages after a specific time period
 Delete module
+Delete page
 Delete profile
 Delete reminder
 Delete role
@@ -12864,7 +12864,6 @@ Navigate to the selected channel
 Navigate to the selected page
 Navigate toChannel() got redirected since it was a file channel
 Navigate toMessage() got redirected since it was a file channel
-Navigated from search page with active query: Starting timeout to clear session
 Navigated to search page and session is already active: Clearing timer
 Navigated to search page without active session: Starting new session
 Navigates from a file to its corresponding work object if possible
@@ -22831,8 +22830,10 @@ Unpin canvas
 Unpin participant
 Unpins a Slackbot AI NUX kickoff thread ts so its root message becomes visible
 Unpublish Product UI
+Unpublish WMP page
 Unpublish a skill from the skill catalog
 Unpublish now
+Unpublish page
 Unpublish template
 Unpublish the shortcuts workflow
 Unpublish this workflow?
