@@ -190,14 +190,14 @@
 2,600+ apps in the App Marketplace meant fewer tabs and faster decisions.
 2. Paste the response below, or paste your exported memory file.
 :E.mv.ConfirmationModal,onClose:eG,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
+:E.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eP?eU:void 0,className:s()(eP||S||ej?
 :E.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:ej?eU:void 0,className:s()(ej||S||eD?
-:E.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:ej?eU:void 0,className:s()(ej||S||eP?
 :I.mv.ConfirmationModal,onClose:eG,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eD?
-:I.mv.ConfirmationModal,onClose:eG,headerImageSrc:Y,headerImageAlt:e1,title:eP?eU:void 0,className:s()(eP||S||eO?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eD?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eP?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
+:I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eP?eU:void 0,className:s()(eP||S||eO?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:ej?eU:void 0,className:s()(ej||S||eD?
 :O instanceof RegExp?
 :_ instanceof RegExp?
@@ -510,6 +510,7 @@ AI notes only
 AI notes will be posted in channel in just a few.
 AI notes will start automatically for all huddles in this channel.
 AI permissions
+AI powered
 AI prompt suggestions
 AI response
 AI response preview
@@ -3678,7 +3679,6 @@ Channels Outlines
 Channels alphabetically and DMs by recent activity
 Channels and direct messages
 Channels are organized spaces for conversations. Here are a few suggestions.
-Channels are where conversations happen around a topic. Use a name that
 Channels are where your team communicates
 Channels bring the team, conversation and Salesforce data together in one place to get work done.
 Channels by category (max bounds)
@@ -9693,6 +9693,7 @@ Include all files in search results.
 Include channels in Recap
 Include connector sources in AI steps?
 Include content from other channels
+Include conversation history
 Include conversation history from a custom start date?
 Include conversation history from today?
 Include conversation history?
@@ -13732,6 +13733,7 @@ Open Huddle in new window
 Open Huddle invite modal, optionally with pre-selected members
 Open JP Pocket Guide email template modal
 Open JP Pocket Guide invite team modal
+Open Link
 Open Link in Browser
 Open More menu
 Open Outlook App
@@ -22270,6 +22272,7 @@ Triggers a side-effect that opens an image in a new child window (noop)
 Triggers a side-effect that opens the AddSolutionToChannelModal in client (noop)
 Triggers a side-effect that opens the Advanced Security Offer Modal
 Triggers a side-effect that opens the Ai message translations settings modal in client
+Triggers a side-effect that opens the App Mention Create Channel modal (noop)
 Triggers a side-effect that opens the Auto Charge Trial Entry Modal
 Triggers a side-effect that opens the Channel Create modal in client (noop)
 Triggers a side-effect that opens the Channel Details modal in client (noop)
@@ -25204,6 +25207,7 @@ t a dict.
 t an array.
 t be able to test the simplified upgrade flow for Grid Migrations.
 t be able to use it again.
+t be undone.
 t change the permissions scope of the authorization token.
 t click directly from the scoped search to the scope selector button. The first click clears the backdrop.
 t construct the Blob.
