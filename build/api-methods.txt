@@ -265,6 +265,7 @@ ai.alpha.slackbot.automationGroups.delete
 ai.alpha.slackbot.automationGroups.list
 ai.alpha.slackbot.automationGroups.setActive
 ai.alpha.slackbot.createSlackbotInitiatedThread
+ai.alpha.slackbot.skillSets.addToLibrary
 ai.alpha.slackbot.skills.addToLibrary
 ai.alpha.slackbot.skills.getAggregateMetrics
 ai.alpha.slackbot.skills.getBuiltinInfo
@@ -899,6 +900,8 @@ files.updatePermission
 files.uploadExternal
 folders.create
 folders.items.add
+folders.items.remove
+folders.update
 functions.categories.steps.list
 functions.distributions.permissions.list
 functions.distributions.permissions.remove
@@ -1616,9 +1619,13 @@ wmp.documents.update
 wmp.icons.list
 wmp.media.create
 wmp.media.delete
+wmp.media.folders.create
 wmp.media.folders.list
+wmp.media.folders.update
 wmp.media.info
 wmp.media.list
+wmp.media.memberships.create
+wmp.media.replace
 wmp.media.uploads.config
 wmp.media.uploads.presign
 wmp.routes.create
