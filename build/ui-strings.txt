@@ -188,9 +188,9 @@
 1D separable convolution is not implemented yet.
 2,600+ apps in the App Marketplace meant fewer tabs and faster decisions.
 2. Paste the response below, or paste your exported memory file.
+:E.mv.ConfirmationModal,onClose:eG,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :E.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eP?eU:void 0,className:s()(eP||S||ej?
 :E.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:ej?eU:void 0,className:s()(ej||S||eD?
-:I.mv.ConfirmationModal,onClose:eG,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eD?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eP?
@@ -495,13 +495,14 @@ AI is turned on for your team
 AI message explanations
 AI notes & transcription
 AI notes and transcription
+AI notes and transcription are back on
 AI notes and transcription are on.
 AI notes and transcription mode is allowed for huddles.
 AI notes and transcription on
 AI notes are back on
+AI notes are now back on. By participating, you agree to your audio being captured.
 AI notes are on
 AI notes are on for this huddle, so thread replies may be summarized in the notes.
-AI notes cancelled and deleted
 AI notes cancelled and transcript deleted
 AI notes not available for huddles in Slack Connect channels
 AI notes not available for huddles with guests
@@ -512,6 +513,7 @@ AI notes on 4 Outlines
 AI notes on Outlines
 AI notes only
 AI notes will be posted in channel in just a few.
+AI notes will be turned back on. By participating, you agree to your audio being captured. No audio recording or transcription will be stored.
 AI permissions
 AI powered
 AI prompt suggestions
@@ -2370,6 +2372,7 @@ Attribute Picklists
 Attribute modifier.
 AttributeNames has been replaced by MessageSystemAttributeNames
 Audio and video clips
+Audio capture stopped and AI notes deleted
 Audio connectivity
 Audio context needs to be set on LocalAudioTrack in order to enable processors
 Audio context suspended
@@ -4284,6 +4287,7 @@ Close meeting assistant session
 Close meeting notes
 Close menu
 Close method called on signal client
+Close mini player with stale-closing safety net
 Close modal
 Close open edits with no changes and warn on edits with unsaved changes
 Close open tiles or flexpanes
@@ -5009,6 +5013,7 @@ Could not update the approval status, please refresh and try again.
 Could not write Huddle window layout to localStorage: 
 Could not write chime media regions to localStorage: 
 Could not write grid type to localStorage: 
+Could not write self-tile corner to localStorage: 
 Could not write voice focus cache to localStorage: 
 Count 2 Outlines
 Count 3 Outlines
@@ -7130,6 +7135,7 @@ Experiment name
 Experiment not enabled for team, skipping
 Experiments state was overridden
 Expiration date
+Expires a closing state whose handshake was never completed
 Explain Error
 Explain message
 Explain the guidelines you want members to follow when they set their display names.
@@ -13198,6 +13204,7 @@ No markdown content found for file
 No matches found - Try searching for a different teammate
 No matches found - Try using their email instead
 No matches found.
+No matches in your suggested records
 No matches. Try a different search term.
 No matching Salesforce user was found for this Slack user.
 No matching installed apps found.
@@ -16813,11 +16820,13 @@ Results have come in, flatten and store in Redux
 Resume AI Notes & Transcription
 Resume AI notes
 Resume AI notes & transcription
+Resume AI notes and transcription?
 Resume a paused huddle recording
 Resume a paused huddle summary
 Resume notifications
 Resume taking notes with AI?
 Resume transcription
+Resume transcription?
 Resumed signal connection
 Resumes a download on the desktop app
 Resumes a workflow execution by ID and refreshes client token
@@ -21232,6 +21241,7 @@ Team data unavailable
 Team dinner with Acme Corp stakeholders during Q2 planning offsite in San Francisco.
 Team governance
 Team id is undefined for the 
+Team is not eligible for trial redemption per API check
 Team name 1
 Team name 2
 Team name 3
@@ -22242,11 +22252,14 @@ Transcript is now available for this video.
 Transcript processing
 Transcription cancelled and transcript deleted
 Transcription failed. Please try again.
+Transcription is back on
 Transcription is now back on and will be included in the AI summary. By participating, you agree to being transcribed.
+Transcription is now back on. By participating, you agree to being transcribed.
 Transcription on
 Transcription only
 Transcription started successfully
 Transcription will be turned back on and will be included in the AI summary. By participating, you agree to being transcribed. Make sure everyone else is cool with that, too.
+Transcription will be turned back on. By participating, you agree to being transcribed. Make sure everyone else is cool with that, too.
 Transfer Ownership
 Transfer canvas ownership
 Transfer lists ownership
@@ -22297,7 +22310,6 @@ Trial Promo Type
 Trial Seven Days Left Modal
 Trial Team
 Trial Tester
-Trial redemption suppressed by kill switch
 Tried rendering app in nonexistant child window
 Tried to call enqueueRequest with invalid params. This is a programming error.
 Tried to clog an empty entity_id in external record search result (called from useShareExternalRecord)
@@ -22645,6 +22657,7 @@ Unable to perform action. Please try again.
 Unable to re-focus element
 Unable to read grid type from localStorage
 Unable to read permissions.
+Unable to read self-tile corner from localStorage
 Unable to recover 
 Unable to remove access. Refresh and try again later.
 Unable to remove policy. Please try again later
@@ -23504,6 +23517,7 @@ Upgrade Requested
 Upgrade Response Received
 Upgrade To Business+
 Upgrade To Pro
+Upgrade available
 Upgrade for unlimited apps
 Upgrade to Business+
 Upgrade to Pro
@@ -23684,6 +23698,7 @@ Upserts users.recommend request_id
 Upserts whether an acceptance attempt has failed for a specific Slack Connect invite
 Upset an admin app config to the store
 Use 3 stats for a balanced layout, or 4 for dense data sections
+Use AI in workflows to automate little things that add up.
 Use AI to summarize the 
 Use Authentication App
 Use Backup Authentication App
