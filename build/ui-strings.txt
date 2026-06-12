@@ -180,7 +180,6 @@
 . You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument).
 . You may want to try using different keywords, checking for typos, or adjusting filters.
 .type should be specified.
-1. Copy the prompt below and paste it into your other AI assistant to export your memories.
 10-core CPU, 10-core GPU. Fanless design. 18 hours battery. Great all-around laptop.
 10-core CPU, 10-core GPU. Up to 24 hours battery life. Liquid Retina XDR display.
 10-core CPU, 8-core GPU. Most portable Mac. Perfect for everyday work and travel.
@@ -189,10 +188,9 @@
 1D separable convolution is not implemented yet.
 2,600+ apps in the App Marketplace meant fewer tabs and faster decisions.
 2. Paste the response below, or paste your exported memory file.
-:E.mv.ConfirmationModal,onClose:eG,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :E.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eP?eU:void 0,className:s()(eP||S||ej?
 :E.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:ej?eU:void 0,className:s()(ej||S||eD?
-:I.mv.ConfirmationModal,onClose:eG,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eD?
+:I.mv.ConfirmationModal,onClose:eG,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eD?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eP?
@@ -277,8 +275,10 @@ A file was deleted
 A file was made public
 A file was shared
 A file was unshared
+A file with that name is already in that folder.
 A file you saved was deleted.
 A file you saved was not found.
+A folder with that name already exists here.
 A h:mm:ss
 A helpful subtitle description
 A huddle happened
@@ -896,6 +896,7 @@ Add Instructions
 Add Integration
 Add Item
 Add Knowledge Source
+Add Leads
 Add List Tab to the channel header
 Add MCP Server
 Add Members
@@ -2232,7 +2233,6 @@ Artemis II in space
 Article Quality Index
 Article With Pretext
 As hybrid workplaces become the norm, maintaining employee satisfaction and a positive culture is more important than ever.
-As you chat with Slackbot, it will remember your preferences and the topics you care about so responses feel more personal over time.
 Asana Outlines
 Asia Pacific (Hong Kong)
 Asia Pacific (Hyderabad)
@@ -2427,7 +2427,6 @@ Automated notifications and system messages
 Automatic acceptance
 Automatic by language
 Automatic statuses
-Automatic updates
 Automatically accept all invitations as private channels in any Slack Connect enabled workspace only if approvals are not required
 Automatically accept all invitations as private channels in any Slack Connect enabled workspace only if approvals are not required.
 Automatically accept all invitations as private channels in specific workspaces only if approvals are not required
@@ -3840,7 +3839,6 @@ Choose data to test with:
 Choose date and time
 Choose from over 2,600 apps in the Slack App Directory to support whatever work you do - from Salesforce, Jira, Google Drive, ChatGPT, and more.
 Choose from over 2,600 apps in the Slack App Directory, including AI assistant apps.
-Choose how AI structures its response.
 Choose how the SAML response from your identity provider is signed (you must choose at least one option).
 Choose how the target should be compared to the value, such as equals, contains, or does not equal.
 Choose how to configure this step
@@ -4369,6 +4367,7 @@ Collaborating organizations
 Collaboration illustration
 Collaborative lists
 Collaboratively track deals for new customer accounts.
+Collapse Sales Tracker
 Collapse a channel in All Unreads
 Collapse all collections
 Collapse an inline file preview
@@ -4386,7 +4385,6 @@ Collapse thinking steps
 Collapse this widget
 Collapse thread
 Collapse timeline
-Collapse topic
 Collapsed - Offer revealed
 Collapsible Container
 Collapsible Container (Collapsed)
@@ -5591,6 +5589,7 @@ DefaultVideoTransformDevice: detach stopping input media stream
 Deferred messaging client data fetches
 Deferring to target team
 Define Summary
+Define the outputs you need and AI shapes its response to match
 DejaVu Sans
 DejaVu Serif
 Delay must be a valid number.
@@ -7063,6 +7062,7 @@ Exit full screen
 Exit full screen mode?
 Exiting due to invalid message contents
 Expand All
+Expand Sales Tracker
 Expand a channel in All Unreads
 Expand all
 Expand all collections
@@ -7084,7 +7084,6 @@ Expand thinking steps
 Expand timeline
 Expand to full width
 Expand toolbar
-Expand topic
 Expanded reaction bundle
 Expanded rich text
 Expands or collapses the Sidebar when the user presses the keyboard shortcut
@@ -7168,7 +7167,6 @@ Export Product UIs
 Export Workflow Failure
 Export Workflow Success
 Export a workflow as a template
-Export all of my stored memories and any context you
 Export channels from channel management with filters applied
 Export data from this date onward
 Export flagged content
@@ -8379,6 +8377,7 @@ Folder added
 Folder items
 Folder name
 Folder path
+Folders this asset is in
 Follow all thread replies in this channel
 Follow every thread
 Follow thread
@@ -9277,6 +9276,7 @@ Help Slack understand your feedback better by attaching your recent Slackbot con
 Help button
 Help center
 Help center URL
+Help me add new leads to Slack, either by uploading them as a CSV file or adding them manually.
 Help me connect my apps to Slack
 Help me create a new skill.
 Help me draft a meeting invite
@@ -9675,14 +9675,13 @@ Import CSV
 Import CSV as a list
 Import CSV file
 Import Leads from CSV
-Import Memories
 Import Workflow Failure
 Import Workflow Success
 Import a Hermes Workflow
-Import memories
 Import workflow
 Import workflow and triggers
 Import your contacts and track follow-ups.
+Import your existing leads or get help creating new ones with your AI-powered sales agent, Slackbot.
 Important notifications about the background stuff.
 Important notifications from Slack Security
 Important unreads
@@ -11041,6 +11040,7 @@ Log Event
 Log Salesforce Call Action
 Log a Slackbot AI NUX event
 Log a Slackbot AI event
+Log a Slackbot memory NUX action button click
 Log activity
 Log activity global action
 Log entries
@@ -11607,6 +11607,7 @@ M78.54 90.45c4.17 0 7.54 3.38 7.54 7.54 0 4.17-3.38 7.54-7.54 7.54-4.17 0-7.54-3
 M79.5 108.7c-2 2.9-4.2 6.1-5.5 8.7
 M8 12h.01
 M8 21h8M12 17v4
+M8 5v14l11-7z
 M8.03 3.78a.75.75 0 0 0-1.06-1.06L1.72 7.97a.75.75 0 0 0 .53 1.28h15.5a.75.75 0 0 0 0-1.5H4.06zm3.94 12.44a.75.75 0 1 0 1.06 1.06l5.25-5.25a.75.75 0 0 0-.53-1.28H2.25a.75.75 0 0 0 0 1.5h13.69z
 M8.036 11.179h3.929L10 5.679z
 M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z
@@ -11876,7 +11877,6 @@ Manage legal holds
 Manage member permissions
 Manage members
 Manage memories
-Manage memory
 Manage my sidebar
 Manage permissions
 Manage private channel access
@@ -12276,7 +12276,6 @@ Membership limit updated
 Memoized component that skips re-renders if props are the same
 Memory Management
 Memory Usage
-Memory removed
 Memory usage by string tensors is approximate (2 bytes per character)
 Menlo,Consolas,Monaco,Liberation Mono,Lucida Console,monospace
 Mention an agent
@@ -13176,6 +13175,7 @@ No fragment named
 No fragments in live playlist
 No fragments to align
 No functions found for category, removing selection:
+No groups
 No groups or people are selected
 No huddle id found
 No imsgs in response!
@@ -13240,6 +13240,7 @@ No org name found
 No orgUrl provided and found 
 No organization-wide policy
 No other branch rules are met
+No outputs defined.
 No pages use this component.
 No parent window
 No pending call state
@@ -13781,6 +13782,7 @@ Open Pro to Business Plus trial offer modal
 Open Record
 Open Request CRM License modal
 Open Request to Purchase modal
+Open Sales Tracker
 Open Salesforce organizations menu
 Open Saved for later page
 Open Saved in either page or flexpane
@@ -14210,6 +14212,7 @@ Opens the ignore this modal
 Opens the invite (new users) modal
 Opens the join workspace permalink dialog
 Opens the later custom modal
+Opens the later remove modal for a tombstoned saved item
 Opens the leave a workspace dialog
 Opens the manage email connection dialog
 Opens the modal that shows recently visited views
@@ -14370,7 +14373,7 @@ Out-of-order effect
 Outer Stroke
 Outline Re-renders
 Outlook Calendar
-Output Format
+Output format
 Output format mode
 Output shape
 Output type
@@ -14420,6 +14423,7 @@ PDFImage.createImageData: The image must be grayscale.
 PDFImage.getImageBytes: Unsupported 
 PDFNetworkStream.getFullReader can only be called once.
 PDFWorkerStream.getFullReader can only be called once.
+PR merged
 PROJ-1234: Fix login timeout on mobile
 PTS rollover detected
 Pacific Standard Time
@@ -14487,7 +14491,6 @@ Paste a link
 Paste across cells
 Paste as text instead?
 Paste failed: Maximum of 100 cells reached. Please reduce your paste size and try again.
-Paste memories here...
 Paste tabular data into lists (grid view)
 Paste this URL in any channel, bookmarks bar or space to run this workflow from anywhere.
 Patching desktop delegates
@@ -14732,7 +14735,6 @@ Personal account type not supported with v8 one drive file picker
 Personal task tracking
 Personalize Events
 Personalize Runtime
-Personalize Slackbot Memory
 Personalize a welcome message
 Personalize what Slackbot remembers about your unique work.
 Phew! Done.
@@ -16855,7 +16857,7 @@ Returns an emoji object for use in Spaceship
 Returns the assignments (workspaces based on usergroups) of a single role member
 Returns the correct number of external files for the compose flow, given the MAX_FILE_UPLOAD_COUNT
 Returns the enterprise organization
-Returns the full text that AI generates. This becomes a variable you can use in later steps.
+Returns the full text that AI generates
 Returns the result of channel name validation for the Channel Create modal
 Returns whether a user is already assigned to a role
 Reveal Views
@@ -17544,7 +17546,6 @@ See workflows
 See yesterday
 See your most important unreads first
 See your primary Google Account email address
-See your sales pipeline in one view
 See your summaries in a predictable order or just focus on the newest.
 Seeds the Slackbot AI NUX kickoff thread ts pin set (used for hydration)
 Segment targeting question in #AI-customer-app-launch
@@ -17610,6 +17611,7 @@ Select all
 Select all items
 Select all steps for this category
 Select an agent
+Select an asset
 Select an end date
 Select an existing Salesforce data source and object, so your trigger knows what to look for. Then add conditions to your trigger to get even more specific about when it should fire.
 Select an existing channel
@@ -17671,6 +17673,7 @@ Select your company size
 Select your favorites
 Select your workflow and copy the link to share it with teammates.
 Selected Users
+Selected assets
 Selected channels
 Selected channels section
 Selected columns
@@ -18231,6 +18234,7 @@ Set isBooted for entity
 Set isFetchingBulkRecords for current sales bulk grid
 Set isOnboardingHuddlesTipVisible value
 Set isSwitchOnExplainerVisible value
+Set is_eligible_invited_user_glow_up from client.extras features data
 Set is_restricted_sharing_enabled to false for a file
 Set is_restricted_sharing_enabled to true for a file
 Set last fetched starred files
@@ -20289,12 +20293,10 @@ Slackbot is ready. Type a message or choose a suggested skill to begin.
 Slackbot is thinking
 Slackbot message
 Slackbot response stopped
-Slackbot saved these from your conversations to make future responses more relevant.
 Slackbot settings
 Slackbot teaser
 Slackbot tool
 Slackbot will do the organizing for you
-Slackbot will look through your Slack history to update memories.
 Slackbot will message you when your images are ready for download.
 Slackbot will not include files in search results
 Slackbot will show any files uploaded in search results.
@@ -20381,7 +20383,6 @@ Something went wrong in cancel plan API
 Something went wrong loading content from this app.
 Something went wrong loading domain verification. Please try again later.
 Something went wrong loading your Salesforce connections. Please try again.
-Something went wrong on our end. Try closing and reopening this window.
 Something went wrong removing the field. Please try again.
 Something went wrong responding to the invite.
 Something went wrong saving this object type. Try again in a few minutes.
@@ -21687,6 +21688,7 @@ This app is not approved by Slack. Apps are reviewed to ensure a quality experie
 This app is unavailable
 This app must be installed on your workspace before you can connect. Install the app first, then try again.
 This app requires permission to access the following resources:
+This asset
 This attachment exercises every prop that flows through the V3 rendering path, including pretext, author info, fields, footer, image, and color.
 This attachment has a red color border set via the color prop.
 This attachment has text and a title but no image or thumbnail.
@@ -21822,7 +21824,6 @@ This meeting is being transcribed using AI for note-taking purposes.
 This meeting was created using Slack
 This member does not belong to any workspaces.
 This member does not have any roles
-This memory will be removed from Slackbot:
 This message failed to send
 This message has been deleted or does not exist.
 This message is from a bot and you should look at it
@@ -22163,7 +22164,6 @@ Too many users to display. You may only add users here. To remove users, please 
 Tool execution failed
 Tool name
 Tool permissions
-Tools & Agents
 Tools & settings
 Tools give Slackbot permission to take actions on your behalf.
 Tools list cleared.
@@ -22925,6 +22925,7 @@ Untitled Sidekick
 Untitled Skill
 Untitled Window
 Untitled Workflow
+Untitled asset
 Untitled conversation
 Untitled event
 Untitled file
@@ -25066,6 +25067,7 @@ Your recently viewed or updated canvases will show up here.
 Your request has already been submitted.
 Your request was sent
 Your sales notifications
+Your sales pipeline, in one view
 Your schema has changed. Open and save this step to update your form.
 Your sidebar is your own.
 Your signature emoji
