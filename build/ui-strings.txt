@@ -188,9 +188,9 @@
 1D separable convolution is not implemented yet.
 2,600+ apps in the App Marketplace meant fewer tabs and faster decisions.
 2. Paste the response below, or paste your exported memory file.
+:E.mv.ConfirmationModal,onClose:eG,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :E.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eP?eU:void 0,className:s()(eP||S||ej?
 :E.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:ej?eU:void 0,className:s()(ej||S||eD?
-:I.mv.ConfirmationModal,onClose:eG,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eD?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eP?
@@ -199,7 +199,7 @@
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:ej?eU:void 0,className:s()(ej||S||eD?
 :O instanceof RegExp?
 :_ instanceof RegExp?
-:a?l:void 0,children:m?
+:a?r:void 0,children:m?
 :bulb: Get your team on the same page with canvases.
 :bulb: Stay on track with lists.
 :e instanceof File?
@@ -1706,6 +1706,7 @@ Allow this trigger to access
 Allow users to change their display names
 Allow users to change their email address
 Allow users to perform app actions by typing commands in Slack.
+Allow users to skip repeated approvals for file actions
 Allow video calls in Slack
 Allow web search for Slackbot?
 Allow web search?
@@ -3865,6 +3866,7 @@ Choose when to allow message editing.
 Choose when to start the migration
 Choose whether to allow app installations of Slack Marketplace apps.
 Choose whether to allow members to share files externally by creating public URLs.
+Choose whether users can skip repeated tool approvals on a per-file basis.
 Choose whether users on a single workspace should see the workspace icon instead of the org icon in their sidebar
 Choose which audit log anomalies you want to detect in your organization and immediately terminate user sessions when detected.
 Choose who can add, remove, and reorder tabs
@@ -13479,6 +13481,7 @@ Nothing new. Carry on.
 Nothing to fetch after delay after all
 Nothing to summarize
 Nothing turned up
+Nothing was deleted.
 Notification Channel
 Notification ID copied to clipboard.
 Notification channel
@@ -14694,6 +14697,7 @@ People who can manage custom emoji
 People who can view workspace analytics:
 People with access
 People you might know
+Per-file approval bypass
 Perform any processing work necessary for unchanged channels
 Perform lookups needed to determine if inviter is a member of a channel
 Performance APIs not available. Update your Slack app!
@@ -21391,6 +21395,8 @@ The arity of each
 The array must have only 1 element.
 The ask agentforce step cannot be used with channels outside your organization. Please choose channels within your organization to proceed.
 The ask agentforce step cannot be used with users from outside your organization. Please choose someone within your organization to proceed.
+The asset
+The assets
 The associated Salesforce user account is frozen or inactive.
 The attendee couldn
 The attendee joined from another device.
@@ -21514,6 +21520,7 @@ The rnn() functoin of the deeplearn.js backend does not support constants yet.
 The routing address already exists.
 The same day
 The section name is too long
+The selected asset is
 The selected canvas is shared externally and cannot be shared after a ask agentforce step. To continue, select a canvas in your organization.
 The selected canvas is shared externally and cannot be updated after a ask agentforce step. To continue, select a canvas in your organization.
 The selected channel could not be found.
@@ -23829,10 +23836,13 @@ UserAccessPolicy (Beta)
 Usernames (AKA our 
 Users and files
 Users are not required to approve each web search.
+Users can choose to skip repeated approvals for tool actions on a per-file basis.
 Users can customize their privacy level
 Users can edit records directly from all list views in Slack
 Users can edit records from the list view by default, but in-list editing is disabled for specific objects
+Users can skip repeated approvals for tool actions on a per-file basis.
 Users list
+Users must approve every tool action on files individually.
 Users must approve every web search.
 Users navigate directly to web search citations.
 Users on this list can view Salesforce data in Slack once authenticated.
@@ -24332,6 +24342,7 @@ We brought back your notifications
 We cannot automatically determine where this channel should be created based on the external organizations.
 We cannot write HTML in SSB
 We couldn
+We encountered a problem while loading. Try refreshing, and if the problem persists, contact your admin.
 We ended your huddle since you were the only one there for a bit.
 We had a network request timeout and are on the SSB, we will now check to see if we have a broken network stack caused by an orphaned service worker
 We had some trouble connecting. Please try again.
@@ -25112,7 +25123,6 @@ Zoom Reset
 Zoom out
 ZoomAudioDevice (Virtual)
 [ANNOUNCER-API] Announcer API provider was not mounted above in the tree.
-[AudioRed] Encoded insertable streams not supported. Recreating peer connection with audio redundancy disabled.
 [React Scan] Failed to load. Must import React Scan before React runs.
 [mp4-remuxer]: Unable to get silent frame for given audio codec; duplicating last frame instead.
 [passthrough-remuxer.ts]: Failed to generate initSegment.
