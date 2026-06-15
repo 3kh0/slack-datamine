@@ -13,7 +13,6 @@
  UI. They all have slightly different capabilities that we are hoping to consolidate. This story builds a simple UI with all 3 components.
  Use the Meeting Prep skill.
  a custom status.
- account to view diffs for this channel.
  action.
  and accumulates delta time to calculate how many tokens to advance each tick. A configurable refresh rate throttles updates to avoid unnecessary renders.
  and relevant regional guidelines.
@@ -189,9 +188,9 @@
 1D separable convolution is not implemented yet.
 2,600+ apps in the App Marketplace meant fewer tabs and faster decisions.
 2. Paste the response below, or paste your exported memory file.
+:E.mv.ConfirmationModal,onClose:eG,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :E.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:ej?eU:void 0,className:s()(ej||S||eD?
 :E.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:ej?eU:void 0,className:s()(ej||S||eP?
-:I.mv.ConfirmationModal,onClose:eG,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:$,headerImageAlt:e1,title:eP?eB:void 0,className:s()(eP||S||eO?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eD?
 :I.mv.ConfirmationModal,onClose:eV,headerImageSrc:Y,headerImageAlt:e1,title:eO?eU:void 0,className:s()(eO||S||eP?
@@ -2263,7 +2262,6 @@ Ask me anything about this account
 Ask me anything about this contact
 Ask me anything about this file
 Ask me anything about this record
-Ask me anything or check back later for new suggestions.
 Ask questions like 
 Ask the user to try authenticating again. If the issue persists, verify the Salesforce connection settings.
 Asks for video permission and enumerates devices
@@ -2845,7 +2843,6 @@ Bullet Text
 Bullet points work well for feature lists; paragraph works better for storytelling
 Bulleted list
 Bun Alerts
-Bundle actions
 Bundle row missing bundleKey
 Bundled with premium Slack features like AI assistance, advanced admin controls and more
 Burkina Faso
@@ -4400,7 +4397,6 @@ Collapse list
 Collapse or expand all
 Collapse pinned messages
 Collapse reaction bundle
-Collapse suggestions
 Collapse thinking steps
 Collapse this widget
 Collapse thread
@@ -4859,6 +4855,7 @@ Copy draft text
 Copy email address
 Copy email text
 Copy example HTTP body
+Copy filepath
 Copy formatted workflow URL to clipboard and enqueue toast on success
 Copy forwarding email
 Copy help article link
@@ -6005,8 +6002,6 @@ Dismiss Suggested Message
 Dismiss Until Start Time
 Dismiss XWS education banner
 Dismiss a flagged message report
-Dismiss a live welcome mat card by sourceId
-Dismiss a slackbot focus item by topic
 Dismiss all Progressive Disclosure tips from user clicking 
 Dismiss and continue running workflow
 Dismiss banner
@@ -6867,7 +6862,6 @@ Error fetching permissions.info. General permissions error:
 Error fetching related list from Salesforce. Try again later.
 Error fetching requested scopes for admin resolution from message
 Error fetching slackAi.permissions.getForUser
-Error fetching slackbot focus items
 Error fetching updated domain list
 Error for force refreshing unreads
 Error generating key-session request:
@@ -8109,7 +8103,6 @@ Fetches sfdc user.info the user
 Fetches sfdc.integration.listOrgs
 Fetches sfdc.integration.listOrgs on Salesforce policy change
 Fetches shared channel url invite
-Fetches slackbot focus items
 Fetches suggested prompts for no-results Slackbot handoff
 Fetches synced drafts
 Fetches teams by query from the API
@@ -9349,7 +9342,6 @@ Help me prep for my meeting:
 Help me prep for my meetings tomorrow
 Help me prepare for a meeting with 
 Help me prepare for an upcoming customer meeting using the Meeting Prep Skill.
-Help me prepare for my meeting 
 Help me respond
 Help me set up a new task.
 Help me set up an automation
@@ -14229,7 +14221,6 @@ Opens the Sonic Channel Invite Modal in client
 Opens the Texty create link or edit link dialogs based on the current selection
 Opens the Texty edit link modal
 Opens the Texty link form modal
-Opens the Welcome Mat feedback modal
 Opens the What
 Opens the Work Object Full Size Preview Modal
 Opens the Work Object Record Modal
@@ -15588,8 +15579,6 @@ Read the docs
 Read the full story
 Read the post
 Read the story
-Read this mention from 
-Read this message from 
 Reader aborted too early
 Reading device selection history from local storage
 Reading project documentation
@@ -16594,7 +16583,6 @@ Replace product release cards
 Replace split view
 Replace text emoji with native
 Replace the ID of the existing starred collection with the real one from the server
-Replace the full list of dismissed slackbot focus topics
 Replace the queue object
 Replace view set
 Replace with a new link
@@ -18668,11 +18656,9 @@ Set the list of recommended channels
 Set the list of recommended channels for multi-channel guest invite
 Set the list of selected channel options
 Set the list of selected channel options for multi-channel guest invite
-Set the list of slackbot focus items
 Set the list of tokenized invites
 Set the loading state flag when fetching more org members
 Set the loading state flag when fetching the org members
-Set the loading state for slackbot focus items
 Set the loading state of a specific module
 Set the loading state of agent exchange results
 Set the loading state when fetching a single admin user group
@@ -19200,7 +19186,6 @@ Sets the active thread ts
 Sets the active thread ts for the agent home DM view
 Sets the active thread_ts for SlackBoss conversation
 Sets the active view mode for the agent home DM view
-Sets the active welcome mat card ID for clog attribution
 Sets the adin advisor data
 Sets the admin advisor data loading state
 Sets the admin home data
@@ -20482,6 +20467,7 @@ Something went wrong drafting the email
 Something went wrong drafting the message
 Something went wrong during notification dismissal
 Something went wrong fetching insights
+Something went wrong fetching the diff. Please try again later.
 Something went wrong in cancel plan API
 Something went wrong loading content from this app.
 Something went wrong loading domain verification. Please try again later.
@@ -20754,7 +20740,6 @@ Start session timeouts on search unmount
 Start test
 Start the Sonic Channel Invite flow in client
 Start the canvas jukebox using content share
-Start thread in the background
 Start time
 Start time offset 
 Start transcription for current huddle
@@ -22737,6 +22722,7 @@ Unable to load Einstein Activity Capture status.
 Unable to load Salesforce organization details. Please try refreshing the page.
 Unable to load Salesforce organizations. Please try refreshing the page.
 Unable to load all migrations
+Unable to load diff
 Unable to load preview
 Unable to load the connectors for enterprise search. Please try again or contact support.
 Unable to load the current limit. Please close and try again.
@@ -24634,7 +24620,6 @@ Where conversations happen
 Where do I get help? Do we have a channel for this?
 Where do you usually work with your team?
 Where messages are sent
-Where to Start
 Where to apply this rule
 Where to next?
 Where your team is talking
