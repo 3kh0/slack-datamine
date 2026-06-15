@@ -1270,6 +1270,7 @@ Add teammate by email
 Add template to channel
 Add text
 Add text below
+Add the DNS record
 Add the names of people you work with. When you add a related teammate to your profile, your relationship may also appear on their profile.
 Add the step with a form
 Add the template to
@@ -3892,6 +3893,7 @@ Choose who can manage the Channel Expert
 Choose who can view the workspace Analytics page.
 Choose your 1:1 layout
 Choose your default skin tone
+Choose your verification method
 Choose your workflow steps
 Christmas Island
 Chrome WebView
@@ -5422,6 +5424,7 @@ DB Infra
 DER- Delete to End of Row
 DEV ONLY not intended for production use: Clears all notifications currently present in redux by recording a megaphone dismissal
 DEV ONLY not intended for production use: Clears notifications in a given space by recording a megaphone dismissal, until the desired notification is returned
+DKIM Key (Recommended)
 DLP Archived Violations Table
 DLP Rules Table
 DLP Violations Rule Table
@@ -5434,6 +5437,7 @@ DMs results loaded successfully
 DMs results threw an error while loading
 DMs results timed out
 DMs tab now hidden. You can bring it back in Preferences, if you
+DNS TXT record
 DOD SRG ILx
 DOM position not inside the editor
 DQT - invalid table spec
@@ -6142,10 +6146,12 @@ Does not support reading texture for complex64 dtype.
 Does the user have permission to join the channel
 Does the user have permission to leave the current channel
 Dolphin Halloween
+Domain Name
 Domain Verification
 Domain claiming
 Domain not allowed
 Domain search
+DomainKeys Identified Mail (DKIM) adds cryptographic signatures to your emails, providing stronger authentication, improving deliverability.
 Dominican Republic
 Done all uploads
 Done and done
@@ -6726,6 +6732,7 @@ Ensures members with corresponding ids are
 Ensures unknown channels with corresponding ids have been fetched
 Ensures unknown user groups with corresponding ids have been fetched
 Enter Single Domain
+Enter a DKIM key
 Enter a Skill Set name
 Enter a URL
 Enter a URL path.
@@ -6735,6 +6742,7 @@ Enter a folder name
 Enter a group handle
 Enter a group name
 Enter a handle
+Enter a key.
 Enter a link to a Google Doc, Google Slides, or uploaded Google Drive file.
 Enter a name or email
 Enter a name, email, or user group
@@ -6743,6 +6751,7 @@ Enter a number between 1 and 100.
 Enter a page name.
 Enter a variable name
 Enter agent description
+Enter an alternate DKIM key
 Enter at least 3 characters to search for a list in Salesforce
 Enter client ID
 Enter client secret
@@ -9507,6 +9516,7 @@ How to use Slack
 How to use Slack?
 How was the audio and video?
 How will the discount work?
+How would you like to verify your domain?
 How you and your team are using Pro features
 Huddle AI Notes
 Huddle Jukebox Manager created.
@@ -14257,6 +14267,7 @@ Opens the dev tips menu
 Opens the discard confirmation modal for activity logging
 Opens the doc in a new window
 Opens the docs Gantry app in a new window
+Opens the domain verification dialog modal
 Opens the downloads modal in client
 Opens the edit profile modal
 Opens the email attachment link confirmation modal in client
@@ -17718,6 +17729,7 @@ Select date and time
 Select field
 Select from Google Contacts
 Select groups
+Select how you want to verify your domain. Both methods require adding a DNS record to your domain.
 Select members from a list
 Select members who can use this server.
 Select microphone
@@ -20489,6 +20501,7 @@ Something went wrong while previewing this template. Please try again or contact
 Something went wrong while reordering the file.
 Something went wrong while reordering the link.
 Something went wrong while searching members.
+Something went wrong while setting up verification. Please try again.
 Something went wrong while submitting your app. Please try again.
 Something went wrong with how one or more of your settings has been configured.
 Something went wrong with starting your trial. Try again later.
@@ -20826,6 +20839,7 @@ Step 1 of 2
 Step 1 of 3
 Step 2 of 2
 Step 2 of 3
+Step 3 of 3
 Step category
 Step deleted.
 Step duplicated
@@ -21477,6 +21491,7 @@ The agent will forward messages to this channel when people request more help.
 The agent will use everything from a channel as sources.
 The agentforce step cannot be used with a private channel. Please choose a public channel to proceed.
 The all-calls-store should not be used in the call window. Use the active-call-store for local call state.
+The alternate key must be different from the DKIM key.
 The amount of computational work that your system performs
 The animation loop runs via 
 The app will no longer appear in the 
@@ -21931,6 +21946,7 @@ This message may have been hidden by another admin or deleted by the author.
 This message was deleted.
 This message was removed.
 This messaged was flagged for review by DLP scanning
+This method confirms you own the domain but doesn
 This method has been removed in JSZip 3.0, please check the upgrade guide.
 This might take a minute, but an organized list is worth it.
 This migration is complete.
@@ -23868,6 +23884,7 @@ Use to showcase social proof from two customers. Works well in a section followi
 Use to showcase the breadth of integrations available in Slack. Works well beneath a section header that introduces the integration story.
 Use to surface time-bound announcements (events, launches, deprecations) above the page header. Pair with a unique cookie key per announcement so dismissing one banner does not suppress future ones.
 Use up and down to move the slider along the Y axis, left and right to move along the X axis.
+Use up to 63 letters, numbers, or hyphens, starting and ending with a letter or number.
 Use up to two CTAs: the first renders filled (primary), the second outline (secondary)
 Use when a short product loop or motion graphic better demonstrates the feature than a static image.
 Use when the page message is strong enough without supporting media.
@@ -24084,6 +24101,7 @@ Verify domain
 Verify the correct user mapping. If needed, remove the existing mapping and have the user re-authenticate.
 Verify the user exists in Salesforce and the mapping field (email or username) matches between Slack and Salesforce.
 Verify your GitHub identity
+Verify your domain
 Verify your email
 Vertical Feather
 Vertical Layout
