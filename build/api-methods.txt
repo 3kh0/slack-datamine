@@ -173,6 +173,7 @@ admin.permissions.users.remove
 admin.quip.migration.approveOrgMappingRequest
 admin.quip.migration.deleteOrgMapping
 admin.quip.migration.denyOrgMappingRequest
+admin.quip.migration.getOrgMapping
 admin.quip.migration.getOrgMappings
 admin.roles.addMembers
 admin.roles.addUsergroups
@@ -709,6 +710,7 @@ enterprise.auth.idpconfig.apply
 enterprise.auth.idpconfig.list
 enterprise.auth.idpconfig.remove
 enterprise.auth.idpconfig.set
+enterprise.auth.idpconfig.setEma
 enterprise.auth.password.reset
 enterprise.auth.saml.authnSigningCerts.get
 enterprise.auth.session.set

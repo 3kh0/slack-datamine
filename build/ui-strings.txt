@@ -147,6 +147,7 @@
 )?l.makeImage(e.slice(8),new u.A(t,i,n,r),o?
 *Bold text* and _italic text_ in the entity body.
 *Cat* has approved this message.
+*Tip:* Callouts can hold rich text, sections, dividers, and images.
 + Added: New authentication flow for SSO users.
 , or there is other JavaScript running during this interaction that took up the majority of the time.
 , other JavaScript not part of React, or work the browser has to do to update the DOM and draw the next frame.
@@ -1018,7 +1019,7 @@ Add a saved search
 Add a selected group to the collection of selected groups
 Add a selected user to the collection of selected users
 Add a short description
-Add a skill to this Skill Set
+Add a skill to this skill set
 Add a step
 Add a summary
 Add a tab
@@ -1374,7 +1375,6 @@ Adds Integration Apps to the store
 Adds Slackbot responses to the list
 Adds Workflow templates list to the store
 Adds a Quip document id as the latest document
-Adds a Skill Set id to the installed list (idempotent)
 Adds a bookmark to the channel specified
 Adds a calendar reminder
 Adds a comment to a flagged content item
@@ -1408,6 +1408,7 @@ Adds a search history item and updates the url with its id
 Adds a set of users to a given role
 Adds a single related channel to a record
 Adds a skill entry to the enabled list
+Adds a skill set id to the installed list (idempotent)
 Adds a step to a Hermes Workflow
 Adds a tab to a channel and navigates to that tab
 Adds a team to the enterprise_excluded_app_teams pref
@@ -1709,6 +1710,7 @@ Allow recipients to mute this notification
 Allow replies for this thread
 Allow screen recording access in system preferences.
 Allow third-party calls in Slack
+Allow this identity provider to issue ID-JAG tokens so MCP apps can exchange them for short-lived Slack access tokens.
 Allow this trigger to access 
 Allow users to change their display names
 Allow users to change their email address
@@ -2173,7 +2175,6 @@ Are you in the right workspace?
 Are you sure you want to cancel?
 Are you sure you want to clear everything matching this filter?
 Are you sure you want to continue with the Pro trial?
-Are you sure you want to delete this Skill Set?
 Are you sure you want to delete this bookmark? This cannot be undone.
 Are you sure you want to delete this canvas?
 Are you sure you want to delete this comment? This cannot be undone.
@@ -2186,6 +2187,7 @@ Are you sure you want to delete this list?
 Are you sure you want to delete this message? This cannot be undone.
 Are you sure you want to delete this module? All changes and data elements will be lost.
 Are you sure you want to delete this scope?
+Are you sure you want to delete this skill set?
 Are you sure you want to delete this template?
 Are you sure you want to discard this snippet permanently?
 Are you sure you want to disconnect and delete this org?
@@ -3453,7 +3455,6 @@ Card image and text
 Card image only
 Card options
 Card title only
-Card with Slack icon
 Card with subtext
 Card with three actions
 Card without icon
@@ -4873,7 +4874,6 @@ Copy image
 Copy image to clipboard with toast
 Copy invite link
 Copy link
-Copy link to Skill Set
 Copy link to a prompt
 Copy link to canvas
 Copy link to comment
@@ -4889,6 +4889,7 @@ Copy link to record
 Copy link to section
 Copy link to single file message
 Copy link to skill
+Copy link to skill set
 Copy link to subtask
 Copy link to template
 Copy link to video
@@ -5130,7 +5131,6 @@ Create a Product UI
 Create a Quip doc
 Create a Release Note
 Create a Salesforce Channel
-Create a Skill Set
 Create a User Group
 Create a Workflow
 Create a canvas
@@ -5177,6 +5177,7 @@ Create a saved search
 Create a section
 Create a section.
 Create a sidebar section
+Create a skill set
 Create a snippet shortcut - opens snippet dialog
 Create a space to collaborate
 Create a spreadsheet from a form
@@ -5656,7 +5657,6 @@ Delete Release
 Delete Release Note
 Delete Role
 Delete Simplified Sidebar
-Delete Skill Set
 Delete Status
 Delete View
 Delete WMP content library item
@@ -5727,6 +5727,7 @@ Delete segment
 Delete selected servers?
 Delete sidekick
 Delete skill
+Delete skill set
 Delete sorted field
 Delete subtask
 Delete summary
@@ -5809,8 +5810,8 @@ Describe how you want AI to edit your draft
 Describe how your team plans to use this list
 Describe the Slack app UI you want to build
 Describe the types of messages that should start this workflow (e.g., 
-Describe this Skill Set
 Describe this folder
+Describe this skill set
 Describe what AI should do and how it should respond.
 Describe what you are looking for
 Describe what you want AI to write
@@ -6131,6 +6132,9 @@ Document and share ideas and knowledge
 Document became visible
 Document became visible without previous hidden event
 Document boundary indicators are not allowed within string values
+Document conversions
+Document conversions (Quip admin)
+Document conversions as permitted by the Quip organization admin.
 Document discussion topics and next steps.
 Document end marker line cannot have a non-comment suffix
 Document has no default view
@@ -6328,8 +6332,6 @@ Edit Redirect URL
 Edit Salesforce Notifications
 Edit Settings
 Edit Sidebar
-Edit Skill Set description
-Edit Skill Set name
 Edit Tabs
 Edit Task
 Edit Template
@@ -6420,6 +6422,8 @@ Edit settings
 Edit sharing and file downloads.
 Edit sidebar
 Edit sidekick
+Edit skill set description
+Edit skill set name
 Edit snippet
 Edit status
 Edit task
@@ -6452,7 +6456,6 @@ Edit workspace
 Edit workspace details
 Edit workspaces
 Edit your profile
-Edit your to-do
 Edit your working hours
 Editing from list views
 Editing is not permitted
@@ -6622,6 +6625,7 @@ Enable incoming emails
 Enable invitations to new channels to be automatically accepted
 Enable member provisioning for your team.
 Enable noise suppression
+Enable or disable document conversions for all users. Disabling conversions prevents users from converting documents but preserves existing organization connection.
 Enable or disable local microphone
 Enable org chart
 Enable password-free authentication
@@ -6640,6 +6644,7 @@ Enabled for all workspaces
 Enabled for specific workspaces
 Enablement details API returned non-ok
 Enables 2fa and updates an enterprise locked org pref
+Enables or disables Enterprise Managed Authorization for a single IdP config
 Enables or disables a user from an enterprise and all their teams
 Enables restricted sharing for a file
 Enables the Native Channel Expert for a given channel
@@ -6734,7 +6739,6 @@ Ensures unknown channels with corresponding ids have been fetched
 Ensures unknown user groups with corresponding ids have been fetched
 Enter Single Domain
 Enter a DKIM key
-Enter a Skill Set name
 Enter a URL
 Enter a URL path.
 Enter a description
@@ -6749,6 +6753,7 @@ Enter a name, email, or user group
 Enter a new tag...
 Enter a number between 1 and 100.
 Enter a page name.
+Enter a skill set name
 Enter a variable name
 Enter agent description
 Enter an alternate DKIM key
@@ -6789,6 +6794,7 @@ Enterprise (Premium)
 Enterprise Grid
 Enterprise Key Management
 Enterprise License Agreement
+Enterprise Managed Authorization
 Enterprise Select Plan
 Enterprise customers
 Enterprise developers list
@@ -7312,10 +7318,10 @@ FY25 Period 19 (Jul)
 FY25 Period 20 (Aug)
 Fail a provisional connection
 Failed SIMD estimation; falling back to non-SIMD.
-Failed to add Skill Set to library
-Failed to add Skill Set to library from unfurl
-Failed to add Skill Set. Please try again.
-Failed to add skill to Skill Set
+Failed to add skill set to library
+Failed to add skill set to library from unfurl
+Failed to add skill set. Please try again.
+Failed to add skill to skill set
 Failed to add skill. Please try again.
 Failed to add team to exclude list; continuing with signout
 Failed to add the required bot scopes to the app.
@@ -7491,7 +7497,7 @@ Failed to register rsvp
 Failed to register slackbot mini shortcut
 Failed to remove file. Please try again.
 Failed to remove move listener
-Failed to remove skill from Skill Set
+Failed to remove skill from skill set
 Failed to remove skill. Please try again.
 Failed to remove tokens from connected apps when turning off IDL via user prefs.
 Failed to replace audio track
@@ -7505,7 +7511,6 @@ Failed to resolve meeting entity
 Failed to restore a version
 Failed to restore items. Please try again.
 Failed to retrieve task: Task not found
-Failed to save Skill Set description
 Failed to save Slack Scribe sounds pref
 Failed to save agent access settings
 Failed to save ai_apps_settings
@@ -7522,6 +7527,7 @@ Failed to save multi-channel source settings
 Failed to save prep thread association:
 Failed to save proactive instructions
 Failed to save settings. Please try again later.
+Failed to save skill set description
 Failed to save task
 Failed to save the A2A configuration to the app.
 Failed to schedule forward message
@@ -8746,6 +8752,7 @@ Get formatted Channel list
 Get formatted channel name
 Get formatted list column value
 Get formatted list name
+Get help
 Get help from the Slack help center and email support during regular business hours.
 Get help with code or technical questions
 Get huddles tips and tricks
@@ -9358,7 +9365,7 @@ Help me write a follow-up for my last meeting
 Help me write a personalized email
 Help me write a personalized reply for this thread
 Help others recognize you
-Help others understand what this Skill Set is for.
+Help others understand what this skill set is for.
 Help people find and use workflows relevant to this channel.
 Help your new teammate feel welcome. Share a channel where they can get to know the rest of the team.
 Help your team focus on what
@@ -9601,6 +9608,7 @@ IA4 comes to the UI Generator!
 IBM shifted into a higher gear of productivity by partnering with Slack
 ID not resolved after 10000s
 ID not resolved after 30000s
+ID-JAG Issuer URL
 IDP groups
 IP address
 IPv4 address
@@ -9745,6 +9753,7 @@ Import workflow
 Import workflow and triggers
 Import your contacts and track follow-ups.
 Import your existing leads or get help creating new ones with your AI-powered sales agent, Slackbot.
+Important Notes
 Important notifications about the background stuff.
 Important notifications from Slack Security
 Important unreads
@@ -11048,6 +11057,7 @@ Loading required assets for the VideoFxProcessor
 Loading sample_weight_mode is not supported yet.
 Loading servers
 Loading subtitle playlist for id 
+Loading suggestions
 Loading threads
 Loading tools
 Loading view
@@ -11971,6 +11981,7 @@ Manage your support emails directly in a channel
 Manage your team members and permissions via SCIM and SAML-SSO
 Manage your time and data
 Manage your web form here
+Managed by Quip admin
 Managed by you
 Manager Approval
 Manager ID
@@ -12671,7 +12682,6 @@ More Actions
 More Details
 More Huddles options
 More Outlines
-More Skill Set actions
 More User Details
 More about how it works
 More actions
@@ -12693,6 +12703,7 @@ More list actions
 More options
 More reactions
 More sidekicks sidebar
+More skill set actions
 Morning Meetings
 Morning Planning
 Morning Sync
@@ -13375,6 +13386,7 @@ No state found in IndexedDB
 No store found
 No string matched
 No stripe customer found from paymentsStripeCustomerGetFetcher
+No suggestions available right now.
 No summary available for this file yet.
 No tasks assigned to you
 No team ID
@@ -13788,7 +13800,7 @@ Only selected team members can post in this thread.
 Only show channels linked to Salesforce
 Only showing activity since April 2022
 Only single frame JPEGs supported
-Only skills can be added to a Skill Set.
+Only skills can be added to a skill set.
 Only some Salesforce users can open
 Only specific content you add (uploaded files, canvases or lists)
 Only specific people can post
@@ -15070,6 +15082,7 @@ Preferences shortcut - opens Preferences
 Preferred Language
 Preferred devices loaded from local storage
 Preferred devices validated
+Preferred email domain
 Preformatted code
 Prejoin SDK already exists; blocking new prejoin init
 Prejoin already connecting
@@ -15488,7 +15501,9 @@ Quickly search your entire message history
 Quinn Foster
 Quip Collab - Done
 Quip organizations
+Quip team ID
 Quip team domain
+Quip team name
 QuipEmbed is in multiple mutually incompatible view contexts
 Quote Logo
 Quote Logo Alt Text
@@ -16269,7 +16284,6 @@ Remove from Org Admins
 Remove from Org Owners
 Remove from Recommended Apps
 Remove from Saved
-Remove from Skill Set
 Remove from Slackbot
 Remove from VIP
 Remove from Workspace
@@ -16284,6 +16298,7 @@ Remove from list
 Remove from recap
 Remove from recent viewed list
 Remove from recommended apps
+Remove from skill set
 Remove from starred
 Remove from the list of pinned canvases for an external workspace
 Remove from this channel
@@ -16404,7 +16419,6 @@ Removed from your to-dos.
 Removed members from your Salesforce Org.
 Removes ID single starred item from array
 Removes a Quip document from the sidebar
-Removes a Skill Set id from the installed list
 Removes a Slack Connect Invite
 Removes a Slackbot response from the list
 Removes a Workflow Event from recentlyRunTriggerWorkflowEvent
@@ -16436,6 +16450,7 @@ Removes a sidebar entity from a channel section
 Removes a single IDP config
 Removes a single one of your templates
 Removes a skill entry from the enabled list
+Removes a skill set id from the installed list
 Removes a slash command
 Removes a user from a conversation
 Removes a usergroup from a specified role
@@ -17299,7 +17314,6 @@ Save your seat
 Save your sorting preference
 Save your team a step. Add verified domains to Google Calendar, Google Drive, Microsoft Outlook Calendar, or OneDrive, and any member using that email domain will automatically be connected.
 Saved contact
-Saved for Later
 Saved for later
 Saved item
 Saved message actions
@@ -19378,7 +19392,7 @@ Sets the flagged content history data total count
 Sets the focused workspaces from the client-store
 Sets the full count of members on an org
 Sets the full list of enabled skill entries
-Sets the full list of installed Skill Set ids
+Sets the full list of installed skill set ids
 Sets the gcal authorization url needed for a user to access the Slack calendar
 Sets the ghost last read marker
 Sets the guest count for a given channel
@@ -19756,7 +19770,6 @@ Share Persona
 Share Product UI
 Share Screen
 Share Signature Emoji
-Share Skill Set
 Share Slack data to Salesforce Data Cloud
 Share Top Channels
 Share Your App with Other Workspaces
@@ -19785,6 +19798,7 @@ Share screen
 Share section
 Share settings
 Share skill
+Share skill set
 Share subtask
 Share template
 Share this canvas
@@ -20181,12 +20195,12 @@ Sit tight, updating the status may take up to 5 minutes. We
 Six Sources (6)
 Six to eight logos produces the most balanced layout
 Six-up logo strip with header
-Skill Set deleted
-Skill Set is already in your Slackbot library.
-Skill Set items
-Skill Set name
 Skill deleted
 Skill results
+Skill set deleted
+Skill set is already in your Slackbot library.
+Skill set items
+Skill set name
 Skill shared
 Skill sources
 Skills and shortcuts
@@ -21777,7 +21791,6 @@ This MCP server is missing required OAuth endpoints.
 This MCP server needs to be connected before we can fetch the tools list.
 This Salesforce account does not have sufficient API access.
 This Salesforce account is already linked to another Slack user.
-This Skill Set is empty. Add skills to get started.
 This account has been deactivated.
 This action cannot be undone.
 This action cannot be undone. Previous requests that were resolved by this rule will not be changed, but this rule will no longer be executed or available in the future.
@@ -21809,6 +21822,7 @@ This attachment uses a thumbnail instead of a full-size image.
 This automated message was set up by a workspace admin.
 This automated message was set up by someone in your workspace.
 This block is fine
+This callout is nested inside a container block.
 This can only contain letters and numbers, and must be between 1 and 20 characters long.
 This canvas has been shared with connected external people using Slack Connect.
 This canvas has flown the coop
@@ -21889,6 +21903,7 @@ This indicates createLog() was never called. Skipping telemetry update.
 This invitation is from a new account
 This is Slack, a messaging app built for work
 This is a Slack developer workspace
+This is a callout block with 
 This is a description of the linked content that appears in the attachment body.
 This is a header block
 This is a longer subtitle that provides more detailed information about what this action item does and why you might want to click on it
@@ -22001,6 +22016,7 @@ This setting can be changed without any impact.
 This settings determines what invite preferences are available to users when creating a calendar huddle
 This should not be possible
 This skill is enabled for your workspace. To make it private, an admin must first remove it from the workspace skill settings.
+This skill set is empty. Add skills to get started.
 This skill works best with these integrations. Connect them to get the full experience.
 This socket already has a delegate
 This source has been disabled by your organization administrator for AI answers.
@@ -24171,7 +24187,6 @@ View Salesforce Lists
 View Salesforce organization page
 View Saved
 View Setting
-View Skill Set details
 View Slackbot Thread
 View Task in Asana
 View URLs in messages
@@ -24304,6 +24319,7 @@ View report
 View saved items shortcut - opens Saved View
 View shared screen
 View skill details
+View skill set details
 View sources
 View summary
 View template
@@ -24313,7 +24329,6 @@ View the name, email domain, and icon for workspaces your Slack app is connected
 View the release notes
 View this message in channel to interact with it
 View thread
-View to-dos
 View transcript
 View user details
 View user groups in a workspace
@@ -25325,7 +25340,6 @@ pinned by private user.
 pinned by unknown user.
 query option is required. You must specify your GraphQL document in the query option.
 re about to delete this sidekick. Do you want to proceed?
-re agreeing to the Main Services Agreement for the free trial of Salesforce Starter or Pro Suite and applicable Product Terms Directory terms.
 re done building your workflow, publish it to make it available to use in Slack.
 re like loaves of bread that hop.
 re trying to use event.stopPropagation() in a submit event handler, consider also calling event.preventDefault().
