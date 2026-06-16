@@ -141,10 +141,6 @@
 ) is not supported yet.
 ) that performed expensive computation.
 ), falling back to Type1.
-),placeholderText:a?void 0:_.Ek,width:A?
-),placeholderText:a?void 0:f.Ek,width:A?
-),placeholderText:e?void 0:_.Ek,width:A?
-),placeholderText:e?void 0:f.Ek,width:A?
 ). Corrupted zip ?
 ). If you meant to render a collection of children, use an array instead.
 ). Use good judgement and add components (or hooks) to this directory that you feel are valuable to the PNP project.
@@ -642,6 +638,10 @@ Accept the selected (or 0th) search autocomplete suggestion
 Accepted search query
 Accepting query suggestion
 Accepts an SCSC or SCDM invite
+Access Google Calendar in workflows
+Access Google Meet in workflows
+Access Google Sheets in workflows
+Access Google Tasks in workflows
 Access Level
 Access Requested
 Access Today Tab
@@ -1376,6 +1376,7 @@ Adds Integration Apps to the store
 Adds Slackbot responses to the list
 Adds Workflow templates list to the store
 Adds a Quip document id as the latest document
+Adds a Skill Set id to the installed list (idempotent)
 Adds a bookmark to the channel specified
 Adds a calendar reminder
 Adds a comment to a flagged content item
@@ -1523,7 +1524,9 @@ Agency FB
 Agenda menu
 Agenda view settings
 Agent Browser
+Agent Card URL
 Agent Permissions
+Agent card applied successfully.
 Agent conversations
 Agent disabled for Slackbot
 Agent disconnected
@@ -1542,6 +1545,7 @@ AgentExchange results
 Agentforce Feedback
 Agentforce Gradient
 Agentforce agent
+Agentforce agents in this channel
 Agents & AI Apps
 Agents & apps
 Agents Managed By You
@@ -1634,6 +1638,7 @@ All of the users in that user group are already in this channel.
 All open flags
 All opportunities
 All organizations
+All overdue to-dos marked complete
 All product levels
 All pull requests
 All ratings
@@ -1654,6 +1659,9 @@ All tensors passed to stack must have matching shapes
 All these features are included with your current plan
 All threads
 All time
+All to-dos
+All to-dos marked complete
+All to-dos overdue by 30+ days marked complete
 All tools
 All translation states
 All types
@@ -2002,7 +2010,6 @@ App Logo
 App Long Description
 App Management Settings
 App Managers via Slackbot message
-App Manifest
 App Memory Delta (MB):
 App Name
 App Notification
@@ -2069,6 +2076,7 @@ Applies and updates the IDP config
 Applies detail view + channel canvas
 Applies task tracking bundle to list
 Applies the detail view to a given view set if applicable
+Apply Agent Card
 Apply Custom Step Save
 Apply Now
 Apply an edit action to a list
@@ -2195,7 +2203,6 @@ Are you sure you want to remove workflow restrictions?
 Are you sure you want to revoke all tokens?
 Are you sure you want to revoke this token?
 Are you sure you want to save changes?
-Are you sure you want to set your verbosity settings to default?
 Are you sure you want to turn off Connected accounts?
 Are you sure you want to undo your changes?
 Are you sure you want to use this token?
@@ -2402,7 +2409,6 @@ Authorization URL
 Authorized Domain
 Auto Charge Feature Trials Manage Trial Workspace Menu Cta
 Auto Scaling
-Auto synced connection between Slack and Salesforce
 Auto white balance
 Auto-close old channels according to certain rules
 Auto-complete after 6s
@@ -2499,6 +2505,7 @@ Background Colors
 Background Image (1x)
 Background Image (2x)
 Background Image URL
+Background Shape
 Background Type
 Background color
 Background worker creation failed, attempting fallback to old processor.
@@ -2584,7 +2591,6 @@ Best practices for all the details of your app listing
 Best value
 Best-value column override
 Beta Corp Outlines
-Beta Features
 Beta Inc. Outlines
 Beta Inc. has joined this channel Outlines
 BetaS.p.A. Outlines
@@ -3320,6 +3326,7 @@ Cannot join
 Cannot load 
 Cannot load profile name 
 Cannot log error to telemetry: orgUrl is required but not provided
+Cannot modify a published app. Use the beta app to make changes.
 Cannot move by window in phase 
 Cannot move in direction without previous impact location
 Cannot parse the unexpected character 
@@ -3867,6 +3874,7 @@ Choose the account
 Choose the data field to evaluate, such as the person who used this workflow.
 Choose the default skin tone that will be used whenever you use certain emojis in reactions and messages.
 Choose the maximum number of people allowed in a private channel.
+Choose time
 Choose to allow Slackbot the ability to create, edit, and add content to canvases.
 Choose to have members sign back in whenever they close Slack, or after a certain time period.
 Choose to pay by invoice
@@ -3906,6 +3914,7 @@ Classifier prompt
 Classifies email input as internal or external and returns the proper escape hatch options
 Classify whether an email address is internal, external or invalid to allow for email tokenization in Add People modal
 Clean message text
+Clean up
 Clean up browser after navigating away
 Clean up old persisted data for expired teams
 Clean up your channel list
@@ -3967,7 +3976,6 @@ Clear canvas AI content session for fileId
 Clear channel spaces megaphone notifications
 Clear client unreads API interval
 Clear client unreads API timeout
-Clear completed items
 Clear contents
 Clear current user membership for a user group
 Clear data about the field to resume editing if the user goes back from a speedbump
@@ -4483,10 +4491,11 @@ Compared to email-only communication workflows
 Comparison of free vs. paid Slack Video for users on free teams
 Complete Migration
 Complete all
-Complete all overdue items older than 30 days
-Complete overdue to-dos
-Complete overdue to-dos?
+Complete all overdue to-dos?
+Complete all to-dos?
 Complete the following steps to get started
+Complete to-dos
+Complete to-dos overdue 30+ days?
 Complete your upgrade
 Completed action
 Completed client metrics
@@ -4581,6 +4590,7 @@ Connect Email
 Connect Gmail
 Connect Gmail (opens in a new tab)
 Connect Google Mail
+Connect Google Suite
 Connect Google Workspace and Office 365 so every team member has their apps and integrations ready on day one.
 Connect MCP servers to your app.
 Connect Outlook
@@ -4620,12 +4630,14 @@ Connect to apps
 Connect to desktop store
 Connect to socket
 Connect workspaces
+Connect your Google apps to get the most out of Slack.
 Connect your One Drive account
 Connect your SSO to any identity provider.
 Connect your account
 Connect your account at any time
 Connect your account in Salesforce connection settings
 Connect your account to send email
+Connect your app to an A2A agent by providing the agent card URL. This will configure the A2A endpoint and add the required bot scopes.
 Connect your apps
 Connect your apps to Slackbot
 Connect your calendar
@@ -4940,6 +4952,7 @@ Could not fetch region settings,
 Could not fetch region settings: 
 Could not fetch suggested channels for conversations.recommend
 Could not fetch suggested users for users.recommend
+Could not fetch the agent card from the provided URL.
 Could not find 
 Could not find Elements context; You need to wrap the part of your app that 
 Could not find a matching mapping
@@ -5238,6 +5251,7 @@ Create workflow and trigger from an AI generated preview
 Create workflow and trigger from generated ai preview
 Create workflow template and publish it
 Create workflows with conditional logic directly in Slack, without writing code.
+Create your own
 Create your own templates
 Create, edit, and disable legal holds entities
 Created 1 day ago
@@ -5355,7 +5369,6 @@ Custom theme
 Custom user groups
 Custom views, reorderable
 Custom workflow steps
-Customer Management in Slack
 Customer Quote
 Customer Showcase
 Customer Stories
@@ -5578,7 +5591,6 @@ Decorative image carousel
 Decrease Value
 Decreased amount
 Decrementing the users current position in the history stack
-Dedicated channels for collaborating on customers
 Deep link is empty or not a slack: link
 Deep research
 Deeplink handler received an error
@@ -5962,6 +5974,7 @@ Disconnect EAC connection for current Salesforce org
 Disconnect Einstein Activity Capture?
 Disconnect Org
 Disconnect a Salesforce organization from Slack
+Disconnect account
 Disconnect an account based on the external directory
 Disconnect and Delete Org
 Disconnect and stay disconnected until woken up
@@ -5979,6 +5992,7 @@ Disconnecting will stop sharing any Slack data to Data Cloud through this org.
 Disconnection detected. Informing the user.
 Disconnection event ignored due to recent reconnection.
 Disconnection observer initialized. Monitoring for disconnections...
+Disconnects a Google app by fetching token ID and deleting external auth
 Disconnects a pending file ID from a draft
 Disconnects a pending file ID from a message
 Disconnects one or more channels from an org-level User Group
@@ -6135,7 +6149,6 @@ Does the user have permission to join the channel
 Does the user have permission to leave the current channel
 Dolphin Halloween
 Domain Name
-Domain Verification
 Domain claiming
 Domain not allowed
 Domain search
@@ -6274,7 +6287,6 @@ Each link or QR code works for up to 400 people. To keep your workspace secure, 
 Each pair must have its own sequence indicator
 Each tile is fully clickable; do not try to nest a CTA inside the paragraph
 Eager dismiss provided eventId
-Earliest date created
 Early connection closed; discarding signaling task.
 Easily add multiple Salesforce orgs to keep track of your deals in one place.
 Easily export messages and explore flexible data residency options
@@ -7307,6 +7319,7 @@ Failed to add Skill Set. Please try again.
 Failed to add skill to Skill Set
 Failed to add skill. Please try again.
 Failed to add team to exclude list; continuing with signout
+Failed to add the required bot scopes to the app.
 Failed to add to channel
 Failed to add workspaces. Please try again.
 Failed to approve license request.
@@ -7442,7 +7455,6 @@ Failed to load tools.
 Failed to load widget
 Failed to load workflow instance steps
 Failed to log out of orgs: orgURL is missing or invalid: [Error logging out: Invalid orgURL.]
-Failed to mark overdue items completed
 Failed to obtain IndexedDB factory because the current environmentis not a web browser.
 Failed to open DM in send message summary
 Failed to parse IMSC1: 
@@ -7516,6 +7528,7 @@ Failed to save prep thread association:
 Failed to save proactive instructions
 Failed to save settings. Please try again later.
 Failed to save task:
+Failed to save the A2A configuration to the app.
 Failed to schedule forward message
 Failed to search agent exchange agents
 Failed to seed app ACL members
@@ -7980,6 +7993,7 @@ Fetches a user
 Fetches a users drafts
 Fetches active drafts
 Fetches all IDP configs for the Org and updates store
+Fetches all agentforce members in a channel
 Fetches all blocked emails and upserts it
 Fetches all boot-time state machines in a single API call
 Fetches all days for the provided week
@@ -8774,6 +8788,7 @@ Get records from a Slack list to iterate over
 Get relevant channel data for sharing
 Get reminders for upcoming meetings
 Get remote triggers with query
+Get research, context and talking points for upcoming meetings with help from your AI agent, Slackbot.
 Get sales, support and marketing tools built right into Slack, along with all the other features of Business+.
 Get sales, support and marketing tools built right into Slack.
 Get screen thumbnails
@@ -8978,12 +8993,14 @@ Google Drive Outlines
 Google Drive link
 Google Hangout
 Google Hangouts
+Google Mail
 Google Meet
 Google Meet Meeting
 Google Search
 Google Sheet
 Google Sheets
 Google Slide
+Google Tasks
 Google Workspace
 Google Workspace & Office 365
 Got NaN while animating:
@@ -9163,7 +9180,6 @@ Group name is too long.
 Group one
 Group one, first
 Group options
-Group skills for Slackbot to use together
 Group this channel with similar conversations in your sidebar and choose when you want to be notified about new messages.
 Group two
 Group two, first
@@ -9741,7 +9757,6 @@ Important notifications from Slack Security
 Important unreads
 Important unreads options
 Impressions (28d)
-Improve your message reading experience by reducing the length of each line in a message. This could help reduce eye strain and make for a more pleasant Slack experience.
 In 1 hour
 In 20 minutes
 In 3 hours
@@ -10588,7 +10603,6 @@ Later Outlines
 Later actions
 Later desktop notification shown
 Latest Unreads
-Latest date created
 Latest messages
 Lato, Slack-Lato, appleLogo, sans-serif
 Lato, sans-serif
@@ -10835,7 +10849,6 @@ Light Plus
 Like a virtual office, a workspace is where work happens in Slack. All your channels, direct messages, and tools live in a workspace.
 Like refreshThreads but appends
 Like your sidebar
-Limit message line length
 Limit sharing
 Limit to
 Limit to 5-8 items to avoid overwhelming visitors
@@ -10925,7 +10938,6 @@ Lists & templates
 Lists all sent messages
 Lists and attachments
 Lists are not yet available for everyone.
-Lists for managing the full end to end customer journey
 Lists have been turned off by your admins.
 Lists keyboard interactions
 Lists results
@@ -11010,6 +11022,7 @@ Loader 7a
 Loader 8
 Loader can only be used once.
 Loader for user org object mappings
+Loading Agentforce agents
 Loading Salesforce connections
 Loading Salesforce records
 Loading V3
@@ -11116,7 +11129,6 @@ Log exposure for the fedramp_banner experiment if it is exposed
 Log exposure for the files_tab_nux_new_teams experiment if it is exposed
 Log exposure for the files_tab_nux_v2 experiment if it is exposed
 Log exposure for the first_login_loader_copy experiment if it is exposed
-Log exposure for the growth_slack_first_crm experiment if it is exposed
 Log exposure for the gx_jp_creator_pocket_guide experiment if it is exposed
 Log exposure for the huddles_invite_modal_upgrade_speedbump experiment if it is exposed
 Log exposure for the inproduct_team_creation experiment if it is exposed
@@ -11946,6 +11958,7 @@ Manage roles
 Manage sandboxes created by members of the Developer Program.
 Manage section
 Manage security
+Manage skills
 Manage tags and properties
 Manage top bar agents
 Manage use in private channels
@@ -12002,10 +12015,12 @@ Mark above as read
 Mark actions for channelIds as stale
 Mark all channels as read
 Mark all messages in current channel as read
+Mark all overdue to-do items as completed
 Mark all permissions as stale
 Mark all record details as stale by Salesforce org ID
 Mark all sections seen and not count towards the pill
 Mark all selected as read
+Mark all to-do items as completed
 Mark all to-do items overdue by 30+ days as completed
 Mark all uploads completed after a delay
 Mark and update a conversation (locally and through API)
@@ -12037,7 +12052,6 @@ Mark invite notifications as viewed by clearing them after a delay
 Mark invite notifications as viewed by clearing them.
 Mark many conversations (locally and through API)
 Mark most recent message read
-Mark overdue to-do items older than 30 days as completed
 Mark people search in-product experience as seen
 Mark plan payment status data as not loaded
 Mark plans and cost data as not loaded
@@ -12045,6 +12059,7 @@ Mark productivity reacji notification as seen and update local state
 Mark re-engagement sparkles complete
 Mark read
 Mark record read to unhighlight it
+Mark saved items as completed by filter
 Mark that a user has created channel sections
 Mark that the user is not in any workspaces in this org
 Mark that the user needs to accept their org
@@ -12069,7 +12084,6 @@ Markdown block group
 Markdown copied to clipboard
 Markdown preview
 Marked all unread messages and notifications as read.
-Marked overdue items completed
 Market segmentation modal
 Marketing Assets
 Marketing assets
@@ -13101,6 +13115,7 @@ No Channel Managers found
 No Channel Managers yet
 No Found
 No GPU program is currently set.
+No Google apps available for your organization.
 No Guests found
 No HttpAuthScheme was selected: unable to sign request
 No Image or Icon
@@ -13355,7 +13370,9 @@ No services defined on
 No sidekicks
 No sidekicks created by you
 No size marker found in JPX stream
+No skills added yet
 No skills available yet
+No skills found
 No source is pinned at the time.
 No sourceId found
 No spans to report.
@@ -13756,6 +13773,7 @@ Only messages will be included in search results.
 Only my channels
 Only my channels Outlines
 Only non-generatable nodes (
+Only overdue to-dos
 Only owners can share this folder.
 Only owners will be able to share this canvas with additional people or channels.
 Only owners will be able to share this list with additional people or channels.
@@ -13789,6 +13807,7 @@ Only the channel owner can add people to this channel.
 Only the list owner can change field types
 Only the people in the workspace you choose will be able to view and join this channel.
 Only the record object is shown. For example, 
+Only to-dos overdue 30+ days
 Only transcription mode is allowed for huddles.
 Only visible to you
 Only you
@@ -14293,6 +14312,7 @@ Opens the prefs modal
 Opens the presence prompt dialog
 Opens the public URL dialog
 Opens the reminder custom modal
+Opens the remove domain verification dialog modal
 Opens the rename file dialog
 Opens the rename team modal in the client
 Opens the request pending workspace permalink dialog
@@ -14485,6 +14505,7 @@ PDFImage.createImageData: The image must be grayscale.
 PDFImage.getImageBytes: Unsupported 
 PDFNetworkStream.getFullReader can only be called once.
 PDFWorkerStream.getFullReader can only be called once.
+PR closed
 PR merged
 PROJ-1234: Fix login timeout on mobile
 PTS rollover detected
@@ -14813,6 +14834,7 @@ Pick a random default avatar. The current avatar will be replaced.
 Pick a start time
 Pick a template to preview the blocks and JSON together, or jump straight into the builder and start customizing.
 Pick a ticket list from the dropdown
+Pick a time
 Pick an end time
 Pick an image or upload your own
 Pick an item from the dropdown list.
@@ -14899,6 +14921,7 @@ Please choose an image smaller than 64KB.
 Please choose an option where you
 Please complete this required field
 Please complete this required field.
+Please confirm your time selection.
 Please connect a Salesforce org to generate the form HTML.
 Please connect your account to add a call
 Please contact an administrator to help install this app
@@ -15385,7 +15408,6 @@ Publish to skill catalog
 Publish workflow from template internal
 Publish workflows
 Published App Credentials
-Published App Settings
 Published Automations
 Published workflows (default)
 Publishes the app submission and optionally creates a beta app as well
@@ -15559,6 +15581,7 @@ Read Jira project and issue data, search for issues and objects associated with 
 Read access to code, commit statuses, discussions, issues, metadata, and pull requests
 Read all files accessible to the signed-in user
 Read all files and folders stored in Box
+Read and manage email directly in Slack
 Read conversations
 Read files belonging to the signed-in user
 Read information barriers in the organization
@@ -16391,6 +16414,7 @@ Removed from your to-dos.
 Removed members from your Salesforce Org.
 Removes ID single starred item from array
 Removes a Quip document from the sidebar
+Removes a Skill Set id from the installed list
 Removes a Slack Connect Invite
 Removes a Slackbot response from the list
 Removes a Workflow Event from recentlyRunTriggerWorkflowEvent
@@ -17371,6 +17395,7 @@ Search API returned error
 Search Acme Inc Outlines
 Search App
 Search Confluence
+Search Connectors
 Search DMs
 Search Debug Results
 Search Google Workspace Directory
@@ -17430,6 +17455,7 @@ Search experiments
 Search external connections
 Search external results for multiple connectors in parallel
 Search files
+Search files across your org and preview them in Slack
 Search filters
 Search folders
 Search for 
@@ -17520,6 +17546,7 @@ Search workflows
 Search workspaces
 Search workspaces by name
 Search your chats
+Search your skills
 Search: all work objects modules sort changed
 Search: disable backend sort override
 Search: reset modules
@@ -17600,6 +17627,7 @@ See how video clips work
 See if we should drop history for a thread after closing it
 See if you qualify for an 85% discount on a paid plan
 See less
+See meetings, join calls, and sync your Slack status automatically
 See more
 See more file results
 See older comments
@@ -17675,6 +17703,7 @@ Select a state
 Select a step category
 Select a tab by id
 Select a teammate
+Select a time
 Select a time range to view analytics for
 Select a user
 Select a value from the controlling field to enable this field
@@ -19365,6 +19394,7 @@ Sets the flagged content history data total count
 Sets the focused workspaces from the client-store
 Sets the full count of members on an org
 Sets the full list of enabled skill entries
+Sets the full list of installed Skill Set ids
 Sets the gcal authorization url needed for a user to access the Slack calendar
 Sets the ghost last read marker
 Sets the guest count for a given channel
@@ -19467,7 +19497,6 @@ Sets the shared-invite details
 Sets the sort direction for the user groups table
 Sets the sort fyi coachmark to seen once dismissed once
 Sets the sort options for the members tab
-Sets the sort order for the to-do tab
 Sets the state for active ai app
 Sets the state for the split view window
 Sets the status of app activities next cursor fetching
@@ -19999,6 +20028,7 @@ Show toast after successful creation or edit of a custom role
 Show todos item reminder notification
 Show undo toast
 Show unreads only
+Show up prepared for every meeting
 Show workspace switcher
 Show workspaces on left
 Show: All channels
@@ -20167,7 +20197,6 @@ Sit tight, updating the status may take up to 5 minutes. We
 Six Sources (6)
 Six to eight logos produces the most balanced layout
 Six-up logo strip with header
-Skill Set
 Skill Set deleted
 Skill Set is already in your Slackbot library.
 Skill Set name
@@ -20220,6 +20249,7 @@ Slack AI results ready
 Slack API Documentation
 Slack Acceptable Use Policy
 Slack Analytics
+Slack Apps
 Slack Assistant
 Slack Calls will be restricted and routed through selected regions only.
 Slack Connect
@@ -20237,7 +20267,6 @@ Slack Connect with 12 teams
 Slack Connect with 2 teams
 Slack Corp
 Slack Customer Survey of weekly active users, 2024
-Slack Customer management
 Slack Dark
 Slack Desktop App
 Slack Developer Program Identity Workspace Banner
@@ -20406,7 +20435,6 @@ Snoozes a calendar event JIT notification until the event starts
 Snoozes notifications for a duration of time
 So What by Miles Davis
 Socket Manager state changed
-Socket Mode
 Socket Mode is not intended for publicly distributed apps. Please enable HTTP Request URLs for your app before submitting to the App Directory.
 Socket Mode is not intended for publicly distributed apps. Please enable HTTP Request URLs for your app before submitting to the Slack Marketplace.
 Socket closed when we did not expect it to
@@ -20466,6 +20494,7 @@ Something went wrong loading content from this app.
 Something went wrong loading domain verification. Please try again later.
 Something went wrong loading your Salesforce connections. Please try again.
 Something went wrong removing the field. Please try again.
+Something went wrong removing this domain. Please try again later.
 Something went wrong responding to the invite.
 Something went wrong saving this object type. Try again in a few minutes.
 Something went wrong saving your channel sources. Please try again.
@@ -21473,6 +21502,8 @@ The UI Version is listed in a column in the Browse Existing and My Dashboard vie
 The URL will be created after you save this information.
 The Workspace Owner will need to approve the migration request.
 The adapter.js addTrack polyfill only supports a single  stream which is associated with the specified track.
+The agent card could not be parsed. Ensure it returns valid JSON.
+The agent card does not advertise a usable endpoint.
 The agent will forward messages to this channel when people request more help.
 The agent will use everything from a channel as sources.
 The agentforce step cannot be used with a private channel. Please choose a public channel to proceed.
@@ -22045,6 +22076,7 @@ This will reassign the project.
 This will remove the app from appearing in AI answers and search results. You can re-enable it anytime by selecting Manage.
 This will remove the field from the list view for everyone. The field and its data will not be deleted.
 This will revert the workflow to the last published version. Any new changes since last publish will be lost.
+This will stop transcribing audio from your microphone and system audio. Is that ok?
 This workflow cannot be added.
 This workflow cannot be imported because one or more required apps are denied or hidden.
 This workflow contains steps that were disabled by your admin
@@ -23418,7 +23450,6 @@ Update the visibility of the Enable Popups Banner
 Update this variable
 Update thread subscription status
 Update thumbnail properties for a file
-Update to Granular Scopes
 Update to match my Slack language,
 Update to match my Slack settings:
 Update to the file upload % complete
@@ -23889,7 +23920,6 @@ Used to set pending knock to enter users waiting for the host to start the Huddl
 User Group
 User Group Members
 User Groups
-User ID Translation
 User Menu
 User OAuth Token
 User Page
@@ -24323,6 +24353,7 @@ Viewing in another window
 Views can be seen by everyone with access to the list.
 Vim Script
 Violated rules
+Violation type
 Violations 
 Violations occurred in
 Virgin Islands, British
@@ -24763,6 +24794,7 @@ Workflow Builder users can download form responses
 Workflow Builder users can download form responses.
 Workflow Builder users cannot download form responses.
 Workflow Builder window opened
+Workflow Connectors
 Workflow Details
 Workflow Editor
 Workflow Form Response Downloads
@@ -24773,7 +24805,6 @@ Workflow Managers can edit messages
 Workflow Managers can export workflows
 Workflow Name
 Workflow Outlines
-Workflow Steps
 Workflow Templates
 Workflow bookmarked
 Workflow button triggers search failed
@@ -24844,6 +24875,7 @@ Workspace Weaver
 Workspace admins
 Workspace admins and owners must be converted to full members before they can be changed to a guest account.
 Workspace analytics
+Workspace created :tada:
 Workspace creation requests
 Workspace creation requests are disabled
 Workspace filter
@@ -25144,7 +25176,6 @@ Your current network will only allow you to access certain Slack workspaces (usu
 Your current network will only allow you to access certain Slack workspaces (usually, just the ones you use for work). To get connected, change networks and try again.
 Your current prompt will be replaced with the selected example.
 Your current time zone.
-Your customer relationship management experience in Slack is being set up.
 Your daily email briefing
 Your day
 Your day, organized
@@ -25328,6 +25359,7 @@ rollups missing actions???
 s AI abilities with 10 messages. Ready to unlock more?
 s State to be Active. This waiter uses GetFunctionConfiguration API. This should be used after new version is published.
 s advanced AI, security features, and global compliance tools.
+s allowed domains list.
 s built-in header fields instead.
 s configured region.
 s context for future turns.

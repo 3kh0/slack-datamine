@@ -266,6 +266,8 @@ ai.alpha.slackbot.automationGroups.list
 ai.alpha.slackbot.automationGroups.setActive
 ai.alpha.slackbot.createSlackbotInitiatedThread
 ai.alpha.slackbot.skillSets.addToLibrary
+ai.alpha.slackbot.skillSets.listEnabled
+ai.alpha.slackbot.skillSets.removeFromLibrary
 ai.alpha.slackbot.skills.addToLibrary
 ai.alpha.slackbot.skills.getAggregateMetrics
 ai.alpha.slackbot.skills.getBuiltinInfo
@@ -365,6 +367,7 @@ apps.permissions.internal.uninstallApp
 apps.permissions.internal.user
 apps.permissions.internal.userRevoke
 apps.permissions.internal.userSearch
+apps.productivity.list
 apps.profile.get
 apps.profile.lookup
 apps.recommendations.list
@@ -592,6 +595,7 @@ developer.appdirectory.submissions.info
 developer.appdirectory.submissions.publish
 developer.appdirectory.submissions.submit
 developer.appdirectory.submissions.update
+developer.apps.a2a.setCard
 developer.apps.actions.v2.create
 developer.apps.actions.v2.delete
 developer.apps.actions.v2.list
@@ -1299,6 +1303,7 @@ sfdc.datacloud.deleteDatacloudTeam
 sfdc.datacloud.getDatacloudTeamInfo
 sfdc.datacloud.updateDatacloudTeam
 sfdc.domainVerification.create
+sfdc.domainVerification.delete
 sfdc.domainVerification.get
 sfdc.eacConfigs.disconnect
 sfdc.eacConfigs.get
