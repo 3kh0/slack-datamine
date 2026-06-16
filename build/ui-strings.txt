@@ -4093,6 +4093,7 @@ Clears huddle thread state and removes the Secondary view when the user loses th
 Clears huddle-canvas-store state when the Secondary view is externally dismissed in a huddle window
 Clears identity_links_prefs, and sets identity_links_global_prefs.date_disabled
 Clears last invite status for a user
+Clears meeting prep blocks for a calendar event by event link ID
 Clears rewritten query value
 Clears roles member ids have been fetched
 Clears specific calendar event.
@@ -12266,6 +12267,8 @@ Meeting assistant suggestions
 Meeting assistant window actions
 Meeting notes
 Meeting notes generated
+Meeting prep
+Meeting prep is ready
 MeetingSessionTimingManager: No observers set, timing data discarded
 MeetingSessionTimingManager: destroyed
 MeetingSessionTimingManager: expecting remote video in current batch
@@ -19095,6 +19098,7 @@ Sets locales in state and sets loading to false
 Sets lounge music user pref
 Sets manuallyMarkedUnread to empty
 Sets mcp servers stale flag
+Sets meeting prep blocks for a calendar event
 Sets members count on a team
 Sets members count on a team to current count plus countIncrease
 Sets metadata to send along with the next message sent by the user
