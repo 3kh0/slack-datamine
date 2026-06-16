@@ -1030,7 +1030,6 @@ Add a user group, overwriting anything previously stored with the same id
 Add a user profile
 Add a workflow
 Add a workspace
-Add a workspace to control who can access this server.
 Add accessible descriptions for stats that need additional context for screen readers
 Add accounts
 Add action items
@@ -4664,7 +4663,6 @@ Connection details
 Connection error
 Connection permissions & visibility
 Connection restored. Ignoring disconnection events for 5 seconds.
-Connection status
 Connection timeout
 Connection updated! Next, migrate your users
 Connector App installation failure
@@ -4836,7 +4834,6 @@ Copy Payload
 Copy Prompt
 Copy QR code
 Copy Salesforce Url
-Copy URL
 Copy Whats New link
 Copy Workflow Failure
 Copy Workflow ID
@@ -6736,7 +6733,6 @@ Enter a Skill Set name
 Enter a URL
 Enter a URL path.
 Enter a description
-Enter a display name for this MCP server
 Enter a folder name
 Enter a group handle
 Enter a group name
@@ -7318,7 +7314,6 @@ Failed to add skill. Please try again.
 Failed to add team to exclude list; continuing with signout
 Failed to add the required bot scopes to the app.
 Failed to add to channel
-Failed to add workspaces. Please try again.
 Failed to approve license request.
 Failed to approve the license request.
 Failed to attach file. Please try again.
@@ -7432,7 +7427,6 @@ Failed to load MCP server tools. Please try again.
 Failed to load MCP servers. Please try again.
 Failed to load PDF page labels
 Failed to load PDF sheet geometry
-Failed to load Salesforce organizations.
 Failed to load document
 Failed to load events
 Failed to load image
@@ -7495,7 +7489,6 @@ Failed to remove move listener
 Failed to remove skill from Skill Set
 Failed to remove skill. Please try again.
 Failed to remove tokens from connected apps when turning off IDL via user prefs.
-Failed to remove workspaces. Please try again.
 Failed to replace audio track
 Failed to report client metrics
 Failed to report dogfood boot
@@ -8284,7 +8277,6 @@ Filter files
 Filter for option list
 Filter huddles
 Filter huddles by type
-Filter members and user groups
 Filter options
 Filter options are open
 Filter out channels that cannot be left
@@ -11727,14 +11719,11 @@ MCP Integration
 MCP OAuth popup blocked by browser
 MCP OAuth start returned no authorization_url
 MCP Server Connection Details
-MCP Server URL
 MCP Servers
 MCP app log
 MCP connections coming soon.
 MCP connector OAuth start failed
 MCP credential source
-MCP server details
-MCP server enabled successfully.
 MCP server tools fetch failed
 MCP server workspaces
 MCP servers
@@ -12307,7 +12296,6 @@ Member reactivation failed
 Member removed from group.
 Member search results
 Member with a long name
-Members and user groups
 Members can automatically start notes in huddles.
 Members can connect to Salesforce from the Salesforce section of Preferences
 Members can easily see which external organizations they are working with in channels, direct messages, and threads.
@@ -12331,7 +12319,6 @@ Members connect to Slack securely through a cloud, which unlocks.
 Members in channel
 Members of
 Members of selected groups will have this skill auto-enabled
-Members of selected workspaces will no longer have access to this server.
 Members of this channel can:
 Members see banner to connect to Salesforce in Slack Home
 Members will be able to reply and react
@@ -13216,7 +13203,6 @@ No deeplink found in the past 1000 lines
 No default payment method found
 No denied connector steps
 No description
-No description provided by the publisher.
 No device changes recorded for this huddle
 No devices found
 No devices found in v2 device manager
@@ -13424,7 +13410,6 @@ No windowId for active call
 No workflow managers
 No workspace found
 No workspaces
-No workspaces added
 No workspaces connected
 No workspaces have been selected
 No workspaces were found
@@ -14930,7 +14915,6 @@ Please enter a reason
 Please enter a valid App ID.
 Please enter a valid Google Drive URL.
 Please enter a valid URL
-Please enter a valid URL.
 Please enter a valid email address (e.g., support@example.com).
 Please enter a valid phone number.
 Please enter an App ID.
@@ -16344,7 +16328,6 @@ Remove saved item from the item map
 Remove search summary from the store
 Remove section
 Remove selected member
-Remove selected workspaces?
 Remove sending invites for draft state
 Remove several users from priority
 Remove single contact unfurl from the store
@@ -17174,13 +17157,11 @@ Salesforce Icon
 Salesforce Integration
 Salesforce Lists views
 Salesforce MCP Servers
-Salesforce MCP servers
 Salesforce Notifications
 Salesforce Opportunity
 Salesforce Org
 Salesforce Org Authed
 Salesforce Org Disconnected
-Salesforce Organization
 Salesforce Outlines
 Salesforce Production
 Salesforce Record Card
@@ -17480,7 +17461,6 @@ Search for entities within Slack by query
 Search for external records
 Search for files
 Search for local entities within Slack based on options
-Search for members and user groups
 Search for members in the org context
 Search for messages and files older than 90 days
 Search for messages in a thread
@@ -17717,7 +17697,6 @@ Select an existing channel
 Select an image
 Select an item
 Select an option
-Select an organization
 Select at least one member or user group, then try again.
 Select audio input device
 Select category
@@ -17754,7 +17733,6 @@ Select steps to restrict
 Select text to beginning of current line
 Select the account you want to merge
 Select the expiration for your link
-Select the workspaces that can access this server.
 Select thumbnail
 Select time
 Select transcript language
@@ -17952,14 +17930,12 @@ Sequential model cannot be built: model is empty. Add some layers first.
 Serializing desktop client ids
 Serve as your primary org for Slack data storage
 Server Error
-Server Name
 Server Status
 Server URL
 Server URL copied
 Server and client disagree on thread state; using server state
 Server deleted
 Server name
-Server name updated
 Server overview
 Server rejected the MCP initialize handshake. Check protocol version compatibility.
 Server responded with an error status. Check http_status_code for details.
@@ -20598,7 +20574,6 @@ Specific Sales Elevate users
 Specific User Groups
 Specific channel
 Specific channel types only
-Specific groups and members
 Specific members
 Specific people
 Specific people and groups can use the app.
@@ -21467,7 +21442,6 @@ The Data Cloud team already exists.
 The Huddle has ended.
 The InResponseTo ID of the SAML Response does not match the ID of the AuthNRequest sent by us. Please check your Identity Provider settings.
 The MCP server did not respond in time. Please try again.
-The MCP server is not active. Please enable it in Salesforce before trying again.
 The MCP server rejected the registration request.
 The MCP server returned an invalid registration response.
 The MP4 demuxer does not support SAMPLE-AES decryption
@@ -21644,7 +21618,6 @@ The selected channel could not be found.
 The selected channel has been archived. Clear your selection or choose another channel.
 The selected field is used for mapping Slack and Salesforce accounts.
 The selector for 
-The server is unavailable and can
 The server used 
 The signaling channel was closed unexpectedly. This may be due to a network change or backend detected failure.
 The signaling connection failed.
@@ -21768,7 +21741,6 @@ There were
 These accounts have been deactivated.
 These apps will appear in a 
 These organizations are no longer connected.
-These servers will be listed as unavailable for 30 days before being permanently deleted.
 They should be available for your organization over the next month
 They will no longer be able to view or edit this app
 Thin Stroke
@@ -22065,7 +22037,6 @@ This will clear all notifications older than this one from your activity feed.
 This will make the current content live. Are you sure you want to publish?
 This will permanently remove all unavailable servers.
 This will permanently remove the selected servers, and their tools will no longer be available in Slackbot.
-This will permanently remove the server, and its tools will no longer be available in Slackbot.
 This will permanently remove the unavailable server.
 This will reassign the project.
 This will remove the app from appearing in AI answers and search results. You can re-enable it anytime by selecting Manage.
@@ -22790,7 +22761,6 @@ Unable to stringify focus metadata
 Unable to stringify search
 Unable to upload CSV. Please try again later
 Unable to use Performance API on this environment
-Unable to verify MCP server status. Please try again later.
 Unarchive Alert
 Unarchive a channel
 Unarchive alerts
