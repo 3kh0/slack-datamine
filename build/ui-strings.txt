@@ -5,6 +5,7 @@
  Invitation has expired.
  Invitation no longer active.
  Is your UI :chefs-kiss:? Publish it so you can export it.
+ Make it the live page on this route?
  Please make sure the server is serving valid JSON for this request.
  Select Create New UI and follow the flow to choose one of three UI types.
  Something went wrong.
@@ -190,7 +191,6 @@
 :E.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
 :E.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eP?eH:void 0,className:s()(eP||T||eF?
 :E.mv.ConfirmationModal,onClose:ez,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
-:I.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
 :I.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eP?eH:void 0,className:s()(eP||T||eF?
 :O instanceof RegExp?
 :_ instanceof RegExp?
@@ -332,6 +332,8 @@ A profile picture can help team members recognize you
 A profile type unfurl
 A question is required.
 A record of changes and usage will appear here as they occur in Slack
+A referenced page could not be found. It may have been deleted.
+A route with this path already exists.
 A running list of the companies you sell to
 A sales rep tagged you in #AI Customer App - New Product Launch with a question on segment targeting for the enterprise tier.
 A screenshot attachment that includes imageBytes for file size metadata.
@@ -349,6 +351,7 @@ A skill built by your team
 A specific opportunity
 A start timestamp is required
 A tall portrait image tests the V3 image scaling logic for images taller than the max thumbnail size.
+A target is incomplete: documents need a page selected, redirects need a destination.
 A teammate just said hello :wave:
 A text stream handler for topic 
 A two-column promo blade with text content alongside a YouTube embed with a play button overlay.
@@ -362,6 +365,7 @@ A valid channel name is required.
 A valid frequency is required
 A valid member name is required.
 A variable with this name already exists
+A variant has invalid targeting rules.
 A wide landscape image tests the V3 image scaling logic for images wider than the max thumbnail size.
 A workflow step supported by your app should execute
 A workflow step supported by your app was removed from a workflow
@@ -473,7 +477,6 @@ AI answers capability is turned off.
 AI answers capability is turned on.
 AI assistant experience
 AI built for your team
-AI chat request failed.
 AI conversation summaries
 AI daily recaps
 AI explanation
@@ -484,7 +487,6 @@ AI generated
 AI huddle notes
 AI huddle notes are not available in your region
 AI huddle notes can be set to start automatically for all huddles in each channel
-AI is temporarily unavailable. Please try again in a moment.
 AI is turned on for your team
 AI message explanations
 AI notes & transcription
@@ -957,7 +959,6 @@ Add a create record saving toast to queue
 Add a dashboard or report
 Add a data source
 Add a description
-Add a divider and a context block with a timestamp
 Add a draft id to the list of drafts that have had a DLP catastrophic error
 Add a draft id to the list of warned drafts
 Add a draft to the edited array to be sent or deleted
@@ -1223,6 +1224,7 @@ Add or update currently installed calendar
 Add or update the installed calendars on a team
 Add or update the last ephemeral message of a certain type
 Add pack
+Add page to route
 Add people Outlines
 Add people individually
 Add people to a channel
@@ -1320,6 +1322,8 @@ Add users and user groups to channel
 Add users individually
 Add validated members uploaded with CSV
 Add variables to automate your template
+Add variant
+Add variant to route
 Add view
 Add viewers
 Add viewers to quip presence
@@ -1736,6 +1740,7 @@ Allows your Slack app to read a workspace
 Allows your Slack app to read message metadata in channels that your Slack app has been added to
 Allows your Slack app to read the billing plan for workspaces your Slack app has been installed to
 Allows your Slack app to read the preferences for workspaces your Slack app has been installed to
+Almost time to call it a day?
 AlphaData - Security Enhancement
 Alphabetizes teams by name when given an array of team ids
 Already added
@@ -2105,7 +2110,6 @@ Approval
 Approval Work Item
 Approval desktop notification shown
 Approval required
-Approval workflow notification with approve and reject buttons
 Approve & Add App
 Approve a license approval request
 Approve a set of migrations
@@ -2310,6 +2314,7 @@ At time of event
 Atkinson Hyperlegible Next
 Atlas profiles
 Attach a GIF
+Attach a WMP document to a route slot
 Attach a canvas
 Attach a canvas document to a huddle
 Attach a canvas document to a huddle from a message
@@ -2394,6 +2399,7 @@ Audit logs
 Aurora X
 Auth Me Now
 Auth expired
+Auth state
 Authenticate and install a data export app
 Authentication failure details
 Authentication status
@@ -2611,7 +2617,7 @@ Blank Channel Button 2
 Blank canvas
 Blank channel Outlines
 Blank channel selected Outlines
-Block Kit AI
+Block Kit Builder
 Block Kit Builder navigation
 Block Kit Reference
 Block Kit message
@@ -2624,7 +2630,6 @@ Block scalars must not be less indented than their
 Block scalars with more-indented leading empty lines must use an explicit indentation indicator
 Blocking huddles init since a huddlesSdk is already active
 Blocking prejoin init since a prejoin SDK is already active
-Blocks generated. Preview shown below.
 Blocks without a streaming adapter auto-advance immediately, so headers and dividers appear instantly.
 Blog Platform
 Blog Post By Jane
@@ -2754,7 +2759,6 @@ Bug Fixes
 Bug Tracking
 Bug bounty program URL
 Bug or corrupted zip : didn
-Build Blocks with AI
 Build Logs
 Build a Template
 Build an aria-label for an All Unreads header row
@@ -4361,7 +4365,6 @@ Code Review
 Code Review: Refactor Auth Module
 Code block
 Code copied to clipboard.
-Code panel tabs
 CodeMirror-cursor CodeMirror-secondarycursor
 CodeMirror-cursors CodeMirror-dragcursors
 CodeMirror-gutter 
@@ -4726,7 +4729,6 @@ Content hidden
 Content hidden from view
 Content hole not allowed in a leaf node spec
 Content insertion
-Content is AI-generated, so may have mistakes.
 Content item entity
 Content library items
 Content removed
@@ -4795,7 +4797,6 @@ Convert lead to opportunity
 Convert markdown file to canvas
 Convert mpdm to private channel
 Convert pasted markdown to a delta of blocks
-Convert the actions block into a section with an overflow menu
 Convert timestamp to human readable datetime
 Convert to Slack Connect Channel
 Convert to Template
@@ -5194,6 +5195,7 @@ Create a video recording
 Create a view
 Create a web form at any time by clicking on the channel name and opening the Integrations tab.
 Create action items from this canvas
+Create alternate
 Create an AI workflow
 Create an account
 Create an app action (but without saving)
@@ -5795,19 +5797,15 @@ Dependent image isn
 Depending on the number of invitations, revoking may take some time.
 Deploy apps to Slack infrastructure
 Deploy preview screenshot of acme-dashboard
-Deploy status card with environment details and a link
 Deployment Status
 Deprecated. Always returns RequestBasedUsage.
 Deprecated. If included, the only allowed value is RequestBasedUsage.
 Deprecated. No longer allowed.
 Deprecated. Unused.
 Descrease count of open popovers for a team, optionally in a given window
-Describe a change, e.g. 
-Describe a layout to generate, or ask for changes to refine blocks.
 Describe how Channel Agent should respond in this channel.
 Describe how you want AI to edit your draft
 Describe how your team plans to use this list
-Describe the Slack app UI you want to build
 Describe the types of messages that should start this workflow (e.g., 
 Describe this folder
 Describe this skill set
@@ -6705,6 +6703,8 @@ Enqueue a to-do error toast (gated by later_todos_reminder_detail_view)
 Enqueue a to-do success toast (gated by later_todos_reminder_detail_view)
 Enqueue a toast for a huddle
 Enqueue a toast message
+Enqueue bulk move to bookmarks error toast
+Enqueue bulk move to bookmarks success toast
 Enqueue copy link success toast message
 Enqueue enable popups toast message
 Enqueue record save toast if not already being shown
@@ -7377,6 +7377,7 @@ Failed to download file
 Failed to edit work object comment
 Failed to enable skill
 Failed to execute 
+Failed to export activity log. Please try again later.
 Failed to fetch
 Failed to fetch agent preferences
 Failed to fetch agents
@@ -7414,7 +7415,6 @@ Failed to find demuxer by probing frag, treating as mp4 passthrough
 Failed to format transcript before browser insertion
 Failed to format transcript before insertion
 Failed to generate
-Failed to generate blocks. Please try a different prompt.
 Failed to generate description. Please try again.
 Failed to generate preview
 Failed to get Slackbot channel ID
@@ -7711,6 +7711,7 @@ Fetch Tableau embed token for the provided URL if needed (using canvases.getEmbe
 Fetch Tools
 Fetch WMP content library items
 Fetch WMP current user
+Fetch WMP route for editing
 Fetch WMP sitemap
 Fetch Workflow Begin
 Fetch Workflow Failure
@@ -8448,6 +8449,7 @@ FontFile is empty
 FontFile should be a stream
 Food & Drink
 Footer + fields + author combo
+Footer CTA
 Footer banner of admin menu
 For 1 hour
 For 1 week
@@ -8799,6 +8801,7 @@ Get sidebar stats
 Get smarter search results with Business+
 Get started
 Get started in 3 steps
+Get started with Slack today
 Get started with Slackbot
 Get started with your Pro trial
 Get team on org by Id
@@ -8922,6 +8925,7 @@ Give your channel a name to continue. You can always change the name later.
 Give your space a logo
 Give your task a name
 Give your team access
+Give yourself a little break
 Given a channel id, navigate to the chat view within the app DM space
 Given a failure message for user group invite, normalizes it to one of our known errors (if applicable)
 Given a failure message, normalizes it to one of our known errors (if applicable)
@@ -9031,7 +9035,6 @@ Granular roles
 Graph showing viewers by department
 Graph showing viewers over time
 GraphQL request
-Great job today!
 Great to have you back!
 Great to see you here! App helps you to stay up-to-date with your meetings and events right here within Slack. These are just a few things which you will be able to do:
 GreenTech - Solutions Software Upgrade
@@ -9316,6 +9319,7 @@ Hat Back
 Hat Front
 Have Pending Admin Approval
 Have Slackbot take actions in Slack (e.g., send messages, update settings, set up workflows, etc)
+Have a wonderful evening
 Have the CRM features in Slack changed how you use other CRM tools?
 Having trouble?
 Head back to Home
@@ -9326,6 +9330,7 @@ Header value entry
 Heading level (1-4)
 Headings and dividers
 Headline + paragraph (left-aligned, no CTAs)
+Headline + two CTAs
 Headline Copy
 Heads up that some of the original messages are in a different language than this response.
 Heads up! This feature has no localized assets.
@@ -9481,6 +9486,7 @@ Honorific Prefix
 Hooray! :tada:
 Hop on a huddle to talk it out in real time
 Hop on group calls in channel and leave the note-taking to AI.
+Hope your day is flowing smoothly
 Horizon Bright
 Horizontal Feather
 Horizontal Layout
@@ -9517,6 +9523,7 @@ How do you want to set up your org?
 How is the transcript? Tell us about your experience.
 How many files should they upload?
 How the UI Generator works
+How the page serves
 How this works
 How to Build a Successful Team (Published 2019)
 How to prepare and submit your app
@@ -9601,7 +9608,6 @@ I can help you do your best work in Slack.
 I can set reminders, search files and pull in info from your calendar and other connected apps, and recommend time-saving strategies.
 I found this article confusing or difficult to read
 I have a feature request
-I hit some validation errors:
 I like a UI that someone else made. Can I download it? Edit it?
 I need to change my organization information
 I understand members of this workspace will no longer be able to use Trello
@@ -9789,7 +9795,6 @@ In-list edit settings
 In-list editing is disabled by default, but allowed for specific objects
 In-list editing is disabled for all objects
 Inactive channels
-Incident alert with severity, status, and an acknowledge button
 Incident entity
 Include ALL of these keywords
 Include Slack Connect external channels
@@ -10411,6 +10416,7 @@ Keep all messages, including revisions
 Keep banner visible after CTA click
 Keep each citation to a single sentence where possible
 Keep editing
+Keep it simple, pleasant, and productive
 Keep messages forever
 Keep nav headings short (1-3 words) so they scan easily
 Keep paragraphs to one or two short sentences so blurbs stay visually balanced
@@ -10580,12 +10586,14 @@ Languages (API set)
 Lao People
 Last 24 hours
 Last 28 days
+Last 3 days
 Last 3 months
 Last 30 Days
 Last 7 days
 Last 7 days summary not available
 Last Name
 Last Name is a required field. Match a column to Last Name to continue.
+Last day
 Last edited
 Last edited by
 Last message from today.
@@ -11857,7 +11865,6 @@ Make sure the workflow details and permission are correct before publishing
 Make sure to test and confirm your configuration in order for members to sign in.
 Make sure you trust the developer and source before interacting.
 Make the api call to create a public URL and open the dialog
-Make the header more concise and add a subtitle
 Make the most of AI
 Make the most of AI in Slack
 Make the most of Pro
@@ -11866,6 +11873,7 @@ Make this channel public?
 Make this channel run smoother with AI
 Make this group mentionable
 Make this person an Org Admin?
+Make this the live page?
 Make your sandbox more secure
 Makes API call to create the next command token and updates the store
 Makes API call to fetch DM Invite and upserts the returned Member and Team info
@@ -11966,6 +11974,7 @@ Manage public channels that your Slack app has been added to and create new ones
 Manage recap
 Manage requests
 Manage roles
+Manage route
 Manage sandboxes created by members of the Developer Program.
 Manage section
 Manage security
@@ -12486,7 +12495,6 @@ Message tab enabled
 Message text
 Message text + attachment
 Message text is too long
-Message the AI to refine your blocks
 Message timestamp
 Message to administrators
 Message to contents string
@@ -12764,6 +12772,9 @@ Move to saved
 Move to section
 Move to stage
 Move to to-do with reminder
+Move to-dos to Saved
+Move variant down
+Move variant up
 Move view down
 Move view up
 Moves an Instant Slack conversation to a permanent workspace.
@@ -13144,7 +13155,6 @@ No Salesforce connections found. Contact your admin to add connections.
 No Selection
 No Slack Connect invitations yet
 No Slack Developer auto sandboxes
-No Slack user found with that email address.
 No Slackbot skills have been used yet.
 No Slackbot tools have been used yet.
 No SystemJS found, loading it
@@ -13229,6 +13239,7 @@ No date available
 No date set
 No deeplink found in logs
 No deeplink found in the past 1000 lines
+No default
 No default payment method found
 No denied connector steps
 No description
@@ -13397,6 +13408,7 @@ No stripe customer found from paymentsStripeCustomerGetFetcher
 No suggestions available right now.
 No summary available for this file yet.
 No tasks assigned to you
+No tasks found
 No team ID
 No team ID available for storing sidebar metrics
 No team ID or active huddle
@@ -13710,7 +13722,6 @@ On selected date
 Onboarding apps list
 Onboarding exception approval request
 Onboarding prompts
-Onboarding welcome message with quick action buttons
 Once added, you can ask Slackbot to use these skills
 Once imported, contacts will be stored in Salesforce.
 Once imported, leads will be stored in Salesforce.
@@ -14527,6 +14538,7 @@ Page Settings, has errors
 Page count is not an integer.
 Page is about to unload. This might not be a reload, it could be a window close or navigation
 Page leave detected, disconnecting
+Page source
 Page was destroyed.
 Page with label 
 PageViewport: Invalid rotation, must be a multiple of 90 degrees.
@@ -14815,6 +14827,7 @@ Permissions not considered trustworthy. Requiring refresh
 Permissions strategy not available
 Persist data for all booted teams
 Persist sunroof agent order and visibility preferences
+Persist tab soda state to localStorage
 Persist the pref to enabled peeks on hover in the tab rail
 Persisting device selection records to local storage
 Persists Redux state into IndexedDB
@@ -15076,6 +15089,7 @@ Posts message into the composer
 Potential spam activity
 Potentially EXPECTED ERROR in getOrCreateStripeCustomer - just make sure this is followed by a call to paymentsStripeCustomerCreate
 Potentially show a modal that tells the user they cannot delete the CKA folder
+Power through the afternoon
 Powered by Salesforce, included with Business+
 Powerful tools that help your team move faster every day.
 Pre-comp 1
@@ -15131,8 +15145,6 @@ Presenter enabled drawing for screen
 Presenter enabled drawing for window
 Preserve context for a dispatched thunk
 Presigning only supports S3 or SigV4 signing.
-Press Command+Enter to generate
-Press Command+Enter to send
 Press Ctrl+Enter to generate
 Press Ctrl+Enter to send
 Press down arrow to see prompt suggestions
@@ -15168,7 +15180,6 @@ Preview not available for this file type
 Preview of a Google Drive integration within a Slack chat interface, showing a channel header, user messages, and a Google Drive file card with buttons.
 Preview of the company handbook template
 Preview options
-Preview updated.
 Preview your Contacts
 Preview your Leads
 Preview your daily recap
@@ -15347,6 +15358,7 @@ Promise was cancelled
 Promo Cards
 Promo Discount Modal
 Promo Grid
+Promote a WMP alternate to live on a route
 Promote the editable request to become the request
 PromoteToPrimaryMeetingTask connection terminated
 Promotes a member to an org admin
@@ -15978,6 +15990,7 @@ Redeem partner promo code success
 Redesign toggle
 Redirect URL
 Redirect URLs
+Redirect destination
 Redirect to general channel or fallback to Slackbot
 Redirect to general or Slackbot if benefits page is primary view but not enabled
 Redirecting bot user to app view
@@ -16036,6 +16049,7 @@ Registering pressure observer
 Regular Member
 Regular Members of:
 Regular members
+Rehydrate the tab soda store from persisted state
 Reindeer Dolphin
 Reinitializes properties related to daily digest
 Reject a DM call from the slack window
@@ -16407,6 +16421,7 @@ Remove typing activity for multiple keys
 Remove updates from store
 Remove user consent for provided scopes for an app
 Remove variable
+Remove variant
 Remove video clip
 Remove viewers
 Remove viewers from quip presence
@@ -16618,6 +16633,7 @@ Replace the ID of the existing starred collection with the real one from the ser
 Replace the queue object
 Replace view set
 Replace with a new link
+Replace with a simple rule
 Replaces all events for a specific day
 Replaces all org members in the orgMembers collection
 Replaces all scheduled custom statuses from the server
@@ -16750,6 +16766,7 @@ Reset RemoteFilePreviewUrl store
 Reset Search
 Reset Tableau SDK state for a window
 Reset WMP preview store to initial state
+Reset WMP route editor state
 Reset Workflow Editor State
 Reset active list views search results
 Reset admin selected salesforce org
@@ -16893,6 +16910,7 @@ Restore default width
 Restore message
 Restore notification
 Restore selected
+Restore tab soda state from localStorage
 Restore the peers store to a clean state
 Restore this canvas?
 Restore this message?
@@ -16980,12 +16998,9 @@ Reveal Views
 Reversed layout (media first)
 Revert a template back to a canvas by updating the file object
 Revert column change
-Revert failed. Please try again.
-Revert last update
 Revert template to a canvas
 Revert template to a list
 Revert to List
-Reverted to previous blocks.
 Reverting those changes
 Review AI workflow access
 Review AI-generated content
@@ -17273,6 +17288,7 @@ Sarah Chen
 Saudi Arabia
 Save & Add Another
 Save & Reload
+Save & open editor
 Save Changes
 Save Draft
 Save Failed
@@ -17282,6 +17298,7 @@ Save Rule
 Save Setting
 Save Slackbot write settings
 Save Template
+Save WMP route via wmp.routes.update
 Save a canvas section for later
 Save a file for later
 Save a list record field for later
@@ -17560,6 +17577,7 @@ Search workspaces
 Search workspaces by name
 Search your chats
 Search your skills
+Search your tasks
 Search: all work objects modules sort changed
 Search: disable backend sort override
 Search: reset modules
@@ -18082,6 +18100,11 @@ Set WMP mock user overrides
 Set WMP page preview HTML
 Set WMP page preview error
 Set WMP page preview loading state
+Set WMP route editor error
+Set WMP route editor loaded route
+Set WMP route editor loading state
+Set WMP route editor saving state
+Set WMP route editor target route ID
 Set WMP routes error
 Set WMP routes list
 Set WMP routes loading state
@@ -20522,7 +20545,6 @@ Something went wrong while setting up verification. Please try again.
 Something went wrong while submitting your app. Please try again.
 Something went wrong with how one or more of your settings has been configured.
 Something went wrong with starting your trial. Try again later.
-Something went wrong with the template. Try a different prompt.
 Something went wrong with your huddle
 Something went wrong.
 Something went wrong. 
@@ -20970,6 +20992,7 @@ Streamline your major announcements
 Streams file from Salesforce and optionally triggers browser download
 Street Address
 Strengthen security for your workspace
+Stretch those shoulders and refocus.
 String Join
 String literal with double or signle quote.
 Strip Newlines
@@ -21151,7 +21174,6 @@ Sure, I can schedule 30 minutes with Lisa Dawson. Outlines
 Surprise me
 Survey Questions
 Survey complete. Thank you!
-Survey form modal with rating and text feedback
 Suspense Fallback
 Sustainable Materials Sourcing
 Svalbard and Jan Mayen
@@ -21180,14 +21202,12 @@ Switch mode
 Switch or update the workflow trigger
 Switch primary or secondary view on call notification click
 Switch primary or secondary view on notification click
-Switch to AI chat
 Switch to Bar Chart
 Switch to Line Chart
 Switch to Paying Yearly
 Switch to a TabSoda tab by its position index
 Switch to a channel
 Switch to channel, join if necessary
-Switch to code editor
 Switch to dark mode
 Switch to dev build
 Switch to light mode
@@ -21463,7 +21483,6 @@ Thanks for letting us know! Your feedback helps us improve Agentforce for everyo
 Thanks for the feedback
 Thanks for the warm welcome!
 Thanks for your feedback!
-That account is not eligible for WMP access (deleted, bot, or guest).
 That channel name is invalid. Please try again.
 That name is already taken by a channel, username, or user group in this workspace.
 That private channel has been archived.
@@ -21560,6 +21579,7 @@ The connection failed due to incompatible SDP.
 The connection failed. See the error message for more details.
 The constructor with parameters has been removed in JSZip 3.0, please check the upgrade guide.
 The create a canvas step cannot be placed after the ask agentforce step if the canvas is owned by someone outside your organization.
+The current live page will be moved to the bullpen.
 The day loads, one unread message at a time.
 The decode map is not the correct length
 The display mode being requested.
@@ -21583,7 +21603,6 @@ The first row of your .csv file should be the name of each column.
 The first row of your file should be column names. Be sure to include 
 The following people have requested access to customer management in Slack. Approving the request will add them as Salesforce users.
 The free plan includes up to 10 users, 90 days of message history, and 5GB of file storage.
-The generated JSON failed Block Kit validation.
 The global cache-data must be available.
 The huddle language applies to AI notes, transcription and captions.
 The huddle language applies to transcription and captions.
@@ -21647,6 +21666,7 @@ The request does not belong to this Salesforce org.
 The request timed out. You can compose the email manually.
 The resources in this channel are AI generated and visible to everyone who joins the channel. Feel free to personalize it to your team.
 The rnn() functoin of the deeplearn.js backend does not support constants yet.
+The route path is invalid.
 The routing address already exists.
 The same day
 The section name is too long
@@ -21845,6 +21865,7 @@ This canvas was deleted.
 This canvas was not found.
 This canvas was retired
 This card has no header. It only has a hero image, body text, and two action buttons at the bottom.
+This change removes the last place that serves a document, so it may be unpublished from Slack.com. You can re-promote it later.
 This channel cannot be archived.
 This channel is for everything 
 This channel is linked to a record
@@ -21997,6 +22018,7 @@ This org has SSO configured. Org owner invites are not allowed for SSO-configure
 This org is using an outdated connection
 This page has an invalid locale
 This page is being edited
+This page is published and ready to go.
 This page is too large to save
 This page no longer exists
 This parameter has been deprecated. Instead, use the KeySpec parameter.
@@ -22021,6 +22043,7 @@ This result may be incomplete because the PDF page limit was exceeded. Try reduc
 This result may be incomplete because the image was too large. Try reducing the size of the image
 This result may be incomplete because the input was too large. Try reducing the number or size of files, or shortening your prompt
 This result may be incomplete because the request loop limit was exceeded.
+This route no longer exists. It may have been deleted.
 This section has a *button* accessory. Click it!
 This section will appear at the top of your sidebar so you never miss a mention or message.
 This selected org will:
@@ -22054,13 +22077,11 @@ This thread
 This thread is currently unavailable
 This tool uses AI to generate responses, so some information may be inaccurate.
 This tool uses AI to generate workflows and may not always get it right. Let us know how it went.
-This tool uses generative AI, which can produce inaccurate or harmful responses.
 This tool uses generative AI, which can produce inaccurate or harmful responses. Review for accuracy and safety before using.
 This trigger requires Send Summary To Sales Home as the first step
 This type of account is not supported.
 This type of answer cannot be shared.
 This type of user cannot be removed.
-This user already has a WMP account.
 This user has a resolution and cannot have their email updated.
 This user is not a member of the preferred Digital Experiences site.
 This value contains deleted items.
@@ -22167,6 +22188,7 @@ Time to document your genius!
 Time to join a workspace
 Time to ship a release
 Time to stretch
+Time to wrap up your day
 Timed out after 30000
 Timeout in waiting for child window to load
 Timeout while fetching work object entity
@@ -22208,6 +22230,7 @@ To-do added
 To-do reminder
 To-do removed
 To-dos is the new Later, but you can still save items
+To-dos moved to Saved
 To-dos pagination
 Today is an AI-powered landing page to help you get situated, whether at the start of your day or when you need to refocus.
 Today view settings
@@ -22571,6 +22594,7 @@ Try Unlimited AI Search at No Extra Cost
 Try a Different Image
 Try a different camera
 Try a different microphone
+Try a different search term.
 Try a different speaker
 Try a jazz club effect
 Try a new app
@@ -22578,13 +22602,13 @@ Try a sample of Slack
 Try a template Outlines
 Try adjusting your search.
 Try again
-Try an example
 Try asking
 Try asking a question like 
 Try closing other apps you have running
 Try different keywords or check for typos.
 Try disconnecting, then reconnecting the app to try again.
 Try filtering items
+Try for free
 Try huddles with more people
 Try later
 Try mentions
@@ -22998,10 +23022,13 @@ Unpins a Slackbot AI NUX kickoff thread ts so its root message becomes visible
 Unpublish Product UI
 Unpublish WMP page
 Unpublish a skill from the skill catalog
+Unpublish and delete
 Unpublish now
 Unpublish page
 Unpublish template
 Unpublish the shortcuts workflow
+Unpublish these documents?
+Unpublish this document?
 Unpublish this workflow?
 Unpublish workflow
 Unpublished workflows
@@ -23083,6 +23110,7 @@ Untitled item
 Untitled item (Archived)
 Untitled list
 Untitled meeting
+Untitled page
 Untitled session
 Untitled task
 Untitled thread
@@ -23504,7 +23532,6 @@ Updated classics
 Updated just now
 Updated local video from policy without renegotiation
 Updated permissions for free teams joining channels
-Updated the preview.
 Updated yesterday
 UpdatedTimestamp is no longer returned by ListEventDataStores
 Updates AI Explain content by summaryId from RTM events
@@ -23911,6 +23938,7 @@ Use to surface time-bound announcements (events, launches, deprecations) above t
 Use up and down to move the slider along the Y axis, left and right to move along the X axis.
 Use up to 63 letters, numbers, or hyphens, starting and ending with a letter or number.
 Use up to two CTAs: the first renders filled (primary), the second outline (secondary)
+Use up to two CTAs: the first renders filled (primary), the second outline (secondary). On dark sections both are restyled to read as white-on-purple
 Use when a short product loop or motion graphic better demonstrates the feature than a static image.
 Use when the page message is strong enough without supporting media.
 Use when you have a longer-form customer story or product video hosted on YouTube.
@@ -24065,6 +24093,8 @@ Variables allow you to insert data from previous steps into your workflow.
 Variables containing multiple items must not be mixed with other items of the same type
 Variables used in knowledge sources:
 Variables used in sources
+Variant name
+Variant source
 Vatican City
 Vector (Stroke)
 Vector (Stroke) 2
@@ -24328,6 +24358,7 @@ View reminders created by your Slack app
 View remote files added by the app in a workspace
 View reply
 View report
+View saved
 View saved items shortcut - opens Saved View
 View shared screen
 View skill details
@@ -24532,7 +24563,6 @@ Weekly Sync
 Weekly Team Standup
 Weekly active users
 Weekly active users by platform
-Weekly standup reminder with a checklist
 Weekly sync
 Welcome Party Channel Join Modal
 Welcome card image of a computer booting up
@@ -24913,7 +24943,6 @@ Would you like to approve these migrations?
 Would you like to post the email in this channel?
 Wrap field
 Wrap text
-Wrap up your day
 Wrapper around getRecordLayoutDetails to optionally send childRelationships arg to fetcher
 Wrapper for handleOnClickActivityItem that fills in the message object
 Wrapper type given to Transform.wrap does not form valid content of its parent wrapper
@@ -25366,6 +25395,8 @@ s built-in header fields instead.
 s configured region.
 s context for future turns.
 s context menu. Try it out by selecting the _Create a Task_ action for this message (shown below).
+s current page to customize for this audience.
+s current page to work on.
 s device is running on battery power, which could limit device performance and cause audio, video, or application lag. If they report such issues, suggest they connect their device to a power source.
 s dtype must be an int32.
 s gonna hit about a 2-iron, I think. Oh, he got all of that.
@@ -25419,6 +25450,7 @@ t a dict.
 t an array.
 t be able to test the simplified upgrade flow for Grid Migrations.
 t be able to use it again.
+t be edited here. Editing will replace them with a simple rule.
 t be undone.
 t change the permissions scope of the authorization token.
 t click directly from the scoped search to the scope selector button. The first click clears the backdrop.
@@ -25430,12 +25462,15 @@ t exist.
 t experience broken features.
 t get item at a negative index.
 t have any responses yet. When responses come in, you can download them here.
+t have permission to change this route.
 t have permission to create private channels in this workspace.
+t have permission to list pages.
 t load more results. Try again later.
 t load the preview right now.
 t make a batch of zero elements.
 t point to a valid Page dictionary.
 t prematurely end the comment block.
+t save your changes. Please try again.
 t seem to be supported on this browser. Try to update your browser and make sure no browser extensions are disabling webRTC.
 t set item at a negative index.
 t start or end with a dash.

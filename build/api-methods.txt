@@ -1218,6 +1218,7 @@ salesHome.workflows.get
 salesHome.workflows.list
 salesHome.workflows.update
 saved.add
+saved.bulkUpdate
 saved.clearCompleted
 saved.delete
 saved.get
@@ -1625,6 +1626,7 @@ wmp.documents.delete
 wmp.documents.heartbeatLock
 wmp.documents.heartbeats.list
 wmp.documents.info
+wmp.documents.list
 wmp.documents.publish
 wmp.documents.releaseLock
 wmp.documents.save
@@ -1644,7 +1646,9 @@ wmp.media.replace
 wmp.media.uploads.config
 wmp.media.uploads.presign
 wmp.routes.create
+wmp.routes.info
 wmp.routes.list
+wmp.routes.update
 wmp.sitemap.list
 wmp.users.create
 wmp.users.delete
@@ -1657,6 +1661,7 @@ workObjects.getComments
 workObjects.getEntity
 workObjects.postComment
 workObjects.publishEntity
+workflows.activity.export
 workflows.activity.get
 workflows.activity.list
 workflows.ai.create
