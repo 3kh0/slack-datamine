@@ -189,8 +189,8 @@
 2. Paste the response below, or paste your exported memory file.
 :E.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
 :E.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eP?eH:void 0,className:s()(eP||T||eF?
+:E.mv.ConfirmationModal,onClose:ez,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
 :I.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eP?eH:void 0,className:s()(eP||T||eF?
-:I.mv.ConfirmationModal,onClose:ez,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
 :O instanceof RegExp?
 :_ instanceof RegExp?
 :a?l:void 0,children:m?
@@ -860,7 +860,6 @@ Add 1 lead or up to 50 contacts
 Add Agent
 Add Agent To Workspaces
 Add Agent or App
-Add Ai Composer past custom prompt
 Add An Opportunity Manually
 Add App Collaborator
 Add App Collaborator Failure
@@ -1960,7 +1959,6 @@ Antigua and Barbuda
 Any Salesforce data included in this message will be visible to all members of the selected channel.
 Any amount change
 Any changes to your email?
-Any changes to your revised message?
 Any custom setting
 Any file type
 Any owner or admin
@@ -2327,7 +2325,6 @@ Attach a workflow to the current draft
 Attach an eager upload to a draft
 Attach an eager upload to a message
 Attach file
-Attach relevant links or files
 Attaching video stream to camera preview
 Attachment Preview
 Attachment hidden
@@ -5276,6 +5273,7 @@ Created by
 Created by Slack
 Created by me
 Created by you
+Created email forwarding address
 Created hierarchical task organization with proper dependency relationships
 Created on
 Created on average
@@ -5814,7 +5812,6 @@ Deprecated. No longer allowed.
 Deprecated. Unused.
 Descrease count of open popovers for a team, optionally in a given window
 Describe how Channel Agent should respond in this channel.
-Describe how you want AI to edit your draft
 Describe how your team plans to use this list
 Describe the types of messages that should start this workflow (e.g., 
 Describe this folder
@@ -5846,7 +5843,6 @@ Desktop notification shown
 Desktop only
 Desktop preview
 Desktop session duration disabled
-Destroy Ai Composer session
 Destroy a query session ID by emptying it
 Destroy a search in channel session ID by emptying it
 Destroy a search session ID by emptying it
@@ -6215,7 +6211,6 @@ Draft email
 Draft project update
 Draft ready for review
 Draft replies to my VIP messages
-Draft with AI
 Drafts & sent
 Drafts clear and concise answers to common questions based on provided context or knowledge.
 DraftsSent Outlines
@@ -6482,7 +6477,6 @@ Einstein Copilot
 Either calls files.uploadExternal or posts message into the composer
 Either channelId or memberId must be provided
 El Salvador
-Elaborate on these points
 Elastic Beanstalk
 Elastic Load Balancing
 Elastic Load Balancing v2
@@ -8393,7 +8387,6 @@ First things first! Choose how your workflow begins.
 First unread message.
 First, add variables
 Fix errors here
-Fix grammar and spelling
 Fix: Resolve race condition in message delivery pipeline
 Fixed height CellMeasurerCache should specify a :defaultHeight greater than 0. Failing to do so will lead to unnecessary layout and poor performance.
 Fixed width CellMeasurerCache should specify a :defaultWidth greater than 0. Failing to do so will lead to unnecessary layout and poor performance.
@@ -8500,7 +8493,6 @@ Form questions
 Form title
 Form with an alert
 Format and upsert list records
-Format for readability
 Format found triggers and commands from searcher into an object the UI can use
 Format server-provided counts and update store with new values
 Formatted Data
@@ -11198,7 +11190,6 @@ Log exposure for the pricing_standard_1 experiment if it is exposed
 Log exposure for the pro_getting_work_done_emojis experiment if it is exposed
 Log exposure for the pro_to_biz_trial_duration_experiment experiment if it is exposed
 Log exposure for the pro_upgrade_pocket_guide_v2 experiment if it is exposed
-Log exposure for the pxp3564 experiment if it is exposed
 Log exposure for the pxp_currency_update experiment if it is exposed
 Log exposure for the request_to_purchase_v2_upvote experiment if it is exposed
 Log exposure for the resurrected_user_sidebar_tasks_large experiment if it is exposed
@@ -15082,7 +15073,6 @@ Point 1 Text
 Point 4 Text
 Pointer Control
 Policies (opens in new tab)
-Polish for clarity and tone
 Poll client unreads API after delay
 Poll client unreads API on interval
 Poll files.list until it returns a specific file
@@ -16056,7 +16046,6 @@ Redwood Suite
 References external instructions
 Refetch search results
 Refetches localized APIs for a team
-Refine this to match my writing style
 Refresh After Installing
 Refresh All Threads view on a slow reconnect
 Refresh Response
@@ -20130,7 +20119,6 @@ Showing or hiding the highlights back button
 Shown Fields
 Shown in search results and browser tabs.
 Shows a success toast when admin settings are saved.
-Shows a toast notification when a draft reply is ready but the user navigated away
 Shows a toast when a user changes the channel property for AI notes autostart
 Shows an error message toast when user actions on a request fail.
 Shows an error toast when an app cannot be added to a channel due to restricted access
@@ -20582,7 +20570,6 @@ Something went wrong adding this object type.
 Something went wrong approving the app for your organization. Wait a moment and try again.
 Something went wrong creating the channel, please try again.
 Something went wrong drafting the email
-Something went wrong drafting the message
 Something went wrong during notification dismissal
 Something went wrong fetching insights
 Something went wrong fetching the diff. Please try again later.
@@ -21093,7 +21080,6 @@ Submenu Option 3
 Submenu item one
 Submenu item two
 Submission Guide
-Submit AI composer request with ops-to-blocks conversion
 Submit App for Review
 Submit Channel Export
 Submit Coachmark
@@ -22825,6 +22811,7 @@ Unable to create WebGLFramebuffer.
 Unable to create WebGLProgram.
 Unable to create WebGLTexture.
 Unable to create a POST object policy without a bucket, region, and credentials
+Unable to create email token
 Unable to create fragment WebGLShader.
 Unable to create list from workflow template
 Unable to create preview.
@@ -22833,7 +22820,6 @@ Unable to create rule. Check errors and try again.
 Unable to create vertex WebGLShader.
 Unable to create window
 Unable to decline migration. Please try again.
-Unable to delete email token
 Unable to delete workflow
 Unable to determine current origin
 Unable to do anything with api response
@@ -23202,7 +23188,6 @@ Update AI alt text generation status for a file
 Update AI summary content when streaming
 Update Active Checkout Step
 Update Active Country
-Update Ai Composer session
 Update Channel
 Update Checkout Flow API Error Indicator
 Update Collab SDK mac
