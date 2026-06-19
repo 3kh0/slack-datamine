@@ -3166,6 +3166,7 @@ Camera source
 Can I share the UI Generator with customers?
 Can I upgrade at any time?
 Can be configured to start from the left or right side. Has keyboard navigation support with left and right arrows, and will disable animations if the user animation pref is disabled.
+Can comment
 Can configure Salesforce and add new users
 Can edit
 Can edit, publish, and delete this template
@@ -4615,7 +4616,6 @@ Connect a support address to respond to a case
 Connect account
 Connect accounts
 Connect all your tools directly to your Slack workspace.
-Connect an email account to send directly from Slack
 Connect an existing Salesforce organization
 Connect an organization to get started.
 Connect another org
@@ -6296,6 +6296,7 @@ Each link or QR code works for up to 400 people. To keep your workspace secure, 
 Each pair must have its own sequence indicator
 Each tile is fully clickable; do not try to nest a CTA inside the paragraph
 Eager dismiss provided eventId
+Earliest date created
 Early connection closed; discarding signaling task.
 Easily add multiple Salesforce orgs to keep track of your deals in one place.
 Easily export messages and explore flexible data residency options
@@ -6375,8 +6376,6 @@ Edit defaults
 Edit description
 Edit details
 Edit draft
-Edit draft email
-Edit email draft
 Edit example prompt
 Edit external discoverability settings
 Edit external teams using my organizations workflows
@@ -6562,12 +6561,10 @@ Email body
 Email could not be sent. Please retry.
 Email domain verification
 Email domains
-Email draft updated
 Email editor
 Email has been sucessfully sent
 Email provider connect options
 Email sending failed
-Email sent
 Email sent successfully
 Email subject
 Email text input
@@ -7054,7 +7051,6 @@ Everyone in the channel will be able to view the notes and transcript.
 Everyone in the channel will be able to view the notes.
 Everyone in the channel will be able to view the transcript.
 Everyone in the organization
-Everyone in your organization has the ability to edit.
 Everyone in your workspace
 Everyone must knock, including people who are invited.
 Everyone must request to join a calendar huddle, including people in your org. All calendar huddles will have this setting.
@@ -7131,7 +7127,6 @@ Expand cell
 Expand channel
 Expand details
 Expand editor
-Expand email
 Expand grid
 Expand group
 Expand heading
@@ -7546,7 +7541,6 @@ Failed to send
 Failed to send Huddle logs
 Failed to send awareness query: 
 Failed to send draft
-Failed to send email
 Failed to send message
 Failed to send message to Slackbot
 Failed to send message via WebRTC:
@@ -8930,7 +8924,6 @@ Github Outlines
 Give AI a prompt to instantly create a workflow template
 Give Feedback
 Give feedback
-Give it a moment and try again.
 Give it a name
 Give it another try
 Give me a daily sales update from my CRM data every morning.
@@ -9412,7 +9405,6 @@ Hi David :wave:
 Hi from Slack
 Hi there
 Hidden Fields
-Hidden fields
 Hidden from conversation
 Hidden sections
 HiddenFileInput missing input ref
@@ -10642,6 +10634,7 @@ Later desktop notification shown
 Later items
 Later items pagination
 Latest Unreads
+Latest date created
 Latest messages
 Lato, Slack-Lato, appleLogo, sans-serif
 Lato, sans-serif
@@ -14219,7 +14212,6 @@ Opens compare plans modal
 Opens either channel invite modal or dm browser modal
 Opens file detail in the huddle window flexpane if the window is open
 Opens greeting invite modal
-Opens in DM
 Opens member profile in the huddle window flexpane if the window is open
 Opens multi device modal
 Opens one of the help views in a window
@@ -15157,7 +15149,6 @@ Premium Salesforce integration
 Premium workflows
 Premultiply Matte Layer
 Prep for Meeting
-Prep for meeting
 Prep for meeting with 
 Prep for tomorrow
 Prep with Slackbot
@@ -17008,7 +16999,6 @@ Retrieve the list of call apps installed for this org.
 Retrieves the next batch of users from a given External Directory.
 Retrieving thinking steps data from Slack API endpoints
 Retry Build
-Retry Send
 Retry failed uploads
 Retry recording
 Retry send
@@ -17719,7 +17709,6 @@ See what you can do
 See why teams choose Slack.
 See workflows
 See yesterday
-See your most important unreads first
 See your primary Google Account email address
 See your summaries in a predictable order or just focus on the newest.
 Seeds the Slackbot AI NUX kickoff thread ts pin set (used for hydration)
@@ -19570,6 +19559,7 @@ Sets the shared-invite details
 Sets the sort direction for the user groups table
 Sets the sort fyi coachmark to seen once dismissed once
 Sets the sort options for the members tab
+Sets the sort order for the to-do tab
 Sets the state for active ai app
 Sets the state for the split view window
 Sets the status of app activities next cursor fetching
@@ -19999,6 +19989,7 @@ Show all
 Show all DMs
 Show all activity
 Show all comments
+Show all fields
 Show all input names
 Show all rows
 Show all servers
@@ -20476,9 +20467,7 @@ Slackbot can create and add content to canvases.
 Slackbot can help with this thread. Press Tab to ask.
 Slackbot can help you prep for meetings, too.
 Slackbot can search and display content from all web domains.
-Slackbot can search the web.
 Slackbot can use web search
-Slackbot cannot search the web.
 Slackbot helps MrBeast create viral videos.
 Slackbot is not enabled for anyone in your organization.
 Slackbot is off for your organization.
@@ -20946,7 +20935,6 @@ Step primary actions
 Step to use for form fields
 Steps are hosted on Slack?
 Still curious? 
-Still not working. Check back in a few minutes.
 Stone Informal
 Stone Serif
 Stop Sharing
@@ -22043,8 +22031,6 @@ This item is overdue by 1 year.
 This item was deleted
 This knowledge source has already been selected. Please choose a different one.
 This license request has already been reviewed.
-This link does not come from data in your Slack workspace. Make sure you trust this link before continuing.
-This link opens a website outside of Slack. It was used as a source by Slackbot to answer your question.
 This list has been shared with connected external people using Slack Connect.
 This list has too many items. Add filters to narrow your results.
 This list is no longer available
@@ -24069,7 +24055,6 @@ UserAccessChange (Beta)
 UserAccessPolicy (Beta)
 Usernames (AKA our 
 Users and files
-Users are not required to approve each web search.
 Users can choose to skip repeated approvals for tool actions on a per-file basis.
 Users can customize their privacy level
 Users can edit records directly from all list views in Slack
@@ -24077,10 +24062,7 @@ Users can edit records from the list view by default, but in-list editing is dis
 Users can skip repeated approvals for tool actions on a per-file basis.
 Users list
 Users must approve every tool action on files individually.
-Users must approve every web search.
-Users navigate directly to web search citations.
 Users on this list can view Salesforce data in Slack once authenticated.
-Users see a confirmation dialog before opening web search citations.
 Users select
 Users will no longer be able to use this template.
 Uses Opus for more capable, in-depth responses
@@ -24317,7 +24299,6 @@ View and add agents
 View and download all your Google Drive files
 View and edit custom Salesforce Lists directly inside of Slack, keeping your and your team aligned on everything from active lead lists to open tickets.
 View and manage Slack workflows and Slackbot tasks for your organization.
-View and manage additional options in 
 View app details
 View app in Marketplace
 View app manifest example
