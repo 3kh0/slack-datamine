@@ -232,6 +232,7 @@ admin.workflows.triggers.types.permissionsWithStepRestrictions.set
 admin.workflows.unpublish
 ai.agents.channelAgent.configure
 ai.agents.channelAgent.getConfiguration
+ai.alpha.agents.channels.list
 ai.alpha.agents.diveDeeper
 ai.alpha.agents.stop
 ai.alpha.agents.threads.list
@@ -1219,6 +1220,7 @@ salesHome.workflows.get
 salesHome.workflows.list
 salesHome.workflows.update
 saved.add
+saved.bulkDelete
 saved.bulkUpdate
 saved.clearCompleted
 saved.delete
@@ -1330,7 +1332,6 @@ sfdc.fields.listEligible
 sfdc.fields.updateVisibility
 sfdc.files.download
 sfdc.files.upload
-sfdc.getContactAvailableFields
 sfdc.getContactCSVSample
 sfdc.getContactDetails
 sfdc.getContactListInfo
