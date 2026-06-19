@@ -245,6 +245,7 @@ A channel was deleted
 A channel was renamed
 A channel was unarchived
 A channel with this name already exists. Please choose a different name.
+A client secret is required when PKCE is not enabled.
 A connector resource references an invalid auth token or an auth token that does not belong to you. Reconnect your account to fix this step.
 A connector source used in this step has been disabled by your workspace admin. Remove the restricted knowledge source to continue.
 A contact from other organizations
@@ -1852,6 +1853,7 @@ An AI agent has proposed changes to your workflow. Please review and approve or 
 An AI file summary preview will appear when files are shared in conversations, and will be available in file details.
 An EKM backfill is in progress.
 An Extremely Long Article Title That Goes On And On To Test How The V3 Attachment Card Handles Overflow And Truncation Of Title Text In The Compact Card View
+An MCP server with this name already exists.
 An activity was logged
 An admin has disabled external file access for AI workflow steps. Remove external files to continue.
 An admin has disabled file access for AI workflow steps. Remove files to continue.
@@ -2430,6 +2432,7 @@ Automated messages
 Automated notifications and system messages
 Automatic acceptance
 Automatic by language
+Automatic registration did not go through. The server may not support it.
 Automatic statuses
 Automatically accept all invitations as private channels in any Slack Connect enabled workspace only if approvals are not required
 Automatically accept all invitations as private channels in any Slack Connect enabled workspace only if approvals are not required.
@@ -4947,6 +4950,7 @@ Could not clear last known event timestamp
 Could not clear stale endpoints from storage
 Could not complete boot due to loss of API service
 Could not complete boot due to loss of network connectivity
+Could not connect to the server.
 Could not connect with this user.
 Could not connect. Please try again.
 Could not construct new URL with HLS Delivery Directives: 
@@ -7328,6 +7332,7 @@ Failed to add skill set to library from unfurl
 Failed to add skill set. Please try again.
 Failed to add skill. Please try again.
 Failed to add team to exclude list; continuing with signout
+Failed to add the mcp:connect scope. Please try again or add it manually on the OAuth & Permissions page.
 Failed to add the required bot scopes to the app.
 Failed to add to channel
 Failed to approve license request.
@@ -9220,6 +9225,7 @@ HIPAA logo
 HTML (Derivative)
 HTML content to load into the inner iframe.
 HTML file
+HTTP method must be GET or POST.
 HTTP request failed (DNS, timeout, or connection refused). Verify the server URL is reachable.
 Halt further boot if client is reloading
 Halting the API queue
@@ -9692,6 +9698,7 @@ Ideas in Action
 Identifies which screenshare is being viewed in the mini-player
 Identify specific Salesforce organization and object to configure a workflow when a Salesforce channel is created.
 Identity URL (optional)
+Identity configuration is only valid for Dynamic Client Registration.
 Identity matrix initializer can only be used for 2D square matrices.
 If Layer Sizes Differ
 If a channel containing a broadcast was just marked, maybe we can mark the thread too
@@ -12734,6 +12741,7 @@ More information
 More information about including skills
 More invite options
 More list actions
+More messages
 More options
 More reactions
 More sidekicks sidebar
@@ -13716,6 +13724,7 @@ Numeric sort data table
 O Outlines
 OAuth & Permissions
 OAuth Scopes
+OAuth configuration is not valid for this auth type.
 OAuth scopes
 OAuth scopes (optional)
 ODBCdotTable decimallessFloat zerolessFloat binaryNumber hexNumber doubleQuote nCharCast charsetCast commentHash commentSpaceRequired
@@ -13765,6 +13774,7 @@ One Light
 One day before
 One more error
 One or more of these domains are formatted incorrectly. Please update them to the correct format. Example: acmeinc.com
+One or more scopes contain invalid characters. Scopes must use printable ASCII only.
 One or more selected canvases have restricted sharing. Choose a different canvas or ask the owner for sharing permissions.
 One or more selected canvases were not found. Choose a different canvas to continue.
 One or more selected files were not found. Choose a different file to continue.
@@ -14975,6 +14985,9 @@ Please add a valid display name.
 Please add at least one Agent manager.
 Please add at least one assistant suggested prompt.
 Please check back later to see any settings conflicts.
+Please check your OAuth configuration.
+Please check your custom headers.
+Please check your request body parameters.
 Please choose a different label, this one already exists.
 Please choose an image smaller than 64KB.
 Please complete this required field
@@ -14993,8 +15006,12 @@ Please enter a reason
 Please enter a valid App ID.
 Please enter a valid Google Drive URL.
 Please enter a valid URL
+Please enter a valid account identifier (e.g. $.id).
+Please enter a valid authorization URL.
 Please enter a valid email address (e.g., support@example.com).
+Please enter a valid identity URL.
 Please enter a valid phone number.
+Please enter a valid token URL.
 Please enter an App ID.
 Please enter at least one email address
 Please enter one or more keywords.
@@ -17187,6 +17204,7 @@ SOS Sessions
 SPA navigation failed in Gantry, falling back to full page navigation
 SRTP syntax support
 SSH Config
+SSL certificate verification failed for this URL.
 SSO & Authentication
 SSO & authentication
 SSO Settings
@@ -20289,6 +20307,7 @@ Skip focus huddle pro max window, reason: desktop API not available
 Skip focus huddle pro max window, reason: no windowId available
 Skip for Now
 Skip for now
+Skip notification for in-progress streaming message
 Skip this
 Skip this step
 Skip to main content
@@ -21393,6 +21412,7 @@ Task List (plain)
 Task card
 Task card block
 Task created successfully.
+Task deleted
 Task enqueued! You will receive a response soon.
 Task entity
 Task handlers are not supported in MCP Apps
@@ -21552,6 +21572,7 @@ The Content-MD5 you specified is invalid for multi-part uploads.
 The Data Cloud team already exists.
 The Huddle has ended.
 The InResponseTo ID of the SAML Response does not match the ID of the AuthNRequest sent by us. Please check your Identity Provider settings.
+The MCP server could not be found.
 The MCP server did not respond in time. Please try again.
 The MCP server rejected the registration request.
 The MCP server returned an invalid registration response.
@@ -21559,6 +21580,7 @@ The MP4 demuxer does not support SAMPLE-AES decryption
 The NameID of the SAML Response is not encrypted. Please check your Identity Provider settings.
 The Network Team is the best team of all time.
 The New York Times
+The OAuth metadata from this server is incomplete - a required endpoint is missing.
 The PDF file is empty, i.e. its size is zero bytes.
 The Preferences may override manually set AppOptions; please use the 
 The Primary meeting credentials provided are no longer valid. chime::DeleteAttendee may have been called on them.
@@ -21578,6 +21600,9 @@ The Slack for Education program offers qualifying teams a discount on paid plans
 The Slack integration has been blocked in your Salesforce org.
 The UI Generator is pretty intuitive; in general, to change the name or title of an element, hover over it or click it.
 The UI Version is listed in a column in the Browse Existing and My Dashboard views.
+The URL hostname could not be resolved.
+The URL must use HTTPS.
+The URL resolves to a private or blocked IP address.
 The URL will be created after you save this information.
 The Workspace Owner will need to approve the migration request.
 The adapter.js addTrack polyfill only supports a single  stream which is associated with the specified track.
@@ -21590,6 +21615,7 @@ The all-calls-store should not be used in the call window. Use the active-call-s
 The alternate key must be different from the DKIM key.
 The amount of computational work that your system performs
 The animation loop runs via 
+The app could not be found.
 The app will no longer appear in the 
 The args passed in customGrad(f)(x1, x2,...) must all be tensors
 The argument must be a React element, but you passed 
@@ -21605,6 +21631,8 @@ The attendee joined from another device.
 The attendee left the meeting.
 The attendee was not present.
 The audio connection failed.
+The auth provider could not be found. It may have been deleted.
+The auth provider could not be updated. Please try again.
 The author subname is displayed below the author name in the attribution area.
 The average number of impressions messages sent by a specific app during a day
 The average number of messages and replies posted by this app per day
@@ -21881,6 +21909,7 @@ This action cannot be undone.
 This action cannot be undone. Previous requests that were resolved by this rule will not be changed, but this rule will no longer be executed or available in the future.
 This action has already been completed
 This action is blocked by your connector preferences.
+This action is not allowed.
 This agent can
 This agent cannot be invited to this channel.
 This agent is already in the channel
@@ -21892,8 +21921,10 @@ This agent is unavailable. Contact a Slack Admin to learn more.
 This answer content is no longer valid. Try generating a new answer.
 This answer is no longer available to share.
 This app
+This app cannot be edited.
 This app completes all your work for you
 This app has public distribution enabled. The distribution of Workflow Steps is not currently supported.
+This app has reached the maximum number of MCP servers.
 This app is no longer available.
 This app is not approved by Slack. Apps are reviewed to ensure a quality experience.
 This app is unavailable
@@ -22100,6 +22131,7 @@ This route no longer exists. It may have been deleted.
 This section has a *button* accessory. Click it!
 This section will appear at the top of your sidebar so you never miss a mention or message.
 This selected org will:
+This server supports OAuth but not automatic registration. You can configure it manually instead.
 This setting can be changed without any impact.
 This settings determines what invite preferences are available to users when creating a calendar huddle
 This should not be possible
@@ -24553,6 +24585,8 @@ We are unable to retrieve the permissions. Please try again or contact Slack if 
 We brought back your notifications
 We cannot automatically determine where this channel should be created based on the external organizations.
 We cannot write HTML in SSB
+We could not find OAuth info for this server. It may not support OAuth.
+We could not register the auth provider. Give it another try.
 We couldn
 We encountered a problem while loading. Try refreshing, and if the problem persists, contact your admin.
 We ended your huddle since you were the only one there for a bit.
