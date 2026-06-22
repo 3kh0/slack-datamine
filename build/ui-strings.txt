@@ -6163,6 +6163,7 @@ Dolphin Halloween
 Domain Name
 Domain activated.
 Domain claiming
+Domain must be 253 characters or fewer.
 Domain not allowed
 Domain search
 DomainKeys Identified Mail (DKIM) adds cryptographic signatures to your emails, providing stronger authentication, improving deliverability.
@@ -6749,6 +6750,7 @@ Enter a DKIM key
 Enter a URL
 Enter a URL path.
 Enter a description
+Enter a domain.
 Enter a folder name
 Enter a group handle
 Enter a group name
@@ -6761,6 +6763,7 @@ Enter a new tag...
 Enter a number between 1 and 100.
 Enter a page name.
 Enter a skill set name
+Enter a valid domain (e.g. example.com).
 Enter a variable name
 Enter agent description
 Enter an alternate DKIM key
@@ -21599,7 +21602,6 @@ The SAML Response is not version 2.0. Please check your Identity Provider settin
 The SAML Response was not sent through a HTTP_POST Binding. Please check your Identity Provider settings.
 The Salesforce Admin role for Slack members must be assigned individually for new Salesforce System Admins. The Salesforce Admin role grants permission to modify your Salesforce org connections.
 The Slack for Education program offers qualifying teams a discount on paid plans. Once you upgrade, your team will get an unlimited message archive, guest accounts for your workspace, and more.
-The Slack integration has been blocked in your Salesforce org.
 The UI Generator is pretty intuitive; in general, to change the name or title of an element, hover over it or click it.
 The UI Version is listed in a column in the Browse Existing and My Dashboard views.
 The URL hostname could not be resolved.
@@ -22311,7 +22313,6 @@ To send a message to the Salesforce channel created in a previous step, use the 
 To toggle this setting please disable HIPAA compliance.
 To toggle this setting please enable incoming emails.
 To use this workflow, you
-To verify domains you need to set up Email-to-Case first.
 To-do added
 To-do reminder
 To-do removed
@@ -24230,6 +24231,7 @@ Veridian Dynamics
 Verification error
 Verification status updated.
 Verify Domain
+Verify a domain
 Verify domain
 Verify the correct user mapping. If needed, remove the existing mapping and have the user re-authenticate.
 Verify the user exists in Salesforce and the mapping field (email or username) matches between Slack and Salesforce.
