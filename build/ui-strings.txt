@@ -189,8 +189,8 @@
 2. Paste the response below, or paste your exported memory file.
 :E.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
 :E.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eP?eH:void 0,className:s()(eP||T||eF?
+:E.mv.ConfirmationModal,onClose:ez,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
 :I.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eP?eH:void 0,className:s()(eP||T||eF?
-:I.mv.ConfirmationModal,onClose:ez,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
 :O instanceof RegExp?
 :_ instanceof RegExp?
 :a?l:void 0,children:m?
@@ -862,6 +862,7 @@ Add 1 lead or up to 50 contacts
 Add Agent
 Add Agent To Workspaces
 Add Agent or App
+Add Agentforce Agent
 Add An Opportunity Manually
 Add App Collaborator
 Add App Collaborator Failure
@@ -1542,6 +1543,7 @@ Agentforce Feedback
 Agentforce Gradient
 Agentforce agent
 Agentforce agents in this channel
+Agentforce makes it possible for an organization to build custom agents that handle specific aspects of their work.
 Agents & AI Apps
 Agents & apps
 Agents Managed By You
@@ -1911,6 +1913,7 @@ An important quote
 An instance of the global keyboard shortcuts handler was already mounted for this window
 An internal error happened while handling event 
 An internal error occurred while processing the draft.
+An invitation has already been sent today
 An issue occurred
 An unknown error occurred.
 An unknown error occurred. Please try again.
@@ -2483,6 +2486,7 @@ Avoid asking to be re-invited
 Awaiting Release
 Awaiting accepted invite
 Awaiting admin approval to join
+Awaiting invite acceptance
 Ayu Dark
 Ayu Light
 Ayu Mirage
@@ -3522,6 +3526,7 @@ Change draft pending block unfurls to sending
 Change draft pending gif unfurls to sending
 Change formatting
 Change limited access group
+Change list
 Change notification settings
 Change opportunity object?
 Change paste last transcript shortcut
@@ -4292,8 +4297,8 @@ Close Ticket
 Close Workspace Directory Banner
 Close active TabSoda tab and switch to the nearest open tab
 Close activity side panel
+Close all pins except the first tab and the currently active one
 Close all tab soda tabs except the currently active one
-Close all tabs
 Close an IM optimistically and (if necessary) make an API call to close an MPIM or IM
 Close an MPIM or IM
 Close and Discard
@@ -4320,13 +4325,11 @@ Close modal
 Close open edits with no changes and warn on edits with unsaved changes
 Close open tiles or flexpanes
 Close or re-open right pane
-Close other tabs
 Close preview
 Close search
 Close search UI
 Close summary of channel
 Close summary of thread
-Close tab
 Close the browser window used for the identity transfer flow with the given app, if it exists
 Close the current modal
 Close the message pane banner
@@ -4906,6 +4909,7 @@ Copy link to skill
 Copy link to skill set
 Copy link to subtask
 Copy link to template
+Copy link to thread
 Copy link to video
 Copy link to view
 Copy link to workflow
@@ -6267,7 +6271,6 @@ Duplicate org email
 Duplicate skill
 Duplicate spec error, please check your specRegistry
 Duplicate step
-Duplicate tab
 Duplicate template failed
 Duplicate use of selection JSON ID 
 Duplicate use of step JSON ID 
@@ -6418,7 +6421,6 @@ Edit name and permissions
 Edit notification conditions
 Edit notifications
 Edit one-click reactions
-Edit permission
 Edit permissions
 Edit posting permissions
 Edit profile
@@ -7416,6 +7418,7 @@ Failed to fetch licensed members.
 Failed to fetch list view recommendations
 Failed to fetch more members
 Failed to fetch org default channels
+Failed to fetch outgoing invite for member
 Failed to fetch popular skills
 Failed to fetch recommended channels
 Failed to fetch selectable app categories
@@ -7889,6 +7892,7 @@ Fetch more users from a given directory
 Fetch multiple app profiles by combined IDs
 Fetch object data for a list view recommendations
 Fetch org-level retention settings
+Fetch outgoing invite for member
 Fetch owners and admins members count on a team
 Fetch page 1 of all search results for a given query and filters
 Fetch permission summary data for a particular app
@@ -10170,7 +10174,6 @@ Invitation Status
 Invitation link settings
 Invitation not sent to
 Invitation not yet sent to
-Invitation pending
 Invitation permissions for external people
 Invitation request approved
 Invitation request pending approval
@@ -10242,6 +10245,7 @@ Invokes and fetches an AI profile summary
 IoT Data Plane
 Ionic No. 5
 Iris Thompson
+Is Agent App
 Is Assistant App
 Is Async Callback
 Is MCP Enabled
@@ -10898,7 +10902,6 @@ Like a virtual office, a workspace is where work happens in Slack. All your chan
 Like refreshThreads but appends
 Like your sidebar
 Limit sharing
-Limit to
 Limit to 5-8 items to avoid overwhelming visitors
 Limited access group updated
 Limited apps and canvas
@@ -12182,7 +12185,6 @@ Matte Rect
 Max Wait
 Max attempts provider could not resolve. Using default of 3
 Max days reached for event exceeding 366 days
-Max items
 Max selectable items
 Max size of CID is 65,535
 Maximum Children (10)
@@ -12588,6 +12590,7 @@ Microphone failed
 Microphone init test not supported on this client
 Microphone permission denied
 Microsoft Edge
+Microsoft Office
 Microsoft Sans Serif
 Microsoft Teams
 Microsoft Teams Meeting
@@ -13094,7 +13097,6 @@ New Year greeting card
 New York
 New Zealand
 New activity within the last 30 days
-New blank tab
 New canvas
 New canvas title
 New channel
@@ -13800,7 +13802,6 @@ One week before
 One-chip color area sensor
 One-click access to AI tools in Slack
 One-click reactions
-OneDrive and SharePoint
 OneDrive and Sharepoint
 Online and unfocused, completing cold boot reload
 Online and unfocused, waiting 10000 ms to reload
@@ -14074,6 +14075,7 @@ Open or close JP Pocket Guide popover
 Open or close admin search
 Open or close onboarding tasks popover
 Open original
+Open pins
 Open pref modal for Huddle
 Open preview in new window
 Open prompt share dialog
@@ -14863,7 +14865,6 @@ Periodically update the typing map to look for typing records that have expired,
 Permalink, opens in new window
 Permanently delete this template?
 Permanently delete this workflow?
-Permanently show hover actions
 Permission Scopes
 Permission actions
 Permission denied
@@ -14938,12 +14939,14 @@ Pin conversation
 Pin participant
 Ping the file to mark the user as still viewing it
 Ping the message server if necessary
+Pinned Tabs
 Pinned by admin
 Pinned by private user, 
 Pinned by private user.
 Pinned by unknown user, 
 Pinned by unknown user.
 Pinned items
+Pinned tabs
 Pins a Slackbot AI NUX kickoff thread ts so its root message can be hidden
 Pitcairn Islands
 Place near the bottom of a landing page to address common objections.
@@ -15673,7 +15676,6 @@ Read information barriers in the organization
 Read messages
 Read more
 Read only
-Read only feature
 Read the docs
 Read the full story
 Read the post
@@ -16052,6 +16054,7 @@ Redirect to general channel or fallback to Slackbot
 Redirect to general or Slackbot if benefits page is primary view but not enabled
 Redirecting bot user to app view
 Redirects to client and opens a DM
+Redirects to the first tab in the PinnedTabs variant
 Reduce  counter
 Reduce badging and notifications
 Reduce embed counter
@@ -16818,8 +16821,8 @@ Reselecting same VideoTransformDevice
 Resend Code
 Resend Code to Backup Phone
 Resend Invitation
-Resend Invite
 Resend invitation
+Resend invite
 Resend link
 Reset RemoteFilePreviewUrl store
 Reset Search
@@ -18353,6 +18356,7 @@ Set error state
 Set error state for Slackiversary fetch
 Set error state for a draft
 Set error state for channel join reason
+Set error state for invited user invite
 Set error state for security alerts list
 Set event data loaded from the events API call
 Set external file providers loading state
@@ -18413,6 +18417,7 @@ Set initial starred files loading state
 Set initial state (and rehydrating cached data during a warm boot)
 Set insight list for displaying what insights and the column that should appear in banner
 Set interop calendar prefs
+Set invite data for invited user
 Set invite emails
 Set inviter ID for channel join
 Set inviterUserId value
@@ -18456,6 +18461,7 @@ Set loading state for channel join reason
 Set loading state for emoji collections
 Set loading state for getting the next security alerts list
 Set loading state for huddle event log
+Set loading state for invited user invite
 Set loading state for roles list
 Set loading state for security alerts list
 Set loading states for app profile info
@@ -21810,6 +21816,7 @@ The workspace domain has changed
 The workspace email domain has changed
 The workspace name has changed
 The world is your octopus.
+Their data type isn
 Theme Background
 Theme default
 Theme update button not rendered because colors are not provided.
@@ -21854,6 +21861,7 @@ There was a problem loading your integration information
 There was a problem making this person a Channel Manager. Give it another try in a few minutes.
 There was a problem removing your email connection. Give it a moment and try again.
 There was a problem renaming this channel. Give it another try in a few minutes.
+There was a problem resending the invite. Please try again later.
 There was a problem restoring this message. Give it another try in a few minutes.
 There was a problem reverting the template to list.
 There was a problem saving mappings
@@ -21986,6 +21994,7 @@ This conversation is private
 This conversation will be unavailable until this process is complete.
 This could be a connection issue, or just a little blip.
 This could be a phonetic pronunciation, or an example of something your name sounds like.
+This data is available as variables in next steps.
 This document is already in use.
 This doesn
 This embed may override the tool permissions you set for Slackbot.
@@ -22036,7 +22045,6 @@ This is a callout block with
 This is a description of the linked content that appears in the attachment body.
 This is a header block
 This is a longer subtitle that provides more detailed information about what this action item does and why you might want to click on it
-This is a menu item 
 This is a paid feature, available with an upgrade
 This is a paid feature, available with your free trial
 This is a preview of how your button looks in a message!
@@ -24682,7 +24690,6 @@ What did you have for breakfast?
 What did you like about this article?
 What do teams like mine do first?
 What do we have in common?
-What do you know, it works?
 What do you want for our team weekly lunch?
 What do you want to call your Slack workspace?
 What does it mean if my UI version is outdated?
@@ -25163,6 +25170,7 @@ You have an approval request.
 You have an unsaved output field. Switching tabs will discard your changes.
 You have been added to a User Group
 You have been removed from a User Group
+You have exhausted maximum invite resends
 You have left this huddle
 You have multiple errors to review.
 You have not created any sidekicks yet.
@@ -25430,8 +25438,9 @@ ha inviato un biglietto di auguri. Felice anno nuovo!
 handlerIds, when specified, must be an array of strings.
 how did this happen?
 in e&&e.channel?e.channel:(0,m.uP)(),team:e.team??(0,h.CT)(),member:e.member??(0,p.Nq)(),introducingMember:e.introducingMember,sentVia:e.sentVia??
+in e?!!(a&&((0,B.A)(e.url)||(0,g.cn)(e?.url??
 in e?!!(a&&((0,B.A)(e.url)||(0,x.cn)(e?.url??
-in e?!!(a&&((0,W.A)(e.url)||(0,_.cn)(e?.url??
+in e?!!(a&&((0,W.A)(e.url)||(0,g.cn)(e?.url??
 in e?!!(a&&((0,W.A)(e.url)||(0,x.cn)(e?.url??
 in r?r.touches[0]:r)[c?
 in t?t.key??
