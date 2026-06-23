@@ -153,8 +153,8 @@
 , other JavaScript not part of React, or work the browser has to do to update the DOM and draw the next frame.
 , post a report including a screenshot and a link to the previous message if this is a public channel.
 , weights must be provided.
-,checked:a,icon:r,className:i?G().atLimitRow:void 0,disabled:i,ariaDescribedBy:i?
 ,checked:a,icon:r,className:i?V().atLimitRow:void 0,disabled:i,ariaDescribedBy:i?
+,checked:a,icon:r,className:i?W().atLimitRow:void 0,disabled:i,ariaDescribedBy:i?
 ,counter:0,seen:new Map,cycles:e?.cycles??
 ,onClickPrimaryAction:a?void 0:t,primaryActionHref:a?
 ,stateArg:null,context:new Context(k?
@@ -246,7 +246,6 @@ A channel was deleted
 A channel was renamed
 A channel was unarchived
 A channel with this name already exists. Please choose a different name.
-A client secret is required when PKCE is not enabled.
 A connector resource references an invalid auth token or an auth token that does not belong to you. Reconnect your account to fix this step.
 A connector source used in this step has been disabled by your workspace admin. Remove the restricted knowledge source to continue.
 A contact from other organizations
@@ -451,6 +450,7 @@ ADBE Vector Shape - Star
 ADBE Vector Star Inner Radius
 ADBE Vector Star Outer Radius
 ADBE Vectors Group
+AI & ML Data Science
 AI Button
 AI Channel Recaps
 AI Explain share: missing required thread data
@@ -1014,6 +1014,7 @@ Add a saved search
 Add a selected group to the collection of selected groups
 Add a selected user to the collection of selected users
 Add a short description
+Add a skill to Slackbot
 Add a skill to this skill set
 Add a step
 Add a suggestion
@@ -1651,6 +1652,7 @@ All saved items
 All saved items removed
 All selects
 All set - admins are taking a look
+All severity levels
 All sidekicks
 All sources
 All states
@@ -1860,7 +1862,6 @@ An AI agent has proposed changes to your workflow. Please review and approve or 
 An AI file summary preview will appear when files are shared in conversations, and will be available in file details.
 An EKM backfill is in progress.
 An Extremely Long Article Title That Goes On And On To Test How The V3 Attachment Card Handles Overflow And Truncation Of Title Text In The Compact Card View
-An MCP server with this name already exists.
 An activity was logged
 An admin has disabled external file access for AI workflow steps. Remove external files to continue.
 An admin has disabled file access for AI workflow steps. Remove files to continue.
@@ -2438,7 +2439,6 @@ Automated messages
 Automated notifications and system messages
 Automatic acceptance
 Automatic by language
-Automatic registration did not go through. The server may not support it.
 Automatic statuses
 Automatically accept all invitations as private channels in any Slack Connect enabled workspace only if approvals are not required
 Automatically accept all invitations as private channels in any Slack Connect enabled workspace only if approvals are not required.
@@ -4137,6 +4137,7 @@ Clears the profile of the current user and turns off DND if necessary
 Clears the recording cancellation reason after the toast has been shown
 Clears the resume state after the inline player has consumed it
 Clears the selected app
+Clears the stored memories import result once the UI has consumed it
 Clears the story flexpane config (called by the flexpane after changes are applied
 Clears timestamp of the last time something was starred
 Clears workspace retrying state
@@ -4365,6 +4366,7 @@ Closing flexpane: last message in thread deleted
 Closing flexpane: user left private channel
 Closure Stylesheets (GSS)
 Closure Templates
+Cloud Infrastructure
 Cloud Migration Project
 CloudHSM V2
 CloudWatch Events
@@ -4406,6 +4408,7 @@ Collaborate with your team and track your sales prospects as you move them from 
 Collaborate with your team on sales, support and marketing at no extra cost.
 Collaborate with your team on sales, support and marketing.
 Collaborating organizations
+Collaboration & Chat
 Collaboration illustration
 Collaborative lists
 Collaboratively track deals for new customer accounts.
@@ -4959,7 +4962,6 @@ Could not clear last known event timestamp
 Could not clear stale endpoints from storage
 Could not complete boot due to loss of API service
 Could not complete boot due to loss of network connectivity
-Could not connect to the server.
 Could not connect with this user.
 Could not connect. Please try again.
 Could not construct new URL with HLS Delivery Directives: 
@@ -5400,6 +5402,7 @@ Custom workflow steps
 Customer Quote
 Customer Showcase
 Customer Stories
+Customer Success Ops
 Customer Surveys
 Customer Videos
 Customer impact
@@ -5490,6 +5493,7 @@ Darn, that name is already taken. Try another one?
 Dashboard actions
 Dashboards or reports available
 Data Analytics Platform
+Data Analytics Suite
 Data Cloud
 Data Cloud connector status
 Data Cloud requires an updated Salesforce connection. Update your connections to share data and get powerful insights.
@@ -5890,6 +5894,7 @@ Developer Contact Information
 Developer Sandbox Archive Countdown
 Developer Sandboxes
 Developer Tools
+Developer Tools APIs
 Developer Tools sections
 Developer tools
 Device Farm
@@ -6809,6 +6814,7 @@ Enterprise Grid
 Enterprise Key Management
 Enterprise License Agreement
 Enterprise Managed Authorization
+Enterprise Platforms
 Enterprise Search
 Enterprise Select Plan
 Enterprise customers
@@ -7340,7 +7346,6 @@ Failed to add skill set to library from unfurl
 Failed to add skill set. Please try again.
 Failed to add skill. Please try again.
 Failed to add team to exclude list; continuing with signout
-Failed to add the mcp:connect scope. Please try again or add it manually on the OAuth & Permissions page.
 Failed to add the required bot scopes to the app.
 Failed to add to channel
 Failed to approve license request.
@@ -8335,8 +8340,8 @@ Finalize a provisional connection
 Finalize a temporary document
 Finalizes an upload start with files.getUploadURL
 Finalizing doc creation. Doc was already created before listener.
-Financial (Banking)
 Financial Options
+Financial Svcs (USA)
 Find AI prompt suggestions that match a search query
 Find More To-Dos
 Find Out More
@@ -8651,6 +8656,7 @@ Funnel chart
 FusedConv2d and DepthwiseConv2d with FusedBatchNorm is not supported
 Futura Bk BT
 Futura Md BT
+Future AI feature releases
 GDPR commitment
 GL context does not support color renderable floats
 GL context does not support color renderable half floats, yet the environment flag WEBGL_FORCE_F16_TEXTURES is set to true.
@@ -9247,7 +9253,6 @@ HIPAA logo
 HTML (Derivative)
 HTML content to load into the inner iframe.
 HTML file
-HTTP method must be GET or POST.
 HTTP request failed (DNS, timeout, or connection refused). Verify the server URL is reachable.
 Halt further boot if client is reloading
 Halting the API queue
@@ -9373,7 +9378,7 @@ Heads up that some of the original messages are in a different language than thi
 Heads up! This feature has no localized assets.
 Heads up, your team uses Slack Pro features
 Health Plan Summaries
-Healthcare (HIPAA)
+Healthcare & Biotech
 Healthy block
 Hear from teams shipping with Slack
 Heard Island and Mcdonald Islands
@@ -9457,6 +9462,7 @@ Hide field
 Hide fields
 Hide filters
 Hide formatting
+Hide full instructions
 Hide image
 Hide important unreads section
 Hide manage automations
@@ -9724,8 +9730,8 @@ IdP Groups
 Ideas in Action
 Identifies which screenshare is being viewed in the mini-player
 Identify specific Salesforce organization and object to configure a workflow when a Salesforce channel is created.
+Identity & Auth Svcs
 Identity URL (optional)
-Identity configuration is only valid for Dynamic Client Registration.
 Identity matrix initializer can only be used for 2D square matrices.
 If Layer Sizes Differ
 If a channel containing a broadcast was just marked, maybe we can mark the thread too
@@ -11272,7 +11278,7 @@ Logging sidebar noise metrics
 LogiFlow Inc.
 Login state
 Login will be blocked for any other version of the Slack app.
-Logistics (Supply)
+Logistics & Shipping
 Logo Alt Text
 Logo Bar
 Logo Image URL
@@ -12306,7 +12312,7 @@ Maybe update current Progressive Disclosure tip messageTs value based on last re
 Maybe update locale
 Maybe update route from temp ID to full ID
 Measure Page Render Timings
-Media (Streaming)
+Media & Streaming Co
 Media Position (desktop)
 Media Type
 Media controls
@@ -12707,6 +12713,7 @@ Missing words or phrases
 Missing workflowId needed for trigger
 Mission Control
 Mixed: CMS slide + manual slide
+Mobile & Desktop App
 Mobile Analytics
 Mobile Dolphin
 Mobile Phone
@@ -13551,6 +13558,7 @@ Non-Profit (Charity)
 Non-persisted messages map
 Non-purchaser - collapsed
 Non-purchaser - expanded
+None available
 None entered
 None provided
 None selected
@@ -13756,7 +13764,6 @@ Numeric sort data table
 O Outlines
 OAuth & Permissions
 OAuth Scopes
-OAuth configuration is not valid for this auth type.
 OAuth scopes
 OAuth scopes (optional)
 ODBCdotTable decimallessFloat zerolessFloat binaryNumber hexNumber doubleQuote nCharCast charsetCast commentHash commentSpaceRequired
@@ -13793,7 +13800,9 @@ On selected date
 Onboarding apps list
 Onboarding exception approval request
 Onboarding prompts
+Once added, this runs only when you ask Slackbot. You can remove it anytime.
 Once added, you can ask Slackbot to use these skills
+Once added, you can ask Slackbot to use this skill
 Once imported, contacts will be stored in Salesforce.
 Once imported, leads will be stored in Salesforce.
 Once you publish a UI, you have the option to Send to Translation. You can translate published UIs by viewing them and clicking Translate in the toolbar. From there:
@@ -13805,7 +13814,6 @@ One Light
 One day before
 One more error
 One or more of these domains are formatted incorrectly. Please update them to the correct format. Example: acmeinc.com
-One or more scopes contain invalid characters. Scopes must use printable ASCII only.
 One or more selected canvases have restricted sharing. Choose a different canvas or ask the owner for sharing permissions.
 One or more selected canvases were not found. Choose a different canvas to continue.
 One or more selected files were not found. Choose a different file to continue.
@@ -14111,6 +14119,7 @@ Open share dialog to organization list
 Open share modal for file
 Open share prompt Slackbot education modal
 Open share this channel modal
+Open skill share consent modal
 Open slack connect DM invite generation modal
 Open slack connect DM invite success modal
 Open spring cleaning popover
@@ -14986,6 +14995,7 @@ Plan updates apply to every active member of this team
 Plans and cost data loaded
 Plans change, and that
 Plantin Schoolbook
+Platform Engineering
 Play Just-In-Time calendar notification sound
 Play animation
 Play back a number of recent messages
@@ -15016,9 +15026,6 @@ Please add a valid display name.
 Please add at least one Agent manager.
 Please add at least one assistant suggested prompt.
 Please check back later to see any settings conflicts.
-Please check your OAuth configuration.
-Please check your custom headers.
-Please check your request body parameters.
 Please choose a different label, this one already exists.
 Please choose an image smaller than 64KB.
 Please complete this required field
@@ -15037,12 +15044,8 @@ Please enter a reason
 Please enter a valid App ID.
 Please enter a valid Google Drive URL.
 Please enter a valid URL
-Please enter a valid account identifier (e.g. $.id).
-Please enter a valid authorization URL.
 Please enter a valid email address (e.g., support@example.com).
-Please enter a valid identity URL.
 Please enter a valid phone number.
-Please enter a valid token URL.
 Please enter an App ID.
 Please enter at least one email address
 Please enter one or more keywords.
@@ -15868,6 +15871,7 @@ Recording stopped
 Records canvas open events from various places
 Records metrics around action performance of individual actions using AutoTraces
 Records tab switches and navigations within those tab switches
+Records the result of an asynchronous memories import (from the RTM event)
 Records the timestamp when the user last navigated to the Slackbot tab
 Recover from attached_draft_exists error
 Rectangle - Blue
@@ -17036,7 +17040,7 @@ Resuming resubscribe check with pending metrics report
 Resuming signal connection
 Resurrected User Sidebar Tasks Trigger
 Retail  Outlines
-Retail (Commerce)
+Retail & Marketplace
 Retail Partner Portal
 Retention duration
 RetentionPeriod is no longer returned by ListEventDataStores
@@ -17083,6 +17087,7 @@ Revert template to a canvas
 Revert template to a list
 Revert to List
 Reverting those changes
+Review & add
 Review AI workflow access
 Review AI-generated content
 Review Anomalies
@@ -17115,6 +17120,7 @@ Review our suggested matches for columns from your file to fields in the contact
 Review our suggested matches for columns from your file to fields in the lead list. You can also skip unnecessary columns.
 Review pending connection update
 Review permissions for this template
+Review the full skill before adding it to your Slackbot
 Review this message before sharing
 Review tools
 Review unavailable agent
@@ -17240,7 +17246,6 @@ SOS Sessions
 SPA navigation failed in Gantry, falling back to full page navigation
 SRTP syntax support
 SSH Config
-SSL certificate verification failed for this URL.
 SSO & Authentication
 SSO & authentication
 SSO Settings
@@ -17707,6 +17712,7 @@ Section settings
 Section text
 Sections are a great way to share multiple channels at once.
 Secure SSO SAML sign in
+Security & Trust Ops
 Security Admins
 Security Detections
 Security Review next week. Outlines
@@ -19957,6 +19963,7 @@ Shared Section 02
 Shared a call
 Shared by
 Shared channels icon
+Shared from an external organization
 Shared in
 Shared in Canvas
 Shared resources
@@ -20084,6 +20091,7 @@ Show formatting
 Show full action menu on hover only
 Show full calendar
 Show full email
+Show full instructions
 Show full link
 Show history
 Show huddle invite notification
@@ -21506,7 +21514,7 @@ Tear down the Quip client if applicable
 Tearing down Window draw target position tracking
 Tearing down cursor in draw window tracking
 Tearing down previous Audio Input Track Handler
-Telecom (Wireless)
+Telecom & Networking
 Tell AI what to produce
 Tell Slack AI what to recap
 Tell us more
@@ -21614,7 +21622,6 @@ The Content-MD5 you specified is invalid for multi-part uploads.
 The Data Cloud team already exists.
 The Huddle has ended.
 The InResponseTo ID of the SAML Response does not match the ID of the AuthNRequest sent by us. Please check your Identity Provider settings.
-The MCP server could not be found.
 The MCP server did not respond in time. Please try again.
 The MCP server rejected the registration request.
 The MCP server returned an invalid registration response.
@@ -21622,7 +21629,6 @@ The MP4 demuxer does not support SAMPLE-AES decryption
 The NameID of the SAML Response is not encrypted. Please check your Identity Provider settings.
 The Network Team is the best team of all time.
 The New York Times
-The OAuth metadata from this server is incomplete - a required endpoint is missing.
 The PDF file is empty, i.e. its size is zero bytes.
 The Preferences may override manually set AppOptions; please use the 
 The Primary meeting credentials provided are no longer valid. chime::DeleteAttendee may have been called on them.
@@ -21642,9 +21648,6 @@ The Slack for Education program offers qualifying teams a discount on paid plans
 The Slack integration has been blocked in your Salesforce org.
 The UI Generator is pretty intuitive; in general, to change the name or title of an element, hover over it or click it.
 The UI Version is listed in a column in the Browse Existing and My Dashboard views.
-The URL hostname could not be resolved.
-The URL must use HTTPS.
-The URL resolves to a private or blocked IP address.
 The URL will be created after you save this information.
 The Workspace Owner will need to approve the migration request.
 The adapter.js addTrack polyfill only supports a single  stream which is associated with the specified track.
@@ -21657,7 +21660,6 @@ The all-calls-store should not be used in the call window. Use the active-call-s
 The alternate key must be different from the DKIM key.
 The amount of computational work that your system performs
 The animation loop runs via 
-The app could not be found.
 The app will no longer appear in the 
 The args passed in customGrad(f)(x1, x2,...) must all be tensors
 The argument must be a React element, but you passed 
@@ -21673,8 +21675,6 @@ The attendee joined from another device.
 The attendee left the meeting.
 The attendee was not present.
 The audio connection failed.
-The auth provider could not be found. It may have been deleted.
-The auth provider could not be updated. Please try again.
 The author subname is displayed below the author name in the attribution area.
 The average number of impressions messages sent by a specific app during a day
 The average number of messages and replies posted by this app per day
@@ -21954,7 +21954,6 @@ This action cannot be undone.
 This action cannot be undone. Previous requests that were resolved by this rule will not be changed, but this rule will no longer be executed or available in the future.
 This action has already been completed
 This action is blocked by your connector preferences.
-This action is not allowed.
 This agent can
 This agent cannot be invited to this channel.
 This agent is already in the channel
@@ -21966,10 +21965,8 @@ This agent is unavailable. Contact a Slack Admin to learn more.
 This answer content is no longer valid. Try generating a new answer.
 This answer is no longer available to share.
 This app
-This app cannot be edited.
 This app completes all your work for you
 This app has public distribution enabled. The distribution of Workflow Steps is not currently supported.
-This app has reached the maximum number of MCP servers.
 This app is no longer available.
 This app is not approved by Slack. Apps are reviewed to ensure a quality experience.
 This app is unavailable
@@ -22178,7 +22175,6 @@ This route no longer exists. It may have been deleted.
 This section has a *button* accessory. Click it!
 This section will appear at the top of your sidebar so you never miss a mention or message.
 This selected org will:
-This server supports OAuth but not automatic registration. You can configure it manually instead.
 This setting can be changed without any impact.
 This settings determines what invite preferences are available to users when creating a calendar huddle
 This should not be possible
@@ -24046,6 +24042,7 @@ Use message source
 Use mid-page to showcase a product demo, customer story, or feature walkthrough with contextual copy above.
 Use narrow container
 Use same settings for messages from the Salesforce app
+Use skill
 Use sources from this channel
 Use subheaders to break long copy into scannable sections, but skip them when a single paragraph is enough
 Use template
@@ -24637,8 +24634,6 @@ We are unable to retrieve the permissions. Please try again or contact Slack if 
 We brought back your notifications
 We cannot automatically determine where this channel should be created based on the external organizations.
 We cannot write HTML in SSB
-We could not find OAuth info for this server. It may not support OAuth.
-We could not register the auth provider. Give it another try.
 We couldn
 We encountered a problem while loading. Try refreshing, and if the problem persists, contact your admin.
 We ended your huddle since you were the only one there for a bit.
@@ -24681,6 +24676,26 @@ Webkit Moz O ms
 Websocket error during a (re)connection attempt: 
 Websocket got closed during a (re)connection attempt: 
 Wednesday, Oct 22 2019, 2pm-5pm
+Week 01 (2024-01-07)
+Week 02 (2024-01-14)
+Week 03 (2024-01-21)
+Week 04 (2024-01-28)
+Week 05 (2024-02-04)
+Week 06 (2024-02-11)
+Week 07 (2024-02-18)
+Week 08 (2024-02-25)
+Week 09 (2024-03-03)
+Week 10 (2024-03-10)
+Week 11 (2024-03-17)
+Week 12 (2024-03-24)
+Week 13 (2024-03-31)
+Week 14 (2024-04-07)
+Week 15 (2024-04-14)
+Week 16 (2024-04-21)
+Week 17 (2024-04-28)
+Week 18 (2024-05-05)
+Week 19 (2024-05-12)
+Week 20 (2024-05-19)
 Week One Educational
 Weekly Channel Summary Outlines
 Weekly Standup Outlines
@@ -24705,6 +24720,7 @@ Welcome to your first channel!
 Welcome! Here are some tips for getting started with Slack:
 Well done
 Western Sahara
+What Slackbot will be told to do
 What accounts or opportunities should I focus on today?
 What are some popular channels I should join?
 What are you working on today?
@@ -24946,6 +24962,7 @@ Worker was destroyed during onPassword callback
 Worker was terminated
 Worker was terminated.
 Workflow Actions
+Workflow Automations
 Workflow Builder
 Workflow Builder Agent
 Workflow Builder for automation
@@ -25126,6 +25143,7 @@ Yes, try again
 Yesterday Standup
 You added a new workflow
 You already have a conversation with this name. Consider using a unique name to tell them apart.
+You already have a copy of this skill in your library.
 You already have a section with this name.
 You already have a status scheduled at this time
 You are calling concat on a terminating link, which will have no effect
