@@ -2634,6 +2634,7 @@ Block preview
 Block private channel access
 Block scalars must not be less indented than their 
 Block scalars with more-indented leading empty lines must use an explicit indentation indicator
+Block selection cleared
 Block settings
 Blocking huddles init since a huddlesSdk is already active
 Blocking prejoin init since a prejoin SDK is already active
@@ -9845,7 +9846,6 @@ Include all files in search results.
 Include channels in Recap
 Include connector sources in AI steps?
 Include content from other channels
-Include conversation history
 Include conversation history from a custom start date?
 Include conversation history from today?
 Include conversation history?
@@ -12798,6 +12798,8 @@ Move branch here
 Move branches here
 Move channel
 Move conversation
+Move conversation history
+Move conversation history?
 Move down
 Move failed
 Move file
@@ -12820,6 +12822,8 @@ Move tab down
 Move tab up
 Move task down
 Move task up
+Move to a private channel
+Move to a private channel?
 Move to folder
 Move to main window
 Move to new section
@@ -25306,6 +25310,7 @@ Your agency contact tagged you in #ext-agency-tyconet waiting on creative feedba
 Your agent has authentication enabled, but no signed URL or conversation token was provided.
 Your app and operating system versions are no longer supported. Ask your admins for help getting up to date so you can get back to Slack.
 Your app and operating system versions are no longer supported. Update to the latest versions so you can get back to Slack.
+Your app cannot be distributed because one or more MCP servers use icon_emoji. Remove the icon_emoji field from your MCP server configuration to enable distribution.
 Your app has been approved and deployed to production.
 Your approval request has been reviewed.
 Your approval request has been updated.
@@ -25443,6 +25448,7 @@ create-canvas-and-navigate-to-tab: canvas and tab fully creating, navigating awa
 cursor_pos is out of bounds!
 customTexShape is too small. Row * Column * 4 should be equal or larger than the size of the tensor data.
 d like to stay from Oct 21 - Oct 23 (2 nights).
+data-block-source contained unparseable JSON; possible serialization bug in copy handler.
 dates accessor is deprecated. Use date instead.
 do eiusmod tempor incididunt ut labore.
 drag source or a drop target itself.
