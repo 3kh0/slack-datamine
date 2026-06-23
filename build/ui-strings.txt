@@ -3242,6 +3242,7 @@ Cancelled publication by calling unpublish
 Cancelling an eager upload by removing an unprocessed job from the queue
 Cancelling an eager upload that is the current upload
 Cancelling download...
+Cancelling existing WebAuthn API call for new one
 Cancelling huddle invite
 Cancels a download on the desktop app
 Cancels a draft file upload
@@ -4070,6 +4071,7 @@ Clear the last executed encoded search string
 Clear the original user query
 Clear the queue
 Clear the queued embedded huddle meeting assistant pane open
+Clear the recorded passkey registration result (dismiss its alert)
 Clear the search input box display query
 Clear the search input, resetting the editable query and ending the search and query sessions
 Clear the shouldRefetch flag for external file providers
@@ -5889,7 +5891,6 @@ Determines if the team has reached its Single Channel Guest limit
 Determines whether an org has any usergroups and stores than boolean in the admin-roles redux store
 Determines which external dirctory to query, and returns a fetcher to query it.
 Dev Portal
-DevXP AI Catalog
 Developer Contact Information
 Developer Sandbox Archive Countdown
 Developer Sandboxes
@@ -6023,6 +6024,7 @@ Discover more
 Discover more shortcuts
 Discover workflow steps
 Discover workflow triggers
+Discoverable credentials were required but no available authenticator supported it
 Discovery API
 Dismiss Auto Slack onboarding composer first message banner and fetch next coachmark
 Dismiss Flag
@@ -7570,6 +7572,7 @@ Failed to send message to Slackbot
 Failed to send message via WebRTC:
 Failed to send message. Please try again.
 Failed to serialize AMP preview request
+Failed to serialize WebAuthn credential
 Failed to serialize preferences
 Failed to serialize team prefs
 Failed to serialize texty
@@ -8070,6 +8073,7 @@ Fetches and upserts missing members from the API
 Fetches and upserts missing teams from the API
 Fetches and upserts missing user groups
 Fetches and upserts mpims by query
+Fetches and upserts passkeys using auth.passkeys.register.list
 Fetches and upserts search results
 Fetches and upserts search results for the given namespace and page
 Fetches and upserts user groups that match a query
@@ -12064,6 +12068,7 @@ Manual OAuth
 Manual slides require at least a quote and a featured image; everything else is optional
 Manual warm reload via slackDebug.warmReload.reloadNow()
 Manual white balance
+Manually cancelling existing WebAuthn API call
 Manually fetches record details and upserts it into redux
 Manually halt socket activity
 Manually resolved
@@ -13261,6 +13266,7 @@ No audio device chosen, creating empty audio device
 No audio output device found
 No audio stream available. Synthesizing an audio stream.
 No audit logs yet
+No available authenticator supported any of the specified pubKeyCredParams algorithms
 No available options
 No available workspaces
 No backend found in registry.
@@ -13327,6 +13333,7 @@ No email updates have been made
 No emoji rendering :wave: stays raw.
 No entity id specified, cannot fetch
 No entries yet. Add a word or phrase above.
+No entry in pubKeyCredParams was of type 
 No existing channel found for draft
 No fields are shown
 No file results for 
@@ -13433,6 +13440,7 @@ No preview
 No previous active timestamp found, skipping cold boot navigation
 No previous exports
 No providers
+No publicKey in server response
 No reaction key
 No recent agents
 No recent incidents
@@ -14667,6 +14675,9 @@ Party Consents
 Pass at least one tensor to concat
 Pass at least one tensor to tf.stack
 Passed client side effects into a non-client store. This is a programming error and the app will not work properly.
+Passkey Promo Banner
+Passkey registration failed
+Passkey registration succeeded
 Passkeys are the quickest, most secure way to log into Slack.
 Password reset forced
 Past Migrations
@@ -15862,6 +15873,7 @@ Record preview
 Record search & edits
 Record that a message was deleted
 Record that a user has taken an action on a UI component
+Record the result of a passkey registration attempt
 Record the result of the mini survey we first display the user after a huddle ends.
 Record trial pro banner interaction
 Record unfurls & click to detail view
@@ -16133,6 +16145,9 @@ Register organic use of progressive disclosure tip with Megaphone
 Register route listeners
 Register the service worker
 Registering pressure observer
+Registers a new passkey and refreshes the passkey list
+Registration ceremony was sent an abort signal
+Registration was not completed
 Regular Member
 Regular Members of:
 Regular members
@@ -20391,7 +20406,6 @@ Slack AI results have been updated
 Slack AI results ready
 Slack API Documentation
 Slack Acceptable Use Policy
-Slack Analytics
 Slack Apps
 Slack Assistant
 Slack Calls will be restricted and routed through selected regions only.
@@ -20432,7 +20446,6 @@ Slack Marketplace
 Slack Marketplace Installations
 Slack Members Allowed Permissions Table
 Slack Members Restricted Permissions Table
-Slack Metrics
 Slack Ochin
 Slack Outlines
 Slack Outlines 2
@@ -21675,6 +21688,8 @@ The attendee joined from another device.
 The attendee left the meeting.
 The attendee was not present.
 The audio connection failed.
+The authenticator was previously registered
+The authenticator was unable to process the specified options, or could not create a new credential
 The author subname is displayed below the author name in the attribution area.
 The average number of impressions messages sent by a specific app during a day
 The average number of messages and replies posted by this app per day
@@ -22518,6 +22533,7 @@ Track that a field was recently blurred
 Track that a form was opened in a new window
 Track the agenda and outcome of a weekly status meeting.
 Track time to boot
+Track whether a passkey registration is in flight
 Track your invitations
 Tracking customer service cases
 Tracks the start of each work week in view
@@ -24088,6 +24104,7 @@ Used to set pending knock to enter users waiting for the host to start the Huddl
 User Group
 User Group Members
 User Groups
+User ID was not between 1 and 64 characters
 User Menu
 User OAuth Token
 User Page
@@ -24128,6 +24145,8 @@ User started huddle
 User still disconnected. Reporting app metrics without client metric report.
 User suggestions collapsed
 User type
+User verification was required but no available authenticator supported it
+User verification was required during automatic registration but it could not be performed
 User was added to or removed from a team; re-fetching auth
 User-Agent Client Hints API not available
 User-facing upgrade error in Checkout
