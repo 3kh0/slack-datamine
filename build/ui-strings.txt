@@ -194,7 +194,7 @@
 :I.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eP?eH:void 0,className:s()(eP||T||eF?
 :O instanceof RegExp?
 :_ instanceof RegExp?
-:a?r:void 0,children:m?
+:a?l:void 0,children:m?
 :bulb: Get your team on the same page with canvases.
 :bulb: Stay on track with lists.
 :e instanceof File?
@@ -322,7 +322,6 @@ A pair of side-by-side testimonial cards, each with a company logo, quote, and a
 A pin was added to a channel
 A pin was removed from a channel
 A place for important notifications
-A preview of a Google Calendar integration within Slack, displaying an event card with the app logo, attendee avatars, placeholder text for details, and action buttons.
 A private channel was archived
 A private channel was deleted
 A private channel was renamed
@@ -1110,7 +1109,6 @@ Add channels as users selects them
 Add channels or DMs
 Add channels to the desktop search index as additional teams are booted
 Add channels to the desktop search index when initial teams are booted
-Add clients or customers
 Add code to your site
 Add comment
 Add comments to collaborate with your coworkers. Comments stay with the section no matter where it is shared.
@@ -2375,6 +2373,7 @@ Attempting to set locale for huddle, but missing huddleId or newLocale
 Attempts to fetch a single calendar event details to display as visible day and event
 Attempts to open an ai message in the thread view, if possible
 Attempts to send invite requests and handles the response
+Attendee list
 Attribute Definitions
 Attribute Picklist Values
 Attribute Picklists
@@ -2713,7 +2712,6 @@ Bring the team together in a channel
 Bring the tools you need into this channel to pull reports, start calls, file tickets and more.
 Bring to the picnic: sandwich, apple, pumpkin, carrot, basket
 Bring your team members into Slack to start working better together. Send invites via email, or get a handy link to share.
-Bring your work into Slack
 British Indian Ocean Territory
 British Virgin Islands
 Broadcast accessibility persistent state to other stores
@@ -3635,6 +3633,7 @@ Channel details
 Channel disconnected
 Channel has been archived.
 Channel invitations
+Channel link copied
 Channel management
 Channel managers
 Channel managers and admins
@@ -4660,9 +4659,7 @@ Connect your account at any time
 Connect your account in Salesforce connection settings
 Connect your account to send email
 Connect your app to an A2A agent by providing the agent card URL. This will configure the A2A endpoint and add the required bot scopes.
-Connect your apps
 Connect your apps to Slackbot
-Connect your calendar
 Connect your files
 Connect your inbox
 Connect your lists with a workflow
@@ -4878,6 +4875,7 @@ Copy canvas ID
 Copy channel ID
 Copy channel email address
 Copy channel id
+Copy channel link
 Copy channel name
 Copy debug info
 Copy display name
@@ -8364,6 +8362,7 @@ Find quip shortcut commands that match a search query
 Find the best Slack plan for your team
 Find the canvas here
 Find the conversations that matter to your team.
+Find the live route path for a WMP document
 Find the right plan to make your team more efficient
 Find view container for a specific window history entry
 Find workspaces
@@ -8759,6 +8758,7 @@ Get browser results
 Get bulk user groups from the userGroups.searchBulk endpoint by query
 Get call info from callId
 Get caught up anytime
+Get caught up on this conversation
 Get caught up on what you missed while you were in focus mode.
 Get caught up quickly
 Get channel counts for sidebar sweeper leave channel flow
@@ -9768,6 +9768,7 @@ Il reste 1 min
 Il reste 1 mois
 Il reste : %d jours
 Illegal hls.js config: don
+Illustration of AI tools connecting to Slack
 Illustration of Slackbot with a noisemaker surrounded by confetti
 Illustration of four people collaborating via Slack Connect
 Illustration of workflow processes represented by interconnected colored blocks (green, blue, red, and yellow) with curved arrows indicating directional relationships or dependencies.
@@ -10281,7 +10282,6 @@ Isolation Mode 5
 Isolation Mode 6
 Isolation Mode 8
 Isolation Mode 9
-Isometric Slack interface featuring diverse productivity apps icons
 Israel (Tel Aviv)
 Issue invitations for internal and external emails in the add people modal
 Issue member invites through the add people modal for free teams
@@ -10364,6 +10364,7 @@ Join Huddle
 Join Huddles
 Join Meeting
 Join Meeting (opens in new tab)
+Join Meeting, opens in new window
 Join Microsoft Teams Meeting
 Join Slack
 Join Teams
@@ -12581,6 +12582,7 @@ Messages sent to Slackbot
 Messages that @mention me (deprecated: please remove from your workflow)
 Messages with the most activity
 Messages, replies, and reactions will be removed
+Meta Description
 Meta+Enter Control+Enter
 Metadata users list
 Method not available
@@ -13357,6 +13359,7 @@ No matches found.
 No matches in your suggested records
 No matches. Try a different search term.
 No matching Salesforce user was found for this Slack user.
+No matching code channels
 No matching columns
 No matching installed apps found.
 No matching objects
@@ -14596,6 +14599,7 @@ Page Settings, has errors
 Page count is not an integer.
 Page is about to unload. This might not be a reload, it could be a window close or navigation
 Page leave detected, disconnecting
+Page published
 Page source
 Page was destroyed.
 Page with label 
@@ -17549,6 +17553,7 @@ Search by workflow name or keyword
 Search canvases
 Search channels
 Search cleared
+Search code channels
 Search components
 Search contacts
 Search content library
@@ -20051,6 +20056,7 @@ Show comments in a synced state
 Show custom toast
 Show deleted workflows
 Show description
+Show details
 Show direct message
 Show email preview
 Show everything
@@ -20806,6 +20812,7 @@ Start Workflow
 Start a Call
 Start a DM
 Start a Huddle
+Start a Thread
 Start a call
 Start a call in this channel shortcut - starts platform call, but asks first
 Start a call?
@@ -21344,7 +21351,6 @@ Sync to preview and create new Google Sheet with your changes.
 Sync unfurl state from server to redux
 Sync workspaces state with desktop
 Sync workspaces state with desktop when a new team has booted
-Sync your events
 Synced from Salesforce
 Synced with Salesforce
 Synchronize archive state for a thread ID
@@ -22307,6 +22313,7 @@ Tiny (16px)
 Tiny image file
 Title (optional)
 Title Bar
+Title Tag
 Title card
 Title of step
 Title only, no text (with author)
@@ -22763,6 +22770,7 @@ Turn off replies
 Turn off video
 Turn off video incoming and outgoing video
 Turn off videos and camera to improve performance.
+Turn on AI Notes for a better Meeting Assistant experience.
 Turn on Privacy Mode
 Turn on Simplified layout mode
 Turn on camera
@@ -24425,6 +24433,7 @@ View legal holds entities
 View less
 View link details
 View list details
+View live page
 View meeting notes
 View members
 View mentions & reactions shortcut - opens Activity View
@@ -25343,6 +25352,7 @@ Your organization currently blocks Feedback due to special preferences for Machi
 Your organization currently blocks Feedback due to special preferences for Machine Learning at your org
 Your organizations
 Your outstanding balance is paid off. Upgrade away!
+Your page has been published.
 Your personal AI agent
 Your personal AI agent that understands conversations, files, and projects in Slack. Plan limits apply.
 Your plan includes sales, support and marketing tools built right into Slack.
