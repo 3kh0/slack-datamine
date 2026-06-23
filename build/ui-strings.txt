@@ -165,6 +165,7 @@
 -month discount period ends, they will be billed at the regular price for their plan.
 -option to prevent that.
 . Are you sure it was registered?
+. High-density displays fall back to 1x where a 2x is absent; a missing poster just omits the placeholder frame. Fill or override any slot below.
 . Is it in a supported JavaScript type (String, Blob, ArrayBuffer, etc) ?
 . It has an href passed in.
 . Look up any recent discussions between me and the participants to provide context.
@@ -1763,6 +1764,7 @@ Also sent to the group,
 Also sent to the group.
 Alt Text
 Alt Text (override)
+Alt text saved.
 Alter pinned canvases for an external workspace
 Alternate DKIM key
 Alternate Email
@@ -8250,6 +8252,8 @@ File uploads and embedded files have been disabled in Slack Connect canvases
 File uploads to this workspace have been disabled at the request of your administrator.
 File uploads were disabled on this workspace
 File uploads with external people
+Filenames can include only one @ density tag (like @2x). Remove the extra one and try again.
+Filenames can only use letters, numbers, dots, hyphens, and underscores. Remove spaces or other characters and try again.
 Files & links
 Files Outlines
 Files and Snippets
@@ -11815,7 +11819,6 @@ MMMM Do, YYYY
 MMMM [de] YYYY
 MMType1 font (
 MOUSTACHE DUDE 800.png
-MP4 Source (1x)
 MP4 Source (2x)
 MPDM to private channel
 MPEG2-TS detected but first sync word found @ offset 
@@ -13184,6 +13187,7 @@ Nimbus Roman L
 Nimbus Sans
 Nimbus Sans L
 Nimbus Sans Narrow
+No 1x variant.
 No Background
 No Body or Actions
 No Channel Managers found
@@ -14913,6 +14917,7 @@ Pick a start time
 Pick a template to preview the blocks and JSON together, or jump straight into the builder and start customizing.
 Pick a ticket list from the dropdown
 Pick a time
+Pick a video to auto-fill all slots
 Pick an end time
 Pick an image or upload your own
 Pick an item from the dropdown list.
@@ -15143,6 +15148,8 @@ Post messages from external sources into Slack.
 Post messages to specific channels in Slack
 Post messages, add members, collect information with a canvas, or browse the full library of steps to optimize your Salesforce channel.
 Posted in
+Poster 1x
+Poster 2x
 Poster Image (1x)
 Poster Image (2x)
 Posting permissions
@@ -21675,6 +21682,7 @@ The create a canvas step cannot be placed after the ask agentforce step if the c
 The current live page will be moved to the bullpen.
 The day loads, one unread message at a time.
 The decode map is not the correct length
+The density tag must be @1x, @2x, or @3x. Fix it and try again.
 The display mode being requested.
 The display mode that was actually set. May differ from requested if not supported.
 The domain is invalid.
@@ -22019,6 +22027,8 @@ This file cannot be previewed
 This file cannot be selected
 This file is already attached.
 This file is too big to preview
+This file needs a name before its extension. Rename it and try again.
+This file needs an extension (like .png or .jpg). Add one and try again.
 This file type is not supported. You can add links to Google Docs, Google Slides, or files uploaded to Google Drive in .pdf, .txt, .doc, .docx, or .csv formats.
 This file was deleted.
 This file was not found.
