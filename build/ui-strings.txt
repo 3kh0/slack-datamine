@@ -286,6 +286,7 @@ A link with metadata fields
 A list as value.
 A list item you saved was deleted.
 A list item you saved was not found.
+A list of ways to improve your processes based on your Slack activity.
 A logger instance is required
 A long text
 A marquee-style row of customer logos that scrolls horizontally in a continuous loop. Respects the user
@@ -912,7 +913,6 @@ Add Section
 Add Server
 Add Slack AI to your plan
 Add Slackbot access
-Add Source
 Add Step
 Add Subtask
 Add Task
@@ -1013,6 +1013,7 @@ Add a saved message to redux and call the API
 Add a saved search
 Add a selected group to the collection of selected groups
 Add a selected user to the collection of selected users
+Add a shared skill
 Add a short description
 Add a skill to Slackbot
 Add a skill to this skill set
@@ -1306,7 +1307,6 @@ Add to-do with reminder
 Add trigger execution ID to list of active toasts
 Add trigger execution ID to list of dismissed toasts
 Add trigger id to list of recently run triggers
-Add trusted sources for the agent
 Add unfurls to the unfurls cache
 Add unsent groups to the store, overwriting anything previously stored
 Add unsent invites to the store, overwriting anything previously stored
@@ -1349,6 +1349,7 @@ Added to Slackbot.
 Added to channel
 Added to the pinned items
 Added to your saved items
+Added to your todo list
 Added window with dimensions: 
 Adding a data source allows you to start workflows based on something happening in another system. Contact your Slack admin to add a data source.
 Adding an MCP server will automatically add the mcp:connect bot scope to your app.
@@ -2261,7 +2262,6 @@ Ask Slackbot
 Ask Slackbot about how your workspace uses Slack.
 Ask Slackbot to explain this error
 Ask Slackbot:
-Ask a channel manager to update agent sources
 Ask anything
 Ask away! The more detail the better
 Ask me anything about this account
@@ -2531,6 +2531,7 @@ Bad response
 Bad summary
 Bad two dim code
 Bad uncompressed block length in flate stream
+Bald Eagle
 Bandwidth test failed
 BandwidthChecker timed out
 BankGothic Md BT
@@ -2550,9 +2551,11 @@ Base Tint 4
 Base64-URL-codierter String
 Base64-codierter String
 BaseSocketManager constructed by a non-Gantry page
+Based on #design
 Based on a survey of Slack users across organizations of all sizes
 Based on this content
 Based on which toggles are active, navigates to the proper agent home
+Based on your activity
 Basic AI
 Basic Chip
 Basic Communication
@@ -3470,7 +3473,9 @@ Card without icon
 Card without image
 Card without subtitle
 Cards show a mobile carousel automatically on small viewports
+Carmen Vega
 Carol Wang
+Carousel progress
 Carousel variant with custom height
 Carousel variant with primaryCTA onClick handler, default Slack logo one chip icon, and promo text
 Carry on
@@ -8229,6 +8234,7 @@ File must be a template
 File must be less than 10 MB.
 File name
 File needs to finish processing before selecting a thumbnail
+File not found
 File not uploaded
 File options
 File picker window expired
@@ -13184,6 +13190,7 @@ Next media item
 Next meeting
 Next month
 Next page
+Next priority
 Next quote
 Next result
 Next week
@@ -13680,7 +13687,6 @@ Notification preferences
 Notification preferences tips
 Notification settings
 Notification sound
-Notification token
 Notification unmuted
 Notifications about updated items
 Notifications are paused
@@ -13689,11 +13695,9 @@ Notifications on
 Notifications will be sent to Org Owners and Org Admins via Slackbot when a developer requests the ability to create sandboxes.
 Notifications will be sent to Org Owners and Org Admins via Slackbot when a new sandbox has been provisioned for your organization.
 Notifications will be turned off until this status is cleared.
-Notifications will be visible to everyone in the channel, and show data accessible by the integration user.
 Notifications will be visible to everyone in the channel.
 Notifications will not be sent when a developer requests the ability to create sandboxes.
 Notifications will not be sent when a sandbox has been provisioned for your organization.
-Notifications will only contain information this account can access in Salesforce.
 Notify Me When Available
 Notify Sonic resynced
 Notify everyone in your workspace.
@@ -13839,6 +13843,8 @@ One-chip color area sensor
 One-click access to AI tools in Slack
 One-click reactions
 OneDrive and Sharepoint
+Ongoing tension between where Slackbot lives in the nav and how it learns from your activity. Today.
+Ongoing tension between where Slackbot lives in the nav and how it rewards activity. Keeping the bar low for the first time.
 Online and unfocused, completing cold boot reload
 Online and unfocused, waiting 10000 ms to reload
 Only 9 people can be in a direct message.
@@ -14441,6 +14447,7 @@ Opens the sso configuration form modal
 Opens the sso options modal
 Opens the thread flexpane if the message is threadable
 Opens the threads flexpane
+Opens the transcript flexpane for an inline video
 Opens the undelete file dialog
 Opens the upload profile photo modal
 Opens the user group details flexpane
@@ -14936,6 +14943,7 @@ Personalize Events
 Personalize Runtime
 Personalize Slackbot Memory
 Personalize a welcome message
+Personalized AI opportunities
 Phew! Done.
 Phone number
 Photos and videos
@@ -15287,6 +15295,7 @@ Previous item
 Previous media item
 Previous month
 Previous page
+Previous priority
 Previous quote
 Previous result
 Previous tab
@@ -15693,6 +15702,7 @@ React-Modal:
 React-Modal: Cannot register modal instance that
 React.Children.only expected to receive a single React element child.
 Reacting to 
+Reacting to UXR findings and turning open questions into next steps the team can act on.
 Reaction bundle
 Reactivate Users as a Bulk Action
 Reactivate as Multi-Channel Guest
@@ -18305,6 +18315,7 @@ Set app launcher filter loading status
 Set apps and their profile information coming from the server
 Set apps fetched for solution guide
 Set as absolute value
+Set as default for huddle notes
 Set as default for huddle notes?
 Set as default translation language
 Set as default view
@@ -20541,6 +20552,7 @@ Slackbot Promo Q1 FY27 Biz+ Peek Card
 Slackbot Settings
 Slackbot Thinking Animation
 Slackbot access
+Slackbot activation & first-run UX
 Slackbot admin assistant
 Slackbot already has this skill
 Slackbot can
@@ -20551,6 +20563,7 @@ Slackbot can help you prep for meetings, too.
 Slackbot can search and display content from all web domains.
 Slackbot can use web search
 Slackbot helps MrBeast create viral videos.
+Slackbot in New Tab
 Slackbot is not enabled for anyone in your organization.
 Slackbot is off for your organization.
 Slackbot is ready. Type a message or choose a suggested skill to begin.
@@ -20559,6 +20572,7 @@ Slackbot message
 Slackbot response stopped
 Slackbot saved these from your conversations to make future responses more relevant.
 Slackbot settings
+Slackbot tab vs. unified AI tab
 Slackbot teaser
 Slackbot tool
 Slackbot will automatically save relevant details from your Slack activity and update your saved memory once a week.
@@ -21630,7 +21644,6 @@ The Assertion of the SAML Response does not contain a Conditions element. Please
 The Assertion of the SAML Response does not have AuthnStatement element. Please check your Identity Provider settings.
 The Assertion of the SAML Response is not encrypted. Please check your Identity Provider settings.
 The Block Kit Builder only works on larger screens and windows. Make your window larger, or open on a larger device if you are on mobile.
-The Channel Expert will use the sources you add here to generate replies.
 The Content-MD5 you specified is invalid for multi-part uploads.
 The Data Cloud team already exists.
 The Huddle has ended.
@@ -21737,6 +21750,7 @@ The entire thread, including all replies and reactions, will not be visible to a
 The entry you are trying to update has changed.
 The featured link works well for linking to related documentation or feature pages
 The field will be visible to everyone with access to the list.
+The file associated with this transcript is no longer available.
 The file type 
 The first row of your .csv file should be the name of each column.
 The first row of your file should be column names. Be sure to include 
@@ -23306,6 +23320,7 @@ Update Tableau embed token
 Update Trigger Begin
 Update Trigger Failure
 Update Trigger Success
+Update UI state on the current history entry of a tab
 Update WMP content library item
 Update Workflow Editor Dynamic Inputs
 Update Workflow Editor data
@@ -23522,6 +23537,7 @@ Update the DND schedules for multiple users
 Update the DND statuses of multiple users
 Update the Joiner Personalized Launchpad DM state machine
 Update the Trigger
+Update the active Slackbot thread to the one from the payload
 Update the active call token
 Update the active plan payment method
 Update the activities next cursor to fetch next batch of activities
@@ -24152,6 +24168,7 @@ User-Agent Client Hints API not available
 User-facing upgrade error in Checkout
 User-facing upgrade error in CheckoutReview
 User-facing upgrade error in One Page Checkout
+User-research synthesis
 UserAccessChange (Beta)
 UserAccessPolicy (Beta)
 Usernames (AKA our 
@@ -24831,6 +24848,7 @@ When using prefType view_count, viewCountPrefName is required.
 When using zeroDebias: true, step is required.
 When we switch channels or jump to a specific message, reset the counter for search in-product-education tip
 When you archive recommendations from the admin advisor, they will show up here.
+When you are ready, I can gather some context on you and your role and come back with suggestions on where to best use my feature set.
 When you delete this workflow, it
 When you recommend an app, it will appear here.
 When you search with questions or multiple keywords, Slack generates intelligent AI-powered answers, saving you time and effort.
@@ -25529,10 +25547,12 @@ ll only receive notifications in the hours you choose. Outside of those times, n
 ll see them here.
 ll suggest the right setup for your goals.
 ll tailor recommendations based on your experience.
+ll turn it into a polished canvas ready to share.
 localStorage read failed; client theme will not be persisted.
 localStorage write failed; client theme will not be persisted.
 localStorage write failed; system sync will not be persisted.
 m Slackbot!
+m here to help you stay on top of what matters most, without having to chase it down.
 markWithAPI tried too many times!
 maybeOpenModal failed to dispatch modal.
 missing required Quantization Table.
@@ -25549,6 +25569,7 @@ paymentMethodGetResponse failed or method ids do not match.
 pinned by private user.
 pinned by unknown user.
 query option is required. You must specify your GraphQL document in the query option.
+re a rare mix of wide-angle strategic vision and razor-sharp precision on the details that actually matter.
 re about to delete this sidekick. Do you want to proceed?
 re all set! This is your booking summary.
 re done building your workflow, publish it to make it available to use in Slack.
