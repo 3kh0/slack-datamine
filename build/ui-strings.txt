@@ -11188,6 +11188,8 @@ Localize image
 Locally set the last read cursor on a conversation
 Locally stores the duration this media has been watched
 Location description (optional)
+Lock cleared after system-wake detection
+Lock still set after system-wake detection
 Locked by an Admin
 Locked thread
 Lofi Beats
@@ -16136,6 +16138,7 @@ Refresh Sales Tracker
 Refresh WMP heartbeats
 Refresh a file by id
 Refresh interactivity pointer for a Form step, if needed
+Refresh is_interactable for an app
 Refresh list
 Refresh rate (ms)
 Refresh recap
@@ -17520,6 +17523,9 @@ Scopes to request during authorization. Press enter to add each scope.
 Score activity items
 Scott Swensen
 Screen capture start failed
+Screen locked (likely system wake)
+Screen locked on blur (system sleep)
+Screen locked on hidden (system sleep)
 Screen picker
 Screen reader
 Screen reader announcements
@@ -23491,6 +23497,7 @@ Update on enterprise org prefs
 Update one key for a channel by id
 Update one team pref foo
 Update one user pref
+Update only the app-ACL is_interactable flag, preserving the rest of the profile
 Update opportunities
 Update or insert data source item using id
 Update or insert default scopes for apps by app ids
