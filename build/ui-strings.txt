@@ -1,4 +1,5 @@
   (unchanged) Base URL configuration remains the same.
+  [1] This component is being rendered in a dialog or popover.
  Add a few tasks from your project to get started. If you invite teammates to Slack, you can assign tasks to them from here.
  Check CORS configuration to expose ETag header.
  Invitation has been accepted.
@@ -39,6 +40,7 @@
  exists, but is not available. Please file an issue!
  exists, but the property is not available.
  failed to render.
+ failed: The string to be decoded is not correctly encoded.
  field required.
  for details.
  for more information. This offer is available for a limited time only, and Slack may end or modify this offer at any time without notice to you.
@@ -57,6 +59,7 @@
  in the document.
  in this channel in just one click.
  in this channel.
+ indexes were requested but not found in the response.
  instead.
  is a component designed to appear at the top of the channel sidebar.
  is a component originally designed to display in channel forewords. It receives an array of cards as its sole required prop.
@@ -88,6 +91,7 @@
  not found. Did you forget to load it?
  not present in program.
  not supported on this browser.
+ objects were requested but not found in the response.
  occurrence.
  on the shared prompt, their Slackbot library will reference the canvas directly (no copy). If you edit the canvas later, recipients see your updates.
  only when you need a different layout for a specific page.
@@ -97,6 +101,7 @@
  parameter is invalid.
  parameter must provided.
  parameter.
+ parcels were requested but not found in the response.
  permission.
  preference is disabled, then this component will never animate and always use the static image.
  products, services, and events. I can unsubscribe at any time.
@@ -122,6 +127,7 @@
  until the drop event.
  use additive animation on looped animation.
  was dropped during download.
+ was undefined when updating Entity, but is always required. The PB update bundle is corrupt.
  when finished fetching a list of available admin Salesforce orgs.
  when started fetching a list of available admin Salesforce orgs.
  when started fetching a list of available user Salesforce orgs.
@@ -140,6 +146,7 @@
 ) is not supported yet.
 ) that performed expensive computation.
 ), falling back to Type1.
+),commandSource:g,scrollable:p,maxWidth:p?160:void 0,hideCommandIcon:p,className:s?
 ). Corrupted zip ?
 ). If you meant to render a collection of children, use an array instead.
 ). Use good judgement and add components (or hooks) to this directory that you feel are valuable to the PNP project.
@@ -155,6 +162,7 @@
 ,checked:a,icon:r,className:i?V().atLimitRow:void 0,disabled:i,ariaDescribedBy:i?
 ,checked:a,icon:r,className:i?W().atLimitRow:void 0,disabled:i,ariaDescribedBy:i?
 ,counter:0,seen:new Map,cycles:e?.cycles??
+,e.includeFieldLabel??!1);break;case c.LS.CONVERT_VARIABLE:this.convertVariable_(e.recordId,e.fieldLabel,e.fieldApiName??
 ,onChange:d?R:void 0,placeholder:d?
 ,onClickPrimaryAction:a?void 0:t,primaryActionHref:a?
 ,stateArg:null,context:new Context(k?
@@ -180,6 +188,11 @@
 . You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument).
 . You may want to try using different keywords, checking for typos, or adjusting filters.
 .type should be specified.
+1 instance in locked content skipped.
+1 instance skipped.
+1 instance within a card skipped.
+1 instance within a formula skipped.
+1 instance within a mention skipped.
 10-core CPU, 10-core GPU. Fanless design. 18 hours battery. Great all-around laptop.
 10-core CPU, 10-core GPU. Up to 24 hours battery life. Liquid Retina XDR display.
 10-core CPU, 8-core GPU. Most portable Mac. Perfect for everyday work and travel.
@@ -192,11 +205,12 @@
 :E.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eP?eH:void 0,className:s()(eP||T||eF?
 :E.mv.ConfirmationModal,onClose:ez,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
 :I.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eP?eH:void 0,className:s()(eP||T||eF?
-:O instanceof RegExp?
+:I.mv.ConfirmationModal,onClose:ez,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
 :_ instanceof RegExp?
 :a?r:void 0,children:m?
 :bulb: Get your team on the same page with canvases.
 :bulb: Stay on track with lists.
+:d instanceof RegExp?
 :e instanceof File?
 :e instanceof Map?
 :point_up: I found an existing summary for this file.
@@ -310,7 +324,9 @@ A message with
 A message you saved was deleted.
 A message you saved was not found.
 A new app messaging experience makes having conversations with AI-powered agents and assistants a snap. Install apps with an assistant or agent, and put them to work today.
+A new comment selection cannot contain other comments or reactions.
 A new member has joined
+A new reaction selection cannot contain other reactions or comments.
 A new version of the app is available.
 A new way to add workflow starting actions
 A new way to automate connector requests
@@ -454,6 +470,7 @@ ADBE Vector Shape - Star
 ADBE Vector Star Inner Radius
 ADBE Vector Star Outer Radius
 ADBE Vectors Group
+ADDED_PENDING_UPDATE (missing entity)
 AI & ML Data Science
 AI Button
 AI Channel Recaps
@@ -713,7 +730,9 @@ Acting User
 Action Button
 Action Button 2
 Action Card
+Action Data:
 Action Items
+Action handler for
 Action item
 Action item dismissed
 Action program
@@ -735,6 +754,7 @@ Active Channels
 Active Discussions Settings
 Active Group
 Active State
+Active Users and Events
 Active buckets (5-second windows) in the last 10 minutes:
 Active element on open
 Active export token has been revoked
@@ -863,6 +883,7 @@ Add Agent
 Add Agent To Workspaces
 Add Agent or App
 Add Agentforce Agent
+Add Alt Text
 Add An Opportunity Manually
 Add App Collaborator
 Add App Collaborator Failure
@@ -929,6 +950,8 @@ Add a Domain
 Add a Field
 Add a Google Drive file
 Add a Google domain
+Add a Link
+Add a Profile
 Add a Sales Elevate data source
 Add a Salesforce list
 Add a Source
@@ -940,6 +963,7 @@ Add a bookmark to this conversation
 Add a bot to allow users to exchange messages with your app.
 Add a branch
 Add a browser instance to the store
+Add a bulleted list
 Add a button
 Add a canvas
 Add a canvas tab to channel
@@ -947,6 +971,7 @@ Add a channel
 Add a channel (up to 5): Channel names must be under 20 characters
 Add a channel ID to the deferred channel list
 Add a channel, overwriting anything previously stored with the same id
+Add a checklist
 Add a collection to unified files
 Add a comment
 Add a create record saving toast to queue
@@ -963,6 +988,8 @@ Add a file to a collection at its correct sorted position
 Add a file to the open list, and then maybe save to local storage.
 Add a form for this step?
 Add a form to your website and new leads will be automatically posted in this channel.
+Add a horizontal rule
+Add a large heading
 Add a link
 Add a link URL on each logo to navigate to its customer story
 Add a list
@@ -988,6 +1015,8 @@ Add a note (optional)
 Add a note for your admin
 Add a note to explain your decision. This will only be visible to other Content Admins.
 Add a note to your invitation
+Add a numbered list
+Add a page break
 Add a pending license approval request ID
 Add a personal touch
 Add a personalized message (optional)
@@ -1014,6 +1043,7 @@ Add a selected group to the collection of selected groups
 Add a selected user to the collection of selected users
 Add a shared skill
 Add a short description
+Add a single space between lines
 Add a skill to Slackbot
 Add a skill to this skill set
 Add a suggestion
@@ -1038,6 +1068,7 @@ Add agents and apps
 Add amount
 Add an Agent
 Add an App
+Add an Image
 Add an OAuth Scope
 Add an active download
 Add an additional layer of security to your account so you never have to worry about your password being compromised.
@@ -1110,6 +1141,8 @@ Add channels or DMs
 Add channels to the desktop search index as additional teams are booted
 Add channels to the desktop search index when initial teams are booted
 Add code to your site
+Add column to left
+Add column to right
 Add comment
 Add comments to collaborate with your coworkers. Comments stay with the section no matter where it is shared.
 Add company handbook
@@ -1574,6 +1607,8 @@ All Contacts
 All Folders
 All List Views
 All Masks
+All ModelObject subclasses need to implement get()
+All ModelObject subclasses need to implement type()
 All Sales Elevate users
 All Salesforce orgs
 All Salesforce steps must use an account in the same Salesforce organization.
@@ -1753,6 +1788,7 @@ Already has access
 Already in this channel
 Already in this conversation
 Already joining
+Already remapped 
 Already running client metrics, skipping
 Also block previews from this website in the future
 Also sent to the channel, 
@@ -1761,6 +1797,7 @@ Also sent to the group,
 Also sent to the group.
 Alt Text
 Alt Text (override)
+Alt Text Editor
 Alt text saved.
 Alter pinned canvases for an external workspace
 Alternate DKIM key
@@ -1926,6 +1963,7 @@ AnalyticsAgent: Running in multi-component mode
 Analyzing membership data...
 Analyzing stored device records
 Anatomy of a Product UI
+Anchor Link Not Copied
 Anchor Point
 Anchor names must not contain whitespace or control characters
 And this is normal text after the quote.
@@ -1937,6 +1975,7 @@ Angular HTML
 Angular TypeScript
 Animals & Nature
 Animate a message deletion as well as calling the delete API endpoint
+Animated GIFs
 Animation Consistency
 Animation of an empty Slack workspace
 Animations are automatically disabled when the user has reduced-motion preferences
@@ -2066,6 +2105,7 @@ App support URL
 App will permanently use PKCE
 App-Level Tokens
 AppBridge is already connected. Call close() before connecting again.
+Appears to be code
 Append WMP content library items
 Append a media reaction locally
 Append a placeholder message to the channel
@@ -2101,6 +2141,7 @@ Applying changes to the secondary container
 Applying changes to the sidebar container
 Applying changes to the split container
 Applying changes to the split container in child window
+Applying fixes
 Appointment Bundle Aggregation Duration Downscales
 Appointment Bundle Aggregation Policies
 Appointment Bundle Configs
@@ -2221,6 +2262,7 @@ Arial Black
 Arial Narrow
 Arial Nova
 Arial Unicode MS
+Array Iterator
 Arrow Left
 Arrow Right
 Arrow down navigation aborted
@@ -2298,11 +2340,13 @@ Assigns one or more channels to an org-level User Group
 Assigns user to a flag
 Assistant Description
 Assistant Suggested Prompts
+Assuming text.
 Astral Projection
 Async Validation Error
 Async action execution is complete for a view
 Async schemas not supported in object keys currently
 Async thunk to change active plan initiated
+At least 2 document controls are necesary to benchmark loading.
 At least one Quip thread ID not found in response
 At least one of these conditions must be met:
 At least one of triggerId or workflowId is required
@@ -2345,16 +2389,30 @@ Attempt to download a file and clog outcome
 Attempt to edit the previous message via the 
 Attempted boot for all workspaces, signaling desktop
 Attempted to add invalid keyboard binding
+Attempted to add section already in a layout to a column. The section is being removed from its old layout.
+Attempted to clamp dimensions that were not both nonzero: 
+Attempted to clean up comment thread with replies or reactions
+Attempted to edit the document in a way not allowed by permissions.
+Attempted to focus a section which does not allow focus!
 Attempted to insert experiment_assignments to boot-data-store. These should instead be inserted to the experiments-store. Deleting experiment_assignments.
+Attempted to install DOM tripwire multiple times
+Attempted to mark section with setEditing while readOnly, ignoring
 Attempted to open a channel canvas without an entityId
+Attempted to pop root layer from focus stack
+Attempted to renewLocalEditLease while readOnly, ignoring
+Attempted to save cleaned up document
+Attempted to set a section dirty while read-only.
+Attempted to set a section dirty while readOnly, ignoring
 Attempted to set mediaKeys without first attaching a media element
 Attempted to start a polling query without a polling interval.
+Attempted to tag element
 Attempted to turn off screen sharing
 Attempted to unregister a locale callback that does not exist.
 Attempted to update an already finished hash.
 Attempted to use disposed GPGPUContext.
 Attempting fallback to old processor.
 Attempting initial connection to primary region
+Attempting to change an outdated document.  Use Automerge.clone() if you wish to make a writable copy.
 Attempting to close
 Attempting to close flexpane
 Attempting to close split view
@@ -2421,6 +2479,7 @@ Auto-initialize Slackbot AI thread on message arrival
 Auto-insert draft on Composer API AI summary completion
 Auto-scroll through items
 AutoClog Viewer
+Autocomplete Handler
 Automate access with built-in security
 Automate everyday tasks
 Automate everyday tasks and processes with our intuitive workflow builder.
@@ -2461,6 +2520,17 @@ Automatically updates
 Automation Rules
 Automation tools
 Automations and workflows
+Automerge.use() not called
+Automerge.use() not called (decodeChange)
+Automerge.use() not called (decodeSyncMessage)
+Automerge.use() not called (decodeSyncState)
+Automerge.use() not called (encodeChange)
+Automerge.use() not called (encodeSyncMessage)
+Automerge.use() not called (encodeSyncState)
+Automerge.use() not called (exportSyncState)
+Automerge.use() not called (importSyncState)
+Automerge.use() not called (initSyncState)
+Automerge.use() not called (load)
 Availability of public roadmap information
 Available agents
 Available credit
@@ -2505,6 +2575,8 @@ Back to back Meetings before and after overlap group
 Back to back Meetings before overlap group
 Back to main
 Back to the top
+Backdrop stack already unmounted.
+Backdrop stack popped while empty.
 Background Color
 Background Colors
 Background Image (1x)
@@ -2528,6 +2600,7 @@ Bad response
 Bad summary
 Bad two dim code
 Bad uncompressed block length in flate stream
+Badly formatted sections, adjacent element children with different ids.
 Bald Eagle
 Bandwidth test failed
 BandwidthChecker timed out
@@ -2591,6 +2664,7 @@ Bell R Outlines 2
 Belongs to this app
 Below quote
 Bembo Schoolbook
+Benchmark complete, results are in the console and can be re-shown with benchmarkResults()
 Berkeley Old Style
 Bernhard Modern
 Berthold City
@@ -2638,6 +2712,12 @@ Block selection cleared
 Block settings
 Blocking huddles init since a huddlesSdk is already active
 Blocking prejoin init since a prejoin SDK is already active
+Blockquote Layout Container Section Handler
+Blockquote Layout Handler
+Blockquotes cannot contain callouts, columns, tables, or other blockquotes.
+Blockquotes cannot contain collapsed sections.
+Blockquotes cannot contain dividers.
+Blockquotes cannot contain placeholder content.
 Blocks without a streaming adapter auto-advance immediately, so headers and dividers appear instantly.
 Blog Platform
 Blog Post By Jane
@@ -2697,6 +2777,7 @@ Branch step duplicate failed
 Branch thread
 Brand Guidelines v3
 Brazilian (ABNT)
+Bridge invocation without a delegate being set, ignoring.
 Brief description of the issue
 Brightpath Studio logo
 Brightpath logo
@@ -2749,6 +2830,7 @@ Browse the full component library for design tokens, components, and patterns.
 Browse the marketplace
 Browser apps shortcut - opens App Launcher
 Browser channels shortcut - opens Channel Browser
+Browser does not support CSS animation
 Browser does not support webgl.
 Browser environment is unable to access the required external assets.
 Browser is unsupported for VideoFxProcessor
@@ -2821,6 +2903,7 @@ Bulk delete WMP content library items
 Bulk deletes drafts
 Bulk expand or collapse
 Bulk fetches and upserts members by query
+Bulk loads:
 Bulk manage files
 Bulk mark channels as read in section
 Bulk replace messages
@@ -2851,6 +2934,7 @@ Bullet Text
 Bullet points work well for feature lists; paragraph works better for storytelling
 Bulleted List
 Bulleted list
+Bulleted list style
 Bun Alerts
 Bundle row missing bundleKey
 Bundled with premium Slack features like AI assistance, advanced admin controls and more
@@ -2994,6 +3078,7 @@ CC User Inventory Location
 CCITTFaxDecoder - invalid 
 CDN Tune-in age: 
 CDN Tune-in goal increased from: 
+CDN URL prefix was not set.
 CFF stem hints are in wrong order
 CFFParser_parseDict: 
 CIO Dashboard Data
@@ -3003,8 +3088,18 @@ CONTENT SHARE CONNECTIVITY READINESS - Completed
 CONTENT SHARE CONNECTIVITY READINESS - Running
 CONTENT SHARE CONNECTIVITY READINESS - User clicked start share (Firefox only)
 COPPA compliance
+CORS requests not supported
 CPU Utilization
 CRC32 integrity check failed
+CRDT Changes
+CRDT CurrentSaved
+CRDT Deleted
+CRDT Next Text
+CRDT Processed
+CRDT Sequence Heads
+CRDT SnapshotQueue
+CRDT Text
+CRDT: Error getting cursor for encodedDoc given offset: 
 CRM access can be shared with up to 100 teammates.
 CRM capabilities
 CRM in Slack follow-up survey
@@ -3022,8 +3117,11 @@ CTA link is required
 CTA style override
 CTA text is required
 CTR (28d)
+Cache count: 
+Cache listeners:
 Cache the capability list for an Enterprise Search connector by app_id
 Cache the window size of the huddle window for a specific surface
+Cached Model
 Caches an MCP app resource prefetch result
 Caches whether the given user has AI Profile Summaries enabled
 Caffeine? Check. Computer? Check.
@@ -3101,16 +3199,22 @@ Call to update channel email address information
 Callback Delay (ms)
 Callback ID
 Callback called multiple times
+Callback passed to CollabAcDelegate will not be called
 Callback required as last argument
 Called after a Salesforce org config is updated
 Called after a team is successfully disconnected from a Salesforce organization
 Called after a user is successfully connected to a Salesforce organization
 Called after a user is successfully disconnected from a Salesforce organization
 Called refetch(
+Called updateDocMetadataFromPb without valid input!
 Called when message action is completed and focus needs to move back to the message
 Calling clearDrafts on MessageInput:updateDraft where there is no delta
 Calling clearDrafts on send from MessagePaneInput
 Calling send without setting Promise in base request
+Callout Layout Container Section Handler
+Callout Layout Handler
+Callouts cannot contain collapsed sections.
+Callouts cannot contain columns or other callouts.
 Calls API to add MCP server and marks app info as stale
 Calls API to add collaborator to app and updates redux store
 Calls API to create an app action for the specified app
@@ -3171,8 +3275,10 @@ Calls the files.list endpoint
 Calls the files.refresh endpoint
 Calls the relevant handler for the given message
 Calls the relevant rtm handlers with the given rtm message, skipping the queue and without preprocessing (this is intended for degraded mode usage only)
+Calls to Automerge.change cannot be nested
 Calls users.prefs.setNotifications endpoint
 Calls users.prefs.setNotifications endpoint with multiple pref values
+Camera access was not granted, could not capture image.
 Camera background
 Camera disabled
 Camera disabled before self video stream was properly bound. Cleaning up.
@@ -3268,7 +3374,9 @@ Cannot add non-workflow bookmark
 Cannot add placeholder size to a subject when it already has one
 Cannot add tab.
 Cannot add yourself to private channels
+Cannot apply style to multi-container range
 Cannot apply transform device without enabling Web Audio.
+Cannot attach highlight to collapsed range
 Cannot automatically merge arrays
 Cannot be added here
 Cannot both invite and be invited at the same time
@@ -3283,24 +3391,29 @@ Cannot call hover after drop.
 Cannot call hover while not dragging.
 Cannot call resetStates() on an RNN Layer that is not stateful.
 Cannot call the resetStates() method of a non-stateful Layer object.
+Cannot check all if section is not a checklist
 Cannot check whether to reload when using js_path. Skipping client.checkVersion call.
 Cannot check whether to reload when using js_path. Skipping client.shouldReload call.
 Cannot claim lock as it is already claimed
 Cannot collect a droppable while a drag is occurring
 Cannot collect without a droppable ref
 Cannot compile Type3 glyph.
+Cannot connect. Socket is disabled.
 Cannot construct Tensor with more than 4 channels from pixels.
 Cannot construct a complex64 tensor directly. Please use tf.complex(real, imag).
 Cannot construct path-style endpoint with access point
 Cannot contain the invalid character 
 Cannot convert undefined or null to object
 Cannot copy empty string to clipboard
+Cannot create a reference to an existing document object
 Cannot create canvas
 Cannot decode datastream chunk 
 Cannot decode transcript data message: 
 Cannot decrypt samples of type Uint8Array
 Cannot delete bookmark
 Cannot delete embedded Product UIs.
+Cannot delete multi-container range
+Cannot determine position in section because the editing container is null
 Cannot dispatch openHuddleWindowUsingSideEffect: no active huddle team ID
 Cannot drop in phase: 
 Cannot edit bookmark
@@ -3322,11 +3435,13 @@ Cannot fire onDragEnd when there is no matching onDragStart
 Cannot fire onDragMove when onDragStart has not been called
 Cannot fluid scroll if not dragging
 Cannot focus a closed window
+Cannot get bounds for node
 Cannot get clipped area from droppable
 Cannot get close time for this span because it has not closed.
 Cannot get dimension when no ref is set
 Cannot get duration for this span because it has not closed.
 Cannot get playout delay, track already ended
+Cannot get row for unknown object id type
 Cannot get rows and columns of an empty shape array.
 Cannot get the stopTraining property of a sequential model before it is compiled.
 Cannot getSocketUrl with out a token
@@ -3334,6 +3449,8 @@ Cannot handle VALUE_ROWIDS in first dimension.
 Cannot hash more than 2^53 - 1 bits
 Cannot have both specs and specRegistry defined
 Cannot increase frame iteration, the context is empty
+Cannot initialize encryption: localStorage is unavailable
+Cannot initialize encryption: unavailable on this platform
 Cannot initialize the same private elements twice on an object
 Cannot insert 
 Cannot join 
@@ -3342,6 +3459,8 @@ Cannot load profile name
 Cannot log error to telemetry: orgUrl is required but not provided
 Cannot modify a published app. Use the beta app to make changes.
 Cannot move by window in phase 
+Cannot move caret to undefined target
+Cannot move checked items if section is not a checklist
 Cannot move in direction without previous impact location
 Cannot parse the unexpected character 
 Cannot perform a jump scroll when there is no destination
@@ -3356,10 +3475,12 @@ Cannot polyfill getSnapshotBeforeUpdate() for components that do not define comp
 Cannot post any message into a read-only channel.
 Cannot post user messages to a channel they are not in.
 Cannot read more than 32 bits at a time
+Cannot reconnect. Socket is disabled.
 Cannot reduce an empty sequence
 Cannot register abstract class
 Cannot release a texture that was never provided by this texture manager
 Cannot release lock when there is no lock
+Cannot remove checked items if section is not a checklist
 Cannot remove placeholder form subject when there was none
 Cannot remove yourself from the workspace.
 Cannot save data source
@@ -3372,10 +3493,15 @@ Cannot send data message because signaling client is not ready
 Cannot send feedback: feedback has already been sent for the current response.
 Cannot send message to this channel
 Cannot send message: room not connected or no local participant
+Cannot send presence. Socket is disabled.
+Cannot send root IDs subscription. Socket is disabled.
+Cannot send transient sections. Socket is disabled.
 Cannot set input_placeholder property: channel not found
 Cannot set microphone muted: room not connected or no local participant
+Cannot set miniapp mode to none
 Cannot set playout delay, track already ended
 Cannot set prejoin_dm_welcome_party property: channel not found
+Cannot set read only for this section
 Cannot set server token without a server
 Cannot set the stopTraining property of a sequential model before it is compiled.
 Cannot show JIT notification, permission denied
@@ -3384,6 +3510,7 @@ Cannot show huddle request result notification, permission denied
 Cannot show missed huddle invite notification, permission denied
 Cannot show notification, missing arguments
 Cannot show notification, permission denied
+Cannot sort alpha if section is not a list
 Cannot specify batchSize if batchInputShape is specified when creating an InputLayer.
 Cannot start auto scrolling when already started
 Cannot start capturing critical dimensions as there is already a collection
@@ -3394,6 +3521,7 @@ Cannot stop scroll listener when not active
 Cannot stream on this device
 Cannot switch workspaces because canUserSwitchWorkspaces returned false.
 Cannot sync draft creation due to a missing draft id
+Cannot uncheck all if section is not a checklist
 Cannot unsubscribe from keyboard layout changes
 Cannot update channel sections
 Cannot update isCombineEnabled flag of Droppable 
@@ -3416,7 +3544,9 @@ Canvas deleted
 Canvas details
 Canvas editors cannot access version history and restore prior versions of a canvas.
 Canvas example
+Canvas link
 Canvas options
+Canvas preview
 Canvas printing
 Canvas results
 Canvas search: sort changed
@@ -3449,6 +3579,9 @@ Capricorn, Inc.
 Caption generation failed. Please try again.
 Caption generation in progress. This may take a few minutes.
 Caption generation started. This may take a few minutes.
+Captioned Image Container Handler
+Captioned image container
+Captioned image container has no focusable child
 Captions are not available in your region
 Captions are now available for this video.
 Captions have been turned on.
@@ -3506,7 +3639,10 @@ Celebrate the music of Miles Davis
 Celebration events
 Celebratory illustration
 Cell copied
+Cell section encountered without spreadsheet controller
 CellMeasurer registerChild expects to be passed Element or null
+Cells merged
+Cells unmerged
 Center alignment is the default and best matches the block
 Central African Republic
 Central Blur
@@ -3568,8 +3704,16 @@ Change which rows are shown in the tables
 Change which user
 Changes Summary
 Changes a member
+Changes from remote contained local hashes.
 Changes saved
 Changes the current view refinements from the assistant output
+Changes: Cell Sections
+Changes: Fragment Collections
+Changes: Indexes
+Changes: Object Contents
+Changes: Payload
+Changes: Presence
+Changes: Web Socket Listener
 Changing MPDMs to a private channel
 Changing the current members DND type from DND snooze to DND schedule
 Channel Email Crop
@@ -3637,6 +3781,7 @@ Channel description
 Channel details
 Channel has been archived.
 Channel invitations
+Channel link
 Channel link copied
 Channel management
 Channel managers
@@ -3738,13 +3883,17 @@ Charis SIL
 Charlie 
 Chart type
 Chat Outlines
+Chat Room
 Chat Sessions
 Chat Transcripts
 Chat about this
 Chat and Collaboration
+Chat room
 Chat with Slackbot AI
+Check All
 Check It Out
 Check Status
+Check a list item
 Check and mark card as seen
 Check back in on your lists, any time
 Check back soon to see your updates to migrating user email addresses.
@@ -3780,7 +3929,9 @@ Check whether a freshly published WMP document can be promoted to live
 Check your authentication app for your code.
 Check your email for a link
 Check your system settings
+Checkbox checked
 Checkbox checked with icon
+Checkbox unchecked
 Checkbox unchecked with icon
 Checked 6 sources for relevant documentation.
 Checking calendar availability
@@ -3797,6 +3948,9 @@ Checking to see if we should reload
 Checking unreads after unread line became visible
 Checking unreads after window became focused
 Checking unreads after workspace became focused
+Checklist item not checked
+Checklist items updated
+Checklist style
 Checkmark Bullets
 Checkout Action for setting isFetchingCurrencyAfterCountryChange
 Checkout Address Form Data Loaded
@@ -3815,8 +3969,11 @@ Checks if user created a new datasource after being redirect to integrations bui
 Checks that the remote peer user ID resolves to a valid user
 Checks the eligibility of a trial for #proj-paid-acquisition-self-serve
 Checks to see if members should move into or out of DND
+Child %s not in the DOM
+Child folder not allowed
 Child window toolbar
 Child windows only. Set the resized column width and mode for secondary view
+Children we expect
 Chill Vibes
 Chime SDK Messaging
 Chime audio video session started
@@ -3929,11 +4086,13 @@ Claim Education Discount
 Clarify details of what your step will do.
 Class being registered does not have the static className property defined.
 Class extends value 
+ClassListBuilder should not be stringified. This means that it was passed in as a prop of DOM element, which confuses the React reconciliation algorithm. Call build() before passing it as a prop.
 Classic Apps Deprecation
 Classifier prompt
 Classifies email input as internal or external and returns the proper escape hatch options
 Classify whether an email address is internal, external or invalid to allow for email tokenization in Add People modal
 Clean message text
+Clean state expected
 Clean up
 Clean up browser after navigating away
 Clean up old persisted data for expired teams
@@ -3946,8 +4105,10 @@ Clear All Megaphone spaces
 Clear All Saved
 Clear Any Existing Payment Status or Errors
 Clear Company Address Form Field Validation Errors
+Clear Error State
 Clear Filter
 Clear Filters
+Clear Link
 Clear Megaphone space
 Clear OAuth info for Add Datasource step
 Clear SMS invite phone numbers
@@ -4027,6 +4188,7 @@ Clear metadata for a thread in a window
 Clear no audio output
 Clear no media input from microphone or camera
 Clear no or low input audio level
+Clear oauth token
 Clear out all selected draft ids
 Clear out root messages
 Clear pending draft insert
@@ -4149,8 +4311,11 @@ Click me
 Click the Dispatch button below to instantly render Megaphone Notifications on the UI.
 Click the question mark icon to open the Help Center whenever you need it.
 Click this
+Click to add an image
 Click to choose the default emoji for your members
+Click to collapse
 Click to disable audio only mode
+Click to dismiss debug error
 Click to expand
 Click to hide
 Click to learn more
@@ -4170,6 +4335,13 @@ Client focus history
 Client initiated disconnect
 Client server capabilities not available
 Client tool execution successful.
+Clipboard not pasted
+Clipboard pasted as PB
+Clipboard pasted as Slack Block Kit
+Clipboard pasted as image
+Clipboard pasted as link
+Clipboard pasted as text
+Clipboard text pasted as code
 Clips can help members save time and more efficiently distribute information by opting to share short, async updates instead of scheduling meetings.
 Clock Body Outlines
 Clockwise 2 Outlines
@@ -4330,6 +4502,7 @@ Close menu
 Close method called on signal client
 Close mini player with stale-closing safety net
 Close modal
+Close notification bar.
 Close open edits with no changes and warn on edits with unsaved changes
 Close open tiles or flexpanes
 Close or re-open right pane
@@ -4353,6 +4526,7 @@ Close view
 Close window
 Close without adding anyone to this channel?
 Closed Lost
+Closed Team
 Closed Won
 Closed a deal!
 Closed captions
@@ -4383,12 +4557,15 @@ Coachmark Hero Name
 Coachmark title
 Cocos (Keeling) Islands
 Cocos [Keeling] Islands
+Code Block
+Code Block Handler
 Code Channel Command
 Code Channels
 Code Implementation Example
 Code Review
 Code Review: Refactor Auth Module
 Code block
+Code block style
 Code channel
 Code channel results
 Code channels
@@ -4403,6 +4580,7 @@ Cognito Identity
 Cognito Identity Provider
 Cognito Sync
 Cold boot check result
+Collab Autocomplete Handler
 Collab init still running
 Collab instance initialized more than once
 Collaborate in Slack Connect channels
@@ -4420,7 +4598,11 @@ Collaboration & Chat
 Collaboration illustration
 Collaborative lists
 Collaboratively track deals for new customer accounts.
+Collapse All Sub-lists
+Collapse Heading
 Collapse Sales Tracker
+Collapse Section
+Collapse Sub-list
 Collapse a channel in All Unreads
 Collapse all collections
 Collapse an inline file preview
@@ -4431,8 +4613,10 @@ Collapse group
 Collapse heading
 Collapse list
 Collapse or expand all
+Collapse or expand section
 Collapse pinned messages
 Collapse reaction bundle
+Collapse section
 Collapse thinking steps
 Collapse this widget
 Collapse thread
@@ -4456,6 +4640,7 @@ Collection cannot start from phase
 Collection items
 Collection not found
 Collection type options
+Collections may not be moved
 Color 1_2
 Color Type
 Color hex code
@@ -4463,6 +4648,7 @@ Color mode
 Color options
 Color sequential area sensor
 Color sequential linear sensor
+Column has no sections
 Combine the stat number and description for screen readers
 Combining chunks into single array...
 Comic Sans MS
@@ -4474,16 +4660,19 @@ Comma-separated email addresses
 Command 
 Command + Shift + H
 Command + Shift + Option + H
+Command not found: 
 Command suggestions collapsed
 Commands announce
 Commands date
 Commands subteam
+Comment Group
 Comment on selection
 Comment on this section
 Comment only
 Comment stream received a root comment without the replies
 Comment toolbar hidden
 Comment toolbar visible
+Comments cannot span multiple sections.
 Comments fetch timed out
 Comments may be out of date. Sync to get the latest.
 Comments must be separated from other tokens by white space characters
@@ -4491,6 +4680,7 @@ Comments only
 Comments will be private, just between you and other admins.
 Commit message edit text to the API
 Common Lisp
+Common problems include:
 Common section names
 Communicate in countless ways from one place.
 Communicate more efficiently and securely with external people.
@@ -4505,6 +4695,7 @@ Company Offsite
 Company handbook canvas and channel tab creation failed
 Company headquarters location
 Company is a required field. Match a column to Company to continue.
+Company is null
 Company kick off
 Company or team name
 Company size
@@ -4697,6 +4888,7 @@ Connection closed
 Connection closed unexpectedly before session could be established.
 Connection details
 Connection error
+Connection offline
 Connection permissions & visibility
 Connection restored. Ignoring disconnection events for 5 seconds.
 Connection timeout
@@ -4717,6 +4909,7 @@ Constants support is not implemented in RNN yet.
 Constraints not re-applied no video track available
 Constraints not re-applied no video track settings available
 Constraints re-applied to content share (resolution overwrite applied)
+Constructor for type already exists
 Consumer connected to channel
 Consumption Rate
 Consumption Schedule
@@ -4741,12 +4934,15 @@ Contact information
 Contact name or email
 Contact us in #feedback-channel-agent.
 Container Title
+Container already registered
 Container does not have focus
 Container not set
 Container not set for memo
 Container ref is defined but not hydrated
 Container required for toolbar
 Content & channels
+Content DOM
+Content PB
 Content Position
 Content Switcher
 Content Variant
@@ -4755,10 +4951,12 @@ Content does not fit in gap
 Content edited
 Content fits within container
 Content from app
+Content had an unexpected child
 Content hidden
 Content hidden from view
 Content hole not allowed in a leaf node spec
 Content insertion
+Content is missing resize handle node
 Content item entity
 Content library items
 Content removed
@@ -4793,9 +4991,12 @@ Continuous marquee with header
 Contract Line Items
 Control - Trial
 Control - Upgrade
+Control ID
 Control access for connected orgs data sharing
+Control could not be created
 Control strip
 Control+ 
+Controller Collab Autocomplete Handler
 ConvRNN2D cell does not support constants
 Conversas lidas
 Conversation Only
@@ -4868,8 +5069,10 @@ Copies link to member to clipboard
 Copies list link to clipboard
 Copies the widget URL to the clipboard
 Copy AI explanation
+Copy Anchor Link
 Copy Email Address
 Copy Link
+Copy Markdown
 Copy Org Chart Deep Link
 Copy Payload
 Copy Prompt
@@ -4883,6 +5086,7 @@ Copy Workflow Url
 Copy a data table block to clipboard
 Copy agent prompt link
 Copy all activity
+Copy anchor link
 Copy and paste Salesforce record links into Slack, creating rich previews that surface key details without having to open a new browser tab.
 Copy as template
 Copy as template failed
@@ -4936,6 +5140,7 @@ Copy message text as Markdown
 Copy name
 Copy namespace to clipboard
 Copy notification ID
+Copy object
 Copy of Untitled
 Copy preview URL
 Copy record type
@@ -4969,9 +5174,11 @@ Costa Rica
 Could not access camera. Please check permissions.
 Could not access microphone. Please check permissions.
 Could not acquire audio track from mediaStreamBroker
+Could not add long tasks observer: 
 Could not beacon back pref
 Could not beacon back pref for request
 Could not cancel header image upload
+Could not capture image, unknown error.
 Could not clear last known event timestamp
 Could not clear stale endpoints from storage
 Could not complete boot due to loss of API service
@@ -4979,9 +5186,12 @@ Could not complete boot due to loss of network connectivity
 Could not connect with this user.
 Could not connect. Please try again.
 Could not construct new URL with HLS Delivery Directives: 
+Could not create document
 Could not delete role
+Could not determine transition duration for
 Could not discover OAuth metadata for this MCP server.
 Could not dispatch a redux action to the client store. The redux store might not be initialized yet.
+Could not display table.
 Could not enable your Data Cloud connection.
 Could not enqueue request
 Could not export failed users
@@ -4997,13 +5207,28 @@ Could not fetch suggested users for users.recommend
 Could not fetch the agent card from the provided URL.
 Could not find 
 Could not find Elements context; You need to wrap the part of your app that 
+Could not find Section instance for DOM node
 Could not find a matching mapping
 Could not find a path from 
 Could not find a preferred cmap table.
 Could not find app context
+Could not find cell for row and column in table section
+Could not find control in document
 Could not find displaced item in set
+Could not find frame name for editor
+Could not find layout blockquote for layout blockquote style contentPb
+Could not find layout callout for layout callout style contentPb
+Could not find layout flexbox for layout flexbox style contentPb
+Could not find layout table for layout table style contentPb
+Could not find list section container
+Could not find location for offset calculation. This is likely an unreachable location.
+Could not find parent window
+Could not find property
 Could not find required context
 Could not find scroll options while scrolling
+Could not find scroll parent for
+Could not find section in document
+Could not find selected mini app section
 Could not find store from lazy ref
 Could not find timer
 Could not find valid window-chrome element to inject into
@@ -5019,6 +5244,7 @@ Could not get canvas context
 Could not get context for WebGL version
 Could not get empty media stream audio track
 Could not get endpoints from storage
+Could not get local document snapshots.
 Could not get redux state for the client store. The redux store might not be initialized yet
 Could not handle request.
 Could not identify object 
@@ -5040,6 +5266,7 @@ Could not locate submit user variable
 Could not locate submit user variable in step
 Could not locate trigger event timestamp
 Could not open composer page
+Could not open hovercard: Neither userId nor content was specified
 Could not parse CSV.
 Could not parse IMSC1 mdat
 Could not parse JSON prefs
@@ -5054,13 +5281,19 @@ Could not prejoin huddle
 Could not queue a new BootQueue request because BootQueue does not exist
 Could not reconnect and resume ApiQ.
 Could not record impression
+Could not reload CSS, STYLESHEET_URLS was not present
 Could not restore lead.
 Could not restore opportunity.
 Could not resume audio context
 Could not save last closed window
 Could not save last window, viewset is empty
+Could not save local document snapshot.
+Could not send diagnostics report.
+Could not send presence, delegate has no listener.
+Could not send subscription, delegate has no listener.
 Could not set SifTrailer
 Could not set audio output: 
+Could not set clipboard data for type
 Could not start camera video because max video resolution was set to None
 Could not start content because max content resolution was set to None
 Could not start huddle
@@ -5083,6 +5316,7 @@ Count 3 Outlines
 Count 4 Outlines
 Count 5 Outlines
 Count 6 Outlines
+Count Events
 Count Outlines
 Counted huddle reconnect attempt
 Counted when a person (1) clicks to generate a channel summary and views it, or (2) joins a channel, views the auto-generated summary, and clicks to expand it.
@@ -5094,6 +5328,8 @@ Counted when a person clicks to view a file summary.
 Counted when a person sends a message to Slackbot.
 Counted when a person submits a prompt using canvas AI.
 Counted when a person uses the natural language input or suggested prompts in Workflow Builder to generate a workflow draft.
+Counters should not be decremented outside of a change callback
+Counters should not be incremented outside of a change callback
 Country code
 Counts the number of times the Open App team menu item is selected
 Courier New
@@ -5338,6 +5574,7 @@ Creates or updates a Record Channel config and fetches an updated list of config
 Creates standalone huddle channel and copies link to it
 Creates the next command token
 Creating Canvas...
+Creating DataSection for cell section: 
 Creating TOS
 Creating and sending emails to customers
 Creating desktop delegate
@@ -5365,10 +5602,14 @@ Current Value
 Current and future files
 Current and future search history
 Current environment is not a web browser
+Current measurement
 Current page override
 Current status of the project.
+Current user is null
 Current value
 Current view
+Currently Editing
+Currently Viewing
 Currently in Starred
 Currently sharing Slack data
 Currently, non built-in steps can not be exported.
@@ -5514,7 +5755,9 @@ Data Cloud connector status
 Data Cloud requires an updated Salesforce connection. Update your connections to share data and get powerful insights.
 Data Dispatch
 Data Loading
+Data Loads
 Data Location
+Data Loss
 Data Loss Prevention
 Data Loss Prevention (DLP)
 Data Scraping
@@ -5530,6 +5773,7 @@ Data encryption at rest and in transit
 Data exports
 Data exports for all messages
 Data exports for all messages from a single user
+Data field error
 Data hosting company
 Data hosting details
 Data included in ML models
@@ -5560,6 +5804,8 @@ DataPacket of value
 DataTrackE2eeExtension.toBinaryInto: Wrote 
 DataTrackUserTimestampExtension.toBinaryInto: Wrote 
 DataViz Co.
+Database was not found during upgrade
+Database was not found in onsuccess
 Datacloud team could not be found.
 Datanet Partnership Kickoff
 Datasource Schema re-sync response is undefined
@@ -5569,6 +5815,7 @@ Date & Time
 Date & time
 Date Filter Options
 Date Range
+Date Suggestion Handler
 Date Time
 Date a member first invoked or interacted with this app
 Date a member last invoked or interacted with this app
@@ -5589,8 +5836,10 @@ Date range
 Date requested
 Date restricted
 Date reviewed
+Date suggestions
 Date to snooze notifications until
 Date updated
+DateSuggestionRenderer: ignoring non-date result type
 David Kim
 Day of week
 Day white fluorescent (N 4600 - 5400K)
@@ -5616,7 +5865,11 @@ Deal won
 Debounce Delay (ms)
 Debounced auth.test check
 Debounced call to maybeTranslateMessage in message change
+Debug Auth
+Debug Error
+Debug Error Expires in 5s
 Debug Mode
+Debug error set
 Debug logs for your MCP server connections and tool calls. Only includes activity from app collaborators.
 Debug tracing is OFF
 Debug tracing is ON
@@ -5635,6 +5888,8 @@ Decline scheduled time
 Decline scheduled time?
 Declutter your channel list to find stuff faster.
 Decode map length is not correct
+Decoder hit an error
+Decoder read past the end, an error was most likely swallowed.
 Decorative image carousel
 Decrease Value
 Decreased amount
@@ -5645,6 +5900,7 @@ Deep research
 Deeplink handler received an error
 Default (determined by level)
 Default Account
+Default Handler
 Default Option 1
 Default Skin Tone
 Default Team
@@ -5668,6 +5924,7 @@ DefaultEncodedTransformManager stopped
 DefaultVideoTransformDevice: detach stopping input media stream
 Defaults to 
 Deferred messaging client data fetches
+Deferred render already present
 Deferring to target team
 Define Summary
 Define the outputs you need and AI shapes its response to match
@@ -5675,6 +5932,7 @@ DejaVu Sans
 DejaVu Serif
 Delay must be a valid number.
 Delay must be at most 5 weekdays.
+Delegate Handler
 Delegate access attempt detected, starting deeplink log-reading fallback
 Delegate to workspaces (default)
 Delete AI Notes & Transcript
@@ -5684,11 +5942,13 @@ Delete App
 Delete Channel
 Delete Channel Header
 Delete Configuration
+Delete Content
 Delete Context Bar
 Delete Draft
 Delete Full Sidebar
 Delete IP Address
 Delete Item
+Delete List
 Delete Message
 Delete Message Input
 Delete Module
@@ -5796,6 +6056,8 @@ Delete workflow
 Deleted file
 Deleted folder
 Deleted item
+Deleted list
+Deleted list view
 Deleted message
 Deleted object
 Deleted sandboxes
@@ -5820,6 +6082,7 @@ Deletes an IDP config and updates store
 Deletes an existing barrier via the API and updates the Redux store
 Deletes auth for the user
 Deletes the given custom emoji
+Deleting DB
 Delivered with love
 Democratic Republic of the Congo
 Demonstrates that long action button labels truncate within the card width.
@@ -5940,6 +6203,9 @@ Device settings
 DeviceManager connected to VideoUplinkManager
 Diacritically Acclaimed Naval Combat Game
 Diagnose with Slackbot
+Diagnostic report
+Diagnostic report sending not implemented.
+Diagnostics report URL: 
 Diagram of front ends at slack
 Dial-in Number:
 Dictate message
@@ -5968,6 +6234,7 @@ Direct owner
 Direct-message anyone at any company that uses Slack from your free workspace.
 Directly photographed
 Director of Operations, Beta Corp.
+Dirty state
 Disable 2FA
 Disable AI
 Disable Google Auth
@@ -5975,6 +6242,7 @@ Disable Google Auth?
 Disable SSO Config
 Disable SSO?
 Disable Slack AI features for current user
+Disable Web-Socket Updates
 Disable and update user group
 Disable big button mode
 Disable button on a certain date
@@ -6075,6 +6343,7 @@ Dismiss tip
 Dismiss tips
 Dismiss transcript generation prompt
 Dismissable (all tasks completed)
+Dismissable Error State
 Dismisses a calendar event from JIT notifications for this session
 Dismisses all of the suggest message UI
 Dismisses read messages from Today view and returns them for undo
@@ -6169,22 +6438,33 @@ Document Metadata
 Document Outlines
 Document Outlines 2
 Document Outlines 3
+Document Save
 Document Stroke
+Document Update
 Document and share ideas and knowledge
 Document became visible
 Document became visible without previous hidden event
 Document boundary indicators are not allowed within string values
+Document container had an unexpected child
 Document conversions
 Document conversions (Quip admin)
 Document conversions as permitted by the Quip organization admin.
 Document conversions disabled
 Document conversions enabled
+Document copied to clipboard as Markdown.
 Document discussion topics and next steps.
 Document end marker line cannot have a non-comment suffix
+Document failed to load
+Document has a data section that was not in the saved state, assuming that it hadn
+Document has a section
 Document has no default view
 Document hidden
+Document is dirty, yet there is no update bundle. Likely bug
 Document management
+Document saved
+Document sequence mismatch
 Document suggestions collapsed
+Document too large
 Document with errors cannot be stringified
 Does not support Audio Worklet
 Does not support SharedArrayBuffer.
@@ -6214,8 +6494,10 @@ Downgrade Slack
 Downgrade stats loaded
 Download CSV
 Download File
+Download Image
 Download JSON
 Download Location
+Download Original
 Download SSB Full-Screen Modal
 Download a data table block as TSV
 Download a data_visualization block as TSV
@@ -6230,6 +6512,7 @@ Download form responses
 Download list
 Download location
 Download multiple files
+Download original
 Download table
 Download the Slack mobile app
 Download the mobile app
@@ -6262,6 +6545,7 @@ Drag and drop CSV file here or click to upload
 Drag and drop important stuff here
 Drag and drop your photo
 Drag files, canvases, and lists in here to keep things nice and organized (it
+Drag to move
 Drag to reorder
 Drag to take a screenshot
 Drag, drop, and ship your Slack app UI
@@ -6272,6 +6556,8 @@ Draw message must be correctly formed
 Draw on your own screen
 Dream Maker
 Drop Shadow
+Drop an image here or
+Drop an image or video here, or
 Drop messages from before a given timestamp
 Drop old messages if there are too many
 Drop result must either be an object or undefined.
@@ -6340,6 +6626,8 @@ Each tile is fully clickable; do not try to nest a CTA inside the paragraph
 Eager dismiss provided eventId
 Earliest date created
 Early connection closed; discarding signaling task.
+Early exit due to previous failures
+Easily add alt text for screenreader users
 Easily add multiple Salesforce orgs to keep track of your deals in one place.
 Easily export messages and explore flexible data residency options
 Easily share across channels or with individuals
@@ -6350,6 +6638,7 @@ Edit (your own message)
 Edit AI use setting
 Edit Agent About Section
 Edit Agent Settings
+Edit Alt Text
 Edit Avatar Upload
 Edit Barrier
 Edit Barriers
@@ -6371,6 +6660,7 @@ Edit Message
 Edit Name
 Edit Order
 Edit Photo
+Edit Profile
 Edit Profile Crop
 Edit Profile Form
 Edit Profile Remove
@@ -6385,6 +6675,7 @@ Edit Tabs
 Edit Task
 Edit Template
 Edit Topic
+Edit URL
 Edit User
 Edit User Scope Reasons
 Edit a Sales Elevate data source
@@ -6504,12 +6795,18 @@ Edit your working hours
 Editing from list views
 Editing is not permitted
 Editing scheduled status
+EditorDocument instance is already registered.
+EditorDocument instance was never registered.
+EditorDocument wasn
+Edits Locked
 Edits a Native DLP rule with a regex detector
 Edits a bookmark to the channel specified
 Edits a file
 Edits an existing Slackbot response
 Edits an existing barrier and updates it in the Redux store
 Edits an existing scheduled custom status
+Edits canceled
+Edits saved
 Edits the account types enabled for the permission
 Education (Academic)
 Educational Coachmark about Admin Menu Moving To The Tab Rail
@@ -6612,6 +6909,7 @@ Embeddable Slack Button
 Embedded Content
 Embedded JavaScript
 Embedded UI Provider
+EmbeddedSameOriginBridgeTransport did not load
 Embedding doc
 Emily Davis
 Emission Factors - Electricity
@@ -6636,6 +6934,9 @@ Employee ID
 Employee Type
 Employee onboarding
 EmpresaS.A. Outlines
+Empty Image
+Empty column at render time
+Empty files cannot be uploaded.
 Empty subtitle payload
 Empty text nodes are not allowed
 Enable AI
@@ -6695,6 +6996,10 @@ Encoder not initialized
 Encoding required.
 Encountered websocket error during connection establishment
 Encrypted zip are not supported
+Encryption being initialized with outdated key
+Encryption is already initialized
+Encryption is not initialized, state: 
+Encryption is unavailable on this platform
 Encryption type mismatch for stream 
 End Date
 End Label 2 Outlines
@@ -6836,6 +7141,7 @@ Enter your payment details to keep these premium features after your trial ends.
 Enter your question here
 Enter your reason
 Enter, tab or comma to separate keywords.
+Entering blockquote
 Enterprise  Outlines
 Enterprise (Premium)
 Enterprise Grid
@@ -6864,6 +7170,8 @@ Enterprise-grade infrastructure modernization initiative spanning multiple data 
 Enterprise-grade security and compliance controls keep your data protected without slowing your team down.
 Enterprise-grade security built in
 Entity State
+Entity is not an instance of PositionedEntity
+Entity is not lockable
 Entity type
 Entry Point
 Entry point: choose another step for form
@@ -6966,6 +7274,7 @@ Error loading flag details
 Error loading functions for category:
 Error loading org members from search API
 Error loading roles user groups from admin.roles.listUsergroups API
+Error loading settings.
 Error loading user groups from search API
 Error loading user groups from search.enterprise API
 Error loading user members from search API
@@ -6974,6 +7283,7 @@ Error message received from socket
 Error occured in creating the Google spreadsheet on workflow step save
 Error occured in fetching the AI Workflow Steps Response
 Error parsing JSON from onboarding pref
+Error parsing RTML string: 
 Error parsing appStats in localStorage:
 Error parsing session config
 Error preloading Quip SDK
@@ -6985,7 +7295,6 @@ Error refreshing app activities
 Error regenerating secret
 Error removing MCP server
 Error removing app collaborator
-Error removing logged out orgs from data store:
 Error removing next token
 Error rendering emoji component
 Error requesting a list of access list requests
@@ -7004,6 +7313,7 @@ Error saving permissions to local storage
 Error sending email
 Error sending message from joiner personalized launchpad setup flow
 Error sending message from onboarding tasks Teammate Intro modal
+Error sending transient sections packet
 Error serializing payload
 Error setting canvas update message setting
 Error setting preferred devices in local storage
@@ -7051,8 +7361,12 @@ Error while fetching the current team
 Error while fetching, searching, or paginating user groups
 Error while reporting huddle_events trace
 Error while validating and persisting company address
+Error: Attempted to change a frozen field. Likely because get[Field]OrDefault was called and returned the default value, and the code then attempted to change the default value (a no-op)
 Error: Network Error
+Error: You appear to have been signed out. Click to sign in.
+Error: field 
 Error: getDisplayMedia unavailable while trying to screen share in browser
+Error: overriding a pre-existing click event override. This is a bug.
 Errored while sending 
 Essential Apps
 Europe (Frankfurt)
@@ -7118,6 +7432,8 @@ Everything is OK so far.
 Everything mentioning you
 Everything you need to know to get started and get to work in Slack.
 Evict archived records from store
+Evicted indexes:
+Evicted objects:
 Evicts a docked PiP when a different clip starts playing inline
 Evolution Options
 Ex. 65000
@@ -7136,6 +7452,10 @@ Example app home using section, divider, context, and actions blocks for expense
 Example prompt
 Example prompts
 Example workflow link
+Exception during decorator
+Exception during error handler
+Exception during hook
+Exception during transient decorator
 Excessive Downloads
 Excessive downloads
 Exclude ANY of these keywords
@@ -7165,7 +7485,9 @@ Exit full screen
 Exit full screen mode?
 Exiting due to invalid message contents
 Expand All
+Expand All Sub-lists
 Expand Sales Tracker
+Expand Section
 Expand a channel in All Unreads
 Expand all
 Expand all collections
@@ -7180,6 +7502,7 @@ Expand group
 Expand heading
 Expand or collapse by key
 Expand reaction bundle
+Expand section
 Expand state not sync with index check
 Expand subtotal calculation details
 Expand thinking steps
@@ -7211,10 +7534,14 @@ Expected credentials to be set before PENDING
 Expected drag drop context
 Expected draggable to be inside home list
 Expected droppable with frame to have old max frame scroll when removing placeholder
+Expected message or group
 Expected message value or attributes
 Expected migrationIds to be an Array
 Expected missing customer error
+Expected native type
 Expected number, got 
+Expected sections to have parent
+Expected sequence with length 2
 Expected sourceIds to be registered.
 Expected targetIds to be an array.
 Expected targetIds to be registered.
@@ -7487,6 +7814,7 @@ Failed to initialize Collab SDK: creator promise rejected
 Failed to initialize huddles SDK:
 Failed to initiate background worker
 Failed to inject custom titlebar styling
+Failed to insert section as sibling
 Failed to instantiate the VideoFxEngine
 Failed to leave some user channels
 Failed to link vertex and fragment shaders.
@@ -7536,7 +7864,9 @@ Failed to re-connect to Huddle
 Failed to read IA history from storage
 Failed to read app name in getStoredStateFromIDB
 Failed to read device selection history from local storage
+Failed to read large IndexedDB value
 Failed to read team or enterprise ID in Unknown Fetch Manager
+Failed to read varint, encoding is invalid.
 Failed to record notification dismissal during spring cleaning completion
 Failed to recover microphone after device switch error:
 Failed to refresh Salesforce orgs after enabling Slackbot
@@ -8237,6 +8567,7 @@ Field Capacity Transfers
 Field Name
 Field Title
 Field Value
+Field is not unknown in this message
 Field name
 Field options
 Field type
@@ -8244,6 +8575,7 @@ Field updates only
 Figure out if user has completed Sales Elevate onboarding
 File Actions
 File Block called without a file object or file id
+File Link Open Error
 File Management
 File Storage Used
 File Summary
@@ -8258,6 +8590,7 @@ File is being processed by the backend
 File is not available in this environment. Try opening the link in a web browser.
 File is ready to be refreshed again
 File is too large.
+File link
 File must be a template
 File must be less than 10 MB.
 File name
@@ -8266,6 +8599,7 @@ File not found
 File not uploaded
 File options
 File picker window expired
+File preview
 File refresh failed
 File refresh store
 File results
@@ -8371,6 +8705,7 @@ Filtering from recent notifications.
 Filters channels by workspace, private, archived, etc
 Filters must be a valid array
 Final (Both)
+Final data:
 Final display position in the autocomplete list
 Final length of result must be equal to firstDimension.
 Finalize a provisional connection
@@ -8380,11 +8715,13 @@ Finalizing doc creation. Doc was already created before listener.
 Financial Options
 Financial Svcs (USA)
 Find AI prompt suggestions that match a search query
+Find Bar
 Find More To-Dos
 Find Out More
 Find a DM
 Find a person or channel to huddle with
 Find an app to recommend
+Find and Replace
 Find and use canvas templates
 Find answers, prep meetings, and simplify your workday with ease
 Find channels that match a search query
@@ -8404,6 +8741,7 @@ Find members
 Find members that match a search query
 Find or go to something you know exists in Slack (e.g., a specific message, user, channel, file, link)
 Find quip shortcut commands that match a search query
+Find something in document
 Find the best Slack plan for your team
 Find the canvas here
 Find the conversations that matter to your team.
@@ -8473,6 +8811,8 @@ Flash fired, auto mode, red-eye reduction mode
 Flash fired, compulsory flash mode
 Flash fired, compulsory flash mode, red-eye reduction mode
 Flash fired, red-eye reduction mode
+Flexbox Layout Container Section Handler
+Flexbox Layout Handler
 Focus Beats
 Focus Card
 Focus a Quip Embed
@@ -8516,6 +8856,7 @@ Follow up with Slackbot on these focus areas to help you get your day started.
 Follow up with Slackbot on these focus areas to help you prep for tomorrow.
 Follow-up prompts
 Followed by an emoji: 
+Followup Request
 FontFile is empty
 FontFile should be a stream
 Food & Drink
@@ -8551,6 +8892,7 @@ Forcing display of join preview due to device permission problems
 Forecast Reminder
 Forest Floor
 Forgets a member
+Forked heads not found.
 Form Preview
 Form Responses
 Form button text
@@ -8672,6 +9014,7 @@ From you
 From: #ps-tea
 Front folder
 Front-load the most common questions
+Full Access
 Full Card
 Full Member
 Full Name
@@ -9015,6 +9358,7 @@ Given a failure message, normalizes it to one of our known errors (if applicable
 Given a search suggestion, opens Slackbot and starts a thread
 Given a summary topic, get the oldest citation link from it
 Given a thread key, start timer to clear assistant thread status
+Given index is out of bounds
 Gives a set of members access to Sales Home
 Gives validated members access to Sales Home
 Glimmer JS
@@ -9249,12 +9593,15 @@ Group by field
 Group created.
 Group exceeds 5,000 members
 Group external messages
+Group field type not supported in readAny()
+Group field type not supported in writeAny()
 Group handle already exists. Enter a different handle.
 Group handle is too long.
 Group handles cannot contain spaces, numbers, or special characters.
 Group has been updated.
 Group huddles
 Group huddles with screen sharing
+Group link
 Group meetings
 Group meetings with AI notes
 Group meetings with instant notes
@@ -9267,6 +9614,7 @@ Group name is too long.
 Group one
 Group one, first
 Group options
+Group submessage did not end with an END_GROUP tag
 Group this channel with similar conversations in your sidebar and choose when you want to be notified about new messages.
 Group two
 Group two, first
@@ -9362,6 +9710,8 @@ Handle user knocking to enter Huddle they have no access to
 Handle when a user has canceled the current knock to enter request
 Handle when a user is removed from a team
 Handle workflow publish success
+Handler Calls
+Handler registered late
 Handles a channel tab being clicked
 Handles an active enterprise migration
 Handles an invite response from the callee
@@ -9411,9 +9761,19 @@ Having trouble?
 Head back to Home
 Head of IT, Initech
 Header Icon
+Header Image
+Header image is not supported.
+Header image repositioning is not supported.
 Header only with hero image
 Header value entry
+Heading 1
 Heading level (1-4)
+Heading level 1
+Heading level 2
+Heading level 3
+Heading level 4
+Heading level 5
+Heading level 6
 Headings and dividers
 Headline + paragraph (left-aligned, no CTAs)
 Headline + two CTAs
@@ -9541,7 +9901,9 @@ High gain up
 High risk list
 High saturation
 Higher limit requested
+Highlight Handler
 Highlight Slack Kit components for discovery and testing purposes.
+Highlight control
 Highlight row (lavender background)
 Highlight the starred section with a glow effect for spring cleaning
 Highlight words
@@ -9576,6 +9938,7 @@ Hope your day is flowing smoothly
 Horizon Bright
 Horizontal Feather
 Horizontal Layout
+Horizontal Rule
 Horizontal Tabs
 Horizontally Select
 Host a team brainstorm from anywhere
@@ -9624,12 +9987,14 @@ How will the discount work?
 How would you like to proceed with this request? Choose one of the options below
 How would you like to verify your domain?
 How you and your team are using Pro features
+HtmlToPbParser already registered for 
 Huddle AI Notes
 Huddle Jukebox Manager created.
 Huddle Message
 Huddle Trace Manager created
 Huddle Trial Start Coachmark
 Huddle ended. Cleaning up event handlers and connection references.
+Huddle feedback section
 Huddle files
 Huddle found - triggering sign out speed bump
 Huddle in
@@ -9687,6 +10052,7 @@ Hydrate filters for entity
 Hydrate profile fields for a user
 Hydrate search-shared-facet suggestions
 Hydrates basic ui object shape in state for specified search view id
+Hyperlink options
 I Want More
 I Want This
 I am a basic quote block following preformatted text
@@ -9710,6 +10076,7 @@ IA4 comes to the UI Generator!
 IBM shifted into a higher gear of productivity by partnering with Slack
 ID not resolved after 10000s
 ID not resolved after 30000s
+ID was not set on pasted Entity. Dropping pasted data:
 ID-JAG Issuer URL
 IDP groups
 IP address
@@ -9833,10 +10200,12 @@ Image Position (desktop)
 Image Position (mobile)
 Image Source
 Image could not be found, switching to default input for device
+Image has no width, cannot find good size to fit
 Image left
 Image not available
 Image of Slackbot
 Image placeholder
+Image provided without URL hash:
 Image tabs with auto-scroll
 Image with imageBytes (file size)
 Images load eagerly since billboards are above the fold
@@ -9863,12 +10232,14 @@ Important notifications about the background stuff.
 Important notifications from Slack Security
 Important unreads
 Important unreads options
+Importing image. Please check back in a few minutes.
 Impressions (28d)
 Improved Slackbot memory
 In 1 hour
 In 20 minutes
 In 3 hours
 In 30 mins
+In Canvas expected
 In Outlines
 In Progress
 In Translation
@@ -9926,6 +10297,7 @@ Incoming WebHooks
 Incoming Webhooks
 Incompatible receiver, 
 Inconsistent open depths
+Incorrect Bubble Arrow Alignment: 
 Incorrect index
 Incorrect invocation
 Increase Value
@@ -9948,8 +10320,11 @@ Increments scroll to search tooltip dismissals count
 Increments the major CFM version number.
 Increments the minor CFM version number.
 Increments totalUnreadReplies
+Indent a list item
 Index ingestion is paused, setting most recent index as pending
+Index load error
 Index out of range
+IndexedDB not available
 Indexing all PDF objects
 Indicate that a file is in the middle of being unshared from a channel
 Indicate that the shared teams list is loading
@@ -9979,6 +10354,7 @@ Initial State
 Initial connection failed with ConnectionError: 
 Initial history action id to navigate to
 Initial load for specific Megaphone Spaces that need to load on boot
+Initial save was disabled.
 Initialize Action Library Navigation state
 Initialize Calendar Prefs On Mount
 Initialize EAC connection and start OAuth flow
@@ -10038,6 +10414,7 @@ Insert a thread at the beginning
 Insert a variable
 Insert all form responses
 Insert channel here
+Insert column
 Insert column left
 Insert column right
 Insert content into the document
@@ -10059,12 +10436,16 @@ Insert or update a request
 Insert outgoing invite response
 Insert pending state for a newly created call
 Insert question here
+Insert row
 Insert row above
 Insert row below
 Insert text here
+Insert text outside section
 Inserted content deeper than insertion position
+Inserting inline requires an editor range
 Insertion options
 Inserts an incoming invite and starts a timer to cancel it
+Inside live pasted content
 Inspect element
 Inspiration from your boss
 Install App
@@ -10086,6 +10467,8 @@ Instantly search steps from anywhere with
 Instructions information
 Insufficient information.
 Insufficient parameters given for %TAG directive
+Insufficient permissions
+Insufficient record access
 Int64 buffers must be exactly 8 bytes
 Integrate tools and services into Slack
 Integration Blocks
@@ -10107,6 +10490,7 @@ Internal Apps
 Internal Bot
 Internal Error Occurred
 Internal Slack analysis of team decision velocity, 2023
+Internal Tools
 Internal apps
 Internal error
 Internal name shown to editors in WMP. Not published.
@@ -10131,6 +10515,7 @@ Invalid Quill container
 Invalid SJIS character: 
 Invalid URL
 Invalid URL format
+Invalid UTC date ms in slack date
 Invalid VideoFx configuration: Background Blur and Background Replacement can not both be enabled
 Invalid VideoFx configuration: Background Replacement can not have both an image URL and default color
 Invalid VideoFx configuration: backgroundImageURL failed to load
@@ -10144,6 +10529,7 @@ Invalid argument to NUMBER
 Invalid argument: 
 Invalid arguments for new 
 Invalid attempt to destructure non-iterable instance
+Invalid byte length!
 Invalid canvas file ID format
 Invalid canvas size
 Invalid channelId
@@ -10152,6 +10538,7 @@ Invalid chart details: wrong number of callout features
 Invalid code point
 Invalid content for node type 
 Invalid content. Remove any 
+Invalid country calling code
 Invalid credit card number
 Invalid crypt filter name.
 Invalid date
@@ -10163,6 +10550,8 @@ Invalid escape sequence
 Invalid existing canvas ID format
 Invalid fd index for glyph index.
 Invalid field flags for button widget annotation
+Invalid field type in readAny()
+Invalid field type in writeAny()
 Invalid file
 Invalid file id
 Invalid files
@@ -10171,6 +10560,7 @@ Invalid font matrix for font
 Invalid format.
 Invalid grammar state
 Invalid hex string
+Invalid host
 Invalid hostname
 Invalid id passed to audio-track controller
 Invalid input
@@ -10187,8 +10577,10 @@ Invalid mode
 Invalid number, expected digit but got: 
 Invalid number, unexpected digit after 0: 
 Invalid object
+Invalid offset
 Invalid offset 
 Invalid offset in the ObjStm stream.
+Invalid offset to move position by
 Invalid oldestAllowableTimestampFloat
 Invalid org email
 Invalid org sharing setting
@@ -10199,15 +10591,20 @@ Invalid pages rotation angle.
 Invalid paramaters in the data transformer
 Invalid parameters
 Invalid plugin
+Invalid port
+Invalid processed heads
 Invalid protocol
 Invalid question
 Invalid quip entityId passed toQuipActivityHistory. It must be encoded with Qp:
 Invalid quip entityId passed toQuipCommentThread. It must be encoded with Qp:
+Invalid region code: 
 Invalid region in config
+Invalid render type
 Invalid result
 Invalid rotation
 Invalid row ids.
 Invalid row split size.
+Invalid session
 Invalid size
 Invalid size returned for cell 
 Invalid source type
@@ -10215,6 +10612,7 @@ Invalid spec schema
 Invalid spec. Spec must have a name
 Invalid state
 Invalid submetric ID
+Invalid top-level element in html: 
 Invalid topic
 Invalid track permission, must provide at least one of participantIdentity and participantSid
 Invalid type in PageLabel dictionary.
@@ -10227,8 +10625,15 @@ Invalid video input device
 Invalid viewId
 Invalid viewId or state
 Invalid visibility expression
+Invalid wire encoding for field.
+Invalid wire type for skipDelimitedField
+Invalid wire type for skipFixed32Field
+Invalid wire type for skipFixed64Field
+Invalid wire type for skipVarintField
 Invalid workflow type. Missing payload.
 Invalid workspace email
+Invalid x position
+Invalid y position
 InvalidService: Failed to load api for 
 Invalidate any cached state when the set of self workspaces changed from the previous boot
 Invalidate client caches for topics
@@ -10302,6 +10707,7 @@ Invited Guest
 Invited Member
 Invited as a coworker
 Invited by you
+Invited thread member index should not be loaded without the necessary permits, the request will fail.
 Invited to
 Invited using Slack Connect.
 Invited you
@@ -10823,7 +11229,13 @@ Layer invocation in the presence of activity regularizer(s) is not supported yet
 Layer_1 1
 Layer_1 _reset
 LayersModel invocation with concrete Tensor value(s) in the presence of activity regularizer(s) is not supported yet.
+Layout Parent
+Layout Referenced Handler
 Layout density
+Layout had an unexpected child
+Layout had no contents
+Layout has no columns
+Layout has wrong number of spans
 Layout options
 Lazily loaded component that supports code splitting
 Lazy load channels tab data when top results tab is focused
@@ -10974,6 +11386,7 @@ Light Plus
 Like a virtual office, a workspace is where work happens in Slack. All your channels, direct messages, and tools live in a workspace.
 Like refreshThreads but appends
 Like your sidebar
+Likely error, unhandled 
 Limit sharing
 Limit to 5-8 items to avoid overwhelming visitors
 Limited apps and canvas
@@ -10998,14 +11411,18 @@ Line: negative values
 Line: single series
 Link Channel
 Link Drive or other tools
+Link Format
+Link Handler
 Link Namespace
 Link Text
 Link URL
 Link an existing channel
 Link button
+Link cleared
 Link clicked
 Link copied
 Link copied to clipboard
+Link edited
 Link is external (skip edge URL handling)
 Link leads to 404 error when I share it
 Link options
@@ -11013,6 +11430,7 @@ Link preview
 Linked channels only
 Linked messages
 Links and Resources
+Links cannot span multiple sections.
 Links with additional content
 Linux Libertine
 Linux Libertine Mono O
@@ -11022,20 +11440,27 @@ Lisa Zhang
 List Actions
 List Copy Permissions
 List Emails
+List Handler
 List Overscan
 List Sharing
 List Trigger Run Permissions
 List access updated
 List content
 List description
+List has no children
+List has uneditable text
 List item
+List item found in layout
 List item saved for later
+List link
 List name
 List name not found
 List of apps to install
 List of peer IDs this client has previously used to join the room.
 List options
 List preview
+List record link
+List record preview
 List saved messages and reminders
 List sharing has been disabled in conversations using Slack Connect, so you cannot share the list with the user below.
 List successfully converted to a template.
@@ -11114,6 +11539,7 @@ Load data for a Megaphone notification
 Load data for a Megaphone reducer
 Load data for thumbnails
 Load emoji translations
+Load error: 
 Load info for a space containing metadata and list of notifications
 Load instance steps for activity tab
 Load list of all Megaphone notifications
@@ -11159,17 +11585,21 @@ Loading code channels
 Loading complete.
 Loading controller module
 Loading diff
+Loading error
 Loading files and links
 Loading filter options
 Loading fragment 
 Loading group names...
 Loading groups
 Loading history
+Loading in progress
+Loading index 
 Loading key for 
 Loading loss_weights is not supported yet.
 Loading meeting thread
 Loading next question
 Loading notification schemas...
+Loading object 
 Loading part sn: 
 Loading people
 Loading preview
@@ -11212,8 +11642,10 @@ Loads the flagged content details data
 Loads the flagged content history data
 Loads users who can be assigned to a flag (content admins + org owners)
 Loads workspace request channels and adds them to the store
+Local History restore
 Local audio input is updated
 Local date
+Local update with remote author received
 Local video input is updated
 Local video timing marked as removed
 LocalFunctionCache.set - expected 
@@ -11225,13 +11657,16 @@ Localize image
 Locally set the last read cursor on a conversation
 Locally stores the duration this media has been watched
 Location description (optional)
+Lock Edits
 Lock cleared after system-wake detection
 Lock still set after system-wake detection
 Locked by an Admin
 Locked thread
 Lofi Beats
+Log Collab Bridge Operations
 Log Details
 Log Event
+Log Network Requests
 Log Salesforce Call Action
 Log Slackbot sidebar link click
 Log a Slackbot AI NUX event
@@ -11411,6 +11846,7 @@ M1 12a11 11 0 1122 0 11 11 0 01-22 0zm11 9a9 9 0 110-18 9 9 0 010 18z
 M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z
 M1.25 10.5a2 2 0 0 1 2-2v3.25a3 3 0 0 0 3 3h9v.75a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2z
 M1.5 10a8.5 8.5 0 1 1 16.075 3.859l.904 3.714a.75.75 0 0 1-.906.906l-3.714-.904A8.5 8.5 0 0 1 1.5 10
+M1.5 10a8.5 8.5 0 1 1 16.075 3.859l.904 3.714a.75.75 0 0 1-.906.906l-3.714-.904A8.5 8.5 0 0 1 1.5 10Z
 M1.5 13.554h2.324V8.906l2.49 2.988 2.158-2.822v4.482h2.49V5.42H8.638L6.314 8.408 3.824 5.42H1.5zm12.047-3.993V5.42h2.547v4.14H18.5l-3.538 4.008L11.14 9.56z
 M1.5 4.5a3 3 0 0 1 3-3h11a3 3 0 0 1 3 3v11a3 3 0 0 1-3 3h-11a3 3 0 0 1-3-3zm12.03 4.78a.75.75 0 0 0-1.06-1.06L10 10.69 7.53 8.22a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0z
 M1.5 4.5a3 3 0 0 1 3-3h11a3 3 0 0 1 3 3v11a3 3 0 0 1-3 3h-11a3 3 0 0 1-3-3zm12.33 3.225a.75.75 0 0 0-1.16-.95l-3.885 4.748-1.428-1.964a.75.75 0 0 0-1.214.882l2 2.75a.75.75 0 0 0 1.187.034z
@@ -11551,6 +11987,7 @@ M16 12h.01
 M16 2.5A2.5 2.5 0 0 1 18.5 5v10a2.5 2.5 0 0 1-2.5 2.5H4A2.5 2.5 0 0 1 1.5 15V5A2.5 2.5 0 0 1 4 2.5zM4 4a1 1 0 0 0-1 1v10l.005.102c.025.247.14.466.311.627L16.684 4.27a1 1 0 0 0-.582-.266L16 4z
 M16 9a5 5 0 0 1 .95 2.293
 M16 9a5 5 0 0 1 0 6
+M16.293 6H13.5l-.1445-.0069C12.595 5.9204 12 5.2797 12 4.5V1.707L16.293 6z
 M16.34 9.32a1 1 0 10-1.36-1.46l-2.93 2.73-2.73-2.93a1 1 0 00-1.46 1.36l2.73 2.93-2.93 2.73a1 1 0 101.36 1.46l2.93-2.73 2.73 2.93a1 1 0 101.46-1.36l-2.73-2.93 2.93-2.73z
 M16.53 3.47a.75.75 0 0 1 0 1.06L11.06 10l5.47 5.47a.75.75 0 0 1-1.06 1.06L10 11.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L8.94 10 3.47 4.53a.75.75 0 0 1 1.06-1.06L10 8.94l5.47-5.47a.75.75 0 0 1 1.06 0
 M160.736 56.937a1.306 1.306 0 1 1 0-2.612 1.306 1.306 0 0 1 0 2.612ZM173.165 62.165a1.306 1.306 0 1 1 0-2.612 1.306 1.306 0 0 1 0 2.612Z
@@ -11608,6 +12045,8 @@ M19 14a5 5 0 1 1-10 0 5 5 0 0 1 10 0m-4 2.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0M14 11a.7
 M19 3a2 2 0 0 1 2 2
 M19.364 18.364a9 9 0 0 0 0-12.728
 M19.364 5.636a9 9 0 0 1 1.889 9.96
+M19.5 1.5h-8c-2.2091 0-4 1.7909-4 4v19c0 2.2091 1.7909 4 4 4h13c2.2091 0 4-1.7909 4-4v-14l-9-9z
+M19.5 1.5l9 9h-6c-1.6569 0-3-1.3431-3-3v-6z
 M190.2 211.8h-1.6a4 4 0 0 1-4-4v-32.1a4 4 0 0 1 4-4h1.6a4 4 0 0 1 4 4v32a4 4 0 0 1-4 4
 M190.388 37.018a.611.611 0 0 0 .598-.748 4.79 4.79 0 0 1 .546-3.739.747.747 0 0 0-.471.307 4.813 4.813 0 0 0-.651 3.933.605.605 0 0 1-.022.247Z
 M195.221 126.59c-16.371 7.784-22.671 6.73-22.237 3.395-3.42 4.733 1.81 7.971 21.279-1.286 7.483-3.552 11.86-8.704 13.91-13.946-2.334 4.494-6.495 8.801-12.952 11.837Z
@@ -11667,6 +12106,7 @@ M3 7V5a2 2 0 0 1 2-2h2
 M3 9a6 6 0 1 1 12 0A6 6 0 0 1 3 9m6-7.5a7.5 7.5 0 1 0 4.746 13.307l3.474 3.473a.75.75 0 1 0 1.06-1.06l-3.473-3.473A7.5 7.5 0 0 0 9 1.5m3 8.25a.75.75 0 0 0 0-1.5H6a.75.75 0 0 0 0 1.5z
 M3.24 7.102 9.96 2.75l6.72 4.352-6.72 4.353zM3 12.652l3.5-2.204 3.5 2.204 3.5-2.204 3.5 2.204-7 4.848z
 M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326
+M3.5 19.5h9.5858c.5523 0 1-.4477 1-1a1 1 0 00-.293-.7071L4.2072 8.207A1 1 0 002.5 8.9142V18.5c0 .5523.4477 1 1 1z
 M3.5 2.5a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h13a2 2 0 0 0 2-2v-11a2 2 0 0 0-2-2zM4 6a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1z
 M3.5 3h7l-.5 9H4L3.5 3zM5.5 1h3v1.5h-3V1zM2 3h10
 M3.703 17.308c-.114.448.092.93.538 1.055.321.09.66.137 1.009.137h9.187a3.75 3.75 0 0 0 3.704-3.165l.917-5.812c.047-.298-.22-.523-.52-.523H6.599a1.25 1.25 0 0 0-1.219.975l-1.46 6.48-.005.02z
@@ -11692,6 +12132,7 @@ M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2
 M4.25 3a2 2 0 0 1 2-2h7.5a2 2 0 0 1 2 2v.5H4.25zm0 2h11.5v9.5H4.25zm0 11v1a2 2 0 0 0 2 2h7.5a2 2 0 0 0 2-2v-1z
 M4.25 5A.75.75 0 0 1 5 4.25h10a.75.75 0 0 1 .75.75v1.923a.75.75 0 0 1-1.5 0V5.75h-3.5v8.5h.75a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1 0-1.5h.75v-8.5h-3.5v1.173a.75.75 0 0 1-1.5 0z
 M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 00-2.91-.09z
+M4.5 30.5h14.5858c.5523 0 1-.4477 1-1a1 1 0 00-.293-.7071L5.2072 14.207a1 1 0 00-1.7071.7071V29.5c0 .5523.4477 1 1 1z
 M40 132.1a8.3 8.3 0 1 1-16.6-1.7 8.3 8.3 0 0 1 16.6 1.7
 M40.5 23h47
 M41.4 133a8.2 8.2 0 1 1-16.4-1.7 8.2 8.2 0 0 1 16.4 1.6
@@ -11716,6 +12157,7 @@ M5 21a2 2 0 0 1-2-2
 M5 3a2 2 0 0 0-2 2
 M5 6.25a.75.75 0 0 1 1.23-.576l4.5 3.75a.75.75 0 0 1 0 1.152l-4.5 3.75A.75.75 0 0 1 5 13.75zm1.5 5.899L9.078 10 6.5 7.851zM13 6.25a.75.75 0 0 1 1.5 0v7.5a.75.75 0 0 1-1.5 0z
 M5.253 4.193a7.5 7.5 0 0 1 10.554 10.554zm-1.06 1.06a7.5 7.5 0 0 0 10.554 10.554zM10 1a9 9 0 1 0 0 18 9 9 0 0 0 0-18
+M5.5 16.5v-3.293L8.793 16.5z
 M5.7 5.6H0L2.9.7zM9.3.7h5v5h-5z
 M5.71 1.929a.75.75 0 1 1 1.456-.357l.238.971a.75.75 0 1 1-1.457.357zM3.207 3.935a.75.75 0 1 1 1.061-1.06l.707.706a.75.75 0 1 1-1.06 1.06z
 M5.72 1.72a.75.75 0 0 1 1.06 0l7.75 7.75a.75.75 0 0 1 0 1.06l-7.75 7.75a.75.75 0 0 1-1.06-1.06L12.94 10 5.72 2.78a.75.75 0 0 1 0-1.06
@@ -11787,6 +12229,7 @@ M7 16h10
 M7 2.25a.75.75 0 0 0-1.5 0v15.5a.75.75 0 0 0 1.5 0zm6.5 0a.75.75 0 0 0-1.5 0v15.5a.75.75 0 0 0 1.5 0z
 M7 2.75A.75.75 0 0 1 7.75 2h7.5a.75.75 0 0 1 0 1.5H12.3l-2.6 13h2.55a.75.75 0 0 1 0 1.5h-7.5a.75.75 0 0 1 0-1.5H7.7l2.6-13H7.75A.75.75 0 0 1 7 2.75
 M7 21H5a2 2 0 0 1-2-2v-2
+M7 27v-6.293L13.293 27z
 M7.188 53.101l.947-1.212-.617-1.41 1.445.527 1.148-1.025-.054 1.54 1.33.776-1.481.424-.326 1.503-.861-1.276z
 M7.5 10.5a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0
 M7.5 2.75a1.25 1.25 0 1 0-2.5 0v15a1.25 1.25 0 1 0 2.5 0zm6.5 0a1.25 1.25 0 1 0-2.5 0v15a1.25 1.25 0 1 0 2.5 0z
@@ -11878,6 +12321,7 @@ MCP server workspaces
 MCP servers
 MCP servers navigation
 MDN Web Docs
+MERGED_FROM_LOCAL set outside of save response
 MIPS Assembly
 ML model score used for reranking
 MMM Do YY
@@ -11929,6 +12373,7 @@ Main View Content
 Main View channel Outlines
 Main View divider Outlines
 Main View.png
+Main content could not be located.
 Main window blurred
 Main window focused
 Main window unloading
@@ -12004,6 +12449,7 @@ Making all scopes required means users must grant all permissions to install you
 Making an introduction?
 Malformed Google Drive File
 Malformed WebVTT signature.
+Malformed hex
 Manage AI
 Manage AI Permissions
 Manage AI assistant experience
@@ -12212,6 +12658,7 @@ Mark the user as no longer viewing the file
 Mark the user as viewing the file
 Mark the window as unloading
 Mark this group as important
+Mark token expired
 Mark unread
 Mark user as having sent an invite during team creation
 Mark vacation emoji pack dot notification as seen
@@ -12495,6 +12942,7 @@ Mentions and direct messages
 Mentions are cool: 
 Mentions only
 Menu actions for 
+Menu bar
 Menu in Slack channel with option to view history from the very beginning
 Menu item one
 Menu item two
@@ -12583,9 +13031,12 @@ Message deletion failed
 Message failed to send
 Message feedback
 Message field placeholder
+Message field type not supported in readAny()
+Message field type not supported in writeAny()
 Message flagged by data loss prevention rules.
 Message from today.
 Message from yesterday.
+Message handled before bridge open
 Message has
 Message hidden.
 Message history
@@ -12596,6 +13047,7 @@ Message input
 Message is required
 Message is too big to send over socket
 Message is too long.
+Message link
 Message metadata was deleted
 Message metadata was posted
 Message metadata was updated
@@ -12610,6 +13062,7 @@ Message results loaded successfully
 Message results threw an error while loading
 Message results timed out
 Message search: sort changed
+Message sent before bridge open
 Message shortcuts
 Message summary not available
 Message tab enabled
@@ -12730,17 +13183,21 @@ Missing channel ID for updateArchiveState
 Missing channel for updateArchiveState
 Missing channel section in assignment
 Missing channelOrMemberId
+Missing column node for column index %s
 Missing container
 Missing credentials
 Missing decryption data on fragment in onKeyLoading
 Missing draft in response
 Missing edit permissions
+Missing elementsBaseHost, Elements will not load properly
+Missing entity id
 Missing field
 Missing field 
 Missing file
 Missing hero image and icon
 Missing initial subtitle PTS
 Missing input values
+Missing layout child section %s
 Missing message for updateArchiveState
 Missing microphone permissions. Not connecting to huddle
 Missing name field
@@ -12756,7 +13213,6 @@ Missing required key
 Missing required params
 Missing schedule
 Missing search summary ID
-Missing selection set for object of type 
 Missing some required data, throwing away persisted state
 Missing some sections?
 Missing subrsIndex for 
@@ -12771,9 +13227,11 @@ Missing teamId
 Missing token
 Missing topic or blocks in search summary
 Missing ts for updateArchiveState
+Missing user model for given syncer id on control
 Missing window
 Missing words or phrases
 Missing workflowId needed for trigger
+Missing wrapper node for sections in column index %s
 Mission Control
 Mixed: CMS slide + manual slide
 Mobile & Desktop App
@@ -12792,6 +13250,14 @@ Modal Preview
 Modal Size
 Modal Title
 Modal title Outlines
+Model Browser
+Model checksum mismatched.
+Model fsck probe failed.
+Model integrity probe failed.
+Model is loading.
+Model probe check series restarted
+Model updates probe failed. You may be missing some websocket messages.
+ModelSection not found for section 
 Moderate flagged profile content
 Modified by
 Modifies the edit mode state of a work object
@@ -12816,6 +13282,7 @@ More  Outlines
 More Actions
 More Details
 More Huddles options
+More Options
 More Outlines
 More User Details
 More about how it works
@@ -12841,6 +13308,7 @@ More reactions
 More record actions
 More sidekicks sidebar
 More tests
+More than one list section container
 Morning Meetings
 Morning Planning
 Morning Sync
@@ -12852,6 +13320,7 @@ Most recent messages
 Most recommended
 Most relevant
 Most relevant (default)
+Mounted components should be re-rendered with updateTransient.
 Mounted embed
 Mounted embeds
 Mouse Down
@@ -12859,7 +13328,12 @@ Mouse Enter
 Mouse Exit
 Mouse Up
 Mouth shadow
+Move Checked To Bottom
 Move Down
+Move Item Down
+Move Item Up
+Move a list item down
+Move a list item up
 Move a saved item between to_do and saved states
 Move above
 Move agent to top of sunroof order
@@ -12908,6 +13382,8 @@ Move variant down
 Move variant up
 Move view down
 Move view up
+Moved image down:
+Moved image up:
 Moves an Instant Slack conversation to a permanent workspace.
 Moves the current history index back for a tab soda tab
 Moves the current history index forward for a tab soda tab
@@ -12927,6 +13403,7 @@ Multi-Channel Guests can only use slash commands and shortcuts created by Slack.
 Multi-Channel Guests see a partial directory and can only access messages and files from selected channels.
 Multi-Day Events
 Multi-channel guests
+Multi-click Handler
 Multi-line double-quoted string needs to be sufficiently indented
 Multi-line single-quoted string needs to be sufficiently indented
 Multi-message Coordination
@@ -12957,10 +13434,12 @@ Must be between 0 to 21 characters
 Must be between 0 to 50 characters
 Must be between 0 to 80 characters
 Must be in new state before drawing
+Must have containerSize prop to support onImagePositionChange
 Must pass policy
 Must provide a pathname
 Must send an object of type call; use convertRtmRoomMessageForRedux
 Must specify selectedMembers or selectedMemberIds
+Must use Entity.generateEntityId
 Mutations support only 
 Mute Channels
 Mute a channel given a channelId
@@ -13123,6 +13602,8 @@ Navigation arrows hide on mobile; pagination dots remain at every viewport size
 Navigation middleware execution is complete
 Navigation preferences
 Navigation skipped: not in Activity Inbox view
+NavigationController bodies should implement shouldComponentUpdate (usually via PureRenderMixin) to avoid frequent re-rendering and possible infinite feedback loops. This component does not appear to.
+NavigationItem not found in context. Component may not have rendered yet.
 Need To Request Access
 Need audio tracks to run analyser
 Need extra help?
@@ -13158,6 +13639,7 @@ Never delete messages - save edits
 Never mind Outlines
 Never synced
 Never too late for something good.
+New Action
 New Business
 New Caledonia
 New Canvas
@@ -13169,9 +13651,11 @@ New Feature
 New Feature Icon
 New List
 New Opportunity
+New Option
 New Parameter
 New Section
 New Shape
+New Style
 New Support Ticket
 New Team Cloud Storage Hero Banner
 New Team Launchpad
@@ -13212,6 +13696,7 @@ New opportunity
 New org available
 New requests will be automatically approved
 New response
+New section
 New slide
 New subroute path
 New tasks
@@ -13231,13 +13716,16 @@ Newly added module
 NexGenius - AI-driven Business Optimization
 Next Button
 Next Outlines
+Next Result
 Next Slide
 Next Step
 Next Steps
 Next activity item
 Next channel
+Next entity has out-of-order or duplicate position
 Next image
 Next item
+Next line
 Next media item
 Next meeting
 Next month
@@ -13273,6 +13761,7 @@ No Background
 No Body or Actions
 No Channel Managers found
 No Channel Managers yet
+No EditorDocument instance found for element
 No Found
 No GPU program is currently set.
 No Google apps available for your organization.
@@ -13285,6 +13774,8 @@ No Members found
 No OAuth2 token parameter found
 No PDF src specified
 No Product UIs found
+No Recent Images
+No Recent Images or Videos
 No Reducer Found - get-segment-reducer.ts
 No Salesforce connections found. Contact your admin to add connections.
 No Selection
@@ -13308,6 +13799,7 @@ No active huddle found
 No active huddle thread found
 No active recorder found.
 No active recording or not currently paused
+No active selection for event
 No activity yet
 No additional channels
 No additional hard blocks beyond default model restrictions
@@ -13329,6 +13821,8 @@ No available authenticator supported any of the specified pubKeyCredParams algor
 No available options
 No available workspaces
 No backend found in registry.
+No base head set
+No base sequence set
 No blockers reported.
 No blocks yet
 No bookmarks description
@@ -13337,6 +13831,7 @@ No call window
 No callback provided. Printing response
 No camera devices found, though permissions have been granted previously. Permissions have likely been revoked or cleared mid-session
 No canvases yet
+No caret for control insertion
 No cell with offset 
 No changes
 No changes to save
@@ -13388,6 +13883,8 @@ No draft ids provided
 No draft provided
 No drafts found - continuing with sign out
 No due date set
+No editor range found to perform initial insertion
+No element with tag name
 No email updates have been made
 No emoji rendering :wave: stays raw.
 No entity id specified, cannot fetch
@@ -13418,6 +13915,7 @@ No group overrides available
 No groups
 No groups or people are selected
 No huddle id found
+No image content creator for type
 No imsgs in response!
 No installed apps found.
 No items
@@ -13441,6 +13939,7 @@ No matches. Try a different search term.
 No matching Salesforce user was found for this Slack user.
 No matching code channels
 No matching columns
+No matching file found.
 No matching installed apps found.
 No matching objects
 No matching sidekicks
@@ -13468,8 +13967,10 @@ No node after pos
 No node at attribute step
 No node at given position
 No node at position 
+No node in DOM
 No object found for local storage key
 No object types
+No offset parent for bubble
 No one can override the org-wide retention settings.
 No one can reply to messages
 No one can use
@@ -13498,8 +13999,11 @@ No prefs were passed.
 No preview
 No previous active timestamp found, skipping cold boot navigation
 No previous exports
+No previous measurement
+No primary action available for this content
 No providers
 No publicKey in server response
+No range found to split target section
 No reaction key
 No recent agents
 No recent incidents
@@ -13525,12 +14029,19 @@ No root message for setThreadLastRead
 No router context!
 No routes defined. Call defineRoutes to configure your app
 No row_partition_types given.
+No runners could handle the spec, a dialog will not be shown
 No salesforceOrgId provided to searchRecords
 No saved items
 No screenTrack to stop.
 No screens available
+No scripts were modified
 No search results
+No secondary action available for this content
+No section found to focus after deleting editor range
+No section users related to snippet
 No selection
+No selection found to apply range
+No selection found to apply range for mutation
 No sent invitations at the moment
 No servers available
 No servers connected
@@ -13541,6 +14052,8 @@ No size marker found in JPX stream
 No skills added yet
 No skills available yet
 No skills found
+No snapshot for focus layer
+No source found!
 No source is pinned at the time.
 No sourceId found
 No spans to report.
@@ -13552,6 +14065,7 @@ No string matched
 No stripe customer found from paymentsStripeCustomerGetFetcher
 No suggestions available right now.
 No summary available for this file yet.
+No target node found for event
 No tasks assigned to you
 No tasks found
 No team ID
@@ -13577,6 +14091,7 @@ No unread messages
 No unreads or recent activity to summarize
 No user groups have been created yet
 No user groups to assign to this permission
+No user user action tracer set for request
 No users found
 No valid elements provided.
 No valid endpoint provider available.
@@ -13618,6 +14133,9 @@ Noch 1 Minute
 Noch 1 Monat
 Noch 1 Stunde
 Noch 1 Tag
+Node is not a text node
+Node is not an HTML element
+Node is not an element
 Node#parse consumed no characters
 Node.js Documentation
 NodeType.create can
@@ -13680,6 +14198,7 @@ Not enough space in glyfs to duplicate first glyph.
 Not enough text to summarize
 Not enough to summarize
 Not everyone here can be recorded
+Not found
 Not from
 Not going
 Not hovered
@@ -13704,6 +14223,7 @@ Not reloading non-gantry page
 Not setting a timer as all schedules are stale
 Not signed into any teams
 Not started
+Not supported anymore
 Not supported!
 Not supported.
 Not sure about muting?
@@ -13754,7 +14274,9 @@ Notifications will be visible to everyone in the channel.
 Notifications will not be sent when a developer requests the ability to create sandboxes.
 Notifications will not be sent when a sandbox has been provisioned for your organization.
 Notify Me When Available
+Notify People Mentioned?
 Notify Sonic resynced
+Notify everyone
 Notify everyone in your workspace.
 Notify for @here and @channel
 Notify me whenever someone joins using this link
@@ -13825,8 +14347,10 @@ Number_2 Outlines
 Number_3 Outlines
 Number_4 Outlines
 Number_5 Outlines
+Numbered List
 Numbered item one
 Numbered item two
+Numbered list style
 Numeric sort data table
 O Outlines
 OAuth & Permissions
@@ -13841,6 +14365,9 @@ ODBCdotTable doubleQuote zerolessFloat
 OS default device IDs do not exist skipping maybe setting initial device pref to OS default
 OS default device IDs recorded
 Object already initialized
+Object has no ID
+Object index out of bounds for index.
+Object not supported
 Object type selector
 Object.assign cannot be called with null or undefined
 October 4, 2023
@@ -14043,6 +14570,7 @@ Open Slack Connect trial entry point modal
 Open Slackbot AI in empty state
 Open Slackbot to help you respond to this thread
 Open Slackbot to summarize your recent activity
+Open Team
 Open Viewer Modal
 Open Woodpecker
 Open Workflow Builder
@@ -14154,6 +14682,7 @@ Open link in a new tab
 Open link in new tab
 Open list
 Open lookup step form as part of loop setup flow
+Open magic paste menu
 Open media file in new window
 Open meeting details by event link ID
 Open meeting notes
@@ -14185,6 +14714,7 @@ Open requests
 Open resource
 Open search UI
 Open search debug modal
+Open section menu
 Open share dialog to organization list
 Open share modal for file
 Open share prompt Slackbot education modal
@@ -14585,6 +15115,7 @@ Organization Assets
 Organization ID
 Organization Policies
 Organization Settings
+Organization analytics
 Organization channels
 Organization details
 Organization info
@@ -14617,7 +15148,12 @@ Other options
 Other top results
 Other workspaces
 Out of Office
+Out of blockquote
 Out of bounds subrIndex for 
+Out of callout
+Out of columns
+Out of live pasted content
+Out of locked content
 Out of office
 Out of office coverage
 Out of office message
@@ -14652,6 +15188,7 @@ Overview Outlines
 Overview of planned Slack Platform deprecations
 Overwrites cached channel membership info for a set of users
 Overwrites our store of the teams in a given externally shared channel
+Overwriting unsaved local data with remote for entity
 Owned by
 Owned by me
 Owner name
@@ -14675,6 +15212,7 @@ PDFImage.createImageData: The image must be grayscale.
 PDFImage.getImageBytes: Unsupported 
 PDFNetworkStream.getFullReader can only be called once.
 PDFWorkerStream.getFullReader can only be called once.
+POST response
 PR closed
 PR merged
 PROJ-1234: Fix login timeout on mobile
@@ -14685,6 +15223,7 @@ Page Down
 Page Request
 Page Settings
 Page Settings, has errors
+Page break
 Page count is not an integer.
 Page is about to unload. This might not be a reload, it could be a window close or navigation
 Page leave detected, disconnecting
@@ -14717,6 +15256,8 @@ Pale Royal Blue Solid 1
 Palestinian Territory
 Pam Beasely
 Papua New Guinea
+Paragraph Style
+Paragraph style
 Parallel Flow
 Parse error on line 
 Parse message to determine if its the Welcome DM then clog and mark as sent
@@ -14747,13 +15288,21 @@ Passkeys are the quickest, most secure way to log into Slack.
 Password reset forced
 Past Migrations
 Past events
+Paste Menu Handler
+Paste Quietly
 Paste a Google Drive link
 Paste a link
 Paste across cells
+Paste and Notify
+Paste as
 Paste as text instead?
 Paste failed: Maximum of 100 cells reached. Please reduce your paste size and try again.
+Paste options menu hidden
+Paste options menu showing
 Paste tabular data into lists (grid view)
 Paste this URL in any channel, bookmarks bar or space to run this workflow from anywhere.
+Paste with Comments
+Paste with Comments?
 Patching desktop delegates
 Path 100
 Path 101
@@ -14960,6 +15509,9 @@ Perform any processing work necessary for unchanged channels
 Perform lookups needed to determine if inviter is a member of a channel
 Performance APIs not available. Update your Slack app!
 Performance Benchmarking Metrics
+Performing model checksum validation...
+Performing model fsck probe...
+Performing model updates probe...
 Performs deep link handling for a slack: URI
 Performs deep link handling for arguments parsed from a slack: URI
 Performs deep link handling for serialized JSON from the SSB
@@ -14981,6 +15533,7 @@ Permissions for external invitations
 Permissions not considered trustworthy. Requiring refresh
 Permissions strategy not available
 Persist data for all booted teams
+Persist on change
 Persist sunroof agent order and visibility preferences
 Persist tab soda state to localStorage
 Persist the pref to enabled peeks on hover in the tab rail
@@ -15004,6 +15557,7 @@ Personalize a welcome message
 Personalized AI opportunities
 Phew! Done.
 Phone number
+Phone number too short after IDD
 Photos and videos
 Physical Visit
 PiP Video
@@ -15137,6 +15691,7 @@ Please enter your phone number.
 Please fill out the fields below.
 Please go to #escal-search and
 Please install this app to view your OAuth access token.
+Please keep this tab open.
 Please make sure your file is a GIF, JPEG, PNG, or WEBP.
 Please make sure your file is in the expected JSON format and try again.
 Please pass in a valid TS string
@@ -15207,6 +15762,7 @@ Pop a view from the view stack
 Pop redo stack, push current json to undo stack
 Pop stash
 Pop undo stack, push current json to redo stack
+Popover dismissed before draft insertion.
 Pops out the current BK modal into its own window
 Pops out the current app dialog into its own child window
 Pops out the current app dialog into its own window
@@ -15224,6 +15780,7 @@ Portrait mode
 Portuguese (Brazil)
 Portuguese (Portugal)
 Position Null
+Position path
 Possible EventEmitter memory leak detected. 
 Possibly drop the channel from the countsPerChannel map
 Possibly move focus to loading indicator for navigation
@@ -15250,6 +15807,7 @@ Potential spam activity
 Potentially EXPECTED ERROR in getOrCreateStripeCustomer - just make sure this is followed by a call to paymentsStripeCustomerCreate
 Potentially show a modal that tells the user they cannot delete the CKA folder
 Power through the afternoon
+Powered by GIPHY
 Powered by Salesforce, included with Business+
 Powerful tools that help your team move faster every day.
 Pre-comp 1
@@ -15298,6 +15856,7 @@ Preparing state for hydration
 Prepend historical transcript chunks from catch-up
 Preprocesses an array of internal message objects
 Preprocessing messages took too long; continue to process queue
+Presence listeners:
 Presentation time exceeds safe integer limit and wrapped to max safe integer in parsing emsg box
 Presenter enabled drawing for screen
 Presenter enabled drawing for window
@@ -15305,6 +15864,7 @@ Preserve context for a dispatched thunk
 Presigning only supports S3 or SigV4 signing.
 Press Ctrl+Enter to generate
 Press Ctrl+Enter to send
+Press Enter to activate top result.
 Press down arrow to see prompt suggestions
 Press enter to hide this tip.
 Press enter to view all organizations
@@ -15338,6 +15898,7 @@ Preview includes applied filters.
 Preview not available for this file type
 Preview of a Google Drive integration within a Slack chat interface, showing a channel header, user messages, and a Google Drive file card with buttons.
 Preview of the company handbook template
+Preview of uploading file
 Preview options
 Preview your Contacts
 Preview your Leads
@@ -15345,10 +15906,14 @@ Preview your daily recap
 Previewable blocks interleaved with dividers
 Previous 30 days
 Previous 7 days
+Previous Page
 Previous Slide
 Previous channel or DM
+Previous entity has out-of-order or duplicate position
 Previous image
 Previous item
+Previous line
+Previous measurement
 Previous media item
 Previous month
 Previous page
@@ -15393,6 +15958,7 @@ Primary organization
 Primary view actions
 Primary view header
 Print canvas
+Print document
 Print the canvas in the given docEmbed
 Priority prototype: sets NUX screen state for Priority
 Privacy Policy
@@ -15407,8 +15973,12 @@ Private channel info
 Private channels
 Private channels cannot be used with this step
 Private channels only
+Private chat
 Private distribution has been sucessfully enabled for your app.
+Private document
 Private element is not present on this object
+Private folder
+Private list
 Private message
 Private object
 Private to Template Managers
@@ -15445,6 +16015,7 @@ Process and add emoji collections
 Process history navigation in child windows with middleware and side effects and update the rendered view set
 Process telemetry after result render
 Processed all channel membership data.
+Processed heads out of sync with AD for 
 Processes a drafts attachments and upserts to the block unfurl store
 Processes a drafts attachments and upserts to the gif unfurl store
 Processes a file object, adds it to Redux, and uploads it
@@ -15491,6 +16062,7 @@ Profile content updated
 Profile options
 Profile photo
 Profile photos must be GIFs, JPGs or PNGs.
+Profile picture grid with no user IDs
 Profile type attachment
 Progressive Disclosure - Help Center Tip
 Progressive Disclosure @mention flag
@@ -15538,13 +16110,16 @@ Prompt the browser for permission and set the user pref on the backend
 Prompt tools
 Prompts, skills and integrations to help you get your work done
 Propagating device selection history update
+Property recomputed too many times
 Proposed Content
+Props should have exactly one of label or labelId
 Prorated Pro this cycle
 Protanopia & Deuteranopia
 Protect your Slack account with a Passkey
 Protect your account with a passkey
 Protect your organization and data
 Protect your organization data
+Protocol Buffer
 Protocol Buffer 3
 Provide Inputs
 Provide a 2x asset URL when not using SVG to keep logos sharp on retina displays
@@ -15668,6 +16243,7 @@ QueryManager stopped while query was in flight
 Question type
 Queue opening the embedded huddle meeting assistant pane on join
 Queues a toast to indicate file save success or failure
+Quick Actions
 Quick Survey
 Quick action clicked
 Quick actions
@@ -15686,6 +16262,8 @@ Quickly find answers using Advanced AI search
 Quickly search your entire message history
 Quinn Foster
 Quip Collab - Done
+Quip for Salesforce
+Quip has been upgraded, and your browser is out of date. You need to reload your browser to continue working.
 Quip organizations
 Quip team ID
 Quip team domain
@@ -15743,6 +16321,7 @@ Re-generate AI search result
 Re-generate Answer
 Re-hide a comment from a hidden user
 Re-order tab soda tabs
+Re-render section
 Re-resolve mention and slug labels from current Redux state
 Re-runs the widget based on the placement id to get updated blocks.
 Re-using existing voice focus node
@@ -15754,14 +16333,17 @@ React Context with a Provider wrapper for shared state.
 React Documentation
 React Scan
 React class
+React component not mounted
 React form unexpectedly submitted.
 React to last message (or message with focus)
 React-Modal: 
 React-Modal: Cannot register modal instance that
 React.Children.only expected to receive a single React element child.
+ReactSupport.bindAllMethodsToInstance was called, but no methods needed to be bound. Consider removing it. Instance: 
 Reacting to 
 Reacting to UXR findings and turning open questions into next steps the team can act on.
 Reaction bundle
+Reactions cannot span multiple sections.
 Reactivate Users as a Bulk Action
 Reactivate as Multi-Channel Guest
 Reactivate as Regular Member
@@ -15870,6 +16452,8 @@ Receives api response, formats and cleans data, and updates results and paginati
 Recent Agents
 Recent DMs
 Recent Files Settings
+Recent Image
+Recent Video
 Recent agents
 Recent channels
 Recent direct messages
@@ -15885,6 +16469,7 @@ Recent templates
 Recent workspaces
 Recently completed
 Recently failed
+Recently picked item has no height.
 Recently updated by others
 Recently updated by you
 Recently used
@@ -15948,6 +16533,7 @@ Record the result of the mini survey we first display the user after a huddle en
 Record trial pro banner interaction
 Record unfurls & click to detail view
 Record video clip
+Record was deleted
 RecordVisibility (Pilot)
 Recorded media
 Recording is not supported in this browser.
@@ -16181,6 +16767,9 @@ Redwood Suite
 References external instructions
 Refetch search results
 Refetches localized APIs for a team
+Refinements can only contain text.
+Refinements cannot contain callouts.
+Refinements cannot contain tables.
 Refresh After Installing
 Refresh All Threads view on a slow reconnect
 Refresh Response
@@ -16190,6 +16779,7 @@ Refresh a file by id
 Refresh interactivity pointer for a Form step, if needed
 Refresh is_interactable for an app
 Refresh list
+Refresh oauth token
 Refresh rate (ms)
 Refresh recap
 Refresh single recap channel
@@ -16201,6 +16791,7 @@ Refreshing a file errored
 Refreshing all permissions
 Refreshing dashboard
 Refusing to close a channel that is not an MPIM or IM.
+RegExp String
 RegExp.prototype.flags getter called on non-object
 RegExp.prototype.flags requires a true ES5 environment that supports property descriptors
 Regenerate URL
@@ -16251,6 +16842,7 @@ Release Notes | Product UI Generator | Slack
 Release announcement
 Release v2.5.0
 Relevant people
+Reload CSS
 Reload Now
 Reload Slack
 Reload Slack Connect Message Input Inviter Banner when invitee joins slack connect channel
@@ -16262,11 +16854,16 @@ Reload data
 Reload domains if we are out of sync with the server
 Reload failed
 Reload if we
+Reload modified JS files
 Reload required
 Reload sources when a connector is added or removed
 Reload this thread
 Reload view
 Reload work objects
+Reloaded indexes:
+Reloaded live data
+Reloaded objects:
+Reloaded thread
 Reloading threads
 Reloads flagged content data for dashboard
 Remaining Tokens for Completion Animation
@@ -16299,6 +16896,7 @@ Remove Approval
 Remove Automation Rule?
 Remove Awareness State for me
 Remove Bookmarks Bar
+Remove Checked
 Remove Connection
 Remove DND override channel
 Remove Data Cloud connection
@@ -16307,6 +16905,7 @@ Remove Email
 Remove Email Connection
 Remove Form
 Remove From Channel Managers
+Remove From Recent
 Remove From Section
 Remove GIF
 Remove Hard Coded Information
@@ -16619,6 +17218,7 @@ Removed from workspace
 Removed from your saved items
 Removed from your to-dos.
 Removed members from your Salesforce Org.
+Removed possible XSS from clipboard data
 Removes ID single starred item from array
 Removes a Quip document from the sidebar
 Removes a Slack Connect Invite
@@ -16733,6 +17333,7 @@ Removes view from the specified viewSet in a child window
 Removes view from the specified viewSet in the main window
 Removes workspaces from a specified role member
 Removes workspaces from an apps installed list
+Removing layout parent for
 Removing non-flat range
 Removing this team from the app exclusion list
 Removing view in child window
@@ -16760,6 +17361,7 @@ Renames the custom emoji with the new name
 Renaming conversation
 Render Placeholder
 Render React
+Render complete
 Rendered cell should include style property for positioning.
 Rendered doc
 Renew online
@@ -16780,6 +17382,8 @@ Reorganize your essentials
 Repeat count too high, must be less than 20
 Repeat for each item in
 Repeated command (
+Repeated tapdown cleanup request, ignoring.
+Repeated tapdown longpress request, ignoring.
 Repeater 1
 Replace App Icon File
 Replace File
@@ -16788,6 +17392,7 @@ Replace a temporary file ID with a permanent one
 Replace all of a list
 Replace article anchor id
 Replace body of an existing notification
+Replace complete
 Replace current history entry for window
 Replace current user group membership with the given set
 Replace file with tombstone
@@ -16798,8 +17403,10 @@ Replace help locale
 Replace help search articles
 Replace help sections
 Replace help ticket stats
+Replace in document
 Replace is help article loaded
 Replace messages
+Replace mode enabled
 Replace product release cards
 Replace recorded media?
 Replace split view
@@ -16835,6 +17442,7 @@ Reported message length does not match received message length
 Reported reconnect attempt metric trace
 Reporting CPU and memory usage stats
 Reports if a member was considered billable for at least one day in the selected time period. This only applies to invoiced customers.
+Reposition the cover image
 Republic of Korea
 Republic of Moldova
 Republic of the Congo
@@ -16899,11 +17507,13 @@ Request to join a workspace, then show a toast
 Request to stop the active huddle
 Request was cancelled
 Requested index 
+Requested unknown style:
 Requesting Slack AI permissions for invalid context
 Requesting calendar prefs
 Requesting content license for key-system
 Requesting media access is not implemented for this device, but it is being called. This is likely a bug.
 Requesting window restoration persistence to run shortly
+Requests Without User Action Tracer
 Requests a CSV for org data
 Requests a CSV for team data
 Requests an AI-drafted email via ai.crm.draftEmail
@@ -16921,7 +17531,9 @@ Require users to approve every web search
 Required 
 Required Permissions
 Required config field 
+Required data not provided for incoming entity PB
 Required webRTC APIs not supported on this device
+Requires Sales Elevate access
 Requires admin approval
 Requires an invite to join
 Reschedule message
@@ -16937,6 +17549,7 @@ Resend Invitation
 Resend invitation
 Resend invite
 Resend link
+Reserved by core.metrics.record
 Reset RemoteFilePreviewUrl store
 Reset Search
 Reset Tableau SDK state for a window
@@ -17101,9 +17714,11 @@ Restrict specific workflow steps
 Restrict this app from installation?
 Restricted Apps
 Restricted By
+Restricted Folder
 Restricted On
 Restricted Permissions tab
 Restricted by
+Restricted folder
 Restricted from AI steps
 Restricted on
 Restricted permissions
@@ -17249,6 +17864,7 @@ Right Eye Socket
 Right Left Eye Fire Matte
 Right Leg Outlines
 Right click to edit, rename or delete this view. Drag and drop to reorder.
+Right click to open menu
 Right skin tone modifier
 Right when I join
 Ring buffer is empty.
@@ -17268,6 +17884,9 @@ Roles with matching keyword
 Rolling up
 Room ID is not defined for pending join
 Room disconnected before room server id was available
+Root container
+Root not found
+Root not found for DOM node
 Rotate Token
 Rotating Logo Bar
 Rotis Serif
@@ -17351,6 +17970,7 @@ SVC is only supported on Chromium-based browsers with version 111 or above
 SVG icon with bordered container
 SVG icon without bordered container
 Safari iOS
+Safe To Open
 SafeBit Solutions - Data Security Fortification
 Safety Oversight
 Saint Helena
@@ -17381,11 +18001,14 @@ Sales templates
 Sales tracker schema API returned non-ok response
 SalesHome Error:
 Salesforce Approvals
+Salesforce Data Format
+Salesforce Data Mention
 Salesforce Demo
 Salesforce Demo Private
 Salesforce Demo Public
 Salesforce Icon
 Salesforce Integration
+Salesforce List
 Salesforce Lists views
 Salesforce MCP Servers
 Salesforce Notifications
@@ -17395,13 +18018,16 @@ Salesforce Org Authed
 Salesforce Org Disconnected
 Salesforce Outlines
 Salesforce Production
+Salesforce Record
 Salesforce Record Card
+Salesforce Report
 Salesforce Surveys Object Model
 Salesforce accounts  Outlines
 Salesforce channels
 Salesforce channels cannot be used with this step
 Salesforce channels cannot be used with this step.
 Salesforce connection settings
+Salesforce data
 Salesforce data field
 Salesforce deep link missing record ID
 Salesforce event settings
@@ -17418,6 +18044,8 @@ Salesforce opportunities Outlines
 Salesforce opportunity
 Salesforce org
 Salesforce org disconnected from Slack.
+Salesforce org not connected
+Salesforce org not found
 Salesforce org to connect
 Salesforce organization
 Salesforce organizations
@@ -17425,6 +18053,7 @@ Salesforce organizations status
 Salesforce ready
 Salesforce record
 Salesforce record link
+Salesforce record preview
 Salesforce record search: filter Salesforce org id changed
 Salesforce record search: filter created by me changed
 Salesforce record search: filter record type changed
@@ -17469,6 +18098,7 @@ Save Draft
 Save Failed
 Save Notification
 Save Policy
+Save Response
 Save Rule
 Save Setting
 Save Slackbot write settings
@@ -17493,6 +18123,7 @@ Save changes made to a work object to the external service
 Save client block file download access to the store
 Save current call window id
 Save current progressive disclosure tip state
+Save document now
 Save files to local storage for persistence
 Save for later
 Save important messages for later
@@ -17504,6 +18135,7 @@ Save scroll position for a channel
 Save setting
 Save slackbot thread_ts to meeting entity store via meetings.usersetdata
 Save team company info to the store
+Save the alt text changes before closing?
 Save the child window scrollmark when the user moves away from the view
 Save the scrollmark if the current user is viewing a public channel that they are a member of
 Save the thread scrollmark if the current user is viewing a public channel that they are a member of
@@ -17611,13 +18243,17 @@ Search Confluence
 Search Connectors
 Search DMs
 Search Debug Results
+Search GIPHY
 Search Google Workspace Directory
+Search Header
 Search Microsoft Outlook Contacts
 Search Outlines
 Search Product UIs
+Search Results
 Search SalesForce objects by query
 Search Salesforce record types
 Search Slack shortcut - opens Universal Search
+Search Unsplash
 Search Workspace
 Search a channel
 Search accounts
@@ -17793,14 +18429,36 @@ Secondary view has changed
 Secondary view has closed
 Secondary view has opened
 Secret Objects
+Secret Team
 Secrets Manager
+Section %s content DOM is not in the document
+Section %s found more than once in the DOM
+Section %s had an unexpected child
+Section %s had content failures: 
+Section %s has a different DOM node than expected
+Section %s has uneditable text
+Section %s is not in the document
+Section List
+Section Style
+Section appears more than once in the layout
+Section collapsed
+Section content is undefined
+Section expanded
 Section has been hidden. Restore it anytime in your notification preferences.
+Section has unsaved changes.
+Section in more than one table cell
+Section is in a different layout
+Section is not a data section
+Section is not an instance of CellSection
 Section label is required
 Section location
 Section name
 Section name is required
 Section options
+Section sequence mismatch
 Section settings
+Section staleness check failed
+Section staleness check passed
 Section text
 Sections are a great way to share multiple channels at once.
 Secure SSO SAML sign in
@@ -18000,6 +18658,8 @@ Selected items cleared.
 Selected welcome card image
 Selected workspaces
 Selected. 
+Selection contains content that is not allowed in a blockquote.
+Selection contains content that is not allowed in a callout.
 Selection passed to setSelection must point at the current document
 Selector updates
 Selects a scope
@@ -18009,6 +18669,7 @@ Self User Data Loaded
 Self connected to chime media server
 Self screenshare started
 Self-healed corrupted Home view state: Today view found in Home Primary
+Self-update received
 Send Anyway
 Send As Is
 Send Code to Backup Phone
@@ -18146,6 +18807,7 @@ Sends the invitation email to a target member
 Sends the single sign-on binding email to a target member
 Senior Director, Marketing
 Senior Engineer on the Platform team. Based in San Francisco.
+Sent diagnostics report.
 Sent draft still in message pane input
 Sent draft still in thread input
 Sent invitations search
@@ -18166,6 +18828,7 @@ Sent when your team wins a deal
 Sequence items cannot have tags or anchors before the - indicator
 Sequential model cannot be built: model is empty. Add some layers first.
 Serializing desktop client ids
+Serious error: no ID on incoming entity from remap
 Serve as your primary org for Slack data storage
 Server Error
 Server Status
@@ -18173,12 +18836,14 @@ Server URL
 Server URL copied
 Server and client disagree on thread state; using server state
 Server name
+Server not reachable
 Server overview
 Server rejected the MCP initialize handshake. Check protocol version compatibility.
 Server responded with an error status. Check http_status_code for details.
 Server returned error when calling getChannelEmail
 Server returned error when calling updateChannelEmailAddress
 Server returned error when calling uploadEmailIcon
+Server unavailable
 Servers deleted
 Service *api-gateway* deployed to production.
 Service Appointments
@@ -18202,6 +18867,9 @@ Session duration
 Session duration disabled
 Session duration enabled
 Session duration updated
+Session expired
+Session start failed.
+Set 5s Expiry Error
 Set AI summary status to error
 Set API error message
 Set Action Library Navigation state
@@ -18220,6 +18888,7 @@ Set EAC connection error
 Set EAC connection state
 Set Emojis
 Set Enterprise Security preferences
+Set Error State
 Set FileBrowserData for entityTypes.FILES
 Set Integrations
 Set Joiner setup people step is loading
@@ -19875,6 +20544,7 @@ Sets whether we have processed setTeamPermissionObjects for Slackbot AI NUX init
 Sets which huddle educational tip is showing
 Sets which itemid to highlight on for Saved for later after notification is clicked
 Sets window viewport (position and size) for a given windowId across all booted workspaces
+Setting a11y description when no such container exists.
 Setting a11y_animations pref to false based on media-query
 Setting camera video codec preferences
 Setting codec preferences not supported
@@ -20062,11 +20732,13 @@ Share your screen (optional)
 Share your signature emoji
 Share your thoughts...
 Share your top Channels
+Shareable Link
 Shared Resources Outlines
 Shared Section 02
 Shared a call
 Shared by
 Shared channels icon
+Shared folder
 Shared from an external organization
 Shared in
 Shared in Canvas
@@ -20080,6 +20752,7 @@ Shares a link to the item in the active huddle thread as a draft
 Sharing a channel lets you work with other companies, right in Slack.
 Sharing info
 Sharing snippet in a thread
+Shell Script
 Shell Session
 Shelly Custom Objects
 Shift Pattern Entries
@@ -20098,6 +20771,7 @@ Shortcut not set: reserved by the system
 Shortcut not set: try a different combination
 Shortcut options
 Shortcut suggestions collapsed
+Shortcuts can be added to multiple categories, but they can only have one description.
 Shorten link
 Should an error be displayed
 Should not add placeholder space to home list
@@ -20110,6 +20784,7 @@ Should not call beginImageData
 Should not call beginInlineImage
 Should not have a negative number of lines
 Should only be subscribed when a collection is occurring
+Should only specify screenreader title for dialogs with no visible title
 Should show list description
 Should this channel be public or private?
 Shouty rooster in effect
@@ -20120,8 +20795,11 @@ Show Call
 Show Celebration
 Show DLP toast
 Show Details
+Show Document Range
+Show Edit History
 Show Employment Status
 Show Errors
+Show Focused Section in Model Browser
 Show Footer
 Show Huddles
 Show Location
@@ -20418,6 +21096,7 @@ Simplified onboarding disabled; clearing enrollment
 Simplified slack UI
 Simplified user management
 Simplify customer relationship management
+Simulating load failure for property input
 Simulcast is only supported on Chromium-based browsers
 Since last time you viewed
 Since you only have permission to manage private channels, public channels are hidden.
@@ -20474,8 +21153,10 @@ Skipping env configurable app without profile or name
 Skipping mount - provider already torn down
 Skipping persisted store if it exists because we
 Skipping reconnect for worker failure - session not connected
+Skipping section lock update for: 
 Skipping stale localStorage key - reducer not found
 Skipping telemetry update.
+Skipping transient update for: 
 Skipping update index; Number of participants has not changed
 Skipping update to orderedTeamIds, allWorkspaces is empty
 Slack & Salesforce integration
@@ -20591,6 +21272,7 @@ Slack needs to verify that your domain matches the one your administrator approv
 Slack notifications
 Slack now automatically sorts your results to surface the most relevant files and messages every time you search
 Slack product overview
+Slack request to getSlackObjects timed out
 Slack setup is complete!
 Slack steps take actions in Slack messages, channels, forms and more. Connector steps take actions in third-party apps. Triggers start workflow automations.
 Slack template
@@ -20665,6 +21347,7 @@ Slackbot will show files uploaded to Slack as well as external content from unfu
 Slackbot-PulseThinking 2
 Slash Commands
 Slicing scalar is not possible
+Slide Deck
 Slide Source
 Slide left
 Slide progress
@@ -20682,6 +21365,7 @@ Smart Lenovo
 Smileys & People
 Snack-Driven Task Management
 Snacks are in your future
+Snapshot for %s taken at %s
 Snazzy Light
 Snooze a reminder
 Snoozes a calendar event JIT notification until the event starts
@@ -20723,6 +21407,7 @@ Some files unsupported
 Some organizations are not allowed to use this workflow.
 Some permissions are locked by your workspace or organization.
 Some plans may have limitations not visible here (e.g. Slack Connect is 1:1 only for Free).
+Some processed heads are not included in AD changes
 Some sources are restricted from AI access. Remove them to continue.
 Some sources have restricted sharing. Remove them to continue.
 Some things for you and your team to try.
@@ -20885,7 +21570,10 @@ Spoofed user agents
 Spotify customer story
 Spreadsheet Viewer
 Spreadsheet Viewer (fetch pending)
+Spreadsheet cache: 
 Spreadsheet fetch network error
+Spreadsheet is closed
+Spreadsheet section not loaded: 
 Spring cleaning
 Spring cleaning pocket guide opened
 Spring duration must be 10 seconds or less
@@ -20957,6 +21645,7 @@ Start a huddle
 Start a new conversation
 Start a new conversation, modify a conversation and modify channel details
 Start a new message
+Start a thread
 Start a video or audio chat
 Start and manage calls in a workspace
 Start auth against an external data source
@@ -21010,6 +21699,7 @@ Start recording
 Start screen share for current user with given mediaSourceId
 Start screen sharing with track id:
 Start search in channel session timeout on unmount
+Start section is not before end section
 Start session timeout check
 Start session timeouts on search unmount
 Start test
@@ -21039,6 +21729,8 @@ Started loading history for a channel
 Started refreshing a file
 Started uploading a file
 Starter (Free Trial)
+Starter Price Annual
+Starter Price Monthly
 Starting StatsCollector
 Starting a new navigation event
 Starting a new navigation middleware execution
@@ -21112,6 +21804,7 @@ Step to use for form fields
 Steps are hosted on Slack?
 Still curious? 
 Still recording
+Stock Photos
 Stone Informal
 Stone Serif
 Stop Recording
@@ -21121,6 +21814,7 @@ Stop agent response
 Stop big button mode
 Stop changing dictation shortcut
 Stop drawing on your own screen
+Stop editing
 Stop editing a message
 Stop generating
 Stop music
@@ -21234,6 +21928,7 @@ StructTree too deep to be fully serialized.
 Structure gap-replace would overwrite content
 Structure replace would overwrite content
 Structuring sequential workflow steps with cohesive planning display
+Stuck save in progress indefinitely
 Style like a #channel
 Style like a @mention
 Style like a link
@@ -21433,8 +22128,10 @@ Switch primary or secondary view on notification click
 Switch to Bar Chart
 Switch to Line Chart
 Switch to Paying Yearly
+Switch to URL
 Switch to a TabSoda tab by its position index
 Switch to a channel
+Switch to card
 Switch to channel, join if necessary
 Switch to dark mode
 Switch to dev build
@@ -21447,6 +22144,7 @@ Switch to text output?
 Switch to the last TabSoda tab
 Switch to the next TabSoda tab (wrapping around)
 Switch to the previous TabSoda tab (wrapping around)
+Switch to title
 Switch view to passed in teamId and channelId and start huddle upon receiving a notification
 Switched from previous VideoTransformDevice
 Switched to BBM main
@@ -21485,7 +22183,9 @@ Sync workspaces state with desktop
 Sync workspaces state with desktop when a new team has booted
 Synced from Salesforce
 Synced with Salesforce
+Syncer Logging
 Synchronize archive state for a thread ID
+Synchronous document save
 Syncing description from Agentforce Builder. This usually takes a few minutes.
 Syncing your calendar
 Syncs draft updates
@@ -21525,11 +22225,17 @@ Tab name
 Tab options
 Tab title
 Tabbed channel
+Table Layout Handler
 Table added as an attachment.
+Table has cell without corresponding row or column
+Table has too many cells
+Table is missing cells
 Table of contents
 Table only accepts children of type Column
 Table options
 Table preview
+Table selection cleared
+Table with 1 row and 1 column
 Tableau Metric
 Tableau Next Performance Guide
 Tableau dashboard preview
@@ -21538,6 +22244,8 @@ Tableau metric preview
 Tableau preview
 Tableau visualization preview
 Tablet preview
+Tag is not valid
+Tag mismatch parsing RTML
 Tag not resolved for 
 Tags must be specified as an array; 
 Take Matte From Layer
@@ -21562,11 +22270,14 @@ Talk it out on a video call with screen sharing
 Talk track
 Talk with a teammate
 Tap the link to join.
+Tap to add an image
 Target Locales
 Target is not a typed array
+Target is not iterable
 Target locales
 Target must be a DOM Element
 Target ref is defined but not hydrated
+Target section is deleted
 Targeting rules
 Task (compact)
 Task 1 Details
@@ -21634,6 +22345,7 @@ Tell AI what to produce
 Tell Slack AI what to recap
 Tell us more
 Tell us what you need help with.
+Temp ids: 
 Template Actions
 Template Items
 Template Managers
@@ -21814,6 +22526,7 @@ The connection failed. See the error message for more details.
 The constructor with parameters has been removed in JSZip 3.0, please check the upgrade guide.
 The create a canvas step cannot be placed after the ask agentforce step if the canvas is owned by someone outside your organization.
 The current live page will be moved to the bullpen.
+The current message does not contain the given field
 The day loads, one unread message at a time.
 The decode map is not the correct length
 The density tag must be @1x, @2x, or @3x. Fix it and try again.
@@ -21918,12 +22631,16 @@ The server used
 The signaling channel was closed unexpectedly. This may be due to a network change or backend detected failure.
 The signaling connection failed.
 The source and destination teams share a connection to the same Salesforce organization.
+The source message must have the same type or the target must be a descendant of the source.
+The source message must have the same type.
 The source team has an in-progress Salesforce connection
 The source team has an incomplete Elevate migration.
 The source workspace has a pending Salesforce connection. To get things moving, please complete or delete it.
 The specRegistry has one or more specs with the same name
 The specified profile is not valid.
 The stream 
+The string supplied is too long to be a phone number
+The string supplied is too short to be a phone number
 The system has blocked getUserMedia access for cameras
 The system has blocked getUserMedia access for microphones
 The system has blocked screen recording
@@ -21936,6 +22653,7 @@ The team icon 2
 The teams best prepared for change use modern digital communication tools, feel comfortable learning new ones and continually adapt how they work.
 The template still works, though, so click the button if you want to use it!
 The text of the message
+The thread is missing a document.
 The thread will still be visible
 The three UI types
 The timestamp of the last time something was starred
@@ -21971,6 +22689,7 @@ There are no open windows, persisting an empty scene.
 There are no reordered rules to save.
 There are no workflows configured for this channel
 There are not any sidekicks available for you to use just yet.
+There are unsaved changes. Are you sure you want to leave?
 There aren
 There can only be one pending page.
 There is an issue accessing a connected data source.
@@ -22021,6 +22740,7 @@ There was an error duplicating this step.
 There was an error installing the apps.
 There was an error loading installed apps. Please try refreshing your browser and let us know if this problem continues.
 There was an error loading notifications
+There was an error loading this document.
 There was an error submitting your request. Please try again.
 There was an error updating your template.
 There was an error updating your workflow.
@@ -22125,6 +22845,7 @@ This command is not available in this channel
 This component cannot be rerendered for security reasons.
 This connector doesn
 This connector uses your Slack identity for authentication. You can block individual tools instead.
+This content contains sections that are referenced elsewhere with Live Paste. Deleting this content will prevent future updates from syncing in those documents
 This content could not be displayed.
 This content is only available in the original conversation.
 This conversation is for notifications only.
@@ -22167,6 +22888,7 @@ This file needs an extension (like .png or .jpg). Add one and try again.
 This file type is not supported. You can add links to Google Docs, Google Slides, or files uploaded to Google Drive in .pdf, .txt, .doc, .docx, or .csv formats.
 This file was deleted.
 This file was not found.
+This folder has reached its maximum number of members.
 This folder was deleted.
 This group handle is not allowed.
 This group has no members.
@@ -22225,6 +22947,7 @@ This list has too many items. Add filters to narrow your results.
 This list is no longer available
 This list is restricted from use with AI steps.
 This list view was deleted
+This list was deleted
 This meeting was created using Slack
 This member does not have any roles
 This message failed to send
@@ -22289,6 +23012,7 @@ This route no longer exists. It may have been deleted.
 This section has a *button* accessory. Click it!
 This section will appear at the top of your sidebar so you never miss a mention or message.
 This selected org will:
+This selection includes locked content. To make changes, unlock edits.
 This setting can be changed without any impact.
 This settings determines what invite preferences are available to users when creating a calendar huddle
 This should not be possible
@@ -22369,12 +23093,18 @@ Thread Content 01
 Thread Content 02
 Thread Content 03
 Thread Content 04
+Thread ID was not set; cannot save document
+Thread children count:
+Thread children index count:
+Thread closed
 Thread comments fetch timed out
 Thread content
 Thread ctrl
 Thread detail
 Thread focus transition initiated
+Thread id not found for spreadsheet: 
 Thread in a direct message
+Thread member index should not be loaded without the necessary permits, the request will fail.
 Thread moderation
 Thread summaries
 Thread summaries, made to order
@@ -22441,10 +23171,12 @@ Tiny (16px)
 Tiny image file
 Title (optional)
 Title Bar
+Title Handler
 Title Tag
 Title card
 Title of step
 Title only, no text (with author)
+Title view
 To add them to more channels, send a request to your admin to upgrade them to a Multi-Channel Guest.
 To add this guest to more channels, send a request to your Workspace Admin to upgrade them to a Multi-Channel Guest.
 To add this guest to more channels, upgrade them to a Multi-Channel Guest.
@@ -22539,6 +23271,7 @@ Toggle the presence of the currently authenticated user
 Toggle unread DMs
 Toggle user calendar OOO status sync state
 Toggle user calendar status sync state
+Toggle view-only mode
 Toggles Dark Mode
 Toggles a reference (message, list record, etc) in or out my task list
 Toggles celebration filter value
@@ -22643,6 +23376,7 @@ Traffic recording started!
 Traffic recording stopped!
 TrafficSource has been replaced by Identifier
 Training Courses
+Transaction not found
 Transcript (auto-generated)
 Transcript Feedback
 Transcript generation started. This may take a few minutes.
@@ -22669,6 +23403,8 @@ Transform fetch messages API response
 Transform initial API responses
 Transform stream error:
 Transform your work with Business+ advanced AI and security.
+Transient Sections
+Transient section timings
 Transition focus to a View
 Transition focus to a specific view container
 Transition focus to a view container that was focused last
@@ -22716,6 +23452,8 @@ Tried to enqueue an invalid request object. This is a programming error.
 Tried to grab notification warnings, but failed
 Tried to log a backfill with no channelID, but it errored
 Tried to open a desktop window without a desktop API available.
+Tried to record non-Error exception:
+Tried to trigger an unsupported event 
 Trigger BUFFER_RESET
 Trigger Slackbot channel suggestions (if any available)
 Trigger Spring Cleaning starred section highlight
@@ -22868,6 +23606,7 @@ Try uploading a .zip version of these files instead.
 Try with Slack lists, or search for a step from an external app.
 Trying to fetch a module that does not exist
 Trying to fetch top results without being in the experiment
+Trying to fix table layout for local history 
 Trying to nudge playhead over buffer-hole
 Trying to pop from an empty list.
 Trying to push element into a full list.
@@ -22953,6 +23692,7 @@ UNDO-SEND-MSG: onCmdZWhenEmpty: Exiting as TS is no longer valid
 UNDO-SEND-MSG: onCmdZWhenEmpty: Exiting as channel ID does not match
 UNDO-SEND-MSG: onCmdZWhenEmpty: Exiting as no eligible context exists
 UNDO-SEND-MSG: onCmdZWhenEmpty: Exiting as thread ID does not match
+URL Input
 URL Params
 URL Type
 URL Verified:
@@ -22977,6 +23717,7 @@ Ugyldigt input: matcher ingen af de tilladte typer
 Uh oh! We seem to have hit a snag!
 Ultra Restricted
 Un-hide the banner if it was hidden
+Un-indent a list item
 Un-pin this item
 Unable to accept this invitation
 Unable to access localStorage for ia_slackbot_survey_sent
@@ -23028,6 +23769,7 @@ Unable to get lists_my_items_last_seen
 Unable to get page for page view
 Unable to get todos_last_seen
 Unable to get work object
+Unable to import file
 Unable to initialize viewer
 Unable to list sent messages for user
 Unable to load Einstein Activity Capture status.
@@ -23086,6 +23828,7 @@ Unarchive item
 Unarchive list records
 Unarchive sandbox?
 Unarchives a given channel
+Unarchiving recently-archived comment, possibly by mistake
 Unassigns user to a flag
 Unavailable user group info
 Unavailable when a specific channel is selected.
@@ -23096,7 +23839,9 @@ Unbinds video tile from a video element
 Unblock email
 Uncaught error returned by RPC handler for 
 Uncheck 
+Uncheck All
 Undefined parent App!
+Undefined request path
 Undefined state 
 Understand how many people use canvases over time.
 Understand where conversations are happening, in public channels, private channels, and direct messages.
@@ -23108,13 +23853,18 @@ Undo email update?
 Undo email updates
 Undo skipped step
 Undoes dismissing of read message by marking as unread and restoring to Today view
+Uneditable Section Handler
 Unexpected 
 Unexpected API Call Volume
 Unexpected API call volume
 Unexpected WS error
+Unexpected anchor DOM node
 Unexpected calendar prefs API error
 Unexpected callback case
 Unexpected character: 
+Unexpected child nodes in section wrapper
+Unexpected empty heads
+Unexpected empty sectionIds
 Unexpected end of JSON input
 Unexpected error after calling sharedInviteInfo
 Unexpected error after calling sharedInvites.get
@@ -23122,6 +23872,13 @@ Unexpected error after calling sharedWorkspaces.invites.info
 Unexpected internal error. File a support request if this persists.
 Unexpected item format - neither feed_ts nor alert_ts found
 Unexpected key 
+Unexpected loader already initialized
+Unexpected missing AD
+Unexpected missing base sequence
+Unexpected node 
+Unexpected node type: 
+Unexpected null model
+Unexpected result type 
 Unexpected state: 
 Unexpected stream case
 Unexpected syntax 
@@ -23140,6 +23897,7 @@ Ungrouped Records
 Unhandled GraphQL subscription error
 Unhandled draw message case
 Unhandled error
+Unhandled list merge
 Unhandled type 
 Unhide This Person
 Unhide a comment from a hidden user
@@ -23172,6 +23930,7 @@ Universal settings
 Unknown CMap name: 
 Unknown Device
 Unknown Error
+Unknown Object
 Unknown Quip Error
 Unknown Record
 Unknown Workspace
@@ -23179,6 +23938,7 @@ Unknown author
 Unknown base64 encoding at char: 
 Unknown block type in flate stream
 Unknown charset format
+Unknown content type:
 Unknown document title
 Unknown encoding: 
 Unknown error
@@ -23186,6 +23946,9 @@ Unknown error occurred
 Unknown file
 Unknown file name
 Unknown file.
+Unknown fragment collection loaded
+Unknown fragment collection updated
+Unknown future action in control: 
 Unknown getter
 Unknown graphic state operator 
 Unknown item
@@ -23206,6 +23969,7 @@ Unknown type4 flag
 Unknown type6 flag
 Unknown type7 flag
 Unknown url
+Unknown usage milestone field 
 Unknown user
 Unknown user mention
 Unkown object
@@ -23242,7 +24006,11 @@ Unlock templates that help your team work smarter, together with a free, 30-day 
 Unlock the thread so members can reply and react.
 Unlock working at scale with Business+
 Unlock working at scale with Slack
+Unmapped annotation found during remapping:
+Unmapped control found during remapping:
 Unmarks today items as locally dismissed so RTM upserts are applied again
+Unmatched end-group tag
+Unmatched start-group tag: stream EOF
 Unmounting doc
 Unmute All
 Unmute a channel given a channelId
@@ -23295,6 +24063,7 @@ Unrecognized modifier name:
 Unresolved plain scalar 
 Unrolling is not possible with convolutional RNNs.
 Unsave this file comment
+Unsaved Changes
 Unsaved state duration exceeds threshold
 Unselected. 
 Unselects a scope
@@ -23331,10 +24100,13 @@ Unsupported body payload
 Unsupported browser!
 Unsupported color mode
 Unsupported config was returned from the cache
+Unsupported context for exiting embedded UI content
+Unsupported context for invoking onDidBecomeActive
 Unsupported default string type 
 Unsupported options: provide at least width, height and maxBitrate
 Unsupported prop change: options.
 Unsupported step type
+Unsupported unfurl type to switch to
 Unsupported: changing the droppableId or type of a Droppable during a drag
 Unterminated string
 Until next week
@@ -23359,6 +24131,7 @@ Untitled session
 Untitled skill set
 Untitled task
 Untitled thread
+Untrusted event detected. Ignoring.
 Unusable Audio Warning
 Unusual formatting
 Unwrap text
@@ -23478,6 +24251,7 @@ Update app submission user scope reasons
 Update auto starter member profile within an auto starter Salesforce Org
 Update boot data
 Update bulk grid refinement config data for specified list view
+Update bundle:
 Update canvas content creation session and generate new content
 Update canvas content creation session on canvas AI content cancel
 Update canvas content creation session on canvas AI content completion
@@ -23937,8 +24711,11 @@ Upgrade to manage sales in Slack
 Upgrade to view this Salesforce List
 Upgrade your plan to see activity and information for all of your channels.
 Upload CSV
+Upload Error
 Upload Files to queue instance and set the correct windowId
 Upload Image
+Upload Images
+Upload Media
 Upload Photo
 Upload Screenshots
 Upload Workflow Avatar
@@ -23954,6 +24731,8 @@ Upload an image.
 Upload assets from the media library
 Upload attachment
 Upload background image
+Upload complete
+Upload failed
 Upload failed. Try again.
 Upload file
 Upload files
@@ -24126,6 +24905,7 @@ Use Slackbot to search for and find things, create and manage content, and be yo
 Use TagResource.
 Use Template
 Use UntagResource.
+Use Up and Down arrow keys to change the position of the image. Press Enter or Space to save position changes. Press Escape to cancel position changes.
 Use a canvas in Slack
 Use a custom poster image rather than relying on YouTube thumbnails
 Use a horizontal image with the customer or their environment for the strongest impact
@@ -24133,6 +24913,7 @@ Use additionalMetricsToRetainV2.
 Use an emoji reaction to respond to and manage support requests
 Use an eyebrow to add category context without cluttering the headline
 Use approved third-party apps to export or act on messages and files from Slack.
+Use as Page Break
 Use audio and video in new ways
 Use audio and video to bring your work to life. Record a quick idea with an audio clip, or share your screen in a video clip, all without leaving Slack.
 Use auto-scroll for passive discovery, disable it for user-driven exploration
@@ -24144,6 +24925,7 @@ Use contact records to keep track of interactions with prospective customers.
 Use default organization settings
 Use email template
 Use emoji reactions
+Use folder_id instead.
 Use for feature deep-dives or customer stories where a longer-form YouTube video supports the content.
 Use for feature sections where a short product loop reinforces the message better than a static image.
 Use for mid-page feature sections that pair a visual with supporting copy, bullet points, or a featured link.
@@ -24176,6 +24958,7 @@ Use the reversed option to alternate layout direction between consecutive blades
 Use the terms popup to disclose promo eligibility, expiration, and exclusions when a discount pill is shown.
 Use this message as a jumping off point for a huddle.
 Use this message as a jumping off point for a huddle. On the free version of Slack, one other person from the conversation will be able to join.
+Use thread_id instead.
 Use to break a long page into alternating rows of feature copy and supporting visuals. Mobile always stacks content above media regardless of position.
 Use to highlight specific integrations relevant to the page context. Works well mid-page to reinforce the breadth of the Slack ecosystem.
 Use to showcase a curated set of customer stories. Pair with a headline and paragraph to introduce the section, or render as a standalone grid below another section header.
@@ -24208,6 +24991,7 @@ User Group
 User Group Members
 User Groups
 User ID was not between 1 and 64 characters
+User Information
 User Menu
 User OAuth Token
 User Page
@@ -24235,11 +25019,13 @@ User is deactivated
 User is not authorized to access this endpoint.
 User is unauthed
 User left huddle
+User link
 User mapping has been disabled for this connection.
 User needs to accept Custom TOS
 User not found
 User pref 
 User preferences
+User profile preview
 User provisioning (SCIM)
 User requested an app
 User requested an invite
@@ -24285,6 +25071,7 @@ Using invite team ID for invite
 Using local team ID for invite
 Using native hls
 Using no-op processor because background replacement is not supported
+Using non 18 char org id to load Salesforce record
 Using the v2 auth flow
 Using transceiver controller with simulcast support
 Using video only transceiver controller
@@ -24325,6 +25112,8 @@ Validation failed.
 Validations passed in much be an object defining all param validations
 Value Difference
 Value Difference %
+Value cannot be null
+Value cannot be undefined
 Value is invalid for this field.
 Value of WeakMap is not a non-null object.
 Values for these inputs will be determined by another workflow and if not present, will be provided by the user at runtime.
@@ -24634,6 +25423,7 @@ View your calendar events
 View your message activity analytics
 View your other activity
 View your profile
+View-only mode disabled.
 ViewSet with channel canvas applied
 ViewSet with detail view applied
 Viewing As Coworker
@@ -24760,6 +25550,8 @@ We are unable to retrieve the permissions. Please try again or contact Slack if 
 We brought back your notifications
 We cannot automatically determine where this channel should be created based on the external organizations.
 We cannot write HTML in SSB
+We could not open your item at this time. There may be a temporary error with the Quip service.
+We could not upload your files at this time. There may be an issue with your internet connection, or there may be a temporary error with the Slack service.
 We couldn
 We encountered a problem while loading. Try refreshing, and if the problem persists, contact your admin.
 We ended your huddle since you were the only one there for a bit.
@@ -24779,6 +25571,7 @@ We would be upserting these channels if they were unchanged, so we need to let r
 Weather Forecast Integration
 Web Launch Tasks
 Web Launch Tasks Outlines
+Web Socket Heartbeat
 Web Worker created
 Web request URL
 Web search
@@ -25149,6 +25942,7 @@ Workflows starting with a multi-record trigger must have the Send Summary to Sal
 Workflows table header
 Workflows that adapt
 Workflows with one opt-in Send to Salesforce channel step cannot use other steps.
+Workgroup icon
 Working hours
 Working with another company?
 Working with partners and vendors
@@ -25201,6 +25995,7 @@ Workspace-level request must be made for a workspace on the self org
 Workspace-level request nonsensical without unified user
 Workspace-level requests must use a T-id
 WorkspaceDirectory: Error in FetchWorkspaces -
+WorkspaceStateFactory not initialized
 Workspaces are where teams can work together across multiple channels.
 Workspaces tab
 Workspaces tabs hidden
@@ -25210,6 +26005,7 @@ Workspaces with access to this channel
 Would you also like to unpublish?
 Would you like to approve these migrations?
 Would you like to post the email in this channel?
+Would you like to send notifications to people mentioned in this pasted text?
 Wrap field
 Wrap text
 Wrapper around getRecordLayoutDetails to optionally send childRelationships arg to fetcher
@@ -25331,6 +26127,9 @@ You closed a DM
 You closed a private channel
 You created a group DM
 You created a template.
+You do not have access to this document.
+You do not have access to this folder.
+You do not have access to this object.
 You do not have access to this object. Contact your Salesforce administrator to request access.
 You do not have access to this object. This workflow will not start if the recipient also does not have access.
 You do not have permission to create user groups in this workspace.
@@ -25495,6 +26294,7 @@ Your full guide to the app submission process from start to finish
 Your guide to using Slack
 Your headline here
 Your inbox, summarized
+Your internet connection appears to be offline. Your changes have not been saved. Click to retry.
 Your itinerary
 Your leads have been successfully imported to your leads page.
 Your leads list is ready to go.
@@ -25570,6 +26370,7 @@ Zoom Reset
 Zoom out
 ZoomAudioDevice (Virtual)
 [ANNOUNCER-API] Announcer API provider was not mounted above in the tree.
+[QUIP] Loading models.
 [React Scan] Failed to load. Must import React Scan before React runs.
 [mp4-remuxer]: Unable to get silent frame for given audio codec; duplicating last frame instead.
 [passthrough-remuxer.ts]: Failed to generate initSegment.
@@ -25598,6 +26399,8 @@ d like to stay from Oct 21 - Oct 23 (2 nights).
 data-block-source contained unparseable JSON; possible serialization bug in copy handler.
 dates accessor is deprecated. Use date instead.
 do eiusmod tempor incididunt ut labore.
+document_id is auto-logged when you supply thread_id.
+domTripWire suppression still active in the next spin of the event loop. Long-lived suppressions are discouraged.
 drag source or a drop target itself.
 e.g. huddles, canvas, etc.
 edited this item.
@@ -25709,6 +26512,7 @@ saveAllInputs is true, expected inputs to be an array.
 scheme must not be undefined or null.
 segmentIds and indices should have same size.
 selectFirstWorkflowId can only be used with single workflow state!
+sendAnnotationMessageForElementsExplorer() can only bebe called for elements explorer templates.
 sent a holiday card. Happy New Year!
 series.data or dataset.source must be an array.
 setAudioPayloadTypes is deprecated. Access encodedTransformWorkerManager directly via meeting session context.
@@ -25769,6 +26573,7 @@ tf.browser.toPixels is not efficient to draw tensor on canvas. Please try tf.bro
 tfQuery and tfCandidate must be Map instances.
 tileController not found!
 to view or change your settings.
+transitionend event handler may not be invoked.
 translation available.
 turned off automatic AI huddle notes in this channel. Manage this setting in *Channel Settings*.
 turned on automatic AI huddle notes in this channel. Manage this setting in *Channel Settings*.
