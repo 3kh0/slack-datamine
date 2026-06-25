@@ -21,6 +21,7 @@
  argument must be a string, an Array, a Buffer, a Uint8Array, or a DataView.
  argument.
  as a string.
+ as prefix.
  callback gets called.
  category in the app browser.
  category on the app browser.
@@ -67,6 +68,7 @@
  is a reserved command.
  is currently editing this page. Only one person can edit a page at a time.
  is deprecated and will be removed in a future version.
+ is disallowed in char data.
  is invalid.
  is not a mutable property.
  is not a valid compression method !
@@ -159,6 +161,7 @@
 , other JavaScript not part of React, or work the browser has to do to update the DOM and draw the next frame.
 , post a report including a screenshot and a link to the previous message if this is a public channel.
 , weights must be provided.
+,checked:a,icon:r,className:i?G().atLimitRow:void 0,disabled:i,ariaDescribedBy:i?
 ,checked:a,icon:r,className:i?V().atLimitRow:void 0,disabled:i,ariaDescribedBy:i?
 ,checked:a,icon:r,className:i?W().atLimitRow:void 0,disabled:i,ariaDescribedBy:i?
 ,counter:0,seen:new Map,cycles:e?.cycles??
@@ -201,11 +204,11 @@
 1D separable convolution is not implemented yet.
 2,600+ apps in the App Marketplace meant fewer tabs and faster decisions.
 2. Paste the response below, or paste your exported memory file.
-:E.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
-:E.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eP?eH:void 0,className:s()(eP||T||eF?
-:E.mv.ConfirmationModal,onClose:ez,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
-:I.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eP?eH:void 0,className:s()(eP||T||eF?
-:I.mv.ConfirmationModal,onClose:ez,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
+:N.mv.ConfirmationModal,onClose:eK,headerImageSrc:J,headerImageAlt:e3,title:eU?eG:void 0,className:s()(eU||E||eB?
+:N.mv.ConfirmationModal,onClose:eK,headerImageSrc:Z,headerImageAlt:e3,title:eB?eG:void 0,className:s()(eB||I||eU?
+:N.mv.ConfirmationModal,onClose:eK,headerImageSrc:Z,headerImageAlt:e3,title:eB?eV:void 0,className:s()(eB||w||eU?
+:N.mv.ConfirmationModal,onClose:eK,headerImageSrc:Z,headerImageAlt:e3,title:eU?eV:void 0,className:s()(eU||E||eB?
+:N.mv.ConfirmationModal,onClose:eK,headerImageSrc:Z,headerImageAlt:e3,title:eU?eV:void 0,className:s()(eU||I||eB?
 :_ instanceof RegExp?
 :a?r:void 0,children:m?
 :bulb: Get your team on the same page with canvases.
@@ -216,12 +219,14 @@
 :point_up: I found an existing summary for this file.
 :v.arraybuffer&&t instanceof ArrayBuffer?
 :v.uint8array&&t instanceof Uint8Array?
-:void 0),r.current?.info(eh,e?
-:void 0,credentialless:ec?
+:void 0),r.current?.info(e_,e?
+:void 0),r.current?.info(ef,e?
+:void 0),r.current?.info(ex,e?
+:void 0,credentialless:eu?
 :void 0,credentialless:m?
 :void 0,credentialless:o?
+:void 0,credentialless:p?
 :void 0,skipDoneDialog:!0,buttonClassName:t?
-:w.mv.ConfirmationModal,onClose:ez,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
 @Finance Team Can you review this edit from Cathy Customer?
 A Call was rejected
 A DM was created
@@ -3963,6 +3968,7 @@ Checkout steps
 Checks and returns whether an emoji exists for a given team ID
 Checks external file permissions for a tab
 Checks for opening the huddle window for the active huddle with channel canvas
+Checks if SC trial treatment B user needs the non-dismissible welcome modal on boot
 Checks if the message is in an active view before doing the animation
 Checks if the user has drafts and alerts before signing out of a workspace or org
 Checks if user created a new datasource after being redirect to integrations builder
@@ -5831,6 +5837,7 @@ Date deleted
 Date flagged
 Date object, ISO-8601 string, or a UNIX timestamp
 Date of latest pen test
+Date out of bounds
 Date posted
 Date range
 Date requested
@@ -10188,6 +10195,7 @@ Il reste 1 jour
 Il reste 1 min
 Il reste 1 mois
 Il reste : %d jours
+Illegal format
 Illegal hls.js config: don
 Illustration of AI tools connecting to Slack
 Illustration of Slackbot with a noisemaker surrounded by confetti
@@ -14912,6 +14920,7 @@ Opens the PiP mini player for a media
 Opens the Quip doc comment thread in the side or flexpane
 Opens the Removed from Workspace Refresh Dialog when a user is removed from a workspace
 Opens the Request Access Done confirmation modal in client
+Opens the SC trial non-dismissible welcome modal directly (bypassing megaphone)
 Opens the Sales Home Onboarding Completion modal
 Opens the Salesforce field mapping modal for modifying CSV column mappings
 Opens the Share AI Explain Modal
@@ -18229,6 +18238,7 @@ Scroll - CTRL
 Scroll Area
 Scroll down
 Scroll editor to line
+Scroll left
 Scroll right
 Scroll to next day
 Scroll to previous day
@@ -21569,11 +21579,11 @@ Split tensors must not be scalars
 Splunk Query Language
 Spoofed user agents
 Spotify customer story
-Spreadsheet Viewer
-Spreadsheet Viewer (fetch pending)
 Spreadsheet cache: 
+Spreadsheet could not be rendered
 Spreadsheet fetch network error
 Spreadsheet is closed
+Spreadsheet preview
 Spreadsheet section not loaded: 
 Spring cleaning
 Spring cleaning pocket guide opened
@@ -23879,6 +23889,7 @@ Unexpected missing base sequence
 Unexpected node 
 Unexpected node type: 
 Unexpected null model
+Unexpected partition
 Unexpected result type 
 Unexpected state: 
 Unexpected stream case
@@ -26399,6 +26410,10 @@ customTexShape is too small. Row * Column * 4 should be equal or larger than the
 d like to stay from Oct 21 - Oct 23 (2 nights).
 data-block-source contained unparseable JSON; possible serialization bug in copy handler.
 dates accessor is deprecated. Use date instead.
+disallowed character in attribute name.
+disallowed character in entity name.
+disallowed character in processing instruction name.
+disallowed character.
 do eiusmod tempor incididunt ut labore.
 document_id is auto-logged when you supply thread_id.
 domTripWire suppression still active in the next spin of the event loop. Long-lived suppressions are discouraged.
@@ -26420,7 +26435,7 @@ gradients() received an empty list of xs.
 ha inviato un biglietto di auguri. Felice anno nuovo!
 handlerIds, when specified, must be an array of strings.
 how did this happen?
-in e&&e.channel?e.channel:(0,m.uP)(),team:e.team??(0,h.CT)(),member:e.member??(0,p.Nq)(),introducingMember:e.introducingMember,sentVia:e.sentVia??
+in e&&e.channel?e.channel:(0,p.uP)(),team:e.team??(0,_.CT)(),member:e.member??(0,h.Nq)(),introducingMember:e.introducingMember,sentVia:e.sentVia??
 in e?!!(a&&((0,B.A)(e.url)||(0,g.cn)(e?.url??
 in e?!!(a&&((0,B.A)(e.url)||(0,x.cn)(e?.url??
 in e?!!(a&&((0,W.A)(e.url)||(0,g.cn)(e?.url??
@@ -26444,12 +26459,14 @@ localStorage write failed; client theme will not be persisted.
 localStorage write failed; system sync will not be persisted.
 m Slackbot!
 m here to help you stay on top of what matters most, without having to chase it down.
+malformed comment.
 markWithAPI tried too many times!
 maybeOpenModal failed to dispatch modal.
 missing required Quantization Table.
 moment().lang() is deprecated. Instead, use moment().localeData() to get the language configuration. Use moment().locale() to change languages.
 navigator.onLine appears to be untrustworthy; enabling workaround.
 no data available!
+no whitespace between attributes.
 numpad .
 onWorkspaceLaunch - Detected that user is logged in via the SSB.
 only stride 1 allowed on non-range indexing.
@@ -26459,6 +26476,7 @@ parseNestedOrder - reached MAX_NESTED_LEVELS.
 paymentMethodGetResponse failed or method ids do not match.
 pinned by private user.
 pinned by unknown user.
+processing instruction without a target.
 query option is required. You must specify your GraphQL document in the query option.
 re a rare mix of wide-angle strategic vision and razor-sharp precision on the details that actually matter.
 re about to delete this sidekick. Do you want to proceed?
@@ -26569,6 +26587,7 @@ t use consecutive dashes.
 t used this in 30+ days, so we paused auto-generated AI summaries.
 t valid. Give it another go!
 t you try making a Product UI?
+text data outside of root node.
 text is too long!
 tf.browser.toPixels is not efficient to draw tensor on canvas. Please try tf.browser.draw instead.
 tfQuery and tfCandidate must be Map instances.
