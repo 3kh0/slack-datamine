@@ -56,6 +56,7 @@ admin.apps.certified.list
 admin.apps.clearResolution
 admin.apps.config.lookup
 admin.apps.config.set
+admin.apps.domainWideAuth.list
 admin.apps.getAiPrefs
 admin.apps.installed.list
 admin.apps.internal.list
@@ -875,7 +876,6 @@ files.external.checkPermission
 files.external.getOrCreate
 files.external.getProviders
 files.external.preview
-files.external.search
 files.external.searchConnector
 files.favorites.add
 files.favorites.list
@@ -1306,7 +1306,7 @@ sfdc.agentforce.listInstalled
 sfdc.agentforce.provisionCka
 sfdc.agentforce.setSlackbotEnabled
 sfdc.agentforce.setSlackbotPref
-sfdc.approvals.getOrchestrationStepInstances
+sfdc.approvals.getApprovalProgress
 sfdc.autoStarter.integration.admin.addMembers
 sfdc.autoStarter.integration.admin.getLicensedMembers
 sfdc.autoStarter.integration.admin.removeMembers
@@ -1322,6 +1322,7 @@ sfdc.domainVerification.activate
 sfdc.domainVerification.create
 sfdc.domainVerification.delete
 sfdc.domainVerification.get
+sfdc.domainVerification.list
 sfdc.eacConfigs.disconnect
 sfdc.eacConfigs.get
 sfdc.eacConfigs.init
@@ -1445,6 +1446,7 @@ slackbot.memories.list
 slackbot.memories.updateSettings
 slackbot.precache
 slackbot.suggestions.list
+slides.addAttachment
 slides.update
 solutions.collaborators.add
 solutions.collaborators.get

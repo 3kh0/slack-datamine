@@ -72,6 +72,9 @@ create
 create_new_workspace
 create_record
 create_task_from_scratch
+create_task_modal
+create_task_modal_close
+create_task_modal_save
 create_task_with_slackbot
 csv_import
 custom_status_modal_save
@@ -111,7 +114,11 @@ edit
 edit_all_profile_details
 edit_name
 edit_profile
+edit_task_modal
+edit_task_modal_close
+edit_task_modal_save
 edit_task_with_slackbot
+edit_task_with_slackbot_from_modal
 edit_thumbnail
 email_verified_success
 emoji_reaction_click
@@ -317,6 +324,7 @@ slackbot_mcp_connector_connect
 slackbot_mcp_connector_disconnect
 slackbot_mcp_connector_manage
 slackbot_mcp_connector_select
+slackbot_mcp_connectors_button
 slackbot_mcp_es_connector_disconnect
 slackbot_mcp_manage_connectors
 slackbot_mcp_save_tool_permissions
