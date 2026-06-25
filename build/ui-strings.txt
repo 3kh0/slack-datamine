@@ -1015,7 +1015,6 @@ Add a shared skill
 Add a short description
 Add a skill to Slackbot
 Add a skill to this skill set
-Add a step
 Add a suggestion
 Add a summary
 Add a tab
@@ -2881,7 +2880,6 @@ By continuing, you agree to the compliance and legal terms.
 By default, Salesforce app unfurls show name and object only. When enabled, unfurls from the Salesforce app will be powered by the Platform Integration user.
 By default, Slack allows canvas editors to access version history and restore prior versions of a canvas.
 By default, Slack encrypts data at rest and in transit as part of our foundational security controls.
-By default, a repeat step can iterate up to 50 times.
 By default, any member can forward emails into Slack using a private, personalized email address. You can choose to disallow this.
 By default, everyone in your organization can use this step to access private channels.
 By default, messages (and their revisions) are never deleted, but Workspace Owners can set their own retention settings for their workspace
@@ -3534,7 +3532,6 @@ Change draft pending block unfurls to sending
 Change draft pending gif unfurls to sending
 Change formatting
 Change limited access group
-Change list
 Change notification settings
 Change opportunity object?
 Change paste last transcript shortcut
@@ -5272,7 +5269,6 @@ Create new key
 Create new list of app activities based on appId
 Create new section
 Create new workflow
-Create object collection
 Create or clean up any custom sections.
 Create or clean up your Starred section.
 Create or open an IM
@@ -6798,7 +6794,6 @@ Enter a link to a Google Doc, Google Slides, or uploaded Google Drive file.
 Enter a name or email
 Enter a name, email, or user group
 Enter a new tag...
-Enter a number between 1 and 100.
 Enter a page name.
 Enter a skill set name
 Enter a valid domain (e.g. example.com).
@@ -7738,7 +7733,6 @@ Feel free to move things around to your liking. We love an organized sidebar.
 Feels good to get organized!
 Feels good to have the most important stuff taken care of, right?
 Fetch (emoji) reacji triggers for multiple channels
-Fetch AI Agentforce Apps
 Fetch AI Apps from List API
 Fetch AI Workflow Steps Response
 Fetch AMP page preview
@@ -8324,7 +8318,6 @@ Filled region
 Filter AI answer sources
 Filter End Date
 Filter Options
-Filter Slack list
 Filter Start Date
 Filter account type
 Filter activity list based on search query
@@ -8874,7 +8867,6 @@ Get push notifications on mobile
 Get reactions for a reaction key
 Get ready
 Get recommended user dms
-Get records from a Slack list to iterate over
 Get relevant channel data for sharing
 Get reminders for upcoming meetings
 Get remote triggers with query
@@ -10363,7 +10355,6 @@ Item added
 Item deleted
 Item deleted.
 Item entity
-Item limit
 Item marked as read
 Item must be an object.
 Item not found
@@ -11362,7 +11353,6 @@ Long title and text (truncation test)
 Long-form copy for this section
 Look at this photograph
 Look up any recent discussions between me and the participants to provide context.
-Look up objects like people, channels, or custom records
 Looking for Workflow Builder?
 Looking for something you saved?
 Looking for something?
@@ -12958,7 +12948,6 @@ Must be a Type3 font.
 Must be a fragment definition.
 Must be a simple font.
 Must be all lowercase
-Must be at least 1
 Must be between 0 to 21 characters
 Must be between 0 to 50 characters
 Must be between 0 to 80 characters
@@ -16782,9 +16771,6 @@ Reorder, add, remove, and hide the tabs that everyone sees in this channel.
 Reorganize your essentials
 Repeat count too high, must be less than 20
 Repeat for each item in
-Repeat for each member of a user group
-Repeat limit
-Repeat step started
 Repeated command (
 Repeater 1
 Replace App Icon File
@@ -17308,7 +17294,6 @@ Run workflow
 Runs a benchmark on a RTM event
 Runs a channel action
 Runs a message action
-Runs action for each item in a collection
 Runs search from given encoded search state string
 Russian Federation
 Rust Programming Language
@@ -17903,7 +17888,6 @@ Select a canvas to duplicate and add to the template.
 Select a channel
 Select a channel or person to send message
 Select a channel...
-Select a collection
 Select a comparison
 Select a conversation
 Select a country
@@ -17984,7 +17968,6 @@ Select time
 Select transcript language
 Select up to two
 Select up to two users
-Select user group
 Select user groups
 Select users
 Select variable display option
@@ -19446,7 +19429,6 @@ Sets the admin home data
 Sets the admin home data loading state
 Sets the agent home state to the active conversation view mode state for the provided thread
 Sets the agent home state to the new conversation view mode state
-Sets the ai apps returned by the sfdc.agentforce.listAccessible endpoint
 Sets the alert type filter
 Sets the analytics Slack AI data
 Sets the analytics Slack AI data available date range value
@@ -20813,7 +20795,6 @@ Sorry, there was a problem retrieving the list of calls apps. Please try again.
 Sorry, there was a problem trying to save the settings
 Sorry, there was a problem trying to update your step.
 Sort and layout
-Sort and limit
 Sort assigned items
 Sort canvases
 Sort channels
@@ -21124,8 +21105,10 @@ Step primary actions
 Step to use for form fields
 Steps are hosted on Slack?
 Still curious? 
+Still recording
 Stone Informal
 Stone Serif
+Stop Recording
 Stop Sharing
 Stop a 3P AI app streaming response
 Stop agent response
@@ -21755,8 +21738,6 @@ The PDF file is empty, i.e. its size is zero bytes.
 The Preferences may override manually set AppOptions; please use the 
 The Primary meeting credentials provided are no longer valid. chime::DeleteAttendee may have been called on them.
 The ReactIs.isAsyncMode() alias has been deprecated, and will be removed in React 17+. Update your code to use ReactIs.isConcurrentMode() instead. It has the exact same API.
-The Repeat step feature is not available for your workspace.
-The Repeat step iterates over a collection. Your workflow doesn
 The SAML Response does not contain any assertions. Please check your Identity Provider settings.
 The SAML Response does not have a valid timestamp. Please check your Identity Provider settings.
 The SAML Response is invalid because it does not match the saml-schema-protocol-2.0.xsd schema. Please check your Identity Provider settings.
@@ -21965,7 +21946,6 @@ The workspace domain has changed
 The workspace email domain has changed
 The workspace name has changed
 The world is your octopus.
-Their data type isn
 Theme Background
 Theme default
 Theme update button not rendered because colors are not provided.
@@ -22144,7 +22124,6 @@ This conversation is private
 This conversation will be unavailable until this process is complete.
 This could be a connection issue, or just a little blip.
 This could be a phonetic pronunciation, or an example of something your name sounds like.
-This data is available as variables in next steps.
 This document is already in use.
 This doesn
 This embed may override the tool permissions you set for Slackbot.
@@ -22582,7 +22561,6 @@ Too large cursor position
 Too long since we received a pong
 Too many IDs for unsubscribe
 Too many arguments
-Too many items match your filters. Add more filters to narrow your results.
 Too many messages selected
 Too many requests. Please try again in a moment.
 Too many users to display. You may only add users here. To remove users, please use the API.
@@ -23050,7 +23028,6 @@ Unable to load all migrations
 Unable to load diff
 Unable to load preview
 Unable to load the connectors for enterprise search. Please try again or contact support.
-Unable to load the current limit. Please close and try again.
 Unable to load the image
 Unable to load this view. Please try again later.
 Unable to load thread details
@@ -24342,9 +24319,6 @@ Validations passed in much be an object defining all param validations
 Value Difference
 Value Difference %
 Value is invalid for this field.
-Value must be a whole number.
-Value must be at least 1.
-Value must be at most 100.
 Value of WeakMap is not a non-null object.
 Values for these inputs will be determined by another workflow and if not present, will be provided by the user at runtime.
 Values passed to engine.makeTensor() are null
@@ -25299,7 +25273,6 @@ You are over an area that cannot be dropped on
 You are previewing Slackbot
 You are unable to join the Huddle as you do not have permission to join Huddles.
 You are viewing a thread from an archived channel
-You can add up to 50 items to the collection
 You can adjust this setting for only this organization and keep the default for all other organizations you work with.
 You can also choose how individual sections are sorted directly from your sidebar.
 You can also copy a link to this file. To share, paste it in any channel or conversation.
@@ -25349,11 +25322,9 @@ You closed a DM
 You closed a private channel
 You created a group DM
 You created a template.
-You do not have access to this action.
 You do not have access to this object. Contact your Salesforce administrator to request access.
 You do not have access to this object. This workflow will not start if the recipient also does not have access.
 You do not have permission to create user groups in this workspace.
-You do not have permission to update this setting.
 You do not have the permissions to remove this user.
 You either did not pass the renderHandlers correct or it cannot find render handlers associated with the view.
 You enjoy working here at Pistachio & Co
