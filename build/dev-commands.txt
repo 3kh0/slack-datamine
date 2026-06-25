@@ -9,6 +9,7 @@ force_fail_apis: Force API failures (e.g. client.init:fail:100)
 force_huddle_survey: Force huddle survey to show (1) or hide (0)
 force_infinite_list: Force virtualized list rendering
 force_reset_view_state: Reset persisted view state on boot
+force_slackbot_ai_next: Treat Slackbot AI as enabled, bypassing the ACCESS_SLACK_AI_SLACKBOT entitlement (dev only)
 force_store_measurement: Enable IDB store size measurement
 huddle_jit_window_hours: Extend huddle JIT upcoming meeting window (hours, default 0.17 = 10min)
 js_path: Load local JS from dev server (js_path=1) or when using a custom port (js_path=localhost:1990)
