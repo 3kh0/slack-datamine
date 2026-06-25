@@ -1268,6 +1268,7 @@ Add picklist values to the store
 Add profile details
 Add project brief
 Add project tracker
+Add rate limiting and caching
 Add reaction
 Add recently opened list to the store
 Add records to the store by layoutType
@@ -1368,6 +1369,7 @@ Add workspaces
 Add your billing info
 Add your details to use this template as is. Or, add more steps to customize it.
 Add your existing contacts
+Add your existing leads
 Add your payment details to keep features like Slack Connect channels, unlimited huddles, SAML-based SSO, and an unlimited message and file history.
 Add your payment details to keep features like Slack Connect channels, unlimited huddles, and an unlimited message and file history.
 Add your sources first, and then you can test!
@@ -1381,6 +1383,7 @@ Add, remove, or mark reminders as complete
 Added by 
 Added members to your Salesforce Org.
 Added on
+Added rate limiting and caching
 Added to Slackbot.
 Added to channel
 Added to the pinned items
@@ -1965,6 +1968,8 @@ An update of the window frame state
 Analytics Agent Performance Roadmap
 AnalyticsAgent: Running in manual mode (tracking 
 AnalyticsAgent: Running in multi-component mode
+Analyze existing notification settings schema
+Analyzed existing notification settings schema
 Analyzing membership data...
 Analyzing stored device records
 Anatomy of a Product UI
@@ -4582,6 +4587,7 @@ CodeMirror-gutter
 CodeMirror-gutter-background 
 CodeMirror-linenumber CodeMirror-gutter-elt
 Coded workflows can have multiple triggers. People who can run the workflow represent combined permissions from all triggers.
+Coding Flow (Streaming)
 Cognito Identity
 Cognito Identity Provider
 Cognito Sync
@@ -4705,6 +4711,7 @@ Company is null
 Company kick off
 Company or team name
 Company size
+Compare All Plans
 Compare Free and Slack Pro Plans
 Compare Plans
 Compare Plans Modal
@@ -5526,6 +5533,7 @@ Create slack list
 Create spreadsheet from open form step
 Create task
 Create team
+Create the API handler
 Create the copy data to save to the clipboard in multiple formats
 Create unlimited canvases
 Create variable
@@ -5550,6 +5558,7 @@ Created email forwarding address
 Created hierarchical task organization with proper dependency relationships
 Created on
 Created on average
+Created the API handler
 Created workflow and trigger from an Ai preview
 CreatedTimestamp is no longer returned by ListEventDataStores
 Creates JSON string of URLs used to submit unfurl data to draft syncing endpoints
@@ -5582,6 +5591,7 @@ Creates the next command token
 Creating Canvas...
 Creating DataSection for cell section: 
 Creating TOS
+Creating a new API handler that returns the user
 Creating and sending emails to customers
 Creating desktop delegate
 Creating new background worker video transform device
@@ -5932,6 +5942,7 @@ DefaultVideoTransformDevice: detach stopping input media stream
 Defaults to 
 Deferred messaging client data fetches
 Deferred render already present
+Deferred was cancelled
 Deferring to target team
 Define Summary
 Define the outputs you need and AI shapes its response to match
@@ -7384,6 +7395,8 @@ Europe (Paris)
 Europe (Spain)
 Europe (Stockholm)
 Europe (Zurich)
+Evaluated data access patterns
+Evaluating data access patterns
 Even more time-saving tools
 Event API Request URL
 Event API Truncate Auth Lists
@@ -8797,8 +8810,10 @@ First things first! Choose how your workflow begins.
 First unread message.
 First, add variables
 Fix errors here
+Fix race condition in cache invalidation
 Fix: Resolve race condition in message delivery pipeline
 Fixed height CellMeasurerCache should specify a :defaultHeight greater than 0. Failing to do so will lead to unnecessary layout and poor performance.
+Fixed race condition in cache invalidation
 Fixed width CellMeasurerCache should specify a :defaultWidth greater than 0. Failing to do so will lead to unnecessary layout and poor performance.
 Flag an unsaved item as a tombstone if a saved view is open
 Flag channel name
@@ -10220,6 +10235,7 @@ Images load eagerly since billboards are above the fold
 Images load eagerly since they are above the fold
 Immediately calls eventlog.history
 Implementation of write text with child window
+Implementing notification preferences API
 Implicit keys of flow sequence pairs need to be on a single line
 Implicit map keys need to be followed by map values
 Implicit map keys need to be on a single line
@@ -13390,6 +13406,7 @@ Move variant down
 Move variant up
 Move view down
 Move view up
+Moved cache invalidation into the post-commit hook of the write transaction. Added a test that reproduces the stale-read under concurrent load to prevent regression.
 Moved image down:
 Moved image up:
 Moves an Instant Slack conversation to a permanent workspace.
@@ -14563,7 +14580,6 @@ Open Link in Browser
 Open More menu
 Open Outlook App
 Open Outlook Calendar app
-Open Pro to Business Plus offer modal
 Open Pro to Business Plus trial offer modal
 Open Record
 Open Request CRM License modal
@@ -15634,6 +15650,8 @@ Plan discount
 Plan distribution (single tier)
 Plan distribution by tier
 Plan updates apply to every active member of this team
+Planned API handler structure
+Planning API handler structure
 Plans and cost data loaded
 Plans change, and that
 Plantin Schoolbook
@@ -16774,6 +16792,8 @@ Redux dispatch to client store called without a payload. Ignoring.
 Redux slice
 Redux total store size:
 Redwood Suite
+Refactor data access layer to async
+Refactored data access layer to async
 References external instructions
 Refetch search results
 Refetches localized APIs for a team
@@ -16816,9 +16836,13 @@ Region request error:
 RegionalImageCache.set - expected 
 Register Service Worker timed out
 Register organic use of progressive disclosure tip with Megaphone
+Register route and update API metadata
 Register route listeners
 Register the service worker
+Registered notifications.prefs.get in the API router and ran schema generation. TypeScript types are now available for client consumption.
+Registered route and updated API metadata
 Registering pressure observer
+Registering the new endpoint in the API router and generating the metadata files so clients can discover and type-check against the new method.
 Registers a new passkey and refreshes the passkey list
 Registration ceremony was sent an abort signal
 Registration was not completed
@@ -18155,6 +18179,7 @@ Save thread scrollmark when thread component is unmounted
 Save time catching up
 Save time catching up on the 
 Save time creating new contacts by adding them in bulk from your email account or a CSV file.
+Save time creating new leads by adding them in bulk from a CSV file.
 Save time with AI-powered automations
 Save to drafts
 Save your seat
@@ -22616,6 +22641,7 @@ The page may have been deleted by someone else. Go back to Pages and refresh to 
 The people who can edit this automation will also have access to any files shared here
 The person using the workflow
 The person who last interacted with the workflow
+The preferences endpoint will be called frequently by clients on load. I
 The prelude checksum specified in the message (
 The pretext is rendered separately above the attachment container.
 The previous day
@@ -23510,7 +23536,6 @@ Triggers a side-effect that opens the Express Template modal in client
 Triggers a side-effect that opens the File Viewer modal in client (noop)
 Triggers a side-effect that opens the GreetingInviteModal in client (noop)
 Triggers a side-effect that opens the JoinerWelcomeCardMessageModal in client (noop)
-Triggers a side-effect that opens the Pro To Business Plus Offer Modal
 Triggers a side-effect that opens the Pro To Business Plus Trial Offer Modal
 Triggers a side-effect that opens the PromptShareDialog in client (noop)
 Triggers a side-effect that opens the Request to Purchase Modal
@@ -26031,6 +26056,7 @@ Write a project overview... 2 Outlines
 Write a project overview... Outlines
 Write an outline of a project brief for # 
 Write an overview for
+Write integration tests
 Write me a haiku about my week
 Write now, send later
 Write or revise content (e.g., message, post, document, etc)
@@ -26040,7 +26066,9 @@ Write with AI
 Write with Agent
 Write your own prompt
 Writing device selection history to local storage
+Writing integration tests that verify the API returns the correct preferences structure, respects authorization, and properly caches responses.
 Wrong length or index
+Wrote integration tests
 X Outlines
 XFA - Cannot create a node.
 XFA - Cannot save it
@@ -26436,7 +26464,6 @@ ha inviato un biglietto di auguri. Felice anno nuovo!
 handlerIds, when specified, must be an array of strings.
 how did this happen?
 in e&&e.channel?e.channel:(0,p.uP)(),team:e.team??(0,_.CT)(),member:e.member??(0,h.Nq)(),introducingMember:e.introducingMember,sentVia:e.sentVia??
-in e?!!(a&&((0,B.A)(e.url)||(0,g.cn)(e?.url??
 in e?!!(a&&((0,B.A)(e.url)||(0,x.cn)(e?.url??
 in e?!!(a&&((0,W.A)(e.url)||(0,g.cn)(e?.url??
 in e?!!(a&&((0,W.A)(e.url)||(0,x.cn)(e?.url??
@@ -26448,6 +26475,8 @@ is not supported. Use variables instead of inline arguments to overcome this lim
 joined the huddle.
 learningRate for RMSPropOptimizer must be defined.
 left the huddle.
+ll follow the existing pattern from the channel settings handler and add proper authorization checks. The response will include both global preferences and per-channel overrides.
+ll include those in the response and let the client handle any display formatting.
 ll only receive notifications in the hours you choose. Outside of those times, notifications will be paused except for VIPs.
 ll only receive notifications in the hours you choose. Outside of those times, notifications will be paused.
 ll see them here.
@@ -26481,6 +26510,7 @@ query option is required. You must specify your GraphQL document in the query op
 re a rare mix of wide-angle strategic vision and razor-sharp precision on the details that actually matter.
 re about to delete this sidekick. Do you want to proceed?
 re all set! This is your booking summary.
+re currently accessed.
 re done building your workflow, publish it to make it available to use in Slack.
 re like loaves of bread that hop.
 re trying to use event.stopPropagation() in a submit event handler, consider also calling event.preventDefault().
