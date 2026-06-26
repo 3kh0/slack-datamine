@@ -213,7 +213,7 @@
 :N.mv.ConfirmationModal,onClose:eK,headerImageSrc:Z,headerImageAlt:e3,title:eU?eV:void 0,className:s()(eU||I||eB?
 :O instanceof RegExp?
 :_ instanceof RegExp?
-:a?r:void 0,children:m?
+:a?n:void 0,children:m?
 :bulb: Get your team on the same page with canvases.
 :bulb: Stay on track with lists.
 :e instanceof File?
@@ -2023,6 +2023,7 @@ Any templates you build or manage will show up here.
 Any time
 Any time in the past
 Any translation
+Any visitor
 Anyone in your entire organization
 Anyone in your organization can view
 Anyone who can view record
@@ -2132,6 +2133,7 @@ Applies and updates the IDP config
 Applies detail view + channel canvas
 Applies task tracking bundle to list
 Applies the detail view to a given view set if applicable
+Applies to the published page only. Editor and preview URLs are always served with 
 Apply Agent Card
 Apply Custom Step Save
 Apply Now
@@ -5635,6 +5637,7 @@ Cursor 2
 Cursor-blink 1
 Custom Accounts
 Custom App
+Custom CTAs
 Custom Feature 1
 Custom Feature 1 subtitle
 Custom Feature 2
@@ -5650,6 +5653,7 @@ Custom background colors can match each app
 Custom channel summary date range picker
 Custom contract
 Custom date range
+Custom desktop + mobile CTAs
 Custom emoji
 Custom endpoint is not compatible with access point ARN
 Custom endpoint is supplied; endpointDiscoveryEnabled must not be true.
@@ -5922,9 +5926,11 @@ Default Account
 Default Handler
 Default Option 1
 Default Skin Tone
+Default Slack nav
 Default Team
 Default channel visibility
 Default channels limit reached for this group.
+Default footer
 Default language
 Default level
 Default org-wide channel
@@ -9878,6 +9884,7 @@ Hide a thread broadcast
 Hide a user by ID and closes the associated IM channel, if it exists
 Hide a user group section
 Hide all comments
+Hide all desktop CTAs
 Hide all threads
 Hide an unfurl in a draft
 Hide canvas
@@ -11163,6 +11170,7 @@ Latest date created
 Latest messages
 Lato, Slack-Lato, appleLogo, sans-serif
 Lato, sans-serif
+Launch Slack
 Launch app on login
 Launch day signups
 Launch in Slack
@@ -11793,6 +11801,7 @@ Log users out whenever they close the application
 Logged event
 Logged in
 Logged out
+Logged-out visitors
 Logging sidebar noise metrics
 LogiFlow Inc.
 Login state
@@ -12645,6 +12654,7 @@ Mark as not important
 Mark as read
 Mark as read (esc)
 Mark as unread
+Mark at most one CTA as Mobile-only; subsequent mobile-tagged rows fall through to the desktop slots so the data is never silently dropped.
 Mark boot as completed when all data has been dispatched
 Mark channel as important
 Mark channel bookmark triggers as stale
@@ -13187,6 +13197,10 @@ Minified React error #
 Minified Redux error #
 Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.
 Minimal Card
+Minimal footer
+Minimal footer with legal text
+Minimal header
+Minimal header, no CTAs
 Minimal task card
 Minimal with headline only
 Minimize 2
@@ -13274,6 +13288,7 @@ Mobile preview
 Mobile push notifications toggle changed
 Mobile session duration disabled
 Mobile sessions must be a minimum of 4 hours.
+Mobile-only CTA
 Mock user settings
 Modal Preview
 Modal Size
@@ -21163,6 +21178,8 @@ Sink error:
 Sint Maarten
 Sint Maarten (Dutch Part)
 Sit tight, updating the status may take up to 5 minutes. We
+Site Footer
+Site Navigation
 Six to eight logos produces the most balanced layout
 Six-up logo strip with header
 Skill Sets
@@ -24998,6 +25015,7 @@ Use subheaders to break long copy into scannable sections, but skip them when a 
 Use template
 Use template and make a canvas
 Use template and make a canvas in the secondary view
+Use the 
 Use the Meeting Prep skill.
 Use the inverse option to swap content and asset positions
 Use the link feature to reference sources that have a public URL
@@ -25494,6 +25512,7 @@ Virheellinen unioni
 Visibility of external organizations
 Visibility of external organizations in conversations
 Visibility of external orgs
+Visible to
 Visible to everyone in your organization, including guests, but not to Slack Connect users.
 Vision assistive
 Visit Agent Builder
