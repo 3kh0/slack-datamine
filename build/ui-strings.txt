@@ -150,7 +150,7 @@
 ) is not supported yet.
 ) that performed expensive computation.
 ), falling back to Type1.
-),commandSource:g,scrollable:p,maxWidth:p?160:void 0,hideCommandIcon:p,className:s?
+),commandSource:m,scrollable:p,maxWidth:p?160:void 0,hideCommandIcon:p,className:s?
 ). Corrupted zip ?
 ). If you meant to render a collection of children, use an array instead.
 ). Use good judgement and add components (or hooks) to this directory that you feel are valuable to the PNP project.
@@ -2025,7 +2025,6 @@ Any templates you build or manage will show up here.
 Any time
 Any time in the past
 Any translation
-Any visitor
 Anyone in your entire organization
 Anyone in your organization can view
 Anyone who can view record
@@ -2472,6 +2471,7 @@ Audit logs
 Aurora X
 Auth Me Now
 Auth state
+Auth-targeted CTAs (Sign in vs. Launch Slack)
 Authenticate and install a data export app
 Authentication failure details
 Authentication status
@@ -2714,6 +2714,7 @@ Block Kit Builder
 Block Kit Builder navigation
 Block Kit Reference
 Block Kit message
+Block Quote
 Block Settings
 Block collection must not have preceding content here (e.g. directives-end indicator)
 Block invitations from this person
@@ -5645,7 +5646,7 @@ Cursor 2
 Cursor-blink 1
 Custom Accounts
 Custom App
-Custom CTAs
+Custom CTA
 Custom Feature 1
 Custom Feature 1 subtitle
 Custom Feature 2
@@ -5661,7 +5662,6 @@ Custom background colors can match each app
 Custom channel summary date range picker
 Custom contract
 Custom date range
-Custom desktop + mobile CTAs
 Custom emoji
 Custom endpoint is not compatible with access point ARN
 Custom endpoint is supplied; endpointDiscoveryEnabled must not be true.
@@ -5935,7 +5935,6 @@ Default Account
 Default Handler
 Default Option 1
 Default Skin Tone
-Default Slack nav
 Default Team
 Default channel visibility
 Default channels limit reached for this group.
@@ -6583,6 +6582,7 @@ Drag and drop your photo
 Drag files, canvases, and lists in here to keep things nice and organized (it
 Drag to move
 Drag to reorder
+Drag to reposition
 Drag to take a screenshot
 Drag, drop, and ship your Slack app UI
 Draggable isClone prop value changed during component life
@@ -6594,6 +6594,7 @@ Dream Maker
 Drop Shadow
 Drop an image here or
 Drop an image or video here, or
+Drop here to replace
 Drop messages from before a given timestamp
 Drop old messages if there are too many
 Drop result must either be an object or undefined.
@@ -6658,6 +6659,7 @@ EUR Currency
 Each item can independently use image or video media
 Each link or QR code works for up to 400 people. To keep your workspace secure, only share the invite with people in your organization.
 Each pair must have its own sequence indicator
+Each slot defaults to 
 Each tile is fully clickable; do not try to nest a CTA inside the paragraph
 Eager dismiss provided eventId
 Earliest date created
@@ -9811,6 +9813,11 @@ Header image repositioning is not supported.
 Header only with hero image
 Header value entry
 Heading 1
+Heading 2
+Heading 3
+Heading 4
+Heading 5
+Heading 6
 Heading level (1-4)
 Heading level 1
 Heading level 2
@@ -11185,7 +11192,6 @@ Latest date created
 Latest messages
 Lato, Slack-Lato, appleLogo, sans-serif
 Lato, sans-serif
-Launch Slack
 Launch app on login
 Launch day signups
 Launch in Slack
@@ -11541,6 +11547,7 @@ Lists results
 Lists view settings
 Lists will soon be view only
 Literate Haskell
+Live App
 Live huddles
 Live pages using this asset
 Live playlist, switching playlist, load frag with next SN: 
@@ -11818,7 +11825,6 @@ Log users out whenever they close the application
 Logged event
 Logged in
 Logged out
-Logged-out visitors
 Logging sidebar noise metrics
 LogiFlow Inc.
 Login state
@@ -11897,7 +11903,6 @@ M0 129v-2C0 58.3 55.6 2.7 124.2 2.7h2c68.6 0 124.2 55.6 124.2 124.1v2.1c0 68.6-5
 M0.03,1 h0.742 a0.258,0.2,0,0,0,0.258,-0.2 V0.2 a0.258,0.2,0,0,0,-0.258,-0.2 H0.03 a0.385,0.299,0,0,1,0.098,0.2 v0.6 A0.385,0.299,0,0,1,0.03,1
 M1 10a9 9 0 1 1 18 0 9 9 0 0 1-18 0m9.75-4.25a.75.75 0 0 0-1.5 0v4.75c0 .414.336.75.75.75h3.75a.75.75 0 0 0 0-1.5h-3z
 M1 12a11 11 0 1122 0 11 11 0 01-22 0zm11 9a9 9 0 110-18 9 9 0 010 18z
-M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z
 M1.25 10.5a2 2 0 0 1 2-2v3.25a3 3 0 0 0 3 3h9v.75a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2z
 M1.5 10a8.5 8.5 0 1 1 16.075 3.859l.904 3.714a.75.75 0 0 1-.906.906l-3.714-.904A8.5 8.5 0 0 1 1.5 10
 M1.5 10a8.5 8.5 0 1 1 16.075 3.859l.904 3.714a.75.75 0 0 1-.906.906l-3.714-.904A8.5 8.5 0 0 1 1.5 10Z
@@ -11987,7 +11992,6 @@ M116.2 148.2s-17-3-35.9.2c.2 2.5 0 4.2 0 4.2s14.7-2.8 35.7-.3c.3-2.4.2-4 .2-4
 M117.4 147.4s-17-3-35.7.2v4.2s14.6-2.9 35.5-.4l.2-4
 M119.3 133.3c4.4-.6 3.6-1.2 4-4.8.8-5.2-3-17-8.2-25.1-1-10.7-12.6-11.3-12.6-11.3s4.3 5 4.2 16.2c1.4 5.3.8 14.5.8 14.5s5.3 11.4 11.8 10.5
 M12 12h.01
-M12 15l-3-3a22 22 0 012-3.95A12.88 12.88 0 0122 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 01-4 2z
 M12 17h.01
 M12.03 5.72a.75.75 0 0 1 0 1.06L8.81 10l3.22 3.22a.75.75 0 1 1-1.06 1.06l-3.75-3.75a.75.75 0 0 1 0-1.06l3.75-3.75a.75.75 0 0 1 1.06 0
 M12.034 12.681a.498.498 0 0 1 .647-.647l9 3.5a.5.5 0 0 1-.033.943l-3.444 1.068a1 1 0 0 0-.66.66l-1.067 3.443a.5.5 0 0 1-.943.033z
@@ -12176,6 +12180,7 @@ M33.8 0h68a4 4 0 0 1 4 4v93.3a4 4 0 0 1-4 4h-68a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4
 M338.514 53.164c7.853 0 14.219-6.374 14.219-14.238 0-7.863-6.366-14.237-14.219-14.237s-14.218 6.374-14.218 14.237c0 7.864 6.365 14.238 14.218 14.238Z
 M34.918 35.707l1.508 2.74-2.205 2.203-1.055-2.856z
 M35.057 8.673l1.162-1.428-.705-1.699 1.716.665 1.401-1.197-.104 1.839 1.571.96-1.78.471-.427 1.792-.998-1.547z
+M36 18c0-9.94-8.06-18-18-18
 M37.443 17.149c2.105-1.13 10.641 5.604 6.289 12.785-.268.444 1.764-2.077 1.619-1.644 5.559-6.181-5.105-15.365-6.387-13.437-1.392 2.098-.128.2-1.521 2.296z
 M37.5 23.6c2.4 0 4.6-.6 6.1-1.7l6-3.8-5.5-3.4c-1.6-1.3-4-2-6.6-2-4.7 0-8.5 2.4-8.5 5.4 0 3 3.8 5.5 8.5 5.5Z
 M38 290.3s2.3 1.2 7 1.2c6.4 0 8.7-1.7 8.7-1.7s.6 1.1-.7 2.2c-1 1-3.8 1.7-7.7 1.7-4.4 0-6.1-.6-7-1.3-1-.5-.8-1.6-.2-2.1
@@ -12188,7 +12193,6 @@ M39.027 97.386a4.788 4.788 0 014.789-4.788h36.326a4.788 4.788 0 014.788 4.788v53
 M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2
 M4.25 3a2 2 0 0 1 2-2h7.5a2 2 0 0 1 2 2v.5H4.25zm0 2h11.5v9.5H4.25zm0 11v1a2 2 0 0 0 2 2h7.5a2 2 0 0 0 2-2v-1z
 M4.25 5A.75.75 0 0 1 5 4.25h10a.75.75 0 0 1 .75.75v1.923a.75.75 0 0 1-1.5 0V5.75h-3.5v8.5h.75a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1 0-1.5h.75v-8.5h-3.5v1.173a.75.75 0 0 1-1.5 0z
-M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 00-2.91-.09z
 M4.5 30.5h14.5858c.5523 0 1-.4477 1-1a1 1 0 00-.293-.7071L5.2072 14.207a1 1 0 00-1.7071.7071V29.5c0 .5523.4477 1 1 1z
 M40 132.1a8.3 8.3 0 1 1-16.6-1.7 8.3 8.3 0 0 1 16.6 1.7
 M40.5 23h47
@@ -12329,7 +12333,6 @@ M88.4 83.2s2.7 6.2 11.6 6.5c7.8.3 9-7 7.5-17.5l-1-5.5c-6-2.9-15.4.6-15.4.6s-.6 2
 M89 89.5s7.8 5.4 16.6 2.8
 M89.118 140.763l3.06 4.888 8.769-2.426a4.828 4.828 0 002.201-1.236l1.844-1.782-5.258-8.455-8.792 4.442-1.824 4.569z
 M9 11.2h5.7
-M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5
 M9 16a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-2-4a2 2 0 1 0 0-4 2 2 0 0 0 0 4m0-6a2 2 0 1 0 0-4 2 2 0 0 0 0 4m6 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4m2 4a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-2 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4
 M9 17c2 0 2.8-1 2.8-2.8V10c0-2 1-3.3 3.2-3
 M9 3a6 6 0 1 0 0 12A6 6 0 0 0 9 3M1.5 9a7.5 7.5 0 1 1 13.307 4.746l3.473 3.474a.75.75 0 1 1-1.06 1.06l-3.473-3.473A7.5 7.5 0 0 1 1.5 9
@@ -12676,7 +12679,6 @@ Mark as not important
 Mark as read
 Mark as read (esc)
 Mark as unread
-Mark at most one CTA as Mobile-only; subsequent mobile-tagged rows fall through to the desktop slots so the data is never silently dropped.
 Mark boot as completed when all data has been dispatched
 Mark channel as important
 Mark channel bookmark triggers as stale
@@ -13222,7 +13224,6 @@ Minimal Card
 Minimal footer
 Minimal footer with legal text
 Minimal header
-Minimal header, no CTAs
 Minimal task card
 Minimal with headline only
 Minimize 2
@@ -13310,7 +13311,6 @@ Mobile preview
 Mobile push notifications toggle changed
 Mobile session duration disabled
 Mobile sessions must be a minimum of 4 hours.
-Mobile-only CTA
 Mock user settings
 Modal Preview
 Modal Size
@@ -15289,6 +15289,7 @@ PR merged
 PROJ-1234: Fix login timeout on mobile
 PTS rollover detected
 Pacific Standard Time
+Page Break
 Page Content
 Page Down
 Page Request
@@ -16052,6 +16053,7 @@ Private chat
 Private distribution has been sucessfully enabled for your app.
 Private document
 Private element is not present on this object
+Private file
 Private folder
 Private list
 Private message
@@ -16254,6 +16256,7 @@ Published Automations
 Published workflows (default)
 Publishes the app submission and optionally creates a beta app as well
 Puerto Rico
+Pull Quote
 Pull Request #1234
 Pull requests type changed
 Purchase Attempt Confirmation Response Received
@@ -16400,6 +16403,7 @@ Re-order tab soda tabs
 Re-render section
 Re-resolve mention and slug labels from current Redux state
 Re-runs the widget based on the placement id to get updated blocks.
+Re-upload file
 Re-using existing voice focus node
 Re-validate knowledge source files after file store update
 Reach a support agent any time, with a four-hour first-response target.
@@ -25042,6 +25046,7 @@ Use for mid-page feature sections that pair a visual with supporting copy, bulle
 Use for product screenshots, illustrations, or lifestyle imagery that supports the billboard message.
 Use for product screenshots, illustrations, or lifestyle imagery that supports the headline.
 Use header column
+Use header default
 Use header row
 Use huddles in channels to get the whole team aligned.
 Use localStorage data to reconstruct a multi-window layout
@@ -25059,7 +25064,6 @@ Use subheaders to break long copy into scannable sections, but skip them when a 
 Use template
 Use template and make a canvas
 Use template and make a canvas in the secondary view
-Use the 
 Use the Meeting Prep skill.
 Use the inverse option to swap content and asset positions
 Use the link feature to reference sources that have a public URL
@@ -25472,6 +25476,7 @@ View legal holds entities
 View less
 View link details
 View list details
+View live
 View live page
 View meeting notes
 View members
@@ -25557,7 +25562,6 @@ Virheellinen unioni
 Visibility of external organizations
 Visibility of external organizations in conversations
 Visibility of external orgs
-Visible to
 Visible to everyone in your organization, including guests, but not to Slack Connect users.
 Vision assistive
 Visit Agent Builder
