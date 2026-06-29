@@ -2486,6 +2486,7 @@ Auto-complete after 6s
 Auto-enable connector after external auth
 Auto-enable scope
 Auto-enable skill
+Auto-generated Channel Knowledge Canvas
 Auto-initialize Slackbot AI thread on message arrival
 Auto-insert draft on Composer API AI summary completion
 Auto-scroll through items
@@ -3743,6 +3744,7 @@ Channel Icon Outlines
 Channel Id is undefined
 Channel Info Outlines
 Channel Info Outlines 2
+Channel Knowledge Canvas
 Channel Management
 Channel Management Table
 Channel Manager
@@ -10322,7 +10324,6 @@ Include Slack Connect external channels
 Include all files in AI steps.
 Include all files in Slackbot search results.
 Include all files in search results.
-Include archived items
 Include channels in Recap
 Include connector sources in AI steps?
 Include content from other channels
@@ -10335,8 +10336,6 @@ Include files in Slackbot search results?
 Include files in search results?
 Include history from the beginning?
 Include in export
-Include item attachments
-Include message threads
 Include only uploaded files in AI steps.
 Include only uploaded files in Slackbot search results.
 Include only uploaded files in search results.
@@ -10838,8 +10837,6 @@ JIT event updated
 JS AES decrypt
 JSON (coming soon)
 JSON Lines
-JSON download failed
-JSON downloaded successfully
 JSON for Linking Data
 JSON niz
 JSON satr
@@ -16322,6 +16319,7 @@ Query if a name is already used by a username, channel, group, or subteam in an 
 Query members
 QueryManager stopped while query was in flight
 Question type
+Questions or feedback? Visit #proj-structured-intelligence
 Queue opening the embedded huddle meeting assistant pane on join
 Queues a toast to indicate file save success or failure
 Quick Actions
@@ -16981,6 +16979,7 @@ Remove Approval
 Remove Automation Rule?
 Remove Awareness State for me
 Remove Bookmarks Bar
+Remove Channel Knowledge Canvas?
 Remove Checked
 Remove Connection
 Remove DND override channel
@@ -17420,6 +17419,7 @@ Removes workspaces from a specified role member
 Removes workspaces from an apps installed list
 Removing layout parent for
 Removing non-flat range
+Removing this tab will disable the automatic nightly refresh of the Channel Knowledge Canvas for this channel. You can re-enable it later.
 Removing this team from the app exclusion list
 Removing view in child window
 Removing view in main window
@@ -23220,7 +23220,6 @@ Thread summary not available
 Thread with an AI agent
 Threads Outlines
 Threads View unable to log message impressions
-Threads and attachments require JSON download
 Threads in archived items are view only.
 Threads view componentDidCatch
 ThreadsFlexpane componentDidCatch
@@ -23910,6 +23909,7 @@ Unable to read grid type from localStorage
 Unable to read permissions.
 Unable to read self-tile corner from localStorage
 Unable to recover 
+Unable to refresh canvas. Please try again later.
 Unable to remove access. Refresh and try again later.
 Unable to remove policy. Please try again later
 Unable to render OAuth2InputParameter
