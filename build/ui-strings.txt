@@ -208,11 +208,9 @@
 2. Paste the response below, or paste your exported memory file.
 :E.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
 :E.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eP?eH:void 0,className:s()(eP||T||eF?
-:E.mv.ConfirmationModal,onClose:ez,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
 :I.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
 :I.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eP?eH:void 0,className:s()(eP||T||eF?
 :I.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:ej?eH:void 0,className:s()(ej||T||eF?
-:I.mv.ConfirmationModal,onClose:ez,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
 :O instanceof RegExp?
 :_ instanceof RegExp?
 :a?r:void 0,children:m?
@@ -228,7 +226,6 @@
 :void 0,credentialless:m?
 :void 0,credentialless:o?
 :void 0,skipDoneDialog:!0,buttonClassName:t?
-:w.mv.ConfirmationModal,onClose:ez,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
 @Finance Team Can you review this edit from Cathy Customer?
 A Call was rejected
 A DM was created
@@ -965,6 +962,7 @@ Add a bulleted list
 Add a button
 Add a canvas
 Add a canvas tab to channel
+Add a caption
 Add a channel
 Add a channel (up to 5): Channel names must be under 20 characters
 Add a channel ID to the deferred channel list
@@ -986,6 +984,7 @@ Add a file to a collection at its correct sorted position
 Add a file to the open list, and then maybe save to local storage.
 Add a form for this step?
 Add a form to your website and new leads will be automatically posted in this channel.
+Add a heading
 Add a horizontal rule
 Add a large heading
 Add a link
@@ -1044,6 +1043,7 @@ Add a short description
 Add a single space between lines
 Add a skill to Slackbot
 Add a skill to this skill set
+Add a subtitle
 Add a suggestion
 Add a summary
 Add a tab
@@ -1117,6 +1117,7 @@ Add at least one permission scope to install this app to your team
 Add auto provision status to each usergroup
 Add auto starter member, provisioning them onto the auto starter Salesforce Org
 Add block to section
+Add body text
 Add bookmark
 Add bookmark to bookmark store for a channel
 Add branch here
@@ -1250,6 +1251,7 @@ Add or update calendar user info
 Add or update currently installed calendar
 Add or update the installed calendars on a team
 Add or update the last ephemeral message of a certain type
+Add overlay text
 Add pack
 Add page to route
 Add people Outlines
@@ -1982,7 +1984,6 @@ Angular HTML
 Angular TypeScript
 Animals & Nature
 Animate a message deletion as well as calling the delete API endpoint
-Animated GIFs
 Animation Consistency
 Animation of an empty Slack workspace
 Animations are automatically disabled when the user has reduced-motion preferences
@@ -3895,6 +3896,7 @@ Channels, people, files, and more
 Characters per Second
 Charis SIL
 Charlie 
+Chart caption
 Chart type
 Chat Outlines
 Chat Room
@@ -6596,8 +6598,6 @@ Draw message must be correctly formed
 Draw on your own screen
 Dream Maker
 Drop Shadow
-Drop an image here or
-Drop an image or video here, or
 Drop here to replace
 Drop messages from before a given timestamp
 Drop old messages if there are too many
@@ -10256,11 +10256,13 @@ Image Gallery
 Image Position (desktop)
 Image Position (mobile)
 Image Source
+Image caption
 Image could not be found, switching to default input for device
 Image has no width, cannot find good size to fit
 Image left
 Image not available
 Image of Slackbot
+Image overlay text
 Image placeholder
 Image provided without URL hash:
 Image tabs with auto-scroll
@@ -13846,8 +13848,6 @@ No Microsoft apps available for your organization.
 No OAuth2 token parameter found
 No PDF src specified
 No Product UIs found
-No Recent Images
-No Recent Images or Videos
 No Reducer Found - get-segment-reducer.ts
 No Salesforce connections found. Contact your admin to add connections.
 No Selection
@@ -15886,7 +15886,6 @@ Potential spam activity
 Potentially EXPECTED ERROR in getOrCreateStripeCustomer - just make sure this is followed by a call to paymentsStripeCustomerCreate
 Potentially show a modal that tells the user they cannot delete the CKA folder
 Power through the afternoon
-Powered by GIPHY
 Powered by Salesforce, included with Business+
 Powerful tools that help your team move faster every day.
 Pre-comp 1
@@ -16536,8 +16535,6 @@ Receives api response, formats and cleans data, and updates results and paginati
 Recent Agents
 Recent DMs
 Recent Files Settings
-Recent Image
-Recent Video
 Recent agents
 Recent channels
 Recent direct messages
@@ -16553,7 +16550,6 @@ Recent templates
 Recent workspaces
 Recently completed
 Recently failed
-Recently picked item has no height.
 Recently updated by others
 Recently updated by you
 Recently used
@@ -16994,7 +16990,6 @@ Remove Email
 Remove Email Connection
 Remove Form
 Remove From Channel Managers
-Remove From Recent
 Remove From Section
 Remove GIF
 Remove Hard Coded Information
@@ -18000,6 +17995,7 @@ Run a keyboard shortcut without the keyboard
 Run a local or server slash command
 Run a project
 Run me through today
+Run my task 
 Run navigate listeners (side-effects) for a given navigation flow
 Run navigation middlewares
 Run shortcut
@@ -18335,7 +18331,6 @@ Search Confluence
 Search Connectors
 Search DMs
 Search Debug Results
-Search GIPHY
 Search Google Workspace Directory
 Search Header
 Search Microsoft Outlook Contacts
@@ -18345,7 +18340,6 @@ Search Results
 Search SalesForce objects by query
 Search Salesforce record types
 Search Slack shortcut - opens Universal Search
-Search Unsplash
 Search Workspace
 Search a channel
 Search accounts
@@ -19184,6 +19178,7 @@ Set connector app resolution and installation state.
 Set connector apps and their profile information coming from the server
 Set connector filters loading state
 Set container that should be displayed in fullscreen mode in a given window
+Set creator email type prediction from client extras
 Set current agent browser tab id
 Set current day on the calendar view
 Set current focused view type
@@ -21450,8 +21445,12 @@ Slash Commands
 Slicing scalar is not possible
 Slide Deck
 Slide Source
+Slide body
+Slide heading
 Slide left
 Slide progress
+Slide subtitle
+Slide title
 Slide up
 Small (24px)
 Small Fonts
@@ -21909,7 +21908,6 @@ Step to use for form fields
 Steps are hosted on Slack?
 Still curious? 
 Still recording
-Stock Photos
 Stone Informal
 Stone Serif
 Stop AI Notes
@@ -24826,8 +24824,6 @@ Upload CSV
 Upload Error
 Upload Files to queue instance and set the correct windowId
 Upload Image
-Upload Images
-Upload Media
 Upload Photo
 Upload Screenshots
 Upload Workflow Avatar
@@ -25814,10 +25810,12 @@ What you can do with Slack
 What you get out of the box
 When I view a channel:
 When [[column_key_and_value]], send a notification to [[user_id]]
+When a :emoji: reaction is added to a message in *#project-updates* channel and the user is a member of the workspace
 When a UI is set to private, it can only be viewed by invitation
 When a channel is created
 When a channel is set to private, it can only be viewed or joined by invitation.
 When a list item is updated
+When a message is posted to #general
 When a message is posted with keywords
 When a message is posted with keywords in selected channels
 When a new message is posted in #general
