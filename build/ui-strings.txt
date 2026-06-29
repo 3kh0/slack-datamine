@@ -208,7 +208,9 @@
 :E.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
 :E.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eP?eH:void 0,className:s()(eP||T||eF?
 :E.mv.ConfirmationModal,onClose:ez,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
+:I.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
 :I.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:eP?eH:void 0,className:s()(eP||T||eF?
+:I.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:ej?eH:void 0,className:s()(ej||T||eF?
 :I.mv.ConfirmationModal,onClose:ez,headerImageSrc:Q,headerImageAlt:e4,title:eD?eH:void 0,className:s()(eD||T||eF?
 :O instanceof RegExp?
 :_ instanceof RegExp?
@@ -516,25 +518,19 @@ AI is turned on for your team
 AI message explanations
 AI notes & transcription
 AI notes and transcription
-AI notes and transcription are back on
 AI notes and transcription are on.
 AI notes and transcription mode is allowed for huddles.
-AI notes and transcription on
 AI notes are back on
-AI notes are now back on. By participating, you agree to your audio being captured.
 AI notes are on
 AI notes are on for this huddle, so thread replies may be summarized in the notes.
-AI notes cancelled and transcript deleted
 AI notes not available for huddles in Slack Connect channels
 AI notes not available for huddles with guests
-AI notes on
 AI notes on 2 Outlines
 AI notes on 3 Outlines
 AI notes on 4 Outlines
 AI notes on Outlines
 AI notes only
 AI notes will be posted in channel in just a few.
-AI notes will be turned back on. By participating, you agree to your audio being captured. No audio recording or transcription will be stored.
 AI permissions
 AI powered
 AI prompt suggestions
@@ -1279,6 +1275,7 @@ Add saved item
 Add scope and press enter
 Add section
 Add skill
+Add skills from other organizations
 Add solution provisioning
 Add solutions related canvas templates
 Add solutions related list templates
@@ -1738,10 +1735,12 @@ Allow huddles in this channel?
 Allow inline editing only for these objects
 Allow invitations for any email address from these domains:
 Allow invitees to sign in via email and password
+Allow members to add skills shared from other organizations
 Allow members to run workflows with third-party connector steps
 Allow members to share AI answers
 Allow members to share AI explanations
 Allow members to share anniversary celebrations
+Allow members to share skills with other organizations
 Allow microphone access
 Allow microphone access in system preferences.
 Allow microphone access in windows settings. If you
@@ -2445,7 +2444,6 @@ Attribute Picklists
 Attribute modifier.
 AttributeNames has been replaced by MessageSystemAttributeNames
 Audio and video clips
-Audio capture stopped and AI notes deleted
 Audio clips
 Audio connectivity
 Audio context needs to be set on LocalAudioTrack in order to enable processors
@@ -4073,6 +4071,8 @@ Choose to pay by invoice
 Choose view
 Choose when to allow message editing.
 Choose when to start the migration
+Choose whether members can add Slackbot skills shared from other organizations.
+Choose whether members can create links that share their Slackbot skills with other organizations.
 Choose whether to allow app installations of Slack Marketplace apps.
 Choose whether to allow members to share files externally by creating public URLs.
 Choose whether users can skip repeated tool approvals on a per-file basis.
@@ -4747,6 +4747,7 @@ Completed metrics aggregation
 Completed on
 Completed usergroups.membership processing
 Completely delete a single custom template (your templates and featured templates)
+Completes the Ask Slackbot New Team Launchpad task if eligible
 Completes the in-flight TTU trace when page data is fully loaded.
 Completion Animation Speed (milliseconds)
 Compliance exports for messages
@@ -6672,6 +6673,7 @@ Easily update record details
 EcoNet - Energy Management System
 EcoSync - Sustainable Connectivity Platform
 Edit (your own message)
+Edit AI Notes
 Edit AI use setting
 Edit Agent About Section
 Edit Agent Settings
@@ -7448,9 +7450,6 @@ Everyone can post
 Everyone can reply to messages
 Everyone except guests can post
 Everyone in the channel
-Everyone in the channel will be able to view the notes and transcript.
-Everyone in the channel will be able to view the notes.
-Everyone in the channel will be able to view the transcript.
 Everyone in the organization
 Everyone in your workspace
 Everyone must knock, including people who are invited.
@@ -12957,6 +12956,7 @@ Member reactivation failed
 Member removed from group.
 Member search results
 Member with a long name
+Members can add Slackbot skills shared from other organizations.
 Members can automatically start notes in huddles.
 Members can connect to Salesforce from the Salesforce section of Preferences
 Members can easily see which external organizations they are working with in channels, direct messages, and threads.
@@ -12965,6 +12965,7 @@ Members can only install apps that have been pre-approved. Only App Managers wil
 Members can only request to work with external people in the workspaces you select.
 Members can share AI answers in Slack channels and DMs
 Members can share AI explanations in Slack channels and DMs
+Members can share Slackbot skills with other organizations via a link.
 Members can share anniversary celebrations in Slack channels and DMs
 Members can sign into approved apps with their Slack account.
 Members can sign into apps with their Slack account.
@@ -17813,13 +17814,11 @@ Results have come in, flatten and store in Redux
 Resume AI Notes & Transcription
 Resume AI notes
 Resume AI notes & transcription
-Resume AI notes and transcription?
 Resume a paused huddle recording
 Resume a paused huddle summary
 Resume notifications
 Resume taking notes with AI?
 Resume transcription
-Resume transcription?
 Resumed signal connection
 Resumes a download on the desktop app
 Resumes a workflow execution by ID and refreshes client token
@@ -20788,6 +20787,7 @@ Share section
 Share settings
 Share skill
 Share skill set
+Share skills with other organizations
 Share subtask
 Share template
 Share this canvas
@@ -21704,6 +21704,8 @@ Star your search
 Starred Outlines
 Starred searches
 Start A Chat
+Start AI Notes & Transcription
+Start AI notes & transcription
 Start Conversation
 Start Date
 Start Flow Animation
@@ -21906,6 +21908,7 @@ Still recording
 Stock Photos
 Stone Informal
 Stone Serif
+Stop AI Notes
 Stop Recording
 Stop Sharing
 Stop a 3P AI app streaming response
@@ -23491,16 +23494,11 @@ Transcript generation started. This may take a few minutes.
 Transcript in a different language
 Transcript is now available for this video.
 Transcript processing
-Transcription cancelled and transcript deleted
 Transcription failed. Please try again.
-Transcription is back on
 Transcription is now back on and will be included in the AI summary. By participating, you agree to being transcribed.
-Transcription is now back on. By participating, you agree to being transcribed.
-Transcription on
 Transcription only
 Transcription started successfully
 Transcription will be turned back on and will be included in the AI summary. By participating, you agree to being transcribed. Make sure everyone else is cool with that, too.
-Transcription will be turned back on. By participating, you agree to being transcribed. Make sure everyone else is cool with that, too.
 Transfer Ownership
 Transfer canvas ownership
 Transfer lists ownership
@@ -25585,6 +25583,7 @@ WKWebView iOS
 WMP navigation
 WMP users
 Wait and then try to show a Progressive Disclosure tip
+Wait for slackbot AI permission to propagate
 Wait until ElastiCache cluster is available.
 Wait until ElastiCache cluster is deleted.
 Wait until ElastiCache replication group is available.
