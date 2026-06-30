@@ -24,6 +24,15 @@ const ROOT = __dirname;
 const BUILD_DIR = path.join(ROOT, 'build');
 const CHUNK_CACHE = process.env.CORPUS_DIR || path.join(ROOT, 'corpus', '_chunks');
 
+const MBYTES = (() => {
+  const v = (process.env.CORPUS_MAX_BYTES || '').trim();
+  if (!v) return 10 * 1024 ** 3;
+  const m = /^(\d+(?:\.\d+)?)\s*([kmgt]?)b?$/i.exec(v);
+  if (!m) return 10 * 1024 ** 3;
+  const mult = { '': 1, k: 1024, m: 1024 ** 2, g: 1024 ** 3, t: 1024 ** 4 }[m[2].toLowerCase()];
+  return Math.round(parseFloat(m[1]) * mult);
+})();
+
 const argv = process.argv.slice(2);
 const flag = (f) => argv.includes(f);
 const opt = (n, d) => { const i = argv.indexOf(n); return i >= 0 && argv[i + 1] ? argv[i + 1] : d; };
@@ -221,6 +230,27 @@ const cachePath = (file) => {
     if (fs.existsSync(legacy)) return legacy;
   }
   return exact;
+};
+
+const pruneCache = (capBytes) => {
+  if (!capBytes || capBytes <= 0) return;
+  let entries;
+  try {
+    entries = fs.readdirSync(CHUNK_CACHE).map((name) => {
+      const fp = path.join(CHUNK_CACHE, name);
+      const st = fs.statSync(fp);
+      return { fp, size: st.size, mtime: st.mtimeMs };
+    });
+  } catch { return; }
+  let total = entries.reduce((a, e) => a + e.size, 0);
+  if (total <= capBytes) return;
+  entries.sort((a, b) => a.mtime - b.mtime);
+  let removed = 0, freed = 0;
+  for (const e of entries) {
+    if (total <= capBytes) break;
+    try { fs.unlinkSync(e.fp); total -= e.size; freed += e.size; removed++; } catch {}
+  }
+  log(`   cache prune: dropped ${removed} stale chunks, freed ${(freed / 1024 ** 2).toFixed(0)}MB (cap ${(capBytes / 1024 ** 3).toFixed(1)}GB)`);
 };
 const findMatching = (s, start, open = '{', close = '}') => {
   let depth = 0, quote = null, esc = false;
@@ -490,7 +520,7 @@ const logChunkDetails = (delta) => {
       const cp = path.join(CHUNK_CACHE, file);
       try {
         let js;
-        if (!FORCE && fs.existsSync(cp)) { js = fs.readFileSync(cp, 'utf8'); cached++; }
+        if (!FORCE && fs.existsSync(cp)) { js = fs.readFileSync(cp, 'utf8'); try { const t = new Date(); fs.utimesSync(cp, t, t); } catch {} cached++; }
         else { js = await fetchChunk(url); fs.writeFileSync(cp, js); fetched++; }
         extractInto(js, sets);
       } catch (e) { failedChunks.push({ file, error: e.message || String(e) }); }
@@ -503,6 +533,7 @@ const logChunkDetails = (delta) => {
     log(`   chunk ${file} bricked (${error})`);
   }
   if (failed > 20) log(`   ... ${failed - 20} more chunks fucked`);
+  pruneCache(MBYTES);
 
   // diff it up
   const previousMeta = readJson('meta.json');
