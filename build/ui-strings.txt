@@ -63,7 +63,6 @@
  in this channel.
  indexes were requested but not found in the response.
  instead.
- is a component designed to appear at the top of the channel sidebar.
  is a component originally designed to display in channel forewords. It receives an array of cards as its sole required prop.
  is a low level component for rendering a box.
  is a reserved command.
@@ -76,8 +75,6 @@
  is not data stream related!
  is not hostname compatible.
  is outside of range 0..
- is provided as a prop, the component is dismissible.
- is provided, it will be rendered on hover.
  is reserved and cannot be used.
  is supported.
  is the reason why the two components are able to operate in sync with each other.
@@ -164,7 +161,6 @@
 , other JavaScript not part of React, or work the browser has to do to update the DOM and draw the next frame.
 , post a report including a screenshot and a link to the previous message if this is a public channel.
 , weights must be provided.
-,checked:a,icon:r,className:i?V().atLimitRow:void 0,disabled:i,ariaDescribedBy:i?
 ,checked:a,icon:r,className:i?W().atLimitRow:void 0,disabled:i,ariaDescribedBy:i?
 ,counter:0,seen:new Map,cycles:e?.cycles??
 ,e.includeFieldLabel??!1);break;case c.LS.CONVERT_VARIABLE:this.convertVariable_(e.recordId,e.fieldLabel,e.fieldApiName??
@@ -747,7 +743,6 @@ Activates a Salesforce organization
 Active Agents
 Active Channels
 Active Discussions Settings
-Active Group
 Active State
 Active Users and Events
 Active buckets (5-second windows) in the last 10 minutes:
@@ -8059,7 +8054,6 @@ Failed to write preferences to localStorage (no API fallback)
 Failure requesting DRM license: 
 Fake Windows Title Bar
 Fake an RTM event for testing only
-Fake edit user group menu
 Falkland Islands
 Falkland Islands (Malvinas)
 Fallback (already set)
