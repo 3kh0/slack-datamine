@@ -2638,6 +2638,7 @@ Based on a survey of Slack users across organizations of all sizes
 Based on this content
 Based on which toggles are active, navigates to the proper agent home
 Based on your activity
+Based on your activity and priorities, here are a few things to set up that can speed up your work.
 Basic AI
 Basic Chip
 Basic Communication
@@ -7924,10 +7925,10 @@ Failed to register Slack Scribe paste-last-transcript shortcut
 Failed to register rsvp
 Failed to register slackbot mini shortcut
 Failed to remove file. Please try again.
-Failed to remove move listener
 Failed to remove skill from skill set
 Failed to remove skill. Please try again.
 Failed to remove tokens from connected apps when turning off IDL via user prefs.
+Failed to remove will-move listener
 Failed to replace audio track
 Failed to report client metrics
 Failed to report dogfood boot
@@ -7941,6 +7942,7 @@ Failed to restore items. Please try again.
 Failed to retrieve data
 Failed to retrieve task: Task not found
 Failed to save Slack Scribe sounds pref
+Failed to save Slackbot NUX carousel memory
 Failed to save agent access settings
 Failed to save ai_apps_settings
 Failed to save app access settings
@@ -8137,6 +8139,8 @@ Fetch Salesforce list view recommendations for an org
 Fetch Self User Data
 Fetch Slack Doc file IDs for and re-map
 Fetch Slackbot AI usage information
+Fetch Slackbot NUX carousel content
+Fetch Slackbot NUX carousel recommendations
 Fetch Slackiversary data for eligibility check
 Fetch States and Countries
 Fetch Tableau embed token for the provided URL if needed (using canvases.getEmbedToken)
@@ -9432,7 +9436,6 @@ Go full screen
 Go online to change your language.
 Go online to get the latest saved items.
 Go online to join this channel
-Go online to load more activity.
 Go online to load more messages.
 Go online to load more threads.
 Go online to start a call
@@ -11857,6 +11860,7 @@ Looking for something you saved?
 Looking for something?
 Looking fresh! No new recommendations.
 Looks at the input for the given view context and determines if an agent can be mentioned
+Looks good
 Looks like a slash command; attempt to parse and execute
 Looks like this person is a coworker
 Looks like your content contains rich markdown.
@@ -13804,6 +13808,7 @@ Next month
 Next page
 Next priority
 Next quote
+Next recommendation
 Next result
 Next week
 Next workspace
@@ -14012,7 +14017,6 @@ No matching code channels
 No matching columns
 No matching file found.
 No matching installed apps found.
-No matching objects
 No matching sidekicks
 No media found for this channel.
 No media found for this meeting.
@@ -14040,7 +14044,6 @@ No node at given position
 No node at position 
 No node in DOM
 No object found for local storage key
-No object types
 No offset parent for bubble
 No one can override the org-wide retention settings.
 No one can reply to messages
@@ -14438,7 +14441,6 @@ Object already initialized
 Object has no ID
 Object index out of bounds for index.
 Object not supported
-Object type selector
 Object.assign cannot be called with null or undefined
 October 4, 2023
 Offer Applied: 50% off for three months of Slack Pro
@@ -15997,6 +15999,7 @@ Previous month
 Previous page
 Previous priority
 Previous quote
+Previous recommendation
 Previous result
 Previous tab
 Previous year
@@ -18186,6 +18189,7 @@ Save Policy
 Save Response
 Save Rule
 Save Setting
+Save Slackbot NUX carousel content to memory
 Save Slackbot write settings
 Save Template
 Save WMP route via wmp.routes.update
@@ -19012,6 +19016,8 @@ Set Section Elements
 Set Selected Product UI
 Set Slack Connect prefs for the current org
 Set Slackbot AI NUX state
+Set Slackbot NUX carousel data
+Set Slackbot NUX carousel recommendations
 Set Slackiversary data
 Set Spring Cleaning popover open state
 Set Spring Cleaning slash command animation
@@ -19229,6 +19235,8 @@ Set error for Salesforce org setup UI
 Set error from loading reports via the API call
 Set error of 
 Set error state
+Set error state for Slackbot NUX carousel fetch
+Set error state for Slackbot NUX carousel recommendations fetch
 Set error state for Slackiversary fetch
 Set error state for a draft
 Set error state for channel join reason
@@ -19331,6 +19339,8 @@ Set list of recently run trigger ids to store
 Set list of successfully fetched external datasource list.
 Set list view recommendations for a Salesforce org
 Set loading state for Grid upgrade intents
+Set loading state for Slackbot NUX carousel fetch
+Set loading state for Slackbot NUX carousel recommendations fetch
 Set loading state for Slackiversary fetch
 Set loading state for channel join reason
 Set loading state for emoji collections
@@ -20778,6 +20788,7 @@ Share folder
 Share item
 Share list
 Share message
+Share more about yourself
 Share record
 Share screen
 Share section
@@ -21428,6 +21439,7 @@ Slackbot is off for your organization.
 Slackbot is ready. Type a message or choose a suggested skill to begin.
 Slackbot is thinking
 Slackbot message
+Slackbot onboarding
 Slackbot response stopped
 Slackbot saved these from your conversations to make future responses more relevant.
 Slackbot settings
@@ -26346,6 +26358,7 @@ Your Salesforce org will be disconnected
 Your Salesforce record in Slack
 Your Salesforce records in Slack
 Your Slack Connect settings have changed. New Slack Connect channels cannot be added to this workspace.
+Your Slack animal
 Your Slack app was uninstalled.
 Your Slack persona
 Your Slack workspace know it all
@@ -26567,7 +26580,6 @@ localStorage read failed; client theme will not be persisted.
 localStorage write failed; client theme will not be persisted.
 localStorage write failed; system sync will not be persisted.
 m Slackbot!
-m here to help you stay on top of what matters most, without having to chase it down.
 malformed comment.
 markWithAPI tried too many times!
 maybeOpenModal failed to dispatch modal.
