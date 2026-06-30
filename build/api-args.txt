@@ -161,6 +161,8 @@ chat.postMessage:text
 chat.removeFile:channel
 chat.removeFile:file
 chat.removeFile:ts
+client.codeChannels.join:channel_id
+client.codeChannels.join:origin_channel_id
 client.counts:_x_reason
 client.counts:include_all_unreads
 client.counts:include_file_channels
