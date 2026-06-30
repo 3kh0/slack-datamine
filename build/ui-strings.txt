@@ -328,6 +328,7 @@ A message you saved was deleted.
 A message you saved was not found.
 A new app messaging experience makes having conversations with AI-powered agents and assistants a snap. Install apps with an assistant or agent, and put them to work today.
 A new comment selection cannot contain other comments or reactions.
+A new home for all your to-dos
 A new member has joined
 A new reaction selection cannot contain other reactions or comments.
 A new version of the app is available.
@@ -1411,6 +1412,7 @@ Adds a Quip document id as the latest document
 Adds a bookmark to the channel specified
 Adds a calendar reminder
 Adds a comment to a flagged content item
+Adds a cryptographic signature to your emails for stronger authentication and better deliverability.
 Adds a domain and its generated challenge string to list of domains and increments domainCount
 Adds a file ID to a draft and syncs the updates
 Adds a filter for channel to activity feed
@@ -1807,7 +1809,6 @@ Alt Text (override)
 Alt Text Editor
 Alt text saved.
 Alter pinned canvases for an external workspace
-Alternate DKIM key
 Alternate Email
 Alternate Phone
 Alternate Value
@@ -2604,6 +2605,8 @@ Background worker video transform device preloaded successfully
 BackgroundBlur processor successfully created
 BackgroundReplacement processor successfully created
 Backing 2
+Backup selector
+Backup selector must be a unique value
 Bad Promise constructor
 Bad Response
 Bad attendeeId when removing self
@@ -4028,8 +4031,10 @@ Choose a plan
 Choose a rating
 Choose a server
 Choose a shared CTA
+Choose a short, unique name to identify your authorized sender.
 Choose a specific date
 Choose a stranger theme
+Choose a verification method
 Choose a video background
 Choose a workspace
 Choose access
@@ -5751,7 +5756,7 @@ DB Infra
 DER- Delete to End of Row
 DEV ONLY not intended for production use: Clears all notifications currently present in redux by recording a megaphone dismissal
 DEV ONLY not intended for production use: Clears notifications in a given space by recording a megaphone dismissal, until the desired notification is returned
-DKIM Key (Recommended)
+DKIM key (recommended)
 DLP Archived Violations Table
 DLP Rules Table
 DLP Violations Rule Table
@@ -6517,13 +6522,12 @@ Does not support reading texture for complex64 dtype.
 Does the user have permission to join the channel
 Does the user have permission to leave the current channel
 Dolphin Halloween
-Domain Name
 Domain activated.
 Domain claiming
 Domain must be 253 characters or fewer.
+Domain name
 Domain not allowed
 Domain search
-DomainKeys Identified Mail (DKIM) adds cryptographic signatures to your emails, providing stronger authentication, improving deliverability.
 Dominican Republic
 Done all uploads
 Done and done
@@ -7130,28 +7134,28 @@ Ensures members with corresponding ids are
 Ensures unknown channels with corresponding ids have been fetched
 Ensures unknown user groups with corresponding ids have been fetched
 Enter Single Domain
-Enter a DKIM key
 Enter a URL
 Enter a URL path.
+Enter a backup selector
 Enter a description
 Enter a domain.
 Enter a folder name
 Enter a group handle
 Enter a group name
 Enter a handle
-Enter a key.
 Enter a link to a Google Doc, Google Slides, or uploaded Google Drive file.
 Enter a name or email
 Enter a name, email, or user group
 Enter a new tag...
 Enter a page name.
+Enter a selector
+Enter a selector.
 Enter a skill set name
 Enter a valid URL path.
 Enter a valid domain (e.g. example.com).
 Enter a valid subroute.
 Enter a variable name
 Enter agent description
-Enter an alternate DKIM key
 Enter at least 3 characters to search for a list in Salesforce
 Enter client ID
 Enter client secret
@@ -10044,7 +10048,6 @@ How to use Slack?
 How was the audio and video?
 How will the discount work?
 How would you like to proceed with this request? Choose one of the options below
-How would you like to verify your domain?
 How you and your team are using Pro features
 HtmlToPbParser already registered for 
 Huddle AI Notes
@@ -11320,6 +11323,7 @@ Learn how Slack keeps data secure
 Learn how information is shared in your organization.
 Learn how information is shared in your workspace.
 Learn how to get started
+Learn how to set up common providers
 Learn how your team is using channels
 Learn more
 Learn more about AI workflows
@@ -11346,7 +11350,6 @@ Learn more about the anomalous reasons that flagged this event
 Learn more about the shape of the select state
 Learn more about verified organizations.
 Learn more about workflows
-Learn more on how to set up common providers
 Learn more.
 Learn, explore, or discover something new from Slack conversations
 Least favorite link
@@ -12435,7 +12438,6 @@ MacBook Pro 16-inch Space Black
 Machine Learning
 Madlibs config not found for workflow
 Magenta-Red Solid 1
-Main DKIM key
 Main Menu
 Main View BG Outlines
 Main View Content
@@ -12443,6 +12445,7 @@ Main View channel Outlines
 Main View divider Outlines
 Main View.png
 Main content could not be located.
+Main selector
 Main window blurred
 Main window focused
 Main window unloading
@@ -15651,6 +15654,7 @@ Pick a different default avatar.
 Pick a jazz theme
 Pick a project
 Pick a random default avatar. The current avatar will be replaced.
+Pick a second, different name to use as a backup.
 Pick a start time
 Pick a template to preview the blocks and JSON together, or jump straight into the builder and start customizing.
 Pick a ticket list from the dropdown
@@ -16590,7 +16594,6 @@ Record Channel Tag.png
 Record Edits
 Record Meet Slackbot sidebar link impression
 Record Notes
-Record Type
 Record Unavailable
 Record a clip anytime
 Record a frecency event for some message action + maybe a query
@@ -16618,6 +16621,7 @@ Record that a user has taken an action on a UI component
 Record the result of a passkey registration attempt
 Record the result of the mini survey we first display the user after a huddle ends.
 Record trial pro banner interaction
+Record type
 Record unfurls & click to detail view
 Record video clip
 Record was deleted
@@ -17289,6 +17293,7 @@ Remove typing activity for multiple keys
 Remove updates from store
 Remove user consent for provided scopes for an app
 Remove variable
+Remove verification
 Remove video clip
 Remove viewers
 Remove viewers from quip presence
@@ -21547,7 +21552,6 @@ Something went wrong fetching insights
 Something went wrong fetching the diff. Please try again later.
 Something went wrong in cancel plan API
 Something went wrong loading content from this app.
-Something went wrong loading domain verification. Please try again later.
 Something went wrong loading your Salesforce connections. Please try again.
 Something went wrong removing the field. Please try again.
 Something went wrong removing this domain. Please try again later.
@@ -22601,7 +22605,6 @@ The agent will forward messages to this channel when people request more help.
 The agent will use everything from a channel as sources.
 The agentforce step cannot be used with a private channel. Please choose a public channel to proceed.
 The all-calls-store should not be used in the call window. Use the active-call-store for local call state.
-The alternate key must be different from the DKIM key.
 The amount of computational work that your system performs
 The animation loop runs via 
 The app will no longer appear in the 
@@ -22822,6 +22825,7 @@ There is no position after the top-level node
 There is no position before the top-level node
 There is no sender or receiver for the track.
 There should be an active call in progress in order to send logs.
+There was a problem activating the domain. Wait a moment and try again.
 There was a problem adding these agents. Give it another try in a few minutes.
 There was a problem adding your Salesforce organization
 There was a problem adding your org
@@ -22836,6 +22840,7 @@ There was a problem loading tasks.
 There was a problem loading these Channel Managers. Give it another try in a few minutes.
 There was a problem loading this page. Try again in a few minutes.
 There was a problem loading your Salesforce organizations
+There was a problem loading your domain verification settings. Try again in a few minutes.
 There was a problem loading your field mappings
 There was a problem loading your integration information
 There was a problem making this person a Channel Manager. Give it another try in a few minutes.
