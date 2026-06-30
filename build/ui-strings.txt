@@ -61,7 +61,6 @@
  in this channel.
  indexes were requested but not found in the response.
  instead.
- is a component designed to appear at the top of the channel sidebar.
  is a component originally designed to display in channel forewords. It receives an array of cards as its sole required prop.
  is a low level component for rendering a box.
  is a reserved command.
@@ -74,8 +73,6 @@
  is not data stream related!
  is not hostname compatible.
  is outside of range 0..
- is provided as a prop, the component is dismissible.
- is provided, it will be rendered on hover.
  is reserved and cannot be used.
  is supported.
  is the reason why the two components are able to operate in sync with each other.
@@ -162,7 +159,6 @@
 , other JavaScript not part of React, or work the browser has to do to update the DOM and draw the next frame.
 , post a report including a screenshot and a link to the previous message if this is a public channel.
 , weights must be provided.
-,checked:a,icon:r,className:i?V().atLimitRow:void 0,disabled:i,ariaDescribedBy:i?
 ,checked:a,icon:r,className:i?W().atLimitRow:void 0,disabled:i,ariaDescribedBy:i?
 ,counter:0,seen:new Map,cycles:e?.cycles??
 ,e.includeFieldLabel??!1);break;case c.LS.CONVERT_VARIABLE:this.convertVariable_(e.recordId,e.fieldLabel,e.fieldApiName??
@@ -686,7 +682,6 @@ Account ID
 Account Identifier (optional)
 Account Name
 Account Name  Outlines
-Account Owner
 Account Owner  Outlines
 Account Settings
 Account Types
@@ -745,7 +740,6 @@ Activates a Salesforce organization
 Active Agents
 Active Channels
 Active Discussions Settings
-Active Group
 Active State
 Active Users and Events
 Active buckets (5-second windows) in the last 10 minutes:
@@ -1966,7 +1960,6 @@ AnalyticsAgent: Running in manual mode (tracking
 AnalyticsAgent: Running in multi-component mode
 Analyze existing notification settings schema
 Analyzed existing notification settings schema
-Analyzing membership data...
 Analyzing stored device records
 Anatomy of a Product UI
 Anchor Link Not Copied
@@ -2201,7 +2194,6 @@ Arcado Buendia
 Architecture Recommendations
 Archive Alert
 Archive Channel
-Archive Item
 Archive Product UI
 Archive Recommendation
 Archive a Product UI
@@ -4653,10 +4645,8 @@ Collapsible Entity
 Collect PerformanceResourceTiming data
 Collect Weekly Updates
 Collect and share information with a canvas, or track your next project in a list.
-Collect and vote on ideas from your team. This is a very long
 Collect data on how long it
 Collect feedback, schedule messages, and so much more with Workflows.
-Collect info in a form
 Collect information
 Collect, share information, and track your next project with a canvas
 Collect, share information, and track your next project with a list
@@ -5099,7 +5089,6 @@ Copies a link for the Whats New flexpane
 Copies canvas link to clipboard
 Copies link to member to clipboard
 Copies list link to clipboard
-Copies the widget URL to the clipboard
 Copy AI explanation
 Copy Anchor Link
 Copy Email Address
@@ -5627,7 +5616,6 @@ Crie perguntas frequentes...
 Critical Performance Considerations
 Crop Workflow Avatar
 Crop your photo
-Crowdsource ideas. This is a very long primary label that we want to test
 Ctrl + Shift + Alt + H
 Ctrl + Shift + H
 Ctrl Alt Click
@@ -5992,7 +5980,6 @@ Delete Context Bar
 Delete Draft
 Delete Full Sidebar
 Delete IP Address
-Delete Item
 Delete List
 Delete Message
 Delete Message Input
@@ -7214,7 +7201,6 @@ Enterprise-grade compliance tools
 Enterprise-grade infrastructure modernization initiative spanning multiple data centers with zero-downtime migration requirements and strict compliance mandates
 Enterprise-grade security and compliance controls keep your data protected without slowing your team down.
 Enterprise-grade security built in
-Entity State
 Entity is not an instance of PositionedEntity
 Entity is not lockable
 Entity type
@@ -8057,7 +8043,6 @@ Failed to write preferences to localStorage (no API fallback)
 Failure requesting DRM license: 
 Fake Windows Title Bar
 Fake an RTM event for testing only
-Fake edit user group menu
 Falkland Islands
 Falkland Islands (Malvinas)
 Fallback (already set)
@@ -8317,6 +8302,7 @@ Fetch org-level retention settings
 Fetch outgoing invite for member
 Fetch owners and admins members count on a team
 Fetch page 1 of all search results for a given query and filters
+Fetch pending outgoing invites
 Fetch permission summary data for a particular app
 Fetch pinned items list for channel
 Fetch pinned items list for channel if not already fetched
@@ -9139,7 +9125,6 @@ Generating document title with fullscreen enabled
 Generating key-session request for 
 Generating summary
 Generating summary of findings
-Generating summary report
 Generator is already executing.
 Generator is already running
 Generic link unfurl (title + text + image)
@@ -9880,7 +9865,6 @@ Help others recognize you
 Help others understand what this skill set is for.
 Help people find and use workflows relevant to this channel.
 Help your new teammate feel welcome. Share a channel where they can get to know the rest of the team.
-Help your team focus on what
 Helper for handling history
 Helvetica Condensed
 Helvetica Neue
@@ -10045,7 +10029,6 @@ How to use Slack
 How to use Slack?
 How was the audio and video?
 How will the discount work?
-How would you like to proceed with this request? Choose one of the options below
 How you and your team are using Pro features
 HtmlToPbParser already registered for 
 Huddle AI Notes
@@ -10123,7 +10106,6 @@ I am an italic rich text block!
 I am an optional disclaimer
 I am hint text. 
 I am more preformatted text following a quote block
-I can help with that. Streaming text introduces the choices, then the actions block below drops in with its label, then the buttons appear.
 I can help you do your best work in Slack.
 I can set reminders, search files and pull in info from your calendar and other connected apps, and recommend time-saving strategies.
 I found this article confusing or difficult to read
@@ -12559,8 +12541,6 @@ Manage agents
 Manage allowed domains
 Manage and monitor Salesforce orgs connected to Slack
 Manage and monitor the Salesforce org connected to Slack
-Manage and monitor work as a team so that we can maximize productivity and reach our goals as a company and become profitable
-Manage and monitor your work as a team all in one place.
 Manage and review Slack Connect invitation requests from members of your organization.
 Manage and review requests to provision new developer sandboxes for your organization
 Manage app access
@@ -13541,7 +13521,6 @@ My Opportunities
 My Service for Slack
 My Slack Service
 My Tasks
-My Workflow
 My channels
 My dialog
 My events
@@ -14629,7 +14608,6 @@ Open Huddle in new window
 Open Huddle invite modal, optionally with pre-selected members
 Open JP Pocket Guide email template modal
 Open JP Pocket Guide invite team modal
-Open Link
 Open Link in Browser
 Open More menu
 Open Outlook App
@@ -14643,7 +14621,6 @@ Open Salesforce organizations menu
 Open Saved for later page
 Open Saved in either page or flexpane
 Open Search
-Open Slack
 Open Slack Connect trial entry point modal
 Open Slackbot AI in empty state
 Open Slackbot to help you respond to this thread
@@ -14688,7 +14665,6 @@ Open a window to pick a Box file for drafts
 Open a window to pick a Dropbox file for Drafts
 Open a window to pick a GDrive file in the composer page (drafts)
 Open a window to pick a OneDrive file, either in a channel or composer
-Open account
 Open admin page
 Open an SCDM with an external user
 Open an app view in a modal
@@ -16106,7 +16082,6 @@ Process agent exchange results
 Process and add emoji collections
 Process history navigation in child windows with middleware and side effects and update the rendered view set
 Process telemetry after result render
-Processed all channel membership data.
 Processed heads out of sync with AD for 
 Processes a drafts attachments and upserts to the block unfurl store
 Processes a drafts attachments and upserts to the gif unfurl store
@@ -16115,7 +16090,6 @@ Processes incoming search messages
 Processes the addRemoveTeamIdsFromRoleMember promises
 Processes the partial search results items and upserts channels and files to redux
 Processing app metrics
-Processing channel information
 Processing device list
 Processing shortcut
 Processing step restrictions:
@@ -16177,8 +16151,6 @@ Project name, example: Q4 budget, autumn campaign
 Project starter kit Outlines
 Project starter kit selected Outlines
 Project text
-Project tracker
-Project tracker doc with a lot of items and tasks and will eventually help us get rid of jira!
 Project updates
 Promise was cancelled
 Promo Cards
@@ -16879,7 +16851,6 @@ Refresh single recap channel
 Refresh unfurl timed out
 Refresh user context for a custom step, if needed
 Refreshed and ready to go!
-Refreshes the widget UI
 Refreshing a file errored
 Refreshing all permissions
 Refreshing dashboard
@@ -17528,7 +17499,6 @@ Reply in thread
 Reply to Email
 Reply to thread
 Report actions
-Report generated with 3 sections.
 Report has no content
 Report is not available in this environment. Try opening the link in a web browser.
 Report not found
@@ -17570,7 +17540,6 @@ Request access to Elevate
 Request access to customer management in Slack
 Request an Upgrade
 Request an upgrade to Business+
-Request and collect feedback from your customers
 Request cancellation of pending form changes
 Request cancelled
 Request channel history for a given timespan
@@ -18102,7 +18071,6 @@ SalesHome Error:
 Salesforce Approvals
 Salesforce Data Format
 Salesforce Data Mention
-Salesforce Demo
 Salesforce Demo Private
 Salesforce Demo Public
 Salesforce Icon
@@ -18131,7 +18099,6 @@ Salesforce data
 Salesforce data field
 Salesforce deep link missing record ID
 Salesforce event settings
-Salesforce icon
 Salesforce list
 Salesforce list view
 Salesforce list view link
@@ -18305,7 +18272,6 @@ Scopes to be accessed by this token
 Scopes to request during authorization. Press enter to add each scope.
 Score activity items
 Score threshold
-Scott Swensen
 Screen capture start failed
 Screen locked (likely system wake)
 Screen locked on blur (system sleep)
@@ -18514,14 +18480,12 @@ Second item
 Second section after a divider.
 Secondary CTA
 Secondary Color
-Secondary Label
 Secondary Label Outlines
 Secondary Logo
 Secondary Name
 Secondary Quote
 Secondary Title
 Secondary View
-Secondary label
 Secondary panel width
 Secondary view actions
 Secondary view has changed
@@ -19163,6 +19127,9 @@ Set auth:ok for a Salesforce org
 Set big button mode specific settings
 Set blocked action to show banner notification
 Set bulk channel notification override, and call API
+Set bulk error state for invited user invites
+Set bulk invite data for invited users
+Set bulk loading state for invited user invites
 Set calendar contact import step
 Set calendar event location with a huddle link
 Set calendar events for user. Overrides existing events, if any.
@@ -21371,7 +21338,6 @@ Slack has transformed how our engineering teams collaborate across time zones. W
 Slack helps our team move faster.
 Slack huddles
 Slack huddles interface
-Slack icon
 Slack image
 Slack is a new way to communicate with your team.
 Slack is best with 3+ people
@@ -21395,9 +21361,6 @@ Slack setup is complete!
 Slack steps take actions in Slack messages, channels, forms and more. Connector steps take actions in third-party apps. Triggers start workflow automations.
 Slack template
 Slack themes
-Slack tools for hybrid work
-Slack tools for working in person
-Slack tools for working remotely
 Slack user
 Slack user account field
 Slack uses your time zone to send summary and notification emails, for times in your activity feeds, and for reminders.
@@ -21791,7 +21754,6 @@ Start editing a message unless a different message is being edited and has unsav
 Start editing info right in Slack
 Start editing the last message in a given channel
 Start failed and not connected. Not cleaning up.
-Start fresh with a blank list.
 Start fresh with a new channel and add your team
 Start from a template
 Start from scratch
@@ -22121,7 +22083,6 @@ Successfully loaded the VideoFxProcessor
 Successfully persisted state
 Successfully re-connected to Huddle
 Successfully redeemed promo code
-Successfully retrieved 42 channels.
 Successfully retrieved thinking steps schema and configuration data
 Successfully updated effect on existing background worker device
 Successfully validated and persisted company address
@@ -22455,7 +22416,6 @@ Team name 2
 Team name 3
 Team not able to upload files
 Team plan status loaded
-Team priorities
 Team settings
 Team standup
 Team state not available while initializing ActiveMediaSessionService
@@ -22911,7 +22871,6 @@ This Salesforce account does not have sufficient API access.
 This Salesforce account is already linked to another Slack user.
 This account has been deactivated.
 This action can
-This action cannot be undone.
 This action cannot be undone. Previous requests that were resolved by this rule will not be changed, but this rule will no longer be executed or available in the future.
 This action has already been completed
 This action is blocked by your connector preferences.
@@ -23099,7 +23058,6 @@ This migration link has expired. To get a new link and complete the migration, c
 This model execution did not contain any nodes with control flow or dynamic output shapes. You can use model.execute() instead.
 This model has never been called, thus its weights have not been created yet. So no summary can be displayed. Build the model first (e.g., by calling it on some test data).
 This month
-This name appears in the workspace directory and in every invitation email, so choose carefully.
 This name is already being used
 This number is too large.
 This number is too small.
@@ -25191,7 +25149,6 @@ Users select
 Users will no longer be able to use this template.
 Uses Opus for more capable, in-depth responses
 Uses Sonnet for fast, everyday responses
-Uses a form to collect information
 Uses token rotation
 Using Firefox device permissions strategy
 Using a specific term
@@ -25384,7 +25341,6 @@ View DMs shortcut - opens DM Browser
 View Deactivated Members
 View Details
 View Do Not Disturb settings for people in a workspace
-View Docs
 View Error
 View Event Details
 View Example
@@ -25820,7 +25776,6 @@ What should I focus on regarding Q4 forecast variance, DataNet P1 escalation, an
 What should external people know about your role?
 What should they be able to do in this channel?
 What should they be able to do?
-What should we name this project? Pick something memorable and unique to your team
 What to focus on today
 What type of canvas do you want to update?
 What type of component is this?
@@ -25960,8 +25915,6 @@ With Slack Connect, your team can sync with other organizations that use GovSlac
 With a qualifying educational email address
 With better indentation, smaller icons, and section menus, your sidebar should now be easier to scan.
 With canvases, you can:
-With everything you need together in one spot, you can make the most out of in-office collaboration.
-With everything you need together in one spot, you can stay connected and keep work moving forward.
 With more people, you can:
 With people
 With permission to post only
@@ -26639,7 +26592,6 @@ s current page to work on.
 s device is running on battery power, which could limit device performance and cause audio, video, or application lag. If they report such issues, suggest they connect their device to a power source.
 s dtype must be an int32.
 s gonna hit about a 2-iron, I think. Oh, he got all of that.
-s important.
 s language and region preference in BCP 47 format.
 s leading streaming platforms uses Slack to coordinate across 5,000+ engineers.
 s looking empty here!
@@ -26654,7 +26606,6 @@ s permissions you can visit the App page of the Slack Marketplace.
 s power management settings.
 s public messages and files.
 s real prices, discounts, etc.
-s rich text content appropriately.
 s routes!
 s search query history.
 s snippet. Also, the possessive affix is localized, but please move it before or after the user name depending on whether possessives are prefixes or suffixes for your language.
