@@ -1452,7 +1452,7 @@ Adds a set of users to a given role
 Adds a single related channel to a record
 Adds a skill entry to the enabled list
 Adds a skill set id to the installed list (idempotent)
-Adds a step to a Hermes Workflow
+Adds a step to a workflow
 Adds a tab to a channel and navigates to that tab
 Adds a team to the enterprise_excluded_app_teams pref
 Adds a today item to the store, or updates it if it already exists
@@ -5404,7 +5404,6 @@ Create FAQs... 3 Outlines
 Create FAQs... Outlines
 Create Google Spreadsheet
 Create Group
-Create Hermes Workflow Success
 Create Legal Hold
 Create Menu 2
 Create New
@@ -5437,15 +5436,13 @@ Create Workflow
 Create Workflow Success
 Create Workflow shortcut - launches Workflow Builder
 Create Workspace
-Create a (or update an existing) Hermes Start from Scratch Workflow with the passed new trigger
+Create a (or update an existing) Start from Scratch workflow with the passed new trigger
 Create a Channel
 Create a Gdrive File
 Create a Google Document
 Create a Google Presentation
 Create a Google Spreadsheet
 Create a Google file
-Create a Hermes Workflow
-Create a Hermes Workflow without a trigger
 Create a Hermes Workflow without a trigger and opens it for editing
 Create a PR
 Create a Post file via API
@@ -5468,8 +5465,6 @@ Create a custom view
 Create a delegate object for interop with the desktop app
 Create a document with Gdrive shortcut - opens Create GDoc dialog with document type
 Create a folder
-Create a hermes trigger
-Create a hermes workflow from a template and display it for editing in the workflow builder
 Create a list
 Create a list and associate it with a new channel tab
 Create a list doc, open it, and maybe insert into message input
@@ -5511,11 +5506,15 @@ Create a table for roles and responsibilities of people in #
 Create a task with Slackbot
 Create a template
 Create a text snippet
+Create a trigger
 Create a user group for all admins
 Create a user group for all owners
 Create a video recording
 Create a view
 Create a web form at any time by clicking on the channel name and opening the Integrations tab.
+Create a workflow
+Create a workflow from a template and display it for editing in the workflow builder
+Create a workflow without a trigger
 Create action items from this canvas
 Create alternate
 Create an AI workflow
@@ -7384,7 +7383,7 @@ Error setting preferred devices in local storage
 Error setting private channel permissions: 
 Error setting seen_onboarding_banner user pref
 Error setting trigger type permissions: 
-Error showing a new Hermes workflow:
+Error showing a new workflow:
 Error stage info
 Error stopping background worker device during cleanup
 Error storing app stats in local Storage
@@ -8181,8 +8180,8 @@ Fetch Workflow Success
 Fetch a Salesforce action layout
 Fetch a list of all IMs
 Fetch a list of all MPIMs
-Fetch a new hermes trigger
-Fetch a new hermes workflow
+Fetch a new trigger
+Fetch a new workflow
 Fetch a record channel given a record id
 Fetch a record channel given a record id and navigate
 Fetch a single daily digest by id
@@ -8414,7 +8413,7 @@ Fetch timestamps with prefix matches for a query in a given channel
 Fetch total members count on a team
 Fetch triggers for action library modal
 Fetch triggers with query
-Fetch updated hermes workflow
+Fetch updated workflow
 Fetch user activity
 Fetch user activity from the API
 Fetch user created solution templates
@@ -10311,7 +10310,7 @@ Import CSV file
 Import Leads from CSV
 Import Workflow Failure
 Import Workflow Success
-Import a Hermes Workflow
+Import a workflow
 Import workflow
 Import workflow and triggers
 Import your contacts and track follow-ups.
@@ -16298,7 +16297,7 @@ Publish a skill to the skill catalog
 Publish changes to view field ID
 Publish failed
 Publish now
-Publish or Unpublish a Hermes workflow
+Publish or unpublish a workflow
 Publish template
 Publish template?
 Publish to skill catalog
@@ -22791,7 +22790,6 @@ The orange and yellow status indicators are too hard to tell apart
 The org you logged into has already been added
 The original Slack sidekick
 The original reply will still be visible in its thread.
-The owning org has limited what domains can be invited to this sandbox.
 The page exceeds the maximum size. Try removing some content, images, or sections, then save again.
 The page may have been deleted by someone else. Go back to Pages and refresh to see the current list.
 The people who can edit this automation will also have access to any files shared here
@@ -24410,7 +24408,6 @@ Update a few keys for multiple channels
 Update a file in a collection client-only
 Update a guest
 Update a has:[emoji] filter for search
-Update a hermes trigger
 Update a list
 Update a list cell
 Update a list template status or type
@@ -24436,10 +24433,11 @@ Update a saved reminder
 Update a saved reminder in redux and call the API
 Update a single Sfdc KPI Metric
 Update a specific workflow form
-Update a step in a Hermes Workflow
+Update a step in a workflow
 Update a task
 Update a team only if exists
 Update a teams
+Update a trigger
 Update a user
 Update a view
 Update a vote on a vote cell in lists
@@ -26372,7 +26370,6 @@ You have left this huddle
 You have multiple errors to review.
 You have not created any sidekicks yet.
 You have reached the maximum number of recommended apps. Remove another app to add more.
-You have reached the maximum number of users that can be added to your sandbox.
 You have requested access.
 You have unread messages in Home
 You have unsaved changes
