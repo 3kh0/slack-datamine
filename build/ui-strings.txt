@@ -43,6 +43,7 @@
  exists, but the property is not available.
  failed to render.
  failed: The string to be decoded is not correctly encoded.
+ fall back to the en-US source until a version is added. Editors are served the right file automatically per locale.
  field required.
  for details.
  for more information. This offer is available for a limited time only, and Slack may end or modify this offer at any time without notice to you.
@@ -121,6 +122,7 @@
  shape, except the last dimension.
  should be a non-empty string.
  so you do not need to set that.
+ suffix.
  tab shows the render times of every component.
  to be a (possibly cloned) Error.
  to close.
@@ -218,6 +220,7 @@
 :e instanceof File?
 :e instanceof Map?
 :point_up: I found an existing summary for this file.
+:t||void 0,children:f?
 :v.arraybuffer&&t instanceof ArrayBuffer?
 :v.uint8array&&t instanceof Uint8Array?
 :void 0),r.current?.info(eh,e?
@@ -338,6 +341,7 @@ A node can have at most one anchor
 A node can have at most one tag
 A notification card with two buttons
 A number of times is required
+A page already exists at this URL
 A pair of side-by-side testimonial cards, each with a company logo, quote, and attribution (name and title).
 A pin was added to a channel
 A pin was removed from a channel
@@ -387,6 +391,7 @@ A valid frequency is required
 A valid member name is required.
 A variable with this name already exists
 A variant has invalid targeting rules.
+A visible border separates the header from the content
 A wide landscape image tests the V3 image scaling logic for images wider than the max thumbnail size.
 A workflow step supported by your app should execute
 A workflow step supported by your app was removed from a workflow
@@ -802,6 +807,7 @@ ActivityIA4: Clear timeout id for activity view reset
 ActivityIA4: Clear undoable activity item
 ActivityIA4: Clears context_read_timestamps and unread_timestamps for a thread
 ActivityIA4: Clears peek view list
+ActivityIA4: Expand a below-divider priority summary bucket
 ActivityIA4: Hide default view
 ActivityIA4: Hydrate unreads filter state from localStorage without clearing lists
 ActivityIA4: Insert RTM into view list
@@ -978,6 +984,7 @@ Add a draft id to the list of drafts that have had a DLP catastrophic error
 Add a draft id to the list of warned drafts
 Add a draft to the edited array to be sent or deleted
 Add a facet value
+Add a feature tag
 Add a file
 Add a file to a collection
 Add a file to a collection at its correct sorted position
@@ -2002,6 +2009,7 @@ Anomaly event notifications
 Another Contact
 Another healthy block
 Another link
+Another page is already published at this URL path. Choose a different URL path for this page, then save again.
 Answer FAQs
 Answer in one or two sentences
 Answer sharing has been disabled by your organization.
@@ -2256,6 +2264,7 @@ Are you sure you want to revoke all tokens?
 Are you sure you want to revoke this token?
 Are you sure you want to save changes?
 Are you sure you want to turn off Connected accounts?
+Are you sure you want to undo your changes?
 Are you sure you want to use this token?
 Are you sure?
 Area: multi-series
@@ -2305,11 +2314,12 @@ Asia Pacific (Singapore)
 Asia Pacific (Sydney)
 Asia Pacific (Tokyo)
 Ask Agentforce for Analytics
-Ask Slack
 Ask Slackbot
+Ask Slackbot a question
 Ask Slackbot about how your workspace uses Slack.
 Ask Slackbot to explain this error
 Ask Slackbot:
+Ask about this record, prep for a customer meeting, or make quick updates.
 Ask anything
 Ask away! The more detail the better
 Ask me anything about this account
@@ -2324,6 +2334,7 @@ Asset Contacts
 Asset Downtime Periods
 Asset Relationships
 Asset Warranties
+Asset library pagination
 Assign Members
 Assign Organizations Wide Role
 Assign Roles
@@ -2381,6 +2392,7 @@ Attach a workflow
 Attach a workflow to the current draft
 Attach an eager upload to a draft
 Attach an eager upload to a message
+Attach an email
 Attach file
 Attaching video stream to camera preview
 Attachment Preview
@@ -2527,6 +2539,7 @@ Automatically answer recurring questions, collect requests, or organize things y
 Automatically assign Salesforce Admin role
 Automatically connect your team to a calendar or file app from Google or Microsoft.
 Automatically log interactions with your contacts
+Automatically read new messages in the current conversation
 Automatically start AI notes per channel
 Automatically updates
 Automation Rules
@@ -2547,6 +2560,7 @@ Availability of public roadmap information
 Available agents
 Available credit
 Available devices update already in progress. Returning existing promise.
+Available formats
 Available in bulk action mode
 Available tools
 Available upon renewal
@@ -2564,6 +2578,7 @@ Average tools used
 Avoid asking to be re-invited
 Awaiting Release
 Awaiting accepted invite
+Awaiting action
 Awaiting admin approval to join
 Awaiting invite acceptance
 Ayu Dark
@@ -3630,6 +3645,7 @@ Case 09847
 Case 09852
 Case Subject
 Catalog object is not a dictionary.
+Catch me up on the conversation so far
 Catch statement predicate: expecting an object but got 
 Catch up on busy conversations
 Catch up on channel conversations fast with AI summaries about this channel and related channels.
@@ -3728,6 +3744,7 @@ Changes: Presence
 Changes: Web Socket Listener
 Changing MPDMs to a private channel
 Changing the current members DND type from DND snooze to DND schedule
+Channel Canvas
 Channel Email Crop
 Channel Email Delete
 Channel Email Get
@@ -3803,7 +3820,6 @@ Channel managers can limit channel access to the people who can access the recor
 Channel member suggestions
 Channel members and agents
 Channel members are not available yet
-Channel mention
 Channel muted
 Channel name
 Channel no longer exists:
@@ -4324,6 +4340,7 @@ Clears the selected app
 Clears the stored memories import result once the UI has consumed it
 Clears the story flexpane config (called by the flexpane after changes are applied
 Clears the transient scroll-to-latest flag once the conversation has scrolled
+Clears the vacation pack auto-scroll intent after it has been consumed
 Clears timestamp of the last time something was starred
 Clears workspace retrying state
 Click Me
@@ -4589,6 +4606,7 @@ Code block style
 Code channel
 Code channel details
 Code channel results
+Code channel views
 Code channels
 Code channels are a multiplayer coding environment designed for everyone, not just developers.
 Code copied to clipboard.
@@ -4625,7 +4643,6 @@ Collaboratively track deals for new customer accounts.
 Collapse All Sub-lists
 Collapse Heading
 Collapse Sales Tracker
-Collapse Section
 Collapse Sub-list
 Collapse a channel in All Unreads
 Collapse all collections
@@ -4640,7 +4657,6 @@ Collapse or expand all
 Collapse or expand section
 Collapse pinned messages
 Collapse reaction bundle
-Collapse section
 Collapse thinking steps
 Collapse this widget
 Collapse thread
@@ -4709,6 +4725,7 @@ Communicate in countless ways from one place.
 Communicate more efficiently and securely with external people.
 Communication Subscription Consents
 Community (Zone)
+Compact (dense)
 Compact message layout (inline)?
 Compact preview
 Compact with description
@@ -4848,6 +4865,7 @@ Connect Slack with Salesforce orgs
 Connect Slack with a Salesforce org
 Connect Your Account
 Connect Your Support Email
+Connect Your Team
 Connect a Salesforce Org
 Connect a calendar
 Connect a list of team ids to an idp group
@@ -4989,7 +5007,6 @@ Content removed
 Content restored
 Content safety filter sensitivity
 Content safety filters
-Content structures
 Content-Length header not found
 ContentLength is not supported in pre-signed URLs.
 Context + Provider
@@ -5064,6 +5081,7 @@ Convert timestamp to human readable datetime
 Convert to Slack Connect Channel
 Convert to Template
 Convert to Workspace Admin
+Convert to a Slackbot skill
 Convert to a template
 Convert to new opportunity
 Convert to private channel
@@ -5274,7 +5292,6 @@ Could not get canvas context
 Could not get context for WebGL version
 Could not get empty media stream audio track
 Could not get endpoints from storage
-Could not get local document snapshots.
 Could not get redux state for the client store. The redux store might not be initialized yet
 Could not handle request.
 Could not identify object 
@@ -5318,10 +5335,8 @@ Could not restore opportunity.
 Could not resume audio context
 Could not save last closed window
 Could not save last window, viewset is empty
-Could not save local document snapshot.
 Could not send diagnostics report.
 Could not send presence, delegate has no listener.
-Could not send subscription, delegate has no listener.
 Could not set SifTrailer
 Could not set audio output: 
 Could not set clipboard data for type
@@ -5373,7 +5388,6 @@ Create CTA
 Create Canvas
 Create Canvas with Template
 Create Channel
-Create Contact
 Create Deal Review
 Create FAQs for # 
 Create FAQs for our sales training program
@@ -5403,7 +5417,6 @@ Create New TODO List
 Create New Task
 Create New UI
 Create Notification
-Create Opportunity
 Create Page
 Create Product UI
 Create Proposal
@@ -5667,7 +5680,6 @@ Custom Section 3
 Custom User Groups
 Custom background colors can match each app
 Custom channel summary date range picker
-Custom contract
 Custom date range
 Custom emoji
 Custom endpoint is not compatible with access point ARN
@@ -6179,6 +6191,7 @@ Deserialization of a Bidirectional layer with numConstants present is not suppor
 Design Review Notes.docx
 Design Review: Calendar Unfurls
 Design review
+Design sync
 Desktop ID request not found in pref
 Desktop notification shown
 Desktop only
@@ -6493,7 +6506,6 @@ Document conversions (Quip admin)
 Document conversions as permitted by the Quip organization admin.
 Document conversions disabled
 Document conversions enabled
-Document copied to clipboard as Markdown.
 Document discussion topics and next steps.
 Document end marker line cannot have a non-comment suffix
 Document failed to load
@@ -6624,6 +6636,7 @@ Duplicate callback constructor.
 Duplicate entries
 Duplicate item
 Duplicate org email
+Duplicate skill
 Duplicate spec error, please check your specRegistry
 Duplicate step
 Duplicate tab
@@ -6834,6 +6847,7 @@ Edit workspace
 Edit workspace details
 Edit workspaces
 Edit your profile
+Edit your to-do
 Edit your working hours
 Editing from list views
 Editing is not permitted
@@ -6944,6 +6958,7 @@ Email domains
 Email editor
 Email has been sucessfully sent
 Email provider connect options
+Email results
 Email sending failed
 Email sent successfully
 Email subject
@@ -7112,6 +7127,8 @@ Enqueue skill link copied toast
 Enqueue skill re-enabled toast
 Enqueue skill remove error toast
 Enqueue skill removed toast
+Enqueue skill share links revoke error toast
+Enqueue skill share links revoked toast
 Enqueue skill shared toast
 Enqueue skill unset toast
 Ensure Slackbot AI session ID exists
@@ -7529,7 +7546,6 @@ Exiting due to invalid message contents
 Expand All
 Expand All Sub-lists
 Expand Sales Tracker
-Expand Section
 Expand a channel in All Unreads
 Expand all
 Expand all collections
@@ -7544,7 +7560,6 @@ Expand group
 Expand heading
 Expand or collapse by key
 Expand reaction bundle
-Expand section
 Expand state not sync with index check
 Expand subtotal calculation details
 Expand thinking steps
@@ -7743,6 +7758,7 @@ FY25 Period 19 (Jul)
 FY25 Period 20 (Aug)
 Fail a provisional connection
 Failed SIMD estimation; falling back to non-SIMD.
+Failed to add one or more agent managers
 Failed to add skill set to library
 Failed to add skill set to library from unfurl
 Failed to add skill set. Please try again.
@@ -7928,6 +7944,7 @@ Failed to register Slack Scribe paste-last-transcript shortcut
 Failed to register rsvp
 Failed to register slackbot mini shortcut
 Failed to remove file. Please try again.
+Failed to remove one or more agent managers
 Failed to remove skill from skill set
 Failed to remove skill. Please try again.
 Failed to remove tokens from connected apps when turning off IDL via user prefs.
@@ -7944,6 +7961,7 @@ Failed to restore a version
 Failed to restore items. Please try again.
 Failed to retrieve data
 Failed to retrieve task: Task not found
+Failed to revoke share links. Please try again.
 Failed to save Slack Scribe sounds pref
 Failed to save Slackbot NUX carousel memory
 Failed to save agent access settings
@@ -8090,6 +8108,7 @@ Feature highlights
 Feature label
 Feature not available
 Feature rows
+Feature tags
 Feature unavailable
 Feature up to 15 workflows, so people can use them instead of sending a message.
 Feature walkthrough reversed
@@ -8631,6 +8650,7 @@ File Link Open Error
 File Management
 File Storage Used
 File Summary
+File a support ticket to change or manage plan
 File actions
 File deleted
 File does not belong to your team
@@ -9067,6 +9087,7 @@ From the beginning (Today)
 From the beginning (Yesterday)
 From today
 From you
+From your admin
 From: #ps-tea
 Front folder
 Front-load the most common questions
@@ -9815,6 +9836,7 @@ Have the CRM features in Slack changed how you use other CRM tools?
 Having trouble?
 Head back to Home
 Head of IT, Initech
+Header Divider Container
 Header Icon
 Header Image
 Header image is not supported.
@@ -9918,6 +9940,7 @@ Hide all threads
 Hide an unfurl in a draft
 Hide canvas
 Hide channel join banner when navigating away from channel view
+Hide details
 Hide email preview
 Hide empty fields
 Hide error page alert before making new api requuest
@@ -11166,6 +11189,7 @@ Last 7 days
 Last 7 days summary not available
 Last Name
 Last Name is a required field. Match a column to Last Name to continue.
+Last activity
 Last day
 Last edited
 Last edited by
@@ -11717,6 +11741,7 @@ LocalStorage total size:
 LocalTilingPatternCache.set - expected 
 Localize Asset Paths
 Localize image
+Localized versions
 Locally set the last read cursor on a conversation
 Locally stores the duration this media has been watched
 Location description (optional)
@@ -11784,6 +11809,7 @@ Log exposure for the pricing_standard_1 experiment if it is exposed
 Log exposure for the pro_getting_work_done_emojis experiment if it is exposed
 Log exposure for the pro_to_biz_trial_duration_experiment experiment if it is exposed
 Log exposure for the pro_upgrade_pocket_guide_v2 experiment if it is exposed
+Log exposure for the pro_upgrade_pocket_guide_v3 experiment if it is exposed
 Log exposure for the request_to_purchase_v2_upvote experiment if it is exposed
 Log exposure for the resurrected_user_sidebar_tasks_large experiment if it is exposed
 Log exposure for the resurrected_user_sidebar_tasks_small experiment if it is exposed
@@ -11900,7 +11926,6 @@ Low gain up
 Low risk list
 Low saturation
 Lower hand
-Lower-case letters, numbers, and dashes only.
 Lucida Bright
 Lucida Console, 
 Lucida Sans
@@ -12626,6 +12651,7 @@ Manage your customer relationships from Slack
 Manage your customers, right in Slack
 Manage your email connection here
 Manage your own OAuth Tokens
+Manage your plan yourself, anytime
 Manage your support emails directly in a channel
 Manage your team members and permissions via SCIM and SAML-SSO
 Manage your time and data
@@ -13013,7 +13039,6 @@ Mention an agent
 Mention in a list item
 Mention in a thread
 Mentions and direct messages
-Mentions are cool: 
 Mentions only
 Menu actions for 
 Menu bar
@@ -13167,8 +13192,11 @@ Messages and search history
 Messages and tasks that need your attention.
 Messages and threads you follow
 Messages by the channel owner
+Messages from 
 Messages from Agentforce agents
+Messages from agents and apps
 Messages from apps & workflows
+Messages from people
 Messages from specific users
 Messages in threads
 Messages must be kept for at least 1 day.
@@ -13199,7 +13227,6 @@ Microphone failed
 Microphone init test not supported on this client
 Microphone permission denied
 Microsoft Edge
-Microsoft Office
 Microsoft Sans Serif
 Microsoft Teams
 Microsoft Teams Meeting
@@ -13380,7 +13407,6 @@ More information
 More information about including skills
 More invite options
 More list actions
-More messages
 More options
 More reactions
 More record actions
@@ -13878,6 +13904,7 @@ No VIPs have been added
 No access to ETag property on response.
 No accounts found
 No action items
+No action needed
 No active call ID for huddle
 No active call on call window close
 No active huddle channel found
@@ -13941,7 +13968,6 @@ No connections would be exported. Adjust the selected filtering parameters and t
 No connector sources
 No connectors
 No console available for logging
-No contract to negotiate
 No conversation token received from API
 No conversations found
 No conversations selected
@@ -13973,6 +13999,7 @@ No due date set
 No editor range found to perform initial insertion
 No element with tag name
 No email updates have been made
+No emails found
 No emoji rendering :wave: stays raw.
 No entity id specified, cannot fetch
 No entries yet. Add a word or phrase above.
@@ -14002,6 +14029,7 @@ No groups
 No groups or people are selected
 No huddle id found
 No image content creator for type
+No image selected
 No imsgs in response!
 No installed apps found.
 No items
@@ -14025,7 +14053,6 @@ No matches. Try a different search term.
 No matching Salesforce user was found for this Slack user.
 No matching code channels
 No matching columns
-No matching file found.
 No matching installed apps found.
 No matching sidekicks
 No media found for this channel.
@@ -14374,6 +14401,7 @@ Notify peers of changes to isDrawEnabled
 Notify pending members
 Notify resynced
 Notify when field changes
+Notify your workspace owner.
 Noto Color Emoji
 Noto Sans
 Noto Sans CJK KR
@@ -14473,6 +14501,7 @@ On a schedule
 On call window closed
 On mobile, 
 On selected date
+Onboarding Doc
 Onboarding apps list
 Onboarding exception approval request
 Onboarding prompts
@@ -14838,6 +14867,7 @@ Open the canvas template gallery modal
 Open the canvas template speedbump modal when converting to a template or back to a canvas
 Open the channel input placeholder dialog
 Open the channel purpose dialog
+Open the composer email picker, connecting Gmail first if needed
 Open the default camera on a mobile device.
 Open the delete record confirmation modal
 Open the desktop app
@@ -15514,7 +15544,7 @@ Pay by the month or the year, and cancel at any time.
 Payment Details
 Payment Method
 Payment failed
-Payment failed!
+Payment failed.
 Peek Trigger
 Peek card from slackbot promo sidebar banner
 Peer IDs to start sending media for
@@ -15592,6 +15622,7 @@ People who can manage Sign in with Slack restrictions:
 People who can manage custom emoji
 People who can view workspace analytics:
 People with access
+People with the link will no longer be able to add a copy of this skill.
 People you might know
 Per-file approval bypass
 Perform any processing work necessary for unchanged channels
@@ -15705,7 +15736,6 @@ Placeholder title
 Plain Text
 Plain text
 Plain text input
-Plain text message
 Plan Block Examples
 Plan Title
 Plan blocks ideal for complex workflows requiring structured presentation
@@ -15719,6 +15749,7 @@ Plans change, and that
 Plantin Schoolbook
 Platform Engineering
 Play Just-In-Time calendar notification sound
+Play a sound when an emoji is sent or received in a huddle
 Play animation
 Play back a number of recent messages
 Play music
@@ -15891,6 +15922,7 @@ Poster 1x
 Poster 2x
 Poster Image (1x)
 Poster Image (2x)
+Poster before autoplay
 Posting permissions
 Posts message into the composer
 Potential spam activity
@@ -15991,6 +16023,7 @@ Preview of a Google Drive integration within a Slack chat interface, showing a c
 Preview of the company handbook template
 Preview of uploading file
 Preview options
+Preview unavailable
 Preview your Contacts
 Preview your Leads
 Preview your daily recap
@@ -16454,6 +16487,7 @@ Read access to code, commit statuses, discussions, issues, metadata, and pull re
 Read all files accessible to the signed-in user
 Read all files and folders stored in Box
 Read conversations
+Read emoji reactions received in a huddle
 Read files belonging to the signed-in user
 Read information barriers in the organization
 Read messages
@@ -16497,6 +16531,7 @@ Recap Outlines
 Recap main view 1
 Recap main view 2
 Recap my past week in Slack
+Recap the key points from this meeting
 Recap the past week in # 
 Recap the past week...
 Recap the past week... Outlines
@@ -16910,6 +16945,7 @@ Registering the new endpoint in the API router and generating the metadata files
 Registers a new passkey and refreshes the passkey list
 Registration ceremony was sent an abort signal
 Registration was not completed
+Regular (detailed)
 Regular Member
 Regular Members of:
 Regular members
@@ -17064,6 +17100,7 @@ Remove a saved canvas section in redux and optionally call the API
 Remove a saved cavas section
 Remove a saved file
 Remove a saved file in redux and optionally call the API
+Remove a saved item, dispatching the correct removal thunk for its type
 Remove a saved list record
 Remove a saved list record field
 Remove a saved list record field in redux and optionally call the API
@@ -17148,6 +17185,7 @@ Remove canvas content creation session from the store
 Remove certain errors from unsent invites when switching between member types in the invite modal
 Remove channel from refresh loading state
 Remove channel from this folder?
+Remove channel manager
 Remove channels by channel ID
 Remove color
 Remove completed items from redux locally
@@ -17474,6 +17512,7 @@ Reopen the most recently closed tab soda tab
 Reorder Automation Rules
 Reorder a bookmark in the store
 Reorder a bookmark to the specified position
+Reorder a folder item
 Reorder a list record in a view
 Reorder team profile fields
 Reorder, add, remove, and hide tabs in this app.
@@ -17650,6 +17689,7 @@ Resend invitation
 Resend invite
 Resend link
 Reserved by core.metrics.record
+Reset Filters
 Reset RemoteFilePreviewUrl store
 Reset Search
 Reset Tableau SDK state for a window
@@ -17845,6 +17885,7 @@ Retail & Marketplace
 Retail Partner Portal
 Retention duration
 RetentionPeriod is no longer returned by ListEventDataStores
+Retina poster
 Retries a download on the desktop app
 Retrieve analytics data for a given date, presented as a compressed JSON file.
 Retrieve and upsert files by search query
@@ -17938,6 +17979,8 @@ Revoke all tokens
 Revoke invitation
 Revoke public file link
 Revoke role
+Revoke share links
+Revoke share links?
 Revoke this invitation?
 Revoke token
 Revokes Sales Home access for users and removes them from paginated Sales Home members list
@@ -18070,6 +18113,7 @@ SVC is not successfully enabled since simulcast is enabled
 SVC is only supported on Chromium-based browsers with version 111 or above
 SVG icon with bordered container
 SVG icon without bordered container
+Safari + legacy fallback
 Safari iOS
 Safe To Open
 SafeBit Solutions - Data Security Fortification
@@ -18401,6 +18445,7 @@ Search components
 Search contacts
 Search content library
 Search conversations
+Search emails
 Search error
 Search experiments
 Search external connections
@@ -18590,6 +18635,7 @@ See all the benefits of Slack Pro vs. Free
 See all variables
 See all your records
 See and update the data you gave it access to, even when users are not currently using the app
+See and update your record
 See details
 See error.
 See full comparison
@@ -18711,6 +18757,7 @@ Select field
 Select from Google Contacts
 Select groups
 Select how you want to verify your domain. Both methods require adding a DNS record to your domain.
+Select image
 Select members from a list
 Select members who can use this server.
 Select mode
@@ -19094,6 +19141,7 @@ Set a list of fetched available admin Salesforce orgs in the redux state.
 Set a list of successfully fetched available user Salesforce orgs in the redux state.
 Set a name
 Set a new list of Whats New updates
+Set a notification schedule
 Set a pref via the setPref API, updating local prefs optimistically first
 Set a preference for a given channel section
 Set a reminder
@@ -19882,6 +19930,7 @@ Set user interactions to loaded
 Set user org object mappings
 Set user_date_created from client.extras onboarding data
 Set users frequently used emoji or customized quick reactions
+Set vacation pack shimmer highlight rows
 Set value of whether peeks are enabled on mouse enter before starting BBM
 Set value of whether sidebar is visible before starting BBM
 Set video tile width for attendee
@@ -19930,6 +19979,7 @@ Set whether the meeting notes canvas is auto-opened
 Set whether the meeting notes canvas open
 Set whether the onboarding tasks popover is programmatically opened (i.e. from clicking push notification)
 Set whether the search sidebar surface should be hidden for the actor (Business+ cohort)
+Set whether the slackbot onboarding welcome screen is currently showing
 Set whether the team is configured as Slack First CRM.
 Set whether the unfurled joiners channel foreword has been seen
 Set whether the user group member fetch encountered an error
@@ -20553,6 +20603,7 @@ Sets the warnings for the app manifest
 Sets the week currently in view on the screen
 Sets the welcome party state machine
 Sets the window ID within which search should render, or an empty string for the main window
+Sets the window that should use the focused Slackbot composer treatment
 Sets the workspace booted state
 Sets the workspace failed to boot state
 Sets the workspace id and navigation props for the workspace user wants to switch to while it is still booting.
@@ -20805,6 +20856,7 @@ Share file
 Share file with channel?
 Share folder
 Share item
+Share links revoked
 Share list
 Share message
 Share more about yourself
@@ -21193,6 +21245,7 @@ Signals that badges should be added post-install
 Signals that redux stores have been hydrated during boot
 Signals that the message input badge should be removed
 Signals that the message tab badge should be removed from the emoji picker
+Signals the emoji picker should auto-scroll to the installed vacation pack on next open
 Signature version 4 presigned URLs must have an expiration date less than one week in the future
 Signing out in single-team mode
 Signing out of the only workspace we are signed into
@@ -21493,7 +21546,6 @@ Smart Lenovo
 Smileys & People
 Snack-Driven Task Management
 Snacks are in your future
-Snapshot for %s taken at %s
 Snazzy Light
 Snooze a reminder
 Snoozes a calendar event JIT notification until the event starts
@@ -21573,6 +21625,7 @@ Something went wrong while opening this template. Close and reopen the template 
 Something went wrong while previewing this template. Please try again or contact support.
 Something went wrong while reordering the file.
 Something went wrong while reordering the link.
+Something went wrong while reordering. Please try again.
 Something went wrong while searching members.
 Something went wrong while setting up verification. Please try again.
 Something went wrong while submitting your app. Please try again.
@@ -21665,6 +21718,7 @@ Sparkle - left
 Sparkle - right
 Speaker devices
 Speaker notes
+Special message types
 Special words for signal handlers including property change.
 Specific Sales Elevate users
 Specific User Groups
@@ -22171,6 +22225,7 @@ Summarize my recent activity
 Summarize need-to-know info for your team.
 Summarize new messages
 Summarize the discussion so far
+Summarize the discussion up to now
 Summarize the file 
 Summarize the key points of this message in 2-3 bullet points
 Summarize this canvas
@@ -22451,6 +22506,7 @@ Team Member Actions
 Team Page
 Team Priorities Outlines
 Team Public Channels Table
+Team Resources
 Team data unavailable
 Team dinner with Acme Corp stakeholders during Q2 planning offsite in San Francisco.
 Team governance
@@ -22494,6 +22550,7 @@ Template status
 Template successfully reverted to a list.
 Templates made for your team, by your team.
 Temporarily highlight productivity emojis
+Temporarily highlight vacation pack emojis
 Temporarily mute your sidebar, pause notifications, and let people know you may be slow to respond.
 Temporarily pause mini-panel visibility transition
 Temporarily show mini-panel
@@ -23210,6 +23267,7 @@ This will permanently remove the selected servers, and their tools will no longe
 This will reassign the project.
 This will remove the app from appearing in AI answers and search results. You can re-enable it anytime by selecting Manage.
 This will remove the field from the list view for everyone. The field and its data will not be deleted.
+This will revert the workflow to the last published version. Any new changes since last publish will be lost.
 This will stop transcribing audio from your microphone and system audio. Is that ok?
 This workflow cannot be added.
 This workflow cannot be imported because one or more required apps are denied or hidden.
@@ -23339,6 +23397,7 @@ To send a message to the Salesforce channel created in a previous step, use the 
 To toggle this setting please disable HIPAA compliance.
 To toggle this setting please enable incoming emails.
 To use this workflow, you
+To-do actions
 To-do added
 To-do reminder
 To-do removed
@@ -24028,6 +24087,7 @@ Unfollow thread
 Unfollow thread shortcut - unsubscribes to thread and displays toast
 Unfortunately, something went wrong while trying to process your purchase. Give it another try. If the problem continues, please contact the card issuer for more info.
 Unfreeze all columns
+Unfurl Image
 Unfurl settings
 Unfurls an attachment for a given URL in an optional channel context
 Ungrouped Records
@@ -24091,7 +24151,6 @@ Unknown graphic state operator
 Unknown item
 Unknown mask format.
 Unknown member
-Unknown message
 Unknown message received:
 Unknown node. There is an unknown node in the supplied edges.
 Unknown operation 
@@ -24265,6 +24324,7 @@ Untitled item
 Untitled item (Archived)
 Untitled list
 Untitled meeting
+Untitled message
 Untitled page
 Untitled session
 Untitled skill set
@@ -25693,6 +25753,7 @@ We brought back your notifications
 We cannot automatically determine where this channel should be created based on the external organizations.
 We cannot write HTML in SSB
 We could not open your item at this time. There may be a temporary error with the Quip service.
+We could not request access at this time. There may be a problem with your network connection, or there may be a temporary error with the service.
 We could not upload your files at this time. There may be an issue with your internet connection, or there may be a temporary error with the Slack service.
 We couldn
 We encountered a problem while loading. Try refreshing, and if the problem persists, contact your admin.
@@ -25782,6 +25843,8 @@ Well done
 Western Sahara
 What Slackbot will be told to do
 What accounts or opportunities should I focus on today?
+What are the action items so far?
+What are we currently discussing?
 What are you working on today?
 What are you working on?
 What can AI help you automate today?
@@ -25793,6 +25856,8 @@ What current and potential features would be most valuable to you if they were a
 What customers report
 What data can Glean Access?
 What decisions have been made?
+What did I miss in the last few minutes?
+What did the last speaker say?
 What did you have for breakfast?
 What did you like about this article?
 What do I need to know?
@@ -25805,6 +25870,7 @@ What does my calendar say about me?
 What happened in Slack recently?
 What happened in Slack this week?
 What happens when the Slack product supports new languages?
+What has each person committed to?
 What information sources will the sidekick base its answers on?
 What is Project Gizmo?
 What is digital culture?
@@ -25820,6 +25886,7 @@ What is wrong?
 What is your feedback?
 What kind of boot is this
 What needs my attention today?
+What questions are still open?
 What should I focus on regarding Q4 forecast variance, DataNet P1 escalation, and enterprise conversion performance?
 What should external people know about your role?
 What should they be able to do in this channel?
@@ -25828,6 +25895,7 @@ What should we name this project? Pick something memorable and unique to your te
 What to focus on today
 What type of canvas do you want to update?
 What type of component is this?
+What was just decided?
 What went wrong?
 What will the workflow be able to do?
 What would you like to do with this list?
@@ -26299,6 +26367,7 @@ You have multiple errors to review.
 You have not created any sidekicks yet.
 You have reached the maximum number of recommended apps. Remove another app to add more.
 You have reached the maximum number of users that can be added to your sandbox.
+You have requested access.
 You have unread messages in Home
 You have unsaved changes
 You have unsaved changes that will be lost.
@@ -26373,7 +26442,6 @@ Your SSO provider denied your authentication request.
 Your SSO settings prevent you from inviting people from this email domain.
 Your Sales Tracker is ready to go.
 Your Salesforce org will be disconnected
-Your Salesforce record in Slack
 Your Salesforce records in Slack
 Your Slack Connect settings have changed. New Slack Connect channels cannot be added to this workspace.
 Your Slack animal
@@ -26720,6 +26788,7 @@ t set item at a negative index.
 t start or end with a dash.
 t start recording. Please try again.
 t start the local video because the maximum video capacity was reached.
+t start, end, or separate with an extra slash.
 t supported for metric component.
 t the same type.
 t use consecutive dashes.
