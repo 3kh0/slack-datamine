@@ -330,7 +330,6 @@ A message you saved was deleted.
 A message you saved was not found.
 A new app messaging experience makes having conversations with AI-powered agents and assistants a snap. Install apps with an assistant or agent, and put them to work today.
 A new comment selection cannot contain other comments or reactions.
-A new home for all your to-dos
 A new member has joined
 A new reaction selection cannot contain other reactions or comments.
 A new version of the app is available.
@@ -1200,8 +1199,6 @@ Add huddle to talk with your team right in Slack
 Add individually
 Add instructions to help others
 Add instructions to test your sidekick
-Add invite requests to the list in the store
-Add invites to the list in the store
 Add item
 Add item to list
 Add items to app activities list by appId
@@ -1217,7 +1214,6 @@ Add list of bookmarks to bookmark store for a channel
 Add list of sent messages to sent messages store
 Add meeting transcript chunk
 Add member
-Add member IDs to the flexpane
 Add members
 Add members collaborating on this app
 Add members selected individually
@@ -1246,7 +1242,6 @@ Add new skills
 Add new tab
 Add new versions to the activity history
 Add new view
-Add non-exact match member IDs to the flexpane
 Add non-transcription event
 Add number
 Add onboarding wizard and welcome screen
@@ -1353,8 +1348,6 @@ Add trigger execution ID to list of active toasts
 Add trigger execution ID to list of dismissed toasts
 Add trigger id to list of recently run triggers
 Add unfurls to the unfurls cache
-Add unsent groups to the store, overwriting anything previously stored
-Add unsent invites to the store, overwriting anything previously stored
 Add user
 Add user group IDs to the flexpane
 Add user id to mentioning user ids for channel
@@ -1417,9 +1410,7 @@ Adds (but does not remove) team ids connected to a user group
 Adds ID of single starred items to array
 Adds Instant Slack channel members to sidebar if in an Instant Slack workspace
 Adds Integration Apps to the store
-Adds Slackbot responses to the list
 Adds Workflow templates list to the store
-Adds a Quip document id as the latest document
 Adds a bookmark to the channel specified
 Adds a calendar reminder
 Adds a comment to a flagged content item
@@ -1687,6 +1678,7 @@ All of search: search by selected enterprise team id
 All of search: set active enterprise team id filter
 All of the users in that user group are already in this channel.
 All of your saved items will be moved to your to-do list.
+All of your to-dos in one place
 All open flags
 All opportunities
 All organizations
@@ -2087,12 +2079,6 @@ App Summary
 App Tabs
 App Total Memory (MB):
 App Type
-App action config failed
-App action config fetch failed
-App action config fetch in flight
-App action config fetch success
-App action config save in flight
-App action config save success
 App activity
 App activity metrics (aggregated only)
 App activity metrics (aggregated)
@@ -2375,7 +2361,6 @@ At least 2 document controls are necesary to benchmark loading.
 At least one Quip thread ID not found in response
 At least one of these conditions must be met:
 At least one of triggerId or workflowId is required
-At mention options
 At no extra cost
 At smaller window sizes, not all selected tabs may appear.
 At the request of your administrator, file uploads have been disabled on this workspace.
@@ -3586,6 +3571,7 @@ Canvas sharing
 Canvas template
 Canvas templates
 Canvas text
+Canvas toBlob returned null
 Canvas update messages
 Canvas updated
 Canvas variables
@@ -3710,7 +3696,6 @@ Change search summary status to in progress
 Change sharing permissions
 Change surface
 Change the current meetings view back to the current day of the current week
-Change the selected participant id
 Change to Limited
 Change to Private
 Change to Public
@@ -3724,15 +3709,6 @@ Change tone
 Change translation language
 Change view
 Change visibility
-Change whether events section has loaded
-Change whether logstash logs section has loaded
-Change whether or not the filter menu is open
-Change whether or not the loading animation should be shown
-Change which log rows are shown in the table
-Change which log types are selected for display
-Change which participants are shown in the participants table
-Change which rows are shown in the tables
-Change which user
 Changes Summary
 Changes a member
 Changes from remote contained local hashes.
@@ -5136,10 +5112,12 @@ Copy Workflow ID
 Copy Workflow Success
 Copy Workflow Url
 Copy a data table block to clipboard
+Copy a data_visualization block preview image to the clipboard
 Copy agent prompt link
 Copy all activity
 Copy anchor link
 Copy and paste Salesforce record links into Slack, creating rich previews that surface key details without having to open a new browser tab.
+Copy as image
 Copy as template
 Copy as template failed
 Copy canvas ID
@@ -5521,7 +5499,6 @@ Create action items from this canvas
 Create alternate
 Create an AI workflow
 Create an account
-Create an app action (but without saving)
 Create an audio recording
 Create and Add Channels
 Create and Copy Prompt Link
@@ -6862,7 +6839,6 @@ Edits Locked
 Edits a Native DLP rule with a regex detector
 Edits a bookmark to the channel specified
 Edits a file
-Edits an existing Slackbot response
 Edits an existing barrier and updates it in the Redux store
 Edits an existing scheduled custom status
 Edits canceled
@@ -7289,7 +7265,6 @@ Error fetching app submission id
 Error fetching channel by name
 Error fetching checkout configuration data
 Error fetching integrations
-Error fetching next batch of app activities
 Error fetching org calls apps
 Error fetching permissions.info. Caught error: 
 Error fetching permissions.info. Error: 
@@ -7374,6 +7349,7 @@ Error saving listing page description
 Error saving listing page links
 Error saving new data source
 Error saving permissions to local storage
+Error searching admin apps
 Error sending email
 Error sending message from joiner personalized launchpad setup flow
 Error sending message from onboarding tasks Teammate Intro modal
@@ -7888,6 +7864,7 @@ Failed to load PDF sheet geometry
 Failed to load document
 Failed to load events
 Failed to load image
+Failed to load image for compositing
 Failed to load image for conversion
 Failed to load image. Please try another file.
 Failed to load installed Agentforce agents
@@ -9968,7 +9945,6 @@ Hide search history
 Hide section
 Hide self-view
 Hide share screen borders
-Hide sidebars
 Hide slow network alert
 Hide sources
 Hide tab
@@ -10292,6 +10268,7 @@ Image Position (desktop)
 Image Position (mobile)
 Image Source
 Image caption
+Image copied to clipboard
 Image could not be found, switching to default input for device
 Image has no width, cannot find good size to fit
 Image left
@@ -10445,7 +10422,6 @@ Initech logo
 Initech team collaborating in a Slack channel
 Initial State
 Initial connection failed with ConnectionError: 
-Initial history action id to navigate to
 Initial load for specific Megaphone Spaces that need to load on boot
 Initial save was disabled.
 Initialize Action Library Navigation state
@@ -10473,7 +10449,6 @@ Initializes fetching for shared teams
 Initializes muted channels from the notification prefs
 Initializes people browser filter
 Initializes search via browser page input
-Initializes the list of latest Quip docs
 Initializes the state for the app config page
 Initializes the store and sets the initial focused workspace ID
 Initializes the user prefs with the data from the user.prefs.get or boot data
@@ -11571,7 +11546,6 @@ List view
 List view editing
 List view not found
 List views
-ListRecord is missing compoundKey, cannot store in listsRecords
 Listed here are all the spaces that Megaphone supports. Click on one to view a list of notifications that are rendered in that space in priority order.
 Listen for dialog data from parent window
 Listing Page Description
@@ -17124,7 +17098,6 @@ Remove a saved reminder
 Remove a saved search
 Remove a share from a file.
 Remove a single featured template
-Remove a single report from the set of reports
 Remove a starter template by ID
 Remove a stored snippet for a Quip comment thread
 Remove a summary from the toast notification
@@ -17142,7 +17115,6 @@ Remove agent from channel
 Remove agents from blocked workspaces?
 Remove all
 Remove all app actions
-Remove all app actions (but without saving)
 Remove all app actions tied to a given channelId
 Remove all app actions tied to a given channelId, and replace with given actions
 Remove all approval data from the store
@@ -17165,7 +17137,6 @@ Remove alls bookmarks from the bookmark store for a channel
 Remove an AI app from the list after deletion
 Remove an active download
 Remove an alert from the alerts array
-Remove an app action (but without saving)
 Remove an array of messages
 Remove an emoji collection
 Remove an emoji reaction
@@ -17195,7 +17166,6 @@ Remove bullet
 Remove callout
 Remove canvas
 Remove canvas content creation session from the store
-Remove certain errors from unsent invites when switching between member types in the invite modal
 Remove channel from refresh loading state
 Remove channel from this folder?
 Remove channel manager
@@ -17370,9 +17340,7 @@ Removed from your to-dos.
 Removed members from your Salesforce Org.
 Removed possible XSS from clipboard data
 Removes ID single starred item from array
-Removes a Quip document from the sidebar
 Removes a Slack Connect Invite
-Removes a Slackbot response from the list
 Removes a Workflow Event from recentlyRunTriggerWorkflowEvent
 Removes a channel id from being a default org channel
 Removes a channel prefix from the store
@@ -17432,8 +17400,6 @@ Removes an MCP server by server_key
 Removes an automation group
 Removes an existing Salesforce organization
 Removes an idp group from a team
-Removes an invite from the store
-Removes an invite link from the store
 Removes any fake thread messages we created from the ai_assistant_status RTM event
 Removes blocked user by email
 Removes calendar events from the window store by ID
@@ -18285,12 +18251,14 @@ Save client block file download access to the store
 Save current call window id
 Save current progressive disclosure tip state
 Save document now
+Save everything else for reference
 Save files to local storage for persistence
 Save for later
 Save important messages for later
 Save isComplete and progressive disclosure tip
 Save last shown timestamp for an progressive disclosure tip
 Save meeting time, share updates, ideas and use video to personalize your channel.
+Save non-urgent items for reference
 Save open workflows to local storage for persistence
 Save scroll position for a channel
 Save setting
@@ -19094,6 +19062,7 @@ Set Slack Connect prefs for the current org
 Set Slackbot AI NUX state
 Set Slackbot NUX carousel data
 Set Slackbot NUX carousel recommendations
+Set Slackbot mini dictation recording state
 Set Slackiversary data
 Set Spring Cleaning popover open state
 Set Spring Cleaning slash command animation
@@ -19193,7 +19162,6 @@ Set all channel section preferences
 Set all channel section preferences only on the client
 Set all feature usage data in redux.
 Set all huddle history filters on the huddles page
-Set all import IDs
 Set all or some identity links user prefs in single call
 Set all saved searches
 Set all search summary labels
@@ -19266,7 +19234,6 @@ Set creator email type prediction from client extras
 Set current agent browser tab id
 Set current day on the calendar view
 Set current focused view type
-Set current import ID
 Set current list view browser object option
 Set current locale
 Set current page for App Launcher pagination
@@ -19311,7 +19278,6 @@ Set enabled state for huddle closed captions view
 Set end-user-created workflow view, and optional id and payload for edit
 Set error for Create Datasource step
 Set error for Salesforce org setup UI
-Set error from loading reports via the API call
 Set error of 
 Set error state
 Set error state for Slackbot NUX carousel fetch
@@ -19321,7 +19287,6 @@ Set error state for a draft
 Set error state for channel join reason
 Set error state for invited user invite
 Set error state for security alerts list
-Set event data loaded from the events API call
 Set external file providers loading state
 Set feature trial info data
 Set field mapping updated for celebration config
@@ -19369,7 +19334,6 @@ Set if we are waiting for an the on-demand digest, as part of onboarding
 Set if we should show the banner after a user adds channels to digest via recommender modal
 Set if window is fullscreen
 Set imported contacts from CSV
-Set imports
 Set info about an app, by ID
 Set info for given datasource id
 Set init data in Redux stores based on response from client.init
@@ -19440,7 +19404,6 @@ Set locale
 Set locale for a team, handling pref and infra updates
 Set locales
 Set lock and upsert an Enterprise org pref
-Set logstash data loaded from the logs API call
 Set main Sales Elevate page screen
 Set mandatory attribute to a default org wide channel
 Set meeting Slackbot channel ID
@@ -19451,7 +19414,6 @@ Set meeting session status
 Set meetings for user (from meetings.list API). Overrides existing meetings, if any.
 Set meetings loading state
 Set message spacing text density pref
-Set modal title
 Set model data in Redux stores based on response from client.boot
 Set multi-team aware client theme
 Set multiple channel notification overrides, and call API
@@ -19519,8 +19481,6 @@ Set refinements that are applied on the assigned to you page
 Set relevant record options for an org
 Set reminder
 Set repetitive tasks on autopilot
-Set report claim status
-Set report status
 Set requestId for page
 Set requestId from the contacts request
 Set required fields
@@ -19567,7 +19527,6 @@ Set show trial started celebration
 Set showing state of attachment action loading spinner
 Set shown seasonal spider animation
 Set sidebar index of click on recommended dm for clogging send action
-Set signup domain for signup domain whitelisting
 Set single record row data in sales bulk grid
 Set skip_app_send for an agent channel
 Set skipped invites
@@ -19588,7 +19547,6 @@ Set status of
 Set status of Salesforce org setup UI
 Set status to 
 Set status to:
-Set step number
 Set store state for progressive disclosure tips
 Set suggested sections for a channel
 Set tags
@@ -19636,7 +19594,6 @@ Set the channel topic
 Set the channelId when welcome DM message is being sent
 Set the client message id for selected user welcome card message
 Set the client typeface
-Set the collapsed state of a specific page section.
 Set the collections for unified files
 Set the count for the number of filters set on the huddles page
 Set the count of app actions associated with a given channelId
@@ -19671,7 +19628,6 @@ Set the currently focused workspace
 Set the currently focused workspace (client-v2)
 Set the currently selected value to filter members by
 Set the cursor for a channel
-Set the cursor for the next reports fetch
 Set the cursor mark
 Set the custom expiration date for guests
 Set the custom message for invites
@@ -19699,16 +19655,10 @@ Set the file collection that a collection heading is hovering over for drop indi
 Set the file collection that a file is hovering over for drop indicator calculation
 Set the files flexpane scroll offset
 Set the filetype filter
-Set the filter
-Set the filter state
 Set the flag that members has been loaded initially
 Set the focus of the Invite to Workspace modal
 Set the guest expiration timestamp
 Set the huddle history. Overrides existing history, if any.
-Set the initial data loaded from the API call
-Set the initial members used in the DM browser (IA prototype only)
-Set the initial reports loaded from the API call
-Set the initial state from the default props
 Set the initial unread counts
 Set the invite API error for multi-channel guest invite
 Set the invite API response for multi-channel guest invite
@@ -19724,7 +19674,6 @@ Set the last seen timestamp for a badged canvas animation
 Set the last used command
 Set the latest value for a channel
 Set the list
-Set the list of Slackbot responses
 Set the list of available backgrounds
 Set the list of background categories
 Set the list of deferred channel IDs
@@ -19759,8 +19708,6 @@ Set the main window tabbed view sets
 Set the main window tabbed view sets and ui states
 Set the map of work object app ids to connector app ids
 Set the map of work object app ids to connector enabled state
-Set the marker
-Set the member directory flexpane scroll offset
 Set the message timestamp that should be focused
 Set the migration intent ID for a simplified Grid upgrade
 Set the name configuration for the selected feature to be managed
@@ -19768,7 +19715,6 @@ Set the number of days left before Straight to Paid discount expires
 Set the onboarding channel ID
 Set the onboarding task completed animation as seen and refresh Megaphone notification data
 Set the opened_this_session prop for a channel
-Set the org awareness of this app.
 Set the organize work task as complete
 Set the pagination state for a specific module
 Set the pending endpoint promise to resolve when done
@@ -19781,7 +19727,6 @@ Set the pref that controls if screen reader announcements play for incoming mess
 Set the pref to enabled peeks on hover in the tab rail
 Set the presence of the currently authenticated user
 Set the preventQueryRewrite flag on the editable request
-Set the primary owner
 Set the productivity apps for a suite, replacing any previously stored apps
 Set the property indicating if the call to send invites is taking a long time
 Set the property indicating if the email input is invalid
@@ -19795,7 +19740,6 @@ Set the query string for the editable request query
 Set the quick reply banner for the context bar
 Set the reason for requesting invitations
 Set the reason for requesting to add guest to more channels
-Set the reason for the invite request
 Set the referring event id for clogs
 Set the request ID for the current fetchAllSearchResults call
 Set the result of a team.feature.getRequest call
@@ -19871,7 +19815,6 @@ Set the user-specified split width intent (use setSplitColumnWidthIntent instead
 Set the user-specified split width mode (use setSplitColumnWidthMode instead)
 Set the user-specified wide sidebar width and mode
 Set the user-specified wide sidebar width and mode (use setWideSidebarColumn instead)
-Set the validity of the current step.
 Set the value of hasUploadedPhoto
 Set the value of isFocusedOnEmailInvitesInput
 Set the video clip background image and selection key
@@ -19885,7 +19828,6 @@ Set the viewers of the file
 Set the visibility of Tractor coachmark for sending a message
 Set the visibility of Tractor coachmark for sharing a file
 Set the welcomer gif sent id
-Set the whether or not we have an active promise awaiting resolution
 Set the workspaces search term
 Set the workspaces sort direction
 Set time
@@ -19952,7 +19894,6 @@ Set video tile width for attendee
 Set view id by list id in user preferences
 Set view type for browser, either grid or list
 Set welcome message index for channel join title variation
-Set what region we
 Set what zoom value was set in the client before starting BBM
 Set what zoom value was set in the client when in BBM
 Set when PD First message flag was shown
@@ -20028,7 +19969,6 @@ Set whether we should trigger the trial offer modal
 Set whether we will use the backup region on our next connect attempt
 Set whether workspaces are in the process of being removed
 Set whether workspaces are in the process of having their provisioning updated
-Set which emails to send invites to
 Set which guided tour coachmark is open
 Set wildcard to off for app
 Set wildcard to on for app
@@ -20037,8 +19977,6 @@ Set work object app ids
 Set workflow as primary actions for channel
 Set workspace boot status
 Set workspace booted
-Set workspace domain
-Set workspace name
 Set workspaces
 Set your Slack status and availability
 Set your status
@@ -20408,7 +20346,6 @@ Sets the canvas thread of an active huddle only
 Sets the channel
 Sets the channel ID for the Huddle when joining through the Huddle Join Preview flow
 Sets the channel creator id that was clicked in the store
-Sets the channel id that the back button on canvas doc will go back to
 Sets the channel id where the solution template provisioning was started
 Sets the channel management is loading flag
 Sets the channel management permissions
@@ -20431,8 +20368,6 @@ Sets the currently selected tab in the action items card
 Sets the currently selected tab in the highlights card
 Sets the cursor for fetching the next batch of groups
 Sets the cursor for fetching the next batch of users
-Sets the cursor mark for the next page of Slackbot responses
-Sets the cursor mark for the next page of invites
 Sets the custom connectors
 Sets the custom retention settings for a channel
 Sets the date range filter for the data monitoring security alerts table
@@ -20472,7 +20407,6 @@ Sets the highlight mode to be danger
 Sets the highlight property of a download
 Sets the highlighted rows to be removed with animation
 Sets the huddle action for the user for the calendar huddle
-Sets the id of the currently open doc which was opened from a message
 Sets the information necessary for determining if the user has the proper scopes to read an external directory
 Sets the initial page load channels to the store
 Sets the inline edit mode for lists admin setting
@@ -20959,7 +20893,6 @@ Shortcut options
 Shortcut suggestions collapsed
 Shortcuts can be added to multiple categories, but they can only have one description.
 Shorten link
-Should an error be displayed
 Should not add placeholder space to home list
 Should not call ColorSpace.getOutputLength
 Should not call ColorSpace.getRgbBuffer
@@ -24453,11 +24386,8 @@ Update a view
 Update a vote on a vote cell in lists
 Update accessibility preferences
 Update admin suggested list views
-Update all the threads state values
 Update an ai workflow
-Update an app action (but without saving)
 Update an existing information barrier
-Update an import
 Update app submission bot scope reasons
 Update app submission scope reasons
 Update app submission user scope reasons
@@ -24615,8 +24545,6 @@ Update the active Slackbot thread to the one from the payload
 Update the active call token
 Update the active plan payment method
 Update the activities next cursor to fetch next batch of activities
-Update the all threads state
-Update the all unreads state
 Update the app logs filters
 Update the approval status for a given request by uniqueCompoundId
 Update the archive state of a comment
@@ -24639,13 +24567,11 @@ Update the current viewId set by refine in the active window
 Update the currently installed calendar
 Update the default list view id set for the specific List channel tab
 Update the elapsed call time
-Update the email in the search box
 Update the file data
 Update the file type for the search
 Update the frecency cache with a new recorded emoji item
 Update the frecency cache with the new recorded item, then save it to user prefs
 Update the gif picker prefs for the team or workspace
-Update the height of a table
 Update the initial results for channel files
 Update the initial unread count for a single channel
 Update the last browsing sort value for an entity
@@ -24687,9 +24613,6 @@ Update the store with new params related to channel internal share status
 Update the store with the latest app manifest
 Update the store with the list of channel managers
 Update the store with the list of channel prefixes
-Update the store with the list of invite links
-Update the store with the list of invite requests
-Update the store with the list of invites
 Update the store with the list of passkeys
 Update the store with the minimum access level for a channel
 Update the store with the new number of Channel Managers
@@ -24708,7 +24631,6 @@ Update the teams this channel is shared with on your organization or update to c
 Update the text in brackets to provide a personalized and relevant message to the channel (and avoid any awkwardness).
 Update the the last filter value
 Update the the last sort value
-Update the threads mention count
 Update the time we last connected to the websocket
 Update the time we last sent a message over the socket
 Update the todo state of a saved item
@@ -24840,7 +24762,6 @@ Updates the analytics Slackbot tools table data
 Updates the auto provision status for an org user group
 Updates the bulk grid record after a successful owner change
 Updates the channel permissions
-Updates the code and expiry date of expired invite link after renewal
 Updates the contacts_oauth user pref with the new value by provider
 Updates the creator_guided_setup onboarding pref
 Updates the current reply from RTM event
@@ -24852,7 +24773,6 @@ Updates the detail view expiration timestamp
 Updates the docked mini player elapsed time during playback
 Updates the docked mini player playing state
 Updates the domains collection from the server
-Updates the expiry date by 30 days after for extended link
 Updates the file sending status
 Updates the file upload percent complete
 Updates the file upload status
@@ -25238,7 +25158,6 @@ User mapping has been disabled for this connection.
 User needs to accept Custom TOS
 User not found
 User pref 
-User preferences
 User profile preview
 User provisioning (SCIM)
 User requested an app
@@ -25978,7 +25897,6 @@ Where to apply this rule
 Where to next?
 Where your team is talking
 Whether it is OK to interrupt a focus transition
-Whether reports are currently being fetched from the API call
 Whether to include external messages in the export.
 Which Salesforce org would you like to connect with the account?
 Which currencies do you support?
@@ -25988,6 +25906,7 @@ Which of the following did you experience? Select all that apply.
 Which partner app would you like to install?
 While commands like @everyone, @channel, and @here call the attention of all members in a conversation, user groups let you choose who should get your message.
 While teams are receiving the discounted subscription rate, the discount will also apply to any member count and activity changes that occur during the
+While to-dos are your home for tasks, you can still save any message or link for later without the urgency.
 White Solid 2
 White Solid 3
 White Solid 6
@@ -26655,7 +26574,6 @@ ha inviato un biglietto di auguri. Felice anno nuovo!
 handlerIds, when specified, must be an array of strings.
 how did this happen?
 in e&&e.channel?e.channel:(0,m.uP)(),team:e.team??(0,h.CT)(),member:e.member??(0,p.Nq)(),introducingMember:e.introducingMember,sentVia:e.sentVia??
-in e?!!(a&&((0,B.A)(e.url)||(0,g.cn)(e?.url??
 in e?!!(a&&((0,B.A)(e.url)||(0,x.cn)(e?.url??
 in e?!!(a&&((0,W.A)(e.url)||(0,g.cn)(e?.url??
 in e?!!(a&&((0,W.A)(e.url)||(0,x.cn)(e?.url??
