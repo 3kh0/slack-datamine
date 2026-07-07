@@ -6247,8 +6247,8 @@ Diagnostics report URL:
 Diagram of front ends at slack
 Dial-in Number:
 Dictate message
+Dictation chunk upload failed
 Dictation failed. Please try again.
-Dictation upload failed
 Dictionary entries
 Did Slackbot help you with what you needed?
 Did not find any windows to persist among the open ones; persisting an empty scene instead.
@@ -7775,6 +7775,7 @@ Failed to connect consumer to channel
 Failed to convert markdown to canvas
 Failed to convert to canvas. Please try again.
 Failed to copy email to clipboard
+Failed to copy image to clipboard
 Failed to copy link. Please try again.
 Failed to create ICC color space
 Failed to create a canvas - user does not have permission
@@ -7907,7 +7908,6 @@ Failed to perform a segmentation with a shared array buffer on the input image
 Failed to persist debug_clogs to sessionStorage
 Failed to persist invite_step_skipped_remind_me_later
 Failed to post comment
-Failed to prefetch Slack Scribe context during recording
 Failed to process the recording. Please try again.
 Failed to publish draft work object
 Failed to purge stored model and clear object store
@@ -8069,6 +8069,8 @@ Falkland Islands
 Falkland Islands (Malvinas)
 Fallback (already set)
 Fallback (cannot add here)
+Fallback canary
+Fallback demo
 Falling Leaves
 Faroe Islands
 Faster, smarter results
@@ -8805,6 +8807,7 @@ Find in threads
 Find members
 Find members that match a search query
 Find or go to something you know exists in Slack (e.g., a specific message, user, channel, file, link)
+Find popular channels
 Find quip shortcut commands that match a search query
 Find something in document
 Find the best Slack plan for your team
@@ -8942,6 +8945,8 @@ For both use cases, we should get a list of features with the
 For customer and client communication
 For lottie
 For more information
+For myself
+For others
 For questions or further assistance, reach out to us at
 For the entire organization
 For the organization
@@ -10935,7 +10940,6 @@ Join channel temporarily
 Join huddle
 Join meeting
 Join on this device
-Join popular channels
 Join public channels in a workspace
 Join team channels
 Join the Slack huddle
@@ -13892,6 +13896,7 @@ No Salesforce connections found. Contact your admin to add connections.
 No Selection
 No Slack Connect invitations yet
 No Slack Developer auto sandboxes
+No Slackbot MCP servers have been used yet.
 No Slackbot skills have been used yet.
 No Slackbot tools have been used yet.
 No SystemJS found, loading it
@@ -17506,6 +17511,7 @@ Render React
 Render complete
 Rendered cell should include style property for positioning.
 Rendered doc
+Rendered via the fallback convention
 Renew online
 RenewaGrid - Smart Grid Energy Solutions
 Renews monthly
@@ -19216,6 +19222,7 @@ Set as default for huddle notes
 Set as default for huddle notes?
 Set as default translation language
 Set as default view
+Set as my default view
 Set as percentage
 Set auth:none for a Salesforce org
 Set auth:ok for a Salesforce org
@@ -19645,6 +19652,7 @@ Set the current user as an org admin for the given team id (org id)
 Set the current user as an org owner for the given team id (org id)
 Set the current user as the org primary owner for the given team id (org id)
 Set the current user as the workspace primary owner for the given team id (workspace id)
+Set the current user default view for a list
 Set the current user enterprise id (only for enterprise)
 Set the current user team (workspace or enterprise) id
 Set the current view for the Invite To Workspace Modal
@@ -23222,6 +23230,7 @@ This thread
 This thread is currently unavailable
 This tool uses AI to generate responses, so some information may be inaccurate.
 This tool uses AI to generate workflows and may not always get it right. Let us know how it went.
+This tool uses generative AI, which can produce inaccurate or harmful responses.
 This tool uses generative AI, which can produce inaccurate or harmful responses. Review for accuracy and safety before using.
 This trigger requires Send Summary To Sales Home as the first step
 This type of account is not supported.
@@ -26464,6 +26473,7 @@ Your canvas, list, and workflows are always here so your team can easily find wh
 Your change triggered multiple validation rules
 Your changes may not have saved properly. Reload data to confirm they saved or to try saving again.
 Your changes will not be saved.
+Your client does not recognize this block, so it is showing the producer-supplied *fallback* instead of dropping the content.
 Your closest collab
 Your contacts have been successfully imported to your contacts page.
 Your contacts list is ready to go.
