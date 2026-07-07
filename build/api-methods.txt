@@ -62,7 +62,6 @@ admin.apps.domainWideAuth.enable
 admin.apps.domainWideAuth.google.getAdminInstallUrl
 admin.apps.domainWideAuth.google.getAuthorizeUrl
 admin.apps.domainWideAuth.list
-admin.apps.domainWideAuth.removeDomain
 admin.apps.getAiPrefs
 admin.apps.installed.list
 admin.apps.internal.list
@@ -801,8 +800,6 @@ enterprise.premigrations.users.info
 enterprise.premigrations.users.updateResolution
 enterprise.retention.get
 enterprise.security.alerts.list
-enterprise.security.ipAllowlist.info
-enterprise.security.ipAllowlist.set
 enterprise.setPhoto
 enterprise.signup.checkDomain
 enterprise.signup.checkPassword
@@ -1056,7 +1053,6 @@ lists.records.subscriptions.add
 lists.records.subscriptions.get
 lists.records.subscriptions.remove
 lists.records.updateDeletion
-lists.setDefaultView
 lists.setupTodos
 lists.templates
 lists.update
@@ -1670,19 +1666,17 @@ wmp.documents.save
 wmp.documents.sendTranslation
 wmp.documents.unpublish
 wmp.documents.update
-wmp.events.list
 wmp.icons.list
 wmp.media.create
 wmp.media.delete
 wmp.media.folders.create
 wmp.media.folders.list
 wmp.media.folders.update
-wmp.media.getDownloadUrl
 wmp.media.getFormatDensityMatrix
 wmp.media.info
 wmp.media.list
 wmp.media.listGrouped
-wmp.media.memberships.createBulk
+wmp.media.memberships.create
 wmp.media.memberships.delete
 wmp.media.replace
 wmp.media.update
