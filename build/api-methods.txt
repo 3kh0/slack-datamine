@@ -62,6 +62,7 @@ admin.apps.domainWideAuth.enable
 admin.apps.domainWideAuth.google.getAdminInstallUrl
 admin.apps.domainWideAuth.google.getAuthorizeUrl
 admin.apps.domainWideAuth.list
+admin.apps.domainWideAuth.removeDomain
 admin.apps.getAiPrefs
 admin.apps.installed.list
 admin.apps.internal.list
@@ -800,6 +801,8 @@ enterprise.premigrations.users.info
 enterprise.premigrations.users.updateResolution
 enterprise.retention.get
 enterprise.security.alerts.list
+enterprise.security.ipAllowlist.info
+enterprise.security.ipAllowlist.set
 enterprise.setPhoto
 enterprise.signup.checkDomain
 enterprise.signup.checkPassword
@@ -1666,6 +1669,7 @@ wmp.documents.save
 wmp.documents.sendTranslation
 wmp.documents.unpublish
 wmp.documents.update
+wmp.events.list
 wmp.icons.list
 wmp.media.create
 wmp.media.delete

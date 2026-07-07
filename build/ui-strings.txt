@@ -191,7 +191,6 @@
 . This chunk will not be buffered.
 . This offer can only be redeemed via the desktop Slack app or a desktop web browser.
 . This offer can only be redeemed via the desktop Slack app or desktop web browser.
-. Use it to coordinate responses, escalate issues, and track the complete support lifecycle from initial contact to resolution.
 . You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument).
 .type should be specified.
 1 instance in locked content skipped.
@@ -214,7 +213,7 @@
 :I.mv.ConfirmationModal,onClose:eq,headerImageSrc:Q,headerImageAlt:e4,title:ej?eH:void 0,className:s()(ej||T||eF?
 :O instanceof RegExp?
 :_ instanceof RegExp?
-:a?r:void 0,children:m?
+:a?n:void 0,children:m?
 :bulb: Get your team on the same page with canvases.
 :bulb: Stay on track with lists.
 :e instanceof File?
@@ -292,6 +291,7 @@ A file with that name is already in that folder.
 A file you saved was deleted.
 A file you saved was not found.
 A folder with that name already exists here.
+A gray callout for neutral information.
 A h:mm:ss
 A header block
 A helpful subtitle description
@@ -344,6 +344,7 @@ A page already exists at this URL
 A pair of side-by-side testimonial cards, each with a company logo, quote, and attribution (name and title).
 A pin was added to a channel
 A pin was removed from a channel
+A pink callout for warnings.
 A place for important notifications
 A plain text alert with no markup.
 A private channel was archived
@@ -558,6 +559,7 @@ AI workflow generation
 AI workflow generation and AI steps
 AI-Powered Workflow Creation
 AI-generated answers may be inaccurate.
+AI-generated conversation summaries and AI agents will no longer be available.
 AI-powered Slackbot
 AI-powered bird
 AI-powered customer relationship management, right where your team is already working.
@@ -963,7 +965,6 @@ Add a ViewSet key to the store with initial state
 Add a block from the sidebar or paste JSON in the editor to get started.
 Add a bookmark
 Add a bookmark to this channel
-Add a bookmark to this conversation
 Add a bot to allow users to exchange messages with your app.
 Add a branch
 Add a browser instance to the store
@@ -1398,7 +1399,6 @@ Adding failed connection attempt to back off
 Adding route to the history stack
 Additional Info
 Additional access needed
-Additional bookmarks
 Additional field content
 Additional options
 Additional profile content
@@ -1576,6 +1576,7 @@ Agent permissions updated
 Agent replies when it can be helpful
 Agent selection
 Agent session
+Agent sessions
 Agent suggestion dismissed
 Agent view
 Agent will not respond
@@ -1930,7 +1931,6 @@ An error occurred attempted to disconnect from the compute pressure observer
 An error occurred attempting to get latest compute pressure reports
 An error occurred cleaning up huddle redux state. Proceeding to disconnect from media server.
 An error occurred creating a new instance of the PressureObserver
-An error occurred when trying to resend the verification email.
 An error occurred while attempting to create compute pressure observer
 An error occurred while copying event to user
 An error occurred while creating an event
@@ -1956,6 +1956,7 @@ An externally shared channel that was unavailable due to an external team migrat
 An image in the canvas
 An import is in progress.
 An important quote
+An indigo callout with emphasis.
 An instance of the global keyboard shortcuts handler was already mounted for this window
 An internal error happened while handling event 
 An internal error occurred while processing the draft.
@@ -2726,6 +2727,7 @@ Block scalars must not be less indented than their
 Block scalars with more-indented leading empty lines must use an explicit indentation indicator
 Block selection cleared
 Block settings
+Blocking huddle start for frontline worker
 Blocking huddles init since a huddlesSdk is already active
 Blocking prejoin init since a prejoin SDK is already active
 Blockquote Layout Container Section Handler
@@ -2955,6 +2957,7 @@ Bundle row missing bundleKey
 Bundled with premium Slack features like AI assistance, advanced admin controls and more
 Burkina Faso
 Business Plus SAML SSO Admin Menu Trigger
+Business Plus Team - Treatment C
 Business operations
 Business+ Advanced Security Launch Modal
 Business+ Plan
@@ -3641,6 +3644,7 @@ Catch up on channel conversations fast with AI summaries about this channel and 
 Catch up on documents in a flash with smart AI summaries of files shared in Slack.
 Catch up quickly and reduce noise with automated summaries and daily recaps
 Catch-up failed: no transcript history available
+Categories (pick at least one)
 Category Label
 Category Tags
 Catppuccin Latte
@@ -4242,6 +4246,7 @@ Clear the filter in store by setting filter to the initial state
 Clear the full awareness state for a user
 Clear the highlight from the initial message
 Clear the huddle history.
+Clear the in-progress DWA setup modal state for a single app
 Clear the inviter ID for a channel (Slackbot-gated); used on self-join to drop stale state
 Clear the join credentials for a specific channel
 Clear the last executed encoded search string
@@ -4715,7 +4720,6 @@ Company Address Validated
 Company Offsite
 Company handbook canvas and channel tab creation failed
 Company headquarters location
-Company is a required field. Match a column to Company to continue.
 Company is null
 Company kick off
 Company or team name
@@ -4888,10 +4892,8 @@ Connect your apps to Slackbot
 Connect your apps to get the most out of Slack.
 Connect your apps to use it without leaving Slack.
 Connect your files
-Connect your inbox
 Connect your lists with a workflow
 Connect your support email
-Connect your support email address
 Connect your support email later
 Connect your tools in Slack
 Connect, simplify, and automate. Discover the power of apps and tools.
@@ -4949,11 +4951,7 @@ Contact Sales to change or manage your plan
 Contact Support
 Contact Us
 Contact an admin to use Slack Connect
-Contact field mapping
 Contact for security issues
-Contact import complete
-Contact import failed
-Contact import partially complete
 Contact information
 Contact name or email
 Contact us in #feedback-channel-agent.
@@ -5667,7 +5665,6 @@ Custom endpoint is not compatible with access point ARN
 Custom endpoint is supplied; endpointDiscoveryEnabled must not be true.
 Custom expiration date
 Custom fields
-Custom inputs (optional)
 Custom instructions
 Custom process
 Custom regex
@@ -6118,6 +6115,7 @@ Deletes auth for the user
 Deletes the given custom emoji
 Deleting DB
 Delivered with love
+Demo Author
 Democratic Republic of the Congo
 Demonstrates that long action button labels truncate within the card width.
 Demonstrates the SUIMessageBlocks entry point with mock renderables, context bridge, and fallback handling.
@@ -6415,6 +6413,7 @@ Display a warning when sending links from private messages
 Display alert message for huddle call
 Display as
 Display as URL
+Display as card
 Display broadcast warning (@mention in a thread)
 Display broadcast warning (@mention invites)
 Display broadcast warning (shouty rooster)
@@ -6483,9 +6482,8 @@ Document boundary indicators are not allowed within string values
 Document container had an unexpected child
 Document conversions
 Document conversions (Quip admin)
-Document conversions as permitted by the Quip organization admin.
-Document conversions disabled
-Document conversions enabled
+Document conversions off
+Document conversions on
 Document discussion topics and next steps.
 Document end marker line cannot have a non-comment suffix
 Document failed to load
@@ -6647,6 +6645,7 @@ E.g. get_quote
 E2EE - setting up transports with insertable streams
 EDIT-MESSAGE - maybeSave
 EDIT-MESSAGE - startDelete
+EDU Discount Sidebar Promo
 EKM Message
 EKM clear cache event occurred
 EMM integration support
@@ -7004,7 +7003,7 @@ Enable incoming emails
 Enable invitations to new channels to be automatically accepted
 Enable member provisioning for your team.
 Enable noise suppression
-Enable or disable document conversions for all users. Disabling conversions prevents users from converting documents but preserves existing organization connection.
+Enable or disable document conversions for all users in this org. Turning this off stops new conversions but keeps the existing connection.
 Enable or disable local microphone
 Enable org chart
 Enable password-free authentication
@@ -7760,6 +7759,7 @@ Failed to change input device:
 Failed to change who can manage agent.
 Failed to check IP
 Failed to check Slackbot DM history for existing summary
+Failed to check accessibility permissions
 Failed to clear completed items
 Failed to collect screenshare stats
 Failed to compile font 
@@ -7783,6 +7783,7 @@ Failed to create memory canvas
 Failed to create notifications outline canvas
 Failed to create skill. Please try again.
 Failed to create slackbot mini window
+Failed to create task
 Failed to create the custom field. Please try again.
 Failed to create the meeting notes canvas. Please try again.
 Failed to create the meeting notes canvas. The recording could not be processed.
@@ -7802,6 +7803,7 @@ Failed to execute
 Failed to export activity log. Please try again later.
 Failed to fetch
 Failed to fetch agent preferences
+Failed to fetch agent sessions
 Failed to fetch agents
 Failed to fetch and instantiate test worker
 Failed to fetch channel members
@@ -7858,6 +7860,7 @@ Failed to instantiate the VideoFxEngine
 Failed to leave some user channels
 Failed to link vertex and fragment shaders.
 Failed to load MCP server tools. Please try again.
+Failed to load MCP servers
 Failed to load MCP servers. Please try again.
 Failed to load PDF page labels
 Failed to load PDF sheet geometry
@@ -8021,8 +8024,7 @@ Failed to transform calendar_jit_notification to JIT event
 Failed to turn off DND (SCHEDULE)
 Failed to turn off DND (SNOOZE)
 Failed to uninstall app
-Failed to unregister Slack Scribe accelerator combo
-Failed to unregister Slack Scribe paste-last-transcript shortcut
+Failed to unregister Slack Scribe combos
 Failed to unregister double-press shortcut
 Failed to unsubscribe from awareness topic: 
 Failed to unsubscribe from file id: 
@@ -8834,6 +8836,7 @@ First Name
 First and last name
 First argument to String.prototype.includes must not be a regular expression
 First block.
+First child block.
 First event
 First item
 First message from today.
@@ -8969,8 +8972,6 @@ Formatting toolbar visible
 Formula module requires KaTeX.
 Fortran (Fixed Form)
 Fortran (Free Form)
-Forward AI answer
-Forward AI explanation
 Forward a message to the announcer API to be announced by screen reader
 Forward in history
 Forward logs to 
@@ -9495,6 +9496,7 @@ Google Sheets
 Google Slide
 Google Workspace
 Google Workspace & Office 365
+Google sign-in requires a paid plan.
 Got NaN while animating:
 Got a primary meeting join ACK
 Got disconnected during reconnection attempt
@@ -9885,6 +9887,8 @@ Help me respond
 Help me set up a new task.
 Help me set up an automation
 Help me write a follow-up for my last meeting
+Help me write a personalized email
+Help me write a personalized reply for this thread
 Help others recognize you
 Help others understand what this skill set is for.
 Help people find and use workflows relevant to this channel.
@@ -9895,6 +9899,7 @@ Helvetica Condensed
 Helvetica Neue
 Henry Wilson
 Here are a couple of links
+Here are some ways you can get started.
 Here are the top 10 largest sub stores
 Here is a list:
 Here is a message from a 
@@ -10030,7 +10035,6 @@ How big is your company?
 How big is your org?
 How big is your team?
 How can I find out what version my Product UI is?
-How can Slackbot help you today?
 How can our sales team help you?
 How do I add or delete elements on my UI?
 How do I rename channels? People?
@@ -10292,7 +10296,6 @@ Implicit map keys need to be on a single line
 Import & export data
 Import CSV
 Import CSV as a list
-Import CSV file
 Import Leads from CSV
 Import Workflow Failure
 Import Workflow Success
@@ -10361,6 +10364,7 @@ Include only uploaded files in Slackbot search results.
 Include only uploaded files in search results.
 Include the prompt and result in your feedback to Slack.
 Included in form
+Included in your plan
 Included keywords
 Includes me
 Including external people
@@ -10418,6 +10422,7 @@ Information was accurate
 Information was accurate, up to date or clear
 Information was inaccurate
 Information was inaccurate, outdated or confusing
+Inherited from app
 Init new canvas AI content request
 Initech - Annual Renewal
 Initech logo
@@ -10563,10 +10568,12 @@ Internal Bot
 Internal Error Occurred
 Internal Slack analysis of team decision velocity, 2023
 Internal Tools
+Internal Training Video
 Internal apps
 Internal error
 Internal name shown to editors in WMP. Not published.
 Internal store update for mini-panel visibility
+Internal training video
 Internal workspaces
 Internally set the sizing and positioning data for a window (please use setViewport thunk instead)
 Internally update the window focus state
@@ -11096,6 +11103,7 @@ L-eyeclosed 2
 L-eyeclosed 3
 L-eyeclosed 4
 L-eyeclosed 5
+L-star 3
 L:(meta.action.jison - (comment | string)), source.js.embedded.jison - (comment | string), source.js.embedded.source - (comment | string.quoted.double | string.quoted.single)
 L:(meta.script.astro) (meta.lang.js | meta.lang.javascript | meta.lang.partytown | meta.lang.node) - (meta source)
 L:(meta.script.astro) (meta.lang.json) - (meta source)
@@ -11174,7 +11182,6 @@ Last 30 Days
 Last 7 days
 Last 7 days summary not available
 Last Name
-Last Name is a required field. Match a column to Last Name to continue.
 Last activity
 Last day
 Last edited
@@ -11314,11 +11321,7 @@ Lazy load messages tab data when top results tab is focused
 Lazy load people tab data when top results tab is focused
 Lazy load the canvas tab
 Lazy load the files tab
-Lead field mapping
 Lead form
-Lead import complete
-Lead import failed
-Lead import partially complete
 Lead marked 
 Leading dimension of 
 Learn More
@@ -11647,6 +11650,7 @@ Loading Salesforce connections
 Loading Salesforce records
 Loading V3
 Loading aborted
+Loading agent sessions
 Loading agents
 Loading agents and apps
 Loading apps
@@ -11777,7 +11781,6 @@ Log exposure for the invited_user_glow_up experiment if it is exposed
 Log exposure for the inviter_joiner_first_dm experiment if it is exposed
 Log exposure for the inviter_joiner_first_dm_v2 experiment if it is exposed
 Log exposure for the joiner_personalized_launchpad_dm experiment if it is exposed
-Log exposure for the joiner_recent_channel_content experiment if it is exposed
 Log exposure for the joiner_welcome_party experiment if it is exposed
 Log exposure for the jp_customer_love_quick_wins_client experiment if it is exposed
 Log exposure for the message_expiry_banner_exp experiment if it is exposed
@@ -11875,7 +11878,7 @@ Long-form copy for this section
 Look at this photograph
 Look up any recent discussions between me and the participants to provide context.
 Looking for Workflow Builder?
-Looking for a saved message?
+Looking for something you saved in Later?
 Looking for something you saved?
 Looking for something?
 Looking fresh! No new recommendations.
@@ -12502,7 +12505,6 @@ Make optional?
 Make private
 Make read-only channels on topics and keep it free from distraction.
 Make shorter
-Make sure all the fields are correct.
 Make sure everyone sees the canvas and any future updates
 Make sure the channel is not archived and try again.
 Make sure the correct speaker is selected
@@ -12638,7 +12640,6 @@ Manage your customers, right in Slack
 Manage your email connection here
 Manage your own OAuth Tokens
 Manage your plan yourself, anytime
-Manage your support emails directly in a channel
 Manage your team members and permissions via SCIM and SAML-SSO
 Manage your time and data
 Manage your web form here
@@ -12785,8 +12786,6 @@ Marshall Islands
 Master UI Ctrl
 Master null
 Match ALL of
-Match columns to contact fields
-Match columns to lead fields
 Match type: exact (name+emoji), name-exact, keyword, or fuzzy:score
 Material Theme
 Material Theme Darker
@@ -13057,6 +13056,7 @@ Merge Paths 6
 Merge Paths 7
 Merge Paths 8
 Merge Paths 9
+Merge in-progress DWA setup modal state for a single app
 Merge partial changes into an MCP server
 Merge sources must be Map nodes or their Aliases
 Merged Shape Layer
@@ -13130,6 +13130,7 @@ Message history
 Message history for private channels
 Message history for public channels
 Message history for the full school year
+Message history limited to 90 days
 Message input
 Message is required
 Message is too big to send over socket
@@ -13705,7 +13706,6 @@ NavigationItem not found in context. Component may not have rendered yet.
 Need To Request Access
 Need audio tracks to run analyser
 Need extra help?
-Need help with this step?
 Need more permissions
 Need size to transform point to curve
 Need the slack window context to listen for messages from the call window
@@ -13905,12 +13905,15 @@ No active selection for event
 No activity yet
 No additional channels
 No additional hard blocks beyond default model restrictions
+No advanced AI
+No agent sessions yet
 No agents
 No agents are available for your search
 No agents available
 No allowed files passed to uploadFiles
 No alt text
 No app data
+No apps available for your organization.
 No apps have been installed yet.
 No args provided. Bold, very bold.
 No assets match this locale
@@ -13928,7 +13931,6 @@ No base head set
 No base sequence set
 No blockers reported.
 No blocks yet
-No bookmarks description
 No call ID or active huddle
 No call window
 No callback provided. Printing response
@@ -14500,8 +14502,6 @@ Onboarding prompts
 Once added, this runs only when you ask Slackbot. You can remove it anytime.
 Once added, you can ask Slackbot to use these skills
 Once added, you can ask Slackbot to use this skill
-Once imported, contacts will be stored in Salesforce.
-Once imported, leads will be stored in Salesforce.
 Once you publish a UI, you have the option to Send to Translation. You can translate published UIs by viewing them and clicking Translate in the toolbar. From there:
 Once your team installs an app, it will show up here for you to manage.
 One Dark Pro
@@ -14663,6 +14663,7 @@ Open Request CRM License modal
 Open Request to Purchase modal
 Open Sales Tracker
 Open Salesforce organizations menu
+Open Salesforce record
 Open Saved for later page
 Open Saved in either page or flexpane
 Open Search
@@ -15104,6 +15105,7 @@ Opens the later custom modal
 Opens the later remove modal for a tombstoned saved item
 Opens the leave a workspace dialog
 Opens the manage email connection dialog
+Opens the modal for managing MCP or Enterprise Search Connector settings
 Opens the modal that shows recently visited views
 Opens the modal to add a external file as a channel tab
 Opens the modal to add a file as a channel tab
@@ -15198,6 +15200,7 @@ Or choose an existing contact
 Or create a new account
 Or create a new contact
 Or just ask me anything else!
+Ordered by importance
 Ordered list
 Ordered maps must not include duplicate keys
 Org Admin
@@ -15222,7 +15225,6 @@ Org-wide channel analytics
 Org-wide channel data not available yet
 Org-wide channels
 Organization Assets
-Organization ID
 Organization Policies
 Organization Settings
 Organization analytics
@@ -15230,7 +15232,6 @@ Organization channels
 Organization details
 Organization info
 Organization is always just a click away.
-Organization name
 Organization overview
 Organization policies
 Organization search
@@ -15722,7 +15723,6 @@ Pinned by private user,
 Pinned by private user.
 Pinned by unknown user, 
 Pinned by unknown user.
-Pinned items
 Pinned tabs
 Pins a Slackbot AI NUX kickoff thread ts so its root message can be hidden
 Pitcairn Islands
@@ -15982,14 +15982,15 @@ Presenter enabled drawing for screen
 Presenter enabled drawing for window
 Preserve context for a dispatched thunk
 Presigning only supports S3 or SigV4 signing.
-Press Ctrl+Enter to generate
+Press Command+Enter to generate, or Enter for a new line
+Press Ctrl+Enter to generate, or Enter for a new line
 Press Ctrl+Enter to send
 Press Enter to activate top result.
+Press Enter to generate, or Shift+Enter for a new line
 Press down arrow to see prompt suggestions
 Press enter to hide this tip.
 Press enter to view all organizations
 Press space
-Press spacebar to reorder
 Press spacebar to resume recording
 PressureObserver callback
 Prevent further auto-opening the canvas template preview in a DM
@@ -16020,8 +16021,6 @@ Preview of the company handbook template
 Preview of uploading file
 Preview options
 Preview unavailable
-Preview your Contacts
-Preview your Leads
 Preview your daily recap
 Previewable blocks interleaved with dividers
 Previous 30 days
@@ -16151,6 +16150,7 @@ Processing channel information
 Processing device list
 Processing shortcut
 Processing step restrictions:
+Product Demo
 Product FAQ
 Product Item I18Ns
 Product Items
@@ -16290,6 +16290,7 @@ Publish Workflow From Template
 Publish a Product UI
 Publish a draft work object with current form state values
 Publish a skill to the skill catalog
+Publish changes
 Publish changes to view field ID
 Publish failed
 Publish now
@@ -16404,7 +16405,10 @@ R Fire 2
 R Fire 3
 R Leg Outlines
 R arm Outlines
+R-eye-circle 2
+R-eye-matte 2
 R-eyeball 2
+R-star 3
 R:text.html - (comment.block, text.html meta.embedded, meta.tag.*.*.html, meta.tag.*.*.*.html, meta.tag.*.*.*.*.html)
 RDC - Resume Direct Captioning
 READINESS CHECK - Failed on session creation
@@ -16541,7 +16545,6 @@ Receive an audio output change event
 Receive response to search apps request
 Receive shared channel invite events your Slack app has been invited to
 Receive support emails, collaborate on case resolutions, and respond to customers without leaving Slack.
-Receive support emails, collaborate on case resolutions, and respond to customers without leaving Slack. 
 Received ICE connected event after initial batch was sent, ignoring
 Received ICE gathering complete event after initial batch was sent, ignoring
 Received ICE gathering started event after initial batch was sent, ignoring
@@ -16872,6 +16875,7 @@ Redeem partner promo code success
 Redesign toggle
 Redirect URL
 Redirect URLs
+Redirect change
 Redirect destination
 Redirect to general channel or fallback to Slackbot
 Redirect to general or Slackbot if benefits page is primary view but not enabled
@@ -17034,7 +17038,6 @@ Remove Connection
 Remove DND override channel
 Remove Data Cloud connection
 Remove Default Status
-Remove Email
 Remove Email Connection
 Remove Form
 Remove From Channel Managers
@@ -17678,7 +17681,6 @@ Resend Code to Backup Phone
 Resend Invitation
 Resend invitation
 Resend invite
-Resend link
 Reserved by core.metrics.record
 Reset Filters
 Reset RemoteFilePreviewUrl store
@@ -17951,8 +17953,6 @@ Review migrating user accounts
 Review new updates
 Review opportunities with out-of-date info
 Review opportunities with past close dates
-Review our suggested matches for columns from your file to fields in the contact list.  You can also skip unnecessary columns.
-Review our suggested matches for columns from your file to fields in the lead list. You can also skip unnecessary columns.
 Review pending connection update
 Review permissions for this template
 Review the full skill before adding it to your Slackbot
@@ -18027,8 +18027,10 @@ Rotis Serif
 Round Corners 1
 Route 53
 Route 53 Domains
+Route history
 Route to message on Saved for Later page on notification click
 Route to todos page on notification click
+Route updated
 Route your workflow based on button clicks
 Route your workflow based on emoji reactions
 Routes param must be an object of defined valid routes for your Gantry app
@@ -18382,7 +18384,6 @@ Search API returned error
 Search Acme Inc Outlines
 Search App
 Search Confluence
-Search Connectors
 Search DMs
 Search Debug Results
 Search Google Workspace Directory
@@ -18444,6 +18445,7 @@ Search experiments
 Search external connections
 Search external results for multiple connectors in parallel
 Search files
+Search files across your org and preview them in Slack
 Search filters
 Search folders
 Search for 
@@ -18550,6 +18552,7 @@ Searching Slack messages for relevant context
 Searching all suggested records
 Seats search term for members page
 Second block.
+Second child block.
 Second item
 Second section after a divider.
 Secondary CTA
@@ -18642,6 +18645,7 @@ See how video clips work
 See if we should drop history for a thread after closing it
 See if you qualify for an 85% discount on a paid plan
 See less
+See meetings, join calls, and sync your Slack status automatically
 See more
 See older comments
 See original
@@ -18938,6 +18942,7 @@ Sends a message to Slackboss with optimistic placeholder
 Sends a message to Slackbot AI and invokes any side effects
 Sends a request to disconnect a Salesforce organisation
 Sends a request to generate a CSV member list which will be downloadable by Slackbot
+Sends a summary to a channel
 Sends all delayed marks to the API
 Sends an email via Salesforce
 Sends an event to the app that the context has changed if the assistant view is opened
@@ -19878,15 +19883,14 @@ Set up all other teams to boot if in multi team mode
 Set up channel post and comment permissions
 Set up client store
 Set up domain wide authentication
-Set up domain-wide authentication
 Set up domain-wide authentication once so everyone in your org can get calendar features automatically.
-Set up forwarding
 Set up in Salesforce
 Set up the fields people will use to update info in this step.
 Set up two-factor authentication
 Set up workflows to collect items with forms, send due date reminders to assignees, and keep your team aligned with automatic summaries.
 Set up your CRM
 Set up your Slack
+Set up your connection
 Set up your org
 Set up your profile details
 Set up your profile details and find someone you know.
@@ -20638,6 +20642,7 @@ Sets whether the huddle recording is currently paused.
 Sets whether the huddle window of an active huddle is open or not.
 Sets whether the huddles bottom bar is visible or not
 Sets whether the in-product team creation state machine has been loaded
+Sets whether the joiner should be redirected to Slackbot DM (pre-computed by backend)
 Sets whether the last calendar window fetch errored
 Sets whether the last calendar.user.status fetch failed
 Sets whether the members page is loading
@@ -21312,7 +21317,6 @@ Slack AI results ready
 Slack AI settings
 Slack API Documentation
 Slack Acceptable Use Policy
-Slack Apps
 Slack Calls will be restricted and routed through selected regions only.
 Slack Commands
 Slack Connect
@@ -21739,6 +21743,7 @@ Standard light C
 Standard support
 Standard workflows
 Standup Bot
+Star 1 (Stroke)
 Star a channel
 Star agent
 Star app
@@ -22190,7 +22195,9 @@ Summarize the key points of this message in 2-3 bullet points
 Summarize this canvas
 Summarize this case -
 Summarize this case - 
+Summarize this change for the page history
 Summarize this file
+Summarize this route change for the history
 Summarize thread
 Summarize threads, draft replies, and find answers without leaving Slack.
 Summarize unreads
@@ -22219,7 +22226,6 @@ Supply both 1x and 2x assets for retina displays
 Support Email
 Support URL
 Support dragging links to texty inputs
-Support email
 Support email address
 Support for HIPAA compliance
 Support for constants in Bidirectional layers is not implemented yet.
@@ -22417,6 +22423,7 @@ Talk with a teammate
 Tap the link to join.
 Tap to add an image
 Target Locales
+Target change
 Target is not a typed array
 Target is not iterable
 Target locales
@@ -22694,7 +22701,6 @@ The featured link works well for linking to related documentation or feature pag
 The field will be visible to everyone with access to the list.
 The file associated with this transcript is no longer available.
 The file type 
-The first row of your .csv file should be the name of each column.
 The first row of your file should be column names. Be sure to include 
 The following people have requested access to customer management in Slack. Approving the request will add them as Salesforce users.
 The free plan includes up to 10 users, 90 days of message history, and 5GB of file storage.
@@ -22864,7 +22870,6 @@ There was a problem loading your domain verification settings. Try again in a fe
 There was a problem loading your field mappings
 There was a problem loading your integration information
 There was a problem making this person a Channel Manager. Give it another try in a few minutes.
-There was a problem removing your email connection. Give it a moment and try again.
 There was a problem renaming this channel. Give it another try in a few minutes.
 There was a problem resending the invite. Please try again later.
 There was a problem restoring this message. Give it another try in a few minutes.
@@ -22878,7 +22883,6 @@ There was a problem searching Salesforce. Try again in a few minutes, or contact
 There was a problem sharing this record
 There was a problem switching integrations
 There was a problem syncing with Salesforce
-There was a problem uploading your CSV file.
 There was a problem verifying your email. Try connecting your inbox again.
 There was an error checking access to this object. Some fields may not be available.
 There was an error configuring Google Auth. Please try again or choose a different account.
@@ -22917,6 +22921,7 @@ Thinking completed
 Thinking steps
 Third Contact
 Third block.
+Third child block.
 Third item
 Third item with 
 Third party services used by this app
@@ -22978,7 +22983,6 @@ This canvas was not found.
 This canvas was retired
 This card has no header. It only has a hero image, body text, and two action buttons at the bottom.
 This channel cannot be archived.
-This channel is for everything 
 This channel is linked to a record
 This channel is no longer shared with your organization.
 This channel is restricted from use with AI steps.
@@ -23019,6 +23023,7 @@ This feature is powered by Tenor, a third-party service.
 This feature is unlimited with an upgrade
 This feature is unlimited with your free trial
 This feature requires Slackbot to be enabled for your workspace. The content is generated with AI and sent by Slackbot. As a reminder, content generated by AI can be inaccurate.
+This feature requires Slackbot to be visible. Only members who have Slackbot enabled will see an anniversary celebration.
 This field cannot be modified once created.
 This field has been deprecated. Instead, use the KeySpec field.
 This field is automatically synced by your organization.
@@ -23055,6 +23060,7 @@ This indicates createLog() was never called. Skipping telemetry update.
 This invitation is from a new account
 This is Slack, a messaging app built for work
 This is a Slack developer workspace
+This is a basic callout block.
 This is a callout block with 
 This is a description of the linked content that appears in the attachment body.
 This is a header block
@@ -23170,6 +23176,7 @@ This selection includes locked content. To make changes, unlock edits.
 This setting can be changed without any impact.
 This settings determines what invite preferences are available to users when creating a calendar huddle
 This should not be possible
+This shows whether the Quip admin has disabled document conversion.
 This skill is enabled for your workspace. To make it private, an admin must first remove it from the workspace skill settings.
 This skill set is empty. Add skills to get started.
 This skill works best with these integrations. Connect them to get the full experience.
@@ -23591,6 +23598,9 @@ Translation requested
 Translation settings
 Travel & Places
 Travel Modes
+Treatment A
+Treatment B
+Treatment C
 Treatment group listing isn
 Trial - 14 day
 Trial Promo SubType
@@ -25180,7 +25190,6 @@ User started huddle
 User still disconnected. Reporting app metrics without client metric report.
 User suggestions collapsed
 User type
-User validation passed, proceeding with navigation
 User verification was required but no available authenticator supported it
 User verification was required during automatic registration but it could not be performed
 User was added to or removed from a team; re-fetching auth
@@ -25271,6 +25280,7 @@ Variables allow you to insert data from previous steps into your workflow.
 Variables containing multiple items must not be mixed with other items of the same type
 Variables used in knowledge sources:
 Variables used in sources
+Variant change
 Variant name
 Variant source
 Vatican City
@@ -25280,6 +25290,7 @@ Vector (Stroke) 3
 Vector 1
 Vector 10
 Vector 10-2
+Vector 100
 Vector 11
 Vector 11-2
 Vector 117
@@ -25317,6 +25328,7 @@ Vector 5 (Stroke)
 Vector 6
 Vector 6 (Stroke)
 Vector 7
+Vector 7 (Stroke)
 Vector 7-2
 Vector 8
 Vector 8-2
@@ -25339,7 +25351,6 @@ Verify the user exists in Salesforce and the mapping field (email or username) m
 Verify with Google
 Verify your GitHub identity
 Verify your domain
-Verify your email
 Vertical Feather
 Vertical Layout
 Vertically Select
@@ -25948,6 +25959,7 @@ Whoops! Template names cannot have emojis.
 Whoops! That name is reserved.
 Why Slack
 Why are you flagging this?
+Why are you unpublishing?
 Why teams choose Slack
 Why teams pick Slack
 Wide Latin
@@ -26049,7 +26061,6 @@ Workflow Builder users can download form responses
 Workflow Builder users can download form responses.
 Workflow Builder users cannot download form responses.
 Workflow Builder window opened
-Workflow Connectors
 Workflow Details
 Workflow Editor
 Workflow Form Response Downloads
@@ -26459,8 +26470,6 @@ Your headline here
 Your inbox, summarized
 Your internet connection appears to be offline. Your changes have not been saved. Click to retry.
 Your itinerary
-Your leads have been successfully imported to your leads page.
-Your leads list is ready to go.
 Your limited time offer has been applied!
 Your list schema has changed. Open and save this step to update your form.
 Your main focus today should be around Q4 forecast variance, DataNet P1 escalation, and enterprise conversion performance.
@@ -26495,7 +26504,6 @@ Your sidebar is your own.
 Your signature emoji
 Your smart Slack productivity partner
 Your spreadsheets
-Your support address is verified
 Your team accessed unlimited messages and files
 Your team has been upgraded.
 Your team is discussing the Q3 launch timeline. Key decisions needed: finalize the feature set by Friday and confirm the rollout plan.
