@@ -7959,6 +7959,8 @@ Failed to restore items. Please try again.
 Failed to retrieve data
 Failed to retrieve task: Task not found
 Failed to revoke external links. Please try again.
+Failed to save MCP server ACL
+Failed to save MCP server access settings
 Failed to save Slack Scribe sounds pref
 Failed to save Slackbot NUX carousel memory
 Failed to save agent access settings
@@ -12423,6 +12425,7 @@ MCP app log
 MCP connections coming soon.
 MCP connector OAuth start failed
 MCP credential source
+MCP server access updated
 MCP server tools fetch failed
 MCP server workspaces
 MCP servers
@@ -12651,6 +12654,7 @@ Manage tags and properties
 Manage top bar agents
 Manage use in private channels
 Manage web search
+Manage who can use this MCP server
 Manage workflow integrations
 Manage workflows
 Manage workspace roles
@@ -21575,6 +21579,7 @@ Some organizations are not allowed to use this workflow.
 Some permissions are locked by your workspace or organization.
 Some plans may have limitations not visible here (e.g. Slack Connect is 1:1 only for Free).
 Some processed heads are not included in AD changes
+Some selected people or groups don
 Some sources are restricted from AI access. Remove them to continue.
 Some sources have restricted sharing. Remove them to continue.
 Some things for you and your team to try.
@@ -22662,6 +22667,7 @@ The agentforce step cannot be used with a private channel. Please choose a publi
 The all-calls-store should not be used in the call window. Use the active-call-store for local call state.
 The amount of computational work that your system performs
 The animation loop runs via 
+The app only allows specific people or groups
 The app will no longer appear in the 
 The args passed in customGrad(f)(x1, x2,...) must all be tensors
 The argument must be a React element, but you passed 
@@ -22963,6 +22969,7 @@ This MCP server is missing required OAuth endpoints.
 This MCP server needs to be connected before we can fetch the tools list.
 This Salesforce account does not have sufficient API access.
 This Salesforce account is already linked to another Slack user.
+This access can
 This account has been deactivated.
 This action can
 This action cannot be undone.
@@ -26681,6 +26688,8 @@ retryVideoStreamBinding - Max retries exceeded. Video stream binding failed.
 rollups missing actions???
 s AI abilities with 10 messages. Ready to unlock more?
 s State to be Active. This waiter uses GetFunctionConfiguration API. This should be used after new version is published.
+s access first.
+s access. Choose a more restrictive option.
 s advanced AI, security features, and global compliance tools.
 s allowed domains list.
 s built-in header fields instead.
