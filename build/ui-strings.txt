@@ -56,6 +56,7 @@
  has already been used.
  has been saved successfully.
  header.
+ here. Contents will still be available in search, and you can always unarchive it later if needed.
  hook which is the source of truth for features.
  hook. It displays all features, grouped by section.
  in connect options.
@@ -100,6 +101,7 @@
  on the shared prompt, their Slackbot library will reference the canvas directly (no copy). If you edit the canvas later, recipients see your updates.
  only when you need a different layout for a specific page.
  or contact your administrator.
+ others.
  page to see the complete list of available icons.
  parameter in the linearization dictionary does not equal the stream length.
  parameter is invalid.
@@ -344,6 +346,7 @@ A notification card with two buttons
 A number of times is required
 A page already exists at this URL
 A pair of side-by-side testimonial cards, each with a company logo, quote, and attribution (name and title).
+A pigeon carrying an envelope
 A pin was added to a channel
 A pin was removed from a channel
 A pink callout for warnings.
@@ -535,7 +538,6 @@ AI notes on 3 Outlines
 AI notes on 4 Outlines
 AI notes on Outlines
 AI notes only
-AI notes updated
 AI notes will be posted in channel in just a few.
 AI permissions
 AI powered
@@ -555,7 +557,6 @@ AI thread _COACHMARK_WHITE-FILL
 AI tools like channel summaries
 AI use & limit sharing
 AI use & sharing
-AI use updated
 AI will suggest messages that need your reply, or you can add your own items saved for later.
 AI workflow builder
 AI workflow generation
@@ -1076,12 +1077,14 @@ Add accounts
 Add action items
 Add agent
 Add agents and apps
+Add agents and apps to this group DM
 Add alt text before publishing
 Add amount
 Add an Agent
 Add an App
 Add an Image
 Add an OAuth Scope
+Add an Office 365 domain
 Add an active download
 Add an additional layer of security to your account so you never have to worry about your password being compromised.
 Add an agent
@@ -1120,6 +1123,9 @@ Add app recommendations to store
 Add app to your top bar
 Add apps
 Add apps to conversation shortcut - opens Apps Browser
+Add apps to this DM
+Add apps to this channel
+Add apps to this group DM
 Add apps to to store
 Add as bookmark
 Add as tab
@@ -1192,6 +1198,7 @@ Add files as link in draft
 Add files for the AI to reference. Links in added files will not be crawled.
 Add files, canvases, lists, or connected sources (Google Drive, Confluence, etc.) the AI can reference
 Add filters to be used in next rendered browser instance
+Add from Box
 Add from Dropbox
 Add from Google Drive
 Add from OneDrive & SharePoint
@@ -1757,7 +1764,6 @@ Allow microphone access in windows settings. If you
 Allow multi-person direct messages to be changed to a private channel
 Allow once
 Allow people to choose
-Allow people to generate a summary about your profile
 Allow phone number calls in Slack (only in direct messages)
 Allow private channel access
 Allow recipients to mute this notification
@@ -1923,6 +1929,7 @@ An alias node must not specify any properties
 An allowed workspace is required
 An animated GIF showing the result of enabling the GIF picker for your team or organization
 An app wants to open this link in your browser:
+An asset with this name already exists in this folder. Rename the file (or remove the existing one), then try again.
 An atom node cannot have a contentDOM
 An email address is required
 An emoji is worth a thousand words. Make them work harder by reacting to messages and customizing to your workspace.
@@ -2025,6 +2032,7 @@ Any amount change
 Any changes to your email?
 Any custom setting
 Any file type
+Any other priorities I should be aware of?
 Any owner or admin
 Any status
 Any subroute
@@ -2143,6 +2151,7 @@ Apply an edit action to a list
 Apply automation rules before channel invitations are sent
 Apply change in later_show_upcoming_reminders pref
 Apply change in later_todo_hide_* prefs
+Apply client.counts response to store
 Apply context override
 Apply counts to channel objects and update stores
 Apply counts to channels and threads
@@ -2218,6 +2227,7 @@ Archive all items in view
 Archive all threads in a canvas
 Archive channel
 Archive channel for everyone
+Archive conversation
 Archive inactive channel
 Archive item
 Archive items in view
@@ -2598,6 +2608,7 @@ Back to back Meetings after overlap group
 Back to back Meetings before and after overlap group
 Back to back Meetings before overlap group
 Back to main
+Back to search
 Back to the top
 Backdrop stack already unmounted.
 Backdrop stack popped while empty.
@@ -2799,7 +2810,6 @@ Brainstorm ideas about team-building exercises for our next onsite
 Brainstorm ideas or think through something
 Branch collapse toggle failed
 Branch step duplicate failed
-Branch thread
 Brand Guidelines v3
 Brazilian (ABNT)
 Bridge invocation without a delegate being set, ignoring.
@@ -3618,6 +3628,7 @@ Captions not available for this video
 Capture anything, from quick notes to onboarding docs
 Captures the session ID for a thread so the success survey can reference it
 Carbon Footprint
+Card Title
 Card Variant
 Card actions
 Card actions and content
@@ -4333,6 +4344,7 @@ Clears the persisted apiCall payload at the key
 Clears the profile of the current user and turns off DND if necessary
 Clears the recording cancellation reason after the toast has been shown
 Clears the resume state after the inline player has consumed it
+Clears the searched-users Salesforce org assignment map (e.g. when switching orgs)
 Clears the selected app
 Clears the stored memories import result once the UI has consumed it
 Clears the story flexpane config (called by the flexpane after changes are applied
@@ -4889,6 +4901,7 @@ Connect to Salesforce in Sales Home to use this step and publish this workflow.
 Connect to apps
 Connect to desktop store
 Connect to socket
+Connect with Office 365
 Connect workspaces
 Connect your One Drive account
 Connect your SSO to any identity provider.
@@ -5006,6 +5019,7 @@ Continue To Purchase
 Continue Without Muting
 Continue Workflow
 Continue buttons are single click, and when one is clicked, all continue buttons disappear
+Continue in thread
 Continue or branch workflow
 Continue this conversation in a huddle
 Continue to Checkout
@@ -6359,6 +6373,7 @@ Dismiss Auto Slack onboarding composer first message banner and fetch next coach
 Dismiss Flag
 Dismiss Meet Slackbot notification
 Dismiss Slack AI NFX tour
+Dismiss Slackbot NUX carousel
 Dismiss Slackiversary sidebar item
 Dismiss Suggested Message
 Dismiss XWS education banner
@@ -6380,6 +6395,7 @@ Dismiss the Slack Connect Straight to Paid Modal if it is currently visible
 Dismiss the current toast
 Dismiss the salesforce session banner
 Dismiss the search in-product education for a period (internal)
+Dismiss the vacation emoji pack dot notification
 Dismiss themes banner
 Dismiss this flagged item
 Dismiss tip
@@ -6813,6 +6829,7 @@ Edit template
 Edit template name and permissions
 Edit the text of a message
 Edit this block
+Edit thread name
 Edit to-do
 Edit to-do reminder
 Edit topic
@@ -6941,6 +6958,7 @@ Email address copied to clipboard.
 Email address updates for migrating users
 Email and Password
 Email body
+Email catalog
 Email could not be sent. Please retry.
 Email domain verification
 Email domains
@@ -7871,6 +7889,7 @@ Failed to initiate background worker
 Failed to inject custom titlebar styling
 Failed to insert section as sibling
 Failed to instantiate the VideoFxEngine
+Failed to kick off Slackbot mini intro thread
 Failed to leave some user channels
 Failed to link vertex and fragment shaders.
 Failed to load MCP server tools. Please try again.
@@ -7895,12 +7914,15 @@ Failed to load owner change options. Please try again.
 Failed to load preview
 Failed to load report
 Failed to load settings. Please try again later.
+Failed to load the email catalog.
 Failed to load tools.
 Failed to load widget
 Failed to load workflow instance steps
 Failed to log out of orgs: orgURL is missing or invalid: [Error logging out: Invalid orgURL.]
+Failed to minimize main window before opening Slackbot mini
 Failed to obtain IndexedDB factory because the current environmentis not a web browser.
 Failed to open DM in send message summary
+Failed to open Slackbot mini from NUX pill
 Failed to parse IMSC1: 
 Failed to parse URL for debug_clogs param
 Failed to parse VTT cue: 
@@ -7913,6 +7935,7 @@ Failed to parse workflow_error_view_details action value
 Failed to parse workflow_error_view_logs action value
 Failed to paste transcript via desktop clipboard
 Failed to perform a segmentation with a shared array buffer on the input image
+Failed to persist Slackbot mini opened flag
 Failed to persist debug_clogs to sessionStorage
 Failed to persist invite_step_skipped_remind_me_later
 Failed to post comment
@@ -7926,6 +7949,7 @@ Failed to read device selection history from local storage
 Failed to read large IndexedDB value
 Failed to read team or enterprise ID in Unknown Fetch Manager
 Failed to read varint, encoding is invalid.
+Failed to record Slackbot mini as opened
 Failed to record notification dismissal during spring cleaning completion
 Failed to recover microphone after device switch error:
 Failed to refresh Salesforce orgs after enabling Slackbot
@@ -7962,7 +7986,6 @@ Failed to revoke external links. Please try again.
 Failed to save MCP server ACL
 Failed to save MCP server access settings
 Failed to save Slack Scribe sounds pref
-Failed to save Slackbot NUX carousel memory
 Failed to save agent access settings
 Failed to save ai_apps_settings
 Failed to save app access settings
@@ -8444,6 +8467,7 @@ Fetches KPI metrics metadata for sales home insights (optionally) given an array
 Fetches MCP server details from sfdc.agentforce.admin.getMcpServerDetails
 Fetches Org and Team Permissions
 Fetches SCDM invite acceptance eligibility and upserts it
+Fetches Salesforce org assignment for searched users
 Fetches a list of MCP servers and stores any ok response in Redux; lets errors propagate
 Fetches a list of MCP servers from sfdc.agentforce.admin.listMcpServers
 Fetches a list of Salesforce organizations from sfdc.integration.listOrgs
@@ -8619,7 +8643,6 @@ Fetches top members for the channel
 Fetches top results
 Fetches user
 Fetches user created canvas templates using files search.modules
-Fetches whether the given user has AI Profile Summaries enabled for their profile
 Fetches work object search results
 Fetching Trial Status
 Fetching admin TOS
@@ -8765,6 +8788,7 @@ Filter conversations by
 Filter conversations by:
 Filter criteria
 Filter developer commands
+Filter emails by title, description, or key
 Filter files
 Filter for option list
 Filter huddles
@@ -9155,7 +9179,6 @@ Generate an app-level token
 Generate an app-level token to enable Socket Mode
 Generate keywords search summary
 Generate meeting insights
-Generate memory from conversations
 Generate response draft to action item message by calling the Composer API
 Generate transcript
 Generated by Slackbot
@@ -9267,7 +9290,6 @@ Get formatted Channel list
 Get formatted channel name
 Get formatted list column value
 Get formatted list name
-Get help
 Get help from the Slack help center and email support during regular business hours.
 Get help with code or technical questions
 Get huddles tips and tricks
@@ -9539,6 +9561,7 @@ Gradient Type
 Gram-Schmidt process: input must not be null, undefined, or empty
 Grant Access
 Grant Slack access to Google
+Grant Slack access to Office 365
 Grant user consent for provided scopes for an app
 Grant workspace access?
 Grants (and pins for the session) a proactive Slackbot Everywhere thread hint for a thread
@@ -9715,7 +9738,6 @@ Gruvbox Light Medium
 Gruvbox Light Soft
 Guardian Egyptian
 Guest App Use Restrictions
-Guest access updated
 Guest accounts must be converted to full members before they can be changed to an admin or owner.
 Guest draw should not be mounted without an active peer
 Guests are allowed in this channel.
@@ -9791,7 +9813,6 @@ Handle the completion of the setup flow for Straight To Paid entrypoints
 Handle the completion of the setup flow for pricing or promo entrypoints
 Handle the escape key trigger
 Handle the filtering of VIP activity item
-Handle the opening of bookmarked workflows
 Handle the opening of bookmarks
 Handle the send message event and maybe show progressive disclosure tip
 Handle unfurl comments data update
@@ -9897,7 +9918,6 @@ Help button
 Help center
 Help center URL
 Help me add new leads to Slack, either by uploading them as a CSV file or adding them manually.
-Help me connect my apps to Slack
 Help me create a new skill.
 Help me draft a meeting invite
 Help me edit this preference in your memory.
@@ -10082,6 +10102,7 @@ How will the discount work?
 How would you like to proceed with this request? Choose one of the options below
 How you and your team are using Pro features
 HtmlToPbParser already registered for 
+Hubble link
 Huddle AI Notes
 Huddle Jukebox Manager created.
 Huddle Message
@@ -10548,10 +10569,10 @@ Inspiration from your boss
 Install App
 Install apps for user
 Installation Count
-Installation failed
 Installation landing page URL
 Installed Agents
 Installed Apps
+Installed agent results
 Installed agents
 Installed apps:
 Installing incremental auth handler
@@ -10815,7 +10836,6 @@ Invoice Data Validated
 Invoice Form Field Validated
 Invokes and fetches an AI Explain LLM response
 Invokes and fetches an AI agent profile summary
-Invokes and fetches an AI profile summary
 IoT Data Plane
 Ionic No. 5
 Iris Thompson
@@ -10986,8 +11006,10 @@ Jump to date
 Jump to latest messages
 Jump to message
 Jump to new activity
+Jump to next unread thread
 Jump to the bottom of the list
 Jump to the currently edited message
+Jump to: unread thread
 Jumps to a message and opens the welcome card modal immediately
 Jumps to a message in another workspace via navigateToRoute
 Jumps to a message in the client
@@ -11077,6 +11099,7 @@ Kick off sending email invites for draft, skip sending message until all emails 
 Kick off the intent to leave a channel
 Kickoff Meeting
 Kicks off a CSV file upload for importing Sales Home users
+Kicks off the Slackbot mini intro thread via createSlackbotInitiatedThread
 Kicks off the file upload and updates the draft store with the file IDs
 Kicks off the file upload and updates the feedback store with the file IDs
 Kicks off the file upload and updates the messageEditPendingFileIds and pendingFileUploads stores with the file IDs
@@ -11328,6 +11351,7 @@ Layer_1 _reset
 LayersModel invocation with concrete Tensor value(s) in the presence of activity regularizer(s) is not supported yet.
 Layout Parent
 Layout Referenced Handler
+Layout and settings
 Layout density
 Layout had an unexpected child
 Layout had no contents
@@ -11665,6 +11689,7 @@ Loader 8
 Loader can only be used once.
 Loader for user org object mappings
 Loading Agentforce agents
+Loading MCP servers
 Loading Salesforce connections
 Loading Salesforce records
 Loading V3
@@ -12260,6 +12285,7 @@ M49.008 57.608a3.292 3.292 0 003.548 4.855 3.29 3.29 0 002.374-4.407 3.29 3.29 0
 M49.5 27.6v-9.5H29v9.5c0 3 3.8 5.5 8.5 5.5 2.4 0 4.6-.6 6.1-1.7l6-3.8Z
 M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1
 M5 21a2 2 0 0 1-2-2
+M5 3.5v9l7-4.5z
 M5 3a2 2 0 0 0-2 2
 M5 6.25a.75.75 0 0 1 1.23-.576l4.5 3.75a.75.75 0 0 1 0 1.152l-4.5 3.75A.75.75 0 0 1 5 13.75zm1.5 5.899L9.078 10 6.5 7.851zM13 6.25a.75.75 0 0 1 1.5 0v7.5a.75.75 0 0 1-1.5 0z
 M5.253 4.193a7.5 7.5 0 0 1 10.554 10.554zm-1.06 1.06a7.5 7.5 0 0 0 10.554 10.554zM10 1a9 9 0 1 0 0 18 9 9 0 0 0 0-18
@@ -12299,6 +12325,7 @@ M6 2c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6H6zm7 7V3.
 M6 4l4 4-4 4V4z
 M6 6.75c.966 0 1.75.784 1.75 1.75v4.09a.75.75 0 1 1-1.5 0v-1.158h-1v1.158a.75.75 0 1 1-1.5 0V8.5c0-.966.784-1.75 1.75-1.75zm-.5 1.5a.25.25 0 0 0-.25.25v1.432h1V8.5A.25.25 0 0 0 6 8.25z
 M6 7.75C6 6.784 6.784 6 7.75 6h4.5c.966 0 1.75.784 1.75 1.75v4.5A1.75 1.75 0 0 1 12.25 14h-4.5A1.75 1.75 0 0 1 6 12.25z
+M6 7h12l-1 13a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2L6 7zm3.5-3h5l1 1H19v2H5V5h3.5l1-1z
 M6 8h.01
 M6 9h6V5l7 7-7 7v-4H6V9z
 M6 9l6 6 6-6
@@ -12362,7 +12389,6 @@ M78.54 90.45c4.17 0 7.54 3.38 7.54 7.54 0 4.17-3.38 7.54-7.54 7.54-4.17 0-7.54-3
 M79.5 108.7c-2 2.9-4.2 6.1-5.5 8.7
 M8 12h.01
 M8 21h8M12 17v4
-M8 5v14l11-7z
 M8.03 3.78a.75.75 0 0 0-1.06-1.06L1.72 7.97a.75.75 0 0 0 .53 1.28h15.5a.75.75 0 0 0 0-1.5H4.06zm3.94 12.44a.75.75 0 1 0 1.06 1.06l5.25-5.25a.75.75 0 0 0-.53-1.28H2.25a.75.75 0 0 0 0 1.5h13.69z
 M8.036 11.179h3.929L10 5.679z
 M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z
@@ -12544,6 +12570,7 @@ Make this channel run smoother with AI
 Make this group mentionable
 Make this person an Org Admin?
 Make this the live page?
+Make threads easier to find. This will be visible to all participants.
 Make your sandbox more secure
 Makes API call to create the next command token and updates the store
 Makes API call to fetch DM Invite and upserts the returned Member and Team info
@@ -12754,6 +12781,7 @@ Mark re-engagement sparkles complete
 Mark read
 Mark record read to unhighlight it
 Mark saved items as completed by filter
+Mark that Slackbot Mini has been opened on this device
 Mark that a user has created channel sections
 Mark that the user is not in any workspaces in this org
 Mark that the user needs to accept their org
@@ -12785,6 +12813,7 @@ Marketing assets
 Marketing team using Slack
 Marketplace Catalog
 Marketplace Commerce Analytics
+Marks Slackbot Mini as opened on this device
 Marks a calendar event as having sent a system notification this session
 Marks a filter key as fully fetched for aiApps.list memoization
 Marks a thread banner as having been dismissed for a given latestReplyTs
@@ -13051,9 +13080,9 @@ Menlo,Consolas,Monaco,Liberation Mono,Lucida Console,monospace
 Mention an agent
 Mention in a list item
 Mention in a thread
+Mention: 
 Mentions and direct messages
 Mentions only
-Mentions updated
 Menu actions for 
 Menu bar
 Menu in Slack channel with option to view history from the very beginning
@@ -13095,6 +13124,7 @@ Merged Shape Layer 6
 Merged Shape Layer 7
 Merged Shape Layer 8
 Merged Shape Layer 9
+Merges Salesforce org assignment for searched users into the member-picker map
 Mesh data is not a stream
 Message #project-acme
 Message & file history
@@ -13208,11 +13238,8 @@ Messages and search history
 Messages and tasks that need your attention.
 Messages and threads you follow
 Messages by the channel owner
-Messages from 
 Messages from Agentforce agents
-Messages from agents and apps
 Messages from apps & workflows
-Messages from people
 Messages from specific users
 Messages in threads
 Messages must be kept for at least 1 day.
@@ -13343,7 +13370,6 @@ Missing team ID for updateArchiveState
 Missing team ID for updateReply
 Missing team id, cannot thin boot team.
 Missing team id. Exiting early
-Missing team in payload, skipping deep link
 Missing teamId
 Missing token
 Missing topic or blocks in search summary
@@ -13923,7 +13949,6 @@ No access to AI features
 No access to ETag property on response.
 No accounts found
 No action items
-No action needed
 No active call ID for huddle
 No active call on call window close
 No active huddle channel found
@@ -14049,6 +14074,7 @@ No functions found for category, removing selection:
 No group overrides available
 No groups
 No groups or people are selected
+No huddle happening right now
 No huddle id found
 No image content creator for type
 No image selected
@@ -14426,6 +14452,7 @@ Notify peers of changes to isDrawEnabled
 Notify pending members
 Notify resynced
 Notify when field changes
+Notify your workspace owner.
 Noto Color Emoji
 Noto Sans
 Noto Sans CJK KR
@@ -14518,6 +14545,7 @@ Offset is bigger than container
 Ogiltig input
 Oh heck yeah
 Oldest to newest
+Oldest unread message
 Olivia Scott
 On Gdrive Creation Complete
 On a call
@@ -14701,6 +14729,7 @@ Open Search
 Open Slack
 Open Slack Connect trial entry point modal
 Open Slackbot AI in empty state
+Open Slackbot mini
 Open Slackbot to help you respond to this thread
 Open Slackbot to summarize your recent activity
 Open Team
@@ -14924,6 +14953,7 @@ Open todos page and item in secondary view
 Open todos page in home
 Open trial checkout or plans page if user can purchase
 Open troubleshooting panel
+Open unread options
 Open users DM channel canvas
 Open version history - no specific version
 Open workflow details
@@ -15285,6 +15315,7 @@ Other answer text
 Other channels
 Other display options
 Other fields
+Other lower priority unreads
 Other options
 Other top results
 Other workspaces
@@ -15953,7 +15984,6 @@ Poster Image (1x)
 Poster Image (2x)
 Poster before autoplay
 Posting permissions
-Posting permissions updated
 Posts message into the composer
 Potential spam activity
 Potentially EXPECTED ERROR in getOrCreateStripeCustomer - just make sure this is followed by a call to paymentsStripeCustomerCreate
@@ -16211,7 +16241,6 @@ Profile 1 Outlines
 Profile 4 Outlines
 Profile 8 Outlines
 Profile Picture
-Profile Summary
 Profile URL
 Profile content removed
 Profile content updated
@@ -16909,7 +16938,6 @@ Redirect change
 Redirect destination
 Redirect to general channel or fallback to Slackbot
 Redirect to general or Slackbot if benefits page is primary view but not enabled
-Redirecting bot user to app view
 Redirects to client and opens a DM
 Redirects to the first tab in the PinnedTabs variant
 Reduce  counter
@@ -17576,6 +17604,7 @@ Replace split view
 Replace text emoji with native
 Replace the ID of the existing starred collection with the real one from the server
 Replace the queue object
+Replace this asset?
 Replace view set
 Replace with a new link
 Replace with a simple rule
@@ -17813,6 +17842,7 @@ Resets user groups flexpane list to initial state
 Resetting camera ready state to allow retry after errors
 Resetting reachedEnd
 Resize Layer
+Resize sidebar
 Resizes the huddle window
 Resolution not supported
 Resolve a pending huddle
@@ -18200,7 +18230,6 @@ Salesforce channels cannot be used with this step.
 Salesforce connection settings
 Salesforce data
 Salesforce data field
-Salesforce deep link missing record ID
 Salesforce event settings
 Salesforce icon
 Salesforce list
@@ -18327,7 +18356,6 @@ Save your sorting preference
 Save your team a step. Add verified domains to Google Calendar, Google Drive, Microsoft Outlook Calendar, or OneDrive, and any member using that email domain will automatically be connected.
 Saved Topics
 Saved contact
-Saved details about your work that Slackbot uses to generate better responses and drafts.
 Saved for later
 Saved item
 Saved items moved to to-dos
@@ -18698,6 +18726,7 @@ See what you can do
 See why teams choose Slack.
 See workflows
 See yesterday
+See your most important unreads first
 See your primary Google Account email address
 See your summaries in a predictable order or just focus on the newest.
 Seed unread VIP thread counts on boot
@@ -19974,6 +20003,8 @@ Set whether peeks were enabled on mouse enter before starting BBM
 Set whether sidebar was visible before starting BBM
 Set whether the Appearance Preferences modal is open
 Set whether the JP Pocket Guide popover is programmatically opened (i.e. from clicking foreword link)
+Set whether the Slackbot NUX carousel is mounted and visible
+Set whether the Slackbot NUX carousel was dismissed this session
 Set whether the backend is generating new focus topics
 Set whether the channel summary coachmark is eligible to be shown
 Set whether the channel summary coachmark should be shown
@@ -20548,6 +20579,7 @@ Sets the sort direction for the user groups table
 Sets the sort fyi coachmark to seen once dismissed once
 Sets the sort options for the members tab
 Sets the sort order for the to-do tab
+Sets the source that opened the Slackbot split view from Today
 Sets the state for active ai app
 Sets the state for the split view window
 Sets the status of app activities next cursor fetching
@@ -20852,7 +20884,7 @@ Share folder
 Share item
 Share list
 Share message
-Share more about yourself
+Share more with Slackbot
 Share record
 Share screen
 Share section
@@ -20911,7 +20943,6 @@ Shared to channel
 Shared with me
 Shared with you
 Shares a link to the item in the active huddle thread as a draft
-Sharing & file downloads updated
 Sharing a channel lets you work with other companies, right in Slack.
 Sharing and downloading are allowed in this channel.
 Sharing and downloading are not allowed in this channel.
@@ -21305,6 +21336,7 @@ Skills will appear here as they become available
 Skin Tone
 Skin Tones
 Skip Forever
+Skip Slackbot onboarding
 Skip Step
 Skip focus huddle pro max window, reason: desktop API not available
 Skip focus huddle pro max window, reason: no windowId available
@@ -21507,7 +21539,6 @@ Slackbot saved these from your conversations to make future responses more relev
 Slackbot settings
 Slackbot teaser
 Slackbot tool
-Slackbot will automatically save relevant details from your Slack activity and update your saved memory once a week.
 Slackbot will message you when your images are ready for download.
 Slackbot will not include files in search results
 Slackbot will show any files uploaded in search results.
@@ -21605,6 +21636,7 @@ Something went wrong loading content from this app.
 Something went wrong loading your Salesforce connections. Please try again.
 Something went wrong removing the field. Please try again.
 Something went wrong removing this domain. Please try again later.
+Something went wrong rendering this report. Try reopening it.
 Something went wrong responding to the invite.
 Something went wrong saving this object type. Try again in a few minutes.
 Something went wrong saving your channel sources. Please try again.
@@ -22204,6 +22236,7 @@ Summarize # for an executive review
 Summarize # for the past month
 Summarize Channel Outlines
 Summarize DM
+Summarize all unread messages
 Summarize any conversation with Slack AI
 Summarize busy channels instantly.
 Summarize channel
@@ -22218,6 +22251,7 @@ Summarize message
 Summarize my recent activity
 Summarize need-to-know info for your team.
 Summarize new messages
+Summarize recent changes
 Summarize the discussion so far
 Summarize the discussion up to now
 Summarize the file 
@@ -22620,6 +22654,7 @@ Thanks for the feedback
 Thanks for your feedback!
 That channel name is invalid. Please try again.
 That name is already taken by a channel, username, or user group in this workspace.
+That name is too long. Try a shorter one.
 That private channel has been archived.
 That user has been deactivated.
 The %TAG directive must only be given at most once per handle in the same document.
@@ -23128,6 +23163,7 @@ This is still a work in progress
 This is subtext that appears below the body
 This is the battleship app
 This is the body text of the attachment.
+This is the card body content.
 This is the large trial awareness banner for no-commit use cases.
 This is the place to send email, log activity, or invite a contact to message with you in Slack.
 This item is due today.
@@ -23305,10 +23341,12 @@ Thread id not found for spreadsheet:
 Thread in a direct message
 Thread member index should not be loaded without the necessary permits, the request will fail.
 Thread moderation
+Thread name
 Thread summaries
 Thread summaries, made to order
 Thread summary not available
 Thread with an AI agent
+Thread: 
 Threads Outlines
 Threads View unable to log message impressions
 Threads in archived items are view only.
@@ -23359,6 +23397,7 @@ Time to document your genius!
 Time to join a workspace
 Time to ship a release
 Time to stretch
+Time to tidy up?
 Time to wrap up your day
 Timed out after 30000
 Timeout in waiting for child window to load
@@ -23788,6 +23827,7 @@ Try adjusting your search.
 Try again
 Try asking
 Try asking a question like 
+Try asking about...
 Try closing other apps you have running
 Try different keywords or check for typos.
 Try disconnecting, then reconnecting the app to try again.
@@ -24255,6 +24295,8 @@ Unread comments
 Unread conversations
 Unread conversations, plus your Starred section
 Unread items
+Unread mention
+Unread thread reply
 Unreads & drafts
 Unreads List View unable to log message impressions
 Unreads Outlines
@@ -25873,6 +25915,7 @@ What is project acme? 2 Outlines
 What is project acme? 3 Outlines
 What is project acme? Outlines
 What is project acme? Outlines 2
+What is the project status?
 What is this workflow for?
 What is wrong?
 What is your feedback?
@@ -25928,14 +25971,12 @@ When project is updated
 When setting a time frame for deleting messages, please choose a duration less than 100 years.
 When should the summary be sent
 When someone clicks the workflow link
-When someone views your profile, they can generate an AI summary about you using public information in Slack.
 When the content is 2 characters or less, no gradient will be applied.
 When using nodeViews, you must provide renderNodeViews callback
 When using prefType view_count, viewCountPrefName is required.
 When using zeroDebias: true, step is required.
 When we switch channels or jump to a specific message, reset the counter for search in-product-education tip
 When you archive recommendations from the admin advisor, they will show up here.
-When you are ready, I can gather some context on you and your role and come back with suggestions on where to best use my feature set.
 When you delete this workflow, it
 When you recommend an app, it will appear here.
 When you search with questions or multiple keywords, Slack generates intelligent AI-powered answers, saving you time and effort.
@@ -26442,7 +26483,7 @@ Your Slack workspace know it all
 Your Slackbot experience
 Your Slackbot preview ended.
 Your Slackbot preview has ended.
-Your Slackbot set up list
+Your Slackbot todo list
 Your VPN or proxy can degrade audio and video quality
 Your Workspaces
 Your accommodation

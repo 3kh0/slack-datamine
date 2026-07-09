@@ -62,6 +62,7 @@ admin.apps.domainWideAuth.enable
 admin.apps.domainWideAuth.google.getAdminInstallUrl
 admin.apps.domainWideAuth.google.getAuthorizeUrl
 admin.apps.domainWideAuth.list
+admin.apps.domainWideAuth.microsoft.getConsentUrl
 admin.apps.domainWideAuth.removeDomain
 admin.apps.getAiPrefs
 admin.apps.installed.list
@@ -244,6 +245,7 @@ admin.workflows.triggers.types.permissionsWithStepRestrictions.set
 admin.workflows.unpublish
 agents.threads.archive
 agents.threads.pin
+agents.threads.rename
 agents.threads.unpin
 ai.agents.channelAgent.configure
 ai.agents.channelAgent.getConfiguration
@@ -314,8 +316,6 @@ ai.alpha.slackiversary.fetch
 ai.alpha.summarize.agentProfile
 ai.alpha.summarize.channelUnreads
 ai.alpha.summarize.feedback
-ai.alpha.summarize.profile
-ai.alpha.summarize.profileEnabled
 ai.alpha.summarize.thread
 ai.alpha.summarize.unreadsSnapshot
 ai.alpha.surfaces.getContent
@@ -405,7 +405,6 @@ apps.team.variables.delete
 apps.team.variables.get
 apps.team.variables.set
 apps.user.connection.submit
-assistant.threads.branch
 assistant.threads.changeContext
 assistant.threads.rename
 assistant.threads.startThread
@@ -725,6 +724,7 @@ email.domains.list
 email.domains.updateExternalAccess
 email.domains.verify
 email.threads.share
+emailPreview.catalog.list
 emails.info
 emoji.add
 emoji.addCollection
@@ -1408,6 +1408,7 @@ sfdc.integration.elevateMigration.exportFailedUsers
 sfdc.integration.elevateMigration.start
 sfdc.integration.elevateMigration.startManual
 sfdc.integration.listOrgs
+sfdc.integration.searchUsers
 sfdc.integration.setCurrentOrg
 sfdc.layouts.info
 sfdc.licenses.approval.list
@@ -1678,6 +1679,7 @@ wmp.icons.list
 wmp.media.create
 wmp.media.delete
 wmp.media.folders.create
+wmp.media.folders.delete
 wmp.media.folders.list
 wmp.media.folders.update
 wmp.media.getDownloadUrl
