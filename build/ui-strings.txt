@@ -945,6 +945,7 @@ Add SSO Configuration
 Add Scope
 Add Section
 Add Server
+Add Skill
 Add Slack AI to your plan
 Add Slackbot access
 Add Step
@@ -1062,6 +1063,7 @@ Add a shared skill
 Add a short description
 Add a single space between lines
 Add a skill to Slackbot
+Add a skill to this channel
 Add a skill to this skill set
 Add a subtitle
 Add a suggestion
@@ -6192,6 +6194,7 @@ Deprecated. No longer allowed.
 Deprecated. Unused.
 Descrease count of open popovers for a team, optionally in a given window
 Describe how Channel Agent should respond in this channel.
+Describe how Slackbot should respond in this channel.
 Describe how your team plans to use this list
 Describe the types of messages that should start this workflow (e.g., 
 Describe this folder
@@ -8025,6 +8028,7 @@ Failed to save agent access settings
 Failed to save ai_apps_settings
 Failed to save app access settings
 Failed to save changes
+Failed to save channel custom instructions
 Failed to save custom instructions
 Failed to save description. Please try again.
 Failed to save focus item thread association:
@@ -8106,6 +8110,7 @@ Failed to update admin role sync setting
 Failed to update agent preference
 Failed to update banner setting
 Failed to update category. Please try again.
+Failed to update channel skills
 Failed to update disconnect restriction setting
 Failed to update effect on existing device, creating new one
 Failed to update field name. Please try again.
@@ -11083,6 +11088,7 @@ Keep nav headings short (1-3 words) so they scan easily
 Keep paragraphs to one or two short sentences so blurbs stay visually balanced
 Keep paragraphs to one or two short sentences so tiles stay visually balanced
 Keep receiving your recap?
+Keep replies short, and link to the team handbook when relevant
 Keep responses concise, and use the occasional emoji
 Keep shared information secure and organized
 Keep tabs on your important messages
@@ -14260,6 +14266,7 @@ No sidekicks
 No sidekicks created by you
 No size marker found in JPX stream
 No skills added yet
+No skills added yet. Slackbot can use skills you add here in this channel.
 No skills available yet
 No skills found
 No snapshot for focus layer
@@ -15247,6 +15254,7 @@ Opens the request to join workspace permalink dialog
 Opens the restricted workspace permalink dialog
 Opens the roadblock modal for External Limited members
 Opens the schedule message dialog
+Opens the settings modal for Slackbot skills + custom instructions in a channel
 Opens the settings modal for the Slack channel expert bot
 Opens the sever team modal
 Opens the share assignee dialog
@@ -21401,6 +21409,7 @@ Site Navigation
 Six to eight logos produces the most balanced layout
 Six-up logo strip with header
 Skill Sets
+Skill added
 Skill deleted
 Skill instructions
 Skill set is already in your Slackbot library.
@@ -21722,6 +21731,7 @@ Something went wrong saving this object type. Try again in a few minutes.
 Something went wrong saving your channel sources. Please try again.
 Something went wrong saving your instructions. Please try again.
 Something went wrong trying to search your directory.
+Something went wrong updating skills. Please try again.
 Something went wrong when trying to fetch dynamic options:
 Something went wrong when trying to fetch the template list.
 Something went wrong while converting this lead. Please try again.
@@ -23136,6 +23146,7 @@ This canvas was deleted.
 This canvas was not found.
 This canvas was retired
 This card has no header. It only has a hero image, body text, and two action buttons at the bottom.
+This channel already has the maximum number of skills.
 This channel cannot be archived.
 This channel is linked to a record
 This channel is no longer shared with your organization.
