@@ -174,6 +174,7 @@
 ,onClickPrimaryAction:a?void 0:t,primaryActionHref:a?
 ,stateArg:null,context:new Context(C?
 ,stateArg:null,context:new Context(o?
+,teamId:a??void 0,responseType:r?.responseType??
 ,threadTs:a||void 0,tsLink:i?
 ,top:y?void 0:0,left:y?void 0:0,zIndex:1e5,...y?.position,maxHeight:y?.maxHeight??
 - Removed: Legacy password-based login endpoint.
@@ -296,6 +297,7 @@ A file with that name is already in that folder.
 A file you saved was deleted.
 A file you saved was not found.
 A folder with that name already exists here.
+A folder with that name already exists there.
 A gray callout for neutral information.
 A h:mm:ss
 A header block
@@ -405,6 +407,7 @@ A workflow step supported by your app was removed from a workflow
 A workflow that contains a step supported by your app was deleted
 A workflow that contains a step supported by your app was published
 A workflow that contains a step supported by your app was unpublished
+A workflow that does something useful
 A workspace preference prevents the authenticated user from posting.
 A wrapper around setUserPrefByApi meant for setting frecency data
 A wrapper around setUserPrefByApi meant for setting recents data
@@ -550,6 +553,7 @@ AI response preview
 AI search
 AI search preview
 AI section options
+AI skills
 AI step configuration
 AI suggested to-dos are paused.
 AI suggestions collapsed
@@ -896,7 +900,6 @@ Add Agent To Workspaces
 Add Agent or App
 Add Agentforce Agent
 Add Alt Text
-Add An Opportunity Manually
 Add App Collaborator
 Add App Collaborator Failure
 Add App Collaborator Success
@@ -1397,6 +1400,8 @@ Add your workspace icon
 Add yourself as an agent manager
 Add, remove, or mark reminders as complete
 Added by 
+Added in last 30 days
+Added in last 7 days
 Added members to your Salesforce Org.
 Added on
 Added rate limiting and caching
@@ -2346,6 +2351,7 @@ Asset Contacts
 Asset Downtime Periods
 Asset Relationships
 Asset Warranties
+Asset filters
 Asset library pagination
 Assign Members
 Assign Organizations Wide Role
@@ -2505,6 +2511,7 @@ Auto Scaling
 Auto Slack Launchpad Edit Profile Modal
 Auto white balance
 Auto-close old channels according to certain rules
+Auto-close stale code channels
 Auto-complete after 6s
 Auto-enable connector after external auth
 Auto-enable scope
@@ -2873,7 +2880,6 @@ Browse the full component library for design tokens, components, and patterns.
 Browse the marketplace
 Browser apps shortcut - opens App Launcher
 Browser channels shortcut - opens Channel Browser
-Browser does not support CSS animation
 Browser does not support webgl.
 Browser environment is unable to access the required external assets.
 Browser is unsupported for VideoFxProcessor
@@ -3167,7 +3173,6 @@ Cache the capability list for an Enterprise Search connector by app_id
 Cache the window size of the huddle window for a specific surface
 Cached Model
 Caches an MCP app resource prefetch result
-Caches whether the given user has AI Profile Summaries enabled
 Caffeine? Check. Computer? Check.
 Calculated window dimensions
 Calculates the final viewset when navigating in single column mode
@@ -3847,6 +3852,7 @@ Channel renamed
 Channel restrictions
 Channel results
 Channel search displayed nonexistent channel
+Channel search failed for location huddle picker
 Channel search: bulk update an external org filter
 Channel search: change the status of a channel join request
 Channel search: change the status of a channel leave request
@@ -3915,7 +3921,6 @@ Channels removed
 Channels results loaded successfully
 Channels tab
 Channels where the workflow starts are not imported. To continue importing, select at least one channel where the workflow will start.
-Channels, apps, and notifications tailored to you
 Channels, people, files, and more
 Characters per Second
 Charis SIL
@@ -4415,6 +4420,8 @@ Clog a search feedback click event using data from redux
 Clog a search navigation event using data from redux
 Clog a search open event using data from redux
 Clog a search tab select event using data from redux
+Clog a skill being added to a skill set
+Clog a skill being removed from a skill set
 Clog a standardized click event when a workspace setting is saved
 Clog a suggestion navigation impression if this is the first one in the search session
 Clog accepted channels from recommender modal or digest preview
@@ -5034,12 +5041,15 @@ Continue in thread
 Continue or branch workflow
 Continue this conversation in a huddle
 Continue to Checkout
+Continue to Groups
+Continue to People
 Continue to Your Workspace
 Continue to checkout without the discount
 Continue to setup
 Continue with Free
 Continue with Pro?
 Continue without saving changes?
+Continue without saving?
 Continue workflow
 Continue your conversation
 Continue your conversation with meeting attendees
@@ -5134,7 +5144,6 @@ Copy AI explanation
 Copy Anchor Link
 Copy Email Address
 Copy Link
-Copy Markdown
 Copy Org Chart Deep Link
 Copy Payload
 Copy Prompt
@@ -5346,7 +5355,6 @@ Could not prejoin huddle
 Could not queue a new BootQueue request because BootQueue does not exist
 Could not reconnect and resume ApiQ.
 Could not record impression
-Could not reload CSS, STYLESHEET_URLS was not present
 Could not restore lead.
 Could not restore opportunity.
 Could not resume audio context
@@ -5534,6 +5542,7 @@ Create action items from this canvas
 Create alternate
 Create an AI workflow
 Create an account
+Create an agenda for better meetings
 Create an audio recording
 Create and Add Channels
 Create and Copy Prompt Link
@@ -6200,6 +6209,7 @@ Description for the fourth link unfurl.
 Description for the second link unfurl.
 Description for the third link unfurl.
 Description renders inline for compact items
+Description to showcase what
 Descriptive alt text for the image
 Deselect all
 Deselect all rows
@@ -6708,6 +6718,7 @@ Easily add alt text for screenreader users
 Easily add multiple Salesforce orgs to keep track of your deals in one place.
 Easily export messages and explore flexible data residency options
 Easily share across channels or with individuals
+Easily sort through and summarize conversations, data, and files with a single search prompt. Members each get to preview five AI-powered search results.
 Easily update record details
 EcoNet - Energy Management System
 EcoSync - Sustainable Connectivity Platform
@@ -7030,6 +7041,7 @@ Enable MPDM to private channel changes
 Enable Now
 Enable Org-Wide App Installation
 Enable PKCE for enhanced security during the authorization code flow.
+Enable Preview
 Enable Slack Connect for channels in which workspaces?
 Enable Slack Connect to work with other companies
 Enable Today
@@ -7158,6 +7170,7 @@ Enqueue skill shared toast
 Enqueue skill unset toast
 Ensure Slackbot AI session ID exists
 Ensure a file exists and open it in the full screen file viewer
+Ensure app home meta is loaded for a channel
 Ensure channels with drafts exist in our model
 Ensure data residency compliance and get unlimited data exports.
 Ensure enabled skills are loaded
@@ -7913,8 +7926,8 @@ Failed to kick off Slackbot mini intro thread
 Failed to leave some user channels
 Failed to link vertex and fragment shaders.
 Failed to load MCP server tools. Please try again.
-Failed to load MCP servers
 Failed to load MCP servers. Please try again.
+Failed to load MCP servers. Try again in a few minutes.
 Failed to load PDF page labels
 Failed to load PDF sheet geometry
 Failed to load document
@@ -7959,6 +7972,7 @@ Failed to persist Slackbot mini opened flag
 Failed to persist debug_clogs to sessionStorage
 Failed to persist invite_step_skipped_remind_me_later
 Failed to post comment
+Failed to preload app-home metadata; continuing navigation
 Failed to process the recording. Please try again.
 Failed to publish draft work object
 Failed to purge stored model and clear object store
@@ -8166,7 +8180,6 @@ Featured integrations
 Featured templates
 Featured workflows
 Features affected
-Features and shortcuts worth knowing
 Features included in your trial
 FedRAMP ATO
 FedRAMP Authorization
@@ -8955,7 +8968,6 @@ Focus mode has expired, clearing silent sidebar
 Focus mode preferences
 Focus mode temporarily mutes your sidebar, pauses notifications, and lets people know you might be slow to respond.
 Focus on next item
-Focus on taking action on opportunity
 Focus the input when the thread is loaded
 Focus time
 Focus transition
@@ -9493,6 +9505,7 @@ Glimmer JS
 Glimmer TS
 Global Create
 Global Distribution Network
+Global-ready only
 GlobalColorSpaceCache.set - expected 
 GlobalImageCache.setData - cache limit reached.
 GlobalImageCache.setData - expected 
@@ -10102,7 +10115,6 @@ How can our sales team help you?
 How do I add or delete elements on my UI?
 How do I rename channels? People?
 How do I request a thingamabob?
-How do I use Slack?
 How do you want to set up your org?
 How do you want to use Slack?
 How familiar are you with Slack?
@@ -10116,7 +10128,6 @@ How to Build a Successful Team (Published 2019)
 How to prepare and submit your app
 How to test your app
 How to test your changes
-How to use Slack
 How to use Slack?
 How was the audio and video?
 How will the discount work?
@@ -10335,11 +10346,9 @@ Illustration of workflow processes represented by interconnected colored blocks 
 Image (avatar)
 Image (icon)
 Image 5.png
-Image Alt Text
 Image Gallery
 Image Position (desktop)
 Image Position (mobile)
-Image Source
 Image caption
 Image copied to clipboard
 Image could not be found, switching to default input for device
@@ -10560,6 +10569,7 @@ Insert column
 Insert column left
 Insert column right
 Insert content into the document
+Insert huddle link
 Insert incoming actionable approvals count
 Insert incoming actionable filtered approvals count
 Insert incoming actionable filtered pending invites count
@@ -11950,6 +11960,7 @@ Long text element (API set)
 Long title and text (truncation test)
 Long-form copy for this section
 Look at this photograph
+Look for it in the More menu.
 Look up any recent discussions between me and the participants to provide context.
 Looking for Workflow Builder?
 Looking for something you saved in Later?
@@ -12261,6 +12272,7 @@ M27.957 28.04l.52-2.529-1.981-1.655 2.565-.287.962-2.395 1.065 2.351 2.574.175-1
 M28 53h6.4m0 22.9H28
 M28.078 16.253c-1.982 1.396-6.928-3.308-6.063-6.92-3.703 4.949 2.367 9.947 4.846 9.226.645-.189.424-.8 1.217-2.306z
 M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a1 1 0 0 0 0-1.41l-2.34-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z
+M3 5.5A1.5 1.5 0 0 1 4.5 4H9l2 2h8.5A1.5 1.5 0 0 1 21 7.5v11A1.5 1.5 0 0 1 19.5 20h-15A1.5 1.5 0 0 1 3 18.5v-13zm9.5 5.5V9l3.5 3-3.5 3v-2h-4v-2h4z
 M3 6.25a.75.75 0 0 1 1.23-.576l4.5 3.75a.75.75 0 0 1 0 1.152l-4.5 3.75A.75.75 0 0 1 3 13.75zm8 0a.75.75 0 0 1 1.23-.576l4.5 3.75a.75.75 0 0 1 0 1.152l-4.5 3.75A.75.75 0 0 1 11 13.75z
 M3 7V5a2 2 0 0 1 2-2h2
 M3 9a6 6 0 1 1 12 0A6 6 0 0 1 3 9m6-7.5a7.5 7.5 0 1 0 4.746 13.307l3.474 3.473a.75.75 0 1 0 1.06-1.06l-3.473-3.473A7.5 7.5 0 0 0 9 1.5m3 8.25a.75.75 0 0 0 0-1.5H6a.75.75 0 0 0 0 1.5z
@@ -12991,6 +13003,7 @@ Media & Streaming Co
 Media Position (desktop)
 Media Type
 Media controls
+Media file
 Media seeked to 
 Media session SDK shutdown completed
 Media session SDK shutdown initiated
@@ -13069,6 +13082,7 @@ Members can add Slackbot skills shared from other organizations.
 Members can automatically start notes in huddles.
 Members can change this setting.
 Members can connect to Salesforce from the Salesforce section of Preferences
+Members can each try AI-powered search five times. Interested in unlimited AI search for your team?
 Members can easily see which external organizations they are working with in channels, direct messages, and threads.
 Members can not use Salesforce events in Workflow Builder to send messages to any channels in the workspace.
 Members can only install apps that have been pre-approved. Only App Managers will be able to uninstall apps.
@@ -13643,6 +13657,7 @@ Mutually Exclusive
 My Accounts
 My Dashboard
 My Opportunities
+My Service
 My Service for Slack
 My Slack Service
 My Tasks
@@ -14033,7 +14048,6 @@ No channel ID for Workflow Builder Agent
 No channel ID or active huddle
 No channel configurations yet
 No channel found yet. TEXT-MODE?
-No channel id found from thread id
 No channel id given
 No channelId was provided for ChannelWorkflowsExplorer
 No channels found
@@ -14226,7 +14240,6 @@ No salesforceOrgId provided to searchRecords
 No saved items
 No screenTrack to stop.
 No screens available
-No scripts were modified
 No search results
 No secondary action available for this content
 No section found to focus after deleting editor range
@@ -14815,6 +14828,7 @@ Open an app view in a modal
 Open auth modal for workflow
 Open by default for everyone
 Open calendar
+Open calendar OAuth authorization URL in a new window
 Open calendar prefs dialog
 Open canvas
 Open canvas details
@@ -14871,6 +14885,7 @@ Open in new window
 Open in new window example
 Open in secondary container
 Open in secondary view
+Open in side panel
 Open in sidebar
 Open in split view
 Open in thread
@@ -15259,7 +15274,6 @@ Operating System
 Operation cancelled
 Operation cancelled before start
 Opportunities grid
-Opportunities help you prioritize potential deals and move them through your sales process.
 Opportunity for improvement
 Opportunity name (required)
 Opportunity name is required.
@@ -15907,7 +15921,6 @@ Please enter your phone number.
 Please fill out the fields below.
 Please go to #escal-search and
 Please install this app to view your OAuth access token.
-Please keep this tab open.
 Please make sure your file is a GIF, JPEG, PNG, or WEBP.
 Please make sure your file is in the expected JSON format and try again.
 Please pass in a valid TS string
@@ -15984,7 +15997,6 @@ Pops out the current app dialog into its own child window
 Pops out the current app dialog into its own window
 Popular categories
 Popular files in your channels
-Popular first moves for teams like mine
 Popular integrations
 Popular this week
 Populate JIT from calendar event list (dev override)
@@ -16178,7 +16190,6 @@ Primary organization
 Primary view actions
 Primary view header
 Print canvas
-Print document
 Print the canvas in the given docEmbed
 Priority prototype: sets NUX screen state for Priority
 Privacy Policy
@@ -17077,7 +17088,6 @@ Release Notes | Product UI Generator | Slack
 Release announcement
 Release v2.5.0
 Relevant people
-Reload CSS
 Reload Now
 Reload Slack
 Reload Slack Connect Message Input Inviter Banner when invitee joins slack connect channel
@@ -17089,7 +17099,6 @@ Reload data
 Reload domains if we are out of sync with the server
 Reload failed
 Reload if we
-Reload modified JS files
 Reload required
 Reload sources when a connector is added or removed
 Reload this thread
@@ -17656,6 +17665,7 @@ Replaces all events for a specific day
 Replaces all org members in the orgMembers collection
 Replaces all scheduled custom statuses from the server
 Replaces the API token that this instance will use
+Replacing a stale (already shut down) huddlesSdk in the connection manager
 Replay a number of specified messages (via keyboard shortcut) for a screen reader user
 Replies have been turned off for this thread by your admins.
 Replies have been turned off for this thread.
@@ -18149,6 +18159,7 @@ Rules manager: invalid rule name
 Rules will run in the order they are placed in the list below.
 Run Away From Monster
 Run Task
+Run Workflow
 Run a keyboard shortcut without the keyboard
 Run a local or server slash command
 Run a project
@@ -18614,6 +18625,7 @@ Search lists
 Search logo library
 Search logo set library
 Search logos to add
+Search media
 Search members
 Search message actions (app + Slack) in Redux store
 Search modal_COACHMARKS
@@ -18736,6 +18748,7 @@ See all notification settings
 See all people who can collaborate on this workflow
 See all people, channels, and workspaces who can run this workflow
 See all permissions
+See all photos and videos
 See all the benefits of Business+ versus Pro
 See all the benefits of Slack Pro vs. Free
 See all variables
@@ -18749,7 +18762,6 @@ See how AI can make your workday that much more pleasant and productive.
 See how many clips are created and played over time.
 See how many lists are created, viewed, edited, commented on, or shared over time.
 See how many people create, view, edit, comment on, or share a list over time.
-See how people communicate here
 See how teams thrive with Slack
 See how they work
 See how video clips work
@@ -19988,7 +20000,6 @@ Set ui height
 Set unread VIP threads for channel
 Set unsaved changes state for route
 Set up SCIM user management
-Set up Slack for my team
 Set up Slack for your team
 Set up a Passkey
 Set up a connection by clicking on the channel name and opening the Integrations tab.
@@ -20309,11 +20320,7 @@ Sets that the knock to enter request has expired for the user
 Sets that the user has been accepted into the knock to enter Huddle that they requested
 Sets that the user is waiting to enter a knock to enter Huddle
 Sets that the user wishes to stop the music while they wait to join the Huddle
-Sets the AI agent profile status for the given bot
-Sets the AI agent profile summary for the given bot
 Sets the AI chat status
-Sets the AI profile status for the given user
-Sets the AI profile summary for the given user
 Sets the Calendar page to a connecting view state
 Sets the DWA banner data including installed app information
 Sets the ID associated with the search in channel session
@@ -20611,8 +20618,6 @@ Sets the provisioning for an org level user group to a workspace
 Sets the reference tracker map for my tasks list
 Sets the refresh mode for the Sales Tracker board
 Sets the refresh status of app activities store
-Sets the request ID for a profile summary request
-Sets the request ID for an agent profile summary request
 Sets the saml authn signing certs
 Sets the scrollTop value of the pins popover so that it can be opened to the same spot again
 Sets the search query associated with the current search results
@@ -20968,6 +20973,7 @@ Share this message
 Share this metric
 Share this record
 Share this skill
+Share this skill set
 Share this template
 Share this template view
 Share this workflow
@@ -21026,6 +21032,7 @@ Shortcut not set: try a different combination
 Shortcut options
 Shortcut suggestions collapsed
 Shortcuts can be added to multiple categories, but they can only have one description.
+Shorten external links
 Shorten link
 Should not add placeholder space to home list
 Should not call ColorSpace.getOutputLength
@@ -21056,6 +21063,7 @@ Show Focused Section in Model Browser
 Show Footer
 Show Huddles
 Show Location
+Show Meeting Details
 Show Message
 Show My Logs Only
 Show Online Status
@@ -21352,6 +21360,7 @@ Simplified onboarding disabled; clearing enrollment
 Simplified slack UI
 Simplified user management
 Simplify customer relationship management
+Simplify how you track topics, decisions, and next steps.
 Simulating load failure for property input
 Simulcast is only supported on Chromium-based browsers
 Since last time you viewed
@@ -21382,7 +21391,6 @@ Six-up logo strip with header
 Skill Sets
 Skill deleted
 Skill instructions
-Skill set deleted
 Skill set is already in your Slackbot library.
 Skill set items
 Skill set name
@@ -21828,7 +21836,6 @@ Spider 2
 Spider 3
 Spider 5
 Split destination ids into channels and members
-Split history
 Split panel width
 Split tensors must not be scalars
 Splunk Query Language
@@ -22718,6 +22725,7 @@ That name is too long. Try a shorter one.
 That path is already in use. Choose a different one.
 That private channel has been archived.
 That user has been deactivated.
+That would nest folders too deeply (6 levels max).
 The %TAG directive must only be given at most once per handle in the same document.
 The %YAML directive must only be given at most once per document.
 The AnnotationEditor is not enabled.
@@ -23320,7 +23328,6 @@ This step cannot be added inside a repeat step.
 This step cannot be added to workflows with Generate AI response steps.
 This step cannot be added to workflows with third-party or Salesforce steps.
 This step cannot be used with this starting action. Remove this step, or select a different starting action.
-This step contains invalid content. Remove any 
 This step has empty fields
 This step is no longer available
 This step is only available in the Workflow Builder
@@ -23510,6 +23517,7 @@ To-dos pagination
 Today is an AI-powered landing page to help you get situated, whether at the start of your day or when you need to refocus.
 Today view settings
 Today, you might want to focus on Q4 forecast variance, DataNet P1 escalation, and enterprise conversion performance.
+Todos added by you are all here.
 Todos due desktop notification shown
 Toggle Privacy Mode
 Toggle Video
@@ -24076,6 +24084,7 @@ Unable to load Einstein Activity Capture status.
 Unable to load Salesforce organization details. Please try refreshing the page.
 Unable to load Salesforce organizations. Please try refreshing the page.
 Unable to load all migrations
+Unable to load content
 Unable to load diff
 Unable to load preview
 Unable to load the connectors for enterprise search. Please try again or contact support.
@@ -25279,6 +25288,7 @@ Use when you need collapsible content without an FAQ-style header, such as featu
 Use within a section to highlight quantitative impact with proper source attribution.
 Use your full message and file history to easily search resources and get context on past decisions.
 Used on 1 page
+Used on live pages
 Used to reset the state for a knock to enter requesting user
 Used to set if the Huddle participant menu is open
 Used to set if the huddle workspace is repositioned for BBM
@@ -25823,6 +25833,7 @@ Want to add, update, or organize list items? I can help.
 Want to avoid some redundancy?
 Want to hide muted channels?
 Want to learn more?
+Want to preview AI search?
 Want to see your messages while you read this canvas?
 Want to stay on Slack Pro?
 Want to summarize the messages you missed?
@@ -25956,7 +25967,6 @@ What did the last speaker say?
 What did you have for breakfast?
 What did you like about this article?
 What do I need to know?
-What do teams like mine do first?
 What do we have in common?
 What do you want for our team weekly lunch?
 What do you want to call your Slack workspace?
@@ -26025,6 +26035,7 @@ When is approval required to work with external organizations in channels?
 When messages are sent
 When new comments are added
 When new tasks are added to project
+When pasting links to places outside Slack, URLs will be shortened.
 When people are using Slack Connect to direct message, they can copy over their current conversation into a new Slack Connect channel.
 When people are using Slack Connect to direct message, they can copy over their current conversation into a new private Slack Connect channel, skipping the invitation process.
 When project is updated
@@ -26325,6 +26336,7 @@ Write a project overview... 2 Outlines
 Write a project overview... Outlines
 Write an outline of a project brief for # 
 Write an overview for
+Write copy here that educates on the page or object you
 Write integration tests
 Write me a haiku about my week
 Write now, send later
@@ -26384,6 +26396,7 @@ You are no longer reading this document in read only view.
 You are now able to manage access through IDP groups. Contact Slack to remove your workspace assignments.
 You are one with the focus
 You are over an area that cannot be dropped on
+You are previewing AI search
 You are previewing Slackbot
 You are unable to join the Huddle as you do not have permission to join Huddles.
 You are viewing a thread from an archived channel
@@ -26510,6 +26523,7 @@ You tell
 You updated your sidebar!
 You were invited to direct message with:
 You will join this channel when you share the file into it.
+You will lose any unsaved changes to the record.
 You will need to wait a few minutes before creating another app on this workspace.
 YouTube Embed
 YouTube URL
