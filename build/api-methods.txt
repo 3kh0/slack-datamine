@@ -285,6 +285,8 @@ ai.alpha.sidekicks.update
 ai.alpha.slackbot.automationGroups.delete
 ai.alpha.slackbot.automationGroups.list
 ai.alpha.slackbot.automationGroups.setActive
+ai.alpha.slackbot.channelResponses.redact
+ai.alpha.slackbot.channelResponses.restore
 ai.alpha.slackbot.createSlackbotInitiatedThread
 ai.alpha.slackbot.skillSets.addToLibrary
 ai.alpha.slackbot.skillSets.listEnabled
@@ -725,6 +727,8 @@ email.domains.updateExternalAccess
 email.domains.verify
 email.threads.share
 emailPreview.catalog.list
+emailPreview.render.get
+emailPreview.send.test
 emails.info
 emoji.add
 emoji.addCollection
