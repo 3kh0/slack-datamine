@@ -228,7 +228,6 @@
 :void 0)||(f.isDisabled?
 :void 0)||(h.isDisabled?
 :void 0,credentialless:ec?
-:void 0,credentialless:ed?
 :void 0,credentialless:m?
 :void 0,credentialless:o?
 :void 0,skipDoneDialog:!0,buttonClassName:t?
@@ -285,6 +284,7 @@ A deactivated user
 A description (or alt-text) helps people with visual disabilities understand what you are sharing.
 A description of the image you are sharing
 A detailed walkthrough of building custom automations.
+A dialog-role popover with 
 A different account
 A domain allowlist lets you specify which domains can send emails into Slack using Channel Email Addresses or personal forwarding email addresses.
 A file object is required to create a pending file object
@@ -349,6 +349,7 @@ A node can have at most one tag
 A notification card with two buttons
 A number of times is required
 A page already exists at this URL
+A page posted by an app
 A pair of side-by-side testimonial cards, each with a company logo, quote, and attribution (name and title).
 A pigeon carrying an envelope
 A pin was added to a channel
@@ -656,6 +657,7 @@ About building workflows with AI
 About me
 About this agent
 About this app
+About this content
 About this step
 About this workspace
 About your plan
@@ -2227,6 +2229,7 @@ Apr, 23, 2020
 Apri biglietto
 April 30, 2026
 Arabic Typesetting
+Arc color
 Arcadio -harry.png
 Arcado Buendia
 Architecture Recommendations
@@ -3401,12 +3404,14 @@ Cancel quick reply
 Cancel recording
 Cancel request to focus the given thread
 Cancel schedule and save to drafts
+Cancel scheduled publish
 Cancel scheduled time
 Cancel scheduled time?
 Cancel this connection request?
 Cancel upload
 Canceled by user
 Canceled the file upload
+Canceling the scheduled publish failed. Try again.
 Cancelled publication by calling unpublish
 Cancelling an eager upload by removing an unprocessed job from the queue
 Cancelling an eager upload that is the current upload
@@ -4848,6 +4853,7 @@ Conditionally fetch canvas header images and store them in Redux
 Conditionally fetch huddle backgrounds and store in Redux
 Conditionally loads megaphone notification data after welcome modal close
 Conference Room 3B
+Conference Room A
 Confetti Long
 Config Service
 Configurable Attachment Title
@@ -5831,6 +5837,7 @@ Daily orders (intermittent reporting)
 Daily schedule overview
 Daily tools
 Dangling reference to missing 
+Dark Aubergine
 Dark Gray Solid 2
 Dark Magenta Solid 2
 Dark Plus
@@ -5995,6 +6002,7 @@ Default Handler
 Default Option 1
 Default Skin Tone
 Default Team
+Default YouTube Video ID
 Default channel visibility
 Default channels limit reached for this group.
 Default footer
@@ -7774,10 +7782,7 @@ External organization
 External organizations
 External orgs
 External people are in this channel, so it can only be added to workspaces that have Slack Connect enabled.
-External people can invite
-External people can only invite others from their own organization to Slack Connect channels, and must first be given permission.
-External people can send invitations to:
-External people invites
+External people must first have permission to send channel invitations and be in a Slack Connect channel, and then they can invite these others.
 External people permissions
 External result list item
 External results loaded successfully
@@ -10832,7 +10837,6 @@ Invitation Status
 Invitation link settings
 Invitation not sent to
 Invitation not yet sent to
-Invitation permissions for external people
 Invitation request approved
 Invitation request pending approval
 Invitation requests approved
@@ -10997,6 +11001,7 @@ Jazz Snaps
 Jazz themes
 Jest Testing Framework
 Job Requisitions
+John Doe
 John Smith
 Join ACK message did not include expected frame
 Join BlueJeans Meeting
@@ -11840,6 +11845,7 @@ LocalFunctionCache.set - expected
 LocalStorage total entries:
 LocalStorage total size:
 LocalTilingPatternCache.set - expected 
+Locale-Specific YouTube Video IDs
 Localize Asset Paths
 Localized versions
 Locally set the last read cursor on a conversation
@@ -11964,6 +11970,7 @@ LogiFlow Inc.
 Login state
 Login will be blocked for any other version of the Slack app.
 Logistics & Shipping
+Logo Alt Text
 Logo Bar
 Logo Image URL
 Logo Image URL (2x)
@@ -13064,6 +13071,7 @@ Meeting Assistant will record and transcribe audio from your microphone and comp
 Meeting Assistant works best with AI Notes.
 Meeting Details
 Meeting Notes
+Meeting Organizer
 Meeting Provider
 Meeting Requests
 Meeting URL
@@ -13784,6 +13792,7 @@ Navigate to a Record in the Flexpane
 Navigate to a Task Approval in the Flexpane
 Navigate to a Work Object in the Flexpane
 Navigate to a channel tab
+Navigate to a channel tab from a channel-tab slug
 Navigate to a channel with unread
 Navigate to a non big button mode view tab if necessary
 Navigate to a route
@@ -14491,7 +14500,6 @@ Note: this setting is for this computer only. You may need to restart Slack to r
 Notes or voiceover script for this slide
 Nothing found
 Nothing found. Filtering from recent notifications.
-Nothing here yet
 Nothing new to summarize
 Nothing new. Carry on.
 Nothing to fetch after delay after all
@@ -14710,7 +14718,6 @@ Only channel managers can reorder the link.
 Only continue if
 Only editors can comment on this canvas
 Only external people
-Only external people with permissions can send invitations
 Only file owners can update restricted sharing setting
 Only get notified if someone @mentions you personally
 Only if approvals are not required
@@ -15500,6 +15507,7 @@ Page count is not an integer.
 Page is about to unload. This might not be a reload, it could be a window close or navigation
 Page leave detected, disconnecting
 Page published
+Page scheduled
 Page source
 Page was destroyed.
 Page with label 
@@ -16161,7 +16169,13 @@ Preview AI response
 Preview Google Docs in Slack
 Preview Google Sheets in Slack
 Preview Image
+Preview MP4 URL
+Preview MP4 URL (2x)
+Preview Poster URL
+Preview Poster URL (2x)
 Preview Settings
+Preview WebM URL
+Preview WebM URL (2x)
 Preview Word, Excel, and PowerPoint files in Slack
 Preview Your App Submission
 Preview Your Invitation
@@ -16443,13 +16457,18 @@ Publish Workflow From Template
 Publish a Product UI
 Publish a draft work object with current form state values
 Publish a skill to the skill catalog
+Publish actions
 Publish changes
 Publish changes to view field ID
+Publish date
 Publish failed
 Publish now
+Publish options
 Publish or unpublish a workflow
 Publish template
 Publish template?
+Publish time
+Publish timezone
 Publish to skill catalog
 Publish workflow from template internal
 Publish workflows
@@ -18084,6 +18103,7 @@ Returns the full text that AI generates, plus visual elements like tables and gr
 Returns the result of channel name validation for the Channel Create modal
 Returns whether a user is already assigned to a role
 Reveal Views
+Reverse gradient direction
 Reversed layout (media first)
 Reversed with bullet points
 Revert a template back to a canvas by updating the file object
@@ -18229,6 +18249,7 @@ Runs a benchmark on a RTM event
 Runs a channel action
 Runs a message action
 Runs search from given encoded search state string
+Runs this week
 Russian Federation
 S3 aborted request
 SAML 2.0 Endpoint
@@ -18491,6 +18512,7 @@ Scans messages and files sent by members of your organization to reduce the risk
 Scatter plot
 Schedule As Is
 Schedule Message
+Schedule Page
 Schedule a draft for sending
 Schedule a meeting
 Schedule a message to be sent
@@ -18501,6 +18523,8 @@ Schedule message
 Schedule your migration
 Scheduled Call
 Scheduled messages
+Scheduled publish
+Scheduled publish canceled.
 Scheduled status duration
 Scheduled status removed.
 Scheduled status updated.
@@ -19113,7 +19137,6 @@ SendLogs: no current team
 Sender was not created by this connection.
 Sending Audio Health
 Sending clog data, emptying queue
-Sending invitations by external people
 Sending invitations with permission to post only
 Sending license request to URL: 
 Sending messages to this app has been turned off
@@ -21120,7 +21143,6 @@ Show Details
 Show Document Range
 Show Edit History
 Show Employment Status
-Show Errors
 Show Focused Section in Model Browser
 Show Footer
 Show Huddles
@@ -22887,6 +22909,7 @@ The connection failed due to incompatible SDP.
 The connection failed. See the error message for more details.
 The constructor with parameters has been removed in JSZip 3.0, please check the upgrade guide.
 The create a canvas step cannot be placed after the ask agentforce step if the canvas is owned by someone outside your organization.
+The current content is saved as a new revision and goes live automatically at the scheduled time. The currently published page keeps serving until then.
 The current live page will be moved to the bullpen.
 The current message does not contain the given field
 The day loads, one unread message at a time.
@@ -23278,6 +23301,7 @@ This is a callout block with
 This is a description of the linked content that appears in the attachment body.
 This is a dummy coachmark for testing delayed delivery.
 This is a header block
+This is a longer fallback text that describes the page content in more detail for clients that cannot render the page block directly.
 This is a longer subtitle that provides more detailed information about what this action item does and why you might want to click on it
 This is a paid feature, available with an upgrade
 This is a paid feature, available with your free trial
@@ -23633,7 +23657,6 @@ Toggle microphone from current value to opposite value
 Toggle mute for channel
 Toggle privacy mode
 Toggle rendering for the #feat-mobile-awareness-dm-promo banner
-Toggle reverse gradient
 Toggle saved for later state on a canvas section
 Toggle saved for later state on a list record
 Toggle saved for later state on a list record field
@@ -24159,7 +24182,6 @@ Unable to load Einstein Activity Capture status.
 Unable to load Salesforce organization details. Please try refreshing the page.
 Unable to load Salesforce organizations. Please try refreshing the page.
 Unable to load all migrations
-Unable to load content
 Unable to load diff
 Unable to load preview
 Unable to load the connectors for enterprise search. Please try again or contact support.
@@ -25377,9 +25399,11 @@ User ID was not between 1 and 64 characters
 User Information
 User Menu
 User OAuth Token
+User One
 User Page
 User Scopes
 User Token Scopes
+User Two
 User account mapping
 User already invited
 User canceled upload after error
@@ -25633,6 +25657,7 @@ View Deactivated Members
 View Details
 View Do Not Disturb settings for people in a workspace
 View Docs
+View Entity Details
 View Error
 View Event Details
 View Example
@@ -25820,7 +25845,6 @@ Vim Script
 Violated rules
 Violations 
 Violations occurred in
-Violet 40
 Violet 65
 Virgin Islands, British
 Virgin Islands, U.S.
@@ -25971,6 +25995,7 @@ WebGL is not supported on this device
 WebOS Browser
 WebRTC isn
 WebRTC room connected
+WebSocket connection error
 WebSocket connection failed
 WebSocket is not connected
 WebSocket not yet created or already destroyed.
@@ -26008,6 +26033,7 @@ Weekly Team Standup
 Weekly active users
 Weekly active users by platform
 Weekly sync
+Weekly sync to review project status.
 Welcome Party Channel Join Modal
 Welcome card image of a computer booting up
 Welcome card modal
@@ -26177,6 +26203,7 @@ Who can use this app?
 Who can use this data source in workflows?
 Who can use this trigger
 Who do you want to be notified about updates to this submission?
+Who external people can invite to channels
 Who has permission to message and interact with this app in Slack client
 Who is attending this meeting?
 Who is this tool for?
