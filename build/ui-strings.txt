@@ -174,6 +174,7 @@
 ,onClickPrimaryAction:a?void 0:t,primaryActionHref:a?
 ,stateArg:null,context:new Context(C?
 ,stateArg:null,context:new Context(o?
+,teamId:a??void 0,responseType:i?.responseType??
 ,teamId:a??void 0,responseType:r?.responseType??
 ,threadTs:a||void 0,tsLink:i?
 ,top:y?void 0:0,left:y?void 0:0,zIndex:1e5,...y?.position,maxHeight:y?.maxHeight??
@@ -380,6 +381,7 @@ A shared look at contact details :eyes:
 A short description for this card.
 A short, scannable headline
 A skill built by your team
+A skill shared from another organization
 A slot prop is required.
 A specific opportunity
 A start timestamp is required
@@ -590,6 +592,7 @@ API returned ok:false when updating disconnect restriction
 API returned unparseable preferences, falling back to localStorage
 API tokens for your app were revoked.
 ARCADIO 800.png
+ARIA application usage
 ARN endpoint is not compatible with FIPS region
 ARN region is empty
 ARN resource should begin with 
@@ -993,6 +996,7 @@ Add a create record saving toast to queue
 Add a dashboard or report
 Add a data source
 Add a description
+Add a domain to give everyone instant access. Connect and open the Home tab to start.
 Add a draft id to the list of drafts that have had a DLP catastrophic error
 Add a draft id to the list of warned drafts
 Add a draft to the edited array to be sent or deleted
@@ -1832,6 +1836,7 @@ Alt Text (override)
 Alt Text Editor
 Alt text failed to generate, please try again or enter manually.
 Alt text not generated due to image content being out of policy.
+Alt text reminders
 Alt text saved.
 Alter pinned canvases for an external workspace
 Alternate Email
@@ -2561,6 +2566,7 @@ Automatically connect your team to a calendar or file app from Google or Microso
 Automatically log interactions with your contacts
 Automatically read new messages in the current conversation
 Automatically start AI notes per channel
+Automatically sync your calendar to your Slack status
 Automatically updates
 Automation Rules
 Automation tools
@@ -2789,6 +2795,7 @@ Body Stroke
 Body sections
 Body text
 Bold text
+Bold, Italic, Strikethrough display
 Bonaire, Sint Eustatius and Saba
 Bonus for isEmojiExactMatch (emoji-specific exact match check)
 Bonus for isExactMatch (query matches a canonical emoji name exactly)
@@ -3186,10 +3193,12 @@ Calendar account
 Calendar connection tip
 Calendar event
 Calendar event confirmed for next Tuesday at 2:00 PM.
+Calendar events in Slack
 Calendar events window: fetch on boot complete
 Calendar huddle access options disabled
 Calendar huddle privacy
 Calendar prefs updated
+Calendar steps in Workflow Builder
 Calendar sync required
 Calibri, 
 Californian FB
@@ -4889,7 +4898,6 @@ Connect Slack with Salesforce orgs
 Connect Slack with a Salesforce org
 Connect Your Account
 Connect Your Support Email
-Connect Your Team
 Connect a Salesforce Org
 Connect a calendar
 Connect a list of team ids to an idp group
@@ -4954,7 +4962,6 @@ Connection closed
 Connection closed unexpectedly before session could be established.
 Connection details
 Connection error
-Connection is not available.
 Connection offline
 Connection pending
 Connection permissions & visibility
@@ -5414,6 +5421,7 @@ Create Canvas
 Create Canvas with Template
 Create Channel
 Create Deal Review
+Create Docs, Slides, and Sheets from Slack
 Create FAQs for # 
 Create FAQs for our sales training program
 Create FAQs for the launch of the new company website, including a timeline
@@ -5552,6 +5560,7 @@ Create and manage user groups
 Create and open a doc
 Create and open a list
 Create and share content
+Create and share files without leaving Slack
 Create canvas
 Create channel
 Create channel and send invites from calendar imports from onboarding setup flow
@@ -5574,6 +5583,8 @@ Create logo
 Create logo set
 Create meeting assistant canvas
 Create new
+Create new Google Docs from Slack
+Create new Google Sheets from Slack
 Create new channel
 Create new email domain record, including a challenge string to be used for verification, and upsert record to store
 Create new key
@@ -5817,6 +5828,7 @@ Daily engagement (20-day window)
 Daily engagement (20-day window, area)
 Daily engagement (20-day window, bar)
 Daily orders (intermittent reporting)
+Daily schedule overview
 Daily tools
 Dangling reference to missing 
 Dark Gray Solid 2
@@ -6213,6 +6225,7 @@ Description for the second link unfurl.
 Description for the third link unfurl.
 Description renders inline for compact items
 Description to showcase what
+Description updated.
 Deselect all
 Deselect all rows
 Deselect link object to edit
@@ -6607,6 +6620,7 @@ Download with archived items
 Download without archived items
 Dracula Theme
 Dracula Theme Soft
+Draft Email Reply
 Draft ID missing, defaulting to overrideInputValue
 Draft VIP replies
 Draft a meeting agenda
@@ -6625,6 +6639,7 @@ Draft project update
 Draft ready for review
 Draft replies to my VIP messages
 Drafts & sent
+Drafts an email reply based on conversation context
 Drafts clear and concise answers to common questions based on provided context or knowledge.
 DraftsSent Outlines
 Drag and drop CSV file here or click to upload
@@ -6642,6 +6657,7 @@ Dragon Touch
 Draw message must be correctly formed
 Draw on your own screen
 Dream Maker
+Drive steps in Workflow Builder
 Drop Shadow
 Drop here to replace
 Drop messages from before a given timestamp
@@ -7458,7 +7474,6 @@ Error when submitting timestamp
 Error while destroying the Voice Focus instance: 
 Error while fetching call info, (error.data is undefined): 
 Error while fetching call info: 
-Error while fetching company address
 Error while fetching notification data
 Error while fetching self user data
 Error while fetching states and countries
@@ -7732,6 +7747,7 @@ External HTML cleaning error.
 External Huddle
 External Interview
 External Managed Accounts
+External Org Skill
 External Outlines
 External Outlines 2
 External People
@@ -9003,6 +9019,7 @@ Follow up with Slackbot on these focus areas to help you prep for tomorrow.
 Follow-up prompts
 Followed by an emoji: 
 Followup Request
+Font selection
 FontFile is empty
 FontFile should be a stream
 Food & Drink
@@ -9345,7 +9362,11 @@ Get new leads from your website
 Get new teammates for resurrected user welcome
 Get notifications
 Get notified about all thread replies in this channel
+Get notified about comments and suggestions
+Get notified about comments and updates
+Get notified about comments, access requests, and shares
 Get notified about every new thread and its replies.
+Get notified about new emails in Slack
 Get notified about new replies
 Get onboarding data from selector or fetch it
 Get one or more named user prefs via API
@@ -9519,6 +9540,7 @@ Globex Corp. engineers reviewing a deploy in Slack
 Globex Corp. logo
 Globex Inc - Platform Migration
 Glyph index is not in fd select.
+Gmail steps in Workflow Builder
 Go ahead, start writing!
 Go back in history
 Go back in history in a currently active TabSoda tab
@@ -9601,6 +9623,7 @@ Gram-Schmidt process: input must not be null, undefined, or empty
 Grant Access
 Grant Slack access to Google
 Grant Slack access to Office 365
+Grant file access directly from Slack
 Grant user consent for provided scopes for an app
 Grant workspace access?
 Grants (and pins for the session) a proactive Slackbot Everywhere thread hint for a thread
@@ -10384,6 +10407,7 @@ Import Workflow Failure
 Import Workflow Success
 Import a workflow
 Import company contacts and give your team access
+Import files into channels and DMs
 Import workflow
 Import workflow and triggers
 Import your contacts and track follow-ups.
@@ -11647,6 +11671,7 @@ Lists are not yet available for everyone.
 Lists have been turned off by your admins.
 Lists keyboard interactions
 Lists results
+Lists tabbing
 Lists view settings
 Lists will soon be view only
 Literate Haskell
@@ -13229,6 +13254,7 @@ Message deletion failed
 Message failed to send
 Message feedback
 Message field placeholder
+Message field placeholder updated.
 Message field type not supported in readAny()
 Message field type not supported in writeAny()
 Message flagged by data loss prevention rules.
@@ -13666,6 +13692,7 @@ Muted conversations
 Muting channels failed, could not set pref
 Mutually Exclusive
 My Accounts
+My Custom Skill
 My Dashboard
 My Opportunities
 My Service
@@ -14486,7 +14513,9 @@ Notification unmuted
 Notifications about updated items
 Notifications are paused
 Notifications cleared.
+Notifications for comments, access requests, and new shares
 Notifications on
+Notifications when event details change
 Notifications will be sent to Org Owners and Org Admins via Slackbot when a developer requests the ability to create sandboxes.
 Notifications will be sent to Org Owners and Org Admins via Slackbot when a new sandbox has been provisioned for your organization.
 Notifications will be turned off until this status is cleared.
@@ -14647,6 +14676,7 @@ One step away from a more powerful Slack.
 One week before
 One-chip color area sensor
 One-click access to AI tools in Slack
+One-click join for Zoom, Meet, Webex, and Teams
 One-click reactions
 OneDrive and Sharepoint
 Online and unfocused, completing cold boot reload
@@ -15298,6 +15328,7 @@ Opportunity object
 Opportunity stage
 Opt out of all tips
 Opt out of this release
+Optimal line length
 Optimistically deletes the thread on the client
 Optimistically mark a single productivity app as installing
 Optimistically remove a deleted result item from browser results by ID
@@ -15513,6 +15544,7 @@ Partially - mostly did not meet my needs
 Partially - mostly met my needs
 Participant 
 Participant disconnected
+Partner Corp
 Partner Fund Claims
 Partner Fund Requests
 Partner Marketing Budgets
@@ -16126,12 +16158,16 @@ Preventing retracted build reload because we don
 Preventing service worker fetch because we already have the latest cached build
 Prevents someone from getting away with it
 Preview AI response
+Preview Google Docs in Slack
+Preview Google Sheets in Slack
 Preview Image
 Preview Settings
+Preview Word, Excel, and PowerPoint files in Slack
 Preview Your App Submission
 Preview Your Invitation
 Preview branch
 Preview deleted.
+Preview email content without leaving Slack
 Preview fetch failed
 Preview form
 Preview image
@@ -16289,7 +16325,6 @@ Product overview video
 Productivity and collaboration
 Productivity and collaboration image
 Productivity and collaboration tools
-Productivity suite tabs
 Productivity tools
 Products Consumed
 Professional (Teams)
@@ -17136,6 +17171,7 @@ Reminder in
 Reminder: Update your opportunities
 Reminders & To-Do
 Reminders are here, too
+Reminders before meetings start
 Remote Work
 Remove & Close All Flags
 Remove AI canvas content from the store
@@ -17686,6 +17722,8 @@ Reply in Quip
 Reply in a thread
 Reply in thread
 Reply to Email
+Reply to emails directly from Slack
+Reply to file comments directly from Slack
 Reply to thread
 Report actions
 Report generated with 3 sections.
@@ -17926,6 +17964,7 @@ Resource A says X, but Resource B says Y, so you should understand that there is
 Resource Groups
 Resource is not in the state 
 Respect user-level preferences for alt text reminders
+Respond directly to event invitations
 Respond to an invitation to a huddle
 Respond to an invite within the slack window
 Respond to customer support emails without leaving Slack
@@ -18515,9 +18554,11 @@ Search App
 Search Confluence
 Search DMs
 Search Debug Results
+Search Drive files shared in Slack
 Search Google Workspace Directory
 Search Header
 Search Microsoft Outlook Contacts
+Search OneDrive and SharePoint files from Slack
 Search Outlines
 Search Product UIs
 Search Results
@@ -18749,6 +18790,7 @@ Security features for more control, visibility and flexibility
 Security image
 Security settings
 Security support SSO
+See Drive files in Enterprise Search results
 See Examples
 See More Direct Reports
 See Pricing Plans
@@ -19021,6 +19063,7 @@ Send client credentials via HTTP Basic Auth header instead of POST body.
 Send comment
 Send data into Slack in real-time.
 Send email invites and add new users to the given channel
+Send emails directly from Slack
 Send emails to this channel
 Send emails to this conversation
 Send failed
@@ -20933,11 +20976,13 @@ Share AI explanation
 Share Anyway
 Share Channel
 Share Closest Collabs
+Share Docs in channels and DMs
 Share Email Address
 Share Hot Highlight
 Share Persona
 Share Product UI
 Share Screen
+Share Sheets in channels and DMs
 Share Signature Emoji
 Share Slack data to Salesforce Data Cloud
 Share Top Channels
@@ -21012,6 +21057,7 @@ Shared Resources Outlines
 Shared Section 02
 Shared a call
 Shared by
+Shared calendar notifications in channels
 Shared channels icon
 Shared folder
 Shared in
@@ -22323,6 +22369,7 @@ Summarize # action items
 Summarize # and list out key takeaways
 Summarize # for an executive review
 Summarize # for the past month
+Summarize Channel
 Summarize Channel Outlines
 Summarize DM
 Summarize all unread messages
@@ -22360,6 +22407,7 @@ Summarize-PRE 3
 Summarize... Outlines
 Summarized information was accurate and clear
 Summarized information was inaccurate or confusing
+Summarizes the last 50 messages in a channel
 Summarizing Outlines
 Summarizing unreads  Outlines
 Summary Outlines
@@ -22527,6 +22575,7 @@ Tab - Tools
 Tab Rail in Sunroof
 Tab name
 Tab options
+Tab previews
 Tab title
 Tabbed channel
 Table Layout Handler
@@ -24182,6 +24231,7 @@ Uncheck All
 Undefined parent App!
 Undefined request path
 Undefined state 
+Underline links
 Understand how many people use canvases over time.
 Understand where conversations are happening, in public channels, private channels, and direct messages.
 Understand where your members have conversations, and where messages are most commonly read. Most messages will have multiple readers.
@@ -24478,6 +24528,7 @@ Untrusted event detected. Ignoring.
 Unusable Audio Warning
 Unusual formatting
 Unwrap text
+Up arrow shortcut
 Up to 10 apps
 Up to 50 participants
 Upcoming reminders
@@ -25513,6 +25564,7 @@ Vector: group style
 Vera Serif
 Verbose mode is not implemented yet.
 Verbose predictLoop() is not implemented yet.
+Verbosity settings
 Veridian Dynamics
 Verification status updated.
 Verify Domain
@@ -26777,9 +26829,9 @@ how did this happen?
 in c?c.touches[0]:c)[I?
 in e&&e.channel?e.channel:(0,m.uP)(),team:e.team??(0,h.CT)(),member:e.member??(0,p.Nq)(),introducingMember:e.introducingMember,sentVia:e.sentVia??
 in e.style?
-in e?!!(a&&((0,B.A)(e.url)||(0,x.cn)(e?.url??
-in e?!!(a&&((0,W.A)(e.url)||(0,g.cn)(e?.url??
-in e?!!(a&&((0,W.A)(e.url)||(0,x.cn)(e?.url??
+in e?!!(a&&((0,B.A)(e.url)||(0,x.VH)(e?.url??
+in e?!!(a&&((0,W.A)(e.url)||(0,g.VH)(e?.url??
+in e?!!(a&&((0,W.A)(e.url)||(0,x.VH)(e?.url??
 in t?t.key??
 in t?t.msg??
 invite them first.
