@@ -228,7 +228,6 @@
 :void 0)||(f.isDisabled?
 :void 0)||(h.isDisabled?
 :void 0,credentialless:ec?
-:void 0,credentialless:ed?
 :void 0,credentialless:m?
 :void 0,credentialless:o?
 :void 0,skipDoneDialog:!0,buttonClassName:t?
@@ -7837,6 +7836,7 @@ Failed to check IP
 Failed to check Slackbot DM history for existing summary
 Failed to check accessibility permissions
 Failed to clear completed items
+Failed to close conversation
 Failed to collect screenshare stats
 Failed to compile font 
 Failed to compile fragment shader.
@@ -7983,6 +7983,7 @@ Failed to perform a segmentation with a shared array buffer on the input image
 Failed to persist Slackbot mini opened flag
 Failed to persist debug_clogs to sessionStorage
 Failed to persist invite_step_skipped_remind_me_later
+Failed to pin conversation
 Failed to post comment
 Failed to preload app-home metadata; continuing navigation
 Failed to process the recording. Please try again.
@@ -8108,6 +8109,7 @@ Failed to transform calendar_jit_notification to JIT event
 Failed to turn off DND (SCHEDULE)
 Failed to turn off DND (SNOOZE)
 Failed to uninstall app
+Failed to unpin conversation
 Failed to unregister Slack Scribe combos
 Failed to unregister double-press shortcut
 Failed to unsubscribe from awareness topic: 
@@ -17762,7 +17764,6 @@ Request Org Admin Approval
 Request Salesforce sync permissions for this org
 Request Sent
 Request These Features
-Request To Purchase Upvote Recap Banner
 Request Today Access
 Request URL:
 Request Upgrade
@@ -24991,6 +24992,7 @@ Updates the DND schedule and snooze info for the current member
 Updates the UI state for the refine edit view menu component
 Updates the active cursor to next cursor to fetch next page
 Updates the active thread state for any child windows that have this channel open as an AppSpace
+Updates the analytics Slackbot MCP servers table data
 Updates the analytics Slackbot skills table data
 Updates the analytics Slackbot tools table data
 Updates the auto provision status for an org user group
