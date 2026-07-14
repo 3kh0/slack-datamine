@@ -8313,6 +8313,7 @@ Fetch and upsert canvas sections
 Fetch and upsert channel latest timestamp
 Fetch and upsert channel list prefs
 Fetch and upsert channel pref data
+Fetch and upsert file download allowed
 Fetch and upsert file shares
 Fetch and upsert files
 Fetch and upsert frecency and emoji_use prefs
@@ -8328,6 +8329,7 @@ Fetch and upsert recent media from search.modules.files
 Fetch and upsert recently uploaded files
 Fetch and upsert saved reminders
 Fetch and upsert the members of a user group
+Fetch and upsert the recents pref
 Fetch and upsert the result of connectableContacts.lookup
 Fetch and upsert the result of workflows.triggers.listRecentlyRunForUser
 Fetch and upsert ticket stats into the store
@@ -13760,8 +13762,6 @@ Native device management
 Native device manager not available
 Native device manager not available - platform not supported
 Natural language search
-Nav Copy
-Nav Heading
 NavBar Select Outlines
 Navigate back in the Action Library Navigation history
 Navigate side effect to close all modals
@@ -15354,7 +15354,6 @@ Option B
 Option not searched
 Optional Permissions
 Optional content properties malformed.
-Optional description below the heading
 Optional override for the inner iframe
 Optional subheader for this section
 Optional supporting copy
@@ -17386,6 +17385,7 @@ Remove files from a collection
 Remove filter
 Remove form
 Remove forwarded message
+Remove from Channel Managers
 Remove from Later
 Remove from Org Admins
 Remove from Org Owners
@@ -18801,8 +18801,6 @@ Section name is required
 Section options
 Section sequence mismatch
 Section settings
-Section staleness check failed
-Section staleness check passed
 Section text
 Sections are a great way to share multiple channels at once.
 Secure SSO SAML sign in
@@ -22598,7 +22596,6 @@ Tab Rail in Sunroof
 Tab name
 Tab options
 Tab previews
-Tab title
 Tabbed channel
 Table Layout Handler
 Table added as an attachment.
@@ -23522,7 +23519,6 @@ ThreadsFlexpane unable to log message impressions
 Three Days Left Trial Banner
 Three Perspectives
 Three featured stories with header
-Three icon blurbs with header
 Three icon tiles with header
 Three or four videos produces the most balanced row; the layout supports up to 4 cards.
 Three pillars that show up in every Slack workspace.
@@ -24175,7 +24171,6 @@ Unable to get lists_my_items_last_seen
 Unable to get page for page view
 Unable to get todos_last_seen
 Unable to get work object
-Unable to import file
 Unable to initialize viewer
 Unable to list sent messages for user
 Unable to load Einstein Activity Capture status.
@@ -25206,6 +25201,7 @@ Upsert external teams list based on connection type with pagination
 Upsert fetched membership info for users for a channel if we are expecting it
 Upsert fetched ordered membership list for channel
 Upsert fetched workflow apps list for channel
+Upsert file download allowed
 Upsert file shares data
 Upsert files
 Upsert gif  unfurl data to the gif unfurls store
