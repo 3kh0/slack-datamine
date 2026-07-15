@@ -1641,6 +1641,7 @@ Allow Slack AI to search the web
 Allow Slackbot to access data from this organization
 Allow Slackbot to create and edit canvases
 Allow Slackbot to create and update records
+Allow Slackbot to create, update, and delete records
 Allow Slackbot to find and use internet search results when generating a response.
 Allow access
 Allow access?
@@ -5979,6 +5980,7 @@ Disables restricted sharing for a file
 Disables the Native Channel Expert for a given channel
 Disables the current shared invite link
 Disables two-factor verification for a given member
+Disallowed objects
 Discard & Open
 Discard & Replace
 Discard Changes
@@ -20362,8 +20364,12 @@ Slackbot can also search:
 Slackbot can create and add content to canvases.
 Slackbot can help with this thread. Press Tab to ask.
 Slackbot can help you prep for meetings, too.
+Slackbot can manage all objects except ones you have excluded.
+Slackbot can manage only the objects you have chosen.
 Slackbot can search and display content from all web domains.
 Slackbot can use web search
+Slackbot cannot create or update records from this organization.
+Slackbot cannot create, update, or delete records from this organization.
 Slackbot helps MrBeast create viral videos.
 Slackbot here. I
 Slackbot is not enabled for anyone in your organization.
@@ -21693,7 +21699,6 @@ There was a problem saving to Salesforce.
 There was a problem searching Salesforce. Try again in a few minutes, or contact your administrator.
 There was a problem switching integrations
 There was a problem syncing with Salesforce
-There was a problem verifying your email. Try connecting your inbox again.
 There was an error checking access to this object. Some fields may not be available.
 There was an error configuring Google Auth. Please try again or choose a different account.
 There was an error copying your workflow.
@@ -22542,6 +22547,7 @@ Try disconnecting, then reconnecting the app to try again.
 Try filtering items
 Try for free
 Try huddles with more people
+Try later
 Try moving closer to your Wi-Fi router or use an ethernet connection
 Try out a new tab that helps you get oriented and make sure nothing gets overlooked. Features include:
 Try out your new benefits
@@ -24558,6 +24564,8 @@ When approvals are not required
 When copying a message, the text will use GitHub Flavored Markdown formatting.
 When enabled, Slack AI can search the web to help provide more comprehensive and up-to-date answers.
 When enabled, Slackbot can access and use data from this Salesforce organization when generating Al responses.
+When enabled, Slackbot can create new records and update existing records in this Salesforce organization. Requires data access to be enabled.
+When enabled, Slackbot can create, update, and delete records in this Salesforce organization. Requires data access to be enabled.
 When enabled, only the Primary Org Owner can disconnect the Salesforce org.
 When is approval required for channel invitations
 When is approval required to work with external organizations in channels?
