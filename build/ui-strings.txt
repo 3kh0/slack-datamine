@@ -173,8 +173,8 @@
 ,stateArg:null,context:new Context(a?
 ,stateArg:null,context:new Context(h?
 ,stateArg:null,context:new Context(o?
+,teamId:a??void 0,responseType:i?.responseType??
 ,teamId:a??void 0,responseType:r?.responseType??
-,teamId:a??void 0,responseType:s?.responseType??
 ,threadTs:a||void 0,tsLink:i?
 ,top:w?void 0:0,left:w?void 0:0,zIndex:1e5,...w?.position,maxHeight:w?.maxHeight??
 - Removed: Legacy password-based login endpoint.
@@ -2946,7 +2946,6 @@ CONTENT SHARE CONNECTIVITY READINESS - Completed
 CONTENT SHARE CONNECTIVITY READINESS - Running
 CONTENT SHARE CONNECTIVITY READINESS - User clicked start share (Firefox only)
 COPPA compliance
-CORS requests not supported
 CPU Utilization
 CRDT Changes
 CRDT CurrentSaved
@@ -5086,7 +5085,6 @@ Counted when a person (1) starts the notes and all other participants agree to b
 Counted when a person clicks to generate a message explanation and views it.
 Counted when a person clicks to generate a message or file summary translation.
 Counted when a person clicks to view a file summary.
-Counted when a person sends a message to Slackbot.
 Counted when a person submits a prompt using canvas AI.
 Counted when a person uses the natural language input or suggested prompts in Workflow Builder to generate a workflow draft.
 Counters should not be decremented outside of a change callback
@@ -8982,7 +8980,10 @@ Go to previous step
 Go to the next step in the setup page wizard
 Go to variables
 Good Response
+Good afternoon. Big week ahead.
 Good design speaks for itself. Like Slackbot.
+Good evening. Big week ahead.
+Good morning. Big week ahead.
 Good news, we found no conflicting settings.
 Good response
 Good summary
@@ -9358,6 +9359,7 @@ Hello there,
 Hello there, I am a basic rich text block!
 Hello world
 Hello, world! This is a plain_text element.
+Hello. Big week ahead.
 Help Center
 Help Outlines
 Help Slack understand your feedback better by attaching your recent Slackbot conversation
@@ -12090,7 +12092,6 @@ Mark that a user has created channel sections
 Mark that the user is not in any workspaces in this org
 Mark that the user needs to accept their org
 Mark that the workspace needs 2fa to be setup
-Mark the Sales Tracker sidebar row as viewed (unbold)
 Mark the draft as sent
 Mark the file as read
 Mark the free-team Slack Connect validation fetch as settled
@@ -20413,6 +20414,7 @@ Slackbot onboarding
 Slackbot response stopped
 Slackbot saved these from your conversations to make future responses more relevant.
 Slackbot settings
+Slackbot skill
 Slackbot teaser
 Slackbot tool
 Slackbot will message you when your images are ready for download.
@@ -20820,6 +20822,8 @@ Starts streaming unreads with timeout
 Starts the signin process for an additional workspace
 Starts the video preview on the video element using the specified device
 Starts when a channel is created
+Starts when a huddle begins
+Starts when a huddle begins in a channel
 Starts when a person joins a Salesforce channel
 Stash the websocket url
 Stashed message restored
@@ -21994,6 +21998,8 @@ This parameter has been deprecated. Instead, use the KeySpec parameter.
 This person has edit access through a certain channel.
 This person needs to be in the workspace before the channel can be shared.
 This person was recently invited. No need to invite them again just yet.
+This person will no longer have access to the channel and can only rejoin by invitation.
+This person will no longer have access to the channel and may need to request to rejoin later.
 This pretext appears above the card
 This property is deprecated and returns the Id and Description of the Provisioning Artifact. Use ProvisioningArtifactOutputKeys instead to get the Keys and Descriptions of the outputs.
 This property is deprecated, please refer to ErrorMetrics for both RMSE and WAPE
@@ -22345,7 +22351,6 @@ Total tool uses
 Touch base on the go, without all the typing
 Touch last updated ts value
 Touches last event time value
-Tracer Global ID:
 Traces action collection for span
 Tracing is not sampled by default for this session.
 Tracing is not sampled by default for this team.
@@ -22810,7 +22815,6 @@ Uncaught error returned by RPC handler for
 Uncheck 
 Uncheck All
 Undefined parent App!
-Undefined request path
 Underline links
 Understand how many people use canvases over time.
 Understand where conversations are happening, in public channels, private channels, and direct messages.
@@ -24592,6 +24596,7 @@ When [[column_key_and_value]], send a notification to [[user_id]]
 When a :emoji: reaction is added to a message in *#project-updates* channel and the user is a member of the workspace
 When a UI is set to private, it can only be viewed by invitation
 When a channel is set to private, it can only be viewed or joined by invitation.
+When a huddle starts in a channel
 When a message is posted to #general
 When a message is posted with keywords
 When a message is posted with keywords in selected channels
