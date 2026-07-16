@@ -228,6 +228,7 @@
 :void 0)||(f.isDisabled?
 :void 0)||(h.isDisabled?
 :void 0,credentialless:ec?
+:void 0,credentialless:h?
 :void 0,credentialless:m?
 :void 0,credentialless:o?
 :void 0,credentialless:p?
@@ -402,7 +403,9 @@ A workflow that contains a step supported by your app was published
 A workflow that contains a step supported by your app was unpublished
 A workflow that does something useful
 A wrapper around setUserPrefByApi meant for setting frecency data
+A wrapper around setUserPrefByApi meant for setting quick filter ranking data
 A wrapper around setUserPrefByApi meant for setting recents data
+A2A agents
 AAC PES did not start with ADTS header,offset:
 ADBE AnchorPoint
 ADBE Checkbox Control
@@ -993,6 +996,7 @@ Add a tab
 Add a task
 Add a team icon
 Add a temporary channel
+Add a third-party agent by its Agent Card URL to make it available in your workspace.
 Add a thread key to an array of threads that were manually marked unread
 Add a title
 Add a to-do (file) to redux and call the API
@@ -1247,6 +1251,7 @@ Add the DNS record
 Add the step with a form
 Add the template to
 Add them to the right conversations
+Add third-party agents by their Agent Card URL and choose which ones are available in Slackbot.
 Add this app to a channel
 Add this person to your workspace instead?
 Add threads and messages to the relevant stores
@@ -1388,6 +1393,7 @@ Adds a skill set id to the installed list (idempotent)
 Adds a step to a workflow
 Adds a tab to a channel and navigates to that tab
 Adds a team to the enterprise_excluded_app_teams pref
+Adds a third-party A2A agent by its Agent Card URL, then refreshes the agent list on success
 Adds a today item to the store, or updates it if it already exists
 Adds a workflow bookmark to the channel specified
 Adds a workspace to the removed workspaces slice
@@ -2447,6 +2453,7 @@ Available agents
 Available credit
 Available devices update already in progress. Returning existing promise.
 Available formats
+Available in Slackbot
 Available in bulk action mode
 Available logos
 Available tools
@@ -3587,7 +3594,6 @@ Channel details
 Channel invitations
 Channel link
 Channel link copied
-Channel management
 Channel managers
 Channel managers and admins
 Channel managers and admins can change this setting.
@@ -8156,6 +8162,7 @@ Fetches the list of roles
 Fetches the members in the user group
 Fetches the most recent EKM change timestamp via conversations.historyChanges
 Fetches the next set of members
+Fetches the org
 Fetches the org retention settings for an org
 Fetches the permissions for the member
 Fetches the profile data of a role member
@@ -10029,7 +10036,6 @@ Interactivity & Shortcuts
 Interactivity context
 Intercept and handle a slash commands when sending a message
 Interleaved Groups
-Internal Apps
 Internal Bot
 Internal Error Occurred
 Internal Slack analysis of team decision velocity, 2023
@@ -13191,6 +13197,7 @@ No agent sessions yet
 No agents
 No agents are available for your search
 No agents available
+No agents yet
 No allowed files passed to uploadFiles
 No app data
 No apps available for your organization.
@@ -14464,12 +14471,9 @@ Organization Settings
 Organization analytics
 Organization channels
 Organization details
-Organization info
 Organization is always just a click away.
 Organization overview
-Organization policies
 Organization search
-Organization settings
 OrganizationEnabled is no longer returned by ListEventDataStores
 Organizations Table
 Organizations with access
@@ -14996,6 +15000,7 @@ Please enter a reason
 Please enter a valid App ID.
 Please enter a valid Google Drive URL.
 Please enter a valid URL
+Please enter a valid URL.
 Please enter a valid email address (e.g., support@example.com).
 Please enter a valid phone number.
 Please enter an App ID.
@@ -15410,6 +15415,7 @@ Protect your organization and data
 Protect your organization data
 Protocol Buffer
 Protocol Buffer 3
+Protocol version
 Provide Inputs
 Provide a 2x asset URL when not using SVG to keep logos sharp on retina displays
 Provide a reason
@@ -15769,6 +15775,7 @@ Record a clip anytime
 Record a frecency event for some message action + maybe a query
 Record a navigation event into recents if the write toggle is on, deferred to idle
 Record a navigation event into the recents pref and sync it to user prefs
+Record a quick filter click for ranking
 Record a recents navigation event for a navigate event
 Record a search event into recents if the write toggle is on, deferred to idle
 Record a search event into the recents pref and sync it to user prefs
@@ -18058,6 +18065,9 @@ Session duration enabled
 Session duration updated
 Session expired
 Session start failed.
+Set A2A agents fetch error
+Set A2A agents fetch status
+Set A2A agents list
 Set AI summary status to error
 Set API error message
 Set Action Library Navigation state
@@ -21238,7 +21248,6 @@ Sync to preview and create new Google Sheet with your changes.
 Sync unfurl state from server to redux
 Sync workspaces state with desktop
 Sync workspaces state with desktop when a new team has booted
-Synced from Salesforce
 Synced with Salesforce
 Syncer Logging
 Synchronize archive state for a thread ID
@@ -22320,6 +22329,7 @@ Toggles the canvas thread open or closed, useful for keyboard shortcuts
 Toggles the darker sidebars (sidebar inverted) preference under custom theme
 Toggles the performance monitor
 Toggles title filter value
+Toggles whether an A2A agent is exposed as a Slackbot tool, with an optimistic update + revert on failure
 Toggles whether to show all members or only selected
 Toggling visibility
 Token Management
@@ -23123,6 +23133,7 @@ Up arrow shortcut
 Up to 10 apps
 Up to 50 participants
 Upcoming reminders
+Update A2A agent Slackbot-enabled flag
 Update AI Agentforce App Status
 Update AI alt text generation status for a file
 Update AI summary content when streaming
@@ -25413,6 +25424,7 @@ subteam_deleted: No message event provided, or no subteam provided in the messag
 subteam_self_added: No message event provided, or no subteam id provided in the message event.
 subteam_self_removed: No message event provided, or no subteam id provided in the message event.
 t a dict.
+t add this agent. Check the URL and try again.
 t an array.
 t be able to test the simplified upgrade flow for Grid Migrations.
 t be able to use it again.
