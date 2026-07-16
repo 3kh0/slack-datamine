@@ -217,7 +217,7 @@
 :T.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e8,title:eU?eG:void 0,className:(0,r.A)(eU||I||eB?
 :T.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e8,title:eU?eV:void 0,className:(0,r.A)(eU||I||eB?
 :_ instanceof RegExp?
-:a?n:void 0,children:m?
+:a?r:void 0,children:m?
 :e instanceof File?
 :e instanceof Map?
 :p instanceof RegExp?
@@ -3012,6 +3012,8 @@ Calendar events in Slack
 Calendar events window: fetch on boot complete
 Calendar huddle access options disabled
 Calendar huddle privacy
+Calendar popup watchdog: popup closed but status fetch confirmed connection
+Calendar popup watchdog: popup closed, status fetched
 Calendar prefs updated
 Calendar steps in Workflow Builder
 Calendar sync required
@@ -6994,6 +6996,7 @@ Error sending message from onboarding tasks Teammate Intro modal
 Error sending transient sections packet
 Error serializing payload
 Error setting canvas update message setting
+Error setting preferred device labels in local storage
 Error setting preferred devices in local storage
 Error setting private channel permissions: 
 Error setting seen_onboarding_banner user pref
@@ -13389,6 +13392,7 @@ No pending huddle start in resolvePendingJoin
 No pending metrics to process
 No persisted state found
 No preferred devices found in local storage.
+No preferred devices found in local storage. Detecting preferences from selection records
 No prefs were passed.
 No preview
 No previous active timestamp found, skipping cold boot navigation
@@ -15152,7 +15156,6 @@ Pre-reload task timed out: Failed to unregister service worker
 Precache visibility filters for this user before they kick off a search
 Preferences shortcut - opens Preferences
 Preferred Language
-Preferred devices loaded from local storage
 Preferred devices validated
 Preformatted code
 Prejoin SDK already exists; blocking new prejoin init
