@@ -1138,6 +1138,7 @@ Add group channels as a section in Home
 Add huddle caption to meeting transcript
 Add huddle to talk with your team right in Slack
 Add individually
+Add info
 Add info from outside of Slack
 Add instructions to help others
 Add instructions to test your sidekick
@@ -2691,6 +2692,8 @@ Browse all templates
 Browse and search for starting actions from Slack and popular connectors with the tools you use every day.
 Browse and team up with AI agents
 Browse apps
+Browse available blocks
+Browse available blocks, opens in new tab
 Browse channels
 Browse people and user groups
 Browse the full Slack Marketplace
@@ -4732,6 +4735,7 @@ Content safety filters
 Content-Length header not found
 ContentLength is not supported in pre-signed URLs.
 Context + Provider
+Context import failed for use_context card
 Context is already forwarding operations.
 Context type mismatch: expected 
 Continue Editing
@@ -6881,6 +6885,7 @@ Error during mid-processing fallback:
 Error editing MCP server
 Error exporting workflow form data: 
 Error fetching MFA token: 
+Error fetching SlackCRM BUILD_FROM_USER_INPUT state machine
 Error fetching SlackCRM onboarding splash state machine
 Error fetching additional page of org user groups
 Error fetching app submission id
@@ -6934,6 +6939,7 @@ Error occured in fetching the AI Workflow Steps Response
 Error parsing JSON from onboarding pref
 Error parsing appStats in localStorage:
 Error parsing session config
+Error persisting active thread to BUILD_FROM_USER_INPUT
 Error preloading Quip SDK
 Error promoting next token
 Error publishing app submission or creating beta app
@@ -8119,6 +8125,7 @@ Fetches teams by query from the API
 Fetches the DND info for a single user
 Fetches the DND info for multiple users
 Fetches the Flannel HTTP URL
+Fetches the SlackCRM BUILD_FROM_USER_INPUT user-level state machine
 Fetches the SlackCRM onboarding splash seen state machine
 Fetches the analytics apps real time (last 24 hours) timestamp
 Fetches the current browser instance
@@ -9753,6 +9760,7 @@ Import Workflow Failure
 Import Workflow Success
 Import a workflow
 Import company contacts and give your team access
+Import data to Sales Tracker
 Import files into channels and DMs
 Import workflow
 Import workflow and triggers
@@ -14843,6 +14851,7 @@ Persisting device selection records to local storage
 Persists Redux state into IndexedDB
 Persists a request payload by key
 Persists data from Redux into localStorage and IndexedDB for rehydration later
+Persists the active Slackbot thread to the BUILD_FROM_USER_INPUT machine metadata
 Persists the today items from today.items.list in the store
 Person who last interacted with the workflow
 Person who used this workflow
@@ -17955,6 +17964,7 @@ Sends a message to Slackboss with optimistic placeholder
 Sends a message to Slackbot AI and invokes any side effects
 Sends a request to disconnect a Salesforce organisation
 Sends a request to generate a CSV member list which will be downloadable by Slackbot
+Sends a skill invocation slug message to the Slackbot DM
 Sends a summary to a channel
 Sends all delayed marks to the API
 Sends an email via Salesforce
@@ -20213,6 +20223,7 @@ Skill Sets
 Skill added
 Skill deleted
 Skill instructions
+Skill invocation failed for add_info card
 Skill set is already in your Slackbot library.
 Skill set items
 Skill set name
