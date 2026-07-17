@@ -210,8 +210,8 @@
 2. Paste the response below, or paste your exported memory file.
 :E.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e3,title:eU?eV:void 0,className:(0,r.A)(eU||I||eB?
 :E.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e6,title:eU?eV:void 0,className:(0,r.A)(eU||I||eB?
-:I.mv.ConfirmationModal,onClose:ez,headerImageSrc:J,headerImageAlt:e3,title:eU?eV:void 0,className:(0,r.A)(eU||T||eB?
 :I.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e6,title:eU?eV:void 0,className:(0,r.A)(eU||T||eB?
+:T.mv.ConfirmationModal,onClose:ez,headerImageSrc:J,headerImageAlt:e3,title:eU?eV:void 0,className:(0,r.A)(eU||I||eB?
 :T.mv.ConfirmationModal,onClose:ez,headerImageSrc:J,headerImageAlt:e6,title:eU?eG:void 0,className:(0,r.A)(eU||I||eB?
 :T.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e6,title:eU?eV:void 0,className:(0,r.A)(eU||I||eB?
 :T.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e8,title:eU?eG:void 0,className:(0,r.A)(eU||I||eB?
@@ -2391,6 +2391,7 @@ Auto-complete after 6s
 Auto-enable connector after external auth
 Auto-enable scope
 Auto-enable skill
+Auto-focused URL input
 Auto-focused input
 Auto-focused password
 Auto-generated Channel Knowledge Canvas
@@ -3770,7 +3771,7 @@ Checkout steps
 Checks and returns whether an emoji exists for a given team ID
 Checks external file permissions for a tab
 Checks for opening the huddle window for the active huddle with channel canvas
-Checks if SC trial treatment B user needs the non-dismissible welcome modal on boot
+Checks if SC trial user needs the non-dismissible welcome modal on boot
 Checks if the message is in an active view before doing the animation
 Checks if the user has drafts and alerts before signing out of a workspace or org
 Checks if user created a new datasource after being redirect to integrations builder
@@ -4593,7 +4594,6 @@ Confirm delete user
 Confirm remove variant
 Confirm settings for migration?
 Confirm that you want to disconnect this org
-Confirm your workspace name
 Confirmation dialog enabled for external links
 Confirmations and warnings
 Connect (opens in new window)
@@ -6388,7 +6388,6 @@ Edit IP Address
 Edit MCP Server
 Edit MPDM to private channel setting
 Edit Message
-Edit Name
 Edit Photo
 Edit Profile
 Edit Profile Crop
@@ -6781,6 +6780,7 @@ Enter a folder name
 Enter a group handle
 Enter a group name
 Enter a handle
+Enter a link
 Enter a link to a Google Doc, Google Slides, or uploaded Google Drive file.
 Enter a name or email
 Enter a name, email, or user group
@@ -9405,7 +9405,6 @@ Help me set up an automation
 Help me write a follow-up for my last meeting
 Help me write a personalized email
 Help me write a personalized reply for this thread
-Help others recognize you
 Help others understand what this skill set is for.
 Help people find and use workflows relevant to this channel.
 Help requests
@@ -11196,7 +11195,6 @@ Log exposure for the resurrected_user_sidebar_tasks_small experiment if it is ex
 Log exposure for the rtp_banner experiment if it is exposed
 Log exposure for the rtp_modal experiment if it is exposed
 Log exposure for the sc_activity_invite_show_email experiment if it is exposed
-Log exposure for the sc_trial_onboarding experiment if it is exposed
 Log exposure for the seasonal_delight_spring_cleaning experiment if it is exposed
 Log exposure for the security_paywalls_and_nudges experiment if it is exposed
 Log exposure for the segmented_offers experiment if it is exposed
@@ -24520,7 +24518,6 @@ We had some trouble connecting. Please try again.
 We make decisions in hours, not days. Slack changed how the whole company moves.
 We need a little bit more time before you can see the full list of members.
 We replaced a sprawl of email threads with channels and instantly saw a step-change in how quickly we ship.
-We used your email domain to name your workspace, but that might not be quite right.
 We want to add new users to our team. How will that be billed?
 We went from scattered group chats to organized channels in a week. Our team finally has a single source of truth.
 We will generate a real link here once you publish the workflow.
