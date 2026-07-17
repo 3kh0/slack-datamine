@@ -70,6 +70,7 @@
  is deprecated and will be removed in a future version.
  is disallowed in char data.
  is invalid.
+ is no longer part of it. Showing the first available image instead.
  is not a valid compression method !
  is not data stream related!
  is not hostname compatible.
@@ -210,8 +211,8 @@
 2. Paste the response below, or paste your exported memory file.
 :E.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e3,title:eU?eV:void 0,className:(0,r.A)(eU||I||eB?
 :E.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e6,title:eU?eV:void 0,className:(0,r.A)(eU||I||eB?
+:I.mv.ConfirmationModal,onClose:ez,headerImageSrc:J,headerImageAlt:e3,title:eU?eV:void 0,className:(0,r.A)(eU||T||eB?
 :I.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e6,title:eU?eV:void 0,className:(0,r.A)(eU||T||eB?
-:T.mv.ConfirmationModal,onClose:ez,headerImageSrc:J,headerImageAlt:e3,title:eU?eV:void 0,className:(0,r.A)(eU||I||eB?
 :T.mv.ConfirmationModal,onClose:ez,headerImageSrc:J,headerImageAlt:e6,title:eU?eG:void 0,className:(0,r.A)(eU||I||eB?
 :T.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e6,title:eU?eV:void 0,className:(0,r.A)(eU||I||eB?
 :T.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e8,title:eU?eG:void 0,className:(0,r.A)(eU||I||eB?
@@ -229,12 +230,11 @@
 :void 0)||(f.isDisabled?
 :void 0)||(h.isDisabled?
 :void 0,credentialless:ec?
-:void 0,credentialless:h?
 :void 0,credentialless:m?
 :void 0,credentialless:o?
 :void 0,credentialless:p?
 :void 0,skipDoneDialog:!0,buttonClassName:t?
-:x.mv.ConfirmationModal,onClose:ez,headerImageSrc:J,headerImageAlt:e3,title:eU?eq:void 0,className:(0,r.A)(eU||I||eB?
+:x.mv.ConfirmationModal,onClose:ez,headerImageSrc:J,headerImageAlt:e3,title:eU?eV:void 0,className:(0,r.A)(eU||I||eB?
 :x.mv.ConfirmationModal,onClose:ez,headerImageSrc:J,headerImageAlt:e6,title:eU?eq:void 0,className:(0,r.A)(eU||I||eB?
 @Finance Team Can you review this edit from Cathy Customer?
 A CTA with the same button text, link, and variant already exists
@@ -289,6 +289,7 @@ A description of the image you are sharing
 A detailed walkthrough of building custom automations.
 A dialog-role popover with 
 A different account
+A direct message
 A domain allowlist lets you specify which domains can send emails into Slack using Channel Email Addresses or personal forwarding email addresses.
 A file was changed
 A file was created
@@ -927,7 +928,6 @@ Add a facet value
 Add a feature tag
 Add a file
 Add a file to a collection
-Add a file to a collection at its correct sorted position
 Add a file to the open list, and then maybe save to local storage.
 Add a form for this step?
 Add a form to your website and new leads will be automatically posted in this channel.
@@ -2668,7 +2668,6 @@ Brainstorm ideas or think through something
 Branch collapse toggle failed
 Branch step duplicate failed
 Brand Guidelines v3
-Brand name is required
 Brazilian (ABNT)
 Brief description of the issue
 Brightpath Studio logo
@@ -2785,6 +2784,7 @@ Bulk add members to a user group, overwriting anything previously stored in the 
 Bulk add or update a channel mutation timestamps
 Bulk add user groups, overwriting anything previously stored with the same id
 Bulk add viewUiState [proto]
+Bulk archive channels
 Bulk clear all contact unfurl data for the draft from the store
 Bulk clear draft
 Bulk clear entire draft
@@ -3502,14 +3502,12 @@ Change channel visibility
 Change conversation notifications shortcut - opens Channel Notifications Prefs modal
 Change conversation to a Slack Connect channel?
 Change default list view
-Change dictation shortcut
 Change download location
 Change draft pending block unfurls to sending
 Change draft pending gif unfurls to sending
 Change formatting
 Change limited access group
 Change notification settings
-Change paste last transcript shortcut
 Change region
 Change search summary status to in progress
 Change spreadsheet
@@ -4283,6 +4281,7 @@ Close Workspace Directory Banner
 Close a channel optimistically and make an API call to persist
 Close active TabSoda tab and switch to the nearest open tab
 Close activity side panel
+Close add logo
 Close all pins except the first tab and the currently active one
 Close all tab soda tabs except the currently active one
 Close all tabs
@@ -4926,7 +4925,6 @@ Copy link to view
 Copy link to workflow
 Copy live URL
 Copy markdown
-Copy message
 Copy message text as Markdown
 Copy name
 Copy namespace to clipboard
@@ -7343,6 +7341,7 @@ Failed to archive agent session
 Failed to attach file. Please try again.
 Failed to attach files. Please try again.
 Failed to build VideoFxProcessor
+Failed to bulk archive channels
 Failed to calculate position
 Failed to call aiAlphaSummarizeUnreadsSnapshotFetcher
 Failed to capture screenshot. Please try again.
@@ -15652,6 +15651,7 @@ React component not mounted
 React form unexpectedly submitted.
 React to last message (or message with focus)
 React-Modal: 
+React-Modal: Cannot register modal instance that
 React.Children.only expected to receive a single React element child.
 ReactSupport.bindAllMethodsToInstance was called, but no methods needed to be bound. Consider removing it. Instance: 
 Reacting to 
@@ -17820,7 +17820,6 @@ Select an existing channel
 Select an image
 Select an item
 Select an option
-Select at least one logo image
 Select audio input device
 Select category
 Select channel
@@ -18826,6 +18825,7 @@ Set the query string for the editable request query
 Set the quick reply banner for the context bar
 Set the reason for requesting invitations
 Set the reason for requesting to add guest to more channels
+Set the record channels minimum access level property
 Set the referring event id for clogs
 Set the request ID for the current fetchAllSearchResults call
 Set the result of a team.feature.getRequest call
@@ -20939,7 +20939,6 @@ Stop Sharing
 Stop a 3P AI app streaming response
 Stop agent response
 Stop big button mode
-Stop changing dictation shortcut
 Stop drawing on your own screen
 Stop editing
 Stop editing a message
@@ -23325,6 +23324,7 @@ Update knock to enter user requests
 Update last active activity item for a view
 Update last active team ID in localConfig
 Update lastRequestId for browser entity
+Update last_read timestamp for a file
 Update list of OAuth providers by app id
 Update list of app functions based on appId
 Update list of app workflows based on appId
@@ -25347,8 +25347,9 @@ ha inviato un biglietto di auguri. Felice anno nuovo!
 handlerIds, when specified, must be an array of strings.
 how did this happen?
 in e&&e.channel?e.channel:(0,m.uP)(),team:e.team??(0,h.CT)(),member:e.member??(0,p.Nq)(),introducingMember:e.introducingMember,sentVia:e.sentVia??
-in e?!!(a&&((0,B.A)(e.url)||(0,b.VH)(e?.url??
-in e?!!(a&&((0,W.A)(e.url)||(0,b.VH)(e?.url??
+in e?!!(a&&((0,H.A)(e.url)||(0,b.VH)(e?.url??
+in e?!!(a&&((0,V.A)(e.url)||(0,b.VH)(e?.url??
+in e?!!(a&&((0,q.A)(e.url)||(0,b.VH)(e?.url??
 in e?e.touches[0]:e)[r?
 in p.style?
 in t?t.key??
