@@ -12155,6 +12155,7 @@ Marks a today item for delete for animation prior to calling deleteTodayItem
 Marks admin suggested list views for sidebar as fresh
 Marks admin suggested list views for sidebar as stale
 Marks an MCP app resource as recently accessed for LRU tracking
+Marks that a Salesforce-cache interactability refresh was attempted for an Agentforce app
 Marks that the admin declined the opt-in this session (coachmark dismissed or landing closed)
 Marks that the initial calendar window fetch has completed
 Marks that the joiner personalized launchpad state machine has been initialized in Redux
@@ -16021,6 +16022,7 @@ Refresh Sales Tracker
 Refresh WMP heartbeats
 Refresh a file by id
 Refresh interactivity pointer for a Form step, if needed
+Refresh is_interactable for an Agentforce agent via the Salesforce ACL cache
 Refresh is_interactable for an app
 Refresh list
 Refresh rate (ms)
