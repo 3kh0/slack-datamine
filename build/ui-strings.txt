@@ -57,6 +57,7 @@
  from the Intl api, but did not have that data loaded.
  handler that triggers an alert.
  handles rendering a scoop background.
+ happening?
  has already been set.
  has already been used.
  has been saved successfully.
@@ -208,10 +209,9 @@
 ,stateArg:null,context:new Context(a?
 ,stateArg:null,context:new Context(h?
 ,stateArg:null,context:new Context(o?
-,teamId:a??void 0,responseType:i?.responseType??
 ,teamId:a??void 0,responseType:r?.responseType??
 ,threadTs:a||void 0,tsLink:i?
-,top:w?void 0:0,left:w?void 0:0,zIndex:1e5,...w?.position,maxHeight:w?.maxHeight??
+,top:y?void 0:0,left:y?void 0:0,zIndex:1e5,...y?.position,maxHeight:y?.maxHeight??
 - Removed: Legacy password-based login endpoint.
 -URL for performance reasons.
 -month discount period ends, they will be billed at the regular price for their plan.
@@ -244,14 +244,8 @@
 1D separable convolution is not implemented yet.
 2,600+ apps in the App Marketplace meant fewer tabs and faster decisions.
 2. Paste the response below, or paste your exported memory file.
-:E.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e3,title:eU?eV:void 0,className:(0,r.A)(eU||I||eB?
-:E.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e6,title:eU?eV:void 0,className:(0,r.A)(eU||I||eB?
-:I.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e3,title:eU?eV:void 0,className:(0,r.A)(eU||T||eB?
-:I.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e6,title:eU?eV:void 0,className:(0,r.A)(eU||T||eB?
-:I.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e8,title:eU?eG:void 0,className:(0,r.A)(eU||T||eB?
-:T.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e6,title:eU?eG:void 0,className:(0,r.A)(eU||I||eB?
-:T.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e6,title:eU?eV:void 0,className:(0,r.A)(eU||I||eB?
-:T.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e8,title:eU?eV:void 0,className:(0,r.A)(eU||I||eB?
+:I.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e8,title:eU?eV:void 0,className:(0,r.A)(eU||T||eB?
+:T.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e6,title:eB?eV:void 0,className:(0,r.A)(eB||w||eU?
 :_ instanceof RegExp?
 :a?r:void 0,children:m?
 :e instanceof File?
@@ -263,14 +257,10 @@
 :v.uint8array&&t instanceof Uint8Array?
 :void 0),r.current?.info(em,e?
 :void 0)||(f.isDisabled?
-:void 0)||(h.isDisabled?
 :void 0,credentialless:ec?
-:void 0,credentialless:m?
 :void 0,credentialless:o?
 :void 0,credentialless:p?
 :void 0,skipDoneDialog:!0,buttonClassName:t?
-:x.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e3,title:eU?eV:void 0,className:(0,r.A)(eU||I||eB?
-:x.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e6,title:eU?eq:void 0,className:(0,r.A)(eU||I||eB?
 ; opening the overflow menu keeps the actions visible until it closes.
 ; speak to the content or the action.
 @Finance Team Can you review this edit from Cathy Customer?
@@ -389,6 +379,7 @@ A new tab will open for you to sign in...
 A new version of the app is available.
 A new way to add workflow starting actions
 A new way to automate connector requests
+A new way to plan your day
 A node can have at most one anchor
 A node can have at most one tag
 A notification card with two buttons
@@ -1265,6 +1256,7 @@ Add or update the last ephemeral message of a certain type
 Add overlay text
 Add pack
 Add page to route
+Add people
 Add people individually
 Add people to a channel
 Add people to channel
@@ -3354,6 +3346,8 @@ Cannot claim lock as it is already claimed
 Cannot collect a droppable while a drag is occurring
 Cannot collect without a droppable ref
 Cannot compile Type3 glyph.
+Cannot construct Tensor with more than 4 channels from pixels.
+Cannot construct a complex64 tensor directly. Please use tf.complex(real, imag).
 Cannot construct path-style endpoint with access point
 Cannot contain the invalid character 
 Cannot convert undefined or null to object
@@ -3449,6 +3443,7 @@ Cannot show missed huddle invite notification, permission denied
 Cannot show notification, missing arguments
 Cannot show notification, permission denied
 Cannot sort alpha if section is not a list
+Cannot specify batchSize if batchInputShape is specified when creating an InputLayer.
 Cannot start auto scrolling when already started
 Cannot start capturing critical dimensions as there is already a collection
 Cannot start scroll listener when already active
@@ -5653,6 +5648,7 @@ Data retention policies
 Data retention policies and data exports for all messages.
 Data retention policy
 Data scraping
+Data should be at least 1 dimensional but received scalar
 Data size has to be less than 2048 bytes
 Data source
 Data storage and retention
@@ -8406,7 +8402,6 @@ File uploads and embedded files have been disabled in Slack Connect canvases
 File uploads to this workspace have been disabled at the request of your administrator.
 File uploads were disabled on this workspace
 File uploads with external people
-FileReader returned unknown type.
 Filenames can include only one @ density tag (like @2x). Remove the extra one and try again.
 Filenames can only use letters, numbers, dots, hyphens, and underscores. Remove spaces or other characters and try again.
 Files & links
@@ -9200,6 +9195,7 @@ Government (FedRAMP)
 Grace Liu
 Gradient Fill 1
 Gradient Type
+Gram-Schmidt process: input must not be null, undefined, or empty
 Grant Access
 Grant Slack access to Google
 Grant Slack access to Office 365
@@ -9392,6 +9388,7 @@ HTML (Derivative)
 HTML content to load into the inner iframe.
 HTML file
 HTTP request failed (DNS, timeout, or connection refused). Verify the server URL is reachable.
+Hai letto tutto quello che serviva.
 Halt further boot if client is reloading
 Halting the API queue
 Hand off search query to Slackbot
@@ -9720,6 +9717,7 @@ How is the transcript? Tell us about your experience.
 How many files should they upload?
 How many rows from the end of the loaded data to trigger fetching the next page while scrolling.
 How many?
+How satisfied are you with the customer relationship management (CRM) features in Slack so far?
 How should I use Slackbot for my role?
 How the UI Generator works
 How the filter chip is set.
@@ -10529,6 +10527,7 @@ Jazz Club
 Jazz Snaps
 Jazz themes
 Jest Testing Framework
+Jetzt bist du startklar.
 Job Requisitions
 John Doe
 John Smith
@@ -13352,6 +13351,7 @@ Next workspace
 Next year
 Next: Automated Checks
 Next: Scopes Your App Uses
+NextGen - Communications Cloud Integration
 NextMarker || Contents[-1].Key
 Nice! Organize your channel list anytime.
 Night Owl
@@ -14058,6 +14058,7 @@ Only people who can post can reply to messages
 Only people with Flagged Content Admin system role can view flagged content.
 Only people with access to the list will be notified when mentioned. You can share this list with individuals, channels, or user groups
 Only post
+Only provide the inputShape OR batchInputShape argument to inputLayer, not both at the same time.
 Only regular members of the group will be added to guest-restricted channels.
 Only reply to questions about health insurance benefits and the vacation policy
 Only require approval for existing channels
@@ -14845,6 +14846,7 @@ Partner Portal Launch Plan
 Partner Portal Launch Plan 2
 Partner sandboxes
 Party Consents
+Pass at least one tensor to concat
 Pass at least one tensor to tf.stack
 Passed client side effects into a non-client store. This is a programming error and the app will not work properly.
 Passing 
@@ -15382,6 +15384,7 @@ Preload complete
 Premature close
 Premium Salesforce integration
 Premium workflows
+Prenditi una pausa.
 Prep for Meeting
 Prep for meeting with 
 Prep for this meeting
@@ -17263,6 +17266,7 @@ Revert to List
 Reverting those changes
 Review & add
 Review AI workflow access
+Review AI-generated content
 Review Anomalies
 Review App Approval settings
 Review Content
@@ -20840,6 +20844,7 @@ Something went wrong. Try searching again.
 Something went wrong. Try syncing again.
 Something went wrong. Wait a moment and try again.
 Sometime helper, sometime messenger, always bot.
+Somewhat satisfied
 Sonic authFetchedHandler
 Sorry about that - please try again later, and contact Slack if this problem persists.
 Sorry could not delete bookmark, Please retry.
@@ -21820,6 +21825,7 @@ The app will no longer appear in the
 The args passed in customGrad(f)(x1, x2,...) must all be tensors
 The argument must be a React element, but you passed 
 The arity of each 
+The array must have only 1 element.
 The asset
 The assets
 The associated Salesforce user account is frozen or inactive.
@@ -21889,7 +21895,6 @@ The error message text.
 The featured link works well for linking to related documentation or feature pages
 The field will be visible to everyone with access to the list.
 The file associated with this transcript is no longer available.
-The file type 
 The first row of your file should be column names. Be sure to include 
 The following people have requested access to customer management in Slack. Approving the request will add them as Salesforce users.
 The free plan includes up to 10 users, 90 days of message history, and 5GB of file storage.
@@ -21933,6 +21938,7 @@ The name of variable, key, signal and etc.
 The network timeout happened in suspiciously less time than our fixed timeout length
 The new Slackbot is coming soon
 The next day
+The number of values should be positive.
 The number to display. The badge renders nothing when this is 0 or negative.
 The only valid scalar shape tensor is the fully unknown shape specified as -1.
 The orange and yellow status indicators are too hard to tell apart
@@ -22000,6 +22006,7 @@ The user is in a different region from the Huddle host, potentially causing incr
 The user will receive an email to verify and must confirm the updated email address within the next 24 hours.
 The value 
 The value must be at least 2 characters long
+The varList passed in variableGrads(f, varList) must be an array of variables
 The visual style of the alert.
 The visual style of the tag. The semantic styles carry meaning; the remaining named colors are for categorical labelling (e.g. distinguishing items in a list) and carry no inherent status.
 The workflow builder needs to reconnect their Salesforce account for this workflow. Please contact the workflow owner to resolve this issue.
@@ -22086,7 +22093,6 @@ There was an issue connecting. Please try again.
 There was an issue fetching workflow activity for a workflow
 There was an issue loading this thread. Please try refreshing the page.
 There was an issue retrieving settings from the workspace
-There was an issue retrieving suggestions.
 There was an unknown error with your SSO configuration.
 There were 
 These accounts have been deactivated.
@@ -24464,6 +24470,7 @@ Very Small (20px)
 Very Tall image file
 Very good
 Very poor
+Very satisfied
 Video Background MP4 (1x)
 Video Background MP4 (2x)
 Video Background Poster (1x)
@@ -24502,6 +24509,7 @@ VideoFxProcessor destroyed.
 VideoFxProcessor is not supported on host device. Defaulting to non blurred background
 VideoFxProcessor is not supported on host device. Defaulting to non image replaced background
 Viet Nam
+View AI Notes
 View AI Terms and Conditions
 View Audit Logs
 View Channel
@@ -24580,6 +24588,7 @@ View connections
 View contacts
 View container
 View container focus
+View content
 View conversation
 View conversation details
 View conversations
@@ -24833,7 +24842,6 @@ Web request URL
 Web search
 Web search preference
 WebAssembly Interface Types
-WebAudio device ID detected, suppressing device selection check.
 WebAudio is not enabled, mixIntoAudioInput will not work
 WebGL context unavailable
 WebGL is not supported on this device
@@ -24928,6 +24936,7 @@ What is included in the free plan?
 What is project acme? Outlines
 What is project acme? Outlines 2
 What is the project status?
+What is this huddle about?
 What is this workflow for?
 What is wrong?
 What is your feedback?
@@ -24959,11 +24968,14 @@ When a UI is set to private, it can only be viewed by invitation
 When a channel is set to private, it can only be viewed or joined by invitation.
 When a footer link or button
 When a huddle starts in a channel
+When a list item is updated
 When a message is posted to #general
 When a message is posted with keywords
 When a message is posted with keywords in selected channels
 When a new message is posted in #general
 When a person joins a Salesforce channel
+When a person joins a channel
+When an emoji reaction is used
 When approvals are not required
 When copying a message, the text will use GitHub Flavored Markdown formatting.
 When enabled, Slack AI can search the web to help provide more comprehensive and up-to-date answers.
@@ -24971,8 +24983,10 @@ When enabled, Slackbot can access and use data from this Salesforce organization
 When enabled, Slackbot can create new records and update existing records in this Salesforce organization. Requires data access to be enabled.
 When enabled, Slackbot can create, update, and delete records in this Salesforce organization. Requires data access to be enabled.
 When enabled, only the Primary Org Owner can disconnect the Salesforce org.
+When inputs is an array, neither initialState or constants should be provided
 When is approval required for channel invitations
 When is approval required to work with external organizations in channels?
+When is the 
 When messages are sent
 When more than one coachmark might want the same screen, don
 When new comments are added
@@ -25543,6 +25557,7 @@ Your headline here
 Your inbox, summarized
 Your internet connection appears to be offline. Your changes have not been saved. Click to retry.
 Your itinerary
+Your main focus today should be around Q4 forecast variance, DataNet P1 escalation, and enterprise conversion performance.
 Your manager
 Your message could not be sent, but it has been saved to your drafts.
 Your migration is blocked.
@@ -25604,6 +25619,7 @@ Zombie Puffy
 Zoom Reset
 Zoom out
 Zoom to fit
+ZoomAudioDevice (Virtual)
 [QUIP] Loading models.
 [React Scan] Failed to load. Must import React Scan before React runs.
 [mp4-remuxer]: Unable to get silent frame for given audio codec; duplicating last frame instead.
@@ -25613,6 +25629,7 @@ _getAppearance: OffscreenCanvas is not supported, annotation may not render corr
 addRedundantAudioRecoveryMetricsObserver is deprecated. Access encodedTransformWorkerManager directly via meeting session context.
 also sent to the channel.
 also sent to the group.
+browserDownloads() cannot proceed because the current environment is not a browser.
 calling ai.alpha.audio.boot...
 cell property is missing for the constructor of RNN.
 changed editing permissions for the channel canvas.
@@ -25651,10 +25668,8 @@ gradients() received an empty list of xs.
 ha inviato un biglietto di auguri. Felice anno nuovo!
 handlerIds, when specified, must be an array of strings.
 how did this happen?
-in e&&e.channel?e.channel:(0,m.uP)(),team:e.team??(0,h.CT)(),member:e.member??(0,p.Nq)(),introducingMember:e.introducingMember,sentVia:e.sentVia??
-in e?!!(a&&((0,H.A)(e.url)||(0,b.VH)(e?.url??
-in e?!!(a&&((0,V.A)(e.url)||(0,b.VH)(e?.url??
-in e?!!(a&&((0,q.A)(e.url)||(0,b.VH)(e?.url??
+in e&&e.channel?e.channel:(0,u.uP)(),team:e.team??(0,_.CT)(),member:e.member??(0,h.Nq)(),introducingMember:e.introducingMember,sentVia:e.sentVia??
+in e?!!(a&&((0,H.A)(e.url)||(0,y.VH)(e?.url??
 in e?e.touches[0]:e)[r?
 in p.style?
 in t?t.key??
