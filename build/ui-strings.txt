@@ -10,14 +10,12 @@
  Please make sure the server is serving valid JSON for this request.
  Select Create New UI and follow the flow to choose one of three UI types.
  Something went wrong.
- That means risk of generating unsafe content is higher.
  There is an issue accessing a knowledge source.
  UI. They all have slightly different capabilities that we are hoping to consolidate. This story builds a simple UI with all 3 components.
  Use the Meeting Prep skill.
  a custom status.
  action.
  and accumulates delta time to calculate how many tokens to advance each tick. A configurable refresh rate throttles updates to avoid unnecessary renders.
- and relevant regional guidelines.
  are both false, the callback will never be executed.
  argument must be a string, an Array, a Buffer, a Uint8Array, or a DataView.
  argument.
@@ -2920,7 +2918,6 @@ By priority
 By registering, you confirm that you agree to the processing of your personal data by Salesforce as described in the Privacy Statement.
 By request only
 By submitting this form, you acknowledge and agree that your personal data may be transferred to, stored, and processed on servers located outside of the People
-By turning off content safety filters, your organization accepts the higher risk of generating content that violates the 
 CAMERA RESOLUTION READINESS - Completed
 CAMERA RESOLUTION READINESS - Running
 CC Account Address Books
@@ -10220,8 +10217,8 @@ Integration with Enterprise Mobility Management
 Integrations Table
 Integrations in action
 Integrations with other apps
-Intended to avoid targeted employee profiling like performance and protected class information, in addition to the default content safety filters
-Intended to block prompt attacks, violence, hate speech, sexual content, and other illegal activity
+Intended to avoid attempts to profile employees using performance data or protected class information, on top of the default content safety filters.
+Intended to avoid prompt attacks, violence, hate speech, sexual content, and other illegal activity.
 Intentionally closing socket to simulate flakiness
 Intentionally throwing error to simulate flakiness
 Interactive Components
@@ -13419,7 +13416,7 @@ No active recording or not currently paused
 No active selection for event
 No activity yet
 No additional channels
-No additional hard blocks beyond default model restrictions
+No additional content safety filters applied. Other safety measures as part of the Slack AI Guardrails remain unchanged.
 No advanced AI
 No agent sessions yet
 No agents
@@ -13531,6 +13528,7 @@ No image content creator for type
 No image selected
 No imsgs in response!
 No installed apps found.
+No internal apps.
 No items
 No items in this list
 No items selected
@@ -20589,7 +20587,6 @@ Slack AI results have been updated
 Slack AI results ready
 Slack AI settings
 Slack API Documentation
-Slack Acceptable Use Policy
 Slack Calls will be restricted and routed through selected regions only.
 Slack Commands
 Slack Connect
@@ -22986,7 +22983,6 @@ Turn off Automatic AI Notes
 Turn off animations
 Turn off automatic AI notes and transcription?
 Turn off captions
-Turn off content safety filters?
 Turn off music
 Turn off my video
 Turn off notifications for replies
