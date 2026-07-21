@@ -281,7 +281,6 @@
 20s, apostrophes are what you want.
 : This tone leans heavily on the rhythm of the words. Keep it short and snappy.
 : Work is hard. Why not wink at it a little together?
-:I.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e6,title:eB?eV:void 0,className:(0,r.A)(eB||T||eU?
 :T.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e6,title:eB?eV:void 0,className:(0,r.A)(eB||w||eU?
 :_ instanceof RegExp?
 :a?r:void 0,children:m?
@@ -298,6 +297,7 @@
 :void 0,credentialless:o?
 :void 0,credentialless:p?
 :void 0,skipDoneDialog:!0,buttonClassName:t?
+:w.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e6,title:eB?eV:void 0,className:(0,r.A)(eB||T||eU?
 ; and that mission comes from within our own workspaces.
 ; opening the overflow menu keeps the actions visible until it closes.
 ; speak to the content or the action.
@@ -4190,6 +4190,7 @@ Clear reaction animation
 Clear read messages
 Clear recent record created
 Clear reminder
+Clear reopen timestamp for a code channel
 Clear search
 Clear search engagement context
 Clear search in channel session data on session expiration
@@ -7158,10 +7159,8 @@ Error fetching integrations
 Error fetching org calls apps
 Error fetching permissions.info. Caught error: 
 Error fetching permissions.info. Error: 
-Error fetching permissions.info. General permissions error: 
 Error fetching related list from Salesforce. Try again later.
 Error fetching requested scopes for admin resolution from message
-Error fetching slackAi.permissions.getForUser
 Error fetching updated domain list
 Error for force refreshing unreads
 Error generating key-session request:
@@ -12720,6 +12719,7 @@ Meeting assistant suggestions
 Meeting notes generated
 Meeting prep
 Meeting prep is ready
+Meeting reminders
 Meeting room
 MeetingSessionTimingManager: No observers set, timing data discarded
 MeetingSessionTimingManager: destroyed
@@ -16287,6 +16287,7 @@ Record that a message was deleted
 Record that a user has taken an action on a UI component
 Record the result of a passkey registration attempt
 Record the result of the mini survey we first display the user after a huddle ends.
+Record timestamp when a closed code channel was reopened
 Record trial pro banner interaction
 Record type
 Record unfurls & click to detail view
@@ -17226,7 +17227,6 @@ Request to stop the active huddle
 Request was cancelled
 Requested index 
 Requested unknown style:
-Requesting Slack AI permissions for invalid context
 Requesting calendar prefs
 Requesting content license for key-system
 Requesting media access is not implemented for this device, but it is being called. This is likely a bug.
