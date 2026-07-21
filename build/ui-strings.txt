@@ -1125,7 +1125,6 @@ Add bookmark to bookmark store for a channel
 Add branch here
 Add branches for each button
 Add branches for each emoji
-Add by CSV
 Add by channel
 Add by name
 Add by name or channel
@@ -1192,7 +1191,6 @@ Add group
 Add group channels as a section in Home
 Add huddle caption to meeting transcript
 Add huddle to talk with your team right in Slack
-Add individually
 Add info
 Add info from outside of Slack
 Add instructions to help others
@@ -2248,6 +2246,7 @@ Arial Narrow
 Arial Nova
 Arial Unicode MS
 Array Iterator
+Array of row ids which represents the currently selected rows
 Arrow Left
 Arrow Right
 Arrow down navigation aborted
@@ -3143,6 +3142,8 @@ Callback ID
 Callback called multiple times
 Callback fired when anchor position changes (called during position polling)
 Callback fired when the alert is dismissed via its close button.
+Callback for a single row being selected or unselected
+Callback for the Select All checkbox being toggled
 Callback for when user triggers an incremental fetch for more rows. Set to null or undefined when no more rows can be loaded.
 Callback passed to CollabAcDelegate will not be called
 Called after a Salesforce org config is updated
@@ -6478,6 +6479,7 @@ EUR Currency
 Each item can independently use image or video media
 Each link or QR code works for up to 400 people. To keep your workspace secure, only share the invite with people in your organization.
 Each pair must have its own sequence indicator
+Each row
 Each slot defaults to 
 Each tile is fully clickable; do not try to nest a CTA inside the paragraph
 Eager dismiss provided eventId
@@ -7385,7 +7387,6 @@ Export search queries
 Export the workflow and trigger
 Export to CSV
 Export un-migrated users list
-Export user mapping CSV
 Export workflow
 Export workflows
 Export your data
@@ -12416,7 +12417,7 @@ Maybe disable the screen share
 Maybe dispatch SC trial message_sent megaphone event
 Maybe dispatch megaphone event to load the success coachmark once solutions have been created
 Maybe fetch diagram data for the frEnds app
-Maybe fetch onboarding data to hydrate vacation pack impression counts
+Maybe fetch onboarding data to hydrate vacation pack exposure pref and impression counts
 Maybe fetches and sets browsers
 Maybe fetches my task list
 Maybe handle onboarding tasks source from URL query parameter
@@ -13028,6 +13029,7 @@ Multi-line double-quoted string needs to be sufficiently indented
 Multi-line single-quoted string needs to be sufficiently indented
 Multi-line view
 Multi-message Coordination
+Multi-select table
 Multi-volumes zip are not supported
 Multi-workflow state is different than single workflow!
 MultiRegionEnabled is no longer returned by ListEventDataStores
@@ -14362,7 +14364,6 @@ Open to-do
 Open to-do item
 Open todos page
 Open todos page and item in secondary view
-Open todos page in home
 Open trial checkout or plans page if user can purchase
 Open troubleshooting panel
 Open unread options
@@ -14624,7 +14625,6 @@ Opens the transcript flexpane for an inline video
 Opens the undelete file dialog
 Opens the upload profile photo modal
 Opens the user group details flexpane
-Opens todos with the create todo focused
 Opens trial expiration carousel modal
 Opens window to purchase suspicious treats with crypto-currency
 Opens workflow unpublish modal
@@ -15120,7 +15120,6 @@ Persists the today items from today.items.list in the store
 Person who last interacted with the workflow
 Person who used this workflow
 Personal account type not supported with v8 one drive file picker
-Personal task tracking
 Personalize Events
 Personalize Runtime
 Personalize Slackbot Memory
@@ -16845,6 +16844,7 @@ Render Placeholder
 Render React
 Render complete
 Render the icon with the 
+Render the leading checkbox column. Turn it off to reuse the selection styling and row-click behavior without the checkboxes.
 Rendered cell should include style property for positioning.
 Rendered doc
 Rendered via the fallback convention
@@ -19663,6 +19663,7 @@ Sets the aria-expanded value for a composer button
 Sets the attrition alert data for the admin dashboard
 Sets the attrition alert data loading state
 Sets the auth status of a user in relation to their calendar connection(s)
+Sets the auth-status filter for the members page
 Sets the beta app info
 Sets the boot data for the team site nav and marks it as succesully loaded
 Sets the bot user id for the active ai app
@@ -21984,6 +21985,7 @@ The selected asset is
 The selected channel could not be found.
 The selected channel has been archived. Clear your selection or choose another channel.
 The selected field is used for mapping Slack and Salesforce accounts.
+The selection checkbox rendered in each row (and the header) of a MultiSelectTable. Presents as a checkbox to assistive tech while extending the click target across the cell.
 The selector for 
 The server used 
 The signaling channel was closed unexpectedly. This may be due to a network change or backend detected failure.
@@ -22217,7 +22219,6 @@ This embed may override the tool permissions you set for Slackbot.
 This enum has been deprecated. Instead, use the KeySpec enum.
 This environment does not support defining a property as non-configurable, non-writable, or non-enumerable.
 This environment does not support reading binary tags; either Buffer or atob is required
-This feature has been set to request only by your admin. Contact your administrator to change this.
 This feature interfaces with 
 This feature is a service that is subject to the Beta Services Terms at
 This feature is available with an upgrade.
@@ -24351,7 +24352,6 @@ Users can edit records from the list view by default, but in-list editing is dis
 Users can skip repeated approvals for tool actions on a per-file basis.
 Users list
 Users must approve every tool action on files individually.
-Users on this list can view Salesforce data in Slack once authenticated.
 Users select
 Users will no longer be able to use this template.
 Uses Opus for more capable, in-depth responses
@@ -24568,7 +24568,6 @@ View all workspaces
 View all your downloads
 View all your drafts
 View all your saved items
-View and add agents
 View and download all your Google Drive files
 View and edit custom Salesforce Lists directly inside of Slack, keeping your and your team aligned on everything from active lead lists to open tickets.
 View and manage Slack workflows and Slackbot tasks for your organization.
@@ -25016,6 +25015,7 @@ When using nodeViews, you must provide renderNodeViews callback
 When using zeroDebias: true, step is required.
 When we switch channels or jump to a specific message, reset the counter for search in-product-education tip
 When you delete this workflow, it
+When you pin columns with 
 When you recommend an app, it will appear here.
 When you search with questions or multiple keywords, Slack generates intelligent AI-powered answers, saving you time and effort.
 When you share a canvas here, anyone in this conversation can access it.
@@ -25038,6 +25038,9 @@ Where your team is talking
 Whether an outside click dismisses the coachmark.
 Whether it is OK to interrupt a focus transition
 Whether or not close button should be autofocused
+Whether the Select All checkbox should be displayed in the header row
+Whether the Select All checkbox should be shown as checked
+Whether the Select All checkbox should be shown as indeterminate (i.e. partly checked)
 Whether the banner fades itself out automatically after a short delay (for passive, non-critical messages).
 Whether the banner is pinned with fixed positioning (spanning the top) rather than sitting in normal document flow.
 Whether the coachmark participates in F6 section navigation.
@@ -25793,6 +25796,7 @@ s recent search history for use in the blank slate UI.
 s rich text content appropriately.
 s routes!
 s search query history.
+s selection by clicking anywhere in the row, not just its checkbox.
 s shape.
 s snippet. Also, the possessive affix is localized, but please move it before or after the user name depending on whether possessives are prefixes or suffixes for your language.
 s the backbone of how we work.
