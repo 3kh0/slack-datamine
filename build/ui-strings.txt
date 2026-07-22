@@ -307,7 +307,7 @@
 :void 0,credentialless:o?
 :void 0,credentialless:p?
 :void 0,skipDoneDialog:!0,buttonClassName:t?
-:w.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e6,title:eB?eV:void 0,className:(0,r.A)(eB||T||eU?
+:w.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e6,title:eU?eV:void 0,className:(0,r.A)(eU||T||eB?
 ; and that mission comes from within our own workspaces.
 ; opening the overflow menu keeps the actions visible until it closes.
 ; speak to the content or the action.
@@ -560,6 +560,7 @@ ADDED_PENDING_UPDATE (missing entity)
 AI & ML Data Science
 AI Button
 AI Explain share: missing required thread data
+AI Generated
 AI Inbox
 AI Notes: Off
 AI Prompt writer
@@ -2163,6 +2164,7 @@ App data is not ready yet
 App data unavailable
 App details
 App global action execution failed
+App has indicated that content may be AI generated.
 App icon
 App id is not defined
 App integrations capped at 10
@@ -2539,6 +2541,8 @@ Auto Scaling
 Auto white balance
 Auto-close old channels according to certain rules
 Auto-close stale code channels
+Auto-collapse the sidebar on resize while a big-mode secondary view is open
+Auto-collapse the sidebar while a big-mode secondary view is open
 Auto-complete after 6s
 Auto-enable connector after external auth
 Auto-enable scope
@@ -3386,6 +3390,7 @@ Can post and invite
 Can provision sandboxes?
 Can sign in with email and password to bypass SSO
 Can view
+Can wait
 Cancel AI generation
 Cancel Import
 Cancel Migration
@@ -3670,6 +3675,8 @@ Carry on
 Carry on.
 Case Subject
 Catalog object is not a dictionary.
+Catch me up on my unread DM
+Catch me up on my unread channel
 Catch me up on the conversation so far
 Catch me up on what I missed
 Catch statement predicate: expecting an object but got 
@@ -4649,6 +4656,7 @@ Collapse or expand all
 Collapse or expand section
 Collapse pinned messages
 Collapse reaction bundle
+Collapse the sidebar for a big-mode secondary view when conditions allow
 Collapse thinking steps
 Collapse this widget
 Collapse thread
@@ -5446,6 +5454,7 @@ Create a new view set for the main window based on the incoming navigation reque
 Create a new workspace
 Create a poll
 Create a post shortcut - dispatches action to create post
+Create a prep canvas with agenda and background on attendees.
 Create a presentation with Gdrive shortcut - opens Create GDoc dialog with presentation type
 Create a prompt
 Create a quip doc, open it and maybe insert it into message input
@@ -9178,7 +9187,6 @@ Get pref compliant member name in lowercase
 Get push notifications on mobile
 Get reactions for a reaction key
 Get ready
-Get ready for your meeting
 Get recommended user dms
 Get relevant channel data for sharing
 Get reminders for upcoming meetings
@@ -9959,6 +9967,7 @@ How the filter chip is set.
 How the page serves
 How this works
 How to Build a Successful Team (Published 2019)
+How to Request WMP access
 How to display date
 How to display date, if different than dateFormat
 How to display date, if different than valueFormat
@@ -13206,6 +13215,7 @@ More list actions
 More options
 More reactions
 More record actions
+More room to work
 More sidekicks sidebar
 More skill set actions
 More tests
@@ -15531,6 +15541,7 @@ Plan Title
 Plan blocks ideal for complex workflows requiring structured presentation
 Plan distribution (single tier)
 Plan distribution by tier
+Plan my day. Review my unread messages and meetings today. Sort into 
 Planned API handler structure
 Planning API handler structure
 Plans and cost data loaded
@@ -15867,6 +15878,7 @@ Primary view actions
 Primary view header
 Print canvas
 Print the canvas in the given docEmbed
+Prioritize what you need to do and what can wait.
 Priority in Slack
 Priority prototype: sets NUX screen state for Priority
 Privacy Policy
@@ -16411,6 +16423,7 @@ Record search & edits
 Record talk track
 Record that a message was deleted
 Record that a user has taken an action on a UI component
+Record that the user manually re-expanded an auto-collapsed sidebar
 Record the result of a passkey registration attempt
 Record the result of the mini survey we first display the user after a huddle ends.
 Record timestamp when a closed code channel was reopened
@@ -17541,10 +17554,12 @@ Restore is not enabled for this workspace yet.
 Restore list record to a previous version
 Restore message
 Restore notification
+Restore or re-collapse the auto-collapsed sidebar on tab switch
 Restore response
 Restore selected
 Restore tab soda state from localStorage
 Restore the peers store to a clean state
+Restore the sidebar if the app auto-collapsed it for a big-mode secondary view
 Restore this message?
 Restore this record?
 Restore this version
@@ -20354,11 +20369,14 @@ Sets whether the org has any usergroups or not
 Sets whether the private channel checkbox is checked
 Sets whether the segmentation in team creation V2 state machine has been loaded
 Sets whether the segmentation in team creation state machine has been loaded
+Sets whether the sidebar is auto-collapsed for a big-mode secondary view
+Sets whether the sidebar is currently auto-collapsed for a big-mode secondary view
 Sets whether the team is eligible to see the Comprehensible Invites experience
 Sets whether the transcript is being recorded.
 Sets whether the updated segmentation questions state machine has been loaded
 Sets whether the user
 Sets whether the user groups page is loading
+Sets whether the user has overridden sidebar auto-collapse this session
 Sets whether the user is currently interacting with the screenshare view
 Sets whether the user is submitting a regenerate request
 Sets whether the user wants to hide archived channels
@@ -21809,6 +21827,7 @@ Summarize in seconds
 Summarize last 7 days
 Summarize latest messages
 Summarize message
+Summarize my new notification
 Summarize my recent activity
 Summarize need-to-know info for your team.
 Summarize new messages
@@ -26161,6 +26180,7 @@ Your recently viewed or updated canvases will show up here.
 Your request was sent
 Your sales notifications
 Your sales pipeline, in one view
+Your sidebar is tucked away while you work side by side. Bring it back anytime with this button.
 Your sidebar is your own.
 Your signature emoji
 Your smart Slack productivity partner
