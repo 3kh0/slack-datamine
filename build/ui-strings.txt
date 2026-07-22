@@ -304,6 +304,7 @@
 :void 0),r.current?.info(em,e?
 :void 0)||(f.isDisabled?
 :void 0,credentialless:ec?
+:void 0,credentialless:l?
 :void 0,credentialless:o?
 :void 0,credentialless:p?
 :void 0,skipDoneDialog:!0,buttonClassName:t?
@@ -1110,6 +1111,7 @@ Add a suggestion
 Add a summary
 Add a tab
 Add a task
+Add a task to have this agent run a prompt on a schedule.
 Add a team icon
 Add a temporary channel
 Add a third-party agent by its Agent Card URL to make it available in your workspace.
@@ -2592,6 +2594,7 @@ Automatically read new messages in the current conversation
 Automatically start AI notes per channel
 Automatically sync your calendar to your Slack status
 Automatically updates
+Automation Groups
 Automation Rules
 Automation tools
 Automations only
@@ -3595,6 +3598,7 @@ Canvas options
 Canvas preview
 Canvas printing
 Canvas results
+Canvas search
 Canvas search: sort changed
 Canvas section
 Canvas sharing
@@ -3834,6 +3838,7 @@ Channel purpose
 Channel renamed
 Channel restrictions
 Channel results
+Channel search
 Channel search displayed nonexistent channel
 Channel search failed for location huddle picker
 Channel search: bulk update an external org filter
@@ -8551,6 +8556,7 @@ File preview
 File refresh failed
 File refresh store
 File results
+File search
 File search: set file sort
 File search: sort changed
 File section
@@ -15340,6 +15346,7 @@ People outside your company
 People playing clips
 People results
 People results loaded successfully
+People search
 People search: bulk update an external org filter
 People search: bulk update celebration filter
 People search: bulk update department filter
@@ -16217,6 +16224,7 @@ ReactElement | null
 ReactSupport.bindAllMethodsToInstance was called, but no methods needed to be bound. Consider removing it. Instance: 
 Reacting to 
 Reaction bundle
+Reactions are now animated
 Reactions cannot span multiple sections.
 Reactivate Users as a Bulk Action
 Reactivate as Multi-Channel Guest
@@ -18528,6 +18536,7 @@ Send a message to a person
 Send a message to someone
 Send a mute request
 Send a notification for
+Send a prompt to a 3P agent and navigate to the conversation
 Send a quick message
 Send a reaction
 Send a recap after focus mode ends
@@ -19779,7 +19788,9 @@ Sets data residency status
 Sets edit view menu open state for bulk grid
 Sets entry point value which is used for clogging
 Sets error boolean
+Sets error message for record files fetch
 Sets error message for related channels fetch
+Sets fetch status for record files
 Sets fetch status for related channels
 Sets fetched state of agent threads
 Sets fetched state of recents
@@ -19842,6 +19853,7 @@ Sets read only value for a channel
 Sets real time recap nux step
 Sets recap refreshed frontend state to display updated tag
 Sets recent record created
+Sets record files for a record
 Sets related channels for a record
 Sets remaining AI search samples for testing
 Sets search id for first navigation impression in the search session
@@ -21112,6 +21124,7 @@ Slackbot skill
 Slackbot teaser
 Slackbot tool
 Slackbot tools
+Slackbot tools are under continuous development. Data may change as tools are released, renamed, or deprecated.
 Slackbot will message you when your images are ready for download.
 Slackbot will not include files in search results
 Slackbot will show any files uploaded in search results.
@@ -21353,7 +21366,6 @@ Sri Lanka
 Staccato222 BT
 Stage changed
 Stale or unexpected session cookies
-Stalled threads don
 Standard Message
 Standard Plan - 25% off
 Standard Width Container
@@ -22197,9 +22209,7 @@ The Assertion of the SAML Response does not contain a Conditions element. Please
 The Assertion of the SAML Response does not have AuthnStatement element. Please check your Identity Provider settings.
 The Assertion of the SAML Response is not encrypted. Please check your Identity Provider settings.
 The Block Kit Builder only works on larger screens and windows. Make your window larger, or open on a larger device if you are on mobile.
-The Bridge Builder
 The Content-MD5 you specified is invalid for multi-part uploads.
-The Decider
 The Golden Rule:
 The Huddle has ended.
 The InResponseTo ID of the SAML Response does not match the ID of the AuthNRequest sent by us. Please check your Identity Provider settings.
@@ -22213,7 +22223,6 @@ The New York Times
 The PDF file is empty, i.e. its size is zero bytes.
 The Preferences may override manually set AppOptions; please use the 
 The Primary meeting credentials provided are no longer valid. chime::DeleteAttendee may have been called on them.
-The Quick Responder
 The ReactIs.isAsyncMode() alias has been deprecated, and will be removed in React 17+. Update your code to use ReactIs.isConcurrentMode() instead. It has the exact same API.
 The SAML Response does not contain any assertions. Please check your Identity Provider settings.
 The SAML Response does not have a valid timestamp. Please check your Identity Provider settings.
@@ -25475,7 +25484,6 @@ When a message is posted with keywords in selected channels
 When a new message is posted in #general
 When a person joins a Salesforce channel
 When a person joins a channel
-When a project needs direction, you
 When addressing the user, you can use 
 When an emoji reaction is used
 When approvals are not required
@@ -25576,7 +25584,6 @@ Which partner app would you like to install?
 While commands like @everyone, @channel, and @here call the attention of all members in a conversation, user groups let you choose who should get your message.
 While emoji themselves come in a standard set, their interpretations can vary quite a bit. Before you use a new emoji, do some digging into whether it
 While in-product content should use US English, we should still write in a way that is mindful that our in-product content will be localized into other languages.
-While others are still brainstorming, you
 While teams are receiving the discounted subscription rate, the discount will also apply to any member count and activity changes that occur during the
 While to-dos are your home for tasks, you can still save any message or link for later without the urgency.
 White Solid 3
@@ -25990,7 +25997,6 @@ You received a Slack notification
 You received an invitation from an external organization.
 You received an invitation that has been ignored, expired, or is no longer available for another reason.
 You recently started a trial for the Business+ plan. Check out the features you and your organization now have access to.
-You see a repetitive process and find a better way. If you had to do something twice, you
 You set a reminder about this file
 You shared this canvas
 You shared this folder
@@ -26310,7 +26316,6 @@ s access first.
 s access. Choose a more restrictive option.
 s accessible name.
 s advanced AI, security features, and global compliance tools.
-s all in your head.
 s allowed domains list.
 s already been slowed down or inconvenienced, we want to be especially considerate of their time and cognitive energy.
 s built on secure technology.
@@ -26345,11 +26350,9 @@ s my Slack spirit animal?
 s natural pixel width.
 s new. Work with your content designers to craft messaging.
 s not clear exactly what the CTA applies to, use an article.
-s nothing.
 s now the backbone of how we work.
 s on break right now. Try again later.
 s only been shared with certain people at your organization.
-s operating on stale context.
 s or embedded Product UI.
 s org, and they are still connected, they can rejoin.
 s our job to help get them out, step by step, with inexhaustible patience.
