@@ -46,6 +46,8 @@
  cycles focus within it.
  describing the action.
  did not specify a value for dependsOnOwnProps.
+ directly only when you need a bespoke trigger.
+ directly.
  displays a horizontal stack of user avatars. It supports a leading element and configurable avatar size.
  does not exist!
  e.g. Acme Co.
@@ -58,7 +60,9 @@
  exists, but the property is not available.
  failed to render.
  fall back to the en-US source until a version is added. Editors are served the right file automatically per locale.
+ family and takes the same disabled-date constraints.
  field required.
+ fires when the popover closes without a selection.
  for details.
  for more information. This offer is available for a limited time only, and Slack may end or modify this offer at any time without notice to you.
  for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
@@ -107,6 +111,7 @@
  is provided, it will be rendered on hover.
  is quite nice and entirely acceptable.
  is reserved and cannot be used.
+ is set the button renders on its own with no popover.
  is set.
  is supported.
  is the more inclusive term due to UI constraints.
@@ -145,6 +150,7 @@
  parameter must provided.
  parameter.
  permission.
+ predicate for arbitrary rules.
  preference is disabled, then this component will never animate and always use the static image.
  products, services, and events. I can unsubscribe at any time.
  prop (a pixel-value string).
@@ -178,6 +184,7 @@
  to reset that state on dismissal.
  to save your changes.
  to see exactly what functions took the longest to execute.
+ to the date field for you.
  until its domain is verified.
  until the drop event.
  until your admin verifies the domain. Please reach out to your admin.
@@ -202,10 +209,13 @@
 (node) warning: possible EventEmitter memory leak detected. %d listeners added. Use emitter.setMaxListeners() to increase limit.
 (period, number) is deprecated. Please use moment().
 (s) of element(s) that already contain a label.
+(s) of element(s) that already contain a visible label.
 (s) of element(s) that contain a longer description of its purpose.
+(s) of element(s) that contain a longer description, such as hint text.
 ) are ignored.
 ) does not match the calculated CRC32 checksum.
 ) is not supported yet.
+) pass through to the calendar.
 ) styled as a rounded button. Useful for links outside the Slack client that need to look like buttons.
 ) that performed expensive computation.
 ), falling back to Type1.
@@ -306,6 +316,7 @@ A CTA with the same button text, link, and variant already exists
 A CTA with this name already exists
 A Call was rejected
 A DM was created
+A DateTimePicker with a built-in visible Label wired to it for accessibility. Use it instead of DateTimePicker when the field needs its own rendered label rather than an external one.
 A GIF is worth a thousand words
 A JavaScript expression as value.
 A NamedTab is required to be specified for the main window
@@ -330,6 +341,7 @@ A bold heading for a multiline alert; its presence makes the alert multiline.
 A box that sits flush against the element above it (squared top corners).
 A boxed alert with tighter padding that does not take full width.
 A brand new workflow
+A button showing the selected date (or a placeholder) that opens a date picker calendar in a popover when clicked. The button-triggered form of the date picker family.
 A button with an icon showing the Slack logo
 A byte stream handler for topic 
 A canvas is a great place to have a lot to say.
@@ -364,6 +376,7 @@ A dialog-role popover with
 A different account
 A direct message
 A domain allowlist lets you specify which domains can send emails into Slack using Channel Email Addresses or personal forwarding email addresses.
+A dual calendar view that allows users to select date ranges.
 A file was changed
 A file was created
 A file was deleted
@@ -427,6 +440,7 @@ A number of times is required
 A page already exists at this URL
 A page posted by an app
 A pair of side-by-side testimonial cards, each with a company logo, quote, and attribution (name and title).
+A picker for selecting a start and end date as a single range, sharing one calendar. Part of the DatePicker family, alongside the single-date DatePickerSelect.
 A pigeon carrying an envelope
 A pin was added to a channel
 A pin was removed from a channel
@@ -474,6 +488,7 @@ A text stream handler for topic
 A two-column promo blade with text content alongside a YouTube embed with a play button overlay.
 A two-column promo blade with text content alongside a static image.
 A two-column promo blade with text content alongside an autoplaying, looped video.
+A unique ID used to tie together the subcomponents of the picker for a11y purposes
 A unique callback ID for your step
 A unique identifier for an alert
 A unique parameter ID for your input. E.g. user_id
@@ -631,6 +646,9 @@ API returned ok:false when updating disconnect restriction
 API returned unparseable preferences, falling back to localStorage
 API tokens for your app were revoked.
 ARIA application usage
+ARIA describedby prop gets applied to both input + trigger
+ARIA label prop get applied to both input + trigger
+ARIA labelled by prop gets applied to both input + trigger
 ARIA role for the container (e.g. when it behaves as a button or listitem).
 ARN endpoint is not compatible with FIPS region
 ARN region is empty
@@ -1820,6 +1838,7 @@ Allowed workspaces are required
 Allowing retracted build reload because we have not recently reloaded due to a retracted build
 Allows an app to read 1 on 1 or group chat threads, on behalf of the signed-in user
 Allows devs to get console logging or trigger breakpoints when state they care about changes
+Allows focusing on DatePicker or TimePicker
 Allows the app to read the profile of signed-in users. It also allows the app to read basic company information of signed-in users
 Allows your Slack app to manage shared channels
 Allows your Slack app to read a workspace
@@ -1846,6 +1865,7 @@ Also sent to the channel,
 Also sent to the channel.
 Also sent to the group, 
 Also sent to the group.
+Also used as prefix for data-qa tags
 Also, in the prior year onwards case, we will not use an ordinal after the day because this text is most likely in a place users will scan rather than read.
 Alt Text
 Alt Text (override)
@@ -1866,6 +1886,7 @@ Always allow
 Always allow notifications from VIPs
 Always allow notifications from certain people by adding them as a VIP.
 Always be closing
+Always give the input a unique 
 Always good to see the human half of this arrangement.
 Always include attribution with name, title, and company
 Always prompt users to add alt text when attaching images
@@ -2187,6 +2208,7 @@ Apply context override
 Apply counts to channel objects and update stores
 Apply counts to channels and threads
 Apply crop
+Apply focus ring after component mounts? Should only do this if datepicker opened with keyboard event
 Apply link
 Applying a mismatched transaction
 Applying changes to the primary container
@@ -3161,6 +3183,7 @@ Calendar Huddles invite settings
 Calendar access request failed. Try again.
 Calendar account
 Calendar connection tip
+Calendar constraints
 Calendar event
 Calendar event confirmed for next Tuesday at 2:00 PM.
 Calendar events in Slack
@@ -3229,12 +3252,15 @@ Call to update channel email address information
 Callback Delay (ms)
 Callback ID
 Callback called multiple times
+Callback executed on escape key down
 Callback fired when anchor position changes (called during position polling)
 Callback fired when the alert is dismissed via its close button.
 Callback for a single row being selected or unselected
 Callback for the Select All checkbox being toggled
 Callback for when user triggers an incremental fetch for more rows. Set to null or undefined when no more rows can be loaded.
+Callback handler
 Callback passed to CollabAcDelegate will not be called
+Callback when datepicker is closed without selecting an option
 Called after a Salesforce org config is updated
 Called after a team is successfully disconnected from a Salesforce organization
 Called after a user is successfully connected to a Salesforce organization
@@ -4082,6 +4108,7 @@ Claim Education Discount
 Clarify details of what your step will do.
 Class being registered does not have the static className property defined.
 Class extends value 
+Class name for calendar component
 Classic Apps Deprecation
 Classifier prompt
 Classifies email input as internal or external and returns the proper escape hatch options
@@ -4921,6 +4948,7 @@ Container not set for memo
 Container ref is defined but not hydrated
 Container required for toolbar
 Container shape.
+Container styling (to accomodate stuff like custom width)
 Content & channels
 Content DOM
 Content PB
@@ -5565,6 +5593,7 @@ Current User
 Current Value
 Current and future files
 Current and future search history
+Current day
 Current environment is not a web browser
 Current measurement
 Current page override
@@ -5724,6 +5753,7 @@ Data Location
 Data Loss
 Data Loss Prevention
 Data Loss Prevention (DLP)
+Data QA tag
 Data Scraping
 Data View
 Data Visualization
@@ -5780,12 +5810,17 @@ Date a member last invoked or interacted with this app
 Date a specific app first sent a message or reply to a member
 Date a specific app last sent a message or reply to a member
 Date added
+Date after which all dates should be disabled
 Date and reminder options
 Date archived
 Date assigned
+Date before which all dates should be disabled
+Date change handler
 Date created
 Date deleted
+Date display format
 Date flagged
+Date label
 Date object, ISO-8601 string, or a UNIX timestamp
 Date of latest pen test
 Date out of bounds
@@ -5795,6 +5830,7 @@ Date ranges
 Date requested
 Date restricted
 Date suggestions
+Date time picker
 Date to snooze notifications until
 Date updated
 DateSuggestionRenderer: ignoring non-date result type
@@ -6130,6 +6166,7 @@ Determine whether a mention id (member, broadcast, user group) is valid
 Determine whether a user group exists on a workspace associated with a channel
 Determines if the team has reached its Single Channel Guest limit
 Determines whether an org has any usergroups and stores than boolean in the admin-roles redux store
+Determines whether the control has to be focused on load or not.
 Determines which external dirctory to query, and returns a fetcher to query it.
 Dev Portal
 Developer Contact Information
@@ -6217,6 +6254,9 @@ Disable preview
 Disable progressive disclosure
 Disable two-factor authentication
 Disabled File
+Disabled date error text
+Disabled dates
+Disabled days
 Disabled in edit mode
 Disabled objects
 Disables 2fa and updates an enterprise locked org pref
@@ -6364,6 +6404,7 @@ Display warning when leaving route with pending changes
 Display warning when sending more than text to external members
 Display warning when user attemps to share a URL with sensitive login info
 Display workspace icon
+Displayed date
 Displays a message send error toast
 Distant view
 Distribute columns
@@ -6562,6 +6603,7 @@ Duplicate workflow
 Duplicated option on id 
 Duration (s)
 Duration parsed from mp4 should be greater than zero
+DurationInputArg1 | undefined
 During the migration process, settings will be copied from the workspace to your organization.
 Dwight Schrute
 Dynamic Client Registration
@@ -6893,6 +6935,7 @@ Enable Today For Everyone
 Enable Today For Specific People
 Enable and Assign Roles
 Enable and update a user group
+Enable autoclogging by passing these params
 Enable big button mode
 Enable content flagging for members of your org
 Enable debug mode
@@ -7017,6 +7060,7 @@ Ensures bookmarks for a channel have been fetched
 Ensures members with corresponding ids are 
 Ensures unknown channels with corresponding ids have been fetched
 Ensures unknown user groups with corresponding ids have been fetched
+Enter (on the month button)
 Enter Single Domain
 Enter a URL path.
 Enter a backup selector
@@ -7560,6 +7604,8 @@ External results loaded successfully
 External results threw an error while loading
 External results timed out
 External user cannot join this channel
+Extra CSS classes
+Extra class name for dropdown component
 Extra, extra!
 Eyebrow + headline + CTAs
 Eyebrow Icon
@@ -8787,6 +8833,7 @@ For lottie
 For myself
 For others
 For questions or further assistance, reach out to us at
+For testing
 For the entire organization
 For the most part, avoid second person in errors because it comes off as blaming the user
 For the organization
@@ -8952,6 +8999,7 @@ Geeta Joshi
 GenAI is evolving from large, monolithic models trained on massive internet data to complex, multi-component 
 General guidelines
 General navigation language principles
+General size of the input
 Generally, you should default to avoiding them unless you
 Generate AI Response
 Generate AI Response - enhanced
@@ -9574,6 +9622,7 @@ Handle ctrl+tab shortcut
 Handle declined invite status for a user
 Handle desktop data sync
 Handle displaying a missed call inivite OS notification at a delay
+Handle escape key
 Handle failed fetch for teams total published workflow and app count
 Handle file_favorite_updated RTM event for collection sort
 Handle focus transition on client mount
@@ -9889,6 +9938,13 @@ How the filter chip is set.
 How the page serves
 How this works
 How to Build a Successful Team (Published 2019)
+How to display date
+How to display date, if different than dateFormat
+How to display date, if different than valueFormat
+How to format date passed
+How to interpret date passed
+How to parse selected date
+How to parse the value
 How to prepare and submit your app
 How to test your app
 How to test your changes
@@ -10061,6 +10117,7 @@ If canvas edited in a huddle count the usage
 If draftIdForInvites is set, add the invites to the composer draft.
 If errors that are rare, have low stakes, or are easily reversible (ex: setting an expiration date for more than 100 years in the future), it
 If it has not been reported yet please make a report with a link to the message before this one, if this is a public channel. This message is only displayed in workspaces in the Slack org.
+If it is on a scrollable page
 If multiple things went wrong, all the error states should be combined into one message. This is important for accessibility and comprehension.
 If no call apps are selected, the workspace level settings will be used.
 If no scale values are provided, useInvertedScale must be used within a child of another motion component.
@@ -10632,6 +10689,7 @@ Is Assistant App
 Is Async Callback
 Is MCP Enabled
 Is address form collapsed and not editable
+Is current value invalid?
 Is deleted?
 Is file created by AI
 Is focus transitioning within a focus transition context
@@ -10642,6 +10700,7 @@ Is multi selection model?
 Is select all checkbox checked on drafts page
 Is the channel owner
 Is there an agenda for the 
+Is valid? When passed down from parent component
 Isle of Man
 Isolation Mode 2
 Isolation Mode 3
@@ -10961,8 +11020,10 @@ LN10 precision limit exceeded
 Label (optional)
 Label 2 Outlines
 Label Outlines
+Label for this picker. Will be concatenated with labels identifiying date picker and time picker pieces individually.
 Label items with a categorical color in lists.
 Label subtext
+Label the calendar with 
 Label_10 Outlines
 Label_11 Outlines
 Label_12 Outlines
@@ -13939,6 +14000,7 @@ Noch 1 Tag
 Node is not a text node
 Node is not an HTML element
 Node is not an element
+Node that should trigger date picker to open when clicked
 Node#parse consumed no characters
 Node.js Documentation
 NodeType.create can
@@ -14036,6 +14098,7 @@ Not used
 Not used on any page.
 Not using hls
 Not within Channel Invite Modal context
+Not yet blessed by Slack Kit design.
 Not yet implemented
 Not yet used
 Not your first Slack rodeo?
@@ -14181,9 +14244,17 @@ Oldest unread message
 Olivia Scott
 On Gdrive Creation Complete
 On a call
+On blur handler
 On call window closed
+On click handler
+On date change
+On date click handler
+On end date change
+On focus handler
 On mobile, 
+On reset input for editing
 On selected date
+On start date change
 On the desktop app and web version of Slack, our default casing is 
 Onboarding Doc
 Onboarding apps list
@@ -14875,12 +14946,27 @@ Option one
 Option two
 Optional Permissions
 Optional additional class name.
+Optional boolean to close the calendar after making a selection
+Optional boolean to render calendar in popover
+Optional boolean to require an end date when a start date is set
+Optional boolean to show or hide the Clear Selection control
+Optional class name
 Optional class name for the anchor wrapper.
 Optional content properties malformed.
+Optional date after which all dates should be disabled
+Optional date before which all dates should be disabled
 Optional inline style for the anchor wrapper.
+Optional max value, in same format and timezone as value.
+Optional maximum number of days in the selectable range
+Optional min value, in same format and timezone as value.
 Optional override for the inner iframe
+Optional string for save button copy
+Optional string to re-render calendar picker when cleared by external caller
 Optional subheader for this section
 Optional supporting copy
+Optional usage of real inputs for date values instead of presentational button
+Optional width of the picker in pixels
+Optionally show current month and previous month. Defaults to false. Default rendering shows current month and next month.
 Opus DTX will be disabled for stereo tracks by default. Enable them explicitly to make it work.
 Opus RED will be disabled for stereo tracks by default. Enable them explicitly to make it work.
 Or add from:
@@ -15043,6 +15129,7 @@ Paid features
 Pair complementary testimonials (e.g., different industries or use cases)
 Pair with a section header to introduce the strip, or render on its own
 Pair.commentBefore is an alias for Pair.key.commentBefore. To set it, the key must be a Node.
+Pairs a date picker and a time picker so the user can select a single date-and-time value. It composes DatePickerSelect for the date half and TimePicker for the time half.
 Pale Blue Solid 2
 Pale Orange Solid 1
 Pale Purple Solid 1
@@ -15407,6 +15494,7 @@ Place near the bottom of a landing page to address common objections.
 Placeholder options
 Placeholder text
 Placeholder title
+Placeholder value if no date
 Plain Text
 Plain black and white text is not very inspiring. So for templates that are primarily words & headers, we
 Plain language
@@ -15610,6 +15698,7 @@ Pre-reload task timed out: Failed to unregister service worker
 Precache visibility filters for this user before they kick off a search
 Precedes an irreversible or destructive action; state the consequences.
 Prefer a real label over ARIA attributes for naming a switch.
+Prefer a visible label when possible: use LabelledDateTimePicker, which renders a 
 Preferences shortcut - opens Preferences
 Preferred Language
 Preferred devices validated
@@ -15916,6 +16005,7 @@ Provide some details about your experience or suggest improvements
 Provide some details or suggest improvements
 Provide some details or suggest improvements (300 chars max)
 Provide the below inputs to test run this step
+Provide the trigger element as 
 Provided effect config is invalid, not updating VideoFxProcessor
 Provided value 
 Provision a given solution for a given channel
@@ -16067,6 +16157,9 @@ Radio buttons
 Raise hand
 Raised hand
 Ran out of space in font private use area.
+Range (double month)
+Range calendar
+Range inputs
 Rangt gildi
 Rank after ML model rerank (with boostExactMatches applied)
 Rank after frecency sort (before ML model rerank)
@@ -16116,6 +16209,7 @@ React-Modal: Cannot register modal instance that
 React.Children.only expected to receive a single React element child.
 React.ReactElement | null
 React.ReactNode | undefined
+ReactElement | null
 ReactSupport.bindAllMethodsToInstance was called, but no methods needed to be bound. Consider removing it. Instance: 
 Reacting to 
 Reaction bundle
@@ -16605,6 +16699,8 @@ Reminder completed.
 Reminder due
 Reminder from a task list
 Reminder in 
+Reminder time, date
+Reminder time, time
 Reminder: Update your opportunities
 Reminders & To-Do
 Reminders are here, too
@@ -18312,6 +18408,7 @@ Select an image
 Select an item
 Select an option
 Select audio input device
+Select button similar to BasicSelect for selecting date ranges.
 Select category
 Select channel
 Select channels
@@ -18370,6 +18467,8 @@ Selected channels
 Selected channels section
 Selected columns
 Selected connector sources only
+Selected date time string
+Selected day
 Selected files
 Selected welcome card image
 Selected workspaces
@@ -18922,6 +19021,7 @@ Set if we are waiting for an the on-demand digest, as part of onboarding
 Set if we should show the banner after a user adds channels to digest via recommender modal
 Set if window is fullscreen
 Set imported contacts from CSV
+Set in-flight agent status text on a search summary
 Set info about an app, by ID
 Set info for given datasource id
 Set init data in Redux stores based on response from client.init
@@ -19417,6 +19517,7 @@ Set the visibility of Tractor coachmark for sharing a file
 Set the welcomer gif sent id
 Set the workspaces search term
 Set the workspaces sort direction
+Set through the 
 Set time
 Set timeoutId for eventId
 Set to enable the trial deep link
@@ -20614,6 +20715,7 @@ Show next items
 Show on mobile
 Show onboarding tasks reminder notification
 Show only
+Show only one month at a time in the calendar
 Show or hide the drag overlay
 Show or hides the channel details flexpane
 Show past resolved comments
@@ -20626,6 +20728,7 @@ Show progressive diclosure success coachmark
 Show reasoning trace
 Show sales tracker move failed toast
 Show sales tracker removing toast
+Show save and cancel buttons in the calendar
 Show search history
 Show seasonal January delight web push notification
 Show seasonal Spring Cleaning web push notification
@@ -21524,6 +21627,7 @@ Store how long audio initialization took
 Store local draft
 Store reset while query was in flight (not completed in link chain)
 Store the corresponding file id for temp quip id
+Store the date with 
 Store the degraded system message
 Store the ephemeral message against the original message
 Store the last user-selected custom scheduled time
@@ -21535,6 +21639,7 @@ Store the quip offline system message
 Store the rich text snippet associated with a given canvas section
 Store the updated counter of doc embeds
 Store the updated counter of open lists
+Store the value with 
 Store unfurl data for draft work object review
 Store whether all the templates were fetched
 Store whether the canned templates button row is collapsed in synth view
@@ -21852,6 +21957,7 @@ TT: nested IDEFs not allowed
 TTI metric trace completed
 TTI metric trace completed in final clean up
 Ta-da! Your day just got more productive.
+Tab (in the popover)
 Tab - Files
 Tab - Home
 Tab - More
@@ -22205,6 +22311,7 @@ The entire thread, including all replies and reactions, will not be visible to a
 The entry you are trying to update has changed.
 The error message text.
 The featured link works well for linking to related documentation or feature pages
+The field 
 The field will be visible to everyone with access to the list.
 The file associated with this transcript is no longer available.
 The first row of your file should be column names. Be sure to include 
@@ -22229,6 +22336,8 @@ The informative style for use on a dark or colored surface.
 The initial call to search Google Directory groups indicates that the user does not have group access.
 The initial state of a Bidirectional layer cannot be specified as a mix of symbolic and non-symbolic tensors
 The inline argument 
+The input 
+The input and the calendar are deliberately 
 The input tensor must be at least 1D
 The interesting threads are always here when you want them.
 The key to sounding like Slack is to speak directly to people, in a voice that
@@ -22270,6 +22379,7 @@ The paradigm to lean into is actually
 The people who can edit this automation will also have access to any files shared here
 The person using the workflow
 The person who last interacted with the workflow
+The picker 
 The plural of canvas is 
 The plural of huddle is 
 The plural of list is 
@@ -22289,7 +22399,10 @@ The section name is too long
 The selected asset is
 The selected channel could not be found.
 The selected channel has been archived. Clear your selection or choose another channel.
+The selected date
+The selected end date
 The selected field is used for mapping Slack and Salesforce accounts.
+The selected start date
 The selection checkbox rendered in each row (and the header) of a MultiSelectTable. Presents as a checkbox to assistive tech while extending the click target across the cell.
 The selector for 
 The server used 
@@ -22839,6 +22952,7 @@ Time Zone
 Time back for what matters
 Time for data to travel between participants
 Time frame
+Time label
 Time of day
 Time period
 Time scrubber
@@ -24767,6 +24881,8 @@ Value is invalid for this field.
 Value of WeakMap is not a non-null object.
 Value prop examples
 Value props examples
+Value required?
+Value to display
 Values for these inputs will be determined by another workflow and if not present, will be provided by the user at runtime.
 Values passed to engine.makeTensor() are null
 Variable Name
@@ -25435,22 +25551,27 @@ Where to use:
 Where your team is talking
 Whether an outside click dismisses the coachmark.
 Whether it is OK to interrupt a focus transition
+Whether options offers are on the quarter, half, or full hour
 Whether or not close button should be autofocused
+Whether or not the input is disabled
 Whether the Select All checkbox should be displayed in the header row
 Whether the Select All checkbox should be shown as checked
 Whether the Select All checkbox should be shown as indeterminate (i.e. partly checked)
 Whether the banner fades itself out automatically after a short delay (for passive, non-critical messages).
 Whether the banner is pinned with fixed positioning (spanning the top) rather than sitting in normal document flow.
 Whether the coachmark participates in F6 section navigation.
+Whether the keyboard navigation is active
 Whether to center the coachmark body on the arrow position rather than on the anchor.
 Whether to show a close button that lets the user dismiss the alert.
 Whether to show the dismiss (close) button.
 Whether to show the header row with column headers.
 Whether to show the loading spinner.
 Whether to use the UnstyledButton element
+Whether we want to allow enter key down to set currently focused date
 Whether you
 Whether you want to find a specific app or you
 Which currencies do you support?
+Which half of the picker receives focus on mount.
 Which library should we use for date formatting?
 Which messages should I respond to first?
 Which of the following best characterizes what you were searching for? Select all that apply.
@@ -25560,6 +25681,7 @@ Work faster by automating tasks
 Work faster in Slack
 Work faster with everyone in one place
 Work in channels with external people
+Work in progress
 Work object embedded preview
 Work object previews
 Work object search: sort changed
@@ -26101,6 +26223,8 @@ ensureEnterpriseTeamByDomain: No domain provided!
 est disponible que sur ordinateur.
 eum enim maxime velit veritatis, quod aliquid neque cumque, voluptates dicta.
 every second instead of every 30 seconds.
+focus the date field first.
+focus the time field first.
 for the fees payable hereunder in accordance wuth the payment schedule of Net 60.
 getEexecBlock - no font program found.
 getWeights() is not implemented for Adamax yet.
@@ -26108,6 +26232,8 @@ gradients() received an empty list of xs.
 ha inviato un biglietto di auguri. Felice anno nuovo!
 handlerIds, when specified, must be an array of strings.
 how did this happen?
+id[s] for an element containing an input label for screen readers.
+id[s] for an element containing and input description for screen readers.
 in e&&e.channel?e.channel:(0,u.uP)(),team:e.team??(0,_.CT)(),member:e.member??(0,h.Nq)(),introducingMember:e.introducingMember,sentVia:e.sentVia??
 in e?!!(a&&((0,H.A)(e.url)||(0,y.VH)(e?.url??
 in e?e.touches[0]:e)[r?
@@ -26168,6 +26294,7 @@ re trying to break Slack.
 re trying to help someone complete the task they set out to do, plain and simple.
 re trying to use event.stopPropagation() in a submit event handler, consider also calling event.preventDefault().
 re unable to get any search results. Try again later or contact Slack if the issue persists.
+re unable to parse date?
 re using a 3d camera. Try the html renderer.
 re writing for.
 removeRedundantAudioRecoveryMetricsObserver is deprecated. Access encodedTransformWorkerManager directly via meeting session context.
@@ -26202,6 +26329,7 @@ s context for future turns.
 s context menu. Try it out by selecting the _Create a Task_ action for this message (shown below).
 s current page to customize for this audience.
 s current page to work on.
+s date. Not configurable.
 s default icon with a named icon from the icon font.
 s device is running on battery power, which could limit device performance and cause audio, video, or application lag. If they report such issues, suggest they connect their device to a power source.
 s doing its job. But there are times when we need to take extra care with our tone. Moments when the people using our software need us to meet them where they are across a spectrum of emotions.
@@ -26214,6 +26342,7 @@ s language and region preference in BCP 47 format.
 s leading streaming platforms uses Slack to coordinate across 5,000+ engineers.
 s level.
 s likely impacting people and their work.
+s local timezone. For a date alone use DatePickerSelect; when you need a built-in label use LabelledDateTimePicker.
 s looking empty here!
 s message. May include links or an inline action, and an optional icon.
 s missing from my profile?
@@ -26282,6 +26411,7 @@ t add more than 3 Channel Managers. Please remove 1 to continue.
 t add more than three channel managers.
 t add significantly to tone.
 t add this agent. Check the URL and try again.
+t allowed. For the usual input-plus-calendar pattern use DatePickerSelect instead.
 t always get it right, but your feedback makes Slack better.
 t always the longest.
 t an array.
