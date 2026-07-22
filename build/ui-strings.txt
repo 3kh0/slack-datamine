@@ -298,7 +298,7 @@
 :e instanceof Map?
 :p instanceof RegExp?
 :point_up: I found an existing summary for this file.
-:t||void 0,children:f?
+:r||void 0,children:C?
 :v.arraybuffer&&t instanceof ArrayBuffer?
 :v.uint8array&&t instanceof Uint8Array?
 :void 0),r.current?.info(em,e?
@@ -1792,7 +1792,6 @@ Allow Slackbot to find and use internet search results when generating a respons
 Allow a responsive layout on smaller screen sizes.
 Allow access
 Allow access?
-Allow an AI-generated title to override the list record
 Allow automated messages
 Allow developer sandboxes
 Allow downloads of workflow form responses. Add a policy to limit who can download workflow form responses.
@@ -2667,6 +2666,7 @@ Background Image (2x)
 Background Shape
 Background Type
 Background color
+Background image
 Background worker creation failed, attempting fallback to old processor.
 Background worker video transform device preload failed
 Background worker video transform device preloaded successfully
@@ -3166,6 +3166,7 @@ CSV download failed
 CSV downloaded successfully
 CSV file processed
 CTA Label
+CTA Label is required
 CTA Text
 CTA Text (optional)
 CTA Variant
@@ -5033,7 +5034,6 @@ Conversation history
 Conversation history with Slackbot
 Conversation marked as unread from this message
 Conversation name
-Conversation options
 Conversation pinned
 Conversation thread replies
 Conversation topic
@@ -5081,6 +5081,7 @@ Converts external team from limited to unlimited or unlimited to limited
 Converts message ops array to rich text blocks prepared to be sent as a message
 Cook Islands
 Cookie key
+Cookie key is required
 Cooking up a really really really really extremely very nice dinner
 Cool Person
 Cool white fluorescent (W 3900 - 4500K)
@@ -5142,6 +5143,7 @@ Copy huddle link
 Copy image
 Copy image to clipboard with toast
 Copy invite link
+Copy is required
 Copy link
 Copy link to a prompt
 Copy link to canvas
@@ -5350,6 +5352,7 @@ Cover (Aubergine background)
 Cover image
 Crawl use case
 Create Another Workspace
+Create Banner
 Create Barrier
 Create CTA
 Create Canvas
@@ -6435,7 +6438,6 @@ Do later
 Do more with Business+
 Do not Disturb settings changed for a member
 Do not Disturb settings changed for the current user
-Do not allow an AI-generated title to override the list record
 Do not lean entirely on iconography to convey meaning, as this is not visually accessible. Always display a tooltip on hover that succinctly describes the intended action or destination.
 Do not pause
 Do not place 
@@ -6474,6 +6476,7 @@ Document has a data section that was not in the saved state, assuming that it ha
 Document has a section
 Document is dirty, yet there is no update bundle. Likely bug
 Document management
+Document navigation
 Document rendering. The contents are also available in the text below.
 Document saved
 Document sequence mismatch
@@ -6661,6 +6664,7 @@ Edit Agent About Section
 Edit Agent Settings
 Edit Alt Text
 Edit Avatar Upload
+Edit Banner
 Edit Barrier
 Edit Barriers
 Edit Bot Scope Reasons
@@ -6747,6 +6751,7 @@ Edit interactability with external workflows
 Edit invitation permissions
 Edit link
 Edit list name
+Edit locales
 Edit manually
 Edit member limit for private channels
 Edit member limit for this channel
@@ -9830,6 +9835,7 @@ Hide all threads
 Hide an unfurl in a draft
 Hide canvas
 Hide channel join banner when navigating away from channel view
+Hide comment
 Hide details
 Hide email preview
 Hide empty fields
@@ -10177,6 +10183,7 @@ Image (icon)
 Image Gallery
 Image Position (desktop)
 Image Position (mobile)
+Image background
 Image caption
 Image copied to clipboard
 Image could not be found, switching to default input for device
@@ -13611,6 +13618,7 @@ Next Step
 Next Steps
 Next activity item
 Next channel
+Next comment
 Next entity has out-of-order or duplicate position
 Next image
 Next item
@@ -15799,7 +15807,6 @@ Preview of a Google Drive integration within a Slack chat interface, showing a c
 Preview of the company handbook template
 Preview of uploading file
 Preview options
-Preview unavailable
 Preview your daily recap
 Previewable blocks interleaved with dividers
 Previous 30 days
@@ -15807,6 +15814,7 @@ Previous 7 days
 Previous Page
 Previous Slide
 Previous channel or DM
+Previous comment
 Previous entity has out-of-order or duplicate position
 Previous image
 Previous item
@@ -18102,6 +18110,7 @@ Search apps
 Search apps index
 Search assets
 Search attendees
+Search banners
 Search by agent name or description
 Search by brand name or description
 Search by channel name, etc.
@@ -18408,6 +18417,7 @@ Select a workflow to add to this template.
 Select a workspace
 Select agents
 Select all
+Select all banners
 Select all items
 Select all logo sets
 Select all logos
@@ -18434,7 +18444,6 @@ Select field
 Select from Google Contacts
 Select groups
 Select how you want to verify your domain. Both methods require adding a DNS record to your domain.
-Select image
 Select members from a list
 Select members who can use this server.
 Select mode
@@ -23692,7 +23701,6 @@ Unexpected value for
 Unfollow thread
 Unfollow thread shortcut - unsubscribes to thread and displays toast
 Unfreeze all columns
-Unfurl Image
 Unfurl settings
 Unfurls an attachment for a given URL in an optional channel context
 Ungrouped Records
@@ -23821,7 +23829,6 @@ Unpauses video tile
 Unpausing queue, back online
 Unpin Message from channel
 Unpin canvas
-Unpin conversation
 Unpin participant
 Unpins a Slackbot AI NUX kickoff thread ts so its root message becomes visible
 Unpublish Product UI
