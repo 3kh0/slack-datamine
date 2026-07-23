@@ -19,20 +19,27 @@
  Use the Meeting Prep skill.
  Using common words and phrases is an easy way to help people focus on their work, not on understanding Slack.
  a custom status.
+ a11y anti-pattern. Position them absolutely over the container.
  action.
  activity outside of Slack to make it easier for people using Slack. We also considered what each term implies about access to the object being shared.
+ alongside it.
  and accumulates delta time to calculate how many tokens to advance each tick. A configurable refresh rate throttles updates to avoid unnecessary renders.
+ and ties it to the input.
+ and ties it to the textarea.
  are also narrower in scope and have slightly nuanced meanings. Edit implies that the user will change more than one setting. Change implies a more binary switch between one thing and another.
  are both false, the callback will never be executed.
  argument must be a string, an Array, a Buffer, a Uint8Array, or a DataView.
  argument.
  as a string.
  as prefix.
+ as the user types.
  attribute so the button remains focusable and screen readers can still announce it.
+ attribute.
  button.
  buttons can also trigger menus.
  buttons can initiate actions. This is less common than the two use cases above.
  callback gets called.
+ can carry an optional description.
  category in the app browser.
  category on the app browser.
  caution.
@@ -65,7 +72,9 @@
  fires when the popover closes without a selection.
  for details.
  for more information. This offer is available for a limited time only, and Slack may end or modify this offer at any time without notice to you.
+ for the framework model and how the blocks compose.
  for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+ form a single group in which only one can be selected at a time.
  from shared ini file.
  from the Intl api, but did not have that data loaded.
  handler that triggers an alert.
@@ -76,6 +85,7 @@
  has been saved successfully.
  has the goods.
  header.
+ helpers plus any wrapped props).
  here. Contents will still be available in search, and you can always unarchive it later if needed.
  hook which is the source of truth for features.
  hook. It displays all features, grouped by section.
@@ -106,6 +116,7 @@
  is not a valid compression method !
  is not data stream related!
  is not hostname compatible.
+ is off.
  is outside of range 0..
  is provided as a prop, the component is dismissible.
  is provided, it will be rendered on hover.
@@ -133,6 +144,7 @@
  not found. Did you forget to load it?
  not present in program.
  not supported on this browser.
+ note). Pass a BaseEntityMetadata so truncation works.
  occurrence.
  on Windows.
  on a Mac.
@@ -140,6 +152,7 @@
  on this very subject.
  once in a piece of UI is fine; more than once is likely too much.
  only when you need a different layout for a specific page.
+ or attention indicator on an icon button, avatar, or tab.
  or contact your administrator.
  or rewrite the sentence to avoid gendered pronouns altogether.
  others.
@@ -172,15 +185,20 @@
  should match or supplement the visible button text.
  so activating it opens the menu.
  so avoid mention of guests in new products going forward.
+ so it renders the matching skeleton and error states.
  so you do not need to set that.
  suffix.
  tab shows the render times of every component.
  tag, sized to sit inline within dense UI such as menu items.
+ that announces the characters remaining.
+ that reflects a mixed selection).
+ that starts the user on the path to adding content.
  to be a (possibly cloned) Error.
  to close.
  to have been called.
  to keep the button in the tab order.
  to learn exactly which functions took the longest to execute.
+ to render the action as a link.
  to reset that state on dismissal.
  to save your changes.
  to see exactly what functions took the longest to execute.
@@ -201,6 +219,7 @@
  will be permanently removed. Any tools associated with this MCP server will no longer be available.
  will have no effect.
  with no warranties. Web search is not FedRAMP compliant.
+ with the current value.
  without the qualifier.
  you pass here in sync with the one on the coachmark so the arrow lines up.
 #initScripting: Scripting already exists.
@@ -216,6 +235,7 @@
 ) does not match the calculated CRC32 checksum.
 ) is not supported yet.
 ) pass through to the calendar.
+) so the browser and assistive tech treat it correctly.
 ) styled as a rounded button. Useful for links outside the Slack client that need to look like buttons.
 ) that performed expensive computation.
 ), falling back to Type1.
@@ -227,6 +247,7 @@
 ). Useful for quiet, low-attention indicators.
 ); Tab again moves to the next focusable element.
 ); speak to the content or the action to take.
+); you supply the content.
 )?makeImage(e.slice(8),new to(t,i,r,n),o?
 *Bold text* and _italic text_ in the entity body.
 *Cat* has approved this message.
@@ -280,6 +301,7 @@
 1 instance within a card skipped.
 1 instance within a formula skipped.
 1 instance within a mention skipped.
+1 server is not available to connect and will be skipped.
 10-core CPU, 10-core GPU. Fanless design. 18 hours battery. Great all-around laptop.
 10-core CPU, 10-core GPU. Up to 24 hours battery life. Liquid Retina XDR display.
 10-core CPU, 8-core GPU. Most portable Mac. Perfect for everyday work and travel.
@@ -311,6 +333,7 @@
 ; and that mission comes from within our own workspaces.
 ; opening the overflow menu keeps the actions visible until it closes.
 ; speak to the content or the action.
+; the checkbox is announced as required.
 @Finance Team Can you review this edit from Cathy Customer?
 A CTA with the same button text, link, and variant already exists
 A CTA with this name already exists
@@ -488,9 +511,14 @@ A text stream handler for topic
 A two-column promo blade with text content alongside a YouTube embed with a play button overlay.
 A two-column promo blade with text content alongside a static image.
 A two-column promo blade with text content alongside an autoplaying, looped video.
+A unique ID to identify the text box
+A unique ID to tie the error text to the text box Will be generated from ID if blank
+A unique ID to tie the hint text to the text box Will be generated from ID if blank
+A unique ID to tie the label text to the text box
 A unique ID used to tie together the subcomponents of the picker for a11y purposes
 A unique callback ID for your step
 A unique identifier for an alert
+A unique name for this input
 A unique parameter ID for your input. E.g. user_id
 A user joined a public or private channel
 A user left a public or private channel
@@ -498,6 +526,8 @@ A user sent a message to your Slack app
 A valid channel name is required.
 A valid frequency is required
 A valid member name is required.
+A value indicating whether the value should always be selected
+A value must be entered.
 A variable with this name already exists
 A variant has invalid targeting rules.
 A visible border separates the header from the content
@@ -560,8 +590,6 @@ ADDED_PENDING_UPDATE (missing entity)
 AI & ML Data Science
 AI Button
 AI Explain share: missing required thread data
-AI Generated
-AI Inbox
 AI Notes: Off
 AI Prompt writer
 AI Research Deep Dive
@@ -651,6 +679,7 @@ ARIA describedby prop gets applied to both input + trigger
 ARIA label prop get applied to both input + trigger
 ARIA labelled by prop gets applied to both input + trigger
 ARIA role for the container (e.g. when it behaves as a button or listitem).
+ARIA role for the input.
 ARN endpoint is not compatible with FIPS region
 ARN region is empty
 ARN resource should begin with 
@@ -746,11 +775,14 @@ Access to a set of teams was granted to your org app
 Access to a set of teams was revoked from your org app
 Access to customer support
 Access to the admin analytics API and channel management tools will be revoked.
+Access your unlimited message history
 Accessibility Label
 Accessibility in Slack
 Accessible Description
 Accessible label for the coachmark dialog, announced to screen readers.
 Accessible multi select
+Accessible name for the icon-only button. Required.
+Accessible name for the input.
 Accessible tabs
 Accessing Slack from a Tor exit node
 According to a Slack customer survey of weekly active users
@@ -782,18 +814,22 @@ Acme Inc. Outlines
 Acme Industries Demo Opp
 Acme replaced status meetings with channels and clips, freeing up hours a week.
 Acme team collaborating in Slack
+Acquisition cancelled before attempt
+Acquisition cancelled during retry delay
 Acting User
 Action Button
 Action Button 2
 Action Card
 Action Data:
 Action Items
+Action button
 Action handler for
 Action item
 Action item dismissed
 Action program
 Action to take
 Actions & Permissions
+Actions bar
 Actions for member
 Actions for row
 Activate Public Distribution
@@ -1017,6 +1053,7 @@ Add a block from the sidebar or paste JSON in the editor to get started.
 Add a bookmark
 Add a bookmark to this channel
 Add a bot to allow users to exchange messages with your app.
+Add a bottom border below the preview.
 Add a branch
 Add a browser instance to the store
 Add a bulleted list
@@ -1032,6 +1069,7 @@ Add a checklist
 Add a collection to unified files
 Add a comment
 Add a create record saving toast to queue
+Add a custom height to the text area which otherwise is hardcoded
 Add a dashboard or report
 Add a data source
 Add a description
@@ -1254,7 +1292,7 @@ Add files
 Add files and links to reference later
 Add files as link in draft
 Add files for the AI to reference. Links in added files will not be crawled.
-Add files, canvases, lists, or connected sources (Google Drive, Confluence, etc.) the AI can reference
+Add files from your workspace and any connected sources for AI to reference.
 Add filters to be used in next rendered browser instance
 Add from Dropbox
 Add from Google Drive
@@ -1450,6 +1488,7 @@ Add your workspace icon
 Add yourself as an agent manager
 Add, remove, or mark reminders as complete
 Added by 
+Added by you
 Added in last 30 days
 Added in last 7 days
 Added on
@@ -1466,6 +1505,7 @@ Adding different instances of a keyed plugin (
 Adding failed connection attempt to back off
 Additional Info
 Additional access needed
+Additional class for the root element.
 Additional classnames applied to the card element.
 Additional classnames applied to the container element.
 Additional clog properties forwarded to the analytics layer.
@@ -1679,6 +1719,7 @@ All Agents
 All Blues by Miles Davis
 All Contacts
 All Folders
+All Frontline Users
 All List Views
 All ModelObject subclasses need to implement get()
 All ModelObject subclasses need to implement type()
@@ -2061,7 +2102,7 @@ Animation Consistency
 Animation of an empty Slack workspace
 Animations are automatically disabled when the user has reduced-motion preferences
 Animator 1
-Anna Pickard, Voice and Tone: Overview
+Anna Pickard, Voice and Tone: 
 Announce a channel has been marked as read
 Announce the first result of a set of Texty autocomplete suggestions and the total number of suggestions
 Announce to assistive tech how many items were selected
@@ -2086,6 +2127,7 @@ Answer to:
 Answers questions and provides information based on content in your channel.
 Antigua and Barbuda
 Any Salesforce data included in this message will be visible to all members of the selected channel.
+Any addtional classes to pass to the Empty State container
 Any amount change
 Any custom setting
 Any file type
@@ -2108,6 +2150,7 @@ Anyone you share this link with can join the channel.
 Anything changed? Record progress and updates in your opportunity list.
 Anything else you want to add?
 Anything else you want to tell us?
+Anything for me?
 Apache Conf
 Aperture priority
 Api Call to 
@@ -2164,7 +2207,6 @@ App data is not ready yet
 App data unavailable
 App details
 App global action execution failed
-App has indicated that content may be AI generated.
 App icon
 App id is not defined
 App integrations capped at 10
@@ -2242,6 +2284,7 @@ Approve for organization
 Approve for this workspace
 Approve localization request
 Approve request
+Approve skill for group
 Approve the $1.1M vendor renewal in #fin-forecast-and-controls
 Approve this app for installation?
 Approve this approval work item
@@ -2333,6 +2376,7 @@ Argument must implement the iteration protocol.
 ArgumentError: 
 Arguments must be Buffers
 Arguments to apply() must be all SymbolicTensors or all Tensors
+Aria label, for cases when you need to override title and description for accessibility
 Arial Black
 Arial Narrow
 Arial Nova
@@ -2516,14 +2560,15 @@ Audio file
 Audio input device cannot be undefined
 Audio input initialization failed
 Audio input request failed
-Audio mini player
-Audio mini player opened
+Audio playing in docked player
 Audio stream is undefined, no audio detection will be triggered
 Audio tracks were reset while loading level 
 Audio video huddles
 Audio-only mode
 AudioContext setup failed
 AudioContext.close() failed
+AudioOutput devices cannot be acquired via getUserMedia
+AudioOutput devices use setSinkId, not getUserMedia. Cannot acquire.
 Audit Logs
 Audit logs
 Aurora X
@@ -2555,10 +2600,13 @@ Auto-initialize Slackbot AI thread on message arrival
 Auto-insert draft on Composer API AI summary completion
 Auto-scroll through items
 AutoClog Viewer
+AutoClog props
+AutoClog props for primary action
 AutoClog viewer
 AutoClogProps | undefined
 Autocomplete Handler
-Automate access with built-in security
+Autologging params for the toggle action.
+Autologging params forwarded to the container button (only applied when interactive).
 Automate everyday tasks
 Automate everyday tasks and processes with our intuitive workflow builder.
 Automate routine processes
@@ -2592,7 +2640,7 @@ Automatically add new agents
 Automatically answer recurring questions, collect requests, or organize things your team sends here.
 Automatically assign Salesforce Admin role
 Automatically connect your team to a calendar or file app from Google or Microsoft.
-Automatically log interactions with your contacts
+Automatically log interactions with your customers
 Automatically read new messages in the current conversation
 Automatically start AI notes per channel
 Automatically sync your calendar to your Slack status
@@ -2624,7 +2672,6 @@ Available tools
 Available upon renewal
 Available workflows
 Available workspace search
-Avant Garde For Salesforce
 AvantGarde Bk BT
 Avatar 2
 Avatars of various people
@@ -2706,6 +2753,8 @@ Base Tint
 Base Tint 2
 Base Tint 3
 Base Tint 4
+Base entity
+Base list entity
 Base64-URL-codierter String
 Base64-codierter String
 BaseSocketManager constructed by a non-Gantry page
@@ -2740,7 +2789,10 @@ Be playful, but never let humor disrupt the experience
 Be there soon
 Be your productivity partner
 Beaconed client boot mount success
+Because a raw checkbox is an 
+Because a raw radio is an 
 Because an icon button has no associated text, 
+Because the dot is absolutely positioned, its container 
 Begin Manual Migration
 Begin meeting assistant session
 Begin min version polling
@@ -2761,6 +2813,7 @@ Best-value column override
 Between 1 and 10
 Between 3 and 20 chars
 Between 8 and 64 chars
+Beyond the shared 
 Biases can play a part in many different aspects of life, but some common ones come up for disability, race, gender, identity, nationality and education.
 Big Business
 Billed as regular members and can be added to unlimited channels.
@@ -2800,6 +2853,8 @@ Blog Post By Jane
 Blue Style
 BlueJeans Meeting
 Blur background
+Blur handler.
+Blur the input on submit (Enter).
 Blur video background
 Blurb Row
 Blurb alignment
@@ -2818,6 +2873,7 @@ Book Antiqua
 Bookmark a workflow
 Bookmark to channel
 Bookmarked workflows
+Boolean value indicating if the text area should be focus
 Boop boop
 Boot queue paused for too long
 Bordeaux Roman
@@ -2940,6 +2996,7 @@ Build workflows to save time on repetitive tasks.
 Build your own
 Build your own in workflow builder
 Builder credentials
+Building an entity
 Building block for conversations
 Built By
 Built by
@@ -3024,9 +3081,11 @@ Button can only be clicked once
 Button ctrl
 Button is confusing
 Button label
+Button type for the primary action.
 Buy Scooby Snacks
 By Slack
 By Slack, powered by Salesforce
+By default the container has 
 By default the header only has room for one line. Enable this to allow header labels to wrap to two lines (useful for long labels or narrow columns).
 By default, Salesforce app unfurls show name and object only. When enabled, unfurls from the Salesforce app will be powered by the Platform Integration user.
 By default, Slack allows canvas editors to access version history and restore prior versions of a canvas.
@@ -3264,6 +3323,7 @@ Callback Delay (ms)
 Callback ID
 Callback called multiple times
 Callback executed on escape key down
+Callback executed when escape is pressed on the calendar popover
 Callback fired when anchor position changes (called during position polling)
 Callback fired when the alert is dismissed via its close button.
 Callback for a single row being selected or unselected
@@ -3372,6 +3432,7 @@ Can comment
 Can configure Salesforce and add new users
 Can edit
 Can edit, publish, and delete this template
+Can find this workflow
 Can help launch naming conversations with your team
 Can manage records
 Can manage records and customize lists
@@ -3645,6 +3706,7 @@ Capture, review and triage incoming requests to keep your team focused on what
 Captures the session ID for a thread so the success survey can reference it
 Capturing your huddle
 Carbon Footprint
+Card Component Comparison
 Card Title
 Card Variant
 Card actions
@@ -3685,7 +3747,6 @@ Catch up on a missed huddle
 Catch up on channels
 Catch up on documents in a flash with smart AI summaries of files shared in Slack.
 Catch up on your DMs
-Catch up quickly and reduce noise with automated summaries and daily recaps
 Catch-up failed: no transcript history available
 Categorical labels
 Categories (pick at least one)
@@ -3711,7 +3772,6 @@ Cells unmerged
 Center alignment is the default and best matches the block
 Central African Republic
 Central Blur
-Centralize channel management and posting permissions
 Century Gothic
 Century Old Style
 Century Schoolbook
@@ -3826,6 +3886,7 @@ Channel details
 Channel invitations
 Channel link
 Channel link copied
+Channel management
 Channel managers
 Channel managers and admins
 Channel managers and admins can change this setting.
@@ -3918,6 +3979,7 @@ Channels results loaded successfully
 Channels tab
 Channels where the workflow starts are not imported. To continue importing, select at least one channel where the workflow will start.
 Channels, people, files, and more
+Character count component that lives on top of text inputs. Warning: Only use with Text components!
 Characters per Second
 Charis SIL
 Charlie 
@@ -3969,6 +4031,9 @@ Check to see if the user has the appropriate scopes to call external directory A
 Check whether a freshly published WMP document can be promoted to live
 Check your authentication app for your code.
 Check your system settings
+Checkbox (interminate)
+Checkbox (unstyled)
+Checkbox Group
 Checkbox checked
 Checkbox checked with icon
 Checkbox unchecked
@@ -4082,6 +4147,7 @@ Choose limited group
 Choose list
 Choose member access
 Choose one
+Choose servers
 Choose something that your team will recognize, like the name of your company or team.
 Choose something your team will recognize like the name of your company or team. You can always update it later.
 Choose sticker
@@ -4090,6 +4156,7 @@ Choose the account
 Choose the data field to evaluate, such as the person who used this workflow.
 Choose the default skin tone that will be used whenever you use certain emojis in reactions and messages.
 Choose the maximum number of people allowed in a private channel.
+Choose the workspace where Frontline users will be provisioned. Only one workspace can be selected.
 Choose time
 Choose to allow Slackbot the ability to create, edit, and add content to canvases.
 Choose to have members sign back in whenever they close Slack, or after a certain time period.
@@ -4127,6 +4194,7 @@ Clarify details of what your step will do.
 Class being registered does not have the static className property defined.
 Class extends value 
 Class name for calendar component
+Class name for the title icon.
 Classic Apps Deprecation
 Classifier prompt
 Classifies email input as internal or external and returns the proper escape hatch options
@@ -4235,7 +4303,6 @@ Clear progressive disclosure storage value
 Clear reaction animation
 Clear read messages
 Clear recent record created
-Clear reminder
 Clear reopen timestamp for a code channel
 Clear search
 Clear search engagement context
@@ -4270,6 +4337,7 @@ Clear the in-progress DWA setup modal state for a single app
 Clear the inviter ID for a channel (Slackbot-gated); used on self-join to drop stale state
 Clear the join credentials for a specific channel
 Clear the last executed encoded search string
+Clear the new-to-do create composer unsaved-content state
 Clear the original user query
 Clear the passkey re-login request (dismiss the modal)
 Clear the pro pocket guide channel overview success coachmark if it is set for the given tab id
@@ -4393,7 +4461,6 @@ Clog DM_OPEN event with current stat
 Clog Debug Mode
 Clog SLACKBOTAI_SKILL_DELETED
 Clog a query session event using data from redux
-Clog a saved search action event
 Clog a search close event using data from redux
 Clog a search feedback click event using data from redux
 Clog a search navigation event using data from redux
@@ -4422,19 +4489,15 @@ Clog channel result click
 Clog clicks for a search filter being added
 Clog clicks for a search filter being removed
 Clog clicks for a search sort being changed
-Clog clicks for next page link being clicked
-Clog clicks for previous page link being clicked
 Clog clicks in the search interface
 Clog clicks on a message or file using data from redux
 Clog clicks on a refinement suggestion
 Clog clicks to search Salesforce record results
 Clog clicks to search channel results
 Clog clicks to search file results
-Clog clicks to search list record results
 Clog clicks to search message results
 Clog clicks to search people results
 Clog context menu clicks
-Clog copy search link button click
 Clog custom status duration selection
 Clog element name for the footer link, so its clicks are attributed separately.
 Clog element type used to classify this button in analytics instrumentation.
@@ -4452,7 +4515,6 @@ Clog member context item click
 Clog only search result external connector result clicks
 Clog only search result page channel result clicks
 Clog only search result page file result clicks
-Clog only search result page list record result clicks
 Clog only search result page message result clicks
 Clog only search result page people result clicks
 Clog only search result work object result clicks
@@ -4497,12 +4559,9 @@ Clogs adding quick filters in omniswitcher
 Clogs clicks on a searchy mode button
 Clogs clicks on the unreads 
 Clogs more modal open click
-Clogs removal of jump-to pill
-Clogs removal of searchy mode
 Clogs removing quick filters in omniswitcher
 Clogs result clicks for the recommend API
 Clogs search history toggle in omniswitcher
-Clogs search result count toggle changes
 Clogs search sort changes
 Clone Product UI
 Clone a Product UI
@@ -4630,6 +4689,7 @@ Collaborate on pilot plans, proposals, or success playbooks.
 Collaborate seamlessly and securely with vendors, customers and other organizations using Slack Connect channels or guest accounts.
 Collaborate seamlessly and securely with vendors, customers, and other organizations using Slack Connect.
 Collaborate with external partners
+Collaborate with external people
 Collaborate with outside partners and clients as easily as with in-house teams.
 Collaborate with your team and track your sales prospects as you move them from being new leads all the way to paying customers.
 Collaborate with your team on sales, support and marketing at no extra cost.
@@ -4784,7 +4844,9 @@ Compose a string combining all the subcomponent labels for a message, to pass to
 Compose action button
 Compose action button_2
 Compose an array of ids for the elements containing message subcomponent labels
+Compose an entity by wrapping content blocks in an 
 Compose email
+Compose the text column from the three slot subcomponents so truncation works: 
 Composer action bar
 Composer actions
 Composer actions overflow menu
@@ -5028,8 +5090,6 @@ Continuous fuzzy score bonus (fuzzyScore * bonusPoints)
 Continuous marquee with header
 Contract Line Items
 Contractions are great! We love 
-Control - Trial
-Control - Upgrade
 Control ID
 Control could not be created
 Control strip
@@ -5227,7 +5287,6 @@ Could not clear stale endpoints from storage
 Could not complete boot due to loss of API service
 Could not complete boot due to loss of network connectivity
 Could not connect with this user.
-Could not connect. Please try again.
 Could not construct new URL with HLS Delivery Directives: 
 Could not create document
 Could not delete role
@@ -5432,9 +5491,11 @@ Create a custom view
 Create a delegate object for interop with the desktop app
 Create a document with Gdrive shortcut - opens Create GDoc dialog with document type
 Create a folder
+Create a link that lets anyone add a copy of this skill to their own Slackbot, even people outside your organization.
 Create a list
 Create a list and associate it with a new channel tab
 Create a list doc, open it, and maybe insert into message input
+Create a list from a form
 Create a list from an optimistically-loaded list view
 Create a new Channel Section for this user
 Create a new channel
@@ -5651,6 +5712,9 @@ Custom channel summary date range picker
 Custom classname applied to the badge element.
 Custom classname applied to the banner element.
 Custom classname applied to the outer element.
+Custom classname to be applied to a checkbox
+Custom classname to be applied to a radio
+Custom classname to be applied to a text input
 Custom classname to be applied to an alert
 Custom classname to be applied to the inline alert.
 Custom classnames
@@ -5662,6 +5726,7 @@ Custom endpoint is supplied; endpointDiscoveryEnabled must not be true.
 Custom expiration date
 Custom fields
 Custom instructions
+Custom links
 Custom prefix for data-qa attributes used within the DataTable
 Custom process
 Custom regex
@@ -5742,6 +5807,7 @@ DLP Violations Table
 DM Activity Log
 DM invitations can only be sent to one person at a time.
 DM notifications have changed
+DM with yourself
 DMs Outlines
 DMs and Group DMs
 DMs results loaded successfully
@@ -5765,7 +5831,6 @@ Daily schedule overview
 Daily tools
 Dangling reference to missing 
 Dark Aubergine
-Dark Magenta Solid 2
 Dark Plus
 Darn, that name is already taken. Try another one?
 Dashboard actions
@@ -5775,9 +5840,9 @@ Data Analytics Suite
 Data Dispatch
 Data Loads
 Data Location
-Data Loss
 Data Loss Prevention
 Data Loss Prevention (DLP)
+Data QA prefix for wrapper div
 Data QA tag
 Data Scraping
 Data Source (Google Drive)
@@ -5814,6 +5879,7 @@ Data storage policy
 Data table
 Data to detect
 Data viz
+Data-QA prefix for the wrapper and input.
 DataChannel error on 
 DataLengthProbe for 
 DataPacket of value 
@@ -6128,6 +6194,7 @@ Descrease count of open popovers for a team, optionally in a given window
 Describe how Channel Agent should respond in this channel.
 Describe how Slackbot should respond in this channel.
 Describe how your team plans to use this list
+Describe the expected value
 Describe the task you
 Describe the types of messages that should start this workflow (e.g., 
 Describe this folder
@@ -6139,6 +6206,7 @@ Describe what you want AI to write
 Describe what you want this step to do
 Describe your edit
 Description (optional)
+Description body text, required
 Description for the fifth link unfurl.
 Description for the first link unfurl.
 Description for the fourth link unfurl.
@@ -6192,6 +6260,7 @@ Determine whether a member is an existing member of a workspace associated with 
 Determine whether a mention id (member, broadcast, user group) is valid
 Determine whether a user group exists on a workspace associated with a channel
 Determines if the team has reached its Single Channel Guest limit
+Determines what size the input should be
 Determines whether an org has any usergroups and stores than boolean in the admin-roles redux store
 Determines whether the control has to be focused on load or not.
 Determines which external dirctory to query, and returns a fetcher to query it.
@@ -6221,10 +6290,15 @@ Device list updated successfully
 Device list validation result:
 Device manager shutdown complete
 Device preferences manager initialized
+Device selection recorded
 Device selection records analysis:
 Device selection records:
 Device settings
+Device setup failed
+Device usage recorded
 DeviceManager connected to VideoUplinkManager
+DeviceManagerApplier.applySpeaker should not be called (speaker runs on the DeviceManager path)
+DeviceManagerApplier.applyVideoInput should not be called (camera runs on the DeviceManager path)
 Diacritically Acclaimed Naval Combat Game
 Diagnose with Slackbot
 Diagnostic report
@@ -6279,6 +6353,7 @@ Disable link
 Disable or enable admin TOS
 Disable preview
 Disable progressive disclosure
+Disable the save button until at least one date is selected.
 Disable two-factor authentication
 Disabled File
 Disabled date error text
@@ -6367,6 +6442,7 @@ Dismiss themes banner
 Dismiss this flagged item
 Dismiss tip
 Dismiss tips
+Dismiss todo list
 Dismiss transcript generation prompt
 Dismissable (all tasks completed)
 Dismisses a calendar event from JIT notifications for this session
@@ -6466,6 +6542,8 @@ Do you work with people at other companies?
 DocEditor object not set
 Dock to Corner
 Dock to corner
+Docked audio player
+Docked video player
 Docs Team
 Docs, opens in new tab
 Document Metadata
@@ -6515,6 +6593,8 @@ Domain search
 Dominican Republic
 Done all uploads
 Done and done
+Dot diameter.
+Dot fill color.
 Dot layer does not support tensors of 4D or higher rank yet.
 Double-check this link
 Downgrade Slack
@@ -6552,6 +6632,8 @@ Dracula Theme Soft
 Draft Email Reply
 Draft ID missing, defaulting to overrideInputValue
 Draft VIP replies
+Draft a follow-up
+Draft a follow-up message about this record
 Draft a launch announcement for our new feature
 Draft a meeting agenda
 Draft a meeting agenda based on my recent conversations with @ 
@@ -6561,6 +6643,8 @@ Draft a meeting agenda for our next quarterly planning review
 Draft a meeting agenda for the weekly meeting in # 
 Draft a meeting invite
 Draft a message, without distractions
+Draft a reply
+Draft a reply to this thread for me
 Draft actions
 Draft an answer
 Draft and send messages
@@ -6584,10 +6668,12 @@ Drag to take a screenshot
 Draggable isClone prop value changed during component life
 Draggable[id: 
 Dragon Touch
+Draw an outline around the avatar.
 Draw message must be correctly formed
 Draw on your own screen
 Draws attention to an unread or actionable count (e.g. mentions).
 Dream Maker
+Drive it with three props:
 Drive steps in Workflow Builder
 Drop Shadow
 Drop here to replace
@@ -6664,7 +6750,6 @@ Early connection closed; discarding signaling task.
 Early exit due to previous failures
 Easily add alt text for screenreader users
 Easily add multiple Salesforce orgs to keep track of your deals in one place.
-Easily export messages and explore flexible data residency options
 Easily share across channels or with individuals
 Easily sort through and summarize conversations, data, and files with a single search prompt. Members each get to preview five AI-powered search results.
 Easily update record details
@@ -6727,6 +6812,7 @@ Edit alt text
 Edit and reorder workspaces
 Edit app access
 Edit approval settings
+Edit approved groups
 Edit canceled
 Edit canvas sharing settings
 Edit category
@@ -6780,6 +6866,7 @@ Edit notifications
 Edit one-click reactions
 Edit permissions
 Edit posting permissions
+Edit preference
 Edit profile
 Edit profile details
 Edit prompt
@@ -6885,10 +6972,6 @@ Ellipse 302:0
 Ellipse 302:0-stroke-mask
 Ellipse 302:1
 Ellipse 303
-Ellipse 304
-Ellipse 307
-Ellipse 308
-Ellipse 309
 Ellipse 4
 Ellipse 41
 Ellipse 5
@@ -6946,6 +7029,7 @@ Empty Image
 Empty column at render time
 Empty files cannot be uploaded.
 Empty response when fetching downgrade stats
+Empty state
 Empty subtitle payload
 Empty text nodes are not allowed
 Enable AI
@@ -7175,10 +7259,13 @@ Enterprise-grade compliance tools
 Enterprise-grade infrastructure modernization initiative spanning multiple data centers with zero-downtime migration requirements and strict compliance mandates
 Enterprise-grade security and compliance controls keep your data protected without slowing your team down.
 Enterprise-grade security built in
+Entities Framework
 Entity State
+Entity container
 Entity is not an instance of PositionedEntity
 Entity is not lockable
 Entity type
+EntityStylesType | undefined
 Entry Point
 Entry point: choose another step for form
 Env Module
@@ -7224,7 +7311,6 @@ Error exporting workflow form data:
 Error fetching MFA token: 
 Error fetching SlackCRM BUILD_FROM_USER_INPUT state machine
 Error fetching SlackCRM onboarding splash state machine
-Error fetching SlackCRM onboarding state machines
 Error fetching additional page of org user groups
 Error fetching app submission id
 Error fetching channel by name
@@ -7260,6 +7346,7 @@ Error launching calls gantry app
 Error level
 Error loading assigned members from API
 Error loading assigned user groups from API
+Error loading content
 Error loading flag details
 Error loading functions for category:
 Error loading org members from search API
@@ -7316,12 +7403,15 @@ Error setting trigger type permissions:
 Error stage info
 Error stopping background worker device during cleanup
 Error storing app stats in local Storage
+Error style - we are deprecating Alerts in favor of InlineAlert Defaults to false until we replace instances with new error
 Error submitting app submission
+Error text for below the text box
 Error thrown when dispatching a thunk loadUserInteractions from useMigrateUsersLaterCoachmark
 Error thrown when dispatching a thunk loadUserInteractions from useShowMigrateLaterCoachmark
 Error thrown when dispatching a thunk recordUserInteraction from useMigrateUsersLaterCoachmark
 Error trying to parse base URL.
 Error trying to parse relative URL.
+Error type for determining the style of the error
 Error unpublishing workflow: 
 Error updated calendar prefs, rolling back
 Error updating app bot scope reasons
@@ -7383,6 +7473,7 @@ Everforest Light
 Every [[recurring_date]], send an activity notification to assignee when an item is not complete and its due date is [[due_date_filter]]
 Every contact has a collaborative detail page where your team can log activity, track conversations, and update key info.
 Every day
+Every form control needs a text label, 
 Every record has a collaborative detail page where your team can log activity, track conversations, and update key info.
 Every section has a thread
 Everyone can post
@@ -7456,6 +7547,9 @@ Execute trigger by id
 Execute validation for Nested Dynamic Inputs
 Execute validation for external resources (3P knowledge sources) in AI Answer step
 Execute validations for parameter with dynamic options
+Executes in handleInputBlur when passed in
+Executes in handleMaybeOutsideClick when passed in
+Executes in resetInputForEditing when passed in
 Executive summary is available to potential customers upon request
 Existing Installations
 Existing account
@@ -7599,7 +7693,6 @@ External Auth Completed
 External Auth Providers
 External Channels Trial Shared Channel Banner
 External HTML cleaning error.
-External Huddle
 External Interview
 External Managed Accounts
 External Org Skill
@@ -7633,10 +7726,16 @@ External results threw an error while loading
 External results timed out
 External user cannot join this channel
 Extra CSS classes
+Extra CSS classes for input element
+Extra CSS classes for menu element
+Extra CSS classes for popover element
+Extra class for the wrapper.
 Extra class name for dropdown component
+Extra content rendered inside the calendar popover, below the calendar.
 Extra, extra!
 Eyebrow + headline + CTAs
 Eyebrow Icon
+Eyes to myself. Tap to follow along again
 F Outlines
 FE Teams
 FF Scala
@@ -7766,7 +7865,6 @@ Failed to get the necessary context to make a Telemeter instance
 Failed to get valid device list after 4 attempts
 Failed to get valid device list after all retries
 Failed to initialize Collab SDK (unredacted)
-Failed to initialize Collab SDK: creator promise rejected
 Failed to initialize huddles SDK:
 Failed to initiate background worker
 Failed to inject custom titlebar styling
@@ -7774,7 +7872,6 @@ Failed to insert section as sibling
 Failed to instantiate the VideoFxEngine
 Failed to leave some user channels
 Failed to link vertex and fragment shaders.
-Failed to load MCP server tools. Please try again.
 Failed to load MCP servers. Please try again.
 Failed to load MCP servers. Try again in a few minutes.
 Failed to load PDF page labels
@@ -7818,6 +7915,7 @@ Failed to parse workflow_error_view_details action value
 Failed to parse workflow_error_view_logs action value
 Failed to paste transcript via desktop clipboard
 Failed to perform a segmentation with a shared array buffer on the input image
+Failed to persist Slackbot NUX accepted recommendations
 Failed to persist debug_clogs to sessionStorage
 Failed to persist invite_step_skipped_remind_me_later
 Failed to pin conversation
@@ -8142,6 +8240,7 @@ Fetch and upsert recent media from search.modules.files
 Fetch and upsert recently uploaded files
 Fetch and upsert saved reminders
 Fetch and upsert the members of a user group
+Fetch and upsert the quick_filter_ranking pref
 Fetch and upsert the recents pref
 Fetch and upsert the result of connectableContacts.lookup
 Fetch and upsert the result of workflows.triggers.listRecentlyRunForUser
@@ -8297,6 +8396,7 @@ Fetch the list of permissions assignments and add to store
 Fetch the list of roles
 Fetch the objects for the selected datasource
 Fetch the productivity apps for a suite and store them
+Fetch the quick_filter_ranking pref if the experiment is on
 Fetch the recents pref if the read toggle is on
 Fetch the recorded interactions for a list of user interactions, and load them if necessary
 Fetch the schema objects for the selected datasource and object
@@ -8538,6 +8638,8 @@ Field Capacity Transfers
 Field Name
 Field Title
 Field Value
+Field children
+Field element
 Field is not unknown in this message
 Field name
 Field not available
@@ -8666,6 +8768,7 @@ Filter files
 Filter for option list
 Filter huddles
 Filter huddles by type
+Filter input
 Filter options
 Filter options are open
 Filter out channels that cannot be left
@@ -8713,6 +8816,7 @@ Find files that match a search query
 Find form settings and your code snippet by clicking on the channel name and opening the Integrations tab.
 Find help anytime
 Find hermes triggers, commands, and other platform actions that match a search query
+Find in document
 Find in thread
 Find in threads
 Find members
@@ -8749,6 +8853,13 @@ Finished loading of essential VideoFxProcessor assets.
 Finished refreshing a file
 Finished the file upload
 Fire Phone $1
+Fired when the button is clicked.
+Fired when the clear button is clicked.
+Fired when the input gains focus.
+Fired when the input loses focus.
+Fired when the menu popover closes.
+Fired when the menu popover opens.
+Fired with the current value when the user presses Enter.
 Firefox iOS
 First Channel
 First Link
@@ -8771,6 +8882,7 @@ Fix errors here
 Fix race condition in cache invalidation
 Fix: Resolve race condition in message delivery pipeline
 Fixed height CellMeasurerCache should specify a :defaultHeight greater than 0. Failing to do so will lead to unnecessary layout and poor performance.
+Fixed preview height in pixels; overrides the default when set.
 Fixed race condition in cache invalidation
 Fixed width CellMeasurerCache should specify a :defaultWidth greater than 0. Failing to do so will lead to unnecessary layout and poor performance.
 Flag an unsaved item as a tombstone if a saved view is open
@@ -8803,6 +8915,7 @@ Focus areas cleared for the day
 Focus areas cleared for the day :sunflower:
 Focus back on item in list
 Focus did not transition
+Focus handler.
 Focus me (via useFocus hook)
 Focus mode
 Focus mode ends
@@ -8811,6 +8924,9 @@ Focus mode preferences
 Focus mode temporarily mutes your sidebar, pauses notifications, and lets people know you might be slow to respond.
 Focus on next item
 Focus on opening doors, not keeping them locked
+Focus the input on every render.
+Focus the input on mount.
+Focus the input once, on mount.
 Focus the input when the thread is loaded
 Focus time
 Focus transition
@@ -8831,6 +8947,7 @@ Folders this asset is in
 Follow all thread replies in this channel
 Follow every thread
 Follow our content principles, style guide, and product glossary, and you
+Follow the shared 
 Follow thread shortcut - subscribes to thread and displays toast
 Follow up on a meeting
 Follow up with Slackbot
@@ -8852,6 +8969,7 @@ For 2 hours
 For 48 hours
 For Engineering
 For a persistent, content-tied warning use an 
+For a set of related checkboxes, wrap them in a 
 For a temporary notification, use a 
 For agents, this will just update the agentforce assistant description in the store
 For agents, this will just update the agentforce status in the store
@@ -8908,6 +9026,7 @@ Forward this notification
 Forward this record update
 Forward workflow
 Forwarded message
+Forwarded ref to the root element.
 Forwarding email
 Forwarding redux payload to desktop
 Forwarding this message makes it available to more people
@@ -8980,6 +9099,7 @@ From you
 From your admin
 From: #ps-tea
 Front-load the most common questions
+Frontline workspace
 Full Access
 Full Card
 Full Member
@@ -9028,6 +9148,7 @@ Geeta Joshi
 GenAI is evolving from large, monolithic models trained on massive internet data to complex, multi-component 
 General guidelines
 General navigation language principles
+General size of the date and time inputs.
 General size of the input
 Generally, you should default to avoiding them unless you
 Generate AI Response
@@ -9117,6 +9238,7 @@ Get ahead of tomorrow
 Get an email address that posts incoming emails in this channel.
 Get an email address that posts incoming emails in this conversation.
 Get answers, create content, and build automations with AI that gets how you work.
+Get app support
 Get broadcast messages
 Get browser results
 Get bulk user groups from the userGroups.searchBulk endpoint by query
@@ -9321,6 +9443,7 @@ Give it another try...
 Give me a daily sales update from my CRM data every morning.
 Give me my daily briefing
 Give the dismiss button a descriptive 
+Give the input an accessible name with 
 Give us feedback
 Give your channel a name to continue. You can always change the name later.
 Give your space a logo
@@ -9382,6 +9505,7 @@ Go to previous page of results for App Launcher
 Go to previous step
 Go to the next step in the setup page wizard
 Go to variables
+Going somewhere else in Slack?
 Good Response
 Good afternoon. Big week ahead.
 Good design speaks for itself. Like Slackbot.
@@ -9601,6 +9725,7 @@ Guardian Egyptian
 Guest App Use Restrictions
 Guest accounts must be converted to full members before they can be changed to an admin or owner.
 Guest draw should not be mounted without an active peer
+Guests and frontline workers
 Guests are allowed in this channel.
 Guests are not allowed in this channel.
 Guests are not permitted in this channel
@@ -9686,6 +9811,15 @@ Handle when a user is removed from a team
 Handle workflow publish success
 Handler Calls
 Handler fired when the filter is activated (click or keyboard).
+Handler for keydown events on the input.
+Handler for when a key is pressed
+Handler for when an IME composition session ends.
+Handler for when an IME composition session starts.
+Handler for when the input is blurred
+Handler for when the input is focused
+Handler for when the input is pasted
+Handler for when the mouse enters the input
+Handler for when the mouse leaves the input
 Handler registered late
 Handles a channel tab being clicked
 Handles an active enterprise migration
@@ -9825,6 +9959,7 @@ Here you
 Hero Select
 Hero Select 2
 Hero image
+Hero image at 2x scale
 Hero video
 Hi David :wave:
 Hi from Slack
@@ -9906,6 +10041,7 @@ Highlights workspace rows
 Hint (optional)
 Hint array in the linearization dictionary is invalid.
 Hint text
+Hint text for below the text box
 Hint text will appear below the question, just like this text.
 History Navigation
 History Outlines
@@ -9955,8 +10091,12 @@ How do you want to set up your org?
 How do you want to use Slack?
 How does this impact your current use of Slack or how could it potentially improve your use of Slack in the future?
 How familiar are you with Slack?
+How far the dot is nudged from its anchor, in increasing steps.
+How finely the time dropdown subdivides each hour.
 How is the transcript? Tell us about your experience.
 How many files should they upload?
+How many lines the primary label may span before truncating.
+How many lines the secondary label may span before truncating.
 How many rows from the end of the loaded data to trigger fetching the next page while scrolling.
 How many?
 How satisfied are you with the customer relationship management (CRM) features in Slack so far?
@@ -10060,6 +10200,7 @@ I use this every day!
 IA4 comes to the UI Generator!
 IBM shifted into a higher gear of productivity by partnering with Slack
 IBM workplace
+ID for input + label
 ID not resolved after 10000s
 ID not resolved after 30000s
 ID was not set on pasted Entity. Dropping pasted data:
@@ -10121,6 +10262,7 @@ Icon select
 Icon size
 Icon wrap
 Icon wrap_2
+IconType | undefined
 Icons & text
 Icons and text
 Icons beyond the 8th row are progressively hidden on mobile
@@ -10227,6 +10369,7 @@ Import a workflow
 Import company contacts and give your team access
 Import data to Sales Tracker
 Import files into channels and DMs
+Import these from 
 Import workflow
 Import workflow and triggers
 Import your contacts and track follow-ups.
@@ -10248,6 +10391,7 @@ In Canvas expected
 In Progress
 In Translation
 In a huddle
+In a list
 In a pinch and need to get started writing in-product strings? We asked our content designers for some of the most important things to know when picking up the pen. You
 In a world where digital transformation is on the rise, executives turn to a digital-first culture.
 In client.refetchQueries, Promise.all promise rejected with error 
@@ -10342,6 +10486,7 @@ Indicates that the given workspace has completed migrating to an org
 Indicates that the given workspace has its access limited on this network
 Indicates that the given workspace is in the middle of an org migration
 Indicates that we have completed (or attempted) boot for all known workspaces
+Indicates whether this input is read-only
 Inferring subtype 
 Info fields
 Info level
@@ -10401,6 +10546,7 @@ Inline icon (optional)
 Inline styles
 Inline styles merged onto the outer element.
 InlineChannelEntity should not display IMs or MPIMs
+Inner padding.
 InnovateHub - Tech Expansion
 InnovateWare - Progressive Software Solutions
 Input Counts
@@ -10410,6 +10556,8 @@ Input array must contain at least
 Input cleared
 Input level:
 Input options
+Input or trigger clicked
+Input size.
 Input x must be non-negative!
 Insert a canvas
 Insert a channel notification override on the client only
@@ -10487,6 +10635,7 @@ Intended to avoid prompt attacks, violence, hate speech, sexual content, and oth
 Intentionally closing socket to simulate flakiness
 Intentionally throwing error to simulate flakiness
 Interactive Components
+Interactive content inside an entity
 Interactivity & Shortcuts
 Interactivity context
 Intercept and handle a slash commands when sending a message
@@ -10731,7 +10880,9 @@ Is multi selection model?
 Is select all checkbox checked on drafts page
 Is the channel owner
 Is there an agenda for the 
+Is there anything in this channel that needs my attention or reply?
 Is valid? When passed down from parent component
+Is value required?
 Isle of Man
 Isolation Mode 2
 Isolation Mode 3
@@ -10869,6 +11020,8 @@ Jump Links
 Jump Links Heading
 Jump after content
 Jump before content
+Jump link URL
+Jump link text
 Jump to a reply timestamp
 Jump to a saved message item
 Jump to a specific date
@@ -10926,7 +11079,7 @@ Keep responses concise, and use the occasional emoji
 Keep shared information secure and organized
 Keep tabs on your important messages
 Keep team details and resources organized.
-Keep teams organized and on track
+Keep the 
 Keep the current limit set by your organization
 Keep the headline under 8 words for maximum impact
 Keep the label concise and clear without relying on additional context.
@@ -10942,6 +11095,7 @@ Keep your projects, teams, and priorities straight. Organize your channels and c
 Keep your work tidy with sections
 Keeps count of how many members are in a team
 Keeps count of how many times a user has seen the quick reactions customization tooltip
+Keeps the actions bar visible while its overflow menu is open.
 Kent Kawahara
 Key Findings from Recent Discussions
 Key Type
@@ -10954,7 +11108,9 @@ Keyboard Shortcuts
 Keyboard focus
 Keyboard navigation
 Keyboard navigation has two modes, modeled on the Slack message pane:
+Keyboard shortcut that activates the button, announced to screen readers.
 Keyboard shortcuts
+Keyboard tab order
 Keyboard: Tab moves focus to the button (announcing the 
 Keyboard: Tab to focus, Enter or Space to activate.
 Keyformat 
@@ -11076,6 +11232,7 @@ Label_6 Outlines
 Label_7 Outlines
 Label_8 Outlines
 Label_9 Outlines
+Labels and placeholders
 Landing Page
 Landscape mode
 Language & region
@@ -11230,6 +11387,7 @@ Learn how to set up common providers
 Learn how you can use Slackbot to work faster with Salesforce
 Learn how your team is using channels
 Learn more
+Learn more & support
 Learn more about AI workflows
 Learn more about Audit Logs
 Learn more about Channel Expert.
@@ -11254,6 +11412,7 @@ Learn more about the anomalous reasons that flagged this event
 Learn more about the shape of the select state
 Learn more about verified organizations.
 Learn more about workflows
+Learn more link
 Learn, explore, or discover something new from Slack conversations
 Least favorite link
 Leave Channel
@@ -11296,6 +11455,8 @@ Let me show you what I can do.
 Let others know this task is done with a 
 Let people know what this channel is for.
 Let people know when responses might be delayed. If you already have a status set, Slack won
+Let the entity shrink below its default fixed width when its container is narrower.
+Let the preview height grow to fit its content instead of using the fixed default.
 Let them invite their coworkers
 Let your team know who you are
 Let your workspace owner know you
@@ -11335,6 +11496,7 @@ Liberation Serif
 Libertinus Mono
 Libertinus Serif
 Library items
+Library logo
 License assignment failed for the following users:
 License limit reached
 LicenseDefinitionCustomPermission (Developer Preview)
@@ -11520,6 +11682,7 @@ Loading agents
 Loading agents and apps
 Loading apps
 Loading automations
+Loading box
 Loading calendar
 Loading complete.
 Loading content
@@ -11690,7 +11853,6 @@ Log exposure for the team_creation_segmentation experiment if it is exposed
 Log exposure for the team_creation_segmentation_v2 experiment if it is exposed
 Log exposure for the trial_engagement_pocketguide_v1 experiment if it is exposed
 Log exposure for the trials_plan_choice experiment if it is exposed
-Log exposure for the unlimited_slackbot_promo_q1fy27 experiment if it is exposed
 Log exposure for the update_tc_segmentation_questions experiment if it is exposed
 Log exposure for the vacation_emoji_pack experiment if it is exposed
 Log express templates feedback
@@ -11723,6 +11885,7 @@ Logo above quote
 Logo library items
 Logo set
 Logo set library items
+Logo source
 Logos from
 Logout of Tableau Next
 Logs Slackbot AI DM open and unmount events
@@ -12380,6 +12543,7 @@ Make sure the correct speaker is selected
 Make sure the workflow details and permission are correct before publishing
 Make sure to test and confirm your configuration in order for members to sign in.
 Make sure you trust the developer and source before interacting.
+Make sure you trust this developer and source before interacting with it.
 Make the api call to create a public URL and open the dialog
 Make the most of AI
 Make the most of AI in Slack
@@ -12504,11 +12668,11 @@ Manage workflows
 Manage workspace roles
 Manage your MCP servers connected to Slack and control how your tools are used.
 Manage your customer relationships from Slack
+Manage your customers and enhance your efficiency with Business+
 Manage your customers, right in Slack
 Manage your email connection here
 Manage your own OAuth Tokens
 Manage your plan yourself, anytime
-Manage your team members and permissions via SCIM and SAML-SSO
 Manage your time and data
 Manage your web form here
 Managed by Quip admin
@@ -12604,6 +12768,7 @@ Mark that the workspace needs 2fa to be setup
 Mark the draft as sent
 Mark the file as read
 Mark the free-team Slack Connect validation fetch as settled
+Mark the input as required.
 Mark the quickswitcher shortcut as having been used
 Mark the threads which only have unread broadcasts
 Mark the time when highlights have been dismissed
@@ -12789,7 +12954,9 @@ Medium Cyan Solid 1
 Medium Gray-Magenta Solid 1
 Medium app
 Medium app list
+Medium base entity
 Medium file list
+Medium inline entity
 Medium-emphasis action (bordered, no fill). Use for secondary actions alongside a primary button.
 Meet Slack AI
 Meet Slackbot
@@ -14085,6 +14252,7 @@ Not checking for changes in DND status as all members are stale
 Not checking persistence storage method version because localStorage doesn
 Not complete
 Not completed
+Not configured
 Not connected
 Not custom files
 Not defined
@@ -14343,7 +14511,6 @@ Only Org Owners can manage this setting
 Only Sales Admins can use or modify these workflow steps.
 Only Show Link
 Only Slack Marketplace apps can be installed
-Only a Primary Owner can modify this setting
 Only a Primary Owner may disable this option.
 Only admins and specific people can post
 Only admins can add
@@ -14587,7 +14754,6 @@ Open magic paste menu
 Open media file in new window
 Open meeting details by event link ID
 Open meeting notes
-Open message
 Open message limit trial entry point modal
 Open mini window
 Open modal for adding a solution to an existing channel
@@ -14595,6 +14761,7 @@ Open modal to configure a trigger
 Open modal when a message send fails due to team having hit the message limit
 Open modal when insights.messageStats returns an error
 Open multi channel guest invite modal
+Open now
 Open or close JP Pocket Guide popover
 Open or close admin search
 Open or close onboarding tasks popover
@@ -14620,6 +14787,7 @@ Open share dialog to organization list
 Open share modal for file
 Open share prompt Slackbot education modal
 Open share this channel modal
+Open skill in Slack
 Open skill share consent modal
 Open slack connect DM invite generation modal
 Open slack connect DM invite success modal
@@ -14678,7 +14846,6 @@ Open third party file picker in the browser window. Callbacks should be handled 
 Open third-party file picker window and handle callback
 Open this link in your browser?
 Open thread
-Open to-do
 Open to-do item
 Open trial checkout or plans page if user can purchase
 Open troubleshooting panel
@@ -14912,7 +15079,6 @@ Opens the plans at glance modal
 Opens the prefs modal
 Opens the presence prompt dialog
 Opens the public URL dialog
-Opens the reminder custom modal
 Opens the remove domain verification dialog modal
 Opens the rename file dialog
 Opens the rename team modal in the client
@@ -14986,6 +15152,7 @@ Optional boolean to require an end date when a start date is set
 Optional boolean to show or hide the Clear Selection control
 Optional class name
 Optional class name for the anchor wrapper.
+Optional classname to be applied to the form container
 Optional content properties malformed.
 Optional date after which all dates should be disabled
 Optional date before which all dates should be disabled
@@ -15022,6 +15189,7 @@ Org Owners
 Org Owners and Org Admins
 Org Owners and guests
 Org Owners only
+Org Owners, guests, and frontline workers
 Org Primary Owner
 Org Settings
 Org admins
@@ -15055,6 +15223,7 @@ Organize files in this channel
 Organize the channels into a section in the Home sidebar for all group members.
 Organize work into dedicated spaces for every project, topic, or team.
 Organize your sidebar
+Organize your team
 Organize your work
 Organizing tasks under a shared goal
 Organizing tasks under a shared goal...
@@ -15106,6 +15275,7 @@ Override level
 Override startPosition with lastCurrentTime @
 Override the latest changes?
 Override user prefs based on URL query string
+Overrides forwarded to the underlying calendar Popover.
 Overview of planned Slack Platform deprecations
 Overwrites cached channel membership info for a set of users
 Overwrites our store of the teams in a given externally shared channel
@@ -15164,7 +15334,6 @@ Pair complementary testimonials (e.g., different industries or use cases)
 Pair with a section header to introduce the strip, or render on its own
 Pair.commentBefore is an alias for Pair.key.commentBefore. To set it, the key must be a Node.
 Pairs a date picker and a time picker so the user can select a single date-and-time value. It composes DatePickerSelect for the date half and TimePicker for the time half.
-Pale Blue Solid 2
 Pale Orange Solid 1
 Pale Purple Solid 1
 Palestinian Territory
@@ -15377,7 +15546,6 @@ People search: bulk update department filter
 People search: bulk update division filter
 People search: bulk update location filter
 People search: bulk update title filter
-People search: custom filter changed
 People search: filter type changed
 People search: hide deactivated users pref changed
 People search: indicate team profile fields are loading
@@ -15396,7 +15564,6 @@ People search: set the list of org filters to be suggested
 People search: set timezone filter suggestions
 People search: set title filters
 People search: sort changed
-People search: timezone filter changed
 People search: update an external org filter
 People search: update celebration filter
 People search: update department filter
@@ -15526,8 +15693,11 @@ Pinned tabs
 Pins a Slackbot AI NUX kickoff thread ts so its root message can be hidden
 Pitcairn Islands
 Place near the bottom of a landing page to address common objections.
+Placeholder date value if no date
 Placeholder options
+Placeholder shown when no date is entered.
 Placeholder text
+Placeholder text for this input
 Placeholder title
 Placeholder value if no date
 Plain Text
@@ -15664,6 +15834,8 @@ Plus access to archives for every existing conversation
 Plus access to archives for every existing conversation.
 Plus, send email without leaving Slack.
 Pointer Control
+Pointer-enter handler.
+Pointer-leave handler.
 Policies (opens in new tab)
 Poll client unreads API after delay
 Poll client unreads API on interval
@@ -15677,6 +15849,7 @@ Pop redo stack, push current json to undo stack
 Pop stash
 Pop undo stack, push current json to redo stack
 Popover dismissed before draft insertion.
+Popover zIndex options
 Pops out the current BK modal into its own window
 Pops out the current app dialog into its own child window
 Pops out the current app dialog into its own window
@@ -15790,6 +15963,7 @@ Press enter to view all organizations
 Press space
 Press spacebar to resume recording
 PressureObserver callback
+PressureObserver is not available; CPU pressure metric disabled
 Prevent downgrade today
 Prevent further auto-opening the canvas template preview in a DM
 Prevent spam submissions
@@ -15810,7 +15984,7 @@ Preview WebM URL (2x)
 Preview Word, Excel, and PowerPoint files in Slack
 Preview Your App Submission
 Preview Your Invitation
-Preview branch
+Preview container
 Preview deleted.
 Preview email content without leaving Slack
 Preview fetch failed
@@ -15872,6 +16046,12 @@ Primary Quote
 Primary Text Outlines
 Primary Title
 Primary Workspace Owner
+Primary action button onClick
+Primary action button text
+Primary action data-qa
+Primary action href
+Primary action icon
+Primary line (the name). Pass a BaseEntityText so truncation works.
 Primary organization
 Primary view actions
 Primary view header
@@ -15943,6 +16123,8 @@ Processing channel information
 Processing device list
 Processing shortcut
 Processing step restrictions:
+Processor script loaded but BackgroundSegmentationProcessor not found on window
+Processor script loaded but BackgroundSegmentationVideoFrameProcessor not found on window
 Product Demo
 Product FAQ
 Product Item I18Ns
@@ -16045,6 +16227,7 @@ Provide the below inputs to test run this step
 Provide the trigger element as 
 Provided effect config is invalid, not updating VideoFxProcessor
 Provided value 
+Provides the accessible name directly, overriding an associated 
 Provision a given solution for a given channel
 Provisionally connected
 Provisionally connected timeout
@@ -16092,7 +16275,9 @@ Publishes the app submission and optionally creates a beta app as well
 Puerto Rico
 Pull Quote
 Pull Request #1234
+Pull out action items
 Pull requests type changed
+Pull the action items out of this canvas
 Purchase Attempt Response Received
 Purchaser - collapsed
 Purchaser - expanded
@@ -16164,7 +16349,6 @@ Quickly find answers from across Slack and beyond
 Quickly find answers using Advanced AI search
 Quickly organize people, tasks, and key info in an easily accessible canvas
 Quinn Foster
-Quip Collab - Done
 Quip for Salesforce
 Quip organizations
 Quip team ID
@@ -16232,6 +16416,7 @@ Re-using existing voice focus node
 Re-validate knowledge source files after file store update
 Reach a support agent any time, with a four-hour first-response target.
 Reach for 
+Reach for its 
 Reach for the stars
 Reach out to your Salesforce admin to update your permissions for this org.
 React Context with a Provider wrapper for shared state.
@@ -16239,6 +16424,12 @@ React Documentation
 React Scan
 React class
 React component not mounted
+React component wrapper for checkboxgroup to have default Slack Kit style
+React component wrapper for multi-line text inputs to have default Slack Kit style
+React component wrapper for radiogroups to have default Slack Kit style
+React component wrapper for text inputs to have default Slack Kit style
+React component wrapper for text inputs to place an icon inside of the text component
+React component wrapper for text inputs with overlay text to have default Slack Kit style
 React form unexpectedly submitted.
 React to last message (or message with focus)
 React-Modal: 
@@ -16419,6 +16610,7 @@ Record options
 Record preview
 Record restored
 Record search & edits
+Record session flags for a user-initiated sidebar visibility change
 Record talk track
 Record that a message was deleted
 Record that a user has taken an action on a UI component
@@ -16620,10 +16812,13 @@ Redux Toolkit slice with async thunks.
 Redux slice
 Redux total store size:
 Redwood Suite
+Ref for optional help link
+Ref for optional secondary link
+Ref passed from a parent component
+Ref to the underlying button element.
 Refactor data access layer to async
 Refactored data access layer to async
 References external instructions
-Refetch search results
 Refetches localized APIs for a team
 Refinements can only contain text.
 Refinements cannot contain callouts.
@@ -17073,7 +17268,6 @@ Removed by
 Removed by a channel member
 Removed from the pinned items
 Removed from your saved items
-Removed from your to-dos.
 Removed possible XSS from clipboard data
 Removed responses
 Removed responses log
@@ -17217,6 +17411,7 @@ Renaming conversation
 Render Placeholder
 Render React
 Render complete
+Render the action as a link to this URL instead of a plain button.
 Render the icon with the 
 Render the leading checkbox column. Turn it off to reuse the selection styling and row-click behavior without the checkboxes.
 Rendered cell should include style property for positioning.
@@ -17391,6 +17586,7 @@ Required data not provided for incoming entity PB
 Required for AI agents to use this app
 Required for workflow builder steps to run on your behalf.
 Required webRTC APIs not supported on this device
+Required workspace for Frontline users
 Requires Sales Elevate access
 Requires an invite to join
 Reschedule message
@@ -17436,6 +17632,7 @@ Reset columns
 Reset error value for specified entity
 Reset external connector prefs to previous selections
 Reset external teams list by connection type
+Reset file type filters for unified files back to the defaults
 Reset filter values for entity
 Reset filters
 Reset filters for active entity and re-fetch results
@@ -17506,6 +17703,7 @@ Resets the streaming unreads state
 Resets user groups flexpane list to initial state
 Resetting camera ready state to allow retry after errors
 Resetting reachedEnd
+Resize properties for the text area
 Resize sidebar
 Resizes the huddle window
 Resolution not supported
@@ -17553,7 +17751,7 @@ Restore is not enabled for this workspace yet.
 Restore list record to a previous version
 Restore message
 Restore notification
-Restore or re-collapse the auto-collapsed sidebar on tab switch
+Restore or re-collapse the Slackbot-tab-scoped sidebar collapse on tab switch
 Restore response
 Restore selected
 Restore tab soda state from localStorage
@@ -17992,6 +18190,7 @@ Save slackbot thread_ts to meeting entity store via meetings.usersetdata
 Save team company info to the store
 Save the alt text changes before closing?
 Save the child window scrollmark when the user moves away from the view
+Save the most important things
 Save the scrollmark if the current user is viewing a public channel that they are a member of
 Save the thread scrollmark if the current user is viewing a public channel that they are a member of
 Save this file comment
@@ -18030,21 +18229,20 @@ Say goodbye to content creation, summaries, and your AI teammate, Slackbot.
 Say hello to someone
 Say hi to someone you know
 Say who can manage and post in channels
-Scale and connect globally
-Scale securely with Business+
 Scans messages and files sent by members of your organization to reduce the risk of sharing confidential, malicious, or personally identifiable content with external orgs.
 Scatter plot
 Schedule As Is
 Schedule Huddle
 Schedule Message
 Schedule Page
-Schedule Slack Meeting
+Schedule a Slack Meeting
 Schedule a draft for sending
 Schedule a meeting
 Schedule a message to be sent
 Schedule for later
 Schedule forward message for sending
 Schedule message
+Schedule or event
 Schedule your migration
 Scheduled messages
 Scheduled publish
@@ -18157,6 +18355,7 @@ Search content library
 Search conversations
 Search emails
 Search error
+Search every single message
 Search experiments
 Search external connections
 Search external results for multiple connectors in parallel
@@ -18167,7 +18366,6 @@ Search for
 Search for Salesforce Records
 Search for Salesforce records (DM-only)
 Search for Salesforce records to power full page search
-Search for a channel
 Search for a channel or person
 Search for a contact
 Search for a list by name
@@ -18281,7 +18479,11 @@ Secondary Name
 Secondary Quote
 Secondary Title
 Secondary View
+Secondary action button onClick
+Secondary action button text
+Secondary action href
 Secondary label
+Secondary line beneath the name. Pass a BaseEntitySubtext so truncation works.
 Secondary panel width
 Secondary view actions
 Secondary view has changed
@@ -18334,6 +18536,7 @@ See Slack in action
 See Upgrade Options
 See all apps
 See all conversations with 
+See all customers
 See all integrations
 See all notification settings
 See all people who can collaborate on this workflow
@@ -18794,6 +18997,7 @@ Set Section Elements
 Set Selected Product UI
 Set Slack Connect prefs for the current org
 Set Slackbot AI NUX state
+Set Slackbot NUX accepted recommendations
 Set Slackbot NUX carousel data
 Set Slackbot NUX carousel recommendations
 Set Slackbot mini dictation recording state
@@ -18910,6 +19114,7 @@ Set an array for all the templates shared with the user
 Set an error when failed to fetch a list of available admin Salesforce orgs.
 Set an error when failed to fetch a list of available user Salesforce orgs.
 Set an error when failed to fetch external datasource list.
+Set an explicit 
 Set and lock an Enterprise org
 Set and replace emoji collections
 Set and replace reacji triggers for multiple channels
@@ -19452,6 +19657,7 @@ Set the pagination state for a specific module
 Set the pending endpoint promise to resolve when done
 Set the persisted height cache
 Set the plan info in redux.
+Set the pocket guide v3 task completed animation as seen and refresh Megaphone notification data
 Set the point where a thread has unread messages
 Set the pref for the sound that plays when a message arrives to the focused conversation
 Set the pref for the sound that plays when a message is sent to the focused conversation
@@ -19603,6 +19809,7 @@ Set up channel post and comment permissions
 Set up client store
 Set up domain wide authentication
 Set up domain-wide authentication once so everyone in your org can get calendar features automatically.
+Set up secure channels with external organizations
 Set up the fields people will use to update info in this step.
 Set up two-factor authentication
 Set up workflows to collect items with forms, send due date reminders to assignees, and keep your team aligned with automatic summaries.
@@ -19668,6 +19875,7 @@ Set whether the loaded workflow is restricted from execution by away team member
 Set whether the meeting assistant Slackbot pane is open
 Set whether the meeting notes canvas is auto-opened
 Set whether the meeting notes canvas open
+Set whether the new-to-do create composer has unsaved content
 Set whether the onboarding tasks popover is programmatically opened (i.e. from clicking push notification)
 Set whether the search sidebar surface should be hidden for the actor (Business+ cohort)
 Set whether the slackbot onboarding welcome screen is currently showing
@@ -20378,6 +20586,7 @@ Sets whether the user groups page is loading
 Sets whether the user has overridden sidebar auto-collapse this session
 Sets whether the user is currently interacting with the screenshare view
 Sets whether the user is submitting a regenerate request
+Sets whether the user manually collapsed the sidebar on the big-mode Slackbot tab
 Sets whether the user wants to hide archived channels
 Sets whether the user wants to see only channels with AI ingestion enabled, disabled, or all channels
 Sets whether the user wants to see only public, private or all channels
@@ -20680,6 +20889,7 @@ Show Video Controls (accessibility)
 Show a desktop notification
 Show a desktop notification for generic_system_alert
 Show a desktop notification for user alerts
+Show a loading spinner in place of the clear button while results are fetched.
 Show a previously hidden unfurl
 Show a thread broadcast
 Show a toast for new summaries
@@ -20823,14 +21033,13 @@ Shows a toast when a user changes the channel property for AI notes autostart
 Shows an error message toast when user actions on a request fail.
 Shows an error toast when an app interaction fails due to restricted access
 Shows message pane for bots
-Shows specific user feedback based on a task already added
-Shows specific user feedback based on the new added task
 Shows the Later view or toggles the Workspace Switcher
 Shows the contacts ready toast
 Shows the email sent success toast
 Shows the flexpane profile for humans or messages for bots
 Shows the folder that contains the downloaded file
 Shows the kanban board record update failed toast
+Shows the onboarding ready toast after state machine transition
 Shows toast notification for dismissed message with undo option
 Shutdown already in progress, ignoring disconnect request
 Shutter priority
@@ -20948,6 +21157,7 @@ Site Footer
 Site Navigation
 Six to eight logos produces the most balanced layout
 Six-up logo strip with header
+Size of the underlying icon button.
 Size the button to match the height of adjacent elements it sits alongside, such as form fields.
 Size the icon button to the container it resides in.
 Size variant.
@@ -20996,7 +21206,6 @@ Skipping update index; Number of participants has not changed
 Skipping update to orderedTeamIds, allWorkspaces is empty
 Slack - Huddle
 Slack - Huddle Preview
-Slack 5 Preview
 Slack AI
 Slack AI Feedback
 Slack AI results have been updated
@@ -21038,6 +21247,7 @@ Slack Kit Debug
 Slack Kit Playground
 Slack Marketplace
 Slack Marketplace Installations
+Slack Meeting
 Slack Members Allowed Permissions Table
 Slack Members Restricted Permissions Table
 Slack Ochin
@@ -21067,6 +21277,7 @@ Slack channel
 Slack channel showing organized team conversations
 Slack channel with a focused team conversation
 Slack channels interface
+Slack conducts a brief review of apps in Slack Marketplace and does not endorse or certify these apps. If you encounter inappropriate content or behavior please report it.
 Slack developer platform logo
 Slack event trigger description
 Slack file suggestions collapsed
@@ -21115,8 +21326,6 @@ SlackOpaqueBlock: failed to parse block source attribute
 Slackbot (personal AI agent)
 Slackbot (personal AI companion)
 Slackbot AI
-Slackbot AI Promo Trial Banner - Control
-Slackbot AI Promo Upgrade Banner - Control
 Slackbot AI Thread Summary NUX
 Slackbot Agent Orchestration
 Slackbot Mini
@@ -21125,7 +21334,6 @@ Slackbot Mini keyboard shortcuts
 Slackbot NUX zero state error shown
 Slackbot Personal AI companion
 Slackbot Settings
-Slackbot Tab
 Slackbot access
 Slackbot admin assistant
 Slackbot already has this skill
@@ -21145,6 +21353,7 @@ Slackbot here. I
 Slackbot is not enabled for anyone in your organization.
 Slackbot is off for your organization.
 Slackbot is part of a conversation
+Slackbot is ready for your response in the Sales Tracker.
 Slackbot is ready. Type a message or choose a suggested skill to begin.
 Slackbot is standing by with recaps, drafts, and strong emoji opinions.
 Slackbot is thinking
@@ -21182,6 +21391,7 @@ Small (24px)
 Small Fonts
 Small app list
 Small business customers
+Small inline entity
 Small list
 SmallChannelEntity should not display IMs or MPIMs
 Smart Discount - Pro
@@ -21401,6 +21611,7 @@ Sprint 42
 Sprint planning
 Sri Lanka
 Staccato222 BT
+Stacked labels
 Stage changed
 Stale or unexpected session cookies
 Standard Message
@@ -21419,6 +21630,7 @@ Star agent
 Star app
 Star channel
 Star conversation
+Starred Files
 Starred Outlines
 Start A Chat
 Start AI Notes & Transcription
@@ -21459,6 +21671,7 @@ Start a conversation with your team
 Start a direct message
 Start a direct message using Slack Connect.
 Start a group conversation by topic
+Start a group meeting with AI notes
 Start a huddle
 Start a new conversation
 Start a new conversation, modify a conversation and modify channel details
@@ -21583,6 +21796,7 @@ Stashed message restored
 Stat Description
 Stat Heading
 Stat Number
+State announcements
 State of Palestine
 State prepared for hydration
 State should never change
@@ -21598,7 +21812,6 @@ Status is no longer returned by ListEventDataStores
 Status scheduled.
 Status: In progress
 Status: ready when you are!
-Stay data compliant and audit-ready
 Stay in 
 Stay in one app to manage contacts with your team
 Stay in the loop on busy channels with daily AI summaries
@@ -21649,6 +21862,7 @@ Stop the canvas jukebox
 Stop the huddle invite sound
 Stop the typing cleanup interval because there are no users typing
 Stop transcription for current huddle
+Stop using this as context
 Stopping StatsCollector
 Stopping audio track for Web Audio graph
 Stopping devicechange listener.
@@ -21720,6 +21934,8 @@ Streamline your major announcements
 Streams file from Salesforce and optionally triggers browser download
 Street Address
 Strengthen security for your workspace
+Stretch the preview to the full height of the entity.
+Stretch the preview to the full width of the entity.
 Stretch those shoulders and refocus.
 String literal with double or signle quote.
 Strip Newlines
@@ -21790,6 +22006,8 @@ Successfully retrieved 42 channels.
 Successfully retrieved thinking steps schema and configuration data
 Successfully updated effect on existing background worker device
 Suggest edits
+Suggest improvements
+Suggest ways to improve this canvas
 Suggested Channels
 Suggested Step
 Suggested agents
@@ -21818,11 +22036,11 @@ Summarize all unread messages
 Summarize any conversation with Slack AI
 Summarize busy channels instantly.
 Summarize channel
+Summarize channels in seconds
 Summarize conversation
 Summarize conversations or files, or extract key takeaways or action items
 Summarize custom date range
 Summarize huddle
-Summarize in seconds
 Summarize last 7 days
 Summarize latest messages
 Summarize message
@@ -21837,6 +22055,7 @@ Summarize the discussion up to now
 Summarize the file 
 Summarize the key points of this message in 2-3 bullet points
 Summarize the latest project updates
+Summarize this
 Summarize this approval
 Summarize this canvas
 Summarize this case -
@@ -21886,6 +22105,7 @@ Supports SIMD: true (force)
 Supports Security Assertion Markup Language (SAML)
 Supports Single Sign On (SSO) with the following providers
 Supports one click reaction
+Suppress the standard Slack Kit icon-button styling to render an unstyled action. Left at the default, the button uses the standard styling.
 SuppressNotificationReason: NONE
 Suppresses or re-enables automatic thread initialization from the auto-init side effect
 Suppressing the notification because we are in a window other than the main client window.
@@ -21999,6 +22219,7 @@ System.prepareImport() promise resolved
 SystemJS cache cleared
 SystemJS is missing the fork() method
 Systemd Units
+T | undefined
 TODO: Support non-isolated groups.
 TT: CALL empty stack (or invalid entry).
 TT: CALL invalid functions stack delta.
@@ -22014,7 +22235,6 @@ Tab - Files
 Tab - Home
 Tab - More
 Tab - Tools
-Tab Rail in Sunroof
 Tab name
 Tab options
 Tab previews
@@ -22050,7 +22270,6 @@ Take a coffee break together
 Take a nice, deep breath.
 Take a quick survey (4 questions)
 Take action
-Take back your time with powerful AI tools
 Take control of your sidebar
 Take meeting notes
 Take notes with AI
@@ -22085,6 +22304,7 @@ Task card block
 Task conversation
 Task created successfully.
 Task deleted
+Task details
 Task enqueued! You will receive a response soon.
 Task entity
 Task handlers are not supported in MCP Apps
@@ -22215,6 +22435,7 @@ Text fields
 Text fields allow channel mentions
 Text for an optional footer text-link. If empty, the link does not appear.
 Text formatting
+Text input
 Text links
 Text must be rendered as a DOM text node
 Text only, no title (with author)
@@ -22228,6 +22449,7 @@ TextAccessibilityManager is already enabled.
 TextHighlighter is already enabled.
 TextLayer task cancelled.
 TextSelection endpoint not pointing into a node with inline content (
+Textarea input
 TextyInput: could not create instance
 Thank you for trying Business+
 Thanks for letting us know! Your feedback helps us improve Agentforce for everyone.
@@ -22242,6 +22464,7 @@ That user has been deactivated.
 That would nest folders too deeply (6 levels max).
 The %TAG directive must only be given at most once per handle in the same document.
 The %YAML directive must only be given at most once per document.
+The ActionButtons to group in the bar.
 The AnnotationEditor is not enabled.
 The Assertion of the SAML Response does not contain a Conditions element. Please check your Identity Provider settings.
 The Assertion of the SAML Response does not have AuthnStatement element. Please check your Identity Provider settings.
@@ -22270,12 +22493,12 @@ The SAML Response is missing the ID attribute. Please check your Identity Provid
 The SAML Response is not valid. Please check your Identity Provider and Slack SAML settings.
 The SAML Response is not version 2.0. Please check your Identity Provider settings.
 The SAML Response was not sent through a HTTP_POST Binding. Please check your Identity Provider settings.
-The Salesforce Admin role for Slack members must be assigned individually for new Salesforce System Admins. The Salesforce Admin role grants permission to modify your Salesforce org connections.
 The Slack voice is the way we talk to people wherever they
 The UI Generator is pretty intuitive; in general, to change the name or title of an element, hover over it or click it.
 The UI Version is listed in a column in the Browse Existing and My Dashboard views.
 The URL will be created after you save this information.
 The Workspace Owner will need to approve the migration request.
+The actions bar to show when the entity is hovered or focused
 The adapter.js addTrack polyfill only supports a single  stream which is associated with the specified track.
 The agent card could not be parsed. Ensure it returns valid JSON.
 The agent card does not advertise a usable endpoint.
@@ -22313,6 +22536,7 @@ The badge is a small dot indicator enabled via
 The banner
 The basics
 The blocks do not contain any mentions
+The blocks you compose:
 The browser has blocked getUserMedia for cameras
 The browser has blocked getUserMedia for microphones
 The browser has blocked getUserMedia for screen recording
@@ -22322,21 +22546,29 @@ The button says
 The canvas owner has limited others from sharing this canvas.
 The changes were not saved. Please try again in a few minutes.
 The channel name is invalid. Please choose a different name.
+The class name for an icon
 The client disconnected while promoted, which will automatically demote. The attendee must promote again to participate.
 The coachmark width is dynamic, clamped between a minimum and maximum (see the 
 The color styles (e.g. 
+The component renders a 
+The component renders an 
 The connection failed due to an internal server error.
 The connection failed due to incompatible SDP.
 The connection failed. See the error message for more details.
 The constructor with parameters has been removed in JSZip 3.0, please check the upgrade guide.
 The content rendered inside the ratio-locked box.
+The content that will be appended to the end of the input
+The content that will be preprended to the beginning of the input
+The corner or edge of the container the dot anchors to.
 The count truncates once it passes 
 The current content is saved as a new revision and goes live automatically at the scheduled time. The currently published page keeps serving until then.
+The current input value (controlled).
 The current live page will be moved to the bullpen.
 The current message does not contain the given field
 The data contains invalid contents. Try again after editing.
 The day loads, one unread message at a time.
 The decode map is not the correct length
+The default value of this input
 The default. A full-width box; the standard alert.
 The default. A low-emphasis label with no status connotation.
 The default. Content aligns to the start of the alert.
@@ -22380,6 +22612,7 @@ The impact of Slack
 The important bits from your Gmail inbox
 The important bits from your Outlook inbox
 The indeterminate prop is only supported for the controlled Checkbox. Please provide the checked prop.
+The index of the entity if it is rendered in a list
 The informative style for use on a dark or colored surface.
 The initial call to search Google Directory groups indicates that the user does not have group access.
 The initial state of a Bidirectional layer cannot be specified as a mix of symbolic and non-symbolic tensors
@@ -22395,6 +22628,8 @@ The list has been deleted, or you no longer have permission to use it. Select an
 The list has been modified since the restore was previewed. Please close and try again.
 The list has reached the bottom and needs to load more apps
 The list owner has limited others from sharing this list.
+The maximum number of characters allowed. If this is set, this will enable the CharacterCount component.
+The maximum number of characters allowed. If this is set, this will enable the CharacterCount component. This is expected to not change over the rendering loop.
 The meeting already ended.
 The meeting ended because attendee removed.
 The meeting ended, or the attendee was removed.
@@ -22406,6 +22641,8 @@ The message field is deprecated, use the encodedMessage field instead. The messa
 The message format is invalid. Please try again.
 The message is not sent by a VIP user
 The migrating workspace has invalid users with missing emails or usernames.
+The minimum number of characters required.
+The minimum number of characters that must be typed before the CharacterCount is displayed.
 The model needs to be compiled before being used.
 The name of the pilot feature you are giving feedback about.
 The name of type. First letter must be uppercase.
@@ -22428,6 +22665,7 @@ The people who can edit this automation will also have access to any files share
 The person using the workflow
 The person who last interacted with the workflow
 The picker 
+The placeholder when the text input is empty
 The plural of canvas is 
 The plural of huddle is 
 The plural of list is 
@@ -22442,6 +22680,7 @@ The reported memory is an upper bound. Due to automatic garbage collection, the 
 The resources in this channel are AI generated and visible to everyone who joins the channel. Feel free to personalize it to your team.
 The rnn() functoin of the deeplearn.js backend does not support constants yet.
 The route path is invalid.
+The row size.
 The same day
 The section name is too long
 The selected asset is
@@ -22482,7 +22721,9 @@ The thread will still be visible
 The three UI types
 The timestamp of the last time something was starred
 The tone should match the notification and be reinforced by the 
+The tooltip to show when the remove button is hovered.
 The two main currencies at work are performance and connections.
+The two shared props
 The uploaded file will not be used as a header image because you navigated away.
 The user can set their own text.
 The user is a bot and cannot have their email updated.
@@ -22491,6 +22732,8 @@ The user is in a different region from the Huddle host, potentially causing incr
 The user will receive an email to verify and must confirm the updated email address within the next 24 hours.
 The value 
 The value must be at least 2 characters long
+The value must be at most 
+The value must match the pattern (
 The varList passed in variableGrads(f, varList) must be an array of variables
 The visual style of the alert.
 The visual style of the tag. The semantic styles carry meaning; the remaining named colors are for categorical labelling (e.g. distinguishing items in a list) and carry no inherent status.
@@ -22505,6 +22748,7 @@ Theme default
 Theme ghost
 Theme inverse
 Theme update button not rendered because colors are not provided.
+Then save time and let AI take notes
 Then you can translate your Product UIs into those languages too!
 Then, create a workflow
 There are currently no pending access requests
@@ -22521,6 +22765,7 @@ There are often other ways to show confirmation so you can likely remove that fr
 There are some instances where it
 There are three situations where we use 
 There are three ways to render a column
+There are two situations for it:
 There are unsaved changes. Are you sure you want to leave?
 There aren
 There can only be one pending page.
@@ -22589,6 +22834,7 @@ There were
 These accounts have been deactivated.
 These apps will appear in a 
 These are rare, so please check whether something should be capitalized in the 
+These field inputs are meant to be used only inside 
 These organizations are no longer connected.
 These principles expand on what we mean by 
 These three are closely related to each other, but have slight differences, especially when used as a link or CTA.
@@ -22841,6 +23087,7 @@ This person needs to be in the workspace before the channel can be shared.
 This person was recently invited. No need to invite them again just yet.
 This person will no longer have access to the channel and can only rejoin by invitation.
 This person will no longer have access to the channel and may need to request to rejoin later.
+This premium feature enhances your efficiency and secures your data with advanced AI, security features, and global compliance tools.
 This pretext appears above the card
 This property is deprecated and returns the Id and Description of the Provisioning Artifact. Use ProvisioningArtifactOutputKeys instead to get the Keys and Descriptions of the outputs.
 This property is deprecated, please refer to ErrorMetrics for both RMSE and WAPE
@@ -22864,6 +23111,7 @@ This route no longer exists. It may have been deleted.
 This section has a *button* accessory. Click it!
 This section will appear at the top of your sidebar so you never miss a mention or message.
 This selection includes locked content. To make changes, unlock edits.
+This server is not available to connect.
 This setting can be changed without any impact.
 This settings determines what invite preferences are available to users when creating a calendar huddle
 This should not be possible
@@ -22982,6 +23230,7 @@ Three-chip color area sensor
 Three-column feature grid
 Three-up, no header
 Threshold has been deprecated in favor of ThresholdExpression
+Thumbnail container
 Thumbnail image format is TIFF, which is not implemented.
 Thursday, Oct 23 2019, 11a
 Thursday, Oct 23 2019, 5:30am
@@ -23029,8 +23278,10 @@ Title Case
 Title Handler
 Title Tag
 Title card
+Title icon
 Title of step
 Title only, no text (with author)
+Title text
 Title view
 To add them to more channels, send a request to your admin to upgrade them to a Multi-Channel Guest.
 To add this guest to more channels, send a request to your Workspace Admin to upgrade them to a Multi-Channel Guest.
@@ -23064,12 +23315,12 @@ To-do cleared
 To-do marked complete
 To-do marked incomplete
 To-do moved to Saved
-To-dos in Home
 To-dos moved to Saved
 To-dos pagination
 Today is an AI-powered landing page to help you get situated, whether at the start of your day or when you need to refocus.
 Today view settings
 Today, you might want to focus on Q4 forecast variance, DataNet P1 escalation, and enterprise conversion performance.
+Todo list dismissed
 Todos added by you are all here.
 Toggle Privacy Mode
 Toggle Video
@@ -23129,6 +23380,7 @@ Toggle unread DMs
 Toggle user calendar OOO status sync state
 Toggle user calendar status sync state
 Toggle view-only mode
+Toggle-button pressed state, for buttons that toggle.
 Toggles Dark Mode
 Toggles a reference (message, list record, etc) in or out my task list
 Toggles celebration filter value
@@ -23172,11 +23424,13 @@ Tool execution failed
 Tool name
 Tool permissions
 Tools & settings
+Tools give Slackbot permission to take actions on your behalf.
 Tools list cleared.
 Tools list updated.
 Tools reloaded
 Tools required
 Tooltip title
+TooltipPosition | undefined
 Toothbrush, hairbrush, tinned food, cleaner, fruits & vegetables
 Top 10 writing tips
 Top 5 things to remember when writing UX copy for Slack.
@@ -23260,7 +23514,10 @@ Transform device not available for device swap
 Transform fetch messages API response
 Transform initial API responses
 Transform stream error:
+Transform your business with AI, CRM, and advanced security.
+Transform your work with Business+ advanced AI and security
 Transform your work with Business+ advanced AI and security.
+Transform your work with Slack CRM and advanced AI.
 Transient Sections
 Transient section timings
 Transition focus to a View
@@ -23277,10 +23534,11 @@ Translate Product UI
 Translate a Product UI
 Translate file summary
 Translate message
-Translate messages and more to work across global barriers
 Translate summary
 Translate to
 Translated, 
+TranslatedString | null | undefined
+TranslatedString | undefined
 Translation Completed
 Translation In Progress
 Translation Requested
@@ -23298,7 +23556,6 @@ Travel Modes
 Treatment A
 Treatment B
 Treatment C
-Trial - 14 day
 Trial Promo SubType
 Trial Promo Type
 Trial Team
@@ -23316,6 +23573,7 @@ Trigger a deeper research pass for a Slackbot AI message
 Trigger an attachment action
 Trigger attachment action with modified action
 Trigger auto-record on existing session
+Trigger closed
 Trigger organize channel files via Slackbot
 Trigger pref_change events for each of the preferences in the given payload
 Trigger side effects when a migration for an external org has updated
@@ -23411,7 +23669,6 @@ Trusted by teams everywhere
 Trusted domains for links in Slack MCP messages
 Try AI search
 Try Again
-Try Business+
 Try Business+ At No Extra Cost
 Try Business+ Now
 Try Business+ at No Extra Cost
@@ -23487,6 +23744,7 @@ Turn off my video
 Turn off notifications for replies
 Turn off proactive replies?
 Turn off replies
+Turn off skill
 Turn off video
 Turn off video incoming and outgoing video
 Turn off videos and camera to improve performance.
@@ -23608,8 +23866,6 @@ Unable to get work object
 Unable to initialize viewer
 Unable to list sent messages for user
 Unable to load Einstein Activity Capture status.
-Unable to load Salesforce organization details. Please try refreshing the page.
-Unable to load Salesforce organizations. Please try refreshing the page.
 Unable to load all migrations
 Unable to load diff
 Unable to load preview
@@ -23821,7 +24077,6 @@ Unlimited message history
 Unlimited message history with AI summaries
 Unlimited message history, Ai notes, calls and more
 Unlimited workspaces
-Unlock AI and more with Business+
 Unlock Business+
 Unlock SSO, automated user management, data exports, channel management and more.
 Unlock calendar features for everyone
@@ -23916,6 +24171,7 @@ Unstar conversation
 Unstar list
 Unstyled Button
 Unstyled buttons support just the base props and add button reset styles. Use them when you have a custom button and want to apply your own styles while keeping a real, accessible 
+Unstyled checkboxes
 Unsubscribe from file id to stop receiving document updates
 Unsubscribed from huddle perf metric updates
 Unsubscribes a list of channels from recap
@@ -24326,7 +24582,6 @@ Update to match my Slack settings:
 Update to the file upload % complete
 Update to the origin container
 Update to the origin window Id
-Update to-dos counts in tab
 Update typing timestamp for a given set of keys
 Update unfurl comments timestamp
 Update unread counts
@@ -24469,7 +24724,6 @@ Updates the profile of the currently authenticated user
 Updates the purpose of the user group
 Updates the reasons for using each scope
 Updates the record for a cell value change in a given opportunity list view
-Updates the reminder due date for the record assigned to the current user
 Updates the scopeIds for a given appId
 Updates the segmentation questions state machine with LoadingScreenCompleted if eligible
 Updates the selected org filter value and suggested teams
@@ -24658,7 +24912,6 @@ Upserts an AI translation for a message
 Upserts an AI translation for a prompt summary
 Upserts an acceptance eligibility result for a Slack Connect DM invite
 Upserts an acceptance eligibility result for a Slack Connect channel invite
-Upserts an acceptance eligibility result for a Slack Connect space invite
 Upserts an app configuration item
 Upserts app permissions for multiple apps given an array of app permissions objects
 Upserts blocked users by email
@@ -24683,6 +24936,7 @@ Upserts whether an acceptance attempt has failed for a specific Slack Connect in
 Upset an admin app config to the store
 Use 3 stats for a balanced layout, or 4 for dense data sections
 Use AI in workflows to automate little things that add up.
+Use AI to quickly get up to speed
 Use AI to summarize the 
 Use Authentication App
 Use Backup Authentication App
@@ -24714,7 +24968,7 @@ Use an em dash rather than a hyphen, and include a space before and after it. On
 Use an emoji reaction to respond to and manage support requests
 Use an eyebrow to add category context without cluttering the headline
 Use approved third-party apps to export or act on messages and files from Slack.
-Use arrow keys to move the mini player between corners
+Use arrow keys to move the docked player between corners
 Use as Page Break
 Use audio and video in new ways
 Use audio and video to bring your work to life. Record a quick idea with an audio clip, or share your screen in a video clip, all without leaving Slack.
@@ -24965,9 +25219,7 @@ Vector 23
 Vector 3
 Vector 4
 Vector 5
-Vector 5 (Stroke)
 Vector 6
-Vector 6 (Stroke)
 Vector 7
 Vector 7 (Stroke)
 Vector 8
@@ -25015,8 +25267,6 @@ Video and mic settings
 Video background
 Video calls with your study group
 Video clip
-Video clip mini player
-Video clip mini player opened
 Video clips
 Video connectivity
 Video demo or screenshots (Optional)
@@ -25025,6 +25275,7 @@ Video file
 Video input initialization
 Video input initialization failed
 Video meetings
+Video playing in docked player
 Video preview
 Video processing manager shutdown complete
 Video send is unavailable
@@ -25148,6 +25399,7 @@ View in Slack Marketplace
 View in browser
 View in full screen
 View information about ongoing and past calls
+View instructions
 View is not available in this environment.
 View item details
 View keyboard shortcuts shortcut - opens Keyboard Shortcuts in flexplan
@@ -25249,6 +25501,7 @@ Visible to everyone in your organization, including guests, but not to Slack Con
 Vision assistive
 Visit Agent Builder
 Visit Slack Marketplace
+Visit developer website
 Visual Basic
 Visual style variant.
 Visual style variants for Button.
@@ -25319,6 +25572,7 @@ Waitlist Participants
 Walk use case
 Wallis and Futuna
 Want More?
+Want advanced AI and security?
 Want each button to do something different? Turn them into workflow branches in one click.
 Want each emoji reaction to do something different? Turn them into workflow branches in one click.
 Want higher Slackbot limits? I can send your team owner a friendly nudge to upgrade.
@@ -25331,6 +25585,7 @@ Want to stay on Slack Pro?
 Want to summarize the messages you missed?
 Warm reload after extended page uptime to reduce heap usage
 Warm reload check failed
+Warn before discarding an in-progress new to-do composition
 Warn users before opening web results
 Warning in bangle.js:
 Warning level
@@ -25360,6 +25615,7 @@ We could not upload your files at this time. There may be an issue with your int
 We couldn
 We distinguish ourselves from other business communication software by using language in a deliberate, thoughtful way that encourages people to feel a deeper and more human connection with Slack. We
 We encountered a problem while loading. Try refreshing, and if the problem persists, contact your admin.
+We encountered a problem while setting up customer management. Please contact your admin for help.
 We ended your huddle since you were the only one there for a bit.
 We had a network request timeout and are on the SSB, we will now check to see if we have a broken network stack caused by an orphaned service worker
 We had some trouble connecting. Please try again.
@@ -25465,6 +25721,8 @@ What did you have for breakfast?
 What did you like about this article?
 What did you like?
 What do I need to know?
+What do people in this thread need from me?
+What do they need?
 What do we have in common?
 What do you want for our team weekly lunch?
 What do you want to call your Slack workspace?
@@ -25486,10 +25744,11 @@ What is this workflow for?
 What is wrong?
 What is your feedback?
 What kind of boot is this
+What level alert to show the error message as
 What needs my attention today?
 What questions are still open?
+What should I do next?
 What should I focus on regarding Q4 forecast variance, DataNet P1 escalation, and enterprise conversion performance?
-What should Slackbot remember about this topic?
 What should external people know about your role?
 What should they be able to do in this channel?
 What should they be able to do?
@@ -25570,6 +25829,7 @@ When you delete this workflow, it
 When you invite someone from an external organization to work with you using Slack Connect, use 
 When you pin columns with 
 When you recommend an app, it will appear here.
+When you save this step, we will create a new slack list for you.
 When you share a canvas here, anyone in this conversation can access it.
 When you share a list here, anyone in this conversation can access it.
 When you share a template here, anyone in this conversation can access it.
@@ -25587,6 +25847,7 @@ Where conversations happen
 Where do I get help? Do we have a channel for this?
 Where do you usually work with your team?
 Where messages are sent
+Where the dot anchors relative to its positioned container.
 Where to apply this rule
 Where to next?
 Where to use:
@@ -25595,20 +25856,36 @@ Whether an outside click dismisses the coachmark.
 Whether it is OK to interrupt a focus transition
 Whether options offers are on the quarter, half, or full hour
 Whether or not close button should be autofocused
+Whether or not input should render in error state
+Whether or not the checkbox is checked
+Whether or not the field is disabled
+Whether or not the field is invalid
+Whether or not the field is required
 Whether or not the input is disabled
+Whether or not to show the field as mixed or indeterminate
 Whether the Select All checkbox should be displayed in the header row
 Whether the Select All checkbox should be shown as checked
 Whether the Select All checkbox should be shown as indeterminate (i.e. partly checked)
 Whether the banner fades itself out automatically after a short delay (for passive, non-critical messages).
 Whether the banner is pinned with fixed positioning (spanning the top) rather than sitting in normal document flow.
+Whether the button is disabled.
 Whether the coachmark participates in F6 section navigation.
+Whether the component should extend to fill its container.
+Whether the entity renders a border.
+Whether the entity renders a drop shadow on hover.
 Whether the keyboard navigation is active
+Whether the text lines truncate rather than wrap.
 Whether to center the coachmark body on the arrow position rather than on the anchor.
+Whether to keep the gap between the two labels. Turn off for a tighter single-line feel.
+Whether to omit margin below the form element
 Whether to show a close button that lets the user dismiss the alert.
+Whether to show any input errors
+Whether to show errors. Setting this to false means all error properties will be ignored and no error will be displayed regardless of validity
 Whether to show the dismiss (close) button.
 Whether to show the header row with column headers.
 Whether to show the loading spinner.
 Whether to use the UnstyledButton element
+Whether we should focus back on input when pressing Esc when calendar is open
 Whether we want to allow enter key down to set currently focused date
 Whether you
 Whether you want to find a specific app or you
@@ -25619,6 +25896,7 @@ Which messages should I respond to first?
 Which of the following best characterizes what you were searching for? Select all that apply.
 Which of the following did you experience? Select all that apply.
 Which partner app would you like to install?
+Which side the tooltip appears on.
 While commands like @everyone, @channel, and @here call the attention of all members in a conversation, user groups let you choose who should get your message.
 While emoji themselves come in a standard set, their interpretations can vary quite a bit. Before you use a new emoji, do some digging into whether it
 While in-product content should use US English, we should still write in a way that is mindful that our in-product content will be localized into other languages.
@@ -25851,6 +26129,7 @@ Would you also like to unpublish?
 Would you like to approve these migrations?
 Would you like to post the email in this channel?
 Would you like to send notifications to people mentioned in this pasted text?
+Wrap a set of radios in a 
 Wrap field
 Wrap text
 Wrap the switch in a 
@@ -26056,6 +26335,7 @@ You were invited to direct message with:
 You will join this channel when you share the file into it.
 You will lose access to certain features unless we process payment.
 You will lose any unsaved changes to the record.
+You will lose any unsaved changes to your to-do.
 You will need to wait a few minutes before creating another app on this workspace.
 YouTube Embed
 YouTube URL
@@ -26080,6 +26360,7 @@ Your SSO changes are saved.
 Your SSO is now configured.
 Your SSO provider denied your authentication request.
 Your SSO settings prevent you from inviting people from this email domain.
+Your Sales Tracker is ready to go!
 Your Sales Tracker is ready to go.
 Your Salesforce org will be disconnected
 Your Salesforce records in Slack
@@ -26225,13 +26506,23 @@ ZoomAudioDevice (Virtual)
 [passthrough-remuxer.ts]: Failed to generate initSegment.
 ].includes(typeof e)?Number.isNaN(e)?
 _getAppearance: OffscreenCanvas is not supported, annotation may not render correctly.
+a fixed accent color, independent of theme.
+a hair off the anchor.
+a single dense row; for compact lists and pickers.
+a small nudge.
 addRedundantAudioRecoveryMetricsObserver is deprecated. Access encodedTransformWorkerManager directly via meeting session context.
 also sent to the channel.
 also sent to the group.
+away from the container (the dot sits outside the edge).
 back after lunch.
+bottom item: rounds only its bottom corners.
 browserDownloads() cannot proceed because the current environment is not a browser.
 calling ai.alpha.audio.boot...
 cell property is missing for the constructor of RNN.
+centered on the bottom edge.
+centered on the left edge.
+centered on the right edge.
+centered on the top edge.
 changed editing permissions for the channel canvas.
 changed the default visibility setting for the channel canvas.
 client.checkVersion should only be used in the client.
@@ -26248,8 +26539,11 @@ d expect a friendly colleague to use?
 d have in the office right in Slack.
 d like to stay from Oct 21 - Oct 23 (2 nights).
 d like to unarchive the channel, I can do that for you now.
+data is ready; blocks render the real content.
 data-block-source contained unparseable JSON; possible serialization bug in copy handler.
 dates accessor is deprecated. Use date instead.
+default text on a subtle background; for a selected row in a light context.
+default text on a transparent background; for standard list rows.
 disallowed character in attribute name.
 disallowed character in entity name.
 disallowed character in processing instruction name.
@@ -26264,6 +26558,7 @@ ensureEnterpriseTeamByDomain: No domain provided!
 est disponible que sur ordinateur.
 eum enim maxime velit veritatis, quod aliquid neque cumque, voluptates dicta.
 every second instead of every 30 seconds.
+fetching data; blocks render grey skeletons.
 focus the date field first.
 focus the time field first.
 for the fees payable hereunder in accordance wuth the payment schedule of Net 60.
@@ -26281,6 +26576,7 @@ in e?e.touches[0]:e)[r?
 in p.style?
 in t?t.key??
 in t?t.msg??
+interior item: square corners, shares borders with its neighbors.
 invite them first.
 is not supported. Use variables instead of inline arguments to overcome this limitation.
 joined the huddle.
@@ -26306,13 +26602,19 @@ markWithAPI tried too many times!
 maybeOpenModal failed to dispatch modal.
 missing required Quantization Table.
 moment().lang() is deprecated. Instead, use moment().localeData() to get the language configuration. Use moment().locale() to change languages.
+muted text on a subtle background; for a hovered or lightly-highlighted row.
+muted text on a transparent background; for de-emphasized or secondary entities.
 navigator.onLine appears to be untrustworthy; enabling workaround.
 no data available!
+no padding, for entities that supply their own spacing or sit in a tight container.
 no whitespace between attributes.
 numpad .
 onWorkspaceLaunch - Detected that user is logged in via the SSB.
+one option per hour (on the full hour).
 only stride 1 allowed on non-range indexing.
 optionalContentConfigPromise: Not initialized yet.
+options every 15 minutes (on the quarter hour).
+options every 30 minutes (on the half hour).
 parentWindow.matchMedia hook failed; system theme will not be updated.
 parseNestedOrder - reached MAX_NESTED_LEVELS.
 pinned by private user.
@@ -26355,11 +26657,18 @@ s accent color.
 s access first.
 s access. Choose a more restrictive option.
 s accessible name.
+s action rather than leaving it always present.
 s advanced AI, security features, and global compliance tools.
 s allowed domains list.
 s already been slowed down or inconvenienced, we want to be especially considerate of their time and cognitive energy.
+s autocomplete behaves for assistive tech.
+s being searched.
 s built on secure technology.
 s built-in header fields instead.
+s calendar Popover.
+s center (the dot overlaps the content).
+s change action.
+s click.
 s color and default icon.
 s color treatment. Pick the one that matches its surface and meaning.
 s configured region.
@@ -26369,15 +26678,27 @@ s context for future turns.
 s context menu. Try it out by selecting the _Create a Task_ action for this message (shown below).
 s current page to customize for this audience.
 s current page to work on.
+s data state; pass the same value to the building blocks inside.
 s date. Not configurable.
 s default icon with a named icon from the icon font.
+s details.
 s device is running on battery power, which could limit device performance and cause audio, video, or application lag. If they report such issues, suggest they connect their device to a power source.
+s diameter.
 s doing its job. But there are times when we need to take extra care with our tone. Moments when the people using our software need us to meet them where they are across a spectrum of emotions.
 s dtype must be an int32.
+s edge (e.g. a thumbnail skeleton flush against the container rounds only its outer corners).
+s fill color.
 s font-size, which is derived from the button size, so the icon scales in relationship with the button.
 s gonna hit about a 2-iron, I think. Oh, he got all of that.
+s header row.
+s header row. Renders a skeleton while loading and a warning icon on error.
+s height grow to fit its content instead of a fixed height.
+s height.
 s history.
 s important, and how to make it happen before reaching for emoji to provide it.
+s inner padding so the content sits edge to edge.
+s inner padding.
+s label.
 s language and region preference in BCP 47 format.
 s leading streaming platforms uses Slack to coordinate across 5,000+ engineers.
 s level.
@@ -26387,8 +26708,10 @@ s looking empty here!
 s message. May include links or an inline action, and an optional icon.
 s missing from my profile?
 s my Slack spirit animal?
+s name (a channel, file, member). Truncates with a tooltip.
 s natural pixel width.
 s new. Work with your content designers to craft messaging.
+s no focus to reveal it).
 s not clear exactly what the CTA applies to, use an article.
 s now the backbone of how we work.
 s on break right now. Try again later.
@@ -26396,11 +26719,13 @@ s only been shared with certain people at your organization.
 s or embedded Product UI.
 s org, and they are still connected, they can rejoin.
 s our job to help get them out, step by step, with inexhaustible patience.
+s overall size, which sets its width (with a minimum height). Pick one per surface and keep it fixed; a given entity typically renders at the same size wherever it appears.
 s own focus state.
 s own hover state.
 s own interactions.
 s permission to do so.
 s permissions you can visit the App page of the Slack Marketplace.
+s position when rendered in a list (e.g. a Keyboard Navigable List), which adjusts its border and corner radii so adjacent entities read as one grouped list.
 s power management settings.
 s preferences.
 s probably got some structural issues.
@@ -26412,8 +26737,11 @@ s routes!
 s search query history.
 s selection by clicking anywhere in the row, not just its checkbox.
 s shape.
+s size. Pass the same value to the building blocks inside so they render at the matching size.
 s snippet. Also, the possessive affix is localized, but please move it before or after the user name depending on whether possessives are prefixes or suffixes for your language.
 s taking a little longer than usual, but Slack AI is on the case.
+s text to clear.
+s text wrapper.
 s the backbone of how we work.
 s the right place and the right time.
 s time to get real. Tone helps us bridge the gap between our voice principles and the mental and emotional places our users find themselves in.
@@ -26436,6 +26764,9 @@ setAudioPayloadTypes is deprecated. Access encodedTransformWorkerManager directl
 setOutputPackedMatrixWriteRegion not implemented.
 setPageLabels: Invalid page labels.
 setWeights() is not implemented for Adamax yet.
+sits flush at the anchor, no nudge.
+something went wrong; blocks render a warning icon.
+standard padding; the default for list rows.
 startAudioInput - Trying fallback device by removing exact constraint. This will revert to default device.
 started screen sharing.
 stepsPerEpoch mode is not implemented yet.
@@ -26445,6 +26776,7 @@ subteam_deleted: No message event provided, or no subteam provided in the messag
 subteam_self_added: No message event provided, or no subteam id provided in the message event.
 subteam_self_removed: No message event provided, or no subteam id provided in the message event.
 t a dict.
+t access this entity; blocks render nothing.
 t add more than 3 Channel Managers. Please remove 1 to continue.
 t add more than three channel managers.
 t add significantly to tone.
@@ -26462,6 +26794,7 @@ t be undone.
 t be vague.
 t change the permissions scope of the authorization token.
 t click directly from the scoped search to the scope selector button. The first click clears the backdrop.
+t connect this server. Please try again.
 t construct the Blob.
 t create a ring buffer of unknown capacity.
 t create new workflows. Workflows that are currently running will still be available for members to use and for creators to update.
@@ -26507,6 +26840,7 @@ t start or end with a dash.
 t start recording. Please try again.
 t start the local video because the maximum video capacity was reached.
 t start, end, or separate with an extra slash.
+t support plain non-render prop children.
 t supported for metric component.
 t that useful. In that case, we remove the year and add in the day of the week instead.
 t the same type.
@@ -26522,8 +26856,18 @@ text data outside of root node.
 text is too long!
 tfQuery and tfCandidate must be Map instances.
 the app.
+the bottom-left corner.
+the bottom-right corner.
+the larger dot, for when the indicator needs more prominence.
+the largest form, adding a PreviewContainer for a rich preview.
+the largest nudge.
+the smaller dot; a subtle indicator.
+the sole item: rounds all corners, like a standalone entity.
+the top-left corner.
+the top-right corner (the most common badge position).
 tileController not found!
 to view or change your settings.
+top item: rounds only its top corners.
 transitionend event handler may not be invoked.
 translation available.
 turned off automatic AI huddle notes in this channel. Manage this setting in *Channel Settings*.
@@ -26546,3 +26890,4 @@ ve successfully described the value.
 ve upgraded after a trial.
 videosToReceive must be set in the meeting context.
 window.matchMedia hook failed; system high contrast theme will not be updated.
+z-index override for the tooltip, for stacking contexts that need it.
