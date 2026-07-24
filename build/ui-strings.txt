@@ -67,6 +67,7 @@
  argument.
  as a string.
  as prefix.
+ as secondary text.
  as the user types.
  attribute so the button remains focusable and screen readers can still announce it.
  attribute.
@@ -81,6 +82,7 @@
  caution.
  channel to let them know; reference your UI file name.
  characters.
+ close button appears.
  component coming soon!
  component is intended to be used on pages like the logged-in plans page and the downgrade flow.
  component is intended to be used when a user is considering upgrading, such as when they are onboarding as a new team or in a trial or at checkout.
@@ -111,6 +113,7 @@
  for more information. This offer is available for a limited time only, and Slack may end or modify this offer at any time without notice to you.
  for organizing related views.
  for the framework model and how the blocks compose.
+ for the full focus and keyboard model.
  for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
  form a single group in which only one can be selected at a time.
  from shared ini file.
@@ -176,7 +179,10 @@
  is the more inclusive term due to UI constraints.
  is the reason why the two components are able to operate in sync with each other.
  is used but not imported.
+ item labels should be short and sentence case.
+ item that expands to times).
  items (default 10).
+ items cannot be reordered by drag and drop.
  job. We grapple with architectural complications and weird internal jargon so that we can provide Slack users with the path of least resistance. Some even call that the happy path.
  kitchens, but avocado toast really is delicious. You can make it simple, fancy, or get creative with whatever you have on hand.
  light mode and dark mode and scales for usage inside peek menus and modals.
@@ -270,6 +276,7 @@
  to save your changes.
  to see exactly what functions took the longest to execute.
  to the date field for you.
+ to the one shown first.
  until its domain is verified.
  until the drop event.
  until your admin verifies the domain. Please reach out to your admin.
@@ -282,6 +289,7 @@
  when started fetching a list of available admin Salesforce orgs.
  when started fetching a list of available user Salesforce orgs.
  when started fetching external datasource list.
+ when the close button is visually at the top and should be first in focus order (e.g. fullscreen modals containing large iframes). Defaults to CloseButtonPosition.Bottom.
  when the performance problem arises.
  when you need structured content.
  will be permanently removed. Any tools associated with this MCP server will no longer be available.
@@ -301,12 +309,14 @@
 (s) of element(s) that contain a longer description of its purpose.
 (s) of element(s) that contain a longer description, such as hint text.
 ) are ignored.
+) can interrupt the close to guard against an unintended action.
 ) do the converting.
 ) does not match the calculated CRC32 checksum.
 ) is not supported yet.
 ) pass through to the calendar.
 ) render as caret icons.
 ) so the browser and assistive tech treat it correctly.
+) sparingly; a clear primary label is preferred.
 ) styled as a rounded button. Useful for links outside the Slack client that need to look like buttons.
 ) that performed expensive computation.
 ), falling back to Type1.
@@ -427,9 +437,11 @@
 :void 0,credentialless:p?
 :void 0,skipDoneDialog:!0,buttonClassName:t?
 :w.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e6,title:eB?eV:void 0,className:(0,r.A)(eB||T||eU?
+; a close button is added automatically.
 ; and that mission comes from within our own workspaces.
 ; opening the overflow menu keeps the actions visible until it closes.
 ; speak to the content or the action.
+; the DOM is keyed per pane so it resets between views.
 ; the checkbox is announced as required.
 @Finance Team Can you review this edit from Cathy Customer?
 A CTA with the same button text, link, and variant already exists
@@ -440,6 +452,7 @@ A DM was created
 A DateTimePicker with a built-in visible Label wired to it for accessibility. Use it instead of DateTimePicker when the field needs its own rendered label rather than an external one.
 A GIF is worth a thousand words
 A JavaScript expression as value.
+A MenuItem variant that renders as a big outline button
 A NamedTab is required to be specified for the main window
 A Outlines
 A Peek Header supports:
@@ -544,12 +557,14 @@ A member has added an emoji reaction to an item
 A member has removed an item saved for later or starred an item
 A member has saved an item for later or starred an item
 A member removed an emoji reaction
+A menu is hidden until its 
 A message was posted containing one or more links relevant to your application
 A message was posted in a direct message channel
 A message was posted in a multiparty direct message channel
 A message was posted to a channel
 A message was posted to a private channel
 A message with 
+A modal is composed from subcomponents wrapped in the 
 A modal is open and requires full focus
 A more compact treatment for numeric counts in constrained layouts (widens to a pill for double digits).
 A new app messaging experience makes having conversations with AI-powered agents and assistants a snap. Install apps with an assistant or agent, and put them to work today.
@@ -893,6 +908,7 @@ Accessible label for the coachmark dialog, announced to screen readers.
 Accessible multi select
 Accessible name for the icon-only button. Required.
 Accessible name for the input.
+Accessible name for the menu, announced when it opens.
 Accessible tabs
 Accessing Slack from a Tor exit node
 Accessory buttons
@@ -940,6 +956,7 @@ Action item dismissed
 Action program
 Action to take
 Action-oriented daily briefing combining calendar, Slack activity, email, and connected tools into a prioritized view. Answers three questions: What should I do first? What
+Actionable items
 Actions & Permissions
 Actions bar
 Actions for member
@@ -1365,7 +1382,6 @@ Add default for future workspaces
 Add description
 Add descriptive and branded names (usually there
 Add details about this meeting
-Add details to connect MCP servers to your app.
 Add display column
 Add domain
 Add emoji and GIFs
@@ -1597,7 +1613,6 @@ Added to your saved items
 Added to your todo list
 Added window with dimensions: 
 Adding a data source allows you to start workflows based on something happening in another system. Contact your Slack admin to add a data source.
-Adding an MCP server will automatically add the mcp:connect bot scope to your app.
 Adding different instances of a keyed plugin (
 Adding failed connection attempt to back off
 Additional Info
@@ -1840,6 +1855,7 @@ All anomaly types
 All app types
 All available fields have been added
 All canvases
+All caught up
 All changes must be reviewed through Arch Sys Design Checkpoints and approved by Arch Sys FE Surfaces leads.
 All changes to the header must be reviewed and approved by XFN Architecture System Leads.
 All channels
@@ -2019,6 +2035,7 @@ Alt Text
 Alt Text (override)
 Alt Text Editor
 Alt text failed to generate, please try again or enter manually.
+Alt text for the header image, when one is set.
 Alt text not generated due to image content being out of policy.
 Alt text reminders
 Alt text saved.
@@ -2120,6 +2137,7 @@ American Samoa
 American Typewriter
 Americas, English (US)
 Amount changed
+Amount of padding, in pixels, on each side of the Modal. Defaults to 28.
 An AI agent has proposed changes to your workflow. Please review and approve or reject.
 An AI file summary preview will appear when files are shared in conversations, and will be available in file details.
 An EKM backfill is in progress.
@@ -2185,6 +2203,8 @@ An unusually long chart title intended to exercise wrapping behaviour inside the
 An update of the desktop state from the desktop app
 An update of the window frame state
 Analytics Agent Performance Roadmap
+Analytics properties forwarded to the cancel button.
+Analytics properties forwarded to the submit button.
 Analytics properties forwarded to the underlying button when interactive.
 AnalyticsAgent: Running in manual mode (tracking 
 AnalyticsAgent: Running in multi-component mode
@@ -2219,6 +2239,8 @@ Announce to assistive tech that item was selected or unselected
 Announce when the secondary view is closed
 Announcement (see IA4 spec)
 Announcement Banner
+Announces the item was selected
+Announces the menu opened and reads the first item
 Announces to screen readers that the secondary view has changed
 Annual Figma Professional seat for design system work on the Block Kit project.
 Annual Revenue:
@@ -2728,6 +2750,7 @@ AutoClog props for primary action
 AutoClog viewer
 AutoClogProps | undefined
 Autocomplete Handler
+Autofocus the cancel button instead of the submit button.
 Autologging params for the click action.
 Autologging params for the toggle action.
 Autologging params forwarded to the container button (only applied when interactive).
@@ -2928,6 +2951,7 @@ Because
 Because a raw checkbox is an 
 Because a raw radio is an 
 Because an icon button has no associated text, 
+Because it extends 
 Because the dot is absolutely positioned, its container 
 Because the visual spinner isn
 Before you add a scrim, ask:
@@ -3013,6 +3037,7 @@ Book Antiqua
 Bookmark a workflow
 Bookmark to channel
 Bookmarked workflows
+Bool force speed bump on render.
 Boolean value indicating if the text area should be focus
 Boop boop
 Boot queue paused for too long
@@ -3378,6 +3403,9 @@ CRM in Slack follow-up survey
 CRM in Slack survey
 CSA Star level
 CSA logo
+CSS class name to be applied to the body when the modal is open.
+CSS class name to be applied to the modal overlay.
+CSS class name to be applied to the modal.
 CSV download failed
 CSV downloaded successfully
 CSV file processed
@@ -3489,14 +3517,24 @@ Called after a Salesforce org config is updated
 Called after a team is successfully disconnected from a Salesforce organization
 Called after a user is successfully connected to a Salesforce organization
 Called after a user is successfully disconnected from a Salesforce organization
+Called after the modal has finished closing.
+Called after the modal opens.
 Called refetch(
 Called updateDocMetadataFromPb without valid input!
 Called when focus enters the banner.
 Called when focus leaves the banner.
 Called when message action is completed and focus needs to move back to the message
 Called when the banner is dismissed (via the close button, Escape, or auto-fadeout).
+Called when the cancel button is pressed.
 Called when the card is clicked.
+Called when the dialog is closed.
+Called when the menu closes (e.g. Escape, or selecting an item).
+Called when the menu is closing, regardless of what triggered it.
 Called when the menu should close: Escape, an outside mousedown, or a menu item being chosen.
+Called when the modal closes.
+Called when the modal is closed.
+Called when the modal is requested to close (Escape, overlay click, or close button).
+Called when the submit button is pressed.
 Called when the user toggles the switch.
 Calling clearDrafts on MessageInput:updateDraft where there is no delta
 Calling clearDrafts on send from MessagePaneInput
@@ -4284,6 +4322,7 @@ Choose an option
 Choose an option to kickstart your work:
 Choose apps relevant to the page audience or use case
 Choose background
+Choose between the confirmation variants by what the moment needs:
 Choose channels
 Choose channels for your recap
 Choose data to test with:
@@ -4352,6 +4391,7 @@ Claim Education Discount
 Clarify details of what your step will do.
 Class being registered does not have the static className property defined.
 Class extends value 
+Class name applied to the modal.
 Class name for calendar component
 Class name for the title icon.
 Classic Apps Deprecation
@@ -4792,6 +4832,7 @@ Close troubleshooting panel
 Close view
 Close window
 Close without adding anyone to this channel?
+Close-button tone for contrast over a header image.
 Closed Lost
 Closed Team
 Closed Won
@@ -5067,6 +5108,7 @@ Confirm remove variant
 Confirm settings for migration?
 Confirmation dialog enabled for external links
 Confirmation dialogs
+Confirmation modal
 Confirmations and warnings
 Confirms a positive outcome (green).
 Confirms something worked. Use sparingly; weigh whether the moment warrants it.
@@ -5079,7 +5121,6 @@ Connect Email
 Connect Gmail
 Connect Gmail (opens in a new tab)
 Connect Google Mail
-Connect MCP servers to your app.
 Connect Outlook
 Connect Outlook (opens in a new tab)
 Connect Salesforce Org
@@ -6144,7 +6185,6 @@ Debounced auth.test check
 Debounced call to maybeTranslateMessage in message change
 Debug & Log
 Debug Mode
-Debug logs for your MCP server connections and tool calls. Only includes activity from app collaborators.
 Debug tracing is OFF
 Debug tracing is ON
 Debug tracing is already enabled.
@@ -6497,6 +6537,7 @@ Diagnostic report
 Diagnostic report sending not implemented.
 Diagram of front ends at slack
 Dial-in Number:
+Dialog modal
 Dictate message
 Dictation chunk upload failed
 Dictation failed. Please try again.
@@ -6548,6 +6589,8 @@ Disable preview
 Disable progressive disclosure
 Disable skill
 Disable the save button until at least one date is selected.
+Disable the submenu trigger item.
+Disable the submit button.
 Disable two-factor authentication
 Disabled File
 Disabled date error text
@@ -6883,6 +6926,7 @@ Drop here to replace
 Drop messages from before a given timestamp
 Drop old messages if there are too many
 Drop result must either be an object or undefined.
+Drop separators that land in the first or last position.
 Drop to upload
 Drop your CSV file here.
 Dropping fragment 
@@ -6925,7 +6969,6 @@ During trial
 During trial: Can appear while a user is on a trial.
 During trial: Shown while a user is in a trial, to flag limited access to a paid feature.
 Dwight Schrute
-Dynamic Client Registration
 Dynamic Client Registration failed for this MCP server.
 Dynamic catch values are not supported in JSON Schema
 Dynamic documents
@@ -6949,6 +6992,8 @@ Each key renders as an image (
 Each link or QR code works for up to 400 people. To keep your workspace secure, only share the invite with people in your organization.
 Each object in 
 Each pair must have its own sequence indicator
+Each pane
+Each pane sets its own accessible name via 
 Each row
 Each slot defaults to 
 Each tile is fully clickable; do not try to nest a CTA inside the paragraph
@@ -7952,6 +7997,7 @@ Extra CSS classes for menu element
 Extra CSS classes for popover element
 Extra class for the wrapper.
 Extra class name for dropdown component
+Extra class names applied to the menu.
 Extra content rendered inside the calendar popover, below the calendar.
 Extra, extra!
 Eyebrow + headline + CTAs
@@ -9220,6 +9266,7 @@ For lottie
 For myself
 For others
 For questions or further assistance, reach out to us at
+For simple confirmations, reach for a 
 For testing
 For the entire organization
 For the most part, avoid second person in errors because it comes off as blaming the user
@@ -9235,6 +9282,7 @@ Force all huddles NUX components to show for the session
 Force coachmarks to be hidden due to an overlay appearing
 Force refreshing unreads
 Force session reset and rebind SSO
+Force the submenu to open to the left of its trigger, rather than choosing a side by fit.
 Forces this client to use path-style addressing for buckets.
 Forcing display of join preview due to device permission problems
 Forest Floor
@@ -9781,7 +9829,10 @@ Google Hangout
 Google Hangouts
 Google Meet
 Google Meet Meeting
+Google Sans Display
+Google Sans Flex
 Google Sans Flex Normal
+Google Sans Text
 Google Sheet
 Google Sheets
 Google Slide
@@ -9965,6 +10016,7 @@ Group name is too long.
 Group one
 Group one, first
 Group options
+Group related items with a 
 Group submessage did not end with an END_GROUP tag
 Group this channel with similar conversations in your sidebar and choose when you want to be notified about new messages.
 Group two
@@ -10139,6 +10191,7 @@ Header image repositioning is not supported.
 Header only with hero image
 Headers in most Primary Views should include Split View entry points (e.g. icons or buttons) when relevant.
 Headers orient users with titles, subtitles, and a small set of object-level actions.
+Headers with images
 Heading 1
 Heading 2
 Heading 3
@@ -10479,6 +10532,7 @@ IA4 comes to the UI Generator!
 IA4 introduced a range of new theme and color variables to the codebase. While these provide a range of 
 IBM shifted into a higher gear of productivity by partnering with Slack
 IBM workplace
+ID for a child element that provides an ARIA description for the modal. Use this in addition to labelledby or contentLabel to provide more context about the modal.
 ID for input + label
 ID not resolved after 10000s
 ID not resolved after 30000s
@@ -10548,6 +10602,8 @@ Icons and text
 Icons beyond the 8th row are progressively hidden on mobile
 Icons for Google Drive, Outlook, Zoom, DocuSign, Adobe and Jira connected to Slack icon
 Icons only
+Id of a visible element that labels the menu.
+Id of an element describing the menu.
 Id of the item that is initially tab-focusable; defaults to the first interactive item.
 IdP Groups
 Ideas in Action
@@ -10764,6 +10820,7 @@ Increments totalUnreadReplies
 Indent a list item
 Index ingestion is paused, setting most recent index as pending
 Index load error
+Index of the item selected on first render.
 Index out of range
 IndexedDB not available
 Indexing all PDF objects
@@ -11875,6 +11932,7 @@ Links and Resources
 Links cannot span multiple sections.
 Links use 
 Links with additional content
+Links: use the 
 Linux Libertine
 Linux Libertine Mono O
 Linux Libertine O
@@ -12761,7 +12819,6 @@ MCP Auth:
 MCP Integration
 MCP OAuth popup blocked by browser
 MCP Server Access
-MCP Server Connection Details
 MCP Servers
 MCP app log
 MCP connections coming soon.
@@ -12774,7 +12831,6 @@ MCP server enabled successfully.
 MCP server tools fetch failed
 MCP server workspaces
 MCP servers
-MCP servers navigation
 MDN Web Docs
 MERGED_FROM_LOCAL set outside of save response
 MIPS Assembly
@@ -13014,7 +13070,6 @@ Manager ID
 Manages and approves things for the team
 Manifest JSON
 Manifest YAML
-Manual OAuth
 Manual slides require at least a quote and a featured image; everything else is optional
 Manual warm reload via slackDebug.warmReload.reloadNow()
 Manual white balance
@@ -13159,6 +13214,7 @@ Material Theme Palenight
 Math is hard
 Max Wait
 Max days reached for event exceeding 366 days
+Max height before the menu scrolls; defaults to the viewport height.
 Max selectable items
 Max size of CID is 65,535
 Maximum Children (10)
@@ -13395,6 +13451,7 @@ Mentions only
 Menu actions for 
 Menu bar
 Menu in Slack channel with option to view history from the very beginning
+Menu item
 Menu.renderMenuItem called without this.menuChildren
 MenuItem 1
 MenuItem 10
@@ -13672,8 +13729,11 @@ Mobile push notifications toggle changed
 Mobile session duration disabled
 Mobile sessions must be a minimum of 4 hours.
 Mock user settings
+Modal (fancy title)
+Modal (speedbump)
 Modal Size
 Modal Title
+Modal content ref to pass through to the ReactModal container
 Modal title Outlines
 Modals play an important role in Slack
 Model Browser
@@ -13788,6 +13848,7 @@ Move tab down
 Move tab up
 Move task down
 Move task up
+Move these channels?
 Move to Saved
 Move to a private channel
 Move to a private channel?
@@ -13828,6 +13889,7 @@ Multi-line double-quoted string needs to be sufficiently indented
 Multi-line single-quoted string needs to be sufficiently indented
 Multi-line view
 Multi-message Coordination
+Multi-pane modal
 Multi-select table
 Multi-step coachmark sequences highlighting one element at a time
 Multi-volumes zip are not supported
@@ -14037,6 +14099,7 @@ Navigation skipped: not in Activity Inbox view
 Navigation within Split Views is intentionally limited to prevent disorientation from deep or recursive navigation paths.
 NavigationController bodies should implement shouldComponentUpdate (usually via PureRenderMixin) to avoid frequent re-rendering and possible infinite feedback loops. This component does not appear to.
 NavigationItem not found in context. Component may not have rendered yet.
+Navigational items
 Need To Request Access
 Need a crash course in writing strings for Slack?
 Need audio tracks to run analyser
@@ -14810,6 +14873,7 @@ On a call
 On blur handler
 On call window closed
 On click handler
+On close, focus returns to the element that opened the modal (
 On date change
 On date click handler
 On end date change
@@ -15194,6 +15258,7 @@ Open the help flexpane
 Open the huddles edit topic modal
 Open the manual deny request modal from Slackbot message
 Open the meeting details view for a given calendar event
+Open the menu and focus the first item
 Open the modal to set solution template permissions
 Open the recap mute education modal
 Open the removed from workspace refresh dialog
@@ -15519,10 +15584,12 @@ Optional classname to be applied to the form container
 Optional content properties malformed.
 Optional date after which all dates should be disabled
 Optional date before which all dates should be disabled
+Optional icon shown to the left of the label.
 Optional inline style for the anchor wrapper.
 Optional max value, in same format and timezone as value.
 Optional maximum number of days in the selectable range
 Optional min value, in same format and timezone as value.
+Optional object containing props to pass to AutoClog.
 Optional override for the inner iframe
 Optional string for save button copy
 Optional string to re-render calendar picker when cleared by external caller
@@ -15587,6 +15654,7 @@ Organize work into dedicated spaces for every project, topic, or team.
 Organize your sidebar
 Organize your team
 Organize your work
+Organizing menus
 Organizing tasks under a shared goal
 Organizing tasks under a shared goal...
 Orion returns to Earth after record-setting lunar flyby mission.
@@ -16280,6 +16348,7 @@ Precache visibility filters for this user before they kick off a search
 Precedes an irreversible or destructive action; state the consequences.
 Prefer a real label over ARIA attributes for naming a switch.
 Prefer a visible label when possible: use LabelledDateTimePicker, which renders a 
+Prefer starting a label with a verb (
 Preference to turn off peek
 Preferences and Accessibility
 Preferences shortcut - opens Preferences
@@ -16818,6 +16887,7 @@ Reach out to your Salesforce admin to update your permissions for this org.
 React Context with a Provider wrapper for shared state.
 React Documentation
 React Scan
+React children.
 React class
 React component not mounted
 React component wrapper for checkboxgroup to have default Slack Kit style
@@ -17215,7 +17285,9 @@ Redux total store size:
 Redwood Suite
 Ref for optional help link
 Ref for optional secondary link
+Ref forwarded to the internal close button IconButton.
 Ref passed from a parent component
+Ref to pass through to the ReactModal container
 Ref to the underlying button element.
 Refactor data access layer to async
 Refactored data access layer to async
@@ -17629,7 +17701,6 @@ Remove the offline system message
 Remove the quip offline system message
 Remove the specified ViewSet key from the store
 Remove the specified view
-Remove this MCP server?
 Remove this connection?
 Remove this memory?
 Remove this org?
@@ -17813,6 +17884,8 @@ Render inline with adjacent content rather than as a block.
 Render the action as a link to this URL instead of a plain button.
 Render the icon with the 
 Render the leading checkbox column. Turn it off to reuse the selection styling and row-click behavior without the checkboxes.
+Render the submit button as a loading button.
+Render without the default menu chrome (surface, border, padding).
 Rendered cell should include style property for positioning.
 Rendered doc
 Rendered via the fallback convention
@@ -19528,6 +19601,7 @@ Set all search summary labels
 Set all searchable record options for an org
 Set all work object modules loading state
 Set an Enterprise org
+Set an accessible name: pass 
 Set an app functions permission
 Set an array for all templates created by the user
 Set an array for all the canned templates
@@ -21438,6 +21512,7 @@ Show the secondary coachmark anchored on the section menu following dismissal of
 Show the secondary coachmark if user chooses to hide muted channels
 Show the secondary coachmark if user dismisses hide muted channels coachmark
 Show the share a file coachmark
+Show the submit button in a loading state.
 Show the work object in a synced state
 Show these tabs in the navigation bar. At smaller window sizes, not all selected tabs may appear.
 Show these tabs in the navigation bar:
@@ -21680,7 +21755,6 @@ Slack HQ, San Francisco
 Slack Help Center
 Slack Huddle
 Slack Huddles
-Slack Identity Auth
 Slack Kit Debug
 Slack Kit Playground
 Slack Marketplace
@@ -21995,6 +22069,7 @@ Source Count
 Source contains multiple documents; please use YAML.parseAllDocuments()
 Source content may be used in the AI response and shared with people using the workflow.
 Source data is missing a component at (
+Source for an optional header image shown above the title.
 Source node not found for alias node
 Source: Initech customer interview, 2024.
 Source: Slack Customer Survey, 2024
@@ -22032,6 +22107,7 @@ Specific users
 Specific workspace
 Specific, direct CTAs
 Specifies the last time we retrieved event update data
+Specifies the maxWidth of the Modal container. Optional, defaults to null.
 Speed Bump Demo
 Speed up communication and work more securely with external people.
 Splash state machine fetch timed out
@@ -22402,6 +22478,7 @@ Structure gap-replace would overwrite content
 Structure replace would overwrite content
 Structuring sequential workflow steps with cohesive planning display
 Stuck save in progress indefinitely
+Style for the submit button.
 Style like a #channel
 Style like a @mention
 Style like a link
@@ -22590,6 +22667,7 @@ Switch agent
 Switch avatar
 Switch back to production assets
 Switch child window column modes based on window width and the width breakpoints
+Switch close button style based upon the image
 Switch current TabSoda tab
 Switch currently active plan
 Switch integration?
@@ -22880,6 +22958,7 @@ Test Team 1 (Grid)
 Test Team 2 (Grid)
 Test email sent
 Test group aria label
+Test id.
 Test image
 Test run
 Test very tiny image
@@ -23030,6 +23109,7 @@ The coachmark width is dynamic, clamped between a minimum and maximum (see the
 The color styles (e.g. 
 The component renders a 
 The component renders an 
+The confirmation message, rendered in the modal body.
 The connection failed due to an internal server error.
 The connection failed due to incompatible SDP.
 The connection failed. See the error message for more details.
@@ -23054,6 +23134,8 @@ The default. A low-emphasis label with no status connotation.
 The default. Content aligns to the start of the alert.
 The default. High-contrast count on a neutral surface.
 The density tag must be @1x, @2x, or @3x. Fix it and try again.
+The dialog message, rendered in the body.
+The dialog title.
 The difference in practice: 
 The display mode being requested.
 The display mode that was actually set. May differ from requested if not supported.
@@ -23130,6 +23212,7 @@ The migrating workspace has invalid users with missing emails or usernames.
 The minimum number of characters required.
 The minimum number of characters that must be typed before the CharacterCount is displayed.
 The modal is presented:
+The modal title.
 The model needs to be compiled before being used.
 The name of the pilot feature you are giving feedback about.
 The name of type. First letter must be uppercase.
@@ -23147,6 +23230,7 @@ The original reply will still be visible in its thread.
 The outline variant is recommended for icon buttons.
 The page exceeds the maximum size. Try removing some content, images, or sections, then save again.
 The page may have been deleted by someone else. Go back to Pages and refresh to see the current list.
+The pane shown first.
 The paradigm to lean into is actually 
 The people who can edit this automation will also have access to any files shared here
 The person using the workflow
@@ -23198,6 +23282,8 @@ The stacking layer a popover renders at, chosen so it sits above the surface tha
 The stream 
 The string supplied is too long to be a phone number
 The string supplied is too short to be a phone number
+The submenu participates in the parent menu
+The submit button receives focus on open (or the cancel button with 
 The system has blocked getUserMedia access for cameras
 The system has blocked getUserMedia access for microphones
 The system has blocked screen recording
@@ -25546,6 +25632,7 @@ Use numerals in inline error messages where copy must be succinct and scannable.
 Use readable text labels; do not rely on color alone to communicate meaning.
 Use same settings for messages from the Salesforce app
 Use scrims with intention
+Use secondary text (a 
 Use sentence case, not ALL CAPS.
 Use short, scannable labels.
 Use skill
@@ -26416,21 +26503,26 @@ Where conversations happen
 Where do I get help? Do we have a channel for this?
 Where do you usually work with your team?
 Where messages are sent
+Where the close button sits in the DOM, which sets its focus order.
 Where the dot anchors relative to its positioned container.
 Where to apply this rule
 Where to next?
 Where to use:
 Where your team is talking
 Whether an outside click dismisses the coachmark.
+Whether arrow-key navigation is active.
 Whether it is OK to interrupt a focus transition
 Whether options offers are on the quarter, half, or full hour
+Whether or not ReactModal should wait before removing the Modal component from the tree. This lets us fade the Modal out with the same transition with which it enters. Defaults to false.
 Whether or not close button should be autofocused
 Whether or not input should render in error state
+Whether or not the Modal should be vertically centered.
 Whether or not the checkbox is checked
 Whether or not the field is disabled
 Whether or not the field is invalid
 Whether or not the field is required
 Whether or not the input is disabled
+Whether or not the modal should close when the user clicks outside of it.
 Whether or not to show the field as mixed or indeterminate
 Whether the Select All checkbox should be displayed in the header row
 Whether the Select All checkbox should be shown as checked
@@ -26438,11 +26530,13 @@ Whether the Select All checkbox should be shown as indeterminate (i.e. partly ch
 Whether the banner fades itself out automatically after a short delay (for passive, non-critical messages).
 Whether the banner is pinned with fixed positioning (spanning the top) rather than sitting in normal document flow.
 Whether the button is disabled.
+Whether the cancel button appears.
 Whether the coachmark participates in F6 section navigation.
 Whether the component should extend to fill its container.
 Whether the entity renders a border.
 Whether the entity renders a drop shadow on hover.
 Whether the keyboard navigation is active
+Whether the submit button appears.
 Whether the text lines truncate rather than wrap.
 Whether to center the coachmark body on the arrow position rather than on the anchor.
 Whether to keep the gap between the two labels. Turn off for a tighter single-line feel.
@@ -26466,6 +26560,7 @@ Which of the following best characterizes what you were searching for? Select al
 Which of the following did you experience? Select all that apply.
 Which partner app would you like to install?
 Which side the tooltip appears on.
+While a menu is open, nothing else on the page is keyboard-reachable until it closes.
 While commands like @everyone, @channel, and @here call the attention of all members in a conversation, user groups let you choose who should get your message.
 While emoji themselves come in a standard set, their interpretations can vary quite a bit. Before you use a new emoji, do some digging into whether it
 While in-product content should use US English, we should still write in a way that is mindful that our in-product content will be localized into other languages.
@@ -27071,6 +27166,8 @@ Your workspace is ready!
 Your workspaces
 Youre onto something here
 Yours are just the eyes this canvas needs.
+Yu Gothic UI
+Yu Mincho
 Z-index stacking order
 ZIP Code
 ZenithConnect - Seamless Communication Integration
@@ -27228,6 +27325,7 @@ re looking for apps tailored to the type of work you do, you can browse more tha
 re naming something, loop in L10N early before people fixate on a name that means something terrible in another language.
 re not interchangeable.
 re not sure whether to use an emoji, leave it out.
+re styled as part of the group.
 re the first word of a label.
 re trying to break Slack.
 re trying to help someone complete the task they set out to do, plain and simple.
@@ -27251,8 +27349,10 @@ s Pro plan.
 s Salesforce permissions were updated.
 s State to be Active. This waiter uses GetFunctionConfiguration API. This should be used after new version is published.
 s a friendly machine here to quietly and quickly make your work life better. When in doubt, ask yourself: what would a robot vacuum do?
+s a loading button.
 s a nice moment for delight.
 s a separate component, though the same CardHeader and CardSection slots can be used inside it.
+s a short, descriptive label already present in a child element.
 s a way to create, organize, and share information.
 s a working relationship.
 s accent color.
@@ -27264,6 +27364,7 @@ s advanced AI, security features, and global compliance tools.
 s allowed domains list.
 s already been slowed down or inconvenienced, we want to be especially considerate of their time and cognitive energy.
 s autocomplete behaves for assistive tech.
+s autologging wrapper.
 s being searched.
 s being tested for conversion impact and has not rolled out to GA.
 s bounds to remove the surrounding whitespace.
@@ -27280,9 +27381,11 @@ s color treatment. Pick the one that matches its surface and meaning.
 s configured region.
 s content instead of your current draft. Return to your draft, or load this version into the editor to keep editing it.
 s content.
+s contents are data-driven (mapped from a list) rather than statically composed.
 s contents, including any CardActions.
 s context for future turns.
 s context menu. Try it out by selecting the _Create a Task_ action for this message (shown below).
+s context.
 s current page to customize for this audience.
 s current page to work on.
 s current plan type.
@@ -27310,8 +27413,10 @@ s history.
 s identity as a comprehensive work tool.
 s immediately applicable.
 s important, and how to make it happen before reaching for emoji to provide it.
+s index.
 s inner padding so the content sits edge to edge.
 s inner padding.
+s label shows in the trigger.
 s label.
 s language and region preference in BCP 47 format.
 s leading streaming platforms uses Slack to coordinate across 5,000+ engineers.
@@ -27320,6 +27425,7 @@ s likely impacting people and their work.
 s loading.
 s local timezone. For a date alone use DatePickerSelect; when you need a built-in label use LabelledDateTimePicker.
 s looking empty here!
+s margins.
 s message. May include links or an inline action, and an optional icon.
 s missing from my profile?
 s my Slack spirit animal?
@@ -27336,6 +27442,7 @@ s only been shared with certain people at your organization.
 s or embedded Product UI.
 s org, and they are still connected, they can rejoin.
 s our job to help get them out, step by step, with inexhaustible patience.
+s outer margins.
 s overall size, which sets its width (with a minimum height). Pick one per surface and keep it fixed; a given entity typically renders at the same size wherever it appears.
 s own focus state.
 s own hover state.
@@ -27354,6 +27461,7 @@ s rich text content appropriately.
 s routes!
 s search query history.
 s selection by clicking anywhere in the row, not just its checkbox.
+s selection is handled.
 s shape.
 s shown after a user downgrades to the Free plan.
 s size. Pass the same value to the building blocks inside so they render at the matching size.
@@ -27421,6 +27529,7 @@ t be undone.
 t be vague.
 t change the permissions scope of the authorization token.
 t click directly from the scoped search to the scope selector button. The first click clears the backdrop.
+t composed directly.
 t connect this server. Please try again.
 t construct the Blob.
 t create a ring buffer of unknown capacity.
@@ -27456,6 +27565,7 @@ t make a batch of zero elements.
 t make people feel excluded or ignored.
 t mean we need to dull the edges of our language. Just give an early heads-up to L10N and provide the proper context and info to make sure voice and tone carry over in other languages.
 t need that exclamation point!
+t one already present in a child element. Otherwise, you should provide the ID of that element to the labelledby prop instead.
 t over explain.
 t point to a valid Page dictionary.
 t prematurely end the comment block.
