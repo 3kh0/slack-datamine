@@ -666,6 +666,7 @@ API call failed
 API call for deleting a single attachment
 API call for deleting an attachment with a blocklist
 API call to apps.datasources.external.add failed, initiated by fetcher
+API key (sent with every request)
 API returned malformed JSON preferences
 API returned not ok
 API returned ok:false when updating admin role sync setting
@@ -5673,6 +5674,8 @@ Creating new slackbot mini window
 Creating window with features
 Creative feedback requested in #ext-agency-tyconet
 Creative program
+Credential header name
+Credential secret
 Crew Returns to Houston
 Critical Performance Considerations
 Crop Workflow Avatar
@@ -7214,6 +7217,7 @@ Enter a variable name
 Enter agent description
 Enter an amount
 Enter at least 3 characters to search for a list in Salesforce
+Enter both the credential header name and secret, or leave both empty.
 Enter client ID
 Enter client secret
 Enter custom expiration days
@@ -17588,6 +17592,7 @@ Requests an AI-drafted email via ai.crm.draftEmail
 Requests for Salesforce access
 Requests go to
 Requests sent to 
+Requests to this agent run as the service account tied to this credential, not as individual Slack users.
 Require App Approval
 Require Approval
 Require Primary Org Owner to disconnect
@@ -22525,8 +22530,10 @@ The URL will be created after you save this information.
 The Workspace Owner will need to approve the migration request.
 The actions bar to show when the entity is hovered or focused
 The adapter.js addTrack polyfill only supports a single  stream which is associated with the specified track.
+The agent card URL requires authentication that this page does not support.
 The agent card could not be parsed. Ensure it returns valid JSON.
 The agent card does not advertise a usable endpoint.
+The agent rejected the credential. Check the header name and secret.
 The agent will forward messages to this channel when people request more help.
 The agent will use everything from a channel as sources.
 The alert message.
@@ -22586,6 +22593,7 @@ The content that will be appended to the end of the input
 The content that will be preprended to the beginning of the input
 The corner or edge of the container the dot anchors to.
 The count truncates once it passes 
+The credential header name or secret contains characters that aren
 The current content is saved as a new revision and goes live automatically at the scheduled time. The currently published page keeps serving until then.
 The current input value (controlled).
 The current live page will be moved to the bullpen.
@@ -22902,6 +22910,8 @@ This agent is not eligible for a direct conversation.
 This agent is not found in Salesforce. Contact your Salesforce Admin to resolve the issue.
 This agent is temporarily unavailable, but should be back online soon.
 This agent is unavailable
+This agent requires authentication
+This agent requires authentication. Check the box below and enter its credential.
 This answer content is no longer valid. Try generating a new answer.
 This answer is no longer available to share.
 This app
