@@ -998,31 +998,20 @@ Activity: Set view list from API
 Activity: Start search session
 Activity: Update activity item by key
 Activity: Upsert activity items
-ActivityIA4: Add Selected Filter
 ActivityIA4: Add channel filter
-ActivityIA4: Add channel section filter
-ActivityIA4: Append to view list
-ActivityIA4: Clear all filter channels and channel sections
 ActivityIA4: Clear all selected filters
-ActivityIA4: Clear channel activity list
 ActivityIA4: Clear filter bar state
-ActivityIA4: Clear timeout id for activity view reset
 ActivityIA4: Clear undoable activity item
 ActivityIA4: Clears context_read_timestamps and unread_timestamps for a thread
 ActivityIA4: Clears peek view list
 ActivityIA4: Expand a below-divider priority summary bucket
 ActivityIA4: Hide default view
 ActivityIA4: Hydrate unreads filter state from localStorage without clearing lists
-ActivityIA4: Insert RTM into view list
-ActivityIA4: Remove Selected Filter
 ActivityIA4: Remove activity item
 ActivityIA4: Remove activity items before a given timestamp
 ActivityIA4: Remove bulk items
-ActivityIA4: Remove channel filter
-ActivityIA4: Remove channel section filter
 ActivityIA4: Remove invite activity item
 ActivityIA4: Remove view
-ActivityIA4: Reset view list
 ActivityIA4: Respond to activity_invalidated by clearing all items
 ActivityIA4: Set error state for activity
 ActivityIA4: Set filter bar state
@@ -1031,14 +1020,10 @@ ActivityIA4: Set hidden default view types
 ActivityIA4: Set scored entries loading state
 ActivityIA4: Set scored items
 ActivityIA4: Set server-side select all mode
-ActivityIA4: Set sort order
 ActivityIA4: Set the step of the onboarding coachmark sequence
-ActivityIA4: Set timeout id for activity view reset
 ActivityIA4: Set undoable activity item for potential restoration
-ActivityIA4: Set view list from API
 ActivityIA4: Set whether loading more items is enabled
 ActivityIA4: Set whether scoreEntries has been dispatched this session
-ActivityIA4: Set whether to show the filter-in option
 ActivityIA4: Sets has initial activity feed loaded
 ActivityIA4: Sets loaded state for activity external invites
 ActivityIA4: Sets loaded state for activity pending external invites
@@ -1052,15 +1037,11 @@ ActivityIA4: Sets unread toggle state for peek mode
 ActivityIA4: Stash a single activity item for the dedicated ActivitySystemNotificationView
 ActivityIA4: Store the feedTs of activity coming via RTM, so we can render a 
 ActivityIA4: Toggle bundle expanded state
-ActivityIA4: Toggles archive filter
-ActivityIA4: Toggles density filter
-ActivityIA4: Toggles snooze filter
 ActivityIA4: Toggles unread filter
 ActivityIA4: Toggles vip filter
 ActivityIA4: Unhide default view
 ActivityIA4: Update badge counts
 ActivityIA4: Update filtered list from root list
-ActivityIA4: Update reaction user and name for a reaction activity
 ActivityIA4: Update unread activity item by channel id
 ActivityIA4: Update unread activity item by inviteId for SC invites
 ActivityIA4: Update unread activity item by thread key
@@ -1080,7 +1061,6 @@ ActivityIA4: delete multiple bulk items
 ActivityIA4: set bulk action mode
 ActivityIA4: set last selected bulk key
 ActivityIA4: sets the unread list type
-ActivityIA4: update search query
 Actually focus a workspace
 Ada Lovelace
 Adam Bryant
@@ -1631,6 +1611,7 @@ AdditionalDeploymentStatusInfo is deprecated, use DeploymentStatusMessageList in
 Additionally, note that we put spaces around em dashes, even though that
 Addon Purchase Attempt Response Received
 Address element is complete
+Address issues as they arise, like resolving help-desk tickets and running incident communications
 Adds (but does not remove) team ids connected to a user group
 Adds ID of single starred items to array
 Adds Instant Slack channel members to sidebar if in an Instant Slack workspace
@@ -3077,6 +3058,7 @@ Bring emails into Slack
 Bring in teammates
 Bring in your tools
 Bring it back to value.
+Bring more agility to teams as agents help plan, design, develop, and ensure quality
 Bring the team together in a channel
 Bring the tools you need into this channel to pull reports, start calls, file tickets and more.
 Bring to the picnic: sandwich, apple, pumpkin, carrot, basket
@@ -6133,6 +6115,7 @@ DateSuggestionRenderer: ignoring non-date result type
 Dates & numbers
 David Kim
 Day of week
+Day offset range
 Day white fluorescent (N 4600 - 5400K)
 Daylight fluorescent (D 5700 - 7100K)
 Deactivate Link
@@ -10352,6 +10335,7 @@ Hosted by Sandra Mullens
 Hostname label length should be between 1 to 63 characters, inclusive.
 Hot highlight
 Hours back per teammate
+Hover a tile to see how teams put Slack to work.
 Hover me
 Hover me (via useHover hook)
 Hover text
@@ -10541,6 +10525,7 @@ ISO time
 ISO trajanje
 ISO vaqt
 ISO vrijeme
+IT Agent
 ITAR Compliant
 Icon & App Name
 Icon - ^
@@ -10564,6 +10549,7 @@ IdP Groups
 Ideas in Action
 Identifies learning-related content.
 Identifies which screenshare is being viewed in the mini-player
+Identify experts and surface historical knowledge to solve customer issues
 Identify specific Salesforce organization and object to configure a workflow when a Salesforce channel is created.
 Identity & Auth Svcs
 Identity Config
@@ -11386,6 +11372,7 @@ Keep all messages, including revisions
 Keep banner visible after CTA click
 Keep each citation to a single sentence where possible
 Keep editing
+Keep headings to a few words so tiles stay balanced across the grid
 Keep it light.
 Keep it simple, pleasant, and productive
 Keep messages forever
@@ -11400,6 +11387,7 @@ Keep shared information secure and organized
 Keep tabs on your important messages
 Keep team details and resources organized.
 Keep the 
+Keep the copy to a single short sentence, since it is revealed in place of the icon and heading on hover
 Keep the current limit set by your organization
 Keep the headline under 8 words for maximum impact
 Keep the label concise and clear without relying on additional context.
@@ -11771,6 +11759,7 @@ Left skin tone modifier
 Legacy Custom Bot Deprecation
 Legacy hack: set the _show_in_list_even_though_no_unreads for all channels to be false
 Legacy workflows are no longer available.
+Legal Agent
 Legal Holds
 Legal Text
 Legal Text Icon
@@ -13123,6 +13112,7 @@ Markdown copied to clipboard
 Markdown paste-as-blocks conversion failed; falling back to default paste
 Markdown preview
 Marked all unread messages and notifications as read.
+Marketing Agent
 Marketing Assets
 Marketing assets
 Marketing team using Slack
@@ -14754,6 +14744,7 @@ Number Outlines
 Number of clips created
 Number of clips created & played
 Number of clips played
+Number of days
 Number of leading columns to pin. Set to a value greater than 0 to enable horizontal scrolling with the first column(s) kept in view.
 Number of leading rows to pin so they stay visible while the rest of the table scrolls.
 Number of participants
@@ -14851,6 +14842,7 @@ One or more selected lists were not found. Choose a different list to continue.
 One or more selected sources have restricted sharing. Choose a different source to continue or ask the owner for sharing permissions.
 One or more workflows failed to load, this list may be incomplete
 One or more workflows failed to save, please try again later
+One place for every kind of work
 One platform for everything your team needs
 One platform for your team and tools
 One platform for your whole team
@@ -16311,6 +16303,7 @@ Prepare & Submit
 Prepare a draft to be sent to a channel, DM, or MPDM
 Prepare drafts block unfurls for scheduled send
 Prepare drafts gif unfurls for scheduled send
+Prepare executive briefings, create proposals, and proactively reach out to customers
 Prepare message
 Prepare to record Redux store size stats on an interval
 Prepare to record SSB memory usage stats on an interval
@@ -16531,6 +16524,7 @@ Product Service Campaign Items
 Product Service Campaigns
 Product Terms Directory
 Product Transfers
+Product and Engineering Agent
 Product demo video
 Product glossary
 Product overview
@@ -18078,7 +18072,6 @@ Resets all channel notification overrides
 Resets all edit-related state for a work object
 Resets all states for a specified entity and refetches by default
 Resets cursormark on new sort settings
-Resets only the activity lists
 Resets priority user ids with data from vip_users pref
 Resets roles store to initial state
 Resets shared teams state
@@ -18455,6 +18448,7 @@ Saint Martin (French Part)
 Saint Pierre and Miquelon
 Saint Vincent and The Grenadines
 Saint Vincent and the Grenadines
+Sales Agent
 Sales Elevate
 Sales Home
 Sales Lists
@@ -19335,6 +19329,7 @@ Server returned error when calling uploadEmailIcon
 Server unavailable
 Servers deleted
 Service *api-gateway* deployed to production.
+Service Agent
 Service Appointments
 Service Catalog
 Service Contracts
@@ -21564,6 +21559,7 @@ Simplified layout mode
 Simplified onboarding disabled; clearing enrollment
 Simplified slack UI
 Simplified user management
+Simplify and automate compliance processes and approvals with agents
 Simplify customer relationship management
 Simplify how you track topics, decisions, and next steps.
 Simply, avoid jargon or terms that are overly technical. Often, it
@@ -22545,6 +22541,7 @@ Support a new, distinct way of working
 Support customers or clients
 Support dragging links to texty inputs
 Support email address
+Support employees during onboarding, help with benefits inquiries, and provide guidance on career development questions
 Support for HIPAA compliance
 Support for constants in Bidirectional layers is not implemented yet.
 Support multiple features and objects
@@ -23734,6 +23731,7 @@ Three slides with header (CMS)
 Three stats with citations
 Three to four slides produces the best rhythm in the carousel
 Three to four stories produces the most balanced layout
+Three use cases, no header
 Three-chip color area sensor
 Three-column feature grid
 Three-up, no header
@@ -25469,6 +25467,7 @@ Use AI to summarize the
 Use Authentication App
 Use Backup Authentication App
 Use Blank Canvas
+Use Case Tiles
 Use Cases
 Use Emergency Backup Code
 Use ListTagsForResource.
@@ -25505,6 +25504,7 @@ Use audio and video in new ways
 Use audio and video to bring your work to life. Record a quick idea with an audio clip, or share your screen in a video clip, all without leaving Slack.
 Use auto-scroll for passive discovery, disable it for user-driven exploration
 Use badges as supplementary decorators within larger components like banners or inline alerts to draw attention to the plan type.
+Use cases
 Use center alignment for narrative pages and left alignment for documentation-style content (note: alignment controls only the header, not the body)
 Use center alignment to match a centered section header, or left alignment when the citations sit beneath left-aligned content
 Use clear, specific labels; prefer specific over vague (
@@ -26575,6 +26575,7 @@ Work object previews
 Work object search: sort changed
 Work securely with external organizations
 Work through ideas faster as a group, using audio-first huddles, with screen sharing and more.
+Work with agents to optimize campaigns, generate content, create plans, and more
 Work with external partners
 Work with external people in channels
 Work with external people more easily
