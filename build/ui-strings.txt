@@ -828,6 +828,7 @@ Action item
 Action item dismissed
 Action program
 Action to take
+Action-oriented daily briefing combining calendar, Slack activity, email, and connected tools into a prioritized view. Answers three questions: What should I do first? What
 Actions & Permissions
 Actions bar
 Actions for member
@@ -1496,6 +1497,7 @@ Added in last 30 days
 Added in last 7 days
 Added on
 Added rate limiting and caching
+Added to Slackbot
 Added to Slackbot.
 Added to channel
 Added to the pinned items
@@ -2456,6 +2458,10 @@ Assigned People
 Assigned Resources
 Assigned To Me
 Assigned Workspaces
+Assigned groups
+Assigned groups coming soon
+Assigned members
+Assigned members coming soon
 Assigned to you
 Assigned to:
 Assignee Place
@@ -2708,6 +2714,7 @@ Back in history
 Back to All channels
 Back to Filters
 Back to Migrations
+Back to Skills
 Back to Slack
 Back to Slackbot thread
 Back to all templates view
@@ -6883,6 +6890,7 @@ Edit one-click reactions
 Edit permissions
 Edit posting permissions
 Edit preference
+Edit preferences
 Edit profile
 Edit profile details
 Edit prompt
@@ -10092,6 +10100,7 @@ Hours back per teammate
 Hover me
 Hover me (via useHover hook)
 Hover text
+How It Works
 How OpenAI Connects with Customers and Expands ChatGPT with Slack
 How Slack AI search works
 How Spotify Boosted Ad Sales and Streamlined Operations with Slack
@@ -16462,8 +16471,8 @@ ReactElement | null
 ReactSupport.bindAllMethodsToInstance was called, but no methods needed to be bound. Consider removing it. Instance: 
 Reacting to 
 Reaction bundle
-Reactions are now animated
 Reactions cannot span multiple sections.
+Reactions, now with extra flair
 Reactivate Users as a Bulk Action
 Reactivate as Multi-Channel Guest
 Reactivate as Regular Member
@@ -21197,9 +21206,12 @@ Skill ID
 Skill Sets
 Skill added
 Skill deleted
+Skill details tabs
+Skill information
 Skill instructions
 Skill invocation failed for add_info card
 Skill name
+Skill not found
 Skill set is already in your Slackbot library.
 Skill set items
 Skill set name
@@ -22634,6 +22646,7 @@ The following guidelines are quick reference guides for writing about specific f
 The following people have requested access to customer management in Slack. Approving the request will add them as Salesforce users.
 The free plan includes up to 10 users, 90 days of message history, and 5GB of file storage.
 The global cache-data must be available.
+The groups assigned to this skill will appear here.
 The guidelines below aren
 The hierarchy of what you say matters. It
 The huddle language applies to AI notes, transcription and captions.
@@ -22670,6 +22683,7 @@ The meeting ended because attendee removed.
 The meeting ended, or the attendee was removed.
 The meeting rejected the attendee.
 The meeting was reconnected.
+The members assigned to this skill will appear here.
 The membership of an existing User Group has changed
 The message checksum did not match the expected value of 
 The message field is deprecated, use the encodedMessage field instead. The message field is available only in the de-DE, en-AU, en-GB, en-US, es-419, es-ES, es-US, fr-CA, fr-FR and it-IT locales.
@@ -23153,6 +23167,7 @@ This setting can be changed without any impact.
 This settings determines what invite preferences are available to users when creating a calendar huddle
 This should not be possible
 This shows whether the Quip admin has disabled document conversion.
+This skill doesn
 This skill is enabled for your workspace. To make it private, an admin must first remove it from the workspace skill settings.
 This skill set is empty. Add skills to get started.
 This skill works best with these integrations. Connect them to get the full experience.
@@ -26735,6 +26750,7 @@ s dtype must be an int32.
 s edge (e.g. a thumbnail skeleton flush against the container rounds only its outer corners).
 s fill color.
 s font-size, which is derived from the button size, so the icon scales in relationship with the button.
+s getting worse if I ignore it?
 s gonna hit about a 2-iron, I think. Oh, he got all of that.
 s header row.
 s header row. Renders a skeleton while loading and a warning icon on error.
