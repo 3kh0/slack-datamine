@@ -379,7 +379,6 @@ A channel was deleted
 A channel was renamed
 A channel was unarchived
 A channel with this name already exists. Please choose a different name.
-A clip can have a talk track or a PiP video, but not both.
 A compact, icon-less alert for in-line use within a form, or a modal where the full box feels too big.
 A connector resource references an invalid auth token or an auth token that does not belong to you. Reconnect your account to fix this step.
 A connector source used in this step has been disabled by your workspace admin. Remove the restricted knowledge source to continue.
@@ -1390,6 +1389,7 @@ Add scope and press enter
 Add section
 Add skill
 Add skills from other organizations
+Add slide here
 Add solution provisioning
 Add solutions related canvas templates
 Add solutions related list templates
@@ -2291,7 +2291,6 @@ Approve for organization
 Approve for this workspace
 Approve localization request
 Approve request
-Approve skill for group
 Approve skill for groups
 Approve the $1.1M vendor renewal in #fin-forecast-and-controls
 Approve this app for installation?
@@ -2897,6 +2896,8 @@ Bot User OAuth Token
 Bot Username
 Both input and output ranges must be the same length
 Both isCameraEnabled and isScreenshareEnabled specified for self
+Bottom left
+Bottom right
 Bounding box is required.
 Bouvet Island
 Box file download failed
@@ -5286,8 +5287,7 @@ Cost Center
 Cost Explorer
 Cost and Usage Report Service
 Costa Rica
-Could not access camera. Please check permissions.
-Could not access microphone. Please check permissions.
+Could not access your microphone or camera. Please check permissions.
 Could not acquire audio track from mediaStreamBroker
 Could not beacon back pref
 Could not beacon back pref for request
@@ -5889,7 +5889,6 @@ Data storage and retention
 Data storage policy
 Data table
 Data to detect
-Data viz
 Data-QA prefix for the wrapper and input.
 DataChannel error on 
 DataLengthProbe for 
@@ -6050,7 +6049,6 @@ Delete Message Input
 Delete Module
 Delete Notification
 Delete Notification?
-Delete PiP video
 Delete Preview
 Delete Product UI
 Delete Profile
@@ -6121,13 +6119,12 @@ Delete role
 Delete sales notification Workflow
 Delete scheduled message?
 Delete section
-Delete segment
 Delete selected servers?
 Delete sidekick
+Delete slide
 Delete sorted field
 Delete subtask
 Delete summary
-Delete talk track
 Delete team profile fields
 Delete template
 Delete the channel counts data for the given member
@@ -6366,6 +6363,7 @@ Disable link
 Disable or enable admin TOS
 Disable preview
 Disable progressive disclosure
+Disable skill
 Disable the save button until at least one date is selected.
 Disable two-factor authentication
 Disabled File
@@ -6676,6 +6674,7 @@ Drag and drop your photo
 Drag files, canvases, and lists in here to keep things nice and organized (it
 Drag to move
 Drag to reorder
+Drag to reorder slide
 Drag to reposition
 Drag to take a screenshot
 Draggable isClone prop value changed during component life
@@ -6825,7 +6824,7 @@ Edit alt text
 Edit and reorder workspaces
 Edit app access
 Edit approval settings
-Edit approved groups
+Edit auto-enablement
 Edit canceled
 Edit canvas sharing settings
 Edit category
@@ -6904,6 +6903,7 @@ Edit template name and permissions
 Edit the briefing with Slackbot
 Edit the text of a message
 Edit this block
+Edit this slide
 Edit thread name
 Edit to-do
 Edit to-do reminder
@@ -11088,6 +11088,7 @@ Keep nav headings short (1-3 words) so they scan easily
 Keep paragraphs to one or two short sentences so blurbs stay visually balanced
 Keep paragraphs to one or two short sentences so tiles stay visually balanced
 Keep receiving your recap?
+Keep recording
 Keep replies short, and link to the team handbook when relevant
 Keep responses concise, and use the occasional emoji
 Keep shared information secure and organized
@@ -12237,7 +12238,6 @@ M3.24 7.102 9.96 2.75l6.72 4.352-6.72 4.353zM3 12.652l3.5-2.204 3.5 2.204 3.5-2.
 M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326
 M3.5 19.5h9.5858c.5523 0 1-.4477 1-1a1 1 0 00-.293-.7071L4.2072 8.207A1 1 0 002.5 8.9142V18.5c0 .5523.4477 1 1 1z
 M3.5 2.5a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h13a2 2 0 0 0 2-2v-11a2 2 0 0 0-2-2zM4 6a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1z
-M3.5 3h7l-.5 9H4L3.5 3zM5.5 1h3v1.5h-3V1zM2 3h10
 M3.703 17.308c-.114.448.092.93.538 1.055.321.09.66.137 1.009.137h9.187a3.75 3.75 0 0 0 3.704-3.165l.917-5.812c.047-.298-.22-.523-.52-.523H6.599a1.25 1.25 0 0 0-1.219.975l-1.46 6.48-.005.02z
 M3.75 5.5A2.25 2.25 0 0 0 1.5 7.75v8.5a2.25 2.25 0 0 0 2.25 2.25h8.5a2.25 2.25 0 0 0 2.25-2.25V16H13v.25a.75.75 0 0 1-.75.75h-8.5a.75.75 0 0 1-.75-.75v-8.5A.75.75 0 0 1 3.75 7H4V5.5z
 M30.41 88.775a4.788 4.788 0 014.788-4.789h161.849a4.788 4.788 0 014.788 4.789v83.608a4.788 4.788 0 01-4.788 4.788H35.198a4.788 4.788 0 01-4.788-4.788V88.775z
@@ -15663,8 +15663,6 @@ Phone number
 Phone number too short after IDD
 Photos and videos
 Physical Visit
-PiP Video
-PiP video
 Pick a channel
 Pick a channel before inviting Single-Channel Guests.
 Pick a color
@@ -16615,6 +16613,7 @@ Record a recents navigation event for a navigate event
 Record a search event into recents if the write toggle is on, deferred to idle
 Record a search event into the recents pref and sync it to user prefs
 Record a short video clip
+Record audio
 Record creation modal circular dependency handler
 Record data synced.
 Record details
@@ -16629,7 +16628,6 @@ Record preview
 Record restored
 Record search & edits
 Record session flags for a user-initiated sidebar visibility change
-Record talk track
 Record that a message was deleted
 Record that a user has taken an action on a UI component
 Record that the user manually re-expanded an auto-collapsed sidebar
@@ -16639,11 +16637,14 @@ Record timestamp when a closed code channel was reopened
 Record trial pro banner interaction
 Record type
 Record unfurls & click to detail view
+Record video
 Record video clip
 Record was deleted
+Record your presentation
 RecordVisibility (Pilot)
-Recorded media
+Recording finished. Review the captured pace, then apply it.
 Recording is not supported in this browser.
+Recording started. Narrate and advance slides at your pace.
 Recording stopped
 Records canvas open events from various places
 Records metrics around action performance of individual actions using AutoTraces
@@ -17479,7 +17480,6 @@ Replace is help article loaded
 Replace messages
 Replace mode enabled
 Replace product release cards
-Replace recorded media?
 Replace split view
 Replace text emoji with native
 Replace the ID of the existing starred collection with the real one from the server
@@ -18749,6 +18749,7 @@ Selection passed to setSelection must point at the current document
 Selector updates
 Selects a scope
 Selects a scope and updates the backend
+Selects an AI candidate by index
 Selects the color treatment for a light or dark surface. Defaults to a ghost-like treatment when unset.
 Selects with initial options
 Self User Data Loaded
@@ -20142,6 +20143,7 @@ Sets that the knock to enter request has expired for the user
 Sets that the user has been accepted into the knock to enter Huddle that they requested
 Sets that the user is waiting to enter a knock to enter Huddle
 Sets that the user wishes to stop the music while they wait to join the Huddle
+Sets the AI candidate generations for the welcome page version picker
 Sets the AI chat status
 Sets the Calendar page to a connecting view state
 Sets the DWA banner data including installed app information
@@ -21862,6 +21864,7 @@ Stop AI Notes
 Stop Recording
 Stop Sharing
 Stop a 3P AI app streaming response
+Stop and discard recording?
 Stop big button mode
 Stop drawing on your own screen
 Stop editing
@@ -22204,7 +22207,6 @@ Switching to a different tool
 Switching to main audio track, cancel main fragment load
 Switching to redundant URL-id 
 Switching to subtitle track 
-Switching will remove the current recording. This can
 Symbol.asyncIterator is not defined.
 Symbol.iterator is not defined.
 Sync Data Source
@@ -22300,10 +22302,8 @@ Take notes with AI
 Take over editing
 Take this hint
 Takes the response from aiApps.history and formats it for the agent DM view
-Talk Track
 Talk it out in a huddle
 Talk it out on a video call with screen sharing
-Talk track
 Talk with a teammate
 Tap the link to join.
 Tap to add an image
@@ -23464,9 +23464,11 @@ Top Results
 Top Results Search: set sort method
 Top Results beta.
 Top channels ranking
+Top left
 Top results search: sort changed
 Top results threw an error while loading
 Top results timed out
+Top right
 Top slot
 Top-level pages
 Total AI usage
@@ -23764,13 +23766,14 @@ Turn off
 Turn off Automatic AI Notes
 Turn off animations
 Turn off automatic AI notes and transcription?
+Turn off camera
 Turn off captions
+Turn off microphone
 Turn off music
 Turn off my video
 Turn off notifications for replies
 Turn off proactive replies?
 Turn off replies
-Turn off skill
 Turn off video
 Turn off video incoming and outgoing video
 Turn off videos and camera to improve performance.
@@ -23782,6 +23785,7 @@ Turn on captions
 Turn on captions for this video
 Turn on focus mode
 Turn on focus mode when:
+Turn on microphone
 Turn on notifications for replies
 Turn on replies
 Turn on video
@@ -25296,6 +25300,7 @@ Video calls with your study group
 Video clip
 Video clips
 Video connectivity
+Video corner
 Video demo or screenshots (Optional)
 Video device permissions granted
 Video file
@@ -25303,6 +25308,7 @@ Video input initialization
 Video input initialization failed
 Video meetings
 Video playing in docked player
+Video position
 Video preview
 Video processing manager shutdown complete
 Video send is unavailable
@@ -26867,6 +26873,7 @@ t set item at a negative index.
 t share this with you.
 t start or end with a dash.
 t start recording. Please try again.
+t start the camera. Please try again.
 t start the local video because the maximum video capacity was reached.
 t start, end, or separate with an extra slash.
 t support plain non-render prop children.
