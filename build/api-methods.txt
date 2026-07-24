@@ -818,6 +818,7 @@ enterprise.premigrations.users.bulkUpdateResolution
 enterprise.premigrations.users.emailUpdates
 enterprise.premigrations.users.export
 enterprise.premigrations.users.info
+enterprise.premigrations.users.search
 enterprise.premigrations.users.updateResolution
 enterprise.retention.get
 enterprise.security.alerts.list
@@ -1058,7 +1059,6 @@ lists.edits.list
 lists.getApprovalReviewPending
 lists.getDefaultView
 lists.getMyItems
-lists.getOrCreateTaskList
 lists.getThreadsForRecord
 lists.history.list
 lists.history.load
@@ -1085,7 +1085,6 @@ lists.setupTodos
 lists.templates
 lists.update
 lists.updateApproval
-lists.upsertToTaskList
 lists.views.create
 lists.views.delete
 lists.views.update

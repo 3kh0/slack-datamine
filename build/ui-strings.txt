@@ -416,7 +416,6 @@
 :void 0,credentialless:o?
 :void 0,credentialless:p?
 :void 0,skipDoneDialog:!0,buttonClassName:t?
-:w.mv.ConfirmationModal,onClose:ez,headerImageSrc:Y,headerImageAlt:e6,title:eB?eV:void 0,className:(0,r.A)(eB||T||eU?
 ; and that mission comes from within our own workspaces.
 ; opening the overflow menu keeps the actions visible until it closes.
 ; speak to the content or the action.
@@ -836,6 +835,7 @@ About this step
 About this workspace
 About your plan
 Above quote
+Above the divider.
 Abrir postal
 Abrir tarjeta
 Absolute Difference (days)
@@ -1229,7 +1229,6 @@ Add a prompt to test your sidekick.
 Add a reaction
 Add a record to a list
 Add a record to the list to get started.
-Add a reference (message, list_record, etc) to my tasks list
 Add a reminder to a Canvas section
 Add a reminder to redux and call the API
 Add a remote peer
@@ -1482,7 +1481,6 @@ Add reaction
 Add recently opened list to the store
 Add records to the store by layoutType
 Add relevant people to your workspace
-Add reminder
 Add reminder to list record
 Add remote file preview store
 Add route to WMP routes list
@@ -1551,7 +1549,6 @@ Add to starred
 Add to the list of pinned canvases for an external workspace
 Add to thread
 Add to workspaces
-Add to your to-dos
 Add to-do
 Add to-do with reminder
 Add trigger execution ID to list of active toasts
@@ -1655,7 +1652,6 @@ Adds a new tab to a channel
 Adds a new workspace to the store (but does not boot it)
 Adds a pinned item to the beginning of the pinned items list (used for pinning an item in the UI)
 Adds a record to the toast queue
-Adds a reference to the reference tracker map for my tasks list
 Adds a reminder for a message via API call
 Adds a scheduled custom status
 Adds a search history item and updates the url with its id
@@ -1904,7 +1900,6 @@ All records saved successfully
 All resolutions
 All roles
 All saved items
-All saved items removed
 All selects
 All set - admins are taking a look
 All set!
@@ -1922,7 +1917,6 @@ All these features are included with your current plan
 All threads
 All time
 All to-dos
-All to-dos marked complete
 All to-dos overdue by 30+ days marked complete
 All tools
 All translation states
@@ -2017,6 +2011,7 @@ Already has access
 Already in this channel
 Already in this conversation
 Already joining
+Already matched
 Already running client metrics, skipping
 Also block previews from this website in the future
 Also sent to the channel, 
@@ -2940,6 +2935,7 @@ Begin meeting assistant session
 Begin min version polling
 Belongs to this app
 Below quote
+Below the divider.
 Bembo Schoolbook
 Benchmark complete, results are in the console and can be re-shown with benchmarkResults()
 Berkeley Old Style
@@ -4309,6 +4305,7 @@ Choose something your team will recognize like the name of your company or team.
 Choose sticker
 Choose the 
 Choose the account
+Choose the account to match
 Choose the data field to evaluate, such as the person who used this workflow.
 Choose the default skin tone that will be used whenever you use certain emojis in reactions and messages.
 Choose the maximum number of people allowed in a private channel.
@@ -4980,7 +4977,6 @@ Compared to email-only communication workflows
 Comparison modal
 Comparison of free vs. paid Slack Video for users on free teams
 Complete Migration
-Complete all
 Complete all overdue to-dos?
 Complete all to-dos?
 Complete the following steps to get started
@@ -6222,7 +6218,6 @@ Delete Message Input
 Delete Module
 Delete Notification
 Delete Notification?
-Delete Preview
 Delete Product UI
 Delete Profile
 Delete Redirect URL
@@ -9176,6 +9171,7 @@ Follow up with Slackbot on these focus areas to help you get your day started.
 Follow up with Slackbot on these focus areas to help you prep for tomorrow.
 Follow-up prompts
 Followed by an emoji: 
+Followed by regular section text.
 Followup Request
 Font selection
 FontFile is empty
@@ -10441,6 +10437,7 @@ I Want This
 I am a basic quote block following preformatted text
 I am a basic quote block following rich text
 I am a bold rich text block!
+I am a rich text header
 I am a strikethrough rich text block!
 I am an italic rich text block!
 I am an optional disclaimer
@@ -13045,7 +13042,6 @@ Mark downgrade stats as not loaded
 Mark emoji collections as fetch (or not fetched
 Mark file as subscribed for team
 Mark file as unsubscribed for team
-Mark incomplete
 Mark invite notifications as viewed by clearing them after a delay
 Mark invite notifications as viewed by clearing them.
 Mark many conversations (locally and through API)
@@ -13759,9 +13755,7 @@ Move to a private channel
 Move to a private channel?
 Move to folder
 Move to new section
-Move to saved
 Move to section
-Move to to-dos
 Move to-dos to Saved
 Move variant down
 Move variant up
@@ -14402,7 +14396,6 @@ No recent messages have been sent to this channel or any related channels.
 No recommended apps at the moment
 No reducer key found for local storage key
 No related account object ID
-No reminder scheduled
 No reminder set
 No removed responses yet.
 No response from aiAppsHistoryFetcher
@@ -15216,8 +15209,8 @@ Opens Slackbot and sends thread response prompt from thread summary NUX
 Opens Slackbot split view with thread context pre-filled
 Opens Update auto starter member modal
 Opens WFB integrations manager page in new app window or browser tab
-Opens a Slackbot canvas or list in the nested secondary view
-Opens a Slackbot-created canvas or list in the nested secondary view
+Opens a Slackbot canvas, list, or surface in the nested secondary view
+Opens a Slackbot-created canvas, list, or surface in the nested secondary view
 Opens a channel in a new window
 Opens a feedback dialog
 Opens a file downloaded by the desktop app
@@ -15231,7 +15224,6 @@ Opens a given tab in secondary view
 Opens a member profile in a tile
 Opens a modal containing promotion terms & conditions
 Opens a modal to notify user that Slack access has been limited on this network
-Opens a my task item that references the given message
 Opens a permalink in the client
 Opens a permalink in the client or the browser
 Opens a search feedback dialog
@@ -16329,7 +16321,6 @@ Preview Word, Excel, and PowerPoint files in Slack
 Preview Your App Submission
 Preview Your Invitation
 Preview container
-Preview deleted.
 Preview email content without leaving Slack
 Preview fetch failed
 Preview form
@@ -17412,7 +17403,6 @@ Remove a workspace link sharing from a file.
 Remove access
 Remove agent from channel
 Remove agents from blocked workspaces?
-Remove all
 Remove all app actions
 Remove all app actions tied to a given channelId
 Remove all app actions tied to a given channelId, and replace with given actions
@@ -17521,7 +17511,6 @@ Remove from starred
 Remove from the list of pinned canvases for an external workspace
 Remove from this channel
 Remove from workspace
-Remove from your to-dos
 Remove global app actions for apps
 Remove image
 Remove incoming approvals data from the store by uniqueCompoundId
@@ -17659,8 +17648,6 @@ Removes a pending Slack Connect Invite
 Removes a pending file
 Removes a reaction explosion event from the active explosion queue once its animation completes
 Removes a record from the toast queue for a specified window id
-Removes a reference (message, list_record, etc) to my tasks list
-Removes a reference from the reference tracker map for my tasks list
 Removes a related channel from a record
 Removes a scheduled custom status by ID
 Removes a selected group from the collection of selected groups
@@ -18289,6 +18276,8 @@ Rich Text Edit
 Rich Text Support
 Rich text
 Rich text composer
+Rich text divider fallback
+Rich text header fallback
 Rich text input
 Rich text variables used inline will have block-level formatting converted to inline equivalents
 Right Click to Save Image
@@ -18587,7 +18576,6 @@ Saved Topics
 Saved for later
 Saved item
 Saved item cleared
-Saved items moved to to-dos
 Saved me time
 Saved message actions
 Saved preferences
@@ -19078,7 +19066,6 @@ Select specific people who can use the app.
 Select status
 Select steps to restrict
 Select text to beginning of current line
-Select the account you want to merge
 Select the expiration for your link
 Select thumbnail
 Select time
@@ -23323,7 +23310,6 @@ This Salesforce account does not have sufficient API access.
 This Salesforce account is already linked to another Slack user.
 This access can
 This account has been deactivated.
-This action can
 This action cannot be undone.
 This action cannot be undone. Previous requests that were resolved by this rule will not be changed, but this rule will no longer be executed or available in the future.
 This action has already been completed
@@ -23787,7 +23773,6 @@ To-do cleared
 To-do marked complete
 To-do marked incomplete
 To-do moved to Saved
-To-dos moved to Saved
 To-dos pagination
 Toasts always sit at the top of the stack.
 Toasts should remain visible regardless of what
@@ -23856,7 +23841,6 @@ Toggle user calendar status sync state
 Toggle view-only mode
 Toggle-button pressed state, for buttons that toggle.
 Toggles Dark Mode
-Toggles a reference (message, list record, etc) in or out my task list
 Toggles celebration filter value
 Toggles department filter value
 Toggles division filter value
@@ -24711,7 +24695,6 @@ Up arrow shortcut
 Up to 10 apps
 Up to 50 participants
 Upcoming copy
-Upcoming reminders
 Update A2A agent Slackbot-enabled flag
 Update AI Agentforce App Status
 Update AI alt text generation status for a file
@@ -25397,7 +25380,6 @@ Upserts a file after a change in a file comment pinned status and returns the ne
 Upserts a file after a change in the pinned status and returns the new message event
 Upserts a message after a change in pinned status and returns the new message event
 Upserts a pending Slack Connect Invite
-Upserts a reference (message, list record, etc) in my tasks list
 Upserts a window instance
 Upserts activity item to activityIa4 store if the activity view is open
 Upserts an AI translation for a file summary
@@ -26670,7 +26652,6 @@ Wrapper around getRecordLayoutDetails to optionally send childRelationships arg 
 Wrapper for handleOnClickActivityItem that fills in the message object
 Wrapper type given to Transform.wrap does not form valid content of its parent wrapper
 Write a new one
-Write a new to-do
 Write a project overview about # 
 Write an outline of a project brief for # 
 Write an overview for
