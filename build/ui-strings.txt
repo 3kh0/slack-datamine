@@ -72,7 +72,6 @@ ActivityIA4: Expand a below-divider priority summary bucket
 ActivityIA4: Hide default view
 ActivityIA4: Hydrate unreads filter state from localStorage without clearing lists
 ActivityIA4: Remove activity item
-ActivityIA4: Remove activity items before a given timestamp
 ActivityIA4: Remove bulk items
 ActivityIA4: Remove invite activity item
 ActivityIA4: Remove view
@@ -102,7 +101,6 @@ ActivityIA4: Stash a single activity item for the dedicated ActivitySystemNotifi
 ActivityIA4: Store the feedTs of activity coming via RTM, so we can render a 
 ActivityIA4: Toggle bundle expanded state
 ActivityIA4: Toggles unread filter
-ActivityIA4: Toggles vip filter
 ActivityIA4: Unhide default view
 ActivityIA4: Update badge counts
 ActivityIA4: Update filtered list from root list
@@ -2533,7 +2531,6 @@ Resets priority user ids with data from vip_users pref
 Resets shared teams state
 Resets store for ContextBarTimeZone showing
 Resets the Huddle Join preview channel and devices state
-Resets the activity store
 Resets the array of custom emoji in the store
 Resets the canvas store
 Resets the current channel tab id when switching channels
@@ -3518,7 +3515,6 @@ Sets whether or not the self tile should be hidden
 Sets whether or not the sidebar is part of the grid layout at normal window sizes
 Sets whether or not the sidebar is part of the grid layout at normal window sizes (use setIsSidebarVisible instead)
 Sets whether popular skills are currently being fetched
-Sets whether reaction animations are disabled for the current huddle session
 Sets whether screen sharing is active in the clip recorder
 Sets whether search was initiated with top results tab active
 Sets whether specific banner types can be shown to the user
