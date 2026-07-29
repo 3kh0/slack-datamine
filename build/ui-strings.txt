@@ -630,12 +630,12 @@ Clear the full awareness state for a user
 Clear the highlight from the initial message
 Clear the inviter ID for a channel (Slackbot-gated); used on self-join to drop stale state
 Clear the join credentials for a specific channel
-Clear the new-to-do create composer unsaved-content state
 Clear the original user query
 Clear the queued embedded huddle meeting assistant pane open
 Clear the search input box display query
 Clear the specified type of banner message for this list
 Clear the suggestions for the current search query
+Clear the to-do composer unsaved-content state
 Clear the toast queue for a window
 Clear the userSetUnreadPoint flag
 Clear the versions from activity history
@@ -997,6 +997,7 @@ Error updating available devices
 Error updating available devices with retry
 Error updating connection references on reconnection:
 Error while destroying the Voice Focus instance: 
+Error while fetching apps from Flannel
 Error while fetching notification data
 Error while reporting huddle_events trace
 Error: getDisplayMedia unavailable while trying to screen share in browser
@@ -2058,6 +2059,7 @@ Open a React.lazy modal
 Open a conversation
 Open a document on a specific version
 Open a modal
+Open another To-do?
 Open huddles trial entry point modal
 Open in split view
 Open modal when a message send fails due to team having hit the message limit
@@ -3206,6 +3208,7 @@ Set whether SFDC auto slack is enabled.
 Set whether Sales Home is enabled for the team.
 Set whether Sales Home is enabled for the user.
 Set whether UnreadBanner is showing summarize variant for a channel
+Set whether a to-do composer (create or edit) has unsaved content
 Set whether eligibility data for a particular promo is fetching
 Set whether focus topic generation completed with no topics to show
 Set whether focus topic generation failed with a real error
@@ -3218,6 +3221,7 @@ Set whether peeks were enabled on mouse enter before starting BBM
 Set whether sidebar was visible before starting BBM
 Set whether the JP Pocket Guide popover is programmatically opened (i.e. from clicking foreword link)
 Set whether the backend is generating new focus topics
+Set whether the blank create-to-do composer is open
 Set whether the channel summary coachmark is eligible to be shown
 Set whether the channel summary coachmark should be shown
 Set whether the lists templates module is collapsed in the unified files browser
@@ -3225,7 +3229,6 @@ Set whether the loaded workflow is restricted from execution by away team member
 Set whether the meeting assistant Slackbot pane is open
 Set whether the meeting notes canvas is auto-opened
 Set whether the meeting notes canvas open
-Set whether the new-to-do create composer has unsaved content
 Set whether the onboarding tasks popover is programmatically opened (i.e. from clicking push notification)
 Set whether the search sidebar surface should be hidden for the actor (Business+ cohort)
 Set whether the slackbot onboarding welcome screen is currently showing
@@ -4394,7 +4397,7 @@ WKWebView iOS
 Wait until this ApiQ Instance has an empty queue
 Waiting for rate limit
 Wallis and Futuna
-Warn before discarding an in-progress new to-do composition
+Warn before discarding in-progress to-do content
 Warning: 
 Was disconnected; reset reachedEnd to false
 We cannot write HTML in SSB
@@ -4441,6 +4444,7 @@ Write with AI
 Writing device selection history to local storage
 Xperia Tablet
 Yandex Browser
+You are currently editing this To-do
 You are unable to join the Huddle as you do not have permission to join Huddles.
 You can invite people from outside this private conversation, but they may have restricted access to messages.
 You cannot publish with a restricted step in your workflow
