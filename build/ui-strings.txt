@@ -254,6 +254,7 @@ An emoji with this name already exists. Check if the existing emoji is a duplica
 An error occurred attempted to disconnect from the compute pressure observer
 An error occurred attempting to get latest compute pressure reports
 An error occurred cleaning up huddle redux state. Proceeding to disconnect from media server.
+An error occurred clearing huddle credentials.
 An error occurred while attempting to create compute pressure observer
 An error occurred while disconnecting from the media server.
 An error occurred while processing tags
@@ -1036,6 +1037,7 @@ Failed to build VideoFxProcessor
 Failed to collect screenshare stats
 Failed to connect consumer to channel
 Failed to disconnect from the Huddle. This may mean the user is still connected to the media server
+Failed to dispatch media server disconnect.
 Failed to fetch and instantiate test worker
 Failed to fetch from api.test
 Failed to fetch image.
