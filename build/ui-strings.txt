@@ -2583,6 +2583,7 @@ Routes param must be an object of defined valid routes for your Gantry app
 Rtm room message needs an id
 Run navigate listeners (side-effects) for a given navigation flow
 Run navigation middlewares
+Run once on first reaction
 SAML-based single sign-on
 SDK detected good connection
 SDK detected poor connection
@@ -2658,6 +2659,7 @@ Segoe UI Emoji
 Segoe UI Light
 Select a tab by id
 Select an image
+Select channels to monitor
 Select or deselect an addon by type
 Selector updates
 Self User Data Loaded
@@ -3944,6 +3946,7 @@ Triggers a side-effect that opens the workflow details modal in client (noop)
 Triggers a side-effect that shows the Record Save Toast (noop)
 Triggers a side-effect that starts the DND Timer in the client
 Triggers maybeUpdateTeamIconSideEffect side effect that syncs the local config and client store with the new icon
+Triggers once per message (resets after 30 days)
 Trinidad and Tobago
 Trouble connecting to socket
 True if huddle mini player is hidden, false if shown.
