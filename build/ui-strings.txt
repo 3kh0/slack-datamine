@@ -277,6 +277,7 @@ Apply an edit action to a list
 Apply client.counts response to store
 Apply counts to channel objects and update stores
 Apply counts to channels and threads
+Apply or restore the Slackbot-tab-scoped sidebar collapse on tab switch or boot
 Applying changes to the primary container
 Applying changes to the secondary container
 Applying changes to the sidebar container
@@ -2532,7 +2533,6 @@ Respond to an invitation to a huddle
 Restarting the API queue
 Restarts the API queue
 Restore Workflow from Version Success
-Restore or re-collapse the Slackbot-tab-scoped sidebar collapse on tab switch
 Restore tab soda state from localStorage
 Restore the peers store to a clean state
 Restore the sidebar if the app auto-collapsed it for a big-mode secondary view
@@ -3174,7 +3174,6 @@ Set user interactions to loaded
 Set user org object mappings
 Set user_date_created from client.extras onboarding data
 Set vacation pack shimmer highlight rows
-Set value of whether sidebar is visible before starting BBM
 Set video tile width for attendee
 Set view type for browser, either grid or list
 Set welcome message index for channel join title variation
@@ -3329,6 +3328,7 @@ Sets selected datasource to an org
 Sets selected tab for automations peek view
 Sets selected tab in threads view
 Sets selected template id in setup flow
+Sets sidebar visibility for this session without persisting the client-wide preference
 Sets solution template perf
 Sets suggested prompts
 Sets team permission objects
@@ -3425,6 +3425,8 @@ Sets the order of workspaces for display
 Sets the originating Omniswitcher core_client_request_id for a Slackbot thread
 Sets the page context in which the component is created
 Sets the pinned participants of a huddle
+Sets the remembered sidebar visibility for the big-mode Slackbot tab
+Sets the remembered sidebar visibility for the big-mode Slackbot tab (use setBigModeSidebarVisible instead)
 Sets the scrollTop value of the pins popover so that it can be opened to the same spot again
 Sets the selected third party sources to regenerate the summary with
 Sets the session id
@@ -3495,7 +3497,6 @@ Sets whether or not compact mode is enabled in the client (use toggleCompactMode
 Sets whether or not the protype full rail workspace switcher is showing
 Sets whether or not the protype full rail workspace switcher is showing (use setIsWorkspaceSwitcherVisible thunk instead)
 Sets whether or not the self tile should be hidden
-Sets whether or not the sidebar is part of the grid layout at normal window sizes
 Sets whether or not the sidebar is part of the grid layout at normal window sizes (use setIsSidebarVisible instead)
 Sets whether popular skills are currently being fetched
 Sets whether screen sharing is active in the clip recorder
@@ -3528,13 +3529,13 @@ Sets whether the omniswitcher is in Slackbot mode (vs search mode)
 Sets whether the segmentation in team creation V2 state machine has been loaded
 Sets whether the segmentation in team creation state machine has been loaded
 Sets whether the sidebar is auto-collapsed for a big-mode secondary view
+Sets whether the sidebar is collapsed because of the big-mode Slackbot tab
 Sets whether the sidebar is currently auto-collapsed for a big-mode secondary view
 Sets whether the transcript is being recorded.
 Sets whether the updated segmentation questions state machine has been loaded
 Sets whether the user has overridden sidebar auto-collapse this session
 Sets whether the user is currently interacting with the screenshare view
 Sets whether the user is submitting a regenerate request
-Sets whether the user manually collapsed the sidebar on the big-mode Slackbot tab
 Sets whether to include Salesforce source to regenerate the AI summary
 Sets whether to include Slack messages and files as sources to regenerate the AI summary
 Sets whether to override the NUX toggle
