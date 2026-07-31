@@ -198,8 +198,6 @@ Add unread VIP thread for channel
 Add users and user groups to channel
 Added to channel
 Added window with dimensions: 
-Addon Purchase Attempt Response Received
-Address element is complete
 Adds Workflow templates list to the store
 Adds a flag when the user has proceeded with attempting to connect an app
 Adds a history entry to the stack
@@ -532,12 +530,6 @@ Check the list of emergency backup codes provided when setting up 2FA.
 Check your authentication app for your code.
 Checking if auth is fresh due to accounts_changed rtm event
 Checking if auth is fresh due to accounts_changed rtm event that was deferred
-Checkout Action for setting isFetchingCurrencyAfterCountryChange
-Checkout Address Form Data Loaded
-Checkout Company Address Data Loaded
-Checkout Credit Card Form Loaded
-Checkout States and Countries Data Loaded
-Checkout configuration data loaded
 Checks if the message is in an active view before doing the animation
 Checks that the remote peer user ID resolves to a valid user
 Checks to see if members should move into or out of DND
@@ -560,8 +552,6 @@ CleanStoppedSessionTask got canceled while waiting for the WebSocket closed even
 Cleaning up the video element
 Cleanup telemetry marks
 Clear All Megaphone spaces
-Clear Any Existing Payment Status or Errors
-Clear Company Address Form Field Validation Errors
 Clear Megaphone space
 Clear OAuth info for Add Datasource step
 Clear SMS invite phone numbers
@@ -705,8 +695,6 @@ Collapse the sidebar for a big-mode secondary view when conditions allow
 Comic Sans MS
 Command + Shift + H
 Command + Shift + Option + H
-Company Address Form Field Validated
-Company Address Validated
 Compare Plans
 Compare Pro and Business+ Plans
 Compare plans
@@ -1086,7 +1074,6 @@ Falling Leaves
 Faroe Islands
 Fetch (emoji) reacji triggers for multiple channels
 Fetch Available Plans
-Fetch Cost Data for Addons Flow
 Fetch Plans Page Boot Data
 Fetch Plus Trial Eligibility
 Fetch Workflow Begin
@@ -1501,9 +1488,6 @@ Invite people to your huddle
 Invite someone else to your huddle
 Invite someone to your huddle
 Invite user(s) to a conversation
-Invoice Data Validated
-Invoice Form Field Validated
-Is address form collapsed and not editable
 Is file created by AI
 Is focus transitioning within a focus transition context
 Is in a thread
@@ -2142,7 +2126,6 @@ Pin Message to channel
 Ping the message server if necessary
 Pins a Slackbot AI NUX kickoff thread ts so its root message can be hidden
 Plain text
-Plans and cost data loaded
 Play Just-In-Time calendar notification sound
 Play sound when reaction is received
 Play sound when user joins
@@ -2206,7 +2189,6 @@ Provided effect config is invalid, not updating VideoFxProcessor
 Provisionally connected
 Provisionally connected timeout
 Puerto Rico
-Purchase Attempt Response Received
 Purge stored model timed out: Failed to purge all stored models
 Purged persisted models
 Pushes a reaction explosion event onto the active explosion queue
@@ -2283,8 +2265,6 @@ Record trial pro banner interaction
 Records canvas open events from various places
 Records tab switches and navigations within those tab switches
 Records the timestamp when the user last navigated to the Slackbot tab
-Redeem partner promo code failed
-Redeem partner promo code success
 Redirects to the first tab in the pin-behavior variants
 Reduce embed counter
 Refetches localized APIs for a team
@@ -2662,9 +2642,7 @@ Segoe UI Light
 Select a tab by id
 Select an image
 Select channels to monitor
-Select or deselect an addon by type
 Selector updates
-Self User Data Loaded
 Self connected to chime media server
 Self screenshare started
 Send Code to Backup Phone
@@ -3272,13 +3250,8 @@ Set workspaces
 Set zoom value for client before starting BBM
 Set zoom value for client when in BBM
 Sets AI App thread shimmer when an agent is mentioned in the input
-Sets Active Payment Method Id
-Sets Active Stripe Customer Id
-Sets Active Stripe Customer Payment Method Types for UPE
-Sets Active Stripe Customer Wallet Types
 Sets Huddle device based on preview entry
 Sets Next Daily Digest Time
-Sets Payment Methods
 Sets a AI file summary translations status to errored
 Sets a flag indicating that audio detection was performed and device id
 Sets a flag indicating the huddle locale has changed
@@ -3312,7 +3285,6 @@ Sets an AI translations status to errored
 Sets an individual message as unhidden from a hidden sender
 Sets an inline follow-up suggestion for a Slackbot AI thread
 Sets an object where the key is a workspace id and the value is the timestamp reflecting the last time the workspace was focused
-Sets boolean regarding whether we are currently loading Stripe, i.e. getting a new Stripe library initializing promise and a new Setup Intent Client Secret
 Sets browser session id for entity
 Sets browser session timeout ID for entity
 Sets bulk fetch error for current sales bulk grid
@@ -3376,7 +3348,6 @@ Sets that the user wishes to stop the music while they wait to join the Huddle
 Sets the Calendar page to a connecting view state
 Sets the ID associated with the search session clear timer
 Sets the NUX activity tier for prompt card selection
-Sets the PaymentElementError, i.e. the error message
 Sets the active Grid workspace ID for workspace-level admin views
 Sets the active ai app assistant
 Sets the active ai app assistant by thread
@@ -3756,14 +3727,11 @@ Stores the event details of the currently visible event
 Stores the meeting details event ID used by the meeting details view
 Stores the meetings list data grouped by day
 Stores the raw voice-dictation transcript inserted into the main composer (null to clear)
-Stripe UPE credit card form has interactiono
-Stripe UPE credit card form is complete
 Submit Channel Export
 Subscribe to our blog
 SubscribeAndReceiveSubscribeAckTask got canceled while waiting for SdkSubscribeAckFrame
 Successfully created new background worker video transform device
 Successfully fetched available plans
-Successfully fetched cost for current addon
 Successfully fetched cost for current plan
 Successfully fetched from api.test. Onward!
 Successfully got state from IndexedDB
@@ -4019,21 +3987,12 @@ Unsupported config was returned from the cache
 Update AI Agentforce App Status
 Update AI alt text generation status for a file
 Update AI summary content when streaming
-Update Active Checkout Step
-Update Active Country
-Update Checkout Flow API Error Indicator
-Update Company Address Field
 Update CreatedByMe filter pref
-Update Invoice Data Field
 Update Is Cost Data Loading
 Update Is Plans Data Loading
-Update Is Processing Payment
 Update OwnedByMe filter pref
-Update Payment Method Selected
 Update Saved counts in sidebar
 Update SharedWithMe filter pref
-Update Show App Disconnect Dialog
-Update Stripe API Key
 Update Trigger Begin
 Update Trigger Failure
 Update Trigger Success
@@ -4072,7 +4031,6 @@ Update boot data
 Update bulk grid refinement config data for specified list view
 Update canvas system text settings in the SSB
 Update channel badges counts
-Update checkout store values with configuration data
 Update completed canvas content creation
 Update completed search summary
 Update completed summary result
@@ -4090,7 +4048,6 @@ Update focus state for a view
 Update from desktop for keys 
 Update fullscreen mode container based on destination container or given view set
 Update icon for a team
-Update is country from auto detect
 Update is_migrating for a team
 Update last active team ID in localConfig
 Update lastRequestId for browser entity
@@ -4257,7 +4214,6 @@ Updating available devices (original flow)
 Updating available devices (with retry)
 Upgrade Now
 Upgrade Requested
-Upgrade Response Received
 Upgrade to Pro
 Upload Image
 Upload an image
