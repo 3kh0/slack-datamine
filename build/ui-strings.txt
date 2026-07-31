@@ -623,7 +623,9 @@ Clear the highlight from the initial message
 Clear the inviter ID for a channel (Slackbot-gated); used on self-join to drop stale state
 Clear the join credentials for a specific channel
 Clear the original user query
+Clear the passkey re-login request (dismiss the modal)
 Clear the queued embedded huddle meeting assistant pane open
+Clear the recorded passkey registration result (dismiss its alert)
 Clear the search input box display query
 Clear the specified type of banner message for this list
 Clear the suggestions for the current search query
@@ -2259,6 +2261,7 @@ Record a search event into recents if the write toggle is on, deferred to idle
 Record a search event into the recents pref and sync it to user prefs
 Record that a message was deleted
 Record that a user has taken an action on a UI component
+Record the result of a passkey registration attempt
 Record the result of the mini survey we first display the user after a huddle ends.
 Record trial pro banner interaction
 Records canvas open events from various places
@@ -2476,6 +2479,7 @@ Request did not complete.
 Request history over API in Degraded Mode
 Request the creation of a new enterprise workspace
 Request the jukebox stops
+Request the passkey re-login modal (session needs recent auth)
 Request to Upgrade
 Request to fetch locales and sets loading to true
 Request to join a workspace
@@ -3186,6 +3190,7 @@ Set when there are new, unseen joiner launchpad recommendations
 Set when toggling between base plan and Slack AI on plans page
 Set whether ArchivesBanner is showing summarize variant for a channel
 Set whether SFDC auto slack is enabled.
+Set whether SSO is required for the current user (gates passkey surfaces)
 Set whether Sales Home is enabled for the team.
 Set whether Sales Home is enabled for the user.
 Set whether UnreadBanner is showing summarize variant for a channel
@@ -3884,6 +3889,7 @@ Track event but no stream
 Track form visibility for editing a given record
 Track that a field was recently blurred
 Track that a form was opened in a new window
+Track whether a passkey registration is in flight
 Tracks the start of each work week in view
 Transform device not available for device swap
 Transform stream error:
@@ -4143,6 +4149,7 @@ Update the sort value for entity fetch request
 Update the state of the active tab in the huddle troubleshooting panel
 Update the step Id to insert after
 Update the store with the list of channel managers
+Update the store with the list of passkeys
 Update the teams this channel is shared with on your organization or update to cross-workspace or org-wide
 Update the the last filter value
 Update the the last sort value
