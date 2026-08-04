@@ -216,6 +216,7 @@ Adds meeting event ID for specified calendar day
 Adds membership values to unchanged channels
 Adds membership values to updated flannel channels
 Adds or updates a meeting in the meetings list for RTM updates
+Adds or updates a session-created Slackbot collaboration thread
 Adds or updates an existing Salesforce organization
 Adds or updates multiple today items in the store in bulk
 Adds permission for a relevant workspace
@@ -689,7 +690,6 @@ Close open edits with no changes and warn on edits with unsaved changes
 Close the current modal
 Close the message pane banner
 Close the mini survey after a positive response
-Closed Lost
 Closes the mini player with explicit resume intent
 Cocos (Keeling) Islands
 Code channels
@@ -1393,6 +1393,7 @@ Humanst521 BT
 Hydrate filters for entity
 Hydrate search-shared-facet suggestions
 Hydrates basic ui object shape in state for specified search view id
+Hydrates locally stored Slackbot collaboration threads
 Identifies which screenshare is being viewed in the mini-player
 If a channel containing a broadcast was just marked, maybe we can mark the thread too
 If a request is not in progress and the canvas canned templates have not yet been fetched, calls canvasesGetCannedTemplatesFetcher API
@@ -2403,6 +2404,7 @@ Remove unread VIP thread for channel
 Remove workflow by ID
 Remove workflow template by id
 Removes a Slack Connect Invite
+Removes a Slackbot collaboration thread whose destination root was deleted
 Removes a Workflow Event from recentlyRunTriggerWorkflowEvent
 Removes a channel id from being a default org channel
 Removes a download on the desktop app
