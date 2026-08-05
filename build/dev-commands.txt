@@ -1,5 +1,6 @@
 build_manifest_last_modified: Override build manifest last-modified timestamp
 enable_all_features: Enable all features (bypasses feature gates)
+fit_idle_timeout: Enable FIT and override its idle timeout in milliseconds
 force_ai_permissions: Override AI permissions (comma-separated list)
 force_build_version: Force specific build version
 force_cold_boot: Force cold boot
@@ -13,6 +14,7 @@ force_slackbot_ai_next: Treat Slackbot AI as enabled, bypassing the ACCESS_SLACK
 force_slackbot_mini_windows: Force Slackbot mini to render on Windows (macOS-only otherwise)
 force_store_measurement: Enable IDB store size measurement
 huddle_jit_window_hours: Extend huddle JIT upcoming meeting window (hours, default 0.17 = 10min)
+inp_idle_timeout: Override the INP idle timeout in milliseconds
 js_path: Load local JS from dev server (js_path=1) or when using a custom port (js_path=localhost:1990)
 layout_debug_mode: Show layout debug overlay
 log_level: Set logging level
