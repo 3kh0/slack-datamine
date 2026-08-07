@@ -1595,7 +1595,6 @@ Local video timing marked as removed
 Locally set the last read cursor on a conversation
 Log a Slackbot AI event
 Log experiment exposure
-Log exposure and clog for the streamline_plans_experience experiment if it is exposed
 Log exposure for the ai_slackbot_sampling_free experiment if it is exposed
 Log exposure for the fast_biz_plus_trial_checkout experiment if it is exposed
 Log exposure for the files_tab_nux_new_teams experiment if it is exposed
@@ -1612,7 +1611,6 @@ Log exposure for the pricing_checkout_reorder experiment if it is exposed
 Log exposure for the sidebar_app_nux experiment if it is exposed
 Log exposure for the slackbot_onboarding experiment if it is exposed
 Log exposure for the slackiversary experiment if it is exposed
-Log exposure for the streamline_plans_experience experiment if it is exposed
 Log exposure for the team_creation_segmentation experiment if it is exposed
 Log exposure for the team_creation_segmentation_v2 experiment if it is exposed
 Log exposure for the trials_plan_choice experiment if it is exposed
@@ -1931,9 +1929,9 @@ Navigate side effect to sync thread flexpane
 Navigate side effect to transition focus to the right view in the right container if needed
 Navigate to a route
 Navigate to an ID with optional params using the multi-view architecture
-Navigate to plans page or new streamlined plans page as part of #feat-streamline-purchase-experience
 Navigate to surface file channel got redirected
 Navigate to the paid features page or a specific tab in the page
+Navigate to the plans page, or open the compare plans modal for PnP entry points
 Navigate toChannel() got redirected since it was a file channel
 Navigate toMessage() got redirected since it was a file channel
 Navigates to either the Slack Connect hub or the External Connections browser, depending on ECB experiment assignment
