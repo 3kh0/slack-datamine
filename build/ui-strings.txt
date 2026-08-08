@@ -237,7 +237,6 @@ Agents & apps
 Alert other users who are subscribed to the topic that a subscriber has left
 All Blues by Miles Davis
 All channels
-All docs
 All files
 All of search: set active enterprise team id filter
 All workspaces
@@ -269,7 +268,6 @@ Announces to screen readers that the secondary view has changed
 Answers questions and provides information based on content in your channel.
 Antigua and Barbuda
 Any file type
-App Details
 Append members to a user group (pagination)
 Append more thread root keys
 Apple Color Emoji
@@ -431,6 +429,7 @@ Calls users.prefs.setNotifications endpoint with multiple pref values
 Camera disabled
 Camera disabled before self video stream was properly bound. Cleaning up.
 Camera permission denied
+Camera send rejected, session is at camera capacity
 Can not properly manage the returned segmentation mask
 Can only polyfill class components
 Cancel request to focus the given thread
@@ -736,6 +735,7 @@ Copy Workflow Failure
 Copy Workflow Success
 Costa Rica
 Could not acquire audio track from mediaStreamBroker
+Could not cap uplink scalability mode at L1T3; this policy build reports unexpected scalability modes, so the session stays on full spatial SVC
 Could not complete boot due to loss of API service
 Could not complete boot due to loss of network connectivity
 Could not enqueue request
@@ -894,7 +894,6 @@ Disconnects a pending file ID from a draft
 Dismiss save success toast if visible
 Dismiss the current toast
 Dismisses a calendar event from JIT notifications for this session
-Dismisses the current context (file or channel)
 Dispatch a reaction to the middleware and the current store to notify user has sent a reaction
 Dispatch an API call
 Dispatch an API call that can be persisted
@@ -923,6 +922,7 @@ Draw message must be correctly formed
 Drop messages from before a given timestamp
 Drop old messages if there are too many
 Dropping the following payload because we attemped to retry it too many times:
+Drops a popped-out window
 Dummy request detected
 Duplicate a tab soda tab
 Duplicate action type: 
@@ -1387,6 +1387,7 @@ Huddle ended. Cleaning up event handlers and connection references.
 HuddleStateManager disconnect timeout
 HuddleStateManager shutdown
 HuddleStateManager timeout
+Huddles Priority Manager
 Huddles SDK shutdown complete after disconnect
 Huddles SDK shutdown completed
 Huddles SDK shutdown initiated
@@ -1528,7 +1529,6 @@ Keep Recording
 Keeps count of how many members are in a team
 Keeps count of how many times a user has seen the quick reactions customization tooltip
 Keyboard focus
-Keyboard shortcuts
 Kickoff a project
 LATER saveReminder() requires a description argument
 Last week
@@ -2180,6 +2180,7 @@ Prepend historical transcript chunks from catch-up
 Preprocesses an array of internal message objects
 Preprocessing messages took too long; continue to process queue
 PressureObserver callback
+PressureObserver is not available; CPU pressure metric disabled
 Preventing retracted build reload because we don
 Priority prototype: sets NUX screen state for Priority
 Private message
@@ -2193,6 +2194,8 @@ Process AWS transcript event
 Process and add emoji collections
 Processing app metrics
 Processing device list
+Processor script loaded but BackgroundSegmentationProcessor not found on window
+Processor script loaded but BackgroundSegmentationVideoFrameProcessor not found on window
 Project Management
 Promote the editable request to become the request
 PromoteToPrimaryMeetingTask connection terminated
@@ -2260,7 +2263,6 @@ Received transport connected event after initial batch was sent, ignoring
 Receives api response, formats and cleans data, and updates results and pagination data for specified entity
 Recently updated by others
 Recently updated by you
-Recently used workflows
 Recently viewed
 Reconcile a draft quote-reply paths against its current links
 Reconnect without waiting for its rate limit
@@ -2291,8 +2293,6 @@ Register route listeners
 Registering pressure observer
 Rehydrate the tab soda store from persisted state
 Reinitializes properties related to daily digest
-Related Channels List
-Related Threads List
 Relay observed overlays state from OverlaysContextProvider to Redux
 Reload Now
 Reload custom emoji if we are out of sync with the server
@@ -3385,6 +3385,7 @@ Sets the auth status of a user in relation to their calendar connection(s)
 Sets the auth-status filter for the members page
 Sets the bot user id for the active ai app
 Sets the cached SFDC object options for admin settings
+Sets the cached auto starter licensed members for a Salesforce org
 Sets the cached tools list for an MCP server
 Sets the calAppType that will be sent when fetching calendar events
 Sets the camera state set in the Huddle Join preview
@@ -3411,6 +3412,7 @@ Sets the error state and context
 Sets the error state for meetings list
 Sets the exceptions to the multiselect field for record unfurls admin setting
 Sets the fetch status for SFDC object options
+Sets the fetch status for auto starter licensed members
 Sets the first page of SF org members
 Sets the focused workspaces from the client-store
 Sets the gcal authorization url needed for a user to access the Slack calendar
@@ -3508,6 +3510,7 @@ Sets whether all mini window toolbar buttons are shown
 Sets whether an individual message is unhidden from a hidden sender
 Sets whether audio only mode is active or not.
 Sets whether bot-posted unfurls use the admin layout preference
+Sets whether context is dismissed for the current Slackbot conversation
 Sets whether deep research mode is active for the next message
 Sets whether digest is empty or stale
 Sets whether digest is paused due to inactivity
@@ -4340,7 +4343,6 @@ Using device preferences manager
 Using no-op processor because background replacement is not supported
 Using the v2 auth flow
 Using transceiver controller with simulcast support
-Using urlRewriterMulti for dual UDP support
 Using video only transceiver controller
 V2 devices found. Updating device store
 VF configuration is not supported, skipping cache update
@@ -4424,8 +4426,6 @@ Worker initialization failed
 Worker not available, falling back to original stream
 Worker not initialized
 Workflow Builder Agent
-Workflow Editor
-Workflow details
 Working with partners and vendors
 Workspaces tabs hidden
 Workspaces tabs shown
