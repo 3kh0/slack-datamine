@@ -326,6 +326,7 @@ Based on which toggles are active, navigates to the proper agent home
 Batch timing timeout
 Be there soon
 Big Business
+Binds a pending Slackbot auto-init target to its generated client message ID
 Binds video tile to a video element
 Bitstream Vera Sans Mono
 Blocking huddle start for frontline worker
@@ -644,6 +645,7 @@ Clearing all alerts
 Clearing audio device errors
 Clearing video device errors
 Clears Action Library Navigation state
+Clears a pending Slackbot auto-init target
 Clears all activeThreadTsByKey entries that match the given threadTs
 Clears all animated item IDs (used when refreshing)
 Clears all follow-up suggestions for a Slackbot AI thread
@@ -2290,6 +2292,7 @@ Regenerate search summary
 Register Service Worker timed out
 Register route listeners
 Registering pressure observer
+Registers the Slackbot surface waiting for an outgoing thread to initialize
 Rehydrate the tab soda store from persisted state
 Reinitializes properties related to daily digest
 Relay observed overlays state from OverlaysContextProvider to Redux
