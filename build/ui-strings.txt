@@ -393,6 +393,7 @@ Burkina Faso
 Cache the capability list for an Enterprise Search connector by app_id
 Cache the window size of the huddle window for a specific surface
 Calculates the final viewset when navigating in single column mode
+Calendar prefs updated
 Call subscriptions.thread.clearall
 Call subscriptions.thread.mark
 Call the navigate method of a specific ViewContainer
@@ -2505,6 +2506,7 @@ Request to join a workspace
 Request to stop the active huddle
 Request was cancelled
 Requested index 
+Requesting calendar prefs
 Requesting media access is not implemented for this device, but it is being called. This is likely a bug.
 Requesting window restoration persistence to run shortly
 Reselecting same VideoTransformDevice
@@ -2862,8 +2864,6 @@ Set in-flight agent status text on a search summary
 Set info for given datasource id
 Set init data in Redux stores based on response from client.init
 Set initial and per-channel counts and calculate totals
-Set initial collections loading state
-Set initial starred files loading state
 Set insight list for displaying what insights and the column that should appear in banner
 Set invite emails
 Set inviter ID for channel join
@@ -2995,6 +2995,7 @@ Set sort direction for the user group channels fetch
 Set sort direction for the user group member fetch
 Set specific calendar event.
 Set starred channels state
+Set starred files fetch status
 Set starred state for a channel
 Set state after retrieving the guests in a group
 Set state for a toast that shows when huddle AI notes fails to autostart
@@ -3520,6 +3521,7 @@ Sets whether digest is empty or stale
 Sets whether digest is paused due to inactivity
 Sets whether drawing and cursor tracking are enabled for the local user
 Sets whether logged-in member
+Sets whether one view
 Sets whether or not a thread is auto-summarized
 Sets whether or not compact mode is enabled in the client (use toggleCompactModeEnabled thunk instead to persist the value)
 Sets whether or not the protype full rail workspace switcher is showing
@@ -3534,7 +3536,6 @@ Sets whether the
 Sets whether the NUX splash animation is currently playing
 Sets whether the NUX thread zero state should render when the user returns to Slackbot
 Sets whether the Slack API is up
-Sets whether the Slackbot sidebar Recents list is filtered to unread chats
 Sets whether the active invite card in the sidebar can be rendered
 Sets whether the backgrounds have been fetched for a specific huddle
 Sets whether the bottom of a today item has been reached
@@ -3579,6 +3580,7 @@ Setting a11y_animations pref to false based on media-query
 Setting camera video codec preferences
 Setting codec preferences not supported
 Setting content share video codec preferences
+Setting error status for calendar prefs request
 Setting local audio monitor
 Setting up legacy encoded streams
 Setting up new audio input track handler
