@@ -488,6 +488,7 @@ Channel Sections: delete a channel section
 Channel Sections: delete local channel section state
 Channel Sections: reset the channel section list from authoritative data from the server
 Channel Sections: update the ID of a channel when it changes
+Channel Templates
 Channel muted
 Channel name
 Channel search: change the status of a channel join request
@@ -1347,6 +1348,7 @@ Going somewhere else in Slack?
 Google Chrome
 Google Doc
 Google Drawing
+Google Drive
 Google Sheet
 Google Slide
 Got a primary meeting join ACK
@@ -1607,7 +1609,6 @@ Log exposure for the files_tab_nux_v2 experiment if it is exposed
 Log exposure for the huddles_invite_modal_upgrade_speedbump experiment if it is exposed
 Log exposure for the inproduct_team_creation experiment if it is exposed
 Log exposure for the inviter_joiner_first_dm_v2 experiment if it is exposed
-Log exposure for the joiner_personalized_launchpad_dm experiment if it is exposed
 Log exposure for the joiner_welcome_party experiment if it is exposed
 Log exposure for the onboard_joiners_with_slackbot experiment if it is exposed
 Log exposure for the pnp_go experiment if it is exposed
@@ -1821,7 +1822,6 @@ Marks admin suggested list views for sidebar as stale
 Marks that a Salesforce-cache interactability refresh was attempted for an Agentforce app
 Marks that the admin declined the opt-in this session (coachmark dismissed or landing closed)
 Marks that the initial calendar window fetch has completed
-Marks that the joiner personalized launchpad state machine has been initialized in Redux
 Marks that the user clicked the Regenerate for tomorrow button
 Marks that the user has successfully connected to a huddle at least once
 Marks that this session entered Slackbot via the authoritative joiner-onboarding redirect (used for NUX clog step tagging)
@@ -1912,6 +1912,7 @@ Must send an object of type call; use convertRtmRoomMessageForRedux
 Mute mic
 NOT bots
 NOT deactivated
+NOT frontline
 NOT guests
 NOT team
 Name hidden
@@ -1947,7 +1948,6 @@ Needs regenotiation for local video simulcast layer change
 Needs to wait for attendee presence? 
 New Caledonia
 New Team Launchpad
-New User Launchpad
 New Zealand
 New hire
 New to Slack?
@@ -2051,6 +2051,7 @@ Noto Sans JP
 OS default device IDs do not exist skipping maybe setting initial device pref to OS default
 OS default device IDs recorded
 On a call
+OneDrive & SharePoint
 Only certain people can invite this agent to channels at this time.
 Only channel managers and Slack admins can set up this agent.
 Only people in your org
@@ -2186,6 +2187,7 @@ PressureObserver callback
 PressureObserver is not available; CPU pressure metric disabled
 Preventing retracted build reload because we don
 Priority prototype: sets NUX screen state for Priority
+Private channel
 Private message
 Private user
 Private user info
@@ -2281,6 +2283,7 @@ Record that a message was deleted
 Record that a user has taken an action on a UI component
 Record the result of a passkey registration attempt
 Record the result of the mini survey we first display the user after a huddle ends.
+Record the time, type, and query session of the last search accept event
 Record trial pro banner interaction
 Records canvas open events from various places
 Records tab switches and navigations within those tab switches
@@ -3372,6 +3375,7 @@ Sets that the user wishes to stop the music while they wait to join the Huddle
 Sets the Calendar page to a connecting view state
 Sets the ID associated with the search session clear timer
 Sets the NUX activity tier for prompt card selection
+Sets the Slackbot no-results recovery draft
 Sets the active Grid workspace ID for workspace-level admin views
 Sets the active ai app assistant
 Sets the active ai app assistant by thread
@@ -3483,7 +3487,6 @@ Sets the user has agentforce access
 Sets the user object state machine
 Sets the user object state machine for auto slack onboarding
 Sets the user object state machine for in-product team creation
-Sets the user object state machine for joiner personalized launchpad
 Sets the user object state machine for segmentation in team creation
 Sets the user object state machine for segmentation in team creation V2
 Sets the user object state machine for updated segmentation questions
@@ -3588,7 +3591,6 @@ Setting up passthrough transform
 Setting up receiver RED transform
 Setting up sender RED transform
 Setup Team Name
-Setup Teammate Intro
 Share Email Address
 Share a file through a channel
 Share a file to a channel or user and update share_metadata
