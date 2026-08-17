@@ -1247,6 +1247,7 @@ Fixed width CellMeasurerCache should specify a :defaultWidth greater than 0. Fai
 Flannel chunk fetch failed
 Flannel fetch failed
 Flannel fetch for all active huddles failed
+Flush the current visible video tile set to the downlink policy
 Focus did not transition
 Focus mode is no longer active, clearing silent sidebar
 Focus the input when the thread is loaded
@@ -2286,6 +2287,7 @@ Record the result of a passkey registration attempt
 Record the result of the mini survey we first display the user after a huddle ends.
 Record the time, type, and query session of the last search accept event
 Record trial pro banner interaction
+Records a mounted remote camera video element and its rendered width
 Records canvas open events from various places
 Records tab switches and navigations within those tab switches
 Records the launch context a popped-out companion window inherited from its opener
@@ -2427,6 +2429,7 @@ Removes a meeting from the meetings list for RTM updates
 Removes a pending Slack Connect Invite
 Removes a pending file
 Removes a reaction explosion event from the active explosion queue once its animation completes
+Removes a remote camera video element that unmounted
 Removes a slash command
 Removes a user from a conversation
 Removes a workspace from the store
@@ -3203,7 +3206,6 @@ Set user interactions to loaded
 Set user org object mappings
 Set user_date_created from client.extras onboarding data
 Set vacation pack shimmer highlight rows
-Set video tile width for attendee
 Set view type for browser, either grid or list
 Set welcome message index for channel join title variation
 Set what zoom value was set in the client before starting BBM
