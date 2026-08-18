@@ -812,6 +812,7 @@ DEV ONLY not intended for production use: Clears notifications in a given space 
 DMs results loaded successfully
 DMs results threw an error while loading
 DMs results timed out
+Data residency
 Data size has to be less than 2048 bytes
 Deactivate focus mode
 Debounced auth.test check
@@ -1604,6 +1605,7 @@ Locally set the last read cursor on a conversation
 Log a Slackbot AI event
 Log experiment exposure
 Log exposure for the ai_slackbot_sampling_free experiment if it is exposed
+Log exposure for the data_residency_downplan_germany experiment if it is exposed
 Log exposure for the fast_biz_plus_trial_checkout experiment if it is exposed
 Log exposure for the files_tab_nux_new_teams experiment if it is exposed
 Log exposure for the files_tab_nux_v2 experiment if it is exposed
@@ -4226,6 +4228,7 @@ Updates root comment content
 Updates the DND schedule and snooze info for the current member
 Updates the UI state for the refine edit view menu component
 Updates the channel permissions
+Updates the creator data-residency region choice captured on the DataResidency step
 Updates the currently open tab for the given window and view container
 Updates the date cleared for a today item by item ID
 Updates the date last read for a today item by item ID
