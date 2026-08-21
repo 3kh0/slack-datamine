@@ -326,6 +326,7 @@ Based on which toggles are active, navigates to the proper agent home
 Batch timing timeout
 Be there soon
 Begin channel history intent study episode
+Begins an external huddle guest media-access request
 Big Business
 Binds a pending Slackbot auto-init target to its generated client message ID
 Binds video tile to a video element
@@ -673,6 +674,7 @@ Clears the active highlight
 Clears the agent DM entry source
 Clears the error state
 Clears the existing pinned items for a channel and sets the loading state
+Clears the external huddle guest prejoin session
 Clears the jump-to timestamp
 Clears the meeting details event used by the meeting details view
 Clears the pending draft request after it was fulfilled or timed out
@@ -732,6 +734,7 @@ Content from app, embed.
 Continue this conversation in a huddle
 Continue with Pro?
 Continue without saving changes?
+Continues external huddle guest prejoin without media access
 Continuity Camera
 Convert a channel to an enterprise shared channel (cross-workspace or org-wide)
 Convert a channel to org shared
@@ -1463,6 +1466,7 @@ Initialize sales bulk grid data
 Initialize team preferences
 Initialize user preferences
 Initialized summary tracer for huddle
+Initializes an external huddle guest prejoin session
 Initializes muted channels from the notification prefs
 Initializes the store and sets the initial focused workspace ID
 Initializes the user prefs with the data from the user.prefs.get or boot data
@@ -2573,6 +2577,7 @@ Resets the store
 Resets the streaming unreads state
 Resetting camera ready state to allow retry after errors
 Resolve a pending huddle
+Resolves an external huddle guest media-access request
 Resolves only when we have established and upserted client online status
 Respond to an invitation to a huddle
 Restarting the API queue
@@ -2922,7 +2927,6 @@ Set loading state for emoji collections
 Set loading state for huddle event log
 Set local views for optimistic updates
 Set localStorage data to reconstructing a multi-window layout (internal)
-Set localStorage data to reconstructing a multi-window layout immediately
 Set localStorage data to reconstructing a multi-window layout on debounce
 Set locale for a team, handling pref and infra updates
 Set main Sales Elevate page screen
