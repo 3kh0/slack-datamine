@@ -278,6 +278,7 @@ Apply client.counts response to store
 Apply counts to channel objects and update stores
 Apply counts to channels and threads
 Apply or restore the Slackbot-tab-scoped sidebar collapse on tab switch or boot
+Apply server Saved counts (refetch)
 Applying changes to the primary container
 Applying changes to the secondary container
 Applying changes to the sidebar container
@@ -2324,6 +2325,7 @@ Refreshing all permissions
 Refusing to close a channel that is not an MPIM or IM.
 Regenerate search summary
 Register Service Worker timed out
+Register a deferred, undoable saved-item clear
 Register route listeners
 Registering pressure observer
 Registers the Slackbot surface waiting for an outgoing thread to initialize
@@ -2365,6 +2367,7 @@ Remove a saved list record
 Remove a saved list record field
 Remove a saved message
 Remove a saved reminder
+Remove a settled (committed or undone) deferred saved-item clear
 Remove a share from a file.
 Remove a starter template by ID
 Remove a stored snippet for a Quip comment thread
