@@ -24,6 +24,7 @@
 . Are you sure it was registered?
 . You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument).
 :_ instanceof RegExp?
+:d instanceof RegExp?
 A NamedTab is required to be specified for the main window
 A h:mm:ss
 A logger instance is required
@@ -1375,9 +1376,6 @@ Halt further boot if client is reloading
 Halting the API queue
 Handle Chime meeting events
 Handle a start error during boot
-Handle change of the user group channels search term
-Handle change of the user groups filter
-Handle change of the user groups search term
 Handle failed fetch for teams total published workflow and app count
 Handle focus transition on client mount
 Handle focus transition when a view closes
@@ -1586,7 +1584,6 @@ Load Action Library Collections Success
 Load Action Library Triggers Begin
 Load Action Library Triggers Failure
 Load Action Library Triggers Success
-Load More
 Load Plans Page Boot Data
 Load Plans Page Boot Data Success
 Load Slack Functions Success
@@ -1609,7 +1606,6 @@ Load custom status presets in the users local
 Load instance steps for activity tab
 Load megaphone notification data
 Load megaphone notification data after a random delay
-Load more rows
 Load remote domains into Redux
 Load the next page of custom emoji data
 Loader for user org object mappings
@@ -2120,9 +2116,7 @@ Opens workspace switcher if the user is part of experiment
 Operation cancelled
 Operation cancelled before start
 Optimistically remove a deleted result item from browser results by ID
-Optimistically replace admin user groups
 Optimistically sets the current user
-Optimistically update admin user groups
 Organization channels
 Organize files and tools
 Other Members
@@ -2978,7 +2972,6 @@ Set owner account types
 Set peek has starred toggled
 Set pending destinations for a given draft
 Set pending draft insert for composer population
-Set pending new user group for optimistic updates
 Set pending state of attachment action and parent attachment
 Set persistent highlight for Find in Thread (null to clear)
 Set picklist values from api in current sales bulk grid
@@ -3033,17 +3026,11 @@ Set sidebar index of click on recommended dm for clogging send action
 Set single record row data in sales bulk grid
 Set skipped invites
 Set skipped select people
-Set sort column for the user group channels fetch
-Set sort direction for the user group channels fetch
-Set sort direction for the user group member fetch
 Set specific calendar event.
 Set starred channels state
 Set starred files fetch status
 Set starred state for a channel
-Set state after retrieving the guests in a group
 Set state for a toast that shows when huddle AI notes fails to autostart
-Set state for removing user group members
-Set state for uploading a user csv
 Set status of 
 Set status of Salesforce org setup UI
 Set status to 
@@ -3123,10 +3110,6 @@ Set the list of members to invite for multi-channel guest invite
 Set the list of recommended channels for multi-channel guest invite
 Set the list of selected channel options for multi-channel guest invite
 Set the loading state of a specific module
-Set the loading state when fetching a single admin user group
-Set the loading state when filtering admin user groups
-Set the loading state when searching admin user groups
-Set the loading state when sorting admin user groups
 Set the loading status for the API request when a new page is loading
 Set the loading status for the API request when a user searches for emojis
 Set the main window tabbed view sets
@@ -3161,7 +3144,6 @@ Set the search session original query if unset
 Set the selected file
 Set the selected focus mode expiration option
 Set the selected profile
-Set the selected user group to view details for
 Set the selected version id to the activity history
 Set the show_badge value on a file to false
 Set the sink device for media elements
@@ -3172,7 +3154,6 @@ Set the sort option for all work object search modules
 Set the sound that plays when a message arrives to the focused conversation
 Set the sound that plays when a message is sent to the focused conversation
 Set the stage of the multi-channel guest invite modal
-Set the state when searching for user group members
 Set the status of an async job
 Set the status of fetching Salesforce organizations received from sfdc.integration.listOrgs
 Set the suggestions for the current search query - for files
@@ -3216,8 +3197,6 @@ Set the view mode for the work object search
 Set the view set, i.e. multiple containers at once, in the specified window
 Set the visibility of Tractor coachmark for sending a message
 Set the visibility of Tractor coachmark for sharing a file
-Set the workspaces search term
-Set the workspaces sort direction
 Set to enable the trial deep link
 Set to true when last visible message in channel should be focused
 Set to true when quick reactions tip should not be shown
@@ -3283,8 +3262,6 @@ Set whether the search sidebar surface should be hidden for the actor (Business+
 Set whether the slackbot onboarding welcome screen is currently showing
 Set whether the team is configured as Slack First CRM.
 Set whether the unfurled joiners channel foreword has been seen
-Set whether the user group member fetch encountered an error
-Set whether the user group workspace fetch encountered an error
 Set whether the user has clicked the Slack Connect inviter message suggestion for a channel
 Set whether the user has imported contacts from CSV
 Set whether the user has imported contacts from Google
@@ -3305,8 +3282,6 @@ Set whether we should trigger the huddles invite modal, used in side effect
 Set whether we should trigger the prefs modal
 Set whether we should trigger the trial offer modal
 Set whether we will use the backup region on our next connect attempt
-Set whether workspaces are in the process of being removed
-Set whether workspaces are in the process of having their provisioning updated
 Set which guided tour coachmark is open
 Set word spacing text density pref
 Set work object app ids
