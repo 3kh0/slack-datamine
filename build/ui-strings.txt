@@ -1376,6 +1376,7 @@ Halt further boot if client is reloading
 Halting the API queue
 Handle Chime meeting events
 Handle a start error during boot
+Handle client side effects
 Handle failed fetch for teams total published workflow and app count
 Handle focus transition on client mount
 Handle focus transition when a view closes
@@ -1621,7 +1622,6 @@ Log exposure for the ai_slackbot_sampling_free experiment if it is exposed
 Log exposure for the data_residency_downplan_germany experiment if it is exposed
 Log exposure for the email_connector_newteams experiment if it is exposed
 Log exposure for the enable_ask_slackbot_for_free experiment if it is exposed
-Log exposure for the fast_biz_plus_trial_checkout experiment if it is exposed
 Log exposure for the files_tab_nux_new_teams experiment if it is exposed
 Log exposure for the files_tab_nux_v2 experiment if it is exposed
 Log exposure for the huddles_invite_modal_upgrade_speedbump experiment if it is exposed
@@ -2099,7 +2099,6 @@ Opens a view in a different surface
 Opens a view in a new child window
 Opens another Gantry app in a new window
 Opens multi device modal
-Opens one of the help views in the split container
 Opens or closes troubleshooting popover above the miniplayer
 Opens remove Native Channel Expert confirmation modal
 Opens streamline plans modal
@@ -2499,7 +2498,6 @@ Reorder a bookmark in the store
 Reorder team profile fields
 Repeat count too high, must be less than 20
 Replace all of a list
-Replace article anchor id
 Replace body of an existing notification
 Replace current user group membership with the given set
 Replace help ZD locale
