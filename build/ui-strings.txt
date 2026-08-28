@@ -801,6 +801,7 @@ Create channels and direct message with external people.
 Create or open an IM
 Create or open an MPIM
 Created by
+Created by agents
 Creates a new canvas channel tab
 Creates a new custom emoji or alias
 Creates a new huddle in mpim where all huddle participants are channel members
@@ -939,6 +940,7 @@ Draft a meeting agenda for the weekly meeting in #
 Draft does not have a server generated ID
 Dragon Touch
 Draw message must be correctly formed
+Drop an agent-created canvas from the unread list
 Drop messages from before a given timestamp
 Drop old messages if there are too many
 Dropping the following payload because we attemped to retry it too many times:
@@ -2300,6 +2302,7 @@ Record a navigation event into the recents pref and sync it to user prefs
 Record a recents navigation event for a navigate event
 Record a search event into recents if the write toggle is on, deferred to idle
 Record a search event into the recents pref and sync it to user prefs
+Record an agent-created canvas the user has not read yet
 Record that a message was deleted
 Record that a user has taken an action on a UI component
 Record the first survey trigger to fire (segment + query session + query)
@@ -2514,6 +2517,7 @@ Replace is help article loaded
 Replace messages
 Replace product release cards
 Replace the ID of the existing starred collection with the real one from the server
+Replace the unread agent-canvas list with the one the server returned
 Replace view set
 Replaces all events for a specific day
 Replaces the API token that this instance will use
