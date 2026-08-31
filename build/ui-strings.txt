@@ -390,6 +390,7 @@ Bulk set cursors for channels
 Bulk set inital last read values for channels when first loaded
 Bulk set latest values for channels
 Bulk set priority values for channels
+Bulk set static suggested prompts from app profiles
 Bulk update channel section membership
 Bulk upsert app home view meta into app home and app view stores
 Bulk upsert bookmarks to the bookmarks store
@@ -679,6 +680,7 @@ Clears the agent DM entry source
 Clears the error state
 Clears the existing pinned items for a channel and sets the loading state
 Clears the external huddle guest prejoin session
+Clears the in-flight marker for an aiApps.list filter key
 Clears the jump-to timestamp
 Clears the meeting details event used by the meeting details view
 Clears the pending draft request after it was fulfilled or timed out
@@ -1121,6 +1123,7 @@ Fetch a record channel given a record id and navigate
 Fetch a single member by id using solr search.enterprise endpoint
 Fetch a user
 Fetch activities from root list
+Fetch all AI Apps paginated from List API
 Fetch all apps by ID
 Fetch all available and installed emoji collections from the API
 Fetch all teams connected via external shared channels
@@ -1838,6 +1841,7 @@ Mark when a summary has been viewed
 Marks a Slackbot thread as unread (stream completed while user is away)
 Marks a calendar event as having sent a system notification this session
 Marks a filter key as fully fetched for aiApps.list memoization
+Marks a filter key as having an aiApps.list pagination loop in flight
 Marks a thread banner as having been dismissed for a given latestReplyTs
 Marks a today item ID as having completed its typing animation
 Marks admin suggested list views for sidebar as fresh
@@ -3386,6 +3390,7 @@ Sets selected template id in setup flow
 Sets sidebar visibility for this session without persisting the client-wide preference
 Sets solution template perf
 Sets suggested prompts
+Sets suggested prompts for an app DM
 Sets team permission objects
 Sets template detailed info
 Sets template id to scroll to after deeplink
