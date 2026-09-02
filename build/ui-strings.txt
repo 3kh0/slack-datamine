@@ -955,7 +955,6 @@ Drops a popped-out window
 Drops the cached tools lists for the given MCP servers so the next read refetches them
 Dummy request detected
 Duplicate a tab soda tab
-Duplicate action type: 
 Early connection closed; discarding signaling task.
 Edit a scheduled or DLP draft in a thread
 Edit the text of a message
@@ -1001,6 +1000,7 @@ Error checking if no preferred devices in local storage
 Error creating background worker video transform device
 Error during camera reconnection:
 Error during mid-processing fallback:
+Error fetching device.
 Error fetching permissions.info. Caught error: 
 Error fetching permissions.info. Error: 
 Error getting preferred devices from local storage
@@ -1058,6 +1058,7 @@ External Auth Completed
 External channel
 External connections
 External group conversations
+External huddle guest disconnected with no exit URL stored; staying in the client
 External results loaded successfully
 External results threw an error while loading
 External results timed out
@@ -1648,7 +1649,6 @@ Log exposure for the sidebar_cta_simplification experiment if it is exposed
 Log exposure for the slackbot_onboarding experiment if it is exposed
 Log exposure for the slackiversary experiment if it is exposed
 Log exposure for the team_creation_segmentation experiment if it is exposed
-Log exposure for the trials_plan_choice experiment if it is exposed
 Log exposure for the update_tc_segmentation_questions experiment if it is exposed
 Log exposure for the vacation_emoji_pack experiment if it is exposed
 Log reporter already started.
@@ -2324,6 +2324,7 @@ Records canvas open events from various places
 Records tab switches and navigations within those tab switches
 Records the launch context a popped-out companion window inherited from its opener
 Records the timestamp when the user last navigated to the Slackbot tab
+Redirecting external huddle guest to the exit page
 Redirects to the first tab in the pin-behavior variants
 Reduce embed counter
 Refetches localized APIs for a team
@@ -2698,6 +2699,7 @@ Search for work objects
 Search list views by query
 Search timed out
 Search: reset modules
+Searcher must be instantiated with a team id
 Seats search term for members page
 Secondary view has changed
 Secondary view has closed
@@ -3588,7 +3590,9 @@ Sets whether the huddle recording is currently paused.
 Sets whether the huddle window of an active huddle is open or not.
 Sets whether the huddles bottom bar is visible or not
 Sets whether the in-product team creation state machine has been loaded
+Sets whether the joiner is eligible for the Slackbot Big Mode onboarding flow, group-blind and Big-Mode-blind (pre-computed by backend)
 Sets whether the joiner should be redirected to Slackbot DM (pre-computed by backend)
+Sets whether the joiner should be routed into the Slackbot Big Mode joiner flow (pre-computed by backend)
 Sets whether the last calendar window fetch errored
 Sets whether the last calendar.user.status fetch failed
 Sets whether the members page is loading
@@ -3637,6 +3641,7 @@ Show a toast that an external guest was kicked from the huddle
 Show or hide the drag overlay
 Show progressive diclosure success coachmark
 Show slow network alert
+Show the Import Emails tab in a channel the creator added it to by hand
 Show the secondary coachmark anchored on the section menu following dismissal of unreads-simplification-coachmark
 Show the secondary coachmark if user chooses to hide muted channels
 Show the secondary coachmark if user dismisses hide muted channels coachmark
@@ -3799,6 +3804,7 @@ Stores the event details of the currently visible event
 Stores the meeting details event ID used by the meeting details view
 Stores the meetings list data grouped by day
 Stores the raw voice-dictation transcript inserted into the main composer (null to clear)
+Stores the signed URL an external huddle guest is sent to once their huddle session ends
 Submit Channel Export
 Subscribe to our blog
 SubscribeAndReceiveSubscribeAckTask got canceled while waiting for SdkSubscribeAckFrame
@@ -3897,6 +3903,7 @@ The system has granted getUserMedia access for cameras
 The system has granted getUserMedia access for microphones
 The user is in a different region from the Huddle host, potentially causing increased latency and instability. This geographical disparity can
 The value 
+There are no open windows, persisting an empty scene.
 There was an error while fetching calendar events
 This agent is already in the channel
 This agent is temporarily unavailable, but should be back online soon.
@@ -4498,6 +4505,7 @@ controls.start() should only be called after a component has mounted. Consider c
 cursor_pos is out of bounds!
 dates accessor is deprecated. Use date instead.
 ensureEnterpriseTeamByDomain: No domain provided!
+leaving the last known layout in place.
 localStorage read failed; client theme will not be persisted.
 localStorage write failed; client theme will not be persisted.
 markWithAPI tried too many times!
