@@ -1515,6 +1515,7 @@ Insert new complete canvas content
 Insert outgoing invite response
 Insert pending state for a newly created call
 Internal store update for mini-panel visibility
+Internally set the desktop restorable-state archive for a window (please use setRestorableState thunk instead)
 Internally set the sizing and positioning data for a window (please use setViewport thunk instead)
 Internally update the window focus state
 Internet Explorer
@@ -3463,6 +3464,7 @@ Sets the currently selected tab in the Today peek view
 Sets the currently selected tab in the action items card
 Sets the currently selected tab in the highlights card
 Sets the default layout for record unfurls admin setting
+Sets the desktop restorable-state archive for a given windowId across all booted workspaces
 Sets the email connector statuses from enterpriseSearch.getEmailConnectorStatus
 Sets the encoded id of this user
 Sets the entry point for the ai app thread
