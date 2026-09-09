@@ -29,6 +29,8 @@ A NamedTab is required to be specified for the main window
 A file you saved was deleted.
 A file you saved was not found.
 A h:mm:ss
+A huddle happened
+A huddle is happening
 A list item you saved was deleted.
 A list item you saved was not found.
 A logger instance is required
@@ -882,6 +884,7 @@ Destroy a query session ID by emptying it
 Destroy a search session ID by emptying it
 Destroy local refinements
 Destroy the search session original query by emptying it
+Destroyed voice focus transformer
 Determine destination container for navigation parameters
 Determine if current history entry should be replaced instead of pushing a new one when navigating in main window
 Determine if fullscreen mode is enabled
@@ -902,6 +905,8 @@ Device list updated
 Device list updated successfully
 Device list validation result:
 Device manager shutdown complete
+Device manager shutting down, aborting startAudioInput
+Device manager shutting down, aborting voice focus swap
 Device preferences manager initialized
 Device selection recorded
 Device selection records analysis:
@@ -955,7 +960,6 @@ Draft a meeting agenda for an intro call with a potential customer
 Draft a meeting agenda for our next quarterly planning review
 Draft a meeting agenda for the weekly meeting in # 
 Draft does not have a server generated ID
-Drafts & sent
 Dragon Touch
 Draw message must be correctly formed
 Drop an agent-created canvas from the unread list
@@ -1105,6 +1109,7 @@ Failed to read app name in getStoredStateFromIDB
 Failed to read device selection history from local storage
 Failed to read team or enterprise ID in Unknown Fetch Manager
 Failed to replace audio track
+Failed to restore Voice Focus from bypass
 Failed to send Huddle logs
 Failed to send awareness query: 
 Failed to serialize team prefs
@@ -1294,6 +1299,7 @@ Focus transition
 Focus when the thread is loaded
 FocusManager does not have a document (mount)
 FocusManager does not have a document (unmount)
+FocusManager registered against a document with no refs (unmount)
 FocusManager requires a single child with onFocus and onBlur props.
 Food & Drink
 For agents, this will just update the agentforce assistant description in the store
@@ -1448,6 +1454,7 @@ If a channel containing a broadcast was just marked, maybe we can mark the threa
 If a request is not in progress and the canvas canned templates have not yet been fetched, calls canvasesGetCannedTemplatesFetcher API
 If no scale values are provided, useInvertedScale must be used within a child of another motion component.
 If the setTimeout is no longer running then we kick it off again
+Ignoring a reset() from a superseded session; the active slot belongs to a newer one
 Ignoring non-backend chat.postMessage error since the message already came in over socket
 Il reste %d ans
 Il reste %d heures
@@ -1536,7 +1543,6 @@ Invalid device list detected - Native Device API call on empty devices group exp
 Invalid metadata returned for cell 
 Invalid offset 
 Invalid oldestAllowableTimestampFloat
-Invalid parameters in the data transformer
 Invalid quip entityId passed toQuipActivityHistory. It must be encoded with Qp:
 Invalid quip entityId passed toQuipCommentThread. It must be encoded with Qp:
 Invalid size returned for cell 
@@ -1591,6 +1597,7 @@ Leave the huddle and stop media transmission
 LeaveAndReceiveLeaveAckTask connection terminated
 LeaveAndReceiveLeaveAckTask got canceled while waiting for IndexFrame
 Leaves the workspace
+Left Voice Focus bypass for the in-flight microphone refresh
 Lemon Lime
 Let others know this task is done with a 
 Letter Gothic
@@ -1658,6 +1665,7 @@ Log exposure for the pricing_checkout_reorder experiment if it is exposed
 Log exposure for the sidebar_app_nux experiment if it is exposed
 Log exposure for the sidebar_cta_simplification experiment if it is exposed
 Log exposure for the slackbot_onboarding experiment if it is exposed
+Log exposure for the slackbot_skills_announcement experiment if it is exposed
 Log exposure for the slackiversary experiment if it is exposed
 Log exposure for the tc_redesign_upfront_segmentation experiment if it is exposed
 Log exposure for the team_creation_segmentation experiment if it is exposed
@@ -1932,6 +1940,7 @@ Metrics collection sampling has been reset.
 Microphone could not be set to enabled as access to the device was blocked
 Microphone init test not supported on this client
 Microphone permission denied
+Microphone permission is denied. The user must grant permissions and fully quit and restart Slack to join the Huddle
 Microsoft Edge
 Microsoft Uighur
 Mid-processing fallback already in progress, skipping
@@ -1984,7 +1993,10 @@ Navigate toChannel() got redirected since it was a file channel
 Navigate toMessage() got redirected since it was a file channel
 Navigates to either the Slack Connect hub or the External Connections browser, depending on ECB experiment assignment
 Navigating to sign-in
+Navigation middleware execution completed
 Navigation middleware execution is complete
+Navigation prevented by a generic exception
+Navigation prevented by infinite loops of data transforms
 Need audio tracks to run analyser
 Need to define VideoStreamIndex and selfAttendeeId if using getObservableVideoMetrics API
 Needs regenotiation for local video simulcast layer change
@@ -2003,6 +2015,7 @@ No active call ID for huddle
 No active recorder found.
 No args provided. Bold, very bold.
 No audio device chosen, creating empty audio device
+No audio input device found
 No audio stream available. Synthesizing an audio stream.
 No call ID or active huddle
 No callback provided. Printing response
@@ -2021,6 +2034,7 @@ No imsgs in response!
 No longer in DOM
 No longer observing compute pressure.
 No microphone devices found, though permissions have been granted previously. Permissions have likely been revoked or cleared mid-session
+No microphone refresher registered, cannot apply Voice Focus model
 No migration IDs provided
 No migration found for version 4
 No migration needed for device selection history
@@ -2149,6 +2163,7 @@ Override feature flag
 Overwrites our store of the teams in a given externally shared channel
 Palestinian Territory
 Papua New Guinea
+Parks a Slackbot deep-link source until the Slackbot AI permission resolves
 Pause or resume the programmable-sidebar custom view (client-local)
 Pauses a download on the desktop app
 Pauses video tile
@@ -2184,6 +2199,7 @@ Persists the today items from today.items.list in the store
 Pin Message to channel
 Ping the message server if necessary
 Pins a Slackbot AI NUX kickoff thread ts so its root message can be hidden
+Pins which model serves Slackbot AI turns, or null for the default routing
 Plain text
 Play Just-In-Time calendar notification sound
 Play sound when reaction is received
@@ -2218,7 +2234,9 @@ Precache visibility filters for this user before they kick off a search
 Preferred devices validated
 Prejoin SDK already exists; blocking new prejoin init
 Prejoin already connecting
-PrejoinMediaSessionService: actionDispatcherFactory not set
+Prejoin cancelled before connection
+Prejoin cancelled from ready
+Prejoin timed out after 20000ms without connecting
 Preload complete
 Premature close
 Premium Salesforce integration
@@ -2649,10 +2667,11 @@ Rtm room message needs an id
 Run navigate listeners (side-effects) for a given navigation flow
 Run navigation middlewares
 Run once on first reaction
+Run v1 navigation middlewares
+Run v2 navigation middlewares
 SAML-based single sign-on
 SDK detected good connection
 SDK detected poor connection
-SDK options not available
 SDK suggested stop video, maybe poor connection
 SIMD timing:
 SVC cannot be enabled at the same time as simulcast. Disabling SVC, using simulcast.
@@ -2900,6 +2919,8 @@ Set flag to indicate if Huddles is enabled.
 Set flag to indicate this is a Sales Admin that is missing access to the set up Salesforce org(s)
 Set flag to show if shared activities is enabled for log a call feature
 Set flag to show onboarding opportunity coachmark
+Set focus music playing state
+Set focus music song key
 Set form status for editing a given record
 Set hasSeenHuddlesExplainer value
 Set hasStreamingAnimationFinished to true
@@ -3267,6 +3288,7 @@ Set when Welcome DM message suggestion tip is visible
 Set when there are new, unseen joiner launchpad recommendations
 Set when toggling between base plan and Slack AI on plans page
 Set whether ArchivesBanner is showing summarize variant for a channel
+Set whether Enterprise Search is enabled for the actor (features.enterprise_search_enabled from client.extras)
 Set whether SFDC auto slack is enabled.
 Set whether SSO is required for the current user (gates passkey surfaces)
 Set whether Sales Home is enabled for the team.
@@ -3330,6 +3352,7 @@ Sets AI App thread shimmer when an agent is mentioned in the input
 Sets Huddle device based on preview entry
 Sets Next Daily Digest Time
 Sets a AI file summary translations status to errored
+Sets a To-dos page section to collapsed or expanded (idempotent)
 Sets a flag indicating that audio detection was performed and device id
 Sets a flag indicating the huddle locale has changed
 Sets a flag indicating the if the floating banner is expanded
@@ -3403,6 +3426,7 @@ Sets real time recap nux step
 Sets recap refreshed frontend state to display updated tag
 Sets remaining AI search samples for testing
 Sets search id for first navigation impression in the search session
+Sets search id for first nl-typeahead impression in the search session
 Sets selected daily digest
 Sets selected datasource to an org
 Sets selected tab for automations peek view
@@ -3702,6 +3726,7 @@ Skill Sets
 Skin Tones
 Skip updating audio input because there is no active meeting and peer connection
 Skip updating video input because there is no active meeting and peer connection
+Skipping Voice Focus device setup, a transformer already exists
 Skipping Voice Focus setup because configOnly is true
 Skipping persisted store if it exists because we
 Skipping reconnect for worker failure - session not connected
@@ -3872,8 +3897,6 @@ Target ref is defined but not hydrated
 Team ID is required
 Team id is undefined for the 
 Team plan status loaded
-Team state not available while initializing ActiveMediaSessionService
-Team state not available while initializing PrejoinMediaSessionService
 Tearing down previous Audio Input Track Handler
 Temporarily pause mini-panel visibility transition
 Temporarily show mini-panel
@@ -3902,6 +3925,7 @@ The connection failed due to incompatible SDP.
 The connection failed. See the error message for more details.
 The default view, plus unread and recent threads
 The encoded transform worker manager failed. The connection will be reconnected without transforms.
+The host revoked this huddle link. Ask them to share a new one.
 The indeterminate prop is only supported for the controlled Checkbox. Please provide the checked prop.
 The life time of the message has to be non negative
 The meeting already ended.
@@ -3928,6 +3952,8 @@ This agent is temporarily unavailable, but should be back online soon.
 This environment does not support defining a property as non-configurable, non-writable, or non-enumerable.
 This feature is unlimited with an upgrade
 This feature is unlimited with your free trial
+This huddle link has expired. Ask the host to share a new one.
+This huddle link no longer works. Ask the host to share a new one.
 This image is a bit too big, even after resizing. A smaller file might help?
 This is a paid feature, available with an upgrade
 This is a paid feature, available with your free trial
@@ -3959,6 +3985,7 @@ Toggle if the ARIA application role is applied to list views
 Toggle if user is using a keyboard to navigate
 Toggle microphone from current value to opposite value
 Toggle rendering for the #feat-mobile-awareness-dm-promo banner
+Toggles a To-dos page section between collapsed and expanded
 Toggles showTranslation boolean for an AI file summary translation
 Toggles showTranslation boolean for an AI message translation
 Toggles showTranslation boolean for an AI prompt summary translation
@@ -4445,6 +4472,7 @@ Viet Nam
 View container
 View container focus
 View has been transformed
+View state has been transformed
 ViewSet with detail view applied
 Virgin Islands, British
 Virgin Islands, U.S.
@@ -4452,12 +4480,16 @@ Vision assistive
 Voice Focus destroyed successfully
 Voice Focus fell back to inner stream
 Voice Focus is already destroyed
+Voice Focus ladder step failed
 Voice Focus manager not available
+Voice Focus manager not found or not available or noise suppression is disabled
 Voice Focus not supported. Reason: 
 Voice Focus not supported; returning standard stream.
 Voice Focus reported insufficient resources
 Voice Focus tore down successfully
+Voice focus device is null after swap, audio will continue without noise suppression
 Voice focus device transformer not initialized, triggering full setup for swap
+Voice focus swap failed, audio will continue without noise suppression
 VoiceFocusConfigPromise finished
 WKWebView iOS
 Wait until this ApiQ Instance has an empty queue
@@ -4516,6 +4548,8 @@ Yandex Browser
 You are unable to join the Huddle as you do not have permission to join Huddles.
 You can invite people from outside this private conversation, but they may have restricted access to messages.
 You cannot publish with a restricted step in your workflow
+You joined the huddle
+You missed a huddle
 You should pass the 
 Your Slack experience
 addRedundantAudioRecoveryMetricsObserver is deprecated. Access encodedTransformWorkerManager directly via meeting session context.
