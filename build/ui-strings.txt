@@ -40,7 +40,6 @@ A meeting is happening soon
 A message you saved was deleted.
 A message you saved was not found.
 A new version of the app is available.
-A wrapper around setUserPrefByApi meant for setting recents data
 AI conversation summaries
 AI file summaries
 AI search
@@ -380,6 +379,8 @@ Browser results threw an error while loading
 Browser results timed out
 Brunei Darussalam
 Bucketed Metrics
+Buffer a navigation event for an idle recents sync if the write toggle is on
+Buffer a search event for an idle recents sync if the write toggle is on
 Buffer full
 Buffer size must be a multiple of 16-bits
 Buffer size must be a multiple of 32-bits
@@ -1925,6 +1926,7 @@ MeetingSessionTimingManager: reset
 Megaphone launch_modal component rendered without modal content
 Meiryo UI
 Menu.renderMenuItem called without this.menuChildren
+Merge buffered recents events and sync the latest cumulative payload
 Merges Salesforce org assignment for searched users into the member-picker map
 Message and file search: set flag to not show bot and app messages
 Message and file search: set flag to only search channels you are a member of
@@ -2199,6 +2201,7 @@ Permission denied by user
 Permissions changed
 Permissions not considered trustworthy. Requiring refresh
 Permissions strategy not available
+Persist recents data without updating local user prefs
 Persist tab soda state to localStorage
 Persisting device selection records to local storage
 Persists a request payload by key
@@ -2342,11 +2345,7 @@ Reconcile a draft quote-reply paths against its current links
 Reconnect without waiting for its rate limit
 Reconnected and monitoring for future disconnections.
 Reconnection delay over. Now responding to disconnection events.
-Record a navigation event into recents if the write toggle is on, deferred to idle
-Record a navigation event into the recents pref and sync it to user prefs
 Record a recents navigation event for a navigate event
-Record a search event into recents if the write toggle is on, deferred to idle
-Record a search event into the recents pref and sync it to user prefs
 Record an agent-created canvas the user has not read yet
 Record that a message was deleted
 Record that a user has taken an action on a UI component
