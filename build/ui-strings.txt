@@ -2357,6 +2357,7 @@ Record trial pro banner interaction
 Records a mounted remote camera video element and its rendered width
 Records canvas open events from various places
 Records tab switches and navigations within those tab switches
+Records the last time the connected-calendars data was fetched
 Records the launch context a popped-out companion window inherited from its opener
 Records the timestamp when the user last navigated to the Slackbot tab
 Redirecting external huddle guest to the exit page
@@ -3448,6 +3449,7 @@ Sets template id to scroll to after deeplink
 Sets template info
 Sets that initial requests for calendar data have been completed on boot
 Sets that the Huddle was joined via prejoin
+Sets that the connected-calendars fetch has resolved at least once
 Sets that the current day has been set by opening the meeting details view
 Sets that the huddle the user is requesting access to has started or not
 Sets that the knock to enter request has expired for the user
@@ -3649,6 +3651,7 @@ Sets whether the sidebar is collapsed because of the big-mode Slackbot tab
 Sets whether the sidebar is currently auto-collapsed for a big-mode secondary view
 Sets whether the transcript is being recorded.
 Sets whether the updated segmentation questions state machine has been loaded
+Sets whether the user has a writable, synced calendar per provider
 Sets whether the user has overridden sidebar auto-collapse this session
 Sets whether the user is currently interacting with the screenshare view
 Sets whether the user is submitting a regenerate request
