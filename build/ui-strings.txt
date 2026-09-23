@@ -29,8 +29,6 @@ A NamedTab is required to be specified for the main window
 A file you saved was deleted.
 A file you saved was not found.
 A h:mm:ss
-A huddle happened
-A huddle is happening
 A list item you saved was deleted.
 A list item you saved was not found.
 A logger instance is required
@@ -277,6 +275,7 @@ Announces to screen readers that the secondary view has changed
 Answers questions and provides information based on content in your channel.
 Antigua and Barbuda
 Any file type
+App Icon Window
 Append members to a user group (pagination)
 Append more thread root keys
 Apple Color Emoji
@@ -1297,6 +1296,7 @@ Flannel chunk fetch failed
 Flannel fetch failed
 Flannel fetch for all active huddles failed
 Flush the current visible video tile set to the downlink policy
+Flushing current window restoration data and ignoring all future saves due to app quit
 Focus did not transition
 Focus mode is no longer active, clearing silent sidebar
 Focus the input when the thread is loaded
@@ -1316,6 +1316,7 @@ Force coachmarks to be hidden due to an overlay appearing
 Force-fetches messages by channel ID and timestamp using messages.list
 Forcing display of join preview due to device permission problems
 Forest Floor
+Forget the channel a smart-invites-v3 channel suggestion was resolved into, by suggestion id
 Format and upsert list records
 Format server-provided counts and update store with new values
 Formula module requires KaTeX.
@@ -1337,6 +1338,8 @@ Gantry.run has already been called
 Gathering ICE candidates timed out. In Chrome, this might indicate that the browser is in a bad state after reconnecting to VPN.
 Generates a random synthetic Slack-compatible file ID
 Generator is already executing.
+Gesture Blocking Overlay
+Gesture Blocking Window
 Get Channel Pref
 Get SIWS registered domains list
 Get a Query Session ID
@@ -2232,6 +2235,7 @@ Please choose an image smaller than 64KB.
 Please make sure your file is a GIF, JPEG, PNG, or WEBP.
 Please pass in a valid TS string
 Please provide a string description
+Please reload to stay up to date.
 Poll client unreads API after delay
 Poll client unreads API on interval
 Popular this week
@@ -2249,6 +2253,7 @@ Prejoin SDK already exists; blocking new prejoin init
 Prejoin already connecting
 Prejoin cancelled before connection
 Prejoin cancelled from ready
+Prejoin superseded by join (no server leave)
 Prejoin timed out after 20000ms without connecting
 Preload complete
 Premature close
@@ -2353,6 +2358,7 @@ Record an agent-created canvas the user has not read yet
 Record recents navigation as visits, falling back to the recents pref write
 Record that a message was deleted
 Record that a user has taken an action on a UI component
+Record the channel a smart-invites-v3 channel suggestion was resolved into
 Record the first survey trigger to fire (segment + query session + search session + query)
 Record the result of a passkey registration attempt
 Record the result of the mini survey we first display the user after a huddle ends.
@@ -2384,6 +2390,7 @@ Relay observed overlays state from OverlaysContextProvider to Redux
 Reload Now
 Reload custom emoji if we are out of sync with the server
 Reload domains if we are out of sync with the server
+Reloading Slack
 Remember the last user-selected view for a list in a given window
 Remote Work
 Remove AI canvas content from the store
@@ -2460,6 +2467,7 @@ Remove deleted lists from the store
 Remove edits corresponding to a message
 Remove email
 Remove ephemeral message reference
+Remove evicted hidden replies from channel history
 Remove files from a collection
 Remove from the list of pinned canvases for an external workspace
 Remove global app actions for apps
@@ -2668,6 +2676,7 @@ Returns a promise the resolves when the service is confirmed to be up and runnin
 Returns a promise the resolves when we have a network connection
 Returns the enterprise organization
 Revert a template back to a canvas by updating the file object
+Review AI content
 Revokes a public url generated for a file
 Rewrites user generated request query
 Rich Text
@@ -3740,6 +3749,7 @@ Skipping update to orderedTeamIds, allWorkspaces is empty
 Slack AI
 Slack and Salesforce are disconnected.
 Slack event trigger description
+Slack workspace settings have updated
 Small Fonts
 SmallChannelEntity should not display IMs or MPIMs
 Smart Lenovo 
@@ -4055,6 +4065,7 @@ Triggers a side-effect that opens the workflow details modal in client (noop)
 Triggers a side-effect that shows the Record Save Toast (noop)
 Triggers a side-effect that starts the DND Timer in the client
 Triggers maybeUpdateTeamIconSideEffect side effect that syncs the local config and client store with the new icon
+Triggers maybeUpdateTeamNameSideEffect side effect that syncs the local config and client store with the new name
 Triggers once per message
 Trinidad and Tobago
 Trouble connecting to socket
@@ -4561,8 +4572,6 @@ Yandex Browser
 You are unable to join the Huddle as you do not have permission to join Huddles.
 You can invite people from outside this private conversation, but they may have restricted access to messages.
 You cannot publish with a restricted step in your workflow
-You joined the huddle
-You missed a huddle
 You should pass the 
 Your Slack experience
 addRedundantAudioRecoveryMetricsObserver is deprecated. Access encodedTransformWorkerManager directly via meeting session context.
