@@ -36,9 +36,6 @@ client.counts:include_file_channels
 client.counts:org_wide_aware
 client.counts:thread_counts_by_channel
 client.counts:token
-client.extras:_x_reason
-client.extras:extras
-client.extras:token
 client.gantryBoot:_x_reason
 client.gantryBoot:include_channels
 client.gantryBoot:token
@@ -95,7 +92,6 @@ enterprise.channels.admin.setMandatory:prefs
 enterprise.info:include_primary_owner
 enterprise.info:token
 enterprise.migrations.getHistory:status
-enterprise.prefs.get:token
 enterprise.teams.creationrequests.create:enterprise_token
 enterprise.teams.creationrequests.create:name
 enterprise.teams.creationrequests.create:reason
