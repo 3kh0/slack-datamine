@@ -658,6 +658,7 @@ Clear the full awareness state for a user
 Clear the highlight from the initial message
 Clear the inviter ID for a channel (Slackbot-gated); used on self-join to drop stale state
 Clear the join credentials for a specific channel
+Clear the last search accept query once the survey is known not to be delivered
 Clear the original user query
 Clear the passkey re-login request (dismiss the modal)
 Clear the pending search in-product survey once the survey is consumed
@@ -2365,7 +2366,7 @@ Record the channel a smart-invites-v3 channel suggestion was resolved into
 Record the first survey trigger to fire (segment + query session + search session + query)
 Record the result of a passkey registration attempt
 Record the result of the mini survey we first display the user after a huddle ends.
-Record the time, type, and query session of the last search accept event
+Record the time, type, query session, and query of the last search accept event
 Record trial pro banner interaction
 Records a mounted remote camera video element and its rendered width
 Records canvas open events from various places
