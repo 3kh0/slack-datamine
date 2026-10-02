@@ -652,6 +652,7 @@ Clear the highlight from the initial message
 Clear the inviter ID for a channel (Slackbot-gated); used on self-join to drop stale state
 Clear the join credentials for a specific channel
 Clear the last search accept query once the survey is known not to be delivered
+Clear the off-shift blocker after successful client.init
 Clear the original user query
 Clear the passkey re-login request (dismiss the modal)
 Clear the pending search in-product survey once the survey is consumed
@@ -3693,6 +3694,7 @@ Show or hide the drag overlay
 Show progressive diclosure success coachmark
 Show slow network alert
 Show the Import Emails tab in a channel the creator added it to by hand
+Show the off-shift blocker without expiring workspace credentials
 Show the secondary coachmark anchored on the section menu following dismissal of unreads-simplification-coachmark
 Show the secondary coachmark if user chooses to hide muted channels
 Show the secondary coachmark if user dismisses hide muted channels coachmark
