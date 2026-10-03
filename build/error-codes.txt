@@ -3,6 +3,8 @@ already_in_channel_ug
 already_installed
 already_pinned
 already_requested
+already_resolved
+app_not_found
 attendee_not_found
 cannot_change_default_view_name
 cannot_delete_default_view
@@ -31,6 +33,7 @@ file_not_found
 function_not_found
 huddle_not_found
 invalid_access
+invalid_app_id
 invalid_args
 invalid_arguments
 invalid_auth
@@ -65,10 +68,8 @@ invalid_field_for_list_trigger
 invalid_for_external_shared_channel
 invalid_for_is_mpim
 invalid_for_restrict_guests_channel
-invalid_function_type
 invalid_interactivity_configuration_input_parameter
 invalid_interactivity_pointer
-invalid_label_path
 invalid_list
 invalid_mode
 invalid_multi_record_trigger_extra_steps
@@ -88,6 +89,7 @@ invalid_preferences
 invalid_private_channel_ask_agentforce
 invalid_private_channel_summarize_channel
 invalid_profile
+invalid_proposed_acl
 invalid_recipient_team
 invalid_request
 invalid_reserved_word
@@ -100,7 +102,6 @@ invalid_send_to_salesforce_app_recipient
 invalid_send_to_salesforce_app_steps
 invalid_source_channel
 invalid_starts_with_at
-invalid_step_function_type
 invalid_step_position
 invalid_step_with_sf_external_trigger
 invalid_step_with_sf_instant_trigger
@@ -113,7 +114,6 @@ invalid_trigger_in_opt_out_salesforce_app_workflow
 invalid_user
 invalid_user_combination
 invalid_user_context
-invalid_value_path
 invalid_wf_step_template_syntax
 landing_workspace_not_found
 list_not_found
@@ -190,6 +190,7 @@ not_admin
 not_allowed
 not_allowed_for_free_team
 not_allowed_for_grid_workspace
+not_an_enterprise
 not_app_admin
 not_authed
 not_connected
