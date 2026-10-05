@@ -6,6 +6,7 @@ admin.apps.lookup
 admin.apps.requests.cancel
 admin.apps.requests.list
 admin.apps.restricted.list
+admin.apps.search
 admin.functions.list
 admin.functions.permissions.bulkSet
 admin.functions.permissions.lookup
@@ -109,6 +110,7 @@ conversations.leave
 conversations.leave.recommendations
 conversations.listPrefs
 conversations.mark
+conversations.members
 conversations.open
 conversations.permissions.accountTypes.list
 conversations.permissions.accountTypes.set
@@ -128,6 +130,7 @@ dnd.endSnooze
 dnd.info
 dnd.setSnooze
 dnd.teamInfo
+drafts.bulkDelete
 drafts.delete
 drafts.listActive
 emoji.add
@@ -148,6 +151,8 @@ enterprise.channels.createShared
 enterprise.groups.createShared
 enterprise.info
 enterprise.migrations.add
+enterprise.migrations.approve
+enterprise.migrations.decline
 enterprise.migrations.fetchIntents
 enterprise.migrations.getAvailableTimes
 enterprise.migrations.getHistory
@@ -199,7 +204,6 @@ functions.workflows.get
 functions.workflows.list
 functions.workflows.steps.add
 groups.view
-helpcenter.getWhatsNew
 im.view
 lab.features
 links.getDomains
@@ -208,8 +212,6 @@ lists.edits.getLastForCell
 lists.records.info
 lists.records.infoBatch
 lists.records.list
-messages.list
-messages.sent.list
 mpim.view
 oauth.access
 oauth.v2.access
@@ -289,6 +291,7 @@ subscriptions.thread.mark
 subscriptions.thread.remove
 team.admins.list
 team.checkEmailDomains
+team.counts
 team.feature.getRequest
 team.feature.request
 team.info
@@ -300,10 +303,18 @@ team.prefs.set
 team.profile.get
 team.stateMachine
 team.targetingCriteria
-unread.markRead
 usergroups.membership
 usergroups.search
+users.admin.changeURAChannel
+users.admin.fetchTeamUsers
+users.admin.fetchTeamUsersCsv
 users.admin.inviteSms
+users.admin.profileDeidentify
+users.admin.removeExpiration
+users.admin.removeOwner
+users.admin.setExpiration
+users.admin.setInactive
+users.admin.setOwner
 users.channelSections.channels.bulkUpdate
 users.channelSections.channels.remove
 users.channelSections.create
