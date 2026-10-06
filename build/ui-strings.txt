@@ -25,6 +25,7 @@
 :_ instanceof RegExp?
 :d instanceof RegExp?
 A NamedTab is required to be specified for the main window
+A call started during the Voice Focus re-measure, discarding it
 A file you saved was deleted.
 A file you saved was not found.
 A h:mm:ss
@@ -269,6 +270,7 @@ Analyzing stored device records
 Android 
 Animals & Nature
 Announces to screen readers that the secondary view has changed
+Another call is live, leaving the Voice Focus re-measure to it
 Answers questions and provides information based on content in your channel.
 Antigua and Barbuda
 Any file type
@@ -1200,6 +1202,7 @@ Fetch teams connected to a shared channel and upsert into frontend store.
 Fetch teams that share a channel with current team using Slack Connect API
 Fetch the Quip ID for a given file ID and upsert
 Fetch the Quip IDs for given file IDs and upsert
+Fetch the agent sunroof apps from agents.sunroof.get
 Fetch the channels that are shared across the entire org
 Fetch the default channels for an org
 Fetch the general channel
@@ -2167,7 +2170,9 @@ Opens the huddle window
 Opens workspace switcher if the user is part of experiment
 Operation cancelled
 Operation cancelled before start
+Optimistically add an app to the end of the agent sunroof
 Optimistically remove a deleted result item from browser results by ID
+Optimistically remove an app from the agent sunroof
 Optimistically sets the current user
 Orchestrated microphone setup failed
 Organization channels
@@ -2312,6 +2317,7 @@ Re-fetch saved items for the active tab on reconnect
 Re-fetching auth due to added_to_team or removed_from_team rtm event that was deferred
 Re-fetching credentials since we have not fetched them recently
 Re-key an unattached composer draft into a stashed composer draft
+Re-measured Voice Focus config is not usable, keeping the old one
 Re-order tab soda tabs
 Re-using existing voice focus node
 React class
@@ -3124,6 +3130,8 @@ Set the OS system theme field in redux (do not use this)
 Set the Salesforce features in redux.
 Set the Slackbot-authored join summary for a channel the user just joined or was invited to
 Set the active tab for the main window
+Set the agent sunroof apps from agents.sunroof.get
+Set the agent sunroof fetch state
 Set the arrival source of the deep link waiting for a permission to resolve
 Set the behavior of the up arrow shortcut when focus is in the MessageInput
 Set the channel tabs
