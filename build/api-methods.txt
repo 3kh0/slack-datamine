@@ -3,6 +3,7 @@ admin.apps.approved.list
 admin.apps.installed.list
 admin.apps.internal.list
 admin.apps.lookup
+admin.apps.permissions.set
 admin.apps.requests.cancel
 admin.apps.requests.list
 admin.apps.restricted.list
@@ -11,6 +12,16 @@ admin.functions.list
 admin.functions.permissions.bulkSet
 admin.functions.permissions.lookup
 admin.functions.permissions.set
+admin.roles.delete
+admin.roles.getMemberAssignments
+admin.roles.getMembershipInfo
+admin.roles.list
+admin.roles.listMembers
+admin.roles.listUsergroups
+admin.roles.removeUsergroup
+admin.usergroups.addChannels
+admin.usergroups.listChannels
+admin.usergroups.removeChannels
 admin.workflows.search
 admin.workflows.triggers.types.list
 api.features
@@ -172,6 +183,8 @@ enterprise.teams.info
 enterprise.teams.join
 enterprise.teams.joinrequests.create
 enterprise.teams.leave
+enterprise.usergroups.teams.get
+enterprise.usergroups.teams.remove
 entities.channels.matchEmailField
 entities.members.matchEmailField
 entities.refs.add
