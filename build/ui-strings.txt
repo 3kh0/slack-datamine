@@ -575,6 +575,7 @@ Chromium OS
 Classifier prompt
 CleanStoppedSessionTask got canceled while waiting for the WebSocket closed event
 Cleaning up the video element
+Cleanup callback registered after child window cleanup
 Cleanup telemetry marks
 Clear All Megaphone spaces
 Clear Megaphone space
@@ -2054,6 +2055,7 @@ No entity id specified, cannot fetch
 No imsgs in response!
 No longer in DOM
 No longer observing compute pressure.
+No managed child window app to render into
 No microphone devices found, though permissions have been granted previously. Permissions have likely been revoked or cleared mid-session
 No microphone refresher registered, cannot apply Voice Focus model
 No migration IDs provided
@@ -2688,6 +2690,7 @@ Returns a promise the resolves when we have a network connection
 Returns the enterprise organization
 Revert a template back to a canvas by updating the file object
 Review AI content
+Review requested
 Revokes a public url generated for a file
 Rewrites user generated request query
 Rich Text
@@ -4004,7 +4007,6 @@ This week
 Tile will pause for self user, unexpected
 Tile will unpause for self user, unexpected
 Time Since Start (s)
-Timeout in waiting for child window to load
 Times New Roman
 Timing data ready but signaling client is not available, discarding
 Tips for how you work
@@ -4112,6 +4114,7 @@ Unable to get AudioContext
 Unable to get get stored state from IndexedDB
 Unable to get lists_my_items_last_seen
 Unable to get todos_last_seen
+Unable to open desktop child window
 Unable to parse assigned_items_refinements JSON string
 Unable to parse create_channel_section_education JSON string
 Unable to re-focus element
