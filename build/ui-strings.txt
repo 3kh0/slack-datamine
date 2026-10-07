@@ -274,6 +274,7 @@ Another call is live, leaving the Voice Focus re-measure to it
 Answers questions and provides information based on content in your channel.
 Antigua and Barbuda
 Any file type
+App Icon Window
 Append members to a user group (pagination)
 Append more thread root keys
 Apple Color Emoji
@@ -488,7 +489,6 @@ Canvases results loaded successfully
 Canvases results threw an error while loading
 Cape Verde
 Captures companion context immediately before the first send
-Captures the session ID for a thread so the success survey can reference it
 Catch statement predicate: expecting an object but got 
 Catch-up failed: no transcript history available
 Caught error within getStoredStateIfValid; booting cold
@@ -939,6 +939,7 @@ Dismiss a single smart-invites-v3 channel suggestion by id
 Dismiss save success toast if visible
 Dismiss the current toast
 Dismisses a calendar event from JIT notifications for this session
+Dismisses a failed calendar-first onboarding attempt for this session
 Dispatch a reaction to the middleware and the current store to notify user has sent a reaction
 Dispatch an API call
 Dispatch an API call that can be persisted
@@ -1597,6 +1598,7 @@ Jump to a reply timestamp
 Jump to a timestamp in the active channel
 Jump to the currently edited message
 Keep Recording
+Keep the full-page composer on a draft instead of adopting its destination draft
 Keeps count of how many members are in a team
 Keeps count of how many times a user has seen the quick reactions customization tooltip
 Keyboard focus
@@ -2362,7 +2364,7 @@ Reconnection delay over. Now responding to disconnection events.
 Record a recents navigation event for a navigate event
 Record an agent-created canvas the user has not read yet
 Record catch-up eligibility from Activity entries fetched outside the Activity feed
-Record recents navigation as visits, falling back to the recents pref write
+Record recents navigation as visits and unwritten search to the recents pref
 Record that a message was deleted
 Record that a user has taken an action on a UI component
 Record the channel a smart-invites-v3 channel suggestion was resolved into
@@ -2374,6 +2376,7 @@ Record trial pro banner interaction
 Records a mounted remote camera video element and its rendered width
 Records canvas open events from various places
 Records tab switches and navigations within those tab switches
+Records the calendar-first onboarding kickoff thread for this session
 Records the last time the connected-calendars data was fetched
 Records the launch context a popped-out companion window inherited from its opener
 Records the timestamp when the user last navigated to the Slackbot tab
@@ -3523,7 +3526,7 @@ Sets the entry point for the ai app thread
 Sets the entry point for the app
 Sets the entry source for agent DM opened from agent browser
 Sets the error result for fetching shared-invite info
-Sets the error state and context
+Sets the error state
 Sets the error state for meetings list
 Sets the exceptions to the multiselect field for record unfurls admin setting
 Sets the fetch status for SFDC object options
@@ -3680,7 +3683,6 @@ Sets whether to show the loading state while fetching the AI preview
 Sets whether to show the preview during the team creation flow
 Sets whether to show the resource tab coachmark while clicking the foreword card
 Sets whether we are currently switching workspaces
-Sets whether we have processed setTeamPermissionObjects for Slackbot AI NUX init
 Sets whether web search mode is active for the next message
 Sets which huddle educational tip is showing
 Sets which itemid to highlight on for Saved for later after notification is clicked
@@ -4090,6 +4092,7 @@ Try Business+ for Free
 Try Pro for Free
 Try huddles with more people
 Trying to fetch a module that does not exist
+Trying to wrap non-literal object
 Turks and Caicos Islands
 Turn off smart-invites-v3 channel suggestions, clearing them all from the sidebar
 Turn off video
