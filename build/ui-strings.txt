@@ -642,6 +642,7 @@ Clear the full awareness state for a user
 Clear the highlight from the initial message
 Clear the inviter ID for a channel (Slackbot-gated); used on self-join to drop stale state
 Clear the join credentials for a specific channel
+Clear the last announcer API message so it is not replayed when returning to this team
 Clear the last search accept query once the survey is known not to be delivered
 Clear the off-shift blocker after successful client.init
 Clear the original user query
@@ -1988,6 +1989,7 @@ Name hidden
 Native device manager not available
 Native device manager not available - platform not supported
 Navigate back in the Action Library Navigation history
+Navigate side effect to clear the last screen reader announcement of the team being left
 Navigate side effect to close all modals
 Navigate side effect to close pins popover
 Navigate side effect to keep the split column mode in the correct state
@@ -4021,6 +4023,7 @@ Tokyo Sight
 Too long since we received a pong
 Too many IDs for subscribe
 Too many IDs for unsubscribe
+Top results loaded successfully
 Top results threw an error while loading
 Top results timed out
 Touch base on the go, without all the typing
@@ -4558,6 +4561,8 @@ With threads
 Within your org, people in your workspace can join automatically. Other workspaces must request.
 Work anniversary
 Work in channels with external people
+Work objects results threw an error while loading
+Work objects results timed out
 Work securely with external organizations
 Work with external partners
 Worker initialization failed
