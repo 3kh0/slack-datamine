@@ -699,6 +699,7 @@ Clears the external huddle guest prejoin session
 Clears the in-flight marker for an aiApps.list filter key
 Clears the jump-to timestamp
 Clears the meeting details event used by the meeting details view
+Clears the nested-secondary open animation flag if it belongs to the given view id
 Clears the pending draft request after it was fulfilled or timed out
 Clears the persisted apiCall payload at the key
 Clears the recording cancellation reason after the toast has been shown
@@ -1861,6 +1862,7 @@ Mark Permissions as Stale for a given permission context
 Mark Whats New fetch as failed
 Mark a conversation through the API
 Mark a forwarded-message unfurl as removed during editing
+Mark a nested secondary opened via navigation so it animates in
 Mark a smart-invites-v3 channel suggestion collaborators fetch as failed by id
 Mark actions for channelIds as stale
 Mark all permissions as stale
@@ -3603,6 +3605,7 @@ Sets the user object state machine for in-product team creation
 Sets the user object state machine for segmentation in team creation
 Sets the user object state machine for updated segmentation questions
 Sets the very first history entry after a new window is opened
+Sets the view id of the nested secondary that should play its open animation
 Sets the visibility of the translation bar for a messageTS
 Sets the week currently in view on the screen
 Sets the welcome party state machine
