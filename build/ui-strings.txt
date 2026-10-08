@@ -25,17 +25,11 @@
 :d instanceof RegExp?
 A NamedTab is required to be specified for the main window
 A call started during the Voice Focus re-measure, discarding it
-A file you saved was deleted.
-A file you saved was not found.
 A h:mm:ss
-A list item you saved was deleted.
-A list item you saved was not found.
 A logger instance is required
 A meeting happened
 A meeting is happening
 A meeting is happening soon
-A message you saved was deleted.
-A message you saved was not found.
 A new version of the app is available.
 AI conversation summaries
 AI file summaries
@@ -259,10 +253,10 @@ An error occurred attempted to disconnect from the compute pressure observer
 An error occurred attempting to get latest compute pressure reports
 An error occurred cleaning up huddle redux state. Proceeding to disconnect from media server.
 An error occurred clearing huddle credentials.
+An error occurred enumerating devices. Setting access status to 
 An error occurred while attempting to create compute pressure observer
 An error occurred while disconnecting from the media server.
 An error occurred while processing tags
-An error occurred while refreshing device permissions
 An externally shared channel that was unavailable due to an external team migrating from a standalone workspace to be in a grid organizations, is now done migrating and ready to reload
 An unknown error occurred.
 An update of the desktop state from the desktop app
@@ -324,8 +318,6 @@ Audio detection tracker reset
 Audio input device cannot be undefined
 Audio input initialization failed
 Audio stream is undefined, no audio detection will be triggered
-AudioOutput devices cannot be acquired via getUserMedia
-AudioOutput devices use setSinkId, not getUserMedia. Cannot acquire.
 Auto-collapse or restore the sidebar on resize while a big-mode secondary view is open
 Auto-collapse the sidebar while a big-mode secondary view is open
 Available devices update already in progress. Returning existing promise.
@@ -466,7 +458,6 @@ Cannot check whether to reload when using js_path. Skipping client.shouldReload 
 Cannot copy empty string to clipboard
 Cannot decode transcript data message: 
 Cannot dispatch openHuddleErrorModal: no huddle team ID
-Cannot dispatch openHuddleWindowUsingSideEffect: no active huddle team ID
 Cannot fetch from Slack API without a valid token. Please include one in args.
 Cannot find workspace for app or bot user in this org.
 Cannot focus a closed window
@@ -553,7 +544,6 @@ Chat and Collaboration
 Check for system media access
 Check if users in a channel can join huddle
 Check the list of emergency backup codes provided when setting up 2FA.
-Check your authentication app for your code.
 Checking if auth is fresh due to accounts_changed rtm event
 Checking if auth is fresh due to accounts_changed rtm event that was deferred
 Checks if the message is in an active view before doing the animation
@@ -833,6 +823,7 @@ Creates a window with the given ID and state across all booted teams
 Creating new background worker video transform device
 Ctrl + Shift + Alt + H
 Ctrl + Shift + H
+Custom Reminder
 Custom emoji
 Cwm fjordbank gly 
 Cycle failed
@@ -1023,7 +1014,6 @@ Error calling purgeStoredModelsExceptForTeamIds
 Error caught while loading
 Error checking if no preferred devices in local storage
 Error creating background worker video transform device
-Error during camera reconnection:
 Error during mid-processing fallback:
 Error fetching permissions.info. Caught error: 
 Error fetching permissions.info. Error: 
@@ -1070,7 +1060,6 @@ Expected a non-null value
 Expected block to have an id
 Expected channelId to be a String
 Expected count to be a Number.
-Expected credentials to be set before PENDING
 Expected migrationIds to be an Array
 Expected userIds to be an Array of Strings
 Expires a closing state whose handshake was never completed
@@ -1091,7 +1080,6 @@ Failed SIMD estimation; falling back to non-SIMD.
 Failed to build VideoFxProcessor
 Failed to clear the default device controller output
 Failed to collect screenshare stats
-Failed to connect consumer to channel
 Failed to destroy the default device controller
 Failed to disconnect from the Huddle. This may mean the user is still connected to the media server
 Failed to dispatch media server disconnect.
@@ -1325,7 +1313,6 @@ Force API failures (e.g. client.init:fail:100)
 Force a connectivity notification so wasRecentlyOnline re-evaluates after the grace window
 Force coachmarks to be hidden due to an overlay appearing
 Force-fetches messages by channel ID and timestamp using messages.list
-Forcing display of join preview due to device permission problems
 Forest Floor
 Forget the channel a smart-invites-v3 channel suggestion was resolved into, by suggestion id
 Format and upsert list records
@@ -1456,7 +1443,6 @@ Huddle AI Notes
 Huddle Jukebox Manager created.
 Huddle Trace Manager created
 Huddle ended. Cleaning up event handlers and connection references.
-HuddleStateManager disconnect timeout
 HuddleStateManager shutdown
 HuddleStateManager timeout
 Huddles SDK shutdown complete after disconnect
@@ -1491,6 +1477,10 @@ Import Emails
 Important unreads
 Important unreads, recents, then everything else
 Improve team communication
+In 1 hour
+In 20 minutes
+In 3 hours
+In 30 mins
 In focus mode
 In response to an RTM event, clear a Megaphone notification from all spaces where it is currently showing
 Increase count of open popovers for a team, optionally in a given window
@@ -1582,6 +1572,7 @@ Is focus transitioning within a focus transition context
 Is in a thread
 Is select all checkbox checked on drafts page
 Isle of Man
+It looks like not everyone on this huddle has access to this feature just yet.
 Jan 1, 1990, 1:30 PM
 Jan 1, 1990, 1:30:22 PM
 Jan 1, 1990, 8:30 AM
@@ -2035,7 +2026,6 @@ No Background
 No VFConfig provided during setupDevice
 No VFConfig provided, choosing the model from hardware alone
 No VIPs have been added
-No active call ID for huddle
 No active recorder found.
 No args provided. Bold, very bold.
 No audio device chosen, creating empty audio device
@@ -2043,22 +2033,18 @@ No audio input device found
 No audio stream available. Synthesizing an audio stream.
 No call ID or active huddle
 No callback provided. Printing response
-No camera devices found, though permissions have been granted previously. Permissions have likely been revoked or cleared mid-session
 No cameras found
 No channel ID or active huddle
 No channel id given
 No client.extras to fetch
 No credit card required.
 No device changes recorded for this huddle
-No devices found
-No devices found in v2 device manager
 No draft provided
 No entity id specified, cannot fetch
 No imsgs in response!
 No longer in DOM
 No longer observing compute pressure.
 No managed child window app to render into
-No microphone devices found, though permissions have been granted previously. Permissions have likely been revoked or cleared mid-session
 No microphone refresher registered, cannot apply Voice Focus model
 No migration IDs provided
 No migration found for version 4
@@ -2136,6 +2122,7 @@ OS default device IDs do not exist skipping maybe setting initial device pref to
 OS default device IDs recorded
 Observe an accepted channel nomination navigation
 On a call
+On day of
 OneDrive & SharePoint
 Only certain people can invite this agent to channels at this time.
 Only channel managers and Slack admins can set up this agent.
@@ -2218,7 +2205,6 @@ Permission denied by browser
 Permission denied by user
 Permissions changed
 Permissions not considered trustworthy. Requiring refresh
-Permissions strategy not available
 Persist recents data without updating local user prefs
 Persist tab soda state to localStorage
 Persisting device selection records to local storage
@@ -2365,6 +2351,7 @@ Recently viewed
 Reconcile a draft quote-reply paths against its current links
 Reconnect without waiting for its rate limit
 Reconnected and monitoring for future disconnections.
+Reconnecting Chime session
 Reconnection delay over. Now responding to disconnection events.
 Record a recents navigation event for a navigate event
 Record an agent-created canvas the user has not read yet
@@ -2746,9 +2733,6 @@ Save thread scrollmark when thread component is unmounted
 Saved items
 Saves channel account type permissions
 Scheduled to start in the past. Select a time today or on a future date.
-Screen share disable ignored as screen share was not started successfully
-Screen share stop not confirmed after 10s, force-killing media tracks
-Screen share stop not confirmed after 5s, retrying
 Screen track should not already be active
 Screenshare stop: stream ended
 Sea Glass
@@ -2781,12 +2765,8 @@ Select a tab by id
 Select an image
 Select channels to monitor
 Selector updates
-Self connected to chime media server
-Self screenshare started
 Self-healed corrupted Activity view state: activity list not in primary as expected
 Self-healed corrupted Activity view state: list not in Primary under list-in-primary layout
-Send Code to Backup Phone
-Send Code to Primary Phone
 Send Invite
 Send Invites
 Send a message
@@ -3826,6 +3806,7 @@ Start the canvas jukebox using content share
 Start transcription for current huddle
 Started by
 Started loading history for a channel
+Starting Chime session
 Starting StatsCollector
 Starting a new navigation event
 Starting a new navigation middleware execution
@@ -4004,7 +3985,6 @@ This link has expired
 This link no longer works
 This meeting has ended
 This meeting has ended for everyone who was in it.
-This should not be possible
 This socket already has a delegate
 This week
 Tile will pause for self user, unexpected
@@ -4113,7 +4093,6 @@ Unable to do anything with api response
 Unable to fetch canvas templates
 Unable to find stored state
 Unable to find team or enterprise ID
-Unable to get AudioContext
 Unable to get get stored state from IndexedDB
 Unable to get lists_my_items_last_seen
 Unable to get todos_last_seen
@@ -4128,7 +4107,6 @@ Unbinds video tile from a video element
 Undisplay an alert message for huddle call
 Unexpected 
 Unexpected syntax 
-Unhandled draw message case
 United Arab Emirates
 United Kingdom
 United States
@@ -4493,7 +4471,6 @@ Using the v2 auth flow
 Using transceiver controller with simulcast support
 Using urlRewriterMulti for dual UDP support
 Using video only transceiver controller
-V2 devices found. Updating device store
 VF not enabled because device is not expected to be able to perform adequately
 VIP unreads
 Validations passed in much be an object defining all param validations
@@ -4501,7 +4478,6 @@ Vatican City
 Video Concurrent Senders Health
 Video Encoding CPU Health
 Video Encoding framerate Health
-Video background
 Video clip
 Video device permissions granted
 Video input initialization
@@ -4549,6 +4525,7 @@ Warn before discarding in-progress to-do content
 Warning: 
 Was disconnected; reset reachedEnd to false
 We cannot write HTML in SSB
+We ended the huddle since you were the only one there for a bit.
 We ended your huddle since you were the only one there for a bit.
 We had a network request timeout and are on the SSB, we will now check to see if we have a broken network stack caused by an orphaned service worker
 Web Worker created
@@ -4564,7 +4541,6 @@ Welcome card modal
 Welcome to preview
 Western Sahara
 What kind of boot is this
-What went wrong?
 When a code channel is archived
 When a huddle starts in a channel
 When a list item is updated
@@ -4603,6 +4579,7 @@ You can invite people from outside this private conversation, but they may have 
 You cannot publish with a restricted step in your workflow
 You should pass the 
 Your recommended plan
+Your two-factor authentication code was incorrect. Please try again.
 addRedundantAudioRecoveryMetricsObserver is deprecated. Access encodedTransformWorkerManager directly via meeting session context.
 client.checkVersion should only be used in the client.
 controls.set() should only be called after a component has mounted. Consider calling within a useEffect hook.
