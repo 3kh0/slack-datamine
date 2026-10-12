@@ -145,6 +145,7 @@ Add a new draft id to update
 Add a new entry to this windows history stack
 Add a new main window to the store with the specified view inside it
 Add a new prompt
+Add a pending license approval request ID
 Add a placeholder to the store
 Add a remote peer
 Add a summary
@@ -709,7 +710,6 @@ Clog the opening of a doc
 Clogs a message sent or resent
 Close Salesforce Record forms with no changes and warn if the form has unsaved changes
 Close active TabSoda tab and switch to the nearest open tab
-Close all pins except the first tab and the currently active one
 Close all tab soda tabs except the currently active one
 Close an MPIM, IM, or code channel
 Close meeting assistant session
@@ -2375,7 +2375,6 @@ Records the last time the connected-calendars data was fetched
 Records the launch context a popped-out companion window inherited from its opener
 Records the timestamp when the user last navigated to the Slackbot tab
 Redirecting external huddle guest to the exit page
-Redirects to the first tab in the PinnedTabs variant
 Reduce embed counter
 Refetches localized APIs for a team
 Refreshing all permissions
@@ -2419,6 +2418,7 @@ Remove a list record
 Remove a member from a group
 Remove a message
 Remove a message and its timestamp
+Remove a pending license approval request ID
 Remove a pending user
 Remove a placeholder from the store by client_msg_id
 Remove a remote peer
@@ -3124,6 +3124,7 @@ Set the active tab for the main window
 Set the agent sunroof apps from agents.sunroof.get
 Set the agent sunroof fetch state
 Set the arrival source of the deep link waiting for a permission to resolve
+Set the authoritative workspace member count for the Sales Tracker share gate
 Set the behavior of the up arrow shortcut when focus is in the MessageInput
 Set the channel tabs
 Set the channel whose summary deep link is waiting for the permission to resolve
@@ -3133,6 +3134,10 @@ Set the client typeface
 Set the collections for unified files
 Set the count of app actions associated with a given channelId
 Set the current sort category and direction for the table
+Set the current step in the Salesforce record tour NUX flow
+Set the current step in the contact record NUX flow
+Set the current step in the record channel intro NUX flow
+Set the current step in the sales tracker NUX flow
 Set the current theme field in redux (do not use this)
 Set the current theme for the device
 Set the current user as a workspace admin for the given team id (workspace id)
@@ -3212,6 +3217,7 @@ Set the search input autocomplete open state
 Set the search input box display query
 Set the search results
 Set the search session original query if unset
+Set the selected CRM record ID for Slackbot AI
 Set the selected file
 Set the selected focus mode expiration option
 Set the selected profile
@@ -3321,10 +3327,13 @@ Set whether or not the input was focused via the tab key
 Set whether peeks were enabled on mouse enter before starting BBM
 Set whether sidebar was visible before starting BBM
 Set whether the JP Pocket Guide popover is programmatically opened (i.e. from clicking foreword link)
+Set whether the Sales Tracker onboarding extraction nudge is armed
+Set whether the Sales Tracker onboarding extraction nudge is showing
 Set whether the backend is generating new focus topics
 Set whether the blank create-to-do composer is open
 Set whether the channel summary coachmark is eligible to be shown
 Set whether the channel summary coachmark should be shown
+Set whether the extraction nudge minimum-dwell floor has elapsed
 Set whether the focus mode popover should force open for a calendar sync start
 Set whether the lists templates module is collapsed in the unified files browser
 Set whether the loaded workflow is restricted from execution by away team members in Slack Connect channels
