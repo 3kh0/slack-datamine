@@ -692,7 +692,6 @@ Clears the in-flight marker for an aiApps.list filter key
 Clears the jump-to timestamp
 Clears the meeting details event used by the meeting details view
 Clears the nested-secondary open animation flag if it belongs to the given view id
-Clears the pending draft request after it was fulfilled or timed out
 Clears the persisted apiCall payload at the key
 Clears the recording cancellation reason after the toast has been shown
 Clears the resume state after the inline player has consumed it
@@ -3386,7 +3385,6 @@ Sets a flag to update the show_dm_canvas_preview user pref
 Sets a new ID for the query session
 Sets a new ID for the search session
 Sets a new id for the browser session
-Sets a pending draft request awaiting Slackbot response
 Sets a pending prompt to pre-fill in the Slackbot input
 Sets a pending third-party agent handoff
 Sets a removing state for a channel
