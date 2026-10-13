@@ -282,6 +282,7 @@ Apply counts to channel objects and update stores
 Apply counts to channels and threads
 Apply or restore the Slackbot-tab-scoped sidebar collapse on tab switch or boot
 Apply server Saved counts (refetch)
+Applying changes to the floating container
 Applying changes to the primary container
 Applying changes to the secondary container
 Applying changes to the sidebar container
@@ -2539,6 +2540,7 @@ Removes specified channels as marked to digest.
 Removes the active split view
 Removes the active split view child window
 Removes the attachment
+Removes the floating view for the specified window
 Removes the given participant from the pinned participants list of a huddle
 Removes the member from the presence subscription or decrements the associated count
 Removes the scopeIds for a given appId but keeps the labels
@@ -3520,6 +3522,7 @@ Sets the exceptions to the multiselect field for record unfurls admin setting
 Sets the fetch status for SFDC object options
 Sets the fetch status for auto starter licensed members
 Sets the first page of SF org members
+Sets the floating view for the specified window
 Sets the focused workspaces from the client-store
 Sets the gcal authorization url needed for a user to access the Slack calendar
 Sets the ghost last read marker
