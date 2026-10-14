@@ -711,7 +711,6 @@ Clog experiment related meta data for session toggles
 Clog the opening of a doc
 Clogs a message sent or resent
 Close Salesforce Record forms with no changes and warn if the form has unsaved changes
-Close active TabSoda tab and switch to the nearest open tab
 Close all tab soda tabs except the currently active one
 Close an MPIM, IM, or code channel
 Close meeting assistant session
@@ -750,7 +749,6 @@ Container required for toolbar
 Content from app, embed.
 Content share uplink policy connected to VideoUplinkManager
 Continue this conversation in a huddle
-Continue with Pro?
 Continue without saving changes?
 Continues external huddle guest prejoin without media access
 Continuity Camera
@@ -805,7 +803,6 @@ Create a Channel
 Create a Post file via API
 Create a channel
 Create a new Channel Section for this user
-Create a new soda window tab and navigate into it
 Create a new view set for a child window based on the incoming navigation request
 Create a new view set for the main window based on the incoming navigation request
 Create a table for a project release schedule for # 
@@ -1096,6 +1093,7 @@ Failed to get valid device list after all retries
 Failed to initialize huddles SDK:
 Failed to initiate background worker
 Failed to instantiate the VideoFxEngine
+Failed to load clog enum tables for debugging
 Failed to load necessary assets for the VideoFxProcessor
 Failed to load workflow instance steps
 Failed to parse URL for debug_clogs param
@@ -1393,9 +1391,7 @@ Give your channel a name to continue. You can always change the name later.
 Given a channel id, navigate to the chat view within the app DM space
 Given a thread key, start timer to clear assistant thread status
 Go back in history
-Go back in history in a currently active TabSoda tab
 Go forward in history
-Go forward in history in a currently active TabSoda tab
 Go to feature
 Go to next toast state
 Google Chrome
@@ -3897,7 +3893,6 @@ Suppresses or re-enables automatic thread initialization from the auto-init side
 Svalbard and Jan Mayen
 Sweet Treat
 Switch child window column modes based on window width and the width breakpoints
-Switch current TabSoda tab
 Switch currently active plan
 Switch main window column mode if we need to
 Switched from previous VideoTransformDevice
@@ -4183,7 +4178,6 @@ Update completed canvas content creation
 Update completed search summary
 Update completed summary result
 Update container for window history entry
-Update currently visible viewset as part of TabSoda tab switching
 Update error value for browser entity
 Update external connector dropdown filter pref
 Update external connector multi select filter pref
