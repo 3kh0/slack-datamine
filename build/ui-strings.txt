@@ -694,7 +694,6 @@ Clears the external huddle guest prejoin session
 Clears the in-flight marker for an aiApps.list filter key
 Clears the jump-to timestamp
 Clears the meeting details event used by the meeting details view
-Clears the nested-secondary open animation flag if it belongs to the given view id
 Clears the persisted apiCall payload at the key
 Clears the recording cancellation reason after the toast has been shown
 Clears the resume state after the inline player has consumed it
@@ -702,6 +701,7 @@ Clears the searched-users Salesforce org assignment map (e.g. when switching org
 Clears the transient scroll-to-latest flag once the conversation has scrolled
 Clears the unread marker for a Slackbot thread (user opened it)
 Clears the vacation pack auto-scroll intent after it has been consumed
+Clears the window
 Clears workspace retrying state
 Client counts have been applied
 Client focus history
@@ -3589,7 +3589,7 @@ Sets the user object state machine for in-product team creation
 Sets the user object state machine for segmentation in team creation
 Sets the user object state machine for updated segmentation questions
 Sets the very first history entry after a new window is opened
-Sets the view id of the nested secondary that should play its open animation
+Sets the view id of the window
 Sets the visibility of the translation bar for a messageTS
 Sets the week currently in view on the screen
 Sets the welcome party state machine
