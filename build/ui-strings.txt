@@ -1305,6 +1305,7 @@ Force a connectivity notification so wasRecentlyOnline re-evaluates after the gr
 Force coachmarks to be hidden due to an overlay appearing
 Force-fetches messages by channel ID and timestamp using messages.list
 Forest Floor
+Forget a code channel pull request
 Forget the channel a smart-invites-v3 channel suggestion was resolved into, by suggestion id
 Format and upsert list records
 Format server-provided counts and update store with new values
@@ -2328,6 +2329,7 @@ Reconnect without waiting for its rate limit
 Reconnected and monitoring for future disconnections.
 Reconnecting Chime session
 Reconnection delay over. Now responding to disconnection events.
+Record a failed code channel pull request fetch
 Record a recents navigation event for a navigate event
 Record an agent-created canvas the user has not read yet
 Record catch-up eligibility from Activity entries fetched outside the Activity feed
@@ -2410,6 +2412,7 @@ Remove a tab soda tab
 Remove a team from the enterprise_excluded_app_teams pref
 Remove a temporary channel
 Remove a thread key from an array of threads that were manually marked unread
+Remove a thread left with no replies or draft from recents
 Remove a user group
 Remove a window from the window-store across all booted teams
 Remove a workspace link sharing from a file.
@@ -3781,6 +3784,7 @@ Start huddle
 Start huddle as muted as specified in user prefs
 Start huddle in highlighted channel or current primary view
 Start huddle in the current view
+Start loading a code channel pull request
 Start meeting assistant session
 Start muted barrier active
 Start muted barrier released
@@ -3833,6 +3837,7 @@ Stops huddle lounge music from playing
 Stops the API queue
 Stops the video preview on the video element
 Stops withholding draft IDs
+Store a loaded code channel pull request
 Store a new snippet for a Quip comment thread
 Store a teammates onboarding status
 Store gleaned contextual information from the url
