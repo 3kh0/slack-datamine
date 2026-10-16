@@ -222,7 +222,6 @@ Adds persisted file id for feedback flexpane
 Adds pinned item identifiers for files and messages to list of pinned items
 Adds specified channels as marked to digest. Does not remove other channels as marked.
 Adds the member to the presence subscription or increments the associated count
-Adds the new set of custom emoji to the existing store
 Adds to the externalsearch results
 Adds to the search results
 Adds triggers to store
@@ -232,6 +231,7 @@ After 30 seconds
 After hours
 Agency FB
 Agent Browser
+Agent details
 Agent home coversation
 Agents & apps
 Agents and tools
@@ -262,7 +262,7 @@ An update of the window frame state
 Analyzing stored device records
 Android 
 Animals & Nature
-Announce when the secondary view is closed
+Announce when a view is closed
 Announces to screen readers that the secondary view has changed
 Another call is live, leaving the Voice Focus re-measure to it
 Answers questions and provides information based on content in your channel.
@@ -817,7 +817,6 @@ Create or open an IM
 Create or open an MPIM
 Created by agents
 Creates a new canvas channel tab
-Creates a new custom emoji or alias
 Creates a new huddle in mpim where all huddle participants are channel members
 Creates a new list channel tab
 Creates a placeholder tab for a new canvas
@@ -873,7 +872,6 @@ Deletes a draft
 Deletes a file
 Deletes an AI translation for a file summary
 Deletes an AI translation for a message
-Deletes the given custom emoji
 Derives a deterministic synthetic Slack file ID from a Salesforce file ID
 Descrease count of open popovers for a team, optionally in a given window
 Describe the types of messages that should start this workflow (e.g., 
@@ -1383,7 +1381,6 @@ Gets member counts for a given model object
 Gets the channel membership for a set of users and returns a promise when the store is updated accordingly
 Gets the current channel tab
 Gets the current channel tab id
-Gets the emoji data for a given emoji
 Gets the list of channel sections for this user
 Getting Work Done
 Getting our stacktrace
@@ -1642,14 +1639,12 @@ Load apps actions and slash commands for the client
 Load boot data
 Load boot data into redux
 Load custom emoji
-Load custom emoji data with a new search query
 Load custom status presets in the users local
 Load instance steps for activity tab
 Load megaphone notification data
 Load megaphone notification data after a random delay
 Load megaphone notification data for the search dropdown
 Load remote domains into Redux
-Load the next page of custom emoji data
 Loader for user org object mappings
 Loading complete.
 Loading required assets for the VideoFxProcessor
@@ -2543,7 +2538,6 @@ Removes the floating view for the specified window
 Removes the given participant from the pinned participants list of a huddle
 Removes the member from the presence subscription or decrements the associated count
 Removes the scopeIds for a given appId but keeps the labels
-Removes the specified custom emoji from the store
 Removes today items from the store by their IDs
 Removes uiState for a view container in a product surface
 Removes user ids from priority store
@@ -2555,8 +2549,6 @@ Removing view in main window
 Rename a channel
 Rename a team
 Rename channel
-Renames a disabled custom emoji
-Renames the custom emoji with the new name
 Rendered cell should include style property for positioning.
 Reorder a bookmark in the store
 Reorder team profile fields
@@ -2641,7 +2633,6 @@ Resets priority user ids with data from vip_users pref
 Resets shared teams state
 Resets store for ContextBarTimeZone showing
 Resets the Huddle Join preview channel and devices state
-Resets the array of custom emoji in the store
 Resets the canvas store
 Resets the current channel tab id when switching channels
 Resets the forceSingleColumnMode flag while navigate within the child window
@@ -2689,6 +2680,7 @@ Rtm room message needs an id
 Run navigate listeners (side-effects) for a given navigation flow
 Run navigation middlewares
 Run once on first reaction
+Run the side effects of removing a view
 SAML-based single sign-on
 SDK detected good connection
 SDK detected poor connection
@@ -3134,7 +3126,6 @@ Set the client message id for selected user welcome card message
 Set the client typeface
 Set the collections for unified files
 Set the count of app actions associated with a given channelId
-Set the current sort category and direction for the table
 Set the current step in the Salesforce record tour NUX flow
 Set the current step in the contact record NUX flow
 Set the current step in the record channel intro NUX flow
@@ -3186,14 +3177,11 @@ Set the list of members to invite for multi-channel guest invite
 Set the list of recommended channels for multi-channel guest invite
 Set the list of selected channel options for multi-channel guest invite
 Set the loading state of a specific module
-Set the loading status for the API request when a new page is loading
-Set the loading status for the API request when a user searches for emojis
 Set the main window tabbed view sets
 Set the main window tabbed view sets and ui states
 Set the map of work object app ids to connector app ids
 Set the map of work object app ids to connector enabled state
 Set the message timestamp that should be focused
-Set the number of Mini windows that have shown the shortcut hint on this device
 Set the number of days left before Straight to Paid discount expires
 Set the number of times the Slackbot Mini NUX has been shown on this device
 Set the onboarding channel ID
