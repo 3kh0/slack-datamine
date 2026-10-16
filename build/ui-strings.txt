@@ -201,7 +201,6 @@ Adds Workflow templates list to the store
 Adds a channel visitor channel
 Adds a flag when the user has proceeded with attempting to connect an app
 Adds a history entry to the stack
-Adds a new emtpy tab-soda tab
 Adds a new set of SF org members
 Adds a new workspace to the store (but does not boot it)
 Adds a pinned item to the beginning of the pinned items list (used for pinning an item in the UI)
@@ -715,7 +714,6 @@ Clog experiment related meta data for session toggles
 Clog the opening of a doc
 Clogs a message sent or resent
 Close Salesforce Record forms with no changes and warn if the form has unsaved changes
-Close all tab soda tabs except the currently active one
 Close an MPIM, IM, or code channel
 Close meeting assistant session
 Close open edits with no changes and warn on edits with unsaved changes
@@ -970,7 +968,6 @@ Dropping the following payload because we attemped to retry it too many times:
 Drops a popped-out window
 Drops the cached tools lists for the given MCP servers so the next read refetches them
 Dummy request detected
-Duplicate a tab soda tab
 Early connection closed; discarding signaling task.
 Edit a scheduled or DLP draft in a thread
 Edit the text of a message
@@ -1968,8 +1965,6 @@ Mood Indigo
 More agents sidebar
 More options
 More sidekicks sidebar
-Moves the current history index back for a tab soda tab
-Moves the current history index forward for a tab soda tab
 Mozilla Firefox
 Must provide a pathname
 Must send an object of type call; use convertRtmRoomMessageForRedux
@@ -2204,7 +2199,6 @@ Permission denied by user
 Permissions changed
 Permissions not considered trustworthy. Requiring refresh
 Persist recents data without updating local user prefs
-Persist tab soda state to localStorage
 Persisting device selection records to local storage
 Persists a request payload by key
 Persists the today items from today.items.list in the store
@@ -2311,7 +2305,6 @@ Re-fetching auth due to added_to_team or removed_from_team rtm event that was de
 Re-fetching credentials since we have not fetched them recently
 Re-key an unattached composer draft into a stashed composer draft
 Re-measured Voice Focus config is not usable, keeping the old one
-Re-order tab soda tabs
 Re-using existing voice focus node
 React class
 React-Modal: 
@@ -2383,7 +2376,6 @@ Register a deferred, undoable saved-item clear
 Register route listeners
 Registering pressure observer
 Registers the Slackbot surface waiting for an outgoing thread to initialize
-Rehydrate the tab soda store from persisted state
 Reinitializes properties related to daily digest
 Related Channels List
 Related Threads List
@@ -2431,7 +2423,6 @@ Remove a share from a file.
 Remove a starter template by ID
 Remove a stored snippet for a Quip comment thread
 Remove a summary from the toast notification
-Remove a tab soda tab
 Remove a team from the enterprise_excluded_app_teams pref
 Remove a temporary channel
 Remove a thread key from an array of threads that were manually marked unread
@@ -2567,7 +2558,6 @@ Rename channel
 Renames a disabled custom emoji
 Renames the custom emoji with the new name
 Rendered cell should include style property for positioning.
-Reopen the most recently closed tab soda tab
 Reorder a bookmark in the store
 Reorder team profile fields
 Repeat count too high, must be less than 20
@@ -2667,7 +2657,6 @@ Restarting the API queue
 Restarts the API queue
 Restore Workflow from Version Success
 Restore removed saved items
-Restore tab soda state from localStorage
 Restore the peers store to a clean state
 Restore the sidebar if the app auto-collapsed it for a big-mode secondary view
 Restoring focus to element
@@ -2716,6 +2705,7 @@ Saint Lucia
 Saint Martin (French Part)
 Saint Pierre and Miquelon
 Saint Vincent and The Grenadines
+Sales Home
 Sales Tracker
 Salesforce data field
 Salesforce list
@@ -2773,7 +2763,6 @@ Segmentation mask could not be generated
 Segoe UI
 Segoe UI Emoji
 Segoe UI Light
-Select a tab by id
 Select an image
 Select channels to monitor
 Selector updates
