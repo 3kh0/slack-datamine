@@ -78,14 +78,12 @@ ActivityIA4: Set error state for activity
 ActivityIA4: Set filter bar state
 ActivityIA4: Set global prefs
 ActivityIA4: Set hidden default view types
-ActivityIA4: Set scored items
 ActivityIA4: Set search text by key
 ActivityIA4: Set selected unified global triage tab
 ActivityIA4: Set server-side select all mode
 ActivityIA4: Set the step of the onboarding coachmark sequence
 ActivityIA4: Set undoable activity item for potential restoration
 ActivityIA4: Set whether loading more items is enabled
-ActivityIA4: Set whether scoreEntries has been dispatched this session
 ActivityIA4: Sets has initial activity feed loaded
 ActivityIA4: Sets loaded state for activity external invites
 ActivityIA4: Sets loaded state for activity pending external invites
@@ -333,6 +331,7 @@ Barnes & Noble
 Based on which toggles are active, navigates to the proper agent home
 Batch timing timeout
 Be there soon
+Begin a Threads hydration page
 Begin channel history intent study episode
 Begins an external huddle guest media-access request
 Big Business
@@ -475,7 +474,6 @@ Cannot update channel sections
 Cannot write html to clipboard
 Cannot write string to clipboard
 Canvas updated
-Canvases & files
 Canvases results loaded successfully
 Canvases results threw an error while loading
 Cape Verde
@@ -599,7 +597,6 @@ Clear auto-record flag
 Clear channel spaces megaphone notifications
 Clear client unreads API interval
 Clear client unreads API timeout
-Clear collapsed section header state
 Clear composer auto-populate suppression for a destination
 Clear current user membership for a user group
 Clear data about the field to resume editing if the user goes back from a speedbump
@@ -1011,6 +1008,7 @@ Error creating background worker video transform device
 Error during mid-processing fallback:
 Error fetching permissions.info. Caught error: 
 Error fetching permissions.info. Error: 
+Error fetching permissions.info. Missing team or enterprise id
 Error getting preferred devices from local storage
 Error handling device list change event
 Error in additional trace reporter
@@ -1091,6 +1089,7 @@ Failed to instantiate the VideoFxEngine
 Failed to load clog enum tables for debugging
 Failed to load necessary assets for the VideoFxProcessor
 Failed to load workflow instance steps
+Failed to mark thread
 Failed to parse URL for debug_clogs param
 Failed to perform a segmentation with a shared array buffer on the input image
 Failed to persist debug_clogs to sessionStorage
@@ -1838,7 +1837,7 @@ Mark Permissions as Stale for a given permission context
 Mark Whats New fetch as failed
 Mark a conversation through the API
 Mark a forwarded-message unfurl as removed during editing
-Mark a nested secondary opened via navigation so it animates in
+Mark a nested secondary freshly opened beside an unchanged primary so it slides in
 Mark a smart-invites-v3 channel suggestion collaborators fetch as failed by id
 Mark actions for channelIds as stale
 Mark all permissions as stale
@@ -1888,7 +1887,6 @@ Marks workspace as retrying boot
 Marshall Islands
 Maybe bring the main window to the top when clicking on something from a child window
 Maybe clear the solution_template pref
-Maybe clog RECOMMEND_ACCEPT for activity surface interaction
 Maybe clog search engagement clickthrough
 Maybe clog search result dwell time
 Maybe disable screenshare of self
@@ -2188,6 +2186,7 @@ Persist tab soda state to localStorage
 Persisting device selection records to local storage
 Persists a request payload by key
 Persists the today items from today.items.list in the store
+Photos and videos
 Pin Message to channel
 Ping the message server if necessary
 Pins a Slackbot AI NUX kickoff thread ts so its root message can be hidden
@@ -3704,7 +3703,6 @@ Side effect to auto-open a channel canvas when navigating to a channel
 Side effect to dismiss the #feat-inproduct-team-creation message banner when navigating away from the tractor channel
 Side effect to maybe show Slack AI thread summary coachmark
 Side effect to maybe show a banner when navigating away from DM canvas
-Side effect to maybe show a coachmark when navigating away from General canvas
 Side effect to maybe show an educational lists peek when navigating away from lists
 Side effect to maybe show the coachmarks from #feat-creator-guided-setup
 Side effect to maybe show the inviter-joiner first DM welcome card animation and modal
@@ -3748,6 +3746,7 @@ Smileys & People
 Snoozes a calendar event JIT notification until the event starts
 Snoozes notifications for a duration of time
 So What by Miles Davis
+Socket Manager action dispatched without a team id
 Socket Manager state changed
 Socket closed when we did not expect it to
 Socket delegates must be functions
@@ -3991,7 +3990,6 @@ Toggle a saved canvas section complete
 Toggle a saved list record complete
 Toggle a saved list record field complete
 Toggle a saved message complete
-Toggle a section header collapsed state
 Toggle collapse state of a programmable-sidebar section (client-local)
 Toggle collection collapse state
 Toggle debug display of solr info
