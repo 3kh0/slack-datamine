@@ -703,7 +703,6 @@ Clears the resume state after the inline player has consumed it
 Clears the searched-users Salesforce org assignment map (e.g. when switching orgs)
 Clears the transient scroll-to-latest flag once the conversation has scrolled
 Clears the unread marker for a Slackbot thread (user opened it)
-Clears the vacation pack auto-scroll intent after it has been consumed
 Clears the window
 Clears workspace retrying state
 Client counts have been applied
@@ -1677,7 +1676,6 @@ Log exposure for the slackiversary experiment if it is exposed
 Log exposure for the smart_invites_v3 experiment if it is exposed
 Log exposure for the team_creation_segmentation experiment if it is exposed
 Log exposure for the update_tc_segmentation_questions experiment if it is exposed
-Log exposure for the vacation_emoji_pack experiment if it is exposed
 Log reporter already started.
 Log user
 Logged event
@@ -2162,7 +2160,6 @@ Organize files and tools
 Other Members
 Other important unreads
 Other unreads
-Out of Office
 Out of office
 Override existing experiment assignments
 Override feature flag
@@ -3004,7 +3001,6 @@ Set list of recently run trigger ids to store
 Set list of successfully fetched external datasource list.
 Set list view recommendations for a Salesforce org
 Set loading state for channel join reason
-Set loading state for emoji collections
 Set loading state for huddle event log
 Set local views for optimistic updates
 Set localStorage data to reconstructing a multi-window layout (internal)
@@ -3296,7 +3292,6 @@ Set up client store
 Set user interactions to loaded
 Set user org object mappings
 Set user_date_created from client.extras onboarding data
-Set vacation pack shimmer highlight rows
 Set view type for browser, either grid or list
 Set welcome message index for channel join title variation
 Set what zoom value was set in the client before starting BBM
@@ -3737,7 +3732,6 @@ Signals that an emoji collection has been uninstalled
 Signals that badges should be added post-install
 Signals that the message input badge should be removed
 Signals that the message tab badge should be removed from the emoji picker
-Signals the emoji picker should auto-scroll to the installed vacation pack on next open
 Simple date
 Simulcast is only supported on Chromium-based browsers
 Since last time you viewed
