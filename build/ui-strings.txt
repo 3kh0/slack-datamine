@@ -1192,6 +1192,7 @@ Fetch self enterprise info through legacy team.info endpoint
 Fetch self enterprise org info from team.info
 Fetch teams connected to a shared channel and upsert into frontend store.
 Fetch teams that share a channel with current team using Slack Connect API
+Fetch the Agentforce agents accessible to the user from sfdc.agentforce.listAccessible
 Fetch the Quip ID for a given file ID and upsert
 Fetch the Quip IDs for given file IDs and upsert
 Fetch the agent sunroof apps from agents.sunroof.get
@@ -3561,6 +3562,7 @@ Sets the scrollTop value of the pins popover so that it can be opened to the sam
 Sets the selected third party sources to regenerate the summary with
 Sets the session id
 Sets the session-scoped Skills browser preferences
+Sets the sfdc.agentforce.listAccessible load status
 Sets the shared-invite acceptance result
 Sets the shared-invite details
 Sets the sort fyi coachmark to seen once dismissed once
