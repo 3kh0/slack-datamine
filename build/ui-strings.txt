@@ -1635,6 +1635,7 @@ Load Workflow Instance Steps Success
 Load Workflow Instances Begin
 Load Workflow Instances Failure
 Load Workflow Instances Finish
+Load a bot user and its apps.profile.check if needed, then report whether it opens as an agent
 Load all recently viewed lists
 Load apps actions and slash commands for the client
 Load boot data
@@ -1646,6 +1647,7 @@ Load megaphone notification data
 Load megaphone notification data after a random delay
 Load megaphone notification data for the search dropdown
 Load remote domains into Redux
+Load the full app profile for a sunroof agent and report whether it is an active agent
 Loader for user org object mappings
 Loading complete.
 Loading required assets for the VideoFxProcessor
@@ -2136,6 +2138,7 @@ Opens multi device modal
 Opens or closes troubleshooting popover above the miniplayer
 Opens remove Native Channel Expert confirmation modal
 Opens streamline plans modal
+Opens the AI App flexpane
 Opens the AddCustomEmojiModal for importing a custom emoji
 Opens the AddCustomEmojiModal if an emoji can be imported
 Opens the Help flexpane
@@ -3715,10 +3718,10 @@ Side effect action for triggering sending of megaphone client event
 Side effect to auto-open a channel canvas when navigating to a channel
 Side effect to dismiss the #feat-inproduct-team-creation message banner when navigating away from the tractor channel
 Side effect to maybe show Slack AI thread summary coachmark
-Side effect to maybe show a banner when navigating away from DM canvas
 Side effect to maybe show an educational lists peek when navigating away from lists
 Side effect to maybe show the coachmarks from #feat-creator-guided-setup
 Side effect to maybe show the inviter-joiner first DM welcome card animation and modal
+Side effect to stop auto-opening the prefilled DM canvas once the user closes it
 Sidekick conversation
 Sierra Leone
 Signal app actions have been updated
