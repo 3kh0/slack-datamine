@@ -307,7 +307,6 @@ At least one Quip thread ID not found in response
 Atkinson Hyperlegible Next
 Attaching video stream to camera preview
 Attempted to add invalid keyboard binding
-Attempted to insert experiment_assignments to boot-data-store. These should instead be inserted to the experiments-store. Deleting experiment_assignments.
 Attempted to unregister a locale callback that does not exist.
 Attempted to update an already finished hash.
 Attempting fallback to old processor.
@@ -687,6 +686,7 @@ Clears huddle-canvas-store state when the Secondary view is externally dismissed
 Clears last invite status for a user
 Clears rewritten query value
 Clears specific calendar event.
+Clears the Halloween pack auto-scroll intent after it has been consumed
 Clears the Slackbot write permissions admin setting
 Clears the active highlight
 Clears the agent DM entry source
@@ -1011,6 +1011,7 @@ Error caught while loading
 Error checking if no preferred devices in local storage
 Error creating background worker video transform device
 Error during mid-processing fallback:
+Error fetching device.
 Error fetching permissions.info. Caught error: 
 Error fetching permissions.info. Error: 
 Error fetching permissions.info. Missing team or enterprise id
@@ -3731,6 +3732,7 @@ Signals that an emoji collection has been uninstalled
 Signals that badges should be added post-install
 Signals that the message input badge should be removed
 Signals that the message tab badge should be removed from the emoji picker
+Signals the emoji picker should auto-scroll to the installed Halloween pack on next open
 Simple date
 Simulcast is only supported on Chromium-based browsers
 Since last time you viewed
@@ -4091,7 +4093,6 @@ Try Business+ for Free
 Try Pro for Free
 Try huddles with more people
 Trying to fetch a module that does not exist
-Trying to wrap non-literal object
 Turks and Caicos Islands
 Turn off smart-invites-v3 channel suggestions, clearing them all from the sidebar
 Turned off DND (SCHEDULE)
