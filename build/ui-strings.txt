@@ -355,6 +355,7 @@ Brainstorm ideas about improving collaboration in #
 Brainstorm ideas about names for the new feature discussed in # 
 Brainstorm ideas about social media posts for our Q3 release
 Brainstorm ideas about team-building exercises for our next onsite
+Briefly highlight the focused Find in Thread result (auto-clears after a few seconds)
 British Indian Ocean Territory
 Broadcast accessibility persistent state to other stores
 Broadcast accessibility state to other stores
@@ -649,6 +650,7 @@ Clear the highlight from the initial message
 Clear the inviter ID for a channel (Slackbot-gated); used on self-join to drop stale state
 Clear the join credentials for a specific channel
 Clear the last announcer API message so it is not replayed when returning to this team
+Clear the last messages to announce so they are not replayed when returning to this team
 Clear the last search accept query once the survey is known not to be delivered
 Clear the off-shift blocker after successful client.init
 Clear the original user query
@@ -687,7 +689,6 @@ Clears huddle-canvas-store state when the Secondary view is externally dismissed
 Clears last invite status for a user
 Clears rewritten query value
 Clears specific calendar event.
-Clears the Halloween pack auto-scroll intent after it has been consumed
 Clears the Slackbot write permissions admin setting
 Clears the active highlight
 Clears the agent DM entry source
@@ -1012,7 +1013,6 @@ Error caught while loading
 Error checking if no preferred devices in local storage
 Error creating background worker video transform device
 Error during mid-processing fallback:
-Error fetching device.
 Error fetching permissions.info. Caught error: 
 Error fetching permissions.info. Error: 
 Error fetching permissions.info. Missing team or enterprise id
@@ -1456,6 +1456,7 @@ Humanst521 BT
 Hydrate filters for entity
 Hydrate search-shared-facet suggestions
 Hydrates basic ui object shape in state for specified search view id
+I just want to check it out
 Identifies which screenshare is being viewed in the mini-player
 If a channel containing a broadcast was just marked, maybe we can mark the thread too
 If a request is not in progress and the canvas canned templates have not yet been fetched, calls canvasesGetCannedTemplatesFetcher API
@@ -2339,6 +2340,7 @@ Receives api response, formats and cleans data, and updates results and paginati
 Recently updated by others
 Recently updated by you
 Recently viewed
+Recompute the new-record highlight of a list
 Reconcile a draft quote-reply paths against its current links
 Reconnect without waiting for its rate limit
 Reconnected and monitoring for future disconnections.
@@ -2385,7 +2387,6 @@ Reload domains if we are out of sync with the server
 Reloading Slack
 Remember the last user-selected view for a list in a given window
 Remote Work
-Remote dispatch cancelled
 Remove AI canvas content from the store
 Remove AI summary from the store
 Remove Awareness State for me
@@ -2874,7 +2875,6 @@ Set call view mode
 Set can interact flags
 Set canInteract from member objects
 Set canvas creating flag
-Set canvas section content with sections prepared to insert
 Set celebration config payload for edit
 Set celebration config toggle state
 Set channel ID for the digest added channel coachmark
@@ -3082,7 +3082,6 @@ Set sfdc user.info for sfdcOrgId
 Set shared invite link
 Set show trial started celebration
 Set showing state of attachment action loading spinner
-Set shown seasonal spider animation
 Set sidebar index of click on recommended dm for clogging send action
 Set single record row data in sales bulk grid
 Set skipped invites
@@ -3280,7 +3279,6 @@ Set total size of team
 Set transcript catch-up status
 Set trial info data
 Set trial usage data
-Set trigger seasonal spider animation
 Set true if the bar should stay closed
 Set true lounge music has been stopped by the user
 Set true or false if the bar is open or not
@@ -3733,7 +3731,6 @@ Signals that an emoji collection has been uninstalled
 Signals that badges should be added post-install
 Signals that the message input badge should be removed
 Signals that the message tab badge should be removed from the emoji picker
-Signals the emoji picker should auto-scroll to the installed Halloween pack on next open
 Simple date
 Simulcast is only supported on Chromium-based browsers
 Since last time you viewed
@@ -3835,7 +3832,6 @@ Starting timers for metrics collection
 Starting unconstrained content share with chime API
 Starts a download on the desktop app
 Starts the video preview on the video element using the specified device
-Stash the websocket url
 Stats are already being measured
 Stats are not being measured
 Stats averages reset
