@@ -963,6 +963,7 @@ Drop an agent-created canvas from the unread list
 Drop messages from before a given timestamp
 Drop old messages if there are too many
 Dropping the following payload because we attemped to retry it too many times:
+Drops Slackbot thread marks that fresh thread counts now reflect
 Drops a popped-out window
 Drops the cached tools lists for the given MCP servers so the next read refetches them
 Dummy request detected
@@ -1290,6 +1291,7 @@ Fire Phone $1
 Firefox iOS
 Fixed height CellMeasurerCache should specify a :defaultHeight greater than 0. Failing to do so will lead to unnecessary layout and poor performance.
 Fixed width CellMeasurerCache should specify a :defaultWidth greater than 0. Failing to do so will lead to unnecessary layout and poor performance.
+Flags a pending Slackbot thread mark as accepted (thread_marked arrived)
 Flannel chunk fetch failed
 Flannel fetch failed
 Flannel fetch for all active huddles failed
@@ -2362,6 +2364,7 @@ Record the result of a passkey registration attempt
 Record the result of the mini survey we first display the user after a huddle ends.
 Record the time, type, query session, and query of the last search accept event
 Record trial pro banner interaction
+Records a Slackbot thread mark the server counts may not reflect yet
 Records a mounted remote camera video element and its rendered width
 Records canvas open events from various places
 Records tab switches and navigations within those tab switches
