@@ -708,6 +708,7 @@ Clears the resume state after the inline player has consumed it
 Clears the searched-users Salesforce org assignment map (e.g. when switching orgs)
 Clears the transient scroll-to-latest flag once the conversation has scrolled
 Clears the unread marker for a Slackbot thread (user opened it)
+Clears the unread markers for Slackbot threads proven read (history load, mark all read)
 Clears the window
 Clears workspace retrying state
 Client counts have been applied
@@ -2672,6 +2673,7 @@ Restore Workflow from Version Success
 Restore removed saved items
 Restore the peers store to a clean state
 Restore the sidebar if the app auto-collapsed it for a big-mode secondary view
+Restores Slackbot thread unread markers (undo mark all read)
 Restoring focus to element
 Resubscribe check is paused, setting incoming client metric report as pending
 Resumes a download on the desktop app
