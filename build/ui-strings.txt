@@ -278,7 +278,6 @@ Apple Color Emoji
 Applies detail view
 Applies the detail view to a given view set if applicable
 Apply an edit action to a list
-Apply client.counts response to store
 Apply counts to channel objects and update stores
 Apply counts to channels and threads
 Apply newer Activity RTM items to a fetch response
@@ -387,7 +386,6 @@ Built view set for single column
 Bulk add IDP groups to the store, overwriting anything previously stored
 Bulk add channels, overwriting anything previously stored with the same id
 Bulk add experiment assignments to redux
-Bulk add experiments on boot
 Bulk add members to a user group, overwriting anything previously stored in the users field
 Bulk add or update a channel mutation timestamps
 Bulk add user groups, overwriting anything previously stored with the same id
@@ -610,8 +608,6 @@ Clear any stale awareness entries
 Clear apps store
 Clear auto-record flag
 Clear channel spaces megaphone notifications
-Clear client unreads API interval
-Clear client unreads API timeout
 Clear composer auto-populate suppression for a destination
 Clear current user membership for a user group
 Clear data about the field to resume editing if the user goes back from a speedbump
@@ -659,10 +655,8 @@ Clear the last messages to announce so they are not replayed when returning to t
 Clear the last search accept query once the survey is known not to be delivered
 Clear the off-shift blocker after successful client.init
 Clear the original user query
-Clear the passkey re-login request (dismiss the modal)
 Clear the pending search in-product survey once the survey is consumed
 Clear the queued embedded huddle meeting assistant pane open
-Clear the recorded passkey registration result (dismiss its alert)
 Clear the search input box display query
 Clear the specified type of banner message for this list
 Clear the suggestions for the current search query
@@ -686,7 +680,6 @@ Clears all memoized filter keys for aiApps.list
 Clears all pending destinations data for the given drafts
 Clears all slash commands
 Clears all stopped downloads for the active team
-Clears any domains currently stored on the client side
 Clears filters that were set for next rendered browser instance
 Clears history stack synchronously (use removeAllHistoryEntries if you want to clear entry items in the UI)
 Clears huddle thread state and removes the Secondary view when the user loses thread access
@@ -985,7 +978,6 @@ Emoji code
 Emoji name
 Emoji packs
 Emoji reactions
-Emoji that start workflows
 Enable big button mode
 Enable fullscreen mode
 Enable fullscreen mode for a view container
@@ -1104,7 +1096,6 @@ Failed to initialize huddles SDK:
 Failed to initiate background worker
 Failed to instantiate the VideoFxEngine
 Failed to load clog enum tables for debugging
-Failed to load domains
 Failed to load necessary assets for the VideoFxProcessor
 Failed to load workflow instance steps
 Failed to mark thread
@@ -1141,7 +1132,6 @@ Fake an RTM event for testing only
 Falkland Islands (Malvinas)
 Falling Leaves
 Faroe Islands
-Fetch (emoji) reacji triggers for multiple channels
 Fetch Available Plans
 Fetch Plans Page Boot Data
 Fetch Plus Trial Eligibility
@@ -1161,7 +1151,6 @@ Fetch and set team targeting info from CDS
 Fetch and upsert What
 Fetch and upsert channel latest timestamp
 Fetch and upsert channel list prefs
-Fetch and upsert frecency and emoji_use prefs
 Fetch and upsert global actions, returns actions in promise
 Fetch and upsert list record
 Fetch and upsert saved reminders
@@ -1228,7 +1217,6 @@ Fetches Org and Team Permissions
 Fetches a list of Salesforce organizations from sfdc.integration.listOrgs
 Fetches a list of Salesforce organizations from sfdc.integration.listOrgs and puts them to the store
 Fetches a range of messages
-Fetches all boot-time state machines in a single API call
 Fetches and updates multiple SC trial onboarding state machines in a single call
 Fetches and updates user interactions for the given types and subtypes
 Fetches and upserts Channel Sections
@@ -1352,7 +1340,6 @@ Generator is already executing.
 Gesture Blocking Overlay
 Gesture Blocking Window
 Get Channel Pref
-Get SIWS registered domains list
 Get a Query Session ID
 Get a Search Session ID
 Get a link to a huddle
@@ -1397,7 +1384,6 @@ Gets the channel membership for a set of users and returns a promise when the st
 Gets the current channel tab
 Gets the current channel tab id
 Gets the list of channel sections for this user
-Getting Work Done
 Getting our stacktrace
 Getting state from IndexedDB
 Gill Sans
@@ -1527,9 +1513,7 @@ Initialize team preferences
 Initialize user preferences
 Initialized summary tracer for huddle
 Initializes an external huddle guest prejoin session
-Initializes muted channels from the notification prefs
 Initializes the store and sets the initial focused workspace ID
-Initializes the user prefs with the data from the user.prefs.get or boot data
 Initializing EncodedTransformWorker
 Initializing RedundantAudioEncoder
 Initializing device preferences manager from local storage
@@ -1574,7 +1558,6 @@ Invalid value for attemptNumber
 Invalid video input device
 Invalid viewId
 Invalid viewId or state
-Invalidate any cached state when the set of self workspaces changed from the previous boot
 Invariant Violation
 Invitation request pending approval
 Invite every online member in this channel
@@ -1621,7 +1604,6 @@ LeaveAndReceiveLeaveAckTask got canceled while waiting for IndexFrame
 Leaves the workspace
 Leaving huddle less than 30 seconds after joining.
 Lemon Lime
-Let others know this task is done with a 
 Letter Gothic
 Level poll interval must be positive
 Level up with Business+
@@ -1654,13 +1636,11 @@ Load all recently viewed lists
 Load apps actions and slash commands for the client
 Load boot data
 Load boot data into redux
-Load custom emoji
 Load custom status presets in the users local
 Load instance steps for activity tab
 Load megaphone notification data
 Load megaphone notification data after a random delay
 Load megaphone notification data for the search dropdown
-Load remote domains into Redux
 Load the full app profile for a sunroof agent and report whether it is an active agent
 Loader for user org object mappings
 Loading complete.
@@ -1671,7 +1651,6 @@ Local video input is updated
 Local video timing marked as removed
 Locally set the last read cursor on a conversation
 Log a Slackbot AI event
-Log experiment exposure
 Log exposure for the ai_slackbot_sampling_free experiment if it is exposed
 Log exposure for the data_residency_downplan_germany experiment if it is exposed
 Log exposure for the email_connector_newteams experiment if it is exposed
@@ -1681,18 +1660,14 @@ Log exposure for the files_tab_nux_v2 experiment if it is exposed
 Log exposure for the huddles_invite_modal_upgrade_speedbump experiment if it is exposed
 Log exposure for the inproduct_team_creation experiment if it is exposed
 Log exposure for the inviter_joiner_first_dm_v2 experiment if it is exposed
-Log exposure for the joiner_welcome_party experiment if it is exposed
 Log exposure for the omni_slackbot_mode experiment
 Log exposure for the onboard_joiners_with_slackbot experiment if it is exposed
 Log exposure for the prefill_dm_canvas_removal experiment if it is exposed
 Log exposure for the pricing_checkout_reorder experiment if it is exposed
 Log exposure for the sidebar_app_nux experiment if it is exposed
 Log exposure for the slackbot_onboarding experiment if it is exposed
-Log exposure for the slackbot_skills_announcement experiment if it is exposed
 Log exposure for the slackiversary experiment if it is exposed
 Log exposure for the smart_invites_v3 experiment if it is exposed
-Log exposure for the team_creation_segmentation experiment if it is exposed
-Log exposure for the update_tc_segmentation_questions experiment if it is exposed
 Log reporter already started.
 Log user
 Logged event
@@ -2073,7 +2048,6 @@ No string matched
 No team ID or active huddle
 No team id found
 No teamId found
-No temporarily muted channels found.
 No valid elements provided.
 No valid spans provided.
 No video device chosen
@@ -2242,8 +2216,6 @@ Please make sure your file is a GIF, JPEG, PNG, or WEBP.
 Please pass in a valid TS string
 Please provide a string description
 Please reload to stay up to date.
-Poll client unreads API after delay
-Poll client unreads API on interval
 Popular this week
 Possibly move focus to loading indicator for navigation
 Possibly purge or invalidate channel history .
@@ -2252,7 +2224,6 @@ Post channel canvas routing side effects
 Post channel canvas view opening side effects
 Pre-connecting signaling connection.
 Pre-reload task timed out: Failed to unregister service worker
-Precache visibility filters for this user before they kick off a search
 Preferred devices validated
 Prejoin SDK already exists; blocking new prejoin init
 Prejoin already connecting
@@ -2281,7 +2252,6 @@ Problem tracking device change:
 Problems with your code?
 Process AWS transcript event
 Process and add emoji collections
-Processes boot state machine data into Redux stores
 Processing app metrics
 Processing device list
 Processor script loaded but BackgroundSegmentationProcessor not found on window
@@ -2371,7 +2341,6 @@ Record that a message was deleted
 Record that a user has taken an action on a UI component
 Record the channel a smart-invites-v3 channel suggestion was resolved into
 Record the first survey trigger to fire (segment + query session + search session + query)
-Record the result of a passkey registration attempt
 Record the result of the mini survey we first display the user after a huddle ends.
 Record the time, type, query session, and query of the last search accept event
 Record trial pro banner interaction
@@ -2401,8 +2370,6 @@ Related Channels List
 Related Threads List
 Relay observed overlays state from OverlaysContextProvider to Redux
 Reload Now
-Reload custom emoji if we are out of sync with the server
-Reload domains if we are out of sync with the server
 Reloading Slack
 Remember the last user-selected view for a list in a given window
 Remembers a native Slackbot turn for Singer task bubbles
@@ -2491,7 +2458,6 @@ Remove my active song
 Remove my screenshare view
 Remove my sticky reaction
 Remove non-member private channel counts from a file.
-Remove or leave channels
 Remove org-wide template property from file object and potentially unset org sharing
 Remove outgoing invite response
 Remove pack
@@ -2611,7 +2577,6 @@ Request history over API in Degraded Mode
 Request the agent sunroof apps from agents.sunroof.get and store them
 Request the creation of a new enterprise workspace
 Request the jukebox stops
-Request the passkey re-login modal (session needs recent auth)
 Request to Upgrade
 Request to fetch locales and sets loading to true
 Request to join a workspace
@@ -2887,7 +2852,6 @@ Set an error when failed to fetch a list of available user Salesforce orgs.
 Set an error when failed to fetch external datasource list.
 Set and lock an Enterprise org
 Set and replace emoji collections
-Set and replace reacji triggers for multiple channels
 Set apps fetched for solution guide
 Set auth:none for a Salesforce org
 Set auth:ok for a Salesforce org
@@ -2936,9 +2900,6 @@ Set eligibility data for a particular promo
 Set eligible related objects fetch error
 Set eligible related objects fetching status
 Set eligible related objects for a source object type
-Set emoji productivity emoji from conversation view
-Set emoji productivity emoji opened via modified tooltip
-Set emoji productivity highlight rows
 Set enabled state for huddle captions side-by-side view
 Set enabled state for huddle closed captions view
 Set end-user-created workflow view, and optional id and payload for edit
@@ -2986,7 +2947,6 @@ Set if window is fullscreen
 Set imported contacts from CSV
 Set in-flight agent status text on a search summary
 Set info for given datasource id
-Set init data in Redux stores based on response from client.init
 Set initial and per-channel counts and calculate totals
 Set insight list for displaying what insights and the column that should appear in banner
 Set invite emails
@@ -3035,7 +2995,6 @@ Set meeting canvas file ID
 Set meeting recording state
 Set meeting session status
 Set message spacing text density pref
-Set model data in Redux stores based on response from client.boot
 Set multiple prefs via the setPref API
 Set multiple prefs via the setPref API, updating local prefs optimistically first
 Set multiple team prefs via the setPref API
@@ -3079,7 +3038,6 @@ Set record search results in the store
 Set relevant record options for an org
 Set requestId for page
 Set requestId from the contacts request
-Set role to match member
 Set routes
 Set scroll position value for entity
 Set search engagement context after a result click
@@ -3119,7 +3077,6 @@ Set status to
 Set target environment for Add Datasource step
 Set target workspace id for shortcuts to run in Unified Grid
 Set team classification from client extras
-Set team prefs from client.extras response
 Set teammate invitation external suggestions from calendar app
 Set teammate invitation suggestions from calendar app
 Set that a user has recently starred or unstarred a channel or sidebar entity
@@ -3321,7 +3278,6 @@ Set when toggling between base plan and Slack AI on plans page
 Set whether ArchivesBanner is showing summarize variant for a channel
 Set whether Enterprise Search is enabled for the actor (features.enterprise_search_enabled from client.extras)
 Set whether SFDC auto slack is enabled.
-Set whether SSO is required for the current user (gates passkey surfaces)
 Set whether Sales Home is enabled for the team.
 Set whether Sales Home is enabled for the user.
 Set whether UnreadBanner is showing summarize variant for a channel
@@ -3381,7 +3337,6 @@ Set which guided tour coachmark is open
 Set word spacing text density pref
 Set work object app ids
 Set workspace boot status
-Set workspaces
 Set zoom value for client before starting BBM
 Set zoom value for client when in BBM
 Sets AI App thread shimmer when an agent is mentioned in the input
@@ -3409,7 +3364,6 @@ Sets a pending third-party agent handoff
 Sets a removing state for a channel
 Sets a single split view
 Sets a single split view child window
-Sets a timer that fires when the next temp mute expiration is reached
 Sets a timer that fires whenever the next time a member in the DND store should have their DND status changed
 Sets a user content view which represents what the user is focused on in the huddle
 Sets active pill page for tracing.
@@ -3438,7 +3392,6 @@ Sets entry point value which is used for clogging
 Sets files tab to active state to lazy load results
 Sets flag on whether the Salesforce onboarding tip is shown
 Sets freshness flag for Slack Connect invites
-Sets hidden users from the prefs comma delimeted string
 Sets hiding of self from tiles
 Sets if the Huddle is active for the calendar Huddle
 Sets if the channel ID is a calendar Huddle
@@ -3617,7 +3570,6 @@ Sets the window that should use the focused Slackbot composer treatment
 Sets the workspace booted state
 Sets the workspace failed to boot state
 Sets the workspace id and navigation props for the workspace user wants to switch to while it is still booting.
-Sets the workspace level account types (isWorkspacePrimaryOwner, isWorkspaceOwner, isWorkspaceAdmin) from accountType data
 Sets the write permissions mode for Slackbot admin setting
 Sets thread only channels
 Sets thread only value for a channel
@@ -4065,7 +4017,6 @@ Track event but no stream
 Track form visibility for editing a given record
 Track that a field was recently blurred
 Track that a form was opened in a new window
-Track whether a passkey registration is in flight
 Tracks the start of each work week in view
 Transform device not available for device swap
 Transform stream error:
@@ -4316,7 +4267,6 @@ Update the sort value for entity fetch request
 Update the state of the active tab in the huddle troubleshooting panel
 Update the step Id to insert after
 Update the store with the list of channel managers
-Update the store with the list of passkeys
 Update the teams this channel is shared with on your organization or update to cross-workspace or org-wide
 Update the the last filter value
 Update the the last sort value
@@ -4364,7 +4314,6 @@ Updates the detail view expiration timestamp
 Updates the docked mini player elapsed time during playback
 Updates the docked mini player manual width
 Updates the docked mini player playing state
-Updates the domains collection from the server
 Updates the file sending status
 Updates the file upload percent complete
 Updates the file upload status
