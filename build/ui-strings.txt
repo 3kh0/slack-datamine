@@ -71,6 +71,7 @@ ActivityIA4: Mark whether the latest client.counts batch has been fully applied
 ActivityIA4: Remove activity item
 ActivityIA4: Remove bulk items
 ActivityIA4: Remove invite activity item
+ActivityIA4: Remove unjoined channel mentions
 ActivityIA4: Remove view
 ActivityIA4: Respond to activity_invalidated by clearing all items
 ActivityIA4: Set archived state for items
@@ -111,6 +112,7 @@ ActivityIA4: Update unread state for activity item inside unread store
 ActivityIA4: Update unread status of bulk items
 ActivityIA4: Upsert activity items across channels
 ActivityIA4: Upsert channel activity items
+ActivityIA4: Upsert unjoined channel mentions
 ActivityIA4: Upsert views
 ActivityIA4: Upserts activity item for a given filter
 ActivityIA4: Upserts activity items
@@ -304,6 +306,7 @@ Art by Hudson Christie
 Art by Luis Mendo
 Ask whoever shared this huddle with you for a new link.
 Ask whoever shared this huddle with you for another way to join.
+Asking for microphone deferred until unmute
 Asks for video permission and enumerates devices
 Async action execution is complete for a view
 At least one Quip thread ID not found in response
@@ -1101,6 +1104,7 @@ Failed to load clog enum tables for debugging
 Failed to load necessary assets for the VideoFxProcessor
 Failed to load workflow instance steps
 Failed to mark thread
+Failed to open allowed microphone
 Failed to parse URL for debug_clogs param
 Failed to perform a segmentation with a shared array buffer on the input image
 Failed to persist debug_clogs to sessionStorage
@@ -1328,7 +1332,6 @@ French Guiana
 French Polynesia
 French Southern Territories
 Frequently Used
-Frequently viewed by you
 From huddles
 Fun and new
 Function.prototype.bind called on incompatible 
@@ -1941,6 +1944,7 @@ Metrics collection sampling has been reset.
 Microphone could not be set to enabled as access to the device was blocked
 Microphone init test not supported on this client
 Microphone permission is denied. The user must grant permissions and fully quit and restart Slack to join the Huddle
+Microphone stream not adopted; releasing it
 Microsoft Edge
 Microsoft Uighur
 Mid-processing fallback already in progress, skipping
@@ -2218,7 +2222,6 @@ Please make sure your file is a GIF, JPEG, PNG, or WEBP.
 Please pass in a valid TS string
 Please provide a string description
 Please reload to stay up to date.
-Popular this week
 Possibly move focus to loading indicator for navigation
 Possibly purge or invalidate channel history .
 Post activity history routing side effects
@@ -2325,9 +2328,6 @@ Received subscribe ack event after initial batch was sent, ignoring
 Received subscribe sent event after initial batch was sent, ignoring
 Received transport connected event after initial batch was sent, ignoring
 Receives api response, formats and cleans data, and updates results and pagination data for specified entity
-Recently updated by others
-Recently updated by you
-Recently viewed
 Recompute the new-record highlight of a list
 Reconcile a draft quote-reply paths against its current links
 Reconnect without waiting for its rate limit
