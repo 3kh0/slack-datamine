@@ -1075,7 +1075,7 @@ External Auth Completed
 External channel
 External connections
 External group conversations
-External huddle guest disconnected with no exit URL stored; staying in the client
+External huddle guest disconnected with no team to exit to; staying in the client
 External huddle guest joined from another tab; staying in the client instead of the exit page
 External results loaded successfully
 External results threw an error while loading
@@ -3442,6 +3442,7 @@ Sets that the huddle the user is requesting access to has started or not
 Sets that the knock to enter request for a channel cannot be granted at all
 Sets that the knock to enter request has expired for the user
 Sets that the user has been accepted into the knock to enter Huddle that they requested
+Sets that the user is already in the huddle they knocked on, from another tab or device
 Sets that the user is waiting to enter a knock to enter Huddle
 Sets that the user wishes to stop the music while they wait to join the Huddle
 Sets the Calendar page to a connecting view state
