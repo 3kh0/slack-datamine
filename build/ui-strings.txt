@@ -1450,7 +1450,6 @@ Huddle ended. Cleaning up event handlers and connection references.
 Huddle files
 Huddle links like this one work only once. Ask for a new one to join.
 Huddle thread
-HuddleStateManager shutdown
 HuddleStateManager timeout
 Huddles SDK shutdown complete after disconnect
 Huddles SDK shutdown completed
@@ -2246,6 +2245,7 @@ Prejoin SDK already exists; blocking new prejoin init
 Prejoin already connecting
 Prejoin cancelled before connection
 Prejoin cancelled from ready
+Prejoin stop rejected the start without teardown
 Prejoin superseded by join (no server leave)
 Prejoin timed out after 20000ms without connecting
 Preload complete
