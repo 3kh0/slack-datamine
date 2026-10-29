@@ -931,6 +931,7 @@ Disconnected from socket
 Disconnection detected. Informing the user.
 Disconnection event ignored due to recent reconnection.
 Disconnects a pending file ID from a draft
+Dismiss a Megaphone journey notification
 Dismiss a detected meeting prompt
 Dismiss a single smart-invites-v3 channel suggestion by id
 Dismiss save success toast if visible
@@ -1924,6 +1925,11 @@ MeetingSessionTimingManager: destroyed
 MeetingSessionTimingManager: expecting remote video in current batch
 MeetingSessionTimingManager: no longer expecting remote video
 MeetingSessionTimingManager: reset
+Megaphone journey: cleared
+Megaphone journey: dismissal failed
+Megaphone journey: notification dismissed locally
+Megaphone journey: notifications.list response for requested spaces
+Megaphone journey: replaced by a megaphone.journeys.dismiss response
 Megaphone launch_modal component rendered without modal content
 Meiryo UI
 Menu.renderMenuItem called without this.menuChildren
@@ -2636,6 +2642,7 @@ Resets the persisted height cache
 Resets the store
 Resets the streaming unreads state
 Resolve a pending huddle
+Resolve or unresolve a review thread on a loaded code channel pull request
 Resolves an external huddle guest media-access request
 Resolves only when we have established and upserted client online status
 Respond to an invitation to a huddle
