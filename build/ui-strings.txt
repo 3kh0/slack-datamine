@@ -1636,6 +1636,7 @@ Invalid value for attemptNumber
 Invalid video input device
 Invalid viewId
 Invalid viewId or state
+Invalidate cached counts after channel membership changes
 Invariant Violation
 Invitation request pending approval
 Invite every online member in this channel
@@ -2122,7 +2123,6 @@ No call ID or active huddle
 No callback provided. Printing response
 No channel ID or active huddle
 No channel id given
-No client.extras to fetch
 No credit card required.
 No device changes recorded for this huddle
 No draft provided
@@ -2474,6 +2474,7 @@ Redirecting external huddle guest to the exit page
 Reduce embed counter
 Refetches localized APIs for a team
 Refresh Singer notification cursors for the current user Slackbot DM
+Refresh filtered unread counts
 Refreshing all permissions
 Refusing to close a channel that is not an MPIM or IM.
 Regenerate search summary
@@ -2592,7 +2593,6 @@ Remove search summary from the store
 Remove selected member
 Remove single contact unfurl from the store
 Remove single unfurl from draft unfurls store
-Remove some channels from countsPerChannel
 Remove specific app actions by ID
 Remove team
 Remove temporary AI summary by tempId
@@ -3076,7 +3076,6 @@ Set if window is fullscreen
 Set imported contacts from CSV
 Set in-flight agent status text on a search summary
 Set info for given datasource id
-Set initial and per-channel counts and calculate totals
 Set insight list for displaying what insights and the column that should appear in banner
 Set invite emails
 Set inviter ID for channel join
@@ -3266,6 +3265,7 @@ Set the feature an upgrade email deep link found turned off, for the client foot
 Set the file collection that a collection heading is hovering over for drop indicator calculation
 Set the file collection that a file is hovering over for drop indicator calculation
 Set the initial unread counts
+Set the initial unread counts from a counts payload
 Set the invite API error for multi-channel guest invite
 Set the invite API response for multi-channel guest invite
 Set the invite API status for multi-channel guest invite
@@ -3278,7 +3278,6 @@ Set the latest value for a channel
 Set the list
 Set the list of available backgrounds
 Set the list of background categories
-Set the list of enterprise channels to exclude from total counts
 Set the list of enterprise file channels (canvases) to exclude from total counts
 Set the list of featured workflow template ids
 Set the list of members to invite for multi-channel guest invite
@@ -4320,6 +4319,7 @@ Update external filter value for browser entity
 Update externalOrgMigrated (client-only property) for a team
 Update feature access store
 Update filter value for browser entity
+Update filtered unread counts and totals
 Update focus history for a window
 Update focus state for a view
 Update from desktop for keys 
@@ -4406,7 +4406,6 @@ Update the last sorting value for an entity search query
 Update the max tile size
 Update the name of a channel
 Update the params for an existing view
-Update the per-channel counts for a single channel
 Update the permission level of a share for a file
 Update the permission level of a share stored in share_metadata for a file
 Update the query string for the specified browser
@@ -4428,7 +4427,6 @@ Update the the last sort value
 Update the time we last connected to the websocket
 Update the time we last sent a message over the socket
 Update the todo state of a saved item
-Update the unread count for a channel
 Update the unread count for the all threads view
 Update the unread counts for threads
 Update the unread counts in response to client.counts
