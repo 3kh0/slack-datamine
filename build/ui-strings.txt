@@ -1163,6 +1163,7 @@ Failed to open allowed microphone
 Failed to parse URL for debug_clogs param
 Failed to perform a segmentation with a shared array buffer on the input image
 Failed to persist debug_clogs to sessionStorage
+Failed to preload app DM
 Failed to preload app metadata; continuing navigation
 Failed to purge stored model and clear object store
 Failed to re-connect to Huddle
@@ -1345,7 +1346,9 @@ Fill column with info data or default value
 Finalize a provisional connection
 Find Out More
 Find view container for a specific window history entry
+Finish a pin write for a view
 Finish fetching the agent sunroof, clearing any queued fetch
+Finish reading pinned view ids from lists.open
 Finished loading history for a channel
 Finished loading of essential VideoFxProcessor assets.
 Fire Phone $1
@@ -2009,6 +2012,7 @@ Megaphone launch_modal component rendered without modal content
 Meiryo UI
 Menu.renderMenuItem called without this.menuChildren
 Merge buffered recents events and sync the latest cumulative payload
+Merge pinned view ids from lists.open
 Merges Salesforce org assignment for searched users into the member-picker map
 Message and file search: set flag to not show bot and app messages
 Message and file search: set flag to only search channels you are a member of
@@ -2291,6 +2295,7 @@ Persists a request payload by key
 Persists the today items from today.items.list in the store
 Photos and videos
 Pin Message to channel
+Pin a view for the current user
 Ping the message server if necessary
 Pins a Slackbot AI NUX kickoff thread ts so its root message can be hidden
 Pins which model serves Slackbot AI turns, or null for the default routing
@@ -2447,6 +2452,7 @@ Record the result of the mini survey we first display the user after a huddle en
 Record the time, type, query session, and query of the last search accept event
 Record trial pro banner interaction
 Record unfurls & click to detail view
+Record whether lists.open returned pinned views
 Records a Slackbot thread mark the server counts may not reflect yet
 Records a mounted remote camera video element and its rendered width
 Records canvas open events from various places
@@ -3896,6 +3902,7 @@ Start Free Trial
 Start Huddle
 Start a Huddle
 Start a free trial of Pro to huddle with more than one person.
+Start a pin write for a view
 Start delete animation for a message
 Start editing a message
 Start failed and not connected. Not cleaning up.
@@ -3908,6 +3915,7 @@ Start loading a code channel pull request
 Start meeting assistant session
 Start muted barrier active
 Start muted barrier released
+Start reading pinned view ids from lists.open
 Start render timing
 Start screen share for current user with given mediaSourceId
 Start screen sharing with track id:
@@ -4232,6 +4240,7 @@ Unlimited message history, Ai notes, calls and more
 Unmarks today items as locally dismissed so RTM upserts are applied again
 Unpauses video tile
 Unpin Message from channel
+Unpin a view for the current user
 Unpins a Slackbot AI NUX kickoff thread ts so its root message becomes visible
 Unread threads
 Unrecognized endpoint parameter instruction: 
