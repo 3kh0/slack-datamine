@@ -334,7 +334,6 @@ Attaching video stream to camera preview
 Attempted to add invalid keyboard binding
 Attempted to unregister a locale callback that does not exist.
 Attempted to update an already finished hash.
-Attempting fallback to old processor.
 Attempting to connect consumer to channel
 Attempting to destroyVoiceFocus
 Audio and video clips
@@ -356,7 +355,6 @@ Automation tools
 Available devices update already in progress. Returning existing promise.
 AvantGarde Bk BT
 Background voice focus swap failed
-Background worker creation failed, attempting fallback to old processor.
 Bad attendeeId when removing self
 Bandwidth test failed
 BandwidthChecker timed out
@@ -1495,7 +1493,7 @@ Handles tickling the sockets on key down
 Handles tickling the sockets on mouse down
 Handles window focus change events in the client
 Handling fullscreen view navigation
-Handling mid-processing fallback - switching to fallback processor
+Handling mid-processing fallback - stopping background worker
 Happy anniversary!
 Hardware acceleration seems to be disabled on the user
 Heard Island and Mcdonald Islands
@@ -1549,7 +1547,6 @@ Il reste 1 jour
 Il reste 1 min
 Il reste 1 mois
 Il reste : %d jours
-Image could not be found, switching to default input for device
 Import Emails
 Important unreads
 Important unreads, recents, then everything else
@@ -4609,10 +4606,7 @@ Video processing manager shutdown complete
 Video send is unavailable
 Video stream could not be processed
 VideoFxProcessor built with support for only NoOp processing
-VideoFxProcessor could not be created defaulting to normal input for device
 VideoFxProcessor destroyed.
-VideoFxProcessor is not supported on host device. Defaulting to non blurred background
-VideoFxProcessor is not supported on host device. Defaulting to non image replaced background
 Viet Nam
 View and edit custom Salesforce Lists directly inside of Slack, keeping your and your team aligned on everything from active lead lists to open tickets.
 View container
