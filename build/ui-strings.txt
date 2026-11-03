@@ -42,6 +42,7 @@ AI search
 AI-powered Slackbot
 AI-powered work
 ALERT: Audio input will be muted until the start muted barrier is released
+API queue client timeout handler threw
 Abandoned acquisition delivered a stream after the budget expired; stopping it
 Accept or ignore a file permission request
 Access denied
@@ -807,6 +808,7 @@ Copy and paste Salesforce record links into Slack, creating rich previews that s
 Costa Rica
 Could not acquire audio track from mediaStreamBroker
 Could not cap uplink scalability mode at L1T3; this policy build reports unexpected scalability modes, so the session stays on full spatial SVC
+Could not clear the asset cache during forceColdBoot call
 Could not complete boot due to loss of API service
 Could not complete boot due to loss of network connectivity
 Could not enqueue request
@@ -827,8 +829,6 @@ Could not reconnect and resume ApiQ.
 Could not start camera video because max video resolution was set to None
 Could not start content because max content resolution was set to None
 Could not start huddle
-Could not unregister service worker during forceColdBoot call
-Could not unregister service worker during reload call
 Could not write chime media regions to localStorage: 
 Could not write voice focus cache to localStorage: 
 Count an agent sunroof dropdown menu opening or closing
@@ -2331,7 +2331,7 @@ Post activity history routing side effects
 Post channel canvas routing side effects
 Post channel canvas view opening side effects
 Pre-connecting signaling connection.
-Pre-reload task timed out: Failed to unregister service worker
+Pre-reload task timed out: Failed to clear the asset cache
 Preferred devices validated
 Prejoin SDK already exists; blocking new prejoin init
 Prejoin already connecting
@@ -2850,9 +2850,7 @@ Search SalesForce objects by query
 Search external results for multiple connectors in parallel
 Search for Salesforce Records
 Search for Salesforce records to power full page search
-Search for entities within Slack by query
 Search for external records
-Search for local entities within Slack based on options
 Search for top results
 Search for work objects
 Search list views by query
@@ -4675,7 +4673,7 @@ Which currencies do you support?
 While teams are receiving the discounted subscription rate, the discount will also apply to any member count and activity changes that occur during the
 Whoever set up this huddle turned the link off. Ask them for a new one.
 Will delay reload until user stops typing.
-Will reload after making sure service worker is registered
+Will reload after making sure the asset cache is kept
 Windows Phone
 With more people, you can:
 Within your org, people in your workspace can join automatically. Other workspaces must request.
