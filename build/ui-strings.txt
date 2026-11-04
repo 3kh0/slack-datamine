@@ -148,6 +148,7 @@ Add a ViewSet key to the store with initial state
 Add a browser instance to the store
 Add a channel, overwriting anything previously stored with the same id
 Add a collection to unified files
+Add a comments page to a loaded code channel pull request
 Add a draft to the edited array to be sent or deleted
 Add a facet value
 Add a file
@@ -2450,6 +2451,7 @@ Reconnecting Chime session
 Reconnection delay over. Now responding to disconnection events.
 Record Edits
 Record a failed code channel pull request fetch
+Record a failed comments page of a code channel pull request
 Record a recents navigation event for a navigate event
 Record an agent-created canvas the user has not read yet
 Record catch-up eligibility from Activity entries fetched outside the Activity feed
@@ -3925,6 +3927,7 @@ Start loading a code channel pull request
 Start meeting assistant session
 Start muted barrier active
 Start muted barrier released
+Start or stop loading the next comments page of a code channel pull request
 Start reading pinned view ids from lists.open
 Start render timing
 Start screen share for current user with given mediaSourceId
