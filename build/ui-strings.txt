@@ -74,6 +74,7 @@ Activity: Upsert activity items
 ActivityIA4: Add channel filter
 ActivityIA4: Clear all selected filters
 ActivityIA4: Clear filter bar state
+ActivityIA4: Clear requested Agenda tab
 ActivityIA4: Clear undoable activity item
 ActivityIA4: Clears peek view list
 ActivityIA4: Hide default view
@@ -86,6 +87,7 @@ ActivityIA4: Remove invite activity item
 ActivityIA4: Remove list mentions
 ActivityIA4: Remove unjoined channel mentions
 ActivityIA4: Remove view
+ActivityIA4: Request an Agenda tab
 ActivityIA4: Respond to activity_invalidated by clearing all items
 ActivityIA4: Set Conversations tab filters
 ActivityIA4: Set archived state for items
@@ -567,6 +569,7 @@ Channel sections: reset a channel sections channels
 Channel sections: set collapsed state for channelSection Edit Mode
 Channel sections: set edit mode state
 Channel sections: set errors from shared channel section API response
+Channel sections: set file channel IDs being fetched
 Channel sections: set the channel section id that a channel section in the sidebar should be inserted before for outline highlight calculation
 Channel sections: set the channel section that a channel in the sidebar is hovering over for outline highlight calculation
 Channel sections: set the end of a range while in edit mode
@@ -1290,7 +1293,6 @@ Fetches a range of messages
 Fetches and updates multiple SC trial onboarding state machines in a single call
 Fetches and updates user interactions for the given types and subtypes
 Fetches and upserts Channel Sections
-Fetches and upserts File Channels on Sidebar
 Fetches and upserts a file from the API
 Fetches and upserts canvas templates using files search.modules
 Fetches and upserts channels by query
@@ -2275,6 +2277,8 @@ Parks a Slackbot deep-link source until the Slackbot AI permission resolves
 Pause or resume the programmable-sidebar custom view (client-local)
 Pauses a download on the desktop app
 Pauses video tile
+Pausing queue because client is offline
+Pausing queue because service is offline
 Peer connection successfully established. Informing the user.
 Peer should exist in order to remove
 People results loaded successfully
@@ -4251,6 +4255,7 @@ Unlimited message history
 Unlimited message history, Ai notes, calls and more
 Unmarks today items as locally dismissed so RTM upserts are applied again
 Unpauses video tile
+Unpausing queue, back online
 Unpin Message from channel
 Unpin a view for the current user
 Unpins a Slackbot AI NUX kickoff thread ts so its root message becomes visible
