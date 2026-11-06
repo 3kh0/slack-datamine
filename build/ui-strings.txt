@@ -1569,7 +1569,6 @@ In response to an RTM event, clear a Megaphone notification from all spaces wher
 Increase count of open popovers for a team, optionally in a given window
 Increment action run count
 Increment failed transcript chunk count
-Increment seen_people_search_count by 1
 Increment the count for the given interaction, inserting into the redux store if necessary.
 Increments allThreadsRefreshCounter
 Increments emoji click count
@@ -1948,7 +1947,6 @@ Mark emoji collections as fetch (or not fetched
 Mark invite notifications as viewed by clearing them.
 Mark many conversations (locally and through API)
 Mark most recent message read
-Mark people search in-product experience as seen
 Mark plan payment status data as not loaded
 Mark plans and cost data as not loaded
 Mark record read to unhighlight it
