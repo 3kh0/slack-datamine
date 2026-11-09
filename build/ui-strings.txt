@@ -1576,6 +1576,7 @@ Archive a list record
 Archive all items in view
 Archive all threads in a canvas
 Archive an agent session
+Archive and Finish
 Archive channel
 Archive channel for everyone
 Archive inactive channel
@@ -1586,6 +1587,8 @@ Archive multiple list records
 Archive old private channel and replace it with new private channel with same name
 Archive this channel?
 Archived channel
+Archived channels:
+Archived channels: Closed to new messages for everyone. External members will be removed, but still have access to the chat history. Contents are searchable, and they can be unarchived at any time.
 Archived items from Later have been moved here. Everything else is in To-dos. Start fresh by clearing things out, or move tasks to To-dos.
 Archives a given channel
 Archives a private channel, creates and upserts a new one with the same name, then adds users
@@ -2259,7 +2262,6 @@ Call Again
 Call Back
 Call disconnected
 Call lists.open and store its pinned views
-Call location options
 Call subscriptions.thread.clearAll and clear the manuallyMarkedUnread array
 Call subscriptions.thread.clearall
 Call subscriptions.thread.getView and merge in results
@@ -2323,7 +2325,6 @@ Calls files.sharedPublicURL and upserts response
 Calls files.unshare
 Calls files.updatePermission and updates the file object in the store
 Calls files.uploadExternal
-Calls location
 Calls prefs API to set a target user as hidden
 Calls prefs API to unset a target user as hidden
 Calls share message API
@@ -3334,7 +3335,6 @@ Clog go button action for keyboard Enter
 Clog joiner launchpad treatment coachmark entry point
 Clog joining a suggested channel
 Clog member context item click
-Clog navigation into the code channels browser
 Clog only search result external connector result clicks
 Clog only search result page channel result clicks
 Clog only search result page file result clicks
@@ -3342,6 +3342,7 @@ Clog only search result page message result clicks
 Clog only search result page people result clicks
 Clog only search result work object result clicks
 Clog open slackbot from search suggestion
+Clog opening the code channels browser
 Clog opens to sidebar search
 Clog opens to the Browse search box
 Clog opens to the Search Omniswitcher
@@ -3459,6 +3460,7 @@ Closed captions
 Closed captions (opens in a new window)
 Closed lost
 Closed stage
+Closed to new messages for everyone. External members will be removed, but still have access to the chat history. Contents are searchable, and they can be unarchived at any time.
 Closes a split view
 Closes any open Texty modals
 Closes the channel space for the given channel
@@ -3486,6 +3488,7 @@ Code channel archive suggestion
 Code channels
 Code channels are a multiplayer coding environment designed for everyone, not just developers.
 Code channels created by workflows are always public.
+Code comment: append to the channel draft
 Code copied to clipboard.
 Code task started. Your other tasks can keep working.
 Code tasks
@@ -3567,6 +3570,7 @@ Command
 Command + Shift + H
 Command + Shift + Option + H
 Command suggestions collapsed
+Comment added to your message draft in Messages
 Comment deleted
 Comment on SAP
 Comment on selection
@@ -3656,6 +3660,7 @@ Configure your Slack notifications
 Confirm Outlines
 Confirm Salesforce permissions
 Confirm a Focused sidebar Pinned change with a toast
+Confirm and Finish
 Confirm before clearing all unreads
 Confirm file download allowed
 Confirmations and warnings
@@ -3794,6 +3799,7 @@ Content is missing resize handle node
 Content share uplink policy connected to VideoUplinkManager
 Content-Length header not found
 Content-Length: 
+Contents stay searchable, and channels can be unarchived at any time.
 Context import bridge timed out without observing IMPORTING
 Context import retry failed
 Context type mismatch: expected 
@@ -4090,6 +4096,7 @@ Could not measure the persistence write
 Could not open Mini after Singer was unavailable
 Could not open Slack from the menu bar icon
 Could not open composer page
+Could not open the agent DM for its profile
 Could not open the not-available notice
 Could not parse chime media regions from localStorage: 
 Could not parse server info
@@ -4102,6 +4109,7 @@ Could not reconnect and resume ApiQ.
 Could not record fragment response CMCD data.
 Could not record impression
 Could not refetch channel sections
+Could not report write validation time
 Could not resolve reference
 Could not resolve reference to infix operator rule: 
 Could not resolve reference to type: 
@@ -4196,6 +4204,7 @@ Create a Quip doc
 Create a Section
 Create a Session Channel
 Create a Slack Connect channel
+Create a Task
 Create a Workflow
 Create a canvas and associate it with a new channel tab
 Create a canvas template
@@ -4315,6 +4324,7 @@ Create workflow and trigger from an AI generated preview
 Create workflow and trigger from generated ai preview
 Create workflow template and publish it
 Create workflows with conditional logic directly in Slack, without writing code.
+Create your first task
 Create your own
 Create your own templates
 Create your own workflow templates
@@ -5991,6 +6001,7 @@ External huddle guest joined from another tab; staying in the client instead of 
 External huddle guests can only see information inside the huddle.
 External huddle scheduled
 External links revoked
+External members will be removed, but still have access to the chat history.
 External organizations
 External organizations and invitations
 External orgs
@@ -6204,6 +6215,7 @@ Failed to persist segmentation answer
 Failed to pin conversation
 Failed to post comment
 Failed to prefetch Slack Scribe context during recording
+Failed to preload agent profile
 Failed to preload app DM
 Failed to preload app metadata; continuing navigation
 Failed to prepare the next screen after saving an answer
@@ -6235,7 +6247,9 @@ Failed to remove skill from skill set
 Failed to remove skill. Please try again.
 Failed to remove tokens from connected apps when turning off IDL via user prefs.
 Failed to replace audio track
+Failed to report IndexedDB read time
 Failed to report dogfood boot
+Failed to report read validation time
 Failed to report trace
 Failed to request canvas content draft view
 Failed to request code channel AI summary: 
@@ -6402,6 +6416,7 @@ Fetch Workflow Failure
 Fetch Workflow Success
 Fetch a Salesforce action layout
 Fetch a code channel pull request
+Fetch a deferred visits store when its workspace gains focus
 Fetch a list of all IMs
 Fetch a list of all MPIMs
 Fetch a list record with its subtasks
@@ -6411,6 +6426,7 @@ Fetch a record channel given a record id
 Fetch a record channel given a record id and navigate
 Fetch a single daily digest by id
 Fetch a single member by id using solr search.enterprise endpoint
+Fetch a store whose reconnect fetch was deferred
 Fetch a user
 Fetch activities for channel popover
 Fetch activities for multiple channels (batched)
@@ -7614,9 +7630,9 @@ Globe icon
 Gloucester MT Extra Condensed
 Go To Slack Help Center
 Go ahead, start writing!
-Go back and finish the install in Google. If you just finished, wait a few minutes and try again.
 Go back in history
 Go back one entry in the history stack for this window
+Go back to step 2 and reinstall Slack, or wait a few minutes and try verifying again.
 Go forth
 Go forward in history
 Go forward one entry in the history stack for this window
@@ -9291,7 +9307,6 @@ Limit sharing
 Limited to #general channel only
 Limited to 10
 Limited-time offer
-Limiting to certain regions may reduce call performance or block joining calls in some circumstances.
 Linda Roberts
 Line 157
 Line 160
@@ -11450,6 +11465,7 @@ No migration IDs provided
 No migration found for version 4
 No migration needed for device selection history
 No more meetings today
+No more than 99 attendees can be added
 No native audio devices found from enumerateAudioDevices
 No native device details found for webRTC device id
 No need to reload
@@ -11463,6 +11479,7 @@ No offset parent for bubble
 No one can reply to messages
 No one is sharing their screen
 No one on record yet
+No one will be able to send new messages.
 No onlistprompts handler set
 No onlistresourcetemplates handler set
 No onreadresource handler set
@@ -13232,6 +13249,7 @@ Private canvas comment forwarding speed bump in effect
 Private channel
 Private channel info
 Private channels cannot be used with this step
+Private channels:
 Private code channel
 Private element is not present on this object
 Private list
@@ -13958,6 +13976,7 @@ References external instructions
 Refetch Salesforce orgs, then open Sales Tracker or the Request CRM License modal
 Refetch enabled skills
 Refetch visits.list after a reconnect
+Refetch visits.list after a reconnect, or defer it while no Slack window is focused
 Refetch visits.list when the main window regains focus, at most once per interval
 Refetches localized APIs for a team
 Refetches sfdc.integration.listOrgs, skipping the dedupe and throttle
@@ -14796,6 +14815,7 @@ Resolve the SSB screen thumbnails and the index of the screen being shared
 Resolve the authorized-IP check for block-kit copy once per session, deduping concurrent callers
 Resolve the channel a smart-invites-v3 channel suggestion was created into
 Resolve thread
+Resolve whether an app profile opens the agent DM details pane
 Resolved channel name to ID
 Resolved threads
 Resolves an external huddle guest media-access request
@@ -17829,7 +17849,6 @@ Slack AI result Outlines
 Slack AI results have been updated
 Slack AI results ready
 Slack CRM will be part of your Slack workspace. Choose a name that your team will recognize, like the name of your company or team. You can always update it later.
-Slack Calls will be restricted and routed through selected regions only.
 Slack Commands
 Slack Connect
 Slack Connect 1
@@ -17862,7 +17881,6 @@ Slack Texty rich text pasted nothing, so pasting its HTML
 Slack and Salesforce are disconnected.
 Slack applied suggested filters and keywords to show the most relevant results.
 Slack built templates
-Slack calls are restricted by Org admin
 Slack can be configured to support protected health information (PHI) within uploaded files and message content.
 Slack can only handle letters, numbers, spaces, and dashes here, with up to 80 characters. Try again?
 Slack can only keep messages for up to 99 years, but thanks for your vote of confidence.
@@ -18823,6 +18841,7 @@ Task paused
 Task saved successfully.
 Task tracking fields
 Tasks are not supported in MCP Apps
+Tasks run a prompt on a schedule or trigger, so the work is done before you ask.
 Tasks start within 15 minutes of your scheduled time.
 Tasks-Icon 2
 Teach Slackbot new tricks
@@ -18849,6 +18868,7 @@ Tell Slack AI what to recap
 Tell Slackbot about yourself. It
 Tell me about this window.
 Tell the agent what to produce
+Tell us about your experience on Slack
 Tell us more (optional)
 Tell us what you need help with.
 Temp subscribe for a code channel preview
@@ -21466,6 +21486,7 @@ Waiting for blur event to reload
 Waiting for connection (offline)
 Waiting for huddle to end to reload
 Waiting for rate limit
+Waiting for someone to let you in
 Waiting for workspace credentials
 Waiting on review
 Waiting on you

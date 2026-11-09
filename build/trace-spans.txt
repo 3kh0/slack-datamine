@@ -42,8 +42,14 @@ metric: memory_usage_bytes
 metric: persist-redux-state-bytes
 metric: persist-redux-state-changed-bytes
 metric: persist-redux-state-clone-ms
+metric: persist-redux-state-idb-read-ms
 metric: persist-redux-state-largest-store-bytes
+metric: persist-redux-state-read-validation-ms
+metric: persist-redux-state-read-validation-slowest-store-ms
+metric: persist-redux-state-read-validation-window-ms
 metric: persist-redux-state-write-latency-ms
+metric: persist-redux-state-write-validation-changed-ms
+metric: persist-redux-state-write-validation-ms
 metric: react_perf
 metric: redux:all_workspaces_bytes
 metric: redux:workspace
