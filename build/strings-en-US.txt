@@ -14249,6 +14249,7 @@ message.c7be3cb: {label} · {viewBookmarksLink}
 message.be8fbad: {label} · {viewLink}
 message.94808c1: {memberNameFromIm} (deactivated)
 message.5b4b2c0: {rawListTitle} (View Only)
+message.e290bea: {text}.
 message.8023515: {uploader_name}{uploader_name_affix}
 message.2e7353f: {userName1} and {userName2} made updates to the <a>DM canvas</a>.
 message.ddef058: {userName1} and {userName2} made updates to the <a>channel canvas</a>.
@@ -20069,6 +20070,7 @@ search_menu.2dd2bed: today
 search_menu.1aa96b8: yesterday
 segmented_team_creation.4550f68: Choose a plan
 segmented_team_creation.b0bf6d1: Recommended for you
+select.12fb103: , Shift tab to manage items
 select.247fd63: Clear selection
 select.6e157c5: Create
 select.37a0215: Creating record…
@@ -20081,6 +20083,7 @@ select.5a95e0b: Press again to also select items
 select.7facbcc: Restored {tokenLabel}
 select.df34720: Search for {fieldApiName}
 select.08d7aa3: Select an option
+select.7544ae9: Shift tab to manage items
 select.e735876: Type to search or create…
 select.4548321: Type to search…
 select.79a7994: {count, plural, =1 {# item} other {# items}} removed
@@ -20095,6 +20098,7 @@ select.444a2fa: {tokenLabel} removed
 select.95458e9: {tokenLabel} removed from {multiSelectLabel}
 select.f084dc6: {tokenLabel} selected
 select.b4c384e: {tokenLabel} selected. Press again to also select search query
+select.cabd1ff: {tokenLabel}: {errorMessage}
 send_btn.c74e0f4: Don’t like the change? You can always switch back in <Link>your preferences</Link>.
 send_btn.c8a4874: Got It
 send_btn.25e74af: Just for Japan: a button for sending
@@ -23019,8 +23023,10 @@ slackbot-ai.77dfd21: Cancel
 slackbot-ai.a3f80b8: Canvas
 slackbot-ai.e2d397a: Canvases
 slackbot-ai.6bcbfcc: Can’t add these canvases right now.
+slackbot-ai.72c4d0d: Can’t disconnect {name}. Try again.
 slackbot-ai.2a6acbf: Can’t save project memory. Try again.
 slackbot-ai.f97a067: Can’t save tool permissions. Try again.
+slackbot-ai.ca09c54: Capabilities
 slackbot-ai.6ccb600: Categories
 slackbot-ai.1fd6a88: Cc
 slackbot-ai.18e03e2: Channels
@@ -23185,6 +23191,7 @@ slackbot-ai.6eef664: None
 slackbot-ai.d1a17af: Not available
 slackbot-ai.e457149: Not now
 slackbot-ai.63f34dd: Older
+slackbot-ai.c23a7e1: Once connected, Slackbot can use {name}’s tools to answer questions and take action on your behalf.
 slackbot-ai.6767b46: Once it’s connected, I’ll show your day right here.
 slackbot-ai.49d988e: Once on {date} at {time} {timezone}
 slackbot-ai.599bb6a: Once on {date} between {startTime} and {endTime} {timezone}
@@ -23302,6 +23309,7 @@ slackbot-ai.0f17b71: This app isn’t available anymore.
 slackbot-ai.df7ef69: This project can’t hold any more canvases. Remove one to add another.
 slackbot-ai.7bd7ee9: This task just started. Try again in a minute.
 slackbot-ai.da05b77: This will remove all {name} tools from Slackbot. You can reconnect anytime.
+slackbot-ai.0522b8d: This will stop Slackbot from searching {name}. You can reconnect anytime.
 slackbot-ai.ae79ea1: To
 slackbot-ai.24345a1: Today
 slackbot-ai.1948bf2: Tomorrow
@@ -23326,16 +23334,19 @@ slackbot-ai.52f8d46: View events on all your calendars
 slackbot-ai.97819db: Want More?
 slackbot-ai.f038833: Weekly support digest
 slackbot-ai.45c6f16: Welcome to Slackbot!
+slackbot-ai.5d0431d: What can you do with {name}?
 slackbot-ai.2db3fd5: What happened in Slack recently?
 slackbot-ai.8eccf25: When the task runs
 slackbot-ai.82630a4: Whoops! Task names cannot have emojis.
 slackbot-ai.26c6046: Whoops! That name is reserved.
 slackbot-ai.3b4dfc9: Working
 slackbot-ai.13b7bfc: Working…
+slackbot-ai.4a48932: Write
 slackbot-ai.2cf6c19: Write tools
 slackbot-ai.cd0bd56: Yearly on {date} at {time} {timezone}
 slackbot-ai.f290738: Yearly on {date} between {startTime} and {endTime} {timezone}
 slackbot-ai.905cb32: You
+slackbot-ai.801882a: You are logged into {email_address}
 slackbot-ai.bf38c85: You can reconnect anytime.
 slackbot-ai.5b43b34: You can use up to {max} apps in conversations. Turn one off to add another.
 slackbot-ai.dd9c8c1: You can’t add {canvasTitle}. Check that you can still view it.
@@ -23366,6 +23377,7 @@ slackbot-ai.35772be: {days} every {repeatsEvery} weeks at {time} {timezone}
 slackbot-ai.bbfbec7: {days} every {repeatsEvery} weeks between {startTime} and {endTime} {timezone}
 slackbot-ai.5e71bf3: {failedNames} could not be loaded. The file may have been deleted or you may have lost access.
 slackbot-ai.773f608: {name} actions
+slackbot-ai.f70e39e: {name} disconnected.
 slackbot-ai.e50fb1d: {name}, view details
 slackbot-ai.1c63ee4: {name}, {tagline}
 slackbot-ai.3c6cfdb: {name}, {typeLabel}, {tagline}
