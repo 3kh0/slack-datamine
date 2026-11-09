@@ -271,6 +271,8 @@ client.codeChannels.submitReview: channel_id, event, pr_url, revision, text
 client.counts: _x_reason, channel_ids, include_all_unreads, include_file_channels, org_wide_aware, thread_counts_by_channel
 client.init: _x_reason, include_relevant_onboarding
 client.tbd.codeChannels.open: purpose
+client.tbd.facts.flag: action, fact_id, note
+client.tbd.facts.list: channel_id, message_ts
 connectInvites.list: channel, direction, include_invite_requests, invite_ids, invite_types, limit, only_pending_invites
 contacts.add: contact_card_id
 conversations.acceptSharedInvite: channel_name, free_trial_accepted, invite_id, is_private, sig
@@ -802,7 +804,7 @@ team.changeInfo: name, target_team, update_url_on_name_change
 team.checkEmailDomains: email_domains
 team.feature.getRequest: feat_request_code
 team.feature.request: feat_request_code
-team.info: include_primary_owner, include_unlisted_if_admin, team, teams
+team.info: include_primary_owner, include_unlisted_if_admin, plan, team, teams
 team.prefs.get: target_team
 team.prefs.set: prefs, target_team
 team.slackConnectGuidelines.get: type

@@ -100,7 +100,7 @@
 ) are ignored.
 ) is not supported yet.
 ) that performed expensive computation.
-)&&(eS(!1),i$(void 0),ex(iG?
+)&&(eR(!1),rn(void 0),eC(rm?
 ))),e((0,d.R3)(h)),e((0,d.p4)(h?a:void 0)),p(h?
 ). If you meant to render a collection of children, use an array instead.
 )?l.makeImage(e.slice(8),new u.Ay(t,r,n,i),o?
@@ -458,7 +458,6 @@ Acquisition cancelled before attempt
 Acquisition cancelled during retry delay
 Action Button
 Action Data:
-Action Items
 Action handler for
 Action item
 Action item dismissed
@@ -1246,6 +1245,7 @@ All Salesforce Orgs
 All Salesforce orgs
 All Salesforce users can open
 All Slack Connections will be lost.
+All Slackbot conversations
 All Suggested Records
 All Threads
 All WebGL1 implementations are expected to offer OES_vertex_array_object.
@@ -1259,6 +1259,7 @@ All available fields have been added
 All canvases
 All changes
 All channels
+All clear.
 All code channels in Slack
 All comments
 All conversations
@@ -1319,6 +1320,7 @@ All your outgoing messages. Everything you send, draft, and schedule can now be 
 Allow AI use
 Allow Editing
 Allow Screen Recording for Slack in System Settings, then drag the window again.
+Allow Screen Recording for Slack in System Settings, then try again.
 Allow Screen Recording for Slack, then try your request again.
 Allow Slack AI to search the web
 Allow Slack to use the microphone in System Settings, then try again.
@@ -1620,6 +1622,7 @@ Arial Unicode MS
 Arm the Sales Tracker extraction nudge on entering the manual import flow
 Arrow Left
 Arrow Right
+ArrowLeft ArrowRight
 ArrowUp ArrowDown Backspace Delete
 Art by Haley Tippmann
 Art by Hudson Christie
@@ -1932,6 +1935,7 @@ Begin Manual Migration
 Begin a Threads hydration page
 Begin a filtered To-dos pagination request
 Begin a refresh of the followed threads listed newest reply first
+Begin an enabled skills mutation
 Begin channel history intent study episode
 Begin meeting assistant session
 Begin min version polling
@@ -4010,6 +4014,7 @@ Copying children of
 Corner point fixing
 Corner point skipping fixing
 Corporate Communications
+Corrections are paused for now.
 Costa Rica
 Could not access your microphone or camera. Please check permissions.
 Could not acquire audio track from mediaStreamBroker
@@ -4600,6 +4605,7 @@ Deep research
 Deeplink handler received an error
 Default Handler
 Default Skin Tone
+Default duration
 Default org-wide channel
 Default search bar 3
 Default search bar 4
@@ -4934,6 +4940,7 @@ Dismiss for now. Messages stay unread.
 Dismiss meeting notes
 Dismiss meeting reminder
 Dismiss message suggestions
+Dismiss notice
 Dismiss notification
 Dismiss onboarding tasks link from sidebar
 Dismiss projects intro
@@ -5130,6 +5137,7 @@ Draft a meeting invite
 Draft a reply
 Draft a reply to this conversation for me
 Draft a reply to this thread for me
+Draft a reply with Slackbot
 Draft a weekly status report with Slackbot
 Draft actions
 Draft added. Review it before sending.
@@ -5524,6 +5532,7 @@ End Label 8 Outlines
 End Label 9 Outlines
 End Label Outlines
 End Point
+End Quiet
 End active call
 End an external huddle for every participant
 End and start new call
@@ -5792,6 +5801,7 @@ Eventlog requires a teamId
 Everforest Dark
 Everforest Light
 Every [[recurring_date]], send an activity notification to assignee when an item is not complete and its due date is [[due_date_filter]]
+Every channel and DM, in your sections
 Every contact has a collaborative detail page where your team can log activity, track conversations, and update key info.
 Every day
 Every model is scored with your draft thresholds and boosts. Bold tiers differ from your draft.
@@ -6168,6 +6178,7 @@ Failed to link vertex and fragment shaders.
 Failed to list external huddle invitees
 Failed to load clog enum tables for debugging
 Failed to load domains
+Failed to load enabled skills
 Failed to load events
 Failed to load focused sidebar empty placeholder impressions
 Failed to load huddle page banner interactions
@@ -6609,6 +6620,7 @@ Fetch the apps the user has requested in the given stages
 Fetch the authoritative workspace member count for the Sales Tracker share gate
 Fetch the canonical visits.list page into the shared visits store
 Fetch the channels that are shared across the entire org
+Fetch the current team plan, then its trial info
 Fetch the current user explicit personal default view for a list
 Fetch the datasources
 Fetch the default channels for an org
@@ -7071,6 +7083,7 @@ Flag channel name
 Flag channel topic
 Flag conversation name
 Flag conversation topic
+Flag this fact
 Flags a pending Slackbot thread mark as accepted (thread_marked arrived)
 Flakiness must be a number between 0 and 1
 Flannel chunk fetch failed
@@ -7129,6 +7142,7 @@ Follow thread shortcut - subscribes to thread and displays toast
 Follow up
 Follow up on a meeting
 Follow up reminder
+Follow up with Slackbot
 Follow up with Slackbot on suggested focus areas
 Follow up with Slackbot on these focus areas to help you get your day started.
 Follow up with Slackbot on these focus areas to help you prep for tomorrow.
@@ -7136,6 +7150,7 @@ Follow up with leads and track deals without leaving Slack
 Follow-up message returned no ts
 Follow-up message sent
 Follow-up prompts
+Follows your Slack notification settings.
 Followup Request
 Font selection
 Food & Drink
@@ -7831,6 +7846,7 @@ Hand off search query to Slackbot
 Hand off search query to Slackbot with prepopulated thread
 Hand off the legwork. Singer browses for you.
 Handed off
+Handed to Slackbot
 Handle Chime meeting events
 Handle Comments tab dismissed
 Handle a Message Kit timestamp being clicked
@@ -8035,6 +8051,7 @@ Hide section
 Hide self-view
 Hide share screen borders
 Hide sidebar
+Hide sidebars
 Hide slow network alert
 Hide tab
 Hide the inline assistive summary after this reply for the rest of the session
@@ -8143,6 +8160,7 @@ Huddle found - triggering sign out speed bump
 Huddle has
 Huddle in
 Huddle invite
+Huddle invites
 Huddle language
 Huddle link copied
 Huddle links like this one work only once. Ask for a new one to join.
@@ -8739,6 +8757,7 @@ It looks like not everyone on this huddle has access to this feature just yet.
 It looks like your browser is blocking pop-ups. Please enable popups in order to open the OneDrive file picker.
 Item actions
 Item added
+Item conversations
 Item deleted
 Item deleted.
 Item in 
@@ -9083,14 +9102,15 @@ Latches that the admin opt-in coachmark was seen this session so the landing pag
 Late night session. No judgment
 Later Outlines
 Later actions
+Later duration
 Later items
 Later items pagination
 Later today
-Latest Unreads
 Latest activity
 Latest activity, unreads first
 Latest date created
 Latest messages
+Lato, sans-serif
 Launch a Teams video call from Slack
 Launch in Slack
 Launch the Slackbot big mode NUX intro modal for new Slackbot users
@@ -9260,6 +9280,7 @@ Let Slackbot find leads and opportunities mentioned in your conversations.
 Let Slackbot help you tackle your day
 Let Slackbot organize your wins and updates
 Let Slackbot search the web
+Let VIPs speak up in Quiet
 Let a Coworker Set It Up
 Let go to choose it.
 Let me know how I can help with this list.
@@ -9271,6 +9292,7 @@ Let them invite their coworkers
 Let workflows take tasks off your plate
 Let your AI teammate do your busywork
 Let your workspace owner know you
+Lets a snapshot reconcile membership after a later successful deactivation
 Lets dive in Outlines
 Letter Gothic
 Level poll interval must be positive
@@ -9842,7 +9864,6 @@ M186.961 169.996c31.972 0 57.89-1.335 57.89-2.983 0-1.648-25.918-2.984-57.89-2.9
 M187.335 50.485a12.309 12.309 0 0 1 3.951-1.997l.411-.433a11.6 11.6 0 0 0-4.362 2.43Z
 M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0
 M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0m-8-4a1 1 0 1 1-2 0 1 1 0 0 1 2 0m0 4a1 1 0 1 0-2 0v4a1 1 0 1 0 2 0z
-M19 12H5m7-7-7 7 7 7
 M19 14a5 5 0 1 1-10 0 5 5 0 0 1 10 0m-4 2.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0M14 11a.75.75 0 0 0-.75.75v2a.75.75 0 0 0 1.5 0v-2A.75.75 0 0 0 14 11
 M19 3a2 2 0 0 1 2 2
 M19.364 18.364a9 9 0 0 0 0-12.728
@@ -10669,6 +10690,7 @@ Message not sent
 Message options
 Message posts
 Message preview
+Message previews
 Message reactions
 Message removed.
 Message results from channel
@@ -10852,6 +10874,7 @@ More detail
 More email actions
 More filters
 More folder actions
+More for you
 More help requested
 More information about including skills
 More invite options
@@ -11677,6 +11700,7 @@ Not in desktop
 Not in list
 Not in this channel
 Not in this workspace
+Not included
 Not looking
 Not on Slack
 Not on record
@@ -11879,6 +11903,7 @@ One Duck
 One Light
 One South Church Street, Tucson, Arizona
 One day before
+One line is enough
 One or more attachments could not be loaded. The file may have been deleted.
 One or more email addresses are invalid.
 One or more email addresses are too long.
@@ -12163,6 +12188,7 @@ Open lookup step form as part of loop setup flow
 Open media file in new window
 Open meeting details by event link ID
 Open meeting notes
+Open message in Singer
 Open message limit trial entry point modal
 Open mini window
 Open modal for adding a solution to an existing channel
@@ -12243,6 +12269,7 @@ Open the channel purpose dialog
 Open the channel tabs list in the secondary view
 Open the composer email picker, connecting Gmail first if needed
 Open the confirmation for removing an agent from a DM
+Open the conversation to read this message.
 Open the conversation to view this update.
 Open the create task modal from a message
 Open the create task modal to run a skill
@@ -12733,6 +12760,7 @@ Patti Sullivan
 Patti Sullivan, Darla Saucier, Dan Hyvl, Andrew Gregoricj, Sarabeth Smith, Kim Ward
 Patty Sullivan
 Pause Notifications
+Pause Singer notices. Slack still delivers everything.
 Pause a conversation by turning off new replies
 Pause focus music
 Pause notifications
@@ -12931,6 +12959,7 @@ Pinned by unknown user,
 Pinned by unknown user.
 Pinned by you
 Pinned by your admin
+Pinned, important and recent
 Pins a Slackbot AI NUX kickoff thread ts so its root message can be hidden
 Pins which model serves Slackbot AI turns, or null for the default routing
 Pipeline capacity and transport
@@ -13483,6 +13512,7 @@ React Router caught the following error during render
 React Scan
 React class
 React to last message (or message with focus)
+React with eyes and mark done
 React-Modal: 
 React-Modal: Cannot register modal instance that
 React.Children.only expected to receive a single React element child.
@@ -14016,7 +14046,6 @@ Reinstall to grant access
 Reject a DM call from the slack window
 Reject this approval work item
 Rejected open-link request
-Related Channel List
 Related Channels
 Related Channels List
 Related Object
@@ -14880,6 +14909,7 @@ Retrieve search autocomplete intent model.
 Retrieve search autocomplete model.
 Retrieve search autocomplete offline features.
 Retrieves the next batch of users from a given External Directory.
+Retry Singer
 Retry a code channel AI summary request that failed
 Retry calendar events window fetch
 Retry failed uploads
@@ -15553,6 +15583,7 @@ See past invites
 See record details
 See release notes
 See the Sales Tracker in action
+See the answer
 See the channels that are important to you
 See tomorrow
 See translation
@@ -17477,6 +17508,7 @@ Show Approval Work Item notification
 Show Call
 Show Focused Section in Model Browser
 Show More Skills
+Show New Activity
 Show Preview Panel
 Show Saved for later reminder notification
 Show Searchable Text Debug
@@ -17559,6 +17591,7 @@ Show list restored toast
 Show markdown mode paste toast
 Show markdown paste toast
 Show me how
+Show message text when your Slack privacy settings allow it.
 Show messages in progress
 Show mini window
 Show more
@@ -17675,6 +17708,7 @@ Sidebar sweeper-VIP-@2x
 Sidebar sweeper-leave inactive channels-@2x
 Sidebar text Outlines
 Sidebar titlebar
+Sidebar view
 Sidebar width
 Sidebar: get aria-label for a channel list row
 Sidebar: get aria-label for a page row
@@ -17794,6 +17828,7 @@ Skip for Now
 Skip for now
 Skip notification for in-progress streaming message
 Skip the Contract
+Skip the note
 Skip this step
 Skip updating audio input because there is no active meeting and peer connection
 Skip updating video input because there is no active meeting and peer connection
@@ -17946,6 +17981,7 @@ Slackbot setup progress
 Slackbot sidebar: compose a code-channel row aria-label
 Slackbot sidebar: compose a thread row aria-label
 Slackbot skill
+Slackbot task started
 Slackbot teaser
 Slackbot uses this context across conversations in the project and may update it automatically each week.
 Slackbot view
@@ -18517,7 +18553,6 @@ Stroke align: Outside
 Stuck save in progress indefinitely
 Sublime Ice Cream Sandwiches
 Submit Channel Export
-Submit Coachmark
 Submit Pilot Feedback
 Submit a change in app user connection
 Submit a team segmentation answer
@@ -18806,6 +18841,7 @@ Take over editing
 Takes a deleted message out of its code channel session
 Takes a deleted top-level message out of a channel session
 Talk it out in a huddle
+Talk to Slackbot
 Talk with Slackbot
 Talk with a teammate
 Target must be a DOM Element
@@ -18941,6 +18977,7 @@ The args passed in customGrad(f)(x1, x2,...) must all be tensors
 The argument must be a React element, but you passed 
 The arity of each 
 The array must have only 1 element.
+The attached window is no longer available.
 The attendee couldn
 The attendee joined from another device.
 The attendee left the meeting.
@@ -19452,6 +19489,7 @@ Thread moderation
 Thread name
 Thread names must include at least one letter or number.
 Thread removed.
+Thread replies
 Thread summary not available
 Thread visibility prototype
 Thread with an AI agent
@@ -21109,6 +21147,7 @@ VIDEO INPUT READINESS - Completed
 VIDEO INPUT READINESS - Running
 VIP Notifications
 VIP Replies
+VIP activity
 VIP messages
 VIP unreads
 VIP unreads 2 Outlines
@@ -21588,6 +21627,7 @@ What area of the product are you sharing feedback about?
 What can AI help you automate today?
 What can I do for you today?
 What can Slack AI help you automate today? Outlines
+What can speak up
 What can this app do?
 What can you help me with?
 What current and potential features would be most valuable to you if they were added to CRM in Slack?
@@ -21683,6 +21723,7 @@ Which messages should I respond to first?
 Which of the following did you experience? Select all that apply.
 While teams are receiving the discounted subscription rate, the discount will also apply to any member count and activity changes that occur during the
 While we work on improvements, here is some information that can help.
+While you were quiet
 White Solid 2
 White Solid 3
 White Solid 6
@@ -21938,7 +21979,6 @@ You can only add agents from Salesforce to this channel.
 You can only add delegates in channels.
 You can only add up to 30 variables per canvas
 You can only have 5 scheduled statuses at a time.
-You can only upload up to 10 files
 You can provide a way better UX than this when your app throws errors by providing your own 
 You can reconnect anytime.
 You can refresh and try again in a few minutes.
