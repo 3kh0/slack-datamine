@@ -542,6 +542,8 @@ activity.5b8d97f: Filter by
 activity.35202c4: Filter by agent
 activity.c49fec6: Filter by entry type
 activity.e55aa1d: Filter by type
+activity.a70369a: Filter conversations
+activity.5bad0ca: Filter conversations: {option}
 activity.2d8e5df: Filter unreads
 activity.1ff7777: Filtering from recent notifications.
 activity.96e5782: Filters
@@ -629,7 +631,9 @@ activity.753a22b: Notifications
 activity.9c4dd46: Notifications cleared.
 activity.2e07973: Notifications from
 activity.6417a44: Notifications, {count, plural, =1 {# unread} other {# unreads}}
+activity.00da205: Only external people
 activity.d843905: Only include unreads
+activity.ced4671: Only internal people
 activity.5a99577: Open in Slackbot
 activity.c103886: Open in home
 activity.a75732d: Open in new window
@@ -2695,6 +2699,7 @@ attachment_media.a75732d: Open in new window
 attachment_media.dbd673c: Save contact
 attachment_media.c1853ca: Share contact…
 attachment_media.de70d34: View {name}’s Profile
+attachments.01ac4a4: (Not automatically expanded because {filesize} is too large. You can <a className="expand">expand it anyway</a> or <a className="open">open it in a new window</a>.)
 attachments.d12c2d2: AI answer
 attachments.c7c6033: AI explanation
 attachments.a532988: Add as tab
@@ -20130,10 +20135,8 @@ setup_page.b8c4689: Accepting invitation…
 setup_page.67b2f98: Add a photo
 setup_page.e9e7205: Add another
 setup_page.0dbec83: Add another email
-setup_page.80ae0e0: Add another number
 setup_page.b9b41b0: Add channels
 setup_page.ebe5599: Add coworker by email
-setup_page.959f070: Add coworker by phone number
 setup_page.b3adfb1: Add from Google Contacts
 setup_page.9836b8a: Add people by email
 setup_page.d919c44: Add team logo
@@ -20147,14 +20150,14 @@ setup_page.07d47fd: All organizations will need the approval of their admins to 
 setup_page.63cfac2: All set — admins are taking a look
 setup_page.026397b: Allow anyone with the email address @{emailDomain} to join this workspace.
 setup_page.db469bd: Animation of an empty Slack workspace
-setup_page.8f2352a: Any data collected by an app deployed to Slack’s managed infrastructure, as well as the app’s datastores, developer secrets, and logs
-setup_page.9a36c95: App- or bot-generated messages and files
 setup_page.cd822e3: Are you sure you want to skip this step without inviting <strong>{email1}</strong> or <strong>{email2}</strong>?
 setup_page.2f4782c: Are you sure you want to skip this step without inviting <strong>{email1}</strong>, <strong>{email2}</strong>, and {otherEmailsCount, plural, =1 {# other} other {# others}}?
 setup_page.b8ae4d6: Are you sure you want to skip this step without inviting <strong>{email}</strong>?
 setup_page.90bf865: Are you sure? Without notifications, it’s much harder for your team to reach you. <a>Enable notifications</a> <c>I’ll do it later</c>
 setup_page.875f30e: Are you sure? Without someone else here, you’ll be missing out on what makes Slack great, including:
 setup_page.b52b36b: Back
+setup_page.824ce01: Back to region selection
+setup_page.9240e6a: By selecting “My region,” you agree to these <a>data residency terms</a>.
 setup_page.77dfd21: Cancel
 setup_page.53ab907: Catching up!
 setup_page.18e03e2: Channels
@@ -20177,9 +20180,8 @@ setup_page.d42293f: Couldn’t send an invitation to {email}.
 setup_page.61eafdf: Couldn’t send invitations to {emailOne} and {emailTwo}.
 setup_page.6f3c48d: Couldn’t send invitations to {emails}, and {remainingEmailsNum, plural, =1{# other} other{# others}}.
 setup_page.d56f703: Creating your workspace…
-setup_page.6f57834: Data residency for Slack
-setup_page.6c1d226: Data residency for Slack allows global teams to choose the region where certain types of data at rest are stored. Customers must store all Slack data in a single region.
-setup_page.7bb2a3a: Data stored in the data region
+setup_page.b7403ed: Data storage region
+setup_page.a986560: Default region
 setup_page.e7596a0: Direct messages
 setup_page.c8190ed: Direct messages section
 setup_page.91ea4d3: Dismiss message suggestions
@@ -20192,13 +20194,13 @@ setup_page.21e21c6: Duplicate email
 setup_page.c033a1c: Edit Photo
 setup_page.aaf87fe: Education
 setup_page.84add5b: Email
+setup_page.1752974: Enter an email address, Example: {email}
 setup_page.0cf1da7: Enter email addresses, Example: {email1}, {email2}
 setup_page.5c4c2f1: Enter your full name
 setup_page.c8d72e6: Ex. {email1}, {email2}
+setup_page.7e482d8: Ex. {email}
 setup_page.1913a38: Ex: Acme Marketing or Acme Co
-setup_page.ae92b05: Ex: Q4 budget, autumn campaign
 setup_page.6ce6c51: Files
-setup_page.aa18931: Files (ex., images, docs, etc.) uploaded to the Slack Service
 setup_page.9e37afd: Fill in your profile
 setup_page.7c49bc0: Financial Services
 setup_page.b74bdee: Finish
@@ -20207,7 +20209,6 @@ setup_page.c0d883b: First and last name
 setup_page.834c4d4: For some reason, that didn’t work. Please try again to continue.
 setup_page.1ef70d2: From here, you can message any coworker or channel.
 setup_page.89df370: From here, you can message any coworker or channel. Not seeing the right person in the list above? <a>Add people to Slack</a>
-setup_page.eaabce3: Give your {name} template a name
 setup_page.193a6d5: Go to next step
 setup_page.60a7689: Good afternoon!
 setup_page.0846f39: Good evening!
@@ -20235,10 +20236,8 @@ setup_page.b136609: Invite
 setup_page.78a8fd1: Invite Now
 setup_page.739fc3d: Invite link copied to clipboard
 setup_page.e1eb97a: Invite people
-setup_page.2cef878: Invite them by email instead
 setup_page.94484e3: Invite your teammates
 setup_page.1e07611: Invite {email}
-setup_page.2e59409: Is most of your team on mobile? <link>Invite them by text message</link>
 setup_page.83e641f: I’ll keep you all posted on the research progress. If you need anything specific, just let me know.
 setup_page.63cb036: I’m in!
 setup_page.a69f482: Just now
@@ -20261,10 +20260,10 @@ setup_page.0c77aee: Media
 setup_page.68f4145: Message
 setup_page.23965b2: Message #project
 setup_page.f1702b4: Messages
-setup_page.e69efc5: Messages, canvases, and snippets
 setup_page.4bab2d8: More
 setup_page.d771eb3: Morning!
 setup_page.098849c: Most people start by inviting 1-2 teammates
+setup_page.e535d8b: My region
 setup_page.405ec7a: Name your Slack workspace
 setup_page.6fa4f19: New Workspace
 setup_page.23972c6: New channel
@@ -20278,6 +20277,7 @@ setup_page.7ed840e: Note to self…
 setup_page.9ce3bd4: OK
 setup_page.f579c52: OR
 setup_page.707f0f7: Oh, hello!
+setup_page.a094a45: On Free Slack plans, Customer Data older than one year may be deleted on a rolling basis. Should a Free team with Customer Data stored in the selected region be inactive for more than a year, the entire workspace may be deleted and/or new activity be ineligible for storage in the selected Data Residency Region.
 setup_page.fbaebd9: Onboarding welcome illustration
 setup_page.5aa6f9c: Once admins from your organization and {invitingTeam} review this invitation, you’ll be added to <strong>{channelName}</strong>.
 setup_page.7631b14: Only me
@@ -20289,10 +20289,8 @@ setup_page.b37554f: People
 setup_page.c445e21: People added here will have access to your Slack workspace, where they can collaborate with you and each other.
 setup_page.a70b5d2: People section
 setup_page.0b197da: Perfect! Let’s stay on track and keep this channel our main hub for Project Gizmo updates. Thanks, team!
-setup_page.c08e1ad: Please enter a valid phone number.
 setup_page.f97147f: Please search by name instead
 setup_page.e82cd59: Project brief
-setup_page.23c01cc: Project name, example: Q4 budget, autumn campaign
 setup_page.4d89a20: Project tracker
 setup_page.6f1764e: Public Sector
 setup_page.3dab2ed: Ready to dive in!
@@ -20303,7 +20301,6 @@ setup_page.d0edfb6: Sales
 setup_page.9762a89: Sales Tracker
 setup_page.28abc03: Search by name
 setup_page.db074aa: Search by name or email
-setup_page.ff6c73e: Search index of Customer Data
 setup_page.83cb601: See {extraItemsCount} more
 setup_page.81a5f00: Selected channels
 setup_page.3005f8b: Selected channels section
@@ -20314,7 +20311,6 @@ setup_page.9278dcf: Skip this step
 setup_page.fffa0bf: Skip without inviting?
 setup_page.ff8e63c: Slack CRM will be part of your Slack workspace. Choose a name that your team will recognize, like the name of your company or team. You can always update it later.
 setup_page.e21da9e: Slack Connect
-setup_page.7e41dcc: Slack can only handle letters, numbers, spaces, and dashes here, with up to 80 characters. Try again?
 setup_page.87b078e: Slack gets more useful once teammates join. Invite a few people you work with to get started faster.
 setup_page.f9ee69b: Slack is a simple and fast way for teams to work together — whether you’re sitting side-by-side or scattered across the globe.
 setup_page.0c718fb: Slack needs your permission to enable notifications. <a>Enable notifications</a>
@@ -20326,26 +20322,20 @@ setup_page.897d4ea: Start Using Slack
 setup_page.71d5024: Start a DM conversation while you wait to join the channel.
 setup_page.daa9a9f: Start taking advantage of free access to your team’s full archive, unlimited huddles and Slack Connect channels.
 setup_page.5874903: Step {stepNumber} of {totalStepsCount}
-setup_page.0002739: Switched to email invite mode
-setup_page.1d37c45: Switched to text message invite mode
 setup_page.f275147: Ta-da! Your team’s on a free trial of Slack
 setup_page.d018b08: Technology
 setup_page.62728f0: Testing, testing… is this thing on?
-setup_page.e79c353: The following categories of customer data will be stored at rest in a data center within the customer’s selected region as of the date data residency is enabled:
-setup_page.d47d1f3: The template you selected will be used to create a channel. Give it a name your teammates will recognize.
 setup_page.b21c97f: This channel will be added to your {otherWorkspaceName} workspace.
-setup_page.2b34226: This could be anything: a campaign, event, or the deal you’re trying to close.
-setup_page.48bfcb3: This could be anything: a project, campaign, event, or the deal you’re trying to close.
 setup_page.ab90d9d: This field is required.
 setup_page.3f25365: This invitation is no longer available. You may want to reach out to the person who sent you this link for help.
 setup_page.3e0d550: This is Slack, a messaging app built for work
 setup_page.9da1708: This is your team — choose a few people you know
-setup_page.789d61b: This name will be the first thing your team sees in reference to your template.
 setup_page.2d0ab40: This will be the name of your Slack workspace.
 setup_page.bb12e8a: Threads
 setup_page.47f64cb: To get started you can only select 10 external people. Don’t worry, you can always start conversations with more people later on!
 setup_page.ec8a40b: To get started you can only select 15 people. Don’t worry, you can always start conversations with more people later on!
 setup_page.e2a9858: To really get a feel for Slack — and to see all the ways it can simplify your team’s work — you’ll need a few coworkers here.
+setup_page.6dbfde6: To the extent Customer enables external shared channels (including Slack Connect), certain Customer Data submitted to an external channel may be stored and processed outside of the Data Residency Region, as more fully described in the Help Center. Customer further acknowledges and agrees that once Customer submits Customer Data for storage in the Data Residency Region, such Customer Data will remain in the Data Residency Region during the subscription term and the term of any replacement or renewal of the Services, and that Slack does not currently offer services or support to migrate Customer Data from the Data Residency Region to another geographic location.
 setup_page.fbaee5f: Today, I’m working on…
 setup_page.4fa8cc8: Tools
 setup_page.624fb21: Try again.
@@ -20361,11 +20351,11 @@ setup_page.f197e4b: Welcome! Get up to speed by…
 setup_page.1f52262: Welcome! Let’s use this list to manage our tasks: 
 setup_page.de5d60a: Welcome! Let’s use this list to…
 setup_page.6aa2ae7: We’ll put their names in your sidebar, so you can easily start a conversation. (This won’t message or notify them, though.)
-setup_page.b1a2017: What are you working on?
 setup_page.7bcb831: What do you want to call your Slack workspace?
+setup_page.391732c: What does this mean
 setup_page.92b349c: What’s on the playlist for today?
 setup_page.041e6ec: What’s your name?
-setup_page.485a093: What’s your team working on right now?
+setup_page.acf1543: Where should we store your workspace data?
 setup_page.667fe3c: While you wait for approval, <a>send {member} a message</a> to let them know you accepted the invite.
 setup_page.f9094d6: Who else is on the <t1>{teamName}</t1> team?
 setup_page.8bf3696: Work moves faster with others in Slack. Start by adding the people you work with the most.
@@ -20373,9 +20363,11 @@ setup_page.53f17d2: Work moves faster with teammates in Slack. Start by adding t
 setup_page.96d67ce: Workspace created :tada:
 setup_page.8af389c: Would you like to be reminded again later? <a>Remind me later</a> or <c>download Slack now</c>
 setup_page.46bfc6e: Write a message
-setup_page.81018b9: You can add up to {count} phone numbers.
 setup_page.0ff7c5a: You can’t invite yourself
 setup_page.6c9ebb6: Your Slack workspace is ready to go {sparklesEmoji}
+setup_page.23caa8f: Your data is protected in every region. Choose where you want messages, files, searches, and certain other types of data to be stored at rest.
+setup_page.0eeb148: Your data will be stored in: <flag>Frankfurt, Germany</flag>
+setup_page.e4da3d8: Your data will be stored in: <flag>US</flag>
 setup_page.1449bff: Your file doesn’t seem to be an image. Try again?
 setup_page.ab42293: Your name
 setup_page.cf29b4a: Your profile photo
@@ -24609,7 +24601,6 @@ solutions.f09f666: onboarding-template
 solutions.7981a4e: templates
 solutions.899531e: workflow
 solutions.7335252: {channelName} is ready
-solutions.52aca42: {name} template features:
 solutions.e2c9d5d: {teamName} template
 solutions.9af6499: {teamName} templates
 solutions_onboarding.f9a12b0:  Add a few tasks from your project to get started. If you invite teammates to Slack, you can assign tasks to them from here.
