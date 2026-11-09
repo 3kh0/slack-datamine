@@ -469,6 +469,7 @@ activity.cd29691: Added you to <#{channelId}|{channelName}>
 activity.5ce2e6f: Agent
 activity.d08f055: Agent Sessions
 activity.05989d8: Agent sessions
+activity.8d3d657: Agent: {agent}
 activity.efb1d59: Agents added to direct messages
 activity.14251dd: Agents removed from direct messages
 activity.6a72085: All
@@ -2483,6 +2484,7 @@ assistant.a075340: Search by channel name
 assistant.28abc03: Search by name
 assistant.7087888: Search conversations
 assistant.0144dae: Search results
+assistant.98cc363: Searching
 assistant.7be281a: Searching Slack conversations…
 assistant.2ef9d7e: Searching Slack…
 assistant.6ff0c00: Searching {appNames}, and more…
@@ -2519,6 +2521,7 @@ assistant.3dc5e24: Something went wrong on our end. Try closing and reopening th
 assistant.935799b: Something went wrong. <b>{channelNameText}</b> not added to future recaps
 assistant.e0521bb: Something went wrong. <b>{channelNameText}</b> not removed from future recaps
 assistant.9a3ea05: Something went wrong. Please try again.
+assistant.2fe35de: Something went wrong. Try searching again.
 assistant.adc4e96: Sort
 assistant.d952db5: Sort by {sortLabel}
 assistant.0685d51: Speaking…
@@ -2697,6 +2700,7 @@ assistant.d2f3cdc: {channelNameText} added to future recaps and muted
 assistant.3e84ff6: {channelName} muted
 assistant.a2ce024: {channelName} unmuted
 assistant.eb0d11e: {channelName}, {isChannelSelected, select, selected {selected} other {not selected}}, {isChannelMuted, select, muted {muted} other {not muted}}
+assistant.272667c: {count, plural, one {# result found} other {# results found}}
 assistant.7d59625: {dateRange} summary not available
 assistant.55d480d: {formattedMessageCount} messages
 assistant.4130638: {formattedUserCount} users
@@ -5882,12 +5886,10 @@ coachmarks.326fe72: Your coworkers will see your messages when they join. Feel f
 code-channel-pr-comments.63bd63f: PR feedback
 code-channel-pr-comments.9f5cd8a: Retry
 code-channel-pr-comments.35f49dc: Sent
-code-channel-pr-comments.1a6927c: View in PR tab
 code-channel-pr-comments.7487270: {count, plural, one {# approval} other {# approvals}}
 code-channel-pr-comments.5643f7d: {count, plural, one {# comment} other {# comments}}
 code-channel-pr-comments.da61d4b: {count, plural, one {# other} other {# others}}
 code-channel-pr-comments.1db130a: {provider} connected
-code-channel-response-mode.288cd5c: set {first}, {second}, and <tooltip>{count, plural, =1 {# more} other {# more}}</tooltip> to only respond when @mentioned
 code-channel-review-request.eb3b730: Summarizing…
 code-channel-review-request.0d603c3: {reviewers}, you’ve been asked by {requester} to review PR {pr}.
 code-channel-review-submitted.9be1668: Changes requested
@@ -5909,6 +5911,7 @@ code-channels-browser.5ce2e6f: Agent
 code-channels-browser.cde5696: Agent conversation results
 code-channels-browser.05989d8: Agent sessions
 code-channels-browser.ad2571a: Agent threads
+code-channels-browser.8d3d657: Agent: {agent}
 code-channels-browser.6a72085: All
 code-channels-browser.6a5f390: All sessions
 code-channels-browser.6405179: All statuses
@@ -8194,7 +8197,6 @@ email-file-details.3f66052: From
 email-file-details.ae79ea1: To
 embedded_file_unfurl.acdac20: Audio
 embedded_file_unfurl.3876d76: Deleted file
-embedded_file_unfurl.f280845: File preview
 embedded_file_unfurl.50e19fd: Image
 embedded_file_unfurl.bc17c1f: Video
 embedded_message_unfurl.c1e9003: Direct Message
@@ -9617,7 +9619,6 @@ files.1765276: Audio clip
 files.1a0371e: Background color
 files.77dfd21: Cancel
 files.a3f80b8: Canvas
-files.443c9a4: Canvas preview
 files.873f93d: Canvas results
 files.98cc6bf: Canvas templates
 files.e2d397a: Canvases
@@ -9789,7 +9790,6 @@ files.27bea5d: Last updated {lastSyncTimeFormatted} in {productName}
 files.c2e9847: Link copied
 files.014bcd6: Links
 files.a1fffaa: List
-files.9dbe7b6: List preview
 files.01321f8: List results
 files.061f885: List templates
 files.57c9502: Lists
@@ -17903,14 +17903,7 @@ quip_collab.d89450c: Add Comment
 quip_collab.80195e6: Add Text Below
 quip_collab.c220715: Add a Link
 quip_collab.7e3faa8: Add a Profile
-quip_collab.63b725c: Add a code block
-quip_collab.556c94d: Add a large heading
-quip_collab.ad9b39e: Add a level 4 heading
-quip_collab.a90dbd6: Add a level 5 heading
-quip_collab.865439f: Add a level 6 heading
-quip_collab.7654000: Add a medium heading
 quip_collab.b77e443: Add a single space between lines
-quip_collab.f38ed8c: Add a small heading
 quip_collab.5f1b1a8: Add an Image
 quip_collab.7d3764e: Add comment
 quip_collab.cf05eca: Add reaction
@@ -17919,6 +17912,7 @@ quip_collab.af3d09a: All Files
 quip_collab.e30eff9: Alt
 quip_collab.13eb288: Anchor Link Not Copied
 quip_collab.3dcc5ef: Another User
+quip_collab.abde7a7: App icon
 quip_collab.b5fdccd: Applied {style_name}
 quip_collab.befde54: Apr
 quip_collab.a039390: April
@@ -17950,7 +17944,7 @@ quip_collab.8a80d45: Callouts cannot contain columns or other callouts.
 quip_collab.77dfd21: Cancel
 quip_collab.1708dfd: Canvas icon
 quip_collab.6575d3c: Canvas link
-quip_collab.443c9a4: Canvas preview
+quip_collab.28f526c: Canvas not found
 quip_collab.4d4ce73: Card
 quip_collab.a8f9add: Card View
 quip_collab.5b36c5a: Card view
@@ -17981,7 +17975,6 @@ quip_collab.fa473a7: Collapse or expand section
 quip_collab.b9ee3de: Comma
 quip_collab.61607a0: Comments cannot span multiple sections.
 quip_collab.04a2122: Confirm
-quip_collab.33db592: Content preview from {host}
 quip_collab.1ed02a9: Content with comments
 quip_collab.4e8556d: Content with comments and reactions
 quip_collab.f054367: Content with comments and reactions by {name}
@@ -18052,7 +18045,6 @@ quip_collab.2c3cafa: File
 quip_collab.08a2f15: File Link Open Error
 quip_collab.d146de7: File link
 quip_collab.a22e9c3: File not found
-quip_collab.f280845: File preview
 quip_collab.d4b77fe: File sharing has been disabled in canvases using Slack Connect.
 quip_collab.df251b0: Find
 quip_collab.c37ce9e: Find Bar
@@ -18092,16 +18084,11 @@ quip_collab.6542d38: Heading 2
 quip_collab.4d7de17: Heading 2 style
 quip_collab.9694d18: Heading 3
 quip_collab.ae840b4: Heading 3 style
-quip_collab.eb0a988: Heading 4
 quip_collab.d87e3fb: Heading 4 style
-quip_collab.c8274f9: Heading 5
 quip_collab.54ffd9b: Heading 5 style
-quip_collab.a836fc0: Heading 6
 quip_collab.2243888: Heading 6 style
 quip_collab.70f8bb9: Home
-quip_collab.0a75d95: Huddle feedback section
 quip_collab.fb488d8: Hyperlink options
-quip_collab.cd53870: Hyperlink preview
 quip_collab.716f63b: Icon
 quip_collab.50e19fd: Image
 quip_collab.007f5d8: Indent a list item
@@ -18135,10 +18122,9 @@ quip_collab.442dd36: Links cannot span multiple sections.
 quip_collab.a1fffaa: List
 quip_collab.b8a965c: List icon
 quip_collab.8cad8be: List link
-quip_collab.9dbe7b6: List preview
+quip_collab.e18715f: List not found
 quip_collab.227f6ae: List record icon
 quip_collab.8328e23: List record link
-quip_collab.8477001: List record preview
 quip_collab.1b2e116: Loading error
 quip_collab.4156128: Loading search results
 quip_collab.33ce417: Loading…
@@ -18207,7 +18193,6 @@ quip_collab.f91f868: Paste options menu showing
 quip_collab.170a28a: Period
 quip_collab.ed212fa: Placeholder
 quip_collab.bbb40a6: Plain Text
-quip_collab.eb40c96: Preview of uploading file
 quip_collab.27e1667: Previous Page
 quip_collab.57a82c7: Previous Result
 quip_collab.decd52e: Previous line
@@ -18257,7 +18242,6 @@ quip_collab.9127d48: Salesforce Record
 quip_collab.365d15c: Salesforce Report
 quip_collab.8fcd886: Salesforce org not connected
 quip_collab.0c75d61: Salesforce org not found
-quip_collab.a408480: Salesforce record preview
 quip_collab.6b782d4: Sat
 quip_collab.17063c5: Saturday
 quip_collab.efc007a: Save
@@ -18321,6 +18305,7 @@ quip_collab.e3bf62b: Trash
 quip_collab.529541b: Tue
 quip_collab.42e43b6: Tuesday
 quip_collab.9cad78e: Type anything…
+quip_collab.fd1ef2a: Type cannot be converted to card view
 quip_collab.9718f75: Type {trigger} to {insert}
 quip_collab.0e2d9b0: URL
 quip_collab.27dbd84: URL Input
@@ -19286,7 +19271,6 @@ search.f7ec5fe: Click the ⭐ star on any file to add it here for later.
 search.bbfa773: Close
 search.0906f92: Close search
 search.a26c1b2: Close survey
-search.dd6947b: Code channels
 search.9cf188d: Collapse
 search.e4115be: Coming soon
 search.b65463c: Connect
@@ -19570,18 +19554,16 @@ search.675d7dc: Multiple locations
 search.d6ba59b: Multiple titles
 search.24a3adc: Name hidden
 search.15447d6: Neither satisfied nor dissatisfied
-search.6403f2b: New
 search.abd5d17: New Canvas
 search.10d98b5: New List
-search.54ee436: New code channel
 search.bceeb45: New hire
 search.f10051f: New section
 search.c195083: New surface
 search.d044282: Newest
 search.96836a4: Newest channel
 search.bc98198: Next
-search.d9a9dba: No agents or agent conversations are available in this workspace.
-search.d8c4742: No agents, apps or conversations are available in this workspace.
+search.6111915: No agents are available in this workspace.
+search.a6fd981: No agents or apps are available in this workspace.
 search.7fee04a: No direct messages match your search.
 search.c8ece08: No matches in your suggested records
 search.0f112c9: No matching sessions or workflows
@@ -23557,9 +23539,7 @@ slackbot-home.8dc7b2b: Daily briefing
 slackbot-home.060597f: Describe how you want your sidebar to look
 slackbot-home.70afe9e: Dismiss
 slackbot-home.7d38d45: Dismiss connector suggestions
-slackbot-home.09bf3cb: Draft a meeting invite
 slackbot-home.c250d77: Event Details
-slackbot-home.769b45c: Follow up on a meeting
 slackbot-home.3d19433: Following the thread in {label}
 slackbot-home.a4e013e: Following your conversation with {label}
 slackbot-home.d42da2e: Following your group conversation
@@ -23571,11 +23551,8 @@ slackbot-home.f1ef7c1: Good afternoon, {firstName}!
 slackbot-home.43e305a: Good evening, {firstName}!
 slackbot-home.804eb5a: Good morning, {firstName}!
 slackbot-home.5b8027f: Got it
-slackbot-home.90a7c45: Help me draft a meeting invite
 slackbot-home.4cf1aa1: Help me organize my sidebar
-slackbot-home.80b8025: Help me prep for my meetings tomorrow
 slackbot-home.31c822e: Help me set up an automation
-slackbot-home.b90b3ae: Help me write a follow-up for my last meeting
 slackbot-home.a3889b9: Hi, I’m Slackbot!
 slackbot-home.c190c72: How can I use Slackbot to work faster with Salesforce?
 slackbot-home.722fe78: Invite your team
@@ -23583,14 +23560,12 @@ slackbot-home.3cd17dc: I’m all set up with context from your team, so I can be
 slackbot-home.e0d7314: Join
 slackbot-home.1c254a4: Learn how you can use Slackbot to work faster with Salesforce
 slackbot-home.8544be2: Learn how {teamName} uses Slack
-slackbot-home.b68899f: Loading calendar
 slackbot-home.6792019: Looking at {label}
 slackbot-home.15ed0bb: Meeting prep
 slackbot-home.0217856: No meetings
 slackbot-home.396cc16: No meetings today
 slackbot-home.877e551: Not using your view as context. Turn back on anytime.
 slackbot-home.cf9c871: Opening skills library
-slackbot-home.5ecde2f: Prep for tomorrow
 slackbot-home.6be9515: Prompts, skills and integrations to help you get your work done
 slackbot-home.a47df33: Reading along in {label}
 slackbot-home.957fe4e: Reading your {label} messages
@@ -23599,7 +23574,6 @@ slackbot-home.b0bf6d1: Recommended for you
 slackbot-home.2310131: Retrying…
 slackbot-home.ce0a0a4: See all apps
 slackbot-home.1106768: Set up a workflow in seconds
-slackbot-home.985612b: Show full calendar
 slackbot-home.45b6ed3: Slackbot can also search:
 slackbot-home.f421414: Slackbot will no longer use your view as context
 slackbot-home.8d712d0: Slackbot will use your view as context again
@@ -25888,7 +25862,6 @@ today.93cf055: Personalize your highlights by marking channels, people, or apps 
 today.7750f15: Please wait before refreshing again
 today.23896cc: Prep
 today.4f89411: Prep for Meeting
-today.5ecde2f: Prep for tomorrow
 today.ec3d9e2: Prep with Slackbot
 today.39f960a: Preparing for agenda greatness :trophy:
 today.00e7978: Prioritize or hide conversations from your highlights
@@ -27390,6 +27363,7 @@ workflow_builder.479b61f: Any file type
 workflow_builder.55201ac: Any status
 workflow_builder.8b89522: Anything else you want to add?
 workflow_builder.31c83eb: App ID:
+workflow_builder.abde7a7: App icon
 workflow_builder.7bc477c: Apply conditional filtering so that you’re left with objects that meet your criteria.
 workflow_builder.91db069: Approval requested
 workflow_builder.7b2c7f1: Approve
@@ -28987,7 +28961,6 @@ workflow_builder.19f6f63: has not changed for…
 workflow_builder.ef8201e: heart
 workflow_builder.8ece61d: http://www.example.com
 workflow_builder.98d095f: https://{rootDomain}/example-workflow-link
-workflow_builder.2f39bf5: in the
 workflow_builder.b47f363: is
 workflow_builder.b42a472: is after
 workflow_builder.78653f7: is before
