@@ -1,0 +1,922 @@
+activity.archive: entries, key, ts, type
+activity.clearAll: filters, undo_key
+activity.clearBefore: before_ts
+activity.feed: archive_only, channel_ids, cursor, limit, mode, priority_only, types, unread_only
+activity.markAllRead: filters, types
+activity.unarchive: key, ts, type
+activity.views.delete: view_id
+activity.views.hide: view_type
+activity.views.unhide: view_type
+admin.advisor.recommendations.list: list_type, locale
+admin.analytics.channels.modal.export: channel_id, relative_date_range
+admin.apps.approve: app_id, enterprise_id, team_id
+admin.apps.approved.list: legacy_integrations, limit
+admin.apps.domainWideAuth.addDomain: app_id, domain, team_id, token
+admin.apps.domainWideAuth.enable: app_id, domain, team_id, test_email, token
+admin.apps.domainWideAuth.microsoft.getConsentUrl: app_id, domain, team_id, token
+admin.apps.domainWideAuth.removeDomain: app_id, domain, team_id, token
+admin.apps.installed.list: legacy_integrations, limit
+admin.apps.internal.list: cursor, limit
+admin.apps.lookup: app_ids, enterprise_id, include_configured_domains, include_non_distributed_functions, team_id
+admin.apps.permissions.list: app_id
+admin.apps.permissions.set: app_id, channel_restriction_mode, permission_type
+admin.apps.productivity.list: suite, token
+admin.apps.requests.list: app_ids, cursor, enterprise_id, limit, team_id
+admin.apps.restrict: app_id, enterprise_id, team_id
+admin.apps.restricted.list: legacy_integrations, limit
+admin.canvases.publishTemplate: file_id, publish_sales_template
+admin.canvases.unpublishTemplate: file_id, unset_org_sharing_setting
+admin.conversations.archive: channel_id
+admin.conversations.convertToPrivate: channel_id
+admin.conversations.convertToPublic: channel_id
+admin.conversations.delete: channel_id
+admin.conversations.disconnectShared: channel_id
+admin.conversations.getConversationPrefs: channel_id
+admin.conversations.getCustomRetention: channel_id
+admin.conversations.getTeams: channel_id, cursor, limit
+admin.conversations.invite: channel_id, user_ids
+admin.conversations.kick: channel_id, skip_simple_array_serialization_in_get_form_data, user_ids
+admin.conversations.removeCustomRetention: channel_id
+admin.conversations.search: connected_team_ids, cursor, limit, query, search_channel_types, sort, sort_dir, team_ids
+admin.conversations.setConversationPrefs: channel_id, prefs
+admin.conversations.setCustomRetention: channel_id, duration_days
+admin.conversations.setProperties: channel_id, props
+admin.conversations.unarchive: channel_id
+admin.enterpriseSearch.connectors.deleteConfig: app_id, name, token
+admin.enterpriseSearch.connectors.setConfig: app_id, config_value, name, token
+admin.functions.list: app_ids, include_non_distributed_functions, limit
+admin.functions.permissions.bulkSet: app_id, team_ids, user_ids, visibility
+admin.functions.permissions.lookup: function_ids
+admin.roles.addMembers: role_id, role_scopes, user_ids
+admin.roles.delete: role_id
+admin.roles.entity.listAssignments: entity_id
+admin.roles.listUsergroups: role_id, sort_dir, target_team
+admin.roles.removeMembers: role_id, role_scopes, user_ids
+admin.slackbot.channelExclusions.list: cursor, limit
+admin.users.sendEmailToPending: channel_id, message_ts, team_id
+admin.workflows.search: app_id, limit
+admin.workflows.unpublish: workflow_ids
+agents.mcp.settings.list: agent_app_id
+agents.mcp.settings.listTools: agent_app_id, cursor, server_id
+agents.mcp.settings.setServerEnabled: agent_app_id, is_enabled, server_id
+agents.sessions.setResponseMode: agent_response_mode, bot_user_id, channel_id, thread_ts
+agents.sessions.stop: bot_user_id, channel, thread_ts
+agents.socialProof.info: bot_user_id, limit
+agents.threads.archive: channel, thread_ts
+agents.threads.rename: channel, name, thread_ts
+ai.agents.channelAgent.configure: additional_source_channel_ids, additional_source_scope, channel_id, custom_instructions, include_all_files, include_all_messages, proactive_replies, skip_simple_array_serialization_in_get_form_data
+ai.agents.channelAgent.getConfiguration: channel_id
+ai.alpha.agents.channels.list: cursor, include_closed, limit
+ai.alpha.agents.diveDeeper: channel, message_ts, thread_ts
+ai.alpha.agents.sessions.listForChannel: channel_id, cursor, limit
+ai.alpha.agents.stop: channel, message_ts, thread_ts
+ai.alpha.agents.threads.list: include_types, type
+ai.alpha.analyze.startThread: channel_id, source_ts
+ai.alpha.answer.previewShare: preview_options, summary_id, summary_type
+ai.alpha.answer.share: channel, message_blocks, share_options, summary_id, summary_type
+ai.alpha.audio.transcribe: audio_base64, audio_format, context
+ai.alpha.audio.transcribeChunk: action, client_session_id
+ai.alpha.canvas.computeDraftDiff: canvas_id, operations, title
+ai.alpha.canvas.createContent: agent_id, canvas_id, client_req_id, current_tabbed_channel_id, focused_section_id, goal, prompt_data, source_channels, source_content_data, source_files
+ai.alpha.canvas.getTopicSuggestions: channel_ids, in_channel_tab
+ai.alpha.canvas.refineContent: canvas_id, client_req_id, content_data, prompt_data, session_prompt_history
+ai.alpha.canvas.resolveDraft: canvas_id, decision, dm_channel_id, invocation_id, message_ts
+ai.alpha.canvas.reviseContentWithSources: canvas_id, client_req_id, focused_section_id, prompt_data, session_prompt_history, sources
+ai.alpha.canvases.drafts.view: canvas_id, dm_channel_id, invocation_id, message_ts
+ai.alpha.digest.addToDigest: channel_id, channels, unmuted_channels
+ai.alpha.digest.removeFromDigest: channel_id, channels
+ai.alpha.digest.triggerDigest: new_content_refresh, refresh_channel_id, refresh_channel_ids, refresh_digest_id, reset_schedule, streaming_channel_ids
+ai.alpha.focus.summary: start_ts
+ai.alpha.internal.feedbackDatasets: feedback_type
+ai.alpha.sidekicks.create: avatar_temp_id, effort, instructions, knowledge, model, name, persona, tools
+ai.alpha.sidekicks.delete: app
+ai.alpha.sidekicks.getOrCreateMemoryCanvas: channel_id
+ai.alpha.sidekicks.rewritePrompt: instructions
+ai.alpha.sidekicks.testPrompt: effort, history, instructions, knowledge, model, name, persona
+ai.alpha.sidekicks.update: app, avatar_temp_id, effort, instructions, knowledge, model, name, persona, tools
+ai.alpha.singer.browsers.viewer: expected_revision, task_id
+ai.alpha.singer.windowConversation: surface_id
+ai.alpha.slackbot.automationGroups.delete: delete_children, group_id
+ai.alpha.slackbot.automationGroups.list: creation_source_id
+ai.alpha.slackbot.automationGroups.setActive: group_id, is_active
+ai.alpha.slackbot.channelMemory.delete: channel_id, memory_id
+ai.alpha.slackbot.channelResponses.redact: channel_id, message_ts
+ai.alpha.slackbot.channelResponses.restore: channel_id, message_ts
+ai.alpha.slackbot.channelSkills.addSkill: channel_id, skill_file_id
+ai.alpha.slackbot.channelSkills.removeSkill: channel_id, skill_file_id
+ai.alpha.slackbot.channelSkills.setCustomInstructions: channel_id, custom_instructions
+ai.alpha.slackbot.createSlackbotInitiatedThread: onboarding_next, variant
+ai.alpha.slackbot.resolveVoiceToolApproval: approval_id, client_session_id, decision
+ai.alpha.slackbot.skillSets.addToLibrary: skill_set_id
+ai.alpha.slackbot.skillSets.removeFromLibrary: skill_set_id
+ai.alpha.slackbot.skills.activate: skill_id
+ai.alpha.slackbot.skills.addToLibrary: builtin_skill_id, force_copy, skill_id, source
+ai.alpha.slackbot.skills.adminDeactivate: deactivation_reason, skill_file_id
+ai.alpha.slackbot.skills.adminReactivate: skill_file_id
+ai.alpha.slackbot.skills.browse: created_by_user, cursor, in_library, is_org_template, item_type, limit, order_by, query
+ai.alpha.slackbot.skills.canGrantAdminEditAccess: skill_file_id
+ai.alpha.slackbot.skills.deactivate: skill_id
+ai.alpha.slackbot.skills.getBuiltinInfo: builtin_skill_id
+ai.alpha.slackbot.skills.getBuiltinUsageCounts: builtin_skill_ids
+ai.alpha.slackbot.skills.grantAdminEditAccess: skill_file_id
+ai.alpha.slackbot.skills.listEnabled: include_builtin_references
+ai.alpha.slackbot.skills.listRecommended: types
+ai.alpha.slackbot.skills.publishToCatalog: category, skill_file_id
+ai.alpha.slackbot.skills.recordView: file_id
+ai.alpha.slackbot.skills.removeFromLibrary: skill_id
+ai.alpha.slackbot.skills.resolveBuiltinReferences: builtin_skill_ids
+ai.alpha.slackbot.skills.revokeShareLinks: skill_file_id
+ai.alpha.slackbot.skills.setAutoEnabled: permission_type, skill_file_id, usergroup_ids
+ai.alpha.slackbot.skills.setCanvasAsSkill: canvas_file_id, set_boilerplate
+ai.alpha.slackbot.skills.setDisabled: is_disabled, skill_file_id
+ai.alpha.slackbot.skills.unpublishFromCatalog: skill_file_id
+ai.alpha.slackbot.skills.unsetCanvasAsSkill: canvas_file_id
+ai.alpha.slackbot.skills.updateMetadata: category, file_id, mcp_servers, skip_simple_array_serialization_in_get_form_data
+ai.alpha.slackbotNuxCarousel.addMemory: content
+ai.alpha.summarize.channelUnreads: channel, channel_summary_type, end_ts, last_unread_ts, prompt_variants, start_ts
+ai.alpha.summarize.feedback: additional_feedback, canvas_id, channel_digest_id, file_id, include_message_content, rating, summary_channel, summary_id, summary_type
+ai.alpha.summarize.thread: channel, initiated_by, latest_ts, thread_ts, variant
+ai.alpha.surfaces.deleteVersion: file_id, version_id
+ai.alpha.surfaces.getContent: file_id, version_id
+ai.alpha.surfaces.getData: file_id, source
+ai.alpha.surfaces.listVersions: file_id
+ai.alpha.surfaces.openCardComment: card_id, card_title, file_id
+ai.alpha.surfaces.restoreVersion: file_id, version_id
+ai.alpha.translate.fileSummary: file_id, summary_id, target_language
+ai.alpha.translate.promptSummary: summary, target_language
+ai.alpha.widgets.info: widget_id
+ai.channelKnowledge.disable: channel_id
+ai.savedPrompts.addTrigger: saved_prompt_id, trigger
+ai.savedPrompts.create: agent_user_id, name, prompt
+ai.savedPrompts.delete: saved_prompt_id
+ai.savedPrompts.execute: id
+ai.savedPrompts.list: agent_user_id
+ai.savedPrompts.update: id, name, prompt
+ai.savedPrompts.updateTrigger: id, saved_prompt_id, trigger
+ai.swarmKnowledge.generate: channel_id, thread_ts
+ai.workflows.steps.response: app_id, reference_id
+aiApps.deletePhoto: app_id
+aiApps.editProfile: app_id, assistant_description, assistant_suggested_prompts
+aiApps.history: app_id
+aiApps.list: agentforce_only, cursor, exclude_sidekick, limit, sidekick_only, team_id, use_salesforce_cache
+aiApps.setPhoto: app_id, crop_x, crop_y, id
+api.features: platform
+apps.about.info: app_id
+apps.actions.listForResource: resource_id, resource_type
+apps.actions.run: action_id, app_id, channel, client_token, message_ts, type
+apps.actions.v2.execute: action_id, app_id, client_token, context, team_id
+apps.actions.v2.list: action_type, resource_id, resource_type
+apps.activities.list: app_id, component_id, trace_id
+apps.approvals.requestedApps.list: stages
+apps.approvals.requests.create: reason
+apps.auth.external.authMapping.update: app_id, external_token_id, mapping_owner_type, provider_key, workflow_id
+apps.auth.external.delete: external_token_id
+apps.auth.external.getFunctionAuth: app_id, step, trigger, workflow_id
+apps.auth.external.list: app_id
+apps.auth.external.start: app_id, channel_id, ephemeral_msg_ts, function_id, opened_in_popup, provider_key, workflow_id
+apps.certified.install: app_id
+apps.certified.list: app_ids
+apps.channelGrants.list: channel_id
+apps.channelGrants.remove: bot_user_id, channel_id
+apps.context.changed: bot_user_id, context, team_id
+apps.datasources.external.delete: datasource_id
+apps.datasources.external.fieldreferences.list: as_integration_user, datasource_id, field_id, query, schema_object_id
+apps.datasources.external.info: datasource_id
+apps.datasources.external.list: app_id, creation_source
+apps.datasources.external.schema.info: datasource_id
+apps.datasources.external.schema.objects.list: datasource_id, schema_object_id
+apps.datasources.external.schema.resync: datasource_id
+apps.home.open: app_id, app_installed_team_id
+apps.index.filters.list: team_id
+apps.index.list: category, cursor, filter, is_app_launcher, limit, team_id
+apps.index.search: category, cursor, filter, is_app_launcher, limit, query, team_id
+apps.onboarding.list: source
+apps.profile.check: bot_user_ids
+apps.profile.get: app, bot, bot_home_team
+apps.scopes.info: app_id
+apps.team.variables.delete: names, team
+apps.team.variables.get: names, team
+apps.team.variables.set: team, variables
+apps.user.connection.status: app_ids
+assistant.threads.rename: channel_id, thread_ts, title
+auth.removePendingTeam: encoded_team_id
+avatars.crop: avatar, cropbox
+avatars.upload: image
+blocks.actions: actions, client_token, container, service_id
+blocks.format: blocks
+blocks.suggestions: action_id, block_id, container, function_execution_id, service_id, service_team_id, value
+bookmarks.list: channel, include_folders, include_legacy_workflows
+bookmarks.preview: channel, link
+bookmarks.remove: bookmark, channel, type
+bookmarks.reorder: bookmark_type, center, channel, entity_id, left, parent_id, right
+bots.info: bots
+calendar.event.copy: channel, event_id, message_ts
+calendar.event.create: attendee_user_ids, calendar_id, description, end, meeting_url, start, title
+calendar.event.getByEventLinkId: event_link_id
+calendar.event.info: event_id
+calendar.event.list: days, include_adhoc_huddles
+calendar.event.listByDateRange: cal_app_type, days, utc_days
+calendar.event.rsvp: channel, event_id, message_ts, rsvp
+calendar.event.setLocation: event_id, location
+calendar.freebusy: attendee_user_ids, cal_app_type, calapp_user_id, day, minutes
+calendar.getNotificationPrefs: cal_app_type
+calendar.setNotificationPrefs: cal_app_type, calendar_notification_preferences
+calendar.user.info: app_type
+calendar.user.toggleOooStatusSync: calapp_user_id, enable
+calendar.user.toggleStatusSync: calapp_user_id, enable
+calls.reject: app_id, channel_id, id
+calls.request: app, channel, phone_number, type
+canvases.agents.markRead: canvas_id
+canvases.drafts.get: canvas_id, draft_id
+canvases.getCannedTemplates: is_user_locale, template_names
+canvases.getTemplates: section_type
+canvases.listHeaders: header_id
+canvases.notificationSections: file_id, timestamp
+channelSections.channels.recommend: limit, section_name
+channelSections.recommend: debug_info, limit, query, source
+channelSuggestions.fileCollaborators.info: file_id
+channels.prefs.get: channel_id, pref_name
+channels.prefs.set: channel_id, prefs
+chat.action: bot, payload
+chat.attachmentSuggestion: app_id, payload, service_id
+chat.deleteBulkJoinLeave: channel_id, first_message_ts, last_message_ts
+chat.postMessage: blocks, channel, text
+chat.refreshUnfurl: channel, entity_id, ts
+chat.removeFile: channel, file, ts
+chat.removeUnfurlLink: url
+chat.shareMessage: blocks, channel, client_msg_id, pending_slug_urls, share_channel, skip_dlp_user_warning, text, timestamp
+chat.slugifyUrl: channel, skip_simple_array_serialization_in_get_form_data, urls
+chat.unfurlContact: contact_user_id
+chat.update: channel, reply_broadcast, ts
+client.codeChannels.action: action_key, channel_id, client_token
+client.codeChannels.addReviewComment: channel_id, line, path, pending, pr_url, revision, side, text, thread_root_id
+client.codeChannels.browse: agent_user_id, archive_state, cursor, initiator_user_id, limit, origin_channel_id, query
+client.codeChannels.convertThread: channel_id, invitees, name, thread_ts
+client.codeChannels.create: app_id, blocks, entrypoint, is_private, name, origin_channel_id, origin_message_ts, team_id
+client.codeChannels.createAndStart: app_id, blocks, entrypoint, is_private, team_id
+client.codeChannels.deleteComment: channel_id, comment_node_id, pr_url
+client.codeChannels.editComment: channel_id, comment_node_id, pr_url, text
+client.codeChannels.editPullRequestDescription: channel_id, expected_body_source, pr_url, text
+client.codeChannels.getDiff: channel_id
+client.codeChannels.getFileLines: channel_id, path, pr_url, ranges, revision
+client.codeChannels.getPullRequest: channel_id, pr_url
+client.codeChannels.getPullRequestCommits: base_sha, channel_id, head_sha, pr_url
+client.codeChannels.getSummary: channel_id
+client.codeChannels.join: channel_id, origin_channel_id
+client.codeChannels.listPullRequestComments: channel_id, comment_kinds, cursor, pr_url
+client.codeChannels.mergePullRequest: channel_id, head_sha, pr_url
+client.codeChannels.requestReviewers: channel_id, invite_to_channel, note_blocks, post_mention, pr_url, user_ids
+client.codeChannels.setReviewThreadResolved: channel_id, is_resolved, pr_url, thread_node_id
+client.codeChannels.submitReview: channel_id, event, pr_url, revision, text
+client.counts: _x_reason, channel_ids, include_all_unreads, include_file_channels, org_wide_aware, thread_counts_by_channel
+client.init: _x_reason, include_relevant_onboarding
+client.tbd.codeChannels.open: purpose
+connectInvites.list: channel, direction, include_invite_requests, invite_ids, invite_types, limit, only_pending_invites
+contacts.add: contact_card_id
+conversations.acceptSharedInvite: channel_name, free_trial_accepted, invite_id, is_private, sig
+conversations.addTab: after, channel_id, data, label, target_team_id, type
+conversations.archive.recommendations: num_inactive_days
+conversations.archive: channel
+conversations.badgeCount: channel
+conversations.bulkArchive: channel_ids
+conversations.bulkFetchMetadata: channel_ids
+conversations.bulkLeave: channels
+conversations.bulkReacjiTriggers: channel_ids
+conversations.bulkRejoin: timestamp
+conversations.canCreateSharedInvite: channel_id
+conversations.canSetProperties: channel_id, props
+conversations.channelPrefixes.list: team_id
+conversations.close: channel
+conversations.convertToPrivate: channel, name, user_ids, workspace
+conversations.convertToPublic: channel
+conversations.createChild: channel, migrate_history_end_ts, migrate_history_start_ts, user_ids
+conversations.createFromDmMpdm: is_private, migrate_history_start_ts, name, source_channel_id, team_id, user_ids
+conversations.delete: channel
+conversations.emailaddresses.create: conversation_id
+conversations.emailaddresses.delete: address, conversation_id
+conversations.emailaddresses.info: conversation_id
+conversations.emailaddresses.update: address, avatar_id, conversation_id, emoji, name, use_default_icon
+conversations.export: channel
+conversations.genericInfo: channels, updated_channels
+conversations.getRetention: channel
+conversations.history: channel, ignore_replies_and_broadcasts, inclusive, limit, oldest, slackbot_filter
+conversations.info: channel, display_counts, no_members, return_app_home, timezone_count
+conversations.inviteShared: channel, external_limited, tracking_id
+conversations.join: channel, request_in_background
+conversations.joinConnectedShared: invite_id, sig
+conversations.joinPendingShared: invite_id, sig
+conversations.kick: channel, user
+conversations.leave.recommendations: max_ts
+conversations.leave: channel
+conversations.list: exclude_archived, limit, types
+conversations.listPrefs: channel
+conversations.mark: channel, reason, ts
+conversations.meetingnotes.getLock: channel
+conversations.members: channel, limit
+conversations.permissions.accountTypes.list: channel_id, permissions
+conversations.permissions.accountTypes.set: account_type, channel_id, permissions
+conversations.recommend: channels_info, include_latest_ts, include_purpose, include_scores, limit, query, source, teammate_member_id
+conversations.removeTab: channel_id, id, keep_file_share
+conversations.rename: channel, name, skip_rename_message, validate
+conversations.replies: channel, include_tombstones, limit, oldest, ts
+conversations.requestSharedInvite.deny: invite_id, message
+conversations.revokeSharedInvite: invite_id
+conversations.setInviterJoinerProperties: channel_id, props
+conversations.setProperties: channel_id, props
+conversations.setPurpose: channel, name_tagging, purpose
+conversations.setTeams: channel, internal_team_ids, upgrade_to_org_wide
+conversations.setTopic: channel, topic
+conversations.sharedInviteAcceptanceEligibility: team_id
+conversations.sharedInviteInfo: context, sig
+conversations.sharedInviteLinkCopied: invite_id
+conversations.teamConnections: channel
+conversations.unarchive: channel
+conversations.updateDefaultState: channel_id, set_as_default
+conversations.updateTab: channel_id, data, id, label
+conversations.validateName: name, team_id
+conversations.view: channel
+dataResidency.status: mock_region_name
+developer.apps.mcp.updateToolsSnapshot: app_id, mcp_server_id
+developer.apps.owners.add: app_id, user_id
+developer.apps.owners.list: app_id
+developer.apps.owners.remove: app_id, user_id
+dialog.get: dialog_id
+dialog.notifyCancel: dialog_id
+directory.disconnect: provider
+directory.token.hasScopes: provider
+directory.users.list: cursor, provider, query
+dnd.info: user
+dnd.setSnooze: num_minutes
+dnd.teamInfo: users
+drafts.bulkDelete: client_last_updated_ts, is_select_all
+drafts.create: attachments, blocks, client_msg_id, date_scheduled, date_stashed, destinations, file_ids, file_permissions, is_from_composer, unfurl
+drafts.delete: client_last_updated_ts, draft_id, skip_file_deletion
+drafts.info: draft_id
+drafts.list: is_active, limit
+drafts.listActive: limit, next_ts
+drafts.update: attachments, blocks, client_last_updated_ts, date_scheduled, date_stashed, destinations, draft_id, file_ids, file_permissions, is_from_composer, unfurl
+email.threads.share: blocks, channel, entity_id
+emailConnectorSelfServe.disconnect: provider
+emailConnectorSelfServe.emails.list: cursor, limit, provider, query
+emailConnectorSelfServe.importedEmails.list: channel_id, cursor, limit
+emails.info: emails
+emoji.addCollection: collection_id
+emoji.collections.list: installed_only
+emoji.getInfo: name
+emoji.removeCollection: collection_id
+enterprise.apps.search: limit, query
+enterprise.channels.admin.listDefault: limit
+enterprise.channels.admin.removeDefault: channel
+enterprise.channels.admin.removeMandatory: channel, prefs
+enterprise.channels.admin.setDefault: channel, prefs
+enterprise.channels.admin.setMandatory: channel, prefs
+enterprise.info: include_primary_owner, include_profile_fields
+enterprise.migrations.getHistory: status
+enterprise.prefs.setAndLock: prefs
+enterprise.teams.creationrequests.create: enterprise_token, name, reason
+enterprise.teams.join: team
+enterprise.teams.joinrequests.create: team
+enterprise.teams.leave: team
+enterprise.teams.prefs.get: team
+enterprise.tos.admin.create: set_active, terms_of_service
+enterprise.usergroups.teams.get: search_term, sort_dir, usergroup
+enterprise.usergroups.teams.remove: teams, usergroup
+enterprise.usergroups.teams.setProvisioning: auto_provision, team, usergroup
+enterprise.users.profile.set: profile, set_active, user
+enterpriseSearch.getConnectorFilters: app_id
+enterpriseSearch.getEntity: lookup_function, record_id
+enterpriseSearch.listConnectorActions: app_id
+enterpriseSearch.searchFilterResults: app_id, filter, query
+entities.refs.add: channel_id, entity_id, timestamp
+entities.refs.list: entity_id, entity_url, exclude_bots, exclude_unjoined_channels
+entities.refs.remove: channel_id, entity_id, timestamp
+experiments.exposureAttributes.snapshot: experiment_group, experiment_name, member_type
+experiments.getByUser: ssb_platform, ssb_release_channel, web_client_version
+feature.usage.info: action, feature
+featureEligibility.check: feature
+features.access.policies.list: token
+feedback.submitEnterpriseSearchFeedback: category, contact, feedback_type, is_test, payload, query, text, type
+feedback.submitSalesforceFeedback: is_consent_given, product_area, text, type
+files.acceptPermissionRequest: access_level, file_id, message_ts, requestor_id
+files.canSee: file_id, user_id
+files.canShare: channel_id, file_id
+files.canUndelete: file_id
+files.channelSettingsAllowDownloads: file_id
+files.close: file_id, last_updated
+files.collections.bulkUpdate: updates
+files.collections.create: emoji, name
+files.collections.delete: collection
+files.collections.update: collection, emoji, is_collapsed, name, sort
+files.createCanvas: loosen_validation, markdown, title
+files.createExternal: create_slack_file, filename, mime_type, open_edit, service_stub
+files.createSkillCanvas: markdown, title
+files.delete: file, is_draft
+files.docs.create: title
+files.docs.fetchAccessLevelForUsers: file_id, users
+files.docs.setEditor: file
+files.docs.setNonOwnerEditability: file, non_owner_editability
+files.docs.unsetEditor: file
+files.edit: file, title
+files.embedWithPermissions: access_level, channel_id, embedded_canvas_id, parent_canvas_id
+files.external.checkPermission: app_id, channel_id, file_id, trigger_id
+files.external.getOrCreate: app_id, external_url, target_team_id
+files.external.getProviders: query_source
+files.external.getReadiness: provider_key, query_source, target_team_id
+files.external.preview: app_id, file_id
+files.external.searchConnector: app_id, query, search_app_args
+files.favorites.add: collection_id, file_id
+files.favorites.list: type
+files.favorites.remove: collection_id, file_id
+files.generateAltText: file_id
+files.generateThumbnails: id, offset_ms
+files.getContentHtml: file_id
+files.getMetadata: file_id, limit, offset, type
+files.getProviderPreviewUrlForFileStore: file_url, provider_token
+files.getShares: file_id
+files.getUploadURL: alt_txt, client_context_team_id, filename, length, snippet_type, subtype
+files.getUploadURLForFileStore: files, filestore
+files.getViewerCounts: file_id
+files.hasShares: channel_id, exclude_channel_tab_shares, file_id
+files.ignorePermissionRequest: file_id, message_ts, requestor_id
+files.importFromExternalURL: channel, external_url, service_app_id
+files.isAccessRequestedByUser: file_id
+files.list: channel, count, files
+files.markRead: file_id, timestamp
+files.open: file_id, last_updated, supports_read_only_check
+files.ping: file_id, is_focused
+files.readStatus: file_ids
+files.recentlyDeleted: file_type
+files.refresh: file
+files.requestPermission: file_id, request_type
+files.retranscribe: file_id, locale
+files.revokePublicURL: file
+files.sharedPublicURL: file
+files.undelete: file_id
+files.unlock: file_id
+files.unshare: channel, file
+files.uploadExternal: blocks, broadcast, channels, initial_comment, link, thread_ts, title
+folders.create: description, folder_type, title
+folders.items.add: file_ids, folder_id
+functions.get: function_ids
+functions.list: cursor, function_type, limit
+functions.shortcuts.copy: title, trigger_id, workflow_id
+functions.workflows.collaborators.add: collaborator_ids, workflow_id
+functions.workflows.collaborators.remove: collaborator_ids, workflow_id
+functions.workflows.create: creation_source_id, creation_source_type, description, team_id, title
+functions.workflows.delete: workflow_id
+functions.workflows.executions.confirmDelivery: delivered, function_execution_id
+functions.workflows.executions.continueAgentConversation: channel, client_token, function_execution_id, thread_ts
+functions.workflows.executions.getAgentConversationHandoffStatus: channel, thread_ts
+functions.workflows.executions.resume: channel, client_token, message_ts
+functions.workflows.export: workflow_id
+functions.workflows.findWorkflowForBotUsers: channel_id, user_ids
+functions.workflows.get: workflow_id
+functions.workflows.getIsRestricted: workflow_id
+functions.workflows.getLatest: workflow_id
+functions.workflows.list: access_level, filter_options, limit, sort_options, workflow_builder_only, workflow_ids
+functions.workflows.permissions.copy.list: workflow_id
+functions.workflows.permissions.copy.set: permission_type, workflow_id
+functions.workflows.publish: workflow_id
+functions.workflows.restoreFromVersion: workflow_id, workflow_version_id
+functions.workflows.steps.aiFilePrecheck: file_size, mimetype
+functions.workflows.steps.delete: step_id, workflow_id
+functions.workflows.steps.inputs.dynamicOptions.get: function, hierarchical_parameter_name, inputs, option_type, step_function_id, trigger_type, workflow_id, workflow_step_id
+functions.workflows.steps.list: function_id, workflow_id
+functions.workflows.steps.move: after_step_id, step_id, workflow_id
+functions.workflows.steps.responses.export: step_id, workflow_id
+functions.workflows.steps.run: execution_data, function, inputs, step_function_id, workflow_id
+functions.workflows.steps.variables.schema.get: function_id, inputs, workflow_id
+functions.workflows.unpublish: workflow_id
+functions.workflows.update: description, icon_url, title, workflow_id
+gif.featured: limit
+gif.search: limit, query
+google.directory.groups.list: query
+help.productHelpCard.list: count, locale, type
+helpdesk.categories: locale
+helpdesk.get: locale
+helpdesk.getSectionsAndArticlesByCategory: category_id, locale
+huddles.cancelKnock: channel_id
+huddles.external.end: channel_id
+huddles.external.linkInfo: channel_id
+huddles.external.listExternalParticipants: channel_id, include_is_invitable
+huddles.external.new: duration, scheduled_time
+huddles.get: huddle_id
+huddles.history: channels, cursor, limit, missed_huddles_only, scope_to
+huddles.knock: channel_id
+huddles.knockResponse: huddle_id, response, user_id
+huddles.readiness: regions
+huddles.recording.auditLog: huddle_id
+huddles.recording.cancel: huddle_id, should_pause
+huddles.recording.setLanguage: huddle_id, locale
+huddles.recording.start: huddle_id, locale, recording_type, summarize
+huddles.scheduled.new: channel_id, duration, scheduled_time
+huddles.update: background_id, huddle_id, nonce, notes_file_id, topic
+i18n.translations.get: include_custom_status
+im.list: get_latest, get_read_state, limit
+inprodsurveys.get: id, payload
+insights.messageStats: channel, sort, sort_dir, team_id, ts
+instantSlack.moveSession: channel, team, user
+lab.features: context
+links.getTransferPayload: app_id, channel_id, client_msg_id, uri
+lists.addToList: channel_id, list_id, message_ts, slackbot_help, track_thread
+lists.cells.update: cells, list_id
+lists.columns.create: list_id, name, type, view_id
+lists.columns.delete: key, list_id
+lists.columns.revert: id, list_id
+lists.columns.update: backfill_missing_cells_with_default, key, list_id
+lists.create: include_canvas_inline_view, include_copied_list_records, is_template, name
+lists.duplicate: copy_records, copy_views, list_id, target_list_id
+lists.edits.getLastForCell: column_id, list_id, row_id
+lists.getDefaultView: list_id
+lists.history.load: list_id, timestamp
+lists.history.restoreExecute: list_id, preview_token, restore_timestamp_micros
+lists.history.restorePreview: list_id, restore_timestamp_micros
+lists.open: list_id
+lists.records.archive: ids, list_id, restore
+lists.records.count: list_id
+lists.records.create: duplicated_record_id, fields, initial_fields, list_id, parent_record_id, position, updated_timestamp
+lists.records.delete: id, list_id
+lists.records.deleteMultiple: ids, list_id
+lists.records.info: exclude_deprecated_values, id, include_is_subscribed, list_id
+lists.records.infoBatch: exclude_deprecated_values, ids, include_is_subscribed, list_id
+lists.records.list: archived, exclude_deprecated_values, include_subtasks, include_suggested, list_id
+lists.records.open: id, list_id
+lists.records.subscriptions.add: id, list_id
+lists.records.subscriptions.remove: id, list_id
+lists.records.updateDeletion: deleted, id, list_id
+lists.setDefaultView: list_id, view_id
+lists.setupTodos: assignee_access_level, assignee_column_id, due_date_column_id, list_id
+lists.templates: template_ids
+lists.update: id, template_type
+lists.views.create: list_id, name, type
+lists.views.delete: id, list_id
+lists.views.update: id, list_id, skip_simple_array_serialization_in_get_form_data
+media.progress.update: duration_ms, file, offset_ms
+media.reactions.add: channel, file, message_timestamp, name, offset_ms
+media.reactions.get: channel, file, message_timestamp
+media.reactions.remove: channel, file, message_timestamp, name, offset_ms
+meetings.processRecording: canvas_file_id, create_thread, file_id, meeting_title, notify_only, speaker_attribution
+meetings.removeChannel: meeting_id
+meetings.resolve: allow_create, event_link_id
+meetings.update: channel_id, event_link_id, files, meeting_id
+meetings.usersetdata: event_link_id, insights_thread_ts, meeting_id, slackbot_thread_ts
+megaphone.journeys.dismiss: journey_key, notification
+megaphone.notifications.list: critical_only
+megaphone.setNotificationAsSeen: action
+messages.sent.list: client_req_id, count, cursor, page, search_session_id, view
+moderation.flags.create: channel_details_flagged, channel_id, item_id, item_team_id, profile_fields_flagged, profile_image_flagged, profile_status_flagged, reason, skip_simple_array_serialization_in_get_form_data, type
+moderation.locks.create: channel_id, thread_ts
+moderation.locks.remove: channel_id, thread_ts
+moderation.thread.hide: channel_id, thread_ts
+mpim.list: get_latest
+onboarding.fetch: include_team_data, require_invite_list
+onboarding.updateTeam: field_name, field_value
+onboarding.updateUser: field_name, field_value
+pins.add: channel
+pins.list: channel
+pins.remove: channel
+platform.requests.create: entity_id, request_type
+polls.create: allow_multiple_choice, choices, question
+polls.vote: choices, file_id
+presence.set: presence
+profiling.addJSTrace: trace, type
+promo.campaigns.eligibilityInfo: campaign_sub_type, campaign_type, context
+promo.campaigns.optOut: campaign_type, context
+promo.campaigns.redeem: campaign_sub_type, campaign_type, context
+quip.cloneCanvas: file_id, keep_original_title, target_file_created, target_file_id, title
+quip.getCanvasBulkSectionIdsData: file_id, section_ids
+quip.getMentions: channel_ids
+quip.history.getVersions: file_id, limit, newest_created_usec, oldest_created_usec
+quip.history.restoreVersion: file_id, sequence, version_id
+quip.lookupFileId: quip_thread_id
+quip.lookupThreadIds: file_ids
+quip.thread.archive: channel_id, thread_ts
+quip.thread.mark: channel_id, mark_unread, thread_ts, ts
+quip.thread.synchronize: channel_id, thread_ts
+quip.thread.unarchive: channel_id, thread_ts
+quip.unfurl: acknowledged_private_share, file_id, url
+quip.updateRootComment: content_snippet, file_id, is_source_deleted, thread_id
+reactions.get: full
+recordChannels.create: record, work_object_args
+recordChannels.digest: record_id
+recordChannels.info: record
+recordChannels.limitedAccess.set: channel, minimum_access_level
+recordChannels.link: channel, record_id
+recordChannels.objectTypes.list: datasource_id
+recordChannels.open: channel
+recordChannels.relatedConversations.list: record_id, skip_cache
+recordChannels.requestAccess: record_id
+recordChannels.unlink: channel, new_name
+records.getTeamMembers: record_id
+records.previewShare: ignore_unfurls_settings, record
+records.share: channel_id, record
+rooms.getLink: channel_id
+rooms.inviteResponse: channel_id, response, room_id
+rooms.join: multidevice, regions
+rooms.leave: attendee_id, call_id, channel_id, reason
+rooms.notifyMember: channel_id, user_id
+rooms.request: app, channel
+rooms.startTranscription: call_id
+rooms.stopTranscription: call_id
+salesHome.admin.addMembers: salesforce_org_id, users
+salesHome.admin.addOrg: salesforce_org_id
+salesHome.admin.addValidatedMembers: salesforce_org_id
+salesHome.admin.disconnectOrg: salesforce_org_id
+salesHome.admin.exportMembers: salesforce_org_id
+salesHome.admin.getSuggestedListViews: salesforce_org_id
+salesHome.admin.removeMembers: salesforce_org_id, users
+salesHome.admin.setConfig: activity_global_action, activity_tracked_objects, allow_admins_to_send_to_all_channel_types, allow_channel_workspaces, allow_slack_connect_channels, salesforce_org_id, send_notification_to_channel_permission, skip_simple_array_serialization_in_get_form_data
+salesHome.admin.setDatasourceId: datasource_id, salesforce_org_id
+salesHome.admin.setSuggestedListViews: salesforce_org_id, suggestions
+salesHome.admin.validateEmails: file
+salesHome.dealWinCelebrations.get: salesforce_org_id
+salesHome.notifications.formatShare: created_ts, opportunity_id
+salesHome.notifications.list: cursor, limit
+salesHome.notifications.mutePrefs.update: is_muted, workflow_id
+salesHome.notifications.share: channel_id, created_ts, opportunity_id
+salesHome.salesforceOrgs.getAdminConfig: keys, salesforce_org_id
+salesHome.salesforceOrgs.setDefault: salesforce_org_id
+salesHome.workflows.get: workflow_id
+salesHome.workflows.update: payload, workflow_id
+saved.add: client_id, date_due, description, item_detail, item_id, item_type, todo_state, ts
+saved.bulkDelete: delete_all, filter
+saved.bulkUpdate: direction, timestamp
+saved.delete: item_detail, item_id, item_type, ts
+saved.get: items
+saved.list: cursor, filter, include_tombstones, limit
+saved.markCompleted: filter
+saved.update: date_due, item_detail, item_id, item_type, mark, todo_state, ts
+schemaless.getClientLock: unique_id, unique_id_type
+screenhero.rooms.info: room
+screenhero.rooms.join: regions, room, use_room_scoped_token
+screenhero.rooms.rename: room, room_name
+search.autocomplete.files: include_shares, query
+search.autocomplete.nlTypeahead: limit_per_tier, query, team
+search.autocomplete.tags: element_id, query
+search.autocomplete.topEmojis: count
+search.autocomplete.triggers: current_channel_id, query, strict_exposure_rules, trigger_types
+search.autocomplete: limit, query, query_suggestion_limit, type, use_hash
+search.delete: hash, terms, type
+search.enterprise: count, cursor_mark, include_bots, include_dangling, include_date_created, include_deleted, include_full_deleted, include_usergroups, query, sort_dir
+search.inline: channel, client_req_id, count, cursor, extract_len, find_in_thread, from_me, max_ts, min_ts, page, query, recent_channels, search_session_id, thread_replies, thread_ts, token, user, with_me
+search.modules.ai: client_req_id, force_summary, query, search_session_id
+search.modules.channels: browse, channel_type, count, cursor, exclude_my_channels, module, query, sort, sort_dir
+search.modules.external: app_id, client_req_id, cursor, highlight, query, query_rewrite_disabled, search_app_args
+search.modules.files: canvas_template_type_filter, count, exclude_org_visible, file_title_only, filters, module, only_org_visible, page, query, search_exclude_bots, skip_excluding_canned_templates, sort, sort_dir
+search.modules.workObjects: client_req_id, highlight, query, query_rewrite_disabled, search_only_my_channels, sort, sort_dir
+search.save: slackbot_thread_ts, terms, type
+search.team: query
+sfdc.activities.list: item_types, next_limit, owned_by_me, page_key, past_limit, record_id, relative_date_range, salesforce_org_id
+sfdc.activities.listForUser: include_completed, limit, salesforce_org_id
+sfdc.agentforce.channelAgent.configure: channel_id, handoff, knowledge_source
+sfdc.agentforce.channelAgent.requestHelp: channel, message_ts
+sfdc.agentforce.channelAgent.tokenCount: channel
+sfdc.agentforce.feedback: app_id, channel_id, feedback_text, feedback_type, is_ephemeral, is_good, ts
+sfdc.agentforce.listInstalled: channel
+sfdc.agentforce.setSlackbotPref: agent_app_id, preference
+sfdc.approvals.getApprovalProgress: record_id, salesforce_org_id
+sfdc.autoStarter.integration.admin.addMembers: profile, salesforce_org_id, users
+sfdc.autoStarter.integration.admin.getLicensedMembers: salesforce_org_id
+sfdc.autoStarter.integration.admin.updateMemberProfile: profile, salesforce_org_id, user_id
+sfdc.captchaKeys.create: label, salesforce_org_id, secret_key, site_key
+sfdc.captchaKeys.list: salesforce_org_id
+sfdc.checkUiApiCompatibility: as_integration_user, salesforce_org_id, sobject_api_name
+sfdc.domainVerification.list: salesforce_org_id
+sfdc.eacConfigs.disconnect: salesforce_org_id
+sfdc.eacConfigs.init: salesforce_org_id, workspace_id
+sfdc.emailToCaseConfigs.create: channel_id, email_address, salesforce_org_id
+sfdc.emailToCaseConfigs.delete: salesforce_org_id
+sfdc.emailToCaseConfigs.get: salesforce_org_id
+sfdc.emailToCaseConfigs.notifyCopy: channel_id
+sfdc.emailToCaseConfigs.resendVerification: email_address, salesforce_org_id
+sfdc.emails.capture.info: salesforce_org_id
+sfdc.emails.capture.set: enabled, salesforce_org_id
+sfdc.emails.composer.defaults: record_id, salesforce_org_id
+sfdc.emails.history: email_message_id, email_thread_id, limit, page_direction, page_key, salesforce_org_id
+sfdc.emails.send: attachment_ids, email_body, email_subject, from_address, related_to_record_id, salesforce_org_id, save_email_to_record, thread_id, to_email_addresses
+sfdc.events.searchAttendees: query, salesforce_org_id
+sfdc.fields.create: listview_id, metadata, object_api_name, salesforce_org_id
+sfdc.fields.edit: field_api_name, listview_id, metadata, object_api_name, salesforce_org_id
+sfdc.fields.listEligible: object_api_name, salesforce_org_id
+sfdc.fields.updateVisibility: field_api_names, listview_id, object_api_name, salesforce_org_id
+sfdc.files.list: cursor, file_type_categories, limit, parent_record_id, salesforce_org_id
+sfdc.files.upload: file, salesforce_org_id
+sfdc.getContactDetails: record
+sfdc.getContactListInfo: salesforce_org_id
+sfdc.getFrontdoorUrl: url
+sfdc.getImportObjectAvailableFields: object_type, salesforce_org_id
+sfdc.getImportObjectCSVSample: object_type
+sfdc.getListViews: as_integration_user, sobject_api_name
+sfdc.getListViewsV2: developer_names, limit, object_type, salesforce_org_id, sort_by
+sfdc.getObjectFields: as_integration_user, listview_id, page_size, salesforce_org_id, sort_by_column_key
+sfdc.getObjectsOfType: object_type, salesforce_org_id
+sfdc.getOpportunity: id, salesforce_org_id
+sfdc.getOwnerChangeOptions: current_owner_id, record_id, salesforce_org_id, sobject_api_name
+sfdc.getPicklistValuesV2: object_api_name, record_type_ids, salesforce_org_id
+sfdc.getRecordLayoutDetails: child_relationships, fallback_layout_type, include_off_layout_fields, layout_type, mode, record
+sfdc.getRelatedListRecords: page_size, parent_record_id, related_list_id, salesforce_org_id
+sfdc.getRelatedLists: parent_object_api_name, record_type_id, salesforce_org_id
+sfdc.getReportAggregatesMetadata: report_ids, salesforce_org_id
+sfdc.integration.admin.listMembers: auth_status, cursor, salesforce_org_id
+sfdc.integration.auth.loginUrl: salesforce_org_id
+sfdc.integration.authUser: force_reauth, salesforce_org_id
+sfdc.integration.disconnectUser: salesforce_org_id
+sfdc.integration.elevateMigration.complete: salesforce_org_id
+sfdc.integration.elevateMigration.exportFailedUsers: salesforce_org_id
+sfdc.integration.elevateMigration.start: salesforce_org_id
+sfdc.integration.elevateMigration.startManual: salesforce_org_id
+sfdc.integration.setCurrentOrg: salesforce_org_id
+sfdc.layouts.info: quick_action, record, salesforce_org_id
+sfdc.licenses.approval.myRequest: salesforce_org_id
+sfdc.licenses.approval.request: salesforce_org_id
+sfdc.licenses.approval.review: action, profile, request_id, salesforce_org_id
+sfdc.listViews.loadPreferences: list_view_id, salesforce_org_id
+sfdc.listViews.savePreferences: list_view_id, preferences, salesforce_org_id
+sfdc.objects.list: filters, salesforce_org_id
+sfdc.provisionOrg: skip_workspace_scan
+sfdc.records.changeOwner: current_owner_id, include_fields, last_fetch_date, new_owner_id, notify_new_owner, record_id, salesforce_org_id, sobject_api_name
+sfdc.records.create: action_type, context_id, fields, object_api_name, record_type_id, salesforce_org_id
+sfdc.records.delete: record_id, salesforce_org_id
+sfdc.records.performQuickAction: action_api_name, action_type, fields, object_api_name, record_id, salesforce_org_id
+sfdc.records.undelete: record_id, salesforce_org_id
+sfdc.salesTracker.convertLead: deal_amount, lead_id, sales_opportunity_name, salesforce_org_id
+sfdc.salesTracker.getContent: limit, salesforce_org_id
+sfdc.salesTracker.getSchema: salesforce_org_id
+sfdc.salesTracker.updateStageSettings: lead_statuses, opportunity_stages, salesforce_org_id
+sfdc.searchObjects: optional_enrichments, query, salesforce_org_id, skip_simple_array_serialization_in_get_form_data, sobjects
+sfdc.shareSalesTracker: channel_id, salesforce_org_id
+sfdc.startCSVImport: column_mapping, object_type, salesforce_org_id
+sfdc.tasks.lookup: salesforce_org_id, task_ids
+sfdc.updateRecord: baseline_who_ids, id, last_fetch_date, optional_fields, prepopulate_additional_fields, record, salesforce_org_id, sobject_api_name, source
+sfdc.uploadCSVFile: file, import_type, object_type, salesforce_org_id
+sfdc.webToLeads.updateSettings: channel_id, recaptcha_required, salesforce_org_id
+share.prompts.add: channel_id, message_ts
+share.prompts.checkAttachedSkills: prompt_id
+share.prompts.info: prompt_id
+sharedInvites.accept: channel, invite, sig
+sharedInvites.canAccept: sig
+sharedInvites.getLink: emails, message, tracking_id
+sharedInvites.revoke: id
+signin.confirmCode: code, email, intent, token
+signup.confirmEmail: confirmation_type, email, entry_point, intent, locale
+slackAi.permissions.getForUser: permissions
+slackbot.mcp.callTool: arguments, executor_id, service_type, tool_name
+slackbot.mcp.discover: server_url
+slackbot.mcp.getToolResult: channel_id, message_ts, tool_use_id
+slackbot.mcp.invalidateToolsCache: app_id, mcp_server_id
+slackbot.mcp.listResources: executor_id, service_type
+slackbot.mcp.listTools: app_id, server_name, service_type
+slackbot.mcp.openLink: app_id, executor_id, server_name, service_type, url
+slackbot.mcp.readResource: executor_id, service_type, uri
+slackbot.mcp.sendMessage: app_id, channel_id, content, executor_id, server_name, service_type, thread_ts
+slackbot.mcp.servers.add: auth_type, name, url
+slackbot.mcp.servers.installOrRequest: app_id
+slackbot.mcp.updateModelContext: channel_id, thread_ts, tool_use_id
+slackbot.memories.create: content, name, type
+slackbot.memories.delete: memory_id
+slackbot.memories.import: memories_text
+slackbot.memories.update: content, memory_id, name
+slackbot.memories.updateSettings: is_distillation_enabled
+slackbot.projects.lookupByThread: channel_id, thread_ts
+slackbot.projects.threads.add: channel_id, project_id, thread_ts, ui_surface
+slackbot.projects.threads.list: cursor, limit, project_id
+slackbot.projects.threads.remove: project_thread_id, ui_surface
+slackbot.projects.threads.update: project_id, project_thread_id, ui_surface
+slackbot.suggestions.list: channel_id, limit, message_ts, type
+slides.update: content, id, title
+solutions.collaborators.add: collaborator_ids, solution_template_id
+solutions.collaborators.get: solution_template_id
+solutions.collaborators.remove: collaborator_ids, solution_template_id
+solutions.create: skip_simple_array_serialization_in_get_form_data
+solutions.delete: solution_template_id
+solutions.get: solution_template_id
+solutions.list: permission, status
+solutions.update: skip_simple_array_serialization_in_get_form_data, solution_template_id
+stars.list: count, cursor, exclude, limit, org_wide_aware, page
+subscriptions.thread.getTimestamps: cursor, fetch_threads_state, limit, mode, order_by, priority_mode
+subteams.info: usergroups
+subteams.validateHandle: handle, target_team
+subteams.validateName: name, target_team
+tableau.embeds.list: entity_ids, view
+team.changeInfo: name, target_team, update_url_on_name_change
+team.checkEmailDomains: email_domains
+team.feature.getRequest: feat_request_code
+team.feature.request: feat_request_code
+team.info: include_primary_owner, include_unlisted_if_admin, team, teams
+team.prefs.get: target_team
+team.prefs.set: prefs, target_team
+team.slackConnectGuidelines.get: type
+team.stateMachine: machines
+teams.authorized.ip.range.checkIp: file
+templates.provision: channel_id, channel_template_id, excluded_items, skip_simple_array_serialization_in_get_form_data, solution_template_id
+today.focus: future, ignore_cache
+today.ignoreChannels: channel_ids
+today.items.blocks.dismiss: block_id, channel_id, message_ts
+today.items.clear: item_ids
+today.items.delete: item_id
+today.items.markRead: item_ids
+today.items.markUnread: item_ids
+today.items.update: item_id, slackbot_thread_ts
+today.unignoreChannels: channel_ids
+transcripts.feedback: additional_feedback, file_id, rating, reasons
+unread.collapse: channel
+unread.expand: channel
+unread.markRead: markers
+userAlerts.ack: alert_type
+usergroups.create: name, team_id
+usergroups.search: count, cursor_mark, include_disabled, include_hidden, keyword, search_only_team, sort, sort_dir
+usergroups.update: usergroup
+usergroups.users.list: cursor, limit, team_id, usergroup
+usergroups.users.update: additional_channels, is_shared, usergroup, users
+users.admin.changeURAChannel: channel, user
+users.admin.createSharedInvite: expiration, max_signups, source
+users.admin.inviteBulk: campaign, channels, invites, restricted, source, team_id, ultra_restricted
+users.admin.profileDeidentify: user
+users.admin.removeExpiration: user
+users.admin.removeOwner: user
+users.admin.resendInvitation: invite_id, user
+users.admin.setExpiration: expiration_ts, user
+users.admin.setInactive: user
+users.admin.setOwner: user
+users.admin.updateSharedInvite: code, expiration, notifications_enabled
+users.channelSections.channels.bulkUpdate: insert, remove
+users.channelSections.channels.remove: channel_id, channel_section_id
+users.channelSections.createLink: channels, emoji, section_name
+users.channelSections.delete: channel_section_id
+users.channelSections.entities.update: insert, remove
+users.channelSections.linkInfo: id
+users.channelSuggestions.dismiss: channel_suggestion_id
+users.consent.add: app_id, scopes
+users.consent.get: app_id
+users.consent.remove: app_id, scopes
+users.customStatus.deleteScheduled: custom_status_id
+users.customStatus.schedule: custom_status_id, date_expire, date_scheduled, duration, emoji, is_dnd, ooo_message, text, text_canonical
+users.delegates.list: role
+users.info: custom_fields_mode, self, team, users
+users.inviteRequests.create: channels, requests, restricted, source, team_id, ultra_restricted
+users.invites.resend: user_id
+users.list: limit
+users.listOutgoingInvites: cursor, invitee, limit, mode
+users.markAllRead: undo_ts
+users.prefs.get: prefs
+users.prefs.set: name, prefs, value
+users.prefs.setNotifications: channel_id, channel_ids, global, name, prefs, sync, value
+users.preparePhoto: image
+users.priority.add: user
+users.priority.remove: user
+users.profile.get: token, user
+users.profile.getExtras: keys, target_team, user
+users.profile.getTrailheadRank: id
+users.profile.set: profile, user
+users.profile.setSections: elements, section, user
+users.recommend: limit, query, source, token
+users.setPhoto: crop_w, crop_x, crop_y, id
+users.sharedInvites.list: mode, team_id
+users.sharedInvites.revoke: code
+users.slackConnect.orgList: connection_type, limit, sort
+users.stateMachine: machines
+users.upgradeGuests.request: channels, reason_for_upgrade, users
+views.get: view_id
+visits.list: checksum, limit
+visits.record: client_now_ms, visits
+workObjects.editEntity: channel_id, entity_id, entity_url, message_ts
+workObjects.getComments: cursor, entity_id, entity_url, thread_root_id
+workObjects.getEntity: appearance, channel_id, client_req_id, entity_id, entity_url, force_refetch, lookup_function, message_ts
+workObjects.publishEntity: channel_id, entity_id, message_ts, state
+workflows.activity.export: filters, workflow_id
+workflows.activity.get: workflow_execution_id, workflow_id
+workflows.activity.list: filters, workflow_id
+workflows.ai.feedback: additional_feedback, rating, source, user_prompt, workflow_generation_id
+workflows.ai.generate: prompt
+workflows.channelOptIn.list: channel_id
+workflows.channelOptIn.set: channel_id, opted_in, workflow_id
+workflows.channels.add: channel_id, workflow_id
+workflows.createFromTemplate: creation_source_type, payload, template_id
+workflows.featured.add: channel_id, trigger_ids
+workflows.featured.remove: channel_id, trigger_ids
+workflows.notificationOptOut.set: is_opted_out, workflow_id
+workflows.taskRuns.start: workflow_id
+workflows.templates.collaborators.add: collaborator_ids, template_id
+workflows.templates.collaborators.remove: collaborator_ids, template_id
+workflows.templates.create: name, steps_configuration, trigger_configuration, workflow_id
+workflows.templates.delete: template_id
+workflows.templates.describe: template_id
+workflows.templates.get: template_id
+workflows.templates.getAsDecoratedWorkflow: template_id
+workflows.templates.list: categories
+workflows.templates.listAsDecoratedWorkflows: template_ids
+workflows.templates.localize: template_id, template_type
+workflows.templates.setStatus: status, template_id, template_type
+workflows.templates.update: categories, description, icon, madlibs_config, name, steps_configuration, template_id, trigger_configuration, workflow_id
+workflows.templates.validate: name
+workflows.triggers.create: team_id
+workflows.triggers.delete: trigger_id
+workflows.triggers.info: include_workflow_details, trigger_id
+workflows.triggers.list: app_id
+workflows.triggers.permissions.list: trigger_id
+workflows.triggers.permissions.set: permission_type, trigger_id
+workflows.triggers.prefs.get: workflow_id
+workflows.triggers.preview: trigger_ids
+workflows.triggers.summarize: goal, trigger_description, workflow_description
+workflows.triggers.trip: client_token, context, run_precheck, url
+workflows.triggers.update: name, rotate_webhook_secret, trigger_id, type, workflow

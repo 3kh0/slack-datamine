@@ -1,88 +1,138 @@
-actions
-alert
-attachment_reference
-auth_provider
-button
-call
-callout
-canvas
-canvas_table
-card
-carousel
-channel_section
-channel_set
-channels_select
-checkboxes
-condition
-contact_card
-container
-context
-context_actions
-conversations_select
-data_table
-data_visualization
-datepicker
-datetimepicker
-divider
-email_text_input
-entity_details
-error
-event
-expandable
-external_select
-fallback_canary
-feedback_buttons
-fields
-file
-file_input
-group
-header
-home
-icon_button
-image
-input
-layout
-loading
-mcp_app
-message
-message_embed
-modal
-mrkdwn
-multi_channels_select
-multi_conversations_select
-multi_external_select
-multi_static_select
-multi_users_select
-number_input
-on_character_entered
-on_enter_pressed
-overflow
-page
-password
-plain_text
-plain_text_input
-plan
-profile
-prototype
-radio_buttons
-related_automation_decorator
-rich_text
-rich_text_input
-salesforce_record_card
-search_top_results
-section
-share_prompt
-share_shortcut
-share_skill
-share_workflow
-split_button
-static_select
-table
-task_card
-timeline
-timepicker
-url_text_input
-users_select
-video
-workflow_button
-workflow_step
+block: actions
+block: alert
+block: attachment_reference
+block: auth_provider
+block: call
+block: callout
+block: canvas
+block: canvas_table
+block: card
+block: carousel
+block: channel_section
+block: channel_set
+block: condition
+block: contact_card
+block: container
+block: context
+block: context_actions
+block: data_table
+block: data_visualization
+block: divider
+block: error
+block: event
+block: expandable
+block: fallback_canary
+block: file
+block: group
+block: header
+block: image
+block: input
+block: layout
+block: loading
+block: mcp_app
+block: message
+block: message_embed
+block: page
+block: plan
+block: prototype
+block: related_automation_decorator
+block: rich_text
+block: salesforce_record_card
+block: search_top_results
+block: section
+block: share_prompt
+block: share_shortcut
+block: share_skill
+block: share_workflow
+block: table
+block: task_card
+block: timeline
+block: video
+dispatch_action_trigger: on_character_entered
+dispatch_action_trigger: on_enter_pressed
+element: button
+element: channels_select
+element: checkboxes
+element: conversations_select
+element: datepicker
+element: datetimepicker
+element: email_text_input
+element: external_select
+element: feedback_buttons
+element: fields
+element: file_input
+element: icon_button
+element: image
+element: mrkdwn
+element: multi_channels_select
+element: multi_conversations_select
+element: multi_external_select
+element: multi_static_select
+element: multi_users_select
+element: number_input
+element: overflow
+element: password
+element: plain_text
+element: plain_text_input
+element: radio_buttons
+element: rich_text
+element: rich_text_input
+element: split_button
+element: static_select
+element: timepicker
+element: url_text_input
+element: users_select
+element: video
+element: workflow_button
+rich_text: _canvas_mention
+rich_text: _canvas_user_mention
+rich_text: _edited_label
+rich_text: _emoji_group
+rich_text: _file_mention
+rich_text: _quote_group
+rich_text: _stopped_label
+rich_text: _theme_install_button
+rich_text: _truncation_collapse_button
+rich_text: _truncation_expand_button
+rich_text: _unfurl_mention
+rich_text: _variable
+rich_text: attachment_mention
+rich_text: broadcast
+rich_text: canvas
+rich_text: canvas_message_unfurl
+rich_text: canvas_user_mention
+rich_text: channel
+rich_text: citation
+rich_text: color
+rich_text: date
+rich_text: emoji
+rich_text: expanded_rich_text
+rich_text: file
+rich_text: link
+rich_text: list_record
+rich_text: message_mention
+rich_text: rich_text
+rich_text: rich_text_divider
+rich_text: rich_text_header
+rich_text: rich_text_list
+rich_text: rich_text_preformatted
+rich_text: rich_text_quote
+rich_text: rich_text_section
+rich_text: salesforce_data_field
+rich_text: skill
+rich_text: slackhorizontalrule
+rich_text: tag
+rich_text: text
+rich_text: truncation
+rich_text: unknown
+rich_text: user
+rich_text: usergroup
+rich_text: work_object_mention
+rich_text: workflow_mention
+rich_text: workflowtoken
+view: app_notification_subscription_configuration
+view: entity_details
+view: home
+view: modal
+view: profile
+view: workflow_step

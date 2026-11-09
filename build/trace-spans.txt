@@ -1,35 +1,313 @@
-api_q:tick_skipped_connectivity_undefined
-apiq:excessive_retries:fail
-apiq:excessive_retries:recovered
-canvas:create-canvas
-canvas:load-canvas
-cse-api
-cse-client-api-failure
-cse-message-send
-desktop_channel_versioning_fetch:duration
-experiment_groups
-force_cold_boot_collision
-get_consolidated_emoji
-ia4client:navigate:tabSwitch
-ia4client_activity_badge:mismatch
-navigation:build_viewset
-navigation:commit_viewset
-navigation:framework
-navigation:ia3_equivalence
-navigation:listeners
-navigation:middleware
-navigation:tab_switch
-notification:received
-redux:subscriber_notification
-searcher:fetch_remote
-searcher:process
-searcher:process_async
-searcher:search
-searcher:search_local
-searcher:search_local_async
-searcher:searcher_match
-searcher:searcher_match_async
-searcher:searcher_sort
-searcher:searcher_sort_async
-searcher:sorter_sort
-searcher:sorter_sort_async
+measure: api_connectivity_lost
+measure: get-draft-and-unread-suggestions
+measure: load-channel-invite-tokens-complete
+measure: membership-update
+measure: modern-searcher-frecency-sort
+measure: modern-searcher-frecency-sort-async
+measure: modern-searcher-matching
+measure: modern-searcher-matching-async
+measure: modern-searcher-sorting
+measure: modern-searcher-sorting-async
+measure: network_connectivity_lost
+measure: omniswitcher-model-collate
+measure: react_emoji_menu_search
+measure: rmsgs_addMessagesFromHistory
+measure: rmsgs_updateUnreadCounts
+measure: search-process-search-messages
+measure: sorter-sort
+measure: sorter-sort-async
+metric: app:cpu_usage
+metric: app:cpu_usage_percent_total
+metric: app:memory_delta_mb
+metric: app:memory_peak_mb
+metric: app:memory_private_mb
+metric: app:memory_total_mb
+metric: avg_delete_duration_ms
+metric: avg_read_duration_ms
+metric: avg_write_duration_ms
+metric: channel_history_intent:episode_dwell_ms
+metric: channel_history_intent:selected_replaceable_sync_dwell_ms
+metric: clips_recorder_app_metrics:cpu
+metric: clips_recorder_app_metrics:cpuWithoutGpu
+metric: clips_recorder_app_metrics:cpuWithoutGpu_adjusted
+metric: clips_recorder_app_metrics:cpu_adjusted
+metric: clips_recorder_app_metrics:peakWorkingSetSize
+metric: clips_recorder_app_metrics:workingSetSize
+metric: desktop:event_listeners
+metric: desktop:nodes
+metric: indicated_bitrate:avg
+metric: jank-px:avg
+metric: jank-px:max
+metric: local_storage:largest_entry_bytes
+metric: local_storage_bytes
+metric: memory_total_bytes
+metric: memory_usage_bytes
+metric: object_store:shard_count
+metric: persist-redux-state-bytes
+metric: persist-redux-state-changed-bytes
+metric: persist-redux-state-clone-ms
+metric: persist-redux-state-largest-store-bytes
+metric: persist-redux-state-write-latency-ms
+metric: react_perf
+metric: redux:all_workspaces_bytes
+metric: redux:workspace
+metric: rtm_dispatch:duration
+metric: rtm_dispatch:total_event_count
+metric: rtm_dispatch:total_event_count:eventlog
+metric: rtm_dispatch:total_event_count:socket
+metric: rtm_incoming:event_count
+metric: rtm_incoming:total_event_count
+metric: rtm_incoming:total_event_count:eventlog
+metric: rtm_incoming:total_event_count:socket
+metric: rtm_queue_delay_max
+metric: sui_perf:render_duration
+metric: threads_view:load_duration_ms
+metric: time-spent
+metric: time-spent:feature
+metric: time_to_first_frame_ms
+metric: trace_reporter:stats
+metric: ufm_fetch
+metric: video_recorder_duration_metrics:actual_duration_ms
+metric: video_recorder_duration_metrics:bytes_per_recorded_second
+metric: video_recorder_duration_metrics:difference_ms
+metric: video_recorder_duration_metrics:large_difference
+metric: video_recorder_duration_metrics:record_duration_ms
+metric: web_vitals:inp
+metric: wss_rail:visible
+span: add_tags:channels_info
+span: add_tags:drafts_info
+span: ai_streaming_processing
+span: ai_streaming_response
+span: ai_streaming_time_to_first_status
+span: api_q:tick_skipped_connectivity_undefined
+span: apiq:excessive_retries:fail
+span: apiq:excessive_retries:recovered
+span: asyncModules
+span: blockingBootApis
+span: boot:initial_load
+span: boot:initial_load:html
+span: boot:initial_load:js
+span: boot:time_to_complete_render
+span: boot:time_to_complete_render_from_initial_nav
+span: boot:time_to_mount_client
+span: boot:time_to_start_render
+span: boot_started
+span: calls:initiate_calls_request
+span: calls:start_platform_call
+span: canvas:automerge-need-on-load
+span: canvas:client-creator-promise
+span: canvas:crdt-engine-first-document-wait
+span: canvas:crdt-plain-content
+span: canvas:create-canvas
+span: canvas:doc-embed
+span: canvas:embed-render
+span: canvas:initialize-client
+span: canvas:load-canvas
+span: canvas:print:embed_load
+span: canvas:print:resolve_content
+span: canvas:print_get_html
+span: canvas:print_get_title
+span: canvas:print_incremental_render
+span: canvas:print_load_fonts
+span: canvas:print_render_controls
+span: canvas:print_slack_object_load
+span: canvas:unsaved-state-check
+span: canvas:wait-for-client
+span: canvas:web-cache
+span: canvas:web-cache-large-value-unreadable
+span: canvas:web-cache-slow-serialization
+span: canvas:web-cache-unsupported
+span: clips_stop_video_recording:wait
+span: collab-init
+span: composer_unfurl
+span: composer_unfurl:await_preview
+span: cse-api
+span: cse-client-api-failure
+span: cse-message-send
+span: cycle
+span: desktop_channel_versioning_fetch:duration
+span: desktop_channel_versioning_fetch_and_upsert_by_id:fetch:duration
+span: desktop_channel_versioning_fetch_and_upsert_by_id:upsert:duration
+span: desktop_dogfood:active
+span: desktop_dogfood:booted
+span: experiment_groups
+span: fetch:optimistic:filter_results
+span: fetch:optimistic:upsert
+span: file_message_send_attempt:upload
+span: file_upload_attempt:processing
+span: file_upload_attempt:queue
+span: file_upload_attempt:transfer
+span: file_upload_attempt:upload
+span: force_cold_boot_collision
+span: gantry:boot
+span: get_consolidated_emoji
+span: get_items_to_evict
+span: get_items_to_evict:comparator
+span: get_items_to_evict:get_objects_from_store
+span: huddle_events
+span: huddle_meeting_events_metrics
+span: huddle_perf
+span: huddle_reconnect
+span: huddle_session
+span: huddle_tti
+span: huddles_summary
+span: ia4client:navigate:tabSwitch
+span: ia4client_activity_badge:mismatch
+span: lazy_reducers_added
+span: media_recorder:microphone_start
+span: media_recorder:play_ping
+span: media_recorder:time_to_record
+span: message_send_attempt:blocks
+span: message_send_attempt:enqueue
+span: message_send_attempt:placeholder
+span: message_send_attempt:prepare
+span: message_send_attempt:send
+span: mvb:defer
+span: mvb:defer:await_blur
+span: mvb:defer:await_online
+span: mvb:prev_poll_interval
+span: mvb:prevent
+span: mvb:stale
+span: mvp_check
+span: mvp_shouldreload_did_defer
+span: mvp_shouldreload_immediate
+span: mvp_shouldreload_prevent_api
+span: mvp_shouldreload_prevent_client
+span: mvp_shouldreload_waited_too_long_for_blur
+span: mvp_shouldreload_will_defer
+span: mvp_shouldreload_will_defer_offline
+span: navigation:build_viewset
+span: navigation:commit_viewset
+span: navigation:framework
+span: navigation:ia3_equivalence
+span: navigation:listeners
+span: navigation:middleware
+span: navigation:tab_switch
+span: notification:received
+span: omniswitcher:commit_to_paint
+span: omniswitcher:first_paint
+span: omniswitcher:process_entities
+span: omniswitcher:react_commit
+span: omniswitcher:reorder
+span: omniswitcher:results_postprocessing
+span: omniswitcher:results_update_to_commit
+span: omniswitcher:slackbot_routing
+span: omniswitcher:suggestions_pipeline
+span: omniswitcher_keystroke_to_first_actionable_paint
+span: omniswitcher_query_execution_outcome
+span: omniswitcher_query_lifecycle_outcome
+span: omniswitcher_remote_dispatch_outcome
+span: pass
+span: quickswitcher:blank_slate_unread_ranking
+span: quickswitcher:get_draft_and_unread_suggestions
+span: quickswitcher:merged_recent_places
+span: quickswitcher:merged_zero_state_rebuild
+span: quickswitcher:merged_zero_state_rebuild_commit_to_paint
+span: quickswitcher:merged_zero_state_rebuild_update_to_commit
+span: quickswitcher:merged_zero_state_rebuild_update_to_paint
+span: quickswitcher:merged_zero_state_sync
+span: quickswitcher:model_collate
+span: quickswitcher:open
+span: quickswitcher:suggestions_tiered
+span: quickswitcher:suggestions_untiered
+span: quickswitcher:zero_state_base
+span: quickswitcher:zero_state_settled
+span: react_channel_sidebar_data
+span: redux:extra_window_subscriber_notification
+span: redux:subscriber_notification
+span: redux:subscriber_notification:timing_react
+span: redux:subscriber_notification:timing_redux
+span: reload_completed
+span: remove_objects_from_store
+span: requestComment:get_snippet
+span: requestComment:replies_fetch
+span: requestDocumentHistory:fetch_history
+span: resource-timings:entry
+span: run_boot_team:await_is_booting_warm
+span: run_boot_team:setup_before_registered_boot_apis
+span: searcher:fetch_remote
+span: searcher:process
+span: searcher:process_async
+span: searcher:search
+span: searcher:search_local
+span: searcher:search_local_async
+span: searcher:searcher_match
+span: searcher:searcher_match_async
+span: searcher:searcher_sort
+span: searcher:searcher_sort_async
+span: searcher:sorter_sort
+span: searcher:sorter_sort_async
+span: should_allow_reload_check
+span: slack_ai:channel_summary_first_tokens_added
+span: slack_ai:thread_summary_first_tokens_added
+span: story_upload:perceived
+span: story_upload:upload
+span: survey
+span: ufm:cleanup
+span: ufm:finally
+span: ufm:upsert
+span: workspaces:booted
+trace: GLOBAL_TRACE
+trace: add_tags:performance_tracing_tags
+trace: asset_reloads
+trace: asyncModules
+trace: boot:initial_load
+trace: boot:time_to_complete_render
+trace: boot:time_to_complete_render_from_initial_nav
+trace: boot:time_to_mount_client
+trace: boot:time_to_start_render
+trace: boot_started
+trace: build-experiment-exposure
+trace: cache_manager:evict
+trace: calls:free-willy:prefetch_call_info
+trace: calls:start_call
+trace: canvas:autocomplete-bubble-render
+trace: canvas:create-collab-api
+trace: canvas:print
+trace: canvas:start-editor
+trace: channel_history_intent
+trace: channel_history_nomination
+trace: channel_join
+trace: child_window:perf-metrics
+trace: clips_stop_video_recording
+trace: composer_unfurl
+trace: cse-message-send
+trace: desktop_channel_versioning_fetch:duration
+trace: dnd_subscriptions:pass
+trace: feat_trace
+trace: file_message_send_attempt
+trace: file_upload_attempt
+trace: fit
+trace: gantry:boot
+trace: gov_mvb
+trace: history_prefetch_pointerdown
+trace: initialApiCalls
+trace: local_storage
+trace: media_player:metrics
+trace: media_recorder:time_to_record
+trace: megaphone
+trace: message_send_attempt
+trace: messages
+trace: mvb:check
+trace: object_store
+trace: perf-metrics
+trace: perf-metrics-boot
+trace: redux-persistence
+trace: registeredBootApis
+trace: render_lane_metrics
+trace: resource-timings
+trace: rtm_dispatch
+trace: rtm_incoming
+trace: rtm_queue
+trace: rtm_state_modified
+trace: ssb-memory-stats
+trace: story_upload
+trace: subscription_manager:cycle
+trace: sui_perf
+trace: threads_view_load
+trace: time-spent
+trace: time-spent:feature
+trace: ufm:fetch-unknowns-for-team
+trace: virtual-list
+trace: web_vitals
+trace: workspace
