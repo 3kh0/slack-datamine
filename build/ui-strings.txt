@@ -2768,7 +2768,6 @@ Channel overview
 Channel overview canvas has been added to your channel
 Channel owner
 Channel permissions
-Channel prefixes
 Channel restrictions
 Channel results
 Channel search displayed nonexistent channel
@@ -3880,6 +3879,7 @@ Convert timestamp to human readable datetime
 Convert to Slack Connect Channel
 Convert to Template
 Convert to a template
+Convert to draft
 Convert to new opportunity
 Convert to table
 Converted muxed init segment to video-only for I-Frame playback
@@ -4435,7 +4435,6 @@ Customizable security settings
 Customizable security settings and user roles
 Customize Focused
 Customize Sales Tracker stages
-Customize Slackbot
 Customize Your Template
 Customize artifacts
 Customize notifications
@@ -5165,6 +5164,7 @@ Drawing is not available for content shared from the Slack Mobile app
 Dream Maker
 Drop Shadow
 Drop Singer right on the window.
+Drop a channel into a For you sidebar unreads section
 Drop a deleted search query from the session recents buffer and later writes
 Drop an agent-created canvas from the unread list
 Drop messages from before a given timestamp
@@ -5345,7 +5345,6 @@ Edit workflow
 Edit workflow name and details
 Edit workflow segment
 Edit workflow title, description, or avatar
-Edit workspace
 Edit workspace details
 Edit your notifications
 Edit your working hours
@@ -7597,7 +7596,6 @@ Give AI a prompt to instantly create a workflow template
 Give Feedback
 Give Slackbot access to your tools so it can help you across Jira, Figma, and more.
 Give feedback
-Give feedback on the Slack 6 Prototype
 Give it a name
 Give it another try in a few minutes.
 Give me a daily sales update from my CRM data every morning.
@@ -9557,8 +9555,6 @@ Log exposure for the ai_slackbot_sampling_free experiment if it is exposed
 Log exposure for the biz_plus_upgrade_pocket_guide_v2 experiment if it is exposed
 Log exposure for the boost_bus_plus_awareness_and_upgrades experiment if it is exposed
 Log exposure for the bus_plus_team_upgrade_slackbotdm experiment if it is exposed
-Log exposure for the canvas_invite_entry_point_new_teams experiment if it is exposed
-Log exposure for the canvas_invite_entry_point_tenured_teams experiment if it is exposed
 Log exposure for the channels_onboarding_tasks_v3_large experiment if it is exposed
 Log exposure for the convert_expired_bespoke_to_ss experiment if it is exposed
 Log exposure for the crm_upsell_modal experiment if it is exposed
@@ -10125,7 +10121,6 @@ Manage Roles
 Manage Salesforce MCP
 Manage Salesforce Organizations
 Manage Salesforce account connection
-Manage Salesforce organizations
 Manage Slack Connect
 Manage Slack Connect Invitations
 Manage Slack Connect permissions
@@ -10287,6 +10282,7 @@ Mark plans and cost data as not loaded
 Mark productivity reacji notification as seen and update local state
 Mark re-engagement sparkles complete
 Mark read
+Mark ready for review
 Mark record read to unhighlight it
 Mark saved items as completed by filter
 Mark selected as read
@@ -10673,6 +10669,7 @@ Message may not have text
 Message must contain every word to trigger the workflow.
 Message not found
 Message not sent
+Message not shared with Slackbot
 Message options
 Message posts
 Message preview
@@ -12740,8 +12737,6 @@ Paste options menu hidden
 Paste options menu showing
 Paste tabular data into lists (grid view)
 Paste this URL in any channel, bookmarks bar or space to run this workflow from anywhere.
-Paste with Comments
-Paste with Comments?
 Patrick Kane
 Pattern noted
 Patti Sullivan
@@ -14081,6 +14076,7 @@ Reloading tools
 Remember sign-ins
 Remember the last user-selected view for a list in a given window
 Remember whether a secondary container was left expanded
+Remembers (or forgets) the To-dos filter boxes last checked in the filter bar
 Remembers a native Slackbot turn for Singer task bubbles
 Remind Me
 Remind Me Later
@@ -14656,11 +14652,13 @@ Request offline users counts
 Request refresh of record team members
 Request reinstall
 Request review
+Request reviewers
 Request sent
 Request sent to your admin
 Request stopped
 Request submitted successfully
 Request the agent sunroof apps from agents.sunroof.get and store them
+Request the catch-up summary open when its thread opens
 Request the creation of a new enterprise workspace
 Request the diff preview for a proposed Slackbot canvas edit
 Request the jukebox stops
@@ -14803,6 +14801,7 @@ Resolve a canvas content draft: keep an approved on-screen preview open to await
 Resolve a pending huddle
 Resolve all threads
 Resolve all threads and reactions?
+Resolve merge conflicts
 Resolve or unresolve a review thread on a loaded code channel pull request
 Resolve the SSB screen thumbnails and the index of the screen being shared
 Resolve the authorized-IP check for block-kit copy once per session, deduping concurrent callers
@@ -16662,7 +16661,6 @@ Set up a connection by clicking on the channel name and opening the Integrations
 Set up a team conversation
 Set up a web form later
 Set up a workflow in seconds
-Set up advanced security
 Set up an external conversation
 Set up channel post and comment permissions
 Set up the fields people will use to update info in this step.
@@ -17832,7 +17830,7 @@ Skipping welcome thread: no Slackbot DM
 Slack & Salesforce integration
 Slack - Huddle
 Slack - Huddle Preview
-Slack 6 Prototype
+Slack 6 Preview
 Slack AI
 Slack AI (default)
 Slack AI Feedback
@@ -18690,7 +18688,6 @@ Sweet Treat
 Switch Google account
 Switch agent
 Switch avatar
-Switch back to IA4
 Switch back to production assets
 Switch child window column modes based on window width and the width breakpoints
 Switch currently active plan
@@ -18702,9 +18699,7 @@ Switch primary or secondary view on notification click
 Switch the Lists supervisor on or off
 Switch to Bar Chart
 Switch to Enhanced Text
-Switch to Experimental
 Switch to Line Chart
-Switch to Stable
 Switch to Text
 Switch to This Tab
 Switch to a channel
@@ -19918,8 +19913,6 @@ Try connecting your calendar again
 Try different keywords or check for typos.
 Try disconnecting, then reconnecting the app to try again.
 Try huddles with more people
-Try it out
-Try it out: Slack 6 Prototype, Alpha
 Try it with Slackbot Mini
 Try later
 Try moving closer to your Wi-Fi router or use an ethernet connection
@@ -22015,7 +22008,6 @@ You received an invitation that has been ignored, expired, or is no longer avail
 You recently started a trial for the Business+ plan. Check out the features you and your organization now have access to.
 You seem to be creating MPImage instances without invoking .close(). This leaks resources.
 You seem to be creating MPMask instances without invoking .close(). This leaks resources.
-You shared this canvas
 You shared this dashboard
 You shared this folder
 You shared this list
