@@ -22,9 +22,6 @@ metric: app:memory_delta_mb
 metric: app:memory_peak_mb
 metric: app:memory_private_mb
 metric: app:memory_total_mb
-metric: avg_delete_duration_ms
-metric: avg_read_duration_ms
-metric: avg_write_duration_ms
 metric: channel_history_intent:episode_dwell_ms
 metric: channel_history_intent:selected_replaceable_sync_dwell_ms
 metric: clips_recorder_app_metrics:cpu
@@ -42,7 +39,6 @@ metric: local_storage:largest_entry_bytes
 metric: local_storage_bytes
 metric: memory_total_bytes
 metric: memory_usage_bytes
-metric: object_store:shard_count
 metric: persist-redux-state-bytes
 metric: persist-redux-state-changed-bytes
 metric: persist-redux-state-clone-ms
@@ -66,7 +62,6 @@ metric: time-spent
 metric: time-spent:feature
 metric: time_to_first_frame_ms
 metric: trace_reporter:stats
-metric: ufm_fetch
 metric: video_recorder_duration_metrics:actual_duration_ms
 metric: video_recorder_duration_metrics:bytes_per_recorded_second
 metric: video_recorder_duration_metrics:difference_ms
@@ -131,8 +126,6 @@ span: desktop_channel_versioning_fetch_and_upsert_by_id:upsert:duration
 span: desktop_dogfood:active
 span: desktop_dogfood:booted
 span: experiment_groups
-span: fetch:optimistic:filter_results
-span: fetch:optimistic:upsert
 span: file_message_send_attempt:upload
 span: file_upload_attempt:processing
 span: file_upload_attempt:queue
@@ -289,7 +282,6 @@ trace: megaphone
 trace: message_send_attempt
 trace: messages
 trace: mvb:check
-trace: object_store
 trace: perf-metrics
 trace: perf-metrics-boot
 trace: redux-persistence

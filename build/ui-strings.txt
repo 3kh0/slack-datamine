@@ -1732,7 +1732,6 @@ Attempting to change an outdated document.  Use Automerge.clone() if you wish to
 Attempting to close
 Attempting to close flexpane
 Attempting to close split view
-Attempting to connect consumer to channel
 Attempting to destroyVoiceFocus
 Attempting to mount another AnnouncerAPIProvider. AnnouncerAPIProvider was already mounted above in the component tree and is ready to be used.
 Attempting to move in an unsupported phase 
@@ -1757,7 +1756,6 @@ Audio detection tracker reset
 Audio file
 Audio file icon
 Audio input device cannot be undefined
-Audio input initialization failed
 Audio input request failed
 Audio not received
 Audio playback could not be resumed
@@ -2481,7 +2479,6 @@ Cannot getSocketUrl with out a token
 Cannot handle VALUE_ROWIDS in first dimension.
 Cannot hash more than 2^53 - 1 bits
 Cannot increase frame iteration, the context is empty
-Cannot init tables without team and user
 Cannot initialize encryption: localStorage is unavailable
 Cannot initialize encryption: unavailable on this platform
 Cannot initialize the same private elements twice on an object
@@ -3779,7 +3776,6 @@ Constraints not re-applied no video track settings available
 Constraints re-applied to content share (resolution overwrite applied)
 Construction and Real Estate
 Constructor for type already exists
-Consumer connected to channel
 Consumption Rate
 Consumption Schedule
 Contact Us
@@ -4082,9 +4078,6 @@ Could not get context for WebGL version
 Could not get endpoints from storage
 Could not hide Mini after opening Singer
 Could not hide Mini before opening Slack
-Could not init SQLite client, moving on. See error:
-Could not init SQLite tables, moving on. See error:
-Could not init SQLite worker, moving on. See error:
 Could not initialize any backends, all backend initializations failed.
 Could not initialize shaders
 Could not load Agentforce agents. Try again.
@@ -4442,6 +4435,7 @@ Customers and clients
 Customizable sections
 Customizable security settings
 Customizable security settings and user roles
+Customize Focused
 Customize Sales Tracker stages
 Customize Slackbot
 Customize Your Template
@@ -6236,7 +6230,6 @@ Failed to read app name in getStoredStateFromIDB
 Failed to read device selection history from local storage
 Failed to read focused window
 Failed to read large IndexedDB value
-Failed to read team or enterprise ID in Unknown Fetch Manager
 Failed to read varint, encoding is invalid.
 Failed to record Slackbot mini as opened
 Failed to refetch ACL after failed exclude save
@@ -7839,7 +7832,6 @@ HTML file
 HTTP Status 
 Half-Rounded Rectangle
 Halloween themes
-Halt further boot if client is reloading
 Halting stylesheet parsing: String stylesheet contains more to parse but no selector and block found in: 
 Hand off search query to Slackbot
 Hand off search query to Slackbot with prepopulated thread
@@ -12970,6 +12962,7 @@ Plain Text
 Plain text
 Plan an effective meeting
 Play Just-In-Time calendar notification sound
+Play a live voice call cue unless huddle sounds are muted
 Play a sound when an emoji is sent or received in a huddle
 Play an audio recording of the meeting note consent when joining a meeting.
 Play animation
@@ -14031,7 +14024,6 @@ Region selected, capturing
 Register Service Worker timed out
 Register a deferred, undoable saved-item clear
 Register observers for performance monitoring
-Register route listeners
 Register the service worker
 Registering icon pack:
 Registering pressure observer
@@ -16303,7 +16295,6 @@ Set requestId from the contacts request
 Set required fields
 Set role to match member
 Set role type filter for roles list
-Set routes
 Set sales tracker error
 Set sales tracker loading state
 Set sales tracker schema and color map
@@ -16657,7 +16648,6 @@ Set to true when last visible message in channel should be focused
 Set to true when quick reactions tip should not be shown
 Set to true when the message input should be focused
 Set today_last_active_timestamp user pref for Today auto-navigation
-Set tokens
 Set total number of apps to paginate for App Launcher
 Set total salesforce members for admin member table
 Set total size of team
@@ -16677,10 +16667,8 @@ Set up a team conversation
 Set up a web form later
 Set up a workflow in seconds
 Set up advanced security
-Set up all other teams to boot if in multi team mode
 Set up an external conversation
 Set up channel post and comment permissions
-Set up client store
 Set up the fields people will use to update info in this step.
 Set up workflows to collect items with forms, send due date reminders to assignees, and keep your team aligned with automatic summaries.
 Set up your Slack
@@ -20229,7 +20217,6 @@ Unknown change event received
 Unknown content type:
 Unknown document title
 Unknown error
-Unknown error occurred
 Unknown file
 Unknown file.
 Unknown getter
@@ -20527,7 +20514,6 @@ Update is_migrating for a team
 Update keyboard focus history
 Update knock to enter user requests
 Update last active activity item for a view
-Update last active team ID in localConfig
 Update lastRequestId for browser entity
 Update last_read timestamp for a file
 Update list of OAuth providers by app id
@@ -21535,7 +21521,6 @@ Warning:
 Warning: An unhandled error was caught from submitForm()
 Warning: react-fast-compare does not handle circular references.
 Was disconnected; reset reachedEnd to false
-WasmSqliteDriver does not support transactions yet.
 Watch Slack CRM in action
 Ways to start
 We already have a socket
@@ -22377,7 +22362,6 @@ series.data or dataset.source must be an array.
 setAudioPayloadTypes is deprecated. Access encodedTransformWorkerManager directly via meeting session context.
 setOutputPackedMatrixWriteRegion not implemented.
 setWeights() is not implemented for Adamax yet.
-startAudioInput - Trying fallback device by removing exact constraint. This will revert to default device.
 started screen sharing.
 stepsPerEpoch mode is not implemented yet.
 stopped screen sharing.
