@@ -11,7 +11,8 @@ Environment=XDG_RUNTIME_DIR=/run/slackbot
 Environment=HOME=/home/slackbot
 RuntimeDirectory=slackbot
 RuntimeDirectoryMode=0700
-ExecStart=/usr/bin/dbus-run-session -- /usr/bin/slack --password-store=basic --disable-gpu --disable-dev-shm-usage --disable-gpu-compositing --disable-accelerated-2d-canvas --use-gl=swiftshader --remote-debugging-address=127.0.0.1 --remote-debugging-port=9222
+# slack 4.53+ needs its own profile for cdp: cp -a ~/.config/Slack ~/.config/Slack-cdp
+ExecStart=/usr/bin/dbus-run-session -- /usr/bin/slack --user-data-dir=/home/slackbot/.config/Slack-cdp --password-store=basic --disable-gpu --disable-dev-shm-usage --disable-gpu-compositing --disable-accelerated-2d-canvas --use-gl=swiftshader --remote-debugging-address=127.0.0.1 --remote-debugging-port=9222
 Restart=always
 RestartSec=10
 

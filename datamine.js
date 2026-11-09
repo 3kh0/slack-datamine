@@ -2,7 +2,7 @@
 /*
  * datamine.js — slack datamine via full webpack manifest. node 24 or bun
  *
- * >tfw authed html drops build id (data-*) + .u loader naming every chunk (~1350)
+ * >tfw authed html drops build id (data-*) + .u loader naming every chunk (~2260)
  * parse it, dl ALL from public cdn (no auth lmao), brotli decode, extract apiMethods/flags/uiStrings -> ./build/
  * overwrites each run. git history + per-build tags = changelog, clones stay smol
  *
@@ -46,72 +46,33 @@ const log = (s = '') => process.stdout.write(s + '\n');
 const die = (m) => { process.stderr.write('\n❌ ' + m + '\n'); process.exit(1); };
 const sortUniq = (a) => [...new Set(a)].sort();
 
-const API_NS = ['conversations', 'chat', 'users', 'channels', 'groups', 'im', 'mpim',
-  'files', 'admin', 'apps', 'team', 'teams', 'emoji', 'reactions', 'search', 'views',
-  'workflows', 'canvases', 'bots', 'dnd', 'pins', 'stars', 'usergroups', 'calls', 'auth',
-  'oauth', 'rtm', 'reminders', 'bookmarks', 'functions', 'assistant', 'tooling',
-  'subscriptions', 'dialog', 'migration', 'lists', 'slackconnect', 'enterprise',
-  'rooms', 'calendar', 'drafts', 'screenhero', 'channelSections', 'moderation', 'saved',
-  'sharedInvites', 'workObjects', 'solutions', 'records', 'links', 'retail', 'features', 'entities'];
-const RE_API = new RegExp(`['"]((?:${API_NS.join('|')})\\.[a-zA-Z][a-zA-Z0-9_.]{1,48})['"]`, 'g');
-const RE_ID = /['"]([a-z][a-z0-9_]{3,60})['"]/g;
-// feature flags (no localization cancer)
-const RE_FLAG = /(?:_enabled|_disabled|_gate|_killswitch|_rollout)$|^(?:enable|disable|ff|exp)_|experiment|rollout_|^is_[a-z0-9_]+_enabled$|^feature_/;
-const RE_VARIANT = /['"]([a-z][a-z0-9_]{5,50}(?:_treatment|_control|_holdback|_variant[a-z0-9_]*|_v[0-9]))['"]/g;
-const RE_ERR = /['"]((?:not|invalid|cant|cannot|already|missing|too_many|over|expired|unsupported|restricted|no)_[a-z0-9_]{2,44}|[a-z][a-z0-9_]{2,30}_not_found|name_taken|rate_limited)['"]/g;
-const RE_SLASH = /['"](\/[a-z][a-z0-9_-]{2,24})['"]/g;
-const SLASH_DENY = new Set(['api', 'files', 'v1', 'v2', 'v3', 'static', 'client', 'ssb', 'help',
-  'signin', 'archives', 'services', 'beacon', 'robots', 'methods', 'img', 'downloads', 'oauth',
-  'admin', 'apps', 'customize', 'intl', 'account', 'home', 'www', 'cdn', 'assets']);
-const RE_SCOPE = /['"]([a-z][a-z._]+:(?:read|write|history|manage|bot|user|admin)(?::[a-z]+)?)['"]/g;
-const RE_EVENT = /(?:"element_name"|element_name|"clog_event"):"([a-z0-9_]{4,50})"/g;
-const RE_ACTION = /[,{]action:"([a-z0-9_]{4,50})"/g;
-// taxos behind CONSTANTS (WP.contact_card etc), never as "type:foo" strings
-// anchor on one known + window scan to auto catch newfags. one per enum below
-const RE_SELFMAP = /([a-zA-Z][a-zA-Z0-9_]{2,40}):"\1"/g; // camelCase! (obviously)
-const windowed = (js, anchor, pair, add, r = 2500) => {
-  for (const a of js.matchAll(anchor)) {
-    const w = js.slice(Math.max(0, a.index - r), a.index + r);
-    for (const m of w.matchAll(pair)) add(m[1]);
+const I18N = new Map();
+const unesc = (r) => r.replace(/\\(?:x([0-9a-fA-F]{2})|u\{([0-9a-fA-F]+)\}|u([0-9a-fA-F]{4})|(\r\n|[\s\S]))/g, (_, x, U, u, c) =>
+  x || u ? String.fromCharCode(parseInt(x || u, 16)) : U ? String.fromCodePoint(parseInt(U, 16))
+    : ({ n: '\n', t: '\t', r: '\r', b: '\b', f: '\f', v: '\v', 0: '\0' })[c] ?? (c === '\n' || c === '\r\n' ? '' : c));
+const hash = (s) => crypto.createHash('sha1').update(s).digest('hex').slice(0, 7);
+const oneLine = (s) => s.replace(/[\\\n\r\t]/g, (c) => ({ '\\': '\\\\', '\n': '\\n', '\r': '\\r', '\t': '\\t' })[c]);
+const cmp = (a, b) => (a > b) - (a < b);
+function* lits(js, tOnly) {
+  if (I18N.size) for (const m of js.matchAll(/(\.t\()?(?:"((?:\\.|[^"\\\n])*)"|'((?:\\.|[^'\\\n])*)'|`((?:\\.|[^`\\$])*)`)/g)) {
+    const r = m[2] ?? m[3] ?? m[4];
+    if (r && (!tOnly || m[1])) yield [unesc(r), m[1]];
   }
-};
-// flat check (works for some reason)
-const RE_API_CALL = /\bmethod:"([a-z][a-zA-Z0-9]*(?:\.[a-zA-Z][a-zA-Z0-9]*)+)"/g; // method:x.y calls (all ns)
-const RE_ARGS = /\bmethod:"([a-z][a-zA-Z.]+)",args:\{([^{}]{0,400})\}/g; // method + flat arg obj body
-const RE_ARGKEY = /([a-zA-Z_][a-zA-Z0-9_]*):/g;
-const RE_FN = /\b([a-z][a-z_]{2,40}):"(Fn[0-9A-Z]{4,8})"/g; // wf builtin name -> FnID
-const RE_SPAN = /(?:createSpan|createChildSpan|createAndReportSpan|createAndCloseSpan|startSpan|traceFn)\(\{name:"([^"]{3,60})"/g;
-const RE_ICON = /(?:\bicon|\biconName):"([a-z][a-z0-9-]{2,40})"/g;
-const RE_ACCEL = /accelerator:"([^"]{2,40})"/g;
-const RE_DEVCMD = /\{name:"([a-z][a-z_]{2,30})",description:"([^"]{4,120})",[^{}]*needsReload/g;
+}
+
 const RE_STR = /['"]([^'"\\\n]{8,200})['"]/g;
 
 const EXTRACTORS = [
-  { key: 'apiMethods', file: 'api-methods.txt', run: (js, add) => {
-    for (const m of js.matchAll(RE_API_CALL)) add(m[1]); // method:"x.y" — all ns
-    for (const m of js.matchAll(RE_API)) add(m[1]); // bare "ns.method" literals (ternary/obj key)
+  ...require('./lib/extractors/flags'),
+  ...require('./lib/extractors/api'),
+  ...require('./lib/extractors/catalogs'),
+  { key: 'i18nStrings', file: 'strings-en-US.txt', run: (js, add) => {
+    for (const [s, t] of lits(js)) { const k = hash(s); if (I18N.has(k) && (t || /[\s{A-Z]/.test(s))) add(`${k}\t${s}`); }
+  }, post: (vals) => vals.flatMap((v) => (I18N.get(v.slice(0, 7)) || []).map((ns) => [ns, v.slice(8), `${ns}.${v.slice(0, 7)}: ${oneLine(v.slice(8))}`]))
+    .sort((a, b) => cmp(a[0], b[0]) || cmp(a[1], b[1])).map((x) => x[2]) },
+  { key: 'i18nUntranslated', file: 'strings-untranslated.txt', run: (js, add) => {
+    for (const [s] of lits(js, true)) if (!I18N.has(hash(s))) add(oneLine(s));
   } },
-  { key: 'apiArgs', file: 'api-args.txt', run: (js, add) => {
-    for (const m of js.matchAll(RE_ARGS)) for (const k of m[2].matchAll(RE_ARGKEY)) add(`${m[1]}:${k[1]}`);
-  } },
-  { key: 'featureFlags', file: 'feature-flags.txt', run: (js, add) => { for (const m of js.matchAll(RE_ID)) if (RE_FLAG.test(m[1])) add(m[1]); } },
-  { key: 'experiments', file: 'experiments.txt', run: (js, add) => { for (const m of js.matchAll(RE_VARIANT)) add(m[1]); } },
-  { key: 'errorCodes', file: 'error-codes.txt', run: (js, add) => { for (const m of js.matchAll(RE_ERR)) add(m[1]); } },
-  { key: 'slashCommands', file: 'slash-commands.txt', run: (js, add) => { for (const m of js.matchAll(RE_SLASH)) if (!SLASH_DENY.has(m[1].slice(1))) add(m[1]); } },
-  { key: 'oauthScopes', file: 'oauth-scopes.txt', run: (js, add) => { for (const m of js.matchAll(RE_SCOPE)) add(m[1]); } },
-  { key: 'analyticsEvents', file: 'analytics-events.txt', run: (js, add) => { for (const m of js.matchAll(RE_EVENT)) add(m[1]); for (const m of js.matchAll(RE_ACTION)) add(m[1]); } },
-  // enum registries (consts, anchored window so newfags pop up)
-  { key: 'workflowFunctions', file: 'workflow-functions.txt', run: (js, add) => { for (const m of js.matchAll(RE_FN)) add(`${m[1]}:${m[2]}`); } },
-  { key: 'workflowEvents', file: 'workflow-events.txt', run: (js, add) => windowed(js, /APP_MENTIONED:"app_mentioned"/g, /[A-Z][A-Z0-9_]{3,40}:"([a-z][a-z0-9_]+)"/g, add) },
-  { key: 'notificationTypes', file: 'notification-types.txt', run: (js, add) => windowed(js, /thread_v2:"replies"/g, /([a-z][a-z0-9_]{3,40}):"[a-z][a-z_]+"/g, add) },
-  { key: 'aiFeatures', file: 'ai-features.txt', run: (js, add) => windowed(js, /slackbotAiContext:"slackbotAiContext"/g, RE_SELFMAP, add) },
-  { key: 'mcpActions', file: 'mcp-actions.txt', run: (js, add) => windowed(js, /tool_call:"wrench"/g, /([a-z][a-z0-9_]{3,40}):"[a-z][a-z_-]+"/g, add) },
-  { key: 'blockKitTypes', file: 'block-kit-types.txt', run: (js, add) => windowed(js, /rich_text:"rich_text"/g, RE_SELFMAP, add) },
-  // tracing / instr spans
-  { key: 'traceSpans', file: 'trace-spans.txt', run: (js, add) => { for (const m of js.matchAll(RE_SPAN)) add(m[1]); } },
-  { key: 'iconNames', file: 'icon-names.txt', run: (js, add) => { for (const m of js.matchAll(RE_ICON)) if (!m[1].includes('__')) add(m[1]); } },
-  { key: 'keyboardShortcuts', file: 'keyboard-shortcuts.txt', run: (js, add) => { for (const m of js.matchAll(RE_ACCEL)) add(m[1]); } },
-  { key: 'devCommands', file: 'dev-commands.txt', run: (js, add) => { for (const m of js.matchAll(RE_DEVCMD)) add(`${m[1]}: ${m[2]}`); } },
   { key: 'uiStrings', file: 'ui-strings.txt', run: (js, add) => {
     for (const m of js.matchAll(RE_STR)) {
       const s = m[1];
@@ -126,8 +87,15 @@ const EXTRACTORS = [
 ];
 
 const byKey = (fn) => Object.fromEntries(EXTRACTORS.map((e) => [e.key, fn(e)]));
+const ERRS = new Map();
+const noteErr = (e, phase, err) => ERRS.has(e.key) || ERRS.set(e.key, `${phase}: ${err?.message || err}`);
+const finalize = (e, set) => {
+  let v = sortUniq([...set]);
+  if (e.post) try { v = e.post(v); } catch (err) { noteErr(e, 'post', err); v = []; }
+  return v.filter((x) => typeof x === 'string' && !/^[~\0]/.test(x));
+};
 const newSets = () => byKey(() => new Set());
-const extractInto = (js, sets) => { for (const e of EXTRACTORS) e.run(js, (x) => sets[e.key].add(x)); };
+const extractInto = (js, sets) => { for (const e of EXTRACTORS) try { e.run(js, (x) => sets[e.key].add(x)); } catch (err) { noteErr(e, 'run', err); } };
 
 async function fetchChunk(url, tries = 3) {
   for (let i = 1; ; i++) {
@@ -158,13 +126,17 @@ async function parseManifest(html) {
   };
   const key = build.versionTs ? `?cacheKey=gantry-${build.versionTs}` : '';
   const files = new Set();
-  for (const m of html.matchAll(/if\("([^"]+)"===e\)return"gantry-v2-async-"\+e\+"\.([0-9a-f]{8,})\.min\.js/g))
-    files.add(`gantry-v2-async-${m[1]}.${m[2]}.min.js`); // async chunks from .u loader
-  for (const m of html.matchAll(/([a-zA-Z0-9_-]+\.[0-9a-f]{16,}\.min\.js)/g)) files.add(m[1]); // entry
+  let cf = {};
+  try { cf = JSON.parse(html.match(/var __cf=(\{[^{}]*\})/)?.[1] || '{}'); } catch (e) { die(`__cf chunk map didnt parse: ${e.message}`); }
+  const asyncs = [...Object.entries(cf), ...[...html.matchAll(/if\("([^"]+)"===e\)return ?"gantry-v2-async-"\+e\+"\.([0-9a-f]{8,})\.min\.js/g)].map((m) => m.slice(1))];
+  for (const [n, h] of asyncs) files.add(`gantry-v2-async-${n}.${h}.min.js`);
+  for (const m of html.matchAll(/if\("[^"]+"===e\)return ?"(gantry-v2-[^"?+]+\.[0-9a-f]{8,}\.js)"/g)) files.add(m[1]);
+  for (const m of html.matchAll(/([a-zA-Z0-9_-]+\.[0-9a-f]{16,}\.min\.js)(?![a-zA-Z0-9])/g)) files.add(m[1]);
+  const translations = Object.fromEntries([...html.matchAll(/"([a-z]{2}-[A-Z]{2})":"(gantry-v2-translations_[^"?]+\.json)/g)].map((m) => m.slice(1)));
 
   if (manifestSrc && files.size < 100) return { build: { ...build, partialManifest: true }, chunks: [] };
 
-  return { build, chunks: [...files].map((f) => ({ file: f, url: `${build.cdn}${f}${manifestSrc ? '' : key}` })) };
+  return { build: { ...build, asyncCount: asyncs.length }, translations, chunks: [...files].map((f) => ({ file: f, url: `${build.cdn}${f}${manifestSrc ? '' : key}` })) };
 }
 
 async function getHtml() {
@@ -347,7 +319,7 @@ const extractNames = (js) => {
 const moduleExtractors = (js) => {
   const sets = newSets();
   extractInto(js, sets);
-  return byKey((e) => sortUniq([...sets[e.key]]));
+  return byKey((e) => finalize(e, sets[e.key]));
 };
 const moduleDelta = (oldBody, newBody) => {
   const oldExtracted = moduleExtractors(oldBody), newExtracted = moduleExtractors(newBody);
@@ -397,7 +369,7 @@ const chunkSnapshot = (file) => {
       bytes: Buffer.byteLength(js),
       modules,
       counts: byKey((e) => sets[e.key].size),
-      values: byKey((e) => sortUniq([...sets[e.key]])),
+      values: byKey((e) => finalize(e, sets[e.key])),
     };
   } catch (e) {
     return { file, missing: true, error: e.message || String(e) };
@@ -427,9 +399,9 @@ const chunkDelta = (previousChunks, currentChunks) => {
   const raw = diffValues(previousChunks, currentChunks);
   const addedByName = groupBy(raw.added, chunkName), removedByName = groupBy(raw.removed, chunkName);
   const changedNames = [...addedByName.keys()].filter((name) => removedByName.has(name)).sort();
-  const changed = changedNames.map((name) => {
+  const changed = changedNames.map((name, n) => {
     const from = removedByName.get(name), to = addedByName.get(name);
-    return { name, from, to, analysis: chunkExtractionDelta(from, to) };
+    return { name, from, to, analysis: n < +(process.env.CHUNK_ANALYSIS_LIMIT || 12) ? chunkExtractionDelta(from, to) : null };
   });
   const changedSet = new Set(changedNames);
   const added = raw.added.filter((file) => !changedSet.has(chunkName(file)));
@@ -497,9 +469,10 @@ const logChunkDetails = (delta) => {
 (async () => {
   log(`\n⛏️  datamining slack — ${HTML_FILE ? `html:${HTML_FILE}` : `cdp:${PORT}`}`);
   const src = await getHtml();
-  const { build, chunks: manifest } = await parseManifest(src.html);
+  const { build, chunks: manifest, translations = {} } = await parseManifest(src.html);
   if (build.partialManifest) die('only public webpack.manifest html, use real client html or cdp');
   if (!build.buildNumber || !build.versionHash || !build.cdn) die('no build metadata in html, need slack client html or manifest script');
+  if (!LOADED_ONLY && build.asyncCount < +(process.env.MIN_ASYNC_CHUNKS || 500)) die(`only ${build.asyncCount} async chunks, loader changed again?`);
 
   let chunks = manifest;
   if (LOADED_ONLY) {
@@ -511,6 +484,16 @@ const logChunkDetails = (delta) => {
 
   // fetch + decode + extract (concurrent as fuck)
   fs.mkdirSync(CHUNK_CACHE, { recursive: true });
+
+  const tf = translations['en-US'];
+  if (tf) {
+    const tp = path.join(CHUNK_CACHE, tf);
+    let txt;
+    try { txt = fs.existsSync(tp) ? fs.readFileSync(tp, 'utf8') : await fetchChunk(`${build.cdn}${tf}`); } catch (e) { die(`en-US table fetch failed (${e.message})`); }
+    fs.writeFileSync(tp, txt);
+    for (const [ns, o] of Object.entries(JSON.parse(txt))) for (const k in o) (I18N.get(k) || I18N.set(k, []).get(k)).push(ns);
+    log(`   i18n: ${I18N.size} keys`);
+  } else log('   ⚠️  no en-US table, keeping old strings');
   const sets = newSets();
   const failedChunks = [];
   let fetched = 0, cached = 0, done = 0, i = 0;
@@ -541,7 +524,9 @@ const logChunkDetails = (delta) => {
   const sameVersion = prevHash === build.versionHash;
   const prev = byKey((e) => readLines(e.file));
   const prevChunks = readLines('chunks.txt');
-  const result = byKey((e) => sortUniq([...sets[e.key]]));
+  const result = byKey((e) => finalize(e, sets[e.key]));
+  if (!tf) for (const k of ['i18nStrings', 'i18nUntranslated']) result[k] = prev[k];
+  for (const [k, msg] of ERRS) { result[k] = prev[k]; log(`   ⚠️  ${k} broke (${msg}), kept old`); }
   const currentChunks = sortUniq(chunks.map((c) => c.file));
   const delta = {
     build: {
@@ -586,6 +571,7 @@ const logChunkDetails = (delta) => {
       cdnBase: build.cdn, capturedDate: new Date().toISOString().slice(0, 10),
       manifestChunks: manifest.length, minedChunks: chunks.length, failedChunks: failed,
       failedChunkFiles: failedChunks.map((c) => c.file).sort(),
+      asyncChunks: build.asyncCount, i18nKeys: I18N.size, extractorErrors: Object.fromEntries(ERRS),
       counts: byKey((e) => result[e.key].length),
     }, null, 2) + '\n');
   }
