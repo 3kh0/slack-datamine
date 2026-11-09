@@ -1430,10 +1430,7 @@ ai.8d886c0: Something went wrong
 ai.89e7c42: Taking a look…
 ai.e52cf9d: Taking it all in…
 ai.cef2fe0: Try Again
-ai-apps.7b72482: About {aiAppName}
 ai-apps.a1e34f9: More actions
-ai-apps.3ae9cb0: Pin {name} to top bar
-ai-apps.c21b577: Unpin {name}
 ai-translations.77dfd21: Cancel
 ai-translations.a93e22e: Change translation language
 ai-translations.bbfa773: Close
@@ -1476,7 +1473,6 @@ ai_apps.156b60d: About {agentName}
 ai_apps.bbd3e6e: About {appName}
 ai_apps.51b5c8d: Active in {count, plural, one {# channel or DM} other {# channels and DMs}}
 ai_apps.61cc55a: Add
-ai_apps.70e99c7: Add Agents
 ai_apps.2fd97f5: Add agent
 ai_apps.1f7f16d: Add an Agent
 ai_apps.5ce2e6f: Agent
@@ -1504,7 +1500,6 @@ ai_apps.7541648: Configuration
 ai_apps.fd90229: Content and info about you
 ai_apps.a03d887: Conversation history
 ai_apps.589cac5: Couldn’t load more agents. Please try again.
-ai_apps.39038f4: Enter a search query to find an agent.
 ai_apps.979e325: Explore AI agents that can help you get more done in Slack. Go to the AgentExchange to get started.
 ai_apps.3b6063d: Filter by organization
 ai_apps.defd9a4: Get the power of AI in context when you use an app’s AI-powered assistant alongside Slack conversations. Just click to open, and the assistant can proofread drafts, answer questions, and more.
@@ -1519,26 +1514,20 @@ ai_apps.7bb4405: Installed
 ai_apps.03397ac: Installed agent results
 ai_apps.760c8e6: Installed agents
 ai_apps.8f6ffeb: Internal agents
-ai_apps.af0a740: Learn more about agents
 ai_apps.bbfc8d3: Learn more about {agentName}
 ai_apps.9ecde87: Load More
 ai_apps.33ce417: Loading…
 ai_apps.bf58d17: Manage
 ai_apps.3ca4794: Manage connection
-ai_apps.bbc4a7c: Manage top bar agents
 ai_apps.68f4145: Message
 ai_apps.08db676: More about app permissions
 ai_apps.3606365: More about {appName}
 ai_apps.a1e34f9: More actions
-ai_apps.94db969: More agents
-ai_apps.becc8ab: More agents loaded
 ai_apps.71b35d4: Most relevant
 ai_apps.709a232: Name
 ai_apps.364e701: New Chat
 ai_apps.009bf6b: New chat
 ai_apps.56b58f1: No agents
-ai_apps.acbbf9b: No agents available.
-ai_apps.6a8c55b: No agents found. Try a different search query.
 ai_apps.587e293: No conversation history yet
 ai_apps.011321b: No matching agents
 ai_apps.bd5188a: No matching sidekicks
@@ -1556,8 +1545,6 @@ ai_apps.03a322d: Open in split view
 ai_apps.2fb9609: Open in split view for {agentName}
 ai_apps.bb1f603: Open {appName}
 ai_apps.1718e55: Open {name} agent
-ai_apps.3ae9cb0: Pin {name} to top bar
-ai_apps.28efb42: Pinned by admin
 ai_apps.86b41d6: Pinned by you
 ai_apps.9bef397: Pinned by your admin
 ai_apps.6fe36ed: Popular agents
@@ -1584,9 +1571,7 @@ ai_apps.ea86ba7: There aren’t any sidekicks matching your search criteria.
 ai_apps.196ce5f: There was a problem loading agents. Please try again.
 ai_apps.06245fe: This app hasn’t shared a privacy policy link. Contact the developer directly for more information.
 ai_apps.2b76d52: This tool uses generative AI, which can produce inaccurate or harmful responses. Review for accuracy and safety before using.
-ai_apps.35c58ac: Toggle all agents
 ai_apps.2c37bbe: Try these prompts:
-ai_apps.c21b577: Unpin {name}
 ai_apps.621521f: Untitled
 ai_apps.9827032: View <app-pp-link>{appName}'s privacy policy.</app-pp-link>
 ai_apps.bdbf9a1: View <slack-pp-link>Slack’s privacy policy</slack-pp-link> and <tos-link>terms of service.</tos-link>
@@ -1601,8 +1586,6 @@ ai_apps.964694b: Your org doesn’t have any agents yet
 ai_apps.0608c40: agent
 ai_apps.3396883: {appName} is working with limited access. You can <update-access-link>update access</update-access-link> anytime.
 ai_apps.2f2bbaa: {isConnecting, select, true {Connecting…} other {Connect}}
-ai_apps.a2629ba: {name}, pinned
-ai_apps.60a9601: {visible} of {total} Agents
 ai_workspace_setup.e450199:  Welcome to #{name}
 ai_workspace_setup.2e8bbf3: Advanced settings
 ai_workspace_setup.77dfd21: Cancel
@@ -1887,6 +1870,8 @@ app_dialog.b16c7ac: (optional)
 app_dialog.2dacf65: Submit
 app_dialog.ab90d9d: This field is required.
 app_dialog.26dc55d: We had some trouble connecting. <a>Try again?</a>
+app_dialog.38ffdb9: You can't enter more than {maxLength, plural, =1 {# character} other {# characters}}.
+app_dialog.d800655: You must enter at least {minLength, plural, =1 {# character} other {# characters}}.
 app_home.f0ee13e: Access restricted
 app_home.378cbbf: Learn More
 app_home.cce7155: Reload
@@ -8450,7 +8435,6 @@ emoji_keywords.0e93069: child
 emoji_keywords.0e37d72: chilling
 emoji_keywords.46e505c: christmas
 emoji_keywords.ef4d54d: cinema
-emoji_keywords.14e1083: citation
 emoji_keywords.c19ab8d: clap
 emoji_keywords.f9551d5: clapper
 emoji_keywords.2bbed95: climbing
@@ -9556,7 +9540,6 @@ files.5ff1a2c: Added on {readableTs}
 files.aa3a255: Added to Slackbot.
 files.b1f76e1: Added {file} to {section}.
 files.6e3a78d: Added {readableTs}
-files.af3d09a: All Files
 files.f7857dc: All files
 files.73c781e: Another team owns this canvas. It’s only been shared with specific people in your organization.
 files.7892b9b: Another team owns this list. It’s only been shared with specific people in your organization.
@@ -11592,7 +11575,6 @@ huddles.710b363: {userName} could not be invited as Huddles is not enabled for t
 huddles.09919d5: {userName} could not be invited to the Huddle.
 huddles.e0fef2d: {userName} was removed from the huddle.
 huddles.d5e2ad7: {user} has received a notification to join
-huddles.0a41b94: }function transformFirstLetter(e,t){let a=Array.from(e),n=a.findIndex(e=>mW.test(e));return -1===n?e:(a[n]=t(a[n]),a.join(
 huddles-readiness-checker.ce27b78: Audio connectivity
 huddles-readiness-checker.9b9fd17: Audio input request failed
 huddles-readiness-checker.70943d9: Audio not received
@@ -17870,7 +17852,6 @@ quip_collab.bcb602b: <b>Click</b> for options
 quip_collab.1b59f06: <b>Drag</b> to move
 quip_collab.b553375: A new comment selection cannot contain other comments or reactions.
 quip_collab.cbc4c14: A new reaction selection cannot contain other reactions or comments.
-quip_collab.8a5d078: AI generated content inaccurately. Take extra care verifying other content in this message.
 quip_collab.159f9f5: AI gutter entrypoint
 quip_collab.a85e90f: ALT
 quip_collab.d89450c: Add Comment
@@ -17882,7 +17863,6 @@ quip_collab.5f1b1a8: Add an Image
 quip_collab.7d3764e: Add comment
 quip_collab.cf05eca: Add reaction
 quip_collab.6a72085: All
-quip_collab.af3d09a: All Files
 quip_collab.e30eff9: Alt
 quip_collab.13eb288: Anchor Link Not Copied
 quip_collab.3dcc5ef: Another User
@@ -17894,7 +17874,6 @@ quip_collab.1afff01: Attach
 quip_collab.acdac20: Audio
 quip_collab.75629af: Aug
 quip_collab.69d97c5: August
-quip_collab.a826c28: Backslash
 quip_collab.88d130a: Backspace
 quip_collab.82dd2cd: Block
 quip_collab.03aed4a: Block quote style
@@ -17923,7 +17902,6 @@ quip_collab.4d4ce73: Card
 quip_collab.a8f9add: Card View
 quip_collab.5b36c5a: Card view
 quip_collab.66c7734: Chart
-quip_collab.2ced57f: Chat
 quip_collab.8fbe23d: Check a list item
 quip_collab.9f6811e: Checkbox checked
 quip_collab.199aa16: Checkbox unchecked
@@ -17945,15 +17923,8 @@ quip_collab.c7bd2af: Code block
 quip_collab.6b2e25a: Code block style
 quip_collab.93797c4: Code formatting
 quip_collab.fa473a7: Collapse or expand section
-quip_collab.b9ee3de: Comma
 quip_collab.61607a0: Comments cannot span multiple sections.
 quip_collab.04a2122: Confirm
-quip_collab.1ed02a9: Content with comments
-quip_collab.4e8556d: Content with comments and reactions
-quip_collab.f054367: Content with comments and reactions by {name}
-quip_collab.bb4879b: Content with comments by {name}
-quip_collab.5b12bf6: Content with reactions
-quip_collab.5d06635: Content with reactions by {name}
 quip_collab.2a20c75: Conversation
 quip_collab.af74f7c: Copy
 quip_collab.a1f1cfb: Copy Anchor Link
@@ -17994,7 +17965,6 @@ quip_collab.3d4c9eb: Deleted list view
 quip_collab.d92706a: Deleted {removed}
 quip_collab.912fc14: Divider
 quip_collab.e214b8a: Document
-quip_collab.a8be039: Document icon
 quip_collab.e9b450d: Done
 quip_collab.ebb44af: Download original
 quip_collab.0d84b3e: Drag to move
@@ -18013,13 +17983,11 @@ quip_collab.64e6dd6: Entering blockquote
 quip_collab.65e80dd: Entering {background_color_name} color callout
 quip_collab.b4cfe1f: Escape
 quip_collab.8d10c69: External
-quip_collab.07b3e44: Favorites
 quip_collab.dc8415c: Feb
 quip_collab.5c3a35e: February
 quip_collab.794ab00: Field not available
 quip_collab.2c3cafa: File
 quip_collab.08a2f15: File Link Open Error
-quip_collab.1fa842a: File icon
 quip_collab.d146de7: File link
 quip_collab.a22e9c3: File not found
 quip_collab.d4b77fe: File sharing has been disabled in canvases using Slack Connect.
@@ -18027,7 +17995,6 @@ quip_collab.df251b0: Find
 quip_collab.c37ce9e: Find Bar
 quip_collab.f079537: Find and Replace
 quip_collab.5cd4da8: Find something in document
-quip_collab.19adc47: Folders
 quip_collab.bbd6e32: Fri
 quip_collab.d166e84: Friday
 quip_collab.9d47605: Gold10
@@ -18052,7 +18019,6 @@ quip_collab.284e208: Green5
 quip_collab.c909e4f: Green50
 quip_collab.1fb464d: Green60
 quip_collab.964f97b: Green70
-quip_collab.70d9e94: Group Folders
 quip_collab.abff5d0: Group link
 quip_collab.a3089b7: Heading
 quip_collab.fdc7d47: Heading 1
@@ -18112,7 +18078,6 @@ quip_collab.b5148a6: Magenta40
 quip_collab.98d9de2: Magenta5
 quip_collab.f2008a7: Magenta60
 quip_collab.6384162: Magenta70
-quip_collab.d4c2398: Magic Wand Icon
 quip_collab.c4ba082: Mar
 quip_collab.433632e: March
 quip_collab.23e67fc: Markdown
@@ -18129,15 +18094,12 @@ quip_collab.e36f592: More Options
 quip_collab.14373e5: Move a list item down
 quip_collab.67ae66a: Move a list item up
 quip_collab.6403f2b: New
-quip_collab.6e206f1: New Action
-quip_collab.364e701: New Chat
 quip_collab.252f486: New Style
 quip_collab.103101b: Next Result
 quip_collab.56b5224: Next line
 quip_collab.fac121f: No primary action available for this content
 quip_collab.8d942cd: No secondary action available for this content
 quip_collab.fc276bd: Nonmember user link
-quip_collab.753a22b: Notifications
 quip_collab.bb9bfef: Nov
 quip_collab.3c5bf77: November
 quip_collab.e3b8204: Now
@@ -18189,7 +18151,6 @@ quip_collab.51f2bf6: Purple60
 quip_collab.91744f2: Purple70
 quip_collab.309028a: Quote
 quip_collab.5ca6547: Reactions cannot span multiple sections.
-quip_collab.76eec76: Recent
 quip_collab.b93d279: Record was deleted
 quip_collab.233f6f1: Red10
 quip_collab.896f378: Red20
@@ -18220,7 +18181,6 @@ quip_collab.b5daec3: Salesforce Data Mention
 quip_collab.77985e5: Salesforce List
 quip_collab.9127d48: Salesforce Record
 quip_collab.365d15c: Salesforce Report
-quip_collab.a50a762: Salesforce data
 quip_collab.8fcd886: Salesforce org not connected
 quip_collab.0c75d61: Salesforce org not found
 quip_collab.6b782d4: Sat
@@ -18236,15 +18196,12 @@ quip_collab.a8cf720: Section expanded
 quip_collab.c3f76f1: Section has unsaved changes.
 quip_collab.954de4b: Selection contains content that is not allowed in a blockquote.
 quip_collab.924e280: Selection contains content that is not allowed in a callout.
-quip_collab.727ceca: Semicolon
 quip_collab.fdd289e: Sep
 quip_collab.b4b289a: Separator
 quip_collab.1c542e7: September
 quip_collab.09ca55c: Share
 quip_collab.c1c0e65: Share message
-quip_collab.ff87c0a: Shared with Me
 quip_collab.469d5b1: Shift
-quip_collab.a2c169f: Slash
 quip_collab.a5d5b46: Slide
 quip_collab.b74dd13: Something
 quip_collab.5602ffa: Something…
@@ -18263,11 +18220,9 @@ quip_collab.fe06eb6: Tab
 quip_collab.0424f6e: Table
 quip_collab.5b99997: Take Over
 quip_collab.ed59b2f: Tap to {edit} or {create_a_list}
-quip_collab.090ec5f: Tasks
 quip_collab.3ec1ae0: Template
 quip_collab.734c65a: This canvas was deleted
 quip_collab.937efb2: This content contains sections that are referenced elsewhere with Live Paste. Deleting this content will prevent future updates from syncing in those documents
-quip_collab.e67acf4: This content was deleted
 quip_collab.3cfc6dc: This file was deleted
 quip_collab.2f54a9a: This item was deleted
 quip_collab.154830b: This list view was deleted
@@ -18298,7 +18253,6 @@ quip_collab.39fc721: Undo
 quip_collab.621521f: Untitled
 quip_collab.8954a5c: Untitled item
 quip_collab.0020c03: Untitled list
-quip_collab.c76d180: Updates
 quip_collab.8bdf057: Upload
 quip_collab.454a8bf: Upload a file
 quip_collab.63e0d46: Upload an image
@@ -18316,7 +18270,6 @@ quip_collab.db84d98: View reactions
 quip_collab.39eb5cd: View thread
 quip_collab.371e04a: View-only mode disabled.
 quip_collab.7500dec: View-only mode enabled.
-quip_collab.4d53b72: Warning icon
 quip_collab.23408b1: Wed
 quip_collab.5656b9b: Wednesday
 quip_collab.37619fc: White
@@ -18337,28 +18290,19 @@ quip_collab.b1ac9d3: Yesterday at {time}
 quip_collab.e47791d: Yesterday {time}
 quip_collab.197c850: You don’t have access to this channel (either it’s private or in a workspace you’re not a part of), so its name isn’t shown
 quip_collab.cffa50a: and
-quip_collab.002f47e: app citation
 quip_collab.7aa1583: canvas
-quip_collab.e6d38f9: canvas citation
 quip_collab.fbe7d7b: channel
-quip_collab.14e1083: citation
 quip_collab.49f033e: date button
 quip_collab.aa1f83f: date button with reminder set
 quip_collab.f1c573b: date button with reminder set for {reminder_text}
-quip_collab.7f4b5f1: deleted {type} link
 quip_collab.971c419: file
-quip_collab.d8fc8a5: file citation
-quip_collab.6482108: inaccurate {type} link
 quip_collab.a26aafc: insert
 quip_collab.a7f8e7c: just now
 quip_collab.4f0aa52: link
 quip_collab.38b62be: list
-quip_collab.c5c16c9: list citation
 quip_collab.6f9b9af: message
-quip_collab.bc73e1b: message citation
 quip_collab.c9bc849: now
 quip_collab.943992d: private channel
-quip_collab.cb4cb08: private {type} link
 quip_collab.2dd2bed: today
 quip_collab.7f3aa7f: today {time}
 quip_collab.12dea96: user
@@ -18392,7 +18336,6 @@ quip_collab.4c3e465: {replaced} of {total} instances replaced
 quip_collab.d94d3e1: {section_style} Section Menu
 quip_collab.7a3e0ad: {style} disabled
 quip_collab.18c4cf9: {style} enabled
-quip_collab.fb0349b: {type} link
 quip_collab.01ba688: {value} selected ({index} of {total})
 quip_collab.2da33c4: {weekday}
 quip_collab.92825ab: {weekday} at {time}
@@ -22957,14 +22900,11 @@ slack_marketplace.7dd28ed: Free and paid plans available
 slack_marketplace.d51130a: Included with service subscription
 slack_marketplace.dc9d458: Paid
 slack_marketplace.0b015e5: Paid with free trial
-slack_scribe.6723f7d: 30 seconds left. Dictation will auto-submit.
 slack_scribe.f97d187: Add words and phrases Steno should always spell your way.
 slack_scribe.77dfd21: Cancel
 slack_scribe.64fbd99: Change
 slack_scribe.2546d71: Change dictation shortcut
-slack_scribe.2ce0814: Couldn’t access microphone. Check your browser permissions to use dictation.
 slack_scribe.616088d: Dictation Shortcut
-slack_scribe.1a1d287: Dictation didn’t work. Please try again.
 slack_scribe.860e1f9: Dictionary
 slack_scribe.c89ae6c: Dictionary entries
 slack_scribe.271f3f4: Hold the shortcut to record, or double-tap it for hands-free mode.
@@ -29190,7 +29130,6 @@ workflows.9b4457e: Forward workflow
 workflows.a1e34f9: More actions
 workflows.8cea91f: This workflow no longer exists.
 workflows.badd385: View details
-workspace_apps_manage.8158d20: Allow this app to install managed agent apps
 workspace_apps_manage.7b2c7f1: Approve
 workspace_apps_manage.77dfd21: Cancel
 workspace_apps_manage.53577bb: Deny
@@ -29198,7 +29137,6 @@ workspace_apps_manage.a0d641b: Domains
 workspace_apps_manage.9f5cd8a: Retry
 workspace_apps_manage.efc007a: Save
 workspace_apps_manage.44ff383: Send information to these domains:
-workspace_apps_manage.f7f4ce3: When enabled, {appName} can install managed apps built with the agent builder platform for {appName}, without requiring admin approval for each one. Managed apps are limited to bot scopes only, and this permission can be revoked at any time from your automated app approval rules.
 workspace_directory.6b21fb7: About
 workspace_directory.82cf8a5: Account settings
 workspace_directory.09e12ea: Awaiting admin approval
