@@ -1749,6 +1749,9 @@ element: file_upload_edit_button
 element: files_home_page
 element: filter_list
 element: filter_option
+element: find_peek_header
+element: find_peek_item
+element: find_peek_tab
 element: find_your_workspace
 element: finish_up
 element: flag_profile
@@ -2238,7 +2241,6 @@ element: never
 element: new_avatar_uploaded
 element: new_canvas
 element: new_canvas_button
-element: new_channel_permissions_coachmark
 element: new_code_channel_sidebar_button
 element: new_edits_pill
 element: new_list
@@ -3363,6 +3365,7 @@ entry_point: channel_invite_email
 entry_point: channel_invite_suggestions_file_share_slackbot_message
 entry_point: channel_join_banner
 entry_point: channel_overflow
+entry_point: channel_settings_flag_dialog
 entry_point: channel_share_email
 entry_point: channel_sidebar
 entry_point: channel_sidebar_add_more
@@ -3448,6 +3451,8 @@ entry_point: guided_trials_shared_channel_banner
 entry_point: guided_trials_sidebar_upgrade_cta
 entry_point: handle-file-container-click
 entry_point: headerTitle
+entry_point: header_menu
+entry_point: header_menu_flag_dialog
 entry_point: help
 entry_point: huddle_files_view_header
 entry_point: huddle_flexpane
@@ -3507,6 +3512,7 @@ entry_point: members_invite_by_email
 entry_point: message
 entry_point: message_context_menu
 entry_point: message_file_menu
+entry_point: message_flag_dialog
 entry_point: message_link
 entry_point: message_mattachment_huddle_link
 entry_point: message_menu_start_huddle_in_thread

@@ -16,6 +16,7 @@ measure: rmsgs_updateUnreadCounts
 measure: search-process-search-messages
 measure: sorter-sort
 measure: sorter-sort-async
+metric: anchor-jump-px:max
 metric: app:cpu_usage
 metric: app:cpu_usage_percent_total
 metric: app:memory_delta_mb
@@ -32,6 +33,7 @@ metric: clips_recorder_app_metrics:peakWorkingSetSize
 metric: clips_recorder_app_metrics:workingSetSize
 metric: desktop:event_listeners
 metric: desktop:nodes
+metric: held-ms
 metric: indicated_bitrate:avg
 metric: jank-px:avg
 metric: jank-px:max
@@ -53,6 +55,7 @@ metric: persist-redux-state-write-validation-ms
 metric: react_perf
 metric: redux:all_workspaces_bytes
 metric: redux:workspace
+metric: requests-while-stalled
 metric: rtm_dispatch:duration
 metric: rtm_dispatch:total_event_count
 metric: rtm_dispatch:total_event_count:eventlog
@@ -62,6 +65,7 @@ metric: rtm_incoming:total_event_count
 metric: rtm_incoming:total_event_count:eventlog
 metric: rtm_incoming:total_event_count:socket
 metric: rtm_queue_delay_max
+metric: shown-ms
 metric: sui_perf:render_duration
 metric: threads_view:load_duration_ms
 metric: time-spent
@@ -125,6 +129,7 @@ span: composer_unfurl:await_preview
 span: cse-api
 span: cse-client-api-failure
 span: cse-message-send
+span: cse-ws
 span: cycle
 span: desktop_channel_versioning_fetch:duration
 span: desktop_channel_versioning_fetch_and_upsert_by_id:fetch:duration
@@ -285,6 +290,8 @@ trace: local_storage
 trace: media_player:metrics
 trace: media_recorder:time_to_record
 trace: megaphone
+trace: message-list-history-hold
+trace: message-list-history-loader
 trace: message_send_attempt
 trace: messages
 trace: mvb:check

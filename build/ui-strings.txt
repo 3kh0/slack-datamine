@@ -98,7 +98,7 @@
 ) are ignored.
 ) is not supported yet.
 ) that performed expensive computation.
-)&&(eR(!1),rt(void 0),eC(rg?
+)&&(eR(!1),rs(void 0),eC(ry?
 ))),e((0,d.R3)(h)),e((0,d.p4)(h?a:void 0)),p(h?
 ). If you meant to render a collection of children, use an array instead.
 )?l.makeImage(e.slice(8),new u.Ay(t,r,n,i),o?
@@ -109,7 +109,7 @@
 , weights must be provided.
 ,counter:0,seen:new Map,cycles:e?.cycles??
 ,e.includeFieldLabel??!1);break;case 45:this.convertVariable_(e.recordId,e.fieldLabel,e.fieldApiName??
-,onClick:C?w:void 0,onKeyDown:C?x:void 0,role:C?
+,onClick:C?x:void 0,onKeyDown:C?w:void 0,role:C?
 ,stateArg:null,context:new Context(a?
 ,teamId:n??void 0,responseType:s?.responseType??
 ,threadTs:a||void 0,tsLink:s?
@@ -131,6 +131,10 @@
 1D separable convolution is not implemented yet.
 2. Paste the response below, or paste your exported memory file.
 30 seconds left. Dictation will auto-submit.
+:(L?(0,A.SR)(t,!1):void 0)??
+:(O?(0,v.SR)(t,D):void 0)??
+:(P?(0,v.SR)(i,L):void 0)??
+:(ao?(0,eP.SR)(ek,ar):void 0)??
 :_ instanceof RegExp?
 :a.buttonDataQa??void 0,onClick:a.buttonOnClick??this.onCloseButtonClicked,type:a.buttonType??
 :e instanceof File?
@@ -327,6 +331,7 @@ AI can create and update slides
 AI content review is auto-approved for this step
 AI content review will be required for this step
 AI conversation summaries
+AI daily recaps
 AI explanation
 AI features are enabled for all members of your organization.
 AI file summaries
@@ -897,7 +902,6 @@ Add multiple files
 Add multiple saved items and update cursor for pagination
 Add name pronunciation
 Add new agents and apps to the existing channel
-Add new apps to Slackbot
 Add new condition
 Add new condition group
 Add new field?
@@ -1831,7 +1835,6 @@ Available agents
 Available apps
 Available devices update already in progress. Returning existing promise.
 Available in bulk action mode
-Available skills
 Available to Slackbot
 Available to install
 Available tools
@@ -2075,7 +2078,6 @@ Browse apps
 Browse by
 Browse channels
 Browse files
-Browse other apps
 Browse people and user groups
 Browse sections
 Browse skills
@@ -2781,8 +2783,6 @@ Channel search: reset UI
 Channel search: set channel type filter
 Channel search: set external org filters
 Channel search: set hide my channels
-Channel search: set record channel filter options list
-Channel search: set record channel filter options list api call timestamp
 Channel search: set record channel filter toggle
 Channel search: set the list of org filters to be suggested
 Channel search: sort changed
@@ -3160,7 +3160,6 @@ Clear the search input box display query
 Clear the search input, resetting the editable query and ending the search and query sessions
 Clear the shouldRefetch flag for external file providers
 Clear the specified type of banner message for this list
-Clear the suggestions for the current search query
 Clear the to-do composer unsaved-content state
 Clear the toast queue for a window
 Clear the userSetUnreadPoint flag
@@ -3691,7 +3690,6 @@ Connect a calendar to Slack to schedule an external huddle.
 Connect a support address to respond to a case
 Connect account
 Connect accounts
-Connect an MCP server you built to Slackbot.
 Connect an account to continue
 Connect an email account to import emails
 Connect another org
@@ -3838,6 +3836,7 @@ ConvRNN2D cell does not support constants
 Conversation actions
 Conversation archived
 Conversation details
+Conversation height
 Conversation highlights keep you in the loop
 Conversation history
 Conversation marked as unread from this message
@@ -3849,6 +3848,7 @@ Conversation preview
 Conversation resolved
 Conversation unpinned
 Conversation unresolved
+Conversation width
 Conversations in this project
 Conversations you star in Slack will appear here.
 Conversations you start in this project will show up here.
@@ -5774,7 +5774,6 @@ Error when submitting timestamp
 Error while destroying the Voice Focus instance: 
 Error while fetching call info, (error.data is undefined): 
 Error while fetching call info: 
-Error while fetching notification data
 Error while fetching, searching, or paginating user groups
 Error while reporting huddle_events trace
 Error! Bookmark not defined.
@@ -6431,6 +6430,7 @@ Fetch a list of all MPIMs
 Fetch a list record with its subtasks
 Fetch a new trigger
 Fetch a new workflow
+Fetch a page of pending channel join requests
 Fetch a record channel given a record id
 Fetch a record channel given a record id and navigate
 Fetch a single daily digest by id
@@ -6483,6 +6483,7 @@ Fetch and upsert org guidelines
 Fetch and upsert recently uploaded files
 Fetch and upsert saved reminders
 Fetch and upsert the Sales Tracker extraction-nudge dismissal pref
+Fetch and upsert the calendar JIT card with day at a glance pref
 Fetch and upsert the meeting assistant consent pref
 Fetch and upsert the members of a user group
 Fetch and upsert the omniswitcher_search_history_mode pref
@@ -6622,6 +6623,7 @@ Fetch the agent sunroof apps from agents.sunroof.get
 Fetch the agents in a channel
 Fetch the apps the user has requested in the given stages
 Fetch the authoritative workspace member count for the Sales Tracker share gate
+Fetch the calendar JIT card with day at a glance pref if the day at a glance icon is on
 Fetch the canonical visits.list page into the shared visits store
 Fetch the channels that are shared across the entire org
 Fetch the current team plan, then its trial info
@@ -7076,8 +7078,6 @@ First publish workflow details save failed
 First unread message.
 First, add variables
 Fix Replacing with XXX
-Fix failing tests
-Fix merge conflicts
 Fix the errors on the Leads and Opportunities tabs to save.
 Fix the errors on the Leads tab to save.
 Fix the errors on the Opportunities tab to save.
@@ -7163,9 +7163,7 @@ Font selection
 Food & Drink
 Footlight MT Light
 For 1 hour
-For 1 week
 For 2 hours
-For 48 hours
 For agents, this will just update the agentforce assistant description in the store
 For agents, this will just update the agentforce status in the store
 For customer and client communication
@@ -8430,7 +8428,6 @@ Index ingestion is paused, setting most recent index as pending
 Index load error
 IndexedDB not available
 Indicate that the shared teams list is loading
-Indicate that the shared teams list request has failed
 Indicate that the shared teams list request has resolved
 Indicate whether we
 Indicates a required field
@@ -8634,7 +8631,6 @@ Invalid number, unexpected digit after 0:
 Invalid object
 Invalid offset
 Invalid offset 
-Invalid offset to move position by
 Invalid oldestAllowableTimestampFloat
 Invalid parent node!
 Invalid processed heads
@@ -8887,7 +8883,6 @@ Jumps to a message in the client
 Jun 2001 signature (not yet checked); Jun 2001 signature
 Jun 27 2001 email; Jun 27 2001 email placing him in the San Francisco office
 Just display names
-Just for today
 Just mentions
 Just now
 Just the venue. Dates and budget are set.
@@ -9243,7 +9238,6 @@ Leave Channel
 Leave Huddle
 Leave a channel
 Leave a comment
-Leave all temporary channels
 Leave and start call
 Leave channel
 Leave channels
@@ -10298,7 +10292,6 @@ Mark plans and cost data as not loaded
 Mark productivity reacji notification as seen and update local state
 Mark re-engagement sparkles complete
 Mark read
-Mark ready for review
 Mark record read to unhighlight it
 Mark saved items as completed by filter
 Mark selected as read
@@ -10315,6 +10308,7 @@ Mark the file as read
 Mark the free-team Slack Connect validation fetch as settled
 Mark the loaded agent sunroof dropdown apps stale, keeping them until the next fetch for them
 Mark the quickswitcher shortcut as having been used
+Mark the requested Megaphone spaces as settled
 Mark the threads which only have unread broadcasts
 Mark the time when highlights have been dismissed
 Mark the user as no longer viewing the file
@@ -10383,6 +10377,7 @@ Match all conditions
 Match any
 Match any condition
 Match type: exact (name+emoji), name-exact, keyword, or fuzzy:score
+Matches your server
 Material Theme
 Material Theme Darker
 Material Theme Lighter
@@ -10934,7 +10929,6 @@ Move line down
 Move line up
 Move multiple selected files to a collection
 Move online users to the top of the DM section
-Move pull request to open
 Move right
 Move saved items from
 Move saved items to to-dos
@@ -11950,6 +11944,7 @@ Only channel managers can reorder the file.
 Only channel managers can reorder the link.
 Only continue if
 Only external people
+Only file owners can update restricted sharing setting
 Only for you. Nothing is sent later.
 Only get notified if someone @mentions you personally
 Only include unreads
@@ -12795,9 +12790,7 @@ Peer connection successfully established. Informing the user.
 Peer should exist in order to remove
 Pen test was vendor driven
 Pencil and paper
-Pending admin approval
 Pending approval
-Pending apps
 Pending requests to join
 People & Groups
 People Outlines
@@ -12830,9 +12823,6 @@ People search: bulk update location filter
 People search: bulk update title filter
 People search: filter type changed
 People search: hide deactivated users pref changed
-People search: indicate team profile fields are loading
-People search: indicate team profile fields had an error
-People search: indicate team profile fields has resolved
 People search: reset UI
 People search: set a custom filter
 People search: set celebration filters
@@ -12920,6 +12910,7 @@ Pick a 30-minute slot that works best for you, and come chat with our research t
 Pick a channel before inviting Single-Channel Guests.
 Pick a different default avatar.
 Pick a look and watch it come to life. Your questions still go to Slackbot.
+Pick a main window click
 Pick a random default avatar. The current avatar will be replaced.
 Pick a start time
 Pick an end time
@@ -13540,6 +13531,7 @@ Read emoji reactions received in a huddle
 Read more
 Read only
 Read state tracking
+Read the composite ids of loaded timelines that contain an SFDC activity
 Read whether a huddle channel has a working shareable external huddle link
 Read whether code channel merge-status reads back off from github_not_authenticated
 Readiness checker finished
@@ -14686,8 +14678,6 @@ Request install
 Request offline users counts
 Request refresh of record team members
 Request reinstall
-Request review
-Request reviewers
 Request sent
 Request sent to your admin
 Request stopped
@@ -14838,7 +14828,6 @@ Resolve a canvas content draft: keep an approved on-screen preview open to await
 Resolve a pending huddle
 Resolve all threads
 Resolve all threads and reactions?
-Resolve merge conflicts
 Resolve or unresolve a review thread on a loaded code channel pull request
 Resolve the SSB screen thumbnails and the index of the screen being shared
 Resolve the authorized-IP check for block-kit copy once per session, deduping concurrent callers
@@ -15473,6 +15462,7 @@ Search is opening in the empty state: Starting new search session
 Search keyboard shortcuts
 Search list views by query
 Search lists
+Search media
 Search members
 Search message actions (app + Slack) in Redux store
 Search messages
@@ -15480,7 +15470,6 @@ Search modal_COACHMARKS
 Search or Ask Slackbot
 Search params (e.g. query, filter) have changed, re-fetch results
 Search people
-Search photos and videos
 Search presentations
 Search query
 Search results
@@ -16345,9 +16334,6 @@ Set search input value for announcer
 Set search loading state
 Set search query for list
 Set search results for Find in Thread
-Set search summary error state
-Set search summary loading state
-Set search summary results in state
 Set section ID for the added user group section coachmark
 Set section ID for the newly created channel section
 Set selected default org object mappings
@@ -16430,6 +16416,7 @@ Set the behavior of the up arrow shortcut when focus is in the MessageInput
 Set the boolean for the marker pulse effect
 Set the browse channels onboarding task as complete
 Set the button label
+Set the camera the device manager has open
 Set the campaign (entry point) for sending invites
 Set the channel sidebar theme to a custom theme
 Set the channel tab id to show the pro pocket guide channel overview success coachmark on
@@ -16560,7 +16547,6 @@ Set the organize work task as complete
 Set the pagination state for a specific module
 Set the pending endpoint promise to resolve when done
 Set the pending quote for a draft
-Set the persisted height cache
 Set the plan info in redux.
 Set the pocket guide v3 task completed animation as seen and refresh Megaphone notification data
 Set the point where a thread has unread messages
@@ -16946,7 +16932,6 @@ Sets organization query for name or email
 Sets paginated channels to the store
 Sets pending handoff state when user confirms handoff via suggested prompt
 Sets permissions for relevant workspaces
-Sets previous sidebar open state for reset after search close
 Sets query session id for entity
 Sets read only channels
 Sets read only value for a channel
@@ -18085,7 +18070,6 @@ Some pull requests may be out of date
 Some sources are restricted from AI access. Remove them to continue.
 Some sources have restricted sharing. Remove them to continue.
 Someone else updated this record after you started editing.
-Someone in your workspace has already requested this MCP. Once your admin approves the request, you can download and install it.
 Something about your file changed before it could be uploaded. This might happen if your file has been moved, edited, or deleted from your device.
 Something happened that prevented your file from being uploaded. Try again?
 Something off?
@@ -19419,7 +19403,6 @@ This result may be incomplete because the request loop limit was exceeded.
 This section has missing fields.
 This section is no longer in your sidebar
 This selection includes locked content. To make changes, unlock edits.
-This server has already been requested
 This setting only changes the island. Slack notifications, sounds, badges and unread counts stay the same.
 This sheet is too large to preview.
 This shortcut is reserved by the system. Try a different one.
@@ -20140,7 +20123,6 @@ Unable to parse React version
 Unable to parse identity_links_global_prefs JSON string
 Unable to parse resolved Huddle window open from local storage
 Unable to parse storedLayout from local storage
-Unable to perform action. Please try again.
 Unable to persist dismissed agent sessions
 Unable to persist plan acknowledgement
 Unable to persist starred conversations
@@ -20416,6 +20398,7 @@ Unusual formatting
 Unverified email
 Unwrap text
 Up arrow shortcut
+Up to 10 apps
 Upcoming and Overdue
 Upcoming and overdue
 Upcoming meeting
@@ -21528,6 +21511,7 @@ Waiting for connection (offline)
 Waiting for huddle to end to reload
 Waiting for rate limit
 Waiting for someone to let you in
+Waiting for someone to start the huddle and let you in
 Waiting for workspace credentials
 Waiting on review
 Waiting on you

@@ -129,7 +129,6 @@ allow_sso_exclusion_for_individual_guests: on
 allow_workflow_import_any_step: on
 allowed_file_upload_types: on
 animate_images_on_window_focus: on
-animated_text_streaming_agentforce: on
 app_acl_channel_restriction_feature: on
 app_acl_exclude_member_entities: on
 app_acl_picker_admin_channel_lookup: on
@@ -158,6 +157,7 @@ ask_agentforce_trigger_validations: on
 assistive_summaries_mode
 attachments_and_unfurls_max_width: on
 attrited_grids_data_deletion: on
+audit_logs_archive_exports: on
 audit_logs_client: on
 auto_status_edu: on
 autocomplete_affinity_ml_model: on
@@ -253,6 +253,7 @@ canvas_read_only_role: on
 canvas_salesforce_data_block: on
 canvas_selection_awareness: on
 canvas_self_lockout_speedbump: on
+canvas_share_default_workspace_access: on
 canvas_shared_link_detection: on
 canvas_size_limit_save_banner: on
 canvas_smart_cards: on
@@ -491,7 +492,6 @@ gantry_manage_quip_organizations_v2: on
 gantry_manage_salesforce_mcp_servers: on
 gantry_manage_salesforce_organizations: on
 gantry_manage_security_settings: on
-gdrive_onboarding_fixes_aug_2026: on
 generic_system_user_alert: on
 giphy_fixed_width: on
 global_create_menu: on
@@ -936,12 +936,10 @@ skip_redundant_jump_to_timestamp: treatment
 slack6_clogging_visit_attribution: on
 slack6_cmd_k: on
 slack6_cmdk_thread_recents: on
-slack6_search_entity_filters: on
 slack6_search_input_footer: on
 slack6_search_split_results: on
 slack6_search_switcher_over_sidebar: on
 slack6_todo_badging: on
-slack_ai_a11y_fixes: on
 slack_ai_file_summaries: on
 slack_ai_preview_update: on
 slack_ai_recap_background_animation: on
@@ -1076,7 +1074,6 @@ slackbot_mcp_apps: on
 slackbot_mcp_apps_disable_speedbumps: on
 slackbot_mcp_apps_translation: on
 slackbot_mcp_auth: on
-slackbot_mcp_create_to_discover: on
 slackbot_mcp_identity_override_collapse: on
 slackbot_mcp_tasks_card_auto_collapse_when_complete: on
 slackbot_member_profile_prompts: on
@@ -1214,7 +1211,6 @@ tableau_workobjects_enhanced_error_messages: on
 team_creation_holdout: control
 team_creation_invite_optimizations_v2: control, treatment
 team_creation_segmentation: control, treatment_segmentation_mandatory, treatment_segmentation_skippable
-temp_join_channel: on
 temp_join_channel_edu: on
 temp_mute: on
 template_creation_discoverability: on
