@@ -1177,8 +1177,8 @@ agents.f8c2483: Hide details
 agents.d6fbc9d: Import
 agents.64751c7: Import a markdown file
 agents.01b7462: Import a skill
+agents.0dcd76c: In DM
 agents.754e74d: In channels
-agents.1654aec: In this DM
 agents.6d11172: Includes {count} skills
 agents.0a5c59a: Includes {name} skill
 agents.ed58f29: Instructions
@@ -1272,6 +1272,7 @@ agents.c57df54: Search skill templates
 agents.502b0d6: Search skills
 agents.dbcf499: Search your skills
 agents.1a6a5ba: Searching…
+agents.72b68db: See {agentName}’s info, sessions, and settings
 agents.2311486: Send prompt
 agents.4b5e201: Send to {agentName}
 agents.e11e37a: Sessions
@@ -1742,7 +1743,6 @@ app_action_picker.b415e16: topic
 app_action_picker.d05dda5: {serverName} disabled
 app_action_picker.cc4424e: {serverName} enabled
 app_action_picker.7b2c48e: {server_name} icon
-app_action_picker.e7f9206: };null===x?x=[F]:x.push(F),q++}var Q=q===J}var ee=H.responseMetadata;if(void 0!==ee){var J=q,er=q,Q=!1,eo=q;e7(ee,(d||
 app_actions.df45d4c: Get more message shortcuts
 app_actions.1fa4500: Message shortcuts
 app_actions.47719d7: No items matched <strong>{filterQuery}</strong>
@@ -1930,7 +1930,6 @@ app_mention_create_channel.05690bd: Workspaces are where teams can work together
 app_mention_create_channel.46cce04: You don’t have permission to create channels in this workspace.
 app_mention_create_channel.08388ba: You don’t have permission to create private channels in this workspace.
 app_mention_create_channel.6f3a69d: You’re about to move this conversation with {memberNames} to a private channel that includes {appNames}. This change <b>can’t be undone.</b>
-app_mention_create_channel.2510514: };null===O?O=[x]:O.push(x),j++}if(void 0===p.labelNames){var x={keyword:
 app_space.6b21fb7: About
 app_space.987ed17: Add to VIP
 app_space.3ad0e36: Allow
@@ -2922,6 +2921,7 @@ block_kit.5b92de6: Line chart
 block_kit.89c8a28: Memory
 block_kit.a1e34f9: More actions
 block_kit.86c0a35: More options
+block_kit.07dbad0: More options for {primary_text}
 block_kit.e9cc6d0: No results found.
 block_kit.7f4b4d0: Number cannot be greater than {maxValue}.
 block_kit.0d6f198: Number cannot be lower than {minValue}.
@@ -3732,7 +3732,6 @@ channel_details.3f09874: Available agents
 channel_details.b52b36b: Back
 channel_details.dadf25f: Back to members
 channel_details.0882a07: Be your productivity partner
-channel_details.99613c7: Blocked
 channel_details.c13af6d: Bring the tools you need into this channel to pull reports, start calls, file tickets and more.
 channel_details.069b469: Bring the tools you need into this conversation to pull reports, start calls, file tickets and more.
 channel_details.14649e4: Browse Skills
@@ -5226,7 +5225,6 @@ channel_sidebar.3420971: {selectedItemCount} selected
 channel_sidebar.82cb91d: {title}, needs your input
 channel_sidebar.f909122: {title}, unread
 channel_sidebar.3bea691: {title}, working
-channel_sidebar.2a6a789: };null===O?O=[q]:O.push(q),j++}var x=p.image_48;if(void 0!==x&&
 channel_sidebar.9351d2d: “{afterWorkingHoursEmoji} Outside work hours” is set to show up automatically. If you’d rather it didn’t, you can turn this off in <Link>Preferences</Link>. 
 channel_sidebar.ec51aa3: “{focusEmoji} In focus mode” is set to show up automatically. If you’d rather it didn’t, you can turn this off in <Link>Preferences</Link>. 
 channel_tabs.87f6242: A Slack Admin hasn’t added {agentName} to this workspace yet, so it can’t be added to this channel.
@@ -5460,7 +5458,6 @@ classic_nav.6e157c5: Create
 classic_nav.3ac4864: Create a channel
 classic_nav.f93cb95: Create a space to collaborate
 classic_nav.dc8650f: Create and share content
-classic_nav.f891528: Create new workspace
 classic_nav.7d88cfe: Create new…
 classic_nav.ec5cfba: Current plan
 classic_nav.74c0075: Describe what you are looking for
@@ -5533,7 +5530,6 @@ classic_nav.e1b9001: See plan details
 classic_nav.5200ffa: See upgrade options
 classic_nav.08d7aa3: Select an option
 classic_nav.4971b0f: Session channel
-classic_nav.02d1eda: Set yourself as <strong>{presenceLabel}</strong>
 classic_nav.bef780e: Share your feedback on Search
 classic_nav.1c69e35: Show history
 classic_nav.b318b8b: Show workspace switcher
@@ -5569,8 +5565,6 @@ classic_nav.e8f38a0: Total count
 classic_nav.4284de9: Total count on hover
 classic_nav.4cb51ea: Track and manage projects
 classic_nav.5f7537c: Trial
-classic_nav.2669bc3: Turn off Privacy Mode
-classic_nav.948f91d: Turn on Privacy Mode
 classic_nav.78b4e85: Type of feedback
 classic_nav.6ffdfad: Update your status
 classic_nav.a6f47e0: Upgrade
@@ -6204,7 +6198,6 @@ code-tab.a0498dd: PR closed
 code-tab.2b00f83: PR merged
 code-tab.91ebb55: PR open
 code-tab.96f608c: Pending
-code-tab.6a80f44: Pending review
 code-tab.8691a1d: Previous match
 code-tab.881e743: Pull request
 code-tab.abbdfd9: Pull request sections
@@ -6245,6 +6238,7 @@ code-tab.287fda8: Unified
 code-tab.88cab05: Unresolve Conversation
 code-tab.97e5ac0: Unresolving conversation
 code-tab.334d9a1: View Comments
+code-tab.23a6732: View message
 code-tab.abb61cd: Your GitHub account doesn’t have permission to delete this comment.
 code-tab.2153e31: Your GitHub account doesn’t have permission to edit this comment.
 code-tab.6c4b0bb: Your GitHub account doesn’t have permission to edit this description.
@@ -6263,7 +6257,7 @@ code-tab.273c4ce: {filename}, deleted
 code-tab.e81588f: {filename}, modified
 code-tab.f67ff2c: {filename}, renamed
 code-tab.1db130a: {provider} connected
-code-tab.7f487b7: {sha} · Merged {base}
+code-tab.fc76ad4: {sha} by {author}
 code_channel_entity_card.7a7938b: +{count} more
 code_channel_entity_card.49bcd35: Code channel
 code_channel_entity_card.60f1f20: Code channel · Workflow: <link>{workflow}</link>
@@ -11646,7 +11640,6 @@ ia4.e2d397a: Canvases
 ia4.18e03e2: Channels
 ia4.7b58a34: Channels keep your work focused, by giving each topic, project or team its own space. {currentStep} of {totalSteps}
 ia4.ba1ce2f: Channels keep your work focused, by giving each topic, project or team its own space.<steps></steps>
-ia4.417a3e2: Channels keep your work focused, giving each topic or project a space for all the related messages, files, people and more.
 ia4.d97ab26: Check It Out
 ia4.a2940df: Choose a color below. Come back to your profile anytime you want to customize your Slack or update your preferences. {currentStep} of {totalSteps}
 ia4.12f9c17: Choose a color below. Come back to your profile anytime you want to customize your Slack or update your preferences.<steps></steps>
@@ -12443,6 +12436,7 @@ lists.04f4379: Collaboratively manage projects, prioritize issues, organize requ
 lists.84eb913: Collect responses in a form
 lists.1d0c830: Color
 lists.fce06e2: Comments
+lists.b0678b9: Comments on {recordName}
 lists.c07bfa8: Comments only
 lists.ea96354: Compare Plans
 lists.1f5a1ab: Complete
@@ -13712,6 +13706,8 @@ menu.10dad62: Unstar channel
 menu.7c11f7e: Unstar conversation
 menu.419b007: View agent profile
 menu.02fc0cf: View agents & apps
+menu.acdf387: View app details
+menu.67564c5: View app profile
 menu.fa4fe5f: View channel details
 menu.da9ea9a: View channel insights
 menu.2c07fc7: View conversation details
@@ -13720,6 +13716,7 @@ menu.80b8479: View in Slack Marketplace
 menu.4d66568: View members
 menu.225220d: View paused workflows
 menu.b98795a: View profile
+menu.7f25898: View {quipLabel} details
 menu.d7a4841: Workflow
 menu.9dda926: Workflow options ready
 menu.ee43020: Workflows with Salesforce data
@@ -16580,7 +16577,6 @@ plug_and_play_sections.37a79dd: channels and direct messages
 plug_and_play_sections.8507097: channels or people you check in on every day
 plug_and_play_sections.2643886: company-wide channels
 plug_and_play_sections.682d8f3: occasional, just for fun channels
-plug_and_play_sections.2510514: };null===O?O=[x]:O.push(x),j++}if(void 0===p.labelNames){var x={keyword:
 pnp_salesforce_embed_growth.ea96354: Compare Plans
 pnp_salesforce_embed_growth.a4c41c6: Compare plans
 pnp_salesforce_embed_growth.196acb8: Data management
@@ -19863,6 +19859,7 @@ search.56b71e8: Videos
 search.69bd4ef: View
 search.a52fc2a: View all results
 search.36d9162: View all {totalCountStr} results
+search.acdf387: View app details
 search.21cffcf: View as dense
 search.12e66ad: View as detailed
 search.22829a6: View full search
@@ -20610,7 +20607,6 @@ share-dialog.6558475: If you change this setting, your access will change to “
 share-dialog.741b156: If you remove this channel, you won’t be able to view or edit it.
 share-dialog.fd7558e: If you remove this channel, your access will change to “Can comment”.
 share-dialog.d1f94f2: If you remove this channel, your access will change to “Can view”.
-share-dialog.7f1b1ab: If you’d like, you can <a>share just the file</a> elsewhere.
 share-dialog.f2b9ac2: In {emojiAndChannelSectionName}
 share-dialog.e9cb183: Include original message as prompt
 share-dialog.a7881ca: Integrations
@@ -21428,6 +21424,7 @@ singer.1d788ea: Arc Lamp, $54
 singer.98d3f67: Arc · $54 · 4.7★
 singer.310efbc: Ask Slackbot
 singer.c42c3b8: Ask about this meeting
+singer.bdd42e5: Ask about this window
 singer.b1001b0: Ask before actions
 singer.b9692bb: Asleep
 singer.f980fb0: Astro
@@ -21460,6 +21457,7 @@ singer.18e03e2: Channels
 singer.e122b79: Channels, DMs and threads you visit in Slack will appear here.
 singer.ee9946c: Character
 singer.2ced57f: Chat
+singer.4f936b7: Check Tasks
 singer.cc58f4d: Check draft request
 singer.dcb413e: Check needed
 singer.1bafc07: Check your earlier messages in Slack before sending more. Your draft is saved here.
@@ -21474,6 +21472,8 @@ singer.fa0b7b3: Close panel
 singer.a14881f: Closing browser…
 singer.adac693: Code
 singer.0595fcd: Code task started. Your other tasks can keep working.
+singer.58fce01: Code tasks
+singer.29ddc4d: Coding agent
 singer.6bc2ef8: Comparing 3 lamps…
 singer.bd8efdc: Connect an account to continue
 singer.8005f0a: Connect to Slack to load messages.
@@ -21499,7 +21499,6 @@ singer.75a9fcd: Couldn’t load your skills
 singer.57c9dc8: Couldn’t mark as read. Try again.
 singer.1946fbe: Couldn’t mark read. Try again.
 singer.e1f58c2: Couldn’t open this activity. Try again.
-singer.9e20b19: Couldn’t open this reply. Dismiss the update to get back to Slackbot.
 singer.39e0c56: Couldn’t send. Your draft is saved here.
 singer.4d3df55: Couldn’t send. Your message is still here. Try again when you’re connected.
 singer.d3f8c92: Cozy Knit
@@ -21534,6 +21533,7 @@ singer.c8de761: End call
 singer.580b6aa: Files can’t be added to this conversation.
 singer.95b51aa: Filter Slack activity
 singer.a8af873: Find a desk lamp under $60 with good reviews
+singer.0f7d9f4: Finish dictating
 singer.816a9da: Finish recording before starting a voice call
 singer.355bcc5: Finished
 singer.84cfd0f: Fold · $72 · 4.8★
@@ -21584,6 +21584,7 @@ singer.1f4e169: Let go to choose it.
 singer.dc35348: Listening
 singer.6c19a47: Listening…
 singer.1734e2e: Little moments, more personality
+singer.64a9fa4: Live meeting
 singer.9ecde87: Load More
 singer.dfe60ca: Load more
 singer.4c959ab: Loading activity…
@@ -21611,7 +21612,7 @@ singer.8466b2b: Meeting microphone
 singer.ae3cd65: Meeting notes
 singer.fb8d903: Meeting notes are ready
 singer.3e63bfe: Meeting recording
-singer.32d7428: Meeting reminder dismissed. You can still find it in Today.
+singer.6289926: Meeting recording continues
 singer.cf829f1: Meeting reminders
 singer.b23a193: Meetings
 singer.85e12bc: Mentions
@@ -21619,6 +21620,7 @@ singer.68f4145: Message
 singer.9cf1b68: Message sent
 singer.4b53f7a: Message {name}
 singer.f1702b4: Messages
+singer.fda222b: Mic in use by voice call
 singer.2428053: Microphone
 singer.151a837: More audio for this meeting’s canvas.
 singer.9f8eb5f: More for you
@@ -21684,6 +21686,7 @@ singer.4ea8770: Racer Dood
 singer.20c7c55: Ready
 singer.61fd682: Reconnect to mark these as read.
 singer.3a47bd4: Reconnect to show the browser.
+singer.9d80f91: Reconnecting
 singer.8a8b956: Reconnecting…
 singer.ebb0b1c: Record more
 singer.be34b2e: Record more?
@@ -21699,6 +21702,7 @@ singer.255c9a4: Remember sign-ins
 singer.25df3f7: Remind me
 singer.8de5d6d: Remove attached files
 singer.a2d32f8: Remove attached window
+singer.58c6143: Remove meeting transcript
 singer.05315c0: Remove screenshot
 singer.1affb0b: Reopen Singer from Slack
 singer.6ececf6: Reopen Singer from Slack’s menu bar icon
@@ -21800,6 +21804,7 @@ singer.d56662b: Thread replies
 singer.bb12e8a: Threads
 singer.018514a: Timeline
 singer.ae79ea1: To
+singer.427b26a: Today’s meetings
 singer.1948bf2: Tomorrow
 singer.1e7571c: Transcribing…
 singer.cef2fe0: Try Again
@@ -21822,6 +21827,7 @@ singer.a172d36: View conversation
 singer.5559dd0: View only
 singer.f95f919: Voice calls are unavailable for this workspace
 singer.cda41b4: Voice input isn’t available. Try again.
+singer.a86dd4a: Voice with Slackbot
 singer.9afc81c: Waiting for an update
 singer.45c6f16: Welcome to Slackbot!
 singer.5836a4a: What Singer can do
@@ -21831,6 +21837,7 @@ singer.3fd30db: What’s on your mind?
 singer.f879eb5: What’s still undecided?
 singer.bc6b225: While you were quiet
 singer.41dfc0a: Window
+singer.7a823cf: Window detached.
 singer.3b4dfc9: Working
 singer.920453c: Working on your request
 singer.8e7d0d0: You can’t send messages here. Open in Slack to check access.
@@ -23378,8 +23385,6 @@ slackbot-ai.c445a5f: {title}, awaiting action
 slackbot-ai.d4c72fe: {title}, in a project
 slackbot-ai.d9c9a5e: {title}, responding
 slackbot-ai.f909122: {title}, unread
-slackbot-ai.9d23ac9: };null===O?O=[F]:O.push(F),j++}var x=j===E}var q=p.onlyMyChannels;if(void 0!==q){var E=j;if(
-slackbot-ai.95cc208: }]},invite_request_status:{anyOf:[{type:
 slackbot-ai.512dbd3: “{prompt}”
 slackbot-ai-conversation-tab-view.32b7c1d: I’m Slackbot, your personal AI agent, and I’m here to help you get started.
 slackbot-ai-conversation-tab-view.364e701: New Chat
@@ -24331,7 +24336,6 @@ slackforce.ce9711e: {ownerName} is already the owner
 slackforce.f0986ff: {sortCount} applied
 slackforce.4635854: {toolCount, plural, =1 {Used # tool} other {Used # tools}}
 slackforce.0cbd0b4: {toolCount, plural, =1 {Using # tool} other {Using # tools}}
-slackforce.7ad49e7: },userSetUnreadPoint:{type:
 slackforce.4fea32c: ☝️ Add a Salesforce list so you can quickly find and update Salesforce info right from Slack.
 slackforce.4617038: ☝️ Channels are where your team can chat about a specific record or topic and find any related info.
 slackforce.4f7c8c6: ☝️ Join the discussion about this account. You can see the full history of the conversation and all related info.
@@ -25162,7 +25166,6 @@ tabbed-channel.9ce3bd4: OK
 tabbed-channel.c47bb88: Oldest
 tabbed-channel.b8b6ee1: Only certain people can use this workflow
 tabbed-channel.56ca1b8: Only channel managers can edit agent sources.
-tabbed-channel.cf9b770: Open
 tabbed-channel.71bf47a: Open in new tab
 tabbed-channel.a75732d: Open in new window
 tabbed-channel.03a322d: Open in split view
@@ -25537,6 +25540,7 @@ threads.84ef5a7: Loading more messages…
 threads.6598160: Loading more replies
 threads.433e72b: Loading replies…
 threads.06dd1ba: Loading threads…
+threads.c566964: Loading thread…
 threads.d8465ec: Locked thread
 threads.0a3ee60: Make threads easier to find. This will be visible to all participants.
 threads.5339af6: Members will be able to reply and react
@@ -26630,7 +26634,6 @@ user_groups.ae02600: {name} (Deactivated)
 user_groups.58f233d: {text}, opens in new window
 user_groups.3a8b74f: {userGroupName} Default Channels
 user_groups.a76acba: {userGroupName} Members
-user_groups.2510514: };null===O?O=[x]:O.push(x),j++}if(void 0===p.labelNames){var x={keyword:
 utility.b1c1d87: me
 utility.8af56de: you
 video_block.a1e34f9: More actions
@@ -26833,7 +26836,6 @@ view-header.cde3c02: About {userGroupName}
 view-header.b9b41b0: Add channels
 view-header.a5b79f5: Artifacts
 view-header.9e1f19f: Artifacts ({count})
-view-header.99613c7: Blocked
 view-header.bbfa773: Close
 view-header.88d86b7: Closed
 view-header.92f5b68: Currently in Starred
@@ -26852,7 +26854,6 @@ view-header.23f064c: Move agent
 view-header.2c1f0af: Move app
 view-header.c27176b: Move channel
 view-header.42283d9: Move conversation
-view-header.6a80f44: Pending review
 view-header.1c59135: Primary view actions
 view-header.7dbd42d: Share this channel section
 view-header.f587639: Star agent
