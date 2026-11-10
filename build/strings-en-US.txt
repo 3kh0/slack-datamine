@@ -4628,6 +4628,7 @@ channel_header.8af56de: you
 channel_header.391e42d: {agentAppCount, plural, =1 {# agent & app in this channel} other {# agents & apps in this channel}}
 channel_insights.81c0d91: Activity
 channel_insights.3281188: CSV
+channel_insights.84b119a: Channel activity data is available starting {date}
 channel_insights.3529a7d: Channel insights
 channel_insights.a76536e: Channel insights loaded
 channel_insights.728298d: Daily
@@ -10690,6 +10691,7 @@ huddles.8b89522: Anything else you want to add?
 huddles.8e4aa3a: Applause
 huddles.cfea419: Apply
 huddles.d1cd89b: Apply changes?
+huddles.410bf23: Are you sure?
 huddles.e81e1f6: Art by Haley Tippmann
 huddles.4f5fdc6: Art by Hudson Christie
 huddles.4c1b393: Art by Luis Mendo
@@ -10748,6 +10750,7 @@ huddles.515ce0a: Close meeting notes
 huddles.c34d5e7: Close screen share window
 huddles.f151a7d: Collapse thread
 huddles.79141e0: Confetti
+huddles.04a2122: Confirm
 huddles.b65463c: Connect
 huddles.57dd5e7: Connect Google Calendar
 huddles.1493408: Connect a calendar to Slack to schedule an external huddle.
@@ -10781,7 +10784,7 @@ huddles.e7596a0: Direct messages
 huddles.364d3c2: Disable preview
 huddles.f4f4473: Disabled
 huddles.70afe9e: Dismiss
-huddles.ec95b3c: Do you want people to see and hear you in the huddle?
+huddles.8a7e323: Do you want people to see and hear you?
 huddles.b352a36: Dolphin
 huddles.e9b450d: Done
 huddles.1e997f5: Don’t show this message again.
@@ -10966,7 +10969,6 @@ huddles.7f54ccb: Loading calendars
 huddles.e961280: Loading older huddles…
 huddles.d219c68: Location
 huddles.d46f0e6: MISSED
-huddles.8136894: Media options
 huddles.e568d68: Meet with a whole team, or just let people drop in and out
 huddles.1f8a3fc: Meet with anyone, no Slack account needed
 huddles.eddbe88: Meet with your team
@@ -11016,8 +11018,9 @@ huddles.cbb0f2f: No files or links shared in this huddle
 huddles.756a514: No microphones found
 huddles.7af4511: No one is in the huddle yet.
 huddles.0475d95: No one is sharing their screen
+huddles.a4a30dd: No one will be able to see or hear you, and you’ll need to rejoin the huddle to apply new browser permissions.
 huddles.b993b0c: No results
-huddles.c73575f: No, continue without
+huddles.9ef583e: No, Continue Without Camera and Mic
 huddles.a3c7048: No, members can’t start or join huddles
 huddles.45e118d: Normal
 huddles.b1e5359: Not Now
@@ -11052,6 +11055,7 @@ huddles.a75732d: Open in new window
 huddles.e534f6a: Open system preferences
 huddles.c5a0577: Open your device’s system preferences and grant camera access to Slack. If you’ve already done so, quit and reopen Slack.
 huddles.23e52b0: Open your device’s system preferences and grant microphone access to Slack. If you’ve already done so, quit and reopen Slack.
+huddles.8c0c97b: Other media options
 huddles.b3cb3a7: Others couldn’t hear me
 huddles.f4d6b59: Outlook
 huddles.fc23278: Outlook Calendar
@@ -11062,6 +11066,8 @@ huddles.cd56e08: Participants
 huddles.96f608c: Pending
 huddles.b37554f: People
 huddles.fd4f82a: People in {channelDisplayName} will continue to have the option of starting AI huddle notes manually.
+huddles.45c566b: People won’t be able to hear you
+huddles.9356109: People won’t be able to see you
 huddles.b59a6c6: Piano Concerto
 huddles.f931216: Pinned
 huddles.ec21b7d: Play music
@@ -11284,9 +11290,8 @@ huddles.523baab: Upcoming
 huddles.b8120b4: Upgrade your free team to Pro to huddle with more than one person.
 huddles.794b563: Use Microphone
 huddles.b11095f: Use both devices
-huddles.c34a613: Use camera
-huddles.64f0f93: Use microphone
-huddles.33b2e56: Use microphone and camera
+huddles.3eb16ed: Use camera only
+huddles.2c01a4f: Use microphone only
 huddles.6e65c8a: Use this message as a jumping off point for a huddle with anyone in <strong>{channelName}</strong>. Huddles with more than 2 people are a paid feature, available with your free trial through {trialEndDate}.
 huddles.b7f9767: Use this message as a jumping off point for a huddle with anyone in this conversation. Huddles with more than 2 people are a paid feature, available with your free trial through {trialEndDate}.
 huddles.0725021: Use this message as a jumping off point for a huddle.
@@ -11355,6 +11360,7 @@ huddles.62c3ade: Would you like to leave it and join a huddle in {channel} inste
 huddles.5202484: Would you like to leave it and join a huddle with {listOfPersons} instead?
 huddles.d021707: Would you like to leave it and join this one instead?
 huddles.5397e05: Yes
+huddles.dd8c311: Yes, Turn On Camera and Mic
 huddles.01523b1: Yes, members can start and join huddles
 huddles.da24830: Yesterday
 huddles.905cb32: You
@@ -11370,7 +11376,7 @@ huddles.0a8e2c7: You can invite whomever you’d like to the huddle, and they’
 huddles.5575b1a: You can now easily access your channel’s canvas to take notes or reference important context.
 huddles.9fb3ae9: You can now preview your audio, video, and speaker before a huddle. If you’d rather jump right in, disable preview.
 huddles.d52c547: You can only draw when someone shares from the Slack desktop app
-huddles.f4978dc: You can still turn off your microphone and camera anytime in the huddle.
+huddles.425904b: You can turn your camera and microphone off anytime once you’re in the huddle.
 huddles.268f07a: You can undo this later in preferences.
 huddles.3444960: You can’t join this huddle
 huddles.597e9f2: You can’t see the thread because the huddle was started from a private conversation
@@ -14310,7 +14316,9 @@ message_attachment_mcp_ui.2e02623: Continue
 message_attachment_mcp_ui.36fff63: Discard
 message_attachment_mcp_ui.70afe9e: Dismiss
 message_attachment_mcp_ui.99aaf3a: Don’t Allow
+message_attachment_mcp_ui.fef2f5f: Enter full screen mode?
 message_attachment_mcp_ui.7f2f6a1: Error
+message_attachment_mcp_ui.9232fa2: Exit full screen mode?
 message_attachment_mcp_ui.f0c7179: External content from {appName}
 message_attachment_mcp_ui.da48acc: If you encounter inappropriate content or behavior, please report it to Slack.
 message_attachment_mcp_ui.2c48d7b: Jump after content
@@ -14322,16 +14330,19 @@ message_attachment_mcp_ui.0ff0210: Report this app
 message_attachment_mcp_ui.5b65a08: Report this app (opens in new window)
 message_attachment_mcp_ui.9f5cd8a: Retry
 message_attachment_mcp_ui.9bc2575: Send
+message_attachment_mcp_ui.25993ae: Send message?
 message_attachment_mcp_ui.4c852b2: Show less
 message_attachment_mcp_ui.25911d4: Show more
 message_attachment_mcp_ui.b193627: Something went wrong loading content from this app.
 message_attachment_mcp_ui.bbd12d5: This action is blocked by your connector preferences.
 message_attachment_mcp_ui.c078223: This app
+message_attachment_mcp_ui.f25e214: You’ll lose any content not yet submitted.
 message_attachment_mcp_ui.7d10434: app
 message_attachment_mcp_ui.c2543ff: this
 message_attachment_mcp_ui.737f7f2: this app
 message_attachment_mcp_ui.6a14780: {appName} tried to use {toolName}
 message_attachment_mcp_ui.2c6ff6b: {appName} wants to open this link in your browser:
+message_attachment_mcp_ui.f4b9734: {appName} wants to send this message on your behalf:
 message_attachment_mcp_ui.592b88c: {toolName}?
 message_input.3166e0f: <strong>Send a reply</strong> to {name}
 message_input_plus_button.0c431f4: Attach file
@@ -21624,6 +21635,7 @@ singer.fda222b: Mic in use by voice call
 singer.2428053: Microphone
 singer.151a837: More audio for this meeting’s canvas.
 singer.9f8eb5f: More for you
+singer.a94019b: More reactions
 singer.6259b62: Motion & feedback
 singer.0f09734: Mute
 singer.b9e78ce: Muted
@@ -21664,6 +21676,7 @@ singer.50fc304: Open in Slack to send commands or private agent requests. Your d
 singer.9ef6078: Open message in Singer
 singer.4ab962a: Open notes
 singer.2076205: Open reply
+singer.eed3aed: Open the conversation to read this message.
 singer.157b4d6: Open the conversation to view this update.
 singer.233ecea: Open voice details
 singer.cec9cab: Opening lamps.example…
@@ -21681,8 +21694,10 @@ singer.aa12329: Preview Singer’s reactions
 singer.eba4326: Preview · {size}, {pixels}px actual size
 singer.6a59987: Queued
 singer.fe73d79: Quiet
-singer.5a0d343: Quiet for {minutes} min
 singer.4ea8770: Racer Dood
+singer.f1f9434: React and mark done
+singer.89c7896: React with check mark
+singer.9e8a752: React with eyes
 singer.20c7c55: Ready
 singer.61fd682: Reconnect to mark these as read.
 singer.3a47bd4: Reconnect to show the browser.
