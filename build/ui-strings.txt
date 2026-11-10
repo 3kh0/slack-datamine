@@ -98,7 +98,7 @@
 ) are ignored.
 ) is not supported yet.
 ) that performed expensive computation.
-)&&(eR(!1),rs(void 0),eC(ry?
+)&&(eR(!1),rr(void 0),eC(rv?
 ))),e((0,d.R3)(h)),e((0,d.p4)(h?a:void 0)),p(h?
 ). If you meant to render a collection of children, use an array instead.
 )?l.makeImage(e.slice(8),new u.Ay(t,r,n,i),o?
@@ -131,7 +131,7 @@
 1D separable convolution is not implemented yet.
 2. Paste the response below, or paste your exported memory file.
 30 seconds left. Dictation will auto-submit.
-:(L?(0,A.SR)(t,!1):void 0)??
+:(L?(0,C.SR)(t,!1):void 0)??
 :(O?(0,v.SR)(t,D):void 0)??
 :(P?(0,v.SR)(i,L):void 0)??
 :(ao?(0,eP.SR)(ek,ar):void 0)??
@@ -3706,7 +3706,6 @@ Connect to Huddle media server
 Connect to Outlook Calendar
 Connect to Salesforce
 Connect to Salesforce in Sales Home to use this step and publish this workflow.
-Connect to Slack to load messages.
 Connect to Slack to load your skills. Your draft is still here.
 Connect to apps
 Connect to desktop store
@@ -7347,6 +7346,7 @@ Gas Middle Marketing Group
 Gas Middle Marketing Group; ECT
 Gas team
 Gate a block-kit client-side download on the block_file_download authorized-IP check
+Gates a prompt-carrying Slackbot deep link on ACCESS_SLACK_AI_SLACKBOT
 Gathering ICE candidates timed out. In Chrome, this might indicate that the browser is in a bad state after reconnecting to VPN.
 Gaussian Blur
 Gaze up to the sky
@@ -7884,7 +7884,6 @@ Handle file_favorite_updated RTM event for collection sort
 Handle focus transition on client mount
 Handle focus transition when a view closes
 Handle focus transitions away from thread
-Handle focus transitions when thread closes
 Handle huddle error
 Handle invalid auth by refetching or reloading
 Handle invite client action triggered from Canvas
@@ -8037,6 +8036,7 @@ Hide canvas
 Hide channel join banner when navigating away from channel view
 Hide comment
 Hide conversation
+Hide details
 Hide email preview
 Hide empty fields
 Hide field
@@ -8157,7 +8157,6 @@ Hubble link
 Huddle AI Notes
 Huddle Jukebox Manager created.
 Huddle Trace Manager created
-Huddle controls
 Huddle ended. Cleaning up event handlers and connection references.
 Huddle feedback section
 Huddle files
@@ -11275,6 +11274,7 @@ Next page
 Next priority
 Next quote
 Next recommendation
+Next request
 Next slide
 Next step
 Next week
@@ -12174,6 +12174,7 @@ Open in new window
 Open in secondary container
 Open in secondary view
 Open in side panel
+Open in sidebar
 Open in split view
 Open in thread
 Open insert menu
@@ -12345,6 +12346,7 @@ Opens Slackbot split view with thread context pre-filled
 Opens a Slackbot artifact in the nested secondary view
 Opens a Slackbot-created artifact in the nested secondary view
 Opens a channel in a new window
+Opens a conversation in the primary view, selected in the sidebar
 Opens a feedback dialog
 Opens a file downloaded by the desktop app
 Opens a file from the thread in the canvas
@@ -12388,8 +12390,6 @@ Opens member profile in the huddle window flexpane if the window is open
 Opens multi device modal
 Opens or focuses the Activity flexpane
 Opens or focuses the list of Starred Items
-Opens poll creator
-Opens poll response viewer
 Opens remove Native Channel Expert confirmation modal
 Opens remove member dialog
 Opens remove members modal
@@ -12724,6 +12724,7 @@ Paper Tape
 Papua New Guinea
 Paragraph (normal text) style
 Parent node is null!
+Parks a Slackbot deep-link source and prompt together until the permission resolves
 Parks a Slackbot deep-link source until the Slackbot AI permission resolves
 Parse error on line 
 Parse message to determine if its the Welcome DM then clog and mark as sent
@@ -13214,6 +13215,7 @@ Previous page
 Previous priority
 Previous quote
 Previous recommendation
+Previous request
 Previous slide
 Previous tab
 Previous value
@@ -13632,7 +13634,6 @@ Recent downloads
 Recent files
 Recent huddles
 Recent items from your last 4 days or messages with a reminder will show up in Today with your other action items.
-Recent messages
 Recent people
 Recent places
 Recent searches
@@ -15638,7 +15639,6 @@ Select Options
 Select Thumbnail
 Select a Calendar
 Select a Salesforce object to begin configuring conditions
-Select a Salesforce org to see its objects
 Select a canvas
 Select a canvas to duplicate and add to the template.
 Select a channel
@@ -15651,12 +15651,10 @@ Select a data source and object above to start configuring the filters
 Select a date
 Select a date to preview messages
 Select a draft for drafts bulk edit, or deselect it if it is already selected
-Select a field to see its related fields
 Select a list to duplicate and add to the template.
 Select a member
 Select a message and channel with content you want the agent to reference when generating its response.
 Select a parent reference field to start configuring the filter conditions
-Select a record to see its fields
 Select a record to view and update Salesforce info without leaving Slack.
 Select a row to edit or delete
 Select a starting on date
@@ -15681,7 +15679,6 @@ Select an end date
 Select an existing Salesforce data source and object, so your trigger knows what to look for. Then add conditions to your trigger to get even more specific about when it should fire.
 Select an existing channel
 Select an image
-Select an object to see its records
 Select an option
 Select an org
 Select app integrations to supercharge your workflow.
@@ -15701,7 +15698,6 @@ Select from
 Select from Google Contacts
 Select groups
 Select one or more
-Select one or more options
 Select options
 Select people
 Select requires an 
@@ -17566,6 +17562,7 @@ Show custom toast
 Show data queries
 Show deleted statuses and stages
 Show description
+Show details
 Show email preview
 Show everything
 Show external canvas or external list reshare warning
@@ -18351,7 +18348,6 @@ Start test
 Start the JP Pocket Guide V2 step 1 flow
 Start the Sonic Channel Invite flow in client
 Start the canvas jukebox using content share
-Start the conversation with a message.
 Start the destination channel history request for a navigation
 Start thread
 Start time

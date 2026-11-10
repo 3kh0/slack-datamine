@@ -580,8 +580,6 @@ pins.add: channel
 pins.list: channel
 pins.remove: channel
 platform.requests.create: entity_id, request_type
-polls.create: allow_multiple_choice, choices, question
-polls.vote: choices, file_id
 presence.set: presence
 profiling.addJSTrace: trace, type
 promo.campaigns.eligibilityInfo: campaign_sub_type, campaign_type, context
