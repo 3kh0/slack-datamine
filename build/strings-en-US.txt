@@ -501,6 +501,7 @@ activity.d4dc4ab: Copy huddle link
 activity.2f84eea: Copy link
 activity.138ab00: Copy name
 activity.67de2cf: Couldn’t load your pull requests
+activity.e1300fe: Couldn’t send that to the agent. Try again.
 activity.0a6ccae: Create Custom View
 activity.c47e98c: Create a new view
 activity.1641c52: Ctrl Alt Click
@@ -2112,6 +2113,7 @@ assistant.be7e10d: Bad
 assistant.00544f7: Bad response
 assistant.40370fb: Bad summary
 assistant.d60e787: Bad translation
+assistant.f03b60f: Beta
 assistant.abaec45: Billing
 assistant.db9d5a6: Brainstorm
 assistant.b7540d2: Brainstorm talking points for my next meeting.
@@ -2139,6 +2141,7 @@ assistant.ad9c808: Citations were missing or linked to irrelevant messages
 assistant.0a6cd6e: Citations were missing or linked to irrelevant sources
 assistant.da7a80c: Clear wording
 assistant.bbfa773: Close
+assistant.2f253cc: Close messages
 assistant.9b6e9be: Close summary of channel
 assistant.c0d48b2: Close summary of thread
 assistant.beac54a: Collaborate on this canvas
@@ -2609,6 +2612,7 @@ assistant.3acc82d: We’re not sure exactly what went wrong, but please try agai
 assistant.bbf56e6: What are you working on today?
 assistant.f419aa0: What can you help me with?
 assistant.7272525: What would you like to do with this list?
+assistant.37b868c: What you and Slackbot say will show up here.
 assistant.3fd30db: What’s on your mind?
 assistant.02f5f66: Whenever you’re new to a channel or feeling behind, an AI summary is just a click away.
 assistant.ada792f: Where will this canvas take you today?
@@ -3975,7 +3979,6 @@ channel_details.a47173c: Keep replies short, and link to the team handbook when 
 channel_details.6137963: Keep responses concise, and use the occasional emoji
 channel_details.49b8bd5: Keep typing a full email
 channel_details.3d29d32: Keep work organized by pinning important files and messages. That way, anyone is this conversation can easily find them here.
-channel_details.516cf9f: Knowledge sources
 channel_details.7e2f47e: Last edited
 channel_details.378cbbf: Learn More
 channel_details.824d76b: Learn more
@@ -9322,6 +9325,7 @@ file.f334cf9: View transcript
 file.89a286c: Workflow options
 file.870984d: {date} at {time}
 file.26d4d69: {name} (you)
+file.71bf47a: };null===O?O=[E]:O.push(E),q++}var F=eg;j=!1;for(var M=0;M<F.length;M++)if(eM(x,F[M])){j=!0;break}if(!j){var E={keyword:
 file.7cbc1b0: ⌘ Click
 file.362e018: ⌘ Opt Click
 file-collection.50d6325: A-Z
@@ -13387,6 +13391,7 @@ mentions.bb12e8a: Threads
 mentions.9681da8: Time to check out what else may be buzzing about in Home
 mentions.e6ba0dd: Unreads
 mentions.944b88d: VIP
+mentions.b61e603: VIP activity
 mentions.e53ff6d: View Activity
 mentions.328eca9: View all results by doing a full search
 mentions.da24830: Yesterday
@@ -20671,7 +20676,6 @@ shared_channel_invites.989face: Invitation has already been accepted
 shared_channel_invites.d876296: Invitations to work with other companies can’t be accepted from this workspace.
 shared_channel_invites.4f41ae3: It looks like someone else has already accepted this invitation.
 shared_channel_invites.289947e: It looks like this invitation was already accepted.
-shared_channel_invites.0e283bf: It looks like your organization can’t join this workspace. If this sounds wrong, please reach out to the person who sent you the invitation.
 shared_channel_invites.135d1ae: Looks like your team added this channel to a workspace that you don’t have access to.
 shared_channel_invites.909e6e5: Make sure you recognize the sender’s email address and other info.
 shared_channel_invites.980cdfd: Ready to upgrade?
@@ -20683,7 +20687,6 @@ shared_channel_invites.5edd22a: Slack Connect invitations are only active for 14
 shared_channel_invites.6c8c81c: Slack Connect is a paid feature, so your team needs to upgrade in order for you to accept this invitation. Contact an admin for help.
 shared_channel_invites.e8c88ba: Slack Connect isn’t enabled for this workspace yet
 shared_channel_invites.a648ab7: Slack Connect isn’t enabled on {workspaceName}
-shared_channel_invites.04e1a9c: Something isn’t working. Try again in few minutes.
 shared_channel_invites.8d886c0: Something went wrong
 shared_channel_invites.76ef109: Something went wrong. You might want to try <restart-link>restarting the app</restart-link>.
 shared_channel_invites.37757c1: Take a look at the <link>instructions from your admins</link> for details.
@@ -20694,7 +20697,6 @@ shared_channel_invites.d66de03: This channel was originally added to {alreadyCon
 shared_channel_invites.b2bfc83: This invitation couldn’t be accepted. You may want to reach out to {invitingUser} at {invitingOrg} for details.
 shared_channel_invites.3d29b08: This invitation is from a new account
 shared_channel_invites.d7e053a: This invitation is no longer available. You may want to ask the person who invited you to resend it.
-shared_channel_invites.3130da5: This invitation is no longer valid. Please reach out to the person who sent it to you and request a new one.
 shared_channel_invites.8b476a7: This invitation was sent to <strong>{emailAddress}</strong> so you need to sign in to {orgName} to accept it.
 shared_channel_invites.9ff4303: This invite can’t be accepted
 shared_channel_invites.84071c5: This link doesn’t look quite right. Please try again or reach out the person who sent it to you and request a new one.
@@ -20709,8 +20711,6 @@ shared_channel_invites.5d5a73a: Waiting for an admin’s approval
 shared_channel_invites.8faaff0: We’re sorry, but this invitation is no longer valid. 
 shared_channel_invites.c3c0c6a: We’re sorry, but you do not have permission to use Slack Connect Direct Message in your organization.
 shared_channel_invites.f549ea3: Who are my admins?
-shared_channel_invites.b5d9581: You were invited by <strong>{invitingUserName}</strong> from {invitingTeamNameStyled} to join {sharedWorkspaceName}.
-shared_channel_invites.5491df4: You were invited by {invitingTeamNameStyled} to join {sharedWorkspaceName}.
 shared_channel_invites.05b8b3b: Your admins don’t allow you to accept this invitation.
 shared_channel_invites.6709cad: Your admins have disabled Slack Connect channels in {workspaceName}. To change this, you’ll need to talk to them.
 shared_channel_invites.2c7883a: Your admins have disabled Slack Connect channels in {workspaceName}. You can <suggested-workspace-link>accept in {suggestedWorkspaceName}</suggested-workspace-link>.
@@ -21298,6 +21298,7 @@ singer.0e8e35d: DMs
 singer.1a1a265: Daily Prep
 singer.5a25103: Dates — Oct 14–15
 singer.808d7dc: Default
+singer.e20d5fb: Default duration
 singer.fd14281: Deletes Slackbot’s saved browser profile, including sign-ins and site data for every site.
 singer.f27d86c: Deletes saved sign-ins and site data for every site. Open browsers can stay signed in, but won’t save those sign-ins again. This can’t be undone.
 singer.47f0c5a: Dictate a message
@@ -21311,6 +21312,7 @@ singer.e9b450d: Done
 singer.55823ef: Done!
 singer.929b574: Dot · $39 · 4.1★
 singer.6771673: Draft a helpful reply to this message. Read its conversation for context and address the requests in it. Keep the reply as a draft for me to review; do not send it.\n\n{url}
+singer.d7d6d9c: Draft a reply
 singer.5f0c084: Draft a reply for this Slack conversation: {link}\n\nReturn only the message draft. Do not send any messages.
 singer.77522ab: Draft a reply to {name}
 singer.8db174c: Draft a reply with Slackbot
@@ -21322,6 +21324,7 @@ singer.dada5c7: Drop Singer right on the window.
 singer.02c0ce3: Dropping Singer on a window isn’t available here yet. This is a sample.
 singer.c8e8e21: Each task gets a private code channel. Write your task in the input; the agent will ask if it needs you.
 singer.9f9b55b: Einstein
+singer.2cc92f6: End Quiet
 singer.c8de761: End call
 singer.580b6aa: Files can’t be added to this conversation.
 singer.95b51aa: Filter Slack activity
@@ -21332,7 +21335,9 @@ singer.355bcc5: Finished
 singer.84cfd0f: Fold · $72 · 4.8★
 singer.f294cd4: Follow my Mac
 singer.a9c5be2: Follow up on activity
+singer.6b96c81: Follow up on activity from {name}
 singer.b2337a8: Follow up with Slackbot
+singer.f52bed1: Follows your Slack notification settings.
 singer.807979c: Forget Sign-ins
 singer.d18bc81: Forget browser sign-ins
 singer.bb1a479: Forget…
@@ -21355,6 +21360,7 @@ singer.98598b6: Hide from companion
 singer.ae44077: Hold to talk
 singer.9994b42: Hold to try a hello. Just a preview—your mic stays off.
 singer.664fda1: Huddle invite
+singer.ddb36ec: Huddle invites
 singer.b27e958: Huddle notes
 singer.cc1ebdd: Idle
 singer.69e5b48: Island activity muted for {minutes, plural, one {# minute} other {# minutes}}. Messages stay unread.
@@ -21366,9 +21372,11 @@ singer.fc018de: Keep Going
 singer.77ccc1b: Keep recording
 singer.738fd1d: Large
 singer.56e2f5d: Later
+singer.db5c797: Later duration
 singer.016ab70: Later today
 singer.02a2fe5: Left ⌘
 singer.45d649e: Leo shared the final pricing doc.
+singer.49419b4: Let VIPs speak up in Quiet
 singer.1f4e169: Let go to choose it.
 singer.dc35348: Listening
 singer.6c19a47: Listening…
@@ -21405,6 +21413,7 @@ singer.32d7428: Meeting reminder dismissed. You can still find it in Today.
 singer.cf829f1: Meeting reminders
 singer.b23a193: Meetings
 singer.85e12bc: Mentions
+singer.aba7bad: Message previews
 singer.9cf1b68: Message sent
 singer.4b53f7a: Message {name}
 singer.fda222b: Mic in use by voice call
@@ -21458,6 +21467,7 @@ singer.bda7ddf: Other updates are still unread.
 singer.c5b96cc: Over $60
 singer.3daae9e: PR needs attention
 singer.91ebb55: PR open
+singer.2e9dcf1: Pause Singer notices. Slack still delivers everything.
 singer.c7dfb6f: Paused
 singer.6915f76: Pausing…
 singer.23896cc: Prep
@@ -21468,6 +21478,7 @@ singer.aa12329: Preview Singer’s reactions
 singer.eba4326: Preview · {size}, {pixels}px actual size
 singer.6a59987: Queued
 singer.fe73d79: Quiet
+singer.5a0d343: Quiet for {minutes} min
 singer.4ea8770: Racer Dood
 singer.f1f9434: React and mark done
 singer.89c7896: React with check mark
@@ -21530,6 +21541,7 @@ singer.c7f73bb: Settings
 singer.a82b2d5: Show More Skills
 singer.cf0f51d: Show New Activity
 singer.ded0a5d: Show me
+singer.9bfd43e: Show message text when your Slack privacy settings allow it.
 singer.348b2d3: Showtime
 singer.f8492cc: Sign In
 singer.fc5040b: Sign in, then choose Continue. Slackbot can’t see this page.
@@ -21564,6 +21576,7 @@ singer.e92d02d: Start recording
 singer.7f36d18: Start recording to turn this meeting into notes.
 singer.ebb3898: Starting Slackbot task…
 singer.e5f5809: Starting…
+singer.e2b6f61: Still respects Slack’s Do Not Disturb and VIP settings.
 singer.673dc5a: Still sending. Your draft is saved here.
 singer.fc3bb0e: Still waiting for Slackbot. Your message is saved here.
 singer.9e25347: Stop
@@ -21582,6 +21595,7 @@ singer.c721b65: Take over anytime. Singer picks up where you left off.
 singer.c447725: Taking control…
 singer.4e6a710: Talk
 singer.849d26b: Talk isn’t available in this workspace yet. You can still type a question.
+singer.7cd4f2a: Talk to Slackbot
 singer.090ec5f: Tasks
 singer.348527a: That didn’t work. Try again.
 singer.9d41e71: That draft isn’t ready to use. Check your connection and access.
@@ -21610,6 +21624,7 @@ singer.192715c: Unread Slack activity
 singer.c99407b: Untitled conversation
 singer.05dc73d: Use Draft
 singer.944b88d: VIP
+singer.b61e603: VIP activity
 singer.d9e27fc: VIPs
 singer.5f11525: Venue — To be decided
 singer.fb81ecc: View Answer
@@ -21623,6 +21638,7 @@ singer.0ab6291: Wait until the message editor is ready to quote a message.
 singer.9afc81c: Waiting for an update
 singer.45c6f16: Welcome to Slackbot!
 singer.5836a4a: What Singer can do
+singer.ed36041: What can speak up
 singer.2763654: What did I miss in #proj-aurora?
 singer.b4da940: What did I miss today?
 singer.3fd30db: What’s on your mind?
@@ -21655,9 +21671,11 @@ singer.57f9ee9: lamps.example
 singer.8b808d1: {count, plural, =0 {No conversations found} one {# conversation found} other {# conversations found}}
 singer.1f8d362: {count, plural, =0 {No matching activity loaded.} one {# matching activity item loaded.} other {# matching activity items loaded.}}
 singer.8a65704: {count, plural, one {# file} other {# files}}
+singer.808dc33: {count, plural, one {# new activity item} other {# new activity items}}
 singer.4492438: {count, plural, one {# task update} other {# task updates}}
 singer.6c37732: {count, plural, one {<b>#</b> DM} other {<b>#</b> DMs}}
 singer.fdc6966: {count} new
+singer.671ee27: {minutes, plural, one {# minute} other {# minutes}}
 singer.09a22c2: {minutes} min
 singer.97f52ce: {title}. {author}. {status}. Open conversation
 singer-window-conversation.1b29cf6: Allow Editing
@@ -23311,6 +23329,7 @@ slackbot-home.8dc7b2b: Daily briefing
 slackbot-home.060597f: Describe how you want your sidebar to look
 slackbot-home.70afe9e: Dismiss
 slackbot-home.7d38d45: Dismiss connector suggestions
+slackbot-home.d7d6d9c: Draft a reply
 slackbot-home.c250d77: Event Details
 slackbot-home.3d19433: Following the thread in {label}
 slackbot-home.a4e013e: Following your conversation with {label}
@@ -25045,6 +25064,7 @@ tabbed-channel.f73a684: {actionLabel} (opens in new window)
 tabbed-channel.0caed8e: {channelName} views
 tabbed-channel.75e6a6b: {count, plural, =1 {# item} other {# items}}
 tabbed-channel.b8baf35: {count, plural, =1 {#+ item} other {#+ items}}
+tabbed-channel.71bf47a: };null===O?O=[E]:O.push(E),q++}var F=eg;j=!1;for(var M=0;M<F.length;M++)if(eM(x,F[M])){j=!0;break}if(!j){var E={keyword:
 tabcomplete.37a0949: <strong>esc</strong> to dismiss
 tabcomplete.64acf7e: Agents
 tabcomplete.36c804e: Available skills
@@ -26306,6 +26326,7 @@ url_hover_card.b7c3ca0: Copied!
 url_hover_card.2f84eea: Copy link
 url_hover_card.d051707: Link
 url_hover_card.71bf47a: Open in new tab
+url_hover_card.71bf47a: };null===O?O=[E]:O.push(E),q++}var F=eg;j=!1;for(var M=0;M<F.length;M++)if(eM(x,F[M])){j=!0;break}if(!j){var E={keyword:
 use-announce-slackbot-streaming-state.5e5a59b: Slackbot has responded
 use-announce-slackbot-streaming-state.a64fd45: Slackbot is responding
 user-feedback.296feb6: <bold>We’re here to help ❤️ </bold><br></br>Find answers to product questions or open a support case on the <helpCenter>Slack Help Center</helpCenter>.
