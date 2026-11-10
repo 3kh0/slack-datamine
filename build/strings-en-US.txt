@@ -1875,6 +1875,8 @@ app_dialog.b16c7ac: (optional)
 app_dialog.2dacf65: Submit
 app_dialog.ab90d9d: This field is required.
 app_dialog.26dc55d: We had some trouble connecting. <a>Try again?</a>
+app_dialog.38ffdb9: You can't enter more than {maxLength, plural, =1 {# character} other {# characters}}.
+app_dialog.d800655: You must enter at least {minLength, plural, =1 {# character} other {# characters}}.
 app_home.f0ee13e: Access restricted
 app_home.378cbbf: Learn More
 app_home.cce7155: Reload
@@ -2648,6 +2650,7 @@ assistant.7a37251: You missed some days, but not a beat
 assistant.b42307f: You:
 assistant.e9e3500: Your AI recap is ready to skim, saving you about {numMinutes, plural, =1 {{numMinutes} minute} other {{numMinutes} minutes}} of reading time. Your secret’s safe with us.
 assistant.64f7e23: Your Channels
+assistant.36bbbee: Your call with Slackbot is in {workspace}. To see its messages, you’ll switch to that workspace.
 assistant.8c1b965: Your conversation with {agentName} moves to a private code channel where invited people can see the full history and participate.
 assistant.62cc0e2: Your daily recap has a fresh update
 assistant.1e0274f: Your feedback matters.
@@ -8091,7 +8094,6 @@ edit_profile.cf6ea6c: Edit Profile Select
 edit_profile.72b0f6f: Edit Profile Upload
 edit_profile.6a02ee4: Edit your profile
 edit_profile.c4340df: Eek
-edit_profile.0b61cd9: Ex. https://www.salesforce.com/trailblazer/myprofile
 edit_profile.ecbd4ff: External-facing profile photo
 edit_profile.916a78d: First
 edit_profile.7a3a4a4: Fourth
@@ -17398,6 +17400,7 @@ promotions.22ac41e: Connect the tools and services you use every day right into 
 promotions.c4a9287: Connect your SSO to any identity provider
 promotions.ba8877c: Connect your calendar to Slack
 promotions.d482590: Connected calendar, AI tools, and essay drafts in a single place
+promotions.2f83cdd: Consumption based
 promotions.7a0a9bd: Contact Sales
 promotions.8bd0476: Continue with Free
 promotions.dcdf6c2: Copy and paste Salesforce record links into Slack, creating rich previews that surface key details without having to open a new browser tab.
@@ -17461,6 +17464,7 @@ promotions.8fe511c: Export data from public channels, private channels, and dire
 promotions.47788e3: Faster, smarter results
 promotions.0f7066d: File summaries
 promotions.8cb124e: Find all the information you need, right from Slack
+promotions.a65fecd: Find answers, summarize channels, and work across your apps. Limits vary by plan. Contact sales to add more.
 promotions.bd6a168: Find context from past decisions and get new team members up to speed faster by searching across people, channels, and files.
 promotions.a6c82f1: Find everything you need from a single place. Surface data from all of your organization’s connected applications, databases, and business systems with enterprise search.
 promotions.34a4556: Find what you need from your team’s archive
@@ -17622,7 +17626,6 @@ promotions.544b189: Slack can be configured to support protected health informat
 promotions.04d9893: Slack logo
 promotions.53c00d0: Slack supports member provisioning with the System for Cross-domain Identity Management (SCIM) standard. To use provisioning, you’ll need to use a connector app alongside a supported identity provider.
 promotions.9fbb94b: Slackbot
-promotions.5b7f7f2: Slackbot (personal AI agent)
 promotions.adbea27: Slackbot — your personal AI teammate
 promotions.209e2a2: Slackbot’s new skill: Customer management
 promotions.d9a7277: Some things for you and your team to try.
@@ -17678,6 +17681,7 @@ promotions.f3ba387: Upgrade to keep access to:
 promotions.2bdca9b: Upgrade to keep working with {externalOrgName}
 promotions.04e041a: Upgrade to keep {productName} access
 promotions.36f9838: Upon Request
+promotions.54a0088: Usage limits
 promotions.a271780: Use AI in workflows
 promotions.8a808a8: Use SAML SSO to automate onboarding and make your workspace more secure.
 promotions.2379761: Use Template
@@ -17711,7 +17715,6 @@ promotions.298b6f9: You share this channel with {connectedTeamIds} teams
 promotions.7c5b8fc: You share this channel with {connectedTeamName}
 promotions.8e2c6b8: You won’t be able to access external channels unless you upgrade
 promotions.accd31b: Your organization now has access to the all-new Slackbot. <learnMoreLink>Learn more</learnMoreLink>
-promotions.832c5f3: Your personal AI agent that understands conversations, files, and projects in Slack. Plan limits apply.
 promotions.845352e: Your plan will continue to renew to Business+ in {numDays, plural, =1 {# day} other {# days}} when your trial ends. <adminBillingLink>You can manage your plan in billing.</adminBillingLink>
 promotions.42ea6c6: Your smart Slack productivity partner
 promotions.f70da49: Your trial ends in {numDays, plural, =1 {# day} other {# days}}. Here’s what you’d miss if you don’t upgrade.
@@ -21477,6 +21480,7 @@ singer.8703a74: Catch up
 singer.18e03e2: Channels
 singer.e122b79: Channels, DMs and threads you visit in Slack will appear here.
 singer.ee9946c: Character
+singer.749d704: Character, outfit, and size changes save to your Slack account.
 singer.2ced57f: Chat
 singer.4f936b7: Check Tasks
 singer.cc58f4d: Check draft request
@@ -21523,6 +21527,7 @@ singer.57c9dc8: Couldn’t mark as read. Try again.
 singer.1946fbe: Couldn’t mark read. Try again.
 singer.d4df57f: Couldn’t open that conversation. Try again.
 singer.e1f58c2: Couldn’t open this activity. Try again.
+singer.9e20b19: Couldn’t open this reply. Dismiss the update to get back to Slackbot.
 singer.39e0c56: Couldn’t send. Your draft is saved here.
 singer.4d3df55: Couldn’t send. Your message is still here. Try again when you’re connected.
 singer.d3f8c92: Cozy Knit
@@ -21596,7 +21601,6 @@ singer.69e5b48: Island activity muted for {minutes, plural, one {# minute} other
 singer.33b2fab: It’s been quiet for a while. Still in the meeting?
 singer.8dc7564: I’m using Slackbot to record and transcribe this meeting with AI and make notes. Please let me know if you’d prefer I stop.
 singer.2e0db25: Join huddle
-singer.b8186e0: Just for you on this device. Changes apply right away.
 singer.1a066ec: Just the venue. Dates and budget are set.
 singer.fc018de: Keep Going
 singer.77ccc1b: Keep recording
@@ -21638,6 +21642,7 @@ singer.ae3cd65: Meeting notes
 singer.fb8d903: Meeting notes are ready
 singer.3e63bfe: Meeting recording
 singer.6289926: Meeting recording continues
+singer.32d7428: Meeting reminder dismissed. You can still find it in Today.
 singer.cf829f1: Meeting reminders
 singer.b23a193: Meetings
 singer.85e12bc: Mentions
@@ -25413,8 +25418,6 @@ team.ac6b1e7: Multi-Channel Guests see a partial directory and can only access m
 team.24a3adc: Name hidden
 team.43ff311: Not on Slack
 team.f2df7f3: Permission: {scope}
-team.4b2a6a3: Points
-team.dd48a11: Rank
 team.e29a79f: Review
 team.bcb8cae: Review {name}
 team.e078307: See all permissions
@@ -28609,6 +28612,7 @@ workflow_builder.7839afb: This section uses fields that are no longer available:
 workflow_builder.5ef8a4e: This sheet will be automatically generated from the values below.
 workflow_builder.f025f2e: This skill’s contents will be shared with anyone who runs this workflow.
 workflow_builder.25138a7: This starting action can’t be used with workflows that have Generate AI response steps.
+workflow_builder.e25215a: This step can only update messages sent by this workflow.
 workflow_builder.ab1aaca: This step cannot be added inside a repeat step.
 workflow_builder.a614b03: This step cannot be added to workflows with Agent steps.
 workflow_builder.793ad19: This step cannot be added to workflows with Generate AI response steps.

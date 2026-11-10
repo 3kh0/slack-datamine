@@ -61,7 +61,7 @@ session_duration [security]: Session duration — free=yes pro=yes business=yes 
 single_sign_on_sso [security]: Single sign-on (SSO) — free=no pro=limited(OAuth with Google) business=limited(SAML-based) enterprise=limited(Supports multi-SAML)
 slack_connect [productivity]: Slack Connect — free=limited(1:1 only) pro=yes business=yes enterprise=yes
 slack_enterprise_key_management [security]: Slack Enterprise Key Management — free=no pro=no business=no enterprise=limited(Add-on)
-slackbot [ai]: Slackbot (personal AI agent) — free=no pro=no business=yes enterprise=yes
+slackbot [ai]: Slackbot — free=no pro=no business=limited enterprise=limited(Unlimited)
 support_for_hipaa_compliance [compliance]: Support for HIPAA compliance — free=no pro=no business=no enterprise=yes
 templates [productivity]: Templates — free=no pro=limited(User-created) business=limited(User-created) enterprise=limited(Admin-created)
 thread_and_channel_summaries [ai]: Thread and channel summaries — free=no pro=yes business=yes enterprise=yes
