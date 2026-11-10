@@ -1088,6 +1088,7 @@ agents.1715565: Couldn’t deactivate the skill. Please try again.
 agents.5100cca: Couldn’t load this skill. The link may have expired.
 agents.e4be515: Couldn’t load this skill. Try again later.
 agents.1392fdc: Couldn’t reactivate the skill. Please try again.
+agents.9a03fa8: Couldn’t send your request. Please try again.
 agents.644f22b: Create a Sidekick
 agents.86250ff: Create a copy
 agents.beebfa1: Create a link that lets anyone add a copy of this skill to their own Slackbot, even people outside your organization.
@@ -1326,9 +1327,11 @@ agents.bc0792d: System
 agents.090ec5f: Tasks
 agents.8879d50: Team management
 agents.fe25325: Thanks for letting us know! Your feedback helps us improve Agentforce for everyone.
+agents.811f7e3: The admin who turned this skill off isn’t available. Ask another admin or Skill Manager to turn it back on.
 agents.f35bd67: The skill author will get a message from Slack. If you add a reason, it’ll be included.
 agents.256c1eb: This link expires on {date}.
 agents.9d88040: This prompt uses skills you haven’t added yet. Add them to your library to get the best results.
+agents.bfbf203: This skill is already back on.
 agents.c7f7d56: This skill is built by Slack.
 agents.69b6aef: This skill is from outside your organization and hasn’t been verified by Slack.
 agents.9ee3f4c: This skill may no longer be available, or the link may be incorrect.
@@ -1710,8 +1713,6 @@ app_action_picker.2e0db25: Join huddle
 app_action_picker.48ce9cd: Leave huddle
 app_action_picker.40de3c4: Manage Connectors
 app_action_picker.5b7111c: Manage apps
-app_action_picker.412d8f8: Mute this DM
-app_action_picker.14052c0: Mute this group DM
 app_action_picker.472d469: No available apps
 app_action_picker.c58c9bd: No connectors
 app_action_picker.28477b1: Notifications resumed
@@ -1722,11 +1723,7 @@ app_action_picker.430b38b: Slack
 app_action_picker.d9a37db: Start huddle
 app_action_picker.ef98f1f: Start or join huddle
 app_action_picker.c90c34e: Tip: double click to upload
-app_action_picker.603714f: Unfollow thread
 app_action_picker.3421434: Unfollowed thread
-app_action_picker.4928b8e: Unmute this DM
-app_action_picker.e7f9206: Unmute this channel
-app_action_picker.7863efd: Unmute this group DM
 app_action_picker.6ffdfad: Update your status
 app_action_picker.43e92d7: You’re set to active
 app_action_picker.f150453: You’re set to away
@@ -21506,6 +21503,7 @@ singer.ad5a095: Couldn’t load your conversations. Try again.
 singer.75a9fcd: Couldn’t load your skills
 singer.57c9dc8: Couldn’t mark as read. Try again.
 singer.1946fbe: Couldn’t mark read. Try again.
+singer.d4df57f: Couldn’t open that conversation. Try again.
 singer.e1f58c2: Couldn’t open this activity. Try again.
 singer.39e0c56: Couldn’t send. Your draft is saved here.
 singer.4d3df55: Couldn’t send. Your message is still here. Try again when you’re connected.
@@ -21674,7 +21672,6 @@ singer.50fc304: Open in Slack to send commands or private agent requests. Your d
 singer.9ef6078: Open message in Singer
 singer.4ab962a: Open notes
 singer.2076205: Open reply
-singer.eed3aed: Open the conversation to read this message.
 singer.157b4d6: Open the conversation to view this update.
 singer.233ecea: Open voice details
 singer.cec9cab: Opening lamps.example…
@@ -21807,7 +21804,6 @@ singer.c721b65: Take over anytime. Singer picks up where you left off.
 singer.c447725: Taking control…
 singer.4e6a710: Talk
 singer.849d26b: Talk isn’t available in this workspace yet. You can still type a question.
-singer.7cd4f2a: Talk to Slackbot
 singer.1a6ba58: Talk with Slackbot
 singer.090ec5f: Tasks
 singer.31f2ce0: Tell me about this window.
@@ -21815,6 +21811,7 @@ singer.348527a: That didn’t work. Try again.
 singer.9d41e71: That draft isn’t ready to use. Check your connection and access.
 singer.597e22c: That transcript is no longer available. Try attaching the meeting again.
 singer.d3e91ff: These updates are marked read.
+singer.abcde54: These updates are still unread.
 singer.d3812f8: These updates couldn’t be fully summarized and are still unread.
 singer.d08d8da: Thinking
 singer.b35e277: This browser session has closed.
@@ -21887,7 +21884,6 @@ singer.57f9ee9: lamps.example
 singer.8b808d1: {count, plural, =0 {No conversations found} one {# conversation found} other {# conversations found}}
 singer.1f8d362: {count, plural, =0 {No matching activity loaded.} one {# matching activity item loaded.} other {# matching activity items loaded.}}
 singer.8a65704: {count, plural, one {# file} other {# files}}
-singer.808dc33: {count, plural, one {# new activity item} other {# new activity items}}
 singer.07c9e92: {count, plural, one {# skill found} other {# skills found}}
 singer.4492438: {count, plural, one {# task update} other {# task updates}}
 singer.162ce25: {count, plural, one {# update in Activity} other {# updates in Activity}}
@@ -23924,6 +23920,7 @@ slackforce.36377ad: Descending
 slackforce.0af9775: Describe what you’d like Slackbot to do
 slackforce.36fff63: Discard
 slackforce.3a09ce0: Discard draft
+slackforce.d0e1fe0: Disconnect your Salesforce org instead
 slackforce.70afe9e: Dismiss
 slackforce.988ff8e: Dismiss Suggested Message
 slackforce.29a78b0: Dismiss suggestion
@@ -24290,6 +24287,7 @@ slackforce.bea7122: Update and research your CRM in the flow of work. <link>Take
 slackforce.ff6dd09: Update record details
 slackforce.5932090: Update {recordName} information
 slackforce.91f1e41: Update {recordName}'s information
+slackforce.3ee96d8: Upgrade to manage sales in Slack
 slackforce.29d5c83: Upgrade to view this Salesforce List
 slackforce.09cc3f1: Upload attachment
 slackforce.542fc71: User name
@@ -24336,6 +24334,7 @@ slackforce.27b445f: Your contacts list is ready to go.
 slackforce.1dd9776: Your email may have been sent. Check your Gmail Sent folder before trying again.
 slackforce.267dc60: Your team has a Salesforce integration to make viewing data and updating info easier without leaving Slack.
 slackforce.f19e382: You’ll get its messages from now on.
+slackforce.757a455: You’ll need to upgrade your plan to access Sales Home.
 slackforce.c14f755: You’ll need to upgrade your plan to be able to access this list.
 slackforce.78d93b7: bcc: {bcc}
 slackforce.c0a5f83: cc: {cc}

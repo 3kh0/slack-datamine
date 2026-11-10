@@ -15,6 +15,7 @@ ai.alpha.slackbot.channelSkills.addSkill: channel_not_enabled, channel_not_found
 ai.alpha.slackbot.channelSkills.getConfiguration: channel_not_enabled, channel_not_found, restricted_action
 ai.alpha.slackbot.channelSkills.removeSkill: channel_not_enabled, channel_not_found, failed_to_remove_skill, restricted_action
 ai.alpha.slackbot.channelSkills.setCustomInstructions: channel_not_enabled, channel_not_found, failed_to_set_custom_instructions, restricted_action
+ai.alpha.slackbot.skills.requestReactivation: access_denied, admin_unavailable, feature_disabled, file_not_found, not_a_skill, request_failed
 ai.alpha.slackbot.skills.updateMetadata: custom_category_not_found, file_not_found, not_a_skill, skill_support_disabled, too_many_mcp_servers, update_failed
 ai.alpha.surfaces.deleteVersion: delete_failed, file_not_found, not_allowed, surface_edits_not_enabled, version_is_current, version_not_found
 ai.alpha.surfaces.restoreVersion: content_unavailable, file_not_found, head_changed, not_allowed, restore_failed, surface_edits_not_enabled, version_not_found

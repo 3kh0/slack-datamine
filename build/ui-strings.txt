@@ -1663,6 +1663,7 @@ Ask for the omniswitcher Slackbot mode switch hint after the search modal header
 Ask in thread
 Ask it to do things for you, like prep for meetings and draft replies.
 Ask the Writing coach skill to polish my draft into a clear, on-voice version and summarize what changed.
+Ask the admin who deactivated a skill to reactivate it
 Ask whether the current user could give themselves edit access to a skill
 Ask whoever shared this huddle with you for a new link.
 Ask whoever shared this huddle with you for another way to join.
@@ -3104,6 +3105,7 @@ Clear metadata for a thread in a window
 Clear no audio output
 Clear no media input from microphone or camera
 Clear no or low input audio level
+Clear oauth token
 Clear out all selected draft ids
 Clear out root messages
 Clear pending draft insert
@@ -10323,6 +10325,7 @@ Mark the user as no longer viewing the file
 Mark the user as viewing the file
 Mark the window as unloading
 Mark this group as important
+Mark token expired
 Mark unread
 Mark user as having sent an invite during team creation
 Mark when a summary has been triggered
@@ -12291,6 +12294,7 @@ Open the modal to set solution template permissions
 Open the new to-do composer
 Open the new to-do composer from the Business+ trial task list
 Open the pro pocket guide checklist panel
+Open the profile of an app the user has requested
 Open the reasoning trace for a Slackbot AI message
 Open the recap mute education modal
 Open the remove external huddle guest confirmation modal
@@ -13367,6 +13371,7 @@ Provide some details or suggest improvements (300 chars max)
 Provide the below inputs to test run this step
 Provided effect config is invalid, not updating VideoFxProcessor
 Provision a given solution for a given channel
+Provision the Slack CRM org once setup completion has had its chance to redeem a Business+ trial
 Provisionally connected
 Provisionally connected timeout
 Provisioning and auth
@@ -13530,6 +13535,7 @@ Reactivate a skill an admin deactivated
 Reactivate skill
 Reactivate thread
 Reactivating skill
+Reactivation Requested
 Read a Workflow Builder string value as editor contents
 Read along
 Read conversations
@@ -14018,6 +14024,7 @@ Refresh interactivity pointer for a Form step, if needed
 Refresh is_interactable for an Agentforce agent via the Salesforce ACL cache
 Refresh is_interactable for an app
 Refresh list
+Refresh oauth token
 Refresh programmable sidebar recommend scores
 Refresh recap
 Refresh results in every browser for an entity after a mutation
@@ -14545,6 +14552,8 @@ Rename folder
 Rename section
 Rename session
 Rename tab
+Rename the dashboard only
+Rename the report only
 Rename this code channel
 Rename this section
 Rename this view
@@ -14651,6 +14660,7 @@ Request Calendar Access
 Request Comment Access
 Request Customer Management
 Request Edit Access
+Request Reactivation
 Request Review
 Request Sent
 Request These Features
@@ -15133,11 +15143,13 @@ Saint Pierre and Miquelon
 Saint Vincent and The Grenadines
 Saint Vincent and the Grenadines
 Sales Home
+Sales Home is no longer available. The Salesforce org was disconnected.
 Sales Lists
 Sales Outlines
 Sales Pipeline Assistant
 Sales Tracker
 Sales Tracker controls
+Sales Tracker is no longer available. The Salesforce org was disconnected.
 Sales Tracker stage settings
 Sales admin action to add an org to the list of user orgs available to connect
 Sales admin action to start a manual migration for elevate changing perm management from Slack to Salesforce. Only relevant to orgs that upgraded to seamless auth
@@ -15829,6 +15841,7 @@ Send thread summary to Slackbot
 Send to Slackbot
 Sending clog data, emptying queue
 Sending messages to this app has been turned off
+Sending request
 Sending response for canceled message failed.
 Sending the presence subscription after establishing a websocket connection
 Sending to a channel has been turned off by an administrator.
@@ -17530,7 +17543,7 @@ Show a desktop notification for generic_system_alert
 Show a desktop notification for user alerts
 Show a previously hidden unfurl
 Show a thread broadcast
-Show a toast explaining that Sales Tracker closed because its Salesforce org was disconnected
+Show a toast explaining that the CRM surface closed because its Salesforce org was disconnected
 Show a toast for new summaries
 Show a toast that allows undoing a bulk file organize action
 Show a toast that allows users to undo the automatic creation of a table block
@@ -18878,6 +18891,7 @@ Team Member Actions
 Team Page
 Team Priorities Outlines
 Team governance
+Team has neither Business+ nor a redeemable trial; not provisioning
 Team id is undefined for the 
 Team is not eligible for trial redemption per API check
 Team plan status loaded
@@ -19180,7 +19194,6 @@ There was a problem saving this record to Salesforce
 There was a problem saving to Salesforce.
 There was a problem searching Salesforce. Try again in a few minutes, or contact your administrator.
 There was a problem searching for sales records. Give it another try.
-There was a problem setting up customer management. Please contact your admin for help.
 There was a problem switching integrations
 There was a problem syncing with Salesforce
 There was a problem unresolving this conversation. Give it another try.
@@ -19207,6 +19220,7 @@ These organizations are no longer connected.
 These people already have Frontline accounts for your organization, so you can only invite them in that role.
 These tools will be shared with anyone who reviews this app.
 These updates are marked read.
+These updates are still unread.
 They can read and reply in this conversation when mentioned.
 They should be available for your organization over the next month
 Thin Stroke
@@ -19407,6 +19421,7 @@ This setting only changes the island. Slack notifications, sounds, badges and un
 This sheet is too large to preview.
 This shortcut is reserved by the system. Try a different one.
 This should only take a moment.
+This skill is already back on.
 This skill is deactivated
 This skill is enabled for your workspace. To make it private, an admin must first remove it from the workspace skill settings.
 This skill is still loading. Try again in a moment.
