@@ -5163,7 +5163,6 @@ channel_sidebar.8ced4b0: Unmuted {numChannels, plural, =1{conversation} other {#
 channel_sidebar.7a02972: Unpin from tray
 channel_sidebar.5490ce9: Unpin from your sidebar
 channel_sidebar.07b032b: Unread
-channel_sidebar.c35cc2a: Unread mentions
 channel_sidebar.3b9c3d6: Unread thread
 channel_sidebar.390cfdb: Unread thread over its channel
 channel_sidebar.b42b0b6: Unread threads
@@ -5539,6 +5538,7 @@ classic_nav.e1b9001: See plan details
 classic_nav.5200ffa: See upgrade options
 classic_nav.08d7aa3: Select an option
 classic_nav.4971b0f: Session channel
+classic_nav.02d1eda: Set yourself as <strong>{presenceLabel}</strong>
 classic_nav.bef780e: Share your feedback on Search
 classic_nav.1c69e35: Show history
 classic_nav.b318b8b: Show workspace switcher
@@ -10685,7 +10685,6 @@ huddles.6a72085: All
 huddles.2d14d64: All Blues by Miles Davis
 huddles.8175910: All external people must already be in at least one channel together to send this invitation.
 huddles.a5c9713: All huddles
-huddles.1f69f3c: All invites failed to send. Please try again.
 huddles.97b63e7: Allow huddles in this channel?
 huddles.f630843: Allow microphone access
 huddles.9e2e394: Always Start AI Notes
@@ -11046,9 +11045,6 @@ huddles.6c3a72e: Office
 huddles.acd844a: On mobile
 huddles.fb8f00c: Once your request has been approved, you can join the huddle
 huddles.9321c5e: One of these people can’t be found. Remove them and try again.
-huddles.773489d: One or more email addresses are invalid.
-huddles.22817ce: One or more email addresses are too long.
-huddles.765463f: One or more email addresses belong to existing members in this workspace.
 huddles.0afd94a: One or more entries are invalid. Enter valid people or email addresses.
 huddles.ecb2483: Only Channel Managers can update this
 huddles.023c119: Only Channel Managers can update this.
@@ -11227,12 +11223,8 @@ huddles.0698b05: The huddle language applies to AI notes and captions.
 huddles.2758395: The huddle language applies to AI notes, transcription and captions.
 huddles.b65e8fb: The huddle language applies to transcription and captions.
 huddles.5c9c768: The invite will be sent from <b>{email}</b>
-huddles.0462c69: The scheduled time must be in the future.
-huddles.ef9ea72: The scheduled time must be within one year.
-huddles.7e2fb63: The selected duration is invalid.
 huddles.27acedd: The topic can’t be longer than {CHAR_LIMIT} characters.
 huddles.63f9ecc: The topic is visible to everyone in the huddle
-huddles.e0aa413: There was a problem adding this huddle to your calendar. Give it another try in a few minutes.
 huddles.a788b1f: They can join the huddle but won’t be able to see messages or reply to the thread unless they are members of {channelName}. New members will be able to see all of the channel’s history, including any files that have been shared in the channel.
 huddles.8d007ad: They can join the huddle, but since you are not allowed to invite external people to this channel, they won’t be able to see messages or reply to the thread.
 huddles.de7e3ec: They can join the huddle, but since you are not allowed to invite people from {org} to this channel, they won’t be able to see messages or reply to the thread.
@@ -11261,7 +11253,6 @@ huddles.768e0c1: Title
 huddles.3b52ba3: To keep things nice and neat, you’re no longer in the huddle here.
 huddles.24345a1: Today
 huddles.eccff22: Tokyo Sight
-huddles.3ca83b3: Too many external guests. The maximum is {max}.
 huddles.54c59a5: Too many participants. The maximum is {max} invitees.
 huddles.7bc87d5: Touch base on the go, without all the typing
 huddles.5bcd602: Transcript
@@ -11393,7 +11384,6 @@ huddles.3444960: You can’t join this huddle
 huddles.597e9f2: You can’t see the thread because the huddle was started from a private conversation
 huddles.13ae7c8: You don’t have permission to add external people to this channel.
 huddles.c2800de: You don’t have permission to add internal people to this channel.
-huddles.3178858: You don’t have permission to create external huddle invites.
 huddles.47b649e: You don’t have permission to start a huddle. You can use /huddle to join an active huddle.
 huddles.640ca70: You have left this huddle
 huddles.7538a93: You huddled here in { channelName } for { huddleDuration }
@@ -11644,7 +11634,6 @@ ia4.05989d8: Agent sessions
 ia4.2719b2b: All docs
 ia4.22e3fb7: All workspaces
 ia4.c1155e6: All {numberOfWorkspaces} workspaces
-ia4.58061aa: Alpha
 ia4.25bc962: Analytics
 ia4.7c3d598: App Details
 ia4.310efbc: Ask Slackbot
@@ -11698,7 +11687,6 @@ ia4.de75c18: Get Slack AI, advanced security, global compliance tools, and more
 ia4.faead10: Get access to multiple workspaces and advanced search with Enterprise Grid.
 ia4.0997db9: Get access to the Beta
 ia4.086158f: Give feedback
-ia4.6df46b3: Give feedback on the Slack 6 Preview
 ia4.383e248: Hide sidebar
 ia4.8f5d26b: Including external people
 ia4.52bfb42: Invite people to {teamDisplayName}
@@ -11764,10 +11752,7 @@ ia4.c7f73bb: Settings
 ia4.b6e1776: Show Me Around
 ia4.5982a29: Show sidebar
 ia4.b318b8b: Show workspace switcher
-ia4.7ca4f21: Showing only conversations <strong>without external people</strong>
-ia4.ee217b8: Showing only conversations that <strong>include external people</strong>
 ia4.dc1649a: Sign out
-ia4.f2baa0c: Slack 6 Preview
 ia4.142bf01: Slack 6 didn’t work for you? <a>Tell us what would bring you back</a>.
 ia4.c73934a: Slack Connect channels
 ia4.ae7d0fb: Slack Connect invitations
@@ -11780,12 +11765,8 @@ ia4.49716ab: Slackbot is thinking…
 ia4.78501f9: Slackbot replied.
 ia4.f421414: Slackbot will no longer use your view as context
 ia4.108b931: Sort conversations by:
-ia4.d96e5b2: Stable
 ia4.dbec140: Suggested channel sections
 ia4.22b4b0c: Surfaces
-ia4.2e997c8: Switch back to classic Slack
-ia4.e79af41: Switch to Experimental
-ia4.953dccb: Switch to Stable
 ia4.6d00569: Switch workspace
 ia4.d10d288: Switch workspace, other workspaces have new messages
 ia4.24345a1: Today
@@ -11801,18 +11782,13 @@ ia4.4fa8cc8: Tools
 ia4.3b3ca9e: Tools & settings
 ia4.6260d1c: Try Business+ at no extra cost
 ia4.69f95df: Try Business+ for the price of Pro
-ia4.b00898f: Try it out
-ia4.fa09af5: Try it out: Slack 6 Preview, Alpha
 ia4.e1b23f4: Unleash your team’s potential
 ia4.73cf756: Unlock CRM, advanced security and AI features
 ia4.c32f0ec: Unlock SSO, automated user management, data exports, channel management and more.
-ia4.2da600b: Version
-ia4.73dc289: Version: {version}
 ia4.31d9ba9: Without external people
 ia4.b3e3b7a: Workflow Builder
 ia4.5d7024a: Workflow Editor
 ia4.a5a8719: Workflow details
-ia4.58f2630: Workspace filter
 ia4.432fa10: Workspace settings
 ia4.dd8ab8a: Your sidebar is filtered to the {workspaceName} workspace. <t1>Remove this filter</t1>.
 ia4.9ef5051: You’re on a roll — say hello to DMs and Activity
@@ -13117,7 +13093,7 @@ lists.5397e05: Yes
 lists.fe58301: Yes, Delete This Field
 lists.da24830: Yesterday
 lists.905cb32: You
-lists.9c1f12e: You <span className="c-tooltip__subtitle">voted</span>
+lists.75ac8cc: You <t1>voted</t1>
 lists.ce90aa8: You can choose from these available workflows.
 lists.514625c: You can now pin the views you’d like to see here.
 lists.b21d4a3: You can only upload up to 10 files
@@ -13233,9 +13209,9 @@ lists.d163971: {userCard} via {botCard}
 lists.0f4cd25: {userFilterPillMemberName} <span className="p-refine_pill__text--operator">or</span> 1 other
 lists.6c4678e: {userFilterPillMemberName} <span className="p-refine_pill__text--operator">or</span> {othersCount} others
 lists.dafa370: {userFilterPillMemberName} <span className="p-refine_pill__text--operator">or</span> {secondUserFilterPillMemberName}
-lists.9470204: {users_and_you} <span className="c-tooltip__subtitle">voted</span>
-lists.be76ff0: {users} <span className="c-tooltip__subtitle">voted</span>
-lists.29b83f2: {user} <span className="c-tooltip__subtitle">voted</span>
+lists.a50f071: {users_and_you} <t1>voted</t1>
+lists.527c558: {users} <t1>voted</t1>
+lists.1b45a09: {user} <t1>voted</t1>
 lists.0f90295: {value} of {ratingColumnMax}
 lists.aeb7664: {value} of {ratingColumnMax}, {emojiLabel}
 lists.97c1e37: {versionLabel}, current version
@@ -18897,6 +18873,7 @@ saved_for_later.0f4a9a4: A message you added as a to-do was deleted. Remove it f
 saved_for_later.0f2b0a8: A message you added as a to-do was not found. Remove it from To-dos?
 saved_for_later.1fdd623: A message you saved was deleted. Remove it from Saved?
 saved_for_later.7fc9fdf: A message you saved was not found. Remove it from Saved?
+saved_for_later.688f3ce: Account & preferences
 saved_for_later.c3cd636: Actions
 saved_for_later.4c2f2a5: Activity item actions
 saved_for_later.61cc55a: Add
@@ -19002,7 +18979,7 @@ saved_for_later.a75732d: Open in new window
 saved_for_later.03a322d: Open in split view
 saved_for_later.07217c7: Overdue
 saved_for_later.9502cd3: Overdue to-dos
-saved_for_later.036478b: Profile and preferences
+saved_for_later.0efc2e6: Overview
 saved_for_later.1ac6b9e: Remind me about this
 saved_for_later.7ea1037: Remind me to…
 saved_for_later.b87a192: Reminder
@@ -19056,7 +19033,6 @@ saved_for_later.6fb60e8: To-do details
 saved_for_later.6ce08d6: To-dos
 saved_for_later.37ec956: To-dos is for tasks, and Saved is for everything else
 saved_for_later.9ca56a9: To-dos whose message was deleted will be removed, both in-progress and completed. Your other to-dos are left alone. This can’t be undone.
-saved_for_later.24345a1: Today
 saved_for_later.9186306: Turn anything into a to-do
 saved_for_later.3deb745: Type
 saved_for_later.35e71c2: Unarchive
@@ -19442,6 +19418,7 @@ search.9bdf032: Huddle AI Notes
 search.2e4c8c4: Huddle in {channelName}
 search.f7e0e1c: Huddle in {channelName}, {memberCount, plural, =1 {# member} other {# members}}
 search.d1223e7: Huddle in {channelName}, {roomName}, {memberCount, plural, =1 {# member} other {# members}}
+search.e04e1be: Huddle with {channelName}
 search.ac7d4de: Huddle with {channelName}, {memberCount, plural, =1 {# member} other {# members}}
 search.8efdc49: Huddle with {channelName}, {roomName}, {memberCount, plural, =1 {# member} other {# members}}
 search.cfed893: Huddles
@@ -19986,6 +19963,7 @@ search.c91e11a: threads
 search.2dd2bed: today
 search.50d8b4a: unknown
 search.6d8cf9b: view full search
+search.ec2bd70: with {channelName}
 search.1aa96b8: yesterday
 search.2f8bc36: {appName} is a custom data source added by your organization.
 search.8d501f4: {appName} results, {count, plural, =0 {no results found} one {# result found} other {# results found}}
