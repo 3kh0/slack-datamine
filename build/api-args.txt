@@ -711,6 +711,7 @@ sfdc.emails.history: email_message_id, email_thread_id, limit, page_direction, p
 sfdc.emails.send: attachment_ids, email_body, email_subject, from_address, related_to_record_id, salesforce_org_id, save_email_to_record, thread_id, to_email_addresses
 sfdc.events.searchAttendees: query, salesforce_org_id
 sfdc.fields.create: listview_id, metadata, object_api_name, salesforce_org_id
+sfdc.fields.delete: field_api_name, listview_id, object_api_name, salesforce_org_id
 sfdc.fields.edit: field_api_name, listview_id, metadata, object_api_name, salesforce_org_id
 sfdc.fields.listEligible: object_api_name, salesforce_org_id
 sfdc.fields.updateVisibility: field_api_names, listview_id, object_api_name, salesforce_org_id

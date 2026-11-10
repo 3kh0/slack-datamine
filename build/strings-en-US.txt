@@ -1876,8 +1876,6 @@ app_dialog.b16c7ac: (optional)
 app_dialog.2dacf65: Submit
 app_dialog.ab90d9d: This field is required.
 app_dialog.26dc55d: We had some trouble connecting. <a>Try again?</a>
-app_dialog.38ffdb9: You can't enter more than {maxLength, plural, =1 {# character} other {# characters}}.
-app_dialog.d800655: You must enter at least {minLength, plural, =1 {# character} other {# characters}}.
 app_home.f0ee13e: Access restricted
 app_home.378cbbf: Learn More
 app_home.cce7155: Reload
@@ -2143,6 +2141,7 @@ assistant.abaec45: Billing
 assistant.db9d5a6: Brainstorm
 assistant.b7540d2: Brainstorm talking points for my next meeting.
 assistant.e3803ae: Bright-eyed, bushy-tailed… or just here. Both work.
+assistant.5b992f7: Call moved to {corner} corner
 assistant.99504f7: Call with Slackbot
 assistant.6203754: Call with Slackbot in {workspace}
 assistant.77dfd21: Cancel
@@ -2667,10 +2666,14 @@ assistant.e9a6d93: You’re human! AI can keep you informed with daily channel r
 assistant.f3a32c5: You’ve made some excellent points here, or are about to.
 assistant.1a1d81d: You’ve reached the limit for saved preferences. Remove one to add another.
 assistant.72fef14: You’ve reached the limit for saved topics. Remove one to add another.
+assistant.8cf5e84: bottom left
+assistant.6dd426e: bottom right
 assistant.6406510: case
 assistant.60e5d2c: movable
 assistant.198e718: opportunity
 assistant.a30f913: replied to:
+assistant.bd2c65b: top left
+assistant.c72457b: top right
 assistant.018ec5a: {actionItems, plural, =1 {# action item} other {# action items}} and {keyUpdates, plural, =1 {# key update} other {# key updates}}
 assistant.d2f3cdc: {channelNameText} added to future recaps and muted
 assistant.3e84ff6: {channelName} muted
@@ -10583,6 +10586,7 @@ huddles.9e85782: (No title)
 huddles.9838569: (Optional) Open your device’s system preferences and grant camera access to Slack. If you’ve already done so, quit and reopen Slack.
 huddles.3f001b6: (Optional) Please enable your camera in your browser’s address bar.
 huddles.1d06e4b: (Optional) Your camera is unavailable. Make sure it`s connected and that you`ve granted permission to share video with Slack.
+huddles.9193e91: (opens in new tab)
 huddles.02386d9: 1 minute before
 huddles.3e10759: 1 new reply
 huddles.b1e2cdb: 10 minutes before
@@ -10723,6 +10727,7 @@ huddles.15f4023: Be there soon
 huddles.900aa99: Blur
 huddles.d18ddc8: Brainstorm, make decisions or have a lightweight catch-up with whoever’s online.
 huddles.2161e4b: Bring huddle to front
+huddles.3764a6b: By continuing, you’re agreeing to <userTerms>Slack’s User Terms of Service</userTerms>. For more info, check out our <privacyPolicy>Privacy Policy</privacyPolicy> and <cookiePolicy>Cookie Policy</cookiePolicy>.
 huddles.86efc66: By request only
 huddles.db990aa: Calendar account
 huddles.f292719: Calendar event: {title}
@@ -14752,7 +14757,10 @@ modernselling.f6fdbe4: Delete
 modernselling.0c9778c: Delete Notification
 modernselling.fc55005: Delete Notification {name}
 modernselling.ac2fce3: Delete Notification?
+modernselling.5ac477c: Delete field
+modernselling.60b0b3a: Delete field from Salesforce?
 modernselling.07f977e: Delete filter
+modernselling.de7bb40: Delete from Salesforce
 modernselling.a5c55a2: Delete group by
 modernselling.b0f2d90: Delete metric?
 modernselling.28d8645: Delete sorted field
@@ -15323,6 +15331,7 @@ modernselling.545e2b3: Some of the list views you’ve added aren’t shared wit
 modernselling.d573940: Some selections in the <i>{fieldName}</i> field are now invalid and were removed.
 modernselling.e8b0dc6: Some types of records can’t be viewed in Slack. To see this list, open it in Salesforce.
 modernselling.8d886c0: Something went wrong
+modernselling.fcad102: Something went wrong deleting the field. Please try again.
 modernselling.ee6aa23: Something went wrong fetching insights
 modernselling.d2400d4: Something went wrong removing the field. Please try again.
 modernselling.afbbb3a: Something went wrong saving your changes. Please try again.
@@ -15412,6 +15421,7 @@ modernselling.5083016: This Salesforce org will be deleted when the sandbox envi
 modernselling.e763ff7: This field can’t be added to this list view.
 modernselling.ab90d9d: This field is required.
 modernselling.8e71f42: This field name is already in use. Please choose a different name.
+modernselling.1e5e5a7: This field was already deleted.
 modernselling.87eb212: This file type is not supported. Please upload a .csv file. <a>Upload another file</a>
 modernselling.2cc9cdb: This list can only be shared with other people who are Salesforce users. Someone with permission to configure Salesforce can add new users.
 modernselling.96b5b6f: This list can only display up to {maxFields} fields.
@@ -15421,6 +15431,7 @@ modernselling.d5ff728: This metric’s taking a little longer to load. Try comin
 modernselling.e80df5b: This object isn’t available for Salesforce lists in Slack. Remove or select another object to continue.
 modernselling.f6193f0: This user
 modernselling.7aae4b0: This will apply to all users
+modernselling.67d3abc: This will permanently delete <b>{fieldName}</b> and all of its data from Salesforce, for everyone. This can’t be undone.
 modernselling.8c2ecb1: This will remove the field from the list view for everyone. The field and its data will not be deleted.
 modernselling.c62ba60: Time Unit
 modernselling.d2c9dea: To add more orgs, please contact your admin.
@@ -24938,6 +24949,8 @@ stories_av.5542ef1: Waiting to upload…
 stories_av.86eff0b: We weren’t able to generate a transcript for this clip at this time.
 stories_av.031d634: What is wrong?
 stories_av.8451f34: Your video is being processed and will be available to download soon.
+stories_av.8cf5e84: bottom left
+stories_av.6dd426e: bottom right
 stories_av.6d90804: in {channelName}
 stories_av.60e5d2c: movable
 stories_av.c536ead: replied with a few clips
@@ -24952,6 +24965,8 @@ stories_av.08ede1d: sent a video clip
 stories_av.eb03110: sent a video clip and a message, "{messageText}"
 stories_av.d298a2b: sent an audio clip
 stories_av.3817098: sent an audio clip and a message, "{messageText}"
+stories_av.bd2c65b: top left
+stories_av.c72457b: top right
 stories_av.399e68d: {speed}x
 stories_av.548653e: ✨ Effects
 string_format.39fc721: Undo
