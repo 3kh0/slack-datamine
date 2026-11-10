@@ -501,7 +501,6 @@ activity.d4dc4ab: Copy huddle link
 activity.2f84eea: Copy link
 activity.138ab00: Copy name
 activity.67de2cf: Couldn’t load your pull requests
-activity.e1300fe: Couldn’t send that to the agent. Try again.
 activity.0a6ccae: Create Custom View
 activity.c47e98c: Create a new view
 activity.1641c52: Ctrl Alt Click
@@ -2845,10 +2844,13 @@ block_kit.2b226c7: Ascending
 block_kit.10644b0: Bar chart
 block_kit.8588445: Cell content
 block_kit.66c7734: Chart
+block_kit.b58e8f9: Checkbox group
+block_kit.a3c651e: Checklist of {itemCount, plural, =1 {# item} other {# items}}, {checkedCount} checked, {uncheckedCount} unchecked.
 block_kit.45b9ce6: Choose an option
 block_kit.719ea39: Clear
 block_kit.8017ee3: Clear Sort
 block_kit.b667d6f: Clear filter
+block_kit.bbcc8a0: Code block.
 block_kit.a0e2a1a: Compact view of {caption}
 block_kit.b7c3ca0: Copied!
 block_kit.af74f7c: Copy
@@ -2857,6 +2859,8 @@ block_kit.bb34739: Copy chart
 block_kit.a0a77bd: Copy table
 block_kit.eb9a4bc: Date
 block_kit.07c9c3a: Date and time
+block_kit.2d65e63: Date and time picker
+block_kit.4e651d0: Date picker
 block_kit.36377ad: Descending
 block_kit.313290a: Download chart data
 block_kit.15e0e88: Download table
@@ -2867,6 +2871,7 @@ block_kit.77e0163: Expand cell
 block_kit.35f1b1d: Failed to copy image
 block_kit.85d0e9b: File uploads to this workspace have been disabled at the request of your administrator.
 block_kit.05a80cd: Filter table…
+block_kit.aae4187: Group with {controlCount, plural, one {# control} other {# controls}}
 block_kit.edf31ea: Heads up
 block_kit.50e19fd: Image
 block_kit.aaee51a: Join the channel to interact with this message
@@ -2890,11 +2895,14 @@ block_kit.2640e1e: Pick your options
 block_kit.3154856: Pie chart
 block_kit.72a0224: Please complete this required field.
 block_kit.f742544: Private message
+block_kit.d1d16e0: Quote: {quoteText} End quote.
+block_kit.c6dc647: Radio group
 block_kit.6437b7b: Rating
 block_kit.38bd55c: Salesforce record
 block_kit.6094fb3: Scroll {arrowDirection}
 block_kit.4080395: Search table
 block_kit.0e2b8f4: Select a channel
+block_kit.1acb49b: Select a conversation
 block_kit.642b09c: Select a date
 block_kit.188d210: Select a user
 block_kit.9c6d505: Select channels
@@ -2906,6 +2914,7 @@ block_kit.a7d58e5: Share table
 block_kit.93cf865: Share {blockLabel}
 block_kit.adc4e96: Sort
 block_kit.47e9a49: Table added as an attachment.
+block_kit.f943335: Table with {columnCount, plural, =1 {# column} other {# columns}} and {rowCount, plural, =1 {# row} other {# rows}}.
 block_kit.0c9fd24: The file type you attempted to upload is not supported
 block_kit.4827421: The people who can edit this automation will also have access to any files shared here
 block_kit.05ddab0: The {numberOfTooLargeFiles, plural, =1 {file} other {files}} {numberOfTooLargeFiles, plural, =1 {{singleFileName}} other {{allFileNamesExceptLast} and {lastFileName}}} {numberOfTooLargeFiles, plural, =1 {is} other {are}} too large. Our max file size is {maxFileSize}.
@@ -2914,6 +2923,7 @@ block_kit.dc32bdf: This content could not be displayed.
 block_kit.cfdec0a: This content is only available in the original conversation.
 block_kit.981d8ff: This message can’t be fully displayed.
 block_kit.40150de: This table is too big to send as an attachment.
+block_kit.6c82e6d: Time
 block_kit.24345a1: Today
 block_kit.4fb7e29: Try Another File
 block_kit.66ef650: Type a minimum of {minQueryLength} characters to see options.
@@ -2921,6 +2931,18 @@ block_kit.39fc721: Undo
 block_kit.d7600d9: Unknown author
 block_kit.dcf4cc6: Upload File
 block_kit.2c213d9: Uploading {fileCount, plural, =1 {# file} other {# files}}.
+block_kit.aec3201: Video: {title}
+block_kit.55eab7d: Video: {title} By {authorName}
+block_kit.43bc63a: Video: {title} By {authorName} on {providerName}
+block_kit.b01f70a: Video: {title} On {providerName}
+block_kit.e9db6a3: Video: {title} {description}
+block_kit.7222e6b: Video: {title} {description} By {authorName}
+block_kit.af51dd3: Video: {title} {description} By {authorName} on {providerName}
+block_kit.8a63b5f: Video: {title} {description} On {providerName}
+block_kit.bfed454: Video: {title}, {description}
+block_kit.4c40c0d: Video: {title}, {description} By {authorName}
+block_kit.9b8f414: Video: {title}, {description} By {authorName} on {providerName}
+block_kit.ae4e8f4: Video: {title}, {description} On {providerName}
 block_kit.ac45356: View as table
 block_kit.ea14ff3: View memory {index}
 block_kit.74d3158: View this message in channel to interact with it
@@ -2941,32 +2963,25 @@ block_kit.b614503: You must enter a valid URL
 block_kit.fa66c81: You must enter a valid email address
 block_kit.9ef0a58: carousel
 block_kit.b82b40b: chart
-block_kit.e45cca7: checklist of {itemCount, plural, =1 {# item} other {# items}}, {checkedCount} checked, {uncheckedCount} unchecked.
-block_kit.d91f08b: code block
 block_kit.dc7e8b6: missing image
 block_kit.b1ab0a5: private message
-block_kit.6d15cbf: quote: {quoteText} end quote.
 block_kit.c3ee137: table
-block_kit.b927367: table with {columnCount, plural, =1 {# column} other {# columns}} and {rowCount, plural, =1 {# row} other {# rows}}.
-block_kit.4f57e7e: video: {title}
-block_kit.c9cde9b: video: {title} By {authorName}
-block_kit.8b23bc3: video: {title} By {authorName} on {providerName}
-block_kit.fd02470: video: {title} On {providerName}
-block_kit.13a390d: video: {title} {description}
-block_kit.4b1ff72: video: {title} {description} By {authorName}
-block_kit.d62c01c: video: {title} {description} By {authorName} on {providerName}
-block_kit.e32b7bc: video: {title} {description} On {providerName}
-block_kit.f8aca84: video: {title}, {description}
-block_kit.e8f4e43: video: {title}, {description} By {authorName}
-block_kit.8eb66a6: video: {title}, {description} By {authorName} on {providerName}
-block_kit.3438613: video: {title}, {description} On {providerName}
 block_kit.3094d0e: {caption}, table with {columnCount, plural, =1 {# column} other {# columns}} and {rowCount, plural, =1 {# row} other {# rows}}.
 block_kit.ee168fb: {chartType}: {title}
 block_kit.9e04b10: {count, plural, one {# result} other {# results}}
 block_kit.92ac54c: {enter_icon} Press 'enter' to submit
 block_kit.e08f461: {fileCount, plural, =1 {# file uploaded.} other {# files uploaded.}}
 block_kit.55f37e1: {fileName} uploaded successfully.
-block_kit.757ce10: {language} code block
+block_kit.6451b48: {label} group with {controlCount, plural, one {# control} other {# controls}}
+block_kit.dc70958: {label}: {control}
+block_kit.c4cbff2: {language} code block.
+block_kit.5e5f65a: {name} button
+block_kit.1e38b98: {name} checkbox group
+block_kit.7e20e62: {name} combo box
+block_kit.b41fbe5: {name} date and time picker
+block_kit.69d0dba: {name} date picker
+block_kit.e243986: {name} menu button
+block_kit.9472292: {name} radio group
 block_kit.3420971: {selectedItemCount} selected
 block_kit.87bdc57: 😕 No channel found
 block_kit.ef60a3a: 😕 No channel matches these keywords.
@@ -8046,7 +8061,6 @@ email-file-details.3f66052: From
 email-file-details.ae79ea1: To
 embedded_file_unfurl.acdac20: Audio
 embedded_file_unfurl.3876d76: Deleted file
-embedded_file_unfurl.f280845: File preview
 embedded_file_unfurl.50e19fd: Image
 embedded_file_unfurl.bc17c1f: Video
 embedded_message_unfurl.c1e9003: Direct Message
@@ -9464,7 +9478,6 @@ files.1765276: Audio clip
 files.1a0371e: Background color
 files.77dfd21: Cancel
 files.a3f80b8: Canvas
-files.443c9a4: Canvas preview
 files.873f93d: Canvas results
 files.98cc6bf: Canvas templates
 files.e2d397a: Canvases
@@ -9635,7 +9648,6 @@ files.27bea5d: Last updated {lastSyncTimeFormatted} in {productName}
 files.c2e9847: Link copied
 files.014bcd6: Links
 files.a1fffaa: List
-files.9dbe7b6: List preview
 files.01321f8: List results
 files.061f885: List templates
 files.57c9502: Lists
@@ -17612,14 +17624,7 @@ quip_collab.d89450c: Add Comment
 quip_collab.80195e6: Add Text Below
 quip_collab.c220715: Add a Link
 quip_collab.7e3faa8: Add a Profile
-quip_collab.63b725c: Add a code block
-quip_collab.556c94d: Add a large heading
-quip_collab.ad9b39e: Add a level 4 heading
-quip_collab.a90dbd6: Add a level 5 heading
-quip_collab.865439f: Add a level 6 heading
-quip_collab.7654000: Add a medium heading
 quip_collab.b77e443: Add a single space between lines
-quip_collab.f38ed8c: Add a small heading
 quip_collab.5f1b1a8: Add an Image
 quip_collab.7d3764e: Add comment
 quip_collab.cf05eca: Add reaction
@@ -17627,7 +17632,6 @@ quip_collab.6a72085: All
 quip_collab.e30eff9: Alt
 quip_collab.13eb288: Anchor Link Not Copied
 quip_collab.3dcc5ef: Another User
-quip_collab.abde7a7: App icon
 quip_collab.b5fdccd: Applied {style_name}
 quip_collab.befde54: Apr
 quip_collab.a039390: April
@@ -17658,8 +17662,6 @@ quip_collab.8a80d45: Callouts cannot contain columns or other callouts.
 quip_collab.77dfd21: Cancel
 quip_collab.1708dfd: Canvas icon
 quip_collab.6575d3c: Canvas link
-quip_collab.28f526c: Canvas not found
-quip_collab.443c9a4: Canvas preview
 quip_collab.4d4ce73: Card
 quip_collab.a8f9add: Card View
 quip_collab.5b36c5a: Card view
@@ -17688,7 +17690,6 @@ quip_collab.93797c4: Code formatting
 quip_collab.fa473a7: Collapse or expand section
 quip_collab.61607a0: Comments cannot span multiple sections.
 quip_collab.04a2122: Confirm
-quip_collab.33db592: Content preview from {host}
 quip_collab.2a20c75: Conversation
 quip_collab.af74f7c: Copy
 quip_collab.a1f1cfb: Copy Anchor Link
@@ -17756,7 +17757,6 @@ quip_collab.08a2f15: File Link Open Error
 quip_collab.1fa842a: File icon
 quip_collab.d146de7: File link
 quip_collab.a22e9c3: File not found
-quip_collab.f280845: File preview
 quip_collab.d4b77fe: File sharing has been disabled in canvases using Slack Connect.
 quip_collab.df251b0: Find
 quip_collab.c37ce9e: Find Bar
@@ -17794,16 +17794,11 @@ quip_collab.6542d38: Heading 2
 quip_collab.4d7de17: Heading 2 style
 quip_collab.9694d18: Heading 3
 quip_collab.ae840b4: Heading 3 style
-quip_collab.eb0a988: Heading 4
 quip_collab.d87e3fb: Heading 4 style
-quip_collab.c8274f9: Heading 5
 quip_collab.54ffd9b: Heading 5 style
-quip_collab.a836fc0: Heading 6
 quip_collab.2243888: Heading 6 style
 quip_collab.70f8bb9: Home
-quip_collab.0a75d95: Huddle feedback section
 quip_collab.fb488d8: Hyperlink options
-quip_collab.cd53870: Hyperlink preview
 quip_collab.716f63b: Icon
 quip_collab.50e19fd: Image
 quip_collab.007f5d8: Indent a list item
@@ -17837,11 +17832,8 @@ quip_collab.442dd36: Links cannot span multiple sections.
 quip_collab.a1fffaa: List
 quip_collab.b8a965c: List icon
 quip_collab.8cad8be: List link
-quip_collab.e18715f: List not found
-quip_collab.9dbe7b6: List preview
 quip_collab.227f6ae: List record icon
 quip_collab.8328e23: List record link
-quip_collab.8477001: List record preview
 quip_collab.1b2e116: Loading error
 quip_collab.4156128: Loading search results
 quip_collab.33ce417: Loading…
@@ -17909,7 +17901,6 @@ quip_collab.f91f868: Paste options menu showing
 quip_collab.170a28a: Period
 quip_collab.ed212fa: Placeholder
 quip_collab.bbb40a6: Plain Text
-quip_collab.eb40c96: Preview of uploading file
 quip_collab.27e1667: Previous Page
 quip_collab.57a82c7: Previous Result
 quip_collab.decd52e: Previous line
@@ -17961,7 +17952,6 @@ quip_collab.365d15c: Salesforce Report
 quip_collab.a50a762: Salesforce data
 quip_collab.8fcd886: Salesforce org not connected
 quip_collab.0c75d61: Salesforce org not found
-quip_collab.a408480: Salesforce record preview
 quip_collab.6b782d4: Sat
 quip_collab.17063c5: Saturday
 quip_collab.efc007a: Save
@@ -27118,7 +27108,6 @@ workflow_builder.479b61f: Any file type
 workflow_builder.55201ac: Any status
 workflow_builder.8b89522: Anything else you want to add?
 workflow_builder.31c83eb: App ID:
-workflow_builder.abde7a7: App icon
 workflow_builder.7bc477c: Apply conditional filtering so that you’re left with objects that meet your criteria.
 workflow_builder.91db069: Approval requested
 workflow_builder.7b2c7f1: Approve
