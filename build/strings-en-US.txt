@@ -1125,8 +1125,10 @@ agents.d3f0b43: Discard changes?
 agents.4827ea2: Discover
 agents.70afe9e: Dismiss
 agents.deaf1d9: Draft replies in my tone
+agents.7324a9b: Drag and drop .md files here
 agents.ad9dbaa: Drag and drop a .md file here
 agents.226ec29: Drop more .md files here, or click to browse
+agents.8f19313: Drop to add more files
 agents.666c48c: Duplicate skill
 agents.5301648: Edit
 agents.1dbd91d: Edit Skill
@@ -1177,6 +1179,7 @@ agents.f8c2483: Hide details
 agents.d6fbc9d: Import
 agents.64751c7: Import a markdown file
 agents.01b7462: Import a skill
+agents.a4ad3a2: Import skills
 agents.0dcd76c: In DM
 agents.754e74d: In channels
 agents.6d11172: Includes {count} skills
@@ -25283,6 +25286,7 @@ tabbed-channel.223cc18: Your workflows have moved to this channel’s Workflows 
 tabbed-channel.f73a684: {actionLabel} (opens in new window)
 tabbed-channel.0caed8e: {channelName} views
 tabbed-channel.75e6a6b: {count, plural, =1 {# item} other {# items}}
+tabbed-channel.b8baf35: {count, plural, =1 {#+ item} other {#+ items}}
 tabcomplete.37a0949: <strong>esc</strong> to dismiss
 tabcomplete.64acf7e: Agents
 tabcomplete.36c804e: Available skills
@@ -28413,17 +28417,12 @@ workflow_builder.6d888f7: Starts on
 workflow_builder.c1257fd: Starts when a Salesforce channel is created
 workflow_builder.c166bbe: Starts when a channel containing "{channelSubstring}" is created
 workflow_builder.6b5b761: Starts when a channel is created
-workflow_builder.b5aff57: Starts when a huddle begins in {channel}
-workflow_builder.b7c69f2: Starts when a list item is created
 workflow_builder.1a55d8a: Starts when a list item is updated
 workflow_builder.f15de45: Starts when a message is posted with keywords
 workflow_builder.a0b279b: Starts when a person joins a channel
-workflow_builder.f07bfa7: Starts when an item is created in {list}
-workflow_builder.9ee0b1a: Starts when an item is updated in {list}
 workflow_builder.9572787: Starts when someone joins a channel
 workflow_builder.e6630a6: Starts when someone reacts with ✅
 workflow_builder.f1fd661: Starts when someone reacts with 🎉
-workflow_builder.2bb0b95: Starts when {host} starts a huddle in {channel}
 workflow_builder.0463068: Starts with a Salesforce event
 workflow_builder.28ae890: Starts with a webhook
 workflow_builder.e44d56c: Starts {humanReadableDate} at {humanReadableTime}{repeat}
