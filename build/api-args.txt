@@ -78,7 +78,6 @@ ai.alpha.audio.transcribe: audio_base64, audio_format, context
 ai.alpha.audio.transcribeChunk: action, client_session_id
 ai.alpha.canvas.computeDraftDiff: canvas_id, operations, title
 ai.alpha.canvas.createContent: agent_id, canvas_id, client_req_id, current_tabbed_channel_id, focused_section_id, goal, prompt_data, source_channels, source_content_data, source_files
-ai.alpha.canvas.getTopicSuggestions: channel_ids, in_channel_tab
 ai.alpha.canvas.refineContent: canvas_id, client_req_id, content_data, prompt_data, session_prompt_history
 ai.alpha.canvas.resolveDraft: canvas_id, decision, dm_channel_id, invocation_id, message_ts
 ai.alpha.canvas.reviseContentWithSources: canvas_id, client_req_id, focused_section_id, prompt_data, session_prompt_history, sources
@@ -107,6 +106,7 @@ ai.alpha.slackbot.channelSkills.removeSkill: channel_id, skill_file_id
 ai.alpha.slackbot.channelSkills.setCustomInstructions: channel_id, custom_instructions
 ai.alpha.slackbot.createSlackbotInitiatedThread: onboarding_next, variant
 ai.alpha.slackbot.resolveVoiceToolApproval: approval_id, client_session_id, decision
+ai.alpha.slackbot.skillCategories.list: include_skill_counts
 ai.alpha.slackbot.skillSets.addToLibrary: skill_set_id
 ai.alpha.slackbot.skillSets.removeFromLibrary: skill_set_id
 ai.alpha.slackbot.skills.activate: skill_id
@@ -142,6 +142,7 @@ ai.alpha.surfaces.getContent: file_id, version_id
 ai.alpha.surfaces.getData: file_id, source
 ai.alpha.surfaces.listVersions: file_id
 ai.alpha.surfaces.openCardComment: card_id, card_title, file_id
+ai.alpha.surfaces.rename: file_id, title
 ai.alpha.surfaces.restoreVersion: file_id, version_id
 ai.alpha.translate.fileSummary: file_id, summary_id, target_language
 ai.alpha.translate.promptSummary: summary, target_language
@@ -890,6 +891,7 @@ workflows.activity.get: workflow_execution_id, workflow_id
 workflows.activity.list: filters, workflow_id
 workflows.ai.feedback: additional_feedback, rating, source, user_prompt, workflow_generation_id
 workflows.ai.generate: prompt
+workflows.ai.generateDetails: workflow_id
 workflows.channelOptIn.list: channel_id
 workflows.channelOptIn.set: channel_id, opted_in, workflow_id
 workflows.channels.add: channel_id, workflow_id

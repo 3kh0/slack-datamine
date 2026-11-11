@@ -14,10 +14,8 @@
  Use the Call summary skill.
  YAML type.
  are already in the huddle.
- are turned off.
  as a string.
  as prefix.
- before upcoming events.
  character to complete a CD arrow.
  characters.
  children.
@@ -98,7 +96,7 @@
 ) are ignored.
 ) is not supported yet.
 ) that performed expensive computation.
-)&&(eR(!1),rr(void 0),eC(rv?
+)&&(eR(!1),ay(void 0),eC(aM?
 ))),e((0,d.R3)(h)),e((0,d.p4)(h?a:void 0)),p(h?
 ). If you meant to render a collection of children, use an array instead.
 )?l.makeImage(e.slice(8),new u.Ay(t,r,n,i),o?
@@ -112,7 +110,7 @@
 ,onClick:C?x:void 0,onKeyDown:C?w:void 0,role:C?
 ,stateArg:null,context:new Context(a?
 ,teamId:n??void 0,responseType:s?.responseType??
-,threadTs:a||void 0,tsLink:s?
+,threadTs:n||void 0,tsLink:s?
 -month discount period ends, they will be billed at the regular price for their plan.
 . Are you sure it was registered?
 . Skipping it!
@@ -131,9 +129,9 @@
 1D separable convolution is not implemented yet.
 2. Paste the response below, or paste your exported memory file.
 30 seconds left. Dictation will auto-submit.
-:(L?(0,C.SR)(t,!1):void 0)??
-:(O?(0,v.SR)(t,D):void 0)??
-:(P?(0,v.SR)(i,L):void 0)??
+:(L?(0,A.SR)(t,!1):void 0)??
+:(O?(0,b.SR)(t,F):void 0)??
+:(P?(0,b.SR)(i,L):void 0)??
 :(ao?(0,eP.SR)(ek,ar):void 0)??
 :_ instanceof RegExp?
 :a.buttonDataQa??void 0,onClick:a.buttonOnClick??this.onCloseButtonClicked,type:a.buttonType??
@@ -159,7 +157,6 @@ A Salesforce Org ID must be passed when multi org is on
 A Salesforce channel for this record is already being created in an earlier step. Remove this step to continue.
 A URL is required
 A block of JavaScript code as value.
-A brand new workflow
 A call started during the Voice Focus re-measure, discarding it
 A canvas is a great place to have a lot to say.
 A channel
@@ -192,10 +189,7 @@ A little hello
 A little more you.
 A little room to breathe.
 A logger instance is required
-A meeting happened
 A meeting has been shared
-A meeting is happening
-A meeting is happening soon
 A message you saved was not found.
 A multi-person DM
 A new app messaging experience makes having conversations with AI-powered agents and assistants a snap. Install apps with an assistant or agent, and put them to work today.
@@ -575,7 +569,6 @@ ActivityIA4: set last selected bulk key
 Actually focus a workspace
 Adam Bryant
 Add 1 lead or up to 50 contacts
-Add Agent
 Add Agent or App
 Add Agentforce Agent
 Add App Collaborator
@@ -666,7 +659,6 @@ Add a filter to be used in next rendered browser instance
 Add a form for this step?
 Add a form to your website and new leads will be automatically posted in this channel.
 Add a heading
-Add a horizontal rule
 Add a large heading
 Add a link
 Add a list
@@ -951,7 +943,6 @@ Add salesforce frontdoor sessions
 Add saved item
 Add section
 Add skill
-Add skills to this skill set
 Add slide here
 Add solution provisioning
 Add solutions related canvas templates
@@ -1062,6 +1053,7 @@ Adds Workflow templates list to the store
 Adds a bookmark to the channel specified
 Adds a calendar reminder
 Adds a channel visitor channel
+Adds a custom skill category, or renames it if already present
 Adds a file ID to a draft and syncs the updates
 Adds a filter for channel to activity feed
 Adds a flag when the user has proceeded with attempting to connect an app
@@ -1258,13 +1250,16 @@ All apps
 All automations
 All available fields have been added
 All canvases
+All caught up here.
 All changes
 All channels
+All clear here.
 All clear.
 All code channels in Slack
 All comments
 All conversations
 All conversations with Slackbot
+All done here.
 All done with action items.
 All done!
 All done! Debug tracing disabled.
@@ -1291,6 +1286,7 @@ All overdue to-dos marked complete
 All people
 All photos and videos
 All product levels
+All read here.
 All records saved successfully
 All roles
 All saved items
@@ -1478,7 +1474,6 @@ Apache Conf
 Aperture priority
 App ACL channel hydration: transient failures, retry required
 App ACL group hydration dropped unresolvable ids
-App ACL group hydration exceeded page limit with unresolved ids
 App ACL member channel search cursor did not advance
 App ACL member channel search requires an enterprise token
 App ACL member channel search stopped skipping unlistable pages
@@ -1766,6 +1761,7 @@ Audio playing in docked player
 Audio stream is undefined, no audio detection will be triggered
 Audio track details undefined on fragment load progress
 Audio track is undefined on fragment load progress
+Audio unavailable
 Audio video huddles
 Audio-only mode
 AudioContext resume failed
@@ -1879,6 +1875,7 @@ Back to Current
 Back to Filters
 Back to Input
 Back to Message
+Back to Messages
 Back to Projects
 Back to Slack
 Back to Slackbot
@@ -2684,7 +2681,6 @@ Changes requested
 Changes saved
 Changes since your last review
 Changes to show
-Changes will apply to upcoming events.
 Changes: Cell Sections
 Changes: Fragment Collections
 Changes: Indexes
@@ -2959,7 +2955,6 @@ Choose the default skin tone that will be used whenever you use certain emojis i
 Choose to have members sign back in whenever they close Slack, or after a certain time period.
 Choose up to 10 reactions.
 Choose view
-Choose what to pin
 Choose which stage counts as closed and lost.
 Choose which stage counts as won.
 Choose which status marks a lead as converted.
@@ -3027,6 +3022,7 @@ Clear Search
 Clear Segmented Offers V2 eligibility data
 Clear Selections
 Clear a bunch of draft and all related data from redux
+Clear a channel join requests list after access loss
 Clear a failed summary request for a code channel so it can be retried
 Clear a list
 Clear a new badge from redux, to hide it from view
@@ -3123,6 +3119,7 @@ Clear search summary state
 Clear selected
 Clear selection
 Clear session timeouts on search mount
+Clear skies ahead.
 Clear solution_template pref and redux state
 Clear stash
 Clear state of all admin-created workflow forms
@@ -3410,6 +3407,7 @@ Close Primary View If Needed
 Close Salesforce Record forms with no changes and warn if the form has unsaved changes
 Close Search
 Close Workspace Directory Banner
+Close a canvas content draft whose approved edit could not be applied, telling the user if its preview was on screen
 Close a channel optimistically and make an API call to persist
 Close a sidebar channel row
 Close activity side panel
@@ -3637,7 +3635,6 @@ Compose email
 Composer action bar
 Composer actions
 Composer actions overflow menu
-Composer cleared. Opening skills menu.
 Composer external email warning in effect
 Composer input
 Composer message is not sendable. Client is offline
@@ -3836,7 +3833,6 @@ ConvRNN2D cell does not support constants
 Conversation actions
 Conversation archived
 Conversation details
-Conversation height
 Conversation highlights keep you in the loop
 Conversation history
 Conversation marked as unread from this message
@@ -3848,7 +3844,6 @@ Conversation preview
 Conversation resolved
 Conversation unpinned
 Conversation unresolved
-Conversation width
 Conversations in this project
 Conversations you star in Slack will appear here.
 Conversations you start in this project will show up here.
@@ -4502,6 +4497,7 @@ Dark Gray Solid 2
 Dark Plus
 Dashboard actions
 Dashboard refreshed
+Dashboard title
 Data Dispatch
 Data Loads
 Data Residency Feature
@@ -5085,6 +5081,7 @@ Domain claiming
 Dominican Republic
 Done all uploads
 Done and done
+Done and done.
 Done configuring settings in the other tab? Refresh to continue.
 Done, no node has children
 Dot BLUE
@@ -5186,6 +5183,7 @@ Dropped workflow_mention element: trigger id with no workflow id
 Dropping the following payload because we attemped to retry it too many times:
 Drops Slackbot thread marks that fresh thread counts now reflect
 Drops a popped-out window
+Drops a skill categories response that a local edit has made stale
 Drops the cached tools lists for the given MCP servers so the next read refetches them
 Dual icons on hover
 Due Date Notifications
@@ -5220,7 +5218,6 @@ ECT and ENA originators, including West Gas Origination, working with the gas de
 EDIT-MESSAGE - maybeSave
 EDIT-MESSAGE - startDelete
 EKM clear cache event occurred
-ELT Top Deals this Quarter
 ENA Legal
 ERROR: missing pairwise overlap information
 EU division
@@ -5481,6 +5478,7 @@ Emoji reactions
 Emoji search failed:
 Emoji suggestions collapsed
 Emoji that start workflows
+Emoji workflow avatar crop returned no URL
 EmojiMenuTrigger component cannot contain React Fragment as outermost element from props.children
 Employee onboarding
 EmpresaS.A. Outlines
@@ -5554,6 +5552,7 @@ Ends DND mode triggered by explicitly snoozing notifications
 Ends DND mode triggered by the DND schedule
 Ends call
 Enforce security policies such as blocking jailbroken devices, blocking file downloads on desktop, and blocking file downloads and message copying on mobile.
+Engagement trends
 English (U.K.)
 English (U.S.)
 English (UK)
@@ -5601,6 +5600,7 @@ Ensure a file exists and open it in the full screen file viewer
 Ensure app home meta is loaded for a channel
 Ensure builtin skill metadata is present
 Ensure channels with drafts exist in our model
+Ensure custom skill categories are loaded
 Ensure data residency compliance and get unlimited data exports.
 Ensure enabled skills are loaded
 Ensure enough public channels for resurrected user welcome
@@ -5623,6 +5623,7 @@ Enter a link to a Google Doc, Google Slides, or uploaded Google Drive file.
 Enter a name or email
 Enter a name, email, or user group
 Enter a project name
+Enter a title.
 Enter a variable name
 Enter agent description
 Enter at least 3 characters to search for a list in Salesforce
@@ -5654,7 +5655,6 @@ Enterprise Search connector OAuth start failed
 Enterprise search
 Enterprise+ add-on giving field workers Slack for task management, agentic support & secure Salesforce access.
 Enterprise-grade compliance tools
-Entity is not an instance of PositionedEntity
 Entity is not lockable
 Entity not found
 Entry point: choose another step for form
@@ -5697,7 +5697,6 @@ Error fetching SlackCRM onboarding splash state machine
 Error fetching SlackCRM onboarding state machines
 Error fetching SlackCRM zero state card machines
 Error fetching TRACTOR_CHANNEL_SIMPLIFICATION_SETUP_TOUR_STEP state machine
-Error fetching additional page of org user groups
 Error fetching approval request for admin resolution from message
 Error fetching channel by name
 Error fetching integrations
@@ -5728,6 +5727,7 @@ Error instantiating WakeLockManager,
 Error launching calls gantry app
 Error loading content
 Error loading org members from search API
+Error loading org user groups from search API
 Error loading user members from search API
 Error merging reports into summary
 Error message received from socket
@@ -5786,7 +5786,6 @@ Error: field
 Error: getDisplayMedia unavailable while trying to screen share in browser
 Error: overriding a pre-existing click event override. This is a bug.
 Even more time-saving tools
-Event Cancelled:
 Event Details
 Event Manager
 Event Reporting - DefaultMeetingEventReporter - adding item to event buffer
@@ -6141,6 +6140,7 @@ Failed to fetch recommended channels
 Failed to fetch recommended skills
 Failed to fetch sales tracker schema
 Failed to fetch server-rendered markdown
+Failed to fetch skills
 Failed to fetch the first page of skills
 Failed to fetch thread comments
 Failed to fetch user expectation last triggered pref
@@ -6176,6 +6176,7 @@ Failed to leave some user channels
 Failed to link vertex and fragment shaders.
 Failed to list external huddle invitees
 Failed to load clog enum tables for debugging
+Failed to load custom skill categories
 Failed to load domains
 Failed to load enabled skills
 Failed to load events
@@ -6511,7 +6512,6 @@ Fetch builtin skill run counts and re-map
 Fetch calendar events for days
 Fetch calendar events for the full window range
 Fetch can_huddle channel pref and store it in local store
-Fetch canvas topic suggestions if not already in store
 Fetch catch-up markers once per session
 Fetch channel membership info for huddle member
 Fetch channel section suggestions asynchronously
@@ -7376,6 +7376,7 @@ Generating AI response
 Generating captions, please wait
 Generating document title with fullscreen enabled
 Generating invite link
+Generating workflow details failed
 Generator is already executing.
 Generator is already running
 Gere destaques da semana passada...
@@ -7812,7 +7813,6 @@ Group by
 Group by field
 Group external messages
 Group field type not supported in readAny()
-Group field type not supported in writeAny()
 Group has been updated.
 Group huddles
 Group huddles are a premium feature
@@ -8114,7 +8114,6 @@ Hop on group calls in channel and leave the note-taking to AI.
 Horizon Bright
 Horizontal Cylinder
 Horizontal Feather
-Horizontal Rule
 Horizontally Select
 Host a team brainstorm from anywhere
 Host application identifier.
@@ -8612,7 +8611,6 @@ Invalid entity id
 Invalid existing canvas ID format
 Invalid extension access syntax
 Invalid field type in readAny()
-Invalid field type in writeAny()
 Invalid file
 Invalid file argument provided to getPendingFileData
 Invalid first partition input. Tensor requires at least one element.
@@ -8842,7 +8840,6 @@ Join channel temporarily
 Join conversations that matter to you
 Join huddle
 Join me in Slack so we can keep working together on this file in one place.
-Join meeting
 Join on this device
 Join the Slack huddle
 Join the channel to interact with this message
@@ -9105,7 +9102,6 @@ Latest activity
 Latest activity, unreads first
 Latest date created
 Latest messages
-Lato, sans-serif
 Launch a Teams video call from Slack
 Launch in Slack
 Launch the Slackbot big mode NUX intro modal for new Slackbot users
@@ -10168,6 +10164,7 @@ Manage members
 Manage memories
 Manage my sidebar
 Manage permissions
+Manage pins
 Manage posting and Slack Connect
 Manage proactive replies
 Manage recap
@@ -10176,7 +10173,6 @@ Manage roles
 Manage sales with Slack CRM
 Manage section
 Manage security
-Manage settings
 Manage skills
 Manage tabs
 Manage this workflow
@@ -10360,6 +10356,7 @@ Marks the SlackCRM onboarding run research skill as complete
 Marks the SlackCRM onboarding splash as seen
 Marks the channel as a default channel on creation.
 Marks the current pending external auth to skip auto-opening the manage modal
+Marks the org
 Marks today item for delete to allow animation
 Marks today item(s) as read using today.items.markRead API and updates the store
 Marks today item(s) as unread using today.items.markUnread API and updates the store
@@ -10571,6 +10568,7 @@ Members of this channel can:
 Members on record
 Members will be able to reply and react
 Members will be able to share messages and download files from this channel.
+Membership trends are coming soon.
 Memoized component that skips re-renders if props are the same
 Memory :brain: - Personalize what Slackbot remembers about your unique work.
 Memory deleted
@@ -10663,7 +10661,6 @@ Message deleted.
 Message deletion failed
 Message failed to send
 Message field type not supported in readAny()
-Message field type not supported in writeAny()
 Message flagged by data loss prevention rules.
 Message has
 Message has been flagged
@@ -10882,8 +10879,8 @@ More session channels
 More sidekicks sidebar
 More skill set actions
 More than one list section container
+More thread actions
 More unread threads
-More unreads
 More ways to expand
 Morning! No standup required, just ask
 Most Relevant Outlines
@@ -11006,6 +11003,8 @@ My cases
 My day sections
 My default
 My skills
+My stuff
+My stuff sections
 My views
 NETWORK TCP CONNECTIVITY READINESS - Completed
 NETWORK TCP CONNECTIVITY READINESS - Running
@@ -11345,6 +11344,7 @@ No artifacts found
 No artifacts in active code channels
 No audio device chosen, creating empty audio device
 No audio input device found
+No audio is being recorded. Stop recording, then try again.
 No audio stream available. Synthesizing an audio stream.
 No available apps
 No available options
@@ -11481,6 +11481,7 @@ No nodes found for
 No nodes found in layout data
 No object found for local storage key
 No offset parent for bubble
+No one at your organization will be able to use this skill unless you reactivate it.
 No one can reply to messages
 No one is sharing their screen
 No one on record yet
@@ -11706,7 +11707,6 @@ Not opening composer because user is editing a message
 Not opening prefs dialog because it
 Not possible to find intersection inside of the rectangle
 Not purging persisted models as IndexedDB isn
-Not recording
 Not reloading non-gantry page
 Not searching in this channel?
 Not sent yet
@@ -11727,6 +11727,9 @@ Not within Channel Invite Modal context
 Not yet implemented
 Not your first Slack rodeo?
 Notched Rectangle
+Note to Anne Bike on the EOL auto-booking fix is drafted; asking Janine Cashin what the review found.
+Note to Grant Kolling drafted with the resolution line; Dan Hyvl sends the trader list.
+Note to Megan drafted; chasing Chris Foster, Randy Gay and Mike Grigsby for the cut dates and volumes.
 Note: this setting is for this computer only. You may need to restart Slack to receive app updates.
 Notes a change to an agent session thread root while a fetch is in flight
 Notes and files shared in your huddles will show up here.
@@ -11761,7 +11764,6 @@ Nothing waiting on your review
 Nothing written yet
 Nothing yet. Slackbot remembers feedback people give it in this channel.
 Notification ID copied to clipboard.
-Notification preferences
 Notification sound
 Notification unmuted
 Notifications about updated items
@@ -12011,13 +12013,12 @@ Open DLP user warning modal for a failed message share
 Open DM in split view
 Open Downmarket CRM handraise modal
 Open Downmarket CRM onboarding upgrade modal
+Open Drafts in split view
 Open Dyslexic
 Open EAC OAuth authorization URL in popup window
 Open Edit Template Page
 Open Embedded Canvas In NewWindow
 Open Global Trial All Features modal
-Open Google Calendar meeting creation page via deep link
-Open Google Calendar meeting deeplink
 Open Greeting
 Open Help
 Open Huddle in new window
@@ -12025,6 +12026,7 @@ Open Huddle invite modal, optionally with pre-selected members
 Open JP Pocket Guide email template modal
 Open JP Pocket Guide invite team modal
 Open Link in Browser
+Open Meetings in split view
 Open More menu
 Open Outlook App
 Open Outlook Calendar app
@@ -12040,6 +12042,7 @@ Open Sans
 Open Sans Light
 Open Saved for later page
 Open Saved in Later
+Open Singer content in the main Slack client
 Open Singer for the authorized focused workspace after Slack boots
 Open Singer in its desktop build to use your Mac.
 Open Slack CRM from an Explore my trial card
@@ -12054,6 +12057,7 @@ Open Slackbot to summarize your recent activity
 Open Slackbot with AI sampling channel summary contextual nudge prompt
 Open System Preferences
 Open TimelineSourcesModal modal
+Open To-dos in split view
 Open Viewer Modal
 Open Woodpecker
 Open Workflow Builder
@@ -12307,6 +12311,7 @@ Open third-party file picker window and handle callback
 Open this link in your browser?
 Open thread
 Open to-do item
+Open transcript
 Open trial checkout or plans page if user can purchase
 Open troubleshooting panel
 Open unread options
@@ -12353,6 +12358,7 @@ Opens a given channel tab in a new window
 Opens a given channel tab in a split view
 Opens a given flexpane view or focuses if already open
 Opens a given tab in secondary view
+Opens a guided onboarding response in the main Slackbot conversation
 Opens a member profile in a tile
 Opens a modal containing promotion terms & conditions
 Opens a modal to notify user that Slack access has been limited on this network
@@ -12406,7 +12412,6 @@ Opens the Channel Browser
 Opens the Channel Create modal in client
 Opens the Channel Details modal in client
 Opens the ChannelDetails secondary view for a channel
-Opens the ChannelSettings secondary view for a channel
 Opens the Custom Solution modal in client
 Opens the DM Browser modal in client
 Opens the DND dialog
@@ -12592,6 +12597,7 @@ Org Chart
 Org Filter
 Org chart
 Org owners and admins can outline customized rules to join and use their Slack org.
+Org user groups response empty despite saved group ids
 Organization analytics
 Organization channels
 Organization is always just a click away.
@@ -12717,6 +12723,8 @@ Pale Royal Blue Solid 1
 Palestinian Territory
 Palo Alto
 Palo Alto, California
+Panel height
+Panel width
 Paper Tape
 Papua New Guinea
 Paragraph (normal text) style
@@ -12928,6 +12936,7 @@ Pin Canvas
 Pin Message to channel
 Pin a canvas
 Pin a view for the current user
+Pin and unpin items from the Focused sidebar Pinned picker
 Pin conversation
 Pin or unpin a view for the current user
 Pin or unpin an item in the Focused sidebar view
@@ -12936,7 +12945,6 @@ Pin session
 Pin several items in the Focused sidebar view
 Pin this view
 Pin to Projects
-Pin to Your Sidebar
 Pin to tray
 Pin to your sidebar
 Ping the file to mark the user as still viewing it
@@ -13623,6 +13631,7 @@ Recent activity
 Recent agent conversations
 Recent agents
 Recent agents & tools
+Recent agents, apps, and connectors
 Recent channels
 Recent code channels
 Recent conversations
@@ -13690,6 +13699,7 @@ Record a clip anytime
 Record a count of booted teams
 Record a failed code channel pull request fetch
 Record a failed comments page of a code channel pull request
+Record a failed external file providers request
 Record a fast connect, which skips the provisional hello
 Record a frecency event for some message action + maybe a query
 Record a play of the Slackbot no-limit tab-rail intro animation
@@ -14432,6 +14442,7 @@ Removes a Workflow Event from recentlyRunTriggerWorkflowEvent
 Removes a channel id from being a default org channel
 Removes a channel prefix from the store
 Removes a channel tab
+Removes a custom skill category
 Removes a download on the desktop app
 Removes a drafts pending file IDs
 Removes a file ID from a draft and syncs the updates
@@ -14537,7 +14548,9 @@ Rename artifact
 Rename channel
 Rename channel section
 Rename channel shortcut - opens rename or channel options modal
+Rename dashboard
 Rename folder
+Rename report
 Rename section
 Rename session
 Rename tab
@@ -14547,6 +14560,7 @@ Rename this code channel
 Rename this section
 Rename this view
 Rename view
+Renames a custom skill category, if it still exists
 Render React
 Render complete
 Rendered cell should include style property for positioning.
@@ -14631,6 +14645,7 @@ Report dogfood metrics
 Report the contents of this profile?
 Report this app
 Report this app (opens in new window)
+Report title
 Report to Slack
 Reported reconnect attempt metric trace
 Reporting CPU and memory usage stats
@@ -15360,6 +15375,7 @@ Scroll to previous day
 Scrub ended. Saving media progress
 Sea Glass
 Sean Breen, Craig W. Lipke, Art Gelber, Tom Broderick, John Cogan
+Search API returned error
 Search Acme Inc Outlines
 Search DMs
 Search Debug Results
@@ -15659,7 +15675,6 @@ Select a starting on time
 Select a state
 Select a user
 Select a value from the controlling field to enable this field
-Select a workflow to add to this template
 Select a workflow to add to this template.
 Select a workspace
 Select agents
@@ -15671,6 +15686,7 @@ Select an agent and workspace before creating this channel.
 Select an agent and workspace, then add a prompt before creating this code channel.
 Select an agent and workspace, then add a prompt before creating this session channel.
 Select an agent before creating this channel.
+Select an agent, conversation, or file most relevant to your current work. Recommendations are based on your activity.
 Select an email to import
 Select an end date
 Select an existing Salesforce data source and object, so your trigger knows what to look for. Then add conditions to your trigger to get even more specific about when it should fire.
@@ -15735,6 +15751,7 @@ Send As Is
 Send CRM signal message to Slackbot
 Send DM as email
 Send Email
+Send Grant Kolling a note confirming the corrected June and July volumes?
 Send Invitation
 Send Invitations
 Send Invite
@@ -16050,7 +16067,6 @@ Set canInteract from member objects
 Set can_huddle channel pref and store it in local store
 Set canvas creating flag
 Set canvas to static mode
-Set canvas topic suggestions for an entity
 Set category filters for app launcher
 Set celebration config payload for edit
 Set celebration config toggle state
@@ -16921,7 +16937,6 @@ Sets meeting prep blocks for a calendar event
 Sets metadata to send along with the next message sent by the user
 Sets microphone currently active state
 Sets one header image
-Sets or updates the active meeting reminder for a channel
 Sets organization filter
 Sets organization query for name or email
 Sets paginated channels to the store
@@ -17095,6 +17110,7 @@ Sets the ocal authorization url needed for a user to access the Slack calendar
 Sets the omniswitcher open method and mode
 Sets the omniswitcherMode field, which tracks how the search interface was opened
 Sets the order of workspaces for display
+Sets the org
 Sets the org user groups to select from along with assigned user groups
 Sets the origin view the Composer page was opened from
 Sets the originating Omniswitcher core_client_request_id for a Slackbot thread
@@ -17391,6 +17407,7 @@ Share AI explanation
 Share Anyway
 Share Channel
 Share Email Address
+Share SRP
 Share Screen
 Share Your Anniversary
 Share a canvas
@@ -17998,7 +18015,6 @@ Slackbot will look in these channels first when answering questions about this p
 Slackbot will make a report from conversations in this project.
 Slackbot will no longer use your view as context
 Slackbot will search in Slack and connected accounts for people and companies that might have been mentioned in a sales context. It will create new leads or opportunities based on that info.
-Slackbot will stop using this skill for everyone. The skill author can still edit it to fix any issues, and any admin or Skill Manager can reactivate it later.
 Slackbot will use this to guide conversations in this project.
 Slackbot will use your view as context again
 Slackbot-PulseThinking 2
@@ -18226,6 +18242,7 @@ Stacked Rectangle
 Stacy Dickson Granmayeh
 Stage changed
 Stalk Shadow
+Stalled since Nov 1, 2001: Sara
 Standard Success Plan
 Standard User
 Standard User Plus
@@ -18287,6 +18304,7 @@ Start a pin write for a view
 Start a task with a coding agent
 Start a thread
 Start a video or audio chat
+Start an external file providers request
 Start auth against an external data source
 Start big button mode
 Start building workflows with AI directly from the Create button.
@@ -18310,6 +18328,7 @@ Start huddle and maybe display discovery message for huddle
 Start huddle as muted as specified in user prefs
 Start huddle in highlighted channel or current primary view
 Start huddle in the current view
+Start huddle in thread
 Start huddle lounge music
 Start huddle recording
 Start huddle summary
@@ -18490,7 +18509,6 @@ Stopping the TTL timer, nothing to watch
 Stopping the dirty broadcast timer, nothing to watch
 Stopping the periodic broadcast timer, nothing to watch
 Stopping video track for transform
-Stops Slackbot from using this skill for everyone.
 Stops huddle jukebox music from playing, resets lounge music state
 Stops huddle lounge music from playing
 Stops the API queue
@@ -18710,6 +18728,7 @@ Swaps legal. Her signature says Enron North America until mid-2001 and Enron Who
 Swaps the draft ID for file permissions
 Swaps the draft ID for in flight pending file uploads
 Sweet Treat
+Sweet potato!
 Switch Google account
 Switch agent
 Switch avatar
@@ -19022,6 +19041,7 @@ The file associated with this transcript is no longer available.
 The file type 
 The first row of your file should be column names. Be sure to include 
 The free plan keeps 10 apps. The rest get switched off.
+The handover doc now marks all seven agreements and says who holds the November 29 letter.
 The huddle has ended.
 The huddle language applies to AI notes, transcription and captions.
 The huddle language applies to transcription and captions.
@@ -19057,6 +19077,7 @@ The name of variable, key, signal and etc.
 The native edit could not be verified.
 The network timeout happened in suspiciously less time than our fixed timeout length
 The next day
+The note to Jay is saved in the chat; Albert has no way to send it.
 The number of values should be positive.
 The only valid scalar shape tensor is the fully unknown shape specified as -1.
 The org you logged into has already been added
@@ -19090,6 +19111,7 @@ The selector for
 The sign-in window is taking too long. Try connecting again.
 The signaling channel was closed unexpectedly. This may be due to a network change or backend detected failure.
 The signaling connection failed.
+The skill author will be notified with this info.
 The source message must have the same type or the target must be a descendant of the source.
 The source message must have the same type.
 The splice spans text another client removed
@@ -19358,7 +19380,7 @@ This list is no longer available.
 This list is restricted from use with AI steps.
 This list view was deleted
 This list was deleted
-This meeting was created using Slack
+This meeting transcript is no longer available.
 This message contains interactive elements.
 This message failed to send
 This message has been deleted or does not exist.
@@ -19462,7 +19484,6 @@ This will clear all notifications older than this one from your activity feed.
 This will remove the app from appearing in AI answers and search results. You can re-enable it anytime by selecting Manage.
 This will revert the workflow to the last published version. Any new changes since last publish will be lost.
 This will stop transcribing audio from your microphone and system audio. Is that ok?
-This will turn off the calendar updates you see in the sidebar. You can turn these back on or adjust at any time in preferences.
 This window is no longer attached. Drag Singer onto a window to continue.
 This workflow cannot be added.
 This workflow cannot be imported because one or more required apps are denied or hidden.
@@ -19482,6 +19503,7 @@ This workspace is not meant to support building apps or regular conversation. Wo
 Thomas Boettcher
 Thread ID was not set; cannot save document
 Thread Reply
+Thread actions
 Thread closed
 Thread comments fetch timed out
 Thread in 
@@ -19534,7 +19556,6 @@ Timed out waiting for code channel AI summary
 Timed out waiting for session.ready
 Timeout while fetching work object entity
 Times New Roman
-Times are minutes:seconds from the first transcript segment.
 Timing data ready but signaling client is not available, discarding
 Tips for how you work
 Title (optional)
@@ -19744,6 +19765,7 @@ Transcript Feedback
 Transcript generation started. This may take a few minutes.
 Transcript is now available for this video.
 Transcript processing
+Transcript saved
 Transcription is back on
 Transcription is now back on and will be included in the AI summary. By participating, you agree to being transcribed.
 Transcription is now back on. By participating, you agree to being transcribed.
@@ -19801,6 +19823,7 @@ Tried to enqueue an invalid request object. This is a programming error.
 Tried to get map with object key
 Tried to log a backfill with no channelID, but it errored
 Tried to open a desktop window without a desktop API available.
+Tried to record non-Error exception:
 Tried to set map with object key
 Trigger Slackbot channel suggestions (if any available)
 Trigger a deeper research pass for a Slackbot AI message
@@ -19994,7 +20017,6 @@ Turn off microphone
 Turn off music
 Turn off my video
 Turn off notifications for replies
-Turn off notifications in sidebar
 Turn off proactive replies?
 Turn off replies
 Turn off smart-invites-v3 channel suggestions by dismissing each one currently showing
@@ -20024,6 +20046,7 @@ Turn on weekly updates to get a report.
 Turn visual context back on
 Turned off DND (SCHEDULE)
 Turned off DND (SNOOZE)
+Turns a built-in skill category on or off
 Tw Cen MT
 Tw Cen MT Condensed Extra Bold
 Two days before
@@ -20089,7 +20112,6 @@ Unable to delete workflow
 Unable to do anything with api response
 Unable to fetch Salesforce org ID
 Unable to fetch canvas templates
-Unable to fetch canvas topic suggestions
 Unable to fetch channel name validation
 Unable to fetch completion
 Unable to fetch usergroup name validation
@@ -20371,11 +20393,9 @@ Until next week
 Until tomorrow
 Until you upload a photo, people outside your organization see your profile photo.
 Untitled (Archived)
-Untitled Meeting
 Untitled Sidekick
 Untitled Skill
 Untitled Window
-Untitled Workflow
 Untitled conversation
 Untitled event
 Untitled file
@@ -20491,7 +20511,6 @@ Update canvas content creation session on canvas AI content completion
 Update canvas section embed
 Update canvas section embed loading state
 Update canvas system text settings in the SSB
-Update canvas topic suggestions from API response
 Update channel badges counts
 Update channel canvas read TS when highlights are dismissed
 Update channel_id and thread_ts on an existing meeting entity
@@ -20887,6 +20906,7 @@ Upgrade to keep Pro features
 Upgrade to keep access to:
 Upgrade to manage sales in Slack
 Upgrade your free team to Pro to huddle with more than one person.
+Upload Emoji Workflow Avatar
 Upload Error
 Upload File
 Upload Files to queue instance and set the correct windowId
@@ -20917,6 +20937,7 @@ Upload workflow avatar image
 UploadQueue requires a teamId
 Uploaded files
 Uploaded image has externalUrl but no target section for unfurl
+Uploading emoji workflow avatar failed
 Uploading file
 Uploads a file to be used as an CRM email attachment via Salesforce
 Uploads a profile photo for the current user
@@ -20961,6 +20982,7 @@ Upsert contact unfurl data to the store
 Upsert current user membership for a user group
 Upsert existing active huddle channel
 Upsert existing active huddle reference
+Upsert external file providers fetched for a workspace
 Upsert external teams list based on connection type with pagination
 Upsert fetched membership info for users for a channel if we are expecting it
 Upsert fetched ordered membership list for channel
@@ -21034,6 +21056,7 @@ Use AI to manage your entire sales pipeline
 Use Blank Canvas
 Use Draft
 Use Emergency Backup Code
+Use Emoji
 Use For Matte
 Use Microphone
 Use Slack AI
@@ -21698,7 +21721,6 @@ When inputs is an array, neither initialState or constants should be provided
 When should the summary be sent
 When someone clicks the workflow link
 When to mark as read
-When to notify
 When turned on, Slackbot can search sources outside of Slack to help provide more comprehensive and up-to-date answers
 When using zeroDebias: true, step is required.
 When we switch channels or jump to a specific message, reset the counter for search in-product-education tip
@@ -21721,6 +21743,7 @@ Which answer do you prefer?
 Which best describes your last search?
 Which currencies do you support?
 Which messages should I respond to first?
+Which months and volumes should the 2002 term sheet price?
 Which of the following did you experience? Select all that apply.
 While teams are receiving the discounted subscription rate, the discount will also apply to any member count and activity changes that occur during the
 While we work on improvements, here is some information that can help.
@@ -21859,6 +21882,7 @@ Workflow version restored.
 Workflow view
 Workflows & Tasks
 Workflows Outlines
+Workflows are available on paid plans
 Workflows built with AI prompts
 Workflows do not support Send to Sales Home steps in branches.
 Workflows only support a single Send to Sales Home step.
@@ -22058,6 +22082,7 @@ You were invited to direct message with:
 You will join this channel when you share the file into it.
 You will lose access to certain features unless we process payment.
 Your AI teammate has a new home
+Your Activity work is done.
 Your Channels
 Your GitHub organization requires single sign-on. Sign in to the organization on GitHub, then try again.
 Your Gmail is connected. Turn on logging to save emails to the matching records.
@@ -22163,6 +22188,7 @@ Your inbox, summarized
 Your internet connection appears to be offline. Your changes have not been saved. Click to retry.
 Your latest edits to this clip weren
 Your meeting notes for 
+Your meeting recording was deleted before notes could be generated.
 Your meeting recording was too short to generate notes.
 Your meeting was too long to generate notes.
 Your meetings will appear here when the connection is ready.
@@ -22173,6 +22199,8 @@ Your message will be shared along with an invitation to join your workspace.
 Your message, along with any files and attachments, has been saved to your drafts.
 Your microphone is muted in system settings. Open voice details to unmute it.
 Your microphone is unavailable. Try closing other apps that may be using it, switching to a different microphone, or restarting Slack.
+Your note asking Sara to restart bond counsel, the resolution and the opinion letter is saved in the chat.
+Your note to Barry on the meeting, Louise and the $10,000 scheduling fee is saved as a doc.
 Your notes are saved in a Slack canvas.
 Your one-on-one and group conversations show up here.
 Your organization
@@ -22189,6 +22217,7 @@ Your recent searches will show up here.
 Your recently viewed or updated canvases will show up here.
 Your recently viewed or updated files will be shown here.
 Your recording has stopped. Slack is transcribing the audio and preparing your canvas.
+Your recording transcript is saved: 
 Your request was sent
 Your results
 Your review is requested
@@ -22224,6 +22253,7 @@ Your two-factor authentication code was incorrect. Please try again.
 Your update was saved, but you no longer have access to view this record.
 Your updates to this will be lost. We hate to see hard work go to waste.
 Your video is being processed and will be available to download soon.
+Your work here is done.
 Your work may slow down with more tab-switching and fewer connected apps.
 Your work will not be saved.
 Your workflow has been unpublished.
@@ -22339,13 +22369,13 @@ removeRedundantAudioRecoveryMetricsObserver is deprecated. Access encodedTransfo
 retryVideoStreamBinding - Max retries exceeded. Video stream binding failed.
 rollups missing actions???
 s Salesforce permissions were updated.
-s Schedule and CSA, or ask Mark Russell to resend them, for a clause-by-clause comparison?
 s administrative assistant. No record says who she reports to.
 s authority went (March 22).
 s bond counsel and re-review the council resolution (October 8). Status: not shown as signed.
 s contact for unpaid invoices and the main contact for the Salt River Project ISDA. In Salesforce her role is West Origination Managers, her profile is System Administrator, and she owns 17 accounts.
 s contact point for Citizens.
 s context for future turns.
+s credit worksheet are still owed.
 s credit worksheet. Status: not shown as signed.
 s device is running on battery power, which could limit device performance and cause audio, video, or application lag. If they report such issues, suggest they connect their device to a power source.
 s dtype must be an int32.

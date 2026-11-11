@@ -111,7 +111,6 @@ ai.alpha.audio.transcribe
 ai.alpha.audio.transcribeChunk
 ai.alpha.canvas.computeDraftDiff
 ai.alpha.canvas.createContent
-ai.alpha.canvas.getTopicSuggestions
 ai.alpha.canvas.refineContent
 ai.alpha.canvas.resolveDraft
 ai.alpha.canvas.reviseContentWithSources
@@ -158,6 +157,7 @@ ai.alpha.slackbot.channelSkills.setCustomInstructions
 ai.alpha.slackbot.createSlackbotInitiatedThread
 ai.alpha.slackbot.resolveVoiceToolApproval
 ai.alpha.slackbot.searchAnswerThreads.create
+ai.alpha.slackbot.skillCategories.list
 ai.alpha.slackbot.skillSets.addToLibrary
 ai.alpha.slackbot.skillSets.listEnabled
 ai.alpha.slackbot.skillSets.removeFromLibrary
@@ -211,6 +211,7 @@ ai.alpha.surfaces.getData
 ai.alpha.surfaces.getSourcesShared
 ai.alpha.surfaces.listVersions
 ai.alpha.surfaces.openCardComment
+ai.alpha.surfaces.rename
 ai.alpha.surfaces.restoreVersion
 ai.alpha.surfaces.setSourcesShared
 ai.alpha.translate.fileSummary
@@ -1328,6 +1329,7 @@ workflows.activity.list
 workflows.ai.create
 workflows.ai.feedback
 workflows.ai.generate
+workflows.ai.generateDetails
 workflows.channelOptIn.list
 workflows.channelOptIn.set
 workflows.channels.add
