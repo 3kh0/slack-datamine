@@ -106,6 +106,7 @@ agent_dm_sessions_indicator
 agent_dm_sessions_missing_roots_fetch
 agent_dm_sessions_section
 agent_dm_sessions_section_empty
+agent_dm_sessions_section_loading
 agent_dm_sessions_section_row
 agent_dm_sessions_section_row_container
 agent_dm_sessions_section_row_description
@@ -126,6 +127,8 @@ agent_dm_team_usage_prompt
 agent_dm_team_usage_row
 agent_dm_team_usage_show_less
 agent_dm_team_usage_show_more
+agent_dm_team_usage_skeleton
+agent_dm_team_usage_skeleton_row
 agent_dm_team_usage_thread_icon
 agent_dm_team_usage_try_it
 agent_dm_team_usage_used_by
@@ -180,6 +183,7 @@ agent_profile_restricted_view
 agent_profiles
 agent_prompt_link
 agent_real_name
+agent_remove_failed
 agent_response
 agent_send_overlay
 agent_send_overlay_active
@@ -219,6 +223,7 @@ agent_title
 agent_tray
 agent_tray_tab_preview
 agent_tray_tile
+agent_turn_end_reason
 agent_turn_notifications
 agent_type
 agent_ui_loading_state
@@ -230,6 +235,8 @@ agent_view
 agent_view_added
 agent_view_tab
 agent_view_tab_peek
+agent_whisper
+agent_whispers
 agentforce
 agentforce_access_cache_stale
 agentforce_agent_home
@@ -260,6 +267,7 @@ agentic_ia_agent_dm_peek
 agentic_ia_agent_dm_sessions_tab
 agentic_ia_agent_tray
 agentic_ia_browse
+agentic_ia_browse_toolbar_search
 agentic_ia_day_glance
 agentic_ia_day_glance_calendar_icon
 agentic_ia_experimental
@@ -293,6 +301,7 @@ agentic_ia_slackbot_jellyfish_prompt_sent
 agentic_ia_slackbot_rev2
 agentic_ia_slackbot_sessions_in_slackbot
 agentic_ia_todos_split_view
+agentic_ia_todos_split_view_overview_tab
 agentic_ia_translations
 agentic_ia_you_page
 agentic_profile_area
@@ -908,6 +917,7 @@ gpt_live_call_bottom_bar_end
 gpt_live_call_bottom_bar_expand
 gpt_live_call_bottom_bar_mute
 gpt_live_call_bottom_bar_status
+gpt_live_call_error_toast
 gpt_live_call_go_to_conversation
 gpt_live_call_minimize
 gpt_live_call_pip
@@ -953,9 +963,14 @@ hide_agents_in_dm_list_pref
 hide_agents_in_dm_list_pref_checkbox
 hide_slackbot_nav
 hide_slackbot_task_bot_dms_in_sidebar
+huddle_agents
 huddle_ai_notes
 huddle_ai_notes_filter
+huddle_invite_agent_button
+huddle_invite_agents_section
 huddle_meeting_assistant_menu_item
+huddle_participant_agent_badge
+huddle_remove_agent_menu_item
 huddle_slackbot
 huddle_thread_summary_complete_slackbot_reply
 huddle_thread_summary_complete_slackbot_reply_impression
@@ -1209,6 +1224,7 @@ prompt_share_dialog_copy_prompt_link_speed_bump
 prompt_share_dialog_header
 prompt_share_dialog_list_invoked_skills
 prompt_share_dialog_share_button
+prompt_share_dialog_share_thread_checkbox
 prompt_share_dialog_speed_bump
 prompt_skill_add_popup
 prompt_skill_add_popup_cancel
@@ -1418,6 +1434,9 @@ skill_share_link_modal
 skill_share_link_warning
 skill_share_scan_warning
 skill_state_changed
+skill_suggestion_create
+skill_suggestion_create_scheduled
+skill_suggestion_create_task
 skill_support_disabled
 skill_unpublish_from_catalog_failed
 skills
@@ -1668,6 +1687,7 @@ slackbot_ai_rename_conversation
 slackbot_ai_sampling_dont_send_again
 slackbot_ai_sampling_message_composer_wrapper
 slackbot_ai_sampling_paywall_zero_state
+slackbot_ai_sampling_upgrade_nudge_sidebar_card
 slackbot_ai_sampling_upsell_coachmark
 slackbot_ai_search_answers
 slackbot_ai_search_summary_follow_up
@@ -1685,6 +1705,7 @@ slackbot_ai_skill_sets_authoring
 slackbot_ai_skill_slot_0
 slackbot_ai_skill_slot_1
 slackbot_ai_skill_slot_2
+slackbot_ai_skill_suggestion_card
 slackbot_ai_skills
 slackbot_ai_skills_browser_v2
 slackbot_ai_skills_bulk_import
@@ -1775,6 +1796,7 @@ slackbot_connectors_authentication
 slackbot_context_prioritization
 slackbot_conversation_ctx_menu_open_in_new_window
 slackbot_conversation_ctx_menu_open_in_split_view
+slackbot_conversation_timeline
 slackbot_convert_thread_invitee_picker
 slackbot_convert_thread_toast
 slackbot_convert_to_channel
@@ -1861,7 +1883,6 @@ slackbot_mcp_connectors_button
 slackbot_mcp_discover_probe_failed
 slackbot_mcp_es_connector_disconnect
 slackbot_mcp_existing_app_found
-slackbot_mcp_identity_override_collapse
 slackbot_mcp_integration_detail_empty_tools
 slackbot_mcp_integrations_tab_add_custom_mcp
 slackbot_mcp_integrations_tab_browse_apps

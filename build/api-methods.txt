@@ -415,6 +415,7 @@ client.codeChannels.listSupportedApps
 client.codeChannels.mergePullRequest
 client.codeChannels.removeReaction
 client.codeChannels.requestReviewers
+client.codeChannels.setPullRequestState
 client.codeChannels.setReviewThreadResolved
 client.codeChannels.submitReview
 client.counts
@@ -519,6 +520,8 @@ developer.apps.mcp.updateToolsSnapshot
 developer.apps.owners.add
 developer.apps.owners.list
 developer.apps.owners.remove
+developer.apps.secret.regenerate
+developer.apps.updateNotification.send
 dialog.get
 dialog.notifyCancel
 dialog.selectSuggestion
@@ -745,6 +748,9 @@ helpdesk.get
 helpdesk.getArticle
 helpdesk.getSectionsAndArticlesByCategory
 highlights.list
+huddles.agents.invite
+huddles.agents.listAvailable
+huddles.agents.remove
 huddles.cancelKnock
 huddles.external.end
 huddles.external.generate
@@ -1212,6 +1218,7 @@ templates.provision
 test.getOauthCode
 test.getOauthCodeV2
 test.versionInfo
+threads.shareThread
 today.focus
 today.ignoreChannels
 today.items.blocks.dismiss

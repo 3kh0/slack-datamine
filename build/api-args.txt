@@ -268,6 +268,7 @@ client.codeChannels.join: channel_id, origin_channel_id
 client.codeChannels.listPullRequestComments: comment_kinds, cursor, pr_url
 client.codeChannels.mergePullRequest: channel_id, head_sha, pr_url
 client.codeChannels.requestReviewers: channel_id, invite_to_channel, note_blocks, post_mention, pr_url, user_ids
+client.codeChannels.setPullRequestState: channel_id, comment, pr_url, state
 client.codeChannels.setReviewThreadResolved: channel_id, is_resolved, pr_url, thread_node_id
 client.codeChannels.submitReview: channel_id, event, pr_url, revision, text
 client.counts: _x_reason, channel_ids, include_all_unreads, include_file_channels, org_wide_aware, thread_counts_by_channel
@@ -500,8 +501,12 @@ help.productHelpCard.list: count, locale, type
 helpdesk.categories: locale
 helpdesk.get: locale
 helpdesk.getSectionsAndArticlesByCategory: category_id, locale
+huddles.agents.invite: app_id, huddle_id
+huddles.agents.listAvailable: channel_id, cursor
+huddles.agents.remove: huddle_id, user_id
 huddles.cancelKnock: channel_id
 huddles.external.end: channel_id
+huddles.external.kick: channel_id, user_id
 huddles.external.linkInfo: channel_id
 huddles.external.listExternalParticipants: channel_id, include_is_invitable
 huddles.external.new: duration, scheduled_time
@@ -813,6 +818,7 @@ team.slackConnectGuidelines.get: type
 team.stateMachine: machines
 teams.authorized.ip.range.checkIp: file
 templates.provision: channel_id, channel_template_id, excluded_items, skip_simple_array_serialization_in_get_form_data, solution_template_id
+threads.shareThread: blocks, channel, share_channel, thread_ts
 today.focus: future, ignore_cache
 today.ignoreChannels: channel_ids
 today.items.blocks.dismiss: block_id, channel_id, message_ts

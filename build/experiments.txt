@@ -67,6 +67,7 @@ agent_turn_notifications: on
 agent_ui_loading_state: on
 agent_ux_august2026_release_translations2: on
 agent_ux_august2026_release_translations: on
+agent_whispers: on
 agentforce_agent_home: on
 agentforce_deprecation: on
 agentforce_feedback_buttons: on
@@ -82,6 +83,7 @@ agentic_ia_activity_conversations: on
 agentic_ia_agent_dm_peek: on
 agentic_ia_agent_dm_sessions_tab: on
 agentic_ia_agent_tray: on
+agentic_ia_browse_toolbar_search: on
 agentic_ia_day_glance: on
 agentic_ia_experimental: on
 agentic_ia_feedback_button: on
@@ -93,6 +95,7 @@ agentic_ia_slackbot_jellyfish: on
 agentic_ia_slackbot_rev2: on
 agentic_ia_slackbot_sessions_in_slackbot: on
 agentic_ia_todos_split_view: on
+agentic_ia_todos_split_view_overview_tab: on
 agentic_ia_translations: on
 agentic_ia_you_page: on
 agents_dms_header_status: on
@@ -247,6 +250,7 @@ canvas_pasted_markdown_conversion: on
 canvas_permalink_icon: on
 canvas_read_only_role: on
 canvas_salesforce_data_block: on
+canvas_sc_external_org_sharing_warning: on
 canvas_selection_awareness: on
 canvas_self_lockout_speedbump: on
 canvas_share_default_workspace_access: on
@@ -316,6 +320,7 @@ code_channels_internal: on
 code_channels_naming: on
 code_channels_pr_comment_summaries: on
 code_channels_pr_link_tabs: on
+code_channels_pr_state_picker: on
 code_channels_sidebar_peeks: on
 code_channels_sidebar_polish: on
 code_diff_comments: on
@@ -510,6 +515,7 @@ hide_add_canvas_tab_after_tab_creation: treatment
 hide_file_retention_banner: on
 hide_slackbot_task_bot_dms_in_sidebar: on
 hide_suggested_huddles: on
+huddle_agents: on
 huddle_background_picker: on
 huddle_join_from_preview: on
 huddle_page_enhancements: on
@@ -665,6 +671,7 @@ mcp_router: on
 mcp_send_message_as_bot_rollout: on
 mcp_servers_admin: on
 media_playback_speed_1_75x: on
+media_viewer_file_details_tab: treatment
 media_viewer_resizable_thread: on
 meeting_assistant: on
 meeting_assistant_user_attribution: on
@@ -873,6 +880,7 @@ serverside_markdown_rendering: on
 session_channel_views: on
 session_channels: on
 session_channels_activity_pr_tab: on
+session_channels_artifact_tabs_exp: treatment
 session_channels_code_tab_pr: on
 session_channels_create: on
 session_channels_gh_wo: on
@@ -936,7 +944,6 @@ slack_ai_recap_background_animation: on
 slack_ai_search_fus_migration: on
 slack_apps_optional_scopes_fe: on
 slack_connect_grid_migration_blocker: on
-slack_crm_card_error_toast: on
 slack_crm_csv_import_slackbot_cta: on
 slack_crm_custom_list_view_persistence: on
 slack_crm_delete_custom_field: on
@@ -944,7 +951,6 @@ slack_crm_eac_disconnect_notification: on
 slack_crm_email_activity_capture: on
 slack_crm_email_composer_manual_to: on
 slack_crm_filter_by_reference: on
-slack_crm_hide_email_event_type: on
 slack_crm_list_ui_parity: on
 slack_crm_meeting_pane: on
 slack_crm_onboarding_friction_reduction: on
@@ -1006,6 +1012,7 @@ slackbot_ai_simple_skills: on
 slackbot_ai_skill_categories: on
 slackbot_ai_skill_sets: on
 slackbot_ai_skill_sets_authoring: on
+slackbot_ai_skill_suggestion_card: treatment
 slackbot_ai_skills_browser_v2: on
 slackbot_ai_skills_bulk_import: on
 slackbot_ai_skills_i18n_wave7: on
@@ -1043,6 +1050,7 @@ slackbot_channel_calendar_tools: on
 slackbot_channel_feedback: on
 slackbot_channel_mcp_salesforce: on
 slackbot_context_prioritization: on
+slackbot_conversation_timeline: on
 slackbot_deep_thoughts: on
 slackbot_desktop_context: on
 slackbot_enhanced_explain: on
@@ -1063,7 +1071,6 @@ slackbot_mcp_apps: on
 slackbot_mcp_apps_disable_speedbumps: on
 slackbot_mcp_apps_translation: on
 slackbot_mcp_auth: on
-slackbot_mcp_identity_override_collapse: on
 slackbot_mcp_tasks_card_auto_collapse_when_complete: on
 slackbot_member_profile_prompts: on
 slackbot_message_actions_suggested_prompts: on
@@ -1195,7 +1202,7 @@ tableau_workobject_sdk_extended_timeout: on
 tableau_workobjects_enhanced_error_messages: on
 team_creation_holdout: control
 team_creation_invite_optimizations_v2: control, treatment
-team_creation_segmentation: control, treatment_segmentation_mandatory, treatment_segmentation_skippable
+team_creation_segmentation: control, treatment_segmentation_mandatory
 temp_join_channel_edu: on
 temp_mute: on
 template_creation_discoverability: on
@@ -1318,6 +1325,7 @@ wfb_code_channel_archived_trigger: on
 wfb_conditional_branching_increase_max_step_count: on
 wfb_conditional_branching_new_types: on
 wfb_create_code_channel_step: on
+wfb_custom_step_after_form: on
 wfb_enable_custom_outputs: on
 wfb_enforce_slackbot_tasks_limit_in_dev: on
 wfb_error_messaging_ux_improvements: treatment
