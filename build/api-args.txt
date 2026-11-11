@@ -106,7 +106,11 @@ ai.alpha.slackbot.channelSkills.removeSkill: channel_id, skill_file_id
 ai.alpha.slackbot.channelSkills.setCustomInstructions: channel_id, custom_instructions
 ai.alpha.slackbot.createSlackbotInitiatedThread: onboarding_next, variant
 ai.alpha.slackbot.resolveVoiceToolApproval: approval_id, client_session_id, decision
+ai.alpha.slackbot.skillCategories.create: name
+ai.alpha.slackbot.skillCategories.delete: category_id, move_to
 ai.alpha.slackbot.skillCategories.list: include_skill_counts
+ai.alpha.slackbot.skillCategories.setBuiltinActive: category, is_active
+ai.alpha.slackbot.skillCategories.update: category_id, name
 ai.alpha.slackbot.skillSets.addToLibrary: skill_set_id
 ai.alpha.slackbot.skillSets.removeFromLibrary: skill_set_id
 ai.alpha.slackbot.skills.activate: skill_id
