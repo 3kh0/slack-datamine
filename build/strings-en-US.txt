@@ -1932,6 +1932,7 @@ app_details.1d06648: {appName} is installed on {teamName}
 app_details.2a4c7f0: ‘{appName}’ will be able to do
 app_details.96cb78d: ‘{appName}’ will be able to view
 app_dialog.b16c7ac: (optional)
+app_dialog.0997bad: Header Icon
 app_dialog.2dacf65: Submit
 app_dialog.ab90d9d: This field is required.
 app_dialog.26dc55d: We had some trouble connecting. <a>Try again?</a>
@@ -6207,6 +6208,7 @@ code-review-submit-button.7e3a7c7: {count, plural, =1 {1 pending comment will be
 code-review-submit-button.0596aae: {count, plural, =1 {Review Changes, 1 pending comment} other {Review Changes, # pending comments}}
 code-review-success-toast.4198d85: View Message
 code-review-success-toast.47d34f2: View in channel
+code-tab.35b46ef: ,"/msg","/dm"],isEnabled:()=>!0,action:()=>async e=>e((await Promise.all([n.e("shared-js_modern_redux_actions_open-apps-browser-modal_ts"),n.e("shortcuts-local-actions")]).then(n.bind(n,"+7Rp"))).default())},{id:"slack-invite-to-workspace",getName:()=>L1.t("Invite someone new to join this workspace"),aliases:()=>[
 code-tab.d34ffd3: Add a reaction
 code-tab.cf05eca: Add reaction
 code-tab.41b81eb: Approved
@@ -10802,8 +10804,6 @@ huddles.c995694: <strong>Your Slack version is outdated. <l>Restart to update</l
 huddles.8036b2e: <strong>Your connection is unstable. See details by <l>opening the troubleshooting panel</l></strong>
 huddles.bd805e4: <strong>Your connection to the Huddle was lost. Hang tight while we reconnect you.</strong>
 huddles.57a4193: <strong>{firstParticipantName} and {numRemaining, plural, =1 {{numRemaining} other} other {{numRemaining} others}}</strong> are talking. Join when ready.
-huddles.b1f3613: <strong>{firstParticipantName}</strong> and {numRemaining, plural, =1 {{numRemaining} other} other {{numRemaining} others}} are already in the huddle.
-huddles.18a83d0: <strong>{firstParticipantName}</strong> is already in the huddle.
 huddles.3f51ed0: <strong>{min}m left</strong> until your huddle will end automatically. {cta}
 huddles.ed0d57d: <strong>{pendingAmount} people</strong> are requesting access to this huddle. <a>View requests</a>.
 huddles.0a67869: <strong>{userName}</strong> is requesting access to this huddle. <a>View request</a>.
@@ -12950,7 +12950,6 @@ lists.9346b80: Open share dialog to organization list
 lists.cc14044: Open subtask
 lists.abf5542: Open subtasks
 lists.e31d972: Option
-lists.85e6001: Options on {count} {count, plural, one {column} other {columns}} will be reverted
 lists.07217c7: Overdue
 lists.db24830: Paste
 lists.ebe3908: Paste a link
@@ -13315,17 +13314,7 @@ lists.8a284c7: {checkboxColumnLabel}: {checkboxColumnValue}
 lists.ea610df: {count, plural, =1 {Tracking agent work. Added # field to this list.} other {Tracking agent work. Added # fields to this list.}}
 lists.f8b7aad: {count, plural, =1 {View comment} other {View comments}}
 lists.125d4b2: {count, plural, =1 {View {count} comment} other {View {count} comments}}
-lists.2564ccd: {count} cell {count, plural, one {value} other {values}} will be changed
-lists.9036caa: {count} cell {count, plural, one {value} other {values}} will be cleared
-lists.7181ae5: {count} column {count, plural, one {type} other {types}} will be reverted
-lists.4fb4219: {count} deleted {count, plural, one {column} other {columns}} will be restored
-lists.68176d5: {count} deleted {count, plural, one {row} other {rows}} will be restored
 lists.53a45e4: {count} {count, plural, =1 {item} other {items}}
-lists.c88bd23: {count} {count, plural, one {column change} other {column changes}} will be reverted
-lists.73db5b6: {count} {count, plural, one {column} other {columns}} will be deleted
-lists.9b627d9: {count} {count, plural, one {column} other {columns}} will be renamed
-lists.3964324: {count} {count, plural, one {row} other {rows}} will be deleted
-lists.6a79d00: {currentName}, renamed to {restoredName}
 lists.870984d: {date} at {time}
 lists.c51d5fc: {disallowedFieldCount, plural, =1 {# field is} other {# fields are}} not supported: {names}. Unsupported fields will not be available in the form.
 lists.424a8a7: {emojiName}, {voteCount} {voteCount, plural, =1 {vote} other {votes}}
@@ -13345,8 +13334,6 @@ lists.3c56ca9: {itemCount} {itemCount, plural, =1 {item has} other {items have}}
 lists.74aef03: {listTitle} (Archive)
 lists.02612bf: {listTitle}, List template
 lists.3fafaf6: {listTitle}, {versionLabel}
-lists.7337e78: {name} ({ordinal} of {count})
-lists.e603888: {name} ({type})
 lists.a69deee: {name} ({type}, {ordinal} of {count})
 lists.43124fd: {numAssociatedAlertAutomations} active
 lists.5ae3e65: {numConnectedTeams, plural, =1 {{firstTeamName}} other {{firstTeamName} and {secondTeamName}}}.
@@ -18027,7 +18014,6 @@ quip_collab.5f19299: Blue70
 quip_collab.19e0743: Bold
 quip_collab.6faa896: Bulleted list style
 quip_collab.f1647ad: Callout
-quip_collab.c54fc88: Callout Placeholder
 quip_collab.2cc16b0: Callouts cannot contain collapsed sections.
 quip_collab.8a80d45: Callouts cannot contain columns or other callouts.
 quip_collab.77dfd21: Cancel
@@ -18113,8 +18099,6 @@ quip_collab.b5922cb: Embed view
 quip_collab.1e95187: Empty quote
 quip_collab.a2bb9d3: End
 quip_collab.2b9eceb: Enter
-quip_collab.64e6dd6: Entering blockquote
-quip_collab.65e80dd: Entering {background_color_name} color callout
 quip_collab.b4cfe1f: Escape
 quip_collab.8d10c69: External
 quip_collab.dc8415c: Feb
@@ -18154,7 +18138,6 @@ quip_collab.284e208: Green5
 quip_collab.c909e4f: Green50
 quip_collab.1fb464d: Green60
 quip_collab.964f97b: Green70
-quip_collab.abff5d0: Group link
 quip_collab.a3089b7: Heading
 quip_collab.fdc7d47: Heading 1
 quip_collab.b57d266: Heading 1 style
@@ -18219,7 +18202,6 @@ quip_collab.b5148a6: Magenta40
 quip_collab.98d9de2: Magenta5
 quip_collab.f2008a7: Magenta60
 quip_collab.6384162: Magenta70
-quip_collab.d4c2398: Magic Wand Icon
 quip_collab.c4ba082: Mar
 quip_collab.433632e: March
 quip_collab.23e67fc: Markdown
@@ -18241,7 +18223,6 @@ quip_collab.103101b: Next Result
 quip_collab.56b5224: Next line
 quip_collab.fac121f: No primary action available for this content
 quip_collab.8d942cd: No secondary action available for this content
-quip_collab.fc276bd: Nonmember user link
 quip_collab.bb9bfef: Nov
 quip_collab.3c5bf77: November
 quip_collab.e3b8204: Now
@@ -18262,8 +18243,6 @@ quip_collab.955ea76: Orange5
 quip_collab.c20f058: Orange50
 quip_collab.62e6723: Orange60
 quip_collab.d41f5cb: Orange70
-quip_collab.0e73e58: Out of blockquote
-quip_collab.d3ff682: Out of callout
 quip_collab.eebe8b4: Page Down
 quip_collab.4aeab6c: Page Title
 quip_collab.5c77b57: Page Up
@@ -18282,7 +18261,6 @@ quip_collab.57a82c7: Previous Result
 quip_collab.decd52e: Previous line
 quip_collab.01e0a1f: Private canvas
 quip_collab.dcfabac: Private channel
-quip_collab.982b29c: Private file
 quip_collab.4e5fa24: Private list
 quip_collab.79f2c96: Pull Quote
 quip_collab.d20f37c: Purple10
@@ -18402,7 +18380,6 @@ quip_collab.454a8bf: Upload a file
 quip_collab.63e0d46: Upload an image
 quip_collab.ad0d060: Upload failed
 quip_collab.3eaba21: Uploading file
-quip_collab.d1ba083: User link
 quip_collab.bfe07e1: User profile preview
 quip_collab.19de69c: Variable
 quip_collab.bc17c1f: Video
@@ -18451,7 +18428,6 @@ quip_collab.12dea96: user
 quip_collab.1aa96b8: yesterday
 quip_collab.d74f1c4: yesterday at {time}
 quip_collab.937d628: yesterday {time}
-quip_collab.d4c4dfc: {background_color_name} color callout
 quip_collab.111222e: {bg_color} highlight
 quip_collab.261b4ba: {count, plural, one {<b>1 match</b> found} other {<b>{count} matches</b> found}}
 quip_collab.c7fa526: {count, plural, one {<b>{position} of {count}</b> match} other {<b>{position} of {count}</b> matches}}
@@ -21556,7 +21532,6 @@ singer.cf05eca: Add reaction
 singer.891e9d6: Agenda
 singer.65def00: Agenda options
 singer.5ce2e6f: Agent
-singer.ddb41b2: All Activity Loaded
 singer.55432f4: All Slackbot conversations
 singer.2fe784d: All caught up here.
 singer.5185fa4: All clear here.
@@ -21648,7 +21623,6 @@ singer.b4ae53e: Couldn’t finish
 singer.8c9f5ff: Couldn’t finish meeting notes
 singer.2ca9024: Couldn’t finish this request
 singer.c63907a: Couldn’t hide Singer. Try again.
-singer.7379d87: Couldn’t load activity.
 singer.36de8e2: Couldn’t load coding agents. Your task is saved in the input.
 singer.e3080a7: Couldn’t load recent threads.
 singer.ad5a095: Couldn’t load your conversations. Try again.
@@ -21722,13 +21696,10 @@ singer.2a70e2a: Here’s a pony.
 singer.bf2d5f8: Hi! Good to meet you.
 singer.1b3386c: Hi. Just here to say you’re doing great!
 singer.5b0f71c: Hidden while you’re in control
-singer.7ac0677: Hide voice call controls
 singer.a896653: Hide {title} from companion
 singer.20d27f8: Hold for a pick-me-up, or press Shift+Enter.
 singer.ae44077: Hold to talk
 singer.9994b42: Hold to try a hello. Just a preview—your mic stays off.
-singer.5eb7787: Hold {fn} + left {command} to talk
-singer.0d4bcfd: Hold {fn} + right {command} to talk
 singer.664fda1: Huddle invite
 singer.b27e958: Huddle notes
 singer.cc1ebdd: Idle
@@ -21736,6 +21707,7 @@ singer.69e5b48: Island activity muted for {minutes, plural, one {# minute} other
 singer.33b2fab: It’s been quiet for a while. Still in the meeting?
 singer.8dc7564: I’m using Slackbot to record and transcribe this meeting with AI and make notes. Please let me know if you’d prefer I stop.
 singer.2e0db25: Join huddle
+singer.3a014a3: Jump to…
 singer.1a066ec: Just the venue. Dates and budget are set.
 singer.fc018de: Keep Going
 singer.77ccc1b: Keep recording
@@ -21751,7 +21723,6 @@ singer.1734e2e: Little moments, more personality
 singer.64a9fa4: Live meeting
 singer.9ecde87: Load More
 singer.dfe60ca: Load more
-singer.4c959ab: Loading activity…
 singer.c9d1bde: Loading browser settings…
 singer.8f66c88: Loading conversations…
 singer.a863c67: Loading messages…
@@ -21867,9 +21838,6 @@ singer.fe73d79: Quiet
 singer.5a0d343: Quiet for {minutes} min
 singer.4b3fb60: Quiet in here.
 singer.4ea8770: Racer Dood
-singer.f1f9434: React and mark done
-singer.89c7896: React with check mark
-singer.9e8a752: React with eyes
 singer.20c7c55: Ready
 singer.aec1322: Ready when you are
 singer.61fd682: Reconnect to mark these as read.
@@ -21888,7 +21856,6 @@ singer.6025e93: Reduce Motion is on in macOS.
 singer.4a7e2a2: Reduced
 singer.255c9a4: Remember sign-ins
 singer.25df3f7: Remind me
-singer.8de5d6d: Remove attached files
 singer.a2d32f8: Remove attached window
 singer.58c6143: Remove meeting transcript
 singer.05315c0: Remove screenshot
@@ -21928,7 +21895,7 @@ singer.c7f73bb: Settings
 singer.cf0f51d: Show New Activity
 singer.5810ece: Show in Chat
 singer.ded0a5d: Show me
-singer.712bd34: Show voice call controls
+singer.4c358ea: Show {count, plural, =1 {# more task} other {# more tasks}}
 singer.348b2d3: Showtime
 singer.f8492cc: Sign In
 singer.fc5040b: Sign in, then choose Continue. Slackbot can’t see this page.
@@ -21985,7 +21952,6 @@ singer.c447725: Taking control…
 singer.4e6a710: Talk
 singer.849d26b: Talk isn’t available in this workspace yet. You can still type a question.
 singer.7cd4f2a: Talk to Slackbot
-singer.1a6ba58: Talk with Slackbot
 singer.090ec5f: Tasks
 singer.31f2ce0: Tell me about this window.
 singer.348527a: That didn’t work. Try again.
@@ -22010,6 +21976,7 @@ singer.d56662b: Thread replies
 singer.bb12e8a: Threads
 singer.018514a: Timeline
 singer.ae79ea1: To
+singer.427b26a: Today’s meetings
 singer.1948bf2: Tomorrow
 singer.1e7571c: Transcribing…
 singer.6f0bd6a: Transcript saved
@@ -22033,7 +22000,6 @@ singer.d86289d: View Tasks
 singer.a172d36: View conversation
 singer.5559dd0: View only
 singer.3091c84: Voice
-singer.f95f919: Voice calls are unavailable for this workspace
 singer.cda41b4: Voice input isn’t available. Try again.
 singer.a86dd4a: Voice with Slackbot
 singer.0ab6291: Wait until the message editor is ready to quote a message.
@@ -22083,11 +22049,11 @@ singer.8a65704: {count, plural, one {# file} other {# files}}
 singer.808dc33: {count, plural, one {# new activity item} other {# new activity items}}
 singer.07c9e92: {count, plural, one {# skill found} other {# skills found}}
 singer.4492438: {count, plural, one {# task update} other {# task updates}}
+singer.162ce25: {count, plural, one {# update in Activity} other {# updates in Activity}}
 singer.6c37732: {count, plural, one {<b>#</b> DM} other {<b>#</b> DMs}}
 singer.fdc6966: {count} new
+singer.671ee27: {minutes, plural, one {# minute} other {# minutes}}
 singer.09a22c2: {minutes} min
-singer-file-drop-feedback.5ff5dd8: Adding to your message…
-singer-file-drop-feedback.38abf08: Drop to attach
 singer-window-attachment.7aba744: Attached window
 singer-window-attachment.77d607f: Attaching window…
 singer-window-attachment.c7310d3: Detach window
@@ -26772,7 +26738,6 @@ view.749776f: Close Channel
 view.a8c64a7: Code Channels
 view.1df39aa: Compact
 view.4f9be05: Content
-view.2367b4b: Corrections are paused for now.
 view.3c7746e: Created by agents
 view.1641c52: Ctrl Alt Click
 view.fc762b5: Ctrl Click
@@ -26922,7 +26887,6 @@ view.bcf43d4: You don’t have permission to message this conversation.
 view.ac1e950: You don’t have permission to message {member}.
 view.adcfed3: Your templates
 view.732f940: Your two organizations are no longer connected.
-view.ce6d347: flagged, awaiting a word
 view.86a3db1: {app_name} has turned off direct messaging, so you won’t be able to respond to these messages.
 view.bae2c62: {channelName} (Channel)
 view.cc9bf27: {channelName} (DM)
