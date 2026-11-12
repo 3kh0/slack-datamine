@@ -3984,7 +3984,6 @@ channel_details.dfa1219: Invalid Google Drive link. Please check the URL and try
 channel_details.532b387: Invalid channel. Check the channel settings and try again.
 channel_details.48f07bd: Invitation Pending…
 channel_details.1e07611: Invite {email}
-channel_details.53469df: Invited
 channel_details.cd074cf: It looks like you’re still working on this. You may lose the info you’ve entered so far if you leave now.
 channel_details.b33da63: I’ll also send Slack notifications from time to time. You can see those in History.
 channel_details.5ceb3a9: I’m Slackbot, here to help you do your best work in Slack. Some things people tell me I’m good at:
@@ -5468,6 +5467,7 @@ channels.a420b01: You don’t have permission to archive private channels. Talk 
 channels.248600d: channel 
 channels.b1969fc: private channel 
 channels.f9b8d9e: {channelName}
+chat_commands.aa6f937: remind
 checkout_abandonment.202c92a: Looks like you started upgrading to a more powerful paid plan, but didn’t make it all the way through. <a>Finish checkout</a>
 checkout_v2.7e5111d: By redeeming this offer, you agree that these offer terms form part of and modify Slack’s <mainServicesLink>Customer Terms of Service</mainServicesLink> (or the terms of your written agreement regarding your use of Slack’s services) (your “Agreement”) entered into between you and the Slack entity identified in the Agreement and that, after the Discount Period, Slack’s then-current standard pricing set forth on Slack’s <pricingPageLink>Pricing Page</pricingPageLink> will apply to the remainder of your plan and to any plan renewals. Please see the terms of your Agreement for information on how to cancel or downgrade your paid subscription prior to any such renewal.
 checkout_v2.453fd5f: By redeeming this offer, you agree that these offer terms form part of and modify Slack’s <mainServicesLink>Customer Terms of Service</mainServicesLink> (or the terms of your written agreement regarding your use of Slack’s services) (your “Agreement”) entered into between you and the Slack entity identified in the Agreement. You further agree that, after the Discount Period, you will be subject to the Slack Business+ standard pricing that is current as of the date the Discount Period ends, as set forth on Slack’s <pricingPageLink>Pricing Page</pricingPageLink>, including all or part of any plan renewals. For clarity, after the Discount Period, if you continue with the Slack Business+ plan at the conclusion of the Discount Period, you will be charged at the standard rate for the Slack Business+ plan you have selected unless and until you cancel your subscription. If you redeem this offer and then cancel or downgrade your paid Slack Business+ plan at any time during the Discount Period, this offer will no longer be available to you.
@@ -12177,9 +12177,6 @@ invite_reminders.e9b450d: Done
 invite_reminders.1f07aca: Resend invitations to join {teamName}
 invite_reminders.9bc2575: Send
 invite_reminders.35f49dc: Sent
-invited_user_glow_up.10c5400: You can send one invite every 24 hours.
-invited_user_glow_up.4437b98: You can send one invite every 5 minutes.
-invited_user_glow_up.2c00c99: You have exhausted maximum invite resends
 joiner-launchpad.12c0742: Accessibility in Slack
 joiner-launchpad.fdf256c: As you and your team work together in Slack, you’ll create a searchable archive of conversations and decisions
 joiner-launchpad.8c4e905: Connect your tools in Slack
@@ -13493,7 +13490,6 @@ member_profile.01e38a4: Go online to start a call
 member_profile.60b851e: Here to help you do your best work in Slack.
 member_profile.9535925: Hide {prefCompliantMemberName}
 member_profile.a0767c2: Huddle
-member_profile.53469df: Invited
 member_profile.a2a7b8d: Invited By
 member_profile.7573b84: Invited member
 member_profile.824d76b: Learn more
@@ -13514,6 +13510,7 @@ member_profile.519255a: Organization
 member_profile.8961d3b: Phone number
 member_profile.a52afe7: Profile photo for {user_name}
 member_profile.14c21d4: Protect your account with a passkey
+member_profile.9bdd931: Remind Me
 member_profile.25df3f7: Remind me
 member_profile.db56b97: Remove from VIP
 member_profile.c551b66: Report to Slack
@@ -26440,7 +26437,6 @@ trials_highlight_paid_features.69f9f9a: If you choose not to upgrade by <strong>
 trials_highlight_paid_features.57c7964: If you choose not to upgrade by <strong>{trialExpirationDate}</strong>, your team’s huddles will be limited to 2 people and will no longer include AI notes. We recommend {planName} to keep group huddles and AI notes.
 trials_highlight_paid_features.ace0560: Installing an unlimited number of apps is a paid feature, available with your free trial through <strong>{trialEndDate}</strong>. <learnMoreLink>Learn more</learnMoreLink>
 trials_highlight_paid_features.de02a1c: Installing an unlimited number of apps is a paid feature, available with your free trial. <learnMoreLink>Learn more</learnMoreLink>
-trials_highlight_paid_features.1f159a3: Introducing canvas | A new surface to share and organize knowledge | Slack
 trials_highlight_paid_features.378cbbf: Learn More
 trials_highlight_paid_features.824d76b: Learn more
 trials_highlight_paid_features.b1f32dd: Learn more about Huddles

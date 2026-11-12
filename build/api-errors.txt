@@ -122,10 +122,8 @@ subscriptions.thread.mark: channel_not_found, invalid_timestamp, message_not_fou
 team.stateMachine: internal_error, metadata_invalid, metadata_parse_failed, state_machine_not_found, state_update_failed
 today.focus: failed_to_enqueue_focus, today_focus_rate_limited
 users.admin.inviteBulk: cannot_combine_frontline_and_ultra_restricted, channel_not_found, custom_message_not_allowed, email_in_message, frontline_not_allowed, guest_expiration_exceeds_max_guest_duration, invalid_json, invalid_team_id, invite_failed, invite_limit_reached, inviter_email_not_verified, missing_team_id, no_perms, not_workspace_member, paid_teams_only, request_limit_reached, requires_channel, requires_one_channel, team_not_found, too_many_channels, too_many_frontline_channels, ura_limit_reached, url_in_message
-users.admin.resendInvitation: invalid_member, invitation_not_found, invite_sender_email_not_verified, inviter_email_not_verified, new_send_failed, sent_recently, target_team_must_be_specified_in_org_context, target_team_not_on_org
 users.channelSuggestions.list: feature_not_enabled
 users.inviteRequests.create: channel_not_found, custom_message_not_allowed, guest_expiration_exceeds_max_guest_duration, invalid_requests, invalid_team_id, invite_limit_reached, inviter_email_not_verified, missing_team_id, no_perms, not_workspace_member, paid_teams_only, request_failed, requires_channel, requires_one_channel, too_many_channels, ura_limit_reached, url_in_message
-users.invites.resend: already_reminded_recently, invitation_not_found, inviter_email_not_verified, reminder_limit_reached, user_not_found
 users.priority.add: no_bot_vip, no_self_vip, too_many_vips, user_not_found
 visits.record: internal_error, restricted_action
 workObjects.publishEntity: already_published, calendar_not_connected, channel_not_found, invalid_entity_id, invalid_event_times, invalid_recurrence, invalid_state, missing_event_title, not_authorized_reviewer, not_draft_owner, publish_failed, recurring_meetings_disabled, unsupported_entity_type, unsupported_source, validation_failed

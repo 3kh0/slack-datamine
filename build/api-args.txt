@@ -869,9 +869,7 @@ users.customStatus.schedule: custom_status_id, date_expire, date_scheduled, dura
 users.delegates.list: role
 users.info: custom_fields_mode, self, team, users
 users.inviteRequests.create: channels, requests, restricted, source, team_id, ultra_restricted
-users.invites.resend: user_id
 users.list: limit
-users.listOutgoingInvites: cursor, invitee, limit, mode
 users.markAllRead: undo_ts
 users.prefs.get: prefs
 users.prefs.set: name, prefs, value
