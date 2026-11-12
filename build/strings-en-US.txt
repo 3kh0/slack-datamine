@@ -1161,7 +1161,6 @@ agents.55f6cc2: From your admin
 agents.a1b9c30: Gathering information…
 agents.9be6b90: Generating response…
 agents.c7cefb8: Get more from {skillName}
-agents.410bbfd: Give Slackbot instructions on how you work. Slackbot applies the right skill automatically when it’s relevant.
 agents.086158f: Give feedback
 agents.3c382cc: Help me create a new skill: {description}
 agents.f8c2483: Hide details
@@ -1192,7 +1191,6 @@ agents.a1e34f9: More actions
 agents.aaf2ce0: More actions for skill set
 agents.9110744: More actions for {skillName}
 agents.e3904de: More actions for {skillSetName}
-agents.61ef448: More results loaded
 agents.5adbdd0: Most popular
 agents.71b35d4: Most relevant
 agents.8c75e17: My skills
@@ -23135,6 +23133,7 @@ slackbot-ai.3c2cdd9: Bulk permission for {category}
 slackbot-ai.77dfd21: Cancel
 slackbot-ai.a3f80b8: Canvas
 slackbot-ai.e2d397a: Canvases
+slackbot-ai.68a6728: Can’t add more than {remainingSlots, plural, =1 {# list} other {# lists}}. Remove some to continue.
 slackbot-ai.6bcbfcc: Can’t add these canvases right now.
 slackbot-ai.72c4d0d: Can’t disconnect {name}. Try again.
 slackbot-ai.2a6acbf: Can’t save project memory. Try again.
@@ -23150,6 +23149,7 @@ slackbot-ai.0636f3d: Choose a schedule
 slackbot-ai.1de9fb0: Choose a schedule or event
 slackbot-ai.e969193: Choose up to {count} reactions.
 slackbot-ai.dc2d311: Choose your account and review access in your browser. Then come back here.
+slackbot-ai.68f7230: Click the ⭐ star on any conversation to add it here for later.
 slackbot-ai.bbfa773: Close
 slackbot-ai.d62027d: Close & Discard
 slackbot-ai.c8eb1c7: Closing this window will cancel any unsaved changes.
@@ -23320,6 +23320,7 @@ slackbot-ai.578f60a: No runs yet
 slackbot-ai.6eef664: None
 slackbot-ai.d1a17af: Not available
 slackbot-ai.e457149: Not now
+slackbot-ai.63f34dd: Older
 slackbot-ai.c23a7e1: Once connected, Slackbot can use {name}’s tools to answer questions and take action on your behalf.
 slackbot-ai.6767b46: Once it’s connected, I’ll show your day right here.
 slackbot-ai.49d988e: Once on {date} at {time} {timezone}
@@ -23340,6 +23341,7 @@ slackbot-ai.0869180: Prep for {title}
 slackbot-ai.5ef5732: Preparing your briefing…
 slackbot-ai.95cc208: Preparing your plan…
 slackbot-ai.f1fbb2b: Preview
+slackbot-ai.1373f6a: Preview ended
 slackbot-ai.aee7e47: Previous email
 slackbot-ai.b75fca7: Project memory
 slackbot-ai.73e4ae3: Project memory saved. Your newer edits aren’t saved yet.
@@ -23451,6 +23453,7 @@ slackbot-ai.6c2e03e: There was a problem loading recent runs.
 slackbot-ai.644bd01: There was a problem loading tasks.
 slackbot-ai.0f17b71: This app isn’t available anymore.
 slackbot-ai.df7ef69: This project can’t hold any more canvases. Remove one to add another.
+slackbot-ai.0b4a7ec: This project no longer exists. Close this and refresh to see your projects.
 slackbot-ai.7bd7ee9: This task just started. Try again in a minute.
 slackbot-ai.da05b77: This will remove all {name} tools from Slackbot. You can reconnect anytime.
 slackbot-ai.0522b8d: This will stop Slackbot from searching {name}. You can reconnect anytime.
@@ -23502,6 +23505,7 @@ slackbot-ai.905cb32: You
 slackbot-ai.801882a: You are logged into {email_address}
 slackbot-ai.bf38c85: You can reconnect anytime.
 slackbot-ai.5b43b34: You can use up to {max} apps in conversations. Turn one off to add another.
+slackbot-ai.880f246: You can’t add one of these lists. Check that you can still view it.
 slackbot-ai.dd9c8c1: You can’t add {canvasTitle}. Check that you can still view it.
 slackbot-ai.a3d6efd: You can’t enter more than {maxLength} characters.
 slackbot-ai.ecfe725: You have unsaved changes that will be lost.
@@ -23542,6 +23546,7 @@ slackbot-ai.c391f33: {ordinal} {day} every {repeatsEvery} months between {startT
 slackbot-ai.479747d: {ordinal} {day} of every month at {time} {timezone}
 slackbot-ai.3101266: {ordinal} {day} of every month between {startTime} and {endTime} {timezone}
 slackbot-ai.b76f7f2: {prompt} — Connect to try
+slackbot-ai.3f6c9b2: {section}, {count, plural, one {# unread chat} other {# unread chats}}
 slackbot-ai.d05dda5: {serverName} disabled
 slackbot-ai.cc4424e: {serverName} enabled
 slackbot-ai.8865edf: {step}: complete
