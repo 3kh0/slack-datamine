@@ -198,7 +198,7 @@ apps.index.list: category, cursor, filter, is_app_launcher, limit, team_id
 apps.index.search: category, cursor, filter, is_app_launcher, limit, query, team_id
 apps.onboarding.list: source
 apps.profile.check: bot_user_ids
-apps.profile.get: app, bot, bot_home_team
+apps.profile.get: app, bot, bot_home_team, skip_salesforce_cache
 apps.scopes.info: app_id
 apps.team.variables.delete: names, team
 apps.team.variables.get: names, team
