@@ -94,7 +94,7 @@
 ) are ignored.
 ) is not supported yet.
 ) that performed expensive computation.
-)&&(eN(!1),aB(void 0),eT(aV?
+)&&(eN(!1),aU(void 0),eT(a0?
 ))),e((0,d.R3)(h)),e((0,d.p4)(h?a:void 0)),p(h?
 ). If you meant to render a collection of children, use an array instead.
 )?l.makeImage(e.slice(8),new u.Ay(t,r,n,i),o?
@@ -144,6 +144,7 @@
 :void 0,credentialless:o?
 :void 0,credentialless:p?
 :void 0,skipDoneDialog:!0,buttonClassName:t?
+?void 0:v.observedStatus)??f??v?.observedStatus??(v?.summaryDone?
 A DM with someone
 A December 2000 announcement, an October 2001 organizational memo, email signatures, and customer and organizational threads.
 A GIF is worth a thousand words
@@ -2627,6 +2628,7 @@ Catch up on channels
 Catch up on your DMs
 Catch up quickly and reduce noise with automated summaries and daily recaps
 Catch-up failed: no transcript history available
+Catch-up stopped. These stay unread.
 Category Tags
 Catppuccin Latte
 Catppuccin Macchiato
@@ -3859,6 +3861,7 @@ Conversation resolved
 Conversation timeline
 Conversation unpinned
 Conversation unresolved
+Conversations in this catch-up
 Conversations in this project
 Conversations you star in Slack will appear here.
 Conversations you start in this project will show up here.
@@ -4171,6 +4174,7 @@ Counts a new message in its code channel session
 Counts a new top-level message in a channel session
 Counts the number of times the Open App team menu item is selected
 Cover image
+Covered this update.
 Cozy Knit
 Crawl use case
 Create Another Workspace
@@ -8446,6 +8450,7 @@ In progress
 In reply to: Anyone available for a review?
 In response to an RTM event, clear a Megaphone notification from all spaces where it is currently showing
 In the next 7 days
+In the summary.
 In this DM
 In this channel
 In this conversation
@@ -8772,7 +8777,6 @@ Invite user(s) to a conversation
 Invite your coworkers with this link
 Invite your team
 Invite your team so they can jump in right away.
-Invite your team to Slack
 Invite your teammates
 Invited Guest
 Invited Member
@@ -8990,6 +8994,7 @@ Key Overscan
 Key Updates
 Key features
 Key pressed on activity item
+Key updates
 Keyboard Shortcuts
 Keyboard focus
 Keyboard shortcuts
@@ -10413,8 +10418,6 @@ Marks admin suggested list views for sidebar as fresh
 Marks admin suggested list views for sidebar as stale
 Marks an MCP app resource as recently accessed for LRU tracking
 Marks one agent sessions fetch as started (true) or done (false)
-Marks only fully summarized updates.
-Marks only the updates summarized here.
 Marks that a Salesforce-cache interactability refresh was attempted for an Agentforce app
 Marks that the admin declined the opt-in this session (coachmark dismissed or landing closed)
 Marks that the initial calendar window fetch has completed
@@ -11758,6 +11761,7 @@ Not checking for changes in DND status as all members are stale
 Not checking persistence storage method version because localStorage doesn
 Not complete
 Not completed
+Not confirmed in the summary, so it stays unread.
 Not connected
 Not custom files
 Not defined
@@ -11791,6 +11795,7 @@ Not purging persisted models as IndexedDB isn
 Not reloading non-gantry page
 Not searching in this channel?
 Not sent yet
+Not sent yet. These stay unread.
 Not set yet
 Not setting a timer as all schedules are stale
 Not signed into any teams
@@ -11840,6 +11845,7 @@ Nothing new. Carry on.
 Nothing new. Recent sessions will show up here.
 Nothing saved yet
 Nothing to fetch after delay after all
+Nothing to restore. This version matches the list.
 Nothing to score yet. Open the Focused sidebar in this workspace, then refresh.
 Nothing to see here
 Nothing to see. Yet.
@@ -12249,6 +12255,7 @@ Open in Main Window
 Open in Salesforce
 Open in Salesforce (opens in new tab)
 Open in Singer
+Open in Singer.
 Open in Singer. Command-click to open in the main Slack window.
 Open in Slack
 Open in Slack Marketplace
@@ -12727,7 +12734,6 @@ Other options
 Other queries
 Other related matches
 Other unreads
-Other updates are still unread.
 Other workspaces
 Other workspaces have new messages
 Out of blockquote
@@ -18131,6 +18137,7 @@ Slackbot moved inside the More tab
 Slackbot needs you to connect an account to continue
 Slackbot needs your okay
 Slackbot needs your okay to continue
+Slackbot needs your okay to keep going.
 Slackbot no-results handoff failed
 Slackbot onboarding
 Slackbot only investigates rows on lists that track agent work. The message will still be added to this list.
@@ -18141,6 +18148,7 @@ Slackbot setup progress
 Slackbot sidebar: compose a code-channel row aria-label
 Slackbot sidebar: compose a thread row aria-label
 Slackbot skill
+Slackbot summarizes these conversations. Nothing is marked read.
 Slackbot task started
 Slackbot teaser
 Slackbot uses this context across conversations in the project and may update it automatically each week.
@@ -18822,7 +18830,6 @@ Summarize-PRE 3
 Summarize... Outlines
 Summarized information was accurate and clear
 Summarized information was inaccurate or confusing
-Summarized updates marked as read.
 Summarizing Outlines
 Summary Outlines
 Summary of the work is ready
@@ -19380,7 +19387,6 @@ These organizations are no longer connected.
 These people already have Frontline accounts for your organization, so you can only invite them in that role.
 These tools will be shared with anyone who reviews this app.
 These updates are marked read.
-These updates are still unread.
 They can read and reply in this conversation when mentioned.
 They should be available for your organization over the next month
 Thin Stroke
