@@ -714,7 +714,6 @@ sfdc.fields.listEligible: object_api_name, salesforce_org_id
 sfdc.fields.updateVisibility: field_api_names, listview_id, object_api_name, salesforce_org_id
 sfdc.files.list: cursor, file_type_categories, limit, parent_record_id, salesforce_org_id
 sfdc.files.upload: file, salesforce_org_id
-sfdc.getContactDetails: record
 sfdc.getContactListInfo: salesforce_org_id
 sfdc.getFrontdoorUrl: url
 sfdc.getImportObjectAvailableFields: object_type, salesforce_org_id
