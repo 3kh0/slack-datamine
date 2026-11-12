@@ -21,7 +21,7 @@ admin.apps.lookup: app_ids, enterprise_id, include_configured_domains, include_n
 admin.apps.permissions.list: app_id
 admin.apps.permissions.set: app_id, channel_restriction_mode, permission_type
 admin.apps.productivity.list: suite, token
-admin.apps.requests.list: app_ids, cursor, enterprise_id, limit, team_id
+admin.apps.requests.list: app_ids, certified, cursor, enterprise_id, limit, team_id
 admin.apps.restrict: app_id, enterprise_id, team_id
 admin.apps.restricted.list: legacy_integrations, limit
 admin.canvases.publishTemplate: file_id, publish_sales_template

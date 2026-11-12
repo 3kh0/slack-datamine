@@ -6380,7 +6380,6 @@ code_channels.1e80870: Expand view
 code_channels.426b501: Files and links
 code_channels.8cf15d9: GitHub Enterprise connected
 code_channels.04091c0: Loading view
-code_channels.d11d7e5: Post the pull request link in this channel to load its details.
 code_channels.9682754: Session channel views
 code_channels.69782c0: Unable to load this view. Please try again later.
 comments.60b9e1c: Hide older comments
@@ -8838,7 +8837,6 @@ enterprise-apps-connectivity.ab8802c: More apps to connect
 enterprise-apps-connectivity.3c28693: No apps available for your organization.
 enterprise-apps-connectivity.1e4a356: Ready to connect
 enterprise-apps-connectivity.9f5cd8a: Retry
-enterprise-apps-connectivity.b441d9e: Retry {appName}
 enterprise-apps-connectivity.ce0a0a4: See all apps
 enterprise-apps-connectivity.ad5488f: Show {providerName} apps
 enterprise-apps-connectivity.bee54c9: Something went wrong.
@@ -8849,10 +8847,6 @@ enterprise-apps-connectivity.e910676: This connection expired.
 enterprise-apps-connectivity.61f26fc: This connection is no longer valid.
 enterprise-apps-connectivity.dd1c3fa: This connection needs more permissions.
 enterprise-apps-connectivity.4e0dff8: What’s included:
-enterprise-apps-connectivity.03f79d7: {appName} connected
-enterprise-apps-connectivity.bb70f02: {appName} connecting, a new tab will open for you to sign in
-enterprise-apps-connectivity.a4ac983: {appName} connection error
-enterprise-apps-connectivity.130c9d3: {appName} connection error, retry available
 enterprise-apps-connectivity.2538ded: {appName} isn’t available right now. Give it another try in a few minutes.
 enterprise_dashboard.ef32a11: 1 or more enterprise search apps need setup. Select Configure to finish.
 enterprise_dashboard.888e6ff: 1 or more enterprise search apps were not enabled
@@ -19246,6 +19240,7 @@ search.f0424e9: Bulk manage files
 search.6d1e856: But if you’ve been loving it, get unlimited AI answers on our Business+ plan.
 search.2444b40: Can you find results related to "{searchText}"?
 search.77dfd21: Cancel
+search.9057a19: Cannot find this item
 search.a3f80b8: Canvas
 search.98cc6bf: Canvas templates
 search.e2d397a: Canvases
@@ -19899,6 +19894,7 @@ search.2996624: This AI answer may include information from sources only you hav
 search.657843d: This browser couldn’t load.
 search.3b3ce71: This channel’s content is not available. 
 search.1e0f92f: This could be a connection issue, or just a little blip.
+search.d24d692: This is taking a while but we haven’t given up yet…
 search.e256dfc: This is your last AI search preview
 search.8ed6711: This link does not come from data in your Slack workspace. Make sure you trust this link before continuing.
 search.d4ad99b: This link opens a website outside of Slack. It was used as a source by Slackbot to answer your question.
@@ -20158,7 +20154,6 @@ session_channel_archive.7eac343: This channel is inactive. Archive it for everyo
 session_channel_archive.94ca019: This channel is inactive. Leave the channel to tidy up your sidebar — you can always rejoin it later.
 session_channel_archive.504fccb: This work is complete. Archive it for everyone — the contents will still be available in search, and you can always unarchive it in the future.
 session_channel_archive.4fd785e: This work is complete. Leave the channel to tidy up your sidebar — you can always rejoin it later.
-setup_page.db07f2e: ),o+=s}function extractTextFromMessage(e,t){if(!t)return"";let a=(0,K.n)(e,t,{convertEmoji:(0,S.P)(e)?"text":"unicode",convertUnknownSlugToUrl:!0,blockSpacing:"single",useMentionsNamePref:!0}),n=t.files&&(0,M.qh)(t.files)?applyClipsTemplate(t,(0,M.NG)(t.files),a||""):null;if(n)return n;let i=t.files?(0,E.A)(t.files):void 0;if((i&&!a||(0,W.A)(t.subtype))&&i){let n=(0,G.Lp)(e,i.id),r=a?null:(0,U.V)(n);return r||(0,B.HD)(e,t,n)||""}if(a)return a;if(t.attachments&&t.attachments.length){let a=(0,q.Qy)(t);if(a){let t=(0,K.a)(e,a,{convertEmoji:(0,S.P)(e)?"text":"unicode",convertUnknownSlugToUrl:!0,useMentionsNamePref:!0});if(t)return t}return textContentFromAttachments(t.attachments)}return
 setup_page.27e6d30: + {count, plural, =1 {# other} other {# others}}
 setup_page.850a65b: 1,001 +
 setup_page.92767dc: 101 - 500
@@ -26984,6 +26979,7 @@ work-objects.e2970cc: Already configured your user?
 work-objects.5414e5c: Already set up MFA?
 work-objects.b2aba32: Already updated your password?
 work-objects.ba5f7ff: Always Approve
+work-objects.d80ec3d: An issue occurred
 work-objects.fc4a695: App
 work-objects.38b8274: Approve & Continue
 work-objects.3c90608: Approve & continue
@@ -27028,7 +27024,6 @@ work-objects.99d6a3c: Copy link to open in your browser.
 work-objects.7f4ae41: Copy link to {tableauType}
 work-objects.385257b: Copy link to {workObjectDisplayType}
 work-objects.eac1d41: Couldn’t load older comments.
-work-objects.13325f9: Couldn’t load older replies.
 work-objects.84cafa9: Couldn’t load preview
 work-objects.daaf089: Create Channel
 work-objects.ca2fa8c: Create a Channel for {recordTitle}
@@ -27158,11 +27153,12 @@ work-objects.76e2986: Summarize with Slackbot
 work-objects.1ce6d69: Sync data
 work-objects.b8416bf: Synced {timeAgo} from {appName}
 work-objects.0acad05: Syncing with {appName}
-work-objects.221ca63: Syncing…
 work-objects.bb6d7e5: Tableau
 work-objects.3c8d1d0: Tableau Next
 work-objects.5cf8533: The full context, right in Slack
+work-objects.5123c76: There was an issue and we couldn’t display this {displayType}. Try again in a few minutes.
 work-objects.5de9513: This attachment was deleted.
+work-objects.aa8bb13: This file can’t be previewed in Slack.
 work-objects.c261b3e: This kind of draft can’t be saved.
 work-objects.f69347a: This thread
 work-objects.7863f75: Thread
@@ -27233,6 +27229,7 @@ work-objects.44f19b1: {productName} previews will open in your browser. You can 
 work-objects.5fc1b22: {reminder} minutes
 work-objects.4aabda3: {replyCount, plural, one {# reply} other {# replies}}
 work_objects.77dfd21: Cancel
+work_objects.e2a3b82: Comments posted on this {displayType} will sync back to {productNameLink}.
 work_objects.70afe9e: Dismiss
 work_objects.3b16825: Edit comment
 work_objects.49194ea: Reply to this thread in {productName}…
