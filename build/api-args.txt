@@ -271,7 +271,7 @@ client.codeChannels.getSummary: channel_id
 client.codeChannels.join: channel_id, origin_channel_id
 client.codeChannels.listPullRequestComments: comment_kinds, cursor, pr_url
 client.codeChannels.mergePullRequest: channel_id, head_sha, pr_url
-client.codeChannels.requestReviewers: channel_id, invite_to_channel, note_blocks, post_mention, pr_url, user_ids
+client.codeChannels.requestReviewers: channel_id, invite_to_channel, note_blocks, notify_unlinked, post_mention, pr_url, user_ids
 client.codeChannels.setPullRequestState: channel_id, comment, pr_url, state
 client.codeChannels.setReviewThreadResolved: channel_id, is_resolved, pr_url, thread_node_id
 client.codeChannels.submitReview: channel_id, event, pr_url, revision, text

@@ -6,7 +6,7 @@ admin.roles.removeMembers: channels_not_from_same_external_workspace, failed_for
 agents.socialProof.info: agent_disabled, method_not_found, not_agent_app, not_bot_user, user_not_found
 agents.threads.rename: agent_session_not_found, channel_not_found, invalid_name, invalid_name_punctuation, invalid_name_specials, invalid_timestamp, method_not_found, name_too_long, not_thread_agent_session
 ai.alpha.canvas.computeDraftDiff: canvas_ai_disabled_for_user, canvas_not_found, compute_failed, invalid_operations, permission_denied
-ai.alpha.canvases.drafts.view: canvas_ai_disabled_for_user, canvas_not_found, channel_not_found, draft_unavailable, unknown_method
+ai.alpha.canvases.drafts.view: canvas_ai_disabled_for_user, canvas_not_found, channel_not_found, draft_expired, draft_unavailable, unknown_method
 ai.alpha.digest.addToDigest: channel_subscription_limit_reached, invalid_channels, missing_channel
 ai.alpha.slackbot.channelMcpServers.list: channel_not_enabled, channel_not_found, feature_not_enabled, internal_error, restricted_action
 ai.alpha.slackbot.channelMemory.delete: channel_not_enabled, channel_not_found, failed_to_delete_memory, memory_not_found, restricted_action

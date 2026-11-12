@@ -94,7 +94,7 @@
 ) are ignored.
 ) is not supported yet.
 ) that performed expensive computation.
-)&&(eI(!1),aF(void 0),ej(aq?
+)&&(eN(!1),aB(void 0),eT(aV?
 ))),e((0,d.R3)(h)),e((0,d.p4)(h?a:void 0)),p(h?
 ). If you meant to render a collection of children, use an array instead.
 )?l.makeImage(e.slice(8),new u.Ay(t,r,n,i),o?
@@ -128,7 +128,7 @@
 2. Paste the response below, or paste your exported memory file.
 30 seconds left. Dictation will auto-submit.
 :(L?(0,C.SR)(t,!1):void 0)??
-:(O?(0,b.SR)(t,F):void 0)??
+:(O?(0,b.SR)(t,D):void 0)??
 :(P?(0,b.SR)(i,L):void 0)??
 :(ac?(0,eP.SR)(ew,ao):void 0)??
 :_ instanceof RegExp?
@@ -4112,6 +4112,7 @@ Could not open an agent DM from the agent edge tab
 Could not open an agent from the agent edge tab
 Could not open composer page
 Could not open the agent DM for its profile
+Could not open the auth_url from app_user_connection_auth_requested
 Could not open the not-available notice
 Could not parse chime media regions from localStorage: 
 Could not parse server info
@@ -8346,6 +8347,7 @@ If draftIdForInvites is set, add the invites to the composer draft.
 If it has not been reported yet please make a report with a link to the message before this one, if this is a public channel. This message is only displayed in workspaces in the Slack org.
 If no scale values are provided, useInvertedScale must be used within a child of another motion component.
 If the setTimeout is no longer running then we kick it off again
+If this PR is a draft, it will stay a draft.
 If using wifi, move closer to your router
 If you encounter inappropriate content or behavior, please report it to Slack.
 If you have multiple monitors, try disconnecting them
@@ -8357,6 +8359,7 @@ Ignore a channel from Today view
 Ignore a file permission request
 Ignore this invitation
 Ignoring a reset() from a superseded session; the active slot belongs to a newer one
+Ignoring app_user_connection_auth_requested without an https auth_url
 Ignoring invite to active huddle
 Ignoring invite to active invite
 Ignoring message from unknown source
@@ -12132,6 +12135,7 @@ Open Sans
 Open Sans Light
 Open Saved for later page
 Open Saved in Later
+Open Singer
 Open Singer content in the main Slack client
 Open Singer for the authorized focused workspace after Slack boots
 Open Singer in its desktop build to use your Mac.
@@ -19048,8 +19052,8 @@ Tearing down previous Audio Input Track Handler
 Tell AI what to produce
 Tell Slack AI what to recap
 Tell Slackbot about yourself. It
-Tell a Simplified layout mode user why 
 Tell me about this window.
+Tell someone why 
 Tell the agent what to produce
 Tell us more (optional)
 Tell us what you need help with.
@@ -19337,6 +19341,7 @@ There was a problem loading your apps.
 There was a problem loading your categories. Give it another try in a few minutes.
 There was a problem loading your field mappings
 There was a problem loading your integration information
+There was a problem opening Singer. Give it another try.
 There was a problem opening your pocket agent. Give it another try.
 There was a problem publishing your workflow. Try publishing it again.
 There was a problem resolving this conversation. Give it another try.
