@@ -314,6 +314,7 @@ conversations.inviteShared: channel, external_limited, tracking_id
 conversations.join: channel, request_in_background
 conversations.joinConnectedShared: invite_id, sig
 conversations.joinPendingShared: invite_id, sig
+conversations.joinRequests.approve: channel_id, request_id
 conversations.joinRequests.list: channel_id, cursor
 conversations.kick: channel, user
 conversations.leave.recommendations: max_ts

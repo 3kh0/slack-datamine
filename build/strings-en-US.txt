@@ -494,7 +494,6 @@ activity.d4dc4ab: Copy huddle link
 activity.2f84eea: Copy link
 activity.138ab00: Copy name
 activity.67de2cf: Couldn’t load your pull requests
-activity.e1300fe: Couldn’t send that to the agent. Try again.
 activity.0a6ccae: Create Custom View
 activity.c47e98c: Create a new view
 activity.1641c52: Ctrl Alt Click
@@ -2107,6 +2106,13 @@ aria_msg_summary.1db5227: {sender}:
 aria_msg_summary.63d5045: {slackbotName} is typing…
 aria_msg_summary.da5199c: {time}.
 aria_msg_summary.a330ad4: {time}:
+ask_user_question.e0aafff: Answered
+ask_user_question.bc98198: Next
+ask_user_question.10cf916: Other…
+ask_user_question.3da4745: Skip
+ask_user_question.2dacf65: Submit
+ask_user_question.7e20641: {current} of {total}
+ask_user_question.1156f12: {label} preview
 assistant.eccacc4:  information
 assistant.62cb8c0:  using the Meeting Prep Skill
 assistant.13ab187:  using the Salesforce Research Skill
@@ -6279,6 +6285,7 @@ code-tab.eec486e: Open in GitHub
 code-tab.a0498dd: PR closed
 code-tab.2b00f83: PR merged
 code-tab.91ebb55: PR open
+code-tab.dd9e2fa: PR queued
 code-tab.96f608c: Pending
 code-tab.8691a1d: Previous match
 code-tab.881e743: Pull request
@@ -11848,14 +11855,18 @@ ia4.e3b8204: Now
 ia4.00da205: Only external people
 ia4.ced4671: Only internal people
 ia4.cf9b770: Open
+ia4.ff59e8d: Open Pocket Agent
 ia4.a75732d: Open in new window
 ia4.03a322d: Open in split view
 ia4.caef14e: Other workspaces have new messages
 ia4.f3534db: PAID
 ia4.b37554f: People
 ia4.a16801c: Please select a workspace
+ia4.1d31e8b: Pocket agent
+ia4.7bfdb93: Pocket agent, meeting in progress
 ia4.9dfd349: Preferences
 ia4.c56c4ce: Prep My Day
+ia4.f72baf4: Press Shift+F10 to view your calendar.
 ia4.e2b6b0a: Previous day
 ia4.886cbff: Priority
 ia4.93069f6: Recency
@@ -11897,6 +11908,7 @@ ia4.dbec140: Suggested channel sections
 ia4.22b4b0c: Surfaces
 ia4.6d00569: Switch workspace
 ia4.d10d288: Switch workspace, other workspaces have new messages
+ia4.35ed7de: There was a problem opening your pocket agent. Give it another try.
 ia4.24345a1: Today
 ia4.7d5fadf: Today - Action Items
 ia4.5b2971b: Today - Agenda
@@ -16789,11 +16801,11 @@ prefs.bd2f4e0: Additional options
 prefs.4d06472: Advanced
 prefs.63c9e0b: Advanced options
 prefs.2e8bbf3: Advanced settings
-prefs.3b1037a: After I’ve been inactive for {value, plural, =1 {# minute} other {# minutes}}
 prefs.6a72085: All
 prefs.9b6c1f2: All new messages
 prefs.b36ed0c: All new posts
 prefs.7843a67: Allow Slack AI to search the web
+prefs.c66846f: Allow notifications:
 prefs.0c8123c: Alphabetically
 prefs.d5bf2d0: Already shown
 prefs.246c6d4: Also include {atChannel} and {atHere}
@@ -16807,7 +16819,6 @@ prefs.41def7a: Appearance
 prefs.cfea419: Apply
 prefs.87b56ec: Are you sure you want to set your verbosity settings to default?
 prefs.410bf23: Are you sure?
-prefs.5860691: As soon as I’m inactive
 prefs.6d920a5: Ask if I want to toggle my away status when I log in after having set myself away
 prefs.c09e9de: Attachment count
 prefs.21a58f7: Audio & video
@@ -16826,16 +16837,13 @@ prefs.8147879: Candy Corn
 prefs.9622983: Caret browsing
 prefs.6ccb600: Categories
 prefs.b47bd31: Celebrate the music of Miles Davis
-prefs.d63cb50: Change download location
 prefs.e3dcfd8: Change your notification default: 
-prefs.49b1cd8: Change…
 prefs.71466a0: Channel keywords
 prefs.9b3ce53: Channel member suggestions
 prefs.18e03e2: Channels
 prefs.643678e: Channels set to “All new posts”
 prefs.b1d1f32: Channels with notifications set to “All new posts”
 prefs.5b31933: Choose if Slack’s appearance should be light or dark, or follow your computer’s settings.
-prefs.b27e05e: Choose location for each download
 prefs.cc64a82: Choose the language you’d like to use with Slack.
 prefs.98f022e: Choose which parts of a message to include and the order in which they are announced.
 prefs.7b00373: Choose your preferred settings for dictating with Steno.
@@ -16876,8 +16884,6 @@ prefs.c4fe8f7: Does Slack feel noisy to you?
 prefs.7b0aa6d: Does Slack feel noisy?
 prefs.08482ad: Dogfood
 prefs.e9b450d: Done
-prefs.b82af0c: Download Location
-prefs.de3f125: Download location
 prefs.5301648: Edit
 prefs.7c516a7: Edit your last message
 prefs.2e1ca75: Edit {label} color
@@ -16928,7 +16934,6 @@ prefs.88a7229: If you disconnect {eacConnectedEmail}, future emails and events f
 prefs.f034e50: If you want desktop or mobile notifications for thread replies, update your settings in <a>Preferences</a>.
 prefs.5c59f3f: If you want to be notified about <strong>everything</strong>, you’ll need to turn desktop or mobile notifications on.
 prefs.dff1854: Image alt text
-prefs.58a66e6: Immediately, even if I’m active
 prefs.d6fbc9d: Import
 prefs.d041191: Import Slack theme strings. We’ll adapt the colors as best we can to preserve contrast. 
 prefs.42c00e6: Import theme
@@ -17000,7 +17005,6 @@ prefs.5cb5187: Not available for this organization.
 prefs.8b02f3d: Not connected
 prefs.200dc1c: Note: This preference is inactive because you have {persistentActionsLink} checked
 prefs.aaeb3b6: Note: You can always press {modifier_key} + {up_arrow_key} to edit your last message.
-prefs.5b5e2a6: Note: this setting is for this computer only and affects all workspaces you are signed in to.
 prefs.4481948: Nothing
 prefs.2da08ee: Notification schedule
 prefs.091c805: Notification sound (calendar)
@@ -17035,6 +17039,7 @@ prefs.ae8c393: Reminders
 prefs.b899848: Reminders from Later
 prefs.ba486a5: Reminders from to-dos
 prefs.6fee3d5: Reminders when Later item due dates arrive
+prefs.807fae6: Reminders you set
 prefs.e963907: Remove
 prefs.6c2bb73: Reply
 prefs.d87b600: Reply count
@@ -17057,10 +17062,9 @@ prefs.c884b97: See more emoji
 prefs.1ed0b58: Selected items
 prefs.7213cc9: Send a notification for
 prefs.f85d29f: Send notifications to my <t1>mobile devices</t1>:
-prefs.1d37b89: Send notifications to my mobile devices:
-prefs.0522671: Send the message
 prefs.17b874d: Sender
 prefs.c07cf13: Set Email Notifications
+prefs.32177b7: Set a default time for reminder notifications:
 prefs.4ccdfc0: Set email notifications, including for when you’re not active on desktop, in your account settings
 prefs.9022934: Set up mobile overrides
 prefs.09ca55c: Share
@@ -17083,7 +17087,6 @@ prefs.ad824e8: Slime Time
 prefs.9a3ea05: Something went wrong. Please try again.
 prefs.108b931: Sort conversations by:
 prefs.dfc8309: Sounds & appearance
-prefs.9d7436c: Start a new line (use {modifierKey}{enterKey} to send)
 prefs.88d8206: Start time
 prefs.e4e4b36: Stream summary results
 prefs.1e83255: Streaming
@@ -17137,12 +17140,12 @@ prefs.ee4ff35: We noticed you’re in a lot channels. You’re also getting noti
 prefs.4c33f40: We turned down the noise
 prefs.381cedd: Web search
 prefs.5656b9b: Wednesday
+prefs.4ffc67b: Weekdays
 prefs.eb07e10: We’ve turned down the noise
 prefs.32d0e22: What to notify you about
 prefs.4538e18: What to show in Activity
 prefs.4958777: When enabled, Slack AI can search the web to help provide more comprehensive and up-to-date answers.
 prefs.0ef00ab: When to notify you
-prefs.58b5f4c: When writing a message, press {enterKey} to…
 prefs.4dfee14: When you add a channel to recap, it will be muted by default
 prefs.8283e01: When you’re not active on desktop…
 prefs.cb36f2e: Window gradient
@@ -17153,6 +17156,7 @@ prefs.5397e05: Yes
 prefs.552b22b: You can also press F7 to turn this on or off
 prefs.caa8542: You can improve the way you use Slack by learning our {keyboardShortcutsLink}.
 prefs.e9e6dd4: You can manage translation settings in {languageRegionLink}
+prefs.78be678: You won’t receive notifications on Saturday or Sunday.
 prefs.dcf07a3: Your browser does not support desktop notifications. <a>Try using our app instead.</a>
 prefs.de598e8: Your emails with contacts and leads are saved to the matching records.
 prefs.7597767: Your emails with contacts and leads aren’t logged.
@@ -17175,6 +17179,7 @@ prefs.7cbd8ab: {icon} Dark
 prefs.42b0bd8: {icon} Light
 prefs.bd1866f: {icon} System
 prefs.429bbd8: {icon} {action}
+prefs.2f42eb0: {learnMoreLink} for a specific day (like “tomorrow”) will be sent at the time you select.
 prefs.18f628e: {name}
 prefs.1fb04bc: ⌘+Shift+O
 presence.a733b80: Active
@@ -21500,6 +21505,7 @@ singer.1d788ea: Arc Lamp, $54
 singer.98d3f67: Arc · $54 · 4.7★
 singer.310efbc: Ask Slackbot
 singer.c42c3b8: Ask about this meeting
+singer.bdd42e5: Ask about this window
 singer.b1001b0: Ask before actions
 singer.f4f02e2: Ask {agent}
 singer.b9692bb: Asleep
@@ -21539,6 +21545,7 @@ singer.e122b79: Channels, DMs and threads you visit in Slack will appear here.
 singer.ee9946c: Character
 singer.749d704: Character, outfit, and size changes save to your Slack account.
 singer.2ced57f: Chat
+singer.4f936b7: Check Tasks
 singer.cc58f4d: Check draft request
 singer.dcb413e: Check needed
 singer.1bafc07: Check your earlier messages in Slack before sending more. Your draft is saved here.
@@ -21557,6 +21564,8 @@ singer.fa0b7b3: Close panel
 singer.a14881f: Closing browser…
 singer.adac693: Code
 singer.0595fcd: Code task started. Your other tasks can keep working.
+singer.58fce01: Code tasks
+singer.29ddc4d: Coding agent
 singer.6bc2ef8: Comparing 3 lamps…
 singer.bd8efdc: Connect an account to continue
 singer.4c7abfe: Connect to Slack to load your skills. Your draft is still here.
@@ -21624,6 +21633,7 @@ singer.1f7a4f9: Esc
 singer.580b6aa: Files can’t be added to this conversation.
 singer.95b51aa: Filter Slack activity
 singer.a8af873: Find a desk lamp under $60 with good reviews
+singer.0f7d9f4: Finish dictating
 singer.816a9da: Finish recording before starting a voice call
 singer.355bcc5: Finished
 singer.84cfd0f: Fold · $72 · 4.8★
@@ -21676,6 +21686,7 @@ singer.8a182eb: Let go, then choose Attach.
 singer.dc35348: Listening
 singer.6c19a47: Listening…
 singer.1734e2e: Little moments, more personality
+singer.64a9fa4: Live meeting
 singer.9ecde87: Load More
 singer.dfe60ca: Load more
 singer.c9d1bde: Loading browser settings…
@@ -21704,12 +21715,14 @@ singer.8466b2b: Meeting microphone
 singer.ae3cd65: Meeting notes
 singer.fb8d903: Meeting notes are ready
 singer.3e63bfe: Meeting recording
+singer.6289926: Meeting recording continues
 singer.cf829f1: Meeting reminders
 singer.b23a193: Meetings
 singer.85e12bc: Mentions
 singer.58de145: Message preview
 singer.9cf1b68: Message sent
 singer.4b53f7a: Message {name}
+singer.fda222b: Mic in use by voice call
 singer.2428053: Microphone
 singer.151a837: More audio for this meeting’s canvas.
 singer.9f8eb5f: More for you
@@ -21799,6 +21812,7 @@ singer.20c7c55: Ready
 singer.aec1322: Ready when you are
 singer.61fd682: Reconnect to mark these as read.
 singer.3a47bd4: Reconnect to show the browser.
+singer.9d80f91: Reconnecting
 singer.8a8b956: Reconnecting…
 singer.ebb0b1c: Record more
 singer.be34b2e: Record more?
@@ -21813,6 +21827,7 @@ singer.4a7e2a2: Reduced
 singer.255c9a4: Remember sign-ins
 singer.25df3f7: Remind me
 singer.a2d32f8: Remove attached window
+singer.58c6143: Remove meeting transcript
 singer.05315c0: Remove screenshot
 singer.1affb0b: Reopen Singer from Slack
 singer.6ececf6: Reopen Singer from Slack’s menu bar icon
@@ -21956,6 +21971,7 @@ singer.a172d36: View conversation
 singer.5559dd0: View only
 singer.3091c84: Voice
 singer.cda41b4: Voice input isn’t available. Try again.
+singer.a86dd4a: Voice with Slackbot
 singer.0ab6291: Wait until the message editor is ready to quote a message.
 singer.9afc81c: Waiting for an update
 singer.45c6f16: Welcome to Slackbot!
@@ -24527,6 +24543,7 @@ slash-commands.430b38b: Slack
 slash-commands.d7a4841: Workflow
 slash_commands.6544147: Run shortcut
 slide_template_picker.b65c748: Choose a template
+slide_template_picker.964caf9: Other Google Slides URL
 slides.9482d8f: + Add bullet
 slides.1d082c3: + Add link
 slides.70891d2: Add a caption
