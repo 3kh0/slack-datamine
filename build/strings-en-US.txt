@@ -4850,7 +4850,6 @@ channel_share.cabf640: If the problem persists, please <a>drop us a line</a>
 channel_share.824d76b: Learn more
 channel_share.bee54c9: Something went wrong.
 channel_share.13ae7c8: You don’t have permission to add external people to this channel.
-channel_sidebar.c1bb574:  Reloading Slack might clear things up. If it doesn’t, <a>drop us a line</a>.
 channel_sidebar.f030c3d: 1 hour
 channel_sidebar.7bd227f: <strong>{channelEntity} muted for 1 hour.</strong>
 channel_sidebar.94bc95f: <strong>{channelEntity} muted until tomorrow.</strong>
@@ -4972,6 +4971,7 @@ channel_sidebar.15ac226: Focused sidebar
 channel_sidebar.b6dc821: Focused sidebar on.
 channel_sidebar.3d110c1: Focused sidebar options
 channel_sidebar.4517ede: Free Trial Badge
+channel_sidebar.758f6c9: GIF
 channel_sidebar.bd2cb05: Get Started
 channel_sidebar.7f34e0b: Go to floating window
 channel_sidebar.f87b0e1: Google Docs
@@ -5123,7 +5123,6 @@ channel_sidebar.7654001: Removed {entityLabel} {entityType} from {channelSection
 channel_sidebar.d0c625b: Removed {item} from {section}.
 channel_sidebar.71c287d: Removed {numChannels, plural, =1{conversation} other {# conversations}} from {channelSection}.
 channel_sidebar.a0a74e2: Removed {numEntities, plural, =1{entity} other {# entities}} from {channelSection}.
-channel_sidebar.b9b51f6: Renamed to {channelSection}.
 channel_sidebar.c1ad1c4: Reset section
 channel_sidebar.4a197b0: Reset section changes
 channel_sidebar.299ef4a: Reset to Defaults
@@ -5156,10 +5155,8 @@ channel_sidebar.ccb8204: Show recents
 channel_sidebar.0f38ffa: Show {count} more
 channel_sidebar.8f30fab: Showing all channels.
 channel_sidebar.64cdad7: Showing all code channels.
-channel_sidebar.29211e0: Showing fewer canvases and lists.
 channel_sidebar.5f4cc99: Showing fewer code channels.
 channel_sidebar.4bfd7d8: Showing fewer conversations in this section.
-channel_sidebar.c868907: Showing more canvases and lists.
 channel_sidebar.11753b8: Showing more conversations in this section.
 channel_sidebar.740ce0a: Sidebar view
 channel_sidebar.9fbb94b: Slackbot
@@ -5175,7 +5172,6 @@ channel_sidebar.7da90c4: Star conversation with {memberName}
 channel_sidebar.e61561a: Starred
 channel_sidebar.e0a80c8: Start a direct message
 channel_sidebar.ef85b25: Start a new message
-channel_sidebar.40d40e0: Suggested: pin {agentName}
 channel_sidebar.03f749c: Teammates who aren’t on Slack yet will get your messages by email
 channel_sidebar.68f335e: Temporary channels get their own section
 channel_sidebar.77dce0c: The Moonlet model’s name. Scores load when you press Enter or leave the field.
@@ -5258,9 +5254,9 @@ channel_sidebar.4762ca5: recap channel
 channel_sidebar.f9ecef2: shared channel
 channel_sidebar.8af56de: you
 channel_sidebar.6e201aa: {agentName} conversations
-channel_sidebar.f430633: {appName}, opens in app marketplace
 channel_sidebar.c2c005b: {badgeCount} unread {badgeCount, plural, =1 {invite} other {invites}}
 channel_sidebar.2d891d6: {channel}, failed to send message
+channel_sidebar.57c546d: {count, plural, =1 {# file} other {# files}}
 channel_sidebar.12f139d: {count, plural, =1 {# mention} other {# mentions}}
 channel_sidebar.accd9c4: {count, plural, =1 {# new message} other {# new messages}}
 channel_sidebar.2743d1b: {count, plural, =1 {# unread message} other {# unread messages}}
@@ -6876,7 +6872,6 @@ creator_guided_setup.5c974bd: Your organization is on the <b>Business+ plan</b>,
 creator_guided_setup.a4cccf6: Your organization is on the <b>Pro plan</b>, which includes some Slack AI features.
 creator_guided_setup.50ccf98: You’re on a free trial of the Business+ plan, our treat. Enjoy access to these features for the next 30 days.
 creator_guided_setup.3c17664: You’re on a free trial of the Pro plan, our treat. Enjoy access to these features for the next 30 days.
-current_status.c1bb574:  Reloading Slack might clear things up. If it doesn’t, <a>drop us a line</a>.
 current_status.f030c3d: 1 hour
 current_status.3e77473: 1:1
 current_status.31bbe88: 30 minutes
@@ -6978,15 +6973,12 @@ current_status.24345a1: Today
 current_status.1948bf2: Tomorrow
 current_status.17a3484: Turn Off
 current_status.a5aa418: Turn On
-current_status.4d79ffe: Unfortunately, that emoji’s been removed from your workspace.
-current_status.4447331: Unfortunately, that name isn’t valid. Try another?
 current_status.fb91e24: Update
 current_status.57c7cfa: View coverage plan
 current_status.801cd11: Visit the calendar app settings to turn off status sync any time.
 current_status.cadd73e: What do you think {user}?
 current_status.5d8e9ad: What’s your status?
 current_status.9710e1b: When this status starts, it will clear {statusLabel}.
-current_status.3a5cd96: You already have a section with this name.
 current_status.79ec10f: You already have a status scheduled at this time
 current_status.42b4638: You already have a status scheduled to start at {time}, which will clear this status.
 current_status.e6c8525: You can only have 5 scheduled statuses at a time.
@@ -10159,19 +10151,27 @@ groups.9871c7b: Leave {group}
 groups.1f9e866: When you leave a private channel, you’ll no longer be able to see any of its messages. To rejoin this channel later, you’ll need to be invited.
 groups.cecab24: You’ll no longer have access to any messages or files in this channel. To rejoin the channel, you’ll need to be added again.
 growl.f560690: (message missing text)
+growl.3c1a6e2: Couldn’t send to {channel}
 growl.b59cf9e: Decline
 growl.70afe9e: Dismiss
 growl.e0d7314: Join
 growl.56e2f5d: Later
+growl.864c6cd: New message from {name}
+growl.5ca0dca: New message in {channel}
+growl.2ab823d: New thread message in {channel}
 growl.813fb12: Reminder due
 growl.431a628: Send a message and welcome them to {workspaceName}.
 growl.5502fc4: Shared {channelSectionName}
 growl.269292c: Thread in {channelName}
 growl.4b14f80: You have an approval request.
+growl.7f1915d: [{team_domain}] from {name}
+growl.d377b98: [{team_domain}] in {channel}
 growl.65799b3: a message from {name}
 growl.97e2118: and 
 growl.2bb9882: was invited to join {workspaceName} — take a second to say hello.
 growl.159f799: {memberName} is inviting you to a huddle
+growl.713095e: {name} is trying to reach you
+growl.0d02aca: {name} just joined Slack
 guided_trials.a97850c:  (discount applied)
 guided_trials.277f46e:  Keep your whole team connected to Salesforce data and workflows—right from Slack.
 guided_trials.0561b30: #general only
@@ -16189,6 +16189,7 @@ notifications.70afe9e: Dismiss
 notifications.016e1d5: Manager Approval
 notifications.56a75db: Nice, notifications are enabled!
 notifications.813fb12: Reminder due
+notifications.75d38e9: Upcoming meeting
 notifications.69bd4ef: View
 oauth.bc86078: <b>All</b> {count}
 oauth.173394e: <b>External</b> {count}
@@ -16692,8 +16693,6 @@ plug_and_play_sections.913afff: Select all
 plug_and_play_sections.3da4745: Skip
 plug_and_play_sections.41a5750: Social
 plug_and_play_sections.2510514: Step 2 of 2
-plug_and_play_sections.4d79ffe: Unfortunately, that emoji’s been removed from your workspace.
-plug_and_play_sections.4447331: Unfortunately, that name isn’t valid. Try another?
 plug_and_play_sections.e32fc01: Update Section
 plug_and_play_sections.37a79dd: channels and direct messages
 plug_and_play_sections.8507097: channels or people you check in on every day
@@ -18655,6 +18654,14 @@ recordchannels.57d9916: {recordLabel} in
 recordchannels.7e9342e: {recordLabel} on
 recordchannels.06a9518: {recordName} will no longer be connected to this channel.
 recordchannels.27d682f: {recordType} team
+referral_welcome_modal.64a324d: Easily create custom workflows
+referral_welcome_modal.baeb154: Get answers from your team’s conversations and connected tools
+referral_welcome_modal.019af28: Get team updates and assign tasks
+referral_welcome_modal.871f7be: Quickly find answers from across Slack and beyond
+referral_welcome_modal.5780530: Search the way you speak
+referral_welcome_modal.68e3b0d: Use Slack’s built-in AI in a channel
+referral_welcome_modal.a35975b: Welcome to Slack
+referral_welcome_modal.c5bccc1: Your team now has access to advanced AI and other premium features, through your {partnerName} partnership discount.
 related-messages.f1702b4: Messages
 rename_team_in_client.683b13b: Add a name to represent your company or organization. This name will also be shown to other organizations that you work with using Slack.
 rename_team_in_client.77dfd21: Cancel
@@ -20097,7 +20104,6 @@ search_menu.2dd2bed: today
 search_menu.1aa96b8: yesterday
 segmented_team_creation.4550f68: Choose a plan
 segmented_team_creation.b0bf6d1: Recommended for you
-select.12fb103: , Shift tab to manage items
 select.247fd63: Clear selection
 select.6e157c5: Create
 select.7b52c18: Keep typing…
@@ -20108,7 +20114,6 @@ select.6bf5da9: Options
 select.5a95e0b: Press again to also select items
 select.7facbcc: Restored {tokenLabel}
 select.08d7aa3: Select an option
-select.7544ae9: Shift tab to manage items
 select.4548321: Type to search…
 select.79a7994: {count, plural, =1 {# item} other {# items}} removed
 select.a1cab99: {count, plural, =1 {# item} other {# items}} selected
@@ -20122,7 +20127,6 @@ select.444a2fa: {tokenLabel} removed
 select.95458e9: {tokenLabel} removed from {multiSelectLabel}
 select.f084dc6: {tokenLabel} selected
 select.b4c384e: {tokenLabel} selected. Press again to also select search query
-select.cabd1ff: {tokenLabel}: {errorMessage}
 send_btn.c74e0f4: Don’t like the change? You can always switch back in <Link>your preferences</Link>.
 send_btn.c8a4874: Got It
 send_btn.25e74af: Just for Japan: a button for sending
@@ -20150,6 +20154,7 @@ session_channel_archive.7eac343: This channel is inactive. Archive it for everyo
 session_channel_archive.94ca019: This channel is inactive. Leave the channel to tidy up your sidebar — you can always rejoin it later.
 session_channel_archive.504fccb: This work is complete. Archive it for everyone — the contents will still be available in search, and you can always unarchive it in the future.
 session_channel_archive.4fd785e: This work is complete. Leave the channel to tidy up your sidebar — you can always rejoin it later.
+setup_page.db07f2e: ),o+=s}function extractTextFromMessage(e,t){if(!t)return"";let a=(0,K.n)(e,t,{convertEmoji:(0,S.P)(e)?"text":"unicode",convertUnknownSlugToUrl:!0,blockSpacing:"single",useMentionsNamePref:!0}),n=t.files&&(0,M.qh)(t.files)?applyClipsTemplate(t,(0,M.NG)(t.files),a||""):null;if(n)return n;let i=t.files?(0,E.A)(t.files):void 0;if((i&&!a||(0,W.A)(t.subtype))&&i){let n=(0,G.Lp)(e,i.id),r=a?null:(0,U.V)(n);return r||(0,B.HD)(e,t,n)||""}if(a)return a;if(t.attachments&&t.attachments.length){let a=(0,q.Qy)(t);if(a){let t=(0,K.a)(e,a,{convertEmoji:(0,S.P)(e)?"text":"unicode",convertUnknownSlugToUrl:!0,useMentionsNamePref:!0});if(t)return t}return textContentFromAttachments(t.attachments)}return
 setup_page.27e6d30: + {count, plural, =1 {# other} other {# others}}
 setup_page.850a65b: 1,001 +
 setup_page.92767dc: 101 - 500
@@ -21238,6 +21243,7 @@ sidebar_sweeper.2621c6f: Archive
 sidebar_sweeper.9cf25ad: Archive Channels
 sidebar_sweeper.64e1c28: Archive and Finish
 sidebar_sweeper.333252a: Archive channels
+sidebar_sweeper.5efcf00: Archive channels first — leaving channels is up next.
 sidebar_sweeper.d532d52: Archive inactive channels
 sidebar_sweeper.8622b87: Ask Slackbot to organize your sidebar
 sidebar_sweeper.b52b36b: Back
@@ -21645,6 +21651,7 @@ singer.44eeee6: Keys go to the website · Shift+Esc returns to Singer
 singer.738fd1d: Large
 singer.56e2f5d: Later
 singer.016ab70: Later today
+singer.4ad48a0: Launch
 singer.02a2fe5: Left ⌘
 singer.45d649e: Leo shared the final pricing doc.
 singer.8a182eb: Let go, then choose Attach.
