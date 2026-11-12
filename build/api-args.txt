@@ -727,7 +727,7 @@ sfdc.getObjectsOfType: object_type, salesforce_org_id
 sfdc.getOpportunity: id, salesforce_org_id
 sfdc.getOwnerChangeOptions: current_owner_id, record_id, salesforce_org_id, sobject_api_name
 sfdc.getPicklistValuesV2: object_api_name, record_type_ids, salesforce_org_id
-sfdc.getRecordLayoutDetails: child_relationships, fallback_layout_type, include_off_layout_fields, layout_type, mode, record
+sfdc.getRecordLayoutDetails: child_relationships, fallback_layout_type, include_off_layout_fields, is_slackbot_draft, layout_type, mode, record
 sfdc.getRelatedListRecords: page_size, parent_record_id, related_list_id, salesforce_org_id
 sfdc.getRelatedLists: parent_object_api_name, record_type_id, salesforce_org_id
 sfdc.getReportAggregatesMetadata: report_ids, salesforce_org_id
@@ -894,6 +894,7 @@ visits.record: client_now_ms, visits
 workObjects.editEntity: channel_id, entity_id, entity_url, message_ts
 workObjects.getComments: cursor, entity_id, entity_url, thread_root_id
 workObjects.getEntity: appearance, channel_id, client_req_id, entity_id, entity_url, force_refetch, lookup_function, message_ts
+workObjects.performDraftAction: action_id, channel_id, entity_id, message_ts, state
 workObjects.publishEntity: channel_id, entity_id, message_ts, state
 workflows.activity.export: filters, workflow_id
 workflows.activity.get: workflow_execution_id, workflow_id

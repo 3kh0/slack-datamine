@@ -94,7 +94,7 @@
 ) are ignored.
 ) is not supported yet.
 ) that performed expensive computation.
-)&&(eN(!1),aT(void 0),ej(aW?
+)&&(eI(!1),aD(void 0),ej(aY?
 ))),e((0,d.R3)(h)),e((0,d.p4)(h?a:void 0)),p(h?
 ). If you meant to render a collection of children, use an array instead.
 )?l.makeImage(e.slice(8),new u.Ay(t,r,n,i),o?
@@ -128,7 +128,7 @@
 2. Paste the response below, or paste your exported memory file.
 30 seconds left. Dictation will auto-submit.
 :(L?(0,C.SR)(t,!1):void 0)??
-:(O?(0,b.SR)(t,F):void 0)??
+:(O?(0,b.SR)(t,D):void 0)??
 :(P?(0,b.SR)(i,L):void 0)??
 :(ac?(0,eP.SR)(ew,ao):void 0)??
 :_ instanceof RegExp?
@@ -2890,6 +2890,7 @@ Checks if SC trial user needs the non-dismissible welcome modal on boot
 Checks if the message is in an active view before doing the animation
 Checks if the user has drafts and alerts before signing out of a workspace or org
 Checks if user created a new datasource after being redirect to integrations builder
+Checks passed
 Checks that the remote peer user ID resolves to a valid user
 Checks the eligibility of a trial for #proj-paid-acquisition-self-serve
 Checks to see if members should move into or out of DND
@@ -3587,6 +3588,7 @@ Command
 Command + Shift + H
 Command + Shift + Option + H
 Command suggestions collapsed
+Commands run in Slack. Your draft is saved here.
 Comment added to your message draft in Messages
 Comment deleted
 Comment on SAP
@@ -4010,6 +4012,7 @@ Copy template link
 Copy the workflow and trigger being edited
 Copy this code
 Copy thread link
+Copy to My Slackbot
 Copy to your calendar
 Copy user group id
 Copy workflow ID
@@ -5205,6 +5208,7 @@ Dropping the following payload because we attemped to retry it too many times:
 Drops Slackbot thread marks that fresh thread counts now reflect
 Drops a popped-out window
 Drops a skill categories response that a local edit has made stale
+Drops every page the brain listed or read, for a viewer the brain no longer serves
 Drops the cached tools lists for the given MCP servers so the next read refetches them
 Dual icons on hover
 Due Date Notifications
@@ -5571,6 +5575,7 @@ End your voice call with Slackbot?
 Ending search session
 Ends DND mode triggered by explicitly snoozing notifications
 Ends DND mode triggered by the DND schedule
+Ends a walk of the brain
 Ends call
 Enforce security policies such as blocking jailbroken devices, blocking file downloads on desktop, and blocking file downloads and message copying on mobile.
 Engagement trends
@@ -5868,6 +5873,7 @@ Ex: Request Form
 Example workflow link
 Examples on record
 Excel file icon
+Exception asking for the document fixers
 Exception during decorator
 Exception during error handler
 Exception during hook
@@ -6944,6 +6950,7 @@ Files Outlines
 Files and Snippets
 Files and links
 Files are disabled by your admin
+Files are still uploading. Your draft is saved here.
 Files created by me: Created by me button state changed
 Files owned by me: Owned by me button state changed
 Files results
@@ -8153,6 +8160,7 @@ Hold the Cone! Mini Ice Cream Cones
 Hold to speak. Release to listen. The voice button works with the shortcut off.
 Hold to talk
 Holding position.
+Holds one page read from the brain
 Holiday Clap
 Home Outlines
 Home settings
@@ -8895,6 +8903,7 @@ Join the Slack huddle
 Join the channel to interact with this message
 Join their channels
 Join this call
+Join this channel to reply.
 Join without microphone
 JoinAndReceiveIndexTask got canceled while waiting for SdkIndexFrame
 Joined on another device
@@ -9623,6 +9632,7 @@ Log exposure for the de_segmentation_questions experiment if it is exposed
 Log exposure for the email_bridge_dm experiment if it is exposed
 Log exposure for the email_bridge_led_invites experiment if it is exposed
 Log exposure for the email_connector_newteams experiment if it is exposed
+Log exposure for the feat_gx_jp_competitor_invites experiment if it is exposed
 Log exposure for the feat_invoice_referral_visitor experiment if it is exposed
 Log exposure for the files_tab_nux_new_teams experiment if it is exposed
 Log exposure for the files_tab_nux_v2 experiment if it is exposed
@@ -9633,8 +9643,6 @@ Log exposure for the gx_in_product_survey experiment if it is exposed
 Log exposure for the huddles_invite_modal_upgrade_speedbump experiment if it is exposed
 Log exposure for the inproduct_team_creation experiment if it is exposed
 Log exposure for the invite_email_input_smart_tokens experiment if it is exposed
-Log exposure for the invite_sidebar_entry_messaging_changes experiment if it is exposed
-Log exposure for the invited_user_glow_up experiment if it is exposed
 Log exposure for the inviter_joiner_first_dm_v2 experiment if it is exposed
 Log exposure for the joiner_mobile_task_fix_v2 experiment if it is exposed
 Log exposure for the jp_creator_pocket_guide_v2 experiment if it is exposed
@@ -10414,6 +10422,7 @@ Marks the SlackCRM onboarding run research skill as complete
 Marks the SlackCRM onboarding splash as seen
 Marks the channel as a default channel on creation.
 Marks the current pending external auth to skip auto-opening the manage modal
+Marks the lines of a fact the viewer flagged, or leaves them to a fresh read on Undo
 Marks the org
 Marks today item for delete to allow animation
 Marks today item(s) as read using today.items.markRead API and updates the store
@@ -10918,6 +10927,7 @@ More channel actions
 More comments loaded in Conversation.
 More comments loaded in Files Changed.
 More conversations
+More copy options
 More detail
 More email actions
 More filters
@@ -11617,6 +11627,7 @@ No selection found to apply range for mutation
 No session channels yet
 No sessions match these filters.
 No sessions match this filter.
+No sessions yet
 No sessions yet.
 No shared working hours. You should expect a delayed response.
 No sidekicks
@@ -12678,6 +12689,8 @@ Org Chart
 Org Filter
 Org chart
 Org owners and admins can outline customized rules to join and use their Slack org.
+Org unit
+Org units
 Org user groups response empty despite saved group ids
 Organization analytics
 Organization channels
@@ -13481,7 +13494,6 @@ Publish Workflow From API Template
 Publish Workflow From Template
 Publish a draft work object with current form state values
 Publish a skill to the skill catalog
-Publish failed
 Publish now
 Publish or unpublish a workflow
 Publish template
@@ -13494,6 +13506,7 @@ Pull Quote
 Pull Requests
 Pull out action items
 Pull request
+Pull request merged
 Pull request status
 Pull request status changed
 Pull requests
@@ -13880,6 +13893,7 @@ Records metrics around action performance of individual actions using AutoTraces
 Records tab switches and navigations within those tab switches
 Records that a canvas content draft failed to compute its diff
 Records that a conversation left one specific project
+Records that a page could not be read from the brain
 Records that a plans comparison choice opened checkout
 Records that the Upcoming row played a scheduled external huddle highlight
 Records the calendar-first onboarding kickoff thread for this session
@@ -14752,6 +14766,7 @@ Reply to Email
 Reply to Sam
 Reply to file comments directly from Slack
 Reply to thread
+Report a thread opened while its Activity row is stale
 Report dogfood metrics
 Report the contents of this profile?
 Report this app
@@ -15104,6 +15119,7 @@ Review the channel resources
 Review the channels where people can use this app.
 Review the full skill before adding it to your Slackbot
 Review the proposed edit before applying it.
+Review the values in the thread to continue the workflow.
 Review these links before making a copy. Be cautious with unfamiliar websites or unexpected destinations.
 Review this message before sharing
 Review type
@@ -15387,6 +15403,7 @@ Save changes made to a work object to the external service
 Save channel sidebar and team switcher colors
 Save client block file download access to the store
 Save current call window id
+Save document
 Save document now
 Save files to local storage for persistence
 Save for later
@@ -15877,6 +15894,8 @@ Send This Message
 Send Today feedback
 Send Verification Email
 Send Without Attachments
+Send a DLS Singer private agent ask to its private conversation
+Send a DLS Singer private agent ask to its resolved private conversation
 Send a GIF
 Send a Message
 Send a Singer turn through the existing Slackbot message pipeline
@@ -15948,6 +15967,7 @@ Send the Megaphone event CHANNEL_OPEN
 Send the Megaphone event CHANNEL_OPEN_WITH_AI_SAMPLING_CHANNEL_SUMMARY_CONTEXTUAL_NUDGE
 Send the Megaphone event CHANNEL_VIEWED_WITHOUT_RECENT_ACTIVITY
 Send this now?
+Send this private request from Slack. Your draft is saved here.
 Send thread summary to Slackbot
 Send to Slackbot
 Sending clog data, emptying queue
@@ -15983,9 +16003,9 @@ Sent draft still in message pane input
 Sent draft still in thread input
 Sent messages 
 Sent on a schedule to remind your team to update their opportunities
+Sent privately
 Sent request to join primary meeting
 Sent to your DMs
-Sent via email
 Sent when new opportunities are added
 Sent when opportunity amounts change
 Sent when opportunity closed dates change
@@ -16030,6 +16050,7 @@ Session duration
 Session ended
 Session expired
 Session type
+Sessions you start with this agent show up here.
 Set 5s Expiry Error
 Set AI summary status to error
 Set Action Library Navigation state
@@ -17537,6 +17558,7 @@ Share file with channel?
 Share files
 Share folder
 Share item
+Share link in LINE WORKS
 Share list
 Share message
 Share more with Slackbot
@@ -18531,9 +18553,11 @@ Starting unconstrained content share with chime API
 Starts a download on the desktop app
 Starts a new AI assistant or agent thread
 Starts a new Slackbot conversation
+Starts a walk of the pages the brain lists
 Starts an automation groups request
 Starts assistant thread and upserts returned message
 Starts from a button
+Starts reading one page from the brain
 Starts streaming unreads with timeout
 Starts the Halloween costume conversation from its server-owned prompt
 Starts the signin process for an additional workspace
@@ -18997,6 +19021,7 @@ Task details
 Task enqueued! You will receive a response soon.
 Task handlers are not supported in MCP Apps
 Task not sent. Your files are saved here.
+Task output
 Task paused
 Task restarted
 Task saved successfully.
@@ -19090,6 +19115,7 @@ Thank you for trying Business+
 Thank you for your feedback!
 Thanks for letting us know! Your feedback helps us improve Agentforce for everyone.
 Thanks for the feedback
+Thanks for the warm welcome!
 That access has already been removed.
 That confirmation is waiting in your Slackbot DM.
 That name is too long. Try a shorter one.
@@ -19744,6 +19770,7 @@ Todo list dismissed
 Toggle Icon
 Toggle Icon 1
 Toggle Privacy Mode
+Toggle Robotype
 Toggle Video
 Toggle a GitHub reaction on a code channel pull request or comment
 Toggle a file complete
@@ -19772,6 +19799,7 @@ Toggle collapse state of a programmable-sidebar section (client-local)
 Toggle collection collapse state
 Toggle dark mode shortcut - dispatches action to toggle dark mode
 Toggle debug display of solr info
+Toggle editor debug overlay
 Toggle filter panel visibility for active entity
 Toggle focus mode
 Toggle if a screen reader is enabled
@@ -20071,6 +20099,7 @@ Try Business+ for the price of Pro
 Try Channel Expert here to test how it works with the sources you
 Try Huddles
 Try It Free
+Try It could not open the DM before filling its composer
 Try Pro for Free
 Try Slack Connect
 Try Slack Connect for channels
@@ -21234,6 +21263,7 @@ Use the suppressErrors option to suppress these errors
 Use this message as a jumping off point for a huddle.
 Use this message as a jumping off point for a huddle. On the free version of Slack, one other person from the conversation will be able to join.
 Use this skill
+Use this skill automatically
 Use this skill set in Slackbot
 Use up and down to move the slider along the Y axis, left and right to move along the X axis.
 Used to reset the state for a knock to enter requesting user
@@ -21466,6 +21496,7 @@ View Shared Settings
 View Slackbot Thread
 View Tasks
 View Warning
+View Work
 View a channel, thread, or composer draft
 View actions
 View agent profile
@@ -21966,7 +21997,6 @@ Work Object Search: set sort method from current tab
 Work alongside your team with huddles with AI notes.
 Work email
 Work faster in Slack
-Work faster with everyone in one place
 Work in channels with external people
 Work in this project that needs you, or that your agent finishes, shows up here.
 Work object embed iframe failed to load before the timeout
@@ -22347,6 +22377,7 @@ Your organizations
 Your personal AI agent
 Your plan for today is ready
 Your preview ended. Upgrade to pick up where you left off.
+Your private conversation is ready
 Your profile
 Your profile photo
 Your pull requests

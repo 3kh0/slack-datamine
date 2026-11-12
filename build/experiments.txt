@@ -218,6 +218,7 @@ canvas_ask_slackbot_button: on
 canvas_autocomplete_document: on
 canvas_autoopen_in_dm_huddle: on
 canvas_blockquote_layout: on
+canvas_comment_gutter_hovercard: on
 canvas_comment_only_comment_history: on
 canvas_comment_only_mode: on
 canvas_composer_in_search: on
@@ -448,6 +449,7 @@ fe_system_messages_redesign_m2: on
 feat_agent_sessions: on
 feat_agents_dms: on
 feat_flag_message_hide_replies: on
+feat_gx_jp_competitor_invites: control, treatment
 feat_invoice_referral: on
 feat_invoice_referral_visitor: control
 feat_partner_builder_toolkit_bundle: on
@@ -598,10 +600,8 @@ inproduct_team_creation_blurred_overlay: on
 internal_ai_sampling_channel_unreads_summary_contextual_nudge: on
 internal_spaces: on
 invite_email_input_smart_tokens: control
-invite_sidebar_entry_messaging_changes: control
 invite_slash_command_in_threads: on
 invite_slash_command_multi: on
-invited_user_glow_up: control, treatment
 inviter_joiner_first_dm_v2: control, treatment
 jit_meeting_details_view: on
 joiner_mobile_task_fix_translations: on
@@ -830,6 +830,7 @@ salesforce_channels_x_out_channel: on
 salesforce_data_fields_in_canvas_team_toggle: on
 salesforce_data_fields_related_object_support: on
 salesforce_field_name_render_time_recovery: on
+salesforce_slackbot_rules: on
 salesforce_wo_refresh: on
 salestracker_stage_management_replaceapi: on
 sb_welcome_mat_next: on
@@ -1008,6 +1009,7 @@ slackbot_ai_grace_period_admin: on
 slackbot_ai_model_override_button: on
 slackbot_ai_projects: on
 slackbot_ai_queued_messages: on
+slackbot_ai_session_until_eod: on
 slackbot_ai_sidebar_education: treatment_carousel, treatment_modal, treatment_pocket_guide
 slackbot_ai_simple_skills: on
 slackbot_ai_skill_categories: on
@@ -1254,6 +1256,7 @@ troops_wfb_send_summary_to_my_sales_home: on
 truncated_url_hover_card: on
 tsf_snitch: on
 uad_workspace_user_groups: on
+uam_admin_advisor: on
 unarchive_channel_banner_polish: on
 unfurl_skeletons: on
 unified_file_picker: on
