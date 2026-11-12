@@ -94,7 +94,7 @@
 ) are ignored.
 ) is not supported yet.
 ) that performed expensive computation.
-)&&(eR(!1),iR(void 0),eC(iO?
+)&&(eE(!1),iL(void 0),ej(iU?
 ))),e((0,d.R3)(h)),e((0,d.p4)(h?a:void 0)),p(h?
 ). If you meant to render a collection of children, use an array instead.
 )?l.makeImage(e.slice(8),new u.Ay(t,r,n,i),o?
@@ -105,7 +105,7 @@
 , weights must be provided.
 ,counter:0,seen:new Map,cycles:e?.cycles??
 ,e.includeFieldLabel??!1);break;case 45:this.convertVariable_(e.recordId,e.fieldLabel,e.fieldApiName??
-,onClick:C?x:void 0,onKeyDown:C?w:void 0,role:C?
+,onClick:k?x:void 0,onKeyDown:k?w:void 0,role:k?
 ,stateArg:null,context:new Context(a?
 ,teamId:n??void 0,responseType:s?.responseType??
 ,threadTs:n||void 0,tsLink:s?
@@ -128,8 +128,8 @@
 1D separable convolution is not implemented yet.
 2. Paste the response below, or paste your exported memory file.
 30 seconds left. Dictation will auto-submit.
-:(L?(0,k.SR)(t,!1):void 0)??
-:(O?(0,b.SR)(t,F):void 0)??
+:(L?(0,C.SR)(t,!1):void 0)??
+:(O?(0,b.SR)(t,D):void 0)??
 :(P?(0,b.SR)(i,L):void 0)??
 :(ac?(0,eP.SR)(ew,ao):void 0)??
 :_ instanceof RegExp?
@@ -142,7 +142,7 @@
 :void 0),o.current?.info(ep,e?
 :void 0)||(y?
 :void 0,credentialless:ec?
-:void 0,credentialless:o?
+:void 0,credentialless:l?
 :void 0,credentialless:p?
 :void 0,skipDoneDialog:!0,buttonClassName:t?
 A DM with someone
@@ -2686,7 +2686,6 @@ Changes from remote contained local hashes.
 Changes requested
 Changes saved
 Changes since your last review
-Changes to show
 Changes: Cell Sections
 Changes: Fragment Collections
 Changes: Indexes
@@ -4192,6 +4191,7 @@ Create Google Spreadsheet
 Create Menu 2
 Create New
 Create New Canvas
+Create New Link
 Create New List
 Create New Outlines
 Create New Outlines 2
@@ -7939,6 +7939,7 @@ Handle notification action button press
 Handle on click ActivityItem
 Handle pending knocking users for when a huddle has not started
 Handle shift+mod+o global keyboard shortcut
+Handle side effects
 Handle suggested prompts button click
 Handle the completion of the setup flow for Straight To Paid entrypoints
 Handle the completion of the setup flow for pricing or promo entrypoints
@@ -8215,6 +8216,7 @@ Huddle invites
 Huddle language
 Huddle link copied
 Huddle links like this one work only once. Ask for a new one to join.
+Huddle links work only once. Ask for a new one or create your own.
 Huddle motion
 Huddle music player
 Huddle preferences
@@ -11654,7 +11656,6 @@ No to-dos at the moment.
 No to-dos yet. Type one above and press Return.
 No tools Slackbot can use in channels.
 No tools available for this server.
-No uncommitted changes
 No unread activity in the items loaded so far.
 No unread conversations in this view.
 No unread messages
@@ -12555,6 +12556,7 @@ Opens the confirmation modal when you remove a workflow from the channel
 Opens the create gdoc file dialog
 Opens the create record modal
 Opens the create sidekick modal in client
+Opens the create-a-huddle-link modal
 Opens the custom status input in a dialog
 Opens the customized Request Access modal in client
 Opens the delete file dialog
@@ -13257,6 +13259,7 @@ Preserve context for a dispatched thunk
 President and COO, until the merger closes; then to become an executive vice president of the new company
 Press Ctrl twice to reopen Singer
 Press Right Arrow to ask in thread
+Press Shift+Enter to preview the message.
 Press Space or click to launch.
 Press Space or click to play again.
 Press Space or click to resume.
@@ -17804,6 +17807,7 @@ Side effect action for triggering sending of megaphone client event
 Side effect from processChanges caused TextChangeQueue to rerun unexpectedly (non-fatal)
 Side effect handle to open the huddle invite+preview window
 Side effect handler to open multi device modal
+Side effect handler to open the create-a-huddle-link modal
 Side effect handler to open the huddle window
 Side effect handler to stop huddle
 Side effect to auto-open a channel canvas when navigating to a channel
@@ -19640,6 +19644,7 @@ Threads View unable to log message impressions
 Threads metadata cursor did not advance
 Threads older than 14 days
 ThreadsFlexpane componentDidCatch
+ThreadsFlexpane fetchReplies error
 ThreadsFlexpane unable to log message impressions
 Three Perspectives
 Three-chip color area sensor
