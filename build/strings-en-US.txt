@@ -1295,6 +1295,7 @@ agents.25911d4: Show more
 agents.d64b68e: Show more stats
 agents.2c120f9: Sidekick Tabs
 agents.d31da28: Sidekicks
+agents.ec9f630: Skill
 agents.9e1c6dd: Skill Catalog
 agents.70e7352: Skill deleted
 agents.22385ae: Skill details
@@ -4636,6 +4637,7 @@ channel_insights.6548c61: Activity chart lines
 channel_insights.cccd1d9: Activity count type
 channel_insights.9226a6d: Activity interval
 channel_insights.3281188: CSV
+channel_insights.84b119a: Channel activity data is available starting {date}
 channel_insights.3529a7d: Channel insights
 channel_insights.a76536e: Channel insights loaded
 channel_insights.f231bd9: Channel views
@@ -4647,7 +4649,9 @@ channel_insights.dc352d2: Exporting channel insights
 channel_insights.99d6336: Last 24 hours
 channel_insights.9f79684: Last 3 months
 channel_insights.df833fe: Last 7 days
+channel_insights.1e84a81: Last hour
 channel_insights.9cce45b: Last month
+channel_insights.3cf4d8d: Last year
 channel_insights.47c61c4: Loading channel insights
 channel_insights.53bc967: Membership
 channel_insights.402e67b: Membership trends are coming soon.
@@ -4656,17 +4660,25 @@ channel_insights.6d752d4: Message reactions
 channel_insights.d31edb7: Monthly
 channel_insights.c9f9a2d: Next chart
 channel_insights.fd9b359: No activity in this date range.
+channel_insights.7927df4: No popular messages in this range
 channel_insights.84f13de: People posted
 channel_insights.9716227: People reacted
 channel_insights.3ac682c: People viewed
+channel_insights.7944583: Popular messages
 channel_insights.93ca10a: Previous chart
 channel_insights.a2a5bde: Sort by
 channel_insights.ebd62be: Total activity
+channel_insights.25368b2: Total reactions
+channel_insights.a96fd80: Total replies
+channel_insights.9fbdc59: Total shares
+channel_insights.da6d7fd: Total views
 channel_insights.547d453: Unable to load Activity
+channel_insights.35ff1b1: Unable to load Popular messages
 channel_insights.fd94b49: Unable to load channel insights
 channel_insights.e48c087: Unique people
 channel_insights.c170aa3: Updated {time}
 channel_insights.69bd4ef: View
+channel_insights.cbb2bbc: View popular message {rank}
 channel_insights.158f3da: Weekly
 channel_insights.9ef0a58: carousel
 channel_insights.69ffaa7: {chartName}, {current} of {total}
@@ -5238,6 +5250,8 @@ channel_sidebar.5f07acb: direct message
 channel_sidebar.65a39fd: ex. user_channel_engagement_lgbr_v0, user_channel_engagement_lgbr_v1
 channel_sidebar.fca330d: ex. user_channel_priority_lgbr_v9
 channel_sidebar.35675e6: guest
+channel_sidebar.6d3a200: has a draft message
+channel_sidebar.b21e6ea: has unread messages
 channel_sidebar.fd18d0a: has unreads
 channel_sidebar.4dc31fe: has unsent messages
 channel_sidebar.468aa1c: huddle in session
@@ -5251,6 +5265,7 @@ channel_sidebar.6e201aa: {agentName} conversations
 channel_sidebar.f430633: {appName}, opens in app marketplace
 channel_sidebar.c2c005b: {badgeCount} unread {badgeCount, plural, =1 {invite} other {invites}}
 channel_sidebar.2d891d6: {channel}, failed to send message
+channel_sidebar.12f139d: {count, plural, =1 {# mention} other {# mentions}}
 channel_sidebar.accd9c4: {count, plural, =1 {# new message} other {# new messages}}
 channel_sidebar.2743d1b: {count, plural, =1 {# unread message} other {# unread messages}}
 channel_sidebar.c5e835b: {count, plural, one {View # more draft} other {View # more drafts}}
