@@ -3107,6 +3107,7 @@ broadcast_keywords.d19f445: deal team
 broadcast_keywords.a49a78f: everyone
 broadcast_keywords.0154c0d: here
 browse-pages.dc83cd8: Dismiss notification
+browsers.e0a09e2: ,{count:j.length+D.length})})(),onRadioChange:p,onBackClick:h,onSubmitClick:_,onToggle:g,submitButtonText:getCtaText(),showSelectionOptions:N})]})})};ExternalLimitedMemberScreen.displayName=
 browsers.3ae085e: A to Z
 browsers.6a72085: All
 browsers.fea00d6: All your files together in Slack
@@ -6201,6 +6202,7 @@ code-tab.88d86b7: Closed
 code-tab.153d7a5: Comment
 code-tab.ff337dc: Comment deleted
 code-tab.b024afd: Comment updated
+code-tab.74536b5: Commits
 code-tab.5eb9d05: Commits to show
 code-tab.73ea9a9: Comparing {base} ← {head}
 code-tab.587e74c: Connect to {provider}
@@ -6254,6 +6256,7 @@ code-tab.972d57d: More comments loaded in Conversation.
 code-tab.f523279: More comments loaded in Files Changed.
 code-tab.c0ba915: Next match
 code-tab.83eec93: No additional comments on this page.
+code-tab.1cdc90f: No new commits since your review
 code-tab.b993b0c: No results
 code-tab.cf9b770: Open
 code-tab.eec486e: Open in GitHub
@@ -6295,6 +6298,7 @@ code-tab.c8e66c7: This comment no longer exists on GitHub.
 code-tab.35b46ef: This conversation no longer exists on GitHub.
 code-tab.c27f171: This conversation was marked as resolved.
 code-tab.a0ddf21: This description was changed on GitHub. Reload the Code tab to edit the latest version.
+code-tab.08b90ac: This is a merge commit.
 code-tab.ad2239f: This pull request can’t be shown here yet
 code-tab.cef2fe0: Try Again
 code-tab.042c862: Try again
@@ -6315,10 +6319,12 @@ code-tab.01ea0e4: Your GitHub organization requires single sign-on. Sign in to t
 code-tab.bf43146: {author} on {location}: {comment}
 code-tab.5643f7d: {count, plural, one {# comment} other {# comments}}
 code-tab.c0ccea2: {count, plural, one {# commit} other {# commits}}
+code-tab.dd7e868: {count, plural, one {# earlier commit isn’t included because it comes before a merge commit.} other {# earlier commits aren’t included because they come before a merge commit.}}
 code-tab.f35d82c: {count, plural, one {# earlier commit isn’t included because it comes before a merge from {base}.} other {# earlier commits aren’t included because they come before a merge from {base}.}}
 code-tab.525dedc: {count, plural, one {# file changed} other {# files changed}}
 code-tab.fd1d44e: {count, plural, one {# new commit} other {# new commits}}
 code-tab.97d3b45: {count, plural, one {Files Changed, # file} other {Files Changed, # files}}
+code-tab.59a7d03: {count, plural, one {First # commit} other {First # commits}}
 code-tab.7e20641: {current} of {total}
 code-tab.aee50c1: {current} of {total}+
 code-tab.51d4d66: {filename}, added
@@ -6326,6 +6332,9 @@ code-tab.273c4ce: {filename}, deleted
 code-tab.e81588f: {filename}, modified
 code-tab.f67ff2c: {filename}, renamed
 code-tab.1db130a: {provider} connected
+code-tab.fc76ad4: {sha} by {author}
+code-tab.fe03531: {sha} · Merge commit
+code-tab.7f487b7: {sha} · Merged {base}
 code_channel_entity_card.7a7938b: +{count} more
 code_channel_entity_card.49bcd35: Code channel
 code_channel_entity_card.60f1f20: Code channel · Workflow: <link>{workflow}</link>
@@ -10697,7 +10706,6 @@ huddles.9e85782: (No title)
 huddles.9838569: (Optional) Open your device’s system preferences and grant camera access to Slack. If you’ve already done so, quit and reopen Slack.
 huddles.3f001b6: (Optional) Please enable your camera in your browser’s address bar.
 huddles.1d06e4b: (Optional) Your camera is unavailable. Make sure it`s connected and that you`ve granted permission to share video with Slack.
-huddles.9193e91: (opens in new tab)
 huddles.02386d9: 1 minute before
 huddles.3e10759: 1 new reply
 huddles.b1e2cdb: 10 minutes before
@@ -10835,7 +10843,6 @@ huddles.15f4023: Be there soon
 huddles.900aa99: Blur
 huddles.d18ddc8: Brainstorm, make decisions or have a lightweight catch-up with whoever’s online.
 huddles.2161e4b: Bring huddle to front
-huddles.3764a6b: By continuing, you’re agreeing to <userTerms>Slack’s User Terms of Service</userTerms>. For more info, check out our <privacyPolicy>Privacy Policy</privacyPolicy> and <cookiePolicy>Cookie Policy</cookiePolicy>.
 huddles.86efc66: By request only
 huddles.db990aa: Calendar account
 huddles.f292719: Calendar event: {title}
@@ -16578,7 +16585,6 @@ platform-admin.61afdda: Loading channels
 platform-admin.cf310ac: Loading more channels…
 platform-admin.4f739b5: Loading people
 platform-admin.41bd67a: Manage app access
-platform-admin.afee371: Member Permissions
 platform-admin.1cb449c: Members
 platform-admin.709a232: Name
 platform-admin.bc98198: Next
@@ -16619,7 +16625,6 @@ platform-admin.205b456: Workspaces
 platform-admin.4dc3277: Would you also like to unpublish?
 platform-admin.155b3f7: You can delete specific people but cannot add people to the list
 platform-admin.ba76df8: You’ve reached your limit of 10 installed apps. With Slack Pro, you can install unlimited apps including AI assistants. {bannerCta}
-platform-admin.6d34d64: {appName} was approved, but the access you chose wasn’t set because the app already has access settings. To change who can use it, go to Member Permissions.
 platform-admin.aa075f0: {channelCount, plural, =1 {# channel} other {# channels}} selected
 platform-admin.cd65fda: {count, plural, =1 {# channel} other {# channels}}
 platform-admin.e9099aa: {count, plural, =1 {# group} other {# groups}}
@@ -18752,9 +18757,6 @@ rimeto_atlas_user.5b1158e: {time} local time (yesterday, -{hours} hours {minutes
 rimeto_atlas_user.97db187: {time} local time (yesterday, -{hours} hours)
 rimeto_user_profile.bec5963: <strong>{dmMemberName}</strong> is currently <strong>out of office until {oooReturnDate}</strong>. They may not respond until they return. <Link>See more</Link>
 rimeto_user_profile.4c85e02: <strong>{dmMemberName}</strong> is currently <strong>out of office</strong>. They may not respond until they return. <Link>See more</Link>
-rimeto_user_profile.8aae190: <strong>{firstMemberName}</strong> and <strong>{secondMemberName}</strong> have their status set to <strong>out of office.</strong>
-rimeto_user_profile.1b946a2: <strong>{firstMemberName}</strong> has their status set to <strong>out of office</strong>.
-rimeto_user_profile.0cc9a34: <strong>{firstTwoMemberNames}</strong> and <Link>{restOfOooMembersCount} others</Link> have their status set to <strong>out of office.</strong>
 rimeto_user_profile.fb2ac5c: Add the names of people you work with. When you add a related teammate to your profile, your relationship may also appear on their profile.
 rimeto_user_profile.505bdc5: Add {data_element_label}
 rimeto_user_profile.97aecde: Always be closing
@@ -21427,6 +21429,7 @@ silent_sidebar.aa84504: Turn on focus mode
 silent_sidebar.e92c063: You are one with the focus
 silent_sidebar.242b7ac: You’re in focus mode
 singer.91f31c2: # proj-aurora
+singer.8ffff94: (ɔ◔‿◔)ɔ ♥
 singer.a3e0872: +{count}
 singer.f030c3d: 1 hour
 singer.b1e2cdb: 10 minutes before
@@ -21436,6 +21439,7 @@ singer.31bbe88: 30 minutes
 singer.5d1f475: 4.7★ and dimmable, the best pick under $60.
 singer.c777f20: 5 minutes before
 singer.9db046b: A draft for {name}
+singer.085724b: A duck
 singer.c50a20e: A little room to breathe.
 singer.a810627: A quick answer. A little catch-up. A head start on whatever’s next.
 singer.81c0d91: Activity
@@ -21535,7 +21539,6 @@ singer.adac693: Code
 singer.0595fcd: Code task started. Your other tasks can keep working.
 singer.58fce01: Code tasks
 singer.29ddc4d: Coding agent
-singer.eae2557: Commands run in Slack. Your draft is saved here.
 singer.6bc2ef8: Comparing 3 lamps…
 singer.bd8efdc: Connect an account to continue
 singer.db929b8: Connecting to the browser…
@@ -21564,7 +21567,6 @@ singer.1946fbe: Couldn’t mark read. Try again.
 singer.d4df57f: Couldn’t open that conversation. Try again.
 singer.e1f58c2: Couldn’t open this activity. Try again.
 singer.9e20b19: Couldn’t open this reply. Dismiss the update to get back to Slackbot.
-singer.8939e39: Couldn’t reach {agent}. Your draft is saved here.
 singer.4d3df55: Couldn’t send. Your message is still here. Try again when you’re connected.
 singer.d3f8c92: Cozy Knit
 singer.239dce6: Customize
@@ -21586,12 +21588,16 @@ singer.5536e48: Dismiss updates
 singer.e9b450d: Done
 singer.4b48d35: Done and done.
 singer.55823ef: Done!
+singer.dac1daf: Don’t forget to breathe
 singer.929b574: Dot · $39 · 4.1★
 singer.d7d6d9c: Draft a reply
+singer.5f0c084: Draft a reply for this Slack conversation: {link}\n\nReturn only the message draft. Do not send any messages.
 singer.77522ab: Draft a reply to {name}
 singer.32c30b7: Draft added. Review it before sending.
 singer.84e7338: Draft with Slackbot
 singer.25885ed: Drag Singer onto the window.
+singer.f105e74: Drink some water
+singer.0f732f6: Drink some water:potable_water:
 singer.dada5c7: Drop Singer right on the window.
 singer.02c0ce3: Dropping Singer on a window isn’t available here yet. This is a sample.
 singer.c8e8e21: Each task gets a private code channel. Write your task in the input; the agent will ask if it needs you.
@@ -21617,7 +21623,6 @@ singer.d084684: Garden Party
 singer.9239ee2: General
 singer.9e21872: Getting your mic and computer audio ready. If macOS asks, allow Slack.
 singer.f03e2d0: Go Back
-singer.062618e: Gold star, just because
 singer.3c23a67: Guests
 singer.bf4e48b: Hand off the legwork. Singer browses for you.
 singer.ba47256: Handed to Slackbot
@@ -21626,18 +21631,22 @@ singer.5d1932a: Help me draft a reply.
 singer.8688e1d: Help me find the right person for a question.
 singer.d1eafce: Help me prepare for my meetings tomorrow. Summarize the agenda, recent relevant discussions and anything I should follow up on.
 singer.d9c2097: Help me prepare for my remaining meetings today. Summarize the agenda, recent relevant discussions and anything I should follow up on.
+singer.1e522e5: Here, take this apple
+singer.b104384: Here, take this: :apple:
 singer.2a70e2a: Here’s a pony.
 singer.bf2d5f8: Hi! Good to meet you.
-singer.1b3386c: Hi. Just here to say you’re doing great!
 singer.5b0f71c: Hidden while you’re in control
 singer.fe3f4c7: Hide Singer
 singer.20d27f8: Hold for a pick-me-up, or press Shift+Enter.
 singer.ae44077: Hold to talk
 singer.9994b42: Hold to try a hello. Just a preview—your mic stays off.
+singer.3e9875c: Hoot hoot
+singer.a186b9f: Hoot hoot :owl:
 singer.664fda1: Huddle invite
 singer.b27e958: Huddle notes
 singer.9fa0541: I checked the website
 singer.cc1ebdd: Idle
+singer.e9a5edc: If anyone can, it’s you
 singer.33b2fab: It’s been quiet for a while. Still in the meeting?
 singer.8dc7564: I’m using Slackbot to record and transcribe this meeting with AI and make notes. Please let me know if you’d prefer I stop.
 singer.18f46b2: Join Channel
@@ -21648,6 +21657,7 @@ singer.1a066ec: Just the venue. Dates and budget are set.
 singer.fc018de: Keep Going
 singer.77ccc1b: Keep recording
 singer.44eeee6: Keys go to the website · Shift+Esc returns to Singer
+singer.16761fc: Kindness always comes around
 singer.738fd1d: Large
 singer.56e2f5d: Later
 singer.016ab70: Later today
@@ -21737,12 +21747,12 @@ singer.9a6f0f4: Nothing left for you here.
 singer.55965e3: Nothing left here.
 singer.3f8b4e0: Nothing left in Activity.
 singer.373df07: Nothing new right now.
+singer.cb02233: Nothing to see here
 singer.6146165: Nothing to see. Yet.
 singer.e3b8204: Now
 singer.e3de5ab: Off
 singer.3996ed6: Offsite plan
 singer.e0049a6: On
-singer.83b2279: One pick-me-up, as ordered
 singer.aa1cc5a: Only these captured updates will be marked read. Newer messages stay unread.
 singer.c8e633f: Oops
 singer.e505acd: Open Browser
@@ -21750,7 +21760,6 @@ singer.5e59500: Open canvas
 singer.6fa88ea: Open in Singer
 singer.da26732: Open in Singer. Command-click to open in the main Slack window.
 singer.3386d02: Open in Slack
-singer.50fc304: Open in Slack to send commands or private agent requests. Your draft is saved here.
 singer.9ef6078: Open message in Singer
 singer.4ab962a: Open notes
 singer.2076205: Open reply
@@ -21769,7 +21778,6 @@ singer.781961b: Pause
 singer.c7dfb6f: Paused
 singer.6915f76: Pausing…
 singer.e46248a: Peaceful in here.
-singer.1fdd30b: Pick-me-up celebration.
 singer.23896cc: Prep
 singer.73c504a: Preparing meeting notes
 singer.5dff4d5: Press Ctrl twice to reopen Singer
@@ -21783,6 +21791,7 @@ singer.fe73d79: Quiet
 singer.5a0d343: Quiet for {minutes} min
 singer.4b3fb60: Quiet in here.
 singer.4ea8770: Racer Dood
+singer.6132487: Read any good books lately?
 singer.20c7c55: Ready
 singer.aec1322: Ready when you are
 singer.61fd682: Reconnect to mark these as read.
@@ -21835,10 +21844,8 @@ singer.ebd4eb4: Search for a person
 singer.502b0d6: Search skills
 singer.39ba42f: See the answer
 singer.9bc2575: Send
-singer.a883d8f: Send this private request from Slack. Your draft is saved here.
 singer.309d88e: Send to {recipient}
 singer.cf76551: Sending…
-singer.0a04b94: Sent privately
 singer.559c29d: Sent privately to {agent}
 singer.8874019: Session ended
 singer.c7f73bb: Settings
@@ -21846,7 +21853,6 @@ singer.a82b2d5: Show More Skills
 singer.cf0f51d: Show New Activity
 singer.5810ece: Show in Chat
 singer.ded0a5d: Show me
-singer.4c358ea: Show {count, plural, =1 {# more task} other {# more tasks}}
 singer.348b2d3: Showtime
 singer.f8492cc: Sign In
 singer.fc5040b: Sign in, then choose Continue. Slackbot can’t see this page.
@@ -21855,6 +21861,7 @@ singer.29a0039: Sign-in page hidden
 singer.8e0966c: Since you last looked
 singer.99c9c6d: Singer
 singer.d1971dd: Singer chose Offsite plan. Sample answer: Just the venue.
+singer.9cd8f6e: Singer offers you a heart
 singer.c6c7248: Singer sees only the window you choose. macOS may ask for permission first.
 singer.b715234: Size
 singer.e09212c: Skills
@@ -21917,6 +21924,8 @@ singer.abcde54: These updates are still unread.
 singer.d3812f8: These updates couldn’t be fully summarized and are still unread.
 singer.d08d8da: Thinking
 singer.b35e277: This browser session has closed.
+singer.4a00e8e: This is you right now: :selfie:
+singer.45b3451: This is you taking a selfie
 singer.afeaf6f: This preview isn’t available in this workspace.
 singer.ee53df5: This saved reply has attachments and can’t be sent from the preview.
 singer.143e70c: This view’s empty. In the best way.
@@ -21958,6 +21967,7 @@ singer.a86dd4a: Voice with Slackbot
 singer.0ab6291: Wait until the message editor is ready to quote a message.
 singer.9afc81c: Waiting for an update
 singer.45c6f16: Welcome to Slackbot!
+singer.1cea5fc: Well, well, well. Look who it is.
 singer.5836a4a: What Singer can do
 singer.2763654: What did I miss in #proj-aurora?
 singer.b4da940: What did I miss today?
@@ -21990,9 +22000,11 @@ singer.0d8c0b8: Your tasks will appear here.
 singer.181b32c: Your transcript is saved
 singer.e3a65d7: You’re all done here.
 singer.c014031: You’re all done in Activity.
+singer.7421d98: You’re doing great work
 singer.b0e652c: You’re in control
 singer.10ea929: You’re in control. Singer’s waiting.
 singer.7cee71f: You’ve earned a snack.
+singer.28bb3d0: You’ve got this
 singer.e820952: fn + left ⌘
 singer.4798363: fn + right ⌘
 singer.5d398ce: image__WDpA8
@@ -22008,6 +22020,8 @@ singer.6c37732: {count, plural, one {<b>#</b> DM} other {<b>#</b> DMs}}
 singer.fdc6966: {count} new
 singer.ea2f2f5: {duration} free
 singer.671ee27: {minutes, plural, one {# minute} other {# minutes}}
+singer-file-drop-feedback.5ff5dd8: Adding to your message…
+singer-file-drop-feedback.38abf08: Drop to attach
 singer-window-attachment.1afff01: Attach
 singer-window-attachment.7aba744: Attached window
 singer-window-attachment.77d607f: Attaching window…
@@ -22808,6 +22822,7 @@ slack_docs.6b5d4e1: Ordered list
 slack_docs.05058e0: Paragraph
 slack_docs.76859a9: Pins
 slack_docs.23882c5: Portuguese
+slack_docs.184ef64: Previews of Slackbot’s changes aren’t available in Simplified layout mode.
 slack_docs.6f719fb: Professional
 slack_docs.ff4fc02: Profile
 slack_docs.210987e: Proofread
@@ -23254,9 +23269,7 @@ slackbot-ai.bd5db47: Help me set up a new task.
 slackbot-ai.094fc81: Hi, I’m Slackbot, your AI teammate.
 slackbot-ai.90ccd64: History
 slackbot-ai.47d791f: How tasks work
-slackbot-ai.40fe594: I don’t have much about your work yet, so here’s a picture of your team.
 slackbot-ai.305549b: I found {count, plural, one {# thing} other {# things}} I can take off your plate.
-slackbot-ai.ae33c96: I put together a picture of your work so my responses will reflect what’s current, without you needing to explain it.
 slackbot-ai.e893b9c: I want to edit my task called {title}
 slackbot-ai.ed58f29: Instructions
 slackbot-ai.b15db7e: I’m getting up to speed so I can tailor my responses to your work.

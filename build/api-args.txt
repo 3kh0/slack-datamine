@@ -566,6 +566,7 @@ lists.templates: template_ids
 lists.update: id, template_type
 lists.views.create: list_id, name, type
 lists.views.delete: id, list_id
+lists.views.pins.list: list_id
 lists.views.update: id, list_id, skip_simple_array_serialization_in_get_form_data
 media.progress.update: duration_ms, file, offset_ms
 media.reactions.add: channel, file, message_timestamp, name, offset_ms
