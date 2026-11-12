@@ -1925,7 +1925,7 @@ app_details.1d06648: {appName} is installed on {teamName}
 app_details.2a4c7f0: ‘{appName}’ will be able to do
 app_details.96cb78d: ‘{appName}’ will be able to view
 app_dialog.b16c7ac: (optional)
-app_dialog.3a4245a: Learn more about {appName}
+app_dialog.0997bad: Header Icon
 app_dialog.2dacf65: Submit
 app_dialog.ab90d9d: This field is required.
 app_dialog.26dc55d: We had some trouble connecting. <a>Try again?</a>
@@ -4924,7 +4924,6 @@ channel_sidebar.610e4cf: Channel invitations
 channel_sidebar.da5d596: Channel or user name
 channel_sidebar.8f4f417: Channel sections keep related conversations close together.
 channel_sidebar.18e03e2: Channels
-channel_sidebar.0688ebf: Channels and direct messages
 channel_sidebar.876d683: Choose what to pin…
 channel_sidebar.fb99bef: Clear out the clutter and hide {numMutedChannels} {numMutedChannels, plural, =1 {muted channel} other {muted channels}} from view. They’ll only pop up again if someone mentions you.
 channel_sidebar.247fd63: Clear selection
@@ -5081,8 +5080,10 @@ channel_sidebar.6cb412d: No recent conversations
 channel_sidebar.6eef664: None
 channel_sidebar.8eb385b: Normalize the base score to a percentile
 channel_sidebar.4481948: Nothing
+channel_sidebar.40249da: Nothing new. Recent sessions will show up here.
 channel_sidebar.2466eb7: Nothing to see here — you’re caught up on your less important unreads.
 channel_sidebar.27759e7: Now that your workspace is on a free plan, all your conversations are organized in default sections. You can also still star any conversations you’d like.
+channel_sidebar.311a5ee: Open DM
 channel_sidebar.e23fa2c: Open in floating window
 channel_sidebar.a75732d: Open in new window
 channel_sidebar.03a322d: Open in split view
@@ -5214,6 +5215,7 @@ channel_sidebar.34241da: Unfortunately, you can have up to {numMaxChannelsPerSec
 channel_sidebar.d3f5484: Unfortunately, you can have up to {numMaxEntitiesPerUser} entites in the sidebar — but no more.
 channel_sidebar.59b7f96: Unmuted {numChannels, plural, =1{channel} other {# channels}}.
 channel_sidebar.8ced4b0: Unmuted {numChannels, plural, =1{conversation} other {# conversations}}.
+channel_sidebar.2eba6a0: Unpin
 channel_sidebar.7a02972: Unpin from tray
 channel_sidebar.5490ce9: Unpin from your sidebar
 channel_sidebar.07b032b: Unread
@@ -6213,13 +6215,16 @@ code-review-submit-button.7e3a7c7: {count, plural, =1 {1 pending comment will be
 code-review-submit-button.0596aae: {count, plural, =1 {Review Changes, 1 pending comment} other {Review Changes, # pending comments}}
 code-review-success-toast.4198d85: View Message
 code-review-success-toast.47d34f2: View in channel
+code-tab.35b46ef: ,"/msg","/dm"],isEnabled:()=>!0,action:()=>async e=>e((await Promise.all([n.e("shared-js_modern_redux_actions_open-apps-browser-modal_ts"),n.e("shortcuts-local-actions")]).then(n.bind(n,"+7Rp"))).default())},{id:"slack-invite-to-workspace",getName:()=>L1.t("Invite someone new to join this workspace"),aliases:()=>[
 code-tab.d34ffd3: Add a reaction
 code-tab.cf05eca: Add reaction
+code-tab.85174b7: All changes
 code-tab.41b81eb: Approved
 code-tab.f3a4aa0: Branch {branch}
 code-tab.77dfd21: Cancel
 code-tab.fe25abc: Changed files
 code-tab.9be1668: Changes requested
+code-tab.8675a11: Changes since your last review
 code-tab.853d42b: Close find
 code-tab.88d86b7: Closed
 code-tab.153d7a5: Comment
@@ -6341,6 +6346,7 @@ code-tab.5643f7d: {count, plural, one {# comment} other {# comments}}
 code-tab.c0ccea2: {count, plural, one {# commit} other {# commits}}
 code-tab.f35d82c: {count, plural, one {# earlier commit isn’t included because it comes before a merge from {base}.} other {# earlier commits aren’t included because they come before a merge from {base}.}}
 code-tab.525dedc: {count, plural, one {# file changed} other {# files changed}}
+code-tab.fd1d44e: {count, plural, one {# new commit} other {# new commits}}
 code-tab.97d3b45: {count, plural, one {Files Changed, # file} other {Files Changed, # files}}
 code-tab.7e20641: {current} of {total}
 code-tab.aee50c1: {current} of {total}+
@@ -10828,6 +10834,7 @@ huddles.8b89522: Anything else you want to add?
 huddles.8e4aa3a: Applause
 huddles.cfea419: Apply
 huddles.d1cd89b: Apply changes?
+huddles.365bb3a: Are you still there?
 huddles.410bf23: Are you sure?
 huddles.e81e1f6: Art by Haley Tippmann
 huddles.4f5fdc6: Art by Hudson Christie
@@ -11411,6 +11418,7 @@ huddles.384ca72: Unfortunately, this version of Slack is out of date. Update you
 huddles.c04888d: Unicorn
 huddles.c34014e: Unmute mic
 huddles.da15692: Unmute microphone
+huddles.2eba6a0: Unpin
 huddles.523baab: Upcoming
 huddles.b8120b4: Upgrade your free team to Pro to huddle with more than one person.
 huddles.794b563: Use Microphone
@@ -11574,6 +11582,7 @@ huddles.690d19f: You’re the only one here
 huddles.9008f7a: You’re the only one here. Enjoy the tranquility, or <a>invite someone</a>.
 huddles.c9e8f54: You’re the only one here. Enjoy the tranquility, or invite someone.
 huddles.9c4d6a8: You’re the only one in this huddle. Enjoy the tranquility.
+huddles.6a54c33: You’ve been in this huddle by yourself for a while. You’ll leave it in {seconds, plural, =1 {# second} other {# seconds}} unless you’re still here.
 huddles.d18ae3e: You’ve joined the huddle on a different device
 huddles.a0bc4e2: Zombie Puffy
 huddles.a9ff4d7: and {tabLabel}
@@ -16596,7 +16605,6 @@ platform-admin.e57f74b: Channels loaded.
 platform-admin.ea96354: Compare Plans
 platform-admin.2e02623: Continue
 platform-admin.0fff07c: Continue to Groups
-platform-admin.74780a8: Continue to People
 platform-admin.05d0162: Couldn’t load channels. Try again in a few minutes.
 platform-admin.dfdb7ac: Couldn’t load groups. Try again in a few minutes.
 platform-admin.16506ef: Couldn’t load more channels.
@@ -16610,10 +16618,8 @@ platform-admin.0940563: Filter by channel name
 platform-admin.90e40d5: Get started
 platform-admin.e2722c7: Get unlimited apps, including AI assistants
 platform-admin.4fa0338: If you don’t unpublish the workflow it will continue to run but it won’t appear in the workflows tab. Unpublishing will stop the workflow from running until you publish it again in workflow builder.
-platform-admin.6878f62: Learn how to get started connecting your IDP to Slack
 platform-admin.be5f086: Load More Channels
 platform-admin.61afdda: Loading channels
-platform-admin.978ae10: Loading groups
 platform-admin.cf310ac: Loading more channels…
 platform-admin.4f739b5: Loading people
 platform-admin.41bd67a: Manage app access
@@ -16642,8 +16648,6 @@ platform-admin.14c3a74: Sorry, something went wrong. Try again in a moment.
 platform-admin.2d750dd: Specific people
 platform-admin.10e4b6f: Specific people and groups can use the app.
 platform-admin.8007984: Specific people can use the app.
-platform-admin.111cbbd: There are no groups from your identity provider.
-platform-admin.6c68b7e: This app doesn’t allow any groups
 platform-admin.ea1a27d: This app doesn’t allow any people
 platform-admin.f372b05: To reconnect workflows, upgrade to a paid plan. <cta></cta>
 platform-admin.7b15e9e: Too many users to display. You may only add users here. To remove users, please use the API.
@@ -16661,11 +16665,8 @@ platform-admin.155b3f7: You can delete specific people but cannot add people to 
 platform-admin.ba76df8: You’ve reached your limit of 10 installed apps. With Slack Pro, you can install unlimited apps including AI assistants. {bannerCta}
 platform-admin.aa075f0: {channelCount, plural, =1 {# channel} other {# channels}} selected
 platform-admin.cd65fda: {count, plural, =1 {# channel} other {# channels}}
-platform-admin.5a1463d: {count, plural, =1 {# excluded group} other {# excluded groups}} couldn’t be loaded and will no longer be blocked if you save.
 platform-admin.e9099aa: {count, plural, =1 {# group} other {# groups}}
-platform-admin.2de9038: {count, plural, =1 {# group} other {# groups}} this app allows couldn’t be loaded.
 platform-admin.2f9a86c: {count, plural, =1 {# person} other {# people}}
-platform-admin.4c0adf4: {count, plural, =1 {# previously-permitted group} other {# previously-permitted groups}} couldn’t be loaded and will lose access if you save.
 platform-admin.962677a: {groupCount, plural, =0 {No groups} =1 {# group} other {# groups}} and {memberCount, plural, =0 {no people} =1 {# person} other {# people}} selected
 platform-admin.9a1985c: {memberCount, plural, =0 {No people selected} =1 {# person selected} other {# people selected}}
 platform-admin.1b95d2b: {name} (group)
@@ -26310,6 +26311,7 @@ trial_slack_connect_awareness.126ef94: Work with entire teams outside {currentTe
 trial_slack_connect_awareness.43e3d77: Work with entire teams outside {currentTeamName}. On a paid plan, you can use Slack Connect for channels — so you can loop everyone in to the conversation, no matter where they work.
 trial_slack_connect_awareness.b161484: Work with entire teams outside {currentTeamName}. Start a free trial to use channels with Slack Connect — so you can loop everyone in to the conversation, no matter where they work.
 trial_slack_connect_awareness.934ba19: Work with entire teams outside {currentTeamName}. Use Slack Connect for channels and loop everyone in to the conversation, no matter where they work.
+trials.9986b37: );((0,ay.yz)(e)||(0,ay.Zp)(e))&&!(0,A4.ju)(e)&&(0,ei.gT)(r,e.id)&&(0,ei.OL)(r,e.id)&&(0,ee.A)({getState:i}).warn(
 trials.f402d1a: 1:1 external messages
 trials.d738853: AI conversation summaries
 trials.5faa154: AI file summaries
