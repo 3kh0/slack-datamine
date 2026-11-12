@@ -475,7 +475,6 @@ activity.db26cdc: Channel mention
 activity.19dbe04: Channel mention in {channel}
 activity.c495f3f: Channel or section…
 activity.ba8be10: Channel set to "all new posts"
-activity.19589eb: Check Older Threads
 activity.719ea39: Clear
 activity.c043160: Clear all
 activity.2d06ab5: Clear all before this?
@@ -635,7 +634,6 @@ activity.18962d5: No active agent sessions
 activity.e915e03: No agent sessions match these filters
 activity.030700f: No open pull requests of yours
 activity.6d745b3: No thanks
-activity.9fa0dcc: No unread replies in your recent threads
 activity.fed1f5c: Nothing found
 activity.83bd4f4: Nothing waiting on your review
 activity.c18f8f2: Notification
@@ -10563,9 +10561,11 @@ hermes_builtin_workflow_templates.eeb4a34: <strong>Needs attention.</strong> The
 hermes_builtin_workflow_templates.782a74a: AI content review is auto-approved for this step
 hermes_builtin_workflow_templates.e9cc996: AI-generated content will be reviewed before this step runs
 hermes_builtin_workflow_templates.763f352: Complete — {title}
+hermes_builtin_workflow_templates.351ea4f: Custom Step
 hermes_builtin_workflow_templates.8542fe3: Duplicate branch rules — These rules are the same as another branch. Since workflows only run on the first matching branch, consider updating the rules to make them unique.
 hermes_builtin_workflow_templates.c7c2b01: Step primary actions
 hermes_builtin_workflow_templates.4ea3d85: Step requires configuration in order to run.
+hermes_builtin_workflow_templates.80a090f: Third Party Step
 hermes_builtin_workflow_templates.bab15db: This trigger has been restricted by an admin. Please reach out to your admin for help.
 hermes_builtin_workflow_templates.4c264ca: Turn Off Auto-Approve
 hermes_builtin_workflow_templates.1f56678: Your admin doesn’t allow AI-generated content in this step, so it won’t run
@@ -21768,6 +21768,7 @@ singer.9f4192f: No speech detected. Try speaking again.
 singer.eb6771e: No unread conversations in this view.
 singer.d6e07cb: Not looking
 singer.e457149: Not now
+singer.d87874b: Notes aren’t ready
 singer.2f6df5f: Notes go to a new Slack canvas.
 singer.96e29d0: Nothing in Activity right now.
 singer.9a6f0f4: Nothing left for you here.
@@ -22009,11 +22010,13 @@ singer.590994b: Your draft is safe. Give it another try.
 singer.f30447a: Your huddle is taking notes from its captions. Stop them from the huddle.
 singer.5a35be6: Your message is still sending. Check the conversation before trying again.
 singer.8aa431a: Your microphone is muted in system settings. Open voice details to unmute it.
+singer.c147c29: Your notes are ready
 singer.b0194a7: Your notes are saved in a Slack canvas.
 singer.85da834: Your recording has stopped. Slack is transcribing the audio and preparing your canvas.
 singer.60b3ab6: Your sign-in was saved for future tasks.
 singer.541f836: Your skills
 singer.0d8c0b8: Your tasks will appear here.
+singer.181b32c: Your transcript is saved
 singer.e3a65d7: You’re all done here.
 singer.c014031: You’re all done in Activity.
 singer.b0e652c: You’re in control

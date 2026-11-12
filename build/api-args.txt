@@ -807,7 +807,7 @@ solutions.get: solution_template_id
 solutions.list: permission, status
 solutions.update: skip_simple_array_serialization_in_get_form_data, solution_template_id
 stars.list: count, cursor, exclude, limit, org_wide_aware, page
-subscriptions.thread.getTimestamps: cursor, fetch_threads_state, limit, mode, order_by, priority_mode
+subscriptions.thread.getTimestamps: cursor, fetch_threads_state, limit, mode, priority_mode
 subteams.info: usergroups
 subteams.validateHandle: handle, target_team
 subteams.validateName: name, target_team
