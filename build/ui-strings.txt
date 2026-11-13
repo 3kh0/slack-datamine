@@ -141,7 +141,7 @@
 :void 0),o.current?.info(ep,e?
 :void 0)||(y?
 :void 0,credentialless:ec?
-:void 0,credentialless:l?
+:void 0,credentialless:o?
 :void 0,credentialless:p?
 :void 0,skipDoneDialog:!0,buttonClassName:t?
 ?void 0:v.observedStatus)??f??v?.observedStatus??(v?.summaryDone?
@@ -5871,7 +5871,6 @@ Ex: Request Form
 Example workflow link
 Examples on record
 Excel file icon
-Exception asking for the document fixers
 Exception during decorator
 Exception during error handler
 Exception during hook
@@ -7906,6 +7905,7 @@ Handle Comments tab dismissed
 Handle a Message Kit timestamp being clicked
 Handle a click to the App Directory
 Handle a click to the plans page
+Handle a notification click in its navigation visit origin
 Handle a start error during boot
 Handle a user clicking on an identity link
 Handle a user connecting their slack acc with an IDL enabled app
@@ -11128,6 +11128,7 @@ Navigate side effect to maybe reveal hidden coachmarks
 Navigate side effect to persist view state to localConfig
 Navigate side effect to potentially send an event to an AI app that the view context has changed
 Navigate side effect to potentially send an event to an app that the view context has changed
+Navigate side effect to record Salesforce record pane views against the echo query frecency
 Navigate side effect to remove the sidebar from the canvas explorer
 Navigate side effect to reset channel unread meta data
 Navigate side effect to set previewed channel from channel browser
@@ -18144,6 +18145,7 @@ Slackbot skill
 Slackbot summarizes these conversations. Nothing is marked read.
 Slackbot task started
 Slackbot teaser
+Slackbot uses AI and can make mistakes.
 Slackbot uses this context across conversations in the project and may update it automatically each week.
 Slackbot view
 Slackbot will ask you before it changes anything.
@@ -18730,6 +18732,7 @@ Submit a team segmentation answer
 Submit addition or removal of a reactions for a reaction key
 Submit and upsert view
 Submit and upsert view with state from a container id
+Submit feedback
 Submit for review
 Submit forward dialog
 Submit multi-channel guest invite request

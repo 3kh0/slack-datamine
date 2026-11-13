@@ -2483,6 +2483,7 @@ assistant.88ac2d5: Slackbot needs you to connect an account to continue
 assistant.e88e0b7: Slackbot needs your okay
 assistant.5b870dc: Slackbot needs your okay to continue
 assistant.fa0226a: Slackbot saved these from your conversations to make future responses more relevant.
+assistant.94c7ace: Slackbot uses AI and can make mistakes.
 assistant.4fd1bef: Slackbot will automatically save relevant details from your Slack activity and update your saved memory every two weeks.
 assistant.5e8d834: Slackbot’s AI abilities are turned on
 assistant.d0fcbea: Slackbot’s voice
@@ -2506,6 +2507,7 @@ assistant.0708f58: Stop receiving recaps
 assistant.d3974cd: Stop receiving recaps?
 assistant.ee0d9dc: Stop recording
 assistant.7740b05: Style and Format Preferences
+assistant.1da0e7e: Submit feedback
 assistant.95a0548: Subscribe to Recap
 assistant.5b49d1d: Successfully detected and assigned
 assistant.70d2e05: Suggested channels
@@ -9142,6 +9144,7 @@ express_templates.dff42ca: Select channels for workflow to start in
 express_templates.c52c0c7: Set Up
 express_templates.09ca55c: Share
 express_templates.85368c4: Step {currentStepNumber} of {totalNumberOfSteps}
+express_templates.1da0e7e: Submit feedback
 express_templates.6f66842: Submitted By
 express_templates.905f630: Sync
 express_templates.6c82e6d: Time
@@ -10003,6 +10006,7 @@ files.a06a492: audio
 files.971c419: file
 files.afffdd0: folder
 files.fd3e3d9: loading…
+files.e525d50: t load the members of user group ${r}`);if(s.users.forEach(e=>i.add(e)),i.size>n)return[...i];e=s.nextCursor}while(e)}return[...i]},[a,t])),{hasWritableCalendar:K,isWritableCalendarLoaded:Q}=(0,AF.E)(r),X=Q&&!K,Z=Q&&K,J=r?Cl.t("Connect a calendar to Slack to schedule a huddle."):"Connect a calendar to Slack to schedule a huddle.";(0,T.useEffect)(function(){X&&q({message:J,assertive:!1})},[X,J,q]),(0,T.useEffect)(function(){s&&"string"==typeof s&&q({message:s,assertive:!0})},[s,q]),(0,T.useEffect)(function(){l&&q({message:l,assertive:!0})},[l,q]);let{memberIds:ee,groupIds:et,hasInvalidItem:ea}=(0,T.useMemo)(()=>{let e=g.map(e=>e.value).filter(e=>!!e);return{memberIds:e.filter(pK.A),groupIds:e.filter(Cr.A),hasInvalidItem:g.some(e=>e.isError||e.isUnknown)}},[g]);(0,T.useEffect)(function(){if(!O||0===ee.length)return;let t=i.getState(),a=ee.filter(a=>!(0,Cs.Ql)(t,e,a).isKnown);a.length>0&&n((0,Co.R)({channelId:e,userIds:a}))},[e,n,O,ee,i]);let en=(0,L.Z2)(function(t){return O?ee.filter(a=>{let n=(0,Cs.Ql)(t,e,a);return n.isKnown&&!n.isMember}):[]}),er=r?Cl.t("One or more entries are invalid. Choose people from your organization."):"One or more entries are invalid. Choose people from your organization.",es=l||(ea?er:""),eo=C>0&&!!M&&(U||!es),el=(0,T.useCallback)(e=>{f(e),c(""),o("")},[]),ec=r?Cl.t("The scheduled time must be in the future."):"The scheduled time must be in the future.",ed=r?Cl.t("The selected duration is invalid."):"The selected duration is invalid.",eu=r?Cl.t("Too many people to invite to one huddle. Remove some and try again."):"Too many people to invite to one huddle. Remove some and try again.",em=r?Cl.t("This channel has more people than a huddle can hold ({max}).",{max:B}):`This channel has more people than a huddle can hold (${B}).`,ep=r?Cl.t("You can only schedule a huddle in a channel you’re a member of."):"You can only schedule a huddle in a channel you’re a member of.",eh=r?Cl.t("Only people who can post in this channel can schedule a huddle in it."):"Only people who can post in this channel can schedule a huddle in it.",e_=r?Cl.t("You can’t schedule a huddle in this conversation."):"You can’t schedule a huddle in this conversation.",eg=r?Cl.t("You can’t schedule huddles in channels shared with other organizations yet."):"You can’t schedule huddles in channels shared with other organizations yet.",ef=r?Cl.t("Huddles are turned off for this channel."):"Huddles are turned off for this channel.",eb=r?Cl.t("Your organization doesn’t allow everyone in this channel to join the same huddle."):"Your organization doesn’t allow everyone in this channel to join the same huddle.",eA=r?Cl.t("There was a problem adding this huddle to your calendar. Give it another try in a few minutes."):"There was a problem adding this huddle to your calendar. Give it another try in a few minutes.",eC=r?Cl.t("We couldn’t load the members of a selected group. Please try again."):"We couldn’t load the members of a selected group. Please try again.",ek=Cl.rt("Something went wrong. If the problem persists, please <a>drop us a line</a>.",null,({text:e,key:t})=>(0,S.jsx)(t0.A,{href:`https://${(0,tK.qF)()}/help/contact`,rel:"noopener noreferrer",children:e},t)),ex=(0,T.useMemo)(()=>({[Ci.Fq.SchedulingHuddleInPast]:ec,[Ci.Fq.ScheduleHuddingInPast]:ec,[Ci.Fq.InvalidDuration]:ed,[Ci.Fq.TooManyInvitees]:U?em:eu,[Ci.Fq.ChannelNotFound]:ep,[Ci.Fq.RestrictedAction]:eh,[Ci.Fq.CannotHuddleHere]:e_,[Ci.Fq.SlackConnectNotSupported]:eg,[Ci.Fq.PermissionDenied]:ef,[Ci.Fq.InviteRestricted]:eb,[Ci.Fq.CalendarNotConnected]:J,[Ci.Fq.CalendarEventCreationFailed]:eA}),[eA,e_,ep,J,ef,ed,em,eb,U,eh,eg,ec,eu]),ew=(0,T.useCallback)(e=>ex[e]??ek,[ex,ek]),eS=(0,T.useCallback)(async()=>{let t;if(!eo||!Z)return;u(!0);try{let e=U?[]:await V(et,B);t=[...new Set([...ee,...e])].filter(e=>e!==N)}catch{c(eC),u(!1);return}if(!U&&t.length+1>B){o(eu),u(!1);return}let a=E.current?.value()??"";try{let i=await n((0,Ci.Ku)({channelId:e,scheduledTime:C,duration:60*h,...U?{inviteAllChannelMembers:!0}:t.length>0&&{invitees:t},...a&&{topic:a},...m&&{description:m},reason:"schedule-new"}));if(i?.ok){W({icaluid:i.icaluid,startTime:C}),n((0,t5.M)({element:(0,S.jsx)(HuddleScheduleChannelSuccessToast,{title:a})})),n((0,ev.O)());return}o(ew(getApiErrorCode(i)))}catch(e){o(ew(getApiErrorCode(e)))}finally{u(!1)}},[Z,eo,e,N,m,n,h,V,ew,et,eC,W,U,ee,B,C,eu]),eT=r?Cl.t("Everyone in this conversation will get an invite."):"Everyone in this conversation will get an invite.",eI=Cl.rt(
 files.5b1e658: toggle {fileName}
 files.0fad572: {appName} files results
 files.a9da31b: {count, plural, =0 {Skill removed, no skills selected} one {Skill removed, # skill selected} other {Skill removed, # skills selected}}
@@ -10157,6 +10161,7 @@ growl.4b14f80: You have an approval request.
 growl.65799b3: a message from {name}
 growl.97e2118: and 
 growl.2bb9882: was invited to join {workspaceName} — take a second to say hello.
+growl.ddaf302: { username } is requesting your approval.
 growl.159f799: {memberName} is inviting you to a huddle
 guided_trials.a97850c:  (discount applied)
 guided_trials.277f46e:  Keep your whole team connected to Salesforce data and workflows—right from Slack.
@@ -16140,7 +16145,6 @@ notifications.70afe9e: Dismiss
 notifications.016e1d5: Manager Approval
 notifications.56a75db: Nice, notifications are enabled!
 notifications.813fb12: Reminder due
-notifications.75d38e9: Upcoming meeting
 notifications.69bd4ef: View
 oauth.bc86078: <b>All</b> {count}
 oauth.173394e: <b>External</b> {count}
@@ -20163,6 +20167,8 @@ search.fb39e42: {queryLabel} <b>{searchText}</b>
 search.564afcc: {reactionAmount} {reactionAmount, plural, =1 {reaction} other {reactions}}
 search.104e003: {realName}{maybeApp}{maybeTeam}, Direct Message{maybeUnreads}{maybeDeactivated}{maybePresence}
 search.b80ac7a: {replies} · last reply {ago}
+search.fcccd96: {roomName} in {channelName}
+search.7239f09: {roomName} with {channelName}
 search.b493356: {sender} in a direct message
 search.169f123: {sender} in {conversation}
 search.1db5227: {sender}:
@@ -20233,7 +20239,6 @@ session_channel_archive.7eac343: This channel is inactive. Archive it for everyo
 session_channel_archive.94ca019: This channel is inactive. Leave the channel to tidy up your sidebar — you can always rejoin it later.
 session_channel_archive.504fccb: This work is complete. Archive it for everyone — the contents will still be available in search, and you can always unarchive it in the future.
 session_channel_archive.4fd785e: This work is complete. Leave the channel to tidy up your sidebar — you can always rejoin it later.
-setup_page.db07f2e: ),o+=s}function extractTextFromMessage(e,t){if(!t)return"";let a=(0,K.n)(e,t,{convertEmoji:(0,S.P)(e)?"text":"unicode",convertUnknownSlugToUrl:!0,blockSpacing:"single",useMentionsNamePref:!0}),n=t.files&&(0,M.qh)(t.files)?applyClipsTemplate(t,(0,M.NG)(t.files),a||""):null;if(n)return n;let i=t.files?(0,E.A)(t.files):void 0;if((i&&!a||(0,W.A)(t.subtype))&&i){let n=(0,G.Lp)(e,i.id),r=a?null:(0,U.V)(n);return r||(0,B.HD)(e,t,n)||""}if(a)return a;if(t.attachments&&t.attachments.length){let a=(0,q.Qy)(t);if(a){let t=(0,K.a)(e,a,{convertEmoji:(0,S.P)(e)?"text":"unicode",convertUnknownSlugToUrl:!0,useMentionsNamePref:!0});if(t)return t}return textContentFromAttachments(t.attachments)}return
 setup_page.27e6d30: + {count, plural, =1 {# other} other {# others}}
 setup_page.850a65b: 1,001 +
 setup_page.92767dc: 101 - 500
@@ -23630,9 +23635,9 @@ slackbot-ai.aac8075: {count, plural, =1 {# message} other {# messages}}
 slackbot-ai.ed26324: {count, plural, =1 {# task found} other {# tasks found}}
 slackbot-ai.473b95a: {count, plural, =1 {# tool} other {# tools}}
 slackbot-ai.49f452f: {count, plural, =1 {{totalCountStr} result found} other {{totalCountStr} results found}}
+slackbot-ai.6b37fe8: {count, plural, one {# automation} other {# automations}}
 slackbot-ai.c598756: {count, plural, one {# conversation found} other {# conversations found}}
 slackbot-ai.7edf653: {count, plural, one {# source} other {# sources}}
-slackbot-ai.f445e11: {count} automations
 slackbot-ai.42910ff: {count} in progress
 slackbot-ai.33551a3: {count} unread
 slackbot-ai.7e20641: {current} of {total}
