@@ -319,6 +319,31 @@ a11y.175cd9a: {name} ({userInfo})
 a11y.55201e5: {name} ({userInfo}) ({context})
 a11y.bf35d59: {name} ({userInfo}), status: {status}
 a11y.310b44c: {name} ({userInfo}), status: {status} ({context})
+a11y.f0d5e51: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName} reacted with {reaction} and other reactions to: {message} At {time}.
+a11y.8bdc13f: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName} reacted with {reaction} and other reactions to: {message} {date} at {time}.
+a11y.8b638b5: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName} reacted with {reaction} and {secondReaction} to: {message}
+a11y.bc32541: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName} reacted with {reaction} and {secondReaction} to: {message} At {time}.
+a11y.9eac90a: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName} reacted with {reaction} and {secondReaction} to: {message} {date} at {time}.
+a11y.c4e395c: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName} reacted with {reaction} to: {message} At {time}.
+a11y.cbd6b18: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName} reacted with {reaction} to: {message} {date} at {time}.
+a11y.39ea943: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName}, at {time}, reacted with {reaction} and other reactions to: {message}
+a11y.8c3621c: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName}, at {time}, reacted with {reaction} and {secondReaction} to: {message}
+a11y.27151f4: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName}, at {time}, reacted with {reaction} to: {message}
+a11y.f7d0813: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName}, {date} at {time}, reacted with {reaction} and other reactions to: {message}
+a11y.f125727: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName}, {date} at {time}, reacted with {reaction} and {secondReaction} to: {message}
+a11y.f8d9400: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName}, {date} at {time}, reacted with {reaction} to: {message}
+a11y.9db1322: {name} in {channelName} reacted with {reaction} and other reactions to: {message} At {time}.
+a11y.ab8bd89: {name} in {channelName} reacted with {reaction} and other reactions to: {message} {date} at {time}.
+a11y.c65341f: {name} in {channelName} reacted with {reaction} and {secondReaction} to: {message} At {time}.
+a11y.41fbf05: {name} in {channelName} reacted with {reaction} and {secondReaction} to: {message} {date} at {time}.
+a11y.ab0bfb0: {name} in {channelName} reacted with {reaction} to: {message} At {time}.
+a11y.9bcb98f: {name} in {channelName} reacted with {reaction} to: {message} {date} at {time}.
+a11y.fe46640: {name} in {channelName}, at {time}, reacted with {reaction} and other reactions to: {message}
+a11y.c73c707: {name} in {channelName}, at {time}, reacted with {reaction} and {secondReaction} to: {message}
+a11y.d43d581: {name} in {channelName}, at {time}, reacted with {reaction} to: {message}
+a11y.d4f2384: {name} in {channelName}, {date} at {time}, reacted with {reaction} and other reactions to: {message}
+a11y.ae5851d: {name} in {channelName}, {date} at {time}, reacted with {reaction} and {secondReaction} to: {message}
+a11y.2dcdb56: {name} in {channelName}, {date} at {time}, reacted with {reaction} to: {message}
 a11y.92bb48c: {name}, status: {status}
 a11y.e5c3a22: {name}, status: {status} ({context})
 a11y.f89fcb6: {senderName} to {recipients} at {time}: {message}
@@ -4887,6 +4912,7 @@ channel_sidebar.610e4cf: Channel invitations
 channel_sidebar.da5d596: Channel or user name
 channel_sidebar.8f4f417: Channel sections keep related conversations close together.
 channel_sidebar.18e03e2: Channels
+channel_sidebar.0688ebf: Channels and direct messages
 channel_sidebar.876d683: Choose what to pin…
 channel_sidebar.fb99bef: Clear out the clutter and hide {numMutedChannels} {numMutedChannels, plural, =1 {muted channel} other {muted channels}} from view. They’ll only pop up again if someone mentions you.
 channel_sidebar.247fd63: Clear selection
@@ -5232,9 +5258,11 @@ channel_sidebar.f9ecef2: shared channel
 channel_sidebar.8af56de: you
 channel_sidebar.6e201aa: {agentName} conversations
 channel_sidebar.c2c005b: {badgeCount} unread {badgeCount, plural, =1 {invite} other {invites}}
+channel_sidebar.3df1ef7: {channelName}, {count, plural, =1 {# mention} other {# mentions}}
 channel_sidebar.2d891d6: {channel}, failed to send message
 channel_sidebar.57c546d: {count, plural, =1 {# file} other {# files}}
 channel_sidebar.12f139d: {count, plural, =1 {# mention} other {# mentions}}
+channel_sidebar.3ac3e22: {count, plural, =1 {# mention} other {# mentions}} in a channel you haven’t joined
 channel_sidebar.accd9c4: {count, plural, =1 {# new message} other {# new messages}}
 channel_sidebar.2743d1b: {count, plural, =1 {# unread message} other {# unread messages}}
 channel_sidebar.c5e835b: {count, plural, one {View # more draft} other {View # more drafts}}
@@ -10006,7 +10034,6 @@ files.a06a492: audio
 files.971c419: file
 files.afffdd0: folder
 files.fd3e3d9: loading…
-files.e525d50: t load the members of user group ${r}`);if(s.users.forEach(e=>i.add(e)),i.size>n)return[...i];e=s.nextCursor}while(e)}return[...i]},[a,t])),{hasWritableCalendar:K,isWritableCalendarLoaded:Q}=(0,AF.E)(r),X=Q&&!K,Z=Q&&K,J=r?Cl.t("Connect a calendar to Slack to schedule a huddle."):"Connect a calendar to Slack to schedule a huddle.";(0,T.useEffect)(function(){X&&q({message:J,assertive:!1})},[X,J,q]),(0,T.useEffect)(function(){s&&"string"==typeof s&&q({message:s,assertive:!0})},[s,q]),(0,T.useEffect)(function(){l&&q({message:l,assertive:!0})},[l,q]);let{memberIds:ee,groupIds:et,hasInvalidItem:ea}=(0,T.useMemo)(()=>{let e=g.map(e=>e.value).filter(e=>!!e);return{memberIds:e.filter(pK.A),groupIds:e.filter(Cr.A),hasInvalidItem:g.some(e=>e.isError||e.isUnknown)}},[g]);(0,T.useEffect)(function(){if(!O||0===ee.length)return;let t=i.getState(),a=ee.filter(a=>!(0,Cs.Ql)(t,e,a).isKnown);a.length>0&&n((0,Co.R)({channelId:e,userIds:a}))},[e,n,O,ee,i]);let en=(0,L.Z2)(function(t){return O?ee.filter(a=>{let n=(0,Cs.Ql)(t,e,a);return n.isKnown&&!n.isMember}):[]}),er=r?Cl.t("One or more entries are invalid. Choose people from your organization."):"One or more entries are invalid. Choose people from your organization.",es=l||(ea?er:""),eo=C>0&&!!M&&(U||!es),el=(0,T.useCallback)(e=>{f(e),c(""),o("")},[]),ec=r?Cl.t("The scheduled time must be in the future."):"The scheduled time must be in the future.",ed=r?Cl.t("The selected duration is invalid."):"The selected duration is invalid.",eu=r?Cl.t("Too many people to invite to one huddle. Remove some and try again."):"Too many people to invite to one huddle. Remove some and try again.",em=r?Cl.t("This channel has more people than a huddle can hold ({max}).",{max:B}):`This channel has more people than a huddle can hold (${B}).`,ep=r?Cl.t("You can only schedule a huddle in a channel you’re a member of."):"You can only schedule a huddle in a channel you’re a member of.",eh=r?Cl.t("Only people who can post in this channel can schedule a huddle in it."):"Only people who can post in this channel can schedule a huddle in it.",e_=r?Cl.t("You can’t schedule a huddle in this conversation."):"You can’t schedule a huddle in this conversation.",eg=r?Cl.t("You can’t schedule huddles in channels shared with other organizations yet."):"You can’t schedule huddles in channels shared with other organizations yet.",ef=r?Cl.t("Huddles are turned off for this channel."):"Huddles are turned off for this channel.",eb=r?Cl.t("Your organization doesn’t allow everyone in this channel to join the same huddle."):"Your organization doesn’t allow everyone in this channel to join the same huddle.",eA=r?Cl.t("There was a problem adding this huddle to your calendar. Give it another try in a few minutes."):"There was a problem adding this huddle to your calendar. Give it another try in a few minutes.",eC=r?Cl.t("We couldn’t load the members of a selected group. Please try again."):"We couldn’t load the members of a selected group. Please try again.",ek=Cl.rt("Something went wrong. If the problem persists, please <a>drop us a line</a>.",null,({text:e,key:t})=>(0,S.jsx)(t0.A,{href:`https://${(0,tK.qF)()}/help/contact`,rel:"noopener noreferrer",children:e},t)),ex=(0,T.useMemo)(()=>({[Ci.Fq.SchedulingHuddleInPast]:ec,[Ci.Fq.ScheduleHuddingInPast]:ec,[Ci.Fq.InvalidDuration]:ed,[Ci.Fq.TooManyInvitees]:U?em:eu,[Ci.Fq.ChannelNotFound]:ep,[Ci.Fq.RestrictedAction]:eh,[Ci.Fq.CannotHuddleHere]:e_,[Ci.Fq.SlackConnectNotSupported]:eg,[Ci.Fq.PermissionDenied]:ef,[Ci.Fq.InviteRestricted]:eb,[Ci.Fq.CalendarNotConnected]:J,[Ci.Fq.CalendarEventCreationFailed]:eA}),[eA,e_,ep,J,ef,ed,em,eb,U,eh,eg,ec,eu]),ew=(0,T.useCallback)(e=>ex[e]??ek,[ex,ek]),eS=(0,T.useCallback)(async()=>{let t;if(!eo||!Z)return;u(!0);try{let e=U?[]:await V(et,B);t=[...new Set([...ee,...e])].filter(e=>e!==N)}catch{c(eC),u(!1);return}if(!U&&t.length+1>B){o(eu),u(!1);return}let a=E.current?.value()??"";try{let i=await n((0,Ci.Ku)({channelId:e,scheduledTime:C,duration:60*h,...U?{inviteAllChannelMembers:!0}:t.length>0&&{invitees:t},...a&&{topic:a},...m&&{description:m},reason:"schedule-new"}));if(i?.ok){W({icaluid:i.icaluid,startTime:C}),n((0,t5.M)({element:(0,S.jsx)(HuddleScheduleChannelSuccessToast,{title:a})})),n((0,ev.O)());return}o(ew(getApiErrorCode(i)))}catch(e){o(ew(getApiErrorCode(e)))}finally{u(!1)}},[Z,eo,e,N,m,n,h,V,ew,et,eC,W,U,ee,B,C,eu]),eT=r?Cl.t("Everyone in this conversation will get an invite."):"Everyone in this conversation will get an invite.",eI=Cl.rt(
 files.5b1e658: toggle {fileName}
 files.0fad572: {appName} files results
 files.a9da31b: {count, plural, =0 {Skill removed, no skills selected} one {Skill removed, # skill selected} other {Skill removed, # skills selected}}
@@ -14094,6 +14121,7 @@ message.9763bac: What would you like to flag?
 message.ab6e11e: Why are you flagging this?
 message.107ebe1: Write your own prompt
 message.b1ac9d3: Yesterday at {time}
+message.b639cf6: Your edit was saved in the thread, but it couldn’t be sent to the conversation.
 message.72c8c9e: Your message couldn’t be sent because your admins have disabled sending messages to this channel.
 message.2d1a458: Your message couldn’t be sent. Canvas sharing has been disabled in conversations using Slack Connect.
 message.5c22f9d: Your message couldn’t be sent. File sharing has been disabled in conversations using Slack Connect.
@@ -14400,11 +14428,11 @@ message_pane_foreword.fbbcaac: Connect your files
 message_pane_foreword.f610bd7: Content shared here is also processed by {agent} according to its terms.
 message_pane_foreword.2ebe5b3: Edit description
 message_pane_foreword.1101582: Help Center
-message_pane_foreword.97fc78f: How your team uses {agent}
 message_pane_foreword.37f2b81: I, however, am not a human. Just a bot (a simple bot, with only a few tricks up my metaphorical sleeve). But I’m still happy you’re here!
 message_pane_foreword.96ede3e: Illustration of AI tools connecting to Slack
 message_pane_foreword.1aeab0f: Illustration of a sales deal tracking template
 message_pane_foreword.ff77870: Illustration of external partner collaboration template
+message_pane_foreword.f219b5e: In {channel}
 message_pane_foreword.0323bf6: Invite teammates
 message_pane_foreword.3c0a94d: Invite your external partners
 message_pane_foreword.0d2e8dd: Isometric Slack interface featuring diverse productivity apps icons
@@ -14412,7 +14440,6 @@ message_pane_foreword.3bfc550: Keep track of leads or opportunities
 message_pane_foreword.378cbbf: Learn More
 message_pane_foreword.8c782ad: Link Claude or ChatGPT
 message_pane_foreword.2848816: Link Drive or other tools
-message_pane_foreword.011aa5b: Loading how your team uses this agent
 message_pane_foreword.d3990dd: Post a welcome message
 message_pane_foreword.c39f5d7: Preview of a Google Drive integration within a Slack chat interface, showing a channel header, user messages, and a Google Drive file card with buttons.
 message_pane_foreword.5be596a: Project starter kit
@@ -14427,16 +14454,15 @@ message_pane_foreword.bd763cc: Sync your events
 message_pane_foreword.e054b40: That didn’t go through. Try again.
 message_pane_foreword.3b1c058: This is a code channel — {agent} can see and respond to every message and file.
 message_pane_foreword.ec63ff0: Thread in {channel}
+message_pane_foreword.6f5eb08: Thread in {channel} · {count, plural, one {# message} other {# messages}}
 message_pane_foreword.2d698f0: Track your sales
 message_pane_foreword.8469938: Try It
-message_pane_foreword.b7f9cca: Try this prompt yourself to explore what this agent can do.
 message_pane_foreword.685ed0a: View Profile
 message_pane_foreword.601682d: Welcome to your first channel {name}!
 message_pane_foreword.72353c8: Welcome your team
 message_pane_foreword.3fd30db: What’s on your mind?
-message_pane_foreword.1b462e5: {agent} users this week
 message_pane_foreword.c8722b5: {agent} uses AI and can make mistakes.
-message_pane_foreword.6401dbc: {name} and {count, plural, one {# more} other {# more}}
+message_pane_foreword.7897399: {name} & {count, plural, one {# other} other {# others}}
 messages.5a1dc37:  {overflowCount} others
 messages.14237cd: <a>See all scheduled messages</a>
 messages.f55ab13: Ctrl+J
@@ -15779,14 +15805,6 @@ mpdm_naming.69c4a14: You already have a conversation with this name. Consider us
 mrkdwn-channel-tab.49bcd35: Code channel
 mrkdwn-channel-tab.dcfabac: Private channel
 mrkdwn-channel-tab.bf5e905: {tabLabel} in {channelName}
-ms.4a2c5c1: <div>Last updated less than a minute ago…</div><a>Load new messages</a>
-ms.9c9b2e5: <div>Last updated {timeAgo}…</div><a>Load new messages</a>
-ms.8f0c462: Last updated less than a minute ago… Press Cmd + F6 to navigate to the status banner and click load new messages
-ms.0bc3ee8: Last updated less than a minute ago… Press Ctrl + F6 to navigate to the status banner and click load new messages
-ms.e465820: Last updated less than a minute ago… Press F6 to navigate to the status banner and click load new messages
-ms.ba11cb4: Last updated {timeAgo}… Press Cmd + F6 to navigate to the status banner and click load new messages
-ms.012b80a: Last updated {timeAgo}… Press Ctrl + F6 to navigate to the status banner and click load new messages
-ms.686458c: Last updated {timeAgo}… Press F6 to navigate to the status banner and click load new messages
 msg_edit.e823671: After sending a message, you have a few moments to cancel it. This will delete your original message and drop it back in the composer for you. <link>Learn more</link>
 msg_edit.175c51d: Are you sure you want to delete this comment? This cannot be undone.
 msg_edit.77dfd21: Cancel
@@ -16140,7 +16158,6 @@ notification_banner.15be1ae: Get a {discountPercent}% discount on a paid plan
 notification_banner.1c5b768: Minimize
 notification_banner.b1e5359: Not Now
 notification_banner.c462b3b: See Upgrade Options
-notification_bar.b03ff7c: Slack is trying to connect.
 notifications.70afe9e: Dismiss
 notifications.016e1d5: Manager Approval
 notifications.56a75db: Nice, notifications are enabled!
@@ -20167,8 +20184,6 @@ search.fb39e42: {queryLabel} <b>{searchText}</b>
 search.564afcc: {reactionAmount} {reactionAmount, plural, =1 {reaction} other {reactions}}
 search.104e003: {realName}{maybeApp}{maybeTeam}, Direct Message{maybeUnreads}{maybeDeactivated}{maybePresence}
 search.b80ac7a: {replies} · last reply {ago}
-search.fcccd96: {roomName} in {channelName}
-search.7239f09: {roomName} with {channelName}
 search.b493356: {sender} in a direct message
 search.169f123: {sender} in {conversation}
 search.1db5227: {sender}:
@@ -23521,7 +23536,6 @@ slackbot-ai.9248d45: Sign in to continue to Slack
 slackbot-ai.e09212c: Skills
 slackbot-ai.3da4745: Skip
 slackbot-ai.6fc0960: Skip for now
-slackbot-ai.b03ff7c: Slack is trying to connect.
 slackbot-ai.41b9655: Slack wants to access your Google Account
 slackbot-ai.9fbb94b: Slackbot
 slackbot-ai.854109a: Slackbot can only do {totalRuns} task runs per day. Consider adjusting how many times your tasks run.
@@ -25820,6 +25834,8 @@ threads.d9c883a: Back to top
 threads.77dfd21: Cancel
 threads.fb8124c: Can’t share files
 threads.c56e29e: Can’t upload file
+threads.0162991: Choose this if you’d like your reply to post in the channel, too
+threads.2028d6b: Choose this if you’d like your reply to post in the main conversation, too
 threads.0906f92: Close search
 threads.cbbebee: Continue workflow
 threads.f79e1b5: Direct message with {count} others
@@ -25865,6 +25881,7 @@ threads.cd28a17: Reactivate
 threads.f9d1cc8: Reactivate thread
 threads.601dcc1: Read only
 threads.eb0bd01: Replies have been turned off for this thread by your admins.
+threads.5ad9f41: Reply will be sent to <strong>thread</strong>
 threads.defdba4: Reply…
 threads.b6ae478: Review the values in the thread to continue the workflow.
 threads.efc007a: Save
@@ -27348,7 +27365,6 @@ workflow_builder.a45046f: (first matching branch will run)
 workflow_builder.b16c7ac: (optional)
 workflow_builder.c99c13b: ))&&(z=Y.createElement(H),Y.head.insertBefore(z,Y.querySelector(
 workflow_builder.ce5457e: )))}}logDependencies(){if(this.logger.getLogLevel()>n.default.INFO||!this.dependencies)return;let e=this.dependencies.filter(e=>e).map(e=>e.name()).join(", ");this.logger.info(
-workflow_builder.d86b5f3: ),uK=a(
 workflow_builder.3aa00ef: **ROLE:**\nAct as a Knowledge Base Specialist. Use a conversational, helpful, and non-technical tone.\n\n**TASK:**\nI need you to help me provide clear answers to user FAQs by synthesizing internal data and general knowledge. This is important because users need jargon-free answers that prioritize our internal company truth.\n\n**DATA:**\n[[question_variable]]\n\n**STEPS:**\n1. Search and prioritize the provided internal resources (Slack, Canvases, Lists) first.\n1. Draft a direct answer to the query immediately.\n1. Add a "Supporting Details" section for extra context.\n\n**RULES:**\n- **DO NOT:** Explain your internal reasoning process ("thought leak"). Do not ask follow-up questions or prolong the conversation.\n- **ALWAYS:** If using info NOT found in internal resources, start that sentence with: "Based on general knowledge beyond the provided resources…"\n- **ALWAYS:** If resources conflict, state: "Resource A says X, but Resource B says Y, so you should understand that there is no definite answer."\n\n**OUTPUT FORMAT:**\n**Answer**\n[Direct, concise answer]\n**Supporting Details**\n- [Detail 1]\n- [Detail 2]\n- [Source citations]
 workflow_builder.8513bfd: **ROLE:**\nAct as a Project Manager. Use a neutral, professional, and objective tone.\n\n**TASK:**\nI need you to help me distill raw internal project updates into a high-level executive briefing for leadership. This is important because stakeholders need to quickly understand progress and obstacles without reading through chat logs.\n\n**DATA:**\n[[text_variable]]\n\n**STEPS:**\n1. Review the data for "Key Updates" (overarching milestones) and "Blockers" (issues preventing work).\n1. Summarize the progress into a list of meaningful updates.\n1. Identify all critical blockers or issues mentioned.\n\n**RULES:**\n- **DO NOT:** Use more than one sentence per bullet point. Do not exceed 5 bullet points per section.\n- **ALWAYS:** Focus on high-level progress rather than granular tasks. If no blockers exist, write "No blockers reported."\n\n**OUTPUT FORMAT:**\nTwo sections with the headers "Summary" and "Blockers" using bulleted lists.
 workflow_builder.c157497: **ROLE:**\nAct as a Senior Site Reliability Engineer (SRE) and Incident Lead. Use a technical, precise, and analytical tone.\n\n**TASK:**\nI need you to help me generate a comprehensive incident postmortem report by analyzing Slack messages. This is important because we need an accurate, unbiased record to prevent future outages and improve our response.\n\n**DATA:**\n[[channel_variable]]\n\n**STEPS:**\n1. Analyze the logs to identify discovery, impact, root cause, and the chronological timeline.\n1. Convert all timestamps to PST.\n1. Extract the "Three Perspectives": what went well, what went wrong, and how we got lucky.\n1. Map out remediation items, distinguishing between what was explicitly committed to and what remains uncommitted.\n\n**RULES:**\n- **DO NOT:** Use outside knowledge; rely strictly on the provided data. Do not exceed 15 timeline events unless absolutely critical.\n- **ALWAYS:** Cite every claim using <link to key event|[citation_number]>. Use @mentions for usernames. If info is missing for a section, write "Insufficient information."\n\n**OUTPUT FORMAT:**\nUse these exact headers and structures:\n- Incident Summary: An ordered list for Discovery, Impact type, Users impacted, and Root Cause.\n- Incident Timeline: [HH:MM AM/PM PST]: [1-sentence description] <citation>.\n- What Went Well / Wrong / How We Got Lucky: [Point]: [1-sentence context] <citation>.\n- Remediation Actions / Committed / Uncommitted: [Action/Idea]: [1-sentence context/status].

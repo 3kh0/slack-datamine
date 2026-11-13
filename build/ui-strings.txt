@@ -2040,6 +2040,7 @@ Bring your work into Slack
 Britannic Bold
 British Indian Ocean Territory
 British Virgin Islands
+Broadcast a thread reply to its channel after its edit is saved
 Broadcast accessibility persistent state to other stores
 Broadcast accessibility state to other stores
 Broadcast an external-guest kick to other huddle participants
@@ -5875,6 +5876,7 @@ Exception during decorator
 Exception during error handler
 Exception during hook
 Exception during transient decorator
+Exception recording a paste
 Exclude ANY of these keywords
 Exclude automations
 Exclude automations Outlines
@@ -8907,7 +8909,6 @@ Join this channel to reply.
 Join without microphone
 JoinAndReceiveIndexTask got canceled while waiting for SdkIndexFrame
 Joined on another device
-Joined your workspace. A welcome from you will help them get started.
 Joiner channel action missing channel_id
 Joiner person profile action missing user_id
 Joiner welcome card message modal circular dependency handler
@@ -8934,7 +8935,6 @@ Jump to next unread thread
 Jump to the bottom of the list
 Jump to the currently edited message
 Jump to: next unread thread
-Jumps to a message and opens the welcome card modal immediately
 Jumps to a message in another workspace via navigateToRoute
 Jumps to a message in the client
 Jun 2001 signature (not yet checked); Jun 2001 signature
@@ -14884,7 +14884,6 @@ Reset app actions in store
 Reset app auths
 Reset apps search state
 Reset big button mode specific settings
-Reset browser session timeout ID for entity
 Reset canvas AI content in session
 Reset channel canvas store
 Reset channel histories
@@ -14941,7 +14940,6 @@ Resets all states for a specified entity and refetches by default
 Resets priority user ids with data from vip_users pref
 Resets record files state for a record view to initial
 Resets roles store to initial state
-Resets shared teams state
 Resets stars to initial state
 Resets state in preparation for new request with new query or filters
 Resets state to initialState
@@ -20761,9 +20759,7 @@ Update part or all of the call
 Update part or all of the canvas content session
 Update pending
 Update profile fields in a team and its members if necessary
-Update profile fields object to a loading state
 Update profile fields object to a resolved state
-Update profile fields object to reflect an error occurred
 Update pull request type filter pref
 Update quip presence info
 Update redux stores with unchanged channel data
@@ -20795,9 +20791,6 @@ Update stable alert state
 Update stable metrics state
 Update stable warnings state
 Update staged click preference coachmark state
-Update suggested filters object to a resolved state
-Update suggested filters state to reflect an error occurred
-Update suggested filters to a loading state
 Update team profile fields
 Update the 
 Update the Auto Slack Launchpad state machine
@@ -20809,8 +20802,6 @@ Update the Trigger
 Update the active call token
 Update the archive state of a comment
 Update the array of highlighted sections
-Update the boolean for knowing if a Lists search has been applied
-Update the boolean for knowing if a Quip search has been applied
 Update the cached preview data
 Update the canvas content view of self or a peer
 Update the canvas template mode for a file
