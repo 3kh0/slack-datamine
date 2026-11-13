@@ -486,6 +486,7 @@ activity.14c1afd: Are you sure you want to delete "{viewName}"?
 activity.4d4ca13: Are you sure you want to delete {viewName}?
 activity.acefb96: Are you sure you want to hide "{viewName}"?
 activity.d2fa3e3: Are you sure you want to hide {viewName}?
+activity.106df22: Ask {agentName}
 activity.b11cb0e: Assigned to you: {listName}
 activity.ff10b51: Automatically added to channel
 activity.c51b7ce: Bulk select
@@ -511,7 +512,6 @@ activity.1798b3b: Completed
 activity.ed0aa87: Connect your {host} account to see its pull requests
 activity.8cc335f: Conversation actions
 activity.ab26371: Convert to draft
-activity.61f45bf: Convert {prUrl} to a draft
 activity.af74f7c: Copy
 activity.d4dc4ab: Copy huddle link
 activity.2f84eea: Copy link
@@ -760,7 +760,6 @@ activity.adc4e96: Sort
 activity.f9f20cf: Sort and layout
 activity.a2a5bde: Sort by
 activity.b912560: Sort by: {option}
-activity.3c9602d: Sort your pull requests
 activity.b69aa85: Sort your pull requests: {sort}
 activity.8f47c1b: Sorted into {section}
 activity.e0a80c8: Start a direct message
@@ -860,7 +859,6 @@ activity.bdd0424: {count, plural, =1 {# unread post} other {# unread posts}}
 activity.fb5dd97: {count, plural, =1 {# unread reply} other {# unread replies}}
 activity.0473ea8: {count, plural, =1 {# unread thread} other {# unread threads}}
 activity.1a98fc4: {count, plural, =1 {# unread} other {# unreads}}
-activity.f0d92d0: {count, plural, =1 {Waiting on # reviewer} other {Waiting on # reviewers}}
 activity.870984d: {date} at {time}
 activity.f0e2dc9: {filterLabel} filter off
 activity.9ebf85a: {filterLabel} filter on
@@ -3215,7 +3213,6 @@ button-element.94c2ac3: Following our meeting, let’s continue the conversation
 button-element.43a1c62: Joined
 button-element.0069bd0: Looking up who can be invited
 button-element.cc1316d: Save Draft
-button-element.dc22c18: Start workflow – {title}
 button-element.dbe1fd3: ✔ Copied
 calendar.9e85782: (No title)
 calendar.f030c3d: 1 hour
@@ -5357,7 +5354,6 @@ channel_tabs.b20c506: Loading Agentforce agents
 channel_tabs.db3a9a9: Loading agents and apps
 channel_tabs.4c253cb: Manage artifacts
 channel_tabs.a857eb4: Manage tabs
-channel_tabs.3865c92: Mark the draft pull request {prUrl} as ready for review.
 channel_tabs.f1d2795: More options for {name}
 channel_tabs.10bfc70: Move artifact down
 channel_tabs.f61113e: Move artifact up
@@ -6232,6 +6228,7 @@ code-tab.74536b5: Commits
 code-tab.5eb9d05: Commits to show
 code-tab.73ea9a9: Comparing {base} ← {head}
 code-tab.587e74c: Connect to {provider}
+code-tab.ff4aceb: Connect your GitHub account to change this pull request’s status.
 code-tab.2b56f45: Connect your GitHub account to delete this comment.
 code-tab.614f319: Connect your GitHub account to edit this comment.
 code-tab.13acb7e: Connect your GitHub account to edit this description.
@@ -6245,6 +6242,7 @@ code-tab.0783fd9: Conversation unresolved
 code-tab.07c59b4: Conversations
 code-tab.8c0451d: Copy GitHub link
 code-tab.2f84eea: Copy link
+code-tab.a310281: Couldn’t change this pull request’s status. Give it another try.
 code-tab.8cf663d: Couldn’t load more comments.
 code-tab.70859e0: Couldn’t load the changes in these commits.
 code-tab.de77bd4: Couldn’t load the latest commits
@@ -6260,6 +6258,7 @@ code-tab.2ebe5b3: Edit description
 code-tab.7492582: Files Changed
 code-tab.df251b0: Find
 code-tab.686d4da: Find in diff
+code-tab.986c321: GitHub couldn’t change this pull request’s status. Check it on GitHub.
 code-tab.5449e1f: GitHub is limiting requests from your account right now. Try again in a few minutes.
 code-tab.24164fe: GitHub is limiting requests from your account right now. Try again in {minutes, plural, =1 {a minute} other {# minutes}}.
 code-tab.aad611d: GitHub isn’t available for your organization.
@@ -6294,6 +6293,7 @@ code-tab.96f608c: Pending
 code-tab.8691a1d: Previous match
 code-tab.881e743: Pull request
 code-tab.abbdfd9: Pull request sections
+code-tab.57b12a7: Pull request status changed
 code-tab.6a59987: Queued
 code-tab.defdba4: Reply…
 code-tab.d1e0c11: Resolve Conversation
@@ -6326,6 +6326,7 @@ code-tab.c27f171: This conversation was marked as resolved.
 code-tab.a0ddf21: This description was changed on GitHub. Reload the Code tab to edit the latest version.
 code-tab.08b90ac: This is a merge commit.
 code-tab.ad2239f: This pull request can’t be shown here yet
+code-tab.0925258: This pull request has already merged.
 code-tab.cef2fe0: Try Again
 code-tab.042c862: Try again
 code-tab.9afdcac: Unable to load diff
@@ -6336,12 +6337,14 @@ code-tab.334d9a1: View Comments
 code-tab.c511e1c: View it on GitHub
 code-tab.23a6732: View message
 code-tab.0c77991: View on GitHub
+code-tab.8eccf13: Your GitHub account doesn’t have permission to change this pull request’s status.
 code-tab.abb61cd: Your GitHub account doesn’t have permission to delete this comment.
 code-tab.2153e31: Your GitHub account doesn’t have permission to edit this comment.
 code-tab.6c4b0bb: Your GitHub account doesn’t have permission to edit this description.
 code-tab.fd0cb23: Your GitHub account doesn’t have permission to resolve this conversation.
 code-tab.e177c8d: Your GitHub account doesn’t have permission to unresolve this conversation.
 code-tab.01ea0e4: Your GitHub organization requires single sign-on. Sign in to the organization on GitHub, then try again.
+code-tab.b1835bb: Your comment was posted, but GitHub couldn’t close this pull request.
 code-tab.bf43146: {author} on {location}: {comment}
 code-tab.5643f7d: {count, plural, one {# comment} other {# comments}}
 code-tab.c0ccea2: {count, plural, one {# commit} other {# commits}}
