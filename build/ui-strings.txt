@@ -8727,6 +8727,7 @@ Invalidate a scoped channel join requests list
 Invalidate any cached state when the set of self workspaces changed from the previous boot
 Invalidate cached counts after channel membership changes
 Invalidate client caches for topics
+Invalidate the previous channel management query
 Invariant Violation
 Invariant failed
 Invariant failed: 
@@ -15548,6 +15549,7 @@ Search canvases
 Search channels
 Search cleared
 Search code channels
+Search connected organizations for channel management
 Search connectors
 Search conversations
 Search documents
@@ -18432,6 +18434,7 @@ Start a Huddle
 Start a Slackbot voice call, confirming first if a huddle or another call is live
 Start a call
 Start a call in this channel shortcut - starts platform call, but asks first
+Start a channel management query
 Start a conversation
 Start a conversation in a DM or channel
 Start a conversation with an agent

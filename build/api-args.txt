@@ -37,7 +37,7 @@ admin.conversations.getTeams: channel_id, cursor, limit
 admin.conversations.invite: channel_id, user_ids
 admin.conversations.kick: channel_id, skip_simple_array_serialization_in_get_form_data, user_ids
 admin.conversations.removeCustomRetention: channel_id
-admin.conversations.search: connected_team_ids, cursor, limit, query, search_channel_types, sort, sort_dir, team_ids
+admin.conversations.search: connected_team_ids, cursor, limit, query, search_channel_types, sort, sort_dir, target_team, team_ids
 admin.conversations.setConversationPrefs: channel_id, prefs
 admin.conversations.setCustomRetention: channel_id, duration_days
 admin.conversations.setProperties: channel_id, props
@@ -815,6 +815,7 @@ subteams.validateName: name, target_team
 tableau.embeds.list: entity_ids, view
 team.changeInfo: name, target_team, update_url_on_name_change
 team.checkEmailDomains: email_domains
+team.connectedOrgs.list: connection_status_filter, limit, query, workspace_filter
 team.feature.getRequest: feat_request_code
 team.feature.request: feat_request_code
 team.info: include_primary_owner, include_unlisted_if_admin, plan, team, teams
