@@ -23,9 +23,11 @@ admin.apps.approve
 admin.apps.approved.list
 admin.apps.cancel
 admin.apps.domainWideAuth.addDomain
+admin.apps.domainWideAuth.addUnifiedDomain
 admin.apps.domainWideAuth.enable
 admin.apps.domainWideAuth.google.getAdminInstallUrl
 admin.apps.domainWideAuth.google.getAuthorizeUrl
+admin.apps.domainWideAuth.google.getUnifiedScopes
 admin.apps.domainWideAuth.microsoft.getConsentUrl
 admin.apps.domainWideAuth.removeDomain
 admin.apps.installed.list
@@ -403,6 +405,7 @@ client.codeChannels.editPullRequestDescription
 client.codeChannels.editReviewComment
 client.codeChannels.getBlockKitView
 client.codeChannels.getDiff
+client.codeChannels.getDiffView
 client.codeChannels.getFileLines
 client.codeChannels.getMergeStatus
 client.codeChannels.getPullRequest
@@ -411,6 +414,7 @@ client.codeChannels.getPullRequestConnection
 client.codeChannels.getPullRequestSummary
 client.codeChannels.getSummary
 client.codeChannels.getView
+client.codeChannels.getViewedFiles
 client.codeChannels.join
 client.codeChannels.listPullRequestComments
 client.codeChannels.listPullRequests
@@ -418,6 +422,7 @@ client.codeChannels.listSupportedApps
 client.codeChannels.mergePullRequest
 client.codeChannels.removeReaction
 client.codeChannels.requestReviewers
+client.codeChannels.setFileViewed
 client.codeChannels.setPullRequestState
 client.codeChannels.setReviewThreadResolved
 client.codeChannels.submitReview
@@ -430,6 +435,7 @@ client.shouldReload
 client.tbd.codeChannels.open
 client.tbd.facts.flag
 client.tbd.facts.list
+client.tbd.wiki.unjoin
 connectInvites.list
 connectableContacts.lookup
 contacts.add
@@ -500,7 +506,6 @@ conversations.requestSharedInvite.approve
 conversations.requestSharedInvite.deny
 conversations.revokeSharedInvite
 conversations.searchLinks
-conversations.setInviterJoinerProperties
 conversations.setProperties
 conversations.setPurpose
 conversations.setRetention
@@ -990,7 +995,6 @@ search.autocomplete
 search.autocomplete.files
 search.autocomplete.intentModel
 search.autocomplete.model
-search.autocomplete.nlTypeahead
 search.autocomplete.offlineFeatures
 search.autocomplete.tags
 search.autocomplete.topEmoji
@@ -1237,6 +1241,7 @@ today.items.markRead
 today.items.markUnread
 today.items.update
 today.unignoreChannels
+tractorChannelSetupTour.addResources
 transcripts.feedback
 ublockworkaround.history
 unread.collapse

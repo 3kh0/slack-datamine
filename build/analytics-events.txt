@@ -808,9 +808,6 @@ component_variant: huddles_trial_banner
 component_variant: huddles_trial_start_coachmark
 component_variant: info_button
 component_variant: invite_to_workspace
-component_variant: is_inviter
-component_variant: is_joiner
-component_variant: is_manager
 component_variant: joiner
 component_variant: jp_pocket_guide_not_ready
 component_variant: jp_pocket_guide_ready
@@ -977,7 +974,6 @@ element: activity_reminders
 element: activity_save_for_later
 element: add
 element: add-variable
-element: add_a_message_about_channels_click
 element: add_a_tab_or_pin_button
 element: add_another
 element: add_as_channel_tab
@@ -1020,10 +1016,6 @@ element: add_to_channel_button
 element: add_to_channel_link
 element: add_to_channel_modal
 element: add_to_channel_submit
-element: add_to_channels_click
-element: add_to_channels_modal_channels_search
-element: add_to_channels_modal_message_input_text
-element: add_to_channels_modal_skip
 element: add_to_folder_menu
 element: add_to_template
 element: add_users
@@ -1510,7 +1502,6 @@ element: delete_record
 element: delete_record_speedbump
 element: delete_step
 element: delete_task
-element: deleted_files_modal
 element: deleted_files_page
 element: dense_toggle_button
 element: deny_request
@@ -1676,7 +1667,6 @@ element: empty_state_how_tasks_work
 element: enable
 element: enable_notifications
 element: enter_speedbump
-element: enterprise_search_email_connector_banner
 element: enterprise_search_first_app_modal_banner
 element: enterprise_search_nux_filters_banner
 element: ephemeral_entity_section_selector_button
@@ -2010,7 +2000,6 @@ element: invite_to_scdm
 element: invite_to_workspace
 element: invite_to_workspace_modal_speedbump_cancel_button
 element: invite_to_workspace_modal_speedbump_continue_button
-element: inviter_dm_modal
 element: join_call
 element: join_call_button
 element: join_channel
@@ -2039,8 +2028,6 @@ element: joiner_launchpad
 element: joiner_launchpad_api_error_screen
 element: joiner_launchpad_recommended_dm_message_sent
 element: joiner_launchpad_sidebar_link
-element: joiner_welcome_card_message_modal
-element: joiner_welcome_card_reply_click
 element: keep_chatting_button
 element: keep_editing
 element: keep_editing_button
@@ -2674,9 +2661,6 @@ element: send_more_feedback
 element: send_new_invitation
 element: send_now
 element: send_request
-element: send_welcome_message_modal_cancel
-element: send_welcome_message_modal_record_clip
-element: send_welcome_message_modal_send
 element: session_end
 element: session_item
 element: session_timeout
@@ -2958,7 +2942,6 @@ element: suggested_channel_preview
 element: suggested_channel_preview_dismiss
 element: suggested_channel_preview_join_channel
 element: suggested_dm_click
-element: suggested_nudge_message_send
 element: suggested_steps
 element: suggested_template
 element: suggestion_view_conversations_with
@@ -3676,7 +3659,6 @@ page: app_synthetic_view
 page: apps_browser
 page: canvas_editor
 page: canvas_synthetic_view
-page: channel_browser
 page: channel_details
 page: channel_tabs_bookmarks
 page: channel_tabs_channel_folder
@@ -3883,7 +3865,6 @@ step: data_table_header_edit_columns_modal_select_all_columns
 step: data_table_header_edit_columns_modal_toggle_column
 step: decorate_general_random_entry_point
 step: decorated_default_channel
-step: direct_messages
 step: dm_message_nudge
 step: dms_tab_filter_by_all
 step: dms_tab_filter_by_external
@@ -4221,7 +4202,6 @@ step_variant: external_member_awareness_banner
 step_variant: flexpane
 step_variant: init_set_user_pref_step
 step_variant: inproduct_team_creation
-step_variant: joiner_welcome_card_modal_step
 step_variant: later_actions_menu_open
 step_variant: legacy_connection_invalid_org
 step_variant: mention
@@ -4255,8 +4235,6 @@ step_variant: saved_remind_menu_open
 step_variant: scheduled_send
 step_variant: screenshot
 step_variant: send
-step_variant: send_suggested_nudge_message_step
-step_variant: send_welcome_card_step
 step_variant: shared_channel_invite_flow_modal_tip
 step_variant: shortcut_create
 step_variant: shortcut_hide

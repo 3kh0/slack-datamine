@@ -12,6 +12,7 @@ admin.analytics.channels.modal.export: channel_id, relative_date_range
 admin.apps.approve: app_id, enterprise_id, team_id
 admin.apps.approved.list: legacy_integrations, limit
 admin.apps.domainWideAuth.addDomain: app_id, domain, team_id, token
+admin.apps.domainWideAuth.addUnifiedDomain: app_ids, domain, team_id, token
 admin.apps.domainWideAuth.enable: app_id, domain, team_id, test_email, token
 admin.apps.domainWideAuth.microsoft.getConsentUrl: app_id, domain, team_id, token
 admin.apps.domainWideAuth.removeDomain: app_id, domain, team_id, token
@@ -268,10 +269,12 @@ client.codeChannels.getFileLines: channel_id, path, pr_url, ranges, revision
 client.codeChannels.getPullRequest: pr_url
 client.codeChannels.getPullRequestCommits: base_sha, channel_id, head_sha, pr_url
 client.codeChannels.getSummary: channel_id
+client.codeChannels.getViewedFiles: channel_id, cursor, pr_url
 client.codeChannels.join: channel_id, origin_channel_id
 client.codeChannels.listPullRequestComments: comment_kinds, cursor, pr_url
 client.codeChannels.mergePullRequest: channel_id, head_sha, pr_url
 client.codeChannels.requestReviewers: channel_id, invite_to_channel, note_blocks, notify_unlinked, post_mention, pr_url, user_ids
+client.codeChannels.setFileViewed: channel_id, is_viewed, path, pr_url
 client.codeChannels.setPullRequestState: channel_id, comment, pr_url, state
 client.codeChannels.setReviewThreadResolved: channel_id, is_resolved, pr_url, thread_node_id
 client.codeChannels.submitReview: channel_id, event, pr_url, revision, text
@@ -280,6 +283,7 @@ client.init: _x_reason, include_relevant_onboarding
 client.tbd.codeChannels.open: purpose
 client.tbd.facts.flag: action, fact_id, note
 client.tbd.facts.list: channel_id, message_ts, with_links
+client.tbd.wiki.unjoin: other_id, page_id
 connectInvites.list: channel, direction, include_invite_requests, invite_ids, invite_types, limit, only_pending_invites
 contacts.add: contact_card_id
 conversations.acceptSharedInvite: channel_name, free_trial_accepted, invite_id, is_private, sig
@@ -332,7 +336,6 @@ conversations.rename: channel, name, skip_rename_message, validate
 conversations.replies: channel, include_tombstones, limit, oldest, ts
 conversations.requestSharedInvite.deny: invite_id, message
 conversations.revokeSharedInvite: invite_id
-conversations.setInviterJoinerProperties: channel_id, props
 conversations.setProperties: channel_id, props
 conversations.setPurpose: channel, name_tagging, purpose
 conversations.setTeams: channel, internal_team_ids, upgrade_to_org_wide
@@ -558,6 +561,7 @@ lists.records.infoBatch: exclude_deprecated_values, ids, include_is_subscribed, 
 lists.records.list: archived, exclude_deprecated_values, include_subtasks, include_suggested, list_id
 lists.records.open: id, list_id
 lists.records.subscriptions.add: id, list_id
+lists.records.subscriptions.get: id, list_id
 lists.records.subscriptions.remove: id, list_id
 lists.records.updateDeletion: deleted, id, list_id
 lists.setDefaultView: list_id, view_id
@@ -666,14 +670,13 @@ screenhero.rooms.info: room
 screenhero.rooms.join: regions, room, use_room_scoped_token
 screenhero.rooms.rename: room, room_name
 search.autocomplete.files: include_shares, query
-search.autocomplete.nlTypeahead: limit_per_tier, query, team
 search.autocomplete.tags: element_id, query
 search.autocomplete.topEmojis: count
 search.autocomplete.triggers: current_channel_id, query, strict_exposure_rules, trigger_types
 search.autocomplete: limit, query, query_suggestion_limit, type, use_hash
 search.delete: hash, terms, type
 search.enterprise: count, cursor_mark, include_bots, include_dangling, include_date_created, include_deleted, include_full_deleted, include_usergroups, query, sort_dir
-search.inline: channel, client_req_id, count, cursor, extract_len, find_in_thread, from_me, max_ts, min_ts, page, query, recent_channels, search_session_id, thread_replies, thread_ts, token, user, with_me
+search.inline: channel, client_req_id, count, cursor, extract_len, find_in_thread, from_me, include_ai_filters, max_ts, min_ts, page, query, recent_channels, search_session_id, thread_replies, thread_ts, token, user, with_me
 search.modules.ai: client_req_id, force_summary, query, search_session_id
 search.modules.channels: browse, channel_type, count, cursor, exclude_my_channels, module, query, sort, sort_dir
 search.modules.external: app_id, client_req_id, cursor, highlight, query, query_rewrite_disabled, search_app_args
@@ -835,6 +838,7 @@ today.items.markRead: item_ids
 today.items.markUnread: item_ids
 today.items.update: item_id, slackbot_thread_ts
 today.unignoreChannels: channel_ids
+tractorChannelSetupTour.addResources: channel_id, file_ids
 transcripts.feedback: additional_feedback, file_id, rating, reasons
 unread.collapse: channel
 unread.expand: channel
@@ -860,7 +864,6 @@ users.channelSections.channels.bulkUpdate: insert, remove
 users.channelSections.channels.remove: channel_id, channel_section_id
 users.channelSections.createLink: channels, emoji, section_name
 users.channelSections.delete: channel_section_id
-users.channelSections.entities.update: insert, remove
 users.channelSections.linkInfo: id
 users.channelSuggestions.dismiss: channel_suggestion_id
 users.consent.add: app_id, scopes
@@ -872,6 +875,7 @@ users.delegates.list: role
 users.info: custom_fields_mode, self, team, users
 users.inviteRequests.create: channels, requests, restricted, source, team_id, ultra_restricted
 users.list: limit
+users.listOutgoingInvites: limit
 users.markAllRead: undo_ts
 users.prefs.get: prefs
 users.prefs.set: name, prefs, value
