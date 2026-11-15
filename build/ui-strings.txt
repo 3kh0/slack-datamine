@@ -93,7 +93,7 @@
 ) are ignored.
 ) is not supported yet.
 ) that performed expensive computation.
-)&&(eI(!1),aG(void 0),ej(a5?
+)&&(eT(!1),aG(void 0),eS(a9?
 ))),e((0,d.R3)(h)),e((0,d.p4)(h?a:void 0)),p(h?
 ). If you meant to render a collection of children, use an array instead.
 )?l.makeImage(e.slice(8),new u.Ay(t,r,n,i),o?
@@ -2941,7 +2941,6 @@ Choose a file
 Choose a frightful theme
 Choose a huddle theme
 Choose a markdown file to upload
-Choose a microphone.
 Choose a plan
 Choose a reaction
 Choose a schedule
@@ -6272,6 +6271,7 @@ Failed to process the recording. Please try again.
 Failed to publish draft work object
 Failed to publish skill to catalog
 Failed to purge stored model and clear object store
+Failed to re-acquire meeting audio on resume
 Failed to re-connect to Huddle
 Failed to read IA history from storage
 Failed to read app name in getStoredStateFromIDB
@@ -6290,6 +6290,7 @@ Failed to register modifier capture combos
 Failed to register rsvp
 Failed to register slackbot mini shortcut
 Failed to register the talk keys
+Failed to release meeting audio while paused
 Failed to remove file. Please try again.
 Failed to remove one or more agent managers
 Failed to remove skill from skill set
@@ -7104,6 +7105,7 @@ Finish a pin read
 Finish a pin write for a view
 Finish dictating
 Finish dictating before leaving this message.
+Finish dictation first.
 Finish fetching the agent sunroof, clearing any queued fetch
 Finish logging in
 Finish recording before starting a voice call
@@ -8093,6 +8095,7 @@ Hidden Fields
 Hide Advanced Settings
 Hide Page
 Hide Singer
+Hide Singer?
 Hide Slackbot
 Hide Slackbot in the navigation bar
 Hide This Person
@@ -10449,6 +10452,7 @@ Marks the channel as a default channel on creation.
 Marks the current pending external auth to skip auto-opening the manage modal
 Marks the lines of a fact the viewer flagged, or leaves them to a fresh read on Undo
 Marks the org
+Marks these conversations and threads through the updates in this catch-up, including older unread messages. Newer messages stay unread.
 Marks today item for delete to allow animation
 Marks today item(s) as read using today.items.markRead API and updates the store
 Marks today item(s) as unread using today.items.markUnread API and updates the store
@@ -11784,7 +11788,7 @@ Not checking for changes in DND status as all members are stale
 Not checking persistence storage method version because localStorage doesn
 Not complete
 Not completed
-Not confirmed in the summary, so it stays unread.
+Not confirmed in the summary.
 Not connected
 Not custom files
 Not defined
@@ -11857,6 +11861,7 @@ Nothing here needs you
 Nothing here yet
 Nothing here yet. Use the star on any file to add it to this section.
 Nothing in Activity right now.
+Nothing is being recorded. Your mic and computer audio are off until you resume.
 Nothing left for you here.
 Nothing left here.
 Nothing left in Activity.
@@ -12171,6 +12176,7 @@ Open Singer
 Open Singer content in the main Slack client
 Open Singer for the authorized focused workspace after Slack boots
 Open Singer in its desktop build to use your Mac.
+Open Slack
 Open Slack CRM from an Explore my trial card
 Open Slack Connect trial entry point modal
 Open Slack on your mobile device. From the home tab, swipe right.
@@ -13836,10 +13842,12 @@ Reconnect external channels
 Reconnect to mark these as read.
 Reconnect to show the browser.
 Reconnect without waiting for its rate limit
+Reconnect your Slack workspace.
 Reconnect your account to continue.
 Reconnect your external channels
 Reconnected and monitoring for future disconnections.
 Reconnecting Chime session
+Reconnecting. Recording may still be on
 Reconnection delay over. Now responding to disconnection events.
 Record (or clear) the huddles-page filter change currently in flight
 Record AI summary interactions
@@ -13917,7 +13925,10 @@ Recording disclosure copied
 Recording finished. Review the captured pace, then apply it.
 Recording in Slackbot Mini
 Recording is not supported in this browser.
+Recording is open, but no audio is coming through. Meeting controls
 Recording meeting audio.
+Recording paused.
+Recording resumed.
 Recording started. Narrate and advance slides at your pace.
 Recording stopped
 Recording your mic and computer audio.
@@ -15081,6 +15092,7 @@ Resume a paused huddle recording
 Resume a paused huddle summary
 Resume notifications
 Resume now
+Resume recording
 Resume this workflow
 Resume transcription
 Resume transcription?
@@ -15483,6 +15495,7 @@ Saving changes
 Saving failed
 Saving project
 Saving project memory
+Saving the recording
 Saving this step will remove all structured output fields you have defined. This cannot be undone.
 Saving to Salesforce
 Say goodbye to content creation, summaries, and your AI teammate, Slackbot.
@@ -18653,6 +18666,7 @@ Steve Lynn, Durga Waite, Catherine Nichols, Barbara McCormick, Dave Hutchens, Ja
 Steven Kean
 Steven Lins, Jack Dolan
 Steven P. South
+Still listening. Your thread is one tap away.
 Still recording
 Still sending. Your draft is saved here.
 Still waiting for Slackbot. Your message is saved here.
@@ -18666,6 +18680,8 @@ Stop Sharing
 Stop Task
 Stop a 3P agent session
 Stop and discard recording?
+Stop and hide
+Stop and make notes
 Stop big button mode
 Stop drawing on your own screen
 Stop editing
@@ -18676,7 +18692,6 @@ Stop music
 Stop peer joining timeout check
 Stop receiving recaps
 Stop recording
-Stop recording before you switch microphones.
 Stop screen share for current user
 Stop screen share, waiting for content share start to resolve
 Stop screen sharing track id:
@@ -18694,6 +18709,10 @@ Stop tracking a code channel preview
 Stop transcription for current huddle
 Stop using this as context
 Stop using this list view as context
+Stopped at the 2-hour limit. Making notes.
+Stopped listening. Writing your recap
+Stopped listening. Writing your recap.
+Stopped recording. Making notes.
 Stopped tracking a Workflow Builder window to stay under the per-team cap.
 Stopped tracking agent work. Its fields and their values stay on this list.
 Stopped while a native edit was in progress.
@@ -19576,6 +19595,7 @@ This list is no longer available.
 This list is restricted from use with AI steps.
 This list view was deleted
 This list was deleted
+This meeting belongs to a different Slack account.
 This meeting transcript is no longer available.
 This message contains interactive elements.
 This message failed to send
@@ -22380,6 +22400,7 @@ Your feedback matters.
 Your file was created
 Your free trial has ended
 Your guide to using Slack
+Your huddle is taking notes
 Your huddle is taking notes from its captions. Stop them from the huddle.
 Your huddle link is ready.
 Your inbox, summarized
@@ -22387,7 +22408,6 @@ Your internet connection appears to be offline. Your changes have not been saved
 Your latest edits to this clip weren
 Your meeting notes for 
 Your meeting recording was deleted before notes could be generated.
-Your meeting recording was too short to generate notes.
 Your meeting was too long to generate notes.
 Your meetings will appear here when the connection is ready.
 Your message could not be sent, but it has been saved to your drafts.
