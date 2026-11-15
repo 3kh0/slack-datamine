@@ -35,6 +35,8 @@ client.codeChannels.listPullRequestComments: channel_not_found, github_api_error
 client.tbd.codeChannels.open: agent_unavailable, channel_creation_failed, channel_creation_in_progress, channel_not_found, no_default_workspace, restricted_action, team_not_found
 client.tbd.facts.flag: corrections_paused, fact_not_found, invalid_arguments
 client.tbd.facts.list: channel_not_found, message_not_found, not_albert_message
+client.tbd.wiki.list: internal_error, invalid_cursor
+client.tbd.wiki.read: internal_error, page_not_found
 client.tbd.wiki.unjoin: internal_error, invalid_arguments, join_not_found
 contacts.add: cannot_add_contact_card, channel_not_found, contact_card_not_found, not_allowed, user_is_blocked
 conversations.acceptSharedInvite: accepter_email_not_verified, channel_conversion_in_progress, connection_limit_exceeded, email_does_not_match, failed_to_start_trial, has_already_connected_to_org, invalid_arguments, invalid_emoji_not_allowed, invalid_host_team, invalid_link, invalid_name, invalid_name_maxlength, invalid_name_punctuation, invalid_name_required, invalid_name_specials, invalid_privacy, invalid_recipient_team, invalid_target_team, invite_from_same_org, invite_not_found, invite_used, is_pending_connected_to_org, legacy_connection_invalid_org, legacy_connection_limit_exceeded, name_taken, not_allowed_for_grid_workspace, not_paid, restricted_action, team_not_found, user_cannot_create_channel, user_is_restricted, user_not_found, user_required_to_accept_as_private_but_cannot
