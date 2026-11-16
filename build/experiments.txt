@@ -54,7 +54,6 @@ agent_peek_view: on
 agent_prevent_fake_thread_roots: on
 agent_private_mention: on
 agent_profiles: on
-agent_sessions_in_home: on
 agent_sessions_pr_synth: on
 agent_sessions_synth_view: on
 agent_status_in_activity: on
@@ -332,8 +331,6 @@ code_channels_pr_comment_mentions: on
 code_channels_pr_files_viewed: on
 code_channels_pr_link_tabs: on
 code_channels_pr_state_picker: on
-code_channels_sidebar_peeks: on
-code_channels_sidebar_polish: on
 code_diff_comments: on
 code_interpreter: on
 code_review_requested_in_activity: on
@@ -452,6 +449,7 @@ fe_nav_first_apply_post_processing_rules: treatment
 fe_noise_metrics_logging: on
 fe_notification_clogging: on
 fe_notifications_read_state: on
+fe_offline_persistence_marking: on
 fe_private_public_channel_management: on
 fe_private_to_public_slack_connect_and_visual_updates: on
 fe_read_mark_integrity: on
@@ -587,6 +585,7 @@ huddles_screen_picker_app_groups: on
 huddles_screenshare_permission_refresh: on
 huddles_screenshare_popout: on
 huddles_screenshare_share_audio: on
+huddles_self_view_hidden_announcement: on
 huddles_sending_audio_recovery: on
 huddles_serial_guard_settle_superseded: on
 huddles_share_button_glow: on
@@ -963,6 +962,7 @@ slack6_cmdk_thread_recents: on
 slack6_search_find_in_channel_popover: on
 slack6_search_input_footer: on
 slack6_search_split_results: on
+slack6_search_srp_polish: on
 slack6_search_switcher_over_sidebar: on
 slack6_todo_badging: on
 slack_ai_file_summaries: on
@@ -1127,6 +1127,7 @@ slackbot_surface_share_dialog: on
 slackbot_surface_sources: on
 slackbot_thread_conversion: on
 slackbot_transcribe_chunking: on
+slackbot_unread_i18n: on
 slackbot_unread_v2: on
 slackbot_zero_state_next: on
 slackcrm_onboarding_translations: on

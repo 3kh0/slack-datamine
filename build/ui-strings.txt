@@ -1018,6 +1018,7 @@ An error occurred while generating the response
 An error occurred while populating custom time slots
 An error occurred while posting rsvp response
 An error occurred while processing tags
+An error occurred while refreshing device permissions
 An error occurred while trying to fetch coachmarks.
 An error occurred. Please try again in a few minutes, or contact your admin.
 An error occurred. Please try again.
@@ -1429,7 +1430,6 @@ Back to Slackbot thread
 Back to all templates view
 Back to catch up
 Back to conversations
-Back to grid
 Back to main
 Back to region selection
 Backdrop stack already unmounted.
@@ -2018,6 +2018,7 @@ Changes: Object Contents
 Changes: Payload
 Changes: Presence
 Changes: Web Socket Listener
+Changing enrollments only works in dev, or for teams in activation_prod_testing_experiment.
 Changing the current members DND type from DND snooze to DND schedule
 Channel & DM notification defaults
 Channel Details
@@ -2110,6 +2111,7 @@ Chat and Collaboration
 Chat with Slackbot AI
 Check It Out
 Check Tasks
+Check again
 Check back in on your lists, any time
 Check draft request
 Check facts
@@ -2179,6 +2181,7 @@ Choose a channel name
 Choose a file
 Choose a frightful theme
 Choose a huddle theme
+Choose a journey
 Choose a markdown file to upload
 Choose a plan
 Choose a reaction
@@ -2416,7 +2419,6 @@ Close Astro Singer
 Close Browser
 Close Channel
 Close Google Directory banner
-Close Journey Lab
 Close Pull Request
 Close Search
 Close Workspace Directory Banner
@@ -3412,6 +3414,7 @@ Dec 2000 memo; Dec 2000 memo naming her as Bill Williams III
 Dec 2000 signature; Dec 12 2000 signature naming Legal and Enron North America
 December 2000
 Decided execution approach
+Decline an invite within the slack window
 Declutter your channel list to find stuff faster.
 Decorative image carousel
 Decreased amount
@@ -4153,7 +4156,9 @@ Enlarge message composer
 Enqueue a to-do error toast (gated by later_todos)
 Enqueue skill enabled toast
 Enqueue the generic to-do error toast (gated by later_todos)
+Enroll me
 Enroll the workspace in German data residency if the creator chose it during setup
+Enrolling, jumping and exiting only work in dev, or for teams in activation_prod_testing_experiment.
 Enron (June 22, 2001 memo)
 Enron Americas
 Enron Broadband Services
@@ -4243,6 +4248,7 @@ Error details
 Error downloading CSV, please try again
 Error downloading file
 Error downloading.
+Error during camera reconnection:
 Error during mid-processing fallback:
 Error executing block-audio operation
 Error fetching SUGGESTED_CHANNELS_FROM_GOOGLE_FILES state machine
@@ -4418,6 +4424,7 @@ Existing pending call state
 Exit Simplified layout mode
 Exit full screen
 Exit full screen mode?
+Exit journey
 Exiting due to invalid message contents
 Expand Sales Tracker
 Expand card to see more
@@ -5318,6 +5325,7 @@ Force-fetches messages by channel ID and timestamp using messages.list
 Forest Floor
 Forget Recent Canvas Use (Idle Automerge Preload)
 Forget Sign-ins
+Forget a mark that will never be sent or echoed
 Forget all browser sign-ins?
 Forget browser sign-ins
 Forget the Quip client without tearing it down
@@ -6587,6 +6595,7 @@ Jump to latest messages
 Jump to message
 Jump to new activity
 Jump to next unread thread
+Jump to step
 Jump to the bottom of the list
 Jump to: next unread thread
 Jumps to a message in the client
@@ -8435,6 +8444,8 @@ No date set
 No date yet
 No destination
 No device changes recorded for this huddle
+No devices found
+No devices found in v2 device manager
 No direct messages match your search.
 No display_id match, falling back to the only screen source
 No displays available to capture system audio from
@@ -8478,6 +8489,7 @@ No items
 No items in this list
 No items selected
 No items to display
+No journey with this key is in the registry.
 No label
 No link results for 
 No links found for this channel.
@@ -8737,6 +8749,7 @@ Not editable
 Not enabled for team; disabling all
 Not enough text to summarize
 Not enough to summarize
+Not enrolled
 Not everyone here can be recorded
 Not found
 Not from
@@ -9030,7 +9043,6 @@ Open Dyslexic
 Open Greeting
 Open Help
 Open Huddle in new window
-Open Journey Lab
 Open Journey Lab in the side pane to browse a Megaphone journey
 Open Link in Browser
 Open Meetings in split view
@@ -10511,6 +10523,7 @@ Replace your saved message with this draft?
 Replaced the attached document text.
 Replacing a stale (already shut down) huddlesSdk in the connection manager
 Replay a number of specified messages (via keyboard shortcut) for a screen reader user
+Replays persisted API calls after socket connection
 Replies have been turned off for this thread by your admins.
 Replies have been turned off for this thread.
 Reply Anyway
@@ -10629,6 +10642,7 @@ Resource A says X, but Resource B says Y, so you should understand that there is
 Respond directly to event invitations
 Respond to an invite within the slack window
 Respond to customer support emails without leaving Slack
+Respond to the Decline button for a partner call
 Response actions
 Response pending
 Response ready
@@ -11373,12 +11387,15 @@ Selected Users
 Selected channels
 Selected channels section
 Selected columns
+Selected journey
 Selected. 
 Selector updates
+Self connected to chime media server
 Self-healed corrupted Activity view state: activity list not in primary as expected
 Self-healed corrupted Activity view state: list not in Primary under list-in-primary layout
 Self-healed corrupted view state: AiApp split view id is not a channel id
 Self-update received
+Self-view hidden
 Send Anyway
 Send As Is
 Send DM as email
@@ -11840,6 +11857,7 @@ Sharing a channel lets you work with other companies, right in Slack.
 Sharing info
 Sharing snippet in a thread
 Shell Session
+Shift tab to manage items
 Shift-clicked on a channel in the channel sidebar when in edit mode
 Shift-drop block send failed
 Shiki instance has been disposed
@@ -13400,6 +13418,7 @@ This item is overdue by 1 day.
 This item is overdue by 1 month.
 This item is overdue by 1 year.
 This item was deleted
+This journey has no step with that name.
 This knowledge source has already been selected. Please choose a different one.
 This link has already been used
 This link has been turned off
@@ -14054,6 +14073,7 @@ Unable to find a channel to navigate back to - Huddles NUX will appear next time
 Unable to find set of LightningOutComponents
 Unable to find stored state
 Unable to find team or enterprise ID
+Unable to get AudioContext
 Unable to get get stored state from IndexedDB
 Unable to get silent frame for given audio codec; duplicating last frame instead.
 Unable to get work object
@@ -14569,6 +14589,7 @@ Using urlRewriterMulti for dual UDP support
 Using video only transceiver controller
 Utilities, cities and state agencies that ship gas
 Utility and energy company. Citizens Communications reported $7 billion in assets, $1.8 billion in revenue and $509 million in adjusted EBITDA at the end of 2000.
+V2 devices found. Updating device store
 VAO changed between setProgram and executeProgram!
 VF not enabled because device is not expected to be able to perform adequately
 VIDEO CONNECTIVITY READINESS - Completed
