@@ -26,7 +26,6 @@
  exists, but is not available. Please file an issue!
  exists, but the property is not available.
  failed to render.
- for more information. This offer is available for a limited time only, and Slack may end or modify this offer at any time without notice to you.
  for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
  for you to use AI huddle notes with Business+.
  for you to use AI summaries with Business+.
@@ -89,12 +88,11 @@
  when started fetching external datasource list.
  when the performance problem arises.
  workspace.
-% discount work?
 %cTip: This selector is causing unnecessary re-renders. Consider using a shallow equality check or empty constants. Note that deeper equality checks come with added performance cost.
 ) are ignored.
 ) is not supported yet.
 ) that performed expensive computation.
-)&&(eT(!1),aK(void 0),eS(a7?
+)&&(eN(!1),aZ(void 0),eT(a7?
 ))),e((0,d.R3)(h)),e((0,d.p4)(h?a:void 0)),p(h?
 ). If you meant to render a collection of children, use an array instead.
 )?l.makeImage(e.slice(8),new u.Ay(t,r,n,i),o?
@@ -109,10 +107,8 @@
 ,stateArg:null,context:new Context(a?
 ,teamId:n??void 0,responseType:s?.responseType??
 ,threadTs:n||void 0,tsLink:s?
--month discount period ends, they will be billed at the regular price for their plan.
 . Are you sure it was registered?
 . Skipping it!
-. This offer can only be redeemed via the desktop Slack app or desktop web browser.
 . Use the Call summary skill.
 . Use your existing links to free up space for new ones.
 . You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument).
@@ -1155,6 +1151,7 @@ Alert assignees when a due date is upcoming
 Alert other users who are subscribed to the topic that a subscriber has left
 Align on any topic, share knowledge, and take action.
 Align teams and track actions to drive deals forward.
+Align your team, assign tasks, and share updates
 All Accounts
 All Activity Loaded
 All Blues by Miles Davis
@@ -1921,6 +1918,7 @@ Bring in the right people
 Bring in your tools
 Bring the team together in a channel
 Bring the tools you need into this channel to pull reports, start calls, file tickets and more.
+Bring what your team is already working on into Slack
 Bring your emails into Slack
 Bring your favorite daily tools into Slack
 Bring your favorite skills from other platforms
@@ -3559,6 +3557,7 @@ Connect account
 Connect accounts
 Connect an account to continue
 Connect an email account to import emails
+Connect an existing project
 Connect another org
 Connect app
 Connect apps to Slackbot
@@ -7828,7 +7827,6 @@ How this works
 How to Build a Successful Team (Published 2019)
 How to use Slack: your quick start guide
 How was your experience using Slack so far?
-How will the discount work?
 HtmlSurfaceIframe: surface action rate limit exceeded, dropping
 Hubble link
 Huddle AI Notes
@@ -10326,6 +10324,7 @@ More unread threads
 More ways to expand
 Morning! No standup required, just ask
 Most JS is disabled
+Most active for you
 Most popular
 Most recent
 Most recommended
@@ -10672,7 +10671,6 @@ New slide
 New stage name
 New status name
 New surface
-New teams redeeming this discount will get a 
 New to Slack
 New to Slack?
 New to this? Watch a quick video about managing your sales and more in Slack CRM.
@@ -12791,6 +12789,7 @@ Push stash
 Pushes a reaction explosion event onto the active explosion queue
 Put AI to work, anywhere in Slack
 Put DMs first
+Put a finished Singer hand-off reply in its conversation draft
 Put agents to work in Slack
 Put app suggested prompt in the composer
 Put back deferred clears cancelled by a re-add whose save failed
@@ -13304,6 +13303,7 @@ Remember the last user-selected view for a list in a given window
 Remember whether a secondary container was left expanded
 Remembers (or forgets) the To-dos filter boxes last checked in the filter bar
 Remembers a native Slackbot turn for Singer task bubbles
+Remembers that a Singer hand-off reply was copied into its conversation draft
 Remind Me
 Remind Me Later
 Remind me
@@ -17395,6 +17395,7 @@ Start an external file providers request
 Start auth against an external data source
 Start big button mode
 Start building workflows with AI directly from the Create button.
+Start by creating a channel. Channels are where you chat about a project, share resources, and work together in a single organized space.
 Start collaborating
 Start daily briefing
 Start date
@@ -17776,7 +17777,6 @@ SummaryFeedbackModal must be provided either aiSummary or fileSummary or channel
 SummaryFeedbackModal must be provided either aiSummary, fileSummary, channelDigest or huddleSummaryId
 Sunday Sailor
 Sunglasses Inside
-Super admin access required. Share this link with your super admin to get set up.
 Supercharge your channel
 Supercharge your shortcuts with Slackbot skills
 Supercharge your workflows with the Generate AI Response step
@@ -18817,6 +18817,7 @@ Track Slackbot big-mode NUX modal impression
 Track Slackbot big-mode NUX modal skill card click
 Track Slackbot message copy if applicable
 Track a project
+Track a project in Slack
 Track a quote-reply back-link path that should not unfurl
 Track agent work
 Track agent work on this list?
@@ -20499,6 +20500,7 @@ View your calendar events
 View your message activity analytics
 View your other activity
 View your profile
+View your unread updates in Singer
 View-only mode disabled.
 ViewSet with detail view applied
 Viewing in another window
@@ -20712,6 +20714,7 @@ What kind of boot is this
 What needs my attention today?
 What other CRM tool(s) do you use? (optional)
 What other feature would be valuable?
+What project would you like to track?
 What questions are still open?
 What should I do next?
 What should I focus on regarding Q4 forecast variance, DataNet P1 escalation, and enterprise conversion performance?
@@ -20768,7 +20771,6 @@ Which currencies do you support?
 Which messages should I respond to first?
 Which months and volumes should the 2002 term sheet price?
 Which of the following did you experience? Select all that apply.
-While teams are receiving the discounted subscription rate, the discount will also apply to any member count and activity changes that occur during the
 While we work on improvements, here is some information that can help.
 While you were quiet
 White fluorescent (WW 3200 - 3700K)
@@ -21257,6 +21259,7 @@ Your update was saved, but you no longer have access to view this record.
 Your updates to this will be lost. We hate to see hard work go to waste.
 Your video is being processed and will be available to download soon.
 Your work may slow down with more tab-switching and fewer connected apps.
+Your work on a project can be public or private. Make this one private to test things out or public so your team can find it.
 Your work will not be saved.
 Your workflow has been unpublished.
 Your workflow is ready to use

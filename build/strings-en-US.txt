@@ -5489,6 +5489,7 @@ classic_nav.c47ae15: Help
 classic_nav.c05ea34: Help, with {unreads, plural, =1 {# unread} other {# unreads}}
 classic_nav.eff152e: Hide workspace switcher
 classic_nav.90ccd64: History
+classic_nav.615e0f7: History Navigation
 classic_nav.8c99a8e: How does this impact your current use of Slack or how could it potentially improve your use of Slack in the future?
 classic_nav.2e29f8d: How would you describe the search results you’re seeing?
 classic_nav.a0767c2: Huddle
@@ -5736,6 +5737,7 @@ client_error_screens.bcb2fef: <a>Try our suggestions for troubleshooting</a> con
 client_error_screens.a02101f: Browse Workspaces
 client_error_screens.e6de983: Continue to Your Workspace
 client_error_screens.dee8e91: From your organization:
+client_error_screens.4747666: It’s moving day. This shouldn’t take too long, but things are temporarily unavailable while movers unload all the boxes.
 client_error_screens.cce7155: Reload
 client_error_screens.34b1507: Reload Slack
 client_error_screens.db89a00: Review Terms of Service
@@ -5743,12 +5745,15 @@ client_error_screens.7e08abd: This is one of those times when we’re not sure w
 client_error_screens.ac37626: Time to join a workspace
 client_error_screens.16f9d38: To continue using Slack, please review and agree to your organization’s terms of service. Once accepted, please reload Slack.
 client_error_screens.06b4e2e: To work with {orgName}, join a workspace and you’ll be on your way.
+client_error_screens.53c07f5: View Migration Status
 client_error_screens.d6180bf: Welcome to {enterprisePlanName}!
 client_error_screens.5c545dd: We’re having trouble loading your workspace
 client_error_screens.9ef3c0e: You can only access Slack during your shift
 client_error_screens.d66b5c6: You need to agree to your organization’s terms of service.
 client_error_screens.34ac7fd: Your current network has blocked this workspace.
 client_error_screens.40d4be6: Your current network will only allow you to access certain Slack workspaces (usually, just the ones you use for work). To get connected, change networks and try again.
+client_error_screens.b00a00c: Your workspace has just been upgraded to Slack {enterprisePlanName}, which makes it simpler for large organizations to work together. <br></br><br></br>Starting today, your workspace is part of an organization. That means you can now message and share files with anyone in the organization — even if you’re not on the same workspace. Continue to your workspace, and we’ll show you what’s new.
+client_error_screens.c2db0d2: Your workspace has just been upgraded to Slack {enterprisePlanName}, which makes it simpler for large organizations to work together. <br></br><br></br>Starting today, your workspace is part of the <b>{enterprise_name}</b> organization. That means you can now message and share files with anyone at {enterprise_name} — even if you’re not in the same workspace.Continue to your workspace, and we’ll show you what’s new.
 client_error_screens.a0a573b: Your workspace is joining an organization!
 client_error_screens.c19ad2b: Your workspace is joining the {teamName} organization!
 client_error_screens.3fd0313: You’re outside your shift
@@ -8953,6 +8958,7 @@ enterprise_dashboard.cdde4f2: Steps
 enterprise_dashboard.20d0be2: Super admin access required. Share <a>this link</a> with your super admin to get set up.
 enterprise_dashboard.8879f26: Super admin access required. Share this link with your super admin to get set up.
 enterprise_dashboard.ef287d0: Teams Calls installed. To sign into your account, go to the app’s home in Slack.
+enterprise_dashboard.6b6667b: That Google account isn’t on {domain}. Sign in with an admin account on {domain}.
 enterprise_dashboard.df2093c: The rule “{ruleTitle}” can’t approve A2A agents. To approve agents like this one, add an approve rule with an Agent URLs condition.
 enterprise_dashboard.8dfa391: They can be re-invited to this channel.
 enterprise_dashboard.1196c38: To get set up, you’ll need <b>Global Administrator</b> access to your Microsoft workspace account.
@@ -10628,6 +10634,7 @@ huddles.9e85782: (No title)
 huddles.9838569: (Optional) Open your device’s system preferences and grant camera access to Slack. If you’ve already done so, quit and reopen Slack.
 huddles.3f001b6: (Optional) Please enable your camera in your browser’s address bar.
 huddles.1d06e4b: (Optional) Your camera is unavailable. Make sure it`s connected and that you`ve granted permission to share video with Slack.
+huddles.9193e91: (opens in new tab)
 huddles.02386d9: 1 minute before
 huddles.3e10759: 1 new reply
 huddles.b1e2cdb: 10 minutes before
@@ -10765,6 +10772,7 @@ huddles.15f4023: Be there soon
 huddles.900aa99: Blur
 huddles.d18ddc8: Brainstorm, make decisions or have a lightweight catch-up with whoever’s online.
 huddles.2161e4b: Bring huddle to front
+huddles.3764a6b: By continuing, you’re agreeing to <userTerms>Slack’s User Terms of Service</userTerms>. For more info, check out our <privacyPolicy>Privacy Policy</privacyPolicy> and <cookiePolicy>Cookie Policy</cookiePolicy>.
 huddles.86efc66: By request only
 huddles.db990aa: Calendar account
 huddles.f292719: Calendar event: {title}
@@ -12129,15 +12137,18 @@ jp_pocket_guide.ac7577d: A channel is a dedicated space for a topic or project
 jp_pocket_guide.b6ecc2b: Add a team icon
 jp_pocket_guide.eaf432d: Add people directly
 jp_pocket_guide.119e7e8: Add your workspace icon
+jp_pocket_guide.a085703: Align your team, assign tasks, and share updates
 jp_pocket_guide.3bd2111: Almost done
 jp_pocket_guide.b52b36b: Back
 jp_pocket_guide.2b833f9: Bring coworkers into this workspace so you can start collaborating.
+jp_pocket_guide.8f50fc9: Bring what your team is already working on into Slack
 jp_pocket_guide.77dfd21: Cancel
 jp_pocket_guide.56b3c80: Change icon
 jp_pocket_guide.b6702a2: Channels are usually public, but we made this a private channel for you. Anything you do here is visible only to you.
 jp_pocket_guide.876dd5b: Click the question mark icon to open the Help Center whenever you need it.
 jp_pocket_guide.bbfa773: Close
 jp_pocket_guide.1f5a1ab: Complete
+jp_pocket_guide.785450e: Connect an existing project
 jp_pocket_guide.31532de: Connect your AI tools
 jp_pocket_guide.1e2c90e: Connect your tools
 jp_pocket_guide.b7c3ca0: Copied!
@@ -12174,6 +12185,7 @@ jp_pocket_guide.b05680b: Invite Teammates
 jp_pocket_guide.722fe78: Invite your team
 jp_pocket_guide.93be9ce: Learn about channels
 jp_pocket_guide.ee7c61a: Less than {maxFileSize} MB
+jp_pocket_guide.2c9e20b: Let’s organize your team’s projects. How would you like to start?
 jp_pocket_guide.bc98198: Next
 jp_pocket_guide.627a402: Now, it’s time to <link>set up your Slack</link>.
 jp_pocket_guide.914cc59: Only people invited can join or see messages
@@ -12195,11 +12207,12 @@ jp_pocket_guide.490df2e: Skip for Now
 jp_pocket_guide.83b1c78: Slack setup is complete!
 jp_pocket_guide.de9bfa2: Solid background color
 jp_pocket_guide.9a3ea05: Something went wrong. Please try again.
-jp_pocket_guide.f78a740: Start by creating a channel. Channels are where you chat about a project, share resources, and work together in a single organized space. It’s like a virtual office combined with a group chat.
+jp_pocket_guide.95e3f18: Start by creating a channel. Channels are where you chat about a project, share resources, and work together in a single organized space.
 jp_pocket_guide.1136b2d: Step {stepNumber} of {stepCount}
 jp_pocket_guide.cdcae85: Subject:
 jp_pocket_guide.b08bc5f: To get started, <link>set up your Slack</link> for you and your team.
 jp_pocket_guide.7311655: Track a project
+jp_pocket_guide.626e7ef: Track a project in Slack
 jp_pocket_guide.8bdf057: Upload
 jp_pocket_guide.77d2668: Upload an icon for your workspace
 jp_pocket_guide.2379761: Use Template
@@ -12209,7 +12222,7 @@ jp_pocket_guide.7d9ff4f: Visibility
 jp_pocket_guide.9977c34: We couldn’t create your channel. Try again.
 jp_pocket_guide.29d62c6: Welcome to Slack, {name}!
 jp_pocket_guide.4ace4a0: We’re happy you’re here. Let’s set up your workspace. In Slack, a workspace is where your team collaborates. Think of it like your new virtual office. It brings your people, tools, and files into one place, making it easier to work together.
-jp_pocket_guide.1a28672: What do you want to call your team’s chat?
+jp_pocket_guide.a7514d4: What project would you like to track?
 jp_pocket_guide.e06bbcc: Workspace icon illustration
 jp_pocket_guide.41a2acd: Workspace icon preview
 jp_pocket_guide.2b0e45d: Workspace successfully created
@@ -12217,9 +12230,10 @@ jp_pocket_guide.e6ea31f: You can invite your team anytime
 jp_pocket_guide.b17ffba: Your Slack icon is a logo used in the desktop and mobile apps to help your team identify your workspace. You can always change it later.
 jp_pocket_guide.5c9b493: Your Slack is set up!
 jp_pocket_guide.dbc053e: Your default email app
+jp_pocket_guide.74c32fd: Your work on a project can be public or private. Make this one private to test things out or public so your team can find it.
 jp_pocket_guide.a1470c6: Your workspace is prepared for team collaboration. Send a welcome message in the all channel to greet your team when they arrive.
 jp_pocket_guide.4694b68: You’re ready to invite your team
-jp_pocket_guide.9845cf5: team-chat
+jp_pocket_guide.d54dfea: team-project
 jp_pocket_guide.60c4aa9: {completedCount} of {totalCount} tasks completed
 jp_pocket_guide.0fa7422: {minimumIconWidth} x {minimumIconHeight} pixels minimum
 jp_pocket_guide.9ae495b: {remainingTasks, plural, =1 {# task left} other {# tasks left}}
@@ -20159,6 +20173,7 @@ search.7cbc1b0: ⌘ Click
 search.362e018: ⌘ Opt Click
 search_menu.2dd2bed: today
 search_menu.1aa96b8: yesterday
+security_compliance.9bb9542: This app has the following certifications & compliances:
 segmented_team_creation.4550f68: Choose a plan
 segmented_team_creation.b0bf6d1: Recommended for you
 select.247fd63: Clear selection
@@ -20210,6 +20225,7 @@ session_channel_archive.7eac343: This channel is inactive. Archive it for everyo
 session_channel_archive.94ca019: This channel is inactive. Leave the channel to tidy up your sidebar — you can always rejoin it later.
 session_channel_archive.504fccb: This work is complete. Archive it for everyone — the contents will still be available in search, and you can always unarchive it in the future.
 session_channel_archive.4fd785e: This work is complete. Leave the channel to tidy up your sidebar — you can always rejoin it later.
+setup_page.2d0ab40: ),Li=n(
 setup_page.27e6d30: + {count, plural, =1 {# other} other {# others}}
 setup_page.850a65b: 1,001 +
 setup_page.92767dc: 101 - 500
@@ -21523,6 +21539,7 @@ singer.c42c3b8: Ask about this meeting
 singer.bdd42e5: Ask about this window
 singer.b1001b0: Ask before actions
 singer.217ccee: Ask questions in the meeting thread. This panel is just for listening.
+singer.54cfb54: Asking Slackbot…
 singer.b9692bb: Asleep
 singer.f980fb0: Astro
 singer.19ba82e: Astro Singer
@@ -21532,6 +21549,7 @@ singer.b52b36b: Back
 singer.3860116: Back to Input
 singer.4855132: Back to Messages
 singer.3630488: Back to Slackbot
+singer.f7b0ca1: Back to catch up
 singer.9a2b781: Back to conversations
 singer.7b05bab: Beta freeze moved to next Thursday.
 singer.3466a48: Blast
@@ -21622,6 +21640,7 @@ singer.5a25103: Dates — Oct 14–15
 singer.808d7dc: Default
 singer.fd14281: Deletes Slackbot’s saved browser profile, including sign-ins and site data for every site.
 singer.f27d86c: Deletes saved sign-ins and site data for every site. Open browsers can stay signed in, but won’t save those sign-ins again. This can’t be undone.
+singer.47f0c5a: Dictate a message
 singer.e7596a0: Direct messages
 singer.3232ed5: Dismiss activity
 singer.347aaa7: Dismiss error
@@ -21635,7 +21654,6 @@ singer.4b48d35: Done and done.
 singer.55823ef: Done!
 singer.dac1daf: Don’t forget to breathe
 singer.929b574: Dot · $39 · 4.1★
-singer.5f0c084: Draft a reply for this Slack conversation: {link}\n\nReturn only the message draft. Do not send any messages.
 singer.77522ab: Draft a reply to {name}
 singer.32c30b7: Draft added. Review it before sending.
 singer.84e7338: Draft with Slackbot
@@ -21686,6 +21704,7 @@ singer.b104384: Here, take this: :apple:
 singer.2a70e2a: Here’s a pony.
 singer.bf2d5f8: Hi! Good to meet you.
 singer.5b0f71c: Hidden while you’re in control
+singer.fe3f4c7: Hide Singer
 singer.20d27f8: Hold for a pick-me-up, or press Shift+Enter.
 singer.ae44077: Hold to talk
 singer.9994b42: Hold to try a hello. Just a preview—your mic stays off.
@@ -21744,10 +21763,11 @@ singer.c566964: Loading thread…
 singer.0d9b55d: Loading your day…
 singer.01d1180: Look at you go.
 singer.f71edd8: Lovely!
+singer.ecb7e36: Make panel larger
+singer.7769590: Make panel smaller
 singer.f03a88b: Manage in huddle
 singer.e5f6134: Mark All Read
 singer.ccf3a5a: Mark as Read
-singer.5d398ce: Mark as read, thread in {conversation} from {date}
 singer.ce771bb: Marked as read.
 singer.001c341: Marking as read…
 singer.f8c3ebf: Maya needs your sign-off on designs.
@@ -21944,6 +21964,7 @@ singer.502b0d6: Search skills
 singer.af3ffa1: See Full Day
 singer.39ba42f: See the answer
 singer.9bc2575: Send
+singer.309d88e: Send to {recipient}
 singer.8a69751: Sending to Slackbot…
 singer.cf76551: Sending…
 singer.559c29d: Sent privately to {agent}
@@ -22064,6 +22085,7 @@ singer.2c9c1f7: Unavailable
 singer.39fc721: Undo
 singer.7044c31: Unmute
 singer.07b032b: Unread
+singer.192715c: Unread Slack activity
 singer.c99407b: Untitled conversation
 singer.05dc73d: Use Draft
 singer.944b88d: VIP
@@ -22074,6 +22096,7 @@ singer.d86289d: View Tasks
 singer.1e03442: View Work
 singer.a172d36: View conversation
 singer.5559dd0: View only
+singer.382c6e5: View your unread updates in Singer
 singer.cda41b4: Voice input isn’t available. Try again.
 singer.a86dd4a: Voice with Slackbot
 singer.0ab6291: Wait until the message editor is ready to quote a message.
@@ -26859,7 +26882,6 @@ view.2e98813: Agents & Apps
 view.0124bb7: Agents & tools
 view.844df14: All channels
 view.7aeeec0: All people
-view.7149834: Also known as {names}
 view.880d2f8: Anything Albert missed?
 view.fc4a695: App
 view.7c3d598: App Details
@@ -26883,8 +26905,6 @@ view.749776f: Close Channel
 view.a8c64a7: Code Channels
 view.1df39aa: Compact
 view.4f9be05: Content
-view.fd83da3: Contested
-view.07ec919: Couldn’t load this page
 view.578ad30: Couldn’t save that mark. Try again.
 view.3c7746e: Created by agents
 view.1641c52: Ctrl Alt Click
@@ -26925,16 +26945,12 @@ view.af97733: Icons and text
 view.7eefba1: Icons only
 view.b6bd42e: In progress
 view.7b23670: Item view
-view.9caf661: Joined from: {name}, because of the same email
 view.b465751: Keyboard Shortcuts
-view.bfc3c2d: Last seen {date}
 view.56e2f5d: Later
 view.d051707: Link
 view.a1fffaa: List
 view.57c9502: Lists
 view.dfe60ca: Load more
-view.0c674f1: Loading pages…
-view.053228a: Loading page…
 view.6311650: Managed by you
 view.afde92b: Mark each fact right or wrong. Albert uses your marks to test itself.
 view.13018e3: Marked right
@@ -26969,7 +26985,6 @@ view.03a322d: Open in split view
 view.2cd7504: Org chart
 view.0760524: Organizations
 view.6e6a6f2: Other
-view.dc386a0: Page not available
 view.b37554f: People
 view.d06d555: Permissions
 view.8c41ae8: Person
@@ -26998,14 +27013,11 @@ view.b34fd41: Send An Invitation
 view.1a6bda2: Session Channels
 view.d97d1ee: Show
 view.d94dfbe: Show fewer
-view.4db0ac9: Show more pages
 view.f5171c9: Sidebar
 view.430b38b: Slack
 view.e21da9e: Slack Connect
 view.9fbb94b: Slackbot
 view.bdc5259: Slackbot AI
-view.fb3ee02: Some lines couldn’t be loaded. Try again later.
-view.4e90159: Some pages couldn’t be listed.
 view.2eb56be: Sources
 view.6ef62ba: Split View
 view.5d53e18: Split panel width
@@ -27019,14 +27031,11 @@ view.2a4d562: Tabs
 view.090ec5f: Tasks
 view.2188872: Team
 view.f25b700: Templates
-view.d5190c4: The text of this page is being written. The lines below are already here.
-view.01cf127: The wiki couldn’t load. Try again later.
 view.100a84d: There’s a policy that doesn’t allow you to message this group.
 view.3c29e4f: There’s a policy that doesn’t allow you to message {memberName}.
 view.be4fecf: These organizations are no longer connected.
 view.4ef1114: This channel is no longer shared with your organization.
 view.541cf3b: This conversation is for notifications only.
-view.c274c91: This fact changed, so your note wasn’t sent.
 view.7863f75: Thread
 view.269292c: Thread in {channelName}
 view.bb12e8a: Threads
@@ -27040,7 +27049,6 @@ view.4fa8cc8: Tools
 view.7e13bd1: Topic
 view.5bcd602: Transcript
 view.042c862: Try again
-view.288edef: Try again in a moment.
 view.39fc721: Undo
 view.95ed8c1: Unread Messages
 view.e6ba0dd: Unreads
@@ -27058,7 +27066,6 @@ view.e38e3ca: Workflow Creation
 view.5d7024a: Workflow Editor
 view.a5a8719: Workflow details
 view.825ce9e: Workflows
-view.78f9a3b: Written text is paused for today. The lines are still here.
 view.346a2f5: Wrong
 view.961c830: You and {member} are no longer connected.
 view.3f3c77d: You and {member} are not connected. To message them, you’ll need to send an invitation.
@@ -27068,23 +27075,17 @@ view.3eaacda: You are viewing {channel_or_group}, an archived channel
 view.0302004: You are viewing {channel_or_group}, an archived channel. <a>Unarchive</a> it to continue the discussion.
 view.bcf43d4: You don’t have permission to message this conversation.
 view.ac1e950: You don’t have permission to message {member}.
-view.cb99ffb: You may not have access to what it’s about, or it’s no longer in the wiki.
 view.adcfed3: Your templates
 view.732f940: Your two organizations are no longer connected.
 view.0c1a054: replaced {date}
-view.24fe0ae: said by {name}
 view.86a3db1: {app_name} has turned off direct messaging, so you won’t be able to respond to these messages.
 view.bae2c62: {channelName} (Channel)
 view.cc9bf27: {channelName} (DM)
 view.45f4a1c: {channel_or_group} was moved to another workspace.
-view.8244f1d: {count, plural, =1 {# older line isn’t shown} other {# older lines aren’t shown}}
 view.42910ff: {count} in progress
-view.6f3de95: {first} {second}
 view.468ddec: {label}: {value}
 view.02612bf: {listTitle}, List template
-view.4a5634a: {number}, line: {line}
 view.9af6499: {teamName} templates
-view.ed1da6d: {title}. {description}
 view.5f6c4fd: {totalUnreadHighlights, plural, =1 {# new item} other {# new items}}
 view.7cbc1b0: ⌘ Click
 view.362e018: ⌘ Opt Click
