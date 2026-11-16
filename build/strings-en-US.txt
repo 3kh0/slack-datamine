@@ -464,8 +464,6 @@ activity.d2fa3e3: Are you sure you want to hide {viewName}?
 activity.106df22: Ask {agentName}
 activity.b11cb0e: Assigned to you: {listName}
 activity.ff10b51: Automatically added to channel
-activity.82c2dea: Based on your notification preferences, you have {count, plural, =1 {# channel} other {# channels}} set to notify you about "all new posts". Want to see every new post from {count, plural, =1 {this} other {these}} channels here in Activity?
-activity.fa34ccf: Based on your notification preferences, {channelName} is set to "all new posts". Want to see every new post from this channel, and any others you set to "all new posts," here in Activity?
 activity.c51b7ce: Bulk select
 activity.77dfd21: Cancel
 activity.a3f80b8: Canvas
@@ -558,9 +556,7 @@ activity.2d8e5df: Filter unreads
 activity.1ff7777: Filtering from recent notifications.
 activity.96e5782: Filters
 activity.4744141: Filters, {filterCount, plural, =1 {# active} other {# active}}
-activity.ef63445: Get notified about important channels?
 activity.02653bf: Get notified about new replies
-activity.d5da570: Get notified about {count, plural, =1 {# channel} other {# channels}}? 
 activity.aeb4d6f: Give it another try in a few minutes.
 activity.c8a4874: Got It
 activity.26a352f: Got a particular project that spans a few conversations? Set and save your filters for easy reference every time.
@@ -630,7 +626,6 @@ activity.8b11f91: Needs your input
 activity.204ffe0: Never miss an important message
 activity.d60515a: New activity
 activity.5a16b52: New view
-activity.b5e2aa3: New ways to stay caught up in Activity
 activity.d044282: Newest
 activity.bc98198: Next
 activity.5500eef: Next step
@@ -687,7 +682,6 @@ activity.6db7104: Restore notification
 activity.92a74f8: Reviewed, still open
 activity.425f77f: Right click to edit, rename or delete this view. Drag and drop to reorder.
 activity.bad05b4: Salesforce Channels
-activity.13c4759: Salesforce task
 activity.efc007a: Save
 activity.e2f2287: Save as …
 activity.9a086ec: Save custom views
@@ -706,7 +700,6 @@ activity.7087888: Search conversations
 activity.d64ed64: Search pull requests
 activity.787447b: Search: {query}
 activity.aa9f072: See all your unreads in one place
-activity.9601ed5: See the channels that are important to you
 activity.8598222: Select
 activity.89ac854: Select a notification to view the details.
 activity.913afff: Select all
@@ -722,7 +715,6 @@ activity.4e5cf5e: Selected.
 activity.35f49dc: Sent
 activity.3643c43: Sent, {count, plural, =1 {# scheduled} other {# scheduled}}
 activity.7901f96: Set reminder
-activity.731dd5f: Show channels in Activity
 activity.b1ad23e: Show filters
 activity.80ede35: Show filters, {count, plural, =1 {# active} other {# active}}
 activity.4c852b2: Show less
@@ -773,7 +765,6 @@ activity.6ce08d6: To-dos
 activity.ecbef92: To: Thread in {recipient}
 activity.823919e: To: {recipient}
 activity.20550df: Toggle between dense and detailed layouts to review in bulk or dive into the specifics.
-activity.9d2d85e: Toggle between dense and detailed layouts to scan unread messages en masse or dive into the specifics.
 activity.1948bf2: Tomorrow
 activity.d11556e: Turn off notifications for replies
 activity.3deb745: Type
@@ -803,7 +794,6 @@ activity.d7a4841: Workflow
 activity.3b4dfc9: Working
 activity.a363fb7: Workspace invitation
 activity.5397e05: Yes
-activity.38781c0: You can now get notifications for channels set to “all new posts” here in Activity. Want to enable this?
 activity.778c527: You can only save up to {maxTabCount} tabs. Delete one to save a new tab.
 activity.2c20996: You can only save up to {maxTabCount} views
 activity.885be26: You can still find any item you had previously cleared.
@@ -816,8 +806,6 @@ activity.647ea02: You were mentioned {mentionCount} times in {space}
 activity.b42307f: You:
 activity.64bc097: Your one-on-one and group conversations show up here.
 activity.2b2f8b9: Your pull requests
-activity.81e65f9: You’ll now see channels with notifications set to "all new posts" in Activity.
-activity.04cda02: You’ll now see channels with notifications set to "all new posts," like {channelNames}, in Activity.
 activity.c074a23: You’ll only be notified ({mentionBadge}) about unread conversations, not every single message sent within them.
 activity.2266fe4: You’re all caught up
 activity.f7893fd: You’ve been added to the <#{channelId}|{channelName}> {recordLabel} channel.
@@ -5160,7 +5148,6 @@ channel_sidebar.7863f75: Thread
 channel_sidebar.269292c: Thread in {channelName}
 channel_sidebar.62198fb: Thread in {channel_name}
 channel_sidebar.ef2bfbe: Thread in {channel_name}: {thread_title}
-channel_sidebar.a4328b4: Thread in {name}
 channel_sidebar.773cc72: Thread options
 channel_sidebar.47f32c3: Thread:
 channel_sidebar.bb12e8a: Threads
@@ -6187,6 +6174,7 @@ code-tab.d34ffd3: Add a reaction
 code-tab.cf05eca: Add reaction
 code-tab.85174b7: All changes
 code-tab.41b81eb: Approved
+code-tab.f3a4aa0: Branch {branch}
 code-tab.77dfd21: Cancel
 code-tab.fe25abc: Changed files
 code-tab.9be1668: Changes requested
@@ -6198,6 +6186,7 @@ code-tab.ff337dc: Comment deleted
 code-tab.b024afd: Comment updated
 code-tab.74536b5: Commits
 code-tab.5eb9d05: Commits to show
+code-tab.73ea9a9: Comparing {base} ← {head}
 code-tab.587e74c: Connect to {provider}
 code-tab.ff4aceb: Connect your GitHub account to change this pull request’s status.
 code-tab.2b56f45: Connect your GitHub account to delete this comment.
@@ -6215,12 +6204,14 @@ code-tab.8c0451d: Copy GitHub link
 code-tab.2f84eea: Copy link
 code-tab.a310281: Couldn’t change this pull request’s status. Give it another try.
 code-tab.8cf663d: Couldn’t load more comments.
+code-tab.70859e0: Couldn’t load the changes in these commits.
 code-tab.de77bd4: Couldn’t load the latest commits
 code-tab.f6fdbe4: Delete
 code-tab.4be7edc: Delete comment
 code-tab.687c1cb: Delete comment?
 code-tab.556c939: Description updated
 code-tab.38c1b65: Diff display options
+code-tab.01beb79: Diff truncated — too many files or changes to display
 code-tab.23d33e2: Draft
 code-tab.3b16825: Edit comment
 code-tab.2ebe5b3: Edit description
@@ -6239,7 +6230,9 @@ code-tab.d338d08: Jump to file
 code-tab.972ad8d: Layout
 code-tab.fcf82cb: Load more comments
 code-tab.2470ebc: Loading commits…
+code-tab.41a5c16: Loading diff
 code-tab.04999e3: Loading more comments
+code-tab.3a25ab1: Loading the commits’ changes
 code-tab.0c44559: Merged
 code-tab.a1e34f9: More actions
 code-tab.e27e04c: More actions for comment by {author}
@@ -6271,29 +6264,38 @@ code-tab.186cd74: Rocket
 code-tab.efc007a: Save
 code-tab.ccc7c45: Saving comment
 code-tab.ed27be4: Saving description
+code-tab.a414274: Show All Changes
 code-tab.f5b60f4: Show file tree
 code-tab.4c852b2: Show less
 code-tab.25911d4: Show more
 code-tab.7237359: Show resolved
+code-tab.d4a36c1: Showing changes from some commits. Comments are hidden.
 code-tab.30c9bdc: Some comments aren’t shown. View the pull request on GitHub to see them all.
+code-tab.ee6f63c: Something went wrong fetching the diff. Please try again later.
 code-tab.fc8230b: Split
+code-tab.2fdec01: The changes in these commits are too large to show.
 code-tab.cad84dc: There was a problem deleting this comment. Give it another try.
 code-tab.592a3e0: There was a problem resolving this conversation. Give it another try.
 code-tab.a115c77: There was a problem saving this comment. Give it another try.
 code-tab.1fdb66d: There was a problem saving this description. Give it another try.
 code-tab.b78e420: There was a problem unresolving this conversation. Give it another try.
+code-tab.cd287d8: These commits don’t change any files.
 code-tab.a2cd3f2: This also deletes the comment on GitHub. This can’t be undone.
 code-tab.c8e66c7: This comment no longer exists on GitHub.
 code-tab.35b46ef: This conversation no longer exists on GitHub.
 code-tab.c27f171: This conversation was marked as resolved.
 code-tab.a0ddf21: This description was changed on GitHub. Reload the Code tab to edit the latest version.
+code-tab.08b90ac: This is a merge commit.
+code-tab.ad2239f: This pull request can’t be shown here yet
 code-tab.0925258: This pull request has already merged.
 code-tab.cef2fe0: Try Again
 code-tab.042c862: Try again
+code-tab.9afdcac: Unable to load diff
 code-tab.287fda8: Unified
 code-tab.88cab05: Unresolve Conversation
 code-tab.97e5ac0: Unresolving conversation
 code-tab.334d9a1: View Comments
+code-tab.c511e1c: View it on GitHub
 code-tab.23a6732: View message
 code-tab.0c77991: View on GitHub
 code-tab.8eccf13: Your GitHub account doesn’t have permission to change this pull request’s status.
@@ -6307,6 +6309,9 @@ code-tab.b1835bb: Your comment was posted, but GitHub couldn’t close this pull
 code-tab.bf43146: {author} on {location}: {comment}
 code-tab.5643f7d: {count, plural, one {# comment} other {# comments}}
 code-tab.c0ccea2: {count, plural, one {# commit} other {# commits}}
+code-tab.dd7e868: {count, plural, one {# earlier commit isn’t included because it comes before a merge commit.} other {# earlier commits aren’t included because they come before a merge commit.}}
+code-tab.f35d82c: {count, plural, one {# earlier commit isn’t included because it comes before a merge from {base}.} other {# earlier commits aren’t included because they come before a merge from {base}.}}
+code-tab.525dedc: {count, plural, one {# file changed} other {# files changed}}
 code-tab.fd1d44e: {count, plural, one {# new commit} other {# new commits}}
 code-tab.97d3b45: {count, plural, one {Files Changed, # file} other {Files Changed, # files}}
 code-tab.59a7d03: {count, plural, one {First # commit} other {First # commits}}
@@ -10788,6 +10793,7 @@ huddles.8b89522: Anything else you want to add?
 huddles.8e4aa3a: Applause
 huddles.cfea419: Apply
 huddles.d1cd89b: Apply changes?
+huddles.365bb3a: Are you still there?
 huddles.410bf23: Are you sure?
 huddles.e81e1f6: Art by Haley Tippmann
 huddles.4f5fdc6: Art by Hudson Christie
@@ -11140,7 +11146,6 @@ huddles.3192980: Only people in your organization can be added by name. Invite a
 huddles.7e40380: Only {maxParticipants} people can join a huddle
 huddles.d22f6e5: Oops, something went wrong. Please try again.
 huddles.b83cb48: Open Google Calendar App
-huddles.8448071: Open Guide
 huddles.53b6120: Open Huddle in new window
 huddles.e11fd49: Open Outlook App
 huddles.134635e: Open Settings
@@ -11362,7 +11367,6 @@ huddles.af4d226: Turn off video
 huddles.425ba32: Turn on camera
 huddles.119142d: Turn on drawing
 huddles.27892ac: Turn on video
-huddles.115a2c8: Unable to connect to huddles
 huddles.5f7f50b: Unable to create external huddle link. Use your existing links to free up space for new ones.
 huddles.7043206: Unable to join huddle
 huddles.fc29d0a: Unable to request access to the Huddle
@@ -11497,7 +11501,6 @@ huddles.eebf4a0: Your microphone is blocked. Other people in the huddle won’t 
 huddles.bad757d: Your microphone is unavailable. Make sure it`s connected and that you`ve granted permission to share audio with Slack.
 huddles.f09a8cc: Your microphone is unavailable. Try closing other apps that may be using it, switching to a different microphone, or restarting Slack.
 huddles.5285da8: Your microphone switched to <strong>{deviceName}</strong> <l>Choose a different microphone</l>.
-huddles.1d92bb1: Your network settings are blocking huddles. Contact your IT team or check out the network configuration guide for help.
 huddles.323293b: Your organization doesn’t allow some of these people to meet together. Remove someone and try again.
 huddles.9f7eed1: Your request to join this huddle has expired. If you think this may be a mistake, please contact the huddle organizer.
 huddles.7fe7d4c: Your request was sent
@@ -11534,6 +11537,7 @@ huddles.690d19f: You’re the only one here
 huddles.9008f7a: You’re the only one here. Enjoy the tranquility, or <a>invite someone</a>.
 huddles.c9e8f54: You’re the only one here. Enjoy the tranquility, or invite someone.
 huddles.9c4d6a8: You’re the only one in this huddle. Enjoy the tranquility.
+huddles.6a54c33: You’ve been in this huddle by yourself for a while. You’ll leave it in {seconds, plural, =1 {# second} other {# seconds}} unless you’re still here.
 huddles.d18ae3e: You’ve joined the huddle on a different device
 huddles.a0bc4e2: Zombie Puffy
 huddles.a9ff4d7: and {tabLabel}
@@ -11954,6 +11958,7 @@ includes_client.c9aea15: Mention someone
 includes_client.87a9243: Show formatting
 inline-agent-view-canvas-block.232f7ea: Open {title}
 inline-agent-view-html-block.232f7ea: Open {title}
+inline-code-diff-block.525dedc: {count, plural, one {# file changed} other {# files changed}}
 inline_attachments.e963907: Remove
 inline_attachments.645831c: Remove preview?
 inline_member.8b26e30: (Unavailable)
@@ -18921,7 +18926,6 @@ salesforce_connections.275a700: record
 salesforce_connections.3fe49be: ✅ You’re all set
 salesforce_record.114ef02: Open record
 saved.1d9c1a0: Saved items
-saved_for_later.05f2dc1:  (you)
 saved_for_later.a3e0872: +{count}
 saved_for_later.f030c3d: 1 hour
 saved_for_later.6dcd4ce: A
@@ -19088,7 +19092,6 @@ saved_for_later.576c97b: Remove message
 saved_for_later.06aaa6c: Remove saved item
 saved_for_later.3be626d: Remove to-do
 saved_for_later.fcac47f: Remove to-dos for deleted messages?
-saved_for_later.13c4759: Salesforce task
 saved_for_later.c0cfc41: Salesforce tasks
 saved_for_later.efc007a: Save
 saved_for_later.ff62b50: Save a message to keep it here.
@@ -19123,7 +19126,6 @@ saved_for_later.64c151c: This list item was deleted
 saved_for_later.6701d77: This list item was not found
 saved_for_later.e579a05: This message was deleted
 saved_for_later.36588fc: This message was not found
-saved_for_later.a4328b4: Thread in {name}
 saved_for_later.6c82e6d: Time
 saved_for_later.7939660: To-do
 saved_for_later.1ca90f1: To-do actions
@@ -19162,7 +19164,6 @@ saved_for_later.16d8523: You’re all caught up on to-dos.
 saved_for_later.08ede1d: sent a video clip
 saved_for_later.d298a2b: sent an audio clip
 saved_for_later.d123b11: shared a GIF
-saved_for_later.f5dccdf: {author} in {channel}
 saved_for_later.cfec020: {count, plural, =1 {# overdue} other {# overdue}}
 saved_for_later.42910ff: {count} in progress
 saved_for_later.02d2d69: {count} saved items cleared
@@ -22148,7 +22149,6 @@ singer.ee53df5: This saved reply has attachments and can’t be sent from the pr
 singer.143e70c: This view’s empty. In the best way.
 singer.7863f75: Thread
 singer.9723544: Thread actions
-singer.a4328b4: Thread in {name}
 singer.d56662b: Thread replies
 singer.bb12e8a: Threads
 singer.b56479d: Time stopped out here.
@@ -25090,7 +25090,20 @@ solutions_onboarding.8fa742a: View project brief
 solutions_onboarding.b4bde2d: View project tracker
 solutions_onboarding.e6ce948: 👋 Welcome to the {channelName} channel
 sonic-toolbar.205b456: Workspaces
+sounds.64ac84f: Boing
+sounds.fe57471: Boop
+sounds.e9c8126: Boop Plus
+sounds.739f080: Ding
+sounds.0a088b3: Drop
+sounds.03dcb97: Here you go
 sounds.94dd9e0: Hi
+sounds.5ecf8fb: Hummus
+sounds.68a10a4: Knock Brush
+sounds.d8e561c: Plink
+sounds.50831db: Ta-da
+sounds.80ab4f2: Whoa!
+sounds.0bbcdbd: Wow
+sounds.0099515: Yoink
 speed_bump_modal.682ac21: <r1>Discard changes?</r1> Closing this window will cancel any unsaved changes.
 speed_bump_modal.d62027d: Close & Discard
 speed_bump_modal.ced7d4a: Keep Editing
@@ -26211,7 +26224,6 @@ today.23a9769: Remove from list
 today.3be626d: Remove to-do
 today.278c3e3: Request Access to Today
 today.4286b31: Request Today Access
-today.13c4759: Salesforce task
 today.36a33cb: Saved is for everything else
 today.273825b: Saved item
 today.8fec252: Send to Slackbot
@@ -27500,6 +27512,7 @@ workflow_builder.4f41336:  and
 workflow_builder.0e37539: "Only visible to you" Message
 workflow_builder.127f729: "{segmentTitle}" step added
 workflow_builder.7f74002: "{segmentTitle}" step updated
+workflow_builder.238c01f: #General
 workflow_builder.a45046f: (first matching branch will run)
 workflow_builder.b16c7ac: (optional)
 workflow_builder.c99c13b: ))&&(z=Y.createElement(H),Y.head.insertBefore(z,Y.querySelector(
@@ -27543,6 +27556,8 @@ workflow_builder.bf56f90: <strong>You are not a member of the selected channel.<
 workflow_builder.ab38717: <strong>{label}</strong> with {categoryLabel}
 workflow_builder.3002de7: <strong>{workflowName}</strong> is published and available to use in Slack. Kick off your workflow to test it out and see how it looks.
 workflow_builder.cab0c6b: <strong>{workflowName}</strong> is published and ready to use in Slack. Test it out by copying the shortcut URL and pasting in a message to a person or channel.
+workflow_builder.03ff3ab: @display name
+workflow_builder.affb52f: @zoe
 workflow_builder.24a291f: @{user}
 workflow_builder.c59f9c4: A Salesforce channel for this record is already being created in an earlier step. Remove this step to continue.
 workflow_builder.abb9cc4: A Slack admin has restricted who can use this step when starting the workflow <strong>On a schedule</strong>. Choose another way to start the workflow.
@@ -27749,6 +27764,7 @@ workflow_builder.77dfd21: Cancel
 workflow_builder.f840ac6: Canceled
 workflow_builder.273d582: Cannot access file
 workflow_builder.a3f80b8: Canvas
+workflow_builder.f3f9267: Canvas Title
 workflow_builder.4f51ed7: Canvas variables from triggers are not allowed in this step. Please remove them to continue.
 workflow_builder.e2d397a: Canvases
 workflow_builder.fc08c02: Can’t load agents. Close this step and open it again.
@@ -27811,6 +27827,7 @@ workflow_builder.54c7462: Close AI workflows banner
 workflow_builder.91fd90e: Close activity side panel
 workflow_builder.4dd1f29: Close and Discard
 workflow_builder.baa5503: Close preview
+workflow_builder.f435c85: Code & symbol
 workflow_builder.1cdca63: Code channels created by workflows are always public.
 workflow_builder.0f3b3a1: Collapse branch {branchIndex}
 workflow_builder.b86fced: Collecting info in a form
@@ -28021,6 +28038,7 @@ workflow_builder.01abec0: Entry point: choose another step for form
 workflow_builder.03f5ce0: Error code
 workflow_builder.42d014e: Error in {step_name}
 workflow_builder.805e86a: Errors
+workflow_builder.ea722c8: European
 workflow_builder.41e3873: Evaluating conditions
 workflow_builder.6734e19: Evening
 workflow_builder.8c19c76: Events in {name}
@@ -28163,6 +28181,7 @@ workflow_builder.ae6084c: Instructions for builder:
 workflow_builder.2655b5d: Instructions information
 workflow_builder.9edcfff: Integer
 workflow_builder.5b52a0b: Interactive buttons {newBadge}
+workflow_builder.1d69a34: Intl local date
 workflow_builder.7383633: Invalid content. Remove any '{{' '}}' characters.
 workflow_builder.73b9d15: Invalid format.
 workflow_builder.c6115bb: Invalid question
@@ -28172,6 +28191,7 @@ workflow_builder.a09d074: Invite {userLabel} to {channelLabel}
 workflow_builder.9707291: It looks like you don't have any responses yet. When responses come in, you can download them here.
 workflow_builder.2053ee4: Item limit
 workflow_builder.f492b4d: Jade
+workflow_builder.2973b25: Jan 1, 2023 1:23pm
 workflow_builder.ced7d4a: Keep Editing
 workflow_builder.d4d9e38: Keep editing
 workflow_builder.d9f3692: Keep it
@@ -29104,6 +29124,7 @@ workflow_builder.1596e66: Whoops! Template names cannot have emojis.
 workflow_builder.26c6046: Whoops! That name is reserved.
 workflow_builder.10a09b8: Whoops! Workflow names cannot have emojis.
 workflow_builder.4312ef7: With conditional branching, two or more buttons can be mapped to perform specific steps.
+workflow_builder.5cc8b46: With local time
 workflow_builder.d7a4841: Workflow
 workflow_builder.8e6be08: Workflow Actions
 workflow_builder.b3e3b7a: Workflow Builder
