@@ -2000,8 +2000,10 @@ apps.99aaf3a: Don’t Allow
 apps.4731db6: Grant {appName} Access
 apps.4c852b2: Show less
 apps.25911d4: Show more
+apps.3dca670: {appName} would like to do the following in <strong>all channels it’s a member of</strong>:
 apps.798e7d6: {appName} would like to do the following in your direct message with {channelName}:
 apps.28fcf44: {appName} would like to do the following in {channelName}:
+apps.7f5cbfa: {appName} would like to:
 apps_browser.61cc55a: Add
 apps_browser.3ce6301: Add agents and apps to {channelName}
 apps_browser.1ae2c6a: Add app
@@ -4316,7 +4318,6 @@ channel_details.d8a3740: User not found. Check the user settings and try again.
 channel_details.944b88d: VIP
 channel_details.253b4dd: View Settings
 channel_details.badd385: View details
-channel_details.dac6cd8: View full profile
 channel_details.80b8479: View in Slack Marketplace
 channel_details.7d9ff4f: Visibility
 channel_details.f8f3b6f: Visitors
@@ -12265,6 +12266,7 @@ launch_market_segmentation_modal.6e6a6f2: Other
 launch_market_segmentation_modal.dd64c0f: Project Management
 launch_market_segmentation_modal.3da4745: Skip
 launch_market_segmentation_modal.3de3cef: To explore AI tools and apps
+launch_market_segmentation_modal.00040ba: Work
 launch_market_segmentation_modal.6b168f9: Work starts with a message.
 launch_market_segmentation_modal.3bc45fa: Working with partners and vendors
 launch_market_segmentation_modal.c4902a1: Your apps work alongside it.
@@ -13449,7 +13451,6 @@ member_profile.92ebd91: View Message History
 member_profile.1e65f82: View as
 member_profile.57c7cfa: View coverage plan
 member_profile.044a38a: View files
-member_profile.dac6cd8: View full profile
 member_profile.0e77aee: View preferences
 member_profile.b98795a: View profile
 member_profile.9aff3dc: View your files
@@ -13530,14 +13531,12 @@ menu.c0774ce: Browse apps
 menu.2190a3b: Browse channels
 menu.124c499: Browse external connections
 menu.524932e: Browse files
-menu.7bd6043: Canvas details
 menu.c1ecc60: Change to a private channel
 menu.c24b99e: Channel details
 menu.164ed0a: Channel options
 menu.bbfa773: Close
 menu.8962525: Close conversation
 menu.2dad455: Close conversation: {title}
-menu.78b2866: Conversation details
 menu.db62f1e: Conversation options
 menu.af74f7c: Copy
 menu.dc6bf85: Copy channel email address
@@ -13619,10 +13618,6 @@ menu.09c8ea4: New activity within the last 30 days
 menu.a388818: New window
 menu.522fe5b: No messages in at least 30 days
 menu.753a22b: Notifications
-menu.2b2df31: Open app details
-menu.fc8e543: Open canvas details
-menu.489fd24: Open channel details
-menu.61ec70d: Open conversation details
 menu.5a99577: Open in Slackbot
 menu.e23fa2c: Open in floating window
 menu.c103886: Open in home
@@ -13689,12 +13684,10 @@ menu.acdf387: View app details
 menu.fa4fe5f: View channel details
 menu.da9ea9a: View channel insights
 menu.2c07fc7: View conversation details
-menu.dac6cd8: View full profile
 menu.80b8479: View in Slack Marketplace
 menu.4d66568: View members
 menu.225220d: View paused workflows
 menu.b98795a: View profile
-menu.7f25898: View {quipLabel} details
 menu.d7a4841: Workflow
 menu.9dda926: Workflow options ready
 menu.37acf9d: You do not have permissions. Please contact your admin.
@@ -23368,6 +23361,7 @@ slackbot-ai.f1f1450: Create task
 slackbot-ai.3cde32a: Create with Slackbot
 slackbot-ai.6ef32f9: Create your first task
 slackbot-ai.5d73cc3: Created by
+slackbot-ai.239dce6: Customize
 slackbot-ai.366371f: Customize Slackbot
 slackbot-ai.91e1bb5: Customizing settings for {channelName}
 slackbot-ai.b58b1c6: Daily at {time} {timezone}
@@ -23666,6 +23660,7 @@ slackbot-ai.a6f47e0: Upgrade
 slackbot-ai.3e15a02: Upgrade to Business+
 slackbot-ai.9ec93a1: Use {calendar} instead
 slackbot-ai.8401143: Use {name} in Slackbot conversations
+slackbot-ai.2caff60: View Skill
 slackbot-ai.2978959: View all in Slackbot history
 slackbot-ai.36d9162: View all {totalCountStr} results
 slackbot-ai.9c348f9: View details for {taskTitle}
@@ -26868,6 +26863,7 @@ view.2e98813: Agents & Apps
 view.0124bb7: Agents & tools
 view.844df14: All channels
 view.7aeeec0: All people
+view.7149834: Also known as {names}
 view.880d2f8: Anything Albert missed?
 view.fc4a695: App
 view.7c3d598: App Details
@@ -26883,16 +26879,16 @@ view.8703a74: Catch up
 view.879f0b1: Channel
 view.1e38158: Channel preview
 view.66c7734: Chart
-view.8610e3e: Charts
 view.2ced57f: Chat
+view.f477cb9: Check facts
 view.7ed2590: Check the facts about you
 view.bbfa773: Close
 view.749776f: Close Channel
 view.a8c64a7: Code Channels
-view.e3577c1: Commitment
-view.24dcc06: Commitments
 view.1df39aa: Compact
 view.4f9be05: Content
+view.fd83da3: Contested
+view.07ec919: Couldn’t load this page
 view.578ad30: Couldn’t save that mark. Try again.
 view.3c7746e: Created by agents
 view.1641c52: Ctrl Alt Click
@@ -26904,7 +26900,6 @@ view.ad28fd6: Customize tabs
 view.05a3b9f: DM
 view.0e8e35d: DMs
 view.7f59a1f: Decision
-view.af2f32c: Decisions
 view.e214b8a: Document
 view.e9b450d: Done
 view.22a31d8: Drafts
@@ -26922,7 +26917,6 @@ view.19adc47: Folders
 view.7e13d94: For you
 view.2da47d9: From huddles
 view.9fe00ac: Goal
-view.48d8c62: Goals
 view.07c2964: Google Drive
 view.e4c1712: Head back to home to send your first message
 view.c47ae15: Help
@@ -26937,12 +26931,14 @@ view.b6bd42e: In progress
 view.7b23670: Item view
 view.9caf661: Joined from: {name}, because of the same email
 view.b465751: Keyboard Shortcuts
+view.bfc3c2d: Last seen {date}
 view.56e2f5d: Later
 view.d051707: Link
 view.a1fffaa: List
 view.57c9502: Lists
 view.dfe60ca: Load more
-view.80d7e98: Loading the wiki…
+view.0c674f1: Loading pages…
+view.053228a: Loading page…
 view.6311650: Managed by you
 view.afde92b: Mark each fact right or wrong. Albert uses your marks to test itself.
 view.13018e3: Marked right
@@ -26968,7 +26964,6 @@ view.1ed2e7b: New message
 view.0caea46: No facts about you yet.
 view.cac330d: No projects yet
 view.b54a538: Nothing saved yet
-view.8d3fe6b: Nothing written yet
 view.c18f8f2: Notification
 view.753a22b: Notifications
 view.6ab14bd: One line is enough
@@ -26976,18 +26971,14 @@ view.57d4066: OneDrive & SharePoint
 view.a75732d: Open in new window
 view.03a322d: Open in split view
 view.2cd7504: Org chart
-view.b8640bd: Org unit
-view.6ea6301: Org units
 view.0760524: Organizations
 view.6e6a6f2: Other
+view.dc386a0: Page not available
 view.b37554f: People
 view.d06d555: Permissions
 view.8c41ae8: Person
 view.8bdb8bb: Primary View
 view.12f4c13: Process
-view.ed7308b: Processes
-view.dd3b86d: Product
-view.fe0a091: Products
 view.ff4fc02: Profile
 view.f6f4da8: Project
 view.53e890d: Projects
@@ -27011,11 +27002,14 @@ view.b34fd41: Send An Invitation
 view.1a6bda2: Session Channels
 view.d97d1ee: Show
 view.d94dfbe: Show fewer
+view.4db0ac9: Show more pages
 view.f5171c9: Sidebar
 view.430b38b: Slack
 view.e21da9e: Slack Connect
 view.9fbb94b: Slackbot
 view.bdc5259: Slackbot AI
+view.fb3ee02: Some lines couldn’t be loaded. Try again later.
+view.4e90159: Some pages couldn’t be listed.
 view.2eb56be: Sources
 view.6ef62ba: Split View
 view.5d53e18: Split panel width
@@ -27028,13 +27022,15 @@ view.0424f6e: Table
 view.2a4d562: Tabs
 view.090ec5f: Tasks
 view.2188872: Team
-view.cbfd44d: Teams
 view.f25b700: Templates
+view.d5190c4: The text of this page is being written. The lines below are already here.
+view.01cf127: The wiki couldn’t load. Try again later.
 view.100a84d: There’s a policy that doesn’t allow you to message this group.
 view.3c29e4f: There’s a policy that doesn’t allow you to message {memberName}.
 view.be4fecf: These organizations are no longer connected.
 view.4ef1114: This channel is no longer shared with your organization.
 view.541cf3b: This conversation is for notifications only.
+view.c274c91: This fact changed, so your note wasn’t sent.
 view.7863f75: Thread
 view.269292c: Thread in {channelName}
 view.bb12e8a: Threads
@@ -27046,9 +27042,9 @@ view.5b2971b: Today - Agenda
 view.033ab37: Today - Unreads
 view.4fa8cc8: Tools
 view.7e13bd1: Topic
-view.07e4f9c: Topics
 view.5bcd602: Transcript
 view.042c862: Try again
+view.288edef: Try again in a moment.
 view.39fc721: Undo
 view.95ed8c1: Unread Messages
 view.e6ba0dd: Unreads
@@ -27059,11 +27055,14 @@ view.1f0c0fc: Use the arrow keys to move the panel
 view.9f8a238: User
 view.4add952: User groups
 view.10a47da: What’s New
+view.4f983a6: Wiki
+view.00040ba: Work
 view.b3e3b7a: Workflow Builder
 view.e38e3ca: Workflow Creation
 view.5d7024a: Workflow Editor
 view.a5a8719: Workflow details
 view.825ce9e: Workflows
+view.78f9a3b: Written text is paused for today. The lines are still here.
 view.346a2f5: Wrong
 view.961c830: You and {member} are no longer connected.
 view.3f3c77d: You and {member} are not connected. To message them, you’ll need to send an invitation.
@@ -27073,17 +27072,23 @@ view.3eaacda: You are viewing {channel_or_group}, an archived channel
 view.0302004: You are viewing {channel_or_group}, an archived channel. <a>Unarchive</a> it to continue the discussion.
 view.bcf43d4: You don’t have permission to message this conversation.
 view.ac1e950: You don’t have permission to message {member}.
-view.f2c2f44: Your agent keeps what it learns about you, your projects and your people here.
+view.cb99ffb: You may not have access to what it’s about, or it’s no longer in the wiki.
 view.adcfed3: Your templates
 view.732f940: Your two organizations are no longer connected.
+view.0c1a054: replaced {date}
+view.24fe0ae: said by {name}
 view.86a3db1: {app_name} has turned off direct messaging, so you won’t be able to respond to these messages.
 view.bae2c62: {channelName} (Channel)
 view.cc9bf27: {channelName} (DM)
 view.45f4a1c: {channel_or_group} was moved to another workspace.
+view.8244f1d: {count, plural, =1 {# older line isn’t shown} other {# older lines aren’t shown}}
 view.42910ff: {count} in progress
+view.6f3de95: {first} {second}
 view.468ddec: {label}: {value}
 view.02612bf: {listTitle}, List template
+view.4a5634a: {number}, line: {line}
 view.9af6499: {teamName} templates
+view.ed1da6d: {title}. {description}
 view.5f6c4fd: {totalUnreadHighlights, plural, =1 {# new item} other {# new items}}
 view.7cbc1b0: ⌘ Click
 view.362e018: ⌘ Opt Click
