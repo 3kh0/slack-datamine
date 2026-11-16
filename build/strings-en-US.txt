@@ -1903,11 +1903,10 @@ app_details.1d06648: {appName} is installed on {teamName}
 app_details.2a4c7f0: ‘{appName}’ will be able to do
 app_details.96cb78d: ‘{appName}’ will be able to view
 app_dialog.b16c7ac: (optional)
+app_dialog.3a4245a: Learn more about {appName}
 app_dialog.2dacf65: Submit
 app_dialog.ab90d9d: This field is required.
 app_dialog.26dc55d: We had some trouble connecting. <a>Try again?</a>
-app_dialog.38ffdb9: You can't enter more than {maxLength, plural, =1 {# character} other {# characters}}.
-app_dialog.d800655: You must enter at least {minLength, plural, =1 {# character} other {# characters}}.
 app_home.f0ee13e: Access restricted
 app_home.378cbbf: Learn More
 app_home.cce7155: Reload
@@ -5025,6 +5024,7 @@ channel_sidebar.40249da: Nothing new. Recent sessions will show up here.
 channel_sidebar.2466eb7: Nothing to see here — you’re caught up on your less important unreads.
 channel_sidebar.27759e7: Now that your workspace is on a free plan, all your conversations are organized in default sections. You can also still star any conversations you’d like.
 channel_sidebar.311a5ee: Open DM
+channel_sidebar.4945534: Open Slackbot on the side
 channel_sidebar.e23fa2c: Open in floating window
 channel_sidebar.a75732d: Open in new window
 channel_sidebar.03a322d: Open in split view
@@ -5111,6 +5111,7 @@ channel_sidebar.9fbb94b: Slackbot
 channel_sidebar.bee54c9: Something went wrong.
 channel_sidebar.adc4e96: Sort
 channel_sidebar.a2a5bde: Sort by
+channel_sidebar.329af64: Split view
 channel_sidebar.f587639: Star agent
 channel_sidebar.6e4ad4e: Star app
 channel_sidebar.5b676f6: Star channel
@@ -18155,7 +18156,6 @@ quip_collab.e36f592: More Options
 quip_collab.14373e5: Move a list item down
 quip_collab.67ae66a: Move a list item up
 quip_collab.6403f2b: New
-quip_collab.6e206f1: New Action
 quip_collab.252f486: New Style
 quip_collab.103101b: Next Result
 quip_collab.56b5224: Next line
@@ -19185,6 +19185,8 @@ search.2586672: 6+ months old
 search.7ff2a8e: <b>Connected!</b> Results from connected apps will now start appearing in search. Manage or connect more apps here, anytime.
 search.ef4ef01: <b>Connected!</b> Results from connected apps will now start appearing in search. Manage them here, any time.
 search.96c5217: <slackbotLabel>Ask Slackbot</slackbotLabel> <description>in your own words to search differently across more sources.</description>
+search.3c3bc09: <strong>{count, plural, =1 {# result} other {# results}}</strong> found.
+search.2d396f8: <strong>{count}+ results</strong> found.
 search.2a9c572: <strong>{count}</strong> results found
 search.dff3386: A DM with someone
 search.ae40845: A channel
@@ -19354,6 +19356,7 @@ search.8250067: Could we ask you a few quick questions about your most recent se
 search.cf3209c: Couldn’t join {channelName}.
 search.a3f6f56: Couldn’t leave {channelName}.
 search.253dc5f: Couldn’t load this thread
+search.11992d1: Couldn’t search this channel. Try again in a moment.
 search.6e157c5: Create
 search.daaf089: Create Channel
 search.3d1ee95: Create New Section
@@ -19648,6 +19651,7 @@ search.10d98b5: New List
 search.bceeb45: New hire
 search.f10051f: New section
 search.c195083: New surface
+search.79e5467: Newer result
 search.d044282: Newest
 search.96836a4: Newest channel
 search.bc98198: Next
@@ -19658,6 +19662,8 @@ search.0f112c9: No matching sessions or workflows
 search.b6b23a4: No message results found, Try <bold>other related matches:</bold>
 search.03a9680: No message results found, Try other related matches
 search.bb60f28: No recent agents
+search.651e0e7: No recent matches
+search.d7f5544: No recent matches in this channel.
 search.b993b0c: No results
 search.658e79f: No results found
 search.3155fc9: No workflows or tasks are available in this workspace.
@@ -19679,6 +19685,7 @@ search.c67a89d: Nothing turned up
 search.3c5bf77: November
 search.72a83ad: Objects
 search.87206ae: October
+search.c4ec95f: Older result
 search.c47bb88: Oldest
 search.dc095d6: Oldest channel
 search.e0049a6: On
@@ -19902,6 +19909,7 @@ search.1b978d5: Show on top as a filter
 search.ca5404d: Show results for:
 search.6163112: Show results for: {query}
 search.2bf8e04: Show results in this channel for:
+search.739b604: Show results in this channel for: {query}
 search.72f96a9: Show search history
 search.0f38ffa: Show {count} more
 search.21307cf: Show {count} more unreads and drafts
@@ -20178,6 +20186,8 @@ search.a0f0df2: {count} file types
 search.39a5055: {count} recently used
 search.bc67a44: {count} selected
 search.22e02de: {count} types
+search.7e20641: {current} of {total}
+search.aee50c1: {current} of {total}+
 search.870984d: {date} at {time}
 search.8951b81: {displayString} {count, plural, =1 {result} other {results}}
 search.90b640f: {feedbackLink}
@@ -23573,7 +23583,6 @@ slackbot-ai.0f6e252: Pending apps
 slackbot-ai.d06d555: Permissions
 slackbot-ai.23896cc: Prep
 slackbot-ai.33247aa: Prep for a meeting
-slackbot-ai.0869180: Prep for {title}
 slackbot-ai.5ef5732: Preparing your briefing…
 slackbot-ai.95cc208: Preparing your plan…
 slackbot-ai.f1fbb2b: Preview
@@ -23985,7 +23994,6 @@ slackbot-home.0217856: No meetings
 slackbot-home.396cc16: No meetings today
 slackbot-home.877e551: Not using your view as context. Turn back on anytime.
 slackbot-home.e65ed66: Past conversations, tasks, and skills. Open the sidebar anytime.
-slackbot-home.0869180: Prep for {title}
 slackbot-home.6be9515: Prompts, skills and integrations to help you get your work done
 slackbot-home.a47df33: Reading along in {label}
 slackbot-home.957fe4e: Reading your {label} messages
@@ -25961,8 +25969,10 @@ threads.5339af6: Members will be able to reply and react
 threads.ebdc3ae: Message Slackbot
 threads.8d53e1f: Messages, replies, and reactions will be removed
 threads.6403f2b: New
+threads.79e5467: Newer result
 threads.b993b0c: No results
 threads.34c95d1: No unread messages
+threads.c4ec95f: Older result
 threads.2f7d13c: Only selected team members can post in this thread.
 threads.68eedc7: Open in channel
 threads.825450c: Organize my sidebar — I’m in {count} channels
@@ -26925,7 +26935,7 @@ view.2e98813: Agents & Apps
 view.0124bb7: Agents & tools
 view.844df14: All channels
 view.7aeeec0: All people
-view.880d2f8: Anything Albert missed?
+view.f1c375e: Anything {agentName} missed?
 view.fc4a695: App
 view.7c3d598: App Details
 view.b8e4dd2: App details
@@ -26995,7 +27005,7 @@ view.a1fffaa: List
 view.57c9502: Lists
 view.dfe60ca: Load more
 view.6311650: Managed by you
-view.afde92b: Mark each fact right or wrong. Albert uses your marks to test itself.
+view.e954cbb: Mark each fact right or wrong. {agentName} uses your marks to test itself.
 view.13018e3: Marked right
 view.6d263eb: Marked wrong
 view.0c77aee: Media
