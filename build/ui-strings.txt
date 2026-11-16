@@ -2678,6 +2678,7 @@ Channel tab name
 Channel type
 Channel variables from triggers are not allowed in this step. Please remove them to continue.
 Channel views
+Channel visibility
 Channel visitor
 Channel was updated (privacy, permissions or externally shared status changed)
 Channel welcome information is now available.
@@ -5108,6 +5109,7 @@ Edit channel description shortcut - opens Channel Purpose dialog
 Edit channel managers
 Edit channel topic
 Edit channel topic shortcut - opens Channel Topic dialog
+Edit channel visibility
 Edit channels
 Edit clip
 Edit columns
@@ -10331,6 +10333,7 @@ Move Singer onto a window, then choose Attach to ask about it.
 Move a saved file between the to_do and saved states
 Move a saved item between to_do and saved states
 Move a saved item between to_do and saved states (unguarded)
+Move a top-level message into a thread
 Move above
 Move agent
 Move agent to top of sunroof order
@@ -10377,6 +10380,7 @@ Move to new section
 Move to next display
 Move to project
 Move to section
+Move to thread
 Move view down
 Move view up
 Moved image down:
@@ -10663,6 +10667,7 @@ New slide
 New stage name
 New status name
 New surface
+New thread
 New to Slack
 New to Slack?
 New to this? Watch a quick video about managing your sales and more in Slack CRM.
@@ -11711,6 +11716,7 @@ Open the huddles edit topic modal
 Open the manual deny request modal from Slackbot message
 Open the meeting details view for a given calendar event
 Open the modal to set solution template permissions
+Open the move-to-thread modal for a message
 Open the new to-do composer
 Open the new to-do composer from the Business+ trial task list
 Open the pro pocket guide checklist panel
@@ -13156,6 +13162,7 @@ Records whether the last attempt to load slackbot AI projects failed
 Records whether the last bulk load of the membership index gave up un-hydrated
 Records which boot state machines client.init hydrated on this boot
 Recount channel unreads, loading history if needed
+Recount unread counts after a thread read
 Recover from attached_draft_exists error
 Recovers viewer-formatted Salesforce field names when their message is rendered
 Rectangle 1
@@ -15814,6 +15821,7 @@ Set the user-specified wide sidebar width and mode
 Set the user-specified wide sidebar width and mode (use setWideSidebarColumn instead)
 Set the value of hasUploadedPhoto
 Set the value of isFocusedOnEmailInvitesInput
+Set the version of the user prefs payload
 Set the video clip background image and selection key
 Set the view for the specified container in a child window
 Set the view for the specified container in the main window
@@ -16603,11 +16611,13 @@ Show 10 recent conversations in my sidebar
 Show AI modified toast
 Show Advanced Settings
 Show Agents in direct messages
+Show All
 Show All Open Tasks
 Show All Types
 Show Approval Work Item notification
 Show Call
 Show Focused Section in Model Browser
+Show More Pages
 Show More Skills
 Show New Activity
 Show Preview Panel
@@ -16702,7 +16712,6 @@ Show more actions
 Show more details
 Show more features
 Show more live huddles
-Show more pages
 Show more permissions
 Show more recents
 Show muted conversations
@@ -16770,6 +16779,7 @@ Shows a toast when a user changes the channel property for AI notes autostart
 Shows an error message toast when user actions on a request fail.
 Shows an error toast when an app interaction fails due to restricted access
 Shows as the sender of each lead message, and in Workflow Builder.
+Shows every loaded page of a kind
 Shows message pane for bots
 Shows the Later view or toggles the Workspace Switcher
 Shows the contacts ready toast
@@ -18216,6 +18226,7 @@ There are no eligible workflows to choose from
 There are no eligible workflows to choose from, try creating one with a template
 There are no layers in the model.
 There are no open windows, persisting an empty scene.
+There are no recent messages in this channel to move this message to.
 There are no workflows configured for this channel
 There are not any sidekicks available for you to use just yet.
 There aren
@@ -18947,6 +18958,7 @@ Triggers a side-effect that opens the compare plans modal in client
 Triggers a side-effect that opens the data table fullscreen modal
 Triggers a side-effect that opens the data_visualization data as a table modal
 Triggers a side-effect that opens the edit record modal in client from block kit
+Triggers a side-effect that opens the move-to-thread modal
 Triggers a side-effect that opens the page block share modal
 Triggers a side-effect that opens the plan sources modal
 Triggers a side-effect that opens the record creation modal in client
@@ -19222,6 +19234,7 @@ Unable to share surface. Refresh and try again later.
 Unable to share to the channel. Please try again.
 Unable to stringify assigned_items_refinements
 Unable to stringify focus metadata
+Unable to update channel visibility. Please try again later.
 Unarchive a channel
 Unarchive channel
 Unarchive item

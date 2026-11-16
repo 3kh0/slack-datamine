@@ -247,6 +247,7 @@ channels.prefs.set: channel_id, prefs
 chat.action: bot, payload
 chat.attachmentSuggestion: app_id, payload, service_id
 chat.deleteBulkJoinLeave: channel_id, first_message_ts, last_message_ts
+chat.moveMessageToThread: channel, thread_ts, ts
 chat.postMessage: blocks, channel, text
 chat.refreshUnfurl: channel, entity_id, ts
 chat.removeFile: channel, file, ts
@@ -279,7 +280,6 @@ client.codeChannels.setPullRequestState: channel_id, comment, pr_url, state
 client.codeChannels.setReviewThreadResolved: channel_id, is_resolved, pr_url, thread_node_id
 client.codeChannels.submitReview: channel_id, event, pr_url, revision, text
 client.counts: _x_reason, channel_ids, include_all_unreads, include_file_channels, org_wide_aware, thread_counts_by_channel
-client.init: _x_reason, include_relevant_onboarding
 client.tbd.codeChannels.open: purpose
 client.tbd.facts.flag: action, fact_id, note
 client.tbd.facts.forMarking: cursor, limit
