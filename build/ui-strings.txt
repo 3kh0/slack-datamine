@@ -1054,6 +1054,7 @@ Adds specified channels as marked to digest. Does not remove other channels as m
 Adds the given workflowId to the open workflows store and to localStorage
 Adds the member to the presence subscription or increments the associated count
 Adds the members assigned to the role
+Adds the next page of the brain
 Adds to recently viewed file ids for the peek
 Adds to the externalsearch results
 Adds to the search results
@@ -1392,6 +1393,7 @@ Anyone on your team who can see those contacts and leads can read the saved emai
 Anyone with a link
 Anyone with access to the template can create new lists using the same contents.
 Anyone you share this link with can join the channel.
+Anything Albert missed?
 Anything Slackbot already changed stays changed. An action in progress may still finish.
 Anything changed? Record progress and updates in your opportunity list.
 Anything else you want to add?
@@ -2707,6 +2709,7 @@ Check Tasks
 Check and mark card as seen
 Check back in on your lists, any time
 Check draft request
+Check facts
 Check for system media access
 Check if a file is starred, and if it is, don
 Check if a window with this id exists already
@@ -2721,6 +2724,7 @@ Check needed
 Check onboarding pref then navigate to or save the initial channel
 Check out these help articles about individual features. 
 Check out what happened this week
+Check the facts about you
 Check to see if the user has the appropriate scopes to call external directory APIs
 Check upcoming close dates
 Check who can use this app and try again.
@@ -5319,7 +5323,7 @@ End your voice call with Slackbot?
 Ending search session
 Ends DND mode triggered by explicitly snoozing notifications
 Ends DND mode triggered by the DND schedule
-Ends a walk of the brain
+Ends a read of the list
 Ends call
 Enforce security policies such as blocking jailbroken devices, blocking file downloads on desktop, and blocking file downloads and message copying on mobile.
 Engagement trends
@@ -9767,6 +9771,7 @@ Mark daily digest as read
 Mark digest as unread
 Mark dnd as stale for multiple users (circular)
 Mark downgrade stats as not loaded
+Mark each fact right or wrong. Albert uses your marks to test itself.
 Mark emoji collections as fetch (or not fetched
 Mark incomplete
 Mark invite notifications as viewed by clearing them after a delay
@@ -9815,6 +9820,8 @@ Markdown preview
 Marked all unread messages and notifications as read.
 Marked as important
 Marked as read.
+Marked right
+Marked wrong
 Marketing Assets
 Marketing assets
 Marks Slackbot Mini as opened on this device
@@ -10211,6 +10218,7 @@ Misc Mapping #2
 Mismatch channel in midrow parsing
 Mismatch in preview video element
 Mismatched screen and hostWindowBounds.
+Missed fact added
 Missing 
 Missing Data
 Missing ID
@@ -10834,6 +10842,7 @@ No entity id specified, cannot fetch
 No entries yet. Add a word or phrase above.
 No existing channel found for draft
 No external messaging in Slack
+No facts about you yet.
 No file permalink available
 No file results for 
 No file system is available.
@@ -13144,6 +13153,7 @@ Records that a conversation left one specific project
 Records that a page could not be read from the brain
 Records that a plans comparison choice opened checkout
 Records that the Upcoming row played a scheduled external huddle highlight
+Records that the next page of the brain
 Records the Slackbot thread a tab showed when it was left; undefined forgets it
 Records the calendar-first onboarding kickoff thread for this session
 Records the last time the connected-calendars data was fetched
@@ -16714,6 +16724,7 @@ Show more actions
 Show more details
 Show more features
 Show more live huddles
+Show more pages
 Show more permissions
 Show more recents
 Show muted conversations
@@ -17487,11 +17498,12 @@ Starting unconstrained content share with chime API
 Starts a download on the desktop app
 Starts a new AI assistant or agent thread
 Starts a new Slackbot conversation
-Starts a walk of the pages the brain lists
 Starts an automation groups request
 Starts assistant thread and upserts returned message
 Starts from a button
 Starts reading one page from the brain
+Starts reading the first page of the brain
+Starts reading the next page of the brain
 Starts streaming unreads with timeout
 Starts the Halloween costume conversation from its server-owned prompt
 Starts the signin process for an additional workspace

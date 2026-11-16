@@ -34,7 +34,9 @@ client.codeChannels.getPullRequestSummary: channel_not_found, github_api_error, 
 client.codeChannels.listPullRequestComments: channel_not_found, github_api_error, github_connector_not_available, github_not_authenticated, github_rate_limited, github_revision_changed, github_sso_required, invalid_cursor, invalid_pr_url, restricted_action
 client.tbd.codeChannels.open: agent_unavailable, channel_creation_failed, channel_creation_in_progress, channel_not_found, no_default_workspace, restricted_action, team_not_found
 client.tbd.facts.flag: corrections_paused, fact_not_found, invalid_arguments
+client.tbd.facts.forMarking: invalid_arguments, marks_unavailable
 client.tbd.facts.list: channel_not_found, message_not_found, not_albert_message
+client.tbd.facts.mark: already_marked, fact_not_found, invalid_arguments, marks_unavailable, source_not_found
 client.tbd.wiki.list: internal_error, invalid_cursor
 client.tbd.wiki.read: internal_error, page_not_found
 client.tbd.wiki.unjoin: internal_error, invalid_arguments, join_not_found

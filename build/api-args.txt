@@ -282,8 +282,10 @@ client.counts: _x_reason, channel_ids, include_all_unreads, include_file_channel
 client.init: _x_reason, include_relevant_onboarding
 client.tbd.codeChannels.open: purpose
 client.tbd.facts.flag: action, fact_id, note
+client.tbd.facts.forMarking: cursor, limit
 client.tbd.facts.list: channel_id, message_ts, with_links
-client.tbd.wiki.list: cursor
+client.tbd.facts.mark: fact_id, mark, note, source_id
+client.tbd.wiki.list: cursor, limit
 client.tbd.wiki.read: page_id
 client.tbd.wiki.unjoin: other_id, page_id
 connectInvites.list: channel, direction, include_invite_requests, invite_ids, invite_types, limit, only_pending_invites

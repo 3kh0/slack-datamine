@@ -401,6 +401,7 @@ about_page_security.44ac545: Vulnerability disclosure program URL
 about_page_security.7528fba: Vulnerability disclosure program covers Slack app
 about_page_security.5397e05: Yes
 access_limited.cef2fe0: Try Again
+access_limited.34ac7fd: Your current network has blocked this workspace.
 activate_solution_gallery.44b972e: Canvas template
 activate_solution_gallery.9b69a35: Invitations
 activate_solution_gallery.0323bf6: Invite teammates
@@ -1408,7 +1409,10 @@ ai.8d886c0: Something went wrong
 ai.89e7c42: Taking a look…
 ai.e52cf9d: Taking it all in…
 ai.cef2fe0: Try Again
+ai-apps.7b72482: About {aiAppName}
 ai-apps.a1e34f9: More actions
+ai-apps.3ae9cb0: Pin {name} to top bar
+ai-apps.c21b577: Unpin {name}
 ai-translations.77dfd21: Cancel
 ai-translations.a93e22e: Change translation language
 ai-translations.bbfa773: Close
@@ -1475,6 +1479,7 @@ ai_apps.7541648: Configuration
 ai_apps.fd90229: Content and info about you
 ai_apps.a03d887: Conversation history
 ai_apps.589cac5: Couldn’t load more agents. Please try again.
+ai_apps.39038f4: Enter a search query to find an agent.
 ai_apps.979e325: Explore AI agents that can help you get more done in Slack. Go to the AgentExchange to get started.
 ai_apps.3b6063d: Filter by organization
 ai_apps.defd9a4: Get the power of AI in context when you use an app’s AI-powered assistant alongside Slack conversations. Just click to open, and the assistant can proofread drafts, answer questions, and more.
@@ -1489,20 +1494,26 @@ ai_apps.7bb4405: Installed
 ai_apps.03397ac: Installed agent results
 ai_apps.760c8e6: Installed agents
 ai_apps.8f6ffeb: Internal agents
+ai_apps.af0a740: Learn more about agents
 ai_apps.bbfc8d3: Learn more about {agentName}
 ai_apps.9ecde87: Load More
 ai_apps.33ce417: Loading…
 ai_apps.bf58d17: Manage
 ai_apps.3ca4794: Manage connection
+ai_apps.bbc4a7c: Manage top bar agents
 ai_apps.68f4145: Message
 ai_apps.08db676: More about app permissions
 ai_apps.3606365: More about {appName}
 ai_apps.a1e34f9: More actions
+ai_apps.94db969: More agents
+ai_apps.becc8ab: More agents loaded
 ai_apps.71b35d4: Most relevant
 ai_apps.709a232: Name
 ai_apps.364e701: New Chat
 ai_apps.009bf6b: New chat
 ai_apps.56b58f1: No agents
+ai_apps.acbbf9b: No agents available.
+ai_apps.6a8c55b: No agents found. Try a different search query.
 ai_apps.587e293: No conversation history yet
 ai_apps.011321b: No matching agents
 ai_apps.bd5188a: No matching sidekicks
@@ -1520,6 +1531,7 @@ ai_apps.03a322d: Open in split view
 ai_apps.2fb9609: Open in split view for {agentName}
 ai_apps.bb1f603: Open {appName}
 ai_apps.1718e55: Open {name} agent
+ai_apps.3ae9cb0: Pin {name} to top bar
 ai_apps.86b41d6: Pinned by you
 ai_apps.9bef397: Pinned by your admin
 ai_apps.6fe36ed: Popular agents
@@ -1548,6 +1560,7 @@ ai_apps.196ce5f: There was a problem loading agents. Please try again.
 ai_apps.06245fe: This app hasn’t shared a privacy policy link. Contact the developer directly for more information.
 ai_apps.2b76d52: This tool uses generative AI, which can produce inaccurate or harmful responses. Review for accuracy and safety before using.
 ai_apps.2c37bbe: Try these prompts:
+ai_apps.c21b577: Unpin {name}
 ai_apps.621521f: Untitled
 ai_apps.9827032: View <app-pp-link>{appName}'s privacy policy.</app-pp-link>
 ai_apps.bdbf9a1: View <slack-pp-link>Slack’s privacy policy</slack-pp-link> and <tos-link>terms of service.</tos-link>
@@ -1562,6 +1575,7 @@ ai_apps.964694b: Your org doesn’t have any agents yet
 ai_apps.0608c40: agent
 ai_apps.3396883: {appName} is working with limited access. You can <update-access-link>update access</update-access-link> anytime.
 ai_apps.2f2bbaa: {isConnecting, select, true {Connecting…} other {Connect}}
+ai_apps.a2629ba: {name}, pinned
 ai_workspace_setup.e450199:  Welcome to #{name}
 ai_workspace_setup.2e8bbf3: Advanced settings
 ai_workspace_setup.77dfd21: Cancel
@@ -5727,13 +5741,25 @@ client_error_screens.1cfdfef: <a>Restart Slack</a>. Sometimes that’s all it ta
 client_error_screens.bcb2fef: <a>Try our suggestions for troubleshooting</a> connection issues.
 client_error_screens.a02101f: Browse Workspaces
 client_error_screens.e6de983: Continue to Your Workspace
+client_error_screens.dee8e91: From your organization:
 client_error_screens.cce7155: Reload
 client_error_screens.34b1507: Reload Slack
+client_error_screens.db89a00: Review Terms of Service
 client_error_screens.7e08abd: This is one of those times when we’re not sure what went wrong, but we do have some suggestions that might help.
 client_error_screens.ac37626: Time to join a workspace
+client_error_screens.16f9d38: To continue using Slack, please review and agree to your organization’s terms of service. Once accepted, please reload Slack.
 client_error_screens.06b4e2e: To work with {orgName}, join a workspace and you’ll be on your way.
 client_error_screens.d6180bf: Welcome to {enterprisePlanName}!
 client_error_screens.5c545dd: We’re having trouble loading your workspace
+client_error_screens.9ef3c0e: You can only access Slack during your shift
+client_error_screens.d66b5c6: You need to agree to your organization’s terms of service.
+client_error_screens.34ac7fd: Your current network has blocked this workspace.
+client_error_screens.40d4be6: Your current network will only allow you to access certain Slack workspaces (usually, just the ones you use for work). To get connected, change networks and try again.
+client_error_screens.a0a573b: Your workspace is joining an organization!
+client_error_screens.c19ad2b: Your workspace is joining the {teamName} organization!
+client_error_screens.3fd0313: You’re outside your shift
+client_error_screens.5e41e33: {teamName} is joining an organization!
+client_error_screens.3a97de8: {teamName} is joining the {enterpriseName} organization!
 cmd_handlers.ae237f2: *{agent_name}* can be added in Channel Settings.
 cmd_handlers.8ebc66c: *{agent_name}* can be removed in Channel Settings.
 cmd_handlers.ee6c628: *{cmd}* can only invite a user to a single channel.
@@ -14445,6 +14471,7 @@ messages_action_items.ec85297: Restore response
 messages_action_items.00e8abf: Summarize message
 messages_action_items.bfa17ca: Summarize thread
 migration_blocker_page.e6de983: Continue to Your Workspace
+migration_blocker_page.a0a573b: Your workspace is joining an organization!
 mobile_app_promos.f85027b: Already have the app? <link>Sign in</link>
 mobile_app_promos.b52b36b: Back
 mobile_app_promos.70afe9e: Dismiss
@@ -16517,13 +16544,11 @@ platform-admin.75c6b02: Remove Only
 platform-admin.efc007a: Save
 platform-admin.943a4ee: Save anyway
 platform-admin.9c6d505: Select channels
-platform-admin.1f4385b: Select channels to exclude
 platform-admin.9e34d30: Select groups
 platform-admin.ad3b538: Select people
 platform-admin.29b332d: Select specific people and groups who can use the app.
 platform-admin.1b110ee: Select specific people or workspaces
 platform-admin.1214f7d: Select specific people who can use the app.
-platform-admin.2ee9373: Some channels couldn’t be loaded due to a temporary error. Close and try again.
 platform-admin.14c3a74: Sorry, something went wrong. Try again in a moment.
 platform-admin.2d750dd: Specific people
 platform-admin.10e4b6f: Specific people and groups can use the app.
@@ -16554,7 +16579,6 @@ platform-admin.fc7f746: {personCount, plural, =0 {} =1 {# excluded person} other
 platform-admin.b20728a: {personCount, plural, =0 {} =1 {# previously-permitted person} other {# previously-permitted people}}{both, select, true { and } other {}}{groupCount, plural, =0 {} =1 {# previously-permitted group} other {# previously-permitted groups}} couldn’t be loaded and will lose access if you save.
 platform-admin.5129522: {shownText} and {remaining, plural, =1 {# other} other {# others}}
 platform-admin.58f233d: {text}, opens in new window
-platform-admin.0edc8b1: {unresolvedCount, plural, =1 {# previously-configured channel couldn’t be loaded and will be removed if you save.} other {# previously-configured channels couldn’t be loaded and will be removed if you save.}}
 platform-admin.1acd3e9: {workflowName} will be removed from all workspaces in your organization, and people won’t be able to use it anymore.
 platform-admin.2864df0: {workflow} has been removed from bookmarks
 platform-admin.50f51ff: {workflow} has been unpublished
@@ -17870,6 +17894,7 @@ quip_collab.1afff01: Attach
 quip_collab.acdac20: Audio
 quip_collab.75629af: Aug
 quip_collab.69d97c5: August
+quip_collab.a826c28: Backslash
 quip_collab.88d130a: Backspace
 quip_collab.82dd2cd: Block
 quip_collab.03aed4a: Block quote style
@@ -17915,6 +17940,7 @@ quip_collab.c7bd2af: Code block
 quip_collab.6b2e25a: Code block style
 quip_collab.93797c4: Code formatting
 quip_collab.fa473a7: Collapse or expand section
+quip_collab.b9ee3de: Comma
 quip_collab.61607a0: Comments cannot span multiple sections.
 quip_collab.04a2122: Confirm
 quip_collab.1ed02a9: Content with comments
@@ -18184,12 +18210,14 @@ quip_collab.a8cf720: Section expanded
 quip_collab.c3f76f1: Section has unsaved changes.
 quip_collab.954de4b: Selection contains content that is not allowed in a blockquote.
 quip_collab.924e280: Selection contains content that is not allowed in a callout.
+quip_collab.727ceca: Semicolon
 quip_collab.fdd289e: Sep
 quip_collab.b4b289a: Separator
 quip_collab.1c542e7: September
 quip_collab.09ca55c: Share
 quip_collab.c1c0e65: Share message
 quip_collab.469d5b1: Shift
+quip_collab.a2c169f: Slash
 quip_collab.a5d5b46: Slide
 quip_collab.b74dd13: Something
 quip_collab.59445c4: Sorry! We can’t create an anchor link that leads to work you did while offline. Try again once you have an internet connection.
@@ -20193,7 +20221,6 @@ session_channel_archive.7eac343: This channel is inactive. Archive it for everyo
 session_channel_archive.94ca019: This channel is inactive. Leave the channel to tidy up your sidebar — you can always rejoin it later.
 session_channel_archive.504fccb: This work is complete. Archive it for everyone — the contents will still be available in search, and you can always unarchive it in the future.
 session_channel_archive.4fd785e: This work is complete. Leave the channel to tidy up your sidebar — you can always rejoin it later.
-setup_page.2d0ab40: ),Li=n(
 setup_page.27e6d30: + {count, plural, =1 {# other} other {# others}}
 setup_page.850a65b: 1,001 +
 setup_page.92767dc: 101 - 500
@@ -23191,12 +23218,15 @@ slack_marketplace.7dd28ed: Free and paid plans available
 slack_marketplace.d51130a: Included with service subscription
 slack_marketplace.dc9d458: Paid
 slack_marketplace.0b015e5: Paid with free trial
+slack_scribe.6723f7d: 30 seconds left. Dictation will auto-submit.
 slack_scribe.3615d64: Add a new word or phrase
 slack_scribe.344d8b9: Add new
 slack_scribe.77dfd21: Cancel
 slack_scribe.64fbd99: Change
 slack_scribe.2546d71: Change dictation shortcut
+slack_scribe.2ce0814: Couldn’t access microphone. Check your browser permissions to use dictation.
 slack_scribe.616088d: Dictation Shortcut
+slack_scribe.1a1d287: Dictation didn’t work. Please try again.
 slack_scribe.860e1f9: Dictionary
 slack_scribe.271f3f4: Hold the shortcut to record, or double-tap it for hands-free mode.
 slack_scribe.1c2e569: Insert your most recent transcription again, wherever your cursor is.
@@ -26111,6 +26141,7 @@ today.a2a8a8e: Remind Me Later
 today.25df3f7: Remind me
 today.b87a192: Reminder
 today.dd26e50: Reminders are now due dates for your to-dos.
+today.23a9769: Remove from list
 today.3be626d: Remove to-do
 today.278c3e3: Request Access to Today
 today.4286b31: Request Today Access
@@ -26821,6 +26852,7 @@ video_player.c344bd3: Turn off captions
 video_player.6761b8a: Turn on captions
 video_scrubber.371f46f: Time scrubber
 view.81c0d91: Activity
+view.61cc55a: Add
 view.4e7afeb: Admin
 view.5ce2e6f: Agent
 view.c033824: Agent Browser
@@ -26833,6 +26865,7 @@ view.2e98813: Agents & Apps
 view.0124bb7: Agents & tools
 view.844df14: All channels
 view.7aeeec0: All people
+view.880d2f8: Anything Albert missed?
 view.fc4a695: App
 view.7c3d598: App Details
 view.b8e4dd2: App details
@@ -26849,6 +26882,7 @@ view.1e38158: Channel preview
 view.66c7734: Chart
 view.8610e3e: Charts
 view.2ced57f: Chat
+view.7ed2590: Check the facts about you
 view.bbfa773: Close
 view.749776f: Close Channel
 view.a8c64a7: Code Channels
@@ -26856,6 +26890,7 @@ view.e3577c1: Commitment
 view.24dcc06: Commitments
 view.1df39aa: Compact
 view.4f9be05: Content
+view.578ad30: Couldn’t save that mark. Try again.
 view.3c7746e: Created by agents
 view.1641c52: Ctrl Alt Click
 view.fc762b5: Ctrl Click
@@ -26903,12 +26938,17 @@ view.56e2f5d: Later
 view.d051707: Link
 view.a1fffaa: List
 view.57c9502: Lists
+view.dfe60ca: Load more
 view.80d7e98: Loading the wiki…
 view.6311650: Managed by you
+view.afde92b: Mark each fact right or wrong. Albert uses your marks to test itself.
+view.13018e3: Marked right
+view.6d263eb: Marked wrong
 view.0c77aee: Media
 view.b23a193: Meetings
 view.1cb449c: Members
 view.68f4145: Message
+view.ec6f5c1: Missed fact added
 view.4bab2d8: More
 view.86c0a35: More options
 view.9dcf2f0: More ways to expand
@@ -26922,12 +26962,13 @@ view.e47cb95: My day
 view.37a612d: My stuff
 view.c1418c2: New Workflow
 view.1ed2e7b: New message
+view.0caea46: No facts about you yet.
 view.cac330d: No projects yet
 view.b54a538: Nothing saved yet
 view.8d3fe6b: Nothing written yet
 view.c18f8f2: Notification
 view.753a22b: Notifications
-view.7e439c3: On this page
+view.6ab14bd: One line is enough
 view.57d4066: OneDrive & SharePoint
 view.a75732d: Open in new window
 view.03a322d: Open in split view
@@ -26951,11 +26992,11 @@ view.881e743: Pull request
 view.a49698c: Recap
 view.fd316b7: Recently viewed
 view.8438010: Recents
-view.917df91: Related
 view.4ef507f: Related Channels List
 view.3857d09: Related Threads List
 view.b87a192: Reminder
 view.9ee36da: Replace split view
+view.954daa8: Right
 view.d0edfb6: Sales
 view.9f579c7: Sales Home
 view.9762a89: Sales Tracker
@@ -27004,6 +27045,7 @@ view.4fa8cc8: Tools
 view.7e13bd1: Topic
 view.07e4f9c: Topics
 view.5bcd602: Transcript
+view.042c862: Try again
 view.39fc721: Undo
 view.95ed8c1: Unread Messages
 view.e6ba0dd: Unreads
@@ -27019,6 +27061,7 @@ view.e38e3ca: Workflow Creation
 view.5d7024a: Workflow Editor
 view.a5a8719: Workflow details
 view.825ce9e: Workflows
+view.346a2f5: Wrong
 view.961c830: You and {member} are no longer connected.
 view.3f3c77d: You and {member} are not connected. To message them, you’ll need to send an invitation.
 view.96d5259: You are viewing messages from {app_name} which has been removed from your workspace
