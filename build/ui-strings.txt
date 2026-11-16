@@ -19,6 +19,7 @@
  characters.
  children.
  could not be created.
+ did not specify a value for dependsOnOwnProps.
  does not exist!
  exceeds maximum limit (15000). Limit TargetDisplaySize with VideoPreferences to avoid this.
  exceeds maximum limit (15000). Use chooseRemoteVideoSources to select a subset of participants to avoid this.
@@ -29,6 +30,7 @@
  for you to use AI huddle notes with Business+.
  for you to use AI summaries with Business+.
  has been saved successfully.
+ in connect options.
  in the document.
  in this channel.
  instead, which is now safe by default.
@@ -60,6 +62,7 @@
  prop to Announcer API component.
  property with non-empty string value.
  property.
+ property. Have you misspelled a constant?
  shape, except the last dimension.
  tab shows the render times of every component.
  to always sound your best.
@@ -128,6 +131,7 @@
 :e instanceof File?
 :e instanceof Map?
 :e instanceof Set?
+:p instanceof RegExp?
 :point_up: I found an existing summary for this file.
 :void 0),o.current?.info(em,e?
 :void 0)||(y?
@@ -584,7 +588,6 @@ Add create shortcut workflow from template
 Add custom MCP
 Add custom emoji
 Add custom integration
-Add data from outside Slack
 Add description
 Add emoji and GIFs
 Add emojis or create your own
@@ -725,6 +728,7 @@ Add your details to use this template as is. Or, add more steps to customize it.
 Add your existing tools to Slack
 Add your first skill
 Add your frontline teams
+Add your own sales data
 Add your sources first, and then you can test!
 Add your team
 Add your team to collaborate on cases
@@ -1295,6 +1299,7 @@ Attempting to close flexpane
 Attempting to close split view
 Attempting to destroyVoiceFocus
 Attempting to mount another AnnouncerAPIProvider. AnnouncerAPIProvider was already mounted above in the component tree and is ready to be used.
+Attempting to move in an unsupported phase 
 Attempting to navigate to invalid browser
 Attempting to run client metrics
 Attempting to set locale for huddle, but missing huddleId or newLocale
@@ -1760,9 +1765,11 @@ Can manage records and customize lists
 Can not convert infinite data stream to array.
 Can not get id list for null key
 Can not properly manage the returned segmentation mask
+Can only flush responders while dragging
 Can only polyfill class components
 Can only post
 Can only specifiy one unknown dimension.
+Can only update scroll when dragging
 Can post & invite
 Can view
 Canadian MSA
@@ -1786,6 +1793,7 @@ Cannot access file
 Cannot add bookmark
 Cannot add bookmark into folder
 Cannot add event listener with no WebSocket connection.
+Cannot add placeholder size to a subject when it already has one
 Cannot add tab.
 Cannot apply style to multi-container range
 Cannot apply transform device without enabling Web Audio.
@@ -1805,6 +1813,9 @@ Cannot change GL context once initialized
 Cannot check all if section is not a checklist
 Cannot check whether to reload when using js_path. Skipping client.checkVersion call.
 Cannot check whether to reload when using js_path. Skipping client.shouldReload call.
+Cannot claim lock as it is already claimed
+Cannot collect a droppable while a drag is occurring
+Cannot collect without a droppable ref
 Cannot compute cosine similarity between quantized and float embeddings.
 Cannot compute cosine similarity on embedding with 0 norm.
 Cannot construct Tensor with more than 4 channels from pixels.
@@ -1818,15 +1829,27 @@ Cannot decrypt samples of type Uint8Array
 Cannot delete multi-container range
 Cannot determine position in section because the editing container is null
 Cannot dispatch openHuddleErrorModal: no huddle team ID
+Cannot drop in phase: 
 Cannot enqueue task message: taskStore and taskMessageQueue are not configured
 Cannot exit frame, the context is empty
 Cannot fetch from Slack API without a valid token. Please include one in args.
+Cannot find Droppable[id: 
+Cannot find document.body
+Cannot find document.documentElement
+Cannot find droppable entry with id [
 Cannot find module 
 Cannot find this item
 Cannot find workspace for app or bot user in this org.
+Cannot fire onBeforeCapture as a drag start has already been published
+Cannot fire onBeforeDragStart as a drag start has already been published
+Cannot fire onDragEnd when there is no matching onDragStart
+Cannot fire onDragMove when onDragStart has not been called
+Cannot fluid scroll if not dragging
 Cannot focus a closed window
 Cannot get bounds for node
+Cannot get clipped area from droppable
 Cannot get close time for this span because it has not closed.
+Cannot get dimension when no ref is set
 Cannot get duration for this span because it has not closed.
 Cannot get name of Unknown Type
 Cannot get rows and columns of an empty shape array.
@@ -1842,11 +1865,14 @@ Cannot insert
 Cannot load 
 Cannot log error to telemetry: orgUrl is required but not provided
 Cannot modify indentation in multi-container range
+Cannot move by window in phase 
 Cannot move caret to undefined target
 Cannot move checked items if section is not a checklist
+Cannot move in direction without previous impact location
 Cannot mutate an immutable Map
 Cannot parse
 Cannot parse the unexpected character 
+Cannot perform a jump scroll when there is no destination
 Cannot persist state
 Cannot persist state because missing information
 Cannot polyfill getSnapshotBeforeUpdate() for components that do not define componentDidUpdate() on the prototype
@@ -1855,7 +1881,9 @@ Cannot read more than 32 bits at a time
 Cannot read so many bytes!
 Cannot register abstract class
 Cannot release a texture that was never provided by this texture manager
+Cannot release lock when there is no lock
 Cannot remove checked items if section is not a checklist
+Cannot remove placeholder form subject when there was none
 Cannot revert an ineligible control to text
 Cannot revert mentions in a protected selection
 Cannot save state to LocalStorage
@@ -1877,12 +1905,19 @@ Cannot show notification, missing arguments
 Cannot show notification, permission denied
 Cannot sort alpha if section is not a list
 Cannot specify batchSize if batchInputShape is specified when creating an InputLayer.
+Cannot start auto scrolling when already started
+Cannot start capturing critical dimensions as there is already a collection
+Cannot start scroll listener when already active
 Cannot start training because another fit() call is ongoing.
+Cannot stop capturing a keyboard drag when not capturing
+Cannot stop scroll listener when not active
 Cannot store model context without a channel and thread
 Cannot switch workspaces because canUserSwitchWorkspaces returned false.
 Cannot uncheck all if section is not a checklist
 Cannot unsubscribe from keyboard layout changes
 Cannot update channel sections
+Cannot update isCombineEnabled flag of Droppable 
+Cannot update the scroll on Droppable 
 Cannot use terminal rule in infix expression
 Cannot write html to clipboard
 Cannot write string to clipboard
@@ -2059,6 +2094,7 @@ Channel managers and admins
 Channel managers can limit channel access to the people who can access the record or allow everyone in your organization to find the record.
 Channel member suggestions
 Channel members are not available yet
+Channel membership over time
 Channel mention
 Channel muted
 Channel name
@@ -2426,6 +2462,7 @@ Close conversation
 Close date
 Close date changed
 Close deals faster with your team
+Close deals faster with your team. Only people with access can manage sales records.
 Close deals right where you work.
 Close deals with your team
 Close ephemeral notification
@@ -2540,6 +2577,7 @@ Collect feedback, schedule messages, and so much more with Workflows.
 Collect information
 Collect, share information, and track your next project with a canvas
 Collect, share information, and track your next project with a list
+Collection cannot start from phase 
 Collection items
 Collection type options
 Colonna MT
@@ -2593,6 +2631,7 @@ Comparison of free vs. paid Slack Video for users on free teams
 Complement Sets are not supported for first char optimization
 Complete Migration
 Complete all to-dos?
+Complete the segmentation in team creation flow for the golden_gate_biz_plus_trial sizzle reel
 Complete to-do
 Completed counts processing
 Completed items
@@ -2667,6 +2706,8 @@ Connect app
 Connect apps to Slackbot
 Connect calendar
 Connect cloud app
+Connect each MCP server to use it in this step.
+Connect each MCP server to use it in this step. Test runs use your connection.
 Connect email provider
 Connect to Gmail
 Connect to Google
@@ -2677,6 +2718,7 @@ Connect to Slack to load your skills. Your draft is still here.
 Connect to apps
 Connect to desktop store
 Connect to socket
+Connect to test this step
 Connect to try
 Connect with external partners
 Connect with external partners in a shared channel.
@@ -2965,11 +3007,14 @@ Could not fetch google directory affiliation.
 Could not fetch insights for Sales Home
 Could not fetch licensed members from your Salesforce org
 Could not fetch suggested channels for conversations.recommend
+Could not find 
 Could not find Section instance for DOM node
 Could not find a path from 
 Could not find a suitable point for the given distance
+Could not find app context
 Could not find cell for row and column in table section
 Could not find control in document
+Could not find displaced item in set
 Could not find frame name for editor
 Could not find layout blockquote for layout blockquote style contentPb
 Could not find layout callout for layout callout style contentPb
@@ -2979,8 +3024,12 @@ Could not find list section container
 Could not find location for offset calculation. This is likely an unreachable location.
 Could not find name assignment for type: 
 Could not find parent window
+Could not find required context
+Could not find scroll options while scrolling
 Could not find scroll parent for
 Could not find section in document
+Could not find store from lazy ref
+Could not find timer
 Could not find token for keyword: 
 Could not find valid window-chrome element to inject into
 Could not generate permalink for shared item
@@ -3167,6 +3216,7 @@ Create new key
 Create new section
 Create new workflow
 Create records based on conversations found in Slack or any connected calendars and inboxes.
+Create records based on messages found in Slack or any connected calendars and inboxes.
 Create records for more of your customers so you can manage your whole pipeline.
 Create records from spreadsheets, notes, emails, or anything you want to share.
 Create section
@@ -3690,6 +3740,7 @@ Dismiss window suggestion
 Dismissable Error State
 Dismisses a failed calendar-first onboarding attempt for this session
 Dispatch clogMessageClick when clicking the play button
+Dispatching while constructing your middleware is not allowed. Other middleware would not be applied to this dispatch.
 Display Name
 Display a toast prompting a refresh after configuring an app in another tab
 Display a toast when a productivity app becomes connected via domain-wide auth
@@ -3836,6 +3887,8 @@ Drag and drop into the composer
 Drag and drop your photo
 Drag to reorder slide
 Drag to take a screenshot
+Draggable isClone prop value changed during component life
+Draggable[id: 
 Dragon Touch
 Draw message must be correctly formed
 Draw on your own screen
@@ -4429,6 +4482,7 @@ Expand toolbar
 Expand topic
 Expand view
 Expected 
+Expected Droppable to have a frame
 Expected JSON model topology, received ArrayBuffer.
 Expected a control sequence
 Expected a valid source ID.
@@ -4439,6 +4493,8 @@ Expected at least one fetch, got none
 Expected block to have an id
 Expected channelId to be a String
 Expected count to be a Number.
+Expected draggable to be inside home list
+Expected droppable with frame to have old max frame scroll when removing placeholder
 Expected group after 
 Expected migrationIds to be an Array
 Expected node of symbol group type, but got 
@@ -4451,6 +4507,7 @@ Expected targetIds to be unique in the passed array.
 Expected tensor to be at least 1D, but received a 0D tensor (scalar).
 Expected userIds to be an Array of Strings
 Expected value
+Expected virtual list to not have a placeholder
 Expected: 
 Expecting: 
 Experience AI, CRM, and advanced security
@@ -4896,6 +4953,7 @@ Fetch all roles a member has
 Fetch allowed objects that have been configured for Log Activity
 Fetch and upsert channel latest timestamp
 Fetch and upsert the result of connectableContacts.lookup
+Fetch boot API data when provisionally connected
 Fetch builtin skill metadata and re-map
 Fetch channel section suggestions on channel join
 Fetch company info for a team
@@ -4915,7 +4973,6 @@ Fetch org-level retention settings
 Fetch page 1 of all search results for a given query and filters
 Fetch predefined apps for onboarding integration task
 Fetch programmable sidebar recommend scores
-Fetch quip IDs and re-map
 Fetch search results for custom connectors
 Fetch sfdc layout info for creating a record
 Fetch teams that share a channel with current team using Slack Connect API
@@ -4959,6 +5016,7 @@ Fetches and returns legacy app profile from state
 Fetches and sets data residency status info
 Fetches and updates a single New Team Launchpad state machine
 Fetches and upserts a file from the API
+Fetches and upserts channels by query
 Fetches and upserts file info for multiple files
 Fetches and upserts missing channels from Flannel
 Fetches and upserts missing channels from the API
@@ -5222,6 +5280,8 @@ Fix Replacing with XXX
 Fix the errors on the Leads and Opportunities tabs to save.
 Fix the errors on the Leads tab to save.
 Fix the errors on the Opportunities tab to save.
+Fixed height CellMeasurerCache should specify a :defaultHeight greater than 0. Failing to do so will lead to unnecessary layout and poor performance.
+Fixed width CellMeasurerCache should specify a :defaultWidth greater than 0. Failing to do so will lead to unnecessary layout and poor performance.
 Flag channel description
 Flag channel name
 Flag channel topic
@@ -5491,6 +5551,7 @@ Get ahead of tomorrow
 Get an automatic weekly update of your sales records
 Get an email address that posts incoming emails in this channel.
 Get an email address that posts incoming emails in this conversation.
+Get an overview of how to manage sales and more in Slack CRM.
 Get answers that use the latest information from the web.
 Get answers, create content, and build automations with AI that gets how you work.
 Get app support
@@ -5603,6 +5664,7 @@ Give it a name
 Give it another try in a few minutes.
 Give me a daily sales update from my CRM data every morning.
 Give me my daily briefing
+Give teammates access to Slack CRM
 Give your channel a name to continue. You can always change the name later.
 Give your team access
 Give your team secure, easy access to Slack
@@ -6375,6 +6437,7 @@ Invalid quip entityId passed toQuipActivityHistory. It must be encoded with Qp:
 Invalid quip entityId passed toQuipCommentThread. It must be encoded with Qp:
 Invalid render type
 Invalid response from configured generateRequest filter
+Invalid result
 Invalid row ids.
 Invalid row split size.
 Invalid session
@@ -6395,6 +6458,7 @@ Invalid workflow type. Missing payload.
 Invalidate cached counts after channel membership changes
 Invariant Violation
 Invariant failed
+Invariant failed: 
 Invariant: d must have selected event when viewing render explanation
 Invisible characters found
 Invitation link settings
@@ -6427,7 +6491,6 @@ Invite someone to your huddle
 Invite team members
 Invite teammates
 Invite teammates tip
-Invite teammates to collaborate in your Sales Tracker.
 Invite to Join Slack
 Invite to workspace
 Invite user group to channel by ID
@@ -6815,7 +6878,6 @@ Legal holds
 Lemon Lime
 Leo shared the final pricing doc.
 Less detail
-Let Slackbot find leads and opportunities mentioned in your conversations.
 Let Slackbot help you tackle your day
 Let Slackbot organize your wins and updates
 Let Slackbot search the web
@@ -7306,6 +7368,7 @@ M5 21a2 2 0 0 1-2-2
 M5 3a2 2 0 0 0-2 2
 M5 3h14v18l-3-2-4 2-4-2-3 2ZM8 7h8M8 11h8M8 15h4
 M5 3h9l5 5v13H5ZM14 3v6h5M8 13h8M8 17h5
+M5.188 6.688c-.97 0-1.72.313-2.094.688m11.719-.84c1.124 0 1.718.281 2.093.656
 M5.5 13.75v-7.5a.75.75 0 0 1 1.5 0v7.5a.75.75 0 0 1-1.5 0m9.5-7.5a.75.75 0 0 0-1.23-.576l-4.5 3.75a.75.75 0 0 0 0 1.152l4.5 3.75A.75.75 0 0 0 15 13.75z
 M5.5 2.25v15.5a.75.75 0 0 0 1.5 0V2.25a.75.75 0 0 0-1.5 0m6.5 0v15.5a.75.75 0 0 0 1.5 0V2.25a.75.75 0 0 0-1.5 0
 M5.71 1.929a.75.75 0 1 1 1.456-.357l.238.971a.75.75 0 1 1-1.457.357zM3.207 3.935a.75.75 0 1 1 1.061-1.06l.707.706a.75.75 0 1 1-1.06 1.06z
@@ -7363,6 +7426,7 @@ M7.5 10.5a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0
 M7.72 5.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06L10.94 10 7.72 6.78a.75.75 0 0 1 0-1.06
 M7.75 1.5A2.25 2.25 0 0 0 5.5 3.75v8.5a2.25 2.25 0 0 0 2.25 2.25h8.5a2.25 2.25 0 0 0 2.25-2.25v-8.5a2.25 2.25 0 0 0-2.25-2.25z
 M7.75 4.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5
+M7.781 10.563c1.172.859 2.953 1.015 4.438 0
 M71.3 83.62c.814 1.51 1.62 2.977 2.773 4.115 1.06.642 1.638-.386 1.43-1.508a35.96 35.96 0 00-1.339-3.839s-2.243-1.916-2.864 1.231z
 M74.25 83.806a15.203 15.203 0 002.787 3.56c.984.574 1.512-.317 1.297-1.318a31.264 31.264 0 00-1.228-3.386s-2.331-1.614-2.857 1.144z
 M74.904 99.943c-.328-.085.424-15.468 1.284-21.725 2.98 8.717 4.295 13.733 5.563 23.064-2.145-.411-6.518-1.255-6.847-1.34z
@@ -7389,6 +7453,7 @@ M9 5a3 3 0 0 1 6 0v7a3 3 0 0 1-6 0V5Zm-3 6v1a6 6 0 0 0 12 0v-1M12 18v4m-3 0h6
 M9 6.25a.75.75 0 0 0-1.23-.576l-4.5 3.75a.75.75 0 0 0 0 1.152l4.5 3.75A.75.75 0 0 0 9 13.75zm8 0a.75.75 0 0 0-1.23-.576l-4.5 3.75a.75.75 0 0 0 0 1.152l4.5 3.75A.75.75 0 0 0 17 13.75z
 M9 6h12M9 12h12M9 18h12M3 6h.01M3 12h.01M3 18h.01
 M9.037 9.69a.498.498 0 0 1 .653-.653l11 4.5a.5.5 0 0 1-.074.949l-4.349 1.041a1 1 0 0 0-.74.739l-1.04 4.35a.5.5 0 0 1-.95.074z
+M9.094 12.734c.39.125 1.203.22 1.781 0
 M9.25 10.75v6a.75.75 0 0 0 1.5 0v-6h6a.75.75 0 0 0 0-1.5h-6v-6a.75.75 0 0 0-1.5 0v6h-6a.75.75 0 0 0 0 1.5z
 M9.415 7.02a.75.75 0 0 1 1.15-.001l3.756 4.49a.75.75 0 0 1-.576 1.231H6.243a.75.75 0 0 1-.576-1.23z
 M9.47 5.37a.75.75 0 0 1 1.06 0l3.1 3.1a.75.75 0 0 1-1.06 1.06L10 6.96 7.43 9.53a.75.75 0 0 1-1.06-1.06z
@@ -7535,6 +7600,7 @@ Manage roles
 Manage sales with Slack CRM
 Manage section
 Manage security
+Manage settings
 Manage skills
 Manage tabs
 Manage this workflow
@@ -7767,7 +7833,6 @@ Members of this channel can:
 Members on record
 Members will be able to reply and react
 Members will be able to share messages and download files from this channel.
-Membership trends are coming soon.
 Memoized component that skips re-renders if props are the same
 Memory :brain: - Personalize what Slackbot remembers about your unique work.
 Memory deleted
@@ -8155,7 +8220,6 @@ Navigate to Salesforce licenses page
 Navigate to a channel tab from a channel-tab slug
 Navigate to a code channel view
 Navigate to ai explain
-Navigate to channel
 Navigate to sign-in, if the user is not booted into the foregrounded team
 Navigate to surface file channel got redirected
 Navigate toChannel() got redirected since it was a file channel
@@ -8496,6 +8560,7 @@ No meetings
 No meetings are coming up right now.
 No meetings today
 No members to assign to this permission
+No membership data in this date range
 No message
 No message results found, Try other related matches
 No messages yet
@@ -8547,6 +8612,7 @@ No preview available
 No previous active timestamp found, skipping cold boot navigation
 No primary action available for this content
 No projects yet
+No pull requests match your search
 No range found to split target section
 No reaction key
 No recent code channels
@@ -8706,6 +8772,7 @@ Not available agents
 Not available for this organization.
 Not available in Slack
 Not available to connect yet
+Not available to you
 Not checked
 Not checking for changes in DND status as all members are stale
 Not checking persistence storage method version because localStorage doesn
@@ -8713,6 +8780,7 @@ Not complete
 Not completed
 Not confirmed in the summary.
 Not connected
+Not connected yet. Try again.
 Not custom files
 Not defined
 Not editable
@@ -8810,6 +8878,7 @@ Nothing waiting on your review
 Nothing written yet
 Nothing yet. Slackbot remembers feedback people give it in this channel.
 Notification ID copied to clipboard.
+Notification settings
 Notification sound
 Notification unmuted
 Notifications about updated items
@@ -8823,6 +8892,7 @@ Notifications when event details change
 Notifications will be visible to everyone in the channel.
 Notify everyone in your workspace.
 Notify for @here and @channel
+Notify in Slack
 Notify me whenever someone joins using this link
 Notify owner
 Notify owner animation
@@ -8862,6 +8932,7 @@ OS default device IDs recorded
 Object has no ID
 Object index out of bounds for index.
 Object not supported
+Object.assign cannot be called with null or undefined
 Observe an accepted channel nomination navigation
 Observe one recent channel nomination
 Oct 2001 email and ticket receipt; 2001 email naming her as administrative assistant to the group; described as Kim Ward
@@ -9193,7 +9264,6 @@ Opens the PR tab a PR comment link names, scrolled to the comment
 Opens the Quip doc comment thread in the side or flexpane
 Opens the Share External Record Modal
 Opens the Slackbot AI feedback modal
-Opens the Slackiversary Share Modal
 Opens the Texty create link or edit link dialogs based on the current selection
 Opens the Work Object Full Size Preview Modal
 Opens the appropriate XWS permalink dialog for a team
@@ -9709,6 +9779,7 @@ Preview click preference saved
 Preview collapsed
 Preview ended
 Preview form
+Preview how Slackbot can research accounts, prep for meetings, and more.
 Preview image
 Preview in Slack
 Preview in channel
@@ -10168,6 +10239,7 @@ Recursive render XXX
 Redirect URL
 Redirecting external huddle guest to the exit page
 Reduce Motion is on in macOS.
+Reducers may not dispatch actions.
 Redundant input, expecting EOF but found: 
 Redux total store size:
 References external instructions
@@ -10183,6 +10255,7 @@ Refresh All Threads view on a slow reconnect
 Refresh Response
 Refresh Sales Tracker
 Refresh activity
+Refresh client data using split boot APIs
 Refresh list
 Refresh oauth token
 Refresh recap
@@ -10462,6 +10535,7 @@ Rename view
 Renames a custom skill category, if it still exists
 Render React
 Render complete
+Rendered cell should include style property for positioning.
 Rendered doc
 Rendering Cynefin diagram
 Renew online
@@ -10566,7 +10640,6 @@ Requests Without User Action Tracer
 Require approval for each new DM
 Required columns
 Required data not provided for incoming entity PB
-Required parameter 
 Required tests passing
 Requires Sales Elevate access
 Requires an invite to join
@@ -11095,6 +11168,7 @@ Search for people
 Search for people by name or email
 Search for people by their name, company, or email address
 Search for reviewers
+Search for sales data in Slack
 Search for sales records in Slack
 Search for the quick share suggested recipients
 Search for this type is not available yet.
@@ -11117,6 +11191,7 @@ Search or Ask Slackbot
 Search params (e.g. query, filter) have changed, re-fetch results
 Search people
 Search presentations
+Search pull requests
 Search query
 Search results
 Search results navigation
@@ -11246,7 +11321,6 @@ See what leadership is up to
 See what you can do
 See yesterday
 See your daily schedule from Slack
-See your meetings on Sales Home and get help preparing for each one.
 Seeds the Slackbot AI NUX kickoff thread ts pin set (used for hydration)
 Seeing how Slack is different from similar tools
 Segment targeting question in #AI-customer-app-launch
@@ -11791,7 +11865,6 @@ Share to channel
 Share with
 Share with:
 Share workflow failed
-Share your Sales Tracker
 Share your Slack personality
 Share your canvas with others.
 Share your closest collabs
@@ -11830,7 +11903,9 @@ Shortcuts can be added to multiple categories, but they can only have one descri
 Shorten link
 Shorten the example prompt to save your changes.
 Should never happen.
+Should not add placeholder space to home list
 Should not have a negative number of lines
+Should only be subscribed when a collection is occurring
 Should show list description
 Should this channel be public or private?
 Shouty rooster in effect
@@ -12617,6 +12692,7 @@ Steven P. South
 Still listening. Your thread is one tap away.
 Still recording
 Still sending. Your draft is saved here.
+Still signing in? Finish in the other tab, or try again.
 Still waiting for Slackbot. Your message is saved here.
 Stop AI Notes
 Stop EOF 
@@ -12874,6 +12950,7 @@ Table has cell without corresponding row or column
 Table has too many cells
 Table is missing cells
 Table of contents
+Table only accepts children of type Column
 Table options
 Table selection cleared
 Table with 1 row and 1 column
@@ -12970,6 +13047,7 @@ Term suggestions collapsed
 Terms of service
 Test Speaker
 Test run
+Test runs use your own connection to each MCP server in this step.
 Testing API connectivity...
 Text Block
 Text Body
@@ -13126,6 +13204,7 @@ The section name is too long
 The selected channel could not be found.
 The selected channel has been archived. Clear your selection or choose another channel.
 The selected duration is invalid.
+The selector for 
 The sign-in window is taking too long. Try connecting again.
 The signaling channel was closed unexpectedly. This may be due to a network change or backend detected failure.
 The signaling connection failed.
@@ -13315,6 +13394,7 @@ This dashboard was deleted.
 This deal expires in 1 day
 This description was changed on GitHub. Reload the Code tab to edit the latest version.
 This document is already in use.
+This draft will stay a draft.
 This environment does not support defining a property as non-configurable, non-writable, or non-enumerable.
 This feature is a service that is subject to the Beta Services Terms at
 This feature is available with an upgrade.
@@ -13902,6 +13982,8 @@ Trying to nudge playhead over buffer-hole
 Trying to pop from an empty list.
 Trying to push element into a full list.
 Trying to save an Error which is not a RecognitionException
+Trying to set droppable isCombineEnabled to 
+Trying to set droppable isEnabled to 
 Trying to wrap non-literal object
 Tucson Electric
 Tucson Electric Power
@@ -14025,6 +14107,8 @@ Unable to fetch channel name validation
 Unable to fetch completion
 Unable to fetch usergroup name validation
 Unable to find a channel to navigate back to - Huddles NUX will appear next time a user goes to a valid channel
+Unable to find draggable element with id: 
+Unable to find draggable with id: 
 Unable to find set of LightningOutComponents
 Unable to find stored state
 Unable to find team or enterprise ID
@@ -14033,6 +14117,7 @@ Unable to get silent frame for given audio codec; duplicating last frame instead
 Unable to get work object
 Unable to load Activity
 Unable to load Einstein Activity Capture status.
+Unable to load Membership
 Unable to load Popular messages
 Unable to load channel insights
 Unable to load email activity capture status.
@@ -14045,6 +14130,7 @@ Unable to navigate to AI App or Agent DM due to missing channelId
 Unable to open direct message. Please try again.
 Unable to open new Workflow Builder window.
 Unable to open window
+Unable to parse React version 
 Unable to parse identity_links_global_prefs JSON string
 Unable to parse resolved Huddle window open from local storage
 Unable to parse storedLayout from local storage
@@ -14115,6 +14201,7 @@ Unexpected partition
 Unexpected rejection while reconciling global Activity sort
 Unexpected state: 
 Unexpected syntax 
+Unexpected value for 
 Unfreeze all columns
 Unfurls an attachment for a given URL in an optional channel context
 Ungrouped Records
@@ -14258,6 +14345,7 @@ Unsupported config was returned from the cache
 Unsupported context for exiting embedded UI content
 Unsupported step type
 Unsupported unfurl type to switch to
+Unsupported: changing the droppableId or type of a Droppable during a drag
 Until next week
 Until tomorrow
 Until you upload a photo, people outside your organization see your profile photo.
@@ -14730,6 +14818,7 @@ View files
 View files & links
 View files and links
 View files, links, and more
+View full day
 View full profile
 View full summary
 View history
@@ -14902,6 +14991,7 @@ Warning:
 Warning: An unhandled error was caught from submitForm()
 Warning: react-fast-compare does not handle circular references.
 Watch Slack CRM in action
+Watch a video of Slack CRM in action
 Ways to start
 We already have a socket
 We cannot automatically determine where this channel should be created based on the external organizations.
@@ -15108,6 +15198,7 @@ Window focused
 Window focused without previous blur event
 Window id is empty when scrolling to comment
 Window screenshot upload unavailable.
+Window scrolling is currently not supported for fixed lists
 Window tools unavailable.
 Windows Phone
 Windows Registry Script
@@ -15330,6 +15421,7 @@ You made it
 You marked this as important.
 You may be screensharing in another app. Try closing other apps or restarting Slack.
 You may lose access to past decisions, important links, and key context.
+You may not call store.getState() while the reducer is executing. The reducer has already received the state as an argument. Pass it down from the top reducer instead of reading it from the store.
 You may want to try adjusting search criteria.
 You may want to try adjusting your filters.
 You may want to try using different keywords, checking for typos, or adjusting filters.
@@ -15681,6 +15773,7 @@ s snippet. Also, the possessive affix is localized, but please move it before or
 s timezone in IANA format.
 s top Rule!
 s units, alongside ENA.
+s width or height. You have configured CellMeasurerCache to measure both. This will result in poor performance.
 sample weight is not supported yet.
 saveAllInputs is true, expected inputs to be an array.
 scheme must not be undefined or null.
