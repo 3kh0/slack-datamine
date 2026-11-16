@@ -426,7 +426,6 @@ about_page_security.44ac545: Vulnerability disclosure program URL
 about_page_security.7528fba: Vulnerability disclosure program covers Slack app
 about_page_security.5397e05: Yes
 access_limited.cef2fe0: Try Again
-access_limited.34ac7fd: Your current network has blocked this workspace.
 activate_solution_gallery.44b972e: Canvas template
 activate_solution_gallery.9b69a35: Invitations
 activate_solution_gallery.0323bf6: Invite teammates
@@ -5802,22 +5801,10 @@ client.27129a2: {viewName} collapsed
 client_error_screens.c828370: <a>Check the Slack service</a> to make sure it’s not a Slack issue.
 client_error_screens.1cfdfef: <a>Restart Slack</a>. Sometimes that’s all it takes.
 client_error_screens.bcb2fef: <a>Try our suggestions for troubleshooting</a> connection issues.
-client_error_screens.dee8e91: From your organization:
 client_error_screens.cce7155: Reload
 client_error_screens.34b1507: Reload Slack
-client_error_screens.db89a00: Review Terms of Service
 client_error_screens.7e08abd: This is one of those times when we’re not sure what went wrong, but we do have some suggestions that might help.
-client_error_screens.16f9d38: To continue using Slack, please review and agree to your organization’s terms of service. Once accepted, please reload Slack.
 client_error_screens.5c545dd: We’re having trouble loading your workspace
-client_error_screens.9ef3c0e: You can only access Slack during your shift
-client_error_screens.d66b5c6: You need to agree to your organization’s terms of service.
-client_error_screens.34ac7fd: Your current network has blocked this workspace.
-client_error_screens.40d4be6: Your current network will only allow you to access certain Slack workspaces (usually, just the ones you use for work). To get connected, change networks and try again.
-client_error_screens.a0a573b: Your workspace is joining an organization!
-client_error_screens.c19ad2b: Your workspace is joining the {teamName} organization!
-client_error_screens.3fd0313: You’re outside your shift
-client_error_screens.5e41e33: {teamName} is joining an organization!
-client_error_screens.3a97de8: {teamName} is joining the {enterpriseName} organization!
 cmd_handlers.ae237f2: *{agent_name}* can be added in Channel Settings.
 cmd_handlers.8ebc66c: *{agent_name}* can be removed in Channel Settings.
 cmd_handlers.ee6c628: *{cmd}* can only invite a user to a single channel.
@@ -14555,7 +14542,6 @@ messages_action_items.c551b66: Report to Slack
 messages_action_items.ec85297: Restore response
 messages_action_items.00e8abf: Summarize message
 messages_action_items.bfa17ca: Summarize thread
-migration_blocker_page.a0a573b: Your workspace is joining an organization!
 mobile_app_promos.f85027b: Already have the app? <link>Sign in</link>
 mobile_app_promos.b52b36b: Back
 mobile_app_promos.70afe9e: Dismiss
@@ -26996,10 +26982,13 @@ view.8703a74: Catch up
 view.879f0b1: Channel
 view.1e38158: Channel preview
 view.66c7734: Chart
+view.8610e3e: Charts
 view.2ced57f: Chat
 view.bbfa773: Close
 view.749776f: Close Channel
 view.a8c64a7: Code Channels
+view.e3577c1: Commitment
+view.24dcc06: Commitments
 view.1df39aa: Compact
 view.4f9be05: Content
 view.3c7746e: Created by agents
@@ -27012,6 +27001,7 @@ view.ad28fd6: Customize tabs
 view.05a3b9f: DM
 view.0e8e35d: DMs
 view.7f59a1f: Decision
+view.af2f32c: Decisions
 view.e214b8a: Document
 view.e9b450d: Done
 view.22a31d8: Drafts
@@ -27029,6 +27019,7 @@ view.19adc47: Folders
 view.7e13d94: For you
 view.2da47d9: From huddles
 view.9fe00ac: Goal
+view.48d8c62: Goals
 view.07c2964: Google Drive
 view.e4c1712: Head back to home to send your first message
 view.c47ae15: Help
@@ -27076,6 +27067,8 @@ view.57d4066: OneDrive & SharePoint
 view.a75732d: Open in new window
 view.03a322d: Open in split view
 view.2cd7504: Org chart
+view.b8640bd: Org unit
+view.6ea6301: Org units
 view.0760524: Organizations
 view.6e6a6f2: Other
 view.b37554f: People
@@ -27083,6 +27076,9 @@ view.d06d555: Permissions
 view.8c41ae8: Person
 view.8bdb8bb: Primary View
 view.12f4c13: Process
+view.ed7308b: Processes
+view.dd3b86d: Product
+view.fe0a091: Products
 view.ff4fc02: Profile
 view.f6f4da8: Project
 view.53e890d: Projects
@@ -27122,6 +27118,7 @@ view.0424f6e: Table
 view.2a4d562: Tabs
 view.090ec5f: Tasks
 view.2188872: Team
+view.cbfd44d: Teams
 view.f25b700: Templates
 view.100a84d: There’s a policy that doesn’t allow you to message this group.
 view.3c29e4f: There’s a policy that doesn’t allow you to message {memberName}.
@@ -27140,6 +27137,7 @@ view.5b2971b: Today - Agenda
 view.033ab37: Today - Unreads
 view.4fa8cc8: Tools
 view.7e13bd1: Topic
+view.07e4f9c: Topics
 view.5bcd602: Transcript
 view.39fc721: Undo
 view.95ed8c1: Unread Messages
