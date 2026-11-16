@@ -1026,7 +1026,6 @@ Adds ephemeral entity to sidebar if booting into an ephemeral sidebar entity
 Adds functions to store
 Adds item to folder and shows success toast
 Adds meeting event ID for specified calendar day
-Adds member id where roles have been fetched
 Adds membership values to unchanged channels
 Adds membership values to updated flannel channels
 Adds multiple IDs of starred items to array and updates the cursor mark if provided one
@@ -2828,7 +2827,6 @@ Choose which workflows post here
 Choose who can add, remove, and reorder artifacts
 Choose who can add, remove, and reorder tabs
 Choose who can manage the Channel Agent
-Choose who can manage the Channel Expert
 Choose your 1:1 layout
 Choose your account and review access in your browser. Then come back here.
 Choose your default skin tone
@@ -3050,7 +3048,6 @@ Clears a today focus item using today.items.clear API
 Clears all activeThreadTsByKey entries that match the given threadTs
 Clears all animated item IDs (used when refreshing)
 Clears all follow-up suggestions for a Slackbot AI thread
-Clears all memberIds in the orgExternalMembers store
 Clears all memoized filter keys for aiApps.list
 Clears all pending destinations data for the given drafts
 Clears all related channels for a record
@@ -3066,7 +3063,6 @@ Clears identity_links_prefs, and sets identity_links_global_prefs.date_disabled
 Clears last invite status for a user
 Clears meeting prep blocks for a calendar event by event link ID
 Clears rewritten query value
-Clears roles member ids have been fetched
 Clears specific calendar event.
 Clears stale split-view Slackbot thread so the zero state shows on next open
 Clears the Slackbot write permissions admin setting
@@ -3083,7 +3079,6 @@ Clears the full state for a record files view
 Clears the in-flight marker for an aiApps.list filter key
 Clears the jump-to timestamp
 Clears the meeting details event used by the meeting details view
-Clears the member selection state
 Clears the persisted apiCall payload at the key
 Clears the profile of the current user and turns off DND if necessary
 Clears the resume state after the inline player has consumed it
@@ -9088,7 +9083,6 @@ Log exposure for the inproduct_team_creation experiment if it is exposed
 Log exposure for the invite_email_input_smart_tokens experiment if it is exposed
 Log exposure for the joiner_mobile_task_fix_v2 experiment if it is exposed
 Log exposure for the jp_creator_pocket_guide_v2 experiment if it is exposed
-Log exposure for the jp_segmentation_questions experiment if it is exposed
 Log exposure for the leverage_channel_creation_for_paid_plan_activation experiment if it is exposed
 Log exposure for the mobile_awareness_team_menu_entrypoint_link_update experiment if it is exposed
 Log exposure for the new_team_launchpad_v2 experiment if it is exposed
@@ -10155,7 +10149,6 @@ Message theme
 Message to administrators
 Message to contents string
 Message with external people
-Message with your mention hidden.
 MessageFormat.prototype.formatToParts called on value that
 MessageList needs a ref to List
 MessagePane unable to log message impressions
@@ -13644,8 +13637,6 @@ Removes a file ID from a draft and syncs the updates
 Removes a file channel tab
 Removes a history entry from the stack
 Removes a meeting from the meetings list for RTM updates
-Removes a memberId from memberIds and updates the member count
-Removes a memberId from memberIds and updates the member count, and tracks disconnected ID *for the lifetime of the redux store*
 Removes a messages pending file IDs
 Removes a pending Slack Connect Invite
 Removes a pending file
@@ -13816,7 +13807,6 @@ Replace with a new link
 Replace your saved message with this draft?
 Replaced the attached document text.
 Replaces all events for a specific day
-Replaces all org members in the orgMembers collection
 Replaces all scheduled custom statuses from the server
 Replaces the API token that this instance will use
 Replaces the unread threads set from a live pref_change (cross-device sync)
@@ -14016,7 +14006,6 @@ Resets the current enterprise workspaces data
 Resets the forceSingleColumnMode flag while navigate within the child window
 Resets the guest form components
 Resets the loaded flag to be false so connectors can load on user search
-Resets the next cursor mark for fetching org members
 Resets the persisted height cache
 Resets the readiness store to default state
 Resets the store
@@ -15632,7 +15621,6 @@ Set the current viewing range for the Activity Over Time graph
 Set the currently active tab field in Search (use setTab instead for components)
 Set the currently focused workspace
 Set the currently focused workspace (client-v2)
-Set the currently selected value to filter members by
 Set the cursor for a channel
 Set the cursor mark
 Set the custom expiration date for guests
@@ -15661,7 +15649,6 @@ Set the file collection that a collection heading is hovering over for drop indi
 Set the file collection that a file is hovering over for drop indicator calculation
 Set the files flexpane scroll offset
 Set the filetype filter
-Set the flag that members has been loaded initially
 Set the focus of the Invite to Workspace modal
 Set the followed threads listed newest reply first
 Set the generated summary for a code channel
@@ -15696,8 +15683,6 @@ Set the list of recommended channels for multi-channel guest invite
 Set the list of selected channel options
 Set the list of selected channel options for multi-channel guest invite
 Set the list of tokenized invites
-Set the loading state flag when fetching more org members
-Set the loading state flag when fetching the org members
 Set the loading state of a specific module
 Set the loading state of agent exchange results
 Set the loading state when fetching a single admin user group
@@ -15759,7 +15744,6 @@ Set the search input box display query
 Set the search query
 Set the search results
 Set the search session original query if unset
-Set the search term value to search members by
 Set the searching status for a new search term query
 Set the selected CRM record ID for Slackbot AI
 Set the selected file
@@ -15956,8 +15940,6 @@ Set whether the user has imported contacts from Google
 Set whether the user temporarily hid the focus section via Hide for Now
 Set whether the workspace select step was shown
 Set whether there are more search results than were returned from the API
-Set whether there is an api error on inial load
-Set whether there is an api error on new query including lazy load pagination
 Set whether to render the work object layout toggle for a specific app id
 Set whether to show a banner announcing that a huddle summary will be posted soon
 Set whether today items are currently loading
@@ -16105,8 +16087,6 @@ Sets meeting prep blocks for a calendar event
 Sets metadata to send along with the next message sent by the user
 Sets microphone currently active state
 Sets one header image
-Sets organization filter
-Sets organization query for name or email
 Sets paginated channels to the store
 Sets pending handoff state when user confirms handoff via suggested prompt
 Sets permissions for relevant workspaces
@@ -16129,7 +16109,6 @@ Sets setIsIntegrationAppsLoading
 Sets sidebar visibility for this session without persisting the client-wide preference
 Sets sidebar visibility, keeping the change tab-scoped on the big-mode Slackbot tab
 Sets solution template perf
-Sets sort direction for name column on table
 Sets suggested prompts
 Sets suggested prompts for an app DM
 Sets team permission objects
@@ -17716,6 +17695,7 @@ Suggest edits
 Suggest improvements
 Suggest ways to improve this canvas
 Suggested Channels
+Suggested Salesforce lists (optional)
 Suggested actions
 Suggested agents
 Suggested channels
@@ -18764,7 +18744,6 @@ Toggles the performance monitor
 Toggles title filter value
 Toggles whether the CRM agenda My Tasks card reveals completed tasks
 Toggles whether the DataResidency step is showing the terms sub-page (vs. the opt-in view)
-Toggles whether to show all members or only selected
 Token states (Butter Chicken)
 Tokyo Night
 Tokyo Sight
@@ -19680,7 +19659,6 @@ Update search query and execute search
 Update search query on search sample suggestion pill click
 Update selected list.
 Update selected members for Joiners in setup
-Update selection state for a set of members
 Update self enterprise org name
 Update shared teams object to a loading state
 Update shared teams object to a resolved state
@@ -20099,8 +20077,6 @@ Upserts blocks to Ai Translation attachmentBlocksByMessageId object
 Upserts calendar events into the window store (add or update)
 Upserts connectable contacts
 Upserts language groups
-Upserts memberIds and sets memberCount in the orgExternalMembers store
-Upserts org members into the orgMembers collection
 Upserts strings from conversations.recommend to priority store
 Upserts strings from users.recommend to priority store
 Upserts the count of channel actions for a channel, marking the channel as having stale actions if the count changed.
@@ -21205,6 +21181,7 @@ Your notes are ready
 Your notes are saved in a Slack canvas.
 Your one-on-one and group conversations show up here.
 Your organization
+Your organization allows workflows that start from Salesforce to send messages to private channels only.
 Your organization has reached the limit of 1,000 excluded channels. Allow Slackbot in another channel first.
 Your organizations
 Your personal AI agent

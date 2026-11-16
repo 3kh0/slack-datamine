@@ -613,10 +613,8 @@ quip.history.getVersions: file_id, limit, newest_created_usec, oldest_created_us
 quip.history.restoreVersion: file_id, sequence, version_id
 quip.lookupFileId: quip_thread_id
 quip.lookupThreadIds: file_ids
-quip.thread.archive: channel_id, thread_ts
 quip.thread.mark: channel_id, mark_unread, thread_ts, ts
 quip.thread.synchronize: channel_id, thread_ts
-quip.thread.unarchive: channel_id, thread_ts
 quip.unfurl: acknowledged_private_share, file_id, url
 quip.updateRootComment: content_snippet, file_id, is_source_deleted, thread_id
 reactions.get: full

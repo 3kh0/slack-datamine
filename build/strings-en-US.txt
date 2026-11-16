@@ -434,6 +434,7 @@ activity.30813a1: <span>Thread in</span> {channel}:
 activity.8953288: <t>@channel</t> mention in {channel}
 activity.747da9d: <t>@{mentionName}</t> mention in {channel}
 activity.752f284: @mention
+activity.86339bd: Accepted your invitation to join Slack — take a second to say hello.
 activity.a733b80: Active
 activity.81c0d91: Activity
 activity.4c2f2a5: Activity item actions
@@ -578,6 +579,7 @@ activity.44caf74: Inbox
 activity.11c54a5: Include
 activity.387fd1b: Incomplete
 activity.6306ef7: Invitation
+activity.0825f9a: Joined your workspace. A welcome from you will help them get started.
 activity.6f3a063: Jump to new activity
 activity.ced7d4a: Keep Editing
 activity.666d30f: Keyword mention
@@ -798,8 +800,10 @@ activity.923cc4f: You can’t enter more than {maxCharLimit} characters.
 activity.a41b905: You received a Slack notification
 activity.675f0a0: You received an invitation that has been ignored, expired, or is no longer available for another reason.
 activity.ab538ef: You replied
+activity.317dfd8: You set a reminder about this file
 activity.647ea02: You were mentioned {mentionCount} times in {space}
 activity.b42307f: You:
+activity.624103e: You: 
 activity.64bc097: Your one-on-one and group conversations show up here.
 activity.2b2f8b9: Your pull requests
 activity.c074a23: You’ll only be notified ({mentionBadge}) about unread conversations, not every single message sent within them.
@@ -8215,6 +8219,7 @@ emoji_button.4c2f242: Right click to<br></br>customize skin tones
 emoji_keywords.356a192: 1
 emoji_keywords.b1d5781: 10
 emoji_keywords.310b86e: 100
+emoji_keywords.ac3478d: 5
 emoji_keywords.c691536: Afghanistan
 emoji_keywords.79b9d27: Albania
 emoji_keywords.bd6acc8: Algeria
@@ -10412,6 +10417,7 @@ gx_surveys.6eef664: None
 gx_surveys.6e6a6f2: Other
 gx_surveys.2dacf65: Submit
 gx_surveys.29c3140: Survey
+gx_surveys.0a11209: Tell us more (optional)
 gx_surveys.71fa63b: Thank you for your feedback!
 gx_surveys.d35b0b1: The difference between Slack and Teams
 gx_surveys.ee05149: While we work on improvements, here is some information that can help.
@@ -11164,8 +11170,6 @@ huddles.4a83c54: Screensharing didn’t work well
 huddles.c44c98a: Scroll to the top
 huddles.28abc03: Search by name
 huddles.7842d85: Secondary View
-huddles.859eecd: See all events in your calendar
-huddles.9294251: See all events in your calendar, opens in new window
 huddles.37e8cdd: See in Upcoming
 huddles.e9ca1a3: See participants
 huddles.8b41a4c: See {memberCount, plural, =1 {participant} other {participants}}
@@ -12250,35 +12254,73 @@ keyboard_key.4200997: up arrow
 keyboard_shortcuts.2f03709: {shortcutTitle}: {keyNames}
 latest_message_preview.905cb32: You
 launch_market_segmentation_modal.356a192: 1
+launch_market_segmentation_modal.fee1558: 1-10
+launch_market_segmentation_modal.dcbd040: 11-49
+launch_market_segmentation_modal.ac3478d: 5
+launch_market_segmentation_modal.878cbf3: 50-499
+launch_market_segmentation_modal.daf5121: 500+
 launch_market_segmentation_modal.242fd79: <lead>To get you started…</lead><headline>Enjoy a free 30-day premium trial</headline>
 launch_market_segmentation_modal.653b88b: AI works across all of it.
+launch_market_segmentation_modal.1eda237: Administrator
 launch_market_segmentation_modal.e69873e: And Slack becomes where work gets done.
 launch_market_segmentation_modal.9c55147: Chat and Collaboration
+launch_market_segmentation_modal.5a91c17: Chat with my team
+launch_market_segmentation_modal.af5c450: Collaborate with people and AI agents
+launch_market_segmentation_modal.a490af2: Collaborating on a class project
+launch_market_segmentation_modal.1b07e5d: Communicating with a class
+launch_market_segmentation_modal.8fc2905: Communicating with a research team
+launch_market_segmentation_modal.605c510: Communicating within/across departments
+launch_market_segmentation_modal.35b4c55: Consolidate my apps and tools in one place
+launch_market_segmentation_modal.880e76e: Construction and Real Estate
+launch_market_segmentation_modal.7b0304e: Coordinating campus initiatives
 launch_market_segmentation_modal.aaf87fe: Education
-launch_market_segmentation_modal.84add5b: Email
+launch_market_segmentation_modal.2249e77: Education and Research
+launch_market_segmentation_modal.7494949: Educator
 launch_market_segmentation_modal.c5497bc: Events
 launch_market_segmentation_modal.43824e4: For customer and client communication
+launch_market_segmentation_modal.89c5873: Friends or family chat
 launch_market_segmentation_modal.90e40d5: Get started
 launch_market_segmentation_modal.6c55dff: Get the best of Slack, free for 30 days.
-launch_market_segmentation_modal.cc5cee4: Google Workspace
+launch_market_segmentation_modal.d5f3ba2: Hobbies, volunteering or other special interests
+launch_market_segmentation_modal.685c83c: How big is your org?
+launch_market_segmentation_modal.66c44f9: How do you want to use Slack?
+launch_market_segmentation_modal.2e5e9c0: How familiar are you with Slack?
 launch_market_segmentation_modal.3068a95: I just want to check it out
+launch_market_segmentation_modal.78a6f4a: I’m just testing it out
+launch_market_segmentation_modal.ba87811: I’ve managed Slack workspaces
+launch_market_segmentation_modal.59f71cd: I’ve used Slack before
 launch_market_segmentation_modal.09b2882: Let’s Go
-launch_market_segmentation_modal.f4a105f: Loading next question
+launch_market_segmentation_modal.eee9e18: Managing a student organization
+launch_market_segmentation_modal.f5a5a33: Managing teaching assistants
+launch_market_segmentation_modal.e71f214: Manufacturing and Engineering
 launch_market_segmentation_modal.f95e683: Market segmentation modal
-launch_market_segmentation_modal.2be02b4: Microsoft Teams
 launch_market_segmentation_modal.3671c08: New to Slack
 launch_market_segmentation_modal.bc98198: Next
 launch_market_segmentation_modal.3a01f52: No commitments. Your Business+ plan reverts to the free version of Slack when the trial ends.
-launch_market_segmentation_modal.6eef664: None
 launch_market_segmentation_modal.6e6a6f2: Other
+launch_market_segmentation_modal.a515280: Other industry
+launch_market_segmentation_modal.24720de: Professional Services
+launch_market_segmentation_modal.93823d9: Professional community or network
 launch_market_segmentation_modal.dd64c0f: Project Management
+launch_market_segmentation_modal.dadedec: Running a department or program
+launch_market_segmentation_modal.7717d63: Running an operational team
 launch_market_segmentation_modal.3da4745: Skip
+launch_market_segmentation_modal.4447250: Software and Technology
+launch_market_segmentation_modal.42b3279: Student
+launch_market_segmentation_modal.5b97d4f: Supporting student organizations
+launch_market_segmentation_modal.0a11209: Tell us more (optional)
 launch_market_segmentation_modal.3de3cef: To explore AI tools and apps
+launch_market_segmentation_modal.77b1b2c: Track projects
+launch_market_segmentation_modal.4531874: We’ll suggest the right setup for your goals.
+launch_market_segmentation_modal.9199952: We’ll tailor recommendations based on your experience.
+launch_market_segmentation_modal.3c55714: We’ll use this information to plan future improvements.
+launch_market_segmentation_modal.3779ca0: What does your organization do?
+launch_market_segmentation_modal.7dd7afe: Which best describes you?
 launch_market_segmentation_modal.00040ba: Work
 launch_market_segmentation_modal.6b168f9: Work starts with a message.
+launch_market_segmentation_modal.f739980: Work with clients, vendors, and partners
 launch_market_segmentation_modal.3bc45fa: Working with partners and vendors
 launch_market_segmentation_modal.c4902a1: Your apps work alongside it.
-launch_market_segmentation_modal.9b3cbed: Zoom
 launch_market_segmentation_modal.a7c1d9f: chat and collaborate
 launch_market_segmentation_modal.611ec00: customer and client communication
 launch_market_segmentation_modal.324057e: explore AI tools and apps
@@ -15033,7 +15075,6 @@ modernselling.511e5ec: Now, you can view and update your latest progress on deal
 modernselling.d42150f: Number of time periods
 modernselling.9ce3bd4: OK
 modernselling.cf68386: Object type selector
-modernselling.e3de5ab: Off
 modernselling.b0a9821: Ok
 modernselling.e0049a6: On
 modernselling.9f51bbc: Once imported, contacts will be stored in Salesforce.
@@ -15317,6 +15358,7 @@ modernselling.80621bc: Step {displayStep} of {totalSteps}
 modernselling.e20f8e5: Step {displayStep} of {totalSteps}, {title}
 modernselling.31006b3: Step {step} of {totalSteps}
 modernselling.12498fd: Successfully deleted notification <b>{name}</b>
+modernselling.e7f1ce3: Suggested Salesforce lists (optional)
 modernselling.04b0c5f: Sure
 modernselling.3e44c92: Switch
 modernselling.520cb3f: Switch Now
@@ -18427,6 +18469,7 @@ recent_page.9fbb94b: Slackbot
 recent_page.b041e19: This is your space. Draft messages, list your to-dos, or keep links and files handy.
 recent_page.a5622b6: VIP unreads
 recent_page.b42307f: You:
+recent_page.624103e: You: 
 recent_page.08ede1d: sent a video clip
 recent_page.d298a2b: sent an audio clip
 recent_page.d123b11: shared a GIF
@@ -29121,6 +29164,8 @@ workflow_builder.330163f: Your collection will be available as a variable to use
 workflow_builder.1dc4d76: Your conditions will be lost.
 workflow_builder.6ef7af0: Your list schema has changed. Open and save this step to update your form.
 workflow_builder.ab42293: Your name
+workflow_builder.ba3e352: Your organization allows workflows that start from Salesforce to send messages to private channels only.
+workflow_builder.e29cf7e: Your organization doesn’t allow workflows that start from Salesforce to send messages to channels.
 workflow_builder.b3aa7f1: Your schema has changed. Open and save this step to update your form.
 workflow_builder.d9cff0d: Your template has been saved!
 workflow_builder.a7fc5b4: Your template has been submitted!
