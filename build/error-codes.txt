@@ -47,7 +47,9 @@ auth_not_available
 auth_required
 auth_type_not_supported
 auto_install_rule_creation_failed
+bad_image
 bad_timestamp
+bad_url
 block_mismatch
 blocked_by_guardrails
 blocked_by_slack_connect
@@ -172,6 +174,7 @@ dlp_user_warning
 domain_claimed
 domain_mismatch
 domain_not_found
+download_failed
 draft_delete_invalid
 draft_expired
 draft_has_conflict
@@ -610,6 +613,8 @@ no_email
 no_emailtoken
 no_external_invite_permission
 no_fields_to_display
+no_file
+no_image
 no_image_uploaded
 no_invitees
 no_item_specified
@@ -738,6 +743,7 @@ rate_limited
 ratelimit
 ratelimited
 reached_upper_spend_limit
+read_only_profile_field
 read_stage_settings_failed
 recipient_huddles_disabled
 recipients_not_specified
@@ -863,6 +869,7 @@ timezone_count_failed
 today_focus_rate_limited
 token_delegated_error
 token_not_found
+too_large
 too_many_attachments
 too_many_bookmarks
 too_many_channels
@@ -940,6 +947,7 @@ unsupported_task
 unsupported_trigger_type
 update_failed
 upgrade_required_but_user_cannot
+upload_error
 ura_limit_reached
 uri_not_found_in_message
 uri_not_handled_by_app

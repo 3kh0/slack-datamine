@@ -331,6 +331,7 @@ conversations.list: exclude_archived, limit, types
 conversations.listPrefs: channel
 conversations.mark: channel, reason, ts
 conversations.meetingnotes.getLock: channel
+conversations.meetingnotes.unlock: channel
 conversations.members: channel, limit
 conversations.permissions.accountTypes.list: channel_id, permissions
 conversations.permissions.accountTypes.set: account_type, channel_id, permissions
