@@ -875,7 +875,7 @@ users.consent.remove: app_id, scopes
 users.customStatus.deleteScheduled: custom_status_id
 users.customStatus.schedule: custom_status_id, date_expire, date_scheduled, duration, emoji, is_dnd, ooo_message, text, text_canonical
 users.delegates.list: role
-users.info: custom_fields_mode, self, team, users
+users.info: custom_fields_mode, self, team, user, users
 users.inviteRequests.create: channels, requests, restricted, source, team_id, ultra_restricted
 users.list: limit
 users.listOutgoingInvites: limit
