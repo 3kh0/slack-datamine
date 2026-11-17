@@ -31,6 +31,7 @@ chat.update: as_user_not_supported, block_mismatch, blocked_file_type, cannot_sh
 client.apps.composerSuggestions: app_access_restricted, app_error, app_not_supported, bot_not_found, channel_not_found, composer_suggestions_not_enabled, internal_error, invalid_suggestions
 client.codeChannels.getPullRequest: channel_not_found, github_api_error, github_connector_not_available, github_not_authenticated, github_rate_limited, github_revision_changed, github_sso_required, invalid_pr_url, restricted_action
 client.codeChannels.getPullRequestSummary: channel_not_found, github_api_error, github_connector_not_available, github_insufficient_scope, github_not_authenticated, github_rate_limited, github_sso_required, invalid_pr_url, restricted_action
+client.codeChannels.getSummary: channel_not_found, excluded_from_slack_ai, not_agent_channel, ratelimited, summary_failed
 client.codeChannels.listPullRequestComments: channel_not_found, github_api_error, github_connector_not_available, github_not_authenticated, github_rate_limited, github_revision_changed, github_sso_required, invalid_cursor, invalid_pr_url, restricted_action
 client.tbd.codeChannels.open: agent_unavailable, channel_creation_failed, channel_creation_in_progress, channel_not_found, no_default_workspace, restricted_action, team_not_found
 client.tbd.facts.flag: corrections_paused, fact_not_found, invalid_arguments
