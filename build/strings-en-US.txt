@@ -19213,11 +19213,7 @@ search.6218311: 3 characters required
 search.2586672: 6+ months old
 search.7ff2a8e: <b>Connected!</b> Results from connected apps will now start appearing in search. Manage or connect more apps here, anytime.
 search.ef4ef01: <b>Connected!</b> Results from connected apps will now start appearing in search. Manage them here, any time.
-search.136972b: <b>Now searching with Slackbot</b> — ask a full question in your own words
-search.25279b7: <b>Now searching with Slackbot</b> — great for natural language searches like this one
 search.96c5217: <slackbotLabel>Ask Slackbot</slackbotLabel> <description>in your own words to search differently across more sources.</description>
-search.3c3bc09: <strong>{count, plural, =1 {# result} other {# results}}</strong> found.
-search.2d396f8: <strong>{count}+ results</strong> found.
 search.2a9c572: <strong>{count}</strong> results found
 search.dff3386: A DM with someone
 search.ae40845: A channel
@@ -19293,6 +19289,7 @@ search.06373ee: Ask Slackbot about {topic}
 search.fc52535: Ask Slackbot:
 search.9b43c38: Ask Slackbot: {query}
 search.ea23b05: Ask Slackbot: {question}
+search.eda5d05: Ask Slackbot…
 search.89dd6c5: Ask a different question
 search.027d408: Ask a question like “What did I accomplish this week?”
 search.cac5d74: Assigned to you
@@ -19387,13 +19384,10 @@ search.8250067: Could we ask you a few quick questions about your most recent se
 search.cf3209c: Couldn’t join {channelName}.
 search.a3f6f56: Couldn’t leave {channelName}.
 search.253dc5f: Couldn’t load this thread
-search.11992d1: Couldn’t search this channel. Try again in a moment.
 search.6e157c5: Create
 search.daaf089: Create Channel
 search.3d1ee95: Create New Section
 search.3ac4864: Create a channel
-search.cda4c22: Create a channel called #{channelName}
-search.5cd5b12: Create a channel called {channelName}
 search.79d9074: Create and find workflows and apps
 search.dc8650f: Create and share content
 search.5477033: Create new
@@ -19525,7 +19519,6 @@ search.4bf0c7c: Find in channel
 search.cb8e862: Find in channel ({shortcut})
 search.dddf4e4: Find in conversation
 search.4457abc: Find in conversation ({shortcut})
-search.1c64d2a: Find in saved items
 search.e9d801e: Find in sent messages
 search.125b3ab: Find links and files shared with me about my latest project
 search.2a304b9: Find results related to {searchQuery} or find semantically similar results relevant to me.
@@ -19653,6 +19646,8 @@ search.9fddcff: Manage your team’s workspace
 search.f7eb22b: Manage {appName}
 search.6311650: Managed by you
 search.433632e: March
+search.9457229: Match in a link: {link}
+search.94d67db: Match in an attachment
 search.c058fd4: Matched message
 search.c94f479: May
 search.0c77aee: Media
@@ -19692,19 +19687,18 @@ search.10d98b5: New List
 search.bceeb45: New hire
 search.f10051f: New section
 search.c195083: New surface
-search.79e5467: Newer result
 search.d044282: Newest
 search.96836a4: Newest channel
 search.bc98198: Next
 search.a6fd981: No agents or apps are available in this workspace.
 search.7fee04a: No direct messages match your search.
+search.ac1fe62: No matches in this channel
 search.c8ece08: No matches in your suggested records
 search.0f112c9: No matching sessions or workflows
 search.b6b23a4: No message results found, Try <bold>other related matches:</bold>
 search.03a9680: No message results found, Try other related matches
 search.bb60f28: No recent agents
 search.651e0e7: No recent matches
-search.d7f5544: No recent matches in this channel.
 search.b993b0c: No results
 search.658e79f: No results found
 search.3155fc9: No workflows or tasks are available in this workspace.
@@ -19726,7 +19720,6 @@ search.c67a89d: Nothing turned up
 search.3c5bf77: November
 search.72a83ad: Objects
 search.87206ae: October
-search.c4ec95f: Older result
 search.c47bb88: Oldest
 search.dc095d6: Oldest channel
 search.e0049a6: On
@@ -19854,15 +19847,19 @@ search.a9d1682: Scroll to AI answer
 search.0dfd9b0: Scroll to Slackbot’s answer
 search.bce0641: Search
 search.4bbd163: Search DMs
+search.97e32d1: Search DMs at {teamName}
 search.8a4c571: Search across people, channels, files, workflows, and more
 search.9313854: Search actions
 search.2615a44: Search all files
 search.9c7483f: Search channels
+search.fa3f2bf: Search channels at {teamName}
 search.9ffb52f: Search connectors
 search.7087888: Search conversations
 search.0e33f42: Search details: 
+search.4a63147: Search external connections
 search.ee29173: Search far and wide
 search.ec88257: Search files
+search.5e49181: Search files at {teamName}
 search.2245afe: Search for anything
 search.fae79ee: Search for canvases
 search.deb61df: Search for everything in one place. Connect all your work tools so the information you need is just one Slack search away.
@@ -19876,17 +19873,22 @@ search.d8f281a: Search in conversation
 search.a480b4a: Search in the group message with you, {members}
 search.e20fb5d: Search in the {channel} channel
 search.373f96c: Search isn’t available in this view. Use Filters to browse templates.
+search.abea65a: Search messages
+search.ea066e4: Search messages at {teamName}
 search.a5ab82b: Search messages in this channel ({shortcut})
 search.3b06bee: Search messages in this channel {shortcut}
 search.033c327: Search now shows your unreads, drafts and recent places, with search history just a click away.
 search.1f3bdb2: Search or Ask Slackbot
 search.22628a6: Search organizations
 search.b565ea6: Search people
+search.f2b67bc: Search people at {teamName}
 search.2495e62: Search records
 search.0144dae: Search results
 search.0363909: Search suggestions
 search.c13a61a: Search with Slackbot like asking a teammate — the classic who, what, where, or when will do. Just search the way you talk.
 search.021b95d: Search without filters
+search.6fa3f82: Search workflows
+search.482493e: Search workflows at {teamName}
 search.6e913a6: Search workspaces
 search.1b4a285: Search {channelName}
 search.775f7ad: Search {keywords} {channelName}
@@ -19987,8 +19989,6 @@ search.85a7de6: Star
 search.e61561a: Starred
 search.952f375: Start
 search.dc3c6d2: Start Over
-search.183e9eb: Start a conversation with
-search.f90315d: Start a conversation with {memberNamesText}
 search.e0a80c8: Start a direct message
 search.ccdaf21: Start date (ex. {dateExample})
 search.a725020: State
@@ -20066,6 +20066,7 @@ search.52eac3f: Type a keyword
 search.0708f95: Type a keyword or <strong>from: @name</strong> to find that message you’re looking for.
 search.5b40f0c: Type at least three characters to search for a Salesforce record. Asterisk (*) and quote (") are ignored.
 search.78b4e85: Type of feedback
+search.7edc389: Type the name of a Salesforce record
 search.39fc721: Undo
 search.b05d96b: Unknown file
 search.09bd824: Unlimited AI answers are available on our Business+ plan.
@@ -20241,8 +20242,11 @@ search.fb39e42: {queryLabel} <b>{searchText}</b>
 search.564afcc: {reactionAmount} {reactionAmount, plural, =1 {reaction} other {reactions}}
 search.104e003: {realName}{maybeApp}{maybeTeam}, Direct Message{maybeUnreads}{maybeDeactivated}{maybePresence}
 search.b80ac7a: {replies} · last reply {ago}
+search.fcccd96: {roomName} in {channelName}
+search.7239f09: {roomName} with {channelName}
 search.b493356: {sender} in a direct message
 search.169f123: {sender} in {conversation}
+search.b099fb4: {sender} replied in a thread
 search.1db5227: {sender}:
 search.adc9d5d: {startDate} - {endDate}
 search.bbee91a: {step} of {total}
@@ -26342,10 +26346,8 @@ threads.5339af6: Members will be able to reply and react
 threads.ebdc3ae: Message Slackbot
 threads.8d53e1f: Messages, replies, and reactions will be removed
 threads.6403f2b: New
-threads.79e5467: Newer result
 threads.b993b0c: No results
 threads.34c95d1: No unread messages
-threads.c4ec95f: Older result
 threads.2f7d13c: Only selected team members can post in this thread.
 threads.68eedc7: Open in channel
 threads.825450c: Organize my sidebar — I’m in {count} channels
