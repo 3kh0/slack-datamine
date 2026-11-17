@@ -88,7 +88,7 @@
 ) are ignored.
 ) is not supported yet.
 ) that performed expensive computation.
-)&&(ez(!1),aR(void 0),e$(aU?
+)&&(eW(!1),aR(void 0),e$(aU?
 ))),e((0,c.R3)(h)),e((0,c.p4)(h?a:void 0)),p(h?
 ). If you meant to render a collection of children, use an array instead.
 )?l.makeImage(e.slice(8),new u.Ay(t,r,n,i),o?
@@ -351,6 +351,7 @@ Access ready-to-use templates with powerful automation built in. The Grid plan i
 Access resumed after successful client.init
 Access to customer support
 Accessibility in Slack
+Accessibility: so Slackbot can see your meeting window and confirm your note was sent.
 Account & preferences
 Account ID
 Account Name
@@ -957,6 +958,7 @@ Allow Slack AI to search the web
 Allow Slack to use the microphone in System Settings, then try again.
 Allow Slackbot to search the web
 Allow huddles in this channel?
+Allow microphone
 Allow microphone access
 Allow microphone access in system preferences.
 Allow microphone access in windows settings. If you
@@ -997,6 +999,7 @@ Always allow notifications from certain people by adding them as a VIP.
 Always be closing
 Always good to see the human half of this arrangement.
 Always show collapsed menu
+Always visible
 Amazon Chime
 Amazon Silk
 Amazon Voice Focus support check inside iframe: not recommended.
@@ -1252,6 +1255,7 @@ Ask about this window
 Ask an admin to install it from the Slack Marketplace.
 Ask an admin to reinstall it so Slackbot gets the access it needs.
 Ask anything
+Ask anything, live
 Ask anything. Answers come back as cards you can act on, like replying or checking things off.
 Ask as a card instead
 Ask before actions
@@ -1570,6 +1574,7 @@ Bright and friendly.
 Bring Back All Cards
 Bring Salesforce data into Slack
 Bring Slackbot to this meeting?
+Bring Slackbot to your meetings
 Bring all archived items to To-dos
 Bring all your tools into Slack
 Bring both your teams into the same room
@@ -2029,6 +2034,7 @@ Change draft pending block unfurls to sending
 Change draft pending gif unfurls to sending
 Change formatting
 Change limited access group
+Change mic
 Change notification settings
 Change region
 Change spreadsheet
@@ -2152,6 +2158,7 @@ Chat about this
 Chat and Collaboration
 Chat with Slackbot
 Chat with Slackbot AI
+Chat with Slackbot about the meeting while it happens. No bot joins the call.
 Check It Out
 Check Tasks
 Check again
@@ -2676,6 +2683,7 @@ Compute Pressure API is not supported.
 Computed an empty scene during teardown;
 Computer audio
 Computer audio is unavailable. Recording your mic only.
+Computer audio is working.
 Conditional branching in Workflow Builder
 Conditional fetch manager failed to bootstrap channel sections - channel sections will not be displayed
 Conditionally fetch canvas header image by id and store it in Redux
@@ -4203,6 +4211,7 @@ End date and time
 End huddle for all
 End time must be in the future.
 End users will need to re-authorize this app for changes to take effect.
+End voice chat
 End your current voice call?
 End your voice call with Slackbot?
 Ending search session
@@ -4966,7 +4975,6 @@ Fetch (emoji) reacji triggers for multiple channels
 Fetch Available Plans
 Fetch IMs from the API
 Fetch MPIMs from the API
-Fetch Plans Page Boot Data
 Fetch a record channel given a record id
 Fetch a record channel given a record id and navigate
 Fetch a single daily digest by id
@@ -8013,6 +8021,7 @@ Microphone permission is denied. The user must grant permissions and fully quit 
 Microphone stopped
 Microphone stream not adopted; releasing it
 Microphone track ended
+Microphone: so notes include you.
 Microsoft Edge
 Microsoft JhengHei
 Microsoft JhengHei Bold
@@ -8398,6 +8407,7 @@ New file
 New folder
 New hire onboarding
 New huddle
+New in Singer
 New lead
 New leads post automatically with Add Lead to Salesforce and Dismiss buttons, so a rep can review each lead before it goes to your CRM.
 New list
@@ -8948,6 +8958,7 @@ Nothing here yet
 Nothing here yet. Use the star on any file to add it to this section.
 Nothing in Activity right now.
 Nothing is being recorded. Your mic and computer audio are off until you resume.
+Nothing is recorded or saved.
 Nothing left for you here.
 Nothing left here.
 Nothing left in Activity.
@@ -10310,6 +10321,7 @@ Record meeting
 Record meeting notes
 Record more
 Record more?
+Record my mic only
 Record options
 Record overview tabs
 Record preview
@@ -11177,6 +11189,7 @@ Saving this step will remove all structured output fields you have defined. This
 Saving to Salesforce
 Say goodbye to content creation, summaries, and your AI teammate, Slackbot.
 Say hello to your inviter
+Say something. The top of the ribbon is you. Play a video to see computer audio below.
 Say what your status should be
 Say who can manage and post in channels
 Scale and connect globally
@@ -11204,6 +11217,7 @@ Schema is missing a method literal
 Score debugger
 Scoring model
 Scott Tackett
+Screen & System Audio Recording: so Slackbot can hear everyone else in the call.
 Screen capture start failed
 Screen picker
 Screen reader
@@ -12375,6 +12389,7 @@ Slack is offline
 Slack is trying to connect.
 Slack logo
 Slack needs Accessibility access to see your meeting window and confirm your note was sent. Nothing from the window is saved or sent.
+Slack needs permissions
 Slack notifications
 Slack now automatically sorts your results to surface the most relevant files and messages every time you search
 Slack request to getSlackObjects timed out
@@ -12423,6 +12438,7 @@ Slackbot edit highlights kept until seen
 Slackbot ended the call
 Slackbot found info that could be used to set up your Sales Tracker.
 Slackbot found info that could be used to set up your Sales Tracker. Taking you there shortly.
+Slackbot gives you a note to share before you start.
 Slackbot has an answer for you
 Slackbot has responded
 Slackbot in this channel
@@ -12621,7 +12637,9 @@ Sorted like your sidebar
 Sorted newest to oldest
 Sorted oldest to newest
 Souad Mahmassani
+Sound check
 Sounds & appearance
+Sounds good
 Source Sans 3
 Source Sans Pro
 Source Sans Pro Black
@@ -13151,6 +13169,7 @@ Takes a deleted message out of its code channel session
 Talk it out in a huddle
 Talk to Singer
 Talk to Slackbot
+Talk to Slackbot is using your mic. End it to start the meeting assistant.
 Talk with Slackbot
 Talk with a teammate
 Tap and say it
@@ -13219,6 +13238,7 @@ TensorList shape mismatch:
 Term suggestions collapsed
 Terms of service
 Test Speaker
+Test my audio
 Test run
 Test runs use your own connection to each MCP server in this step.
 Testing API connectivity...
@@ -15140,6 +15160,7 @@ Waiting for connection (offline)
 Waiting for huddle to end to reload
 Waiting for someone to let you in
 Waiting for someone to start the huddle and let you in
+Waiting for sound
 Waiting for workspace credentials
 Waiting on review
 Waiting on you
@@ -15402,6 +15423,7 @@ With everything you need together in one spot, you can stay connected and keep w
 With more people, you can:
 With unlimited message history and AI channel summaries.
 Within your org, people in your workspace can join automatically. Other workspaces must request.
+Without Screen & System Audio Recording, notes only include your voice.
 Without external people
 Woman waving hello
 Won stage
@@ -15647,6 +15669,7 @@ You started a workflow.
 You talk with these people often.
 You talk with this person often.
 You tell 
+You tell the room
 You tried it all!
 You use this channel often.
 You were invited to direct message with:
@@ -15773,6 +15796,8 @@ Your message is still sending. Check the conversation before trying again.
 Your message will be shared along with an invitation to join your workspace.
 Your message, along with any files and attachments, has been saved to your drafts.
 Your mic
+Your mic is in use
+Your mic is working.
 Your microphone is muted in system settings. Open voice details to unmute it.
 Your microphone is unavailable. Try closing other apps that may be using it, switching to a different microphone, or restarting Slack.
 Your note asking Sara to restart bond counsel, the resolution and the opinion letter is saved in the chat.

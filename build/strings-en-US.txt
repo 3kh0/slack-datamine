@@ -2998,6 +2998,7 @@ block_kit.9e04b10: {count, plural, one {# result} other {# results}}
 block_kit.e08f461: {fileCount, plural, =1 {# file uploaded.} other {# files uploaded.}}
 block_kit.55f37e1: {fileName} uploaded successfully.
 block_kit.6451b48: {label} group with {controlCount, plural, one {# control} other {# controls}}
+block_kit.85d72be: {label}, {buttonText}
 block_kit.dc70958: {label}: {control}
 block_kit.c4cbff2: {language} code block.
 block_kit.5e5f65a: {name} button
@@ -20346,6 +20347,7 @@ setup_page.74f1d29: <b>Get a shareable invite link</b> <strong>instead</strong>
 setup_page.9f7fd9e: <b>How to Search in Slack</b> Access the right information instantly
 setup_page.1bb5074: <b>Preview of Slack CRM</b>
 setup_page.1ea9ac3: <b>Preview of your {name} template</b>
+setup_page.ac0df8b: <b>Using Slack</b> Learn how Slack works from top to bottom
 setup_page.530e77a: <strong>You can also </strong> <b>use an invite link</b>
 setup_page.20f1c35: <strong>{channelName}</strong> is where you’ll work with {invitingMember} and others from <strong>{invitingTeam}</strong>.
 setup_page.a16b881: <strong>{channelName}</strong> is where you’ll work with {invitingMember} and others from <strong>{invitingTeam}</strong>. You can post and reply to messages, but you’ll need to get approval before you can add any other people to the channel.
@@ -21588,10 +21590,12 @@ singer.c777f20: 5 minutes before
 singer.9db046b: A draft for {name}
 singer.085724b: A duck
 singer.c50a20e: A little room to breathe.
+singer.1a71885: A live capsule shows whenever it’s listening. Stop anytime.
 singer.3b65e3e: A new look and voice, same answers. Tap a voice to hear it.
 singer.a810627: A quick answer. A little catch-up. A head start on whatever’s next.
 singer.d81834d: A recording note is visible in the meeting chat
 singer.1bbee02: A recording note is visible, but Slackbot can’t tell when it was sent. Confirm you’ve told everyone in this meeting before starting.
+singer.374b8ee: Accessibility: so Slackbot can see your meeting window and confirm your note was sent.
 singer.a733b80: Active
 singer.81c0d91: Activity
 singer.5b1c8a4: Activity dismissed. Messages stay unread.
@@ -21613,6 +21617,7 @@ singer.cf05eca: Add reaction
 singer.891e9d6: Agenda
 singer.65def00: Agenda options
 singer.5ce2e6f: Agent
+singer.ddb41b2: All Activity Loaded
 singer.55432f4: All Slackbot conversations
 singer.2fe784d: All caught up here.
 singer.5185fa4: All clear here.
@@ -21623,7 +21628,14 @@ singer.a24c12b: All done here.
 singer.aa837cb: All quiet.
 singer.74904c1: All read here.
 singer.7a5ce8e: All set here.
+singer.a75f4e1: Allow Slack in System Settings › Privacy & Security › Accessibility.
+singer.83185c8: Allow Slack in System Settings › Privacy & Security › Microphone, then try again.
+singer.9c52795: Allow Slack in System Settings › Privacy & Security › Microphone.
+singer.c9a6d3f: Allow Slack in System Settings › Privacy & Security › Screen & System Audio Recording.
 singer.df7a666: Allow Slack to use the microphone in System Settings, then try again.
+singer.bf8f964: Allow microphone
+singer.77c7b49: Allowed
+singer.7ce1779: Always visible
 singer.6eea457: An action may or may not have finished. Check the website before continuing. Slackbot won’t try again on its own.
 singer.c36b29c: An admin turned off transcription for this workspace, so Slackbot can’t take meeting notes.
 singer.666ebb3: Answer style
@@ -21644,11 +21656,10 @@ singer.ae9ecc1: Ask Singer to fix or change some code, and its progress shows up
 singer.310efbc: Ask Slackbot
 singer.c42c3b8: Ask about this meeting
 singer.bdd42e5: Ask about this window
+singer.0b377b4: Ask anything, live
 singer.e6120ea: Ask anything. Answers come back as cards you can act on, like replying or checking things off.
 singer.b1001b0: Ask before actions
-singer.b700dc9: Ask before editing
 singer.24ebad7: Ask for any view. Singer builds it.
-singer.217ccee: Ask questions in the meeting thread. This panel is just for listening.
 singer.29f9bf5: Asking
 singer.b9692bb: Asleep
 singer.f980fb0: Astro
@@ -21669,8 +21680,9 @@ singer.00544f7: Bad response
 singer.7b05bab: Beta freeze moved to next Thursday.
 singer.3466a48: Blast
 singer.54e403a: Bright and friendly.
+singer.3bc880e: Bring Slackbot to your meetings
+singer.0ed5751: Bring Slackbot to {title}?
 singer.2f3b5c5: Browse
-singer.b6924d9: Browse skills in Slack
 singer.54a2cf5: Browser
 singer.7b45734: Browser on {host}. You’re in control. Shift+Escape returns to Singer.
 singer.5777d36: Browser settings couldn’t be updated. Try again.
@@ -21687,6 +21699,7 @@ singer.65b3f06: Calm and even.
 singer.1e7a4ac: Calm over here.
 singer.77dfd21: Cancel
 singer.a3f80b8: Canvas
+singer.918b48a: Can’t check from here
 singer.d221f9f: Can’t confirm the recording.
 singer.73528f7: Can’t show the browser right now. The task isn’t affected.
 singer.5625817: Can’t turn that recording into text. Try speaking again or type your message.
@@ -21696,12 +21709,14 @@ singer.131cf57: Catch me up
 singer.fad94e1: Catch me up on these unread updates. Highlight what needs my attention and link to the messages. Keep it brief.
 singer.8703a74: Catch up
 singer.7534779: Catching up
+singer.b16cbbc: Change mic
 singer.879f0b1: Channel
 singer.18e03e2: Channels
 singer.ee9946c: Character
 singer.749d704: Character, outfit, and size changes save to your Slack account.
 singer.2ced57f: Chat
 singer.9c44221: Chat with Slackbot
+singer.43b6abb: Chat with Slackbot about the meeting while it happens. No bot joins the call.
 singer.3d6910b: Chatty
 singer.4f936b7: Check Tasks
 singer.e185048: Check again
@@ -21711,7 +21726,6 @@ singer.1bafc07: Check your earlier messages in Slack before sending more. Your d
 singer.ccdc6ae: Check your microphone
 singer.1fe81d2: Checking if browsing is available for you…
 singer.72cad85: Choose Attach to use this window.
-singer.d2d135c: Choose a skill, then add your context.
 singer.d3da8bd: Choose another window
 singer.130cd7f: Classic
 singer.0f82e1f: Clean sweep.
@@ -21736,6 +21750,7 @@ singer.29ddc4d: Coding agent
 singer.6bc2ef8: Comparing 3 lamps…
 singer.6814f22: Computer audio
 singer.61abb0c: Computer audio is unavailable. Recording your mic only.
+singer.66b2c0b: Computer audio is working.
 singer.87c3324: Concise
 singer.08b56c1: Confirm and start listening
 singer.bd8efdc: Connect an account to continue
@@ -21762,11 +21777,11 @@ singer.2ca9024: Couldn’t finish this request
 singer.c63907a: Couldn’t hide Singer. Try again.
 singer.88395f5: Couldn’t join this channel. Try again.
 singer.7d9d4ab: Couldn’t load
+singer.7379d87: Couldn’t load activity.
 singer.36de8e2: Couldn’t load coding agents. Your task is saved in the input.
 singer.ad5a095: Couldn’t load your conversations. Try again.
 singer.7f7de99: Couldn’t mark as read.
 singer.1946fbe: Couldn’t mark read. Try again.
-singer.c31cb28: Couldn’t move Singer. Check that another display is connected and try again.
 singer.d4df57f: Couldn’t open that conversation. Try again.
 singer.e1f58c2: Couldn’t open this activity. Try again.
 singer.9e20b19: Couldn’t open this reply. Dismiss the update to get back to Slackbot.
@@ -21796,9 +21811,7 @@ singer.f27d86c: Deletes saved sign-ins and site data for every site. Open browse
 singer.fc7f864: Direct message
 singer.e7596a0: Direct messages
 singer.70afe9e: Dismiss
-singer.3232ed5: Dismiss activity
 singer.347aaa7: Dismiss error
-singer.ddbf44b: Dismiss for now. Messages stay unread.
 singer.7acaa14: Dismiss meeting notes
 singer.2cfa21b: Dismiss meeting reminder
 singer.ce08c9a: Dismiss notice
@@ -21826,6 +21839,7 @@ singer.5301648: Edit
 singer.9f9b55b: Einstein
 singer.2cc92f6: End Quiet
 singer.c8de761: End call
+singer.e25cf14: End voice chat
 singer.1f7a4f9: Esc
 singer.af9da5c: Every answer is a card
 singer.8a1ddb6: Everything is set to Keep
@@ -21841,7 +21855,6 @@ singer.355bcc5: Finished
 singer.99a4231: Fix
 singer.873c7db: Fly
 singer.91a2988: Fly with the Left and Right arrow keys. Press Space to blast, P to pause, or Escape to close.
-singer.c1f34eb: Fold the input when idle
 singer.84cfd0f: Fold · $72 · 4.8★
 singer.f294cd4: Follow my Mac
 singer.f52bed1: Follows your Slack notification settings.
@@ -21856,6 +21869,7 @@ singer.3f66052: From
 singer.d0a73e1: Full personality
 singer.d084684: Garden Party
 singer.9239ee2: General
+singer.90e40d5: Get started
 singer.9e21872: Getting your mic and computer audio ready. If macOS asks, allow Slack.
 singer.f03e2d0: Go Back
 singer.b2feb2b: Good response
@@ -21877,8 +21891,6 @@ singer.2a70e2a: Here’s a pony.
 singer.bf2d5f8: Hi! Good to meet you.
 singer.4e6ca55: Hi, I’m Singer
 singer.5b0f71c: Hidden while you’re in control
-singer.fe3f4c7: Hide Singer
-singer.a896653: Hide {title} from companion
 singer.20d27f8: Hold for a pick-me-up, or press Shift+Enter.
 singer.ae44077: Hold to talk
 singer.9994b42: Hold to try a hello. Just a preview—your mic stays off.
@@ -21952,16 +21964,15 @@ singer.6944c88: Listening to {title}.
 singer.6c19a47: Listening…
 singer.1734e2e: Little moments, more personality
 singer.65c821a: Live
-singer.58ef910: Live answers may have gaps. Your notes will still use the full recording.
 singer.884138b: Live cards keep up
 singer.64a9fa4: Live meeting
 singer.3d9154d: Live statuses
 singer.9ecde87: Load More
 singer.dfe60ca: Load more
+singer.4c959ab: Loading activity…
 singer.c9d1bde: Loading browser settings…
 singer.a863c67: Loading messages…
 singer.2678479: Loading message…
-singer.c1c3862: Loading skills…
 singer.ac84b51: Loading task output…
 singer.06dd1ba: Loading threads…
 singer.c566964: Loading thread…
@@ -21977,6 +21988,7 @@ singer.e5f6134: Mark All Read
 singer.4b38b55: Mark Unread
 singer.ccf3a5a: Mark as Read
 singer.c1ee860: Mark as read
+singer.5d398ce: Mark as read, thread in {conversation} from {date}
 singer.623bab0: Mark unread
 singer.d78217d: Marked as read
 singer.ce771bb: Marked as read.
@@ -21998,6 +22010,7 @@ singer.32d7428: Meeting reminder dismissed. You can still find it in Today.
 singer.cf829f1: Meeting reminders
 singer.1a04629: Meeting thread
 singer.de22a5e: Meeting thread, {count} new
+singer.46efbb1: Meeting window
 singer.b23a193: Meetings
 singer.85e12bc: Mentions
 singer.0c44559: Merged
@@ -22011,19 +22024,17 @@ singer.4b53f7a: Message {name}
 singer.fda222b: Mic in use by voice call
 singer.2428053: Microphone
 singer.66ec628: Microphone muted
+singer.9e65a00: Microphone: so notes include you.
 singer.4bab2d8: More
 singer.a1e34f9: More actions
 singer.151a837: More audio for this meeting’s canvas.
 singer.9f8eb5f: More for you
 singer.a94019b: More reactions
 singer.1ddcf19: More thread actions
-singer.e040db2: Motion
 singer.6259b62: Motion & feedback
 singer.76cdb95: Move
 singer.93217db: Move Singer onto a window, then choose Attach to ask about it.
-singer.1097d8d: Move to next display
 singer.0f09734: Mute
-singer.dbb6af3: Mute duration
 singer.b9e78ce: Muted
 singer.6f9d9b7: Nailed it.
 singer.709a232: Name
@@ -22038,6 +22049,7 @@ singer.6403f2b: New
 singer.e176200: New Slackbot conversation
 singer.10d95f6: New activity lands here when it arrives.
 singer.0eb6323: New activity will show up here.
+singer.a263620: New in Singer
 singer.1ed2e7b: New message
 singer.3bbfb55: New personal best.
 singer.bc98198: Next
@@ -22048,7 +22060,6 @@ singer.6bccbf1: No audio
 singer.ebd7d5b: No audio from your mic or computer
 singer.2be64d9: No audio is being recorded.
 singer.6fe9f48: No audio is being recorded. Stop recording, then try again.
-singer.af99741: No audio is coming through
 singer.172cd3f: No cards match “{query}”
 singer.41f901c: No code tasks yet
 singer.fcddb96: No coding agent is available in this workspace. Your task is saved in the input.
@@ -22058,6 +22069,7 @@ singer.c04921f: No messages yet
 singer.f759728: No more meetings today
 singer.3a5aa5b: No preview available
 singer.9f4192f: No speech detected. Try speaking again.
+singer.bf3df7b: Not allowed yet
 singer.9d4d510: Not confirmed in the summary.
 singer.8b02f3d: Not connected
 singer.d6e07cb: Not looking
@@ -22067,7 +22079,7 @@ singer.d87874b: Notes aren’t ready
 singer.2f6df5f: Notes go to a new Slack canvas.
 singer.e892255: Nothing here yet
 singer.96e29d0: Nothing in Activity right now.
-singer.8dbef38: Nothing is being recorded. Your mic and computer audio are off until you resume.
+singer.dad1837: Nothing is recorded or saved.
 singer.9a6f0f4: Nothing left for you here.
 singer.55965e3: Nothing left here.
 singer.3f8b4e0: Nothing left in Activity.
@@ -22175,6 +22187,7 @@ singer.9967d32: Reconnecting. Recording may still be on
 singer.8a8b956: Reconnecting…
 singer.ebb0b1c: Record more
 singer.be34b2e: Record more?
+singer.561fdb8: Record my mic only
 singer.9b98e1a: Recording
 singer.253275f: Recording computer audio. Your mic is unavailable.
 singer.3feda5a: Recording computer audio. Your microphone is unavailable.
@@ -22186,7 +22199,6 @@ singer.49fa43e: Recording paused.
 singer.6bf0a5e: Recording paused. Meeting controls
 singer.3f94bd0: Recording resumed.
 singer.7d87346: Recording your mic and computer audio.
-singer.db0c5e9: Recording your mic only. Notes won’t include people on the call.
 singer.edee82b: Recording your microphone. Computer audio is unavailable.
 singer.6025e93: Reduce Motion is on in macOS.
 singer.4a7e2a2: Reduced
@@ -22202,7 +22214,6 @@ singer.05315c0: Remove screenshot
 singer.497d69b: Replace Draft
 singer.764ace3: Replace your saved message with this draft?
 singer.c0f85d6: Replay
-singer.be73626: Replay intro
 singer.c8a103c: Replies
 singer.6c2bb73: Reply
 singer.edde538: Reply in chat to continue.
@@ -22236,6 +22247,8 @@ singer.2d6407d: Saving audio.
 singer.917b574: Saving audio…
 singer.11b99ed: Saving the recording
 singer.56a2285: Saving…
+singer.5a0891e: Say something. The top of the ribbon is you. Play a video to see computer audio below.
+singer.93aff18: Screen & System Audio Recording: so Slackbot can hear everyone else in the call.
 singer.99b812b: Search More Widely
 singer.2e1878c: Search Slackbot conversations
 singer.4fb3393: Search activity
@@ -22257,13 +22270,11 @@ singer.ec6051f: Sent to {agent}
 singer.8874019: Session ended
 singer.c7f73bb: Settings
 singer.b93760c: Shared by {name}
-singer.a82b2d5: Show More Skills
 singer.cf0f51d: Show New Activity
-singer.1f20b7d: Show activity in the island
+singer.5810ece: Show in Chat
 singer.4c852b2: Show less
 singer.ded0a5d: Show me
 singer.9bfd43e: Show message text when your Slack privacy settings allow it.
-singer.260072c: Show welcome again
 singer.4c358ea: Show {count, plural, =1 {# more task} other {# more tasks}}
 singer.852ffae: Show {count, plural, =1 {# more} other {# more}}
 singer.348b2d3: Showtime
@@ -22279,27 +22290,30 @@ singer.b8550d2: Singer intro
 singer.8cc6463: Singer is typing…
 singer.9cd8f6e: Singer offers you a heart
 singer.c6c7248: Singer sees only the window you choose. macOS may ask for permission first.
-singer.0286de8: Singer settings
 singer.51bdbdb: Singer suggests these first. Change them anytime in Settings.
 singer.b715234: Size
 singer.e09212c: Skills
 singer.3da4745: Skip
 singer.430b38b: Slack
+singer.f80eb4e: Slack can’t use your mic
+singer.e5e25ef: Slack can’t use your mic. Allow Slack in System Settings › Privacy & Security › Microphone, then try again.
 singer.4f28623: Slack checks the chat on this Mac. Nothing from the meeting window is saved or sent.
 singer.bb50b9f: Slack needs Accessibility access to see your meeting window and confirm your note was sent. Nothing from the window is saved or sent.
+singer.6d0e603: Slack needs permissions
 singer.9fbb94b: Slackbot
 singer.0850196: Slackbot Mini is recording this meeting
 singer.ebd0ef0: Slackbot can’t check the meeting chat
 singer.6b62a9d: Slackbot can’t find your note in the chat yet. Make sure the chat panel is open and the note was sent.
+singer.3f1bc01: Slackbot can’t hear the call yet
 singer.679bba2: Slackbot can’t see a meeting chat here
 singer.bead4a6: Slackbot couldn’t put the note in the chat. Copy it, then paste it in the meeting chat.
 singer.23a3804: Slackbot couldn’t write a draft. Your message is still here.
 singer.fe4d27b: Slackbot didn’t start listening.
+singer.26957bf: Slackbot gives you a note to share before you start.
+singer.f07d19f: Slackbot is drafting a reply…
 singer.be52fba: Slackbot is finishing your answer…
 singer.ffc8d58: Slackbot is paused and can’t see the browser.
-singer.5d27dd8: Slackbot isn’t hearing your mic or computer audio. Check your mic, or stop and try again.
 singer.a8e35c7: Slackbot records your mic and computer audio and transcribes it with AI until you press Stop—even when folded or hidden. Let everyone in the meeting know before you start.
-singer.2b8a545: Slackbot summarizes these conversations. Nothing is marked read.
 singer.8acd171: Slackbot’s draft is ready to review.
 singer.c74fd97: Small
 singer.09a52d3: Soft and thoughtful.
@@ -22310,6 +22324,8 @@ singer.d591a93: Some files couldn’t be attached. Check the message and try aga
 singer.fc30e76: Some updates couldn’t be marked read. Try again.
 singer.48f88ac: Something else
 singer.81d81f0: Sometimes, it’s easier to say it.
+singer.b4eb8e8: Sound check
+singer.88a04b6: Sounds good
 singer.d845483: Source: lamps.example
 singer.2eb56be: Sources
 singer.6d8c9b1: Space
@@ -22329,7 +22345,6 @@ singer.6d38cec: Start huddle in thread
 singer.be1c083: Start listening
 singer.e92d02d: Start recording
 singer.7f36d18: Start recording to turn this meeting into notes.
-singer.43d2f8c: Start typing from the shortcut
 singer.81efe7d: Starting recording. Meeting controls
 singer.e5f5809: Starting…
 singer.86d6db3: Status cleared
@@ -22342,7 +22357,6 @@ singer.fc3bb0e: Still waiting for Slackbot. Your message is saved here.
 singer.9e25347: Stop
 singer.80c5e79: Stop Task
 singer.962101f: Stop and hide
-singer.7f12569: Stop and make notes
 singer.ee0d9dc: Stop recording
 singer.01ca109: Stop this task?
 singer.51e9111: Stopped
@@ -22369,9 +22383,11 @@ singer.4e6a710: Talk
 singer.849d26b: Talk isn’t available in this workspace yet. You can still type a question.
 singer.7c798d5: Talk to Singer
 singer.7cd4f2a: Talk to Slackbot
+singer.0322216: Talk to Slackbot is using your mic. End it to start the meeting assistant.
 singer.1cc0805: Task output
 singer.090ec5f: Tasks
 singer.31f2ce0: Tell me about this window.
+singer.29c2273: Test my audio
 singer.6298140: Thanks for the feedback
 singer.348527a: That didn’t work. Try again.
 singer.9d41e71: That draft isn’t ready to use. Check your connection and access.
@@ -22416,6 +22432,8 @@ singer.96f5a7c: Try Stopping Again
 singer.ca62995: Try a reaction.
 singer.042c862: Try again
 singer.84d41ec: Try it with your voice
+singer.fb53790: Turned off in System Settings
+singer.78a8fc4: Type instead
 singer.2c9c1f7: Unavailable
 singer.39fc721: Undo
 singer.f6c1feb: Unlocks when your note shows up in the meeting chat
@@ -22438,12 +22456,13 @@ singer.1e03442: View Work
 singer.a172d36: View conversation
 singer.5559dd0: View only
 singer.39eb5cd: View thread
-singer.382c6e5: View your unread updates in Singer
 singer.3091c84: Voice
+singer.538f3e5: Voice connected
 singer.cda41b4: Voice input isn’t available. Try again.
 singer.a86dd4a: Voice with Slackbot
 singer.0ab6291: Wait until the message editor is ready to quote a message.
 singer.9afc81c: Waiting for an update
+singer.fe5c200: Waiting for sound
 singer.600ee44: Warm and steady.
 singer.4d6023c: Warm-up round.
 singer.4a35db6: Ways to ask again
@@ -22463,6 +22482,7 @@ singer.bc6b225: While you were quiet
 singer.5fd7559: Who answers
 singer.41dfc0a: Window
 singer.7a823cf: Window detached.
+singer.da08a77: Without Screen & System Audio Recording, notes only include your voice.
 singer.3b4dfc9: Working
 singer.ffc8d10: Working on it…
 singer.920453c: Working on your request
@@ -22472,6 +22492,7 @@ singer.905cb32: You
 singer.8e7d0d0: You can’t send messages here. Open in Slack to check access.
 singer.384d50c: You don’t have access
 singer.cb8caea: You look nice today
+singer.231bd37: You tell the room
 singer.21a293b: Your Slack assistant, right on your desktop. Let’s take it for a spin.
 singer.55b940b: Your Slack. A little closer.
 singer.a1ca6d7: Your Talk shortcut is off. You can change it in Settings.
@@ -22480,11 +22501,14 @@ singer.42fddd8: Your answers show up here.
 singer.8b98f42: Your calendar connection timed out.
 singer.c7a8ead: Your calendar couldn’t load.
 singer.7ada587: Your chat, recap and notes go to a thread in your DM with Slackbot. Only you can see it until you share.
+singer.06a663e: Your conversation will appear here.
 singer.0bf29fe: Your huddle is taking notes
 singer.f30447a: Your huddle is taking notes from its captions. Stop them from the huddle.
 singer.5a35be6: Your message is still sending. Check the conversation before trying again.
 singer.8836647: Your mic
-singer.538d223: Your mic · {device}
+singer.794d8bc: Your mic is in use
+singer.36c57e9: Your mic is working.
+singer.5e32c43: Your mic · {name}
 singer.8aa431a: Your microphone is muted in system settings. Open voice details to unmute it.
 singer.c8b0757: Your note is in the meeting chat. Start listening is ready.
 singer.c147c29: Your notes are ready
@@ -22520,6 +22544,7 @@ singer.f06013c: the agent
 singer.2dac81d: tomorrow
 singer.c316f6a: until tomorrow
 singer.8af56de: you
+singer.1f8d362: {count, plural, =0 {No matching activity loaded.} one {# matching activity item loaded.} other {# matching activity items loaded.}}
 singer.8c4d08e: {count, plural, =0 {No meetings} one {# meeting} other {# meetings}}
 singer.50bbeb6: {count, plural, =1 {# change applied} other {# changes applied}}
 singer.7f1edeb: {count, plural, =1 {# change didn’t go through} other {# changes didn’t go through}}
@@ -22557,33 +22582,22 @@ singer.4ed1c68: {title}: {state}
 singer-file-drop-feedback.5ff5dd8: Adding to your message…
 singer-file-drop-feedback.38abf08: Drop to attach
 singer-window-attachment.1afff01: Attach
+singer-window-attachment.7aba744: Attached window
+singer-window-attachment.77d607f: Attaching window…
+singer-window-attachment.c351af2: Attaching…
+singer-window-attachment.c1dc118: Choose Attach in Singer to use this window
+singer-window-attachment.c7310d3: Detach window
+singer-window-attachment.8206bfd: Dismiss window suggestion
+singer-window-attachment.08fb1d0: Finish this request or draft, then try Attach again.
+singer-window-attachment.1f29de7: Use in your next request
 singer-window-attachment.41dfc0a: Window
+singer-window-attachment.097a3f4: Window changed. Move Singer over it again.
 singer-window-conversation.1b29cf6: Allow Editing
-singer-window-conversation.5b2b09d: Allow Screen Recording for Slack, then try your request again.
-singer-window-conversation.218d4be: Apply Edit
-singer-window-conversation.f036c3f: Approval isn’t available for this edit. No changes were made.
 singer-window-conversation.77dfd21: Cancel
-singer-window-conversation.28a156f: Couldn’t send this request. The draft is saved here. Try again.
-singer-window-conversation.9f95f08: Current document text
-singer-window-conversation.53ea3c7: Done — updated your window.
-singer-window-conversation.20270bc: Editing in your window…
 singer-window-conversation.92109a3: I Checked the Window
-singer-window-conversation.48b929e: I couldn’t check Accessibility for Slack. Allow it in System Settings, then ask again.
 singer-window-conversation.6024fed: I couldn’t confirm the change. Check the window before trying again.
-singer-window-conversation.5e56945: Proposed document text
-singer-window-conversation.444afa1: Restored the previous text.
-singer-window-conversation.198ca85: Review edit
-singer-window-conversation.f5b75cc: Review the proposed edit before applying it.
-singer-window-conversation.d81545f: Text to insert
-singer-window-conversation.828e411: The edit wasn’t applied because approval expired. Ask again to review it.
-singer-window-conversation.83ef211: The window changed or is no longer available. Keep it open and ask again.
-singer-window-conversation.56ac574: This change couldn’t be verified.
-singer-window-conversation.34857f0: This part of the window can’t be edited here. Click its text field and ask again, or ask about what’s on screen.
 singer-window-conversation.9cb64a1: This window is no longer attached. Drag Singer onto a window to continue.
-singer-window-conversation.a4c8902: To edit this window, allow Accessibility for Slack in System Settings. You can keep asking about what’s on screen.
 singer-window-conversation.09615d9: Undo Edit
-singer-window-conversation.e858861: Undo didn’t run. Allow Accessibility for Slack in System Settings, then try Undo Edit again.
-singer-window-conversation.da93ad6: Undo didn’t run. That attempt changed nothing.
 singer-window-conversation.ba70c0a: Your draft is saved. Wait for this request to finish before sending another.
 sk_banner.bbfa773: Close
 sk_banner.70afe9e: Dismiss
@@ -23665,7 +23679,6 @@ slackbot-ai.1e70a9e: @Slackbot
 slackbot-ai.ac846e2: About {seconds}s left
 slackbot-ai.61cc55a: Add
 slackbot-ai.44e578a: Add Task
-slackbot-ai.dd0e370: Add a task to have this agent run a prompt on a schedule.
 slackbot-ai.5e71592: Add canvases
 slackbot-ai.b9b41b0: Add channels
 slackbot-ai.44326c6: Add custom MCP
@@ -23749,8 +23762,6 @@ slackbot-ai.74c3816: Couldn’t confirm your update. Your changes are still here
 slackbot-ai.89c6656: Couldn’t load projects
 slackbot-ai.6e157c5: Create
 slackbot-ai.156c201: Create a Task
-slackbot-ai.c071049: Create a task
-slackbot-ai.b5fec02: Create a task with Slackbot
 slackbot-ai.03d1805: Create from scratch
 slackbot-ai.f1f1450: Create task
 slackbot-ai.3cde32a: Create with Slackbot
@@ -23761,7 +23772,6 @@ slackbot-ai.366371f: Customize Slackbot
 slackbot-ai.91e1bb5: Customizing settings for {channelName}
 slackbot-ai.b58b1c6: Daily at {time} {timezone}
 slackbot-ai.5ff5066: Daily between {startTime} and {endTime} {timezone}
-slackbot-ai.5b72d01: Daily/Weekly Briefing
 slackbot-ai.808d7dc: Default
 slackbot-ai.afe853a: Delegate to Slackbot
 slackbot-ai.f6fdbe4: Delete
@@ -23822,20 +23832,16 @@ slackbot-ai.fa4f455: Get a briefing on your day, prep for meetings, and more. Cl
 slackbot-ai.255ce2a: Get action plan
 slackbot-ai.90e40d5: Get started
 slackbot-ai.aeb4d6f: Give it another try in a few minutes.
-slackbot-ai.b0d1e1a: Give me a daily sales update from my CRM data every morning.
-slackbot-ai.973bcc3: Give this agent a prompt and a schedule. It runs the prompt for you and sends you what it finds, so you don’t have to ask again.
 slackbot-ai.0f50dd9: Give your task a name
 slackbot-ai.e76c619: Group related conversations around a topic and give Slackbot custom instructions so every chat picks up where the last one left off.
 slackbot-ai.4eb2fde: Help me respond to this thread: {permalink}
 slackbot-ai.bd5db47: Help me set up a new task.
 slackbot-ai.094fc81: Hi, I’m Slackbot, your AI teammate.
 slackbot-ai.90ccd64: History
-slackbot-ai.47d791f: How tasks work
 slackbot-ai.305549b: I found {count, plural, one {# thing} other {# things}} I can take off your plate.
 slackbot-ai.e893b9c: I want to edit my task called {title}
 slackbot-ai.ed58f29: Instructions
 slackbot-ai.b15db7e: I’m getting up to speed so I can tailor my responses to your work.
-slackbot-ai.81283a6: Just tell Slackbot what you need it to do. Then set a schedule and Slackbot takes it from there.
 slackbot-ai.ced7d4a: Keep Editing
 slackbot-ai.df833fe: Last 7 days
 slackbot-ai.7dea45e: Last day of the month, every {repeatsEvery} months at {time} {timezone}
@@ -23937,7 +23943,6 @@ slackbot-ai.6988b16: Reconnect
 slackbot-ai.6fa5023: Reconnect {name}
 slackbot-ai.0d9b27b: Reinstall to grant access
 slackbot-ai.cce7155: Reload
-slackbot-ai.9e89524: Reminders & To-Do
 slackbot-ai.45660a4: Remove from project
 slackbot-ai.f2b5df5: Remove {fileName}
 slackbot-ai.d3f4cb8: Rename
@@ -23953,7 +23958,6 @@ slackbot-ai.1abc3ce: Retry Send
 slackbot-ai.4e193ec: Review your information
 slackbot-ai.8bcdf89: Run my task "{taskTitle}"
 slackbot-ai.1388f00: Run task now
-slackbot-ai.9d69627: Sales Pipeline Assistant
 slackbot-ai.efc007a: Save
 slackbot-ai.fa2984b: Save Changes
 slackbot-ai.0deff4c: Saving project memory
@@ -23970,10 +23974,8 @@ slackbot-ai.cfa1b08: Search {teamName}
 slackbot-ai.0d2a9b4: See and download your calendars
 slackbot-ai.c510d6c: See more
 slackbot-ai.9bc2575: Send
-slackbot-ai.b4b1da8: Send me my top priorities every morning.
 slackbot-ai.cf76551: Sending…
 slackbot-ai.35f49dc: Sent
-slackbot-ai.65249c1: Set repetitive tasks on autopilot
 slackbot-ai.2e7109b: Settings sections
 slackbot-ai.b7426e5: Share Skill
 slackbot-ai.50d0d8d: Shared
@@ -23985,7 +23987,6 @@ slackbot-ai.3da4745: Skip
 slackbot-ai.6fc0960: Skip for now
 slackbot-ai.41b9655: Slack wants to access your Google Account
 slackbot-ai.9fbb94b: Slackbot
-slackbot-ai.854109a: Slackbot can only do {totalRuns} task runs per day. Consider adjusting how many times your tasks run.
 slackbot-ai.04a9c81: Slackbot peek views
 slackbot-ai.63dea14: Slackbot preview
 slackbot-ai.b2b7ea5: Slackbot setup progress
@@ -24002,9 +24003,7 @@ slackbot-ai.3e7c8b7: Star conversation: {title}
 slackbot-ai.e61561a: Starred
 slackbot-ai.bae7d5b: Status
 slackbot-ai.8d183db: Subject
-slackbot-ai.de89b41: Suggested tasks
 slackbot-ai.bd139d1: Summarize my recent activity
-slackbot-ai.1343710: Summarize what happened in my most active channel and send me a morning briefing every workday.
 slackbot-ai.eb3b730: Summarizing…
 slackbot-ai.cda05ca: Surface
 slackbot-ai.fed4f63: Surface preview unavailable
@@ -24100,6 +24099,7 @@ slackbot-ai.473b95a: {count, plural, =1 {# tool} other {# tools}}
 slackbot-ai.49f452f: {count, plural, =1 {{totalCountStr} result found} other {{totalCountStr} results found}}
 slackbot-ai.6b37fe8: {count, plural, one {# automation} other {# automations}}
 slackbot-ai.c598756: {count, plural, one {# conversation found} other {# conversations found}}
+slackbot-ai.bc8d0df: {count, plural, one {# person you work with uses} other {# people you work with use}} Slackbot tasks
 slackbot-ai.7edf653: {count, plural, one {# source} other {# sources}}
 slackbot-ai.42910ff: {count} in progress
 slackbot-ai.7e20641: {current} of {total}
@@ -28286,7 +28286,6 @@ workflow_builder.6fb69c4: Describe what you want this step to do
 workflow_builder.eb66869: Describe what you’d like AI to do in this step. Links in the prompt will not be crawled. Your prompt will be visible to end users in Workflow Details.
 workflow_builder.55f8ebc: Description
 workflow_builder.388de6f: Description (optional)
-workflow_builder.6f223c5: Detail view is not available. Data is older than data retention period.
 workflow_builder.4fc1a48: Developer tools
 workflow_builder.3f1c632: Diagnose
 workflow_builder.1c6d938: Diagnose with Slackbot
