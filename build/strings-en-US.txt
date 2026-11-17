@@ -1412,10 +1412,7 @@ ai.8d886c0: Something went wrong
 ai.89e7c42: Taking a look…
 ai.e52cf9d: Taking it all in…
 ai.cef2fe0: Try Again
-ai-apps.7b72482: About {aiAppName}
 ai-apps.a1e34f9: More actions
-ai-apps.3ae9cb0: Pin {name} to top bar
-ai-apps.c21b577: Unpin {name}
 ai-translations.77dfd21: Cancel
 ai-translations.a93e22e: Change translation language
 ai-translations.bbfa773: Close
@@ -1482,7 +1479,6 @@ ai_apps.7541648: Configuration
 ai_apps.fd90229: Content and info about you
 ai_apps.a03d887: Conversation history
 ai_apps.589cac5: Couldn’t load more agents. Please try again.
-ai_apps.39038f4: Enter a search query to find an agent.
 ai_apps.979e325: Explore AI agents that can help you get more done in Slack. Go to the AgentExchange to get started.
 ai_apps.3b6063d: Filter by organization
 ai_apps.defd9a4: Get the power of AI in context when you use an app’s AI-powered assistant alongside Slack conversations. Just click to open, and the assistant can proofread drafts, answer questions, and more.
@@ -1497,26 +1493,20 @@ ai_apps.7bb4405: Installed
 ai_apps.03397ac: Installed agent results
 ai_apps.760c8e6: Installed agents
 ai_apps.8f6ffeb: Internal agents
-ai_apps.af0a740: Learn more about agents
 ai_apps.bbfc8d3: Learn more about {agentName}
 ai_apps.9ecde87: Load More
 ai_apps.33ce417: Loading…
 ai_apps.bf58d17: Manage
 ai_apps.3ca4794: Manage connection
-ai_apps.bbc4a7c: Manage top bar agents
 ai_apps.68f4145: Message
 ai_apps.08db676: More about app permissions
 ai_apps.3606365: More about {appName}
 ai_apps.a1e34f9: More actions
-ai_apps.94db969: More agents
-ai_apps.becc8ab: More agents loaded
 ai_apps.71b35d4: Most relevant
 ai_apps.709a232: Name
 ai_apps.364e701: New Chat
 ai_apps.009bf6b: New chat
 ai_apps.56b58f1: No agents
-ai_apps.acbbf9b: No agents available.
-ai_apps.6a8c55b: No agents found. Try a different search query.
 ai_apps.587e293: No conversation history yet
 ai_apps.011321b: No matching agents
 ai_apps.bd5188a: No matching sidekicks
@@ -1534,7 +1524,6 @@ ai_apps.03a322d: Open in split view
 ai_apps.2fb9609: Open in split view for {agentName}
 ai_apps.bb1f603: Open {appName}
 ai_apps.1718e55: Open {name} agent
-ai_apps.3ae9cb0: Pin {name} to top bar
 ai_apps.86b41d6: Pinned by you
 ai_apps.9bef397: Pinned by your admin
 ai_apps.6fe36ed: Popular agents
@@ -1563,7 +1552,6 @@ ai_apps.196ce5f: There was a problem loading agents. Please try again.
 ai_apps.06245fe: This app hasn’t shared a privacy policy link. Contact the developer directly for more information.
 ai_apps.2b76d52: This tool uses generative AI, which can produce inaccurate or harmful responses. Review for accuracy and safety before using.
 ai_apps.2c37bbe: Try these prompts:
-ai_apps.c21b577: Unpin {name}
 ai_apps.621521f: Untitled
 ai_apps.9827032: View <app-pp-link>{appName}'s privacy policy.</app-pp-link>
 ai_apps.bdbf9a1: View <slack-pp-link>Slack’s privacy policy</slack-pp-link> and <tos-link>terms of service.</tos-link>
@@ -1578,7 +1566,6 @@ ai_apps.964694b: Your org doesn’t have any agents yet
 ai_apps.0608c40: agent
 ai_apps.3396883: {appName} is working with limited access. You can <update-access-link>update access</update-access-link> anytime.
 ai_apps.2f2bbaa: {isConnecting, select, true {Connecting…} other {Connect}}
-ai_apps.a2629ba: {name}, pinned
 ai_workspace_setup.e450199:  Welcome to #{name}
 ai_workspace_setup.2e8bbf3: Advanced settings
 ai_workspace_setup.77dfd21: Cancel
@@ -1707,9 +1694,18 @@ app-config.3da4745: Skip
 app-config.a693bf2: This was locked by a system administrator
 app-config.2fab0fb: This workflow has reached the {max_number_of_steps}-step limit. To add more steps, you need to remove some first.
 app_action_picker.d3a0a22: Add a custom MCP server
+app_action_picker.d907fee: Add agents and apps to this DM
+app_action_picker.6a9b0f3: Add agents and apps to this group DM
+app_action_picker.e9cc812: Add apps to this DM
+app_action_picker.de8409a: Add apps to this group DM
 app_action_picker.e8b8f97: Add files and tools
+app_action_picker.446cbed: Add from Box
+app_action_picker.09dfc18: Add from Dropbox
+app_action_picker.56dbe58: Add from Google Drive
+app_action_picker.ccbec6c: Add from OneDrive & SharePoint
 app_action_picker.d9a3685: Apps
 app_action_picker.1afff01: Attach
+app_action_picker.cb38f9f: Attach a GIF
 app_action_picker.fc05e2a: Available apps
 app_action_picker.c0774ce: Browse apps
 app_action_picker.2190a3b: Browse channels
@@ -1888,12 +1884,10 @@ app_details.1d06648: {appName} is installed on {teamName}
 app_details.2a4c7f0: ‘{appName}’ will be able to do
 app_details.96cb78d: ‘{appName}’ will be able to view
 app_dialog.b16c7ac: (optional)
-app_dialog.0997bad: Header Icon
+app_dialog.3a4245a: Learn more about {appName}
 app_dialog.2dacf65: Submit
 app_dialog.ab90d9d: This field is required.
 app_dialog.26dc55d: We had some trouble connecting. <a>Try again?</a>
-app_dialog.38ffdb9: You can't enter more than {maxLength, plural, =1 {# character} other {# characters}}.
-app_dialog.d800655: You must enter at least {minLength, plural, =1 {# character} other {# characters}}.
 app_home.f0ee13e: Access restricted
 app_home.378cbbf: Learn More
 app_home.cce7155: Reload
@@ -1988,8 +1982,10 @@ apps.99aaf3a: Don’t Allow
 apps.4731db6: Grant {appName} Access
 apps.4c852b2: Show less
 apps.25911d4: Show more
+apps.3dca670: {appName} would like to do the following in <strong>all channels it’s a member of</strong>:
 apps.798e7d6: {appName} would like to do the following in your direct message with {channelName}:
 apps.28fcf44: {appName} would like to do the following in {channelName}:
+apps.7f5cbfa: {appName} would like to:
 apps_browser.61cc55a: Add
 apps_browser.3ce6301: Add agents and apps to {channelName}
 apps_browser.1ae2c6a: Add app
@@ -3691,6 +3687,7 @@ channel_details.c84728a: Apps aren’t available for Slackbot in your workspace 
 channel_details.8bccb96: Apps installed by members of these workspaces will need to be added again.
 channel_details.cf32dee: Apps installed by members of {workspace} will need to be added again.
 channel_details.c167bce: Apps your admins turned on for Slackbot in this channel. Slackbot uses them with your own access, so it only sees what you can.
+channel_details.2621c6f: Archive
 channel_details.f079ba1: Archive channel for everyone
 channel_details.4ad277c: Archiving failed with error: {error}
 channel_details.9befdf0: Are you sure you want to delete this template?
@@ -3844,7 +3841,6 @@ channel_details.d0cf3ff: Edit Sidekick
 channel_details.ec9bdcf: Edit access to workspace
 channel_details.28fa8ec: Edit agent settings
 channel_details.9f4fad1: Edit channel managers
-channel_details.342a4bc: Edit channel name
 channel_details.3127004: Edit channel name: {name}
 channel_details.7ff7536: Edit channel purpose
 channel_details.8080853: Edit channel topic
@@ -3857,6 +3853,7 @@ channel_details.e5664b4: Edit guest access setting
 channel_details.732cc1b: Edit guest access setting. You cannot change this setting when the channel contains single-channel guests.
 channel_details.c4dafe4: Edit guest access setting. You don’t have permission to change this setting.
 channel_details.61c1ddd: Edit message history
+channel_details.d3aafd8: Edit name
 channel_details.81759a7: Edit notifications
 channel_details.49b00fb: Edit posting permissions
 channel_details.8e1958c: Edit sharing and file downloads.
@@ -3890,8 +3887,7 @@ channel_details.3426250: Find members
 channel_details.b077859: Find people
 channel_details.911f5a8: Find people or agents
 channel_details.1c98ee6: Find someone
-channel_details.2d7505a: Flag channel name
-channel_details.96a7faa: Flag conversation name
+channel_details.a774409: Flag
 channel_details.a3e2206: For 1 week
 channel_details.360ba56: For 48 hours
 channel_details.658d8de: For some reason, your changes weren’t saved. Please try again.
@@ -4141,7 +4137,6 @@ channel_details.30fb730: Read Instructions
 channel_details.b514908: Receive support emails, collaborate on case resolutions, and respond to customers without leaving Slack. 
 channel_details.7c399fe: Record editors
 channel_details.e8b2b14: Record owners
-channel_details.76ee4da: Related workspaces
 channel_details.5a2be49: Reload tools
 channel_details.39c0791: Reloading tools
 channel_details.4d3ebfc: Remembered
@@ -4413,6 +4408,7 @@ channel_details.c637eb9: {count, plural, =1 {# channel manager} other {# channel
 channel_details.03cd6f5: {count, plural, =1 {# member} other {# members}}
 channel_details.0829a45: {count, plural, =1 {# skill in this set is inactive (channel limit)} other {# skills in this set are inactive (channel limit)}}
 channel_details.f55bdcf: {count, plural, =1 {# tool available} other {# tools available}}
+channel_details.57ca87c: {count, plural, =1 {Workspace} other {Workspaces}}
 channel_details.ca25627: {count, plural, one {# request to join} other {# requests to join}}
 channel_details.5cf6345: {creatorName} on {createdDate, date, long}
 channel_details.f3acb80: {disconnectingTeamName} is being removed. You’ll get a message from Slackbot when it’s done.
@@ -4890,6 +4886,7 @@ channel_sidebar.879f0b1: Channel
 channel_sidebar.610e4cf: Channel invitations
 channel_sidebar.da5d596: Channel or user name
 channel_sidebar.18e03e2: Channels
+channel_sidebar.0688ebf: Channels and direct messages
 channel_sidebar.876d683: Choose what to pin…
 channel_sidebar.fb99bef: Clear out the clutter and hide {numMutedChannels} {numMutedChannels, plural, =1 {muted channel} other {muted channels}} from view. They’ll only pop up again if someone mentions you.
 channel_sidebar.247fd63: Clear selection
@@ -5538,7 +5535,6 @@ classic_nav.c47ae15: Help
 classic_nav.c05ea34: Help, with {unreads, plural, =1 {# unread} other {# unreads}}
 classic_nav.eff152e: Hide workspace switcher
 classic_nav.90ccd64: History
-classic_nav.615e0f7: History Navigation
 classic_nav.8c99a8e: How does this impact your current use of Slack or how could it potentially improve your use of Slack in the future?
 classic_nav.2e29f8d: How would you describe the search results you’re seeing?
 classic_nav.a0767c2: Huddle
@@ -5588,6 +5584,7 @@ classic_nav.4971b0f: Session channel
 classic_nav.02d1eda: Set yourself as <strong>{presenceLabel}</strong>
 classic_nav.bef780e: Share your feedback on Search
 classic_nav.1c69e35: Show history
+classic_nav.b318b8b: Show workspace switcher
 classic_nav.ada2e9e: Sign in
 classic_nav.4212b2a: Sign in on mobile
 classic_nav.dc1649a: Sign out
@@ -5732,7 +5729,7 @@ client.b50ba55: Reload Now
 client.d3518bd: Reloading Slack
 client.d0cbdc2: Reloading Slack in {secondsUntilReload, plural, =1 {# second} other {# seconds}}
 client.d0edfb6: Sales
-client.9f579c7: Sales Home
+client.8fdb33b: Sales Hub
 client.9762a89: Sales Tracker
 client.c0ae8f6: Saved
 client.1d9c1a0: Saved items
@@ -8810,14 +8807,12 @@ enterprise-apps-connectivity.585c533: Connect {appName}
 enterprise-apps-connectivity.c2f9b7b: Connected
 enterprise-apps-connectivity.e9b450d: Done
 enterprise-apps-connectivity.cba3a11: Enterprise search
-enterprise-apps-connectivity.05fe772: Featured apps
 enterprise-apps-connectivity.166d4fb: Loading apps
 enterprise-apps-connectivity.ab8802c: More apps to connect
 enterprise-apps-connectivity.3c28693: No apps available for your organization.
 enterprise-apps-connectivity.1e4a356: Ready to connect
 enterprise-apps-connectivity.9f5cd8a: Retry
 enterprise-apps-connectivity.ce0a0a4: See all apps
-enterprise-apps-connectivity.ad5488f: Show {providerName} apps
 enterprise-apps-connectivity.bee54c9: Something went wrong.
 enterprise-apps-connectivity.7fcd8d4: Suggested
 enterprise-apps-connectivity.7304a1f: There was a problem connecting. Give it another try in a few minutes.
@@ -8841,18 +8836,15 @@ enterprise_dashboard.42bda5a: A new tab was opened to complete the set up. Once 
 enterprise_dashboard.1863d9c: A new tab was opened to complete verification.
 enterprise_dashboard.d431f3e: A new tab was opened to complete verification. Having trouble? <a>Retry verification</a>
 enterprise_dashboard.560040c: AI
-enterprise_dashboard.e2d71e3: AI can create and update slides
 enterprise_dashboard.a00e048: Access granted.
+enterprise_dashboard.1994a11: Actions for {appName}
 enterprise_dashboard.61cc55a: Add
-enterprise_dashboard.717b337: Add Excel steps to workflows you create
-enterprise_dashboard.5eec318: Add Google Sheets steps to workflows you create
 enterprise_dashboard.c8b3088: Add a Google domain
 enterprise_dashboard.a9dddb9: Add an Office 365 domain
-enterprise_dashboard.49ed44e: Add calendar steps in Workflow Builder
-enterprise_dashboard.8304dec: Add meeting steps in Workflow Builder
 enterprise_dashboard.486a9b9: Add your Google domain
 enterprise_dashboard.e343cf7: Added members to your Salesforce Org.
 enterprise_dashboard.4e7afeb: Admin
+enterprise_dashboard.07fd81c: Agent URLs
 enterprise_dashboard.1432b01: All enterprise search apps enabled for everyone
 enterprise_dashboard.dbad49d: All time
 enterprise_dashboard.0b17c12: All workflow apps approved for everyone
@@ -8860,19 +8852,14 @@ enterprise_dashboard.22e3fb7: All workspaces
 enterprise_dashboard.2683787: Already added
 enterprise_dashboard.ca73a25: App collaborators
 enterprise_dashboard.cfea419: Apply
+enterprise_dashboard.44aaaaa: Approve who can use or request {appName} in workflows. Your choice will apply to the listed workflow options, and it will be the default setting for future {appName} additions.
 enterprise_dashboard.df24c94: Apps to connect
-enterprise_dashboard.3da9a86: Automate tasks with Workflow Builder
-enterprise_dashboard.b0b67e8: Automatic file access for people in the channel
-enterprise_dashboard.df3d114: Automatically checks and updates permissions
-enterprise_dashboard.f3341f8: Automatically sync your calendar to your Slack status
 enterprise_dashboard.b52b36b: Back
 enterprise_dashboard.6d9e4bc: Browse templates
 enterprise_dashboard.7bc2d21: Build from scratch
-enterprise_dashboard.e0c2148: Calendar events in Slack
 enterprise_dashboard.77dfd21: Cancel
 enterprise_dashboard.814b7e2: Can’t approve {appName}. Please try again.
 enterprise_dashboard.6ccb600: Categories
-enterprise_dashboard.2e74ec3: Channel notifications for shared calendar events
 enterprise_dashboard.18e03e2: Channels
 enterprise_dashboard.bbfa773: Close
 enterprise_dashboard.b794f6d: Confirm in Google
@@ -8884,16 +8871,13 @@ enterprise_dashboard.2e02623: Continue
 enterprise_dashboard.b7c3ca0: Copied!
 enterprise_dashboard.2f84eea: Copy link
 enterprise_dashboard.d244e82: Couldn’t uninstall {appName}. Please try again.
-enterprise_dashboard.77b82f2: Create Docs, Slides, and Sheets from Slack
-enterprise_dashboard.f6b3ab9: Create and update pages from Workflow Builder
 enterprise_dashboard.081ae3f: Custom
-enterprise_dashboard.f6c846a: Daily schedule overview
 enterprise_dashboard.e890865: Default org-wide channel
-enterprise_dashboard.a3521f0: Docs steps in Workflow Builder
 enterprise_dashboard.a0d641b: Domains
 enterprise_dashboard.e9b450d: Done
 enterprise_dashboard.58a219d: Done configuring settings in the other tab? Refresh to continue.
 enterprise_dashboard.84add5b: Email
+enterprise_dashboard.645fe55: End users will need to re-authorize this app for changes to take effect.
 enterprise_dashboard.d61fd15: Enter the domain you want to connect. Everyone with an email address on this domain will get access.
 enterprise_dashboard.4fd4631: Enterprise Search
 enterprise_dashboard.c756f6a: Everyone
@@ -8910,20 +8894,17 @@ enterprise_dashboard.53af77c: Global Administrator access required. Share this l
 enterprise_dashboard.4e27cf4: Go back to step 2 and reinstall Slack, or wait a few minutes and try verifying again.
 enterprise_dashboard.b2acc20: Grant Slack access to Google
 enterprise_dashboard.6b45d93: Grant Slack access to Office 365
-enterprise_dashboard.2a17b82: IDP
+enterprise_dashboard.8fe6084: Icon for {appName}
 enterprise_dashboard.5a99784: Icon must be a .gif, .jpg, or .png
 enterprise_dashboard.b137f44: Icon must be at least {minimumIconWidth} x {minimumIconHeight} pixels
 enterprise_dashboard.4669a7b: If this channel is public for {memberName}'s org, and they are still connected, they can rejoin.
-enterprise_dashboard.aa7c899: Import files into channels and DMs
 enterprise_dashboard.cf4ff13: Installation failed for {appName}. Please try again.
 enterprise_dashboard.e765c2c: Installing {appName}…
 enterprise_dashboard.2bd9eec: Installing {appName}… Done in the other tab? Refresh to continue.
 enterprise_dashboard.7eb0a45: Internet search results are obtained from publicly available sources and may include third-party content that is inaccurate, misleading, or objectionable. For clarity, internet search results are not “Services” (under the Main Services Agreement). Web search may send your data outside of the FedRAMP authorization boundary.
-enterprise_dashboard.27af1b9: Join Teams meetings from calendar reminders
 enterprise_dashboard.99d6336: Last 24 hours
 enterprise_dashboard.6b32985: Last 30 days
 enterprise_dashboard.df833fe: Last 7 days
-enterprise_dashboard.0a5c36e: Launch a Teams video call from Slack
 enterprise_dashboard.824d76b: Learn more
 enterprise_dashboard.2a5c6a3: Learn more.
 enterprise_dashboard.875b2da: Leave some space around your icon.
@@ -8931,6 +8912,7 @@ enterprise_dashboard.ceeaa74: Limited
 enterprise_dashboard.5b4b0b6: Limited - Anyone who can view record
 enterprise_dashboard.00b8f86: Limited - Record editors
 enterprise_dashboard.662e0ca: Limited - Record owners
+enterprise_dashboard.1721b8b: MCP Domains
 enterprise_dashboard.1cb449c: Members
 enterprise_dashboard.709a232: Name
 enterprise_dashboard.bc98198: Next
@@ -8938,62 +8920,47 @@ enterprise_dashboard.baefd7e: No channels were found matching <b>{query}</b>
 enterprise_dashboard.a05b579: No file chosen
 enterprise_dashboard.718d942: No members to assign to this permission
 enterprise_dashboard.41c06c1: No one
-enterprise_dashboard.fdd8747: No results found matching <b>{groupsSearchTerm}</b>.
 enterprise_dashboard.cd51f18: No results found matching <b>{membersSearchTerm}</b>.
-enterprise_dashboard.8a53b25: No user groups to assign to this permission
 enterprise_dashboard.848c28c: No workspaces have been selected
 enterprise_dashboard.0f4d889: Not a <b>Global Administrator</b> for <b>{domain}</b>? Share <a>this link</a> with your workspace’s Global Administrator to get set up.
 enterprise_dashboard.74a889c: Not a <b>super admin</b> for <b>{domain}</b>? Share <a>this link</a> with your workspace super admin to get set up.
 enterprise_dashboard.11dedfb: Not sure if you’re a <b>Global Administrator</b>? Learn more about admin roles <a>here</a>.
 enterprise_dashboard.92fc5eb: Not sure if you’re a <b>super admin</b>? Learn more about admin roles <a>here</a>.
 enterprise_dashboard.285f98e: Note that:
-enterprise_dashboard.0189173: Notifications for comments, access requests, and new shares
-enterprise_dashboard.643bd2a: Notifications when event details change
 enterprise_dashboard.66ad538: Once removed, they’ll no longer have access to the channel, {channel}.
 enterprise_dashboard.0960b20: Once removed, this person will no longer have access to the channel, {channel}.
-enterprise_dashboard.09c2b97: One-click join for Zoom, Meet, Webex, and Teams
-enterprise_dashboard.c9366dd: One-click join for Zoom, Webex, and Teams
 enterprise_dashboard.bb1f603: Open {appName}
+enterprise_dashboard.22b61f9: People will no longer be able to use or request {appName} in workflows. Existing workflows using {appName} will continue to function.
 enterprise_dashboard.16a4155: Please select an option
 enterprise_dashboard.545bab2: Please start over and try again, or visit our <a>help article</a> for more guidance.
 enterprise_dashboard.605da7e: Please try again later. If the issue still persists, contact Slack.
-enterprise_dashboard.39f5fca: Presentation automations in Workflow Builder
 enterprise_dashboard.50f9428: Previous
 enterprise_dashboard.dc5eb70: Public
-enterprise_dashboard.c55b54a: RSVP to invitations and get updates on changes
 enterprise_dashboard.2164a9d: Range…
-enterprise_dashboard.31230f4: Reminders before meetings start
 enterprise_dashboard.e9c42b6: Removing this organization may take some time, but you’ll get a message from Slackbot when it’s done.
-enterprise_dashboard.b7fcbac: Reply to file comments directly from Slack
 enterprise_dashboard.44c57ab: Reset
-enterprise_dashboard.d2dc258: Respond directly to event invitations
 enterprise_dashboard.9f5cd8a: Retry
-enterprise_dashboard.cd832e5: Rich previews when you share a file link
 enterprise_dashboard.efc007a: Save
 enterprise_dashboard.c23540e: Scopes
-enterprise_dashboard.1ee84c7: Search call history
-enterprise_dashboard.6923e2f: See Drive files in search results and answers
-enterprise_dashboard.f16bb97: See Teams Calls information in search results
-enterprise_dashboard.5a33f56: See email information in search results
-enterprise_dashboard.c9c61d1: See files in search results and answers
-enterprise_dashboard.b8d9e8f: See your daily schedule from Slack
+enterprise_dashboard.b933fa5: Security & Compliance
 enterprise_dashboard.913afff: Select all
 enterprise_dashboard.1728fc1: Select who can use {appName} steps
 enterprise_dashboard.9320afb: Select {name}
-enterprise_dashboard.8e9d69e: Set Teams as your default calling provider
 enterprise_dashboard.09feb9e: Set up your connection
-enterprise_dashboard.b7ef5da: Shared calendar notifications in channels
 enterprise_dashboard.50a279d: Show all
 enterprise_dashboard.682aa1a: Show only
 enterprise_dashboard.f5171c9: Sidebar
 enterprise_dashboard.8bfae0e: Sign In to Google
 enterprise_dashboard.8d515be: Sign in with your Google admin account to confirm you manage {domain} and connect it to Slack.
 enterprise_dashboard.430b38b: Slack
+enterprise_dashboard.c474515: Slack connects to this agent at these URLs:
 enterprise_dashboard.cc45600: Slack needs permission to authenticate members of {domain}. Sign in with your Google admin account to approve access.
 enterprise_dashboard.49b3cb2: Slack needs to verify that your domain matches the one your administrator approved.
+enterprise_dashboard.106c2b2: Slackbot can use MCP tools from these domains:
 enterprise_dashboard.0901720: Some workflow apps weren’t approved.
 enterprise_dashboard.8d886c0: Something went wrong
 enterprise_dashboard.2f5ae3a: Something went wrong adding your domain. Please try again.
+enterprise_dashboard.5f67cde: Something went wrong signing in with Google. Try again.
 enterprise_dashboard.5960ade: Something went wrong, please try again.
 enterprise_dashboard.1b5da1c: Something went wrong. Please start over and try again, or visit our help article for more guidance.
 enterprise_dashboard.6da13ad: Source
@@ -9007,6 +8974,8 @@ enterprise_dashboard.ef287d0: Teams Calls installed. To sign into your account, 
 enterprise_dashboard.9809681: The Google account you signed in with isn’t on {domain}. Sign in with an admin account on {domain} to continue.
 enterprise_dashboard.df2093c: The rule “{ruleTitle}” can’t approve A2A agents. To approve agents like this one, add an approve rule with an Agent URLs condition.
 enterprise_dashboard.8dfa391: They can be re-invited to this channel.
+enterprise_dashboard.ec65988: This app includes the following workflows:
+enterprise_dashboard.07ec473: This app requires permission to access the following resources:
 enterprise_dashboard.1196c38: To get set up, you’ll need <b>Global Administrator</b> access to your Microsoft workspace account.
 enterprise_dashboard.a4c2642: To get set up, you’ll need <b>super admin</b> access to your Google workspace account.
 enterprise_dashboard.042c862: Try again
@@ -9044,12 +9013,12 @@ enterprise_dashboard.9622962: {appName} is now connected.
 enterprise_dashboard.5a83c48: {appName} uninstalled.
 enterprise_dashboard.cd65fda: {count, plural, =1 {# channel} other {# channels}}
 enterprise_dashboard.ddf19c4: {count, plural, =1 {# filtered result} other {# filtered results}}
-enterprise_dashboard.e9099aa: {count, plural, =1 {# group} other {# groups}}
 enterprise_dashboard.03cd6f5: {count, plural, =1 {# member} other {# members}}
 enterprise_dashboard.3358be7: {count, plural, one {# skill} other {# skills}}
 enterprise_dashboard.eba622f: {memberName} couldn’t be removed from this channel.
 enterprise_dashboard.c13436c: {memberName} will be removed from {channel}.
 enterprise_dashboard.ada9705: {workspaceCount, plural, =1 {workspace} other {workspaces}}
+enterprise_dashboard.7c54e63: {workspaceInstallations, plural, =1 {# workspace installation} other {# workspace installations}}
 enterprise_dashboard.6e4aa61: – No change
 enterprise_workspaces.77dfd21: Cancel
 enterprise_workspaces.f6cf7b7: Message to administrators
@@ -10732,6 +10701,7 @@ huddles.154b1f2: <strong>We are not detecting any audio from your microphone. <l
 huddles.c995694: <strong>Your Slack version is outdated. <l>Restart to update</l> to avoid a degraded experience.</strong>
 huddles.8036b2e: <strong>Your connection is unstable. See details by <l>opening the troubleshooting panel</l></strong>
 huddles.bd805e4: <strong>Your connection to the Huddle was lost. Hang tight while we reconnect you.</strong>
+huddles.69dc6b2: <strong>{firstParticipantName} and {numRemaining, plural, =1 {{numRemaining} other} other {{numRemaining} others}}</strong> are in the huddle.
 huddles.57a4193: <strong>{firstParticipantName} and {numRemaining, plural, =1 {{numRemaining} other} other {{numRemaining} others}}</strong> are talking. Join when ready.
 huddles.b1f3613: <strong>{firstParticipantName}</strong> and {numRemaining, plural, =1 {{numRemaining} other} other {{numRemaining} others}} are already in the huddle.
 huddles.18a83d0: <strong>{firstParticipantName}</strong> is already in the huddle.
@@ -11872,6 +11842,7 @@ ia4.8fec252: Send to Slackbot
 ia4.c7f73bb: Settings
 ia4.b6e1776: Show Me Around
 ia4.5982a29: Show sidebar
+ia4.b318b8b: Show workspace switcher
 ia4.7ca4f21: Showing only conversations <strong>without external people</strong>
 ia4.ee217b8: Showing only conversations that <strong>include external people</strong>
 ia4.ada2e9e: Sign in
@@ -14437,7 +14408,6 @@ message_pane_foreword.a2bb4ae: Add your whole team
 message_pane_foreword.6e6ddae: Avatars of various people
 message_pane_foreword.164ccfa: Bring your work into Slack
 message_pane_foreword.cf338b6: Browse channel templates
-message_pane_foreword.bd4f6b0: Channels in Slack keep work focused around a specific topic. You can keep all your information related projects attached to the channel so everyone can access.
 message_pane_foreword.2c613b1: Chat with external partners
 message_pane_foreword.306a8e4: Choose a template for this channel
 message_pane_foreword.31532de: Connect your AI tools
@@ -14482,7 +14452,6 @@ message_pane_foreword.6f5eb08: Thread in {channel} · {count, plural, one {# mes
 message_pane_foreword.2d698f0: Track your sales
 message_pane_foreword.8469938: Try It
 message_pane_foreword.b7f9cca: Try this prompt yourself to explore what this agent can do.
-message_pane_foreword.601682d: Welcome to your first channel {name}!
 message_pane_foreword.72353c8: Welcome your team
 message_pane_foreword.3fd30db: What’s on your mind?
 message_pane_foreword.c982515: edit channel description
@@ -15226,6 +15195,7 @@ modernselling.3a45c3f: Remove Access
 modernselling.a13a951: Remove access
 modernselling.a3bc6e4: Remove access from {numUsers, plural, one {# Person} other {# People}}
 modernselling.858fb14: Remove condition
+modernselling.f4e0360: Remove field
 modernselling.92d700a: Remove object
 modernselling.936d65f: Remove preview
 modernselling.645831c: Remove preview?
@@ -16604,7 +16574,6 @@ platform-admin.e57f74b: Channels loaded.
 platform-admin.ea96354: Compare Plans
 platform-admin.2e02623: Continue
 platform-admin.0fff07c: Continue to Groups
-platform-admin.74780a8: Continue to People
 platform-admin.05d0162: Couldn’t load channels. Try again in a few minutes.
 platform-admin.dfdb7ac: Couldn’t load groups. Try again in a few minutes.
 platform-admin.16506ef: Couldn’t load more channels.
@@ -16617,10 +16586,8 @@ platform-admin.5e50eae: Everyone except specific people or groups
 platform-admin.0940563: Filter by channel name
 platform-admin.90e40d5: Get started
 platform-admin.e2722c7: Get unlimited apps, including AI assistants
-platform-admin.6878f62: Learn how to get started connecting your IDP to Slack
 platform-admin.be5f086: Load More Channels
 platform-admin.61afdda: Loading channels
-platform-admin.978ae10: Loading groups
 platform-admin.cf310ac: Loading more channels…
 platform-admin.4f739b5: Loading people
 platform-admin.41bd67a: Manage app access
@@ -16647,8 +16614,6 @@ platform-admin.14c3a74: Sorry, something went wrong. Try again in a moment.
 platform-admin.2d750dd: Specific people
 platform-admin.10e4b6f: Specific people and groups can use the app.
 platform-admin.8007984: Specific people can use the app.
-platform-admin.111cbbd: There are no groups from your identity provider.
-platform-admin.6c68b7e: This app doesn’t allow any groups
 platform-admin.ea1a27d: This app doesn’t allow any people
 platform-admin.f372b05: To reconnect workflows, upgrade to a paid plan. <cta></cta>
 platform-admin.7b15e9e: Too many users to display. You may only add users here. To remove users, please use the API.
@@ -16665,13 +16630,7 @@ platform-admin.155b3f7: You can delete specific people but cannot add people to 
 platform-admin.ba76df8: You’ve reached your limit of 10 installed apps. With Slack Pro, you can install unlimited apps including AI assistants. {bannerCta}
 platform-admin.aa075f0: {channelCount, plural, =1 {# channel} other {# channels}} selected
 platform-admin.cd65fda: {count, plural, =1 {# channel} other {# channels}}
-platform-admin.5a1463d: {count, plural, =1 {# excluded group} other {# excluded groups}} couldn’t be loaded and will no longer be blocked if you save.
-platform-admin.e9099aa: {count, plural, =1 {# group} other {# groups}}
-platform-admin.2de9038: {count, plural, =1 {# group} other {# groups}} this app allows couldn’t be loaded.
 platform-admin.2f9a86c: {count, plural, =1 {# person} other {# people}}
-platform-admin.4c0adf4: {count, plural, =1 {# previously-permitted group} other {# previously-permitted groups}} couldn’t be loaded and will lose access if you save.
-platform-admin.962677a: {groupCount, plural, =0 {No groups} =1 {# group} other {# groups}} and {memberCount, plural, =0 {no people} =1 {# person} other {# people}} selected
-platform-admin.9a1985c: {memberCount, plural, =0 {No people selected} =1 {# person selected} other {# people selected}}
 platform-admin.1b95d2b: {name} (group)
 platform-admin.fc7f746: {personCount, plural, =0 {} =1 {# excluded person} other {# excluded people}}{both, select, true { and } other {}}{groupCount, plural, =0 {} =1 {# excluded group} other {# excluded groups}} couldn’t be loaded and will no longer be blocked if you save.
 platform-admin.b20728a: {personCount, plural, =0 {} =1 {# previously-permitted person} other {# previously-permitted people}}{both, select, true { and } other {}}{groupCount, plural, =0 {} =1 {# previously-permitted group} other {# previously-permitted groups}} couldn’t be loaded and will lose access if you save.
@@ -17989,7 +17948,6 @@ quip_collab.1afff01: Attach
 quip_collab.acdac20: Audio
 quip_collab.75629af: Aug
 quip_collab.69d97c5: August
-quip_collab.a826c28: Backslash
 quip_collab.88d130a: Backspace
 quip_collab.82dd2cd: Block
 quip_collab.03aed4a: Block quote style
@@ -18035,7 +17993,6 @@ quip_collab.c7bd2af: Code block
 quip_collab.6b2e25a: Code block style
 quip_collab.93797c4: Code formatting
 quip_collab.fa473a7: Collapse or expand section
-quip_collab.b9ee3de: Comma
 quip_collab.61607a0: Comments cannot span multiple sections.
 quip_collab.04a2122: Confirm
 quip_collab.1ed02a9: Content with comments
@@ -18304,14 +18261,12 @@ quip_collab.a8cf720: Section expanded
 quip_collab.c3f76f1: Section has unsaved changes.
 quip_collab.954de4b: Selection contains content that is not allowed in a blockquote.
 quip_collab.924e280: Selection contains content that is not allowed in a callout.
-quip_collab.727ceca: Semicolon
 quip_collab.fdd289e: Sep
 quip_collab.b4b289a: Separator
 quip_collab.1c542e7: September
 quip_collab.09ca55c: Share
 quip_collab.c1c0e65: Share message
 quip_collab.469d5b1: Shift
-quip_collab.a2c169f: Slash
 quip_collab.a5d5b46: Slide
 quip_collab.b74dd13: Something
 quip_collab.59445c4: Sorry! We can’t create an anchor link that leads to work you did while offline. Try again once you have an internet connection.
@@ -20333,7 +20288,6 @@ session_channel_archive.7eac343: This channel is inactive. Archive it for everyo
 session_channel_archive.94ca019: This channel is inactive. Leave the channel to tidy up your sidebar — you can always rejoin it later.
 session_channel_archive.504fccb: This work is complete. Archive it for everyone — the contents will still be available in search, and you can always unarchive it in the future.
 session_channel_archive.4fd785e: This work is complete. Leave the channel to tidy up your sidebar — you can always rejoin it later.
-setup_page.2d0ab40: ),Li=n(
 setup_page.27e6d30: + {count, plural, =1 {# other} other {# others}}
 setup_page.850a65b: 1,001 +
 setup_page.92767dc: 101 - 500
@@ -23506,6 +23460,7 @@ slack_first_crm.c8a4874: Got It
 slack_first_crm.88b48f3: If you haven’t received the verification email, please double-check your email address or check your spam folder.
 slack_first_crm.a4449ad: If your provider didn’t send a confirmation, you’re all set! Send a test email to your support address to make sure it comes into Slack as a case.
 slack_first_crm.02931f7: Incoming field
+slack_first_crm.4bff6bf: Incoming field for {fieldName}
 slack_first_crm.0323bf6: Invite teammates
 slack_first_crm.722fe78: Invite your team
 slack_first_crm.a88452d: I’ll Do This Later
@@ -23525,6 +23480,7 @@ slack_first_crm.ddfc99e: Manage your email connection here
 slack_first_crm.93929f9: Manage your support emails directly in a channel
 slack_first_crm.dd218dd: Manage your web form here
 slack_first_crm.b3bb285: Map incoming data to Salesforce fields
+slack_first_crm.4a7c05b: Mapped
 slack_first_crm.709a232: Name
 slack_first_crm.0d3a330: Need help with this step?
 slack_first_crm.e8f770f: New emails to this address will be posted as cases in <b>#{channelName}</b>. Your team can respond in Slack, and this email will be used as the from address. <link>Learn more.</link>
@@ -23544,7 +23500,9 @@ slack_first_crm.61a505d: Provide your ReCAPTCHA API keys to enable spam preventi
 slack_first_crm.53a0a72: Receive support emails, collaborate on case resolutions, and respond to customers without leaving Slack.
 slack_first_crm.d7376e5: Remove Email
 slack_first_crm.6895d87: Remove Email Connection
+slack_first_crm.f4e0360: Remove field
 slack_first_crm.93b0d47: Remove your email connection?
+slack_first_crm.cc45767: Remove {fieldName}
 slack_first_crm.eed6bfb: Required
 slack_first_crm.b724bbb: Resend link
 slack_first_crm.00dd23b: Respond to customer support emails without leaving Slack
@@ -23585,6 +23543,7 @@ slack_first_crm.a5aa418: Turn On
 slack_first_crm.835b53a: Turn it off at any time
 slack_first_crm.bd2ddd7: Use a webhook and new leads will be automatically posted in this channel. Connect any tool that can send a web request, like form builders, dialers, or marketing platforms.
 slack_first_crm.0a21ab2: Use data that comes in with the web request. We’ll create a variable for each field you map.
+slack_first_crm.409c4c3: Use only letters, numbers, dashes, and underscores.
 slack_first_crm.de9f5c3: Variables are replaced with each lead’s values when the message posts.
 slack_first_crm.84fdc78: Verify your email
 slack_first_crm.2973507: View contacts
@@ -23624,14 +23583,11 @@ slack_marketplace.7dd28ed: Free and paid plans available
 slack_marketplace.d51130a: Included with service subscription
 slack_marketplace.dc9d458: Paid
 slack_marketplace.0b015e5: Paid with free trial
-slack_scribe.6723f7d: 30 seconds left. Dictation will auto-submit.
 slack_scribe.f97d187: Add words and phrases Steno should always spell your way.
 slack_scribe.77dfd21: Cancel
 slack_scribe.64fbd99: Change
 slack_scribe.2546d71: Change dictation shortcut
-slack_scribe.2ce0814: Couldn’t access microphone. Check your browser permissions to use dictation.
 slack_scribe.616088d: Dictation Shortcut
-slack_scribe.1a1d287: Dictation didn’t work. Please try again.
 slack_scribe.860e1f9: Dictionary
 slack_scribe.c89ae6c: Dictionary entries
 slack_scribe.271f3f4: Hold the shortcut to record, or double-tap it for hands-free mode.
@@ -24849,7 +24805,7 @@ slackforce.d8764d3: Restoring {recordName}.
 slackforce.ae256b1: Resume this workflow
 slackforce.9f5cd8a: Retry
 slackforce.d663461: Run a pipeline update.
-slackforce.a6208eb: Sales Home is no longer available. The Salesforce org was disconnected.
+slackforce.fcc9a72: Sales Hub is no longer available. The Salesforce org was disconnected.
 slackforce.9762a89: Sales Tracker
 slackforce.513cb1a: Sales Tracker is no longer available. The Salesforce org was disconnected.
 slackforce.9fc4092: Sales tracker setup ready. Press continue to proceed.
@@ -25043,7 +24999,7 @@ slackforce.27b445f: Your contacts list is ready to go.
 slackforce.1dd9776: Your email may have been sent. Check your Gmail Sent folder before trying again.
 slackforce.267dc60: Your team has a Salesforce integration to make viewing data and updating info easier without leaving Slack.
 slackforce.f19e382: You’ll get its messages from now on.
-slackforce.757a455: You’ll need to upgrade your plan to access Sales Home.
+slackforce.de97cfe: You’ll need to upgrade your plan to access Sales Hub.
 slackforce.c14f755: You’ll need to upgrade your plan to be able to access this list.
 slackforce.78d93b7: bcc: {bcc}
 slackforce.c0a5f83: cc: {cc}
@@ -26212,7 +26168,6 @@ texty.2ebbda3: Deselect link object to paste
 texty.2c3cafa: File
 texty.d146de7: File link
 texty.d051707: Link
-texty.2c5f1e7: Link converted to {label}
 texty.8cad8be: List link
 texty.8328e23: List record link
 texty.560b006: List view link
@@ -26542,7 +26497,6 @@ today.a2a8a8e: Remind Me Later
 today.25df3f7: Remind me
 today.b87a192: Reminder
 today.dd26e50: Reminders are now due dates for your to-dos.
-today.23a9769: Remove from list
 today.3be626d: Remove to-do
 today.278c3e3: Request Access to Today
 today.4286b31: Request Today Access
@@ -26675,6 +26629,7 @@ toggle_floating_sidebars.39bc84d: Show sidebars
 tractor_channel_simplification.50597b5: Add Channel Description
 tractor_channel_simplification.ce431bf: Add a Template
 tractor_channel_simplification.92cf78f: Add content, invite your team, and connect the tools you need.
+tractor_channel_simplification.56dbe58: Add from Google Drive
 tractor_channel_simplification.5bd195c: Add from Google Workspace
 tractor_channel_simplification.de2f06e: Bring in the right people
 tractor_channel_simplification.3e04902: Continue your setup
@@ -27372,6 +27327,7 @@ view.c1418c2: New Workflow
 view.1ed2e7b: New message
 view.0caea46: No facts about you yet.
 view.cac330d: No projects yet
+view.c7649c9: Nothing needs you
 view.b54a538: Nothing saved yet
 view.c18f8f2: Notification
 view.753a22b: Notifications
@@ -27400,7 +27356,7 @@ view.b87a192: Reminder
 view.9ee36da: Replace split view
 view.954daa8: Right
 view.d0edfb6: Sales
-view.9f579c7: Sales Home
+view.8fdb33b: Sales Hub
 view.9762a89: Sales Tracker
 view.bce0641: Search
 view.7842d85: Secondary View
@@ -27456,6 +27412,7 @@ view.1f0c0fc: Use the arrow keys to move the panel
 view.9f8a238: User
 view.4add952: User groups
 view.10a47da: What’s New
+view.1cce3cc: When your agent starts on something from the chat, or someone needs an answer from you, it shows up here.
 view.b3e3b7a: Workflow Builder
 view.e38e3ca: Workflow Creation
 view.5d7024a: Workflow Editor

@@ -135,6 +135,7 @@ users.info: team_not_found, too_many_users, user_not_found, user_not_visible, us
 users.inviteRequests.create: channel_not_found, custom_message_not_allowed, guest_expiration_exceeds_max_guest_duration, invalid_requests, invalid_team_id, invite_limit_reached, inviter_email_not_verified, missing_team_id, no_perms, not_workspace_member, paid_teams_only, request_failed, requires_channel, requires_one_channel, too_many_channels, ura_limit_reached, url_in_message
 users.preparePhoto: bad_image, bad_url, download_failed, no_file, no_image, not_found, read_only_profile_field, too_large, too_many_frames, upload_error
 users.priority.add: no_bot_vip, no_self_vip, too_many_vips, user_not_found
+users.stateMachine: db_error, internal_error, metadata_invalid, metadata_parse_failed, state_machine_name_invalid
 visits.record: internal_error, restricted_action
 workObjects.publishEntity: already_published, calendar_not_connected, channel_not_found, invalid_entity_id, invalid_event_times, invalid_recurrence, invalid_state, missing_event_title, not_authorized_reviewer, not_draft_owner, publish_failed, recurring_meetings_disabled, unsupported_entity_type, unsupported_source, validation_failed
 workflows.ai.create: internal_error, unknown_method
