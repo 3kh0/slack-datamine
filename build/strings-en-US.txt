@@ -2054,10 +2054,12 @@ aria_msg_summary.a330ad4: {time}:
 ask_user_question.e0aafff: Answered
 ask_user_question.ac09f16: Answered by {name}
 ask_user_question.bc98198: Next
-ask_user_question.10cf916: Other…
+ask_user_question.2cc42c6: Next question
+ask_user_question.365a529: Previous question
 ask_user_question.3da4745: Skip
 ask_user_question.2dacf65: Submit
 ask_user_question.7e20641: {current} of {total}
+ask_user_question.1156f12: {label} preview
 assistant.eccacc4:  information
 assistant.62cb8c0:  using the Meeting Prep Skill
 assistant.13ab187:  using the Salesforce Research Skill
@@ -4903,7 +4905,6 @@ channel_sidebar.879f0b1: Channel
 channel_sidebar.610e4cf: Channel invitations
 channel_sidebar.da5d596: Channel or user name
 channel_sidebar.18e03e2: Channels
-channel_sidebar.0688ebf: Channels and direct messages
 channel_sidebar.876d683: Choose what to pin…
 channel_sidebar.fb99bef: Clear out the clutter and hide {numMutedChannels} {numMutedChannels, plural, =1 {muted channel} other {muted channels}} from view. They’ll only pop up again if someone mentions you.
 channel_sidebar.247fd63: Clear selection
@@ -5996,9 +5997,11 @@ code-channels-browser.cc1ebdd: Idle
 code-channels-browser.aef3650: In
 code-channels-browser.5ddd0af: In: #{channel}
 code-channels-browser.09af574: Inactive
+code-channels-browser.7b1b83a: Last message {ago} · Code channel
 code-channels-browser.14de9dc: Leave this blank and the agent will name the channel for you.
 code-channels-browser.42c9975: Loading latest message…
 code-channels-browser.5c91419: Loading more code channels
+code-channels-browser.798d4d6: Loading pull requests
 code-channels-browser.a1e34f9: More actions
 code-channels-browser.04549c7: More actions for {channelName}
 code-channels-browser.2ecb68b: More actions for {title}
@@ -6022,6 +6025,7 @@ code-channels-browser.a0498dd: PR closed
 code-channels-browser.838d0af: PR draft
 code-channels-browser.2b00f83: PR merged
 code-channels-browser.91ebb55: PR open
+code-channels-browser.6d746d5: PRs: {openCount, plural, other {# open}}, {mergedCount, plural, other {# merged}}
 code-channels-browser.6ca50ee: Private — only specific people
 code-channels-browser.a40b5bb: Public — anyone in <b>{workspace}</b>
 code-channels-browser.f8c80e8: Public — anyone in the workspace
@@ -6030,6 +6034,7 @@ code-channels-browser.80302e5: Pull requests
 code-channels-browser.44c57ab: Reset
 code-channels-browser.5655310: Reset filters
 code-channels-browser.9f5cd8a: Retry
+code-channels-browser.e29a79f: Review
 code-channels-browser.bce0641: Search
 code-channels-browser.22ed113: Search More
 code-channels-browser.d9e18d3: Search agent sessions
@@ -6067,6 +6072,7 @@ code-channels-browser.3deb745: Type
 code-channels-browser.44fe220: Type: {sessionType}
 code-channels-browser.07b032b: Unread
 code-channels-browser.55c4f84: Untitled session
+code-channels-browser.0c77991: View on GitHub
 code-channels-browser.3b4dfc9: Working
 code-channels-browser.a4a5f91: You can’t start a code channel from a message in this conversation.
 code-channels-browser.c497211: You can’t start a code channel from a message right now.
@@ -11124,6 +11130,7 @@ huddles.6c3a72e: Office
 huddles.acd844a: On mobile
 huddles.fb8f00c: Once your request has been approved, you can join the huddle
 huddles.9321c5e: One of these people can’t be found. Remove them and try again.
+huddles.0afd94a: One or more entries are invalid. Enter valid people or email addresses.
 huddles.ecb2483: Only Channel Managers can update this
 huddles.023c119: Only Channel Managers can update this.
 huddles.ef57541: Only people in your org
@@ -21950,7 +21957,6 @@ singer.9ecde87: Load More
 singer.dfe60ca: Load more
 singer.c9d1bde: Loading browser settings…
 singer.8f66c88: Loading conversations…
-singer.a863c67: Loading messages…
 singer.2678479: Loading message…
 singer.c1c3862: Loading skills…
 singer.ac84b51: Loading task output…
@@ -27133,7 +27139,6 @@ unified_file_picker.96f4658: Browse and share files from Slack and OneDrive, wit
 unified_file_picker.ef7df6e: Browse and share files from Slack, Google Drive, and OneDrive without leaving the conversation.
 unified_file_picker.81722c2: Google Drive, meet Slack
 unified_file_picker.3b09bdb: OneDrive, meet Slack
-unread.a863c67: Loading messages…
 unread.36e72fb: Marked all unread messages and notifications as read.
 unread.31953db: Marked {numChannels, plural, =1 {# channel} other {# channels}} as read.
 unread.804a1c7: Marked {numChannels, plural, =1 {# conversation} other {# conversations}} as read.
