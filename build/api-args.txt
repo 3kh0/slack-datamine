@@ -682,7 +682,6 @@ search.autocomplete: limit, query, query_suggestion_limit, type, use_hash
 search.delete: hash, terms, type
 search.enterprise: count, cursor_mark, include_bots, include_dangling, include_date_created, include_deleted, include_full_deleted, include_usergroups, query, sort_dir
 search.inline: channel, client_req_id, count, cursor, extract_len, find_in_thread, from_me, include_ai_filters, max_ts, min_ts, page, query, recent_channels, search_session_id, thread_replies, thread_ts, token, user, with_me
-search.modules.ai: client_req_id, force_summary, query, search_session_id
 search.modules.channels: browse, channel_type, count, cursor, exclude_my_channels, module, query, sort, sort_dir
 search.modules.external: app_id, client_req_id, cursor, highlight, query, query_rewrite_disabled, search_app_args
 search.modules.files: canvas_template_type_filter, count, exclude_org_visible, file_title_only, filters, module, only_org_visible, page, query, search_exclude_bots, skip_excluding_canned_templates, sort, sort_dir
