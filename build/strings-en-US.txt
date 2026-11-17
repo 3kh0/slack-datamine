@@ -3209,6 +3209,7 @@ calendar.83445b6: Add a channel
 calendar.88a84ce: Add meeting to channel
 calendar.df887a1: Adding the meeting to a channel will show everyone a shortcut to join, meeting updates, and post-meeting artifacts.
 calendar.1145743: All day
+calendar.f44f453: All meeting reminders dismissed
 calendar.55e1611: Are you sure you want to cancel?
 calendar.310efbc: Ask Slackbot
 calendar.768cff7: Associating channel
@@ -3248,6 +3249,7 @@ calendar.3819617: Every {interval} months
 calendar.248ec95: Every {interval} weeks
 calendar.e3dd2ba: Every {interval} years
 calendar.33ee1fa: Everyone available
+calendar.70def42: Everyone else declined
 calendar.5d5afa0: Failed to attach file. Please try again.
 calendar.2d065b3: Failed to attach files. Please try again.
 calendar.8912d08: Failed to remove file. Please try again.
@@ -3273,10 +3275,12 @@ calendar.ee6dbb8: In {minutes}m
 calendar.e6e936f: Invite some guests
 calendar.04e13b0: It looks like you’re still working on this. You will lose the info you’ve entered so far if you leave now.
 calendar.e0d7314: Join
+calendar.2d96b5a: Join & Record Notes
 calendar.99cba5c: Join Google Meet
 calendar.ecb6b1b: Join Huddle
 calendar.06d0755: Join Teams
 calendar.98768a8: Join Zoom
+calendar.0718171: Just you
 calendar.ced7d4a: Keep Editing
 calendar.7e3520a: Leave
 calendar.c2e9847: Link copied
@@ -3290,7 +3294,9 @@ calendar.f337ac0: Meeting actions
 calendar.7929dc5: Meeting associated with the channel.
 calendar.551fe86: Meeting in progress
 calendar.ae3cd65: Meeting notes
+calendar.317411b: Meeting reminder {current} of {total}: {title}
 calendar.d2429bc: Meeting reminder {current} of {total}: {title} starts {time}
+calendar.7c5e00a: Meeting reminder: {title}
 calendar.5cb0ee7: Meeting reminder: {title} starts {time}
 calendar.cf829f1: Meeting reminders
 calendar.6992c2f: Meeting room
@@ -3327,6 +3333,7 @@ calendar.50f9428: Previous
 calendar.237dfa0: Private
 calendar.9e2ff6c: RSVP
 calendar.53e2326: Re-fetching availability…
+calendar.3cd073a: Record Notes
 calendar.9b98e1a: Recording
 calendar.28db595: Remind Me When It Starts
 calendar.e963907: Remove
@@ -3381,6 +3388,7 @@ calendar.d1b5ec6: {actorName} added <b>{meetingTitle}</b> to this channel. <a>Vi
 calendar.d8818e2: {count, plural, =1 {# person} other {# people}} invited
 calendar.45d5eeb: {count, plural, =1 {# reply} other {# replies}}
 calendar.39447c9: {count, plural, one {{names} was invited to a {provider}.} other {{names} were invited to a {provider}.}}
+calendar.546e5f8: {count} people invited
 calendar.7e20641: {current} of {total}
 calendar.36d21ec: {days, plural, other {# days}}
 calendar.61dad27: {day} at {time}
@@ -3390,7 +3398,10 @@ calendar.dfafda2: {hours} hr
 calendar.e6f4839: {joinText}, opens in new window
 calendar.09a22c2: {minutes} min
 calendar.08f7b00: {organizerPossesive} meeting
+calendar.b837ab7: {recordNotesText}, opens in new window
 calendar.c4f8e1e: {replyCount, plural, =1 {# reply} other {# replies}}
+calendar.72af9c9: {title}, opens event details
+calendar.1e44bbd: {title}, opens in new window
 calendar.5b218e2: {weekday}, {month} {day}
 calendar.38b2a8e: {yes} yes, {maybe} maybe, {awaiting} awaiting
 calls.941865e: (Optional) To give camera access to Slack please check your system preferences, <a>click here</a>
@@ -4855,6 +4866,7 @@ channel_sidebar.cfea419: Apply
 channel_sidebar.d9a3685: Apps
 channel_sidebar.d532d52: Archive inactive channels
 channel_sidebar.264057b: Archived channel
+channel_sidebar.2304233: Ask Slackbot to customize
 channel_sidebar.20ec7e3: A–Z
 channel_sidebar.077fe9c: Base
 channel_sidebar.e6ab798: Baseline
@@ -4863,7 +4875,6 @@ channel_sidebar.f29a139: Browse Everything
 channel_sidebar.96d4298: Browse all apps
 channel_sidebar.af00489: Browse all channels
 channel_sidebar.2190a3b: Browse channels
-channel_sidebar.b9212ed: By type
 channel_sidebar.77dfd21: Cancel
 channel_sidebar.a3f80b8: Canvas
 channel_sidebar.4f32719: Canvas options
@@ -4904,7 +4915,6 @@ channel_sidebar.2e3bede: Custom model
 channel_sidebar.dda3472: Custom sections are no longer available
 channel_sidebar.4f2b432: Customize Focused
 channel_sidebar.0e8e35d: DMs
-channel_sidebar.808d7dc: Default
 channel_sidebar.d536cfe: Delete message?
 channel_sidebar.216d02b: Deleted {channelSection}.
 channel_sidebar.6a77f20: Designed for coding with agents, code channels bring your repos, PRs, and code into Slack alongside your team’s conversation.
@@ -4964,7 +4974,6 @@ channel_sidebar.f0458df: Importance
 channel_sidebar.906707e: Importance scoring reset to defaults.
 channel_sidebar.876d2e4: Importance scoring updated.
 channel_sidebar.f75b86e: Important unreads
-channel_sidebar.6e4913b: Important unreads, recents, then everything else
 channel_sidebar.1654aec: In this DM
 channel_sidebar.11c54a5: Include
 channel_sidebar.e1eb97a: Invite people
@@ -5056,7 +5065,6 @@ channel_sidebar.2b00f83: PR merged
 channel_sidebar.91ebb55: PR open
 channel_sidebar.ffb58b7: Pending conversation
 channel_sidebar.b37554f: People
-channel_sidebar.4f10ade: People, mentions, threads, then everything else by priority
 channel_sidebar.9c91841: Pin
 channel_sidebar.ddc932a: Pin an agent
 channel_sidebar.9f5db36: Pin to tray
@@ -5098,6 +5106,7 @@ channel_sidebar.d0c625b: Removed {item} from {section}.
 channel_sidebar.71c287d: Removed {numChannels, plural, =1{conversation} other {# conversations}} from {channelSection}.
 channel_sidebar.a0a74e2: Removed {numEntities, plural, =1{entity} other {# entities}} from {channelSection}.
 channel_sidebar.c1ad1c4: Reset section
+channel_sidebar.4a197b0: Reset section changes
 channel_sidebar.299ef4a: Reset to Defaults
 channel_sidebar.efc007a: Save
 channel_sidebar.b259cc1: Scoring model
@@ -5181,6 +5190,7 @@ channel_sidebar.2eba6a0: Unpin
 channel_sidebar.7a02972: Unpin from tray
 channel_sidebar.5490ce9: Unpin from your sidebar
 channel_sidebar.07b032b: Unread
+channel_sidebar.ccc39a0: Unread DMs
 channel_sidebar.c35cc2a: Unread mentions
 channel_sidebar.3b9c3d6: Unread thread
 channel_sidebar.390cfdb: Unread thread over its channel
@@ -5189,7 +5199,6 @@ channel_sidebar.855822a: Until tomorrow
 channel_sidebar.c99407b: Untitled conversation
 channel_sidebar.e32fc01: Update Section
 channel_sidebar.76ce93f: Updated conversations in {channelSection}.
-channel_sidebar.77b336f: Use a preset
 channel_sidebar.1597df5: VIP messages
 channel_sidebar.a5622b6: VIP unreads
 channel_sidebar.931e1a4: View all
@@ -5256,7 +5265,6 @@ channel_sidebar.3b2e865: {numMutedChannels} channels are now hidden
 channel_sidebar.835c272: {numSelected} of {maxPicks} selected
 channel_sidebar.f977930: {numUnreads, plural, =1 {# conversation} other {# conversations}} with unread messages, including {numBadges, plural, =1 {# mention or keyword} other {# mentions and keywords}}.
 channel_sidebar.3f2fea4: {numUnreads, plural, =1 {# conversation} other {# conversations}} with unread messages.
-channel_sidebar.1a26533: {presetLabel} preset applied.
 channel_sidebar.c4f8e1e: {replyCount, plural, =1 {# reply} other {# replies}}
 channel_sidebar.bdc61e9: {resultCount, plural, =1 {# conversation} other {# conversations}} found
 channel_sidebar.4f0f8ed: {sectionName}, huddle in session. Press {keyboardShortcut} to join huddle
@@ -26162,6 +26170,7 @@ threads.1230f01: How should I use Slackbot for my role? {tabKey} to autofill
 threads.3a55dfc: If the problem persists, please <a>drop us a line.</a>
 threads.e06a33d: Jump to bottom
 threads.c76fa5a: Jump to bottom of thread
+threads.0718171: Just you
 threads.f5358c0: Last edited today at {time}
 threads.8733eb3: Last edited {time_ago}
 threads.417add4: Last reply today at {time}
