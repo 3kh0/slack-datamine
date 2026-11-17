@@ -267,13 +267,14 @@ client.codeChannels.editComment: channel_id, comment_node_id, pr_url, text
 client.codeChannels.editPullRequestDescription: channel_id, expected_body_source, pr_url, text
 client.codeChannels.getDiff: channel_id
 client.codeChannels.getFileLines: channel_id, path, pr_url, ranges, revision
-client.codeChannels.getPullRequest: pr_url
+client.codeChannels.getMergeStatus: channel_id, head_sha, pr_url
+client.codeChannels.getPullRequest: channel_id, pr_url
 client.codeChannels.getPullRequestCommits: base_sha, channel_id, head_sha, pr_url
 client.codeChannels.getSummary: channel_id
 client.codeChannels.getViewedFiles: channel_id, cursor, pr_url
 client.codeChannels.join: channel_id, origin_channel_id
 client.codeChannels.listPullRequestComments: comment_kinds, cursor, pr_url
-client.codeChannels.mergePullRequest: channel_id, head_sha, pr_url
+client.codeChannels.mergePullRequest: base_branch, channel_id, head_sha, pr_url
 client.codeChannels.requestReviewers: channel_id, invite_to_channel, note_blocks, notify_unlinked, post_mention, pr_url, user_ids
 client.codeChannels.setFileViewed: channel_id, is_viewed, path, pr_url
 client.codeChannels.setPullRequestState: channel_id, comment, pr_url, state
