@@ -3592,6 +3592,7 @@ channel_details.fb36460: Add Automation as Member
 channel_details.2e3ca94: Add Channel Managers
 channel_details.84a0c28: Add Channel Managers for {channelName}
 channel_details.b21e139: Add People
+channel_details.2d597d0: Add Skill
 channel_details.1b2e830: Add Skill Set
 channel_details.c52ea0c: Add a Google Drive file
 channel_details.eb84cdf: Add a Source
@@ -3673,6 +3674,7 @@ channel_details.d9a3685: Apps
 channel_details.c84728a: Apps aren’t available for Slackbot in your workspace yet.
 channel_details.8bccb96: Apps installed by members of these workspaces will need to be added again.
 channel_details.cf32dee: Apps installed by members of {workspace} will need to be added again.
+channel_details.c167bce: Apps your admins turned on for Slackbot in this channel. Slackbot uses them with your own access, so it only sees what you can.
 channel_details.f079ba1: Archive channel for everyone
 channel_details.4ad277c: Archiving failed with error: {error}
 channel_details.9befdf0: Are you sure you want to delete this template?
@@ -3804,6 +3806,7 @@ channel_details.f67633e: Delete this channel
 channel_details.0de1e8b: Delete this channel?
 channel_details.0cbdbda: Delete this template?
 channel_details.b76d3c7: Describe how Channel Agent should respond in this channel.
+channel_details.530da5c: Describe how Slackbot should respond in this channel.
 channel_details.55f8ebc: Description
 channel_details.5f83735: Details for channel {channelName}
 channel_details.b61dc7a: Details for conversation with {memberOrAppName}
@@ -3909,6 +3912,7 @@ channel_details.1954dcb: Guests don’t have any extra permissions yet.
 channel_details.056de92: Guests not permitted
 channel_details.2fe58e0: Guests of this channel can:
 channel_details.cca9c17: Guests of {homeOrgName} can:
+channel_details.5e73926: Guidance for how Slackbot behaves in this channel. It applies to everyone, and personal preferences can’t override it.
 channel_details.376300c: Heads up — app AI access is managed by app developers.
 channel_details.69342c5: Hello!
 channel_details.1101582: Help Center
@@ -3953,6 +3957,7 @@ channel_details.70b23eb: Join…
 channel_details.b417a44: Just for today
 channel_details.adbf029: Keep in mind that this is a Slack Connect channel and you can only add or remove Channel Managers from {hostName}.
 channel_details.c8e3df8: Keep in mind that when you make {channelName} a public channel:
+channel_details.a47173c: Keep replies short, and link to the team handbook when relevant
 channel_details.6137963: Keep responses concise, and use the occasional emoji
 channel_details.49b8bd5: Keep typing a full email
 channel_details.3d29d32: Keep work organized by pinning important files and messages. That way, anyone is this conversation can easily find them here.
@@ -4012,6 +4017,7 @@ channel_details.e88c3e2: Members of {workspaces} will have access to this channe
 channel_details.b0f4f2c: Members will be able to share messages and download files from this channel.
 channel_details.78b3536: Members will not be able to access the channel from these workspaces.
 channel_details.5168708: Memories
+channel_details.5fb2e7f: Memories give Slackbot context about this channel. Everyone here can see them, and they don’t carry over to other channels.
 channel_details.2ffaddf: Memories give Slackbot context in {channelName}. They’re visible to everyone in the channel and don’t affect other channels.
 channel_details.89c8a28: Memory
 channel_details.2626361: Memory deleted
@@ -4048,11 +4054,13 @@ channel_details.13c3a7a: No changes to save
 channel_details.948cef1: No changes will be made to the channel’s history or members.
 channel_details.b4fdc42: No channels found
 channel_details.b7953dc: No custom instructions yet.
+channel_details.2848488: No instructions have been set here yet.
 channel_details.cd0af6c: No matches
 channel_details.436c8f8: No matches found for <strong>{searchTerm}</strong>
 channel_details.fa3e557: No matches found for {searchString}
 channel_details.09b6dea: No memories yet. Slackbot remembers feedback people give it in this channel.
 channel_details.569b4e9: No skills added to this channel yet.
+channel_details.c4b58cf: No skills added yet in this channel.
 channel_details.60e14f2: No skills added yet. Slackbot can use skills you add here in this channel.
 channel_details.4431036: No tools available
 channel_details.d1a17af: Not available
@@ -4196,6 +4204,7 @@ channel_details.12f3268: Skill added
 channel_details.f3062b3: Skill set added
 channel_details.62f2fcc: Skill set · stays in sync with the set
 channel_details.e09212c: Skills
+channel_details.3a9eb73: Skills give Slackbot new abilities that everyone in this channel can use.
 channel_details.3da4745: Skip
 channel_details.430b38b: Slack
 channel_details.e21da9e: Slack Connect
@@ -4346,6 +4355,9 @@ channel_details.69c4a14: You already have a conversation with this name. Conside
 channel_details.bdeb261: You can export all the messages from this channel as a JSON file. Slackbot will notify you when your file is ready. 
 channel_details.1a729a4: You can only add {numMore, plural, =1 {# more Channel Manager} other {# more Channel Managers}} to this channel.
 channel_details.bf38c85: You can reconnect anytime.
+channel_details.ea6703f: You can see what’s set up here, but guests can’t change it.
+channel_details.43277d7: You can see what’s set up here, but only a channel manager can change it.
+channel_details.b56672d: You can see what’s set up here, but you can’t change it.
 channel_details.93f941c: You cannot change this setting when the channel contains single-channel guests.
 channel_details.e0bf660: You can’t add more than 10 channels as additional sources
 channel_details.001a68b: You can’t add or remove workspaces from archived channels.
@@ -21676,7 +21688,6 @@ singer.f980fb0: Astro
 singer.19ba82e: Astro Singer
 singer.1afff01: Attach
 singer.8aa95f1: Audio unavailable
-singer.ac9041e: Automatic
 singer.4fae892: Away
 singer.b52b36b: Back
 singer.3860116: Back to Input
@@ -21713,7 +21724,6 @@ singer.18e03e2: Channels
 singer.ee9946c: Character
 singer.749d704: Character, outfit, and size changes save to your Slack account.
 singer.2ced57f: Chat
-singer.9c44221: Chat with Slackbot
 singer.4f936b7: Check Tasks
 singer.cc58f4d: Check draft request
 singer.dcb413e: Check needed
@@ -21731,7 +21741,6 @@ singer.fd71a50: Close Browser
 singer.8962525: Close conversation
 singer.11d16ea: Close meeting controls
 singer.fa0b7b3: Close panel
-singer.6682b1e: Closed {title}.
 singer.a14881f: Closing browser…
 singer.adac693: Code
 singer.0595fcd: Code task started. Your other tasks can keep working.
@@ -21741,6 +21750,8 @@ singer.6bc2ef8: Comparing 3 lamps…
 singer.6814f22: Computer audio
 singer.61abb0c: Computer audio is unavailable. Recording your mic only.
 singer.bd8efdc: Connect an account to continue
+singer.7827c61: Connect {source}
+singer.a4dabc6: Connect {source} first
 singer.db929b8: Connecting to the browser…
 singer.fd3e796: Connecting…
 singer.2e02623: Continue
@@ -21809,6 +21820,7 @@ singer.9f9b55b: Einstein
 singer.c8de761: End call
 singer.1f7a4f9: Esc
 singer.10ff9f4: Everything’s frozen in place.
+singer.8b11234: Expand {title}
 singer.580b6aa: Files can’t be added to this conversation.
 singer.96e5782: Filters
 singer.a8af873: Find a desk lamp under $60 with good reviews
@@ -21870,8 +21882,10 @@ singer.d773ae9: In 3 hours
 singer.d3097c2: In the summary.
 singer.e3b55e3: In the summary. Older unread messages aren’t included.
 singer.d9d375f: It may still be on. Stop it here, or open Slack to check.
+singer.ecdda59: Item
 singer.da4257c: It’s been quiet for 5 minutes. Still in the meeting?
 singer.33b2fab: It’s been quiet for a while. Still in the meeting?
+singer.67d342b: It’s not you. {source} didn’t get back to us in time, so give it another go.
 singer.8dc7564: I’m using Slackbot to record and transcribe this meeting with AI and make notes. Please let me know if you’d prefer I stop.
 singer.e0d7314: Join
 singer.18f46b2: Join Channel
@@ -21893,6 +21907,7 @@ singer.4ad48a0: Launch
 singer.7e3520a: Leave
 singer.02a2fe5: Left ⌘
 singer.45d649e: Leo shared the final pricing doc.
+singer.526cb74: Less
 singer.8a182eb: Let go, then choose Attach.
 singer.c2e9847: Link copied
 singer.a1fffaa: List
@@ -21943,12 +21958,14 @@ singer.de22a5e: Meeting thread, {count} new
 singer.b23a193: Meetings
 singer.85e12bc: Mentions
 singer.68f4145: Message
+singer.d6d8dae: Message #{name}
 singer.949184b: Message actions
 singer.58de145: Message preview
 singer.9cf1b68: Message sent
 singer.4b53f7a: Message {name}
 singer.fda222b: Mic in use by voice call
 singer.2428053: Microphone
+singer.4bab2d8: More
 singer.a1e34f9: More actions
 singer.151a837: More audio for this meeting’s canvas.
 singer.9f8eb5f: More for you
@@ -22003,6 +22020,7 @@ singer.3f8b4e0: Nothing left in Activity.
 singer.199afe0: Nothing moves until you do.
 singer.3298bd1: Nothing new needs you right now.
 singer.373df07: Nothing new right now.
+singer.5a2f5ac: Nothing to chart yet
 singer.cb02233: Nothing to see here
 singer.6146165: Nothing to see. Yet.
 singer.c67a89d: Nothing turned up
@@ -22018,6 +22036,7 @@ singer.c8e633f: Oops
 singer.cf9b770: Open
 singer.e505acd: Open Browser
 singer.a0796da: Open Mini
+singer.3a8319d: Open PR #{number}
 singer.d1da16b: Open Singer
 singer.eec851c: Open Slack
 singer.a25d647: Open as chat
@@ -22038,6 +22057,7 @@ singer.157b4d6: Open the conversation to view this update.
 singer.9bd2618: Open transcript
 singer.233ecea: Open voice details
 singer.cec9cab: Opening lamps.example…
+singer.6e6a6f2: Other
 singer.e7ca373: Out of this world.
 singer.c5b96cc: Over $60
 singer.07217c7: Overdue
@@ -22049,9 +22069,11 @@ singer.781961b: Pause
 singer.c7dfb6f: Paused
 singer.6915f76: Pausing…
 singer.e46248a: Peaceful in here.
+singer.eb78686: Percent of total
 singer.77064d5: Phone
 singer.9c91841: Pin
 singer.65a6933: Play Again
+singer.1d44b58: Play animation
 singer.23896cc: Prep
 singer.c56c4ce: Prep My Day
 singer.73c504a: Preparing meeting notes
@@ -22116,6 +22138,7 @@ singer.6c2bb73: Reply
 singer.edde538: Reply in chat to continue.
 singer.7f16c8d: Reply in thread
 singer.75fe0ad: Reply ready
+singer.ec81f2b: Reply to {name}…
 singer.defdba4: Reply…
 singer.beba3cd: Request Changes
 singer.1ff89af: Request stopped
@@ -22158,6 +22181,8 @@ singer.c7f73bb: Settings
 singer.b93760c: Shared by {name}
 singer.a82b2d5: Show More Skills
 singer.cf0f51d: Show New Activity
+singer.11071cf: Show as chart
+singer.ef38f0f: Show as table
 singer.ded0a5d: Show me
 singer.4c358ea: Show {count, plural, =1 {# more task} other {# more tasks}}
 singer.852ffae: Show {count, plural, =1 {# more} other {# more}}
@@ -22168,9 +22193,12 @@ singer.4c45add: Sign-in needed
 singer.29a0039: Sign-in page hidden
 singer.8e0966c: Since you last looked
 singer.99c9c6d: Singer
+singer.e522986: Singer can only read what your {source} account can already see.
+singer.f7c69f8: Singer can only show what your {source} account can see.
 singer.63e219d: Singer can’t confirm the recording
 singer.d1971dd: Singer chose Offsite plan. Sample answer: Just the venue.
 singer.8cc6463: Singer is typing…
+singer.a0bc5b9: Singer looked through {source} and came up empty. Try asking another way.
 singer.9cd8f6e: Singer offers you a heart
 singer.c6c7248: Singer sees only the window you choose. macOS may ask for permission first.
 singer.b715234: Size
@@ -22204,7 +22232,6 @@ singer.ffe7bbf: Spotless here.
 singer.e61561a: Starred
 singer.a63e551: Start Meeting Assistant
 singer.741f2c3: Start a Different Task
-singer.d71010d: Start a code task
 singer.244c20e: Start a conversation
 singer.6d38cec: Start huddle in thread
 singer.e92d02d: Start recording
@@ -22212,6 +22239,7 @@ singer.7f36d18: Start recording to turn this meeting into notes.
 singer.81efe7d: Starting recording. Meeting controls
 singer.e5f5809: Starting…
 singer.4792db3: Stellar flying.
+singer.becec7e: Still loading {count} more…
 singer.fc3bb0e: Still waiting for Slackbot. Your message is saved here.
 singer.9e25347: Stop
 singer.80c5e79: Stop Task
@@ -22272,6 +22300,7 @@ singer.ae79ea1: To
 singer.24345a1: Today
 singer.427b26a: Today’s meetings
 singer.1948bf2: Tomorrow
+singer.b25928c: Total
 singer.1e7571c: Transcribing…
 singer.6f0bd6a: Transcript saved
 singer.cef2fe0: Try Again
@@ -22286,9 +22315,14 @@ singer.2eba6a0: Unpin
 singer.07b032b: Unread
 singer.c99407b: Untitled conversation
 singer.61c8f71: Updated just now
+singer.6cead0f: Updated {count, plural, =1 {# day} other {# days}} ago
+singer.117d78b: Updated {count, plural, =1 {# hr} other {# hr}} ago
+singer.aac155b: Updated {count, plural, =1 {# min} other {# min}} ago
 singer.05dc73d: Use Draft
+singer.352af95: Use the arrow keys to move between items, and Enter to ask about one.
 singer.9c7b544: User group
 singer.944b88d: VIP
+singer.8dce170: Value
 singer.5f11525: Venue — To be decided
 singer.fb81ecc: View Answer
 singer.251d073: View Browser
@@ -22316,7 +22350,6 @@ singer.bca70bf: What’s next?
 singer.3fd30db: What’s on your mind?
 singer.f879eb5: What’s still undecided?
 singer.bc6b225: While you were quiet
-singer.5fd7559: Who answers
 singer.41dfc0a: Window
 singer.7a823cf: Window detached.
 singer.3b4dfc9: Working
@@ -22331,6 +22364,7 @@ singer.a1ca6d7: Your Talk shortcut is off. You can change it in Settings.
 singer.55f53c6: Your answer is ready in chat.
 singer.8b98f42: Your calendar connection timed out.
 singer.c7a8ead: Your calendar couldn’t load.
+singer.1379bd4: Your calendar’s clear
 singer.0bf29fe: Your huddle is taking notes
 singer.f30447a: Your huddle is taking notes from its captions. Stop them from the huddle.
 singer.8836647: Your mic
@@ -22354,18 +22388,27 @@ singer.7b90c3f: You’re offline. Slackbot is still recording. Live answers paus
 singer.7cee71f: You’ve earned a snack.
 singer.28bb3d0: You’ve got this
 singer.fbe7d7b: channel
+singer.b82b40b: chart
+singer.0cc4589: down {value}
 singer.e820952: fn + left ⌘
 singer.4798363: fn + right ⌘
 singer.5d398ce: image__WDpA8
+singer.06a05ff: in {count} hr
+singer.e7a4d3b: in {count} min
 singer.a7f8e7c: just now
 singer.57f9ee9: lamps.example
+singer.ba4aac0: next in {count} hr
+singer.6390c5c: next in {count} min
 singer.c9bc849: now
 singer.b6a61f6: replied to a thread
 singer.f06013c: the agent
 singer.2dac81d: tomorrow
+singer.af26aac: up {value}
 singer.8af56de: you
 singer.1f8d362: {count, plural, =0 {No matching activity loaded.} one {# matching activity item loaded.} other {# matching activity items loaded.}}
 singer.8c4d08e: {count, plural, =0 {No meetings} one {# meeting} other {# meetings}}
+singer.3f870e9: {count, plural, =1 {# event} other {# events}}
+singer.22cdfd4: {count, plural, =1 {# file changed} other {# files changed}}
 singer.9a3919b: {count, plural, =1 {# meeting left} other {# meetings left}} · {duration} booked
 singer.7335ba7: {count, plural, =1 {# meeting} other {# meetings}} · {duration} booked
 singer.03cd6f5: {count, plural, =1 {# member} other {# members}}
@@ -22378,16 +22421,22 @@ singer.808dc33: {count, plural, one {# new activity item} other {# new activity 
 singer.da61d4b: {count, plural, one {# other} other {# others}}
 singer.4492438: {count, plural, one {# task update} other {# task updates}}
 singer.771699f: {count, plural, one {Catching you up on # update…} other {Catching you up on # updates…}}
+singer.a992f53: {count} days ago
+singer.9818795: {count} hr ago
+singer.f1388c2: {count} min ago
 singer.fdc6966: {count} new
 singer.ea2f2f5: {duration} free
 singer.cb2812d: {hours}h
+singer.ae7ba37: {label}. {prompt}
 singer.b1603e9: {minutes}m
+singer.66a6c42: {name}: {text}
 singer.bd51187: {score, plural, one {# point} other {# points}}
+singer.62a4ccb: {shown} of {total}
+singer.a551cca: {shown} of {total} {unit}
+singer.d171428: {shown} {unit}
+singer.ea20160: {source} didn’t answer
 singer.8d3026c: {timeRange} · {provider}
 singer.797dfd0: {time} local time
-singer.df75d00: {title} is ready.
-singer.68ee784: {title} pinned.
-singer.a758714: {title} unpinned.
 singer.c660219: {title} was scheduled to end at {time}. Stopping in {countdown} unless you keep recording.
 singer.a054d47: {title}, {date}
 singer-file-drop-feedback.5ff5dd8: Adding to your message…
