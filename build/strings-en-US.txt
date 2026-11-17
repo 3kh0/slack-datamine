@@ -22300,7 +22300,6 @@ singer.ded0a5d: Show me
 singer.9bfd43e: Show message text when your Slack privacy settings allow it.
 singer.25911d4: Show more
 singer.260072c: Show welcome again
-singer.4c358ea: Show {count, plural, =1 {# more task} other {# more tasks}}
 singer.852ffae: Show {count, plural, =1 {# more} other {# more}}
 singer.348b2d3: Showtime
 singer.f8492cc: Sign In
@@ -22314,6 +22313,7 @@ singer.d1971dd: Singer chose Offsite plan. Sample answer: Just the venue.
 singer.b8550d2: Singer intro
 singer.8cc6463: Singer is typing…
 singer.9cd8f6e: Singer offers you a heart
+singer.711064e: Singer options
 singer.c6c7248: Singer sees only the window you choose. macOS may ask for permission first.
 singer.0286de8: Singer settings
 singer.51bdbdb: Singer suggests these first. Change them anytime in Settings.
@@ -23730,6 +23730,7 @@ slackbot-ai.1e70a9e: @Slackbot
 slackbot-ai.ac846e2: About {seconds}s left
 slackbot-ai.61cc55a: Add
 slackbot-ai.44e578a: Add Task
+slackbot-ai.dd0e370: Add a task to have this agent run a prompt on a schedule.
 slackbot-ai.5e71592: Add canvases
 slackbot-ai.b9b41b0: Add channels
 slackbot-ai.44326c6: Add custom MCP
@@ -23813,6 +23814,7 @@ slackbot-ai.74c3816: Couldn’t confirm your update. Your changes are still here
 slackbot-ai.89c6656: Couldn’t load projects
 slackbot-ai.6e157c5: Create
 slackbot-ai.156c201: Create a Task
+slackbot-ai.b5fec02: Create a task with Slackbot
 slackbot-ai.03d1805: Create from scratch
 slackbot-ai.f1f1450: Create task
 slackbot-ai.3cde32a: Create with Slackbot
@@ -23823,6 +23825,7 @@ slackbot-ai.366371f: Customize Slackbot
 slackbot-ai.91e1bb5: Customizing settings for {channelName}
 slackbot-ai.b58b1c6: Daily at {time} {timezone}
 slackbot-ai.5ff5066: Daily between {startTime} and {endTime} {timezone}
+slackbot-ai.5b72d01: Daily/Weekly Briefing
 slackbot-ai.808d7dc: Default
 slackbot-ai.afe853a: Delegate to Slackbot
 slackbot-ai.f6fdbe4: Delete
@@ -23883,16 +23886,21 @@ slackbot-ai.fa4f455: Get a briefing on your day, prep for meetings, and more. Cl
 slackbot-ai.255ce2a: Get action plan
 slackbot-ai.90e40d5: Get started
 slackbot-ai.aeb4d6f: Give it another try in a few minutes.
+slackbot-ai.b0d1e1a: Give me a daily sales update from my CRM data every morning.
+slackbot-ai.973bcc3: Give this agent a prompt and a schedule. It runs the prompt for you and sends you what it finds, so you don’t have to ask again.
 slackbot-ai.0f50dd9: Give your task a name
+slackbot-ai.f4b0369: Give {agentName} a prompt and a schedule. It runs the prompt for you and sends you what it finds, so you don’t have to ask again.
 slackbot-ai.e76c619: Group related conversations around a topic and give Slackbot custom instructions so every chat picks up where the last one left off.
 slackbot-ai.4eb2fde: Help me respond to this thread: {permalink}
 slackbot-ai.bd5db47: Help me set up a new task.
 slackbot-ai.094fc81: Hi, I’m Slackbot, your AI teammate.
 slackbot-ai.90ccd64: History
+slackbot-ai.741bb4e: How Tasks Work
 slackbot-ai.305549b: I found {count, plural, one {# thing} other {# things}} I can take off your plate.
 slackbot-ai.e893b9c: I want to edit my task called {title}
 slackbot-ai.ed58f29: Instructions
 slackbot-ai.b15db7e: I’m getting up to speed so I can tailor my responses to your work.
+slackbot-ai.81283a6: Just tell Slackbot what you need it to do. Then set a schedule and Slackbot takes it from there.
 slackbot-ai.ced7d4a: Keep Editing
 slackbot-ai.df833fe: Last 7 days
 slackbot-ai.7dea45e: Last day of the month, every {repeatsEvery} months at {time} {timezone}
@@ -23977,7 +23985,9 @@ slackbot-ai.53e890d: Projects
 slackbot-ai.1b5c768: Projects help you organize conversations around a specific topic with custom instructions.
 slackbot-ai.a817d7e: Prompt
 slackbot-ai.db95a29: Prompt is required.
+slackbot-ai.28b21d1: Put repetitive work on autopilot
 slackbot-ai.9589e95: Putting together your action plan
+slackbot-ai.e460e1d: Ran this morning
 slackbot-ai.f996ddc: Reaction
 slackbot-ai.852b438: Read
 slackbot-ai.9b19a5a: Read-only
@@ -23994,6 +24004,7 @@ slackbot-ai.6988b16: Reconnect
 slackbot-ai.6fa5023: Reconnect {name}
 slackbot-ai.0d9b27b: Reinstall to grant access
 slackbot-ai.cce7155: Reload
+slackbot-ai.9e89524: Reminders & To-Do
 slackbot-ai.45660a4: Remove from project
 slackbot-ai.f2b5df5: Remove {fileName}
 slackbot-ai.d3f4cb8: Rename
@@ -24009,6 +24020,7 @@ slackbot-ai.1abc3ce: Retry Send
 slackbot-ai.4e193ec: Review your information
 slackbot-ai.8bcdf89: Run my task "{taskTitle}"
 slackbot-ai.1388f00: Run task now
+slackbot-ai.9d69627: Sales Pipeline Assistant
 slackbot-ai.efc007a: Save
 slackbot-ai.fa2984b: Save Changes
 slackbot-ai.0deff4c: Saving project memory
@@ -24025,8 +24037,11 @@ slackbot-ai.cfa1b08: Search {teamName}
 slackbot-ai.0d2a9b4: See and download your calendars
 slackbot-ai.c510d6c: See more
 slackbot-ai.9bc2575: Send
+slackbot-ai.b4b1da8: Send me my top priorities every morning.
 slackbot-ai.cf76551: Sending…
 slackbot-ai.35f49dc: Sent
+slackbot-ai.a1d85cb: Sent to your DMs
+slackbot-ai.65249c1: Set repetitive tasks on autopilot
 slackbot-ai.2e7109b: Settings sections
 slackbot-ai.b7426e5: Share Skill
 slackbot-ai.50d0d8d: Shared
@@ -24038,6 +24053,7 @@ slackbot-ai.3da4745: Skip
 slackbot-ai.6fc0960: Skip for now
 slackbot-ai.41b9655: Slack wants to access your Google Account
 slackbot-ai.9fbb94b: Slackbot
+slackbot-ai.854109a: Slackbot can only do {totalRuns} task runs per day. Consider adjusting how many times your tasks run.
 slackbot-ai.04a9c81: Slackbot peek views
 slackbot-ai.63dea14: Slackbot preview
 slackbot-ai.b2b7ea5: Slackbot setup progress
@@ -24054,7 +24070,9 @@ slackbot-ai.3e7c8b7: Star conversation: {title}
 slackbot-ai.e61561a: Starred
 slackbot-ai.bae7d5b: Status
 slackbot-ai.8d183db: Subject
+slackbot-ai.de89b41: Suggested tasks
 slackbot-ai.bd139d1: Summarize my recent activity
+slackbot-ai.1343710: Summarize what happened in my most active channel and send me a morning briefing every workday.
 slackbot-ai.eb3b730: Summarizing…
 slackbot-ai.cda05ca: Surface
 slackbot-ai.fed4f63: Surface preview unavailable
@@ -24415,7 +24433,6 @@ slackbot-home.ec5a54d: Your Slackbot history lives here
 slackbot-home.2ea4229: Your day, summarized in seconds
 slackbot-home.8b4ca3d: Your sidebar is tucked away while you work side by side. Bring it back anytime with this button.
 slackbot-home.27e90df: at
-slackbot-home.495d18e: listItemAvatar__umF2Q
 slackbot-home.db3d405: on
 slackbot-home.490528f: there
 slackbot-mini.f248e60: <strong>Allow microphone access in <a>system preferences</a>.</strong> If you’ve already granted permissions, quit and reopen Slack.
@@ -24572,6 +24589,7 @@ slackbot_nux_carousel.490528f: there
 slackbotpagesidebarlink.2b166e1: Meet Slackbot
 slackforce.d35fd9d: (no content)
 slackforce.49b20da: (no subject)
+slackforce.50b46e4: **{actor}** removed the amount on **{deal}**
 slackforce.69f96a4: <strong>Add this list view to a section</strong>
 slackforce.66da033: <strong>Couldn’t attach file</strong>. Files of this type can’t be shared via email.
 slackforce.61d8731: <strong>Daily email limit reached</strong>. Your team has sent the maximum number of emails ({maxEmailsAllowedPerDay}) for today. You can still receive email. Try sending again tomorrow.
@@ -24583,6 +24601,7 @@ slackforce.d70e281: <strong>Keep this list view in your sidebar for quick access
 slackforce.1651f2c: <strong>Monthly email limit reached</strong>. Your team has sent the maximum number of emails ({maxEmailsAllowedPerMonth}) for this month. You can still receive email. The limit resets on the first day of every month.
 slackforce.46c0d09: A matching contact or account already exists. Please select an existing record.
 slackforce.417a1a5: A matching contact was found and pre-selected.
+slackforce.65c4d2d: A peek at your recent sales activity
 slackforce.d6adaaf: AI is used to generate responses, so some information may be inaccurate.
 slackforce.4db01a6: AI is writing your email draft…
 slackforce.6370c27: Above
@@ -24609,11 +24628,11 @@ slackforce.7c101fb: Add sales data from outside Slack
 slackforce.70af8a4: Add to Section
 slackforce.30001db: Add to Sidebar
 slackforce.eec8273: Add your own sales data
+slackforce.9c3c6d3: Agenda menu
 slackforce.d154e4e: All Accounts
 slackforce.1f48daa: All Contacts
 slackforce.aa8061b: All done! I added some records to the Sales Tracker. Let’s check them out!
 slackforce.dbad49d: All time
-slackforce.c320d81: An activity was logged
 slackforce.7c00d1e: An existing account record matches this lead’s account information. The matching account was chosen — try again or go back and change this lead’s details.
 slackforce.ebc4ec5: An existing contact and account records match this lead’s information. The matching contact and account were chosen — try again or go back and change this lead’s details.
 slackforce.ab7c850: An existing contact record matches this lead’s contact information. The matching contact was chosen — try again or go back and change this lead’s details.
@@ -24621,6 +24640,7 @@ slackforce.de422f2: An import is already in progress. Please wait for it to fini
 slackforce.519476f: Any changes to your email?
 slackforce.af6dac7: Are you sure you want to delete this {objectLabel}? It will be deleted for everyone at your organization.
 slackforce.56e3b15: Are you sure? You won’t be able to restore this {objectLabel}.
+slackforce.7a05ba9: As your team tracks deals in Slack, you’ll see record updates and activity here.
 slackforce.2b226c7: Ascending
 slackforce.310efbc: Ask Slackbot
 slackforce.e5f90fb: Ask Slackbot to update details or log events.
@@ -24633,6 +24653,8 @@ slackforce.0a19b7e: Calls
 slackforce.77dfd21: Cancel
 slackforce.bd2615c: Can’t load email
 slackforce.f7cbc69: Can’t load email.
+slackforce.592f46e: Can’t load your activity.
+slackforce.78bb8db: Can’t load your tasks.
 slackforce.732c212: Change Owner
 slackforce.a158434: Change owner without saving changes?
 slackforce.9b473f2: Changes apply to everyone in this channel. A workflow that’s paused doesn’t post here, and nothing is sent later.
@@ -24676,8 +24698,6 @@ slackforce.730de4f: Couldn’t load objects.
 slackforce.84cafa9: Couldn’t load preview
 slackforce.749b73f: Couldn’t load records.
 slackforce.1dabd38: Couldn’t load related fields.
-slackforce.f5ed2fb: Couldn’t mark task complete. Try again.
-slackforce.3f4bfac: Couldn’t reopen task. Try again.
 slackforce.21eebd0: Create records based on conversations found in Slack or any connected calendars and inboxes.
 slackforce.ff2eb17: Create records based on messages found in Slack or any connected calendars and inboxes.
 slackforce.9a5823c: Create records for more of your customers so you can manage your whole pipeline.
@@ -24741,6 +24761,7 @@ slackforce.5b8d97f: Filter by
 slackforce.ad6359f: Filter by field
 slackforce.0b1a5ef: Filter by field…
 slackforce.73e7b35: Filter value for {column_name}
+slackforce.65808bb: Filters won’t be saved right now
 slackforce.306e04d: Find your Salesforce records
 slackforce.9df7624: Finish setting up Slack CRM
 slackforce.909e0ec: Focus on taking action on opportunity
@@ -24771,6 +24792,7 @@ slackforce.97ba2a9: Help me write a personalized reply for this thread
 slackforce.753cfca: Hi! I’m Slackbot, here to help with all things sales.
 slackforce.6eb2c20: Hi! I’m Slackbot, here to help with all things sales.<break></break>Let’s set up the Sales Tracker, where we’ll manage your pipeline and close deals faster.<break></break><bold>How would you like to start?</bold>
 slackforce.42e1357: Hi! I’m Slackbot, here to help with all things sales.<break></break>Let’s set up the Sales Tracker, where we’ll manage your pipeline and close deals faster.<break></break><bold>To start, I’ll add some sales data about your potential customers. You’ve got options:</bold>
+slackforce.8fab06d: Hide past events
 slackforce.1f3d9d8: I couldn’t find any sales-related conversations to create records from.
 slackforce.09e871c: Images
 slackforce.fb87737: Import complete. Records added to the Sales Tracker.
@@ -24807,6 +24829,8 @@ slackforce.591b156: Many attachments (showing {attachmentCount})
 slackforce.d040d62: Many attachments Toggle {attachmentCount} files
 slackforce.0c01849: Mark complete
 slackforce.bef7110: Media viewer
+slackforce.17dc9a8: Meeting
+slackforce.b23a193: Meetings
 slackforce.a1e34f9: More actions
 slackforce.86c0a35: More options
 slackforce.260ff8a: Move down
@@ -24824,6 +24848,7 @@ slackforce.94d9e5e: New {sfObjectLabel}
 slackforce.e01b028: New {subject}
 slackforce.bc98198: Next
 slackforce.ea33854: No filters available
+slackforce.58348de: No matching updates from past 30 days
 slackforce.78996e5: No sales-related conversations found.
 slackforce.89a950f: No workflows yet
 slackforce.98aa8fe: Nothing to show for these filters.
@@ -24841,7 +24866,6 @@ slackforce.89f228b: Only some people in {org} can open this list view.
 slackforce.1eea181: Only you can open this list view.
 slackforce.ea4773b: Oops, something went wrong
 slackforce.80fa09e: Open Sales Tracker
-slackforce.0e8250f: Open activity
 slackforce.a70ff38: Open in Salesforce
 slackforce.a75732d: Open in new window
 slackforce.d7a05e6: Open now
@@ -24849,6 +24873,7 @@ slackforce.114ef02: Open record
 slackforce.c0a1f49: Open records to edit
 slackforce.fbb71bb: Opening in {countdown}…
 slackforce.f463f8c: Opportunities help you prioritize potential deals and move them through your sales process.
+slackforce.ff325cb: Opportunity
 slackforce.bfd7b8e: Opportunity name (required)
 slackforce.7d929fa: Opportunity name is required.
 slackforce.fe27ec0: Opportunity stage
@@ -24875,6 +24900,7 @@ slackforce.9d95b73: Preview how Slackbot can research accounts, prep for meeting
 slackforce.4f12dc1: Qualified
 slackforce.601dcc1: Read only
 slackforce.95c6a85: Recent files
+slackforce.5bb392e: Recent updates
 slackforce.d8ffffd: Recipient email address
 slackforce.4faa65b: Recommendations
 slackforce.1c54132: Record
@@ -24896,6 +24922,7 @@ slackforce.59d488d: Research a customer
 slackforce.e2bf920: Research leads, accounts and more
 slackforce.d7d00af: Research my leads and opportunities using the {skillName}.
 slackforce.434c698: Research {recordName} in Slack
+slackforce.44c57ab: Reset
 slackforce.d8764d3: Restoring {recordName}.
 slackforce.ae256b1: Resume this workflow
 slackforce.9f5cd8a: Retry
@@ -24921,6 +24948,7 @@ slackforce.7dd919e: Search for new owner
 slackforce.c5be552: Search for sales data in Slack
 slackforce.fc286fc: Search for sales records in Slack
 slackforce.26f6910: Search in progress
+slackforce.24efee9: Search recent updates
 slackforce.787447b: Search: {query}
 slackforce.786c9aa: Searching for existing records
 slackforce.e84d31f: Searching for sales context…
@@ -24953,7 +24981,9 @@ slackforce.07b8728: Show all open tasks
 slackforce.d94dfbe: Show fewer
 slackforce.84b8a08: Show fewer details
 slackforce.6d79faa: Show more details
+slackforce.fb18328: Show past events
 slackforce.f51980f: Show up prepared to every meeting
+slackforce.45eb3ac: Showing updates from past 30 days
 slackforce.ada2e9e: Sign in
 slackforce.489f076: Sign in to Salesforce
 slackforce.c6e6077: Slack 101
@@ -24983,6 +25013,7 @@ slackforce.e1f3547: Sort editor
 slackforce.e8a0fe9: Spreadsheets
 slackforce.952f375: Start
 slackforce.244c20e: Start a conversation
+slackforce.159a219: Stay on top of sales tasks
 slackforce.b3f610e: Step {currentStep} of {totalSteps}
 slackforce.9e25347: Stop
 slackforce.8d183db: Subject
@@ -24998,7 +25029,6 @@ slackforce.60e7e80: Sync list
 slackforce.81131f4: Taking you there in {countdown}…
 slackforce.8218eb8: Taking you to the Sales Tracker now…
 slackforce.7bb0ddf: Task
-slackforce.1999ee3: Task marked complete.
 slackforce.090ec5f: Tasks
 slackforce.1b8b2f5: The <b>#{recordName}</b> channel will not be impacted. The channel can be archived or renamed by one of its channel managers.
 slackforce.b0a8b77: The entry you are trying to update has changed.
@@ -25027,7 +25057,9 @@ slackforce.dcdf8dd: To finish importing contacts, you just need to match the col
 slackforce.e6bb014: To see the content in this list, request access from someone in the channel.
 slackforce.f41c0b0: To set up the Sales Tracker, I’ll add info about your potential customers.<break></break>You’ve got a few options:
 slackforce.7e7fbc8: To:
+slackforce.01d44a1: Today’s agenda
 slackforce.eb05f65: Toggle {workflowTitle} notifications
+slackforce.ab7d7d7: Track the follow-ups, next steps and tasks that need doing to move your sales cycle forward.
 slackforce.7940363: Track your customer accounts together
 slackforce.cef2fe0: Try Again
 slackforce.d552af5: Try a pipeline update
@@ -25035,7 +25067,9 @@ slackforce.042c862: Try again
 slackforce.0613fd4: Try out Slackbot’s sales skills
 slackforce.19e5f94: Try scanning Slack again
 slackforce.13fc5b4: Turn a lead into a sales opportunity, with a related contact and account.
+slackforce.3deb745: Type
 slackforce.ab5297f: Type to search
+slackforce.01229c1: Type: {count}
 slackforce.2466c33: Uh oh…
 slackforce.79ae9db: Unable to change owner. Please try again.
 slackforce.f48dfad: Unable to load video. Please try again later.
@@ -25043,6 +25077,7 @@ slackforce.39fc721: Undo
 slackforce.4e06e27: Unfortunately you don’t have permission to change this record’s owner, and we couldn’t tell until now. You will not be able to save these changes.
 slackforce.50eac36: Unqualified
 slackforce.de5c425: Upcoming and Overdue
+slackforce.4301f16: Upcoming and overdue
 slackforce.5288a3b: Update a customer’s details
 slackforce.bea7122: Update and research your CRM in the flow of work. <link>Take the tour</link>
 slackforce.5932090: Update {recordName} information
@@ -25057,7 +25092,6 @@ slackforce.c51b261: Video calls
 slackforce.56b71e8: Videos
 slackforce.69bd4ef: View
 slackforce.c77e869: View Details in Salesforce
-slackforce.6319b15: View More
 slackforce.2bc1354: View Sales Tracker
 slackforce.6376b00: View all in Salesforce
 slackforce.2973507: View contacts
@@ -25106,6 +25140,8 @@ slackforce.7e82e52: {accountName} - New Business
 slackforce.50c8361: {attachmentCount, plural, =1 {# file} other {# files}}
 slackforce.324794f: {attachmentCount, plural, =1 {Toggle file} other {Toggle # files}}
 slackforce.6a1e97c: {count, plural, =1 {# suggestion} other {# suggestions}}
+slackforce.3822f98: {count, plural, other {No matching updates in your # most recent}}
+slackforce.edb4c65: {count, plural, other {Showing your # most recent updates}}
 slackforce.30eade9: {currentStep} of {totalSteps}
 slackforce.8e101a3: {filterCount} applied
 slackforce.784c365: {label}, read only
@@ -25958,6 +25994,8 @@ tabbed-channel.a75732d: Open in new window
 tabbed-channel.03a322d: Open in split view
 tabbed-channel.dc9d458: Paid
 tabbed-channel.b1aa0ef: Pin messages your team likes to have on hand — helpful or humorous.
+tabbed-channel.7f0f4fd: Pin to channel
+tabbed-channel.f931216: Pinned
 tabbed-channel.76859a9: Pins
 tabbed-channel.012c98e: Private workflow
 tabbed-channel.bf5c694: Project brief outline for {channelName}
@@ -25998,6 +26036,7 @@ tabbed-channel.9f0bce8: Share this canvas?
 tabbed-channel.d4d25bc: Share this file?
 tabbed-channel.fcea0d7: Share this list?
 tabbed-channel.62dea05: Share this surface?
+tabbed-channel.50d0d8d: Shared
 tabbed-channel.e09212c: Skills
 tabbed-channel.99de3e9: Some people can’t view this canvas
 tabbed-channel.417f137: Some people can’t view this list
@@ -26020,6 +26059,7 @@ tabbed-channel.bb12e8a: Threads
 tabbed-channel.78437fe: To add this file as a tab, you’ll need to connect to {appName}.
 tabbed-channel.82f4718: To add this file as a tab, you’ll need to request access to view it.
 tabbed-channel.042c862: Try again
+tabbed-channel.bf0d075: Unpin from channel
 tabbed-channel.eb5aa0a: Unset as default for huddle notes?
 tabbed-channel.bcf09d4: Unsetting the huddle notes canvas will remove it as the default canvas for the current huddle. Are you sure you want to unset it now?
 tabbed-channel.621521f: Untitled
@@ -26450,11 +26490,7 @@ timeline.f1702b4: Messages
 timeline.5aee8db: Source message from {sender} in {channel}
 timeline.2eb56be: Sources
 timeline.a8323a2: Web
-timeline-feed.11ea0f1: Due today
-timeline-feed.4fc752f: Due tomorrow
-timeline-feed.8b26144: Due · {date}
 timeline-feed.e3b8204: Now
-timeline-feed.cc043f3: Overdue · {timeAgo}
 timeline-feed.24345a1: Today
 timeline-feed.da24830: Yesterday
 timeline_condensed.80d96a2: (Sources)
@@ -26477,6 +26513,7 @@ today.140b367: Add to-do
 today.9ce55c1: Added by you
 today.891e9d6: Agenda
 today.4ee185d: Agenda has moved to Today, your new bird’s eye view of prioritized action items, highlights from unread messages, and upcoming meetings.
+today.9c3c6d3: Agenda menu
 today.64acf7e: Agents
 today.1145743: All day
 today.30695df: All done with action items.
@@ -26529,6 +26566,7 @@ today.abc0ea9: Happening now
 today.68edd11: Head back to Home
 today.3534844: Hello, {firstName}!
 today.33076e8: Hey, move it. Reorder the sections of Today to focus on the ones that matter most to you.
+today.8fab06d: Hide past events
 today.1f9c9c4: Highlights
 today.3bca389: Highlights are a curated list pulled from your unread conversations.
 today.b3a2913: In {hours}h
@@ -26599,6 +26637,7 @@ today.273825b: Saved item
 today.8fec252: Send to Slackbot
 today.3c4f764: Share your feedback for Today
 today.4c852b2: Show less
+today.fb18328: Show past events
 today.1e85c1b: Skimming and scanning…
 today.430b38b: Slack
 today.e21da9e: Slack Connect
