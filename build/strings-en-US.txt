@@ -1886,9 +1886,12 @@ app_details.1d06648: {appName} is installed on {teamName}
 app_details.2a4c7f0: ‘{appName}’ will be able to do
 app_details.96cb78d: ‘{appName}’ will be able to view
 app_dialog.b16c7ac: (optional)
+app_dialog.0997bad: Header Icon
 app_dialog.2dacf65: Submit
 app_dialog.ab90d9d: This field is required.
 app_dialog.26dc55d: We had some trouble connecting. <a>Try again?</a>
+app_dialog.38ffdb9: You can't enter more than {maxLength, plural, =1 {# character} other {# characters}}.
+app_dialog.d800655: You must enter at least {minLength, plural, =1 {# character} other {# characters}}.
 app_home.f0ee13e: Access restricted
 app_home.378cbbf: Learn More
 app_home.cce7155: Reload
@@ -2341,6 +2344,7 @@ assistant.473710d: More details
 assistant.71b35d4: Most relevant
 assistant.a0d104b: Move and invite
 assistant.8d560c0: Move to a channel
+assistant.e8b2001: Move to main window
 assistant.0f09734: Mute
 assistant.6a30489: Mute All
 assistant.3a4727a: Mute channel
@@ -8889,6 +8893,7 @@ enterprise_dashboard.53af77c: Global Administrator access required. Share this l
 enterprise_dashboard.4e27cf4: Go back to step 2 and reinstall Slack, or wait a few minutes and try verifying again.
 enterprise_dashboard.b2acc20: Grant Slack access to Google
 enterprise_dashboard.6b45d93: Grant Slack access to Office 365
+enterprise_dashboard.2a17b82: IDP
 enterprise_dashboard.5a99784: Icon must be a .gif, .jpg, or .png
 enterprise_dashboard.b137f44: Icon must be at least {minimumIconWidth} x {minimumIconHeight} pixels
 enterprise_dashboard.4669a7b: If this channel is public for {memberName}'s org, and they are still connected, they can rejoin.
@@ -8916,7 +8921,9 @@ enterprise_dashboard.baefd7e: No channels were found matching <b>{query}</b>
 enterprise_dashboard.a05b579: No file chosen
 enterprise_dashboard.718d942: No members to assign to this permission
 enterprise_dashboard.41c06c1: No one
+enterprise_dashboard.fdd8747: No results found matching <b>{groupsSearchTerm}</b>.
 enterprise_dashboard.cd51f18: No results found matching <b>{membersSearchTerm}</b>.
+enterprise_dashboard.8a53b25: No user groups to assign to this permission
 enterprise_dashboard.848c28c: No workspaces have been selected
 enterprise_dashboard.0f4d889: Not a <b>Global Administrator</b> for <b>{domain}</b>? Share <a>this link</a> with your workspace’s Global Administrator to get set up.
 enterprise_dashboard.74a889c: Not a <b>super admin</b> for <b>{domain}</b>? Share <a>this link</a> with your workspace super admin to get set up.
@@ -9020,6 +9027,7 @@ enterprise_dashboard.9622962: {appName} is now connected.
 enterprise_dashboard.5a83c48: {appName} uninstalled.
 enterprise_dashboard.cd65fda: {count, plural, =1 {# channel} other {# channels}}
 enterprise_dashboard.ddf19c4: {count, plural, =1 {# filtered result} other {# filtered results}}
+enterprise_dashboard.e9099aa: {count, plural, =1 {# group} other {# groups}}
 enterprise_dashboard.03cd6f5: {count, plural, =1 {# member} other {# members}}
 enterprise_dashboard.3358be7: {count, plural, one {# skill} other {# skills}}
 enterprise_dashboard.eba622f: {memberName} couldn’t be removed from this channel.
@@ -16601,13 +16609,11 @@ platform-admin.4642502: Please select a person or choose no one can use this ste
 platform-admin.efc007a: Save
 platform-admin.943a4ee: Save anyway
 platform-admin.9c6d505: Select channels
-platform-admin.1f4385b: Select channels to exclude
 platform-admin.9e34d30: Select groups
 platform-admin.ad3b538: Select people
 platform-admin.29b332d: Select specific people and groups who can use the app.
 platform-admin.1b110ee: Select specific people or workspaces
 platform-admin.1214f7d: Select specific people who can use the app.
-platform-admin.2ee9373: Some channels couldn’t be loaded due to a temporary error. Close and try again.
 platform-admin.14c3a74: Sorry, something went wrong. Try again in a moment.
 platform-admin.2d750dd: Specific people
 platform-admin.10e4b6f: Specific people and groups can use the app.
@@ -16631,16 +16637,17 @@ platform-admin.ba76df8: You’ve reached your limit of 10 installed apps. With S
 platform-admin.aa075f0: {channelCount, plural, =1 {# channel} other {# channels}} selected
 platform-admin.cd65fda: {count, plural, =1 {# channel} other {# channels}}
 platform-admin.5a1463d: {count, plural, =1 {# excluded group} other {# excluded groups}} couldn’t be loaded and will no longer be blocked if you save.
+platform-admin.e9099aa: {count, plural, =1 {# group} other {# groups}}
 platform-admin.2de9038: {count, plural, =1 {# group} other {# groups}} this app allows couldn’t be loaded.
 platform-admin.2f9a86c: {count, plural, =1 {# person} other {# people}}
 platform-admin.4c0adf4: {count, plural, =1 {# previously-permitted group} other {# previously-permitted groups}} couldn’t be loaded and will lose access if you save.
+platform-admin.962677a: {groupCount, plural, =0 {No groups} =1 {# group} other {# groups}} and {memberCount, plural, =0 {no people} =1 {# person} other {# people}} selected
+platform-admin.9a1985c: {memberCount, plural, =0 {No people selected} =1 {# person selected} other {# people selected}}
 platform-admin.1b95d2b: {name} (group)
 platform-admin.fc7f746: {personCount, plural, =0 {} =1 {# excluded person} other {# excluded people}}{both, select, true { and } other {}}{groupCount, plural, =0 {} =1 {# excluded group} other {# excluded groups}} couldn’t be loaded and will no longer be blocked if you save.
 platform-admin.b20728a: {personCount, plural, =0 {} =1 {# previously-permitted person} other {# previously-permitted people}}{both, select, true { and } other {}}{groupCount, plural, =0 {} =1 {# previously-permitted group} other {# previously-permitted groups}} couldn’t be loaded and will lose access if you save.
 platform-admin.5129522: {shownText} and {remaining, plural, =1 {# other} other {# others}}
 platform-admin.58f233d: {text}, opens in new window
-platform-admin.0edc8b1: {unresolvedCount, plural, =1 {# previously-configured channel couldn’t be loaded and will be removed if you save.} other {# previously-configured channels couldn’t be loaded and will be removed if you save.}}
-platform-admin.fbfa79e: {unresolvedCount, plural, =1 {# requested channel can’t be shown and will be kept. You may not have permission to view it.} other {# requested channels can’t be shown and will be kept. You may not have permission to view them.}}
 platform-admin.2864df0: {workflow} has been removed from bookmarks
 platform_ai.b7d1ca2: AI in Slack is still learning and might not always hit the mark <LearnMoreLink>Learn more</LearnMoreLink>
 platform_ai.6d73be4: About building workflows with AI
@@ -20298,6 +20305,7 @@ session_channel_archive.7eac343: This channel is inactive. Archive it for everyo
 session_channel_archive.94ca019: This channel is inactive. Leave the channel to tidy up your sidebar — you can always rejoin it later.
 session_channel_archive.504fccb: This work is complete. Archive it for everyone — the contents will still be available in search, and you can always unarchive it in the future.
 session_channel_archive.4fd785e: This work is complete. Leave the channel to tidy up your sidebar — you can always rejoin it later.
+setup_page.2d0ab40: ),Li=n(
 setup_page.27e6d30: + {count, plural, =1 {# other} other {# others}}
 setup_page.850a65b: 1,001 +
 setup_page.92767dc: 101 - 500
