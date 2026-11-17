@@ -1455,6 +1455,7 @@ ai_apps.156b60d: About {agentName}
 ai_apps.bbd3e6e: About {appName}
 ai_apps.51b5c8d: Active in {count, plural, one {# channel or DM} other {# channels and DMs}}
 ai_apps.61cc55a: Add
+ai_apps.70e99c7: Add Agents
 ai_apps.2fd97f5: Add agent
 ai_apps.1f7f16d: Add an Agent
 ai_apps.5ce2e6f: Agent
@@ -1533,6 +1534,7 @@ ai_apps.2fb9609: Open in split view for {agentName}
 ai_apps.bb1f603: Open {appName}
 ai_apps.1718e55: Open {name} agent
 ai_apps.3ae9cb0: Pin {name} to top bar
+ai_apps.28efb42: Pinned by admin
 ai_apps.86b41d6: Pinned by you
 ai_apps.9bef397: Pinned by your admin
 ai_apps.6fe36ed: Popular agents
@@ -1560,6 +1562,7 @@ ai_apps.ea86ba7: There aren’t any sidekicks matching your search criteria.
 ai_apps.196ce5f: There was a problem loading agents. Please try again.
 ai_apps.06245fe: This app hasn’t shared a privacy policy link. Contact the developer directly for more information.
 ai_apps.2b76d52: This tool uses generative AI, which can produce inaccurate or harmful responses. Review for accuracy and safety before using.
+ai_apps.35c58ac: Toggle all agents
 ai_apps.2c37bbe: Try these prompts:
 ai_apps.c21b577: Unpin {name}
 ai_apps.621521f: Untitled
@@ -1577,6 +1580,7 @@ ai_apps.0608c40: agent
 ai_apps.3396883: {appName} is working with limited access. You can <update-access-link>update access</update-access-link> anytime.
 ai_apps.2f2bbaa: {isConnecting, select, true {Connecting…} other {Connect}}
 ai_apps.a2629ba: {name}, pinned
+ai_apps.60a9601: {visible} of {total} Agents
 ai_workspace_setup.e450199:  Welcome to #{name}
 ai_workspace_setup.2e8bbf3: Advanced settings
 ai_workspace_setup.77dfd21: Cancel
@@ -1705,18 +1709,9 @@ app-config.3da4745: Skip
 app-config.a693bf2: This was locked by a system administrator
 app-config.2fab0fb: This workflow has reached the {max_number_of_steps}-step limit. To add more steps, you need to remove some first.
 app_action_picker.d3a0a22: Add a custom MCP server
-app_action_picker.d907fee: Add agents and apps to this DM
-app_action_picker.6a9b0f3: Add agents and apps to this group DM
-app_action_picker.e9cc812: Add apps to this DM
-app_action_picker.de8409a: Add apps to this group DM
 app_action_picker.e8b8f97: Add files and tools
-app_action_picker.446cbed: Add from Box
-app_action_picker.09dfc18: Add from Dropbox
-app_action_picker.56dbe58: Add from Google Drive
-app_action_picker.ccbec6c: Add from OneDrive & SharePoint
 app_action_picker.d9a3685: Apps
 app_action_picker.1afff01: Attach
-app_action_picker.cb38f9f: Attach a GIF
 app_action_picker.fc05e2a: Available apps
 app_action_picker.c0774ce: Browse apps
 app_action_picker.2190a3b: Browse channels
@@ -1895,7 +1890,6 @@ app_details.1d06648: {appName} is installed on {teamName}
 app_details.2a4c7f0: ‘{appName}’ will be able to do
 app_details.96cb78d: ‘{appName}’ will be able to view
 app_dialog.b16c7ac: (optional)
-app_dialog.3a4245a: Learn more about {appName}
 app_dialog.2dacf65: Submit
 app_dialog.ab90d9d: This field is required.
 app_dialog.26dc55d: We had some trouble connecting. <a>Try again?</a>
@@ -5774,7 +5768,6 @@ client.47b649e: You don’t have permission to start a huddle. You can use /hudd
 client.289f364: Your workflow templates
 client.58e4b6b: with an announcement
 client.27129a2: {viewName} collapsed
-client_error_screens.ac37626: ),[t$.D.QuipCommentStream]:end.t(
 client_error_screens.c828370: <a>Check the Slack service</a> to make sure it’s not a Slack issue.
 client_error_screens.1cfdfef: <a>Restart Slack</a>. Sometimes that’s all it takes.
 client_error_screens.bcb2fef: <a>Try our suggestions for troubleshooting</a> connection issues.
@@ -11967,6 +11960,9 @@ ia4.c88696b: {todoCount, plural, =1 {# overdue to-do} other {# overdue to-dos}} 
 ia4.3438496: {todoCount, plural, =1 {# overdue to-do} other {# overdue to-dos}} and {notificationCount, plural, =1 {# unread notification} other {# unread notifications}}
 ia4.b66a9ff: {workspaceName}, has new messages
 ia4_peeks.08482ad: Dogfood
+ia4_peeks.7684b09: Past events
+ia4_peeks.6e28c84: See tomorrow
+ia4_peeks.9c93cef: See yesterday
 im_foreword.77dfd21: Cancel
 im_foreword.d6bc57a: Help your new teammate feel welcome. Share a channel where they can get to know the rest of the team.
 im_foreword.b3c8845: Image of a hand holding welcome card
@@ -16660,6 +16656,7 @@ platform-admin.e57f74b: Channels loaded.
 platform-admin.ea96354: Compare Plans
 platform-admin.2e02623: Continue
 platform-admin.0fff07c: Continue to Groups
+platform-admin.74780a8: Continue to People
 platform-admin.05d0162: Couldn’t load channels. Try again in a few minutes.
 platform-admin.dfdb7ac: Couldn’t load groups. Try again in a few minutes.
 platform-admin.16506ef: Couldn’t load more channels.
@@ -16672,8 +16669,10 @@ platform-admin.5e50eae: Everyone except specific people or groups
 platform-admin.0940563: Filter by channel name
 platform-admin.90e40d5: Get started
 platform-admin.e2722c7: Get unlimited apps, including AI assistants
+platform-admin.6878f62: Learn how to get started connecting your IDP to Slack
 platform-admin.be5f086: Load More Channels
 platform-admin.61afdda: Loading channels
+platform-admin.978ae10: Loading groups
 platform-admin.cf310ac: Loading more channels…
 platform-admin.4f739b5: Loading people
 platform-admin.41bd67a: Manage app access
@@ -16700,6 +16699,8 @@ platform-admin.14c3a74: Sorry, something went wrong. Try again in a moment.
 platform-admin.2d750dd: Specific people
 platform-admin.10e4b6f: Specific people and groups can use the app.
 platform-admin.8007984: Specific people can use the app.
+platform-admin.111cbbd: There are no groups from your identity provider.
+platform-admin.6c68b7e: This app doesn’t allow any groups
 platform-admin.ea1a27d: This app doesn’t allow any people
 platform-admin.f372b05: To reconnect workflows, upgrade to a paid plan. <cta></cta>
 platform-admin.7b15e9e: Too many users to display. You may only add users here. To remove users, please use the API.
@@ -16716,7 +16717,10 @@ platform-admin.155b3f7: You can delete specific people but cannot add people to 
 platform-admin.ba76df8: You’ve reached your limit of 10 installed apps. With Slack Pro, you can install unlimited apps including AI assistants. {bannerCta}
 platform-admin.aa075f0: {channelCount, plural, =1 {# channel} other {# channels}} selected
 platform-admin.cd65fda: {count, plural, =1 {# channel} other {# channels}}
+platform-admin.5a1463d: {count, plural, =1 {# excluded group} other {# excluded groups}} couldn’t be loaded and will no longer be blocked if you save.
+platform-admin.2de9038: {count, plural, =1 {# group} other {# groups}} this app allows couldn’t be loaded.
 platform-admin.2f9a86c: {count, plural, =1 {# person} other {# people}}
+platform-admin.4c0adf4: {count, plural, =1 {# previously-permitted group} other {# previously-permitted groups}} couldn’t be loaded and will lose access if you save.
 platform-admin.1b95d2b: {name} (group)
 platform-admin.fc7f746: {personCount, plural, =0 {} =1 {# excluded person} other {# excluded people}}{both, select, true { and } other {}}{groupCount, plural, =0 {} =1 {# excluded group} other {# excluded groups}} couldn’t be loaded and will no longer be blocked if you save.
 platform-admin.b20728a: {personCount, plural, =0 {} =1 {# previously-permitted person} other {# previously-permitted people}}{both, select, true { and } other {}}{groupCount, plural, =0 {} =1 {# previously-permitted group} other {# previously-permitted groups}} couldn’t be loaded and will lose access if you save.
@@ -26312,6 +26316,8 @@ today.854783f: <strong>Missing out on something?</strong> Ask Slackbot to edit y
 today.7cc1d08: A peek at your day
 today.a14a086: AI suggested to-dos are paused.
 today.9046bc7: AI will suggest messages that need your reply, or you can add your own items saved for later.
+today.028ec04: Add Huddle
+today.d8de514: Add huddle to talk with your team right in Slack
 today.243c942: Add messages or write your own to-dos, and get the satisfaction of checking them off your list. Saved is now a separate spot to store things for reference.
 today.140b367: Add to-do
 today.9ce55c1: Added by you
@@ -26365,6 +26371,7 @@ today.804eb5a: Good morning, {firstName}!
 today.c8a4874: Got It
 today.5b8027f: Got it
 today.75b8883: Guests ({numGuests})
+today.abc0ea9: Happening now
 today.68edd11: Head back to Home
 today.3534844: Hello, {firstName}!
 today.33076e8: Hey, move it. Reorder the sections of Today to focus on the ones that matter most to you.
@@ -26449,12 +26456,14 @@ today.8d886c0: Something went wrong
 today.e61561a: Starred
 today.952f375: Start
 today.87588fb: Start Huddle
+today.db14bf2: Starting {timeAgo}
 today.a6428e2: Stay focused on what’s important.
 today.e835f68: Stay in the loop on important conversations.
 today.2dacf65: Submit
 today.b7c5bcd: Suggested to-dos are pulled from your mentions, DMs, and threads.
 today.01d94f4: Summaries of your most important unreads.
 today.588c583: Summarize this meeting
+today.23e7c72: The best memories are sometimes created in the calmest moments
 today.e7da927: The important bits from your Gmail inbox
 today.02285b9: The important bits from your Outlook inbox
 today.945f828: The summaries are prioritized by AI based on your activity in Slack. {manageHighlightsLink}
@@ -26499,6 +26508,8 @@ today.bc67a44: {count} selected
 today.7cd0ac6: {emoji} Action items you might have missed
 today.00a8132: {emoji} Agenda
 today.52f27c3: {emoji} Recent highlights
+today.d11d6cb: {eventTime}
+today.6229e1c: {eventTime} {isImHuddle, plural, =1 {with} other {in}} {channelName}
 today.6d806e6: {icon} Join {meetingName}
 today.d8f2daa: {otherMemberName} and {numMembersMinusOne, plural, =1 {# other is} other {# others are}} in the huddle
 today.c39c537: {otherMemberName} and {numMembersMinusOne} others are invited
@@ -26559,7 +26570,6 @@ toggle_floating_sidebars.39bc84d: Show sidebars
 tractor_channel_simplification.50597b5: Add Channel Description
 tractor_channel_simplification.ce431bf: Add a Template
 tractor_channel_simplification.92cf78f: Add content, invite your team, and connect the tools you need.
-tractor_channel_simplification.56dbe58: Add from Google Drive
 tractor_channel_simplification.5bd195c: Add from Google Workspace
 tractor_channel_simplification.de2f06e: Bring in the right people
 tractor_channel_simplification.3e04902: Continue your setup
@@ -27183,6 +27193,7 @@ view.a8c64a7: Code Channels
 view.1df39aa: Compact
 view.4f9be05: Content
 view.578ad30: Couldn’t save that mark. Try again.
+view.107eb3f: Couldn’t split these pages. Try again.
 view.3c7746e: Created by agents
 view.1641c52: Ctrl Alt Click
 view.fc762b5: Ctrl Click
@@ -27222,6 +27233,9 @@ view.af97733: Icons and text
 view.7eefba1: Icons only
 view.b6bd42e: In progress
 view.7b23670: Item view
+view.0bd61c2: Joined from: {name}
+view.373c6da: Joined from: {name}, because of the same Salesforce record
+view.69a5570: Joined from: {name}, because of the same Slack account
 view.9caf661: Joined from: {name}, because of the same email
 view.b465751: Keyboard Shortcuts
 view.56e2f5d: Later
@@ -27253,9 +27267,11 @@ view.c1418c2: New Workflow
 view.1ed2e7b: New message
 view.0caea46: No facts about you yet.
 view.cac330d: No projects yet
+view.6fac1b7: Not the same
 view.b54a538: Nothing saved yet
 view.c18f8f2: Notification
 view.753a22b: Notifications
+view.7e439c3: On this page
 view.6ab14bd: One line is enough
 view.57d4066: OneDrive & SharePoint
 view.a75732d: Open in new window
@@ -27275,6 +27291,7 @@ view.881e743: Pull request
 view.a49698c: Recap
 view.fd316b7: Recently viewed
 view.8438010: Recents
+view.917df91: Related
 view.4ef507f: Related Channels List
 view.3857d09: Related Threads List
 view.b87a192: Reminder
