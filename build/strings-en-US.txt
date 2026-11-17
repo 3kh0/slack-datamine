@@ -4581,6 +4581,8 @@ channel_header.0323bf6: Invite teammates
 channel_header.6b89868: Invite teammates tip
 channel_header.4d67cf8: Slack works better when you use it together.
 channel_header.24b43d5: Start with a few people you work with most.
+channel_header.8d4e9b8: View all agents & apps of this channel
+channel_header.00681e8: View all agents & apps of this channel<t1>Includes {agents}</t1>
 channel_header.e255057: View all members of this {entity}<t1>Includes {users}</t1>
 channel_header.3044650: View {memberCount, plural, =1 {# member} other {all # members}}. Includes {users}.
 channel_header.8af56de: you
@@ -12423,6 +12425,8 @@ lists.fac8404: A single line of text.
 lists.6b21fb7: About
 lists.6370c27: Above
 lists.2cdd20a: Access Level
+lists.5bad8d3: Action redone
+lists.2200f14: Action undone
 lists.61cc55a: Add
 lists.d89450c: Add Comment
 lists.55f9626: Add Field
@@ -12456,6 +12460,7 @@ lists.140b367: Add to-do
 lists.56f1c8f: Add view
 lists.2bdcd4f: Add workflows to create briefs, assemble reports, intake requests, and more.
 lists.ac4cb37: Added {fileName} to Starred. <r1>View</r1>
+lists.deda57c: Adding a new item will archive the oldest item in the list.
 lists.79ba5e1: After
 lists.7d74063: After…
 lists.523a0c9: Alert a channel when a form response is collected
@@ -12482,6 +12487,7 @@ lists.e855ebd: Are you sure you want to delete the <strong>“{columnName}”</s
 lists.1ca7fa3: Are you sure you want to delete these items permanently?
 lists.211aadd: Are you sure you want to delete this item permanently?
 lists.b7125cb: Are you sure you want to delete this option?
+lists.e924786: Are you sure you want to delete this subtask permanently?
 lists.9fa749a: Are you sure you want to delete this view?
 lists.df74d0e: Are you sure you want to discard your new view?
 lists.a05cde3: Are you sure you want to leave?
@@ -12523,7 +12529,11 @@ lists.a3f80b8: Canvas
 lists.0d06e63: Canvas Inline
 lists.7615786: Can’t view this item
 lists.5505a71: Cell copied
+lists.0789c40: Cell pasted
+lists.264b874: Cell pasted with errors
 lists.a6cdc8b: Cells copied
+lists.90b0852: Cells pasted
+lists.66acb53: Cells pasted with errors
 lists.64fbd99: Change
 lists.7c35a07: Change to task list
 lists.879f0b1: Channel
@@ -12589,6 +12599,7 @@ lists.5d73cc3: Created by
 lists.8c29271: Created by you
 lists.970e33b: Created by {teamName}
 lists.b94d24a: Created time
+lists.c50a904: Creating columns…
 lists.1641c52: Ctrl Alt Click
 lists.fc762b5: Ctrl Click
 lists.e070de2: Currency
@@ -12607,10 +12618,12 @@ lists.fa0574c: Delete items
 lists.a1ebff8: Delete list
 lists.0d98bf4: Delete option
 lists.60b3a26: Delete subtask
+lists.88f4ddc: Delete this item and {subtaskCount} {subtaskCount, plural, =1 {subtask} other {subtasks}}?
 lists.67595eb: Delete view
 lists.2424529: Deleted canvas
 lists.4fdf6c0: Deleted item
 lists.3d4c9eb: Deleted list view
+lists.8937407: Deleting this item will also delete its associated {subtaskCount, plural, =1 {subtask} other {subtasks}}.
 lists.53577bb: Deny
 lists.f7ea2b4: Deny localization request
 lists.36377ad: Descending
@@ -12734,6 +12747,7 @@ lists.ba0401e: Horchata
 lists.b661091: How filter groups are combined
 lists.0f8e688: If they have access to the list, people will be notified when mentioned in this field.
 lists.a07e092: If this item gets shared in other conversations in Slack, they will show up here.
+lists.2bd9a76: If you unarchive this item, the oldest item in the list will be automatically archived.
 lists.7907b49: Import a list
 lists.d20a50c: Imported files can’t have more than {maxRowsPerList} rows.
 lists.fa31088: Include archived items
@@ -12755,6 +12769,7 @@ lists.ecdda59: Item
 lists.caaa995: Item actions
 lists.43bf682: Item conversations
 lists.31b8182: Item deleted
+lists.342f18a: Item deleted.
 lists.361c493: Item in 
 lists.98e75f2: Items deleted
 lists.817f1c5: JSON download failed
@@ -12799,8 +12814,10 @@ lists.a3098b8: Mark Complete
 lists.8b2c8f9: Mark done when checked
 lists.3f91e9b: Match all conditions
 lists.0b95832: Match any condition
+lists.60ab697: Maximum items reached
 lists.cf7e657: Maximum number of 50 subtasks reached.
 lists.e2e8c01: Maximum number of fields reached
+lists.ba3de5d: Maximum number of items reached
 lists.f8d3baf: Maximum number of options reached
 lists.7c118e3: Maximum number of views reached
 lists.d2fbdd7: Member name
@@ -12901,6 +12918,7 @@ lists.07217c7: Overdue
 lists.db24830: Paste
 lists.ebe3908: Paste a link
 lists.3d61f0f: Paste across cells
+lists.e8e070e: Paste failed: Maximum of 100 cells reached. Please reduce your paste size and try again.
 lists.acf0bc2: Paste into cell
 lists.b37554f: People
 lists.8ec69d7: People will not be notified when they’re added to this field
@@ -13082,6 +13100,7 @@ lists.26dd59b: This item is due today.
 lists.d68f46d: This item is overdue by 1 day.
 lists.6dbd544: This item is overdue by {N} days.
 lists.2f54a9a: This item was deleted
+lists.c9ba2ce: This item will be archived and saved in the <strong>{listName}</strong> archive. Items can be unarchived.
 lists.4a82f12: This list has too many fields to add the ones that track agent work. Delete a few fields and try again.
 lists.f1878bf: This list is already being updated. Try again in a moment.
 lists.ac75922: This list is no longer available.
@@ -13123,6 +13142,7 @@ lists.ab5297f: Type to search
 lists.f7e785d: Unable to preview restore. Please try again.
 lists.30b097b: Unable to restore record.
 lists.1ba5c58: Unable to restore this version. Please try again.
+lists.35e71c2: Unarchive
 lists.ead16d6: Unarchive Item
 lists.c4da41c: Unarchive item
 lists.39fc721: Undo
@@ -13151,6 +13171,8 @@ lists.ea59da4: Users will no longer be able to use this template.
 lists.c9ee568: V
 lists.8dce170: Value
 lists.b1564f6: Values
+lists.0b28841: Version by {author}, external user from {orgName}, {date} at {time}
+lists.482c225: Version by {author}, {date} at {time}
 lists.69bd4ef: View
 lists.dfdb331: View actions
 lists.3bbb3c9: View archived items
@@ -13205,6 +13227,7 @@ lists.7713101: Your recently viewed or updated lists will be shown here.
 lists.adcfed3: Your templates
 lists.34c7d17: You’ll be notified once it’s been shared with you.
 lists.97d4838: You’re about to return to the most recent list version. Do you want to proceed?
+lists.bc7b8f4: You’re all set to track tasks. Your list now has fields for Assignee, Due Date, and completion.
 lists.f4a3285: You’ve already asked for access
 lists.bb91e55: channel-name
 lists.62da4d7: dd Month yyyy
@@ -13265,6 +13288,8 @@ lists.59d8ec4: {formattedDate}
 lists.e7cc4d5: {hiddenCount} hidden
 lists.12351ca: {icon} Can’t view this item
 lists.f6864d7: {icon} This item was deleted.
+lists.be9bf3c: {itemCount} {itemCount, plural, =1 {item has} other {items have}} been moved to archive.
+lists.3c56ca9: {itemCount} {itemCount, plural, =1 {item has} other {items have}} been unarchived.
 lists.74aef03: {listTitle} (Archive)
 lists.02612bf: {listTitle}, List template
 lists.3fafaf6: {listTitle}, {versionLabel}
@@ -16003,6 +16028,7 @@ nav_team_site.626668d: Import & export data
 nav_team_site.e42328a: Imports
 nav_team_site.a7881ca: Integrations
 nav_team_site.9b69a35: Invitations
+nav_team_site.c833553: Legal holds
 nav_team_site.8d9a304: MCP servers
 nav_team_site.bf58d17: Manage
 nav_team_site.7662789: Manage integrations
@@ -19143,6 +19169,7 @@ saved_for_later.f7f27c7: To-dos moved to Saved. Salesforce tasks stay in To-dos.
 saved_for_later.9ca56a9: To-dos whose message was deleted will be removed, both in-progress and completed. Your other to-dos are left alone. This can’t be undone.
 saved_for_later.9186306: Turn anything into a to-do
 saved_for_later.3deb745: Type
+saved_for_later.35e71c2: Unarchive
 saved_for_later.39fc721: Undo
 saved_for_later.8954a5c: Untitled item
 saved_for_later.6a34ef3: Untitled to-do
@@ -20469,6 +20496,7 @@ setup_page.68f4145: Message
 setup_page.23965b2: Message #project
 setup_page.f1702b4: Messages
 setup_page.4bab2d8: More
+setup_page.7f0d157: More invite options
 setup_page.098849c: Most people start by inviting 1-2 teammates
 setup_page.405ec7a: Name your Slack workspace
 setup_page.6fa4f19: New Workspace
@@ -20504,6 +20532,9 @@ setup_page.28abc03: Search by name
 setup_page.db074aa: Search by name or email
 setup_page.81a5f00: Selected channels
 setup_page.6dcd151: Send Message
+setup_page.a0630b0: Share invite link
+setup_page.a5b70f2: Share link in LINE WORKS
+setup_page.53498db: Share link with email template
 setup_page.1c8ffa2: Skip Step
 setup_page.6fc0960: Skip for now
 setup_page.9278dcf: Skip this step
