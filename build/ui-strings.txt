@@ -88,7 +88,7 @@
 ) are ignored.
 ) is not supported yet.
 ) that performed expensive computation.
-)&&(eB(!1),ab(void 0),eP(aM?
+)&&(ez(!1),aR(void 0),e$(aU?
 ))),e((0,c.R3)(h)),e((0,c.p4)(h?a:void 0)),p(h?
 ). If you meant to render a collection of children, use an array instead.
 )?l.makeImage(e.slice(8),new u.Ay(t,r,n,i),o?
@@ -182,6 +182,7 @@ A multi-person DM
 A new app messaging experience makes having conversations with AI-powered agents and assistants a snap. Install apps with an assistant or agent, and put them to work today.
 A new comment selection cannot contain other comments or reactions.
 A new kind of channel, built for AI coding
+A new look and voice, same answers. Tap a voice to hear it.
 A new look for Singer. Questions still go to Slackbot.
 A new skill is available to try
 A new tab was opened to complete verification.
@@ -726,6 +727,7 @@ Add workflow to channel
 Add workflows to create briefs, assemble reports, intake requests, and more.
 Add workspace
 Add workspaces
+Add your AI agents and apps to Slack
 Add your Google domain
 Add your details to use this template as is. Or, add more steps to customize it.
 Add your existing tools to Slack
@@ -926,6 +928,7 @@ All sessions
 All set - admins are taking a look
 All set here.
 All set!
+All set. Click Singer anytime.
 All sidekicks
 All statuses
 All tasks complete
@@ -1063,6 +1066,7 @@ Another conversation is still moving to a channel. Wait a moment, then try again
 Another restore is already running for this list. Please try again shortly.
 Answer FAQs
 Answer sharing has been disabled by your organization.
+Answer style
 Answer to: 
 Answered in a new card
 Answered in chat
@@ -1248,10 +1252,12 @@ Ask about this window
 Ask an admin to install it from the Slack Marketplace.
 Ask an admin to reinstall it so Slackbot gets the access it needs.
 Ask anything
+Ask anything. Answers come back as cards you can act on, like replying or checking things off.
 Ask as a card instead
 Ask before actions
 Ask before editing
 Ask each time
+Ask for any view. Singer builds it.
 Ask for the omniswitcher Slackbot mode switch hint after the search modal header reload
 Ask in thread
 Ask it to do things for you, like prep for meetings and draft replies.
@@ -1560,6 +1566,8 @@ Brand Guidelines v3
 Brazilian (ABNT)
 Brent Hendry
 Briefs, tables and drafts your agent makes for this project collect here.
+Bright and friendly.
+Bring Back All Cards
 Bring Salesforce data into Slack
 Bring Slackbot to this meeting?
 Bring all archived items to To-dos
@@ -1768,6 +1776,7 @@ Calls the relevant rtm handlers with the given rtm message, skipping the queue a
 Calls to Automerge.change cannot be nested
 Calls users.prefs.setNotifications endpoint
 Calls users.prefs.setNotifications endpoint with multiple pref values
+Calm and even.
 Calm over here.
 Cambria Math
 Camera background
@@ -1965,6 +1974,8 @@ Capture the knowledge from this swarm for the knowledge base?
 Capturing your huddle
 Card View
 Card actions
+Card stack
+Cards from Singer
 Caret browsing
 Caret browsing turned off
 Carlito Light
@@ -1984,6 +1995,7 @@ Catch up on your DMs
 Catch up quickly and reduce noise with automated summaries and daily recaps
 Catch-up failed: no transcript history available
 Catch-up stopped. These stay unread.
+Catching up
 Category Tags
 Catppuccin Latte
 Catppuccin Macchiato
@@ -2131,7 +2143,10 @@ Channels results loaded successfully
 Channels where the workflow starts are not imported. To continue importing, select at least one channel where the workflow will start.
 Channels, DMs and threads you visit in Slack will appear here.
 Character, outfit, and size changes save to your Slack account.
+Character, voice, outfit, and size changes save to your Slack account.
 Chart caption
+Chart my Jira issues by status
+Chart my open PRs by days in review
 Chart type
 Chat about this
 Chat and Collaboration
@@ -2285,6 +2300,7 @@ Claude Sonnet 5.5 (Anthropic)
 Clean message text
 Clean state expected
 Clean sweep.
+Clean up my sidebar
 Clean up old persisted data for expired teams
 Clean up your channel list
 CleanStoppedSessionTask got canceled while waiting for the WebSocket closed event
@@ -2356,6 +2372,8 @@ Clears meeting prep blocks for a calendar event by event link ID
 Clears the error state
 Clears the window
 Clears workspace retrying state
+Click Singer anytime to ask.
+Click Singer anytime to ask. Here are a few to start with.
 Click the Dispatch button below to instantly render Megaphone Notifications on the UI.
 Click the question mark icon to open the Help Center whenever you need it.
 Click the star on any canvas or list to add it here for later
@@ -2454,6 +2472,7 @@ Close Google Directory banner
 Close Pull Request
 Close Search
 Close Workspace Directory Banner
+Close a card and it waits in your card stack, sorted by when you asked. Pick up any session where you left off.
 Close activity side panel
 Close and Discard
 Close and give feedback
@@ -2708,6 +2727,7 @@ Connect cloud app
 Connect each MCP server to use it in this step.
 Connect each MCP server to use it in this step. Test runs use your connection.
 Connect email provider
+Connect the apps your team uses
 Connect to Gmail
 Connect to Google
 Connect to Outlook Calendar
@@ -3259,6 +3279,7 @@ Creating your Google Drive file
 Creative feedback requested in #ext-agency-tyconet
 Creative program
 Credit team
+Crisp and upbeat.
 Crop your photo
 Crossed Circle
 Cruciferous Crunch Collection
@@ -3889,6 +3910,7 @@ Drag to reorder slide
 Drag to take a screenshot
 Dragon Touch
 Draw message must be correctly formed
+Draw my week as a little scene
 Draw on your own screen
 Drawing is not available for content shared from the Slack Mobile app
 Dream Maker
@@ -4232,7 +4254,6 @@ Enter at least 3 characters to search for a list in Salesforce
 Enter email address
 Enter email content here
 Enter folder name for link.
-Enter full email to add manually
 Enter full screen mode?
 Enter link URL
 Enter new topic
@@ -4398,6 +4419,7 @@ Eventlog requires a teamId
 Everforest Dark
 Everforest Light
 Every [[recurring_date]], send an activity notification to assignee when an item is not complete and its due date is [[due_date_filter]]
+Every answer is a card
 Every channel and DM, in your sections
 Every contact has a collaborative detail page where your team can log activity, track conversations, and update key info.
 Every day
@@ -4770,6 +4792,7 @@ Failed to persist extraction nudge dismissal
 Failed to persist reconciled global Activity sort
 Failed to persist segmentation answer
 Failed to pin conversation
+Failed to play a voice sample
 Failed to post comment
 Failed to prefetch Slack Scribe context during recording
 Failed to preload agent profile
@@ -4820,6 +4843,7 @@ Failed to retrieve CalculatorGraphConfig
 Failed to retrieve task: Task not found
 Failed to run client metrics
 Failed to save Slack Scribe sounds pref
+Failed to save an ask pref
 Failed to save changes
 Failed to save channel access
 Failed to save channel access settings
@@ -4834,6 +4858,7 @@ Failed to save multi-channel source settings
 Failed to save proactive instructions
 Failed to save skill set description
 Failed to save task
+Failed to save the voice pref
 Failed to save title. Please try again.
 Failed to save. Please try again.
 Failed to schedule forward message
@@ -5906,6 +5931,7 @@ Help me write a follow-up for my last meeting
 Help me write a personalized email
 Help me write a personalized reply for this thread
 Help people find and use workflows relevant to this channel.
+Help with
 Help your new teammate feel welcome. Share a channel where they can get to know the rest of the team.
 Helper for handling history
 Helvetica Neue
@@ -6022,7 +6048,9 @@ Hover card access check failed
 Hover card join failed
 Hover card refetch after a join threw
 Hovering in place.
+How Singer sounds on your next call. Tap a voice to hear it.
 How Slack AI search works
+How am I tracking against quota?
 How are people in my workspace getting the most out of Slack? What best practices, norms, and tips and tricks can I adopt?
 How big is your company?
 How big is your team?
@@ -6036,6 +6064,7 @@ How does this impact your current use of Slack or how could it potentially impro
 How familiar are you with Slack?
 How filter groups are combined
 How is the transcript? Tell us about your experience.
+How much focus time do I have this week?
 How satisfied are you with the customer relationship management (CRM) features in Slack so far?
 How she works
 How should I use Slackbot for my role?
@@ -6655,6 +6684,7 @@ Jump to: next unread thread
 Jumps to a message in the client
 Jun 2001 signature (not yet checked); Jun 2001 signature
 Jun 27 2001 email; Jun 27 2001 email placing him in the San Francisco office
+Just a new look. Every character answers in Ask Singer cards.
 Just display names
 Just mentions
 Just now
@@ -6671,6 +6701,7 @@ Keep Going
 Keep Recording
 Keep Selections
 Keep Slack safe and secure
+Keep Slackbot or Speck selected after you send.
 Keep access to messages and files older than 90 days.
 Keep all messages, except for revisions
 Keep all messages, including revisions
@@ -6999,6 +7030,7 @@ Lists tabbing
 Little moments, more personality
 Live App
 Live answers may have gaps. Your notes will still use the full recording.
+Live cards keep up
 Live huddles
 Live meeting
 Live meeting transcript. Recording is still in progress, so this is not the whole meeting and no notes exist yet.
@@ -7537,6 +7569,7 @@ Make it a task
 Make it easier to send notifications and communicate with entire teams, departments, or groups by adding multiple people to a single user group @mention.
 Make it yours
 Make longer
+Make me a kanban board of my open asks in Slack
 Make panel larger
 Make panel smaller
 Make private
@@ -8258,6 +8291,7 @@ Native data loss prevention
 Native device management
 Native device manager not available
 Native device manager not available - platform not supported
+Natural scrolling
 Navigate messages with a text cursor
 Navigate side effect to potentially send an event to an app that the view context has changed
 Navigate side effect to reset channel unread meta data
@@ -8486,6 +8520,7 @@ No apps available yet.
 No apps found
 No apps here yet.
 No apps in this filter match your search.
+No apps match your search.
 No args provided. Bold, very bold.
 No artifacts available to you
 No artifacts found
@@ -8624,6 +8659,7 @@ No membership data in this date range
 No message
 No message results found, Try other related matches
 No messages yet
+No mic right now? Type it instead.
 No microphones found
 No migration IDs provided
 No migration found for version 4
@@ -9018,10 +9054,12 @@ Oldest loaded
 Oldest to newest
 Oldest unread message
 On day of
+On it. Your card is on its way.
 On record as reporting to themself
 On selected date
 On the last day of the month
 On this page
+On your desktop
 Onboarding apps list
 Onboarding exception approval request
 Onboarding options
@@ -9624,6 +9662,7 @@ Physical gas supply
 Pick a 30-minute slot that works best for you, and come chat with our research team about how you use CRM features in Slack.
 Pick a channel before inviting Single-Channel Guests.
 Pick a different default avatar.
+Pick a look
 Pick a look and watch it come to life. Your questions still go to Slackbot.
 Pick a random default avatar. The current avatar will be replaced.
 Pick a section
@@ -9674,6 +9713,7 @@ Placeholder title
 Plain Text
 Plain text
 Plan an effective meeting
+Plan my day
 Play Again
 Play Just-In-Time calendar notification sound
 Play a live voice call cue unless huddle sounds are muted
@@ -9930,6 +9970,7 @@ Processor script loaded but BackgroundSegmentationVideoFrameProcessor not found 
 Product Roadmap - H1 2026
 Product Roadmap Review
 Product Terms Directory
+Productivity & Project Management
 Productivity and collaboration
 Productivity and collaboration image
 Productivity and collaboration tools
@@ -10015,6 +10056,7 @@ Purged persisted models
 Push a dm key to the back of the queue with debounced wait
 Push a reaction key to the back of the queue with debounced wait
 Put AI to work, anywhere in Slack
+Put Away All Cards
 Put DMs first
 Put agents to work in Slack
 Put app suggested prompt in the composer
@@ -10089,6 +10131,7 @@ Rate limited
 Rate this answer
 Rate this description
 Rate-limited open-link request
+Rather say it? Talk to Singer and the answer lands on a card, just like typing.
 Rating Options
 Raw frecency score (normalized 0-100) before bonus points
 Raw request is not valid JSON
@@ -10397,6 +10440,7 @@ Reloading Slack
 Reloading activity
 Reloading threads
 Reloading tools
+Remember my last choice
 Remember sign-ins
 Remember the last user-selected view for a list in a given window
 Remembers a native Slackbot turn for Singer task bubbles
@@ -10503,6 +10547,7 @@ Remove from Saved
 Remove from Slackbot
 Remove from VIP
 Remove from all sections
+Remove from card stack
 Remove from channel
 Remove from huddle
 Remove from important conversations list
@@ -10642,6 +10687,7 @@ Replace your saved message with this draft?
 Replaced the attached document text.
 Replacing a stale (already shut down) huddlesSdk in the connection manager
 Replay a number of specified messages (via keyboard shortcut) for a screen reader user
+Replay intro
 Replays persisted API calls after socket connection
 Replied in thread
 Replies have been turned off for this thread by your admins.
@@ -11217,6 +11263,7 @@ Search by team name, project or department
 Search by workflow name or keyword
 Search call history
 Search canvases
+Search card stack
 Search channels
 Search cleared
 Search code channels
@@ -12089,6 +12136,7 @@ Show more live huddles
 Show more permissions
 Show more recents
 Show muted conversations
+Show my pipeline by stage
 Show new items
 Show next items
 Show notifications from
@@ -12188,6 +12236,7 @@ Singer chose Offsite plan. Sample answer: Just the venue.
 Singer destination unavailable
 Singer display is unavailable.
 Singer has a question
+Singer intro
 Singer island
 Singer message unavailable
 Singer needs you in the chat
@@ -12196,6 +12245,7 @@ Singer offers you a heart
 Singer sees only the window you choose. macOS may ask for permission first.
 Singer send is no longer available.
 Singer settings
+Singer suggests these first. Change them anytime in Settings.
 Singer window bounds are unavailable.
 Singer window geometry is unavailable.
 Single Line
@@ -12443,6 +12493,7 @@ Socket delegates must be functions
 Socket was closed before receiving a hello message
 SocketManager can only be started once
 SocketManager requires a token
+Soft and thoughtful.
 SoftwareDecrypt: can only handle AES-128-CBC
 Sogou Explorer
 Sogou Mobile
@@ -12453,6 +12504,7 @@ Sold out
 Solomon Islands
 Some app ACL entity names could not be resolved
 Some canvases hold plans, some hold secrets. Maybe secret plans?
+Some cards update on their own. The island shows what Singer is working on, so you can keep going.
 Some files exceed the 25MB limit
 Some files unsupported
 Some of your changes were not applied. Try again in a few minutes.
@@ -12719,6 +12771,7 @@ Start test
 Start thread
 Start time
 Start typing from the shortcut
+Start voice ask
 Start with Business+
 Start with Free
 Start with Free 30-Day Trial
@@ -12829,6 +12882,7 @@ Stop screen share, waiting for content share start to resolve
 Stop screen sharing track id:
 Stop sharing
 Stop sharing your screen
+Stop talking
 Stop task?
 Stop the huddle invite sound
 Stop this task?
@@ -12889,6 +12943,7 @@ Successfully persisted state
 Successfully re-connected to Huddle
 Successfully updated effect on existing background worker device
 Sue Mara
+Suggest asks about
 Suggest edits
 Suggest improvements
 Suggest ways to improve this canvas
@@ -12896,6 +12951,7 @@ Suggested Channels
 Suggested Salesforce lists (optional)
 Suggested actions
 Suggested agents
+Suggested asks
 Suggested channels
 Suggested follow-ups
 Suggested from your recent prompts
@@ -13097,6 +13153,7 @@ Talk to Singer
 Talk to Slackbot
 Talk with Slackbot
 Talk with a teammate
+Tap and say it
 Target must be a DOM Element
 Target not in this graph mgr!
 Target ref is defined but not hydrated
@@ -14084,6 +14141,7 @@ Try different keywords or check for typos.
 Try disconnecting, then reconnecting the app to try again.
 Try huddles with more people
 Try it with Slackbot Mini
+Try it with your voice
 Try later
 Try moving closer to your Wi-Fi router or use an ethernet connection
 Try out a new tab that helps you get oriented and make sure nothing gets overlooked. Features include:
@@ -14174,6 +14232,7 @@ Type at least 3 characters to search roles
 Type at least three characters to search for a Salesforce list. Asterisk (*) and quote (
 Type can only be a string or a symbol.
 Type instead
+Type it instead
 Type to search
 TypeScript with Tags
 Typed in 
@@ -15104,6 +15163,7 @@ Want to share this in your huddle?
 Want to stay on Slack Pro?
 Want to summarize the messages you missed?
 Want to try another skill?
+Warm and steady.
 Warm regards,
 Warm reload check failed
 Warm-up round.
@@ -15195,6 +15255,7 @@ What are you working on?
 What area of the product are you sharing feedback about?
 What can AI help you automate today?
 What can I do for you today?
+What can Singer help with?
 What can speak up
 What can this app do?
 What can you help me with?
@@ -15225,6 +15286,7 @@ What is wrong?
 What is your feedback?
 What it does
 What needs my attention today?
+What needs my reply?
 What other CRM tool(s) do you use? (optional)
 What other feature would be valuable?
 What project would you like to track?
@@ -15275,6 +15337,7 @@ When your agent starts on something from the chat, or someone needs an answer fr
 Whenever you visit your Sales Tracker, call on Slackbot to jump into action, or to see what else you can do with Slack CRM.
 Where can this app be used?
 Where do you usually work with your team?
+Where is my pipeline coming from?
 Where your team is talking
 Whether it is OK to interrupt a focus transition
 Which answer do you prefer?
@@ -15446,6 +15509,7 @@ Would you also like to unpublish?
 Would you like to post the email in this channel?
 Wrap field
 Wrap text
+Wrap up my day
 Wrapper for handleOnClickActivityItem that fills in the message object
 Write a new one
 Write a project overview about # 
@@ -15634,11 +15698,13 @@ Your agent keeps what it learns about you, your projects and your people here.
 Your agent sessions
 Your anniversary
 Your answer is ready in chat.
+Your answers show up here.
 Your app and operating system versions are no longer supported. Ask your admins for help getting up to date so you can get back to Slack.
 Your app and operating system versions are no longer supported. Update to the latest versions so you can get back to Slack.
 Your approval request has been reviewed.
 Your approval request has been updated.
 Your archived items have been moved to 
+Your ask
 Your available agents
 Your browser blocked the sign-in window. Allow pop-ups for Slack and try again.
 Your browser does not support Huddles
@@ -15721,6 +15787,7 @@ Your organization has reached the limit of 1,000 excluded channels. Allow Slackb
 Your organizations
 Your personal AI agent
 Your plan for today is ready
+Your plan will be switched back to Pro and you will not be charged for Business+.
 Your preview ended. Upgrade to pick up where you left off.
 Your private conversation is ready
 Your profile
