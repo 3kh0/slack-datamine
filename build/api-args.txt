@@ -245,6 +245,7 @@ channels.prefs.get: channel_id, pref_name
 channels.prefs.set: channel_id, prefs
 chat.action: bot, payload
 chat.attachmentSuggestion: app_id, payload, service_id
+chat.delete: channel, ts
 chat.deleteBulkJoinLeave: channel_id, first_message_ts, last_message_ts
 chat.moveMessageToThread: channel, thread_ts, ts
 chat.postMessage: blocks, channel, text
