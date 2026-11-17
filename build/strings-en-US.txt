@@ -4606,8 +4606,6 @@ channel_header.0323bf6: Invite teammates
 channel_header.6b89868: Invite teammates tip
 channel_header.4d67cf8: Slack works better when you use it together.
 channel_header.24b43d5: Start with a few people you work with most.
-channel_header.8d4e9b8: View all agents & apps of this channel
-channel_header.00681e8: View all agents & apps of this channel<t1>Includes {agents}</t1>
 channel_header.e255057: View all members of this {entity}<t1>Includes {users}</t1>
 channel_header.3044650: View {memberCount, plural, =1 {# member} other {all # members}}. Includes {users}.
 channel_header.8af56de: you
@@ -4894,6 +4892,7 @@ channel_sidebar.18e03e2: Channels
 channel_sidebar.876d683: Choose what to pin…
 channel_sidebar.fb99bef: Clear out the clutter and hide {numMutedChannels} {numMutedChannels, plural, =1 {muted channel} other {muted channels}} from view. They’ll only pop up again if someone mentions you.
 channel_sidebar.247fd63: Clear selection
+channel_sidebar.af6f23d: Close workflow
 channel_sidebar.adac693: Code
 channel_sidebar.49bcd35: Code channel
 channel_sidebar.dd6947b: Code channels
@@ -5109,6 +5108,7 @@ channel_sidebar.7654001: Removed {entityLabel} {entityType} from {channelSection
 channel_sidebar.d0c625b: Removed {item} from {section}.
 channel_sidebar.71c287d: Removed {numChannels, plural, =1{conversation} other {# conversations}} from {channelSection}.
 channel_sidebar.a0a74e2: Removed {numEntities, plural, =1{entity} other {# entities}} from {channelSection}.
+channel_sidebar.b9b51f6: Renamed to {channelSection}.
 channel_sidebar.c1ad1c4: Reset section
 channel_sidebar.4a197b0: Reset section changes
 channel_sidebar.299ef4a: Reset to Defaults
@@ -5160,7 +5160,6 @@ channel_sidebar.7da90c4: Star conversation with {memberName}
 channel_sidebar.e61561a: Starred
 channel_sidebar.e0a80c8: Start a direct message
 channel_sidebar.ef85b25: Start a new message
-channel_sidebar.40d40e0: Suggested: pin {agentName}
 channel_sidebar.ad4afa4: Suggestion options
 channel_sidebar.03f749c: Teammates who aren’t on Slack yet will get your messages by email
 channel_sidebar.5f84b8c: Temporarily mute…
@@ -21964,6 +21963,7 @@ singer.a863c67: Loading messages…
 singer.2678479: Loading message…
 singer.c1c3862: Loading skills…
 singer.ac84b51: Loading task output…
+singer.06dd1ba: Loading threads…
 singer.c566964: Loading thread…
 singer.0d9b55d: Loading your day…
 singer.33ce417: Loading…
@@ -25867,6 +25867,7 @@ tabbed-channel.b0bb80d: List views
 tabbed-channel.344c46a: Loading artifacts…
 tabbed-channel.b661621: Loading file details
 tabbed-channel.e961280: Loading older huddles…
+tabbed-channel.06dd1ba: Loading threads…
 tabbed-channel.715012f: Maximum number of tabs added.
 tabbed-channel.0c77aee: Media
 tabbed-channel.5168708: Memories
@@ -26267,7 +26268,7 @@ threads.cbbebee: Continue workflow
 threads.f79e1b5: Direct message with {count} others
 threads.281f84a: Edit thread name
 threads.70c9082: File sharing is turned off in external huddles.
-threads.6c56258: Go online to load more threads.
+threads.4fc1e5b: Go online to get the latest threads.
 threads.1f273e8: Has new replies
 threads.34d8b60: Hide
 threads.a7ed2d5: Hide thread
@@ -26286,6 +26287,7 @@ threads.d83d8c3: Latest messages
 threads.f67a9fb: Learn about threads
 threads.84ef5a7: Loading more messages…
 threads.6598160: Loading more replies
+threads.06dd1ba: Loading threads…
 threads.c566964: Loading thread…
 threads.d8465ec: Locked thread
 threads.0a3ee60: Make threads easier to find. This will be visible to all participants.
@@ -26343,6 +26345,7 @@ threads.e5ad4c3: Thread names must include at least one letter or number.
 threads.bb12e8a: Threads
 threads.9fa3f02: Threads type
 threads.00f4104: Threads you’re involved in will be collected right here.
+threads.c4ceb0b: Threads, {totalUnreadReplies, plural, =0 {no new replies} =1 {# new reply} other {# new replies}}
 threads.1592c7a: Today at {time}
 threads.cef2fe0: Try Again
 threads.17a3484: Turn Off
@@ -26367,7 +26370,6 @@ threads.d3711d1: Workflow continued.
 threads.5caecd4: You don’t have any threads with VIPs
 threads.ac0cc10: Your admins have disabled file upload in this Slack Connect conversation.
 threads.732f940: Your two organizations are no longer connected.
-threads.6f0ebb5: You’re up to date
 threads.ee1bf80: has new replies
 threads.f3273b7: replied to <a>a thread</a>
 threads.b6a61f6: replied to a thread
@@ -26823,6 +26825,7 @@ trial_plan_choice.12e8686: unlimited apps
 trial_plan_choice.0f1645a: unlimited message history
 trial_slack_connect_awareness.4def890: As part of your trial, Admins can test features to customize Slack Connect for their team’s needs. <learnMoreLink>Learn more</learnMoreLink>
 trial_slack_connect_awareness.17fb08a: Bring both your teams into the same room
+trial_slack_connect_awareness.a9d3c6a: Create Slack Connect Channel
 trial_slack_connect_awareness.1a3457f: Create a Channel
 trial_slack_connect_awareness.a2b0a12: Find links to viewing channel requests, revoking invitations, and organization settings—all in one place.
 trial_slack_connect_awareness.378cbbf: Learn More
@@ -26835,12 +26838,15 @@ trial_slack_connect_awareness.351d0c4: Start a free trial to use channels with S
 trial_slack_connect_awareness.c273c43: Ta-da! Your trial’s started
 trial_slack_connect_awareness.ee58e2d: Try It Free
 trial_slack_connect_awareness.d2d54d6: Use Slack Connect for channels and loop everyone in to the conversation, no matter where they work. <learnMoreLink>Learn more</learnMoreLink>
+trial_slack_connect_awareness.dd13d22: Use Slack Connect for channels and loop everyone in to the conversation, no matter where they work. Give it a try while your team is on a trial.
 trial_slack_connect_awareness.a11cf63: With a free, {trialDuration}-day trial of a Slack’s Pro plan, you can work with external people not just one-on-one, but also as a team in channels. Give it a go — no credit card required.
 trial_slack_connect_awareness.015dbb7: With a free, {trialDuration}-day trial of a Slack’s Pro plan, you can work with external people not just one-on-one, but also as a team in channels. Give it a go.
 trial_slack_connect_awareness.126ef94: Work with entire teams outside {currentTeamName}
 trial_slack_connect_awareness.43e3d77: Work with entire teams outside {currentTeamName}. On a paid plan, you can use Slack Connect for channels — so you can loop everyone in to the conversation, no matter where they work.
 trial_slack_connect_awareness.b161484: Work with entire teams outside {currentTeamName}. Start a free trial to use channels with Slack Connect — so you can loop everyone in to the conversation, no matter where they work.
 trial_slack_connect_awareness.934ba19: Work with entire teams outside {currentTeamName}. Use Slack Connect for channels and loop everyone in to the conversation, no matter where they work.
+trial_slack_connect_awareness.5c36fa3: Work with entire teams outside {teamName}
+trial_slack_connect_awareness.9146bc1: You’re all set to start working with teams at other companies in channels. Want to do this later? Just go to Slack Connect in your sidebar to get started.
 trials.f402d1a: 1:1 external messages
 trials.d738853: AI conversation summaries
 trials.5faa154: AI file summaries
