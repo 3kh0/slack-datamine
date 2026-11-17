@@ -88,7 +88,7 @@
 ) are ignored.
 ) is not supported yet.
 ) that performed expensive computation.
-)&&(eM(!1),aK(void 0),eT(a7?
+)&&(eF(!1),a8(void 0),eD(il?
 ))),e((0,c.R3)(h)),e((0,c.p4)(h?a:void 0)),p(h?
 ). If you meant to render a collection of children, use an array instead.
 )?l.makeImage(e.slice(8),new u.Ay(t,r,n,i),o?
@@ -210,6 +210,8 @@ A stage with this name already exists.
 A status with this name already exists.
 A style must have a core reference
 A tainted cluster node XBX1
+A thumbs-down on a wiki line was answered or failed
+A thumbs-down on a wiki line was sent: a read begun before it lands nothing until its answer
 A valid channel name is required.
 A valid frequency is required
 A variable with this name already exists
@@ -758,9 +760,11 @@ Adds a workspace to the removed workspaces slice
 Adds app to channel
 Adds item to folder and shows success toast
 Adds membership values to updated flannel channels
+Adds one sentence of a page
 Adds or updates a widget into the store
 Adds or updates a widget placement into the store
 Adds or updates an existing Salesforce organization
+Adds the next page of one kind
 Adds you as an editor of this skill.
 Adjust time
 Admin DWA nudge CTA has a malformed value
@@ -874,6 +878,7 @@ All apps
 All automations
 All available fields have been added
 All canvases
+All caught up
 All caught up here.
 All changes
 All channels
@@ -887,6 +892,7 @@ All done here.
 All done with action items.
 All done!
 All done! Debug tracing disabled.
+All done. Nice work!
 All enterprise search apps enabled for everyone
 All external people must already be in at least one channel together to share this file.
 All files
@@ -1130,10 +1136,12 @@ Applying fixes
 Approval 
 Approval Work Item
 Approval desktop notification shown
+Approve Plan
 Approve a pending channel join request
 Approve the $1.1M vendor renewal in #fin-forecast-and-controls
 Approve this app for installation?
 Approve this approval work item
+Approved, go ahead.
 Apps & workflows
 Apps Slackbot can use here
 Apps and agents only
@@ -1204,6 +1212,9 @@ Art by Luis Mendo
 Artifacts in this channel can only be updated by a Channel Manager.
 As hybrid workplaces become the norm, maintaining employee satisfaction and a positive culture is more important than ever.
 Ask Agentforce for Analytics
+Ask Singer
+Ask Singer about this
+Ask Singer to fix or change some code, and its progress shows up here.
 Ask Slackbot
 Ask Slackbot a follow-up question
 Ask Slackbot a question
@@ -2108,6 +2119,7 @@ Chart caption
 Chart type
 Chat about this
 Chat and Collaboration
+Chat with Slackbot
 Chat with Slackbot AI
 Check It Out
 Check Tasks
@@ -3864,6 +3876,7 @@ Drop to upload
 Dropped workflow_mention element: trigger id with no workflow id
 Dropping the following payload because we attemped to retry it too many times:
 Drops a skill categories response that a local edit has made stale
+Drops every page the brain listed or read, for a viewer the brain no longer serves
 Drops the cached tools lists for the given MCP servers so the next read refetches them
 Dual icons on hover
 Due Date Notifications
@@ -5095,6 +5108,8 @@ Files to add
 Files to import
 Files you download from Slack to your computer will appear here.
 Files you recently viewed or modified will appear here.
+Files, links, and AI notes from huddles in this channel will show up here.
+Files, links, and AI notes from huddles will show up here.
 Files, links, and media from this conversation will show up here.
 Filled Circle
 Filled Rectangle
@@ -5907,6 +5922,7 @@ Hide muted conversations
 Hide past events
 Hide preview
 Hide profile
+Hide replies
 Hide requests
 Hide resolved
 Hide search history
@@ -5953,6 +5969,7 @@ Hold the Cone! Mini Ice Cream Cones
 Hold to speak. Release to listen. The voice button works with the shortcut off.
 Hold to talk
 Holding position.
+Holds one page read from the brain
 Home settings
 Honey Walnut Shrimp
 Hong Kong
@@ -6006,6 +6023,7 @@ Huddle ended. Cleaning up event handlers and connection references.
 Huddle feedback section
 Huddle files
 Huddle found - triggering sign out speed bump
+Huddle happening
 Huddle has
 Huddle in
 Huddle invite
@@ -6581,6 +6599,7 @@ Joining from outside your organization
 Joining from your workspace
 Joining soon
 Joining the channel
+Joining the huddle
 Joseph Alamo
 Journey Lab
 Jump after content
@@ -6625,6 +6644,7 @@ Keep category
 Keep chatting
 Keep editing
 Keep holding to play Astro Singer, or press Shift+Space.
+Keep in island
 Keep it simple, pleasant, and productive
 Keep receiving your recap?
 Keep recording
@@ -6740,6 +6760,7 @@ Lance Schuler
 Landscape mode
 Language & region
 Lao People
+Large card
 Last 15 days
 Last 24 hours
 Last 3 days
@@ -6829,6 +6850,7 @@ Leaves the workspace
 Leaving huddle less than 30 seconds after joining.
 Left review comments
 Left skin tone modifier
+Left the huddle
 Legacy workflows are no longer available.
 Legal Department
 Legal contracts
@@ -7055,6 +7077,7 @@ Long absence detected on cold boot, navigating to Today
 Long absence detected on focus, navigating to Today
 Long absence detected, navigating to Today
 Long description:
+Look Further Back
 Look at you go.
 Look up Salesforce Task details, again for any Task marked stale during the lookup
 Look up my current sidebar display rules and suggest ways I could customize my Focused sidebar view.
@@ -7630,8 +7653,10 @@ Mark channel digest as read. Also marks daily digest if all channel digests are 
 Mark complete
 Mark daily digest as read
 Mark digest as unread
+Mark done
 Mark incomplete
 Mark many conversations (locally and through API)
+Mark not done
 Mark read
 Mark record read to unhighlight it
 Mark selected as read
@@ -7648,15 +7673,21 @@ Markdown paste-as-blocks conversion failed; falling back to default paste
 Markdown preview
 Marked all unread messages and notifications as read.
 Marked as important
+Marked as read
 Marked as read.
+Marked done
+Marked not done
 Marked right
+Marked unread
 Marked wrong
 Marketing Assets
 Marketing assets
 Marks a SlackCRM onboarding zero state card as complete
 Marks one agent sessions fetch as started (true) or done (false)
+Marks that the server
 Marks the SlackCRM onboarding splash as seen
 Marks the current pending external auth to skip auto-opening the manage modal
+Marks the lines of a fact the viewer flagged, or leaves them to a fresh read on Undo
 Marks the org
 Marks these conversations and threads through the updates in this catch-up, including older unread messages. Newer messages stay unread.
 Marks workspace as retrying boot
@@ -8080,6 +8111,7 @@ Move to To-dos
 Move to a channel
 Move to a private channel
 Move to a private channel?
+Move to card stack
 Move to folder
 Move to new section
 Move to next display
@@ -8154,6 +8186,7 @@ NOT team
 NUX (dev)
 Nailed it.
 Name Recording
+Name copied
 Name display
 Name hidden
 Name is required.
@@ -8357,6 +8390,7 @@ No Thanks
 No VFConfig provided during setupDevice
 No VFConfig provided, choosing the model from hardware alone
 No VIPs have been added
+No access
 No access to AI features
 No accounts found
 No action items
@@ -8424,6 +8458,7 @@ No channel id given
 No channels found
 No client store; sessions will not end on sleep or lock
 No code channels yet
+No code tasks yet
 No coding agent is available in this workspace. Your task is saved in the input.
 No connected apps
 No connection
@@ -8481,6 +8516,7 @@ No focused team, skipping
 No focused workspace; leaving shortcuts as-is
 No group overrides available
 No hardware concurrency
+No huddle files yet
 No huddle id found
 No imsgs in response!
 No input parameter with dynamic options validation found
@@ -8655,6 +8691,7 @@ No to-dos at the moment.
 No to-dos yet. Type one above and press Return.
 No tools Slackbot can use in channels.
 No tools available for this server.
+No topic yet
 No unread activity in the items loaded so far.
 No unread conversations in this view.
 No unread messages
@@ -8799,15 +8836,12 @@ Note to Anne Bike on the EOL auto-booking fix is drafted; asking Janine Cashin w
 Note to Grant Kolling drafted with the resolution line; Dan Hyvl sends the trader list.
 Note to Megan drafted; chasing Chris Foster, Randy Gay and Mike Grigsby for the cut dates and volumes.
 Note: this setting is for this computer only. You may need to restart Slack to receive app updates.
-Notes and files shared in your huddles will show up here.
 Notes by Gemini
 Notes go to a new Slack canvas.
 Notes or voiceover script for this slide
 Notes that RTM changed a session thread root while an agent sessions fetch was in flight
 Nothing found
 Nothing found. Filtering from recent notifications.
-Nothing from your huddles in this channel yet
-Nothing from your huddles yet
 Nothing has happened here yet
 Nothing here at the moment
 Nothing here needs you
@@ -8818,9 +8852,11 @@ Nothing is being recorded. Your mic and computer audio are off until you resume.
 Nothing left for you here.
 Nothing left here.
 Nothing left in Activity.
+Nothing matches these filters
 Nothing moves until you do.
 Nothing needs you
 Nothing new
+Nothing new needs you right now.
 Nothing new right now.
 Nothing new to summarize
 Nothing new. Carry on.
@@ -9042,6 +9078,7 @@ Open Greeting
 Open Help
 Open Huddle in new window
 Open Journey Lab in the side pane to browse a Megaphone journey
+Open Later
 Open Link in Browser
 Open Meetings in split view
 Open Mini
@@ -9084,6 +9121,7 @@ Open a record to view details and conversations, right in Slack
 Open a sidebar thread row
 Open a window to pick a OneDrive file, either in a channel or composer
 Open admin page
+Open as chat
 Open calendar
 Open calendar prefs dialog
 Open canvas
@@ -9106,6 +9144,7 @@ Open formatting menu
 Open full table
 Open greeting
 Open hard-coded express template modal
+Open huddle
 Open in GitHub
 Open in Google Drive (opens in a new tab)
 Open in Home
@@ -9130,6 +9169,7 @@ Open in floating window
 Open in full view
 Open in home
 Open in main view
+Open in new card
 Open in new tab
 Open in new window
 Open in secondary view
@@ -9184,6 +9224,7 @@ Open the manual deny request modal from Slackbot message
 Open the modal to set solution template permissions
 Open this link in your browser?
 Open thread
+Open to Edit
 Open to-do item
 Open transcript
 Open trial checkout or plans page if user can purchase
@@ -9384,6 +9425,7 @@ Pass at least one tensor to concat
 Pass at least one tensor to tf.stack
 Passed client side effects into a non-client store. This is a programming error and the app will not work properly.
 Past events
+Past month
 Paste Menu Handler
 Paste a Google Drive link
 Paste a link
@@ -9820,6 +9862,7 @@ Productivity and collaboration tools
 Professional Services
 Professional community or network
 Profile (name hidden)
+Profile not available
 Profile photo
 Profile photos must be GIFs, JPGs or PNGs.
 Project Management
@@ -9901,6 +9944,8 @@ Put AI to work, anywhere in Slack
 Put DMs first
 Put agents to work in Slack
 Put app suggested prompt in the composer
+Put away
+Put away all
 Put back deferred clears cancelled by a re-add whose save failed
 Put my unread DMs at the top of my sidebar
 Put repetitive work on autopilot
@@ -10177,6 +10222,7 @@ Recording your mic and computer audio.
 Recording your microphone. Computer audio is unavailable.
 Records a mounted remote camera video element and its rendered width
 Records created
+Records that a page could not be read from the brain
 Records that the next page of the brain
 Records the Slackbot thread a tab showed when it was left; undefined forgets it
 Records the calendar-first onboarding kickoff thread for this session
@@ -10283,6 +10329,7 @@ Remind Me
 Remind Me Later
 Remind me
 Remind me about this
+Remind me tomorrow
 Reminder completed.
 Reminder due
 Reminder from a task list
@@ -10450,7 +10497,6 @@ Removed from your saved items
 Removed possible XSS from clipboard data
 Removes a custom skill category, moving its skills to another category or none
 Removes a file channel tab
-Removes a piece
 Removes a remote camera video element that unmounted
 Removes a sidebar entity from a channel section
 Removes a workspace from the list of previously-known workspaces
@@ -10521,6 +10567,7 @@ Replaced the attached document text.
 Replacing a stale (already shut down) huddlesSdk in the connection manager
 Replay a number of specified messages (via keyboard shortcut) for a screen reader user
 Replays persisted API calls after socket connection
+Replied in thread
 Replies have been turned off for this thread by your admins.
 Replies have been turned off for this thread.
 Reply Anyway
@@ -10551,6 +10598,7 @@ Republic of the Congo
 Request Access
 Request Access to Today
 Request Calendar Access
+Request Changes
 Request Comment Access
 Request Customer Management
 Request Edit Access
@@ -11064,6 +11112,7 @@ Search DMs
 Search Debug Results
 Search Google Workspace Directory
 Search MCP servers
+Search More Widely
 Search SalesForce objects by query
 Search Slackbot conversations
 Search a channel
@@ -11256,6 +11305,7 @@ See how Slackbot can research accounts, prep for meetings, and more.
 See how Slackbot is set up for this conversation.
 See how they work
 See how video clips work
+See in Slackbot
 See in Upcoming
 See less
 See more
@@ -12184,6 +12234,7 @@ Slack file suggestions collapsed
 Slack huddles
 Slack interface with names of two different companies in one channel
 Slack is best with 3+ people
+Slack is busy right now. Try again in a moment.
 Slack is committed to security and privacy
 Slack is offline
 Slack is trying to connect.
@@ -12192,6 +12243,7 @@ Slack notifications
 Slack now automatically sorts your results to surface the most relevant files and messages every time you search
 Slack request to getSlackObjects timed out
 Slack setup is complete!
+Slack signed you out. Sign back in, then try again.
 Slack template
 Slack themes
 Slack tools for hybrid work
@@ -12522,6 +12574,7 @@ Start a Huddle
 Start a Slackbot voice call, confirming first if a huddle or another call is live
 Start a call
 Start a call in this channel shortcut - starts platform call, but asks first
+Start a code task
 Start a conversation
 Start a conversation in a DM or channel
 Start a conversation with an agent
@@ -12612,6 +12665,7 @@ Starting timers for metrics collection
 Starting unconstrained content share with chime API
 Starts a new Slackbot conversation
 Starts from a button
+Starts reading one page from the brain
 Starts reading the first page of the brain
 Starts reading the next page of the brain
 Starts when a channel is created
@@ -12858,6 +12912,7 @@ Switch to text output?
 Switch workspace
 Switch workspace, other workspaces have new messages
 Switched from previous VideoTransformDevice
+Switched to Ask Singer
 Switched to choosing an existing account
 Switched to choosing an existing contact
 Switched to creating a new account
@@ -13710,6 +13765,7 @@ Tools loaded.
 Tools reloaded
 Top channels ranking
 Top left
+Top result
 Top right
 Topic tracker
 Tori Kuykendall
@@ -14007,6 +14063,7 @@ Turns a built-in skill category on or off
 Tw Cen MT
 Tw Cen MT Condensed Extra Bold
 Two days before
+Two wiki pages were split: the open one reads again, the other held copy goes, the list walks again
 Two-chip color area sensor
 Two-factor authentication
 Type a keyword
@@ -14407,6 +14464,7 @@ Update your status
 Updated Socket Manager credentials
 Updated alerts and metrics will be dispatched to redux
 Updated classics
+Updated just now
 Updated local video from policy without renegotiation
 Updates MCP server connection status for one or more servers
 Updates a channel tab
@@ -14790,6 +14848,7 @@ View in Slack Marketplace
 View in browser
 View in calendar
 View in channel
+View in conversation
 View in full screen
 View in slack marketplace
 View is not available in this environment.
@@ -14950,6 +15009,7 @@ Warning: An unhandled error was caught from submitForm()
 Warning: react-fast-compare does not handle circular references.
 Watch Slack CRM in action
 Watch a video of Slack CRM in action
+Ways to ask again
 Ways to start
 We already have a socket
 We cannot automatically determine where this channel should be created based on the external organizations.
@@ -15121,6 +15181,7 @@ Which of the following did you experience? Select all that apply.
 While we work on improvements, here is some information that can help.
 While you were quiet
 White fluorescent (WW 3200 - 3700K)
+Who answers
 Who are my admins?
 Who buys it
 Who can copy this workflow?
