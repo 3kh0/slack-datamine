@@ -11723,8 +11723,6 @@ huddles-readiness-checker.d7cd56f: Pass
 huddles-readiness-checker.96f608c: Pending
 huddles-readiness-checker.d016004: Permission denied
 huddles-readiness-checker.d77000e: Resolution not supported
-huddles-readiness-checker.e2c342b: Run an audio, video and screensharing test.
-huddles-readiness-checker.6ecaed9: Run test
 huddles-readiness-checker.73989d9: Running
 huddles-readiness-checker.7c23b0d: Speaker
 huddles-readiness-checker.bae7d5b: Status
@@ -18414,6 +18412,7 @@ quip_collab.e3bf62b: Trash
 quip_collab.529541b: Tue
 quip_collab.42e43b6: Tuesday
 quip_collab.9cad78e: Type anything…
+quip_collab.fd1ef2a: Type cannot be converted to card view
 quip_collab.9718f75: Type {trigger} to {insert}
 quip_collab.0e2d9b0: URL
 quip_collab.27dbd84: URL Input
@@ -19290,6 +19289,8 @@ search.6218311: 3 characters required
 search.2586672: 6+ months old
 search.7ff2a8e: <b>Connected!</b> Results from connected apps will now start appearing in search. Manage or connect more apps here, anytime.
 search.ef4ef01: <b>Connected!</b> Results from connected apps will now start appearing in search. Manage them here, any time.
+search.136972b: <b>Now searching with Slackbot</b> — ask a full question in your own words
+search.25279b7: <b>Now searching with Slackbot</b> — great for natural language searches like this one
 search.96c5217: <slackbotLabel>Ask Slackbot</slackbotLabel> <description>in your own words to search differently across more sources.</description>
 search.2a9c572: <strong>{count}</strong> results found
 search.dff3386: A DM with someone
@@ -19369,7 +19370,6 @@ search.06373ee: Ask Slackbot about {topic}
 search.fc52535: Ask Slackbot:
 search.9b43c38: Ask Slackbot: {query}
 search.ea23b05: Ask Slackbot: {question}
-search.eda5d05: Ask Slackbot…
 search.89dd6c5: Ask a different question
 search.027d408: Ask a question like “What did I accomplish this week?”
 search.cac5d74: Assigned to you
@@ -19932,19 +19932,15 @@ search.a9d1682: Scroll to AI answer
 search.0dfd9b0: Scroll to Slackbot’s answer
 search.bce0641: Search
 search.4bbd163: Search DMs
-search.97e32d1: Search DMs at {teamName}
 search.8a4c571: Search across people, channels, files, workflows, and more
 search.9313854: Search actions
 search.2615a44: Search all files
 search.9c7483f: Search channels
-search.fa3f2bf: Search channels at {teamName}
 search.9ffb52f: Search connectors
 search.7087888: Search conversations
 search.0e33f42: Search details: 
-search.4a63147: Search external connections
 search.ee29173: Search far and wide
 search.ec88257: Search files
-search.5e49181: Search files at {teamName}
 search.2245afe: Search for anything
 search.fae79ee: Search for canvases
 search.deb61df: Search for everything in one place. Connect all your work tools so the information you need is just one Slack search away.
@@ -19958,22 +19954,17 @@ search.d8f281a: Search in conversation
 search.a480b4a: Search in the group message with you, {members}
 search.e20fb5d: Search in the {channel} channel
 search.373f96c: Search isn’t available in this view. Use Filters to browse templates.
-search.abea65a: Search messages
-search.ea066e4: Search messages at {teamName}
 search.a5ab82b: Search messages in this channel ({shortcut})
 search.3b06bee: Search messages in this channel {shortcut}
 search.033c327: Search now shows your unreads, drafts and recent places, with search history just a click away.
 search.1f3bdb2: Search or Ask Slackbot
 search.22628a6: Search organizations
 search.b565ea6: Search people
-search.f2b67bc: Search people at {teamName}
 search.2495e62: Search records
 search.0144dae: Search results
 search.0363909: Search suggestions
 search.c13a61a: Search with Slackbot like asking a teammate — the classic who, what, where, or when will do. Just search the way you talk.
 search.021b95d: Search without filters
-search.6fa3f82: Search workflows
-search.482493e: Search workflows at {teamName}
 search.6e913a6: Search workspaces
 search.1b4a285: Search {channelName}
 search.775f7ad: Search {keywords} {channelName}
@@ -20152,7 +20143,6 @@ search.52eac3f: Type a keyword
 search.0708f95: Type a keyword or <strong>from: @name</strong> to find that message you’re looking for.
 search.5b40f0c: Type at least three characters to search for a Salesforce record. Asterisk (*) and quote (") are ignored.
 search.78b4e85: Type of feedback
-search.7edc389: Type the name of a Salesforce record
 search.39fc721: Undo
 search.b05d96b: Unknown file
 search.09bd824: Unlimited AI answers are available on our Business+ plan.
