@@ -461,7 +461,6 @@ activity.14c1afd: Are you sure you want to delete "{viewName}"?
 activity.4d4ca13: Are you sure you want to delete {viewName}?
 activity.acefb96: Are you sure you want to hide "{viewName}"?
 activity.d2fa3e3: Are you sure you want to hide {viewName}?
-activity.106df22: Ask {agentName}
 activity.b11cb0e: Assigned to you: {listName}
 activity.ff10b51: Automatically added to channel
 activity.c51b7ce: Bulk select
@@ -487,7 +486,6 @@ activity.1f5a1ab: Complete
 activity.1798b3b: Completed
 activity.ed0aa87: Connect your {host} account to see its pull requests
 activity.8cc335f: Conversation actions
-activity.ab26371: Convert to draft
 activity.af74f7c: Copy
 activity.d4dc4ab: Copy huddle link
 activity.2f84eea: Copy link
@@ -633,6 +631,7 @@ activity.5a20763: Next week
 activity.18962d5: No active agent sessions
 activity.e915e03: No agent sessions match these filters
 activity.030700f: No open pull requests of yours
+activity.262f940: No pull requests match your search
 activity.6d745b3: No thanks
 activity.fed1f5c: Nothing found
 activity.83bd4f4: Nothing waiting on your review
@@ -1883,7 +1882,6 @@ app_details.1d06648: {appName} is installed on {teamName}
 app_details.2a4c7f0: ‘{appName}’ will be able to do
 app_details.96cb78d: ‘{appName}’ will be able to view
 app_dialog.b16c7ac: (optional)
-app_dialog.0997bad: Header Icon
 app_dialog.2dacf65: Submit
 app_dialog.ab90d9d: This field is required.
 app_dialog.26dc55d: We had some trouble connecting. <a>Try again?</a>
@@ -2090,7 +2088,6 @@ assistant.da8bf9a: AI is used to generate responses, so some information may be 
 assistant.9c9490d: AI notes were returned quickly
 assistant.81a08d0: AI permissions
 assistant.9042248: AI suggestions
-assistant.dba7d2b: AI thread summary: {summaryTitle}
 assistant.8804ce6: AI-generated answers may be inaccurate.
 assistant.03dddf5: Accurate information
 assistant.834f111: Action items were helpful and assigned correctly
@@ -2172,7 +2169,6 @@ assistant.596b7ba: Couldn’t save changes. Please try again.
 assistant.c141a6b: Couldn’t save that memory. Please try again.
 assistant.9df2f6c: Couldn’t summarize channel
 assistant.b2618ed: Couldn’t summarize last 7 days
-assistant.8cf05ec: Couldn’t summarize these replies
 assistant.dee1949: Couldn’t summarize thread
 assistant.649d30e: Couldn’t summarize unreads
 assistant.0a98af8: Couldn’t update that setting. Please try again.
@@ -2196,7 +2192,6 @@ assistant.d4cbe32: Didn’t receive a summary
 assistant.f79e1b5: Direct message with {count} others
 assistant.4827ea2: Discover
 assistant.70afe9e: Dismiss
-assistant.d1fe7b6: Dismiss summary
 assistant.3ce078e: Doing AI magic…
 assistant.e9b450d: Done
 assistant.d4bf577: Don’t Mute
@@ -2235,7 +2230,6 @@ assistant.2b89f01: Generating answer…
 assistant.544db59: Generating your recap
 assistant.d887e24: Generative AI is constantly improving
 assistant.c1a55ff: Get a daily briefing
-assistant.3737292: Get caught up
 assistant.ec6a430: Get caught up anytime
 assistant.a30a142: Get started with Slackbot
 assistant.fccefe7: Get the AI scoop on this channel
@@ -2293,7 +2287,6 @@ assistant.6734257: Join channel
 assistant.00e0758: Joined {channelName}
 assistant.a3601c1: Just a bit more digging… the summary is on its way!
 assistant.b427703: Keep receiving your recap?
-assistant.8d4a440: Key updates
 assistant.df833fe: Last 7 days
 assistant.8417185: Last 7 days summary not available
 assistant.69d504e: Last message {ago}
@@ -2541,7 +2534,6 @@ assistant.be33284: Summarizing {dateRange} in {channelName}
 assistant.eb3b730: Summarizing…
 assistant.12b71c3: Summary
 assistant.fec7d4d: Summary not available
-assistant.cedb562: Summary ready
 assistant.5a822cf: Summary took too long
 assistant.5621678: Summary was returned quickly
 assistant.3e44c92: Switch
@@ -5453,6 +5445,7 @@ channels.f9b8d9e: {channelName}
 chat_commands.aa6f937: remind
 checklist_block.56a2285: Saving…
 checklist_block.25911d4: Show more
+checklist_block.05a9285: {completed, plural, one {# of {total} completed} other {# of {total} completed}}
 checkout_abandonment.202c92a: Looks like you started upgrading to a more powerful paid plan, but didn’t make it all the way through. <a>Finish checkout</a>
 checkout_v2.7e5111d: By redeeming this offer, you agree that these offer terms form part of and modify Slack’s <mainServicesLink>Customer Terms of Service</mainServicesLink> (or the terms of your written agreement regarding your use of Slack’s services) (your “Agreement”) entered into between you and the Slack entity identified in the Agreement and that, after the Discount Period, Slack’s then-current standard pricing set forth on Slack’s <pricingPageLink>Pricing Page</pricingPageLink> will apply to the remainder of your plan and to any plan renewals. Please see the terms of your Agreement for information on how to cancel or downgrade your paid subscription prior to any such renewal.
 checkout_v2.453fd5f: By redeeming this offer, you agree that these offer terms form part of and modify Slack’s <mainServicesLink>Customer Terms of Service</mainServicesLink> (or the terms of your written agreement regarding your use of Slack’s services) (your “Agreement”) entered into between you and the Slack entity identified in the Agreement. You further agree that, after the Discount Period, you will be subject to the Slack Business+ standard pricing that is current as of the date the Discount Period ends, as set forth on Slack’s <pricingPageLink>Pricing Page</pricingPageLink>, including all or part of any plan renewals. For clarity, after the Discount Period, if you continue with the Slack Business+ plan at the conclusion of the Discount Period, you will be charged at the standard rate for the Slack Business+ plan you have selected unless and until you cancel your subscription. If you redeem this offer and then cancel or downgrade your paid Slack Business+ plan at any time during the Discount Period, this offer will no longer be available to you.
@@ -6164,6 +6157,7 @@ code-review-comment-composer.76af01d: Your GitHub account doesn’t have permiss
 code-review-comment-composer.90e6597: Your pending review is on an older commit. Submit or discard it on GitHub first.
 code-review-comment-composer.f71026f: Your review changed on GitHub. Reload the Code tab and try again.
 code-review-merge-button.646e5ca: Add to Merge Queue
+code-review-merge-button.751910f: Auto-merge is on, but GitHub hasn’t added this to the merge queue yet.
 code-review-merge-button.304585f: Connect your GitHub account to merge this pull request.
 code-review-merge-button.25ef135: Enable Auto-Merge
 code-review-merge-button.94556cd: GitHub can’t merge this pull request yet. Check it on GitHub.
@@ -6213,6 +6207,7 @@ code-tab.d34ffd3: Add a reaction
 code-tab.cf05eca: Add reaction
 code-tab.85174b7: All changes
 code-tab.41b81eb: Approved
+code-tab.e1e6574: Auto-merge on
 code-tab.77dfd21: Cancel
 code-tab.fe25abc: Changed files
 code-tab.9be1668: Changes requested
@@ -9251,11 +9246,8 @@ file.a532988: Add as tab
 file.3595584: Add to an existing channel
 file.bfad960: Add to folder
 file.03c8413: Add to saved
-file.5b3a24f: Add to saved items
 file.a39dd6d: Add to section
-file.e2c4032: Add to starred
 file.140b367: Add to-do
-file.9420637: Add {listName} to starred
 file.263194b: Added <b>{fileName}</b> as a <link>tab</link>
 file.9e7cd80: Adding <b>{fileName}</b> as a <link>tab</link>…
 file.310efbc: Ask Slackbot
@@ -9355,6 +9347,7 @@ file.50f9428: Previous
 file.5b221e9: Print
 file.800a8aa: Print…
 file.a37ea77: Profile options
+file.218a6e9: Reconnect your {providerName} account, then try again.
 file.fe31337: Record options
 file.0a5e2c8: Refresh failed.
 file.96dd5d5: Refresh file…
@@ -9369,7 +9362,6 @@ file.3503818: Remove from Saved
 file.ae9e5f6: Remove from bookmarks
 file.893e7e5: Remove from huddle
 file.f11bfec: Remove from recently viewed
-file.f80997e: Remove from saved items
 file.454d1ae: Remove list
 file.12605eb: Remove template
 file.3be626d: Remove to-do
@@ -9377,6 +9369,7 @@ file.a7cf7b2: Replace
 file.c551b66: Report to Slack
 file.de55cda: Restore default width
 file.58fabfa: Sample
+file.ff74d68: Save Anyway
 file.5f440c6: Save as {gdriveFileLabel}?
 file.d882158: Save for later
 file.2fce269: See original
@@ -9399,9 +9392,6 @@ file.f1ec2b1: Show in Finder
 file.062d3be: Transcript processing {loadingSpinner}
 file.a4d0af5: Transcription failed. Try again
 file.5fe0d1d: Translate file summary
-file.d921f0b: Unstar canvas
-file.7040610: Unstar list
-file.d22617e: Unstar {listName}
 file.c170aa3: Updated {time}
 file.dd092fe: View Raw
 file.acd24e8: View canvas details
@@ -12458,11 +12448,9 @@ lists.a1abea9: Add to Template
 lists.bfad960: Add to folder
 lists.d1c40f9: Add to list…
 lists.03c8413: Add to saved
-lists.e2c4032: Add to starred
 lists.140b367: Add to-do
 lists.56f1c8f: Add view
 lists.2bdcd4f: Add workflows to create briefs, assemble reports, intake requests, and more.
-lists.ac4cb37: Added {fileName} to Starred. <r1>View</r1>
 lists.deda57c: Adding a new item will archive the oldest item in the list.
 lists.79ba5e1: After
 lists.7d74063: After…
@@ -12560,7 +12548,6 @@ lists.04f4379: Collaboratively manage projects, prioritize issues, organize requ
 lists.84eb913: Collect responses in a form
 lists.1d0c830: Color
 lists.fce06e2: Comments
-lists.b0678b9: Comments on {recordName}
 lists.c07bfa8: Comments only
 lists.ea96354: Compare Plans
 lists.1f5a1ab: Complete
@@ -12963,14 +12950,12 @@ lists.3503818: Remove from Saved
 lists.53fa8bf: Remove from featured
 lists.b5acee9: Remove from later
 lists.f11bfec: Remove from recently viewed
-lists.93e94f7: Remove from starred
 lists.61af6d7: Remove group by
 lists.8d48d1f: Remove link
 lists.5f56fdb: Remove message link
 lists.0f1d1ca: Remove task tracking fields
 lists.693bac8: Remove task tracking fields?
 lists.3be626d: Remove to-do
-lists.bd5d67d: Removed {fileName} from Starred.
 lists.12c60b4: Removes
 lists.b633aa5: Rename view
 lists.7f16c8d: Reply in thread
@@ -13155,7 +13140,6 @@ lists.c13bbfb: Unknown Layout
 lists.3048dd9: Unknown user
 lists.172fdb1: Unnamed column
 lists.f62337c: Unpin this view
-lists.7040610: Unstar list
 lists.621521f: Untitled
 lists.8954a5c: Untitled item
 lists.f9a19af: Untitled item (Archived)
@@ -16226,6 +16210,7 @@ notification_banner.15be1ae: Get a {discountPercent}% discount on a paid plan
 notification_banner.1c5b768: Minimize
 notification_banner.b1e5359: Not Now
 notification_banner.c462b3b: See Upgrade Options
+notification_bar.b03ff7c: Slack is trying to connect.
 notifications.70afe9e: Dismiss
 notifications.016e1d5: Manager Approval
 notifications.56a75db: Nice, notifications are enabled!
@@ -19229,7 +19214,6 @@ search.6346544: (formerly {names})
 search.141e450: +{filtersAppliedCount, plural, =1 {# filter} other {# filters}}
 search.5a0d910: , Remove from recently viewed
 search.44c897a: , Remove from {collection}
-search.2c77029: , Unstar
 search.8c9111d: , deactivated
 search.a7d298f: , opens in a new tab
 search.94aa291: , {fileType}
@@ -19716,6 +19700,7 @@ search.10d98b5: New List
 search.bceeb45: New hire
 search.f10051f: New section
 search.c195083: New surface
+search.79e5467: Newer result
 search.d044282: Newest
 search.96836a4: Newest channel
 search.bc98198: Next
@@ -19749,6 +19734,7 @@ search.c67a89d: Nothing turned up
 search.3c5bf77: November
 search.72a83ad: Objects
 search.87206ae: October
+search.c4ec95f: Older result
 search.c47bb88: Oldest
 search.dc095d6: Oldest channel
 search.e0049a6: On
@@ -20016,7 +20002,6 @@ search.7235700: Sorted by
 search.2eb56be: Sources
 search.e8a0fe9: Spreadsheets
 search.85a7de6: Star
-search.e61561a: Starred
 search.952f375: Start
 search.dc3c6d2: Start Over
 search.e0a80c8: Start a direct message
@@ -20356,7 +20341,6 @@ setup_page.74f1d29: <b>Get a shareable invite link</b> <strong>instead</strong>
 setup_page.9f7fd9e: <b>How to Search in Slack</b> Access the right information instantly
 setup_page.1bb5074: <b>Preview of Slack CRM</b>
 setup_page.1ea9ac3: <b>Preview of your {name} template</b>
-setup_page.ac0df8b: <b>Using Slack</b> Learn how Slack works from top to bottom
 setup_page.530e77a: <strong>You can also </strong> <b>use an invite link</b>
 setup_page.20f1c35: <strong>{channelName}</strong> is where you’ll work with {invitingMember} and others from <strong>{invitingTeam}</strong>.
 setup_page.a16b881: <strong>{channelName}</strong> is where you’ll work with {invitingMember} and others from <strong>{invitingTeam}</strong>. You can post and reply to messages, but you’ll need to get approval before you can add any other people to the channel.
@@ -22752,7 +22736,6 @@ slack-docs.b427fb7: Add a title to the {label} placeholder to distinctly identif
 slack-docs.030012e: Add form responses to <2>a new canvas</2>
 slack-docs.03c8413: Add to saved
 slack-docs.9c3f1ad: Add to skill catalog
-slack-docs.e2c4032: Add to starred
 slack-docs.140b367: Add to-do
 slack-docs.725347a: Add variables to automate your template
 slack-docs.891e9d6: Agenda
@@ -22946,7 +22929,6 @@ slack-docs.f7209dd: To customize the form, build it in <span>Workflow Builder</s
 slack-docs.cef2fe0: Try Again
 slack-docs.8469938: Try It
 slack-docs.d86bca7: Try different keywords or check for typos.
-slack-docs.d921f0b: Unstar canvas
 slack-docs.fb91e24: Update
 slack-docs.2379761: Use Template
 slack-docs.15e93c3: Use skill
@@ -24116,6 +24098,7 @@ slackbot-ai.9248d45: Sign in to continue to Slack
 slackbot-ai.e09212c: Skills
 slackbot-ai.3da4745: Skip
 slackbot-ai.6fc0960: Skip for now
+slackbot-ai.b03ff7c: Slack is trying to connect.
 slackbot-ai.41b9655: Slack wants to access your Google Account
 slackbot-ai.9fbb94b: Slackbot
 slackbot-ai.854109a: Slackbot can only do {totalRuns} task runs per day. Consider adjusting how many times your tasks run.
@@ -24436,6 +24419,7 @@ slackbot-home.8dc7b2b: Daily briefing
 slackbot-home.060597f: Describe how you want your sidebar to look
 slackbot-home.70afe9e: Dismiss
 slackbot-home.7d38d45: Dismiss connector suggestions
+slackbot-home.efcfea4: Dismiss todo list
 slackbot-home.03bedbf: Draft emails in your own voice
 slackbot-home.c250d77: Event Details
 slackbot-home.aab139f: Features and shortcuts worth knowing
@@ -24516,6 +24500,7 @@ slackbot-home.dce6cd8: You can view your chat history with Slackbot anytime.
 slackbot-home.ad4e269: You have {unreadCount, plural, =1 {# unread} other {# unreads}} today
 slackbot-home.ad043f3: Your AI teammate has a new home
 slackbot-home.ec5a54d: Your Slackbot history lives here
+slackbot-home.c8dc8de: Your Slackbot todo list
 slackbot-home.2ea4229: Your day, summarized in seconds
 slackbot-home.8b4ca3d: Your sidebar is tucked away while you work side by side. Bring it back anytime with this button.
 slackbot-home.27e90df: at
@@ -24671,6 +24656,7 @@ slackbot_nux_carousel.09ca55c: Share
 slackbot_nux_carousel.b0d2ef9: Step {step} of {total}
 slackbot_nux_carousel.042c862: Try again
 slackbot_nux_carousel.7b0d81e: Yep
+slackbot_nux_carousel.c8dc8de: Your Slackbot todo list
 slackbot_nux_carousel.490528f: there
 slackbotpagesidebarlink.2b166e1: Meet Slackbot
 slackforce.d35fd9d: (no content)
@@ -26443,9 +26429,11 @@ threads.0162991: Choose this if you’d like your reply to post in the channel, 
 threads.2028d6b: Choose this if you’d like your reply to post in the main conversation, too
 threads.0906f92: Close search
 threads.cbbebee: Continue workflow
+threads.7e9d089: Couldn’t load thread
 threads.f79e1b5: Direct message with {count} others
 threads.281f84a: Edit thread name
 threads.70c9082: File sharing is turned off in external huddles.
+threads.2167778: Find in thread
 threads.4fc1e5b: Go online to get the latest threads.
 threads.1f273e8: Has new replies
 threads.34d8b60: Hide
@@ -26464,6 +26452,7 @@ threads.d83d8c3: Latest messages
 threads.f67a9fb: Learn about threads
 threads.84ef5a7: Loading more messages…
 threads.6598160: Loading more replies
+threads.433e72b: Loading replies…
 threads.06dd1ba: Loading threads…
 threads.c566964: Loading thread…
 threads.d8465ec: Locked thread
@@ -26472,8 +26461,10 @@ threads.5339af6: Members will be able to reply and react
 threads.ebdc3ae: Message Slackbot
 threads.8d53e1f: Messages, replies, and reactions will be removed
 threads.6403f2b: New
+threads.79e5467: Newer result
 threads.b993b0c: No results
 threads.34c95d1: No unread messages
+threads.c4ec95f: Older result
 threads.2f7d13c: Only selected team members can post in this thread.
 threads.68eedc7: Open in channel
 threads.825450c: Organize my sidebar — I’m in {count} channels
@@ -26537,6 +26528,7 @@ threads.f120ba6: VIP Threads
 threads.53fb218: View comments
 threads.f8a3b35: View last reply {time_ago}
 threads.39eb5cd: View thread
+threads.6779c00: Viewing thread in {channel}
 threads.cbd3b34: When you reply to a conversation with a VIP, you’ll see the thread here.
 threads.c49a07d: When you turn replies off, new messages or emoji reactions can’t be added to the thread. You can turn replies back on at any time.
 threads.dd0b989: When you turn replies on, new messages or emoji reactions can be added to the thread. You can turn replies off at any time.
@@ -26554,6 +26546,7 @@ threads.8af56de: you
 threads.f2ef5af: {count, plural, =1 {# comment} other {# comments}}
 threads.45d5eeb: {count, plural, =1 {# reply} other {# replies}}
 threads.7e20641: {current} of {total}
+threads.e5ab72f: {draftScheduledDate} at {draftScheduledTime}
 threads.cb2812d: {hours}h
 threads.3aa01e2: {numberOfScheduledDraftsInDestination} scheduled
 threads.112c552: {numberOfScheduledDraftsInDestination} scheduled & 1 draft
