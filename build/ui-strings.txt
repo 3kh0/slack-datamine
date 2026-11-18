@@ -88,7 +88,7 @@
 ) are ignored.
 ) is not supported yet.
 ) that performed expensive computation.
-)&&(eO(!1),aB(void 0),eW(aX?
+)&&(eO(!1),aq(void 0),eW(a5?
 ))),e((0,c.R3)(h)),e((0,c.p4)(h?a:void 0)),p(h?
 ). If you meant to render a collection of children, use an array instead.
 )?l.makeImage(e.slice(8),new u.Ay(t,r,n,i),o?
@@ -772,7 +772,6 @@ Additions to your channel
 Adds a custom skill category, or renames it if already present
 Adds a reminder for a message via API call
 Adds a step to a workflow
-Adds a workspace to the removed workspaces slice
 Adds app to channel
 Adds item to folder and shows success toast
 Adds membership values to updated flannel channels
@@ -1263,6 +1262,7 @@ Ask Slackbot to update details or log events.
 Ask Slackbot:
 Ask a follow-up
 Ask a question or get help with a task
+Ask about the meeting or anything in Slack
 Ask about this meeting
 Ask about this record, prep for a customer meeting, or make quick updates.
 Ask about this window
@@ -4851,6 +4851,7 @@ Failed to parse launch_connect_apps_modal action value
 Failed to parse markdown
 Failed to parse mcp_tool_blocked_change_prefs action value
 Failed to parse pref
+Failed to parse the payload, skipping deep link
 Failed to parse workflow_error_view_details action value
 Failed to parse workflow_error_view_logs action value
 Failed to paste transcript via desktop clipboard
@@ -5427,6 +5428,7 @@ Focused sidebar
 Focused sidebar options
 Focuses the flexpane according to focusTarget
 Fold the input when idle
+Fold the thread
 Folder added
 Folder items
 Folder name
@@ -7569,6 +7571,7 @@ M7 11V7a5 5 0 0 1 9.9-1
 M7 11a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 .5.5h1.5a.5.5 0 0 0 .5-.5v-5a.5.5 0 0 0-.5-.5zm-4.5 3a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5H4a.5.5 0 0 0 .5-.5v-2A.5.5 0 0 0 4 14z
 M7 14l5-5 5 5z
 M7 16h10
+M7 17 17 7M8 7h9v9
 M7 21H5a2 2 0 0 1-2-2v-2
 M7.054 18.407a.75.75 0 0 1 0-1.5h8.783L1.76 2.831a.75.75 0 1 1 1.06-1.06l14.076 14.076V6.985a.75.75 0 0 1 1.5 0v10.672a.75.75 0 0 1-.75.75z
 M7.06 12.5h5.44V7.062zm6.94 0a1.5 1.5 0 0 1-1.5 1.5H7.06C5.725 14 5.056 12.386 6 11.44L11.44 6c.944-.944 2.56-.275 2.56 1.061z
@@ -7970,6 +7973,7 @@ Meeting reminder dismissed. You can still find it in Today.
 Meeting reminders
 Meeting room
 Meeting thread
+Meeting thread with Slackbot
 Meeting window
 MeetingSessionTimingManager: No observers set, timing data discarded
 MeetingSessionTimingManager: destroyed
@@ -9283,6 +9287,7 @@ Only visible to you
 Only you
 Only you can open
 Only you can see this
+Only you can see this thread. Slackbot never speaks in the meeting.
 Only you can see this. Others see the current version.
 Only your Workspace Admin can add frontline members to a channel.
 Oops! Something went wrong. Please try again in a moment.
@@ -9742,6 +9747,7 @@ People viewed
 People you might know
 People, apps, and agents
 Performance APIs not available. Update your Slack app!
+Performs deep link handling for arguments parsed from a slack: URI
 Period covered
 Permanently delete this group?
 Permanently delete this template?
@@ -12595,6 +12601,7 @@ Slackbot is ready. Type a message or choose a suggested skill to begin.
 Slackbot is responding
 Slackbot is showing
 Slackbot is speaking
+Slackbot is typing
 Slackbot listens to your mic and computer audio so you can ask about the meeting while it happens. It keeps listening until you press Stop, even when Singer is folded.
 Slackbot mini did not open.
 Slackbot moved inside the More tab
@@ -12976,6 +12983,7 @@ Starting the dirty broadcast timer
 Starting the periodic broadcast timer
 Starting timers for metrics collection
 Starting unconstrained content share with chime API
+Starting. Meeting thread opened.
 Starts a new Slackbot conversation
 Starts from a button
 Starts reading one page from the brain
@@ -13127,6 +13135,7 @@ Suggested channels
 Suggested from your recent prompts
 Suggested prompts
 Suggested prompts for agent
+Suggested questions
 Suggested reply available. Press Tab to autofill, or Shift plus Tab to review.
 Suggested skills
 Suggested to-dos are pulled from your mentions, DMs, and threads.
@@ -13363,6 +13372,7 @@ Tell AI what to produce
 Tell Slack AI what to recap
 Tell Slackbot about yourself. It
 Tell me about this window.
+Tell me if anyone mentions 
 Tell the agent what to produce
 Tell us more (optional)
 Tell us what you need help with.

@@ -585,7 +585,7 @@ media.progress.update: duration_ms, file, offset_ms
 media.reactions.add: channel, file, message_timestamp, name, offset_ms
 media.reactions.get: channel, file, message_timestamp
 media.reactions.remove: channel, file, message_timestamp, name, offset_ms
-meetings.processRecording: canvas_file_id, create_thread, file_id, meeting_title, notify_only, speaker_attribution
+meetings.processRecording: canvas_file_id, create_thread, file_id, meeting_title, notify_only, post_greeting, slackbot_thread_ts, speaker_attribution
 meetings.removeChannel: meeting_id
 meetings.resolve: allow_create, event_link_id
 meetings.update: channel_id, event_link_id, files, meeting_id
