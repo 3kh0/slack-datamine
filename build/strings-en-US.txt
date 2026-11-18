@@ -4619,6 +4619,7 @@ channel_insights.6548c61: Activity chart lines
 channel_insights.cccd1d9: Activity count type
 channel_insights.9226a6d: Activity interval
 channel_insights.3281188: CSV
+channel_insights.84b119a: Channel activity data is available starting {date}
 channel_insights.3529a7d: Channel insights
 channel_insights.a76536e: Channel insights loaded
 channel_insights.52ddd79: Channel membership over time
@@ -4630,7 +4631,9 @@ channel_insights.dc352d2: Exporting channel insights
 channel_insights.99d6336: Last 24 hours
 channel_insights.9f79684: Last 3 months
 channel_insights.df833fe: Last 7 days
+channel_insights.1e84a81: Last hour
 channel_insights.9cce45b: Last month
+channel_insights.3cf4d8d: Last year
 channel_insights.47c61c4: Loading channel insights
 channel_insights.1cb449c: Members
 channel_insights.53bc967: Membership
@@ -4639,17 +4642,25 @@ channel_insights.6d752d4: Message reactions
 channel_insights.d31edb7: Monthly
 channel_insights.fd9b359: No activity in this date range.
 channel_insights.1bf30ec: No membership data in this date range
+channel_insights.7927df4: No popular messages in this range
 channel_insights.84f13de: People posted
 channel_insights.9716227: People reacted
 channel_insights.3ac682c: People viewed
+channel_insights.7944583: Popular messages
 channel_insights.a2a5bde: Sort by
 channel_insights.ebd62be: Total activity
+channel_insights.25368b2: Total reactions
+channel_insights.a96fd80: Total replies
+channel_insights.9fbdc59: Total shares
+channel_insights.da6d7fd: Total views
 channel_insights.547d453: Unable to load Activity
 channel_insights.b09c5b0: Unable to load Membership
+channel_insights.35ff1b1: Unable to load Popular messages
 channel_insights.fd94b49: Unable to load channel insights
 channel_insights.e48c087: Unique people
 channel_insights.c170aa3: Updated {time}
 channel_insights.69bd4ef: View
+channel_insights.cbb2bbc: View popular message {rank}
 channel_insights.158f3da: Weekly
 channel_insights.9ef0a58: carousel
 channel_insights.03cd6f5: {count, plural, =1 {# member} other {# members}}
@@ -5624,9 +5635,7 @@ classic_nav.4284de9: Total count on hover
 classic_nav.4cb51ea: Track and manage projects
 classic_nav.5f7537c: Trial
 classic_nav.2669bc3: Turn off Privacy Mode
-classic_nav.c0e60b6: Turn off presentation mode
 classic_nav.948f91d: Turn on Privacy Mode
-classic_nav.66847ab: Turn on presentation mode
 classic_nav.78b4e85: Type of feedback
 classic_nav.6ffdfad: Update your status
 classic_nav.a6f47e0: Upgrade
@@ -7989,6 +7998,7 @@ drafts.7d94234: Tomorrow at 9:00 AM
 drafts.258e027: Tomorrow at {timeString}
 drafts.61ca215: Video file
 drafts.3c16151: View and save draft messages
+drafts.e0b9b1c: We’re not sure what happened, but your message couldn’t be scheduled. It’s been saved in your Drafts so you can try again.
 drafts.8deec66: Write now, send later
 drafts.8bdd200: You can email one person at a time.
 drafts.fd4a84e: Your admin has limited who can start new direct messages. You can still message people you already have a conversation with.
@@ -13621,7 +13631,6 @@ menu.78cdab3: Customized
 menu.27d0323: Delete section
 menu.dc3decb: Details
 menu.e1d7e00: Don’t want to see this anymore?
-menu.f771385: Edit Salesforce Notifications
 menu.edfe0b5: Edit default preferences
 menu.81759a7: Edit notifications
 menu.aea819e: Edit settings
@@ -13648,7 +13657,6 @@ menu.c766e79: Leave all temporary channels
 menu.74a796c: Leave channel
 menu.48ce9cd: Leave huddle
 menu.33ce417: Loading…
-menu.5495ac3: Manage Salesforce orgs
 menu.6504edd: Manage VIPs
 menu.bd145d0: Manage conversations
 menu.93307b6: Manage memories
@@ -13754,7 +13762,6 @@ menu.e6ba0dd: Unreads
 menu.59cdce6: Unreads only
 menu.10dad62: Unstar channel
 menu.7c11f7e: Unstar conversation
-menu.419b007: View agent profile
 menu.02fc0cf: View agents & apps
 menu.acdf387: View app details
 menu.fa4fe5f: View channel details
@@ -13768,7 +13775,6 @@ menu.b98795a: View profile
 menu.7f25898: View {quipLabel} details
 menu.d7a4841: Workflow
 menu.9dda926: Workflow options ready
-menu.ee43020: Workflows with Salesforce data
 menu.37acf9d: You do not have permissions. Please contact your admin.
 menu.7cbc1b0: ⌘ Click
 menu.362e018: ⌘ Opt Click
@@ -23836,7 +23842,6 @@ slackbot-ai.d3f0b43: Discard changes?
 slackbot-ai.02e7917: Disconnect {name}
 slackbot-ai.df0e254: Discover new skills for Slackbot here
 slackbot-ai.647cfa0: Dismiss projects intro
-slackbot-ai.a1fa7ed: Draft reply
 slackbot-ai.ee8c45b: Drafts a recap post for your team channel every Friday
 slackbot-ai.4a77481: ENABLE_LOGGING
 slackbot-ai.4173a96: Edit details
@@ -23912,7 +23917,6 @@ slackbot-ai.258b367: Loading projects
 slackbot-ai.f9bedea: Loading recent runs…
 slackbot-ai.df519fa: Loading surface preview
 slackbot-ai.3fbe5f5: MCP app
-slackbot-ai.da5fa11: Make it
 slackbot-ai.7c7b7bb: Make sure you trust Slack. You can remove access anytime in your Google Account.
 slackbot-ai.42b7205: Meet Slackbot, your AI agent
 slackbot-ai.4c63aeb: Meet Slackbot, your AI agent. Get a briefing on your day, prep for meetings, and more. To say hi, use the Chat with Slackbot AI button.
@@ -23968,7 +23972,6 @@ slackbot-ai.96f608c: Pending
 slackbot-ai.0f6e252: Pending apps
 slackbot-ai.d06d555: Permissions
 slackbot-ai.23896cc: Prep
-slackbot-ai.33247aa: Prep for a meeting
 slackbot-ai.5ef5732: Preparing your briefing…
 slackbot-ai.95cc208: Preparing your plan…
 slackbot-ai.f1fbb2b: Preview
@@ -24004,7 +24007,6 @@ slackbot-ai.45660a4: Remove from project
 slackbot-ai.f2b5df5: Remove {fileName}
 slackbot-ai.d3f4cb8: Rename
 slackbot-ai.30da41b: Rename conversation
-slackbot-ai.2a9c3af: Reply to Sam
 slackbot-ai.ee45c30: Report
 slackbot-ai.e1035fb: Request Upgrade
 slackbot-ai.db0f9db: Request upgrade
@@ -24103,7 +24105,6 @@ slackbot-ai.6eb1f1b: Try Business+ at No Extra Cost
 slackbot-ai.0ba628a: Try a different search term.
 slackbot-ai.042c862: Try again
 slackbot-ai.d86bca7: Try different keywords or check for typos.
-slackbot-ai.2522318: Try these 3 things to get started.
 slackbot-ai.3deb745: Type
 slackbot-ai.07b032b: Unread
 slackbot-ai.e6ba0dd: Unreads
@@ -24125,6 +24126,7 @@ slackbot-ai.52f8d46: View events on all your calendars
 slackbot-ai.97819db: Want More?
 slackbot-ai.78915de: Weekly recap
 slackbot-ai.f038833: Weekly support digest
+slackbot-ai.ca4f9dc: Welcome
 slackbot-ai.45c6f16: Welcome to Slackbot!
 slackbot-ai.5d0431d: What can you do with {name}?
 slackbot-ai.2db3fd5: What happened in Slack recently?
@@ -29265,6 +29267,7 @@ workflow_builder.5567eb7: This Salesforce org isn’t available. Choose a differ
 workflow_builder.47eca81: This account lets Slack connect to the external service while you’re building and using the workflow.
 workflow_builder.44ad6c1: This account lets Slack connect to the external service while you’re building, so you can use their steps in the workflow.
 workflow_builder.cb32300: This account lets Slack connect to {providerName} while you’re building, so you can use {providerName} steps in the workflow.
+workflow_builder.aeeb15d: This agent can’t create code channels. Select a different agent.
 workflow_builder.5773fd2: This condition has missing fields.
 workflow_builder.4918312: This data is available as variables in next steps.
 workflow_builder.67c35f5: This feature is available upon renewal.
