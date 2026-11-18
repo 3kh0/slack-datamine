@@ -964,6 +964,7 @@ agent_hover_card.68f4145: Message
 agent_hover_card.3c8c0b9: More Info
 agent_hover_card.265a9a7: Open App
 agent_hover_card.fd3e3d9: loading…
+agent_hover_card.1d06648: {appName} is installed on {teamName}
 agent_tasks.8962525: Close conversation
 agent_tasks.db62f1e: Conversation options
 agent_tasks.2f84eea: Copy link
@@ -1518,9 +1519,7 @@ ai_apps.5e8a899: No sidekicks created by you
 ai_apps.b1e5359: Not Now
 ai_apps.384d197: Only visible to you
 ai_apps.808d198: Open DM in split view
-ai_apps.3b45abf: Open DM with {agentName}
 ai_apps.8ee6637: Open in Slack Marketplace
-ai_apps.d79ad53: Open in Slack Marketplace for {agentName}
 ai_apps.a75732d: Open in new window
 ai_apps.03a322d: Open in split view
 ai_apps.2fb9609: Open in split view for {agentName}
@@ -1680,9 +1679,7 @@ all_unreads.05d24b0: {messageCount, plural, =1 {# message} other {# messages}}
 all_unreads.762eca0: {messageCount, plural, =1 {# message} other {# messages}} marked read
 all_unreads.3a29c72: {messageCount} new {messageCount, plural, =1 {message} other {messages}}
 all_unreads.f4fd910: {newUnreadMsgCount, plural, =1 {# new message} other {# new messages}}
-answer_comparison.39e654c: Sending your choice…
 answer_comparison.3da4745: Skip
-answer_comparison.14d09c1: Skipping…
 answer_comparison.9a3ea05: Something went wrong. Please try again.
 answer_comparison.2dacf65: Submit
 answer_comparison.8a27175: Which answer do you prefer?
@@ -1887,7 +1884,6 @@ app_details.2a4c7f0: ‘{appName}’ will be able to do
 app_details.96cb78d: ‘{appName}’ will be able to view
 app_dialog.b16c7ac: (optional)
 app_dialog.0997bad: Header Icon
-app_dialog.3a4245a: Learn more about {appName}
 app_dialog.2dacf65: Submit
 app_dialog.ab90d9d: This field is required.
 app_dialog.26dc55d: We had some trouble connecting. <a>Try again?</a>
@@ -2066,8 +2062,6 @@ aria_msg_summary.da5199c: {time}.
 aria_msg_summary.a330ad4: {time}:
 ask_user_question.ac09f16: Answered by {name}
 ask_user_question.bc98198: Next
-ask_user_question.2cc42c6: Next question
-ask_user_question.365a529: Previous question
 ask_user_question.3da4745: Skip
 ask_user_question.2dacf65: Submit
 ask_user_question.7e20641: {current} of {total}
@@ -4609,7 +4603,6 @@ channel_insights.6548c61: Activity chart lines
 channel_insights.cccd1d9: Activity count type
 channel_insights.9226a6d: Activity interval
 channel_insights.3281188: CSV
-channel_insights.84b119a: Channel activity data is available starting {date}
 channel_insights.3529a7d: Channel insights
 channel_insights.a76536e: Channel insights loaded
 channel_insights.52ddd79: Channel membership over time
@@ -4621,9 +4614,7 @@ channel_insights.dc352d2: Exporting channel insights
 channel_insights.99d6336: Last 24 hours
 channel_insights.9f79684: Last 3 months
 channel_insights.df833fe: Last 7 days
-channel_insights.1e84a81: Last hour
 channel_insights.9cce45b: Last month
-channel_insights.3cf4d8d: Last year
 channel_insights.47c61c4: Loading channel insights
 channel_insights.1cb449c: Members
 channel_insights.53bc967: Membership
@@ -4632,25 +4623,17 @@ channel_insights.6d752d4: Message reactions
 channel_insights.d31edb7: Monthly
 channel_insights.fd9b359: No activity in this date range.
 channel_insights.1bf30ec: No membership data in this date range
-channel_insights.7927df4: No popular messages in this range
 channel_insights.84f13de: People posted
 channel_insights.9716227: People reacted
 channel_insights.3ac682c: People viewed
-channel_insights.7944583: Popular messages
 channel_insights.a2a5bde: Sort by
 channel_insights.ebd62be: Total activity
-channel_insights.25368b2: Total reactions
-channel_insights.a96fd80: Total replies
-channel_insights.9fbdc59: Total shares
-channel_insights.da6d7fd: Total views
 channel_insights.547d453: Unable to load Activity
 channel_insights.b09c5b0: Unable to load Membership
-channel_insights.35ff1b1: Unable to load Popular messages
 channel_insights.fd94b49: Unable to load channel insights
 channel_insights.e48c087: Unique people
 channel_insights.c170aa3: Updated {time}
 channel_insights.69bd4ef: View
-channel_insights.cbb2bbc: View popular message {rank}
 channel_insights.158f3da: Weekly
 channel_insights.9ef0a58: carousel
 channel_insights.03cd6f5: {count, plural, =1 {# member} other {# members}}
@@ -4899,6 +4882,7 @@ channel_sidebar.cf4e4cb: Can’t score with a model named {model}. Check the nam
 channel_sidebar.879f0b1: Channel
 channel_sidebar.610e4cf: Channel invitations
 channel_sidebar.18e03e2: Channels
+channel_sidebar.0688ebf: Channels and direct messages
 channel_sidebar.876d683: Choose what to pin…
 channel_sidebar.fb99bef: Clear out the clutter and hide {numMutedChannels} {numMutedChannels, plural, =1 {muted channel} other {muted channels}} from view. They’ll only pop up again if someone mentions you.
 channel_sidebar.247fd63: Clear selection
@@ -5467,6 +5451,7 @@ channels.248600d: channel
 channels.b1969fc: private channel 
 channels.f9b8d9e: {channelName}
 chat_commands.aa6f937: remind
+checklist_block.56a2285: Saving…
 checklist_block.25911d4: Show more
 checkout_abandonment.202c92a: Looks like you started upgrading to a more powerful paid plan, but didn’t make it all the way through. <a>Finish checkout</a>
 checkout_v2.7e5111d: By redeeming this offer, you agree that these offer terms form part of and modify Slack’s <mainServicesLink>Customer Terms of Service</mainServicesLink> (or the terms of your written agreement regarding your use of Slack’s services) (your “Agreement”) entered into between you and the Slack entity identified in the Agreement and that, after the Discount Period, Slack’s then-current standard pricing set forth on Slack’s <pricingPageLink>Pricing Page</pricingPageLink> will apply to the remainder of your plan and to any plan renewals. Please see the terms of your Agreement for information on how to cancel or downgrade your paid subscription prior to any such renewal.
@@ -5951,6 +5936,7 @@ code-channels-browser.ec83cd2: Add a prompt describing what you’d like the age
 code-channels-browser.5ce2e6f: Agent
 code-channels-browser.cde5696: Agent conversation results
 code-channels-browser.05989d8: Agent sessions
+code-channels-browser.b2fc5bc: Agent thread · {ago}
 code-channels-browser.ad2571a: Agent threads
 code-channels-browser.8d3d657: Agent: {agent}
 code-channels-browser.6a72085: All
@@ -5967,6 +5953,7 @@ code-channels-browser.c043160: Clear all
 code-channels-browser.adac693: Code
 code-channels-browser.49bcd35: Code channel
 code-channels-browser.6bec3c0: Code channel results
+code-channels-browser.4f6a285: Code channel · {ago}
 code-channels-browser.dd6947b: Code channels
 code-channels-browser.b9b3aea: Code channels are a multiplayer coding environment designed for everyone, not just developers.
 code-channels-browser.b81a27c: Copy channel link
@@ -6088,6 +6075,8 @@ code-channels-browser.79d27e9: You don’t have permission to start a code chann
 code-channels-browser.8917de1: Your agent sessions
 code-channels-browser.276de98: Your code channel was created, but it couldn’t be fully set up. Find it in your sidebar.
 code-channels-browser.b3ddc08: Your sessions
+code-channels-browser.8c0db2c: by {initiator}
+code-channels-browser.3e23c2a: by {initiator} · Code channel · {ago}
 code-channels-browser.95a9a7e: e.g. Add dark mode
 code-channels-browser.f59487b: e.g. Describe a bug, issue, new feature…
 code-channels-browser.8af56de: you
@@ -6292,6 +6281,7 @@ code-tab.b993b0c: No results
 code-tab.2c924e3: Note
 code-tab.cf9b770: Open
 code-tab.eec486e: Open in GitHub
+code-tab.0c6c410: Optional
 code-tab.a0498dd: PR closed
 code-tab.2b00f83: PR merged
 code-tab.91ebb55: PR open
@@ -6302,10 +6292,13 @@ code-tab.881e743: Pull request
 code-tab.57b12a7: Pull request status changed
 code-tab.6a59987: Queued
 code-tab.defdba4: Reply…
+code-tab.eed6bfb: Required
 code-tab.d1e0c11: Resolve Conversation
 code-tab.42f4a89: Resolving conversation
 code-tab.9f5cd8a: Retry
+code-tab.d174dd6: Review changes
 code-tab.186cd74: Rocket
+code-tab.73989d9: Running
 code-tab.efc007a: Save
 code-tab.ccc7c45: Saving comment
 code-tab.ed27be4: Saving description
@@ -6345,6 +6338,7 @@ code-tab.e177c8d: Your GitHub account doesn’t have permission to unresolve thi
 code-tab.01ea0e4: Your GitHub organization requires single sign-on. Sign in to the organization on GitHub, then try again.
 code-tab.b1835bb: Your comment was posted, but GitHub couldn’t close this pull request.
 code-tab.bf43146: {author} on {location}: {comment}
+code-tab.db03f19: {count, plural, =1 {Review changes (1 pending comment)} other {Review changes (# pending comments)}}
 code-tab.5643f7d: {count, plural, one {# comment} other {# comments}}
 code-tab.c0ccea2: {count, plural, one {# commit} other {# commits}}
 code-tab.fd1d44e: {count, plural, one {# new commit} other {# new commits}}
@@ -15884,9 +15878,9 @@ msg_edit.aab715a: Note that deleting this message will not delete the snippet th
 msg_edit.e5d198a: Note that deleting this message will not unshare the file.
 msg_edit.def3be1: Note that deleting this message will not unshare the post.
 msg_edit.6d3f574: Note that deleting this message will not unshare the snippet.
+msg_edit.d8b7d10: Remove Message
 msg_edit.87f7b28: Remove from channel
 msg_edit.85e6cfa: Remove from conversation
-msg_edit.576c97b: Remove message
 msg_edit.eaf78bb: The original reply will still be visible in its thread.
 msg_edit.ac0ed7d: Unsend
 msg_edit.381ad75: Unsend message
@@ -16641,11 +16635,13 @@ platform-admin.4642502: Please select a person or choose no one can use this ste
 platform-admin.efc007a: Save
 platform-admin.943a4ee: Save anyway
 platform-admin.9c6d505: Select channels
+platform-admin.1f4385b: Select channels to exclude
 platform-admin.9e34d30: Select groups
 platform-admin.ad3b538: Select people
 platform-admin.29b332d: Select specific people and groups who can use the app.
 platform-admin.1b110ee: Select specific people or workspaces
 platform-admin.1214f7d: Select specific people who can use the app.
+platform-admin.2ee9373: Some channels couldn’t be loaded due to a temporary error. Close and try again.
 platform-admin.14c3a74: Sorry, something went wrong. Try again in a moment.
 platform-admin.2d750dd: Specific people
 platform-admin.10e4b6f: Specific people and groups can use the app.
@@ -16677,6 +16673,7 @@ platform-admin.fc7f746: {personCount, plural, =0 {} =1 {# excluded person} other
 platform-admin.b20728a: {personCount, plural, =0 {} =1 {# previously-permitted person} other {# previously-permitted people}}{both, select, true { and } other {}}{groupCount, plural, =0 {} =1 {# previously-permitted group} other {# previously-permitted groups}} couldn’t be loaded and will lose access if you save.
 platform-admin.5129522: {shownText} and {remaining, plural, =1 {# other} other {# others}}
 platform-admin.58f233d: {text}, opens in new window
+platform-admin.0edc8b1: {unresolvedCount, plural, =1 {# previously-configured channel couldn’t be loaded and will be removed if you save.} other {# previously-configured channels couldn’t be loaded and will be removed if you save.}}
 platform-admin.2864df0: {workflow} has been removed from bookmarks
 platform_ai.b7d1ca2: AI in Slack is still learning and might not always hit the mark <LearnMoreLink>Learn more</LearnMoreLink>
 platform_ai.6d73be4: About building workflows with AI
@@ -18463,9 +18460,6 @@ quip_collab.01ba688: {value} selected ({index} of {total})
 quip_collab.2da33c4: {weekday}
 quip_collab.92825ab: {weekday} at {time}
 quip_collab.7dd522f: {year}
-quip_delegate.0973946: File sharing has been disabled in canvases using Slack Connect
-quip_delegate.f0ad3c2: Some content wasn’t pasted because this table reached its cell limit.
-quip_delegate.c914ca1: This table has reached the maximum number of cells allowed in a canvas.
 quip_embedded_ui.3fae218: Based on this content
 quip_embedded_ui.776db20: Edit with AI
 quip_embedded_ui.82ba629: Quick edits
@@ -20348,6 +20342,7 @@ session_channel_archive.7eac343: This channel is inactive. Archive it for everyo
 session_channel_archive.94ca019: This channel is inactive. Leave the channel to tidy up your sidebar — you can always rejoin it later.
 session_channel_archive.504fccb: This work is complete. Archive it for everyone — the contents will still be available in search, and you can always unarchive it in the future.
 session_channel_archive.4fd785e: This work is complete. Leave the channel to tidy up your sidebar — you can always rejoin it later.
+setup_page.2d0ab40: ),Li=n(
 setup_page.27e6d30: + {count, plural, =1 {# other} other {# others}}
 setup_page.850a65b: 1,001 +
 setup_page.92767dc: 101 - 500
@@ -22234,6 +22229,7 @@ singer.de4446d: Put away all
 singer.29a7064: Put it in the chat
 singer.6a59987: Queued
 singer.fe73d79: Quiet
+singer.cdc1698: Quiet for 30 minutes
 singer.5a0d343: Quiet for {minutes} min
 singer.4b3fb60: Quiet in here.
 singer.6e3c789: Quiet out here. For now.
@@ -22300,6 +22296,7 @@ singer.44c57ab: Reset
 singer.d999aeb: Resolved
 singer.612e12d: Results
 singer.b3bd0b5: Resume
+singer.b2df8a0: Resume notifications
 singer.fa7f141: Resume recording
 singer.ab0bec1: Resuming…
 singer.e29a79f: Review
@@ -22347,6 +22344,7 @@ singer.559c29d: Sent privately to {agent}
 singer.ec6051f: Sent to {agent}
 singer.8874019: Session ended
 singer.c7f73bb: Settings
+singer.fa67a39: Settings…
 singer.b93760c: Shared by {name}
 singer.a82b2d5: Show More Skills
 singer.cf0f51d: Show New Activity
@@ -28043,6 +28041,7 @@ workflow_builder.ce5457e: )))}}logDependencies(){if(this.logger.getLogLevel()>n.
 workflow_builder.45c1127: *There was a problem with this step in the workflow* \n It’s probably a temporary issue. Try again in a few minutes or <{supportLink}|contact Slack support>.
 workflow_builder.1dd2080: *We had a problem loading your spreadsheet.* Learn more about <{gsheetsLink}|Google Sheets for Workflow Builder>.
 workflow_builder.d3bc9a3: , 
+workflow_builder.7811f4a: ,children:[r&&(0,n.jsx)(j.Dr,{label:r.label,onSelected:c}),a&&(0,n.jsx)(j.Dr,{label:a.label,onSelected:d}),e&&(0,n.jsx)(j.Dr,{label:e.label,onSelected:l}),t&&(0,n.jsx)(j.Dr,{label:t.label,onSelected:o})]}),[r,a,e,t,c,d,l,o]);return(0,n.jsx)(tT.A,{label:m?a4.t(
 workflow_builder.4b57f2b: 1 or more selections are no longer available. Remove to continue.
 workflow_builder.310b86e: 100
 workflow_builder.91032ad: 20
