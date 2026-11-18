@@ -429,6 +429,7 @@ files.close: file_id, last_updated
 files.collections.bulkUpdate: updates
 files.collections.create: emoji, name
 files.collections.delete: collection
+files.collections.list: include_recently_viewed
 files.collections.update: collection, emoji, is_collapsed, name, sort
 files.createCanvas: loosen_validation, markdown, title
 files.createExternal: create_slack_file, filename, mime_type, open_edit, service_stub

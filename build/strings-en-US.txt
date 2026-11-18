@@ -3513,7 +3513,6 @@ channel-sidebar-unread-threads.c1ee860: Mark as read
 channel-sidebar-unread-threads.68f4145: Message
 channel-sidebar-unread-threads.949184b: Message actions
 channel-sidebar-unread-threads.a1e34f9: More actions
-channel-sidebar-unread-threads.1caf1cf: No unread activity
 channel-sidebar-unread-threads.a75732d: Open in new window
 channel-sidebar-unread-threads.1268084: Open in sidebar
 channel-sidebar-unread-threads.03a322d: Open in split view
@@ -3523,11 +3522,9 @@ channel-sidebar-unread-threads.bfa17ca: Summarize thread
 channel-sidebar-unread-threads.7863f75: Thread
 channel-sidebar-unread-threads.d11556e: Turn off notifications for replies
 channel-sidebar-unread-threads.3b9c3d6: Unread thread
-channel-sidebar-unread-threads.a3f32e0: Unreads for you
 channel-sidebar-unread-threads.374ffdd: Unsubscribe from thread
 channel-sidebar-unread-threads.7a3e66c: View all threads
 channel-sidebar-unread-threads.12f139d: {count, plural, =1 {# mention} other {# mentions}}
-channel-sidebar-unread-threads.009e1a4: {count, plural, =1 {# mention} other {# mentions}} in this section
 channel-sidebar-unread-threads.0473ea8: {count, plural, =1 {# unread thread} other {# unread threads}}
 channel-sidebar-unread-threads.da1ced3: {mentionCount, plural, =1 {# mention} other {# mentions}} and {threadCount, plural, =1 {# unread thread} other {# unread threads}}
 channel-threads-prototype.bbfa773: Close
@@ -3563,7 +3560,6 @@ channel_browser_coachmark.5b3a684: Delete this section?
 channel_browser_coachmark.e7596a0: Direct messages
 channel_browser_coachmark.3a261fe: List views you added to <strong>{inlineChannelSection}</strong> will move back to the Salesforce section.
 channel_browser_coachmark.5f4b3e9: Salesforce
-channel_browser_coachmark.f474e7a: Section options
 channel_details.f030c3d: 1 hour
 channel_details.878b234: <b>Something went wrong.</b> Sorry about that — please try again later, and contact Slack if this problem persists.
 channel_details.ab78f16: <link>Learn more</link>
@@ -4902,7 +4898,6 @@ channel_sidebar.81b425a: Conversations in this section will move back to the Cha
 channel_sidebar.584038e: Conversations to pin
 channel_sidebar.856fa95: Couldn’t reset sections.
 channel_sidebar.8045489: Couldn’t save your sidebar. Try again.
-channel_sidebar.37a25a1: Couldn’t update the section.
 channel_sidebar.3ac4864: Create a channel
 channel_sidebar.b2feca2: Create a new channel
 channel_sidebar.330c574: Create a section
@@ -5127,10 +5122,7 @@ channel_sidebar.5616c87: Search options
 channel_sidebar.cfa1b08: Search {teamName}
 channel_sidebar.7534fb5: Search: “{query}”
 channel_sidebar.8050cd9: Section actions
-channel_sidebar.f39ef09: Section removed.
-channel_sidebar.fae2790: Section reset.
 channel_sidebar.ff178c9: Section settings
-channel_sidebar.0ca4c48: Section updated.
 channel_sidebar.b5c7883: Sections are a great way to share multiple channels at once.
 channel_sidebar.cc2be5a: Sections reset.
 channel_sidebar.2941c5c: See all
@@ -5268,7 +5260,6 @@ channel_sidebar.8b35716: {hours, plural, =1 {# hour} other {# hours}}
 channel_sidebar.82badf9: {maxPicks} of {maxPicks} selected. Uncheck a conversation to pick a different one.
 channel_sidebar.09a22c2: {minutes} min
 channel_sidebar.26d4d69: {name} (you)
-channel_sidebar.a9d2f4b: {numFiles, plural, =1 {# file} other {# files}}
 channel_sidebar.3b2e865: {numMutedChannels} channels are now hidden
 channel_sidebar.835c272: {numSelected} of {maxPicks} selected
 channel_sidebar.f977930: {numUnreads, plural, =1 {# conversation} other {# conversations}} with unread messages, including {numBadges, plural, =1 {# mention or keyword} other {# mentions and keywords}}.
@@ -8268,7 +8259,6 @@ emoji.22dbe88: {size} {emojiName} {size, plural, =1 {emoji} other {emojis}} with
 emoji_button.5090a9e: Emoji
 emoji_button.95ca80d: Emoji and GIFs
 emoji_button.4c2f242: Right click to<br></br>customize skin tones
-emoji_keywords.d2dd2d4: );let eeD=
 emoji_keywords.356a192: 1
 emoji_keywords.b1d5781: 10
 emoji_keywords.310b86e: 100
@@ -8946,6 +8936,7 @@ enterprise_dashboard.e3e3a56: Global Administrator access required. Share <a>thi
 enterprise_dashboard.53af77c: Global Administrator access required. Share this link with your Global Administrator to get set up.
 enterprise_dashboard.b2acc20: Grant Slack access to Google
 enterprise_dashboard.6b45d93: Grant Slack access to Office 365
+enterprise_dashboard.2a17b82: IDP
 enterprise_dashboard.8fe6084: Icon for {appName}
 enterprise_dashboard.5a99784: Icon must be a .gif, .jpg, or .png
 enterprise_dashboard.b137f44: Icon must be at least {minimumIconWidth} x {minimumIconHeight} pixels
@@ -8972,7 +8963,9 @@ enterprise_dashboard.baefd7e: No channels were found matching <b>{query}</b>
 enterprise_dashboard.a05b579: No file chosen
 enterprise_dashboard.718d942: No members to assign to this permission
 enterprise_dashboard.41c06c1: No one
+enterprise_dashboard.fdd8747: No results found matching <b>{groupsSearchTerm}</b>.
 enterprise_dashboard.cd51f18: No results found matching <b>{membersSearchTerm}</b>.
+enterprise_dashboard.8a53b25: No user groups to assign to this permission
 enterprise_dashboard.848c28c: No workspaces have been selected
 enterprise_dashboard.0f4d889: Not a <b>Global Administrator</b> for <b>{domain}</b>? Share <a>this link</a> with your workspace’s Global Administrator to get set up.
 enterprise_dashboard.74a889c: Not a <b>super admin</b> for <b>{domain}</b>? Share <a>this link</a> with your workspace super admin to get set up.
@@ -9060,6 +9053,7 @@ enterprise_dashboard.9622962: {appName} is now connected.
 enterprise_dashboard.5a83c48: {appName} uninstalled.
 enterprise_dashboard.cd65fda: {count, plural, =1 {# channel} other {# channels}}
 enterprise_dashboard.ddf19c4: {count, plural, =1 {# filtered result} other {# filtered results}}
+enterprise_dashboard.e9099aa: {count, plural, =1 {# group} other {# groups}}
 enterprise_dashboard.03cd6f5: {count, plural, =1 {# member} other {# members}}
 enterprise_dashboard.3358be7: {count, plural, one {# skill} other {# skills}}
 enterprise_dashboard.eba622f: {memberName} couldn’t be removed from this channel.
@@ -16680,9 +16674,12 @@ platform-admin.ba76df8: You’ve reached your limit of 10 installed apps. With S
 platform-admin.aa075f0: {channelCount, plural, =1 {# channel} other {# channels}} selected
 platform-admin.cd65fda: {count, plural, =1 {# channel} other {# channels}}
 platform-admin.5a1463d: {count, plural, =1 {# excluded group} other {# excluded groups}} couldn’t be loaded and will no longer be blocked if you save.
+platform-admin.e9099aa: {count, plural, =1 {# group} other {# groups}}
 platform-admin.2de9038: {count, plural, =1 {# group} other {# groups}} this app allows couldn’t be loaded.
 platform-admin.2f9a86c: {count, plural, =1 {# person} other {# people}}
 platform-admin.4c0adf4: {count, plural, =1 {# previously-permitted group} other {# previously-permitted groups}} couldn’t be loaded and will lose access if you save.
+platform-admin.962677a: {groupCount, plural, =0 {No groups} =1 {# group} other {# groups}} and {memberCount, plural, =0 {no people} =1 {# person} other {# people}} selected
+platform-admin.9a1985c: {memberCount, plural, =0 {No people selected} =1 {# person selected} other {# people selected}}
 platform-admin.1b95d2b: {name} (group)
 platform-admin.fc7f746: {personCount, plural, =0 {} =1 {# excluded person} other {# excluded people}}{both, select, true { and } other {}}{groupCount, plural, =0 {} =1 {# excluded group} other {# excluded groups}} couldn’t be loaded and will no longer be blocked if you save.
 platform-admin.b20728a: {personCount, plural, =0 {} =1 {# previously-permitted person} other {# previously-permitted people}}{both, select, true { and } other {}}{groupCount, plural, =0 {} =1 {# previously-permitted group} other {# previously-permitted groups}} couldn’t be loaded and will lose access if you save.
@@ -18481,7 +18478,6 @@ quip_collab.7dd522f: {year}
 quip_embedded_ui.3fae218: Based on this content
 quip_embedded_ui.776db20: Edit with AI
 quip_embedded_ui.82ba629: Quick edits
-quip_embedded_ui.f474e7a: Section options
 quip_embedded_ui.206911c: Write with AI
 quip_shortcut_handlers.560040c: AI
 quip_shortcut_handlers.e11174a: Add a summary
@@ -20313,6 +20309,7 @@ search.7cbc1b0: ⌘ Click
 search.362e018: ⌘ Opt Click
 search_menu.2dd2bed: today
 search_menu.1aa96b8: yesterday
+security_compliance.9bb9542: This app has the following certifications & compliances:
 segmented_team_creation.4550f68: Choose a plan
 segmented_team_creation.b0bf6d1: Recommended for you
 select.247fd63: Clear selection
@@ -20364,7 +20361,6 @@ session_channel_archive.7eac343: This channel is inactive. Archive it for everyo
 session_channel_archive.94ca019: This channel is inactive. Leave the channel to tidy up your sidebar — you can always rejoin it later.
 session_channel_archive.504fccb: This work is complete. Archive it for everyone — the contents will still be available in search, and you can always unarchive it in the future.
 session_channel_archive.4fd785e: This work is complete. Leave the channel to tidy up your sidebar — you can always rejoin it later.
-setup_page.2d0ab40: ),Li=n(
 setup_page.27e6d30: + {count, plural, =1 {# other} other {# others}}
 setup_page.850a65b: 1,001 +
 setup_page.92767dc: 101 - 500
@@ -26557,7 +26553,6 @@ threads.d83d8c3: Latest messages
 threads.f67a9fb: Learn about threads
 threads.84ef5a7: Loading more messages…
 threads.6598160: Loading more replies
-threads.433e72b: Loading replies…
 threads.06dd1ba: Loading threads…
 threads.c566964: Loading thread…
 threads.d8465ec: Locked thread
