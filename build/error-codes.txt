@@ -9,6 +9,7 @@ action_disabled
 additional_fields_error
 admin_oauth_not_complete
 admin_unavailable
+agent_already_in_huddle
 agent_disabled
 agent_session_not_found
 agent_state_invalid_type
@@ -32,10 +33,12 @@ app_creation_failed
 app_edit_disabled
 app_error
 app_management_app_not_installed_on_org
+app_missing_scope
 app_not_available_in_channel
 app_not_eligible_for_auto_install
 app_not_found
 app_not_installed
+app_not_subscribed
 app_not_supported
 app_restricted_by_admin
 app_restricted_org_wide
@@ -115,6 +118,7 @@ channel_not_eligible
 channel_not_enabled
 channel_not_found
 channel_not_org_wide_shared
+channel_not_supported
 channel_posting_permissions_failed
 channel_shared_with_nonapproved_team
 channel_skill_limit_reached
@@ -355,7 +359,9 @@ has_already_connected_to_org
 head_changed
 hidden_by_limit
 host_unresolvable
+huddle_at_max_participants
 huddle_channels_not_enabled
+huddle_ended
 huddle_not_found
 identity_config_not_allowed
 identity_links_disabled
@@ -506,6 +512,7 @@ invalid_value_path
 invalid_view_metadata
 invalid_workflow
 invalid_workflow_id
+invite_already_pending
 invite_already_used
 invite_failed
 invite_from_same_org
@@ -666,6 +673,7 @@ not_draft_owner
 not_enabled
 not_found
 not_in_channel
+not_in_huddle
 not_in_team
 not_in_workspace
 not_opted_into_overages
@@ -881,6 +889,7 @@ today_focus_rate_limited
 token_delegated_error
 token_not_found
 too_large
+too_many_agents
 too_many_attachments
 too_many_bookmarks
 too_many_channels

@@ -11307,11 +11307,13 @@ huddles.b65e8fb: The huddle language applies to transcription and captions.
 huddles.5c9c768: The invite will be sent from <b>{email}</b>
 huddles.27acedd: The topic can’t be longer than {CHAR_LIMIT} characters.
 huddles.63f9ecc: The topic is visible to everyone in the huddle
+huddles.801aee6: There was a problem inviting {agentName}. Give it another try.
 huddles.a788b1f: They can join the huddle but won’t be able to see messages or reply to the thread unless they are members of {channelName}. New members will be able to see all of the channel’s history, including any files that have been shared in the channel.
 huddles.8d007ad: They can join the huddle, but since you are not allowed to invite external people to this channel, they won’t be able to see messages or reply to the thread.
 huddles.de7e3ec: They can join the huddle, but since you are not allowed to invite people from {org} to this channel, they won’t be able to see messages or reply to the thread.
 huddles.5705659: They can join the huddle, but since you are not allowed to invite people to this channel, they won’t be able to see messages or reply to the thread.
 huddles.f355747: They will be disconnected right away and won’t be able to rejoin this huddle.
+huddles.ba86d6f: This huddle already has as many agents as it allows. Try again after one leaves.
 huddles.21d6e3c: This huddle already has {maxAmount} people, which is the maximum allowed.
 huddles.26a663d: This huddle couldn’t be set up
 huddles.1178492: This huddle has ended
@@ -11550,6 +11552,8 @@ huddles.ff03f70: unknown-channel
 huddles.8af56de: you
 huddles.cab0a89: { visibleNamesString } and{ truncatedCount, plural, =1 { # other } other { # others }}
 huddles.c938d2e: {activeSpeakerName} is speaking
+huddles.bb4e02f: {agentName} already has an invite to this huddle.
+huddles.03dce4a: {agentName} is already in this huddle.
 huddles.279b4ad: {calendarName} connecting, a new tab will open for you to sign in
 huddles.f9b8d9e: {channelName}
 huddles.25f4461: {channelTopic}<wrapper>in</wrapper>{channelName}
@@ -21554,6 +21558,8 @@ singer.5d1f475: 4.7★ and dimmable, the best pick under $60.
 singer.c777f20: 5 minutes before
 singer.9db046b: A draft for {name}
 singer.085724b: A duck
+singer.8e7c277: A little hello
+singer.9acd9dc: A little more you.
 singer.c50a20e: A little room to breathe.
 singer.3b65e3e: A new look and voice, same answers. Tap a voice to hear it.
 singer.a810627: A quick answer. A little catch-up. A head start on whatever’s next.
@@ -21669,7 +21675,6 @@ singer.73528f7: Can’t show the browser right now. The task isn’t affected.
 singer.5625817: Can’t turn that recording into text. Try speaking again or type your message.
 singer.2a7e4be: Card stack
 singer.131cf57: Catch me up
-singer.fad94e1: Catch me up on these unread updates. Highlight what needs my attention and link to the messages. Keep it brief.
 singer.8703a74: Catch up
 singer.7534779: Catching up
 singer.9be1668: Changes requested
@@ -21972,7 +21977,9 @@ singer.33ce417: Loading…
 singer.868881e: Look Further Back
 singer.01d1180: Look at you go.
 singer.67a5af1: Looking for your note in the meeting chat.
+singer.3551a3c: Looks like me
 singer.f71edd8: Lovely!
+singer.5413515: Make it yours
 singer.8b8ec14: Make me a kanban board of my open asks in Slack
 singer.f03a88b: Manage in huddle
 singer.e5f6134: Mark All Read
@@ -22151,6 +22158,7 @@ singer.b37554f: People
 singer.eb78686: Percent of total
 singer.77064d5: Phone
 singer.62c00ac: Pick a look
+singer.99577f8: Pick a look and watch it come to life. Your questions still go to Slackbot.
 singer.9c91841: Pin
 singer.f931216: Pinned
 singer.65a6933: Play Again
@@ -22296,6 +22304,7 @@ singer.cf0f51d: Show New Activity
 singer.1f20b7d: Show activity in the island
 singer.11071cf: Show as chart
 singer.ef38f0f: Show as table
+singer.5810ece: Show in Chat
 singer.4c852b2: Show less
 singer.ded0a5d: Show me
 singer.9bfd43e: Show message text when your Slack privacy settings allow it.
@@ -22318,6 +22327,7 @@ singer.711064e: Singer options
 singer.c6c7248: Singer sees only the window you choose. macOS may ask for permission first.
 singer.0286de8: Singer settings
 singer.51bdbdb: Singer suggests these first. Change them anytime in Settings.
+singer.7de5d8b: Singer,\nby Slack.
 singer.e3834e9: Single-Channel Guest
 singer.b715234: Size
 singer.e09212c: Skills
@@ -22402,6 +22412,7 @@ singer.67922b7: Suggested asks
 singer.76e2986: Summarize with Slackbot
 singer.62d8d30: Sunday Sailor
 singer.e8c986e: Sweet potato!
+singer.342972e: Switched to Ask Singer
 singer.9d8d380: System default
 singer.db2022c: Ta-da!
 singer.5b99997: Take Over
@@ -22421,6 +22432,7 @@ singer.e054b40: That didn’t go through. Try again.
 singer.348527a: That didn’t work. Try again.
 singer.9d41e71: That draft isn’t ready to use. Check your connection and access.
 singer.1115c1f: That one’s going on the fridge.
+singer.597e22c: That transcript is no longer available. Try attaching the meeting again.
 singer.47072b6: That’s a wrap.
 singer.8af7d0d: That’s everything here.
 singer.bfbe63d: That’s everything in Activity.
@@ -22531,6 +22543,7 @@ singer.fe0710a: Wrap-ups
 singer.5397e05: Yes
 singer.da24830: Yesterday
 singer.905cb32: You
+singer.1e9f47f: You already reacted with this
 singer.8e7d0d0: You can’t send messages here. Open in Slack to check access.
 singer.3d1eb4c: You can’t view this file here.
 singer.384d50c: You don’t have access
@@ -22563,6 +22576,7 @@ singer.2266fe4: You’re all caught up
 singer.e3a65d7: You’re all done here.
 singer.c014031: You’re all done in Activity.
 singer.67c65c6: You’re all set
+singer.0233eba: You’re all set. Start with something small.
 singer.7421d98: You’re doing great work
 singer.b0e652c: You’re in control
 singer.10ea929: You’re in control. Singer’s waiting.
@@ -22596,7 +22610,6 @@ singer.e553892: {count, plural, =1 {# other} other {# others}}
 singer.2f9a86c: {count, plural, =1 {# person} other {# people}}
 singer.45d5eeb: {count, plural, =1 {# reply} other {# replies}}
 singer.10e31fa: {count, plural, =1 {# result} other {# results}}
-singer.8a65704: {count, plural, one {# file} other {# files}}
 singer.808dc33: {count, plural, one {# new activity item} other {# new activity items}}
 singer.da61d4b: {count, plural, one {# other} other {# others}}
 singer.4492438: {count, plural, one {# task update} other {# task updates}}
@@ -22622,7 +22635,16 @@ singer.4ed1c68: {title}: {state}
 singer-file-drop-feedback.5ff5dd8: Adding to your message…
 singer-file-drop-feedback.38abf08: Drop to attach
 singer-window-attachment.1afff01: Attach
+singer-window-attachment.7aba744: Attached window
+singer-window-attachment.77d607f: Attaching window…
+singer-window-attachment.c351af2: Attaching…
+singer-window-attachment.c1dc118: Choose Attach in Singer to use this window
+singer-window-attachment.c7310d3: Detach window
+singer-window-attachment.8206bfd: Dismiss window suggestion
+singer-window-attachment.08fb1d0: Finish this request or draft, then try Attach again.
+singer-window-attachment.1f29de7: Use in your next request
 singer-window-attachment.41dfc0a: Window
+singer-window-attachment.097a3f4: Window changed. Move Singer over it again.
 singer-window-conversation.1b29cf6: Allow Editing
 singer-window-conversation.5b2b09d: Allow Screen Recording for Slack, then try your request again.
 singer-window-conversation.218d4be: Apply Edit
