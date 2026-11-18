@@ -14,6 +14,7 @@ admin.apps.approved.list: legacy_integrations, limit
 admin.apps.domainWideAuth.addDomain: app_id, domain, team_id, token
 admin.apps.domainWideAuth.addUnifiedDomain: app_ids, domain, team_id, token
 admin.apps.domainWideAuth.enable: app_id, domain, team_id, test_email, token
+admin.apps.domainWideAuth.enableUnified: app_ids, domain, team_id, test_email, token
 admin.apps.domainWideAuth.microsoft.getConsentUrl: app_id, domain, team_id, token
 admin.apps.domainWideAuth.removeDomain: app_id, domain, team_id, token
 admin.apps.installed.list: legacy_integrations, limit
@@ -209,7 +210,7 @@ assistant.threads.rename: channel_id, thread_ts, title
 auth.removePendingTeam: encoded_team_id
 avatars.crop: avatar, cropbox
 avatars.upload: image
-blocks.actions: actions, client_token, container, service_id
+blocks.actions: actions, client_token, container, function_execution_id, service_id, service_team_id, skip_simple_array_serialization_in_get_form_data, state
 blocks.format: blocks
 blocks.suggestions: action_id, block_id, container, function_execution_id, service_id, service_team_id, value
 bookmarks.list: channel, include_folders, include_legacy_workflows
@@ -632,7 +633,6 @@ recordChannels.link: channel, record_id
 recordChannels.objectTypes.list: datasource_id
 recordChannels.open: channel
 recordChannels.relatedConversations.list: record_id, skip_cache
-recordChannels.requestAccess: record_id
 recordChannels.unlink: channel, new_name
 records.getTeamMembers: record_id
 records.previewShare: ignore_unfurls_settings, record
@@ -672,7 +672,7 @@ saved.delete: item_detail, item_id, item_type, ts
 saved.get: items
 saved.list: cursor, filter, include_tombstones, limit
 saved.markCompleted: filter
-saved.update: date_due, item_detail, item_id, item_type, mark, todo_state, ts
+saved.update: date_due, description, item_detail, item_id, item_type, mark, todo_state, ts
 schemaless.getClientLock: unique_id, unique_id_type
 screenhero.rooms.info: room
 screenhero.rooms.join: regions, room, use_room_scoped_token
@@ -684,7 +684,7 @@ search.autocomplete.triggers: current_channel_id, query, strict_exposure_rules, 
 search.autocomplete: limit, query, query_suggestion_limit, type, use_hash
 search.delete: hash, terms, type
 search.enterprise: count, cursor_mark, include_bots, include_dangling, include_date_created, include_deleted, include_full_deleted, include_usergroups, query, sort_dir
-search.inline: channel, client_req_id, count, cursor, extract_len, find_in_thread, from_me, include_ai_filters, max_ts, min_ts, page, query, recent_channels, search_session_id, thread_replies, thread_ts, token, user, with_me
+search.inline: channel, client_req_id, count, cursor, extract_len, find_in_thread, from_me, include_ai_filters, max_ts, min_ts, page, query, recent_channels, search_session_id, strip_mcp_attribution_footer, thread_replies, thread_ts, token, user, with_me
 search.modules.channels: browse, channel_type, count, cursor, exclude_my_channels, module, query, sort, sort_dir
 search.modules.external: app_id, client_req_id, cursor, highlight, query, query_rewrite_disabled, search_app_args
 search.modules.files: canvas_template_type_filter, count, exclude_org_visible, file_title_only, filters, module, only_org_visible, page, query, search_exclude_bots, skip_excluding_canned_templates, sort, sort_dir

@@ -150,7 +150,6 @@ component: cn_hk_macao_compliance_banner_client_footer
 component: comments_stream
 component: compare_plans_modal
 component: confirm_leave_channels_modal
-component: confirm_skip_speed_bump_modal
 component: connectable_contacts_dm_invite_modal
 component: connectable_contacts_profile_flexpane
 component: contact_information_profile_section
@@ -289,7 +288,6 @@ component: invite_client_placeholder
 component: invite_coworker_placeholder
 component: invite_reminder_resend_invite_modal
 component: invite_request
-component: invite_teammates_sidebar_banner
 component: japan_beta_send_btn_banner
 component: jp_pocket_guide_add_icon
 component: jp_pocket_guide_add_icon_intro
@@ -1279,6 +1277,7 @@ element: channel_foreword_email
 element: channel_foreword_solution_template
 element: channel_header_invite_teammates_cta
 element: channel_header_star_icon
+element: channel_id
 element: channel_invites_count
 element: channel_join_banner_close
 element: channel_join_summary_impression
@@ -1369,7 +1368,6 @@ element: confirm_seen_contextual_help_for_section_navigation
 element: confirm_skip
 element: confirm_skip_optimized
 element: confirm_skip_optimized_modal
-element: confirm_skip_speed_bump_modal
 element: confirm_unsend_cmd_z_button
 element: confirmation_custom_solution_modal
 element: connect
@@ -1781,7 +1779,6 @@ element: global_create_menu
 element: go_to_channel
 element: go_to_hub_in_other_workspace
 element: go_to_workspace_link
-element: google_contacts_confirm
 element: google_drive_document
 element: google_drive_presentation
 element: google_drive_spreadsheet
@@ -1978,22 +1975,15 @@ element: interval
 element: invitation_sent
 element: invitations
 element: invite
-element: invite_autocomplete_row
 element: invite_card_cta
 element: invite_card_open_teams_in_channel_modal
 element: invite_custom_message
-element: invite_email_error_token
-element: invite_email_token
-element: invite_literal_row
 element: invite_member_card
 element: invite_member_link
 element: invite_more_people
 element: invite_reminders_resend
 element: invite_reminders_resend_modal_close
-element: invite_suggestion_dropdown
 element: invite_teammates
-element: invite_teammates_banner_cta
-element: invite_teammates_banner_dismiss
 element: invite_to_scdm
 element: invite_to_workspace
 element: invite_to_workspace_modal_speedbump_cancel_button
@@ -2893,8 +2883,6 @@ element: sort_descending
 element: sort_list
 element: speed_bump_cancel_button
 element: speed_bump_continue_button
-element: speed_bump_invite_now
-element: speed_bump_remind_me_later
 element: speedbump_cancel_exit_modal
 element: speedbump_cancel_record_type_id_change
 element: speedbump_continue_exit_modal
@@ -4041,9 +4029,7 @@ step: setup_data_residency
 step: setup_invites_contacts_modal
 step: setup_invites_multi_input
 step: setup_invites_sent
-step: setup_invites_sidebar_banner
 step: setup_invites_skip_modal
-step: setup_invites_skip_modal_speed_bump
 step: setup_invites_skip_optimized_modal
 step: setup_layout_modal
 step: setup_shared_channel_creator_welcome_modal
