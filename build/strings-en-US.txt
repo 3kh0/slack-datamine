@@ -888,6 +888,7 @@ advanced-search.7466239: Channel membership
 advanced-search.0385c3e: Channel types
 advanced-search.18e03e2: Channels
 advanced-search.381c4bf: Clear Filters
+advanced-search.1c915d9: Clear Filters ({filterCount})
 advanced-search.5d73cc3: Created by
 advanced-search.7d3bd16: Created by me
 advanced-search.817b79b: Creator
@@ -902,6 +903,7 @@ advanced-search.3f66052: From
 advanced-search.aef3650: In
 advanced-search.c75d097: In a thread
 advanced-search.264f1bf: In {teamName}
+advanced-search.118ebb5: Learn more about search
 advanced-search.d051707: Link
 advanced-search.d0f1872: Linked to Salesforce
 advanced-search.d219c68: Location
@@ -3107,7 +3109,6 @@ browsers.a1fd67e: Assemble your dream team
 browsers.acdac20: Audio
 browsers.16108d9: Bring in external files, co-write in a canvas, or track tasks in a list. All your essentials are searchable and side by side in the flow of work.
 browsers.bd3d2ce: Bring your team members into Slack to start working better together. Send invites via email, or get a handy link to share.
-browsers.e2d397a: Canvases
 browsers.6dac438: Canvases and Documents
 browsers.381c4bf: Clear Filters
 browsers.e86dc23: Collect and share information with a canvas, or track your next project in a list.
@@ -3136,7 +3137,6 @@ browsers.09e871c: Images
 browsers.a937c4a: Invite People
 browsers.e1eb97a: Invite people
 browsers.6a1f815: Invite your team to Slack
-browsers.f97fe65: It may be that you don’t have any files yet, or that there aren’t any that fit your current filters.
 browsers.583c9e2: Last updated
 browsers.57c9502: Lists
 browsers.0c77aee: Media
@@ -3151,7 +3151,6 @@ browsers.10d98b5: New List
 browsers.a12605f: Newest user group
 browsers.f849f7a: No files found
 browsers.ed2dbf1: No files have been shared in this channel yet
-browsers.1a46941: No files yet
 browsers.b993b0c: No results
 browsers.dd2c4c8: No user groups have been created yet
 browsers.10f7d72: Oldest user group
@@ -3194,11 +3193,8 @@ browsers.5cb5481: View as list
 browsers.74da170: Workspace Admin
 browsers.345f223: Workspace Owner
 browsers.e800137: You may want to try adjusting your filters.
-browsers.97642f5: Your recently viewed or updated files will be shown here.
 browsers.13105f4: Z to A
-browsers.019c2db: {filterCount} {filterCount, plural, =1 {Filter} other {Filters}} 
 browsers.f54a4a2: {numberChosen, plural, =1 {# Type} other {# Types}}
-browsers.3876d0b: {title}, Folder
 browsers.e12e18a: {totalCount} recommended {totalCount, plural, =1 {result} other {results}}
 browsers.ab0a9ba: {totalCount} {totalCount, plural, =1 {member} other {members}}
 browsers.32d3bde: {totalCount} {totalCount, plural, =1 {result} other {results}}
@@ -3266,7 +3262,6 @@ calendar.3819617: Every {interval} months
 calendar.248ec95: Every {interval} weeks
 calendar.e3dd2ba: Every {interval} years
 calendar.33ee1fa: Everyone available
-calendar.70def42: Everyone else declined
 calendar.5d5afa0: Failed to attach file. Please try again.
 calendar.2d065b3: Failed to attach files. Please try again.
 calendar.8912d08: Failed to remove file. Please try again.
@@ -3292,12 +3287,7 @@ calendar.ee6dbb8: In {minutes}m
 calendar.e6e936f: Invite some guests
 calendar.04e13b0: It looks like you’re still working on this. You will lose the info you’ve entered so far if you leave now.
 calendar.e0d7314: Join
-calendar.2d96b5a: Join & Record Notes
-calendar.99cba5c: Join Google Meet
 calendar.ecb6b1b: Join Huddle
-calendar.06d0755: Join Teams
-calendar.98768a8: Join Zoom
-calendar.0718171: Just you
 calendar.ced7d4a: Keep Editing
 calendar.7e3520a: Leave
 calendar.c2e9847: Link copied
@@ -3307,14 +3297,9 @@ calendar.7c89bc2: Looks like <calendar-name>calendar</calendar-name> is installe
 calendar.56dd8d0: Maybe
 calendar.14e998e: Meeting Details
 calendar.0dc60af: Meeting Notes
-calendar.f337ac0: Meeting actions
 calendar.7929dc5: Meeting associated with the channel.
 calendar.551fe86: Meeting in progress
 calendar.ae3cd65: Meeting notes
-calendar.317411b: Meeting reminder {current} of {total}: {title}
-calendar.d2429bc: Meeting reminder {current} of {total}: {title} starts {time}
-calendar.7c5e00a: Meeting reminder: {title}
-calendar.5cb0ee7: Meeting reminder: {title} starts {time}
 calendar.cf829f1: Meeting reminders
 calendar.6992c2f: Meeting room
 calendar.3e5049e: Meeting starts in about {hours, plural, one {# hour} other {# hours}}
@@ -3350,9 +3335,7 @@ calendar.50f9428: Previous
 calendar.237dfa0: Private
 calendar.9e2ff6c: RSVP
 calendar.53e2326: Re-fetching availability…
-calendar.3cd073a: Record Notes
 calendar.9b98e1a: Recording
-calendar.28db595: Remind Me When It Starts
 calendar.e963907: Remove
 calendar.ecc2f12: Remove channel from meeting
 calendar.12245b8: Remove {channelName} from this meeting? The meeting will no longer appear in the channel.
@@ -3405,20 +3388,15 @@ calendar.d1b5ec6: {actorName} added <b>{meetingTitle}</b> to this channel. <a>Vi
 calendar.d8818e2: {count, plural, =1 {# person} other {# people}} invited
 calendar.45d5eeb: {count, plural, =1 {# reply} other {# replies}}
 calendar.39447c9: {count, plural, one {{names} was invited to a {provider}.} other {{names} were invited to a {provider}.}}
-calendar.546e5f8: {count} people invited
 calendar.7e20641: {current} of {total}
 calendar.36d21ec: {days, plural, other {# days}}
 calendar.61dad27: {day} at {time}
 calendar.a779798: {frequency} on day {dayNumbers}
 calendar.3ed49c0: {frequency} on {days}
 calendar.dfafda2: {hours} hr
-calendar.e6f4839: {joinText}, opens in new window
 calendar.09a22c2: {minutes} min
 calendar.08f7b00: {organizerPossesive} meeting
-calendar.b837ab7: {recordNotesText}, opens in new window
 calendar.c4f8e1e: {replyCount, plural, =1 {# reply} other {# replies}}
-calendar.72af9c9: {title}, opens event details
-calendar.1e44bbd: {title}, opens in new window
 calendar.5b218e2: {weekday}, {month} {day}
 calendar.38b2a8e: {yes} yes, {maybe} maybe, {awaiting} awaiting
 calls.941865e: (Optional) To give camera access to Slack please check your system preferences, <a>click here</a>
@@ -9881,7 +9859,7 @@ files.635bf9e: Restore {fileType, select, quip {canvas} other {list}}
 files.94488e0: Restore {fileType, select, quip {canvas} other {list}} {title}
 files.b54d624: Restored
 files.0be7207: Revoke
-files.53f2a77: Revoke it
+files.277e2db: Revoke It
 files.5f9545e: Revoke public file link
 files.efc007a: Save
 files.d882158: Save for later
@@ -11056,13 +11034,10 @@ huddles.ab359f9: I’m Still Here
 huddles.9a3f652: JOIN
 huddles.56ed65d: Jazz Snaps
 huddles.e0d7314: Join
-huddles.99cba5c: Join Google Meet
 huddles.ecb6b1b: Join Huddle
 huddles.6f3b15f: Join Meeting
 huddles.a26617c: Join Meeting (opens in new tab)
 huddles.aa3a4dd: Join Now
-huddles.06d0755: Join Teams
-huddles.98768a8: Join Zoom
 huddles.ecf76d2: Join a huddle in {displayName}?
 huddles.2e0db25: Join huddle
 huddles.953e5f3: Join huddle in {channelEntity}
@@ -14669,7 +14644,6 @@ modernselling.737bca6: <span className="sk_highlight">{person}</span> created a 
 modernselling.b89b39b: <span className="sk_highlight">{person}</span> just closed a deal and it’s a win! Congratulations, team!
 modernselling.99b586a: <strong>Generating CSV.</strong> It will be sent to you in Slack when it’s ready.
 modernselling.61dd9b1: <strong>Next step</strong> on those opportunities have not been updated for more than 30 days. Time to get them updated!
-modernselling.51049ef: <strong>Return</strong> to add
 modernselling.bdfbdf3: <strong>{user}</strong> will be added as a Salesforce user, and will be able to manage individual records and customize record lists.
 modernselling.b70a763: <viewDetailsLink>View details</viewDetailsLink> or <tryAgainLink>try again</tryAgainLink>
 modernselling.ae40845: A channel
@@ -14719,7 +14693,6 @@ modernselling.5525beb: Add people individually
 modernselling.730c3b9: Add sort
 modernselling.96f14af: Add team members to help your sales team stay in the know with less effort.
 modernselling.7de2155: Add with Slackbot
-modernselling.6ba88cb: Add “{filterQuery}”
 modernselling.b68734c: Added
 modernselling.82c1bda: Added {formattedDate}
 modernselling.efd4d76: Additional stage value required to enable new notifications <a>Set up</a>
@@ -14833,7 +14806,6 @@ modernselling.177a97d: Connected to {total, select, 1 {{firstOrgName}} other {{f
 modernselling.6c6e03b: Connected 👍
 modernselling.1dbb352: Connection error
 modernselling.5758fcd: Contacts and leads
-modernselling.2bb2fcc: Contain
 modernselling.2e02623: Continue
 modernselling.5b5bef0: Continue without saving changes?
 modernselling.8e3df45: Copied
@@ -14881,13 +14853,11 @@ modernselling.ed28e06: Disconnect
 modernselling.3ad7e8b: Disconnect {orgName}
 modernselling.838b442: Disconnect {orgName} from Sales
 modernselling.771e05f: Disconnected
-modernselling.bb60a73: Do not contain
 modernselling.40d9996: Does not have access
 modernselling.e9b450d: Done
 modernselling.636daad: Don’t send this notification if you created the opportunity
 modernselling.7269ffb: Don’t send this notification if you made the update
 modernselling.c0b899d: Drag file here or <span>browse files</span>
-modernselling.910acb4: Duplicate entries
 modernselling.13f7aee: Earlier
 modernselling.eef0cc9: Easily add multiple Salesforce orgs to keep track of your deals in one place.
 modernselling.5301648: Edit
@@ -14923,7 +14893,6 @@ modernselling.4a732ef: Everyone will need to recreate their custom notifications
 modernselling.070551c: Ex. Opportunities closing soon
 modernselling.50e2ca8: Ex. Opportunities, accounts, cases
 modernselling.d6c1aa2: Ex. {dateExample}
-modernselling.60db9ab: Exclude roles with <strong>any</strong> keyword match in their names
 modernselling.51afbf1: Exclude the person who created the opportunity
 modernselling.4f23c07: Exclude the person who made the update
 modernselling.fd504ca: Existing sales notifications will stop sending to channels not in those workspaces. The people who created the notifications won’t be notified.
@@ -15003,12 +14972,10 @@ modernselling.f132267: Import CSV file
 modernselling.9d79397: Importing contacts… You can continue using Slack.
 modernselling.11c54a5: Include
 modernselling.ea0bef9: Include Slack Connect external channels
-modernselling.81d37cd: Include roles with <strong>any</strong> keyword match in their names
 modernselling.89679c9: Indicates a required field
 modernselling.54c5a03: Inline editing is disabled for this list view
 modernselling.5c1e627: Inline editing is disabled for {objectLabelPlural} in list views
 modernselling.899e592: Integration
-modernselling.9dd8ea8: Invalid entry
 modernselling.19f405c: Invite Pending
 modernselling.43793d8: It should contain only emails for each person to be added, separated by commas.
 modernselling.3cd1fd3: It’s kind of a big deal — but not as big as your next one! You’re on your way to using Slack to power your deals.
@@ -15081,7 +15048,6 @@ modernselling.b12b94e: Match columns to contact fields
 modernselling.8a95978: Match columns to lead fields
 modernselling.a95e85a: Max
 modernselling.e2e8c01: Maximum number of fields reached
-modernselling.0de54fa: Maximum of {count} characters exceeded
 modernselling.b887ba2: Median
 modernselling.4738f60: Meet your first contact — it’s you! ✨
 modernselling.f350e0b: Member actions
@@ -15091,7 +15057,6 @@ modernselling.115d666: Migrate Automatically
 modernselling.42e65c9: Migration in Progress
 modernselling.e1b4f08: Migration in progress for <b>{orgName}</b>. Limited functionality until complete.
 modernselling.7eb0cee: Min
-modernselling.d2aa0d7: Minimum of {count} characters required
 modernselling.05b5bd6: Missing field
 modernselling.43bf31b: Missing next steps
 modernselling.082bc37: Month
@@ -15677,8 +15642,6 @@ modernselling.d6ee4cf: does not equal
 modernselling.8cfa56f: ends with
 modernselling.a1e8770: equal to
 modernselling.712db7f: every weekday (Monday to Friday)
-modernselling.9586b7a: ex. ACME, CSE
-modernselling.92e9076: ex. AMER SVP, RVP, Retail
 modernselling.abc5877: excluding the person who created the opportunity
 modernselling.b2fd2f0: excluding the person who made the update
 modernselling.e0996a3: first
@@ -15798,11 +15761,9 @@ modernselling.5e41e91: {calculation, plural, =1 {# calculation} other {# calcula
 modernselling.01cbe88: {closingInValue, plural, one {Day} other {Days}}
 modernselling.46abfc6: {column} contains non-numeric values, but {field} requires a number.
 modernselling.dc7c4a5: {count, plural, =0 {None} other {#}} active
-modernselling.b757996: {count, plural, =1 {# character} other {# characters}} left
 modernselling.1069716: {count, plural, =1 {# field} other {# fields}} mapped
 modernselling.aa11862: {count, plural, =1 {# new notification} other {# new notifications}}
 modernselling.7510975: {count, plural, =1 {# notification} other {# notifications}}
-modernselling.ffc6a9a: {count, plural, =1 {# token} other {# tokens}} left
 modernselling.a929a1f: {count, plural, one {<strong>{name}</strong>} other {They}} will no longer have access to view the <strong>Sales</strong> tab using <strong>{orgName}</strong> in Slack. However, they won’t be removed from any channels.
 modernselling.501df2e: {count, plural, one {<strong>{name}</strong>} other {They}} won’t be able to view the <strong>Sales</strong> tab in Slack. They won’t be removed from any channels.
 modernselling.ec910fd: {count, plural, one {Access removed from {name}.} other {Access removed from # people.}}
@@ -15822,7 +15783,6 @@ modernselling.28545a1: {goButtonText} this to {memberCount, plural, =1 {{memberC
 modernselling.e7cc4d5: {hiddenCount} hidden
 modernselling.e8b24ff: {icon} Edit view
 modernselling.784c365: {label}, read only
-modernselling.9614033: {maxTokens} keywords maximum
 modernselling.c55978e: {name} ({count, plural, =1 {# member} other {# members}})
 modernselling.7124cfc: {name} <b>(Current)</b>
 modernselling.8d46bfa: {numErrors, plural, =1 {# error} other {# errors}}, {numSaved} saved
@@ -17208,6 +17168,7 @@ prefs.5397e05: Yes
 prefs.552b22b: You can also press F7 to turn this on or off
 prefs.caa8542: You can improve the way you use Slack by learning our {keyboardShortcutsLink}.
 prefs.e9e6dd4: You can manage translation settings in {languageRegionLink}
+prefs.78be678: You won’t receive notifications on Saturday or Sunday.
 prefs.dcf07a3: Your browser does not support desktop notifications. <a>Try using our app instead.</a>
 prefs.de598e8: Your emails with contacts and leads are saved to the matching records.
 prefs.7597767: Your emails with contacts and leads aren’t logged.
@@ -25327,7 +25288,6 @@ slides.f71cfe4: Chart caption
 slides.fa893d8: Clean
 slides.6214374: Clip: {title}
 slides.bbfa773: Close
-slides.2bb2fcc: Contain
 slides.db79bb7: Could not access your microphone or camera. Please check permissions.
 slides.6f48a98: Couldn’t save the recording. Please try again.
 slides.1f336a8: Couldn’t start recording. Please try again.
@@ -25424,7 +25384,7 @@ snippet-dialog.856c440: Create snippet
 snippet-dialog.494ee98: Delete Snippet
 snippet-dialog.aee7311: Edit snippet
 snippet-dialog.33ce417: Loading…
-snippet-dialog.8644b7f: No, keep it
+snippet-dialog.5e44616: No, Keep It
 snippet-dialog.bbb40a6: Plain Text
 snippet-dialog.87b1242: Press {key} to resume editing.
 snippet-dialog.66b47ef: Press {key} to stop editing.
@@ -25437,7 +25397,7 @@ snippet-dialog.e83add9: Sorry, something went wrong with saving your changes. Tr
 snippet-dialog.932fc13: Title (optional)
 snippet-dialog.3deb745: Type
 snippet-dialog.c3447e7: Wrap
-snippet-dialog.67b3761: Yes, discard the changes
+snippet-dialog.0f821a5: Yes, Discard the Changes
 snippet-dialog.bdfa8e1: snippet.txt
 social_templates.6e6ddae: Avatars of various people
 social_templates.0323bf6: Invite teammates
@@ -26498,7 +26458,6 @@ threads.1230f01: How should I use Slackbot for my role? {tabKey} to autofill
 threads.3a55dfc: If the problem persists, please <a>drop us a line.</a>
 threads.e06a33d: Jump to bottom
 threads.c76fa5a: Jump to bottom of thread
-threads.0718171: Just you
 threads.f5358c0: Last edited today at {time}
 threads.8733eb3: Last edited {time_ago}
 threads.417add4: Last reply today at {time}
