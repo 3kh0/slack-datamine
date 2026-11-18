@@ -1914,6 +1914,7 @@ app_launcher.68f7373: Browse Slack Marketplace
 app_launcher.98e11fe: Browse agents
 app_launcher.f840ac6: Canceled
 app_launcher.6ccb600: Categories
+app_launcher.a8b899f: Couldn’t load more requests. Try again.
 app_launcher.18e5ff2: Filter apps
 app_launcher.abd44ca: Get more value from your Atlassian tools
 app_launcher.b648590: Go to app
@@ -1927,6 +1928,8 @@ app_launcher.03a322d: Open in split view
 app_launcher.4fd31fd: Requested {ago}
 app_launcher.d62b7f5: Requests ({count})
 app_launcher.c462b3b: See Upgrade Options
+app_launcher.2941c5c: See all
+app_launcher.25911d4: Show more
 app_launcher.9c5462b: Slack makes the tools you already use even better by adding apps from Atlassian like Jira, Trello, and more.
 app_launcher.621521f: Untitled
 app_launcher.a9e7f8d: Upgrade for unlimited apps
@@ -2301,6 +2304,7 @@ assistant.c9867eb: Last updated {date}
 assistant.9f15288: Layout was difficult to read
 assistant.2145a1d: Layout was easy to read
 assistant.1f916b9: Learn about muting
+assistant.7e3520a: Leave
 assistant.74a796c: Leave channel
 assistant.3a4f3b7: Left {channelName}
 assistant.9d81860: Less detail
@@ -2608,6 +2612,7 @@ assistant.b7814b1: View AI Terms and Conditions
 assistant.cd83a0e: View full summary
 assistant.6a610bf: View summary
 assistant.c5734de: Voice calls aren’t supported in this browser.
+assistant.24ac374: Voice chat with Slackbot
 assistant.2dd6967: Voice conversation failed
 assistant.9f03da2: Voice settings
 assistant.fc698d4: Want to add, update, or organize list items? I can help.
@@ -5549,6 +5554,7 @@ classic_nav.c47ae15: Help
 classic_nav.c05ea34: Help, with {unreads, plural, =1 {# unread} other {# unreads}}
 classic_nav.eff152e: Hide workspace switcher
 classic_nav.90ccd64: History
+classic_nav.615e0f7: History Navigation
 classic_nav.8c99a8e: How does this impact your current use of Slack or how could it potentially improve your use of Slack in the future?
 classic_nav.2e29f8d: How would you describe the search results you’re seeing?
 classic_nav.a0767c2: Huddle
@@ -5677,7 +5683,6 @@ client.d1a7fa4: *{command}* failed because the app did not respond. Please try a
 client.8f41805: *{command}* failed with an unknown error.
 client.2060c34: *{command}* failed with the error "{reason}"
 client.04da529: *{command}* is not supported in threads. Sorry!
-client.7efe9c3: <strong>Caret browsing turned on.</strong> Press F7 to turn off.
 client.cde3c02: About {userGroupName}
 client.81c0d91: Activity
 client.4e7afeb: Admin
@@ -5693,7 +5698,6 @@ client.77dfd21: Cancel
 client.b1c58b1: Canvas for channel {channelName}
 client.41d1774: Canvas for conversation with {memberName}
 client.e2d397a: Canvases
-client.7c932fc: Caret browsing turned off
 client.8703a74: Catch up
 client.94dadf0: Channel Templates
 client.164ed0a: Channel options
@@ -5723,7 +5727,6 @@ client.cfed893: Huddles
 client.56e2f5d: Later
 client.57c9502: Lists
 client.0c77aee: Media
-client.4ac8baf: More…
 client.8b4785f: New Team Launchpad
 client.ddee1be: New User Launchpad
 client.1ed2e7b: New message
@@ -5777,7 +5780,6 @@ client.6ce08d6: To-dos
 client.24345a1: Today
 client.fdebf66: Todo
 client.a5aa418: Turn On
-client.92da589: Turn on caret browsing?
 client.e6ba0dd: Unreads
 client.4add952: User groups
 client.b807833: Welcome back
@@ -5785,7 +5787,6 @@ client.e38e3ca: Workflow Creation
 client.5d7024a: Workflow Editor
 client.825ce9e: Workflows
 client.eff15f6: Workflows managed by you
-client.e297253: You can navigate messages with a text cursor. Press F7 to turn off.
 client.47b649e: You don’t have permission to start a huddle. You can use /huddle to join an active huddle.
 client.289f364: Your workflow templates
 client.58e4b6b: with an announcement
@@ -9460,6 +9461,7 @@ file.f334cf9: View transcript
 file.89a286c: Workflow options
 file.870984d: {date} at {time}
 file.26d4d69: {name} (you)
+file.c11481b: };var lr=a(
 file.7cbc1b0: ⌘ Click
 file.362e018: ⌘ Opt Click
 file-collection.50d6325: A-Z
@@ -10501,6 +10503,7 @@ gx_surveys.6eef664: None
 gx_surveys.6e6a6f2: Other
 gx_surveys.2dacf65: Submit
 gx_surveys.29c3140: Survey
+gx_surveys.0a11209: Tell us more (optional)
 gx_surveys.71fa63b: Thank you for your feedback!
 gx_surveys.d35b0b1: The difference between Slack and Teams
 gx_surveys.ee05149: While we work on improvements, here is some information that can help.
@@ -11157,6 +11160,7 @@ huddles.7af4511: No one is in the huddle yet.
 huddles.0475d95: No one is sharing their screen
 huddles.a4a30dd: No one will be able to see or hear you, and you’ll need to rejoin the huddle to apply new browser permissions.
 huddles.b993b0c: No results
+huddles.2072c62: No times when you and {name} are both free on this day
 huddles.9ef583e: No, Continue Without Camera and Mic
 huddles.a3c7048: No, members can’t start or join huddles
 huddles.45e118d: Normal
@@ -11582,7 +11586,6 @@ huddles.a9ff4d7: and {tabLabel}
 huddles.aa9a2c5: audio and video calls with people outside Slack
 huddles.5f07acb: direct message
 huddles.a71dab9: draggable
-huddles.4b4d0f7: in n?n.meeting:await (async a=>{let n=(0,un.Fw)(t(),a);return n&&!(0,c9.Q)(n)?n:await e((0,ui.kh)({eventLinkId:a,reason:
 huddles.71f8e79: none
 huddles.da7a687: off
 huddles.db3d405: on
@@ -12248,6 +12251,7 @@ joiner_launchpad.57c546d: {count, plural, =1 {# file} other {# files}}
 jp_pocket_guide.ac7577d: A channel is a dedicated space for a topic or project
 jp_pocket_guide.b6ecc2b: Add a team icon
 jp_pocket_guide.eaf432d: Add people directly
+jp_pocket_guide.d624a01: Add the people you work with here so everyone can share the same context.
 jp_pocket_guide.b4ba0f5: Add your AI agents and apps to Slack
 jp_pocket_guide.119e7e8: Add your workspace icon
 jp_pocket_guide.a085703: Align your team, assign tasks, and share updates
@@ -12276,13 +12280,24 @@ jp_pocket_guide.e9ed78b: Email template preview
 jp_pocket_guide.b396d20: Explore tutorials
 jp_pocket_guide.abe410f: Failed to load image. Please try another file.
 jp_pocket_guide.64e2053: File must be less than {maxFileSize} MB.
+jp_pocket_guide.18841ea: Find all your apps and agents
+jp_pocket_guide.867f175: Find all your apps and tools
 jp_pocket_guide.31df1ec: Find help anytime
+jp_pocket_guide.11f09b0: Finish setting up Slack
 jp_pocket_guide.fe6ee7f: Finishing setup first makes their onboarding better.
 jp_pocket_guide.c4d63e4: From:
+jp_pocket_guide.48de7ed: Getting you set up to <highlight>chat with your team</highlight>
+jp_pocket_guide.a4e536e: Getting you set up to <highlight>collaborate with your team and AI agents</highlight>
+jp_pocket_guide.8567cae: Getting you set up to <highlight>consolidate your apps and tools in one place</highlight>
+jp_pocket_guide.b6fbc59: Getting you set up to <highlight>see the main features</highlight>
+jp_pocket_guide.65b4c0b: Getting you set up to <highlight>track projects</highlight>
+jp_pocket_guide.8878cef: Getting you set up to <highlight>work with clients, vendors, and partners</highlight>
 jp_pocket_guide.eabdf94: Gmail
 jp_pocket_guide.40c0974: Go to Channel
 jp_pocket_guide.f6684a3: Great progress
 jp_pocket_guide.8b531d8: Halfway there
+jp_pocket_guide.892b573: Here’s where you can manage your AI apps and agents. You can also browse additional productivity tools to help your agents work smarter.
+jp_pocket_guide.be1dd53: Here’s where you can manage your productivity apps and set up automated workflows. You can also browse additional apps and AI agents to install.
 jp_pocket_guide.47d246c: Hide template preview
 jp_pocket_guide.32594a8: Icon must be a .gif, .jpg, or .png.
 jp_pocket_guide.0c806f0: Icon must be at least {minimumIconWidth} x {minimumIconHeight} pixels.
@@ -12294,6 +12309,7 @@ jp_pocket_guide.7bb4405: Installed
 jp_pocket_guide.07cef92: Introduce your colleagues to a simpler way to work.
 jp_pocket_guide.b05680b: Invite Teammates
 jp_pocket_guide.722fe78: Invite your team
+jp_pocket_guide.bcbdd35: Invite your team to start collaborating
 jp_pocket_guide.93be9ce: Learn about channels
 jp_pocket_guide.ee7c61a: Less than {maxFileSize} MB
 jp_pocket_guide.2c9e20b: Let’s organize your team’s projects. How would you like to start?
@@ -12313,6 +12329,8 @@ jp_pocket_guide.be25250: Productivity & Project Management
 jp_pocket_guide.efc007a: Save
 jp_pocket_guide.9d3449e: See Slack’s main features
 jp_pocket_guide.ce0a0a4: See all apps
+jp_pocket_guide.c92c86f: Send updates, track decisions, and keep all your files related to a topic or project in one spot.
+jp_pocket_guide.b9a203c: Set Up Slack
 jp_pocket_guide.b349455: Set up a team conversation
 jp_pocket_guide.b04a20b: Set up an external conversation
 jp_pocket_guide.3960700: Set up your Slack
@@ -12332,6 +12350,7 @@ jp_pocket_guide.626e7ef: Track a project in Slack
 jp_pocket_guide.8bdf057: Upload
 jp_pocket_guide.77d2668: Upload an icon for your workspace
 jp_pocket_guide.2379761: Use Template
+jp_pocket_guide.bdca224: Use channels to keep your chats organized
 jp_pocket_guide.6382fbc: Use email template
 jp_pocket_guide.9270289: Use invitation template
 jp_pocket_guide.7d9ff4f: Visibility
@@ -12340,6 +12359,7 @@ jp_pocket_guide.29d62c6: Welcome to Slack, {name}!
 jp_pocket_guide.4ace4a0: We’re happy you’re here. Let’s set up your workspace. In Slack, a workspace is where your team collaborates. Think of it like your new virtual office. It brings your people, tools, and files into one place, making it easier to work together.
 jp_pocket_guide.1a28672: What do you want to call your team’s chat?
 jp_pocket_guide.a7514d4: What project would you like to track?
+jp_pocket_guide.40d1fa2: When you’re ready, you can find the rest of your setup tasks here.
 jp_pocket_guide.e06bbcc: Workspace icon illustration
 jp_pocket_guide.41a2acd: Workspace icon preview
 jp_pocket_guide.2b0e45d: Workspace successfully created
@@ -12353,7 +12373,6 @@ jp_pocket_guide.4694b68: You’re ready to invite your team
 jp_pocket_guide.9845cf5: team-chat
 jp_pocket_guide.d54dfea: team-project
 jp_pocket_guide.60c4aa9: {completedCount} of {totalCount} tasks completed
-jp_pocket_guide.47fb457: {count, plural, =1 {# app found} other {# apps found}}
 jp_pocket_guide.0fa7422: {minimumIconWidth} x {minimumIconHeight} pixels minimum
 jp_pocket_guide.9ae495b: {remainingTasks, plural, =1 {# task left} other {# tasks left}}
 jp_pocket_guide.76dfa4b: {title}, completed
@@ -12369,28 +12388,71 @@ keyboard_key.4200997: up arrow
 keyboard_shortcuts.2f03709: {shortcutTitle}: {keyNames}
 latest_message_preview.905cb32: You
 launch_market_segmentation_modal.356a192: 1
+launch_market_segmentation_modal.fee1558: 1-10
+launch_market_segmentation_modal.dcbd040: 11-49
+launch_market_segmentation_modal.878cbf3: 50-499
+launch_market_segmentation_modal.daf5121: 500+
 launch_market_segmentation_modal.242fd79: <lead>To get you started…</lead><headline>Enjoy a free 30-day premium trial</headline>
 launch_market_segmentation_modal.653b88b: AI works across all of it.
+launch_market_segmentation_modal.1eda237: Administrator
 launch_market_segmentation_modal.e69873e: And Slack becomes where work gets done.
 launch_market_segmentation_modal.9c55147: Chat and Collaboration
+launch_market_segmentation_modal.5a91c17: Chat with my team
+launch_market_segmentation_modal.af5c450: Collaborate with people and AI agents
+launch_market_segmentation_modal.a490af2: Collaborating on a class project
+launch_market_segmentation_modal.1b07e5d: Communicating with a class
+launch_market_segmentation_modal.8fc2905: Communicating with a research team
+launch_market_segmentation_modal.605c510: Communicating within/across departments
+launch_market_segmentation_modal.35b4c55: Consolidate my apps and tools in one place
+launch_market_segmentation_modal.880e76e: Construction and Real Estate
+launch_market_segmentation_modal.7b0304e: Coordinating campus initiatives
 launch_market_segmentation_modal.aaf87fe: Education
+launch_market_segmentation_modal.2249e77: Education and Research
+launch_market_segmentation_modal.7494949: Educator
 launch_market_segmentation_modal.c5497bc: Events
 launch_market_segmentation_modal.43824e4: For customer and client communication
+launch_market_segmentation_modal.89c5873: Friends or family chat
 launch_market_segmentation_modal.90e40d5: Get started
 launch_market_segmentation_modal.6c55dff: Get the best of Slack, free for 30 days.
+launch_market_segmentation_modal.d5f3ba2: Hobbies, volunteering or other special interests
+launch_market_segmentation_modal.685c83c: How big is your org?
+launch_market_segmentation_modal.66c44f9: How do you want to use Slack?
+launch_market_segmentation_modal.2e5e9c0: How familiar are you with Slack?
 launch_market_segmentation_modal.3068a95: I just want to check it out
+launch_market_segmentation_modal.78a6f4a: I’m just testing it out
+launch_market_segmentation_modal.ba87811: I’ve managed Slack workspaces
+launch_market_segmentation_modal.59f71cd: I’ve used Slack before
 launch_market_segmentation_modal.09b2882: Let’s Go
 launch_market_segmentation_modal.f4a105f: Loading next question
+launch_market_segmentation_modal.eee9e18: Managing a student organization
+launch_market_segmentation_modal.f5a5a33: Managing teaching assistants
+launch_market_segmentation_modal.e71f214: Manufacturing and Engineering
 launch_market_segmentation_modal.f95e683: Market segmentation modal
 launch_market_segmentation_modal.3671c08: New to Slack
 launch_market_segmentation_modal.bc98198: Next
 launch_market_segmentation_modal.3a01f52: No commitments. Your Business+ plan reverts to the free version of Slack when the trial ends.
 launch_market_segmentation_modal.6e6a6f2: Other
+launch_market_segmentation_modal.a515280: Other industry
+launch_market_segmentation_modal.24720de: Professional Services
+launch_market_segmentation_modal.93823d9: Professional community or network
 launch_market_segmentation_modal.dd64c0f: Project Management
+launch_market_segmentation_modal.dadedec: Running a department or program
+launch_market_segmentation_modal.7717d63: Running an operational team
 launch_market_segmentation_modal.3da4745: Skip
+launch_market_segmentation_modal.4447250: Software and Technology
+launch_market_segmentation_modal.42b3279: Student
+launch_market_segmentation_modal.5b97d4f: Supporting student organizations
+launch_market_segmentation_modal.0a11209: Tell us more (optional)
 launch_market_segmentation_modal.3de3cef: To explore AI tools and apps
+launch_market_segmentation_modal.77b1b2c: Track projects
+launch_market_segmentation_modal.4531874: We’ll suggest the right setup for your goals.
+launch_market_segmentation_modal.9199952: We’ll tailor recommendations based on your experience.
+launch_market_segmentation_modal.3c55714: We’ll use this information to plan future improvements.
+launch_market_segmentation_modal.3779ca0: What does your organization do?
+launch_market_segmentation_modal.7dd7afe: Which best describes you?
 launch_market_segmentation_modal.00040ba: Work
 launch_market_segmentation_modal.6b168f9: Work starts with a message.
+launch_market_segmentation_modal.f739980: Work with clients, vendors, and partners
 launch_market_segmentation_modal.3bc45fa: Working with partners and vendors
 launch_market_segmentation_modal.c4902a1: Your apps work alongside it.
 launch_market_segmentation_modal.a7c1d9f: chat and collaborate
@@ -13751,6 +13813,7 @@ menu.42283d9: Move conversation
 menu.2951b94: Move to new section
 menu.98d183e: Move to section
 menu.b4a8641: Move to thread
+menu.91fa860: Move to thread (modal)
 menu.c0a3ef6: Move to…
 menu.945c779: Move {entityType}
 menu.f589ed2: Move {itemCount, plural, =1 {channel} other {channels}}
@@ -14483,6 +14546,7 @@ message_pane_foreword.ee0920a: <b>There’s more to this conversation.</b> To se
 message_pane_foreword.235d280: A flat illustration of three diverse people celebrating with a group high-five amidst falling confetti.
 message_pane_foreword.d60bf47: A flat illustration showing a digital board with three task cards, one of which is marked complete with a green checkmark.
 message_pane_foreword.3d2e4d6: A mockup of a chat interface with a header and two user messages, each with an avatar and placeholder text.
+message_pane_foreword.afe4132: A place for important notifications from Slack Security
 message_pane_foreword.4861e60: A preview of a Google Calendar integration within Slack, displaying an event card with the app logo, attendee avatars, placeholder text for details, and action buttons.
 message_pane_foreword.072a1db: Add Context with Slackbot
 message_pane_foreword.0df7338: Add People to Channel
@@ -14494,6 +14558,7 @@ message_pane_foreword.a2bb4ae: Add your whole team
 message_pane_foreword.6e6ddae: Avatars of various people
 message_pane_foreword.164ccfa: Bring your work into Slack
 message_pane_foreword.cf338b6: Browse channel templates
+message_pane_foreword.bd4f6b0: Channels in Slack keep work focused around a specific topic. You can keep all your information related projects attached to the channel so everyone can access.
 message_pane_foreword.2c613b1: Chat with external partners
 message_pane_foreword.31532de: Connect your AI tools
 message_pane_foreword.579f85f: Connect your apps
@@ -14504,6 +14569,7 @@ message_pane_foreword.2ebe5b3: Edit description
 message_pane_foreword.1101582: Help Center
 message_pane_foreword.97fc78f: How your team uses {agent}
 message_pane_foreword.37f2b81: I, however, am not a human. Just a bot (a simple bot, with only a few tricks up my metaphorical sleeve). But I’m still happy you’re here!
+message_pane_foreword.0b098b2: If you have any questions or require support from Slack Security, you can visit the {help_center}
 message_pane_foreword.96ede3e: Illustration of AI tools connecting to Slack
 message_pane_foreword.1aeab0f: Illustration of a sales deal tracking template
 message_pane_foreword.ff77870: Illustration of external partner collaboration template
@@ -14523,6 +14589,7 @@ message_pane_foreword.5be596a: Project starter kit
 message_pane_foreword.7eb71ba: Run a project
 message_pane_foreword.4c852b2: Show less
 message_pane_foreword.25911d4: Show more
+message_pane_foreword.48f7db1: Slack Security
 message_pane_foreword.ac7e9d7: Start an external channel
 message_pane_foreword.61762f3: Start from a template
 message_pane_foreword.bd763cc: Sync your events
@@ -14533,6 +14600,7 @@ message_pane_foreword.6f5eb08: Thread in {channel} · {count, plural, one {# mes
 message_pane_foreword.2d698f0: Track your sales
 message_pane_foreword.8469938: Try It
 message_pane_foreword.b7f9cca: Try this prompt yourself to explore what this agent can do.
+message_pane_foreword.601682d: Welcome to your first channel {name}!
 message_pane_foreword.72353c8: Welcome your team
 message_pane_foreword.3fd30db: What’s on your mind?
 message_pane_foreword.1b462e5: {agent} users this week
@@ -15837,6 +15905,7 @@ monkey_bear.d921a79: Uploading…
 move-message-to-thread.77dfd21: Cancel
 move-message-to-thread.76cdb95: Move
 move-message-to-thread.b4a8641: Move to thread
+move-message-to-thread.ec8035b: Start a thread
 move-message-to-thread.bb12e8a: Threads
 move-message-to-thread.c4f8e1e: {replyCount, plural, =1 {# reply} other {# replies}}
 mpdm_audience_expansion.9fecd8a: <inviter>{actor}</inviter> created {channelLink} from this conversation.
@@ -19335,6 +19404,7 @@ search.ce0c69c: All agents & apps
 search.5f7605d: All answers are kept confidential. For more info, see our <link>privacy policy</link>.
 search.6f3347f: All apps
 search.ee24dda: All automations
+search.3dee1ee: All channel types
 search.844df14: All channels
 search.f7857dc: All files
 search.5a3bbbe: All folders
@@ -19603,7 +19673,6 @@ search.4457abc: Find in conversation ({shortcut})
 search.1c64d2a: Find in saved items
 search.e9d801e: Find in sent messages
 search.125b3ab: Find links and files shared with me about my latest project
-search.2a304b9: Find results related to {searchQuery} or find semantically similar results relevant to me.
 search.64d13ab: Find what’s happening in my important channels today
 search.b6ee7fa: Find your recent searches here
 search.b387df4: Find {itemType} related to {query} or find semantically similar results relevant to me.
@@ -19776,6 +19845,7 @@ search.bc98198: Next
 search.a6fd981: No agents or apps are available in this workspace.
 search.7fee04a: No direct messages match your search.
 search.ac1fe62: No matches in this channel
+search.ea67822: No matches in this conversation
 search.c8ece08: No matches in your suggested records
 search.0f112c9: No matching sessions or workflows
 search.b6b23a4: No message results found, Try <bold>other related matches:</bold>
@@ -19789,10 +19859,12 @@ search.6eef664: None
 search.b1e5359: Not Now
 search.2ceaf96: Not at all, I didn’t find anything useful
 search.404db2b: Not finding what you’re looking for?
+search.4f17eec: Not joined
 search.43ff311: Not on Slack
 search.e08df91: Not really, I found something but it wasn’t very useful
 search.91041c1: Not searching in this channel?
 search.10d4adb: Not searching in this channel? <link>Go to full search ({shortcut})</link>
+search.86f7593: Not searching in this conversation? <link>Go to full search ({shortcut})</link>
 search.53de23f: Not the results you expected?
 search.83423c1: Note:
 search.fed1f5c: Nothing found
@@ -19910,6 +19982,7 @@ search.37929a0: Reply in a thread
 search.c0cbe00: Request to Unlock AI Search
 search.eed6bfb: Required
 search.44c57ab: Reset
+search.39c90eb: Reset to default
 search.612e12d: Results
 search.f2d60b2: Results are sorted by relevance provided by each third party app
 search.cd2f489: Results feel off?
@@ -19919,6 +19992,7 @@ search.b3bd0b5: Resume
 search.9f5cd8a: Retry
 search.d0edfb6: Sales
 search.5f4b3e9: Salesforce
+search.01408b5: Salesforce channels
 search.539132e: Salesforce channels only
 search.f2d37f5: Salesforce results, page {page} of {pageCount}
 search.71b94ef: Salesforce results, {count, plural, =0 {no results found} one {# result found} other {# results found}}
@@ -22077,7 +22151,6 @@ singer.f8c3ebf: Maya needs your sign-off on designs.
 singer.d404968: Medium
 singer.17dc9a8: Meeting
 singer.f8a8cd8: Meeting assistant
-singer.4ad330c: Meeting audio is being recorded.
 singer.100ed08: Meeting controls
 singer.8466b2b: Meeting microphone
 singer.ae3cd65: Meeting notes
@@ -22111,7 +22184,6 @@ singer.4bab2d8: More
 singer.a1e34f9: More actions
 singer.151a837: More audio for this meeting’s canvas.
 singer.9f8eb5f: More for you
-singer.ea31fbd: More next steps
 singer.a94019b: More reactions
 singer.1ddcf19: More thread actions
 singer.e040db2: Motion
@@ -22317,7 +22389,6 @@ singer.e963907: Remove
 singer.a2d32f8: Remove attached window
 singer.8d9c672: Remove from Later
 singer.58c6143: Remove meeting transcript
-singer.05315c0: Remove screenshot
 singer.d3f4cb8: Rename
 singer.497d69b: Replace Draft
 singer.764ace3: Replace your saved message with this draft?
@@ -22363,7 +22434,6 @@ singer.917b574: Saving audio…
 singer.11b99ed: Saving the recording
 singer.56a2285: Saving…
 singer.5a0891e: Say something. The top of the ribbon is you. Play a video to see computer audio below.
-singer.79ffdc6: Say “{phrase}”
 singer.99b812b: Search More Widely
 singer.2e1878c: Search Slackbot conversations
 singer.4fb3393: Search activity
@@ -23038,7 +23108,6 @@ slack-docs.602057c: {numMore} more…
 slack-docs.27dd423: {placeholderTypeName} placeholder
 slack-docs.1c5cfa0: 🎉 Workflow published!
 slack-kit.6936bb1: End date (ex. {dateExample})
-slack-kit.4ac8baf: More…
 slack-kit.ccdaf21: Start date (ex. {dateExample})
 slack_connect.494e134:  Awaiting admin approval from {homeTeam} and {awayTeam}.
 slack_connect.1ab1f19:  Awaiting admin approval from {team}.
@@ -24322,7 +24391,6 @@ slackbot-ai-conversation-tab-view.24345a1: Today
 slackbot-ai-conversation-tab-view.87debd6: Welcome to {teamName}!
 slackbot-ai-conversation-tab-view.57c8f8f: your workspace
 slackbot-ai-nux.3833437: *Ready to give this a try?*
-slackbot-ai-nux.3833437: ===e.alert_type)&&t((0,fO.Br)(e)),
 slackbot-ai-nux.a25d23f: Based on my activity in Slack, what animal would I be?
 slackbot-ai-nux.14b4a31: Catch me up daily on my busiest conversation.
 slackbot-ai-nux.8ae978e: Find action items from my recent conversations.
@@ -25920,6 +25988,7 @@ stories_av.3817098: sent an audio clip and a message, "{messageText}"
 stories_av.bd2c65b: top left
 stories_av.c72457b: top right
 stories_av.399e68d: {speed}x
+stories_av.c11481b: };var lr=a(
 stories_av.548653e: ✨ Effects
 string_format.39fc721: Undo
 suggested_channel_preview.c1b8def: {count, plural, =1 {# person is} other {# people are}} part of the conversation in 
@@ -28126,6 +28195,7 @@ workflow_builder.a45046f: (first matching branch will run)
 workflow_builder.b16c7ac: (optional)
 workflow_builder.c99c13b: ))&&(z=Y.createElement(H),Y.head.insertBefore(z,Y.querySelector(
 workflow_builder.ce5457e: )))}}logDependencies(){if(this.logger.getLogLevel()>n.default.INFO||!this.dependencies)return;let e=this.dependencies.filter(e=>e).map(e=>e.name()).join(", ");this.logger.info(
+workflow_builder.d86b5f3: ),uK=a(
 workflow_builder.45c1127: *There was a problem with this step in the workflow* \n It’s probably a temporary issue. Try again in a few minutes or <{supportLink}|contact Slack support>.
 workflow_builder.1dd2080: *We had a problem loading your spreadsheet.* Learn more about <{gsheetsLink}|Google Sheets for Workflow Builder>.
 workflow_builder.d3bc9a3: , 
