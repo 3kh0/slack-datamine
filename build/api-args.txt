@@ -336,6 +336,7 @@ conversations.meetingnotes.unlock: channel
 conversations.members: channel, limit
 conversations.permissions.accountTypes.list: channel_id, permissions
 conversations.permissions.accountTypes.set: account_type, channel_id, permissions
+conversations.preview: channel_id
 conversations.recommend: channels_info, include_latest_ts, include_purpose, include_scores, limit, query, source, teammate_member_id
 conversations.removeTab: channel_id, id, keep_file_share
 conversations.rename: channel, name, skip_rename_message, validate

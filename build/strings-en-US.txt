@@ -4220,6 +4220,7 @@ channel_details.12f3268: Skill added
 channel_details.f3062b3: Skill set added
 channel_details.62f2fcc: Skill set · stays in sync with the set
 channel_details.e09212c: Skills
+channel_details.fdd777e: Skills Slackbot can use in {channelName}.
 channel_details.3a9eb73: Skills give Slackbot new abilities that everyone in this channel can use.
 channel_details.3da4745: Skip
 channel_details.430b38b: Slack
@@ -4232,6 +4233,7 @@ channel_details.8d93e7c: Slack and Salesforce are disconnected.
 channel_details.9fbb94b: Slackbot
 channel_details.43ed96d: Slackbot can’t use apps here because this channel includes guests.
 channel_details.bcda7ea: Slackbot can’t use apps here because this channel is shared with another organization.
+channel_details.1a3f89c: Slackbot follows your workspace’s default instructions here
 channel_details.f0e41f9: Slackbot has some cool new skills, but they’re only available on some paid plans. Upgrade to use Slackbot’s AI abilities.
 channel_details.75eeb4e: Slackbot in this channel
 channel_details.bc1b97f: Slackbot is an AI agent available to everyone in this channel. When someone mentions @Slackbot, it can read this channel’s messages and files to reply in the thread.
@@ -4334,6 +4336,7 @@ channel_details.dc6cbfb: Unknown skill
 channel_details.2bc7fbf: Unknown skill set
 channel_details.2c24b95: Unmute conversation
 channel_details.855822a: Until tomorrow
+channel_details.57839ca: Until you add your own, Slackbot follows your workspace’s default instructions here:
 channel_details.621521f: Untitled
 channel_details.764f0aa: Untitled skill set
 channel_details.93e7ae2: Update messages from <b>{folder}</b> will no longer be posted to {channel}.
@@ -5916,9 +5919,6 @@ cmd_handlers.b415e16: topic
 cmd_handlers.f2a8775: your message
 coachmarks.45d891b: Just type and press Enter
 coachmarks.326fe72: Your coworkers will see your messages when they join. Feel free to use your own words instead!
-code-channel-pr-comments.587e74c: Connect to {provider}
-code-channel-pr-comments.dc13f7c: Couldn’t load comments.
-code-channel-pr-comments.1b06a35: Loading comments
 code-channel-pr-comments.63bd63f: PR feedback
 code-channel-pr-comments.9f5cd8a: Retry
 code-channel-pr-comments.35f49dc: Sent
@@ -5926,6 +5926,11 @@ code-channel-pr-comments.5643f7d: {count, plural, one {# comment} other {# comme
 code-channel-pr-comments.da61d4b: {count, plural, one {# other} other {# others}}
 code-channel-pr-comments.1db130a: {provider} connected
 code-channel-review-request.eb3b730: Summarizing…
+code-channel-review-request.384b0fe: Summary of the work
+code-channel-review-request.0f56f9d: Summary of the work is ready
+code-channel-review-request.6a49261: View PR #{prNumber}
+code-channel-review-request.5d5e06a: Your review couldn’t be requested on {provider} because your account isn’t connected to Slack. <link>Connect</link>
+code-channel-review-request.7407055: {name} tried to request your review on {provider}, but your account isn’t connected to Slack. <link>Connect</link>
 code-channel-review-request.1db130a: {provider} connected
 code-channel-review-request.0d603c3: {reviewers}, you’ve been asked by {requester} to review PR {pr}.
 code-channel-review-submitted.9be1668: Changes requested
@@ -6229,7 +6234,6 @@ code-tab.ff337dc: Comment deleted
 code-tab.b024afd: Comment updated
 code-tab.74536b5: Commits
 code-tab.5eb9d05: Commits to show
-code-tab.587e74c: Connect to {provider}
 code-tab.ff4aceb: Connect your GitHub account to change this pull request’s status.
 code-tab.2b56f45: Connect your GitHub account to delete this comment.
 code-tab.614f319: Connect your GitHub account to edit this comment.
@@ -27940,7 +27944,6 @@ workflow_builder.a45046f: (first matching branch will run)
 workflow_builder.b16c7ac: (optional)
 workflow_builder.c99c13b: ))&&(z=Y.createElement(H),Y.head.insertBefore(z,Y.querySelector(
 workflow_builder.ce5457e: )))}}logDependencies(){if(this.logger.getLogLevel()>n.default.INFO||!this.dependencies)return;let e=this.dependencies.filter(e=>e).map(e=>e.name()).join(", ");this.logger.info(
-workflow_builder.d86b5f3: ),uK=a(
 workflow_builder.45c1127: *There was a problem with this step in the workflow* \n It’s probably a temporary issue. Try again in a few minutes or <{supportLink}|contact Slack support>.
 workflow_builder.1dd2080: *We had a problem loading your spreadsheet.* Learn more about <{gsheetsLink}|Google Sheets for Workflow Builder>.
 workflow_builder.d3bc9a3: , 
@@ -29382,7 +29385,9 @@ workflow_builder.19eabc9: Timestamp
 workflow_builder.777fcbd: Timezone:
 workflow_builder.97cb3ee: Tips are to help people using your template
 workflow_builder.768e0c1: Title
+workflow_builder.54d45dd: To add people to this user group, the person who publishes the workflow needs permission to edit user groups.
 workflow_builder.5ff4f8c: To keep the question, resolve all errors. Or, you can delete it.
+workflow_builder.7c389a7: To remove people from this user group, the person who publishes the workflow needs permission to edit user groups.
 workflow_builder.ab55dc3: To send a message to the Salesforce channel created in a previous step, use the Send a message to a channel step instead.
 workflow_builder.a44ccee: To start the workflow this way, you’ll need to use <strong>Send Summary To My Sales Home</strong> as the first step.
 workflow_builder.fa9d7cc: To start the workflow this way, you’ll need to use <strong>Send Summary To My Salesforce App</strong> as the first step.

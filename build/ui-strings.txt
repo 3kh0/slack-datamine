@@ -130,9 +130,11 @@
 :point_up: I found an existing summary for this file.
 :void 0),o.current?.info(em,e?
 :void 0)||(y?
+:void 0,className:e?
 :void 0,credentialless:ed?
 :void 0,credentialless:l?
 :void 0,credentialless:p?
+:void 0,overlayClassName:e?
 :void 0,skipDoneDialog:!0,buttonClassName:t?
 ?void 0:v.observedStatus)??f??v?.observedStatus??(v?.summaryDone?
 A DM with someone
@@ -554,6 +556,7 @@ Add and Edit Channel Tabs
 Add another email
 Add another file
 Add another workspace
+Add approved discoverable channel previews
 Add apps
 Add apps to this DM
 Add apps to this channel
@@ -2716,6 +2719,7 @@ Confirm Salesforce permissions
 Confirm and Finish
 Confirm and start listening
 Confirm before clearing all unreads
+Confirm that full channel data is required
 Confirmations and warnings
 Connect (opens in new window)
 Connect Account
@@ -4649,6 +4653,7 @@ External-facing profile photo
 Extra, extra!
 Extracting node
 FON - Flash On
+Fail loading a discoverable channel preview
 Failed Optimization Warnings
 Failed SIMD estimation; falling back to non-SIMD.
 Failed resolving Slackbot permission
@@ -5011,6 +5016,7 @@ Fetch (emoji) reacji triggers for multiple channels
 Fetch Available Plans
 Fetch IMs from the API
 Fetch MPIMs from the API
+Fetch a discoverable channel preview when stale
 Fetch a record channel given a record id
 Fetch a record channel given a record id and navigate
 Fetch a single daily digest by id
@@ -5658,6 +5664,7 @@ Get notifications
 Get notified about all thread replies in this channel
 Get notified about every new thread and its replies.
 Get notified about new replies
+Get or fetch a calendar event by event link ID
 Get organized at any time
 Get prepped for a customer meeting, with a detailed agenda, talking points and more.
 Get push notifications on mobile
@@ -5965,6 +5972,7 @@ Help me draft a reply.
 Help me find a file
 Help me find the right person for a question.
 Help me organize my sidebar
+Help me prep for my meeting: 
 Help me prep for my meetings tomorrow
 Help me prepare for a meeting with 
 Help me prepare for an upcoming customer meeting using the Meeting Prep Skill.
@@ -6542,6 +6550,7 @@ Invalid value of type
 Invalid video input device
 Invalid viewId
 Invalid workflow type. Missing payload.
+Invalidate an active channel preview fetch
 Invalidate cached counts after channel membership changes
 Invariant Violation
 Invariant failed
@@ -10284,6 +10293,7 @@ Recap my past week in Slack
 Recap the key points from this meeting
 Recap the past week in # 
 Recap your noisiest channels daily
+Receive a confirmed discoverable channel preview
 Receive a video input change event
 Receive an audio input change event
 Receive an audio output change event
@@ -12383,6 +12393,7 @@ Skill sets
 Skill sources
 Skill template instructions
 Skill templates
+Skills Slackbot can use in this channel.
 Skills and shortcuts
 Skills browser API failed to fetch more results
 Skills browser API failed to fetch the first page
@@ -12859,6 +12870,7 @@ Start huddle recording
 Start huddle summary
 Start listening
 Start live voice call
+Start loading a discoverable channel preview
 Start loading the permission undo send needs in a given channel
 Start loading the sunroof agents the @-mention menu suggests
 Start me where I left off, and mark the channel read
@@ -13966,6 +13978,7 @@ To move this stage, mark a different stage as Won
 To move this status, mark a different status as Converted
 To move this status, mark a different status as Unqualified
 To prevent this, please pass a 
+To remove people from this user group, the person who publishes the workflow needs permission to edit user groups.
 To respond to this email, your team must have a support email address connected to Slack
 To see the content in this list, request access from someone in the channel.
 To send a message to the Salesforce channel created in a previous step, use the Send a message to a channel step instead.
@@ -14169,6 +14182,7 @@ Triggers a side-effect that opens the DeleteMessageDialog in client (noop)
 Triggers a side-effect that opens the EditFileDialog in client (noop)
 Triggers a side-effect that opens the Express Template modal in client
 Triggers a side-effect that opens the File Viewer modal in client (noop)
+Triggers a side-effect that opens the Manage Prompt Modal in client
 Triggers a side-effect that opens the Pro To Business Plus Trial Offer Modal
 Triggers a side-effect that opens the PromptShareDialog in client (noop)
 Triggers a side-effect that opens the Request to Purchase Modal
