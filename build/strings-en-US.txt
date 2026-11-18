@@ -1373,6 +1373,7 @@ agents.0608c40: agent
 agents.d1e6a41: an external organization
 agents.3c25a75: or click to browse
 agents.aac8075: {count, plural, =1 {# message} other {# messages}}
+agents.6b6a00c: {count, plural, =1 {# session needs you} other {# sessions need you}}
 agents.7662723: {count, plural, one {# add} other {{formattedCount} adds}}
 agents.45df885: {count, plural, one {# app you can’t access} other {# apps you can’t access}}
 agents.da61d4b: {count, plural, one {# other} other {# others}}
@@ -1867,6 +1868,7 @@ app_details.505be18: Suggested prompts
 app_details.e072d98: The agent may have been uninstalled or you do not have permission to view it.
 app_details.e75323c: The app may have been uninstalled or you do not have permission to view it.
 app_details.fb91e24: Update
+app_details.d83903a: Update available. Ask your admin to approve the new permissions. Your current version will keep working.
 app_details.73f5c54: Update {appName} (opens in a new window)
 app_details.944b88d: VIP
 app_details.bc17c1f: Video
@@ -1904,6 +1906,8 @@ app_launcher.22e3fb7: All workspaces
 app_launcher.b123684: Also, your team admin must approve an app before it can be installed. <Link>Learn more</Link>
 app_launcher.41b81eb: Approved
 app_launcher.d9a3685: Apps
+app_launcher.d0a0d80: Awaiting approval
+app_launcher.eda0dad: Awaiting approval for {teamName}
 app_launcher.1c441a5: Bring all your tools into Slack
 app_launcher.68f7373: Browse Slack Marketplace
 app_launcher.98e11fe: Browse agents
@@ -1919,6 +1923,8 @@ app_launcher.b993b0c: No results
 app_launcher.8411324: One-click access to AI tools in Slack
 app_launcher.8ee6637: Open in Slack Marketplace
 app_launcher.03a322d: Open in split view
+app_launcher.4fd31fd: Requested {ago}
+app_launcher.d62b7f5: Requests ({count})
 app_launcher.c462b3b: See Upgrade Options
 app_launcher.9c5462b: Slack makes the tools you already use even better by adding apps from Atlassian like Jira, Trello, and more.
 app_launcher.621521f: Untitled
@@ -2871,9 +2877,7 @@ block_kit.a3c651e: Checklist of {itemCount, plural, =1 {# item} other {# items}}
 block_kit.45b9ce6: Choose an option
 block_kit.719ea39: Clear
 block_kit.8017ee3: Clear Sort
-block_kit.b667d6f: Clear filter
 block_kit.bbcc8a0: Code block.
-block_kit.a0e2a1a: Compact view of {caption}
 block_kit.1f5a1ab: Complete
 block_kit.b7c3ca0: Copied!
 block_kit.af74f7c: Copy
@@ -2924,7 +2928,6 @@ block_kit.d1d16e0: Quote: {quoteText} End quote.
 block_kit.c6dc647: Radio group
 block_kit.6437b7b: Rating
 block_kit.38bd55c: Salesforce record
-block_kit.4080395: Search table
 block_kit.0e2b8f4: Select a channel
 block_kit.1acb49b: Select a conversation
 block_kit.642b09c: Select a date
@@ -2944,6 +2947,7 @@ block_kit.05ddab0: The {numberOfTooLargeFiles, plural, =1 {file} other {files}} 
 block_kit.7510eed: There was a problem uploading the file {filename}. Please try again in a few minutes.
 block_kit.dc32bdf: This content could not be displayed.
 block_kit.cfdec0a: This content is only available in the original conversation.
+block_kit.453c1a1: This field cannot be edited
 block_kit.981d8ff: This message can’t be fully displayed.
 block_kit.40150de: This table is too big to send as an attachment.
 block_kit.6c82e6d: Time
@@ -3104,6 +3108,7 @@ browsers.ea96354: Compare Plans
 browsers.b65463c: Connect
 browsers.96d569f: Connect your cloud
 browsers.daaf089: Create Channel
+browsers.151a06b: Create User Group
 browsers.852192f: Create a user group
 browsers.17a27b9: Create user group
 browsers.8c29271: Created by you
@@ -3208,7 +3213,6 @@ calendar.83445b6: Add a channel
 calendar.88a84ce: Add meeting to channel
 calendar.df887a1: Adding the meeting to a channel will show everyone a shortcut to join, meeting updates, and post-meeting artifacts.
 calendar.1145743: All day
-calendar.f44f453: All meeting reminders dismissed
 calendar.55e1611: Are you sure you want to cancel?
 calendar.310efbc: Ask Slackbot
 calendar.768cff7: Associating channel
@@ -3224,7 +3228,7 @@ calendar.35f0937: Channel associated
 calendar.2ced57f: Chat
 calendar.11c2c91: Choose an app
 calendar.bbfa773: Close
-calendar.457057b: Connect a calendar
+calendar.c229c94: Connect a Calendar
 calendar.7a7bc9d: Connect calendar
 calendar.1b9a1d0: Connect your calendar to see meeting details and join the conversation
 calendar.2f84eea: Copy link
@@ -4065,8 +4069,10 @@ channel_details.9ce3bd4: OK
 channel_details.4b7c280: Once you set this permission, you won’t be able to make changes to it directly in the Slack app. <a>See how to make changes</a>
 channel_details.78b7b95: Only admins and channel managers can change this.
 channel_details.abac53b: Only badge the channel when someone @mentions you
+channel_details.d92c086: Only certain people can invite this agent to channels at this time.
 channel_details.ec22c09: Only certain people can turn on proactive replies.
 channel_details.8adde97: Only channel managers and Slack admins can edit or remove this agent.
+channel_details.57ed46c: Only channel managers and Slack admins can set up this agent.
 channel_details.9fe0fa4: Only channel managers can change this setting.
 channel_details.6cd2cfc: Only get notified if someone @mentions you personally
 channel_details.af42474: Only record owners and those with transfer access can view the channel and invite others to join channels.
@@ -4260,6 +4266,8 @@ channel_details.231d1e6: There was an issue connecting to {name}.
 channel_details.833b3c6: There’s a few automations that will make your life easier. Set them up in a flash.
 channel_details.97d4661: They can read and reply in this conversation when mentioned.
 channel_details.9966ce4: They will also be able to add apps and workflows and will get an archived copy of the channel’s contents. <a>Learn more about permissions</a>
+channel_details.eb88b8a: This agent is already in the channel
+channel_details.dacc04a: This agent is not in the {workspace_name} workspace. Contact a Slack Admin to request they add it.
 channel_details.e0f7b05: This agent is temporarily unavailable, but should be back online soon.
 channel_details.4f548e1: This channel already has the maximum number of skills.
 channel_details.70e6e28: This channel cannot be archived.
@@ -4585,6 +4593,8 @@ channel_header.0323bf6: Invite teammates
 channel_header.6b89868: Invite teammates tip
 channel_header.4d67cf8: Slack works better when you use it together.
 channel_header.24b43d5: Start with a few people you work with most.
+channel_header.8d4e9b8: View all agents & apps of this channel
+channel_header.00681e8: View all agents & apps of this channel<t1>Includes {agents}</t1>
 channel_header.e255057: View all members of this {entity}<t1>Includes {users}</t1>
 channel_header.3044650: View {memberCount, plural, =1 {# member} other {all # members}}. Includes {users}.
 channel_header.8af56de: you
@@ -4687,7 +4697,7 @@ channel_invite.2cd9d04: Selected {name}
 channel_invite.a7191c3: Send Invitation
 channel_invite.1a17071: Send Invitations
 channel_invite.4c852b2: Show less
-channel_invite.6fc0960: Skip for now
+channel_invite.490df2e: Skip for Now
 channel_invite.db9943c: Slack will archive the existing channel and automatically invite all of its members to a new channel.
 channel_invite.9a3ea05: Something went wrong. Please try again.
 channel_invite.7782344: Sorry, but URLs are not allowed in the custom message. Please remove it and try again.
@@ -5443,9 +5453,22 @@ channels.248600d: channel
 channels.b1969fc: private channel 
 channels.f9b8d9e: {channelName}
 chat_commands.aa6f937: remind
+checklist_block.5bcf4db: Add item
+checklist_block.61b2946: Checklist
+checklist_block.edf31ea: Heads up
+checklist_block.9a445d9: In Progress ({count})
+checklist_block.f68ca37: Item added
+checklist_block.8709df2: List item
+checklist_block.a1e34f9: More actions
 checklist_block.56a2285: Saving…
+checklist_block.09ca55c: Share
+checklist_block.a2620ef: Share checklist…
 checklist_block.25911d4: Show more
-checklist_block.05a9285: {completed, plural, one {# of {total} completed} other {# of {total} completed}}
+checklist_block.46e39f6: Something went wrong, try again
+checklist_block.453c1a1: This field cannot be edited
+checklist_block.e2f1326: This item couldn’t be added
+checklist_block.55536dc: This shares a copy of the checklist as it is now. People can see its items, but they can’t check them or add new ones, and the copy won’t update.
+checklist_block.ff744cd: checklist
 checkout_abandonment.202c92a: Looks like you started upgrading to a more powerful paid plan, but didn’t make it all the way through. <a>Finish checkout</a>
 checkout_v2.7e5111d: By redeeming this offer, you agree that these offer terms form part of and modify Slack’s <mainServicesLink>Customer Terms of Service</mainServicesLink> (or the terms of your written agreement regarding your use of Slack’s services) (your “Agreement”) entered into between you and the Slack entity identified in the Agreement and that, after the Discount Period, Slack’s then-current standard pricing set forth on Slack’s <pricingPageLink>Pricing Page</pricingPageLink> will apply to the remainder of your plan and to any plan renewals. Please see the terms of your Agreement for information on how to cancel or downgrade your paid subscription prior to any such renewal.
 checkout_v2.453fd5f: By redeeming this offer, you agree that these offer terms form part of and modify Slack’s <mainServicesLink>Customer Terms of Service</mainServicesLink> (or the terms of your written agreement regarding your use of Slack’s services) (your “Agreement”) entered into between you and the Slack entity identified in the Agreement. You further agree that, after the Discount Period, you will be subject to the Slack Business+ standard pricing that is current as of the date the Discount Period ends, as set forth on Slack’s <pricingPageLink>Pricing Page</pricingPageLink>, including all or part of any plan renewals. For clarity, after the Discount Period, if you continue with the Slack Business+ plan at the conclusion of the Discount Period, you will be charged at the standard rate for the Slack Business+ plan you have selected unless and until you cancel your subscription. If you redeem this offer and then cancel or downgrade your paid Slack Business+ plan at any time during the Discount Period, this offer will no longer be available to you.
@@ -7626,7 +7649,6 @@ deeplink_creator_onboarding.0db9d80: 👋 Welcome to the {channelName}
 depreactions_browser_banners.5ef18ab: This browser won’t be supported starting {date}. Ask your admins for help getting up to date. <Link>Learn more</Link>
 depreactions_browser_banners.97082d2: This browser won’t be supported starting {date}. Update your browser to keep using Slack. <Link>Learn more</Link>
 depreactions_modals.378cbbf: Learn More
-depreactions_modals.824d76b: Learn more
 depreactions_modals.490df2e: Skip for Now
 description_section.4c852b2: Show less
 description_section.25911d4: Show more
@@ -8246,6 +8268,7 @@ emoji.22dbe88: {size} {emojiName} {size, plural, =1 {emoji} other {emojis}} with
 emoji_button.5090a9e: Emoji
 emoji_button.95ca80d: Emoji and GIFs
 emoji_button.4c2f242: Right click to<br></br>customize skin tones
+emoji_keywords.d2dd2d4: );let eeD=
 emoji_keywords.356a192: 1
 emoji_keywords.b1d5781: 10
 emoji_keywords.310b86e: 100
@@ -9066,7 +9089,7 @@ event.9e85782: (No title)
 event.5ee1772: BlueJeans Meeting
 event.6958244: Chime Meeting
 event.2aef7cf: Copied to your primary calendar!
-event.75fac9c: Copy to your calendar
+event.c409bb9: Copy to Your Calendar
 event.9b406a4: Event cancelled
 event.2c63958: Going?
 event.634e1c6: Google Meet Meeting
@@ -12780,6 +12803,7 @@ lists.a1fffaa: List
 lists.d4dcc59: List (playground only)
 lists.5b1692b: List Actions
 lists.bfa66ef: List description
+lists.8709df2: List item
 lists.63fb0d7: List name
 lists.622b833: List name not found
 lists.1016430: List restored
@@ -14143,6 +14167,7 @@ message.107ebe1: Write your own prompt
 message.b1ac9d3: Yesterday at {time}
 message.b639cf6: Your edit was saved in the thread, but it couldn’t be sent to the conversation.
 message.72c8c9e: Your message couldn’t be sent because your admins have disabled sending messages to this channel.
+message.2f702dd: Your message couldn’t be sent. A canvas or list in it can’t be shared in Slack Connect because of its sensitivity label.
 message.2d1a458: Your message couldn’t be sent. Canvas sharing has been disabled in conversations using Slack Connect.
 message.5c22f9d: Your message couldn’t be sent. File sharing has been disabled in conversations using Slack Connect.
 message.8c179da: Your message couldn’t be sent. The organizations in this conversation do not have Slack Connect canvas sharing enabled.
@@ -14415,6 +14440,7 @@ message_attachment_mcp_ui.6a14780: {appName} tried to use {toolName}
 message_attachment_mcp_ui.2c6ff6b: {appName} wants to open this link in your browser:
 message_attachment_mcp_ui.f4b9734: {appName} wants to send this message on your behalf:
 message_attachment_mcp_ui.592b88c: {toolName}?
+message_attachment_mcp_ui.578137e: })),[t,y,l,e]),F=(0,i.useCallback)(e=>(0,n.jsx)(MentionKindsMenu,{menuProps:e,template:L,label:x}),[L,x]),O=(0,i.useCallback)(()=>h(!0),[h]),D=(0,i.useCallback)(()=>h(!1),[h]);return(0,i.useEffect)(function(){return()=>h(!1)},[h]),(0,n.jsxs)("span",{ref:P,className:"splitPill__bDzIe",children:[(0,n.jsxs)(c.A,{className:(0,r.A)(T,"splitPillMain__nWE1C",{[j]:f}),"aria-pressed":f,"aria-disabled":a,"aria-label":b&&w||void 0,"data-qa":
 message_input_plus_button.0c431f4: Attach file
 message_kit.b6da09e: (edited)
 message_kit.8744dcd: (stopped by {name})
@@ -15874,6 +15900,7 @@ msg_input.83a5624: Attachment
 msg_input.8a8b594: Attachment hidden
 msg_input.b8873b7: Attachment shown
 msg_input.82dd2cd: Block
+msg_input.61b2946: Checklist
 msg_input.adac693: Code
 msg_input.2f84eea: Copy link
 msg_input.228ca54: Create a Snippet
@@ -15883,6 +15910,8 @@ msg_input.9ded355: Drag and drop into the composer
 msg_input.ae7b279: Edit link
 msg_input.a9203bb: Hide attachment
 msg_input.3467921: Jot something down
+msg_input.0019cdf: Message not scheduled
+msg_input.625c269: Message not sent
 msg_input.e457061: Message {msg}{govSlackSuffix}
 msg_input.4c4c583: No connection.
 msg_input.39a4360: Now you can easily share charts and graphs, tables, and more in your messages.
@@ -15910,6 +15939,7 @@ msg_input.11b80ad: To keep things running smoothly, there’s a limit on the num
 msg_input.b77115a: Trying to add a link? Use {commandKey} + {vKey} instead
 msg_input.2899ad0: Trying to add a link? Use {modifierKey} + V instead.
 msg_input.0e2d9b0: URL
+msg_input.0535bda: Your team isn’t able to send messages right now. Review any apps or webhooks that may be sending a high-volume of messages. <learnMoreLink>Learn more</learnMoreLink> about message limits.
 msg_input.d1211a9: You’ll be able to send messages as soon as you’re back online.
 msg_input.820fdaa: [Name]
 msg_input.3134da9: [channel purpose]
@@ -16174,6 +16204,8 @@ new_team_launchpad.ec427ad: {name} installed. Connect your account to finish.
 new_team_launchpad.c905aab: {name} is connected.
 new_team_launchpad.cc4a67c: {taskTitle}, completed
 new_team_launchpad.06da019: {type} owned by you
+new_team_launchpad.ae2b9e1: {type} you can view
+new_team_launchpad.be93f78: {type} you have access to
 new_year_promo_27.d738853: AI conversation summaries
 new_year_promo_27.5faa154: AI file summaries
 new_year_promo_27.4721064: AI search
@@ -17190,6 +17222,7 @@ pricing_plans.0cac806: As an example, suppose your team is on the Pro plan, whic
 pricing_plans.eb08c9e: Business+
 pricing_plans.07de165: Can I upgrade Slack just for myself, instead of upgrading everyone in our workspace?
 pricing_plans.d811a4d: Certain US states and international countries are subject to a required sales or consumption tax. If your subscription includes sales tax, VAT, GST, or comparable consumption taxes, you will see the amount applied on the checkout page when making a purchase.
+pricing_plans.68f0ae4: Compliance
 pricing_plans.c65ace2: Custom retention policies for messages and files
 pricing_plans.fb17279: Data exports for all messages
 pricing_plans.f700775: Depending on your location, you can pay for Slack in British pounds, euros, Indian rupees, Japanese yen or US dollars. Learn more about your <a>currency options</a>.
@@ -17475,6 +17508,7 @@ promotions.25b4512: Compare all plans
 promotions.a4c41c6: Compare plans
 promotions.08d4b06: Compare with Pro
 promotions.bbe351a: Compare with {previousPlanName}
+promotions.68f0ae4: Compliance
 promotions.41fba28: Conditional branching in Workflow Builder
 promotions.7298abe: Connect Salesforce records (such as accounts, cases, opportunities, leads, etc.) to dedicated Slack channels so customer conversations, context, and data are all side by side. Requires a Salesforce account.
 promotions.79643ef: Connect Salesforce records (such as accounts, cases, opportunities, leads, etc.) to dedicated Slack channels so customer conversations, context, and data are all side-by-side.
@@ -17631,7 +17665,7 @@ promotions.6e69492: Message translation
 promotions.f1702b4: Messages
 promotions.9fbdb38: Native data loss prevention
 promotions.0577226: Native device management
-promotions.e12c52f: Need help with something else?
+promotions.9323d59: Need Help With Something Else?
 promotions.bc98198: Next
 promotions.1e11f0c: Not eligible for Success Plans
 promotions.bfca330: Not included
@@ -18008,6 +18042,7 @@ quip_collab.66c7734: Chart
 quip_collab.8fbe23d: Check a list item
 quip_collab.9f6811e: Checkbox checked
 quip_collab.199aa16: Checkbox unchecked
+quip_collab.61b2946: Checklist
 quip_collab.2c2564b: Checklist items updated
 quip_collab.ba8e6d0: Checklist style
 quip_collab.a8f6c41: Choose a date
@@ -18654,6 +18689,8 @@ recordchannels.3951d87: There aren’t any conversations to show yet.
 recordchannels.720ccc4: There aren’t any related lists assigned to this record
 recordchannels.97dc66d: There aren’t any related lists assigned to this record.
 recordchannels.c0b2290: This channel has been added to <UnstyledButton>{recordName}</UnstyledButton> related channels.
+recordchannels.2a726cc: This channel is linked to a record
+recordchannels.374e619: This channel is linked to a {recordLabel}
 recordchannels.8850d60: This channel is linked to an {recordLabel}
 recordchannels.2a3d830: This is a dedicated place for you and your teammates to work on this {recordLabel}. Your message history and the files you share here will be preserved for people who join this channel.
 recordchannels.7f6da10: This list can’t be viewed in Slack
@@ -18677,6 +18714,7 @@ recordchannels.d3d05e8: You don’t have access to this Salesforce channel
 recordchannels.5978e88: You don’t have access to this {item}
 recordchannels.8c0494f: You may want to try adjusting your search term.
 recordchannels.e33b8ce: You’ll be added to the channel once someone accepts your request.
+recordchannels.dd0f7c0: You’ll find record details and related lists in tabs at the top. Access to the channel can be configured to match the record, and you can open this channel in Salesforce as well.
 recordchannels.62c93d7: You’ll need to request access to join the conversation.
 recordchannels.735e32d: You’ll see the channel name when you’re invited to this private channel.
 recordchannels.929295d: empty speech bubble illustration
@@ -19026,6 +19064,7 @@ saved_for_later.df833fe: Last 7 days
 saved_for_later.56e2f5d: Later
 saved_for_later.1d856ad: Latest date created
 saved_for_later.a1fffaa: List
+saved_for_later.8709df2: List item
 saved_for_later.6c1df23: Loading To-dos…
 saved_for_later.4c54ee7: Loading saved items…
 saved_for_later.01d1180: Look at you go.
@@ -20496,6 +20535,7 @@ setup_page.a0630b0: Share invite link
 setup_page.a5b70f2: Share link in LINE WORKS
 setup_page.53498db: Share link with email template
 setup_page.1c8ffa2: Skip Step
+setup_page.490df2e: Skip for Now
 setup_page.6fc0960: Skip for now
 setup_page.9278dcf: Skip this step
 setup_page.fffa0bf: Skip without inviting?
@@ -20702,9 +20742,11 @@ share-dialog.0f5b839: Add by channel
 share-dialog.af07e88: Add by name
 share-dialog.f4f5357: Add by name or channel
 share-dialog.d3c1d63: Add by name, channel or email
+share-dialog.6632e5c: Add form
 share-dialog.e9425c1: Add to thread
 share-dialog.c8fef35: Advanced Settings
 share-dialog.317baf9: All external people must already be in at least one channel together to share this file.
+share-dialog.d548369: Allow AI use
 share-dialog.40355b2: Allow access to this canvas for {destinationChannelOrMemberName}?
 share-dialog.29c8284: Allow access to this canvas for {memberCount, plural, =1 {{memberCount} person} other {{memberCount} people}} in {destinationChannelOrMemberName}?
 share-dialog.e25fcf6: Allow access to this canvas for {memberCount} people in {lock}{destinationChannelOrMemberName}?
@@ -20815,6 +20857,7 @@ share-dialog.d131c8f: Manage permissions for file {fileName}
 share-dialog.e2a56b4: Manage permissions for member {memberName}
 share-dialog.853a607: Message scheduled
 share-dialog.8884098: More information about including skills
+share-dialog.9c0d849: No forms yet
 share-dialog.f4e1241: No items
 share-dialog.10edcb1: No matches found - Try using their email instead
 share-dialog.a0d593a: Notify pending members
@@ -20837,6 +20880,11 @@ share-dialog.e863f6d: Only people who already have access will be able to open i
 share-dialog.c8596ed: Only people with access can use or edit. The skill doesn’t appear in the directory.
 share-dialog.741528d: Only template owners can share templates in {teamName}.
 share-dialog.89ff312: Owner
+share-dialog.9cf0d1f: Owns this canvas
+share-dialog.88744a4: Owns this dashboard
+share-dialog.971fe04: Owns this list
+share-dialog.a8279f4: Owns this surface
+share-dialog.18b9657: Owns this template
 share-dialog.b37554f: People
 share-dialog.c2f7555: People will be invited to join channels you share. You’ll get a chance to review any private channels before sending.
 share-dialog.f6a2fe7: People with access
@@ -20845,6 +20893,7 @@ share-dialog.d06d555: Permissions
 share-dialog.16a4155: Please select an option
 share-dialog.3eca5a2: Prompt link copied to clipboard
 share-dialog.80e463d: Prompts are instructions for AI agents that can be shared with others. Copying this link will convert your message into a prompt that anyone can see and use.
+share-dialog.ecdafd0: Publish to a section in the template gallery
 share-dialog.100b430: Recipients get read access to the canvas but can’t edit or reshare. When they click 'Add' on the shared prompt, their Slackbot library will reference the canvas directly (no copy). If you edit the canvas later, recipients see your updates.
 share-dialog.55b656e: Recipients will see these canvases in view-only mode.
 share-dialog.e963907: Remove
@@ -20870,6 +20919,7 @@ share-dialog.520860b: Review permissions for this template
 share-dialog.ff995c3: Sales templates
 share-dialog.cc1316d: Save Draft
 share-dialog.69ba334: Schedule for later
+share-dialog.be042b7: Seamlessly collect information into your List with forms.
 share-dialog.9bc2575: Send
 share-dialog.f40e05b: Send Anyway
 share-dialog.be4e8e2: Send Email
@@ -20926,14 +20976,28 @@ share-dialog.82c3ee3: There was a problem updating who can see the queries. Give
 share-dialog.a946d23: These accounts have been deactivated.
 share-dialog.9409e04: This account has been deactivated.
 share-dialog.833a0a6: This applies to everyone in {teamName}.
+share-dialog.2f818d0: This canvas can’t be shared in Slack Connect because of its sensitivity label.
+share-dialog.3b3e94c: This canvas has been shared with connected external people using Slack Connect.
+share-dialog.3ee62b1: This canvas’s contents can be used by Slackbot, search AI answers, Canvas AI generation, and AI steps in Workflow Builder.
+share-dialog.0e2b602: This canvas’s contents can be used by Slackbot, search AI answers, and Canvas AI generation.
+share-dialog.a5031af: This dashboard has been shared with connected external people using Slack Connect.
 share-dialog.b334114: This file was originally uploaded by a member of the <strong>{owner_team}</strong> team. Please make sure you have permission to share it.
 share-dialog.49e406d: This file was sent to you privately. You may want to check with <strong>{fileOwnerName}</strong> before sharing it.
+share-dialog.9e95584: This list can’t be shared in Slack Connect because of its sensitivity label.
+share-dialog.2deaa9c: This list has been shared with connected external people using Slack Connect.
+share-dialog.e307e81: This list’s contents can be used by Slackbot, search AI answers, Canvas AI generation, and AI steps in Workflow Builder.
+share-dialog.c375221: This list’s contents can be used by Slackbot, search AI answers, and Canvas AI generation.
 share-dialog.81085fc: This message is from a private conversation with <strong>{privateChannelName}</strong>.
 share-dialog.ae2e8d2: This person has edit access through a certain channel.
 share-dialog.de599b9: This person needs to be in the workspace before the channel can be shared.
 share-dialog.5e9b6fc: This person needs to be in {workspaceName} workspace for the channel to be shared.
 share-dialog.9a0f21d: This section can’t be shared
 share-dialog.0b0b92c: This skill is enabled for your workspace. To make it private, an admin must first remove it from the workspace skill settings.
+share-dialog.50441f8: This surface has been shared with connected external people using Slack Connect.
+share-dialog.82d9463: This template has been shared with connected external people using Slack Connect.
+share-dialog.3fca49a: This template will be available in the following section of the template gallery.
+share-dialog.d1e2a4c: This template’s contents can be used by Slackbot, search AI answers, Canvas AI generation, and AI steps in Workflow Builder.
+share-dialog.16af351: This template’s contents can be used by Slackbot, search AI answers, and Canvas AI generation.
 share-dialog.b96659d: This workflow will stop working once it’s removed from this canvas. The workflow’s creators will be notified.
 share-dialog.8f91e78: This workflow will stop working once it’s removed from this folder. The workflow’s creators will be notified.
 share-dialog.8380a77: This workflow will stop working once it’s removed from this list. The workflow’s creators will be notified.
@@ -20941,7 +21005,9 @@ share-dialog.b41080e: This workflow will stop working once it’s removed from t
 share-dialog.5201d46: Unable to change access level. Refresh and try again later.
 share-dialog.cd1f433: Unable to change permissions right now. Refresh and try again later.
 share-dialog.7eff6e8: Unable to remove access. Refresh and try again later.
+share-dialog.29379b7: Unable to save AI visibility setting. Refresh and try again later.
 share-dialog.2734e65: Unable to save limited sharing setting. Refresh and try again later.
+share-dialog.8097aa1: Unable to save template setting. Refresh and try again later.
 share-dialog.4548f17: Unable to share canvas. Refresh and try again later.
 share-dialog.a0ff035: Unable to share dashboard. Refresh and try again later.
 share-dialog.54a0b5e: Unable to share list. Refresh and try again later.
@@ -20963,6 +21029,7 @@ share-dialog.a94ffe9: You can copy a link to this canvas and share it by pasting
 share-dialog.00fd2ad: You can copy a link to this list and share it by pasting it in a channel or conversation.
 share-dialog.9729578: You can copy a link to this template and share it by pasting it in a channel or conversation.
 share-dialog.fc5f66f: You created a template.
+share-dialog.95d0dfe: You don’t have permission to change AI settings
 share-dialog.b26de4b: You shared this canvas
 share-dialog.0b2403a: You shared this dashboard
 share-dialog.c7883f9: You shared this folder
@@ -23414,6 +23481,7 @@ slack_docs.1eda2f8: Draft a meeting agenda for the weekly meeting in #
 slack_docs.c958b87: Draft a meeting agenda for the weekly meeting in {channelName} 
 slack_docs.840d9af: Draft a meeting agenda for …
 slack_docs.5dbaaaf: Drafting…
+slack_docs.2b65b30: Edit the canvas: it changed after your last suggestions. Suggest your edits again based on its latest version.
 slack_docs.f8b682c: Empathetic
 slack_docs.649df08: English
 slack_docs.7f2f6a1: Error
@@ -23510,6 +23578,7 @@ slack_docs.01435d5: Summarize # …
 slack_docs.7f45722: Summarize this canvas
 slack_docs.77c3393: Summarize {channelName} 
 slack_docs.0424f6e: Table
+slack_docs.cbc3b79: This canvas changed, so Slackbot’s suggestions are out of date.
 slack_docs.f7a9e03: This canvas will be updated to match the version last edited by {author} {date} at {time}
 slack_docs.a5a6a73: This template will be updated to match the version last edited by {author} {date} at {time}
 slack_docs.1be58c0: This tool uses AI to generate responses, so some information may be inaccurate.
@@ -23520,6 +23589,7 @@ slack_docs.cef2fe0: Try Again
 slack_docs.62873ed: Typing…
 slack_docs.b2e284e: Unable to restore version.
 slack_docs.621521f: Untitled
+slack_docs.fdc7eae: Update suggestions
 slack_docs.8bdf057: Upload
 slack_docs.63e0d46: Upload an image
 slack_docs.1023232: Version by {author} {date} at {time}
@@ -24426,7 +24496,6 @@ slackbot-home.8dc7b2b: Daily briefing
 slackbot-home.060597f: Describe how you want your sidebar to look
 slackbot-home.70afe9e: Dismiss
 slackbot-home.7d38d45: Dismiss connector suggestions
-slackbot-home.efcfea4: Dismiss todo list
 slackbot-home.03bedbf: Draft emails in your own voice
 slackbot-home.c250d77: Event Details
 slackbot-home.aab139f: Features and shortcuts worth knowing
@@ -24507,7 +24576,6 @@ slackbot-home.dce6cd8: You can view your chat history with Slackbot anytime.
 slackbot-home.ad4e269: You have {unreadCount, plural, =1 {# unread} other {# unreads}} today
 slackbot-home.ad043f3: Your AI teammate has a new home
 slackbot-home.ec5a54d: Your Slackbot history lives here
-slackbot-home.c8dc8de: Your Slackbot todo list
 slackbot-home.2ea4229: Your day, summarized in seconds
 slackbot-home.8b4ca3d: Your sidebar is tucked away while you work side by side. Bring it back anytime with this button.
 slackbot-home.27e90df: at
@@ -24663,7 +24731,6 @@ slackbot_nux_carousel.09ca55c: Share
 slackbot_nux_carousel.b0d2ef9: Step {step} of {total}
 slackbot_nux_carousel.042c862: Try again
 slackbot_nux_carousel.7b0d81e: Yep
-slackbot_nux_carousel.c8dc8de: Your Slackbot todo list
 slackbot_nux_carousel.490528f: there
 slackbotpagesidebarlink.2b166e1: Meet Slackbot
 slackforce.d35fd9d: (no content)
@@ -26161,9 +26228,11 @@ tabbed-channel.9267619: Tab name can’t be longer than 256 characters.
 tabbed-channel.090ec5f: Tasks
 tabbed-channel.f25b700: Templates
 tabbed-channel.15eee9c: The Channel Expert will use the sources you add here to generate replies.
+tabbed-channel.2f818d0: This canvas can’t be shared in Slack Connect because of its sensitivity label.
 tabbed-channel.98feb3e: This file can’t be added as a tab because it can’t be previewed in Slack.
 tabbed-channel.edb5a9e: This file can’t be added as a tab right now. Please try again later.
 tabbed-channel.798481a: This file will be added as a tab in this channel.
+tabbed-channel.9e95584: This list can’t be shared in Slack Connect because of its sensitivity label.
 tabbed-channel.bb12e8a: Threads
 tabbed-channel.78437fe: To add this file as a tab, you’ll need to connect to {appName}.
 tabbed-channel.82f4718: To add this file as a tab, you’ll need to request access to view it.
@@ -26697,6 +26766,7 @@ today.56e2f5d: Later
 today.526cb74: Less
 today.ad4045a: Let your workspace owner know you’d like to use Today in Slack - only they can activate the features.
 today.a1fffaa: List
+today.8709df2: List item
 today.6bd479d: List item saved for later
 today.2678479: Loading message…
 today.30b528b: Look for it in the More menu.
@@ -27399,6 +27469,7 @@ user_groups.363a8d3: Edit group details...
 user_groups.bfa438a: Edit group members...
 user_groups.49f8d97: Edit members
 user_groups.3bf80c6: Edit user groups
+user_groups.35f3ebc: Enable Group
 user_groups.d1a904c: Enable group
 user_groups.3426250: Find members
 user_groups.642136f: Frontline members only
