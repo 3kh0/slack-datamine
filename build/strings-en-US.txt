@@ -6119,6 +6119,7 @@ code-request-reviewers-button.09072a9: There was a problem requesting this revie
 code-request-reviewers-button.168e046: This draft will also be marked as ready for review.
 code-request-reviewers-button.d8b9f7e: You can request up to {count} reviewers at a time.
 code-request-reviewers-button.76cbb38: You can’t post in this channel, so remove your message and try again.
+code-request-reviewers-button.6c81a54: You don’t have permission to request reviews from Slack.
 code-request-reviewers-button.339f80e: Your GitHub account doesn’t have permission to request reviews on this pull request.
 code-request-reviewers-button.0f902f6: Your message can’t mention @channel, @here, or groups.
 code-request-reviewers-button.2bbc33e: Your message includes something your org doesn’t allow. Edit it and try again.
@@ -6136,6 +6137,7 @@ code-review-comment-composer.f85fefb: Adding to your review
 code-review-comment-composer.60ed7e9: Ask the agent or leave feedback on GitHub…
 code-review-comment-composer.7adcdf7: Ask {agentName} in Channel
 code-review-comment-composer.77dfd21: Cancel
+code-review-comment-composer.0d7ce3c: Comment added to your message draft in Messages
 code-review-comment-composer.de0256b: Comment on GitHub…
 code-review-comment-composer.cd8476c: Comment posted
 code-review-comment-composer.f305e74: Comments are synced with GitHub
@@ -6244,11 +6246,10 @@ code-tab.38c1b65: Diff display options
 code-tab.23d33e2: Draft
 code-tab.3b16825: Edit comment
 code-tab.2ebe5b3: Edit description
+code-tab.9f13b71: File tree width
 code-tab.df251b0: Find
 code-tab.686d4da: Find in diff
 code-tab.986c321: GitHub couldn’t change this pull request’s status. Check it on GitHub.
-code-tab.5449e1f: GitHub is limiting requests from your account right now. Try again in a few minutes.
-code-tab.24164fe: GitHub is limiting requests from your account right now. Try again in {minutes, plural, =1 {a minute} other {# minutes}}.
 code-tab.aad611d: GitHub isn’t available for your organization.
 code-tab.c5543c0: Hide file tree
 code-tab.a0d0d0d: Hide resolved
@@ -6330,7 +6331,6 @@ code-tab.2153e31: Your GitHub account doesn’t have permission to edit this com
 code-tab.6c4b0bb: Your GitHub account doesn’t have permission to edit this description.
 code-tab.fd0cb23: Your GitHub account doesn’t have permission to resolve this conversation.
 code-tab.e177c8d: Your GitHub account doesn’t have permission to unresolve this conversation.
-code-tab.01ea0e4: Your GitHub organization requires single sign-on. Sign in to the organization on GitHub, then try again.
 code-tab.b1835bb: Your comment was posted, but GitHub couldn’t close this pull request.
 code-tab.bf43146: {author} on {location}: {comment}
 code-tab.db03f19: {count, plural, =1 {Review changes (1 pending comment)} other {Review changes (# pending comments)}}
@@ -6371,6 +6371,7 @@ code_channel_entity_card.e3cb83f: started {date} at {time}
 code_channel_entity_card.17c3288: {author} at {time}
 code_channel_entity_card.aac8075: {count, plural, =1 {# message} other {# messages}}
 code_channel_entity_card.9ca2dbe: {count}+ messages
+code_channels.35f2b9a: Ask an admin to approve this GitHub organization to view and review its pull requests from this channel.
 code_channels.adac693: Code
 code_channels.44c1d16: Code channel views
 code_channels.2178df3: Collapse view
@@ -6381,6 +6382,8 @@ code_channels.49958fc: Couldn’t start connecting to GitHub Enterprise. Try aga
 code_channels.1e80870: Expand view
 code_channels.426b501: Files and links
 code_channels.8cf15d9: GitHub Enterprise connected
+code_channels.6f63f19: GitHub Enterprise connected. GitHub organization not approved.
+code_channels.e4b5a0e: GitHub organization not approved
 code_channels.04091c0: Loading view
 code_channels.9682754: Session channel views
 code_channels.69782c0: Unable to load this view. Please try again later.
@@ -8918,7 +8921,6 @@ enterprise_dashboard.f45cf16: Get more info
 enterprise_dashboard.32357ac: Give Slack permission to automatically connect people’s accounts to their Google Workspace account for this domain.
 enterprise_dashboard.e3e3a56: Global Administrator access required. Share <a>this link</a> with your Global Administrator to get set up.
 enterprise_dashboard.53af77c: Global Administrator access required. Share this link with your Global Administrator to get set up.
-enterprise_dashboard.4e27cf4: Go back to step 2 and reinstall Slack, or wait a few minutes and try verifying again.
 enterprise_dashboard.b2acc20: Grant Slack access to Google
 enterprise_dashboard.6b45d93: Grant Slack access to Office 365
 enterprise_dashboard.8fe6084: Icon for {appName}
@@ -8959,7 +8961,6 @@ enterprise_dashboard.0960b20: Once removed, this person will no longer have acce
 enterprise_dashboard.bb1f603: Open {appName}
 enterprise_dashboard.22b61f9: People will no longer be able to use or request {appName} in workflows. Existing workflows using {appName} will continue to function.
 enterprise_dashboard.16a4155: Please select an option
-enterprise_dashboard.545bab2: Please start over and try again, or visit our <a>help article</a> for more guidance.
 enterprise_dashboard.605da7e: Please try again later. If the issue still persists, contact Slack.
 enterprise_dashboard.50f9428: Previous
 enterprise_dashboard.dc5eb70: Public
@@ -8989,7 +8990,6 @@ enterprise_dashboard.8d886c0: Something went wrong
 enterprise_dashboard.2f5ae3a: Something went wrong adding your domain. Please try again.
 enterprise_dashboard.5f67cde: Something went wrong signing in with Google. Try again.
 enterprise_dashboard.5960ade: Something went wrong, please try again.
-enterprise_dashboard.1b5da1c: Something went wrong. Please start over and try again, or visit our help article for more guidance.
 enterprise_dashboard.6da13ad: Source
 enterprise_dashboard.2d750dd: Specific people
 enterprise_dashboard.b16c9d3: Specific people and workspaces
@@ -9021,12 +9021,9 @@ enterprise_dashboard.f052edb: Ways to start
 enterprise_dashboard.72962c5: We couldn’t start Google sign-in. Please try again later.
 enterprise_dashboard.c13aae5: We couldn’t start Google verification. Please try again later.
 enterprise_dashboard.521652a: We couldn’t start Office 365 sign-in. Please try again later.
-enterprise_dashboard.dcf5058: We couldn’t verify your email. Please try again.
 enterprise_dashboard.ed43f92: Who can use {appName} in workflows
 enterprise_dashboard.825ce9e: Workflows
 enterprise_dashboard.205b456: Workspaces
-enterprise_dashboard.81fecd9: Your Google Workspace doesn’t have Slack yet
-enterprise_dashboard.dec24e0: Your Google Workspace doesn’t have Slack yet. Go back to step 2 and reinstall Slack, or wait a few minutes and try verifying again.
 enterprise_dashboard.c5d6fcb: You’ll be redirected to a new window to approve access.
 enterprise_dashboard.edb77ac: You’ll need <b>super admin</b> access to your Google Workspace account to get set up. Learn more about <a>Google admin roles</a>.
 enterprise_dashboard.3536f72: channels
@@ -10805,6 +10802,7 @@ huddles.c775a48: Automatic AI notes and transcription are on in all huddles in {
 huddles.caec1e5: Automatic AI notes are on in all huddles in {channelDisplayName}.
 huddles.a1c3d76: Automatic transcription is on in all huddles in {channelDisplayName}.
 huddles.b52b36b: Back
+huddles.f9b0334: Back to grid
 huddles.be7e10d: Bad
 huddles.3f16022: Be right back
 huddles.15f4023: Be there soon
@@ -10955,6 +10953,7 @@ huddles.792468b: Having huddles issues? Open the <l>troubleshooting panel</l>.
 huddles.31341c6: Header
 huddles.5d977f5: Heads up — this huddle began in a private conversation, so you won’t be able to see messages sent in thread.
 huddles.99f9bf6: Hearts
+huddles.b54f0ae: Hide canvas
 huddles.a7ed2d5: Hide thread
 huddles.b1a5954: High
 huddles.70f8bb9: Home
@@ -11144,7 +11143,6 @@ huddles.8c0c97b: Other media options
 huddles.b3cb3a7: Others couldn’t hear me
 huddles.f4d6b59: Outlook
 huddles.fc23278: Outlook Calendar
-huddles.ebb05a6: Page {pageNumber}
 huddles.a279d13: Page {pageNumber} of {totalPages}, View next page
 huddles.c8c6c7a: Page {pageNumber} of {totalPages}, View previous page
 huddles.96f608c: Pending
@@ -21695,6 +21693,9 @@ singer.18e03e2: Channels
 singer.e122b79: Channels, DMs and threads you visit in Slack will appear here.
 singer.ee9946c: Character
 singer.749d704: Character, outfit, and size changes save to your Slack account.
+singer.841dc4e: Chart my Jira issues by status
+singer.6064dab: Chart my open PRs by days in review
+singer.9a4c015: Chart my pipeline by stage
 singer.2ced57f: Chat
 singer.9c44221: Chat with Slackbot
 singer.3d6910b: Chatty
@@ -21831,7 +21832,6 @@ singer.32c30b7: Draft added. Review it before sending.
 singer.84e7338: Draft with Slackbot
 singer.aa8bc13: Drag Singer onto the window where your meeting is running, or attach to the one in front.
 singer.25885ed: Drag Singer onto the window.
-singer.86e14f5: Draw my week as a little scene
 singer.f105e74: Drink some water
 singer.0f732f6: Drink some water:potable_water:
 singer.dada5c7: Drop Singer right on the window.
@@ -21911,6 +21911,7 @@ singer.e1e1614: Holding position.
 singer.3e9875c: Hoot hoot
 singer.a186b9f: Hoot hoot :owl:
 singer.f71e193: Hovering in place.
+singer.bec11bc: How am I tracking against quota?
 singer.a0767c2: Huddle
 singer.664fda1: Huddle invite
 singer.ddb36ec: Huddle invites
@@ -22340,6 +22341,8 @@ singer.4c852b2: Show less
 singer.ded0a5d: Show me
 singer.9bfd43e: Show message text when your Slack privacy settings allow it.
 singer.25911d4: Show more
+singer.6cf7dfc: Show my pipeline by stage
+singer.58986af: Show suggestions
 singer.260072c: Show welcome again
 singer.852ffae: Show {count, plural, =1 {# more} other {# more}}
 singer.348b2d3: Showtime
@@ -22439,7 +22442,7 @@ singer.ad9ac85: Stopped. Writing your recap…
 singer.a22a235: Stopping the recording…
 singer.827c972: Stopping…
 singer.ae8bb93: Suggest asks about
-singer.67922b7: Suggested asks
+singer.02a5629: Suggest asks from what you’re working on in Slack.
 singer.76e2986: Summarize with Slackbot
 singer.62d8d30: Sunday Sailor
 singer.e8c986e: Sweet potato!
@@ -22556,6 +22559,7 @@ singer.bca70bf: What’s next?
 singer.3fd30db: What’s on your mind?
 singer.f879eb5: What’s still undecided?
 singer.769bb19: When
+singer.e4b2fe8: Where is my pipeline coming from?
 singer.bc6b225: While you were quiet
 singer.5fd7559: Who answers
 singer.4973f4c: Win
@@ -23554,7 +23558,7 @@ slack_first_crm.7b8e808: An error occurred when trying to add the ReCAPTCHA key.
 slack_first_crm.9c2f5ab: An error occurred when trying to resend the verification email.
 slack_first_crm.3a67976: An error occurred when trying to start verifying your email.
 slack_first_crm.66ce198: An error occurred when trying to update the ReCAPTCHA key settings.
-slack_first_crm.218aee9: Anyone on your team who can see those contacts and leads can read the saved emails.
+slack_first_crm.1163892: Anyone who can see a contact or lead can read the emails logged to it.
 slack_first_crm.092e0f8: Automatically log interactions with your customers
 slack_first_crm.d5e01e7: Automatically log your emails with contacts and leads
 slack_first_crm.6e6ddae: Avatars of various people
@@ -23571,6 +23575,7 @@ slack_first_crm.dce6a94: Collaborate with external partners
 slack_first_crm.04a2122: Confirm
 slack_first_crm.4821ed1: Confirm Salesforce permissions
 slack_first_crm.19e2fd5: Connect Email
+slack_first_crm.aa27afd: Connect Gmail
 slack_first_crm.58d19a6: Connect Salesforce to map Lead fields.
 slack_first_crm.d670a8d: Connect Your Account
 slack_first_crm.c4dcf59: Connect Your Support Email
@@ -23604,6 +23609,7 @@ slack_first_crm.6704d62: Form title
 slack_first_crm.a54321b: Format the channel message
 slack_first_crm.8bfd2b2: Forwarding email
 slack_first_crm.8280270: From a webhook
+slack_first_crm.5bb1149: From now on, emails with your contacts and leads in Slack CRM are logged. Other emails aren’t.
 slack_first_crm.d66767e: Get new leads from your existing systems
 slack_first_crm.ed56132: Get new leads from your website
 slack_first_crm.c8a4874: Got It
@@ -23632,7 +23638,6 @@ slack_first_crm.b3bb285: Map incoming data to Salesforce fields
 slack_first_crm.709a232: Name
 slack_first_crm.0d3a330: Need help with this step?
 slack_first_crm.e8f770f: New emails to this address will be posted as cases in <b>#{channelName}</b>. Your team can respond in Slack, and this email will be used as the from address. <link>Learn more.</link>
-slack_first_crm.cd1c6eb: New emails with your work contacts and leads are saved in Slack.
 slack_first_crm.1292974: New lead
 slack_first_crm.79e2d99: New leads post automatically with Add Lead to Salesforce and Dismiss buttons, so a rep can review each lead before it goes to your CRM.
 slack_first_crm.bc98198: Next
@@ -23672,6 +23677,7 @@ slack_first_crm.8d886c0: Something went wrong
 slack_first_crm.9a3ea05: Something went wrong. Please try again.
 slack_first_crm.575dca3: Step 1 of 3
 slack_first_crm.d80610a: Step 2 of 3
+slack_first_crm.ff5cfec: Stop logging emails in your preferences.
 slack_first_crm.2dacf65: Submit
 slack_first_crm.017868e: Support email
 slack_first_crm.3ec1ae0: Template
@@ -23686,13 +23692,12 @@ slack_first_crm.6ac74e7: This integration starts when a third-party app or servi
 slack_first_crm.bf2a44d: To change the sender name or address that’s connected, remove the current email and set up a new connection.
 slack_first_crm.042c862: Try again
 slack_first_crm.a5aa418: Turn On
-slack_first_crm.835b53a: Turn it off at any time
+slack_first_crm.d1f2942: Turn it off anytime
 slack_first_crm.bd2ddd7: Use a webhook and new leads will be automatically posted in this channel. Connect any tool that can send a web request, like form builders, dialers, or marketing platforms.
 slack_first_crm.0a21ab2: Use data that comes in with the web request. We’ll create a variable for each field you map.
 slack_first_crm.de9f5c3: Variables are replaced with each lead’s values when the message posts.
 slack_first_crm.84fdc78: Verify your email
 slack_first_crm.2973507: View contacts
-slack_first_crm.a4dfc92: Visible to your team
 slack_first_crm.7ce9cbf: Waiting for verification…
 slack_first_crm.cb978ef: We can’t load your Salesforce fields. Close setup and try again.
 slack_first_crm.63f08b2: We can’t load your Salesforce fields. Reconnect Salesforce or ask an admin for access, then try again.
@@ -23701,11 +23706,12 @@ slack_first_crm.3ac2826: Webhook
 slack_first_crm.f8cae6b: Welcome to {channelName}
 slack_first_crm.3d090d4: Workflow name
 slack_first_crm.9b15fd8: Write the message that posts for every new lead. Use Insert a variable to add lead fields.
-slack_first_crm.3f4f0ae: You can stop logging your emails in Preferences.
 slack_first_crm.d5f9672: Your Gmail is connected. Turn on logging to save emails to the matching records.
 slack_first_crm.27b445f: Your contacts list is ready to go.
 slack_first_crm.87c9498: Your emails with contacts and leads are now saved to the matching records.
 slack_first_crm.20c24e8: Your support address is verified
+slack_first_crm.32ec213: Your team can read logged emails
+slack_first_crm.f8fa76e: You’ll sign in to Google next.
 slack_first_crm.8bca76a: You’re almost done…
 slack_first_crm.5b1b568: You’re currently connected to <b>{emailAddress}</b>, which forwards to <b>{forwardingAddress}</b>. New emails sent to this address create cases in Slack, and your team can send emails from this address.
 slack_first_crm.db40109: read-only preview
@@ -23842,6 +23848,7 @@ slackbot-ai.ea96354: Compare Plans
 slackbot-ai.792c81a: Configure
 slackbot-ai.04a2122: Confirm
 slackbot-ai.b65463c: Connect
+slackbot-ai.aa27afd: Connect Gmail
 slackbot-ai.35e64b9: Connect an email account to send directly from Slack
 slackbot-ai.7a7bc9d: Connect calendar
 slackbot-ai.df71603: Connect to try
@@ -24732,6 +24739,7 @@ slackforce.a158434: Change owner without saving changes?
 slackforce.9b473f2: Changes apply to everyone in this channel. A workflow that’s paused doesn’t post here, and nothing is sent later.
 slackforce.0bbe9ed: Changes saved
 slackforce.e8e015c: Choose which workflows post here
+slackforce.9f768fc: Choose who to connect email for.
 slackforce.67300d0: Clear search
 slackforce.bbfa773: Close
 slackforce.4dd1f29: Close and Discard
@@ -24743,6 +24751,14 @@ slackforce.0774bc9: Collapse email from {sender}
 slackforce.1b370eb: Collapse thinking steps
 slackforce.1798b3b: Completed
 slackforce.d44c9d7: Compose email
+slackforce.aa27afd: Connect Gmail
+slackforce.39c9a72: Connect Gmail for everyone on your domain. A Google Workspace admin has to approve it, and you can send them a link.
+slackforce.be9120d: Connect Gmail for everyone on your domain. A Google Workspace admin has to approve it, and you can send them a link. Each person still chooses whether their emails are logged.
+slackforce.5b291c0: Connect Gmail to log emails with your contacts and leads.
+slackforce.5741fe5: Connect email
+slackforce.1f1ab54: Connect email for your team
+slackforce.a921d52: Connect your Gmail and log emails with your contacts and leads.
+slackforce.03a6aa5: Connect your email
 slackforce.b37456c: Contact
 slackforce.222e058: Contact an admin to make changes.
 slackforce.e8c84ed: Contact your admin if you continue to see this error.
@@ -24802,10 +24818,12 @@ slackforce.3496db1: Easily update records
 slackforce.5301648: Edit
 slackforce.c06a9a6: Edit view
 slackforce.3358e4f: Edit {label}
+slackforce.88ce0e2: Einstein Activity Capture already logs your emails.
 slackforce.84add5b: Email
 slackforce.a4a3139: Email address not available for reply
 slackforce.044eca4: Email address saved to record
 slackforce.01b8fcc: Email editor
+slackforce.66b0eec: Email logging isn’t available for your workspace.
 slackforce.8261ce7: Email sent to {recipient}
 slackforce.16727df: Email subject
 slackforce.4735583: Emails
@@ -24838,6 +24856,8 @@ slackforce.306e04d: Find your Salesforce records
 slackforce.9df7624: Finish setting up Slack CRM
 slackforce.909e0ec: Focus on taking action on opportunity
 slackforce.6f6d204: For help, contact your Salesforce admin.
+slackforce.7e13d94: For you
+slackforce.7f0ffe9: For your team
 slackforce.c4d63e4: From:
 slackforce.fc45f9b: Generate
 slackforce.7d3a714: Generate actionable insights about a record.
@@ -24852,6 +24872,9 @@ slackforce.493e1f5: Get started with contacts
 slackforce.8d31273: Give it another try
 slackforce.f89510a: Give me a preview of Slackbot’s sales capabilities using the {skillName} skill
 slackforce.7666588: Give teammates access to Slack CRM
+slackforce.821fcc7: Gmail connected, but logging didn’t turn on. Try again.
+slackforce.15c7686: Gmail connected. Your emails are being logged.
+slackforce.b43864a: Gmail is connected for your team. Turn on email logging to save emails with your contacts and leads automatically.
 slackforce.f03e2d0: Go Back
 slackforce.5b8027f: Got it
 slackforce.0aeb051: Great! I’m going to look for recent conversations, messages, or events related to sales. I’ll use what I find to add records to the Sales Tracker.
@@ -24882,6 +24905,7 @@ slackforce.6b32985: Last 30 days
 slackforce.14d5436: Last 6 months
 slackforce.df833fe: Last 7 days
 slackforce.6b7efc4: Last synced {timeAgo}
+slackforce.92f5271: Last updated {ago}
 slackforce.c9867eb: Last updated {date}
 slackforce.824d76b: Learn more
 slackforce.96d00ca: Let’s get you up to speed on Slack CRM
@@ -24894,6 +24918,8 @@ slackforce.d98cd74: Loading more activity
 slackforce.feb9b06: Loading more files
 slackforce.e396956: Loading record…
 slackforce.33ce417: Loading…
+slackforce.1811461: Log emails with your contacts and leads, for you or your whole team.
+slackforce.59bdb25: Log emails with your contacts and leads.
 slackforce.3d53a4f: Looks like you don’t have access to this list
 slackforce.31633d8: Manage access in Salesforce
 slackforce.cd71d2d: Manage this workflow
@@ -24923,6 +24949,7 @@ slackforce.ea33854: No filters available
 slackforce.58348de: No matching updates from past 30 days
 slackforce.78996e5: No sales-related conversations found.
 slackforce.89a950f: No workflows yet
+slackforce.b1e5359: Not Now
 slackforce.98aa8fe: Nothing to show for these filters.
 slackforce.f0217a3: Notify the new owner
 slackforce.9ce3bd4: OK
@@ -24976,6 +25003,7 @@ slackforce.5bb392e: Recent updates
 slackforce.d8ffffd: Recipient email address
 slackforce.4faa65b: Recommendations
 slackforce.1c54132: Record
+slackforce.04d8864: Record changes
 slackforce.7fd8ba6: Record files
 slackforce.4cda33b: Record preview
 slackforce.5d64904: Records created
@@ -25042,6 +25070,7 @@ slackforce.15515ee: Select an object to see its records
 slackforce.be4e8e2: Send Email
 slackforce.e615fcf: Send email without any content?
 slackforce.372c9fc: Sent {date}
+slackforce.30b8c9f: Set Up for Your Team
 slackforce.d33bd23: Set your status
 slackforce.09ca55c: Share
 slackforce.953ef8a: Share email
@@ -25059,6 +25088,7 @@ slackforce.45eb3ac: Showing updates from past 30 days
 slackforce.ada2e9e: Sign in
 slackforce.489f076: Sign in to Salesforce
 slackforce.c6e6077: Slack 101
+slackforce.08b7c7c: Slack can’t read your Gmail yet, so logging didn’t turn on.
 slackforce.77cb0a8: Slack is unable to open this file at this time.<br></br>Our team is working to address this issue quickly.
 slackforce.04d9893: Slack logo
 slackforce.9fbb94b: Slackbot
@@ -25138,7 +25168,10 @@ slackforce.d552af5: Try a pipeline update
 slackforce.042c862: Try again
 slackforce.0613fd4: Try out Slackbot’s sales skills
 slackforce.19e5f94: Try scanning Slack again
+slackforce.af01dd7: Turn On Email Logging
 slackforce.13fc5b4: Turn a lead into a sales opportunity, with a related contact and account.
+slackforce.81f0542: Turn on email logging
+slackforce.c160945: Turn on logging for your connected Gmail to log emails with your contacts and leads.
 slackforce.3deb745: Type
 slackforce.ab5297f: Type to search
 slackforce.01229c1: Type: {count}
@@ -25196,10 +25229,12 @@ slackforce.2059f37: Your Sales Tracker is ready to go.
 slackforce.9b051b4: Your Salesforce org doesn’t have a converted lead status configured. Please contact your administrator.
 slackforce.44bc6ca: Your Slack onboarding checklist
 slackforce.e73fc64: Your admin doesn’t allow Slackbot to read Salesforce records for you. Ask a Slack admin to change this.
+slackforce.9a2b669: Your admin turned off email logging.
 slackforce.167b85d: Your attempt to delete this record could not be completed.
 slackforce.7150d22: Your connected Gmail account changed. Close this email and open it again to send.
 slackforce.27b445f: Your contacts list is ready to go.
 slackforce.1dd9776: Your email may have been sent. Check your Gmail Sent folder before trying again.
+slackforce.f1e299c: Your emails are being logged.
 slackforce.267dc60: Your team has a Salesforce integration to make viewing data and updating info easier without leaving Slack.
 slackforce.f19e382: You’ll get its messages from now on.
 slackforce.de97cfe: You’ll need to upgrade your plan to access Sales Hub.
@@ -25967,6 +26002,7 @@ tabbed-channel.1913553: Clear text
 tabbed-channel.2a98199: Clear text to default to file name
 tabbed-channel.adac693: Code
 tabbed-channel.b65463c: Connect
+tabbed-channel.aa27afd: Connect Gmail
 tabbed-channel.2f84eea: Copy link
 tabbed-channel.55acc83: Create New Canvas
 tabbed-channel.785f99c: Create New List
@@ -27814,6 +27850,7 @@ work-objects.46d5eb7: Edit {title}
 work-objects.106821c: Editing {title}
 work-objects.09ba557: Email Address
 work-objects.d6a1465: Email Details
+work-objects.d37cad6: Email {name}
 work-objects.2a275b6: Error saving to fields
 work-objects.8d98467: Exclude apps, bots, and workflows
 work-objects.cbf8fe6: Exclude automations
@@ -27837,6 +27874,7 @@ work-objects.d0f01bb: Has your Tableau Next user been configured?
 work-objects.ff63bc1: Have a lot of editing to do? Change what happens when you click on a preview.
 work-objects.9cd4f1b: Heads up — we couldn’t verify the source of this file. Make sure you trust it before downloading
 work-objects.a7ed2d5: Hide thread
+work-objects.717e6d4: Insert huddle link
 work-objects.08648d8: It’s quiet. Too quiet…
 work-objects.b22a0d6: Just synced from {appName}
 work-objects.0b48eaa: Last updated {lastSyncTimeFormatted}

@@ -1102,7 +1102,7 @@ Any time
 Any time in the past
 Any type
 Anyone in your entire organization
-Anyone on your team who can see those contacts and leads can read the saved emails.
+Anyone who can see a contact or lead can read the emails logged to it.
 Anyone with a link
 Anyone with access to the template can create new lists using the same contents.
 Anyone you share this link with can join the channel.
@@ -1268,6 +1268,7 @@ Ask a question or get help with a task
 Ask about this meeting
 Ask about this record, prep for a customer meeting, or make quick updates.
 Ask about this window
+Ask an admin to approve this GitHub organization to view and review its pull requests from this channel.
 Ask an admin to install it from the Slack Marketplace.
 Ask an admin to reinstall it so Slackbot gets the access it needs.
 Ask anything
@@ -2177,6 +2178,7 @@ Character, voice, outfit, and size changes save to your Slack account.
 Chart caption
 Chart my Jira issues by status
 Chart my open PRs by days in review
+Chart my pipeline by stage
 Chart type
 Chat about this
 Chat and Collaboration
@@ -2297,6 +2299,7 @@ Choose which workflows post here
 Choose who can add, remove, and reorder artifacts
 Choose who can add, remove, and reorder tabs
 Choose who can manage the Channel Agent
+Choose who to connect email for.
 Choose your 1:1 layout
 Choose your account and review access in your browser. Then come back here.
 Choose your default skin tone
@@ -2333,7 +2336,6 @@ Claude Sonnet 5.5 (Anthropic)
 Clean message text
 Clean state expected
 Clean sweep.
-Clean up my sidebar
 Clean up old persisted data for expired teams
 Clean up your channel list
 CleanStoppedSessionTask got canceled while waiting for the WebSocket closed event
@@ -2484,11 +2486,11 @@ Clog the calendar sync event
 Clog the creation of a list
 Clog the editing of a folder
 Clog the first navigation suggestion in a search session
+Clog the start of a domain-wide auth setup pass
 Clog when clicking the emoji button
 Clog when clicking the mention button
 Clog when leaving the composer page
 Clog when sending a draft from the Drafts page
-Clog whether DWA was enabled when the nudge CTA was clicked
 Clogger context could not be determined, using empty context
 Clogs a link click in a file, preferring the stored copy of the file
 Clogs a user click on the Slackiversary sidebar item
@@ -2662,9 +2664,12 @@ Comments cannot span multiple sections.
 Comments fetch timed out
 Comments may be out of date. Sync to get the latest.
 Comments only
+Commit a deferred saved clear whose undo toast is gone
 Commit a deferred, undoable saved-item clear
 Commit pending bulk to-do clears before an item moves into to-dos
 Committed deferred saved clear
+Committing deferred saved clear whose undo toast is gone
+Committing deferred saved clear whose undo toast is off screen
 Common Lisp
 Common section names
 Communicate in countless ways from one place.
@@ -2739,6 +2744,9 @@ Connect GitHub
 Connect GitHub to see your pull requests and their checks here.
 Connect Gmail
 Connect Gmail (opens in a new tab)
+Connect Gmail for everyone on your domain. A Google Workspace admin has to approve it, and you can send them a link.
+Connect Gmail for everyone on your domain. A Google Workspace admin has to approve it, and you can send them a link. Each person still chooses whether their emails are logged.
+Connect Gmail to log emails with your contacts and leads.
 Connect Gmail to log your emails with contacts and leads.
 Connect Gmail to send email
 Connect Google Drive
@@ -2769,6 +2777,8 @@ Connect calendar
 Connect cloud app
 Connect each MCP server to use it in this step.
 Connect each MCP server to use it in this step. Test runs use your connection.
+Connect email
+Connect email for your team
 Connect email provider
 Connect the apps your team uses
 Connect to Gmail
@@ -2787,18 +2797,21 @@ Connect with external partners in a shared channel.
 Connect your AI tools
 Connect your GitHub account to edit this description.
 Connect your Gmail account?
+Connect your Gmail and log emails with your contacts and leads.
 Connect your One Drive account
 Connect your SSO to any identity provider.
 Connect your account
 Connect your account at any time
 Connect your account in Salesforce connection settings
 Connect your account to send email
+Connect your account to view and review pull requests from this channel.
 Connect your apps
 Connect your apps to Slackbot
 Connect your apps to use it without leaving Slack.
 Connect your calendar
 Connect your calendar to Slack
 Connect your calendar to Slack to save this event.
+Connect your email
 Connect your email account to speed up your sales
 Connect your files
 Connect your lists with a workflow
@@ -3959,7 +3972,6 @@ Drag to reorder slide
 Drag to take a screenshot
 Dragon Touch
 Draw message must be correctly formed
-Draw my week as a little scene
 Draw on your own screen
 Drawing is not available for content shared from the Slack Mobile app
 Dream Maker
@@ -4157,6 +4169,7 @@ Edward Sacks, Sara Shackleton, Kim Ward
 Edwardian Script ITC
 EffectRenderer WebGL context lost
 Einstein Activity Capture already logs your email.
+Einstein Activity Capture already logs your emails.
 Einstein Copilot
 Either baseOptions.modelAssetPath or baseOptions.modelAssetBuffer must be set
 Either channelId or memberId must be provided
@@ -5446,6 +5459,7 @@ For others
 For questions or further assistance, reach out to us at
 For testing purposes (internal only)
 For the best experience, connect your calendar to Slack. Schedule meetings, see them on your calendar and sync your Slack status.
+For your team
 Forbes Advisor
 Forbes Advisor: What is an OKR? Definition & Examples
 Force API failures (e.g. client.init:fail:100)
@@ -5702,6 +5716,7 @@ Get up to speed in any channel or thread with one click.
 Get user groups
 Get user groups from the search.team endpoint by query
 Get what you need to run your business
+Get where a saved message opens
 Get your organization more Slackbot messages
 Get your team on the same page. Literally.
 Gets a context menu template, triggered by ChannelContextMenu
@@ -5741,9 +5756,12 @@ GitHub Dark Default
 GitHub Dark Dimmed
 GitHub Dark High Contrast
 GitHub Enterprise
+GitHub Enterprise connected
+GitHub Enterprise connected. GitHub organization not approved.
 GitHub Light
 GitHub Light Default
 GitHub Light High Contrast
+GitHub organization not approved
 Give AI a prompt to instantly create a workflow template
 Give Feedback
 Give Slackbot access to your tools so it can help you across Jira, Figma, and more.
@@ -5770,6 +5788,8 @@ Glimmer TS
 Global Administrator access required. Share this link with your Global Administrator to get set up.
 Globe icon
 Gloucester MT Extra Condensed
+Gmail connected. Your emails are being logged.
+Gmail is connected for your team. Turn on email logging to save emails with your contacts and leads automatically.
 Go To Slack Help Center
 Go ahead, start writing!
 Go back in history
@@ -6051,6 +6071,7 @@ Hide section
 Hide self-view
 Hide sidebar
 Hide sidebars
+Hide suggestions
 Hide tab
 Hide thread
 Hide thread & transcript
@@ -6128,7 +6149,6 @@ How does this impact your current use of Slack or how could it potentially impro
 How familiar are you with Slack?
 How filter groups are combined
 How is the transcript? Tell us about your experience.
-How much focus time do I have this week?
 How satisfied are you with the customer relationship management (CRM) features in Slack so far?
 How she works
 How should I use Slackbot for my role?
@@ -7203,6 +7223,8 @@ Log Network Requests
 Log a Salesforce file event
 Log activity
 Log activity global action
+Log emails with your contacts and leads, for you or your whole team.
+Log emails with your contacts and leads.
 Log exposure for the omni_trailing_debounce experiment
 Log file
 Log in to get the latest
@@ -8480,7 +8502,6 @@ New compound node after recursive render XAX
 New conversation
 New dictionary entry
 New edits
-New emails with your work contacts and leads are saved in Slack.
 New file
 New folder
 New hire onboarding
@@ -9431,7 +9452,6 @@ Open the channel tabs list in the secondary view
 Open the conversation to read this message.
 Open the conversation to view this update.
 Open the desktop app
-Open the domain-wide auth setup modal from the admin DWA nudge DM
 Open the flow for an Explore my trial feature card
 Open the manual deny request modal from Slackbot message
 Open the modal to set solution template permissions
@@ -9822,7 +9842,6 @@ Plain Text
 Plain text
 Plan an effective meeting
 Plan approved
-Plan my day
 Play Again
 Play Just-In-Time calendar notification sound
 Play a live voice call cue unless huddle sounds are muted
@@ -11314,6 +11333,7 @@ Schedule External Huddle
 Schedule Huddle
 Schedule Message
 Schedule a Meeting
+Schedule a commit deadline for a deferred saved clear
 Schedule a message to be sent
 Schedule for later
 Schedule message
@@ -11842,6 +11862,7 @@ Set Up Integration
 Set Up Slack
 Set Up Web Form
 Set Up Workflow
+Set Up for Your Team
 Set XWS education banner as seen
 Set a channel notification override on the client only
 Set a channel purpose
@@ -12284,6 +12305,7 @@ Show sales tracker removing toast
 Show search history
 Show sidebar
 Show sidebars
+Show suggestions
 Show tab
 Show the off-shift blocker without expiring workspace credentials
 Show the work object in a synced state
@@ -13021,6 +13043,7 @@ Stop drawing on your own screen
 Stop editing
 Stop focusing on your sidebar
 Stop generating
+Stop logging emails in your preferences.
 Stop music
 Stop receiving recaps
 Stop recording
@@ -14324,13 +14347,14 @@ Tuntemattomat avaimet
 Turks and Caicos Islands
 Turn Off
 Turn Off Auto-Approve
+Turn On Email Logging
 Turn a lead into a sales opportunity, with a related contact and account.
 Turn anything into a to-do
 Turn camera off
 Turn camera on
 Turn complicated processes like quarterly reports or event plans into a one-step automation
 Turn email logging on or off at any time
-Turn it off at any time
+Turn it off anytime
 Turn off
 Turn off Automatic AI Notes
 Turn off Product Demo Mode
@@ -14357,8 +14381,10 @@ Turn on captions for this video
 Turn on caret browsing?
 Turn on dictation in Slack
 Turn on drawing
+Turn on email logging
 Turn on focus mode
 Turn on focus mode when:
+Turn on logging for your connected Gmail to log emails with your contacts and leads.
 Turn on microphone
 Turn on notifications for replies
 Turn on replies
@@ -15246,7 +15272,6 @@ Virheellinen arvo joukossa
 Virheellinen avain tietueessa
 Virheellinen unioni
 Visible to everyone in your organization, including guests, but not to Slack Connect users.
-Visible to your team
 Vision assistive
 Visit Agent Builder
 Visit developer website
@@ -15448,7 +15473,6 @@ What is wrong?
 What is your feedback?
 What it does
 What needs my attention today?
-What needs my reply?
 What other CRM tool(s) do you use? (optional)
 What other feature would be valuable?
 What project would you like to track?
@@ -15675,7 +15699,6 @@ Would you also like to unpublish?
 Would you like to post the email in this channel?
 Wrap field
 Wrap text
-Wrap up my day
 Wrapper for handleOnClickActivityItem that fills in the message object
 Write a new one
 Write a project overview about # 
@@ -15753,7 +15776,6 @@ You can still build a form manually connect it to this step later.
 You can still find any item you had previously cleared.
 You can still read your past chats in the sidebar.
 You can still upgrade to try out these features:
-You can stop logging your emails in Preferences.
 You can view your chat history with Slackbot anytime.
 You can view your metrics here, and add to or edit them as your needs change
 You cannot change this setting when the channel contains single-channel guests.
@@ -15852,6 +15874,7 @@ Your admin has blocked access to your email account
 Your admin has disabled access to the text of messages in private channels for this trigger. Remove private channels or contact an admin to continue.
 Your admin has limited who can start new direct messages. You can still message people you already have a conversation with.
 Your admin has to review this first.
+Your admin turned off email logging.
 Your admin turned on apps for this channel, but none are available to you.
 Your admins have disabled file upload in this Slack Connect conversation.
 Your admins have disabled file uploads in this Slack Connect Canvas
@@ -15915,6 +15938,7 @@ Your email account needs to be reconnected
 Your email has been verified
 Your email highlights will appear here.
 Your email may have been sent. Check your Gmail Sent folder before trying again.
+Your emails are being logged.
 Your emails with contacts and leads are now saved to the matching records.
 Your emails with contacts and leads are saved to the matching records.
 Your experiment assignment
@@ -15994,6 +16018,7 @@ Your task is running. Its results will appear in your DM with Slackbot.
 Your tasks
 Your tasks will appear here.
 Your team
+Your team can read logged emails
 Your team has been upgraded.
 Your teammate sent you an onboarding exception approval request that needs your review.
 Your template is published!
