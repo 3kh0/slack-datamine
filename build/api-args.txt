@@ -214,9 +214,10 @@ avatars.upload: image
 blocks.actions: actions, client_token, container, function_execution_id, service_id, service_team_id, skip_simple_array_serialization_in_get_form_data, state
 blocks.format: blocks
 blocks.suggestions: action_id, block_id, container, function_execution_id, service_id, service_team_id, value
+bookmarks.edit: bookmark, channel, emoji, link, title
 bookmarks.list: channel, include_folders, include_legacy_workflows
 bookmarks.preview: channel, link
-bookmarks.remove: bookmark, channel, type
+bookmarks.remove: bookmark, channel
 bookmarks.reorder: bookmark_type, center, channel, entity_id, left, parent_id, right
 bots.info: bots
 calendar.event.copy: channel, event_id, message_ts
@@ -595,7 +596,7 @@ meetings.usersetdata: event_link_id, insights_thread_ts, meeting_id, slackbot_th
 megaphone.journeys.dismiss: journey_key, notification
 megaphone.notifications.list: critical_only
 megaphone.setNotificationAsSeen: action
-messages.sent.list: client_req_id, count, cursor, page, search_session_id, view
+messages.sent.list: client_req_id, count, cursor, search_session_id, view
 moderation.flags.create: channel_details_flagged, channel_id, item_id, item_team_id, profile_fields_flagged, profile_image_flagged, profile_status_flagged, reason, skip_simple_array_serialization_in_get_form_data, type
 moderation.locks.create: channel_id, thread_ts
 moderation.locks.remove: channel_id, thread_ts
@@ -612,7 +613,7 @@ platform.requests.create: entity_id, request_type
 presence.set: presence
 profiling.addJSTrace: trace, type
 promo.campaigns.eligibilityInfo: campaign_sub_type, campaign_type, context
-promo.campaigns.optOut: campaign_type, context
+promo.campaigns.optOut: campaign_type
 promo.campaigns.redeem: campaign_sub_type, campaign_type, context
 quip.cloneCanvas: file_id, keep_original_title, target_file_created, target_file_id, title
 quip.getCanvasBulkSectionIdsData: file_id, section_ids
@@ -773,7 +774,7 @@ share.prompts.checkAttachedSkills: prompt_id
 share.prompts.info: prompt_id
 sharedInvites.accept: channel, invite, sig
 sharedInvites.canAccept: sig
-sharedInvites.getLink: emails, message, tracking_id
+sharedInvites.getLink: emails, message
 sharedInvites.revoke: id
 signin.confirmCode: code, email, intent, token
 signup.confirmEmail: confirmation_type, email, entry_point, intent, locale

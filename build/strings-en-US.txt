@@ -486,10 +486,7 @@ activity.d602a9c: Add new view
 activity.140b367: Add to-do
 activity.56f1c8f: Add view
 activity.cd29691: Added you to <#{channelId}|{channelName}>
-activity.5ce2e6f: Agent
 activity.d08f055: Agent Sessions
-activity.05989d8: Agent sessions
-activity.8d3d657: Agent: {agent}
 activity.efb1d59: Agents added to direct messages
 activity.14251dd: Agents removed from direct messages
 activity.6a72085: All
@@ -590,7 +587,6 @@ activity.2c3cafa: File
 activity.d7decf1: Filter
 activity.bf5a147: Filter agent sessions
 activity.5b8d97f: Filter by
-activity.35202c4: Filter by agent
 activity.e55aa1d: Filter by type
 activity.a70369a: Filter conversations
 activity.5bad0ca: Filter conversations: {option}
@@ -674,8 +670,6 @@ activity.d044282: Newest
 activity.bc98198: Next
 activity.5500eef: Next step
 activity.5a20763: Next week
-activity.18962d5: No active agent sessions
-activity.e915e03: No agent sessions match these filters
 activity.030700f: No open pull requests of yours
 activity.262f940: No pull requests match your search
 activity.6d745b3: No thanks
@@ -761,11 +755,9 @@ activity.3643c43: Sent, {count, plural, =1 {# scheduled} other {# scheduled}}
 activity.7901f96: Set reminder
 activity.b1ad23e: Show filters
 activity.80ede35: Show filters, {count, plural, =1 {# active} other {# active}}
-activity.4c852b2: Show less
 activity.28910c0: Show notifications from
 activity.6a4f515: Show notifications from: {source}
 activity.682aa1a: Show only
-activity.0f38ffa: Show {count} more
 activity.ed3cc64: Single-line rows
 activity.d21ff6c: Single-line view
 activity.430b38b: Slack
@@ -1370,7 +1362,6 @@ agents.39fc721: Undo
 agents.b711fce: Untitled Agent
 agents.c1a01a8: Untitled Sidekick
 agents.2dd7710: Untitled Skill
-agents.55c4f84: Untitled session
 agents.764f0aa: Untitled skill set
 agents.cde237c: Up to {maxCount} files at a time
 agents.c3599bf: Updated {timeStr}
@@ -1614,6 +1605,8 @@ ai_workspace_setup.77dfd21: Cancel
 ai_workspace_setup.3be87bd: Channel name
 ai_workspace_setup.364154b: Configure {name}
 ai_workspace_setup.04a2122: Confirm
+ai_workspace_setup.5301648: Edit
+ai_workspace_setup.342a4bc: Edit channel name
 ai_workspace_setup.1b6f787: Explore templates
 ai_workspace_setup.5b8027f: Got it
 ai_workspace_setup.94484e3: Invite your teammates
@@ -1905,6 +1898,7 @@ app_details.f1fbb2b: Preview
 app_details.db56b97: Remove from VIP
 app_details.01f666d: Remove from top bar
 app_details.1e88602: Remove this app from channel…
+app_details.3745251: Request canceled
 app_details.3e43db4: Require approval for each new DM
 app_details.c43f715: Required permissions
 app_details.b15fe11: Screenshot of {appName}
@@ -2372,9 +2366,7 @@ assistant.6953ce0: Let’s dive in
 assistant.a8e97c7: Level of detail was helpful
 assistant.cf544a8: Link copied to clipboard
 assistant.6c19a47: Listening…
-assistant.6402331: Load Older Conversations
 assistant.d19f9cd: Loading conversation history
-assistant.237aacd: Loading more conversations…
 assistant.9bc152e: Look at you go
 assistant.1f56bf0: Lost network connection. We’re attempting to reconnect…
 assistant.61e404e: Manage AI
@@ -2440,7 +2432,6 @@ assistant.d3a0aef: No saved preferences yet
 assistant.a93be73: No saved topics yet
 assistant.fec937e: No speech detected. Please try again.
 assistant.4d258ae: No summary available for this file yet.
-assistant.ed11f11: No unread conversations in recent history
 assistant.b7ac241: No unreads or recent activity to summarize
 assistant.cf338d0: None of your <strong>{channelCount}</strong> recap channels had messages to summarize — you’re in the clear! Your next recap will be ready {date} at <strong>{time}</strong>
 assistant.7b13823: Not enough detail
@@ -2517,7 +2508,6 @@ assistant.28abc03: Search by name
 assistant.7087888: Search conversations
 assistant.0144dae: Search results
 assistant.77c2a9c: Search using <strong>AI</strong> with questions like "What is Project Gizmo?" or "How do I request a thingamabob?"
-assistant.98cc363: Searching
 assistant.7be281a: Searching Slack conversations…
 assistant.2ef9d7e: Searching Slack…
 assistant.6ff0c00: Searching {appNames}, and more…
@@ -2557,7 +2547,6 @@ assistant.e508fb2: Something went wrong generating a summary — this sometimes 
 assistant.dc1aed7: Something went wrong generating an AI summary
 assistant.3dc5e24: Something went wrong on our end. Try closing and reopening this window.
 assistant.9a3ea05: Something went wrong. Please try again.
-assistant.2fe35de: Something went wrong. Try searching again.
 assistant.adc4e96: Sort
 assistant.d952db5: Sort by {sortLabel}
 assistant.e61561a: Starred
@@ -2735,8 +2724,6 @@ assistant.0e00092: {actionItems, plural, =1 {# action item for you} other {# act
 assistant.3e84ff6: {channelName} muted
 assistant.a2ce024: {channelName} unmuted
 assistant.eb0d11e: {channelName}, {isChannelSelected, select, selected {selected} other {not selected}}, {isChannelMuted, select, muted {muted} other {not muted}}
-assistant.272667c: {count, plural, one {# result found} other {# results found}}
-assistant.7673c56: {count, plural, one {# unread conversation} other {# unread conversations}}
 assistant.7e20641: {current} of {total}
 assistant.7d59625: {dateRange} summary not available
 assistant.55d480d: {formattedMessageCount} messages
@@ -3072,6 +3059,7 @@ block_kit.e08f461: {fileCount, plural, =1 {# file uploaded.} other {# files uplo
 block_kit.55f37e1: {fileName} uploaded successfully.
 block_kit.6451b48: {label} group with {controlCount, plural, one {# control} other {# controls}}
 block_kit.85d72be: {label}, {buttonText}
+block_kit.0134330: {label}, {selectionText}
 block_kit.dc70958: {label}: {control}
 block_kit.c4cbff2: {language} code block.
 block_kit.5e5f65a: {name} button
@@ -6039,7 +6027,6 @@ code-channels-browser.cde5696: Agent conversation results
 code-channels-browser.05989d8: Agent sessions
 code-channels-browser.b2fc5bc: Agent thread · {ago}
 code-channels-browser.ad2571a: Agent threads
-code-channels-browser.8d3d657: Agent: {agent}
 code-channels-browser.6a72085: All
 code-channels-browser.6a5f390: All sessions
 code-channels-browser.f6cf0ff: Archive channel
@@ -6054,7 +6041,6 @@ code-channels-browser.c043160: Clear all
 code-channels-browser.adac693: Code
 code-channels-browser.49bcd35: Code channel
 code-channels-browser.6bec3c0: Code channel results
-code-channels-browser.4f6a285: Code channel · {ago}
 code-channels-browser.dd6947b: Code channels
 code-channels-browser.b9b3aea: Code channels are a multiplayer coding environment designed for everyone, not just developers.
 code-channels-browser.b81a27c: Copy channel link
@@ -6066,8 +6052,6 @@ code-channels-browser.4e2f50a: Create a Code Channel
 code-channels-browser.e49132c: Create a Session Channel
 code-channels-browser.8c29271: Created by you
 code-channels-browser.817b79b: Creator
-code-channels-browser.9b6f8fb: Creator: You
-code-channels-browser.61e19c3: Creator: {name}
 code-channels-browser.56db6a4: Describe the task you’d like the agent to help with.
 code-channels-browser.dc3decb: Details
 code-channels-browser.e9b450d: Done
@@ -6091,7 +6075,6 @@ code-channels-browser.cc1ebdd: Idle
 code-channels-browser.aef3650: In
 code-channels-browser.5ddd0af: In: #{channel}
 code-channels-browser.09af574: Inactive
-code-channels-browser.7b1b83a: Last message {ago} · Code channel
 code-channels-browser.14de9dc: Leave this blank and the agent will name the channel for you.
 code-channels-browser.42c9975: Loading latest message…
 code-channels-browser.5c91419: Loading more code channels
@@ -6169,7 +6152,6 @@ code-channels-browser.cef2fe0: Try Again
 code-channels-browser.3deb745: Type
 code-channels-browser.44fe220: Type: {sessionType}
 code-channels-browser.07b032b: Unread
-code-channels-browser.55c4f84: Untitled session
 code-channels-browser.0c77991: View on GitHub
 code-channels-browser.3b4dfc9: Working
 code-channels-browser.a4a5f91: You can’t start a code channel from a message in this conversation.
@@ -6180,8 +6162,6 @@ code-channels-browser.79d27e9: You don’t have permission to start a code chann
 code-channels-browser.8917de1: Your agent sessions
 code-channels-browser.276de98: Your code channel was created, but it couldn’t be fully set up. Find it in your sidebar.
 code-channels-browser.b3ddc08: Your sessions
-code-channels-browser.8c0db2c: by {initiator}
-code-channels-browser.3e23c2a: by {initiator} · Code channel · {ago}
 code-channels-browser.95a9a7e: e.g. Add dark mode
 code-channels-browser.f59487b: e.g. Describe a bug, issue, new feature…
 code-channels-browser.8af56de: you
@@ -14652,6 +14632,7 @@ message_attachment_mcp_ui.6a14780: {appName} tried to use {toolName}
 message_attachment_mcp_ui.2c6ff6b: {appName} wants to open this link in your browser:
 message_attachment_mcp_ui.f4b9734: {appName} wants to send this message on your behalf:
 message_attachment_mcp_ui.592b88c: {toolName}?
+message_attachment_mcp_ui.578137e: })),[t,y,l,e]),F=(0,i.useCallback)(e=>(0,n.jsx)(MentionKindsMenu,{menuProps:e,template:L,label:x}),[L,x]),O=(0,i.useCallback)(()=>h(!0),[h]),D=(0,i.useCallback)(()=>h(!1),[h]);return(0,i.useEffect)(function(){return()=>h(!1)},[h]),(0,n.jsxs)("span",{ref:P,className:"splitPill__bDzIe",children:[(0,n.jsxs)(c.A,{className:(0,r.A)(T,"splitPillMain__nWE1C",{[j]:f}),"aria-pressed":f,"aria-disabled":a,"aria-label":b&&w||void 0,"data-qa":
 message_input_plus_button.0c431f4: Attach file
 message_kit.b6da09e: (edited)
 message_kit.8744dcd: (stopped by {name})
@@ -15241,6 +15222,7 @@ modernselling.bf58d17: Manage
 modernselling.eb3dcea: Manage Integrations
 modernselling.32133a0: Manage Notifications
 modernselling.7c075aa: Manage Salesforce Users
+modernselling.369fa6c: Manage Salesforce Users (opens in new tab)
 modernselling.28a958f: Manage all Salesforce orgs
 modernselling.506993f: Manage and update CRM records without leaving Slack
 modernselling.db0b02f: Manage contacts and close deals faster with a CRM right where your team is already working.
@@ -15283,7 +15265,6 @@ modernselling.cf89b8c: Mute {name}
 modernselling.b9e78ce: Muted
 modernselling.709a232: Name
 modernselling.9c381cd: Name the channel tab
-modernselling.9a3a307: Navigate to Salesforce licenses page
 modernselling.88f8d08: Negative numbers are not allowed.
 modernselling.6403f2b: New
 modernselling.9012511: New Salesforce org connected
@@ -20827,7 +20808,6 @@ setup_straight_to_paid.ca89f1f: Best Value
 setup_straight_to_paid.8173c2a: Best value
 setup_straight_to_paid.eb08c9e: Business+
 setup_straight_to_paid.f7a1dbf: Choose a premium plan and get <span>{discountPercentage}% off</span> for the first {discountDuration, plural, =1 {# month} other {# months}}
-setup_straight_to_paid.3d96a35: Choose the plan that’s right for your team
 setup_straight_to_paid.6d636b7: Claim Offer and Check Out
 setup_straight_to_paid.0ae5920: Compare all features
 setup_straight_to_paid.a4c41c6: Compare plans
@@ -20849,7 +20829,6 @@ setup_straight_to_paid.2877ba0: Make collaborating with outside partners and cli
 setup_straight_to_paid.aa8c6b5: Members connect to Slack securely through a cloud, which unlocks.
 setup_straight_to_paid.5e4d19f: Menu in Slack channel with option to view history from the very beginning
 setup_straight_to_paid.3bcef9a: Not ready for a paid plan?
-setup_straight_to_paid.bcad272: Or start with the basics for free, and upgrade any time.
 setup_straight_to_paid.66d0c5e: Pro
 setup_straight_to_paid.f6cd2f0: Pro plan price includes a <span>{discountPercentage}% off discount</span> on your first {discountDurationMonths, plural, =1 {# month} other {# months}}.
 setup_straight_to_paid.28f6464: Purchase Business+
@@ -20857,8 +20836,6 @@ setup_straight_to_paid.29061b9: Purchase Pro
 setup_straight_to_paid.9ef9375: Recommended
 setup_straight_to_paid.bbe4494: Save {discountPercentage}% for the first {discountDuration, plural, =1 {# month} other {# months}}
 setup_straight_to_paid.779b279: Save {discountPercentage}% for the first {discountDuration, plural, =1 {# month} other {# months}}. Offers end in {dayscount} days
-setup_straight_to_paid.35ce2be: Save {discountPercent}% for the first {discountDuration, plural, =1 {month} other {# months}}.
-setup_straight_to_paid.a7b7eb7: Save {discountPercent}% for the first {discountDuration, plural, =1 {month} other {# months}}. {daysLeft, plural, =1 {Today is the last day of this offer.} other {Offer ends in # days.}}
 setup_straight_to_paid.6b80dcd: Search and view all of your team’s public messages and files, which are stored indefinitely on a paid plan.
 setup_straight_to_paid.e1b9001: See plan details
 setup_straight_to_paid.5c3a03f: Slack interface with names of two different companies in one channel
