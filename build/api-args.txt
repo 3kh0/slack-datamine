@@ -867,7 +867,7 @@ users.admin.setExpiration: expiration_ts, user
 users.admin.setInactive: user
 users.admin.setOwner: user
 users.admin.updateSharedInvite: code, expiration, notifications_enabled
-users.channelSections.channels.bulkUpdate: insert, remove
+users.channelSections.channels.bulkUpdate: insert, remove, skip_simple_array_serialization_in_get_form_data
 users.channelSections.channels.remove: channel_id, channel_section_id
 users.channelSections.createLink: channels, emoji, section_name
 users.channelSections.delete: channel_section_id

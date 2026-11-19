@@ -1885,6 +1885,7 @@ app_details.1d06648: {appName} is installed on {teamName}
 app_details.2a4c7f0: ‘{appName}’ will be able to do
 app_details.96cb78d: ‘{appName}’ will be able to view
 app_dialog.b16c7ac: (optional)
+app_dialog.0997bad: Header Icon
 app_dialog.2dacf65: Submit
 app_dialog.ab90d9d: This field is required.
 app_dialog.26dc55d: We had some trouble connecting. <a>Try again?</a>
@@ -2539,6 +2540,7 @@ assistant.3a401aa: Summarizing unreads in DM with {imMemberName}
 assistant.fe65a9a: Summarizing unreads in {channelName}
 assistant.807921d: Summarizing {dateRange} in DM with {firstMemberName} and {remainingMemberCount, plural, =1 {# other} other {# others}}
 assistant.be33284: Summarizing {dateRange} in {channelName}
+assistant.eb3b730: Summarizing…
 assistant.12b71c3: Summary
 assistant.fec7d4d: Summary not available
 assistant.5a822cf: Summary took too long
@@ -2751,6 +2753,9 @@ audio_player.23dd82d: Buffering
 audio_player.7f2f6a1: Error
 audio_player.5d12bd5: Play
 audio_player.371f46f: Time scrubber
+audio_player.8c69f6b: {hours} {hours, plural, =1 {hour} other {hours}}, {minutes} {minutes, plural, =1 {minute} other {minutes}}, {seconds} {seconds, plural, =1 {second} other {seconds}}
+audio_player.ecdf94c: {minutes} {minutes, plural, =1 {minute} other {minutes}}, {seconds} {seconds, plural, =1 {second} other {seconds}}
+audio_player.ab3ce5a: {seconds} {seconds, plural, =1 {second} other {seconds}}
 auth_provider_block.a57ea61: A new tab will open for you to sign in…
 auth_provider_block.b65463c: Connect
 auth_provider_block.c2f9b7b: Connected
@@ -2869,6 +2874,7 @@ block_kit.39f842c: A URL is required
 block_kit.723f061: Action buttons won’t work once this table is shared. Recipients can still see the table and its contents, but won’t be able to use any of the buttons.
 block_kit.4881d01: Add file
 block_kit.f8bb4a4: An email address is required
+block_kit.6bcd919: And more.
 block_kit.2b226c7: Ascending
 block_kit.10644b0: Bar chart
 block_kit.66c7734: Chart
@@ -3010,6 +3016,7 @@ block_kit.1e38b98: {name} checkbox group
 block_kit.7e20e62: {name} combo box
 block_kit.b41fbe5: {name} date and time picker
 block_kit.69d0dba: {name} date picker
+block_kit.10b43b8: {name} group
 block_kit.e243986: {name} menu button
 block_kit.9472292: {name} radio group
 block_kit.3420971: {selectedItemCount} selected
@@ -3021,9 +3028,7 @@ block_kit.a8690de: 😕 No member found
 block_kit.258833b: 😕 No member matches these keywords.
 block_kit.0ab6f42: 😕 No result
 block_kit.e6348d6: 😕 Nothing could be found.
-block_kit_renderer.8774147: Block selection cleared
 block_kit_renderer.912fc14: Divider
-block_kit_renderer.869b463: {count, plural, one {# block selected} other {# blocks selected}}
 bookmark-workflow-redirect.c00f2f3: Trying to bookmark a workflow?
 bookmark-workflow-redirect.ec0c5f5: Workflows have their own channel tab for even easier access.
 bookmark-workflow-redirect.9ba0ff8: preview of workflows tab
@@ -3092,6 +3097,7 @@ broadcast_keywords.d19f445: deal team
 broadcast_keywords.a49a78f: everyone
 broadcast_keywords.0154c0d: here
 browse-pages.dc83cd8: Dismiss notification
+browsers.e0a09e2: ,{count:j.length+D.length})})(),onRadioChange:p,onBackClick:h,onSubmitClick:_,onToggle:g,submitButtonText:getCtaText(),showSelectionOptions:N})]})})};ExternalLimitedMemberScreen.displayName=
 browsers.ef00c63: <strong>Sort:</strong> {sort}
 browsers.3ae085e: A to Z
 browsers.6a72085: All
@@ -4333,6 +4339,7 @@ channel_details.944b88d: VIP
 channel_details.253b4dd: View Settings
 channel_details.9491981: View Settings for Slackbot
 channel_details.badd385: View details
+channel_details.dac6cd8: View full profile
 channel_details.80b8479: View in Slack Marketplace
 channel_details.7d9ff4f: Visibility
 channel_details.f8f3b6f: Visitors
@@ -5558,7 +5565,6 @@ classic_nav.c47ae15: Help
 classic_nav.c05ea34: Help, with {unreads, plural, =1 {# unread} other {# unreads}}
 classic_nav.eff152e: Hide workspace switcher
 classic_nav.90ccd64: History
-classic_nav.615e0f7: History Navigation
 classic_nav.8c99a8e: How does this impact your current use of Slack or how could it potentially improve your use of Slack in the future?
 classic_nav.2e29f8d: How would you describe the search results you’re seeing?
 classic_nav.a0767c2: Huddle
@@ -5917,12 +5923,21 @@ cmd_handlers.b415e16: topic
 cmd_handlers.f2a8775: your message
 coachmarks.45d891b: Just type and press Enter
 coachmarks.326fe72: Your coworkers will see your messages when they join. Feel free to use your own words instead!
+code-channel-pr-comments.587e74c: Connect to {provider}
+code-channel-pr-comments.dc13f7c: Couldn’t load comments.
+code-channel-pr-comments.1b06a35: Loading comments
 code-channel-pr-comments.63bd63f: PR feedback
 code-channel-pr-comments.9f5cd8a: Retry
 code-channel-pr-comments.35f49dc: Sent
 code-channel-pr-comments.5643f7d: {count, plural, one {# comment} other {# comments}}
 code-channel-pr-comments.da61d4b: {count, plural, one {# other} other {# others}}
 code-channel-pr-comments.1db130a: {provider} connected
+code-channel-review-request.eb3b730: Summarizing…
+code-channel-review-request.384b0fe: Summary of the work
+code-channel-review-request.0f56f9d: Summary of the work is ready
+code-channel-review-request.6a49261: View PR #{prNumber}
+code-channel-review-request.5d5e06a: Your review couldn’t be requested on {provider} because your account isn’t connected to Slack. <link>Connect</link>
+code-channel-review-request.7407055: {name} tried to request your review on {provider}, but your account isn’t connected to Slack. <link>Connect</link>
 code-channel-review-request.1db130a: {provider} connected
 code-channel-review-request.0d603c3: {reviewers}, you’ve been asked by {requester} to review PR {pr}.
 code-channel-review-submitted.9be1668: Changes requested
@@ -6236,6 +6251,7 @@ code-tab.b024afd: Comment updated
 code-tab.74536b5: Commits
 code-tab.5eb9d05: Commits to show
 code-tab.73ea9a9: Comparing {base} ← {head}
+code-tab.587e74c: Connect to {provider}
 code-tab.ff4aceb: Connect your GitHub account to change this pull request’s status.
 code-tab.2b56f45: Connect your GitHub account to delete this comment.
 code-tab.614f319: Connect your GitHub account to edit this comment.
@@ -9419,6 +9435,7 @@ file.58fabfa: Sample
 file.ff74d68: Save Anyway
 file.5f440c6: Save as {gdriveFileLabel}?
 file.d882158: Save for later
+file.8006c3e: Saved to {providerName}
 file.2fce269: See original
 file.c29c858: Share Canvas
 file.3891469: Share File…
@@ -13653,6 +13670,7 @@ member_profile.92ebd91: View Message History
 member_profile.1e65f82: View as
 member_profile.57c7cfa: View coverage plan
 member_profile.044a38a: View files
+member_profile.dac6cd8: View full profile
 member_profile.0e77aee: View preferences
 member_profile.b98795a: View profile
 member_profile.9aff3dc: View your files
@@ -13735,12 +13753,14 @@ menu.c0774ce: Browse apps
 menu.2190a3b: Browse channels
 menu.124c499: Browse external connections
 menu.524932e: Browse files
+menu.7bd6043: Canvas details
 menu.c1ecc60: Change to a private channel
 menu.c24b99e: Channel details
 menu.164ed0a: Channel options
 menu.bbfa773: Close
 menu.8962525: Close conversation
 menu.2dad455: Close conversation: {title}
+menu.78b2866: Conversation details
 menu.db62f1e: Conversation options
 menu.af74f7c: Copy
 menu.dc6bf85: Copy channel email address
@@ -13831,6 +13851,10 @@ menu.753a22b: Notifications
 menu.a97e173: Notify you about…
 menu.abac53b: Only badge the channel when someone @mentions you
 menu.6cd2cfc: Only get notified if someone @mentions you personally
+menu.2b2df31: Open app details
+menu.fc8e543: Open canvas details
+menu.489fd24: Open channel details
+menu.61ec70d: Open conversation details
 menu.5a99577: Open in Slackbot
 menu.e23fa2c: Open in floating window
 menu.c103886: Open in home
@@ -13897,10 +13921,12 @@ menu.acdf387: View app details
 menu.fa4fe5f: View channel details
 menu.da9ea9a: View channel insights
 menu.2c07fc7: View conversation details
+menu.dac6cd8: View full profile
 menu.80b8479: View in Slack Marketplace
 menu.4d66568: View members
 menu.225220d: View paused workflows
 menu.b98795a: View profile
+menu.7f25898: View {quipLabel} details
 menu.d7a4841: Workflow
 menu.9dda926: Workflow options ready
 menu.37acf9d: You do not have permissions. Please contact your admin.
@@ -14602,9 +14628,9 @@ message_pane_foreword.b7f9cca: Try this prompt yourself to explore what this age
 message_pane_foreword.601682d: Welcome to your first channel {name}!
 message_pane_foreword.72353c8: Welcome your team
 message_pane_foreword.3fd30db: What’s on your mind?
-message_pane_foreword.1b462e5: {agent} users this week
 message_pane_foreword.c8722b5: {agent} uses AI and can make mistakes.
 message_pane_foreword.7897399: {name} & {count, plural, one {# other} other {# others}}
+message_pane_foreword.6401dbc: {name} and {count, plural, one {# more} other {# more}}
 messages.5a1dc37:  {overflowCount} others
 messages.14237cd: <a>See all scheduled messages</a>
 messages.f55ab13: Ctrl+J
@@ -18781,6 +18807,7 @@ recordchannels.0be120e: Something went wrong and we weren’t able to send your 
 recordchannels.0eafbbd: Something went wrong creating the channel, please try again.
 recordchannels.029983b: Something went wrong on our end and we couldn’t disconnect the record. Try again in a few minutes.
 recordchannels.476e892: Start a DM
+recordchannels.eb3b730: Summarizing…
 recordchannels.3896efd: Team member list item for {name}
 recordchannels.3951d87: There aren’t any conversations to show yet.
 recordchannels.720ccc4: There aren’t any related lists assigned to this record
@@ -19801,6 +19828,7 @@ search.433632e: March
 search.9457229: Match in a link: {link}
 search.94d67db: Match in an attachment
 search.c058fd4: Matched message
+search.f5412fa: Matching messages
 search.c94f479: May
 search.0c77aee: Media
 search.53bc967: Membership
@@ -20018,6 +20046,7 @@ search.fa3f2bf: Search channels at {teamName}
 search.9ffb52f: Search connectors
 search.7087888: Search conversations
 search.0e33f42: Search details: 
+search.4a63147: Search external connections
 search.ee29173: Search far and wide
 search.ec88257: Search files
 search.5e49181: Search files at {teamName}
@@ -20034,6 +20063,7 @@ search.d8f281a: Search in conversation
 search.a480b4a: Search in the group message with you, {members}
 search.e20fb5d: Search in the {channel} channel
 search.373f96c: Search isn’t available in this view. Use Filters to browse templates.
+search.abea65a: Search messages
 search.ea066e4: Search messages at {teamName}
 search.a5ab82b: Search messages in this channel ({shortcut})
 search.3b06bee: Search messages in this channel {shortcut}
@@ -20047,6 +20077,7 @@ search.0144dae: Search results
 search.0363909: Search suggestions
 search.c13a61a: Search with Slackbot like asking a teammate — the classic who, what, where, or when will do. Just search the way you talk.
 search.021b95d: Search without filters
+search.6fa3f82: Search workflows
 search.482493e: Search workflows at {teamName}
 search.6e913a6: Search workspaces
 search.1b4a285: Search {channelName}
@@ -24271,6 +24302,7 @@ slackbot-ai.8d183db: Subject
 slackbot-ai.de89b41: Suggested tasks
 slackbot-ai.bd139d1: Summarize my recent activity
 slackbot-ai.1343710: Summarize what happened in my most active channel and send me a morning briefing every workday.
+slackbot-ai.eb3b730: Summarizing…
 slackbot-ai.cda05ca: Surface
 slackbot-ai.fed4f63: Surface preview unavailable
 slackbot-ai.7bb0ddf: Task
@@ -27400,6 +27432,7 @@ unfurl_skeletons.098b114: {title}, failed to load link preview for {domain}
 unfurl_skeletons.5301325: {title}, loading link preview for {domain}
 unfurl_skeletons.3cc154a: {title}, {url}, failed to load link preview for {domain}
 unfurl_skeletons.8ee3790: {title}, {url}, loading link preview for {domain}
+unfurled_joiners.01efb81: );if(1!==a.length||a[0].offsetTop<this.container.offsetTop)return;let n=e[0].id,i=(0,iK.A)(n)?n:void 0,r=(0,iQ.A)(n)?n:void 0,s=(0,ig.A)(n)?n:void 0;this.setState(()=>({tooltipShowing:!this.props.forceAutoTooltipDisabled,tooltipMemberId:i,tooltipUserGroupId:r,tooltipChannelId:s,tooltipMessageTs:void 0,tooltipWorkflowTriggerId:void 0,tooltipWorkflowUrl:void 0,tooltipAttachmentUrl:void 0,tooltipTitle:void 0,tooltipTargetBounds:a[0].getBoundingClientRect()})),this.mentionReplaceTimer=this.windowRef.deref()?.setTimeout(()=>{this.mentionReplaceTimer=null,this.hideTooltip()},1500)||null}getOptions(){let{id:e,ariaLabel:t,ariaLabelledBy:a,ariaDescribedBy:n,ariaInvalid:i,ariaAutocomplete:r,ariaControls:s,ariaExpanded:o,ariaActiveDescendant:d,autocompleteConfig:c,inputMetricBoundary:u,onEnter:m,onPlusMenuShortcut:p,onEscape:h,onTab:_,isSingleLine:g,enableBroadcastKeywords:f,includeAllBroadcastKeywords:y,showTextyTooltips:b,teamId:v,isPlainTextModeEnabledPref:A,useWorkflowTokens:C,useSfdcTokens:k,supportsPortableContent:x,useExpandedRichText:w,workflowTokenClick:I,useWysiwyg:T,enableStickyComposer:N,onBackspace:E,forceChannelTaggingDisabled:M,forceAutoslugginEnabled:R,role:P,windowRef:L,isMultiverseQuillEnabled:D,disableSlugging:O,disableTags:F,experimentDetectGoLinksGroupOn:B,useSearchTextyClass:U}=this.props;return{id:e,modules:{keyboard:this.getKeyboardModule(),slackmention:!0,slackslug:!O,textsubstitutions:this.getTextSubstitutionsModule(),textsanitization:{shouldStripTextPresentationSelectors:()=>!!this.props.stripTextPresentationSelectors&&this.props.experimentComposerSmartSymbolsGroupOn&&!this.props.disableSmartSymbols},clipboard:this.getClipboardModule(),tabcomplete:this.getTabCompleteModule(),cleanembedsincode:!0,cleanemptyinput:!0,cleanworkflowtokens:C,slackhorizontalrule:w,slackdocslist:w,canvasvariable:w},onBlur:e=>{this.hideToolbarOverflow(),this.contextSetIsFocused?.(!1),this.props.onBlur?.(e)},onFocus:e=>{this.props.onFocus?.(e),this.contextSetIsFocused?.(!0)},onEnter:m?e=>this.props.onEnter?.(e):void 0,onBackspace:E?()=>this.props.onBackspace?.():void 0,onEscape:()=>{if(h)return this.props.onEscape?this.props.onEscape():void 0},onTab:_?e=>this.props.onTab?.(e):void 0,onTextChange:this.onTextChange,onSelectionChange:this.onSelectionChange,onScrollOptimize:this.onScrollOptimize,onCompositionEnd:this.props.onCompositionEnd,onResize:this.onResize,onLinkClick:this.onLinkClick,showLinkForm:this.showLinkForm,singleLineInput:g,enableBroadcastKeywords:f,includeAllBroadcastKeywords:y,isJumbomojiEnabled:()=>(0,l.A)(this.props.enableJumbomoji)?this.props.enableJumbomoji():this.props.enableJumbomoji,convertEmoticonsIsEnabled:()=>this.props.enableEmoticons,replaceNativeEmoji:!0,usePlainTextMode:A,inlineEmojiIsEnabled:()=>!this.props.isEmojiDisplayedAsText,getLocale:()=>this.props.locale,getTeamId:()=>this.props.teamId,getDraftId:()=>this.props.draftId,getChannelId:()=>this.props.channelId,getUserHighlightWords:()=>this.props.userHighlightWords,onPastedUrls:this.props.onPastedUrls,onFileLinkPasted:this.props.onFileLinkPasted,isAutocompleteOpen:()=>this.props.isAutocompleteOpen,promiseToSearchMembers:this.promiseToSearchMembers,promiseToSearchChannels:this.promiseToSearchChannels,promiseToSearchEmoji:this.promiseToSearchEmoji,onMentionReplace:this.onMentionReplace,className:"c-texty_input_unstyled",inputMetricBoundary:u,ariaLabel:t,ariaLabelledBy:a,ariaDescribedBy:n,ariaInvalid:i,ariaAutocomplete:r,ariaControls:s,ariaExpanded:o,ariaActiveDescendant:d,tabIndex:"0",showTextyTooltips:b,getEmojiNames:()=>this.props.emojiNames,logger:(0,S.A)({teamId:v}),useWorkflowTokens:C,useSfdcTokens:k,supportsPortableContent:x,useExpandedRichText:w,workflowTokenClick:I,onPlusMenuShortcut:p,nestedListDepth:5,useWysiwyg:T,useStickyComposer:!1,enableStickyComposer:N,useChannelTagging:!M,forceAutoslugginEnabled:R,scrollingContainerSelector:"c-texty_input_unstyled__container",role:P,window:L.deref(),isMultiverseQuillEnabled:D,isTagsEnabled:!F,isSlugsEnabled:!O,isSlugTruncatedUrlsEnabled:!O,isAttachmentSlugFromUnfurlEnabled:!O,getEnterCreatesNewlinePref:()=>this.props.enterCreatesNewlinePref,isGoLinksEnabled:B,isSearchFilterFormatEnabled:U??!1,scrollToEndAfterPaste:this.props.scrollToEndAfterPaste,allowsCompleteOnEmptyStateFocus:()=>c?.canCompleteOnEmptyQuery(),screenreaderAnnouncement:e=>{let{sendMessageToAnnouncerAPI:t}=this.context||{};t&&t({message:e||rq.t("Editing is not permitted"),assertive:!0,uuid:(0,j.A)()})}}}getKeyboardModule(){let{featureReactMessages:e,onCmdLeftWhenEmpty:t,onCmdRightWhenEmpty:a,onCmdZWhenEmpty:n,onCmdKWhenSelected:i,onDownArrowWhenEmpty:r,onUpArrow:s,onDownArrow:l,onRightArrow:o,onLeftArrow:d,onSelectAll:c,onPageUp:u,onPageDown:m}=this.props,p={featureReactMessages:e,onCmdLeftWhenEmpty:t,onCmdRightWhenEmpty:a,onCmdZWhenEmpty:n,onCmdKWhenSelected:i,onDownArrowWhenEmpty:r,shouldInsertNewline:(e,t)=>!this.props.isSingleLine&&(0,nm.A)({...e,enterCreatesNewlinePref:this.props.enterCreatesNewlinePref,isCursorInPreBlock:this.instance?.isCursorInPreBlock(),usePreNewlines:this.props.usePreNewlines,followsTripleBackticks:t}),isMarkdownMode:!!this.props.forceMarkdownMode};return s&&(p.onUpArrow=()=>s({}),p.onUpArrowCmd=()=>s({cmdKey:!0}),p.onUpArrowShift=()=>s({shiftKey:!0})),l&&(p.onDownArrow=()=>l({}),p.onDownArrowCmd=()=>l({cmdKey:!0}),p.onDownArrowShift=()=>l({shiftKey:!0})),o&&(p.onRightArrow=()=>o()),d&&(p.onLeftArrow=()=>d()),c&&(p.onSelectAll=()=>c()),u&&(p.onPageUp=()=>u()),m&&(p.onPageDown=()=>m()),this.props.onStashMessage&&(p.onStashMessage=()=>this.props.onStashMessage?.()),p}getTabCompleteModule(){let{autocompleteConfig:e}=this.props;return e?{tooltipIsShowing:()=>this.state.tooltipShowing,tooltipShow:e=>{this.showTooltip(e)},tooltipHide:()=>{this.hideTooltip()},refocusOnMenuClose:this.props.refocusOnAutocompleteClose??!0,...e}:null}getTextSubstitutionsModule(){return this.props.disableTextSubstitutions||this.props.useSearchTextyClass?null:{getTextPreferences:()=>this.props.experimentComposerSmartSymbolsGroupOn||this.props.isAutocompleteOpen?null:(0,J.Tp)(),experimentComposerSmartSymbolsGroupOn:this.props.experimentComposerSmartSymbolsGroupOn,getSmartSymbolsEnabled:()=>!!this.props.experimentComposerSmartSymbolsGroupOn&&!this.props.disableSmartSymbols&&!this.props.isAutocompleteOpen,experimentComposerTypeTimeSmartQuotesGroupOn:this.props.experimentComposerTypeTimeSmartQuotesGroupOn}}getContents(){return this.instance?this.instance.getContents():{contents:[]}}convertSlackHTMLToDelta(e){return this.instance?.convertSlackHTMLToDelta(e)}checkDraftUnfurls(){this.instance?.checkDraftUnfurls()}getText(){return this.instance?.getText()||""}getTextForRange(e,t){return this.instance?.getTextForRange(e,t)||""}setText(e){return this.instance?.setText(e)}updateContents(e){this.instance?.updateContents(e)}getContentsForRange(e,t){return this.instance?this.instance.getContentsForRange(e,t):new(_())}getSelection(){return this.instance?.getSelection()||null}getFormatForQuotedObjects(e){if(!this.instance)return;let t=this.instance.getFormat(e),a=adjustSelectionToCoverBlock({blockType:"list-item",quill:this.instance.quill,range:e}),n=a&&a?.length>0?this.instance.quill.getLines(a):[],i=(0,o.A)(n);if((i?.statics?.blotName==="block"&&i?.children?.head?.statics?.blotName==="break"&&i?.children?.tail?.statics?.blotName==="break"&&n.pop(),n?.length)&&(0,re.mj)(n)){let e=this.instance.getFormat(a);return{...t,...e,blockquote:!0}}}getFormat(e){return this.getFormatForQuotedObjects(e)||this.instance?.getFormat(e)}getLength(){return this.instance?.getLength()||0}getClipboardModule(){let{onPasteLimit:e,openSnippetDialog:t,isTablePastingEnabled:a}=this.props;return{shouldFocusOnPaste:()=>this.props.focusOnPaste&&this.props.isAttentionOnChat,showMarkdownPasteToast:this.props.enableMarkdownPasteDetection?s.A:this.props.showMarkdownPasteToast,getChannelId:()=>this.props.channelId,getThreadTs:()=>this.props.threadTs,onPasteLimit:(t,a)=>!!a&&a.length()>5e4&&(t.stopPropagation(),t.preventDefault(),e?e(t,a):this.props.openModal({element:this.renderPasteLimitDialog(),isStackable:!0}),!0),onPaste:()=>!!this.props.onPaste&&this.props.onPaste(),onTablePaste:({pastedString:e,tsvResult:a,block:n,msgDelta:i,restorePastedContent:r,clearText:l})=>{if(!t)return;let insertTableInline=e=>this.insertMarkdownBlocksAtCursor(this.props.convertBlocksToDelta({blocks:[e],supportNonRichTextBlocks:!0}),r||s.A);if(this.props.hasTableAttachment||this.props.supportsPortableContent&&this.hasInlineTable())return void this.props.showOnlyOneTableCanBeAttachedToast({undo:r||s.A});if(this.props.supportsPortableContent&&n)return void insertTableInline(n);if(this.props.insertTableAsBlockUnfurl&&n){this.props.insertTableAsBlockUnfurl(n),this.props.onBlockAttachmentCreated&&this.props.onBlockAttachmentCreated();return}if(this.props.insertTableAsBlockUnfurl&&a){if(this.props.clogger?.track(1717,{contexts:{ui_context:{action:121}}}),a.reason===L.bi.success&&a.block){this.props.supportsPortableContent?insertTableInline(a.block):(this.props.insertTableAsBlockUnfurl(a.block),this.props.showUndoTableBlockCreationToast({undo:()=>{r&&r(),this.props.bulkClearBlockUnfurls({draftIds:[this.props.draftId]})}}),this.props.onBlockAttachmentCreated&&this.props.onBlockAttachmentCreated()),this.props.clogger?.track(1718,{contexts:{ui_context:{action:121}}});return}this.props.clogger?.track(1719,{contexts:{ui_context:{action:67,ui_element:a.reason,ui_properties:{element_name:"table_create_error",element_value:a.reason,display_name:a.reason,element_index:a.errorValue||0}}}})}r&&r(),this.props.showSendTableAsSnippetToast({convertTableToSnippet:()=>{t({initialText:e,initialChannelId:this.props.channelId,threadTs:this.props.threadTs,viewContext:this.props.viewContext||"",initialType:"tsv",initialContents:{contents:i?i.ops:[]}})},clearText:l||s.A})},getIsTablePastingEnabled:()=>a,isMarkdownMode:!!this.props.forceMarkdownMode,preserveTrailingSpaces:!!this.props.preserveTrailingSpacesOnPaste,supportsPortableContent:!!this.props.supportsPortableContent,onMarkdownPasteIntercepted:this.props.enableMarkdownPasteDetection?({markdownText:e,pasteNormally:t,pasteAsMarkdown:a})=>{if(this.props.supportsPortableContent)return void this.props.pasteMarkdownAsBlocks({markdown:e}).then(n=>this.insertMarkdownBlocksAtCursor(n,t,a?void 0:e),e=>{(0,w.Wo)().error("Markdown paste-as-blocks conversion failed; falling back to default paste",e),t()});let enterMarkdownWithContent=()=>{let t,a=this.instance?.getSelection(),n=this.instance?.quill;if(n&&a){let i=n.getContents(0,a.index),r=n.getContents(a.index+a.length);t=(0,i3.f)(i)+e+(0,i3.f)(r)}else{let a=this.instance?.getContents()?.contents||[];t=(0,i3.f)(a)+e}this.props.onMarkdownModeChange?.(!0),setTimeout(()=>{this.instance?.setContents({contents:[{insert:t}]}),this.props.onShowMarkdownPreviewChange?.(!0)},0)};a?enterMarkdownWithContent():this.props.showMarkdownModePasteToast({pasteAsMarkdown:enterMarkdownWithContent,pasteNormally:t})}:void 0}}setContainerRef(e){this.container=e}setContents(e,{source:t}={}){return this.instance?.setContents(e,{source:t})}setCursorAtEnd(){this.instance?.setSelectionAtEnd()}isCursorAtStart(){return this.instance?.getSelection()?.index===0}maybeTriggerMentionAutocomplete(){this.instance?.maybeTriggerMentionAutocomplete()}setCursor(e,t=0){this.container&&this.instance?.setSelection(e,t)}insertContentsAtCursor(e,t=!0,a="user"){this.container&&this.instance?.insertContentsAtCursor(e,t,a)}clearHistory(){return this.instance?.clearHistory()}isEnabled(){return!!this.instance?.isEnabled()}prependContents(e){return this.instance?.prependContents(e)}value(e,{isSilent:t}={}){let{userHighlightWords:a,isEmojiDisplayedAsText:n,emojiNames:i,locale:r,useWorkflowTokens:s,workflowTokens:l,tagChannelsAsSearchGeneric:o,forceChannelTaggingDisabled:u}=this.props;if(void 0!==e){if((0,d.A)(e))this.clear();else{let d=e;(0,c.A)(e)&&(d=(0,i2.A)(e,{highlightWords:a,shouldRenderEmojiAsText:n,emojiNames:i,locale:r,workflowTokens:s?l:void 0,useChannelTagging:!u,tagChannelsAsSearchGeneric:o}));let m={};t&&(m.source="silent"),this.instance?.setContents(d,m)}return""}return(0,i4.e)(this.instance?.getContents(),{tagChannelsAsSearchGeneric:o})}displayValue(){return(0,td.f)(this.instance?.getContents())}clear({isSilent:e=!1}={}){this.instance?.clear({is_silent:e})}hasActiveDescendantChanged(e={}){let{ariaActiveDescendant:t}=this.props;return e.ariaActiveDescendant!==t}handlePropChanges(e={}){let{enableSpellCheck:t,isDisabled:a,isPlainTextModeEnabledPref:n,overlayIsOpen:i,ariaLabel:r,ariaLabelledBy:s,ariaDescribedBy:l,ariaInvalid:o,enableBroadcastKeywords:d,ariaActiveDescendant:c,teamId:m,useExpandedRichText:p,ariaExpanded:h,inputMetricBoundary:_}=this.props;if(e.enableSpellCheck!==t&&this.container.querySelector("[contenteditable=true]").setAttribute("spellcheck",t),e.isDisabled!==a&&(a?this.instance?.disable():this.instance?.enable()),this.hasActiveDescendantChanged(e)&&this.instance?.setActiveDescendant(c),e.ariaLabel!==r&&this.instance?.setAriaLabel(r),e.ariaLabelledBy!==s&&this.instance?.setAriaLabelledBy(s),e.ariaDescribedBy!==l&&this.instance?.setAriaDescribedBy(l),e.ariaInvalid!==o&&this.instance?.setAriaInvalid(o),e.ariaExpanded!==h&&this.instance?.setAriaExpanded(h),e.inputMetricBoundary!==_&&this.instance?.setMetricBoundary(_),(0,u.A)(e.isPlainTextModeEnabledPref)&&(0,u.A)(n)&&e.isPlainTextModeEnabledPref!==n||(0,u.A)(e.enableBroadcastKeywords)&&(0,u.A)(d)&&e.enableBroadcastKeywords!==d&&e.channelId===this.props.channelId){(0,S.A)({teamId:m}).info("Texty-Input",
 unfurled_joiners.b98795a: View profile
 unified-file-picker.4d04eec: Account connected
 unified-file-picker.a603825: Add Workspace
