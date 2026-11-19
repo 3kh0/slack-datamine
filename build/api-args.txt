@@ -373,12 +373,12 @@ dnd.info: user
 dnd.setSnooze: num_minutes
 dnd.teamInfo: users
 drafts.bulkDelete: client_last_updated_ts, is_select_all
-drafts.create: attachments, blocks, client_msg_id, date_scheduled, date_stashed, destinations, file_ids, file_permissions, is_from_composer, unfurl
+drafts.create: attachments, blocks, client_msg_id, date_scheduled, date_stashed, destinations, file_ids, file_permissions, is_from_composer, skip_simple_array_serialization_in_get_form_data, unfurl
 drafts.delete: client_last_updated_ts, draft_id, skip_file_deletion
 drafts.info: draft_id
 drafts.list: is_active, limit
 drafts.listActive: limit, next_ts
-drafts.update: attachments, blocks, client_last_updated_ts, date_scheduled, date_stashed, destinations, draft_id, file_ids, file_permissions, is_from_composer, unfurl
+drafts.update: attachments, blocks, client_last_updated_ts, date_scheduled, date_stashed, destinations, draft_id, file_ids, file_permissions, is_from_composer, skip_simple_array_serialization_in_get_form_data, unfurl
 email.threads.share: blocks, channel, entity_id
 emailConnectorSelfServe.disconnect: provider
 emailConnectorSelfServe.emails.list: cursor, limit, provider, query
@@ -704,17 +704,10 @@ sfdc.approvals.getApprovalProgress: record_id, salesforce_org_id
 sfdc.autoStarter.integration.admin.addMembers: profile, salesforce_org_id, users
 sfdc.autoStarter.integration.admin.getLicensedMembers: salesforce_org_id
 sfdc.autoStarter.integration.admin.updateMemberProfile: profile, salesforce_org_id, user_id
-sfdc.captchaKeys.create: label, salesforce_org_id, secret_key, site_key
-sfdc.captchaKeys.list: salesforce_org_id
 sfdc.checkUiApiCompatibility: as_integration_user, salesforce_org_id, sobject_api_name
-sfdc.domainVerification.list: salesforce_org_id
 sfdc.eacConfigs.disconnect: salesforce_org_id
-sfdc.eacConfigs.init: salesforce_org_id, workspace_id
-sfdc.emailToCaseConfigs.create: channel_id, email_address, salesforce_org_id
 sfdc.emailToCaseConfigs.delete: salesforce_org_id
 sfdc.emailToCaseConfigs.get: salesforce_org_id
-sfdc.emailToCaseConfigs.notifyCopy: channel_id
-sfdc.emailToCaseConfigs.resendVerification: email_address, salesforce_org_id
 sfdc.emails.capture.info: salesforce_org_id
 sfdc.emails.capture.set: enabled, salesforce_org_id
 sfdc.emails.composer.defaults: record_id, salesforce_org_id
@@ -775,7 +768,6 @@ sfdc.startCSVImport: column_mapping, object_type, salesforce_org_id
 sfdc.tasks.lookup: salesforce_org_id, task_ids
 sfdc.updateRecord: baseline_who_ids, id, last_fetch_date, optional_fields, prepopulate_additional_fields, record, salesforce_org_id, sobject_api_name, source
 sfdc.uploadCSVFile: file, import_type, object_type, salesforce_org_id
-sfdc.webToLeads.updateSettings: channel_id, recaptcha_required, salesforce_org_id
 share.prompts.add: channel_id, message_ts
 share.prompts.checkAttachedSkills: prompt_id
 share.prompts.info: prompt_id

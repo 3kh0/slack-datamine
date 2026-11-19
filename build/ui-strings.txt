@@ -88,7 +88,7 @@
 ) are ignored.
 ) is not supported yet.
 ) that performed expensive computation.
-)&&(eH(!1),aQ(void 0),ez(se?
+)&&(eH(!1),aQ(void 0),ez(a9?
 ))),e((0,c.R3)(h)),e((0,c.p4)(h?a:void 0)),p(h?
 ). If you meant to render a collection of children, use an array instead.
 )?l.makeImage(e.slice(8),new u.Ay(t,r,n,i),o?
@@ -173,6 +173,7 @@ A huddle happened in
 A huddle happened with 
 A huddle is happening
 A huddle link has been shared
+A lead integration is already set up in this channel.
 A list as value.
 A list for your sales contacts
 A little bit of everything
@@ -668,6 +669,7 @@ Add people to a channel
 Add people to channel
 Add people to this conversation
 Add people using Slack Connect
+Add people you work with here so everyone can collaborate and share the same context.
 Add profile details
 Add project brief
 Add project context
@@ -1281,6 +1283,8 @@ Ask whether the current user could give themselves edit access to a skill
 Ask whoever shared this huddle with you for a new link.
 Ask whoever shared this huddle with you for another way to join.
 Ask why the user left the agentic IA in the IA4 client footer of this workspace ID (set by Switch back to IA4)
+Ask your admin
+Ask your admin to approve an update to this app. Until then, the app keeps its current permissions.
 Ask your admin to enable 
 Asked Singer
 Asking for microphone deferred until unmute
@@ -1682,7 +1686,6 @@ Bulk clear all to-do items, in-progress and completed
 Bulk clear draft
 Bulk clear in-progress to-do items
 Bulk deletes drafts
-Bulk fetches and upserts members by query
 Bulk loads:
 Bulk manage files
 Bulk mark a display-rule section
@@ -3077,6 +3080,7 @@ Could not display table.
 Could not enqueue request
 Could not export failed users
 Could not feature check.
+Could not fetch channel managers for webhook lead setup
 Could not fetch custom statuses
 Could not fetch enterprise team
 Could not fetch google directory affiliation.
@@ -4048,6 +4052,7 @@ Edit Contact Information Section
 Edit Custom Status
 Edit Fields
 Edit Header Section
+Edit Integration
 Edit Message
 Edit Photo
 Edit Profile Crop
@@ -5078,6 +5083,7 @@ Fetch org-level retention settings
 Fetch page 1 of all search results for a given query and filters
 Fetch predefined apps for onboarding integration task
 Fetch programmable sidebar recommend scores
+Fetch salesforce domain verifications
 Fetch search results for custom connectors
 Fetch sfdc layout info for creating a record
 Fetch teams that share a channel with current team using Slack Connect API
@@ -6634,6 +6640,7 @@ Invite user(s) to a conversation
 Invite your coworkers with this link
 Invite your external partners
 Invite your team
+Invite your team and external partners
 Invite your team so they can jump in right away.
 Invite your team to start collaborating
 Invite your teammates
@@ -8528,6 +8535,7 @@ New folder
 New hire onboarding
 New huddle
 New lead
+New leads from your connected system are posted in this channel.
 New leads post automatically with Add Lead to Salesforce and Dismiss buttons, so a rep can review each lead before it goes to your CRM.
 New list
 New message
@@ -9328,6 +9336,8 @@ Open Browser
 Open Contact
 Open Conversation
 Open DM in split view
+Open Downmarket CRM handraise modal
+Open Downmarket CRM onboarding upgrade modal
 Open Drafts in split view
 Open Dyslexic
 Open Full
@@ -10862,7 +10872,6 @@ Replaced the attached document text.
 Replacing a stale (already shut down) huddlesSdk in the connection manager
 Replay a number of specified messages (via keyboard shortcut) for a screen reader user
 Replay intro
-Replays persisted API calls after socket connection
 Replied in thread
 Replies have been turned off for this thread by your admins.
 Replies have been turned off for this thread.
@@ -11819,6 +11828,7 @@ Send this note in the meeting chat.
 Send this now?
 Send this private request from Slack. Your draft is saved here.
 Send to Slackbot
+Send updates, track decisions, and keep all your files related to a project in one spot. No more confusing email branches or forgotten attachments.
 Send updates, track decisions, and keep all your files related to a topic or project in one spot.
 Sending clog data, emptying queue
 Sending messages to this app has been turned off
@@ -14821,7 +14831,6 @@ Update a saved reminder
 Update a saved reminder in redux and call the API
 Update a task
 Update accessibility preferences
-Update available. Ask your admin to approve the new permissions. Your current version will keep working.
 Update canvas content creation session on canvas AI content cancel
 Update canvas content creation session on canvas AI content completion
 Update enterprise profile fields
@@ -14837,6 +14846,7 @@ Update local grouped filter set
 Update local show completed items
 Update local sorts
 Update local view type
+Update needs approval
 Update notification prefs for given Salesforce org id
 Update notifications pref datasource object field mappings
 Update one key for a channel by id
@@ -14986,6 +14996,7 @@ Use arrow keys to move the docked player between corners
 Use audio and video to bring your work to life. Record a quick idea with an audio clip, or share your screen in a video clip, all without leaving Slack.
 Use camera only
 Use channels to keep projects organized
+Use channels to keep work organized
 Use channels to keep your chats organized
 Use contact records to keep track of interactions with prospective customers.
 Use description from Agentforce Builder
@@ -15522,6 +15533,7 @@ What do people in this thread need from me?
 What do they need?
 What do we have in common?
 What do you want to call your Slack workspace?
+What do you want to call your chat with external partners?
 What does anyone in this group conversation need from me?
 What does my calendar say about me?
 What does this mean
@@ -15600,6 +15612,7 @@ Which messages should I respond to first?
 Which months and volumes should the 2002 term sheet price?
 Which of my open PRs have waited longest for review?
 Which of the following did you experience? Select all that apply.
+Which people in 
 While we work on improvements, here is some information that can help.
 While you were quiet
 White fluorescent (WW 3200 - 3700K)
@@ -15980,6 +15993,7 @@ Your changes will be lost.
 Your changes will not be saved.
 Your channel is set up!
 Your chat, recap and notes go to a thread in your DM with Slackbot. Only you can see it until you share.
+Your chats can be public for anyone on your team to find or private for only specific people you invite. (Your external partners always have to be invited.)
 Your chats can be public or private. You can make this one private to test things out or public so your team can find it.
 Your closest collab
 Your code tasks will appear here.
