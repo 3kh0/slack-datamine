@@ -1,5 +1,6 @@
 2fa_modal.77dfd21: Cancel
 2fa_modal.bab167a: Finish signing into {teamName}
+a11y.adfe2b3:  {count} unread messages. Selecting will open at the oldest unread message.
 a11y.aa16061: APP
 a11y.0131aeb: Added you to {channelNameorId} (private channel).
 a11y.ef76f55: Added you to {channelNameorId}.
@@ -9,11 +10,41 @@ a11y.f641b7f: New channel invitation, {name}, {date} at {time}: {message}
 a11y.9a65a56: New channel invitation, {name}: {message}
 a11y.a919796: New channel invitation, {name}: {message} At {time}.
 a11y.5caac54: New channel invitation, {name}: {message} {date} at {time}.
+a11y.21ed163: New reply, {name} in {channel}, at {time}: {message}
+a11y.ef5c798: New reply, {name} in {channel}, {date} at {time}: {message}
+a11y.904f011: New reply, {name} in {channel}: {message}
+a11y.8080de3: New reply, {name} in {channel}: {message} At {time}.
+a11y.f5f470d: New reply, {name} in {channel}: {message} {date} at {time}.
+a11y.863907a: New, Slack, at {time}: {message}
+a11y.5d7e240: New, Slack, {date} at {time}: {message}
+a11y.23d1617: New, Slack: {message}
+a11y.5f2439e: New, Slack: {message} At {time}.
+a11y.58de996: New, Slack: {message} {date} at {time}.
 a11y.1c45427: New, {name} app notification, at {time}: {message}
 a11y.c801429: New, {name} app notification, {date} at {time}: {message}
 a11y.f160cfd: New, {name} app notification: {message}
 a11y.93fd250: New, {name} app notification: {message} At {time}.
 a11y.3fe8a19: New, {name} app notification: {message} {date} at {time}.
+a11y.8735b31: New, {name} in {channel}, at {time}: {message}
+a11y.1f0de51: New, {name} in {channel}, {date} at {time}: {message}
+a11y.13d145c: New, {name} in {channel}: {message}
+a11y.7311ddb: New, {name} in {channel}: {message} At {time}.
+a11y.57ac6a2: New, {name} in {channel}: {message} {date} at {time}.
+a11y.b1d8614: New, {notificationType}, at {time}: {message}
+a11y.eb36300: New, {notificationType}, {date} at {time}: {message}
+a11y.0d439e0: New, {notificationType}: {message}
+a11y.a7fddcf: New, {notificationType}: {message} At {time}.
+a11y.08389a9: New, {notificationType}: {message} {date} at {time}.
+a11y.496ae5d: Reply, {name} in {channel}, at {time}: {message}
+a11y.044cdea: Reply, {name} in {channel}, {date} at {time}: {message}
+a11y.00a3b97: Reply, {name} in {channel}: {message}
+a11y.0811c9b: Reply, {name} in {channel}: {message} At {time}.
+a11y.55826e4: Reply, {name} in {channel}: {message} {date} at {time}.
+a11y.bf1de2c: Slack, at {time}: {message}
+a11y.8214a24: Slack, {date} at {time}: {message}
+a11y.4fccdd7: Slack: {message}
+a11y.2cc6bf5: Slack: {message} At {time}.
+a11y.61cddf9: Slack: {message} {date} at {time}.
 a11y.f04df52: SlackConnectInstructionSection
 a11y.8f47c1b: Sorted into {section}
 a11y.751a4f8: To {recipients} at {time}: {message}
@@ -319,33 +350,18 @@ a11y.175cd9a: {name} ({userInfo})
 a11y.55201e5: {name} ({userInfo}) ({context})
 a11y.bf35d59: {name} ({userInfo}), status: {status}
 a11y.310b44c: {name} ({userInfo}), status: {status} ({context})
-a11y.f0d5e51: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName} reacted with {reaction} and other reactions to: {message} At {time}.
-a11y.8bdc13f: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName} reacted with {reaction} and other reactions to: {message} {date} at {time}.
-a11y.8b638b5: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName} reacted with {reaction} and {secondReaction} to: {message}
-a11y.bc32541: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName} reacted with {reaction} and {secondReaction} to: {message} At {time}.
-a11y.9eac90a: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName} reacted with {reaction} and {secondReaction} to: {message} {date} at {time}.
-a11y.c4e395c: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName} reacted with {reaction} to: {message} At {time}.
-a11y.cbd6b18: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName} reacted with {reaction} to: {message} {date} at {time}.
-a11y.39ea943: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName}, at {time}, reacted with {reaction} and other reactions to: {message}
-a11y.8c3621c: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName}, at {time}, reacted with {reaction} and {secondReaction} to: {message}
-a11y.27151f4: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName}, at {time}, reacted with {reaction} to: {message}
-a11y.f7d0813: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName}, {date} at {time}, reacted with {reaction} and other reactions to: {message}
-a11y.f125727: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName}, {date} at {time}, reacted with {reaction} and {secondReaction} to: {message}
-a11y.f8d9400: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName}, {date} at {time}, reacted with {reaction} to: {message}
-a11y.9db1322: {name} in {channelName} reacted with {reaction} and other reactions to: {message} At {time}.
-a11y.ab8bd89: {name} in {channelName} reacted with {reaction} and other reactions to: {message} {date} at {time}.
-a11y.c65341f: {name} in {channelName} reacted with {reaction} and {secondReaction} to: {message} At {time}.
-a11y.41fbf05: {name} in {channelName} reacted with {reaction} and {secondReaction} to: {message} {date} at {time}.
-a11y.ab0bfb0: {name} in {channelName} reacted with {reaction} to: {message} At {time}.
-a11y.9bcb98f: {name} in {channelName} reacted with {reaction} to: {message} {date} at {time}.
-a11y.fe46640: {name} in {channelName}, at {time}, reacted with {reaction} and other reactions to: {message}
-a11y.c73c707: {name} in {channelName}, at {time}, reacted with {reaction} and {secondReaction} to: {message}
-a11y.d43d581: {name} in {channelName}, at {time}, reacted with {reaction} to: {message}
-a11y.d4f2384: {name} in {channelName}, {date} at {time}, reacted with {reaction} and other reactions to: {message}
-a11y.ae5851d: {name} in {channelName}, {date} at {time}, reacted with {reaction} and {secondReaction} to: {message}
-a11y.2dcdb56: {name} in {channelName}, {date} at {time}, reacted with {reaction} to: {message}
+a11y.786a1fb: {name} in {channel}, at {time}: {message}
+a11y.8df906a: {name} in {channel}, {date} at {time}: {message}
+a11y.6bc7b30: {name} in {channel}: {message}
+a11y.61ab8e2: {name} in {channel}: {message} At {time}.
+a11y.4261f73: {name} in {channel}: {message} {date} at {time}.
 a11y.92bb48c: {name}, status: {status}
 a11y.e5c3a22: {name}, status: {status} ({context})
+a11y.e89d4b1: {notificationType}, at {time}: {message}
+a11y.0cd83a9: {notificationType}, {date} at {time}: {message}
+a11y.a3d97b3: {notificationType}: {message}
+a11y.0159f2f: {notificationType}: {message} At {time}.
+a11y.3ab7f4a: {notificationType}: {message} {date} at {time}.
 a11y.f89fcb6: {senderName} to {recipients} at {time}: {message}
 a11y.2bc396a: {senderName} to {recipients} {date} at {time}: {message}
 a11y.4258cb6: {senderName} to {recipients}: {message} At {time}.
@@ -432,6 +448,7 @@ activate_solution_gallery.9b69a35: Invitations
 activate_solution_gallery.0323bf6: Invite teammates
 activate_solution_gallery.5fc5b2b: List template
 activate_solution_gallery.825ce9e: Workflows
+activity.adfe2b3:  {count} unread messages. Selecting will open at the oldest unread message.
 activity.3e47a6d: "{name}" has been saved successfully.
 activity.4cb9c6c: "{viewName}" has been deleted successfully.
 activity.c828385: (default)
@@ -665,7 +682,6 @@ activity.753a22b: Notifications
 activity.9c4dd46: Notifications cleared.
 activity.2e07973: Notifications from
 activity.6417a44: Notifications, {count, plural, =1 {# unread} other {# unreads}}
-activity.27792ba: On {date}
 activity.00da205: Only external people
 activity.d843905: Only include unreads
 activity.ced4671: Only internal people
@@ -721,7 +737,6 @@ activity.ae7b3fb: Scheduled to reply in {location}
 activity.d17da5e: Scrolling for something you might have missed?
 activity.bce0641: Search
 activity.7087888: Search conversations
-activity.992188e: Search debug
 activity.d64ed64: Search pull requests
 activity.787447b: Search: {query}
 activity.aa9f072: See all your unreads in one place
@@ -823,7 +838,6 @@ activity.778c527: You can only save up to {maxTabCount} tabs. Delete one to save
 activity.2c20996: You can only save up to {maxTabCount} views
 activity.885be26: You can still find any item you had previously cleared.
 activity.923cc4f: You can’t enter more than {maxCharLimit} characters.
-activity.651fbb3: You completed this to-do
 activity.a41b905: You received a Slack notification
 activity.675f0a0: You received an invitation that has been ignored, expired, or is no longer available for another reason.
 activity.ab538ef: You replied
@@ -6264,7 +6278,6 @@ code-tab.cf05eca: Add reaction
 code-tab.85174b7: All changes
 code-tab.41b81eb: Approved
 code-tab.e1e6574: Auto-merge on
-code-tab.f3a4aa0: Branch {branch}
 code-tab.77dfd21: Cancel
 code-tab.fe25abc: Changed files
 code-tab.9be1668: Changes requested
@@ -6276,7 +6289,6 @@ code-tab.ff337dc: Comment deleted
 code-tab.b024afd: Comment updated
 code-tab.74536b5: Commits
 code-tab.5eb9d05: Commits to show
-code-tab.73ea9a9: Comparing {base} ← {head}
 code-tab.587e74c: Connect to {provider}
 code-tab.ff4aceb: Connect your GitHub account to change this pull request’s status.
 code-tab.2b56f45: Connect your GitHub account to delete this comment.
@@ -6294,18 +6306,15 @@ code-tab.8c0451d: Copy GitHub link
 code-tab.2f84eea: Copy link
 code-tab.a310281: Couldn’t change this pull request’s status. Give it another try.
 code-tab.8cf663d: Couldn’t load more comments.
-code-tab.70859e0: Couldn’t load the changes in these commits.
 code-tab.de77bd4: Couldn’t load the latest commits
 code-tab.f6fdbe4: Delete
 code-tab.4be7edc: Delete comment
 code-tab.687c1cb: Delete comment?
 code-tab.556c939: Description updated
 code-tab.38c1b65: Diff display options
-code-tab.01beb79: Diff truncated — too many files or changes to display
 code-tab.23d33e2: Draft
 code-tab.3b16825: Edit comment
 code-tab.2ebe5b3: Edit description
-code-tab.9f13b71: File tree width
 code-tab.7492582: Files Changed
 code-tab.df251b0: Find
 code-tab.686d4da: Find in diff
@@ -6319,9 +6328,7 @@ code-tab.d338d08: Jump to file
 code-tab.972ad8d: Layout
 code-tab.fcf82cb: Load more comments
 code-tab.2470ebc: Loading commits…
-code-tab.41a5c16: Loading diff
 code-tab.04999e3: Loading more comments
-code-tab.3a25ab1: Loading the commits’ changes
 code-tab.6a3b6a2: Merge conflicts
 code-tab.0c44559: Merged
 code-tab.4bab2d8: More
@@ -6361,40 +6368,31 @@ code-tab.73989d9: Running
 code-tab.efc007a: Save
 code-tab.ccc7c45: Saving comment
 code-tab.ed27be4: Saving description
-code-tab.a414274: Show All Changes
 code-tab.f5b60f4: Show file tree
 code-tab.4c852b2: Show less
 code-tab.25911d4: Show more
 code-tab.7237359: Show resolved
-code-tab.d4a36c1: Showing changes from some commits. Comments are hidden.
 code-tab.30c9bdc: Some comments aren’t shown. View the pull request on GitHub to see them all.
-code-tab.ee6f63c: Something went wrong fetching the diff. Please try again later.
 code-tab.fc8230b: Split
 code-tab.f55f74b: Tab size
-code-tab.2fdec01: The changes in these commits are too large to show.
 code-tab.cad84dc: There was a problem deleting this comment. Give it another try.
 code-tab.592a3e0: There was a problem resolving this conversation. Give it another try.
 code-tab.a115c77: There was a problem saving this comment. Give it another try.
 code-tab.1fdb66d: There was a problem saving this description. Give it another try.
 code-tab.b78e420: There was a problem unresolving this conversation. Give it another try.
-code-tab.cd287d8: These commits don’t change any files.
 code-tab.a2cd3f2: This also deletes the comment on GitHub. This can’t be undone.
 code-tab.c8e66c7: This comment no longer exists on GitHub.
 code-tab.35b46ef: This conversation no longer exists on GitHub.
 code-tab.c27f171: This conversation was marked as resolved.
 code-tab.a0ddf21: This description was changed on GitHub. Reload the Code tab to edit the latest version.
-code-tab.08b90ac: This is a merge commit.
-code-tab.ad2239f: This pull request can’t be shown here yet
 code-tab.0925258: This pull request has already merged.
 code-tab.d19ceca: Tip
 code-tab.cef2fe0: Try Again
 code-tab.042c862: Try again
-code-tab.9afdcac: Unable to load diff
 code-tab.287fda8: Unified
 code-tab.88cab05: Unresolve Conversation
 code-tab.97e5ac0: Unresolving conversation
 code-tab.334d9a1: View Comments
-code-tab.c511e1c: View it on GitHub
 code-tab.23a6732: View message
 code-tab.0c77991: View on GitHub
 code-tab.e9c4556: Warning
@@ -6409,9 +6407,6 @@ code-tab.bf43146: {author} on {location}: {comment}
 code-tab.db03f19: {count, plural, =1 {Review changes (1 pending comment)} other {Review changes (# pending comments)}}
 code-tab.5643f7d: {count, plural, one {# comment} other {# comments}}
 code-tab.c0ccea2: {count, plural, one {# commit} other {# commits}}
-code-tab.dd7e868: {count, plural, one {# earlier commit isn’t included because it comes before a merge commit.} other {# earlier commits aren’t included because they come before a merge commit.}}
-code-tab.f35d82c: {count, plural, one {# earlier commit isn’t included because it comes before a merge from {base}.} other {# earlier commits aren’t included because they come before a merge from {base}.}}
-code-tab.525dedc: {count, plural, one {# file changed} other {# files changed}}
 code-tab.fd1d44e: {count, plural, one {# new commit} other {# new commits}}
 code-tab.97d3b45: {count, plural, one {Files Changed, # file} other {Files Changed, # files}}
 code-tab.59a7d03: {count, plural, one {First # commit} other {First # commits}}
@@ -12068,7 +12063,6 @@ includes_client.c9aea15: Mention someone
 includes_client.87a9243: Show formatting
 inline-agent-view-canvas-block.232f7ea: Open {title}
 inline-agent-view-html-block.232f7ea: Open {title}
-inline-code-diff-block.525dedc: {count, plural, one {# file changed} other {# files changed}}
 inline_attachments.e963907: Remove
 inline_attachments.645831c: Remove preview?
 inline_member.8b26e30: (Unavailable)
@@ -13804,6 +13798,7 @@ menu.78cdab3: Customized
 menu.27d0323: Delete section
 menu.dc3decb: Details
 menu.e1d7e00: Don’t want to see this anymore?
+menu.f771385: Edit Salesforce Notifications
 menu.edfe0b5: Edit default preferences
 menu.81759a7: Edit notifications
 menu.aea819e: Edit settings
@@ -13830,6 +13825,7 @@ menu.c766e79: Leave all temporary channels
 menu.74a796c: Leave channel
 menu.48ce9cd: Leave huddle
 menu.33ce417: Loading…
+menu.5495ac3: Manage Salesforce orgs
 menu.6504edd: Manage VIPs
 menu.bd145d0: Manage conversations
 menu.93307b6: Manage memories
@@ -13936,6 +13932,7 @@ menu.e6ba0dd: Unreads
 menu.59cdce6: Unreads only
 menu.10dad62: Unstar channel
 menu.7c11f7e: Unstar conversation
+menu.419b007: View agent profile
 menu.02fc0cf: View agents & apps
 menu.acdf387: View app details
 menu.fa4fe5f: View channel details
@@ -13949,6 +13946,7 @@ menu.b98795a: View profile
 menu.7f25898: View {quipLabel} details
 menu.d7a4841: Workflow
 menu.9dda926: Workflow options ready
+menu.ee43020: Workflows with Salesforce data
 menu.37acf9d: You do not have permissions. Please contact your admin.
 menu.7cbc1b0: ⌘ Click
 menu.362e018: ⌘ Opt Click
@@ -23264,7 +23262,6 @@ slack_connect.1055dea: Invitation no longer active
 slack_connect.9e0807e: Invitation not sent to
 slack_connect.614e86b: Invitation not yet sent to
 slack_connect.988ba74: Invitation sent
-slack_connect.edea330: Invitations to review
 slack_connect.2821ed1: Invite to DM
 slack_connect.8e710dc: Invited to
 slack_connect.65670d8: Invited to direct message:
@@ -23333,7 +23330,6 @@ slack_connect.92bb8f2: Upgrade to join this channel
 slack_connect.69bd4ef: View
 slack_connect.6a77416: View All Invitations
 slack_connect.23a6732: View message
-slack_connect.1345c48: View {count} more {count, plural, =1 {invitation} other {invitations}}
 slack_connect.dd90008: We noticed there are more Slack Connect channels in <strong>{remainingSuggestedWorkspacesCount, plural, =1 {# other workspace} other {# other workspaces}}</strong> than there are in this one. Do you want to add this channel to another workspace?
 slack_connect.6e288e7: We noticed there are more Slack Connect channels in your <strong>{suggestedWorkspaceName}</strong> workspace than there are in this one. Do you want to add this channel there instead?
 slack_connect.3da1137: We’ve sent a 6-character code to <strong>{email}</strong>. The code expires shortly, so please enter it soon.
