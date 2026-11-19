@@ -1190,7 +1190,6 @@ agents.55f6cc2: From your admin
 agents.a1b9c30: Gathering information…
 agents.9be6b90: Generating response…
 agents.c7cefb8: Get more from {skillName}
-agents.410bbfd: Give Slackbot instructions on how you work. Slackbot applies the right skill automatically when it’s relevant.
 agents.086158f: Give feedback
 agents.3c382cc: Help me create a new skill: {description}
 agents.f8c2483: Hide details
@@ -1221,7 +1220,6 @@ agents.a1e34f9: More actions
 agents.aaf2ce0: More actions for skill set
 agents.9110744: More actions for {skillName}
 agents.e3904de: More actions for {skillSetName}
-agents.61ef448: More results loaded
 agents.5adbdd0: Most popular
 agents.71b35d4: Most relevant
 agents.8b11f91: Needs your input
@@ -1239,7 +1237,6 @@ agents.f01097f: No skills found
 agents.fbae275: No skills match
 agents.f11224d: No templates found
 agents.6eef664: None
-agents.d1a17af: Not available
 agents.8b02f3d: Not connected
 agents.e457149: Not now
 agents.c67a89d: Nothing turned up
@@ -1952,6 +1949,7 @@ app_launcher.84d8abf: Cancel Request
 app_launcher.467a077: Cancel request?
 app_launcher.f840ac6: Canceled
 app_launcher.6ccb600: Categories
+app_launcher.a8b899f: Couldn’t load more requests. Try again.
 app_launcher.18e5ff2: Filter apps
 app_launcher.abd44ca: Get more value from your Atlassian tools
 app_launcher.b648590: Go to app
@@ -1964,6 +1962,8 @@ app_launcher.8411324: One-click access to AI tools in Slack
 app_launcher.8ee6637: Open in Slack Marketplace
 app_launcher.03a322d: Open in split view
 app_launcher.d59bb53: Request already closed
+app_launcher.4fd31fd: Requested {ago}
+app_launcher.d62b7f5: Requests ({count})
 app_launcher.c462b3b: See Upgrade Options
 app_launcher.2941c5c: See all
 app_launcher.25911d4: Show more
@@ -2136,6 +2136,7 @@ assistant.da8bf9a: AI is used to generate responses, so some information may be 
 assistant.9c9490d: AI notes were returned quickly
 assistant.81a08d0: AI permissions
 assistant.9042248: AI suggestions
+assistant.dba7d2b: AI thread summary: {summaryTitle}
 assistant.8804ce6: AI-generated answers may be inaccurate.
 assistant.03dddf5: Accurate information
 assistant.834f111: Action items were helpful and assigned correctly
@@ -2218,6 +2219,7 @@ assistant.596b7ba: Couldn’t save changes. Please try again.
 assistant.c141a6b: Couldn’t save that memory. Please try again.
 assistant.9df2f6c: Couldn’t summarize channel
 assistant.b2618ed: Couldn’t summarize last 7 days
+assistant.8cf05ec: Couldn’t summarize these replies
 assistant.dee1949: Couldn’t summarize thread
 assistant.649d30e: Couldn’t summarize unreads
 assistant.0a98af8: Couldn’t update that setting. Please try again.
@@ -2241,6 +2243,7 @@ assistant.d4cbe32: Didn’t receive a summary
 assistant.f79e1b5: Direct message with {count} others
 assistant.4827ea2: Discover
 assistant.70afe9e: Dismiss
+assistant.d1fe7b6: Dismiss summary
 assistant.3ce078e: Doing AI magic…
 assistant.e9b450d: Done
 assistant.d4bf577: Don’t Mute
@@ -2280,6 +2283,7 @@ assistant.2b89f01: Generating answer…
 assistant.544db59: Generating your recap
 assistant.d887e24: Generative AI is constantly improving
 assistant.c1a55ff: Get a daily briefing
+assistant.3737292: Get caught up
 assistant.ec6a430: Get caught up anytime
 assistant.a30a142: Get started with Slackbot
 assistant.fccefe7: Get the AI scoop on this channel
@@ -2337,6 +2341,7 @@ assistant.6734257: Join channel
 assistant.00e0758: Joined {channelName}
 assistant.a3601c1: Just a bit more digging… the summary is on its way!
 assistant.b427703: Keep receiving your recap?
+assistant.8d4a440: Key updates
 assistant.df833fe: Last 7 days
 assistant.8417185: Last 7 days summary not available
 assistant.69d504e: Last message {ago}
@@ -2585,6 +2590,7 @@ assistant.be33284: Summarizing {dateRange} in {channelName}
 assistant.eb3b730: Summarizing…
 assistant.12b71c3: Summary
 assistant.fec7d4d: Summary not available
+assistant.cedb562: Summary ready
 assistant.5a822cf: Summary took too long
 assistant.5621678: Summary was returned quickly
 assistant.3e44c92: Switch
@@ -3139,6 +3145,7 @@ broadcast_keywords.d19f445: deal team
 broadcast_keywords.a49a78f: everyone
 broadcast_keywords.0154c0d: here
 browse-pages.dc83cd8: Dismiss notification
+browsers.ef00c63: <strong>Sort:</strong> {sort}
 browsers.3ae085e: A to Z
 browsers.6a72085: All
 browsers.fea00d6: All your files together in Slack
@@ -3169,6 +3176,7 @@ browsers.4735583: Emails
 browsers.1bcce3a: Fewest members
 browsers.d7decf1: Filter
 browsers.6f13fff: Filter results have been updated
+browsers.2f668da: Filter, {filterCount} {filterCount, plural, =1 {filter} other {filters}} applied
 browsers.96e5782: Filters
 browsers.e0a09e2: For some reason, Slack wasn’t able to complete your search.
 browsers.e8055c3: Found in profile
@@ -3234,6 +3242,7 @@ browsers.74da170: Workspace Admin
 browsers.345f223: Workspace Owner
 browsers.e800137: You may want to try adjusting your filters.
 browsers.13105f4: Z to A
+browsers.39c19f7: search refinement
 browsers.f54a4a2: {numberChosen, plural, =1 {# Type} other {# Types}}
 browsers.e12e18a: {totalCount} recommended {totalCount, plural, =1 {result} other {results}}
 browsers.ab0a9ba: {totalCount} {totalCount, plural, =1 {member} other {members}}
@@ -10154,6 +10163,7 @@ flexpane.1e80870: Expand view
 flexpane.1c59135: Primary view actions
 flexpane.95d06fe: Secondary view actions
 flexpane.a09052c: View options
+form.51f4a9d: Choose an option…
 form.f4e1241: No items
 form.47719d7: No items matched <strong>{filterQuery}</strong>
 form.6e913a6: Search workspaces
@@ -12545,7 +12555,6 @@ lists.40089b4: <b>Lists are a paid feature.</b> To use this template, upgrade to
 lists.7d633df: <strong><r1>Go back to the list</r1></strong>
 lists.233bfba: <strong>Field to use for Assignee</strong>
 lists.4f24d9b: <strong>Field to use for Due Date</strong>
-lists.9ac7695: <strong>Maximum number of 50 subtasks reached.</strong> <br></br>Delete subtasks to open space.
 lists.2033f0c: <strong>Maximum number of items reached.</strong> <br></br>If you add new items, older items will be automatically archived. <r1>Learn how to manually archive items</r1>
 lists.7b17d16: <strong>Maximum number of items reached.</strong> <br></br>If you add new items, older items will be automatically archived. To add new items, <r1>archive your completed items</r1>
 lists.8f8dfba: <strong>Permissions for assignees who don’t already have access</strong>
@@ -18009,6 +18018,10 @@ promotions.475adc7: {numDays, plural, =1 {# day} other {# days}} left in trial
 promotions.102201a: {numDays, plural, =1 {# day} other {# days}} left in trial. A gift to you.
 promotions.0528237: {price} per person per month with a qualifying educational email address
 promotions.76dfa4b: {title}, completed
+quick_reactions.f5c35be: Customize reactions
+quick_reactions.403516e: Press enter to hide this tip.
+quick_reactions.f02ad40: Swap these for your favorites
+quick_reactions.1cf70a8: Swap these for your favorites. Press enter to customize your reactions now.
 quick_reactions.7ce8ab5: lightbulb icon
 quip.795b770: <span1>{textMatch}</span1>
 quip.4146894: <strong>{orgCount} organizations.</strong>
@@ -19881,7 +19894,6 @@ search.10d98b5: New List
 search.bceeb45: New hire
 search.f10051f: New section
 search.c195083: New surface
-search.79e5467: Newer result
 search.d044282: Newest
 search.96836a4: Newest channel
 search.bc98198: Next
@@ -19918,7 +19930,6 @@ search.c67a89d: Nothing turned up
 search.3c5bf77: November
 search.72a83ad: Objects
 search.87206ae: October
-search.c4ec95f: Older result
 search.c47bb88: Oldest
 search.dc095d6: Oldest channel
 search.e0049a6: On
@@ -19977,6 +19988,8 @@ search.6fe36ed: Popular agents
 search.7858ac3: Post
 search.a0ca0c3: Posts
 search.25c4116: Presentations
+search.a678bed: Press enter to search
+search.c735517: Press enter to search. Use delete to remove keywords or Esc to exit search
 search.f1fbb2b: Preview
 search.9db108b: Privacy Policy
 search.237dfa0: Private
@@ -20144,6 +20157,7 @@ search.1b978d5: Show on top as a filter
 search.ca5404d: Show results for:
 search.6163112: Show results for: {query}
 search.2bf8e04: Show results in this channel for:
+search.739b604: Show results in this channel for: {query}
 search.72f96a9: Show search history
 search.0f38ffa: Show {count} more
 search.21307cf: Show {count} more unreads and drafts
@@ -20377,6 +20391,7 @@ search.0bf4170: activity
 search.405906c: after
 search.a186bae: anyone on Slack
 search.3536f72: channels
+search.ccccbd7: delete history result {suggestion}
 search.948fe06: direct messages
 search.8f489e7: dm
 search.971c419: file
@@ -26626,11 +26641,9 @@ threads.0162991: Choose this if you’d like your reply to post in the channel, 
 threads.2028d6b: Choose this if you’d like your reply to post in the main conversation, too
 threads.0906f92: Close search
 threads.cbbebee: Continue workflow
-threads.7e9d089: Couldn’t load thread
 threads.f79e1b5: Direct message with {count} others
 threads.281f84a: Edit thread name
 threads.70c9082: File sharing is turned off in external huddles.
-threads.2167778: Find in thread
 threads.4fc1e5b: Go online to get the latest threads.
 threads.1f273e8: Has new replies
 threads.34d8b60: Hide
@@ -26658,10 +26671,8 @@ threads.5339af6: Members will be able to reply and react
 threads.ebdc3ae: Message Slackbot
 threads.8d53e1f: Messages, replies, and reactions will be removed
 threads.6403f2b: New
-threads.79e5467: Newer result
 threads.b993b0c: No results
 threads.34c95d1: No unread messages
-threads.c4ec95f: Older result
 threads.2f7d13c: Only selected team members can post in this thread.
 threads.68eedc7: Open in channel
 threads.825450c: Organize my sidebar — I’m in {count} channels
@@ -26725,7 +26736,6 @@ threads.f120ba6: VIP Threads
 threads.53fb218: View comments
 threads.f8a3b35: View last reply {time_ago}
 threads.39eb5cd: View thread
-threads.6779c00: Viewing thread in {channel}
 threads.cbd3b34: When you reply to a conversation with a VIP, you’ll see the thread here.
 threads.c49a07d: When you turn replies off, new messages or emoji reactions can’t be added to the thread. You can turn replies back on at any time.
 threads.dd0b989: When you turn replies on, new messages or emoji reactions can be added to the thread. You can turn replies off at any time.
@@ -26743,7 +26753,6 @@ threads.8af56de: you
 threads.f2ef5af: {count, plural, =1 {# comment} other {# comments}}
 threads.45d5eeb: {count, plural, =1 {# reply} other {# replies}}
 threads.7e20641: {current} of {total}
-threads.e5ab72f: {draftScheduledDate} at {draftScheduledTime}
 threads.cb2812d: {hours}h
 threads.3aa01e2: {numberOfScheduledDraftsInDestination} scheduled
 threads.112c552: {numberOfScheduledDraftsInDestination} scheduled & 1 draft
@@ -28496,6 +28505,7 @@ workflow_builder.7dcab27: Choose a step to add with the form, and we’ll use it
 workflow_builder.faaaf2b: Choose an agent
 workflow_builder.70724f3: Choose an event
 workflow_builder.dba4320: Choose an event to start the workflow, and then add the steps that will follow.
+workflow_builder.51f4a9d: Choose an option…
 workflow_builder.48a88e0: Choose how AI returns its response.
 workflow_builder.d5d81b6: Choose how the target should be compared to the value, such as equals, contains, or does not equal.
 workflow_builder.5695013: Choose how to start the workflow
