@@ -18568,6 +18568,7 @@ quip_collab.e47791d: Yesterday {time}
 quip_collab.cffa50a: and
 quip_collab.7aa1583: canvas
 quip_collab.fbe7d7b: channel
+quip_collab.5ff5d33: create a list
 quip_collab.49f033e: date button
 quip_collab.aa1f83f: date button with reminder set
 quip_collab.f1c573b: date button with reminder set for {reminder_text}
@@ -21764,7 +21765,6 @@ singer.c777f20: 5 minutes before
 singer.9db046b: A draft for {name}
 singer.085724b: A duck
 singer.c50a20e: A little room to breathe.
-singer.3b65e3e: A new look and voice, same answers. Tap a voice to hear it.
 singer.a810627: A quick answer. A little catch-up. A head start on whatever’s next.
 singer.d81834d: A recording note is visible in the meeting chat
 singer.1bbee02: A recording note is visible, but Slackbot can’t tell when it was sent. Confirm you’ve told everyone in this meeting before starting.
@@ -21797,6 +21797,7 @@ singer.2fe784d: All caught up here.
 singer.5185fa4: All clear here.
 singer.ab45f5e: All clear.
 singer.81eaf8b: All clear. You’re good to go.
+singer.ac3c7fb: All code channels in Slack
 singer.a24c12b: All done here.
 singer.aa837cb: All quiet.
 singer.74904c1: All read here.
@@ -21826,10 +21827,8 @@ singer.ae9ecc1: Ask Singer to fix or change some code, and its progress shows up
 singer.310efbc: Ask Slackbot
 singer.c42c3b8: Ask about this meeting
 singer.bdd42e5: Ask about this window
-singer.e6120ea: Ask anything. Answers come back as cards you can act on, like replying or checking things off.
 singer.b1001b0: Ask before actions
 singer.b700dc9: Ask before editing
-singer.24ebad7: Ask for any view. Singer builds it.
 singer.217ccee: Ask questions in the meeting thread. This panel is just for listening.
 singer.29f9bf5: Asking
 singer.b9692bb: Asleep
@@ -21911,13 +21910,10 @@ singer.0f82e1f: Clean sweep.
 singer.895ce74: Clear Status
 singer.4122267: Clear filters
 singer.1c18173: Clear skies ahead.
-singer.67bb417: Click Singer anytime to ask.
-singer.4b869a6: Click Singer anytime to ask. Here are a few to start with.
 singer.447e6ef: Click to get started
 singer.bbfa773: Close
 singer.c3d6666: Close Astro Singer
 singer.fd71a50: Close Browser
-singer.11b27a9: Close a card and it waits in your card stack, sorted by when you asked. Pick up any session where you left off.
 singer.8962525: Close conversation
 singer.11d16ea: Close meeting controls
 singer.fa0b7b3: Close panel
@@ -22040,7 +22036,6 @@ singer.2cc92f6: End Quiet
 singer.c8de761: End call
 singer.e25cf14: End voice chat
 singer.1f7a4f9: Esc
-singer.af9da5c: Every answer is a card
 singer.8a1ddb6: Everything is set to Keep
 singer.10ff9f4: Everything’s frozen in place.
 singer.09fef5d: Failed
@@ -22095,9 +22090,9 @@ singer.1e522e5: Here, take this apple
 singer.b104384: Here, take this: :apple:
 singer.2a70e2a: Here’s a pony.
 singer.bf2d5f8: Hi! Good to meet you.
-singer.4e6ca55: Hi, I’m Singer
 singer.5b0f71c: Hidden while you’re in control
 singer.fe3f4c7: Hide Singer
+singer.ad21ff4: Hide suggestions
 singer.a896653: Hide {title} from companion
 singer.20d27f8: Hold for a pick-me-up, or press Shift+Enter.
 singer.ae44077: Hold to talk
@@ -22133,7 +22128,6 @@ singer.7573b84: Invited member
 singer.69e5b48: Island activity muted for {minutes, plural, one {# minute} other {# minutes}}. Messages stay unread.
 singer.d9d375f: It may still be on. Stop it here, or open Slack to check.
 singer.ecdda59: Item
-singer.c2473cf: It’s all in your card stack
 singer.da4257c: It’s been quiet for 5 minutes. Still in the meeting?
 singer.33b2fab: It’s been quiet for a while. Still in the meeting?
 singer.8dc7564: I’m using Slackbot to record and transcribe this meeting with AI and make notes. Please let me know if you’d prefer I stop.
@@ -22176,10 +22170,10 @@ singer.dcf2f8f: Listening details
 singer.6944c88: Listening to {title}.
 singer.cd4a349: Listening, go ahead
 singer.6c19a47: Listening…
+singer.873555c: Listening… say it in your own words.
 singer.1734e2e: Little moments, more personality
 singer.65c821a: Live
 singer.58ef910: Live answers may have gaps. Your notes will still use the full recording.
-singer.884138b: Live cards keep up
 singer.64a9fa4: Live meeting
 singer.3d9154d: Live statuses
 singer.9ecde87: Load More
@@ -22295,6 +22289,7 @@ singer.896f7cf: No conversations or files found.
 singer.0217856: No meetings
 singer.396cc16: No meetings today
 singer.c04921f: No messages yet
+singer.957dbe9: No mic right now? Type it instead.
 singer.f759728: No more meetings today
 singer.3a5aa5b: No preview available
 singer.9f4192f: No speech detected. Try speaking again.
@@ -22329,6 +22324,7 @@ singer.e3de5ab: Off
 singer.e01fa71: Offline
 singer.3996ed6: Offsite plan
 singer.e0049a6: On
+singer.6268b28: On it. Your card is on its way.
 singer.aa1cc5a: Only these captured updates will be marked read. Newer messages stay unread.
 singer.c8e633f: Oops
 singer.cf9b770: Open
@@ -22379,7 +22375,6 @@ singer.96f608c: Pending
 singer.b37554f: People
 singer.eb78686: Percent of total
 singer.77064d5: Phone
-singer.62c00ac: Pick a look
 singer.9c91841: Pin
 singer.f931216: Pinned
 singer.65a6933: Play Again
@@ -22412,7 +22407,6 @@ singer.5a0d343: Quiet for {minutes} min
 singer.4b3fb60: Quiet in here.
 singer.6e3c789: Quiet out here. For now.
 singer.4ea8770: Racer Dood
-singer.8651888: Rather say it? Talk to Singer and the answer lands on a card, just like typing.
 singer.4d1f996: React
 singer.f1f9434: React and mark done
 singer.89c7896: React with check mark
@@ -22545,13 +22539,11 @@ singer.8e0966c: Since you last looked
 singer.99c9c6d: Singer
 singer.63e219d: Singer can’t confirm the recording
 singer.d1971dd: Singer chose Offsite plan. Sample answer: Just the venue.
-singer.b8550d2: Singer intro
 singer.8cc6463: Singer is typing…
 singer.9cd8f6e: Singer offers you a heart
 singer.711064e: Singer options
 singer.c6c7248: Singer sees only the window you choose. macOS may ask for permission first.
 singer.0286de8: Singer settings
-singer.51bdbdb: Singer suggests these first. Change them anytime in Settings.
 singer.e3834e9: Single-Channel Guest
 singer.b715234: Size
 singer.e09212c: Skills
@@ -22581,7 +22573,6 @@ singer.657d1e1: Snippet
 singer.09a52d3: Soft and thoughtful.
 singer.cc8baf8: Some audio didn’t transcribe.
 singer.0488529: Some audio didn’t transcribe. Live answers may have gaps.
-singer.ec41d26: Some cards update on their own. The island shows what Singer is working on, so you can keep going.
 singer.d591a93: Some files couldn’t be attached. Check the message and try again.
 singer.fc30e76: Some updates couldn’t be marked read. Try again.
 singer.48f88ac: Something else
@@ -22609,12 +22600,12 @@ singer.be1c083: Start listening
 singer.e92d02d: Start recording
 singer.7f36d18: Start recording to turn this meeting into notes.
 singer.43d2f8c: Start typing from the shortcut
+singer.a1dfca0: Start voice ask
 singer.81efe7d: Starting recording. Meeting controls
 singer.4ad461a: Starting. Meeting thread opened.
 singer.e5f5809: Starting…
 singer.86d6db3: Status cleared
 singer.4792db3: Stellar flying.
-singer.7a01937: Step {step, number} of {total, number}
 singer.b0d2ef9: Step {step} of {total}
 singer.cdde4f2: Steps
 singer.e2b6f61: Still respects Slack’s Do Not Disturb and VIP settings.
@@ -22624,6 +22615,7 @@ singer.80c5e79: Stop Task
 singer.962101f: Stop and hide
 singer.7f12569: Stop and make notes
 singer.ee0d9dc: Stop recording
+singer.8eb277d: Stop talking
 singer.01ca109: Stop this task?
 singer.51e9111: Stopped
 singer.ef2c11d: Stopped at the 2-hour limit. Making notes.
@@ -22635,10 +22627,15 @@ singer.a22a235: Stopping the recording…
 singer.827c972: Stopping…
 singer.ae8bb93: Suggest asks about
 singer.02a5629: Suggest asks from what you’re working on in Slack.
+singer.67922b7: Suggested asks
+singer.dcd1737: Summarize my Jira issues by status
+singer.08625d5: Summarize my pipeline by stage
+singer.1316b36: Summarize the status of #{channel}
 singer.76e2986: Summarize with Slackbot
 singer.62d8d30: Sunday Sailor
 singer.e8c986e: Sweet potato!
 singer.342972e: Switched to Ask Singer
+singer.5c83ee8: Switched to Slackbot
 singer.9d8d380: System default
 singer.db2022c: Ta-da!
 singer.5b99997: Take Over
@@ -22648,8 +22645,8 @@ singer.c447725: Taking control…
 singer.4e6a710: Talk
 singer.849d26b: Talk isn’t available in this workspace yet. You can still type a question.
 singer.7c798d5: Talk to Singer
-singer.7cd4f2a: Talk to Slackbot
 singer.0322216: Talk to Slackbot is using your mic. End it to start the meeting assistant.
+singer.2151950: Tap and say it
 singer.1cc0805: Task output
 singer.090ec5f: Tasks
 singer.31f2ce0: Tell me about this window.
@@ -22690,7 +22687,6 @@ singer.768e0c1: Title
 singer.ae79ea1: To
 singer.6ce08d6: To-dos
 singer.24345a1: Today
-singer.427b26a: Today’s meetings
 singer.1948bf2: Tomorrow
 singer.7e13bd1: Topic
 singer.b25928c: Total
@@ -22701,8 +22697,8 @@ singer.8469938: Try It
 singer.96f5a7c: Try Stopping Again
 singer.ca62995: Try a reaction.
 singer.042c862: Try again
-singer.84d41ec: Try it with your voice
 singer.3deb745: Type
+singer.62e8cdf: Type it instead
 singer.2c9c1f7: Unavailable
 singer.39fc721: Undo
 singer.bc7819b: Unknown
@@ -22734,6 +22730,7 @@ singer.5559dd0: View only
 singer.39eb5cd: View thread
 singer.382c6e5: View your unread updates in Singer
 singer.3091c84: Voice
+singer.2cd3761: Voice details
 singer.cda41b4: Voice input isn’t available. Try again.
 singer.a86dd4a: Voice with Slackbot
 singer.0ab6291: Wait until the message editor is ready to quote a message.
@@ -22745,7 +22742,6 @@ singer.45c6f16: Welcome to Slackbot!
 singer.1cea5fc: Well, well, well. Look who it is.
 singer.5836a4a: What Singer can do
 singer.39d4e0e: What a ride.
-singer.e2d963b: What can Singer help with?
 singer.ed36041: What can speak up
 singer.2763654: What did I miss in #proj-aurora?
 singer.b4da940: What did I miss today?
@@ -22755,6 +22751,7 @@ singer.3fd30db: What’s on your mind?
 singer.f879eb5: What’s still undecided?
 singer.769bb19: When
 singer.e4b2fe8: Where is my pipeline coming from?
+singer.d4018bb: Which of my open PRs have waited longest for review?
 singer.bc6b225: While you were quiet
 singer.5fd7559: Who answers
 singer.4973f4c: Win
@@ -22776,10 +22773,10 @@ singer.8e7d0d0: You can’t send messages here. Open in Slack to check access.
 singer.3d1eb4c: You can’t view this file here.
 singer.384d50c: You don’t have access
 singer.cb8caea: You look nice today
-singer.21a293b: Your Slack assistant, right on your desktop. Let’s take it for a spin.
 singer.55b940b: Your Slack. A little closer.
 singer.a1ca6d7: Your Talk shortcut is off. You can change it in Settings.
 singer.55f53c6: Your answer is ready in chat.
+singer.650f11d: Your ask
 singer.8b98f42: Your calendar connection timed out.
 singer.c7a8ead: Your calendar couldn’t load.
 singer.7ada587: Your chat, recap and notes go to a thread in your DM with Slackbot. Only you can see it until you share.
@@ -22797,11 +22794,11 @@ singer.85da834: Your recording has stopped. Slack is transcribing the audio and 
 singer.853c388: Your sidebar is tidy
 singer.60b3ab6: Your sign-in was saved for future tasks.
 singer.541f836: Your skills
+singer.0d8c0b8: Your tasks will appear here.
 singer.181b32c: Your transcript is saved
 singer.2266fe4: You’re all caught up
 singer.e3a65d7: You’re all done here.
 singer.c014031: You’re all done in Activity.
-singer.67c65c6: You’re all set
 singer.7421d98: You’re doing great work
 singer.b0e652c: You’re in control
 singer.10ea929: You’re in control. Singer’s waiting.
@@ -22839,6 +22836,7 @@ singer.e553892: {count, plural, =1 {# other} other {# others}}
 singer.2f9a86c: {count, plural, =1 {# person} other {# people}}
 singer.45d5eeb: {count, plural, =1 {# reply} other {# replies}}
 singer.10e31fa: {count, plural, =1 {# result} other {# results}}
+singer.a2c41f9: {count, plural, one {# change since {time}} other {# changes since {time}}}
 singer.808dc33: {count, plural, one {# new activity item} other {# new activity items}}
 singer.da61d4b: {count, plural, one {# other} other {# others}}
 singer.4492438: {count, plural, one {# task update} other {# task updates}}
@@ -22857,6 +22855,7 @@ singer.bd51187: {score, plural, one {# point} other {# points}}
 singer.a22da57: {status} until {date}
 singer.8d3026c: {timeRange} · {provider}
 singer.797dfd0: {time} local time
+singer.19b6d8b: {time} · {count, plural, =0 {nothing open} one {# open} other {# open}} · worst {severity}
 singer.9566c9b: {title} kept in the island
 singer.c660219: {title} was scheduled to end at {time}. Stopping in {countdown} unless you keep recording.
 singer.a054d47: {title}, {date}
@@ -26820,6 +26819,7 @@ toast.bbfa773: Close
 toast.7f2f6a1: Error
 toast.0eb5ed5: Information
 toast.e9c4556: Warning
+today.d8f2daa: ,rL=new ed.Ay(
 today.854783f: <strong>Missing out on something?</strong> Ask Slackbot to edit your daily briefing.
 today.7cc1d08: A peek at your day
 today.a14a086: AI suggested to-dos are paused.
