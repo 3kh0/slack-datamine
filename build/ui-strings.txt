@@ -88,7 +88,7 @@
 ) are ignored.
 ) is not supported yet.
 ) that performed expensive computation.
-)&&(eV(!1),aY(void 0),eH(a6?
+)&&(eH(!1),aQ(void 0),ez(se?
 ))),e((0,c.R3)(h)),e((0,c.p4)(h?a:void 0)),p(h?
 ). If you meant to render a collection of children, use an array instead.
 )?l.makeImage(e.slice(8),new u.Ay(t,r,n,i),o?
@@ -358,7 +358,6 @@ Access ready-to-use templates with powerful automation built in. The Grid plan i
 Access resumed after successful client.init
 Access to customer support
 Accessibility in Slack
-Accessibility: so Slackbot can see your meeting window and confirm your note was sent.
 Account & preferences
 Account ID
 Account Name
@@ -960,9 +959,11 @@ All you have to do is ask
 All your outgoing messages. Everything you send, draft, and schedule can now be found here.
 Allow AI use
 Allow Editing
+Allow Screen & System Audio Recording, or notes will only include your voice.
 Allow Screen Recording for Slack in System Settings, then try again.
 Allow Screen Recording for Slack, then try your request again.
 Allow Slack AI to search the web
+Allow Slack in System Settings, then try again.
 Allow Slack to use the microphone in System Settings, then try again.
 Allow Slackbot to search the web
 Allow huddles in this channel?
@@ -1009,7 +1010,6 @@ Always allow notifications from certain people by adding them as a VIP.
 Always be closing
 Always good to see the human half of this arrangement.
 Always show collapsed menu
-Always visible
 Amazon Chime
 Amazon Silk
 Amazon Voice Focus support check inside iframe: not recommended.
@@ -1260,7 +1260,6 @@ Ask Slackbot to update details or log events.
 Ask Slackbot:
 Ask a follow-up
 Ask a question or get help with a task
-Ask about the meeting or anything in Slack
 Ask about this meeting
 Ask about this record, prep for a customer meeting, or make quick updates.
 Ask about this window
@@ -1268,7 +1267,6 @@ Ask an admin to approve this GitHub organization to view and review its pull req
 Ask an admin to install it from the Slack Marketplace.
 Ask an admin to reinstall it so Slackbot gets the access it needs.
 Ask anything
-Ask anything, live
 Ask anything. Answers come back as cards you can act on, like replying or checking things off.
 Ask as a card instead
 Ask before actions
@@ -1278,7 +1276,6 @@ Ask for any view. Singer builds it.
 Ask for the omniswitcher Slackbot mode switch hint after the search modal header reload
 Ask in thread
 Ask it to do things for you, like prep for meetings and draft replies.
-Ask questions in the meeting thread. This panel is just for listening.
 Ask the Writing coach skill to polish my draft into a clear, on-voice version and summarize what changed.
 Ask whether the current user could give themselves edit access to a skill
 Ask whoever shared this huddle with you for a new link.
@@ -2058,7 +2055,6 @@ Change draft pending block unfurls to sending
 Change draft pending gif unfurls to sending
 Change formatting
 Change limited access group
-Change mic
 Change notification settings
 Change region
 Change spreadsheet
@@ -2182,7 +2178,6 @@ Chat about this
 Chat and Collaboration
 Chat with Slackbot
 Chat with Slackbot AI
-Chat with Slackbot about the meeting while it happens. No bot joins the call.
 Chat with external partners
 Check Audio
 Check It Out
@@ -2203,6 +2198,7 @@ Check upcoming close dates
 Check who can use this app and try again.
 Check your browser settings to make sure Slack has permission to access your camera, and try again.
 Check your earlier messages in Slack before sending more. Your draft is saved here.
+Check your mic, or stop and try again.
 Check your microphone
 Check your system preferences to make sure your browser has screen recording permission, and try again.
 Check your system settings
@@ -2732,7 +2728,7 @@ Configure these tabs in the navigation bar:
 Configure your Slack notifications
 Confirm Salesforce permissions
 Confirm and Finish
-Confirm and start listening
+Confirm and Start Listening
 Confirm before clearing all unreads
 Confirm that full channel data is required
 Confirmations and warnings
@@ -3329,6 +3325,7 @@ Creating and sending emails to customers
 Creating channels
 Creating desktop delegate
 Creating new background worker video transform device
+Creating notes
 Creating project
 Creating subgraph rect for 
 Creating the link failed
@@ -3439,7 +3436,6 @@ Daily Priorities
 Daily at end of day
 Daily briefing
 Daily in the afternoon
-Daily prep
 Daily priorities
 Daily recaps for your whole organization
 Daily schedule overview
@@ -6052,7 +6048,7 @@ Hide Advanced Settings
 Hide Page
 Hide Pinned
 Hide Singer
-Hide Singer?
+Hide Singer and stop recording?
 Hide Slackbot
 Hide Slackbot in the navigation bar
 Hide This Person
@@ -6669,7 +6665,7 @@ It is not possible at the moment to stack convolutional cells.
 It is not possible to have actors with the same id, even if one is destroyed before the next is created. Use 
 It looks like not everyone on this huddle has access to this feature just yet.
 It looks like your browser is blocking pop-ups. Please enable popups in order to open the OneDrive file picker.
-It may still be on. Stop it here, or open Slack to check.
+It may still be on.
 Item actions
 Item added
 Item conversations
@@ -6818,7 +6814,6 @@ Keep editing
 Keep holding to play Astro Singer, or press Shift+Space.
 Keep in island
 Keep it simple, pleasant, and productive
-Keep listening
 Keep receiving your recap?
 Keep recording
 Keep replies short, and link to the team handbook when relevant
@@ -6944,7 +6939,6 @@ Last Name
 Last edited
 Last edited by
 Last hour
-Last modified
 Last month
 Last month and older
 Last name
@@ -7143,7 +7137,7 @@ Lists results
 Lists tabbing
 Little moments, more personality
 Live App
-Live answers may have gaps. Your notes will still use the full recording.
+Live answers may have gaps, but notes use the full recording.
 Live cards keep up
 Live huddles
 Live meeting
@@ -7781,6 +7775,7 @@ Manage security
 Manage settings
 Manage skills
 Manage tabs
+Manage tasks
 Manage this workflow
 Manage top bar agents
 Manage workflows
@@ -8140,7 +8135,7 @@ Microphone permission is denied. The user must grant permissions and fully quit 
 Microphone stopped
 Microphone stream not adopted; releasing it
 Microphone track ended
-Microphone: so notes include you.
+Microphone: so notes include your voice.
 Microsoft Edge
 Microsoft JhengHei
 Microsoft JhengHei Bold
@@ -8504,6 +8499,7 @@ New Conversation
 New Huddle
 New Huddle Link
 New List
+New Meeting
 New Project
 New Resource
 New Section
@@ -8531,7 +8527,6 @@ New file
 New folder
 New hire onboarding
 New huddle
-New in Singer
 New lead
 New leads post automatically with Add Lead to Salesforce and Dismiss buttons, so a rep can review each lead before it goes to your CRM.
 New list
@@ -8647,7 +8642,9 @@ No agents have access to this conversation. To give one access, mention it in a 
 No agents in this workspace can work in a code channel.
 No agents or apps are available in this workspace.
 No allowed files passed to uploadFiles
+No approval needed
 No approval needed for new DMs
+No approval needed. Now you can install it.
 No apps are enabled for Slackbot in this channel yet.
 No apps are turned on for Slackbot in this channel yet.
 No apps available for your organization.
@@ -8914,6 +8911,7 @@ No surfaces yet
 No target node found for event
 No tasks assigned to you
 No tasks found
+No tasks yet
 No team ID available for storing sidebar metrics
 No team ID or active huddle
 No team id found
@@ -9079,6 +9077,7 @@ Note to Anne Bike on the EOL auto-booking fix is drafted; asking Janine Cashin w
 Note to Grant Kolling drafted with the resolution line; Dan Hyvl sends the trader list.
 Note to Megan drafted; chasing Chris Foster, Randy Gay and Mike Grigsby for the cut dates and volumes.
 Note: this setting is for this computer only. You may need to restart Slack to receive app updates.
+Notes are ready.
 Notes by Gemini
 Notes go to a new Slack canvas.
 Notes or voiceover script for this slide
@@ -9092,7 +9091,7 @@ Nothing here needs you
 Nothing here yet
 Nothing here yet. Use the star on any file to add it to this section.
 Nothing in Activity right now.
-Nothing is being recorded. Your mic and computer audio are off until you resume.
+Nothing is being recorded.
 Nothing is recorded or saved.
 Nothing is waiting on you.
 Nothing left for you here.
@@ -9314,7 +9313,6 @@ Only visible to you
 Only you
 Only you can open
 Only you can see this
-Only you can see this thread. Slackbot never speaks in the meeting.
 Only you can see this. Others see the current version.
 Only your Workspace Admin can add frontline members to a channel.
 Oops! Something went wrong. Please try again in a moment.
@@ -9364,6 +9362,7 @@ Open Slackbot to help you respond to this thread
 Open Slackbot to summarize your recent activity
 Open System Preferences
 Open System Settings
+Open Thread
 Open To-dos in split view
 Open Viewer Modal
 Open Woodpecker
@@ -9995,6 +9994,7 @@ Prejoin cancelled from ready
 Prejoin stop rejected the start without teardown
 Prejoin superseded by join (no server leave)
 Prejoin timed out after 20000ms without connecting
+Preload Enterprise Search connectors for the third-party files explorer
 Preload complete
 Preload the Canvas client
 Preload the most-opened lazy views when idle
@@ -11157,6 +11157,7 @@ Run Task
 Run a local or server slash command
 Run a pipeline update.
 Run a project
+Run a task
 Run an audio, video and screensharing test.
 Run email outreach and marketing campaigns
 Run me through today
@@ -11164,6 +11165,7 @@ Run my task
 Run navigate listeners
 Run navigate listeners (side-effects) for a given navigation flow
 Run once on first reaction
+Run task
 Run task now
 Run test
 Run the side effects of removing a view
@@ -11175,6 +11177,7 @@ Running a department or program
 Running an operational team
 Runs a benchmark on a RTM event
 Runs one search on a fresh Searcher
+Runs only when its trigger fires
 Russian Federation
 SAML-based SSO
 SAML-based single sign-on
@@ -11358,7 +11361,7 @@ Saving this step will remove all structured output fields you have defined. This
 Saving to Salesforce
 Say goodbye to content creation, summaries, and your AI teammate, Slackbot.
 Say hello to your inviter
-Say something. The top of the ribbon is you. Play a video to see computer audio below.
+Say something, or play a video.
 Say what your status should be
 Say who can manage and post in channels
 Scale and connect globally
@@ -11387,7 +11390,6 @@ Schema is missing a method literal
 Score debugger
 Scoring model
 Scott Tackett
-Screen & System Audio Recording: so Slackbot can hear everyone else in the call.
 Screen capture start failed
 Screen picker
 Screen reader
@@ -12632,7 +12634,6 @@ Slackbot edit highlights kept until seen
 Slackbot ended the call
 Slackbot found info that could be used to set up your Sales Tracker.
 Slackbot found info that could be used to set up your Sales Tracker. Taking you there shortly.
-Slackbot gives you a note to share before you start.
 Slackbot has an answer for you
 Slackbot has responded
 Slackbot in this channel
@@ -12644,7 +12645,6 @@ Slackbot is ready for your response in the Sales Tracker.
 Slackbot is ready. Type a message or choose a suggested skill to begin.
 Slackbot is responding
 Slackbot is showing
-Slackbot is typing
 Slackbot mini did not open.
 Slackbot moved inside the More tab
 Slackbot needs you to connect an account to continue
@@ -12696,7 +12696,10 @@ Smart Lenovo
 Smileys & People
 Snacks are in your future
 Snazzy Light
+So Slack can confirm you sent the recording note.
+So Slackbot can hear the call.
 So What by Miles Davis
+So notes include your voice.
 Socket delegates must be functions
 Socket was closed before receiving a hello message
 SocketManager can only be started once
@@ -12837,7 +12840,6 @@ Sorted oldest to newest
 Souad Mahmassani
 Sound check
 Sounds & appearance
-Sounds good
 Source Sans 3
 Source Sans Pro
 Source Sans Pro Black
@@ -12914,6 +12916,7 @@ Start AI notes & transcription
 Start Business+ At No Extra Cost
 Start Free Trial
 Start Huddle
+Start Listening
 Start Meeting Assistant
 Start Meeting Assistant clicked
 Start Migration
@@ -12965,7 +12968,6 @@ Start huddle in the current view
 Start huddle in thread
 Start huddle recording
 Start huddle summary
-Start listening
 Start live voice call
 Start loading a discoverable channel preview
 Start loading the permission undo send needs in a given channel
@@ -13072,7 +13074,7 @@ Steve Lynn, Durga Waite, Catherine Nichols, Barbara McCormick, Dave Hutchens, Ja
 Steven Kean
 Steven Lins, Jack Dolan
 Steven P. South
-Still listening. Your thread is one tap away.
+Still listening.
 Still recording
 Still sending. Your draft is saved here.
 Still signing in? Finish in the other tab, or try again.
@@ -13086,10 +13088,9 @@ Stop Recording
 Stop Sharing
 Stop Task
 Stop a 3P agent session
+Stop and Make Notes
 Stop and discard recording?
 Stop and hide
-Stop and make notes
-Stop and write recap
 Stop drawing on your own screen
 Stop editing
 Stop focusing on your sidebar
@@ -13108,10 +13109,10 @@ Stop the huddle invite sound
 Stop this task?
 Stop using this as context
 Stop using this list view as context
-Stopped at the 2-hour limit. Making notes.
-Stopped listening. Writing your recap
-Stopped listening. Writing your recap.
-Stopped recording. Making notes.
+Stopped at the 2-hour limit. Creating notes.
+Stopped listening. Creating notes
+Stopped listening. Creating notes.
+Stopped recording. Creating notes.
 Stopped tracking a Workflow Builder window to stay under the per-team cap.
 Stopped tracking agent work. Its fields and their values stay on this list.
 Stopped while a native edit was in progress.
@@ -13176,7 +13177,6 @@ Suggested channels
 Suggested from your recent prompts
 Suggested prompts
 Suggested prompts for agent
-Suggested questions
 Suggested reply available. Press Tab to autofill, or Shift plus Tab to review.
 Suggested skills
 Suggested views
@@ -13374,7 +13374,7 @@ Take over editing
 Takes a deleted message out of its code channel session
 Talk it out in a huddle
 Talk to Singer
-Talk to Slackbot is using your mic. End it to start the meeting assistant.
+Talk to Slackbot is using your mic.
 Talk to external partners
 Talk with Slackbot
 Talk with a teammate
@@ -13416,7 +13416,6 @@ Tell AI what to produce
 Tell Slack AI what to recap
 Tell Slackbot about yourself. It
 Tell me about this window.
-Tell me if anyone mentions 
 Tell someone a Slackbot canvas edit preview closed because the canvas changed under it
 Tell the agent what to produce
 Tell us more (optional)
@@ -13447,7 +13446,6 @@ Term suggestions collapsed
 Terms of service
 Test Speaker
 Test email
-Test my audio
 Test run
 Test runs use your own connection to each MCP server in this step.
 Testing API connectivity...
@@ -14210,6 +14208,7 @@ Transcript (auto-generated)
 Transcript Feedback
 Transcript generation started. This may take a few minutes.
 Transcript is now available for this video.
+Transcript is ready.
 Transcript processing
 Transcript saved
 Transcription is back on
@@ -14298,6 +14297,7 @@ Triggers a side-effect that opens the Request to Purchase Modal
 Triggers a side-effect that opens the ShareAssigneeDialog in client (noop)
 Triggers a side-effect that opens the ShareContactModal in client (noop)
 Triggers a side-effect that opens the Skill Catalog modal (noop)
+Triggers a side-effect that opens the Slackbot Tasks modal (noop)
 Triggers a side-effect that opens the SolutionsSetupFlowModal in client (noop)
 Triggers a side-effect that opens the Story Viewer modal in client (noop)
 Triggers a side-effect that opens the Timeline Sources modal (noop)
@@ -14965,6 +14965,7 @@ Use Draft
 Use Emergency Backup Code
 Use Emoji
 Use Microphone
+Use My Mic Only
 Use Slack AI
 Use Slack Connect for channels and loop everyone in to the conversation, no matter where they work. Give it a try while your team is on a trial.
 Use Slack on the go
@@ -15388,7 +15389,6 @@ Waiting for connection (offline)
 Waiting for huddle to end to reload
 Waiting for someone to let you in
 Waiting for someone to start the huddle and let you in
-Waiting for sound
 Waiting for workspace credentials
 Waiting on review
 Waiting on you
@@ -15657,7 +15657,6 @@ With everything you need together in one spot, you can stay connected and keep w
 With more people, you can:
 With unlimited message history and AI channel summaries.
 Within your org, people in your workspace can join automatically. Other workspaces must request.
-Without Screen & System Audio Recording, notes only include your voice.
 Without external people
 Woman waving hello
 Won stage
@@ -15720,6 +15719,7 @@ Workflow started
 Workflow title
 Workflow title save failed
 Workflows & Tasks
+Workflows & tasks
 Workflows are available on paid plans
 Workflows built with AI prompts
 Workflows do not support Send to Sales Home steps in branches.
@@ -15904,7 +15904,6 @@ You started a workflow.
 You talk with these people often.
 You talk with this person often.
 You tell 
-You tell the room
 You tried it all!
 You use this channel often.
 You were invited to direct message with:
@@ -16042,11 +16041,12 @@ Your microphone is muted in system settings. Open voice details to unmute it.
 Your microphone is unavailable. Try closing other apps that may be using it, switching to a different microphone, or restarting Slack.
 Your note asking Sara to restart bond counsel, the resolution and the opinion letter is saved in the chat.
 Your note is in the meeting chat
-Your note is in the meeting chat. Start listening is ready.
+Your note is in the meeting chat. Start Listening is ready.
 Your note is in this screenshot
 Your note to Barry on the meeting, Louise and the $10,000 scheduling fee is saved as a doc.
 Your notes are ready
 Your notes are saved in a Slack canvas.
+Your notes will be ready in a few minutes.
 Your one-on-one and group conversations show up here.
 Your organization
 Your organization allows workflows that start from Salesforce to send messages to private channels only.
