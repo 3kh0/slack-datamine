@@ -5365,7 +5365,6 @@ channel_sidebar.12f139d: {count, plural, =1 {# mention} other {# mentions}}
 channel_sidebar.accd9c4: {count, plural, =1 {# new message} other {# new messages}}
 channel_sidebar.2743d1b: {count, plural, =1 {# unread message} other {# unread messages}}
 channel_sidebar.c5e835b: {count, plural, one {View # more draft} other {View # more drafts}}
-channel_sidebar.42910ff: {count} in progress
 channel_sidebar.9c2f5b0: {count} most recent (Default)
 channel_sidebar.6ae72e0: {count} {count, plural, =1 {unread highlight} other {unread highlights}}
 channel_sidebar.8b35716: {hours, plural, =1 {# hour} other {# hours}}
@@ -5452,6 +5451,7 @@ channel_tabs.c97f6f6: Manage resources
 channel_tabs.a857eb4: Manage tabs
 channel_tabs.4bab2d8: More
 channel_tabs.f1d2795: More options for {name}
+channel_tabs.a73e639: More pinned resources
 channel_tabs.7a54925: Move pull request to open
 channel_tabs.4edda1a: Move resource down
 channel_tabs.2129c4f: Move resource up
@@ -19433,7 +19433,6 @@ saved_for_later.08ede1d: sent a video clip
 saved_for_later.d298a2b: sent an audio clip
 saved_for_later.d123b11: shared a GIF
 saved_for_later.cfec020: {count, plural, =1 {# overdue} other {# overdue}}
-saved_for_later.42910ff: {count} in progress
 saved_for_later.fe629e8: {count} to-dos marked incomplete
 saved_for_later.870984d: {date} at {time}
 saved_for_later.4ee6d3a: {errorText} {followUpLink}
@@ -20086,7 +20085,6 @@ search.16d1d6a: Reactions
 search.ad086cf: Read more
 search.76eec76: Recent
 search.d523f84: Recent Agents
-search.6d2bcae: Recent Slackbot conversations
 search.202fbc0: Recent agents
 search.8c61b2e: Recent agents & tools
 search.eb8697c: Recent agents, apps, and connectors
@@ -24404,7 +24402,6 @@ slackbot-ai.20c7c55: Ready
 slackbot-ai.4487732: Ready to use
 slackbot-ai.aec1322: Ready when you are
 slackbot-ai.76eec76: Recent
-slackbot-ai.6d2bcae: Recent Slackbot conversations
 slackbot-ai.2eff3a4: Recent conversations
 slackbot-ai.5f0500c: Recently updated
 slackbot-ai.8438010: Recents
@@ -24583,7 +24580,6 @@ slackbot-ai.6b37fe8: {count, plural, one {# automation} other {# automations}}
 slackbot-ai.c598756: {count, plural, one {# conversation found} other {# conversations found}}
 slackbot-ai.bc8d0df: {count, plural, one {# person you work with uses} other {# people you work with use}} Slackbot tasks
 slackbot-ai.7edf653: {count, plural, one {# source} other {# sources}}
-slackbot-ai.42910ff: {count} in progress
 slackbot-ai.7e20641: {current} of {total}
 slackbot-ai.870984d: {date} at {time}
 slackbot-ai.78a8849: {days} at {time} {timezone}
@@ -27983,7 +27979,6 @@ view.86a3db1: {app_name} has turned off direct messaging, so you won’t be able
 view.bae2c62: {channelName} (Channel)
 view.cc9bf27: {channelName} (DM)
 view.45f4a1c: {channel_or_group} was moved to another workspace.
-view.42910ff: {count} in progress
 view.468ddec: {label}: {value}
 view.02612bf: {listTitle}, List template
 view.9af6499: {teamName} templates
