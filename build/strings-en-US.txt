@@ -5453,11 +5453,14 @@ channels.f9b8d9e: {channelName}
 chat_commands.aa6f937: remind
 checklist_block.5bcf4db: Add item
 checklist_block.61b2946: Checklist
+checklist_block.17b09da: Completed ({count})
 checklist_block.edf31ea: Heads up
 checklist_block.9a445d9: In Progress ({count})
 checklist_block.f68ca37: Item added
 checklist_block.8709df2: List item
 checklist_block.a1e34f9: More actions
+checklist_block.76ecba1: Remove item
+checklist_block.0ae1254: Remove {item}
 checklist_block.56a2285: Saving…
 checklist_block.09ca55c: Share
 checklist_block.25911d4: Show more
@@ -5465,7 +5468,7 @@ checklist_block.46e39f6: Something went wrong, try again
 checklist_block.453c1a1: This field cannot be edited
 checklist_block.e2f1326: This item couldn’t be added
 checklist_block.97cf4e8: View checklist
-checklist_block.5dfbc76: View {title}
+checklist_block.05a9285: {completed, plural, one {# of {total} completed} other {# of {total} completed}}
 checkout_abandonment.202c92a: Looks like you started upgrading to a more powerful paid plan, but didn’t make it all the way through. <a>Finish checkout</a>
 checkout_v2.7e5111d: By redeeming this offer, you agree that these offer terms form part of and modify Slack’s <mainServicesLink>Customer Terms of Service</mainServicesLink> (or the terms of your written agreement regarding your use of Slack’s services) (your “Agreement”) entered into between you and the Slack entity identified in the Agreement and that, after the Discount Period, Slack’s then-current standard pricing set forth on Slack’s <pricingPageLink>Pricing Page</pricingPageLink> will apply to the remainder of your plan and to any plan renewals. Please see the terms of your Agreement for information on how to cancel or downgrade your paid subscription prior to any such renewal.
 checkout_v2.453fd5f: By redeeming this offer, you agree that these offer terms form part of and modify Slack’s <mainServicesLink>Customer Terms of Service</mainServicesLink> (or the terms of your written agreement regarding your use of Slack’s services) (your “Agreement”) entered into between you and the Slack entity identified in the Agreement. You further agree that, after the Discount Period, you will be subject to the Slack Business+ standard pricing that is current as of the date the Discount Period ends, as set forth on Slack’s <pricingPageLink>Pricing Page</pricingPageLink>, including all or part of any plan renewals. For clarity, after the Discount Period, if you continue with the Slack Business+ plan at the conclusion of the Discount Period, you will be charged at the standard rate for the Slack Business+ plan you have selected unless and until you cancel your subscription. If you redeem this offer and then cancel or downgrade your paid Slack Business+ plan at any time during the Discount Period, this offer will no longer be available to you.
@@ -26355,6 +26358,7 @@ tabcomplete.5090a9e: Emoji
 tabcomplete.6ce6c51: Files
 tabcomplete.7568ed8: Manage skills
 tabcomplete.85ea083: Not able to mention more than one agent
+tabcomplete.69a91cb: Not available to guests
 tabcomplete.f68a558: Not in canvas
 tabcomplete.72d2a32: Not in channel
 tabcomplete.c1c0e4b: Not in list
@@ -26372,6 +26376,7 @@ tabcomplete.51faa29: Users and files
 tabcomplete.cb074f5: {arrowUp} {arrowDown} to navigate
 tabcomplete.a68eae6: {iconOffline} <strong>No connection.</strong> Some results may not be available.
 tabcomplete.c3870e8: {label}, New
+tabcomplete.8926074: {label}, not available to guests
 tabcomplete.1514ef7: {label}, turned off in this channel
 tabcomplete.9d927a1: {symbol} to select
 table.c3cd636: Actions
