@@ -319,6 +319,31 @@ a11y.175cd9a: {name} ({userInfo})
 a11y.55201e5: {name} ({userInfo}) ({context})
 a11y.bf35d59: {name} ({userInfo}), status: {status}
 a11y.310b44c: {name} ({userInfo}), status: {status} ({context})
+a11y.f0d5e51: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName} reacted with {reaction} and other reactions to: {message} At {time}.
+a11y.8bdc13f: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName} reacted with {reaction} and other reactions to: {message} {date} at {time}.
+a11y.8b638b5: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName} reacted with {reaction} and {secondReaction} to: {message}
+a11y.bc32541: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName} reacted with {reaction} and {secondReaction} to: {message} At {time}.
+a11y.9eac90a: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName} reacted with {reaction} and {secondReaction} to: {message} {date} at {time}.
+a11y.c4e395c: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName} reacted with {reaction} to: {message} At {time}.
+a11y.cbd6b18: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName} reacted with {reaction} to: {message} {date} at {time}.
+a11y.39ea943: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName}, at {time}, reacted with {reaction} and other reactions to: {message}
+a11y.8c3621c: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName}, at {time}, reacted with {reaction} and {secondReaction} to: {message}
+a11y.27151f4: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName}, at {time}, reacted with {reaction} to: {message}
+a11y.f7d0813: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName}, {date} at {time}, reacted with {reaction} and other reactions to: {message}
+a11y.f125727: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName}, {date} at {time}, reacted with {reaction} and {secondReaction} to: {message}
+a11y.f8d9400: {name} and {otherReactionersCount, plural, =1 {# other} other {# others}} in {channelName}, {date} at {time}, reacted with {reaction} to: {message}
+a11y.9db1322: {name} in {channelName} reacted with {reaction} and other reactions to: {message} At {time}.
+a11y.ab8bd89: {name} in {channelName} reacted with {reaction} and other reactions to: {message} {date} at {time}.
+a11y.c65341f: {name} in {channelName} reacted with {reaction} and {secondReaction} to: {message} At {time}.
+a11y.41fbf05: {name} in {channelName} reacted with {reaction} and {secondReaction} to: {message} {date} at {time}.
+a11y.ab0bfb0: {name} in {channelName} reacted with {reaction} to: {message} At {time}.
+a11y.9bcb98f: {name} in {channelName} reacted with {reaction} to: {message} {date} at {time}.
+a11y.fe46640: {name} in {channelName}, at {time}, reacted with {reaction} and other reactions to: {message}
+a11y.c73c707: {name} in {channelName}, at {time}, reacted with {reaction} and {secondReaction} to: {message}
+a11y.d43d581: {name} in {channelName}, at {time}, reacted with {reaction} to: {message}
+a11y.d4f2384: {name} in {channelName}, {date} at {time}, reacted with {reaction} and other reactions to: {message}
+a11y.ae5851d: {name} in {channelName}, {date} at {time}, reacted with {reaction} and {secondReaction} to: {message}
+a11y.2dcdb56: {name} in {channelName}, {date} at {time}, reacted with {reaction} to: {message}
 a11y.92bb48c: {name}, status: {status}
 a11y.e5c3a22: {name}, status: {status} ({context})
 a11y.f89fcb6: {senderName} to {recipients} at {time}: {message}
@@ -696,6 +721,7 @@ activity.ae7b3fb: Scheduled to reply in {location}
 activity.d17da5e: Scrolling for something you might have missed?
 activity.bce0641: Search
 activity.7087888: Search conversations
+activity.992188e: Search debug
 activity.d64ed64: Search pull requests
 activity.787447b: Search: {query}
 activity.aa9f072: See all your unreads in one place
@@ -1885,7 +1911,6 @@ app_details.1d06648: {appName} is installed on {teamName}
 app_details.2a4c7f0: ‘{appName}’ will be able to do
 app_details.96cb78d: ‘{appName}’ will be able to view
 app_dialog.b16c7ac: (optional)
-app_dialog.0997bad: Header Icon
 app_dialog.2dacf65: Submit
 app_dialog.ab90d9d: This field is required.
 app_dialog.26dc55d: We had some trouble connecting. <a>Try again?</a>
@@ -4114,6 +4139,7 @@ channel_details.cf778ef: Pinned items
 channel_details.38315ab: Please enter a valid Google Drive URL.
 channel_details.d28ae1a: Please reconnect your Google Drive account and try again.
 channel_details.88c3933: Point me in the right direction, and I’ll track down that lost comment or doc — your ideas are too good to lose.
+channel_details.64efeaa: Posting is restricted in this channel, so Slackbot isn’t available.
 channel_details.aec61a6: Posting permissions
 channel_details.d84dca7: Previously in this channel
 channel_details.237dfa0: Private
@@ -8976,7 +9002,6 @@ enterprise_dashboard.e3e3a56: Global Administrator access required. Share <a>thi
 enterprise_dashboard.53af77c: Global Administrator access required. Share this link with your Global Administrator to get set up.
 enterprise_dashboard.b2acc20: Grant Slack access to Google
 enterprise_dashboard.6b45d93: Grant Slack access to Office 365
-enterprise_dashboard.2a17b82: IDP
 enterprise_dashboard.8fe6084: Icon for {appName}
 enterprise_dashboard.5a99784: Icon must be a .gif, .jpg, or .png
 enterprise_dashboard.b137f44: Icon must be at least {minimumIconWidth} x {minimumIconHeight} pixels
@@ -9003,9 +9028,7 @@ enterprise_dashboard.baefd7e: No channels were found matching <b>{query}</b>
 enterprise_dashboard.a05b579: No file chosen
 enterprise_dashboard.718d942: No members to assign to this permission
 enterprise_dashboard.41c06c1: No one
-enterprise_dashboard.fdd8747: No results found matching <b>{groupsSearchTerm}</b>.
 enterprise_dashboard.cd51f18: No results found matching <b>{membersSearchTerm}</b>.
-enterprise_dashboard.8a53b25: No user groups to assign to this permission
 enterprise_dashboard.848c28c: No workspaces have been selected
 enterprise_dashboard.0f4d889: Not a <b>Global Administrator</b> for <b>{domain}</b>? Share <a>this link</a> with your workspace’s Global Administrator to get set up.
 enterprise_dashboard.74a889c: Not a <b>super admin</b> for <b>{domain}</b>? Share <a>this link</a> with your workspace super admin to get set up.
@@ -9102,7 +9125,6 @@ enterprise_dashboard.9622962: {appName} is now connected.
 enterprise_dashboard.5a83c48: {appName} uninstalled.
 enterprise_dashboard.cd65fda: {count, plural, =1 {# channel} other {# channels}}
 enterprise_dashboard.ddf19c4: {count, plural, =1 {# filtered result} other {# filtered results}}
-enterprise_dashboard.e9099aa: {count, plural, =1 {# group} other {# groups}}
 enterprise_dashboard.03cd6f5: {count, plural, =1 {# member} other {# members}}
 enterprise_dashboard.3358be7: {count, plural, one {# skill} other {# skills}}
 enterprise_dashboard.eba622f: {memberName} couldn’t be removed from this channel.
@@ -11209,6 +11231,7 @@ huddles.8c0c97b: Other media options
 huddles.b3cb3a7: Others couldn’t hear me
 huddles.f4d6b59: Outlook
 huddles.fc23278: Outlook Calendar
+huddles.ebb05a6: Page {pageNumber}
 huddles.a279d13: Page {pageNumber} of {totalPages}, View next page
 huddles.c8c6c7a: Page {pageNumber} of {totalPages}, View previous page
 huddles.96f608c: Pending
@@ -16797,12 +16820,9 @@ platform-admin.ba76df8: You’ve reached your limit of 10 installed apps. With S
 platform-admin.aa075f0: {channelCount, plural, =1 {# channel} other {# channels}} selected
 platform-admin.cd65fda: {count, plural, =1 {# channel} other {# channels}}
 platform-admin.5a1463d: {count, plural, =1 {# excluded group} other {# excluded groups}} couldn’t be loaded and will no longer be blocked if you save.
-platform-admin.e9099aa: {count, plural, =1 {# group} other {# groups}}
 platform-admin.2de9038: {count, plural, =1 {# group} other {# groups}} this app allows couldn’t be loaded.
 platform-admin.2f9a86c: {count, plural, =1 {# person} other {# people}}
 platform-admin.4c0adf4: {count, plural, =1 {# previously-permitted group} other {# previously-permitted groups}} couldn’t be loaded and will lose access if you save.
-platform-admin.962677a: {groupCount, plural, =0 {No groups} =1 {# group} other {# groups}} and {memberCount, plural, =0 {no people} =1 {# person} other {# people}} selected
-platform-admin.9a1985c: {memberCount, plural, =0 {No people selected} =1 {# person selected} other {# people selected}}
 platform-admin.1b95d2b: {name} (group)
 platform-admin.fc7f746: {personCount, plural, =0 {} =1 {# excluded person} other {# excluded people}}{both, select, true { and } other {}}{groupCount, plural, =0 {} =1 {# excluded group} other {# excluded groups}} couldn’t be loaded and will no longer be blocked if you save.
 platform-admin.b20728a: {personCount, plural, =0 {} =1 {# previously-permitted person} other {# previously-permitted people}}{both, select, true { and } other {}}{groupCount, plural, =0 {} =1 {# previously-permitted group} other {# previously-permitted groups}} couldn’t be loaded and will lose access if you save.
@@ -16921,6 +16941,7 @@ pnp_salesforce_embed_growth.4d665fe: Work securely with external organizations
 pnp_salesforce_embed_growth.dddc9fe: Your request has already been submitted.
 pnp_salesforce_embed_growth.9875907: {totalCount, plural, =1 {{totalCount} teammate has requested Business+} other {{totalCount} teammates have requested Business+}}
 prefs.d9741cf: /slackfont custom fonts are not officially supported by Slack
+prefs.883d404: ;return r?a:i})(),ev=eg?.ts,ey=(0,S.useMemo)(()=>ev&&ef?{id:ev,message:ef}:void 0,[ev,ef]),eb=(0,S.useRef)(!1);(0,S.useEffect)(function(){let e=eb.current&&!i&&a;if(eb.current=i&&A,!e)return;let t=f.deref()?.document,n=t?.activeElement;(!n||n===t.body||n.closest("[data-singer-dls-panel]"))&&t?.querySelector("[data-singer-meeting-chat]")?.focus({preventScroll:!0})},[a,A,i,f]);let ex=(0,S.useCallback)(()=>{n.current()&&b&&x&&d()&&(h((0,eN.e)()),h((0,eK.o)({...(0,eQ.hV)({channelId:b,threadTs:x,slackbotAiSource:e0.XM.AskSlackbot,isSlackbotEnabledRule:!0}),options:{forceTab:e1.k6.Home}})))},[d,b,h,n,x]),ek=(0,S.useMemo)(()=>({subtitle:A?e2.t("Meeting assistant · your DM with Slackbot"):"Meeting assistant · your DM with Slackbot",openInSlack:A?e2.t("Open in Slack"):"Open in Slack",fold:A?e2.t("Fold the thread"):"Fold the thread",privacy:A?e2.t("Only you can see this thread. Slackbot never speaks in the meeting."):"Only you can see this thread. Slackbot never speaks in the meeting.",typing:A?e2.t("Slackbot is typing"):"Slackbot is typing",starters:A?e2.t("Suggested questions"):"Suggested questions"}),[A]),ew=A?e2.t("Meeting thread with Slackbot"):"Meeting thread with Slackbot",e_=A?e2.t("Ask about the meeting or anything in Slack"):"Ask about the meeting or anything in Slack",eS=A?e2.t("Meeting"):"Meeting",eA=t.title||eS,eC=(0,S.useMemo)(()=>(0,_.jsx)(SingerMeetingThreadHeader,{title:eA,copy:ek,onOpenInSlack:ex,onFold:u,foldButtonRef:g}),[ek,u,g,ex,eA]),ej=(0,S.useMemo)(()=>(0,_.jsx)(SingerMeetingThreadFooter,{copy:ek,typing:W,starters:eu?ep:void 0,startersDisabled:o,coverage:ef,visible:s}),[ek,ef,o,eu,ep,W,s]),eT=(0,S.useMemo)(()=>(0,_.jsx)(SingerMeetingThreadPrivacy,{text:ek.privacy}),[ek.privacy]);return j?{active:j,label:ew,header:eC,footer:ej,responseAnnouncement:ey,composerFooter:eT,placeholder:"starting"===t.status||"recording"===t.status?e_:void 0,composerRequest:eo,onComposerRequestHandled:ed,send:P,unread:ee,fold:u}:{active:!1,unread:ee,fold:u}}useSingerMeetingThread.displayName="useSingerMeetingThread";var e6=n("5KSw"),e3=n("QYRN"),e8=n("vMo0");let e7=new Set(["AXTextField","AXTextArea","AXComboBox","AXSearchField"]),e9=/(chat|chats|message|messages|reply|compose|conversation)/i,te=/(search|find|filter|url|address|password|subject|title)/i;function singerMeetingWindowApis(e){let{getWindowTarget:t,setWindowHighlight:n,onWindowAttachmentEnded:r,windowEditing:i}=e,a=i?.readContext,s=i?.type;if(t&&n&&r&&i&&a&&s)return{getWindowTarget:e=>t(e,"meeting"),setWindowHighlight:(e,t,r)=>r?n(e,"meeting",r):n(e,"meeting"),onWindowAttachmentEnded:r,getPermission:e=>i.getPermission(e,"meeting"),readContext:e=>a(e,"meeting"),type:(e,t,n)=>s(e,t,n,"meeting")}}function normalizeSingerMeetingText(e){return e.replace(/[‘’‚‛′`]/g,"'").replace(/[“”„‟″]/g,'"').normalize("NFKC").replace(/[​-‍⁠﻿]/g,"").split(/s/).filter(Boolean).join(" ").toLocaleLowerCase()}let isInput=e=>e.canType||e7.has(e.role),overlaps=(e,t)=>e.width>0&&e.height>0&&t.width>0&&t.height>0&&e.x<t.x+t.width&&t.x<e.x+e.width&&e.y<t.y+t.height&&t.y<e.y+e.height,isSentText=(e,t)=>!isInput(e)&&e.frame.width>0&&e.frame.height>0&&!t.some(t=>overlaps(e.frame,t.frame));function singerMeetingUnsentText(e){let t=e.elements.filter(isInput),n=t.some(e=>e.frame.width<=0||e.frame.height<=0);return normalizeSingerMeetingText(e.elements.filter(e=>n||!isSentText(e,t)).map(e=>
 prefs.e54eb7b: <span className="p-prefs_modal--quick_reactions_label_text p-prefs_modal--quick_reactions_radio_and_text">Custom</span>
 prefs.9ecc7d3: <span className="p-prefs_modal--quick_reactions_label_text p-prefs_modal--quick_reactions_radio_and_text">My most frequently used emoji</span>
 prefs.6766354: <span className="p-prefs_modal--quick_reactions_radio_and_text">Click below to choose the emoji you’d like.</span>
@@ -20502,7 +20523,6 @@ session_channel_archive.7eac343: This channel is inactive. Archive it for everyo
 session_channel_archive.94ca019: This channel is inactive. Leave the channel to tidy up your sidebar — you can always rejoin it later.
 session_channel_archive.504fccb: This work is complete. Archive it for everyone — the contents will still be available in search, and you can always unarchive it in the future.
 session_channel_archive.4fd785e: This work is complete. Leave the channel to tidy up your sidebar — you can always rejoin it later.
-setup_page.2d0ab40: ),Li=n(
 setup_page.850a65b: 1,001 +
 setup_page.92767dc: 101 - 500
 setup_page.7fc1be7: 16 - 100
@@ -21785,7 +21805,6 @@ singer.2fe784d: All caught up here.
 singer.5185fa4: All clear here.
 singer.ab45f5e: All clear.
 singer.81eaf8b: All clear. You’re good to go.
-singer.ac3c7fb: All code channels in Slack
 singer.a24c12b: All done here.
 singer.aa837cb: All quiet.
 singer.74904c1: All read here.
@@ -21838,6 +21857,7 @@ singer.b52b36b: Back
 singer.3860116: Back to Input
 singer.4855132: Back to Messages
 singer.3630488: Back to Slackbot
+singer.f7b0ca1: Back to catch up
 singer.9a2b781: Back to conversations
 singer.1a9c58d: Back to {title}
 singer.00544f7: Bad response
@@ -21959,6 +21979,7 @@ singer.c31cb28: Couldn’t move Singer. Check that another display is connected 
 singer.d4df57f: Couldn’t open that conversation. Try again.
 singer.517b3bf: Couldn’t open that item. Try again.
 singer.e1f58c2: Couldn’t open this activity. Try again.
+singer.9e20b19: Couldn’t open this reply. Dismiss the update to get back to Slackbot.
 singer.d92b74e: Couldn’t save · open the canvas to edit
 singer.052b8ee: Couldn’t send. Try again.
 singer.4d3df55: Couldn’t send. Your message is still here. Try again when you’re connected.
@@ -21986,6 +22007,7 @@ singer.e20d5fb: Default duration
 singer.fd14281: Deletes Slackbot’s saved browser profile, including sign-ins and site data for every site.
 singer.f27d86c: Deletes saved sign-ins and site data for every site. Open browsers can stay signed in, but won’t save those sign-ins again. This can’t be undone.
 singer.dc3decb: Details
+singer.47f0c5a: Dictate a message
 singer.fc7f864: Direct message
 singer.e7596a0: Direct messages
 singer.70afe9e: Dismiss
@@ -22183,6 +22205,8 @@ singer.01d1180: Look at you go.
 singer.67a5af1: Looking for your note in the meeting chat.
 singer.f71edd8: Lovely!
 singer.8b8ec14: Make me a kanban board of my open asks in Slack
+singer.ecb7e36: Make panel larger
+singer.7769590: Make panel smaller
 singer.f03a88b: Manage in huddle
 singer.e5f6134: Mark All Read
 singer.4b38b55: Mark Unread
@@ -22198,6 +22222,7 @@ singer.f8c3ebf: Maya needs your sign-off on designs.
 singer.d404968: Medium
 singer.17dc9a8: Meeting
 singer.f8a8cd8: Meeting assistant
+singer.4ad330c: Meeting audio is being recorded.
 singer.100ed08: Meeting controls
 singer.8466b2b: Meeting microphone
 singer.ae3cd65: Meeting notes
@@ -22205,6 +22230,7 @@ singer.58b0531: Meeting notes are off
 singer.fb8d903: Meeting notes are ready
 singer.3e63bfe: Meeting recording
 singer.6289926: Meeting recording continues
+singer.32d7428: Meeting reminder dismissed. You can still find it in Today.
 singer.cf829f1: Meeting reminders
 singer.1a04629: Meeting thread
 singer.de22a5e: Meeting thread, {count} new
@@ -22436,6 +22462,7 @@ singer.e963907: Remove
 singer.a2d32f8: Remove attached window
 singer.8d9c672: Remove from Later
 singer.58c6143: Remove meeting transcript
+singer.05315c0: Remove screenshot
 singer.d3f4cb8: Rename
 singer.497d69b: Replace Draft
 singer.764ace3: Replace your saved message with this draft?
@@ -22493,6 +22520,7 @@ singer.af3ffa1: See Full Day
 singer.ac78691: See in Slackbot
 singer.39ba42f: See the answer
 singer.9bc2575: Send
+singer.309d88e: Send to {recipient}
 singer.8a69751: Sending to Slackbot…
 singer.cf76551: Sending…
 singer.35f49dc: Sent
@@ -22690,6 +22718,7 @@ singer.f6c1feb: Unlocks when your note shows up in the meeting chat
 singer.7044c31: Unmute
 singer.2eba6a0: Unpin
 singer.07b032b: Unread
+singer.192715c: Unread Slack activity
 singer.c99407b: Untitled conversation
 singer.fb91e24: Update
 singer.f2f8570: Updated
@@ -22776,7 +22805,6 @@ singer.85da834: Your recording has stopped. Slack is transcribing the audio and 
 singer.853c388: Your sidebar is tidy
 singer.60b3ab6: Your sign-in was saved for future tasks.
 singer.541f836: Your skills
-singer.0d8c0b8: Your tasks will appear here.
 singer.181b32c: Your transcript is saved
 singer.2266fe4: You’re all caught up
 singer.e3a65d7: You’re all done here.
@@ -23244,6 +23272,7 @@ slack_connect.1055dea: Invitation no longer active
 slack_connect.9e0807e: Invitation not sent to
 slack_connect.614e86b: Invitation not yet sent to
 slack_connect.988ba74: Invitation sent
+slack_connect.edea330: Invitations to review
 slack_connect.2821ed1: Invite to DM
 slack_connect.8e710dc: Invited to
 slack_connect.65670d8: Invited to direct message:
@@ -23312,6 +23341,7 @@ slack_connect.92bb8f2: Upgrade to join this channel
 slack_connect.69bd4ef: View
 slack_connect.6a77416: View All Invitations
 slack_connect.23a6732: View message
+slack_connect.1345c48: View {count} more {count, plural, =1 {invitation} other {invitations}}
 slack_connect.dd90008: We noticed there are more Slack Connect channels in <strong>{remainingSuggestedWorkspacesCount, plural, =1 {# other workspace} other {# other workspaces}}</strong> than there are in this one. Do you want to add this channel to another workspace?
 slack_connect.6e288e7: We noticed there are more Slack Connect channels in your <strong>{suggestedWorkspaceName}</strong> workspace than there are in this one. Do you want to add this channel there instead?
 slack_connect.3da1137: We’ve sent a 6-character code to <strong>{email}</strong>. The code expires shortly, so please enter it soon.
