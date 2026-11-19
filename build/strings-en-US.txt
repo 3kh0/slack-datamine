@@ -5733,7 +5733,6 @@ classic_nav.71e4f35: {maxBadgeCount}+
 classic_nav.0214f8c: {mentionCount, plural, =1 {{count} new mention} other {{count} new mentions}}
 classic_nav.6228be0: {messageAndFileCount} messages and files are hidden.
 classic_nav.46b5b15: {name}, {presence}
-classic_nav.e0250a7: {productName} Trial
 client.d1a7fa4: *{command}* failed because the app did not respond. Please try again or contact the app developer.
 client.8f41805: *{command}* failed with an unknown error.
 client.2060c34: *{command}* failed with the error "{reason}"
@@ -11820,6 +11819,7 @@ ia4.e5a176a: Active only
 ia4.81c0d91: Activity
 ia4.1345bce: Add a personal touch
 ia4.ee86451: Admin tools
+ia4.55d3a1f: Admin tools and settings have moved. You can now access them directly from the sidebar.
 ia4.b8be3d1: Administration
 ia4.05989d8: Agent sessions
 ia4.64acf7e: Agents
@@ -11936,6 +11936,7 @@ ia4.cf9b770: Open
 ia4.ff59e8d: Open Pocket Agent
 ia4.a75732d: Open in new window
 ia4.03a322d: Open in split view
+ia4.53b11f5: Organization settings – {teamDisplayName}
 ia4.6e6a6f2: Other
 ia4.caef14e: Other workspaces have new messages
 ia4.f3534db: PAID
@@ -16974,6 +16975,7 @@ prefs.6a72085: All
 prefs.9b6c1f2: All new messages
 prefs.b36ed0c: All new posts
 prefs.7843a67: Allow Slack AI to search the web
+prefs.d56a559: Allow animations
 prefs.c66846f: Allow notifications:
 prefs.0c8123c: Alphabetically
 prefs.d5bf2d0: Already shown
@@ -16985,6 +16987,7 @@ prefs.a91bcce: Always
 prefs.a9a1db8: Always use dark color mode when in focus mode.
 prefs.8377716: An AI file summary preview will appear when files are shared in conversations, and will be available in file details.
 prefs.41def7a: Appearance
+prefs.89e2391: Applies to emoji animation, GIFs, and reactions & effects in huddles and across Slack
 prefs.cfea419: Apply
 prefs.87b56ec: Are you sure you want to set your verbosity settings to default?
 prefs.410bf23: Are you sure?
@@ -17013,6 +17016,7 @@ prefs.18e03e2: Channels
 prefs.643678e: Channels set to “All new posts”
 prefs.b1d1f32: Channels with notifications set to “All new posts”
 prefs.5b31933: Choose if Slack’s appearance should be light or dark, or follow your computer’s settings.
+prefs.e572837: Choose the default language you’d like to translate into.
 prefs.cc64a82: Choose the language you’d like to use with Slack.
 prefs.98f022e: Choose which parts of a message to include and the order in which they are announced.
 prefs.7b00373: Choose your preferred settings for dictating with Steno.
@@ -17043,6 +17047,7 @@ prefs.689626f: DMs and group DMs
 prefs.ae1ef01: Dark
 prefs.dae0896: Darker sidebars
 prefs.07c9c3a: Date and time
+prefs.73e6b75: Default translation language
 prefs.fbcd883: Desktop notifications 
 prefs.baba478: Desktop notifications are disabled
 prefs.d3f0b43: Discard changes?
@@ -17120,6 +17125,7 @@ prefs.6662c40: Keyboard
 prefs.2666954: Keyboard shortcuts
 prefs.89b86ab: Language
 prefs.3e8dace: Language & region
+prefs.f185e6f: Languages you know
 prefs.824d76b: Learn more
 prefs.767d650: Learn more about Slack Connect
 prefs.df18c0d: Leo Hao
@@ -17311,6 +17317,7 @@ prefs.4c33f40: We turned down the noise
 prefs.381cedd: Web search
 prefs.5656b9b: Wednesday
 prefs.4ffc67b: Weekdays
+prefs.6fd7bf0: We’ll hide the Translate button for messages in these languages. Nice work, polyglot.
 prefs.eb07e10: We’ve turned down the noise
 prefs.32d0e22: What to notify you about
 prefs.4538e18: What to show in Activity
@@ -17326,7 +17333,6 @@ prefs.5397e05: Yes
 prefs.552b22b: You can also press F7 to turn this on or off
 prefs.caa8542: You can improve the way you use Slack by learning our {keyboardShortcutsLink}.
 prefs.e9e6dd4: You can manage translation settings in {languageRegionLink}
-prefs.78be678: You won’t receive notifications on Saturday or Sunday.
 prefs.dcf07a3: Your browser does not support desktop notifications. <a>Try using our app instead.</a>
 prefs.de598e8: Your emails with contacts and leads are saved to the matching records.
 prefs.7597767: Your emails with contacts and leads aren’t logged.
@@ -21232,6 +21238,8 @@ share-dialog.2f2d3b5: {count}+ users
 share-dialog.119f604: {name_1}, {name_2}, and {people_count, plural, =1 {# other} other {# others}}
 share-dialog.af4d202: {name}, and {count}+ others
 share-dialog.3b2156f: {name}, and {people_count, plural, =1 {# other} other {# others}}
+share-dialog.d2d4a3d: {otherTeamName}
+share-dialog.52bf519: {otherTeamName}, and {numOtherTeams} {numOtherTeams, plural, =1 {other team} other {other teams}}
 share-dialog.7423ce8: {paragraph1}<br></br><br></br>Anyone who can access <span className="bold">{destinationChannel}</span> will be able to view the message.
 share-dialog.f2e2869: {paragraph1}<br></br><br></br>Anyone who has access to <span className="bold">{destinationChannel}</span> or to the record in Salesforce will be able to view the message.
 share-dialog.73bd1f0: {teamName} owns this canvas so only people from that organization can grant others access.
