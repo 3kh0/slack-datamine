@@ -118,7 +118,7 @@
 1D separable convolution is not implemented yet.
 2. Paste the response below, or paste your exported memory file.
 30 seconds left. Dictation will auto-submit.
-:(D?(0,v.SR)(t,O):void 0)??
+:(D?(0,v.SR)(t,F):void 0)??
 :(L?(0,v.SR)(i,P):void 0)??
 :(P?(0,C.SR)(t,!1):void 0)??
 :(ad?(0,eL.SR)(ej,ac):void 0)??
@@ -315,7 +315,6 @@ API returned malformed JSON preferences
 API returned not ok
 API returned unparseable preferences, falling back to localStorage
 API timestamp of the reacted message
-API usage
 ARIA application usage
 ASP.NET Razor
 AST node has no document.
@@ -952,6 +951,7 @@ All these features are included with your current plan
 All threads
 All time
 All tools
+All triggers
 All user groups
 All workflow apps approved for everyone
 All workflows
@@ -1405,7 +1405,6 @@ Automate recurring tasks
 Automate routine tasks and processes right in Slack, no coding required.
 Automate something
 Automate tasks with Workflow Builder
-Automate this
 Automate work and save time with unlimited app integrations.
 Automate your everyday tasks
 Automated notifications and system messages
@@ -1977,6 +1976,7 @@ Canvas updated
 Canvas variables
 Canvas variables from triggers are not allowed in this step. Please remove them to continue.
 CanvasTextInput: a copy holding a workflow variable converted to no rich text
+CanvasTextInput: a rendered editor exported no content
 CanvasTextInput: failed to convert Slack HTML
 CanvasTextInput: failed to parse rich text JSON
 CanvasTextInput: rich text JSON was not a recognized Block Kit shape
@@ -3616,7 +3616,6 @@ Delete reminder
 Delete resource
 Delete section
 Delete sidekick
-Delete skill
 Delete slide
 Delete sorted field
 Delete subtask
@@ -4563,6 +4562,7 @@ Exit Simplified layout mode
 Exit full screen
 Exit full screen mode?
 Exit journey
+Exited the journey.
 Exiting due to invalid message contents
 Expand Sales Tracker
 Expand all files
@@ -5304,8 +5304,6 @@ Filter recents
 Filter results have been updated
 Filter skills
 Filter tasks
-Filter templates
-Filter workflows
 Filtered Fields
 Filtering from recent notifications.
 Filters channels by workspace, private, archived, etc
@@ -6003,6 +6001,7 @@ Heading level 3
 Heading level 4
 Heading level 5
 Heading level 6
+Heading to another meeting
 Heads up
 Heads up that some of the original messages are in a different language than this response.
 Health Plan Summaries
@@ -6396,6 +6395,7 @@ In the summary.
 In this DM
 In this channel
 In this conversation
+In this huddle
 In thread
 In-session boosts are off for you, so mentions and VIP messages have no effect right now.
 Ina Rangel
@@ -6755,6 +6755,7 @@ Join a channel from an item in Channel Search
 Join a conversation
 Join a workspace
 Join and Launch Slack
+Join and Record
 Join channel
 Join channel actions
 Join channel temporarily
@@ -9306,7 +9307,6 @@ Only run when these people start a huddle
 Only selected team members can post in this channel.
 Only selected team members can post in this thread.
 Only show channels linked to Salesforce
-Only show your workflows
 Only some Salesforce users can open
 Only specific channels
 Only specific content you add (uploaded files, canvases or lists)
@@ -9325,6 +9325,7 @@ Only you can open
 Only you can see this
 Only you can see this. Others see the current version.
 Only your Workspace Admin can add frontline members to a channel.
+Only your workflows
 Oops! Something went wrong. Please try again in a moment.
 Oops! That looks like an invalid email address.
 Oops! We couldn
@@ -9443,7 +9444,6 @@ Open in channel
 Open in floating window
 Open in full view
 Open in home
-Open in main view
 Open in new card
 Open in new tab
 Open in new window
@@ -10446,6 +10446,7 @@ Recent workflows
 Recent workspaces
 Recently completed
 Recently deleted
+Recently edited
 Recently edited workflows
 Recently failed
 Recently updated
@@ -10965,6 +10966,7 @@ Reset Filters
 Reset admin selected salesforce org
 Reset all data for Add Datasource step
 Reset canvas AI content in session
+Reset dismissals
 Reset external connector prefs to previous selections
 Reset filters
 Reset loading state
@@ -11180,7 +11182,6 @@ Run task
 Run task now
 Run test
 Run the side effects of removing a view
-Run this skill on a schedule
 Run this skill?
 Run use case
 Run workflow
@@ -11546,6 +11547,7 @@ Search views
 Search with AI
 Search without filters
 Search workflow steps
+Search workflows
 Search workspaces
 Search your history
 Search your skills
@@ -15205,7 +15207,6 @@ View Saved
 View Settings
 View Settings for Slackbot
 View Shared Settings
-View Skill
 View Slackbot Thread
 View Tasks
 View Warning
