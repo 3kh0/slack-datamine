@@ -609,6 +609,8 @@ activity.34d8b60: Hide
 activity.a9688fd: Hide DMs Tab
 activity.4b97b05: Hide filters
 activity.ecbd18c: Hide view
+activity.7c5a4aa: Huddle actions
+activity.cfed893: Huddles
 activity.4958530: If you close without saving, you’ll lose all the changes you’ve made.
 activity.aef3650: In
 activity.57e831c: In 1 hour
@@ -1123,6 +1125,7 @@ agents.7474aae: Create your own
 agents.5d73cc3: Created by
 agents.d3f0ec6: Created by Slack
 agents.8c29271: Created by you
+agents.418d48b: Created by {author}
 agents.40d4fbf: Created by {name}
 agents.b5723e0: Creating skill set
 agents.81f83be: Customer support
@@ -1133,6 +1136,7 @@ agents.314a1ad: Deactivated
 agents.db529e3: Deactivating skill
 agents.f6fdbe4: Delete
 agents.de43467: Delete conversation
+agents.95ad2f1: Delete sidekick
 agents.8e65b76: Delete skill
 agents.3936c54: Delete skill set
 agents.d6d95f1: Delete thread
@@ -1152,6 +1156,7 @@ agents.666c48c: Duplicate skill
 agents.5301648: Edit
 agents.2ebe5b3: Edit description
 agents.2639c93: Edit example prompt
+agents.e625520: Edit sidekick
 agents.5a08d3c: Edit skill
 agents.593257e: Edit skill set
 agents.6d9f89a: Edited {timeStr}
@@ -1363,6 +1368,7 @@ agents.a0144ae: Turn regular tasks into reusable skills
 agents.d3a065a: Type {skill} where the skill’s name should appear.
 agents.39fc721: Undo
 agents.b711fce: Untitled Agent
+agents.c1a01a8: Untitled Sidekick
 agents.2dd7710: Untitled Skill
 agents.55c4f84: Untitled session
 agents.764f0aa: Untitled skill set
@@ -1400,6 +1406,7 @@ agents.d55d488: Your available agents
 agents.7cc773f: Your organization doesn’t have access to add skills from share links yet.
 agents.541f836: Your skills
 agents.68d409a: Your workspace
+agents.cabd889: You’re about to delete this sidekick. Do you want to proceed?
 agents.032aefe: You’re already one impressive human. Together with AI agents, you’ll be a force to be reckoned with. Browse agents that take the grunt work out of your day, and the guesswork out of decisions.
 agents.f139bf3: You’re getting an early look at Sidekicks! They’re still warming up, but they can already help automate tasks, pull in the right info, and keep work moving. Take a spin through the gallery or build your own to see what’s possible.
 agents.6d245a3: [New skill set]
@@ -1407,6 +1414,7 @@ agents.b9f9b32: [New skill]
 agents.0608c40: agent
 agents.d1e6a41: an external organization
 agents.3c25a75: or click to browse
+agents.0ee1dec: sidekick
 agents.aac8075: {count, plural, =1 {# message} other {# messages}}
 agents.6b6a00c: {count, plural, =1 {# session needs you} other {# sessions need you}}
 agents.7662723: {count, plural, one {# add} other {{formattedCount} adds}}
@@ -9577,6 +9585,7 @@ file-details.a1fffaa: List
 file-details.6853c98: Member
 file-details.bc98198: Next
 file-details.4515722: No references yet
+file-details.f963014: Open folder
 file-details.5501cfb: Owned by {ownerName}
 file-details.3e35fb9: Regenerate alt text
 file-details.efc007a: Save
@@ -9899,6 +9908,7 @@ files.bb38b26: Oops! We couldn’t restore that {fileType, select, quip {canvas}
 files.a125e01: Open <strong>{fileType}</strong> in <strong>{appName}</strong>
 files.a483263: Open containing folder
 files.f11b878: Open file
+files.f963014: Open folder
 files.052269b: Open in browser
 files.a75732d: Open in new window
 files.016cea3: Open in {productName}
@@ -9924,6 +9934,7 @@ files.601dcc1: Read only
 files.c15ad19: Recently deleted
 files.5f0500c: Recently updated
 files.6988b16: Reconnect
+files.e0f83c7: Reconnect your account to continue.
 files.83aebcc: Reload data
 files.e963907: Remove
 files.ec470ef: Remove callout
@@ -10873,7 +10884,6 @@ huddles.dfbc285: Add a topic
 huddles.843f3cd: Add at least one participant to schedule this huddle.
 huddles.bc4f997: Add coworkers
 huddles.cf05eca: Add reaction
-huddles.045d5e6: Add teammates to huddle 1:1
 huddles.c282876: Add topic
 huddles.b68734c: Added
 huddles.3aa5426: Added to channel
@@ -11307,8 +11317,6 @@ huddles.4a83c54: Screensharing didn’t work well
 huddles.c44c98a: Scroll to the top
 huddles.28abc03: Search by name
 huddles.7842d85: Secondary View
-huddles.859eecd: See all events in your calendar
-huddles.9294251: See all events in your calendar, opens in new window
 huddles.37e8cdd: See in Upcoming
 huddles.e9ca1a3: See participants
 huddles.8b41a4c: See {memberCount, plural, =1 {participant} other {participants}}
@@ -11372,7 +11380,6 @@ huddles.5fb7e17: Start a huddle in this channel?
 huddles.4f13701: Start a huddle in thread…
 huddles.fffb811: Start a huddle in {channelName}
 huddles.ab77772: Start a huddle in<slack-channel-name>{channel}</slack-channel-name>?
-huddles.4a189cd: Start a huddle with {memberName}
 huddles.b18405d: Start a huddle with<person-name>{person}</person-name>?
 huddles.d9a37db: Start huddle
 huddles.e52ecee: Start huddle in {channelName}
@@ -11545,6 +11552,7 @@ huddles.c54e817: Will be invited by email as an external guest
 huddles.41dfc0a: Window
 huddles.564f8c6: With
 huddles.1d9294b: With more people, you can:
+huddles.6490872: With {count, plural, =1 {{count} person} other {{count} people}}
 huddles.51e7d0c: Within your org, people in your workspace can join automatically. Other workspaces must request.
 huddles.62c3ade: Would you like to leave it and join a huddle in {channel} instead?
 huddles.5202484: Would you like to leave it and join a huddle with {listOfPersons} instead?
@@ -11660,7 +11668,6 @@ huddles.25f4461: {channelTopic}<wrapper>in</wrapper>{channelName}
 huddles.c1f8c09: {count, plural, =1 {# person is} other {# people are}} requesting to join
 huddles.cd1f97c: {count, plural, =1 {# person} other {# people}} here {count, plural, =1 {isn’t} other {aren’t}} in your workspace. Remember to not share any private information. <a>Learn more</a>
 huddles.f088f0b: {count, plural, =1 {Someone is already in the huddle.} other {There are # people already in the huddle.}}
-huddles.5815b45: {count, plural, =1 {Starts in {minutes} min} other {Starts in {minutes} mins}}
 huddles.5f3fd97: {count, plural, =1 {This person is not a member} other {These people are not members}} of {channelName}
 huddles.a6becaa: {count} {count, plural, =1 {invitee} other {invitees}}
 huddles.0f124ce: {emoji} Bring external meetings into Slack
@@ -11836,7 +11843,6 @@ ia4.81c0d91: Activity
 ia4.1345bce: Add a personal touch
 ia4.ee86451: Admin tools
 ia4.b8be3d1: Administration
-ia4.05989d8: Agent sessions
 ia4.2fb458a: Agentforce
 ia4.64acf7e: Agents
 ia4.2719b2b: All docs
@@ -20202,7 +20208,6 @@ search.1b978d5: Show on top as a filter
 search.ca5404d: Show results for:
 search.6163112: Show results for: {query}
 search.2bf8e04: Show results in this channel for:
-search.739b604: Show results in this channel for: {query}
 search.72f96a9: Show search history
 search.0f38ffa: Show {count} more
 search.21307cf: Show {count} more unreads and drafts
@@ -21746,6 +21751,7 @@ sidekicks.88dc359: Select people and user groups
 sidekicks.dcac2d4: Sidekick settings
 sidekicks.1b92b5f: Sidekicks results
 sidekicks.48faa2a: Sorry! Something went wrong. Please try again.
+sidekicks.c1a01a8: Untitled Sidekick
 sidekicks.8bdf057: Upload
 sidekicks.809e345: What actions can the sidekick take?
 sidekicks.c8b3c35: What information sources will the sidekick base its answers on?
@@ -26476,7 +26482,6 @@ tabcomplete.b37554f: People
 tabcomplete.0363909: Search suggestions
 tabcomplete.90c9352: Shortcuts
 tabcomplete.e09212c: Skills
-tabcomplete.183102b: Skills and shortcuts
 tabcomplete.861edba: Suggestions
 tabcomplete.0531edf: Turned off in this channel
 tabcomplete.b5db0ff: Unavailable for question options
@@ -27430,7 +27435,6 @@ trials_highlight_paid_features.69f9f9a: If you choose not to upgrade by <strong>
 trials_highlight_paid_features.57c7964: If you choose not to upgrade by <strong>{trialExpirationDate}</strong>, your team’s huddles will be limited to 2 people and will no longer include AI notes. We recommend {planName} to keep group huddles and AI notes.
 trials_highlight_paid_features.ace0560: Installing an unlimited number of apps is a paid feature, available with your free trial through <strong>{trialEndDate}</strong>. <learnMoreLink>Learn more</learnMoreLink>
 trials_highlight_paid_features.de02a1c: Installing an unlimited number of apps is a paid feature, available with your free trial. <learnMoreLink>Learn more</learnMoreLink>
-trials_highlight_paid_features.1f159a3: Introducing canvas | A new surface to share and organize knowledge | Slack
 trials_highlight_paid_features.378cbbf: Learn More
 trials_highlight_paid_features.824d76b: Learn more
 trials_highlight_paid_features.b1f32dd: Learn more about Huddles
@@ -27497,23 +27501,16 @@ unfurled_joiners.b98795a: View profile
 unified-file-picker.4d04eec: Account connected
 unified-file-picker.a603825: Add Workspace
 unified-file-picker.5be237f: Add Workspace (opens in new window)
-unified-file-picker.c479241: Add {provider_name} to <strong>{workspace_name}</strong> before you add this file as a tab.
 unified-file-picker.f47db3a: Add {provider_name} to this workspace
-unified-file-picker.007b938: Add {provider_name} to this workspace before you add this file as a tab.
 unified-file-picker.578e4b2: Additional access needed
-unified-file-picker.89977c0: Ask an admin to give <strong>{workspace_name}</strong> access to {provider_name} before you add this file as a tab.
-unified-file-picker.e1c4f45: Ask an admin to give this workspace access to {provider_name} before you add this file as a tab.
 unified-file-picker.9add0d0: Ask an admin to install {provider_name} in <strong>{workspace_name}</strong> before you add this file as a tab.
 unified-file-picker.3ac49e2: Ask an admin to install {provider_name} in this workspace before you add this file as a tab.
-unified-file-picker.0267039: Ask an org admin to install {provider_name} for your organization before you add this file as a tab.
 unified-file-picker.77dfd21: Cancel
 unified-file-picker.e6a1ed9: Check Again
 unified-file-picker.c1b05ec: Check {provider_name}
 unified-file-picker.b65463c: Connect
 unified-file-picker.73197b9: Connect (opens in new window)
 unified-file-picker.5e9523b: Install {provider_name}
-unified-file-picker.1a63723: Install {provider_name} for your organization
-unified-file-picker.47677f9: Install {provider_name} for your organization before you add this file as a tab.
 unified-file-picker.a4fca0f: Install {provider_name} in <strong>{workspace_name}</strong> before you add this file as a tab.
 unified-file-picker.e48c661: Install {provider_name} in this workspace before you add this file as a tab.
 unified-file-picker.9ce3bd4: OK
@@ -27522,7 +27519,6 @@ unified-file-picker.a09a600: To add this file to a folder, you’ll need to conn
 unified-file-picker.38d0e27: To add this file, you’ll need to connect to {provider_name} again.
 unified-file-picker.ba447fe: We couldn’t check whether this workspace is ready. Try again.
 unified-file-picker.d141e78: {provider_name} has been successfully connected.
-unified-file-picker.ccd615d: {provider_name} isn’t turned on for this workspace
 unified-file-picker.b56e78c: {provider_name} needs to be installed
 unified_directory_view.18e03e2: Channels
 unified_directory_view.1029544: Directories
