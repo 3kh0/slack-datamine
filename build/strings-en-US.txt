@@ -1,6 +1,5 @@
 2fa_modal.77dfd21: Cancel
 2fa_modal.bab167a: Finish signing into {teamName}
-a11y.adfe2b3:  {count} unread messages. Selecting will open at the oldest unread message.
 a11y.aa16061: APP
 a11y.0131aeb: Added you to {channelNameorId} (private channel).
 a11y.ef76f55: Added you to {channelNameorId}.
@@ -25,21 +24,11 @@ a11y.c801429: New, {name} app notification, {date} at {time}: {message}
 a11y.f160cfd: New, {name} app notification: {message}
 a11y.93fd250: New, {name} app notification: {message} At {time}.
 a11y.3fe8a19: New, {name} app notification: {message} {date} at {time}.
-a11y.8735b31: New, {name} in {channel}, at {time}: {message}
-a11y.1f0de51: New, {name} in {channel}, {date} at {time}: {message}
-a11y.13d145c: New, {name} in {channel}: {message}
-a11y.7311ddb: New, {name} in {channel}: {message} At {time}.
-a11y.57ac6a2: New, {name} in {channel}: {message} {date} at {time}.
 a11y.b1d8614: New, {notificationType}, at {time}: {message}
 a11y.eb36300: New, {notificationType}, {date} at {time}: {message}
 a11y.0d439e0: New, {notificationType}: {message}
 a11y.a7fddcf: New, {notificationType}: {message} At {time}.
 a11y.08389a9: New, {notificationType}: {message} {date} at {time}.
-a11y.496ae5d: Reply, {name} in {channel}, at {time}: {message}
-a11y.044cdea: Reply, {name} in {channel}, {date} at {time}: {message}
-a11y.00a3b97: Reply, {name} in {channel}: {message}
-a11y.0811c9b: Reply, {name} in {channel}: {message} At {time}.
-a11y.55826e4: Reply, {name} in {channel}: {message} {date} at {time}.
 a11y.bf1de2c: Slack, at {time}: {message}
 a11y.8214a24: Slack, {date} at {time}: {message}
 a11y.4fccdd7: Slack: {message}
@@ -350,11 +339,6 @@ a11y.175cd9a: {name} ({userInfo})
 a11y.55201e5: {name} ({userInfo}) ({context})
 a11y.bf35d59: {name} ({userInfo}), status: {status}
 a11y.310b44c: {name} ({userInfo}), status: {status} ({context})
-a11y.786a1fb: {name} in {channel}, at {time}: {message}
-a11y.8df906a: {name} in {channel}, {date} at {time}: {message}
-a11y.6bc7b30: {name} in {channel}: {message}
-a11y.61ab8e2: {name} in {channel}: {message} At {time}.
-a11y.4261f73: {name} in {channel}: {message} {date} at {time}.
 a11y.92bb48c: {name}, status: {status}
 a11y.e5c3a22: {name}, status: {status} ({context})
 a11y.e89d4b1: {notificationType}, at {time}: {message}
@@ -448,7 +432,6 @@ activate_solution_gallery.9b69a35: Invitations
 activate_solution_gallery.0323bf6: Invite teammates
 activate_solution_gallery.5fc5b2b: List template
 activate_solution_gallery.825ce9e: Workflows
-activity.adfe2b3:  {count} unread messages. Selecting will open at the oldest unread message.
 activity.3e47a6d: "{name}" has been saved successfully.
 activity.4cb9c6c: "{viewName}" has been deleted successfully.
 activity.c828385: (default)
@@ -6135,7 +6118,6 @@ code-channels-browser.aef3650: In
 code-channels-browser.5ddd0af: In: #{channel}
 code-channels-browser.09af574: Inactive
 code-channels-browser.14de9dc: Leave this blank and the agent will name the channel for you.
-code-channels-browser.42c9975: Loading latest message…
 code-channels-browser.5c91419: Loading more code channels
 code-channels-browser.798d4d6: Loading pull requests
 code-channels-browser.a1e34f9: More actions
@@ -6225,7 +6207,6 @@ code-channels-browser.95a9a7e: e.g. Add dark mode
 code-channels-browser.f59487b: e.g. Describe a bug, issue, new feature…
 code-channels-browser.8af56de: you
 code-channels-browser.3ee5ecf: {agent} is no longer available
-code-channels-browser.ded5cc7: {ago} · {count, plural, =1 {# member} other {# members}}
 code-channels-browser.366b768: {count, plural, =1 {# agent session found} other {# agent sessions found}}
 code-channels-browser.0d92cb0: {count, plural, =1 {# code channel found} other {# code channels found}}
 code-channels-browser.8e01e6c: {count, plural, =1 {# more code channel loaded} other {# more code channels loaded}}
@@ -11893,8 +11874,6 @@ huddles_audio_video_prefs.79ee96f: When alone in a huddle…
 huddles_audio_video_prefs.f415a1c: When joining a huddle…
 huddles_audio_video_prefs.a594666: Who can join your calendar huddles
 ia4.c6e1382: (couldn’t upload)
-ia4.7dd8913: A feature I rely on was missing or moved
-ia4.67bf9c7: A file couldn’t be uploaded. Remove it, or try sending again.
 ia4.4a0025c: AI-powered bird’s eye view of your day
 ia4.c3cd636: Actions
 ia4.e5a176a: Active only
@@ -11919,7 +11898,6 @@ ia4.20ec7e3: A–Z
 ia4.abaec45: Billing
 ia4.2f3b5c5: Browse
 ia4.3f658b9: Browse sections
-ia4.5a7ee5a: Bug report
 ia4.77dfd21: Cancel
 ia4.e2d397a: Canvases
 ia4.954e161: Channel tabs
@@ -11961,7 +11939,6 @@ ia4.b718f8c: Experimental
 ia4.1bcb17e: External organization
 ia4.439b67b: External organizations
 ia4.c4fd3d4: External people
-ia4.2b6a2c0: Feature idea/request
 ia4.6ce6c51: Files
 ia4.eaa79f3: Files & directories
 ia4.a222540: Filter and sort
@@ -11975,16 +11952,12 @@ ia4.faead10: Get access to multiple workspaces and advanced search with Enterpri
 ia4.0997db9: Get access to the Beta
 ia4.086158f: Give feedback
 ia4.ad4266d: Give feedback on Slack
-ia4.79c1dd3: Give feedback on Slack 6
 ia4.383e248: Hide sidebar
 ia4.eff152e: Hide workspace switcher
 ia4.4a88690: Including anything you liked or didn’t like.
 ia4.8f5d26b: Including external people
 ia4.52bfb42: Invite people to {teamDisplayName}
 ia4.1affe8b: It all starts here
-ia4.302558b: It felt slower or more buggy
-ia4.dcbc17e: It was harder to do my job
-ia4.5712004: I’m not ready for the change yet (or I was just trying it out)
 ia4.e0d7314: Join
 ia4.da8b8bf: Join or leave workspaces
 ia4.66af0bc: Join {title}
@@ -12016,7 +11989,6 @@ ia4.183fba9: Maybe Later
 ia4.0c77aee: Media
 ia4.96c585c: Meet channels, where the magic happens
 ia4.4c463a8: Meet {tractorChannel}, your team’s first channel
-ia4.88c188b: Message Composer
 ia4.eb15e02: Message to Slackbot
 ia4.4fb52d2: More analytics, data exports, control and access.
 ia4.5e2f04f: Move between workspaces
@@ -12039,7 +12011,6 @@ ia4.53b11f5: Organization settings – {teamDisplayName}
 ia4.6e6a6f2: Other
 ia4.caef14e: Other workspaces have new messages
 ia4.f3534db: PAID
-ia4.eb17881: Painpoint
 ia4.b37554f: People
 ia4.7d50e31: People & access
 ia4.a16801c: Please select a workspace
@@ -12063,12 +12034,10 @@ ia4.d0edfb6: Sales
 ia4.5f4b3e9: Salesforce
 ia4.68921b0: Salesforce organizations
 ia4.58fabfa: Sample
-ia4.fab7147: Search/browse
 ia4.081f97d: Security & compliance
 ia4.e93bdca: Security settings
 ia4.af3ffa1: See Full Day
 ia4.aec8a73: Select a workspace
-ia4.361c6ac: Select one or more.
 ia4.9bc2575: Send
 ia4.512a34a: Send messages, create canvases — if you can do it in Slack, you can start it from here. {currentStep} of {totalSteps}
 ia4.7b8a268: Send messages, create canvases — if you can do it in Slack, you can start it from here.<steps></steps>
@@ -12097,8 +12066,6 @@ ia4.9fbb94b: Slackbot
 ia4.49716ab: Slackbot is thinking…
 ia4.78501f9: Slackbot replied.
 ia4.f421414: Slackbot will no longer use your view as context
-ia4.77180f8: Something else (use the open text to tell us more)
-ia4.f6d7eaa: Something went wrong sending your feedback. Please try again.
 ia4.108b931: Sort conversations by:
 ia4.dbec140: Suggested channel sections
 ia4.22b4b0c: Surfaces
@@ -12128,11 +12095,9 @@ ia4.c32f0ec: Unlock SSO, automated user management, data exports, channel manage
 ia4.01e84c8: View app requests
 ia4.aab123b: View full day
 ia4.fac3083: What kind of feedback do you have?
-ia4.cdee7ca: What made you switch out of Slack 6?
 ia4.b9ee80f: What surface area is this about?
 ia4.bfb1d82: What surface/area is this about?
 ia4.69e8bf7: What’s your feedback?
-ia4.a344241: Why did you switch back from Slack 6?
 ia4.31d9ba9: Without external people
 ia4.b3e3b7a: Workflow Builder
 ia4.5d7024a: Workflow Editor
@@ -20082,6 +20047,7 @@ search.40d9365: People and user groups
 search.fb0ef1e: Person: {name}
 search.9c91841: Pin
 search.f931216: Pinned
+search.8ec20ca: Pinned agent conversations
 search.06a53f0: Please try again in a bit, and Slack AI will give it another go.
 search.c84dd6e: Please try again in a bit, and Slackbot will give it another go.
 search.6fe36ed: Popular agents
@@ -26553,6 +26519,7 @@ tabbed-channel.f73a684: {actionLabel} (opens in new window)
 tabbed-channel.75e6a6b: {count, plural, =1 {# item} other {# items}}
 tabbed-channel.b8baf35: {count, plural, =1 {#+ item} other {#+ items}}
 tabcomplete.37a0949: <strong>esc</strong> to dismiss
+tabcomplete.54ca21b: AI use is restricted in this channel
 tabcomplete.64acf7e: Agents
 tabcomplete.36c804e: Available skills
 tabcomplete.14649e4: Browse Skills
@@ -26572,6 +26539,7 @@ tabcomplete.72d2a32: Not in channel
 tabcomplete.c1c0e4b: Not in list
 tabcomplete.43ff311: Not on Slack
 tabcomplete.b37554f: People
+tabcomplete.faf6a32: Posting is restricted in this channel
 tabcomplete.0363909: Search suggestions
 tabcomplete.90c9352: Shortcuts
 tabcomplete.e09212c: Skills
@@ -26582,8 +26550,10 @@ tabcomplete.57f2b18: Users
 tabcomplete.51faa29: Users and files
 tabcomplete.cb074f5: {arrowUp} {arrowDown} to navigate
 tabcomplete.a68eae6: {iconOffline} <strong>No connection.</strong> Some results may not be available.
+tabcomplete.4d30cbd: {label}, AI use is restricted in this channel
 tabcomplete.c3870e8: {label}, New
 tabcomplete.8926074: {label}, not available to guests
+tabcomplete.7dc57ee: {label}, posting is restricted in this channel
 tabcomplete.1514ef7: {label}, turned off in this channel
 tabcomplete.9d927a1: {symbol} to select
 table.c3cd636: Actions
