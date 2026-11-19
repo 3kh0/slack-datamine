@@ -396,13 +396,13 @@ enterprise.channels.admin.setDefault: channel, prefs
 enterprise.channels.admin.setMandatory: channel, prefs
 enterprise.info: include_primary_owner, include_profile_fields
 enterprise.migrations.getHistory: status
+enterprise.migrations.getStatus: include_enterprise_info, include_team_info, migration_id
 enterprise.prefs.setAndLock: prefs
 enterprise.teams.creationrequests.create: enterprise_token, name, reason
 enterprise.teams.join: team
 enterprise.teams.joinrequests.create: team
 enterprise.teams.leave: team
 enterprise.teams.prefs.get: team
-enterprise.tos.admin.create: set_active, terms_of_service
 enterprise.usergroups.teams.get: search_term, sort_dir, usergroup
 enterprise.usergroups.teams.remove: teams, usergroup
 enterprise.usergroups.teams.setProvisioning: auto_provision, team, usergroup
@@ -684,8 +684,8 @@ search.autocomplete.topEmojis: count
 search.autocomplete.triggers: current_channel_id, query, strict_exposure_rules, trigger_types
 search.autocomplete: limit, query, query_suggestion_limit, type, use_hash
 search.delete: hash, terms, type
-search.enterprise: count, cursor_mark, include_bots, include_dangling, include_deleted, query, sort_dir
-search.inline: channel, client_req_id, count, cursor, extract_len, find_in_thread, from_me, include_ai_filters, max_ts, min_ts, page, query, recent_channels, search_session_id, strip_mcp_attribution_footer, thread_replies, thread_ts, token, user, with_me
+search.enterprise: count, cursor_mark, include_bots, include_counts, include_dangling, include_deleted, query, sort, sort_dir
+search.inline: channel, count, cursor, extract_len, find_in_thread, query, thread_replies, thread_ts, token
 search.modules.channels: browse, channel_type, count, cursor, exclude_my_channels, module, query, sort, sort_dir
 search.modules.external: app_id, client_req_id, cursor, highlight, query, query_rewrite_disabled, search_app_args
 search.modules.files: canvas_template_type_filter, count, exclude_org_visible, file_title_only, filters, module, only_org_visible, page, query, search_exclude_bots, skip_excluding_canned_templates, sort, sort_dir

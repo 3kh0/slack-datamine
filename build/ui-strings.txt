@@ -275,6 +275,7 @@ AI for the whole team
 AI generated
 AI generated content inaccurately. Take extra care verifying other content in this message.
 AI gutter entrypoint
+AI image
 AI is turned on for your team
 AI is used to generate responses, so some information may be inaccurate.
 AI notes and transcription are back on
@@ -503,6 +504,7 @@ Add a profile picture
 Add a reaction
 Add a record to a list
 Add a reminder
+Add a resource
 Add a saved canvas section to redux and call the API
 Add a saved list record to redux and call the API
 Add a screenshot of your note in the meeting chat.
@@ -525,7 +527,6 @@ Add a user profile
 Add a workflow
 Add a workspace
 Add a workspace logo
-Add accounts
 Add action items
 Add agent
 Add agents
@@ -541,7 +542,6 @@ Add an agent
 Add an agent to this channel
 Add an alert from the alerts array
 Add an alert from the alerts array, specifying sender peer Id
-Add an artifact
 Add an associated account
 Add an email address
 Add an emoji reaction
@@ -1237,7 +1237,6 @@ ArrowUp ArrowDown Backspace Delete
 Art by Haley Tippmann
 Art by Hudson Christie
 Art by Luis Mendo
-Artifacts in this channel can only be updated by a Channel Manager.
 As hybrid workplaces become the norm, maintaining employee satisfaction and a positive culture is more important than ever.
 Ask Agentforce for Analytics
 Ask Singer
@@ -1668,6 +1667,7 @@ Build a Template
 Build a dashboard in minutes
 Build a decision-oriented agenda for your next 1:1.
 Build a quote request from a whole message
+Build a workflow
 Build aria-label for Channel item in the Activity list
 Build aria-label for External Invitation item in the Activity list
 Build better customer relationships in Slack
@@ -2112,7 +2112,6 @@ Channel access save blocked: entity-based app has no members
 Channel access settings updated
 Channel alerts about updated items
 Channel archive suggestion
-Channel artifacts
 Channel associated
 Channel canvases only
 Channel content cannot be used by AI features outside of this channel. Slackbot is also off in this channel.
@@ -2142,6 +2141,7 @@ Channel overview canvas has been added to your channel
 Channel owner
 Channel permissions
 Channel preview
+Channel resources
 Channel restrictions
 Channel results
 Channel search displayed nonexistent channel
@@ -2267,6 +2267,7 @@ Choose a reaction
 Choose a schedule
 Choose a schedule or event
 Choose a skill, then add your context.
+Choose a template
 Choose a video background
 Choose an agent
 Choose an event
@@ -2296,7 +2297,7 @@ Choose which stage counts as closed and lost.
 Choose which stage counts as won.
 Choose which status marks a lead as converted.
 Choose which workflows post here
-Choose who can add, remove, and reorder artifacts
+Choose who can add, remove, and reorder resources
 Choose who can add, remove, and reorder tabs
 Choose who can manage the Channel Agent
 Choose who to connect email for.
@@ -2773,6 +2774,7 @@ Connect an email account to import emails
 Connect an existing project
 Connect another org
 Connect app
+Connect apps
 Connect apps to Slackbot
 Connect calendar
 Connect cloud app
@@ -3336,6 +3338,7 @@ Creative feedback requested in #ext-agency-tyconet
 Creative program
 Credit team
 Crisp and upbeat.
+Critical Apps image
 Crop your photo
 Crossed Circle
 Cruciferous Crunch Collection
@@ -3383,6 +3386,7 @@ Custom theme
 Custom user groups
 Custom views, reorderable
 Custom workflow steps
+Customer Relationships image
 Customer relationship management
 Customer relationship management image
 Customer supply and invoicing threads, RFP responses, confirmations, complaint threads and Salesforce opportunities.
@@ -3394,8 +3398,8 @@ Customizable security settings and user roles
 Customize Focused
 Customize Sales Tracker stages
 Customize Your Template
-Customize artifacts
 Customize notifications
+Customize resources
 Customize settings
 Customize slot 1
 Customize slot 2
@@ -3575,7 +3579,6 @@ Delete acknowledgement timed out
 Delete action is not available
 Delete all completed items
 Delete and Cancel
-Delete artifact
 Delete bookmark
 Delete calculation
 Delete canvas
@@ -3606,6 +3609,7 @@ Delete message attachment
 Delete project
 Delete project?
 Delete reminder
+Delete resource
 Delete section
 Delete sidekick
 Delete skill
@@ -4074,7 +4078,6 @@ Edit all profile details
 Edit all sections
 Edit alt text
 Edit and reorder workspaces
-Edit artifacts
 Edit canceled
 Edit channel managers
 Edit channel topic
@@ -4121,6 +4124,7 @@ Edit profile details
 Edit reaction
 Edit record field
 Edit reminder
+Edit resources
 Edit schedule
 Edit schedule or event
 Edit section
@@ -4616,11 +4620,18 @@ Explore Business+
 Explore Paid Plans
 Explore Pro
 Explore Pro Features
+Explore SCIM
+Explore SSO
 Explore Slack Pro
 Explore Your Plan
 Explore all templates
+Explore canvas
 Explore code channels
+Explore documents
+Explore huddles
 Explore in Tableau Next
+Explore lists
+Explore meeting notes
 Explore more templates
 Explore new features
 Explore public code channels to see what others are building with agents and find opportunities to collaborate.
@@ -5552,6 +5563,7 @@ Frontline Members see a partial directory and can only access messages and files
 Frontline members can be added to a maximum of 10 channels.
 Frontline members only
 Full & display names
+Full Context image
 Full Name
 Full name
 Full permissions, security and compliance
@@ -6045,7 +6057,6 @@ Hide Slackbot
 Hide Slackbot in the navigation bar
 Hide This Person
 Hide all threads
-Hide artifact
 Hide canvas
 Hide comment
 Hide conversation
@@ -6069,6 +6080,7 @@ Hide profile
 Hide replies
 Hide requests
 Hide resolved
+Hide resource
 Hide search history
 Hide section
 Hide self-view
@@ -7723,12 +7735,11 @@ Manage access and accounts from one place
 Manage access in Salesforce
 Manage access, policies, and accounts from one place
 Manage accounts
-Manage and reorder artifacts
+Manage and reorder resources
 Manage and reorder tabs
 Manage and update CRM records without leaving Slack
 Manage app access
 Manage apps
-Manage artifacts
 Manage automations
 Manage categories
 Manage channel access
@@ -7762,6 +7773,7 @@ Manage posting and Slack Connect
 Manage proactive replies
 Manage recap
 Manage requests
+Manage resources
 Manage roles
 Manage sales with Slack CRM
 Manage section
@@ -8281,8 +8293,6 @@ Move agent
 Move all
 Move all saved items to to-dos?
 Move and invite
-Move artifact down
-Move artifact up
 Move below
 Move between workspaces
 Move channel
@@ -8300,6 +8310,8 @@ Move line down
 Move line up
 Move online users to the top of the DM section
 Move out of session
+Move resource down
+Move resource up
 Move right
 Move saved items from
 Move saved items to to-dos
@@ -8484,7 +8496,6 @@ Never published
 Never synced
 Never too late for something good.
 New Action
-New Artifact
 New Business
 New Caledonia
 New Canvas
@@ -8494,6 +8505,7 @@ New Huddle
 New Huddle Link
 New List
 New Project
+New Resource
 New Section
 New Slackbot conversation
 New Style
@@ -9016,7 +9028,6 @@ Not enough text to summarize
 Not enough to summarize
 Not enrolled
 Not everyone here can be recorded
-Not found
 Not from
 Not helpful
 Not implemented
@@ -10805,11 +10816,11 @@ Removing this team from the app exclusion list
 Removing view in child window
 Removing view in main window
 Rename a channel
-Rename artifact
 Rename channel shortcut - opens rename or channel options modal
 Rename dashboard
 Rename folder
 Rename report
+Rename resource
 Rename session
 Rename tab
 Rename the dashboard only
@@ -10829,9 +10840,9 @@ Reopen Google Admin
 Reopen Singer from Slack
 Reorder or pin items dropped into the Focused sidebar Pinned section
 Reorder team profile fields
-Reorder, add, remove, and hide artifacts in this app.
+Reorder, add, remove, and hide resources in this app.
 Reorder, add, remove, and hide tabs in this app.
-Reorder, add, remove, and hide the artifacts that everyone sees in this channel.
+Reorder, add, remove, and hide the resources that everyone sees in this channel.
 Reorder, add, remove, and hide the tabs that everyone sees in this channel.
 Repeat count too high, must be less than 20
 Repeat for each
@@ -10966,6 +10977,7 @@ Resolved threads
 Resolving channel name to ID
 Resolving conversation
 Resource A says X, but Resource B says Y, so you should understand that there is no definite answer.
+Resources in this channel can only be updated by a Channel Manager.
 Respond directly to event invitations
 Respond to an invite within the slack window
 Respond to customer support emails without leaving Slack
@@ -11225,6 +11237,7 @@ Salesforce Report
 Salesforce Research Skill
 Salesforce Sans
 Salesforce Surveys Object Model
+Salesforce and Slack. Together at last.
 Salesforce channel
 Salesforce channels
 Salesforce channels cannot be used with this step
@@ -11517,9 +11530,11 @@ Search timed out
 Search to add languages
 Search user groups
 Search views
+Search with AI
 Search without filters
 Search workflow steps
 Search workspaces
+Search your history
 Search your skills
 Search your tasks
 Search: all work objects modules sort changed
@@ -12003,6 +12018,7 @@ Set up a web form later
 Set up a workflow in seconds
 Set up an external conversation
 Set up channel post and comment permissions
+Set up data policies
 Set up the fields people will use to update info in this step.
 Set up workflows to collect items with forms, send due date reminders to assignees, and keep your team aligned with automatic summaries.
 Set up your Slack
@@ -12265,7 +12281,6 @@ Show all threads
 Show all trial tasks
 Show an Example
 Show app in your top bar
-Show artifact
 Show as chart
 Show as table
 Show attachment
@@ -12326,6 +12341,7 @@ Show next items
 Show notifications from
 Show onboarding tasks reminder notification
 Show only
+Show only deleted
 Show past events
 Show prejoin DM welcome party web push notification
 Show preview
@@ -12334,6 +12350,7 @@ Show reasoning trace
 Show recents
 Show requests
 Show resolved
+Show resource
 Show sales tracker removing toast
 Show search history
 Show sidebar
@@ -13358,6 +13375,7 @@ Takes a deleted message out of its code channel session
 Talk it out in a huddle
 Talk to Singer
 Talk to Slackbot is using your mic. End it to start the meeting assistant.
+Talk to external partners
 Talk with Slackbot
 Talk with a teammate
 Tap and say it
@@ -14939,6 +14957,7 @@ Upserts an acceptance eligibility result for a Slack Connect channel invite
 Upserts the total member count for the team
 Upserts uiState for a view container in a product surface
 Upserts whether an acceptance attempt has failed for a specific Slack Connect invite
+Use AI Summarization
 Use AI in workflows to automate little things that add up.
 Use AI to manage your entire sales pipeline
 Use Blank Canvas
@@ -15695,6 +15714,7 @@ Workflow metadata save failed
 Workflow name
 Workflow not found
 Workflow options
+Workflow picker couldn
 Workflow publish failed
 Workflow started
 Workflow title

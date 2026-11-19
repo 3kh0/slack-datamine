@@ -3161,6 +3161,7 @@ browsers.a1fd67e: Assemble your dream team
 browsers.acdac20: Audio
 browsers.16108d9: Bring in external files, co-write in a canvas, or track tasks in a list. All your essentials are searchable and side by side in the flow of work.
 browsers.bd3d2ce: Bring your team members into Slack to start working better together. Send invites via email, or get a handy link to share.
+browsers.e2d397a: Canvases
 browsers.6dac438: Canvases and Documents
 browsers.381c4bf: Clear Filters
 browsers.e86dc23: Collect and share information with a canvas, or track your next project in a list.
@@ -3213,6 +3214,7 @@ browsers.2ddd60e: People results
 browsers.25c4116: Presentations
 browsers.8e31dfa: Private channel, {channelName} {sharedChannelDisplay}, {memberCount} {memberCount, plural, =1 {member} other {members}}. {channelPurpose}
 browsers.3009d70: Public channel, {channelName} {sharedChannelDisplay}, {memberCount} {memberCount, plural, =1 {member} other {members}}. {channelPurpose}
+browsers.6bab4fa: Quick filters
 browsers.fd316b7: Recently viewed
 browsers.44c57ab: Reset
 browsers.5be6985: Reset Filters
@@ -3224,6 +3226,7 @@ browsers.e525d9d: See all media
 browsers.d8e9d98: See how files work
 browsers.5c4038a: Share, view and work with your cloud files without leaving Slack.
 browsers.72f2b0d: Shared with you
+browsers.3ce97fe: Show only deleted
 browsers.e3834e9: Single-Channel Guest
 browsers.5a2527b: Skill Sets
 browsers.ae05fb5: Snippets
@@ -3738,7 +3741,6 @@ channel_details.7f1f5ff: Are you sure you want to disconnect?
 channel_details.a05cde3: Are you sure you want to leave?
 channel_details.6913266: Are you sure you want to make this change?
 channel_details.a9a4568: Are you sure you want to remove this pinned item?
-channel_details.a5b79f5: Artifacts
 channel_details.4d8c82e: Auth expired
 channel_details.82542d6: Automations
 channel_details.7c62a14: Available
@@ -4043,7 +4045,7 @@ channel_details.413fec0: Manage Permissions Confirm
 channel_details.310c802: Manage Permissions List Organizations
 channel_details.ee4826d: Manage Permissions Select Permissions
 channel_details.7dfe535: Manage Slackbot Preferences
-channel_details.218229a: Manage and reorder artifacts
+channel_details.a58972b: Manage and reorder resources
 channel_details.a18a898: Manage and reorder tabs
 channel_details.4db349d: Manage external permissions
 channel_details.48fe8c4: Manage guest permissions
@@ -4207,6 +4209,7 @@ channel_details.ffd32b1: Rename this channel
 channel_details.f3f78a1: Rename this code channel
 channel_details.6797a1a: Rename {title}
 channel_details.5a71680: Request to Add
+channel_details.87df60d: Resources
 channel_details.a66b508: Restrict
 channel_details.a7d3c42: Restrict AI Use
 channel_details.d4a1677: Restrict AI use of this channel’s content
@@ -5369,19 +5372,17 @@ channel_tabs.c17174f: Agents and apps in this channel
 channel_tabs.2792a6e: Agents are here to help
 channel_tabs.0ef8ee5: Agents search results
 channel_tabs.58c4120: Answers questions and provides information based on content in your channel.
-channel_tabs.2dbbc7b: Artifacts in this channel can only be updated by a Channel Manager. <link>See all channel managers.</link>
-channel_tabs.809836d: Artifacts in this channel can only be updated by the Channel Creator or Workspace Admins/Owner.
 channel_tabs.61c4a7e: Browse Agents and Apps
 channel_tabs.a33d1b9: CI is failing on {prUrl}. Find the failing checks, fix them, then push the fix.
 channel_tabs.a3f80b8: Canvas
 channel_tabs.4f32719: Canvas options
 channel_tabs.ab5686f: Change default list view
 channel_tabs.85bf64b: Channel Expert handles common questions in your channel using the power of AI, helping your team stay focused and your channels stay useful.
-channel_tabs.308f492: Channel artifacts
 channel_tabs.e6092fe: Channel managers
 channel_tabs.5e0eb2f: Channel owner
+channel_tabs.09219a5: Channel resources
 channel_tabs.954e161: Channel tabs
-channel_tabs.9cb7077: Choose who can add, remove, and reorder artifacts
+channel_tabs.7d923c0: Choose who can add, remove, and reorder resources
 channel_tabs.32df680: Choose who can add, remove, and reorder tabs
 channel_tabs.8c0451d: Copy GitHub link
 channel_tabs.8c930f9: Copy link to canvas
@@ -5392,8 +5393,8 @@ channel_tabs.83e395d: Could not get list of agentforce agents in this channel. <
 channel_tabs.7bea040: Could not get list of agents and apps in this channel. <a>Try again</a>
 channel_tabs.d5d86f8: Could not load Agentforce agents. Try again.
 channel_tabs.f6fdbe4: Delete
-channel_tabs.ee127e7: Delete artifact
 channel_tabs.5ee4664: Delete folder
+channel_tabs.00c03a8: Delete resource
 channel_tabs.30bc2fe: Delete tab
 channel_tabs.c63eca7: Don’t post canvas updates to channel
 channel_tabs.db6ee5c: Don’t post folder updates to channel
@@ -5404,19 +5405,19 @@ channel_tabs.f0dec9a: Fix failing tests
 channel_tabs.9761983: Fix merge conflicts
 channel_tabs.bcba459: Get more done in this channel by adding your team’s AI agents and apps
 channel_tabs.d4c2792: Hidden
-channel_tabs.ebc4071: Hide artifact
+channel_tabs.8f7e6e9: Hide resource
 channel_tabs.d7e28b5: Hide tab
 channel_tabs.466fc49: Keep
 channel_tabs.378cbbf: Learn More
 channel_tabs.a1fffaa: List
 channel_tabs.b20c506: Loading Agentforce agents
 channel_tabs.db3a9a9: Loading agents and apps
-channel_tabs.4c253cb: Manage artifacts
+channel_tabs.c97f6f6: Manage resources
 channel_tabs.a857eb4: Manage tabs
 channel_tabs.f1d2795: More options for {name}
-channel_tabs.10bfc70: Move artifact down
-channel_tabs.f61113e: Move artifact up
 channel_tabs.7a54925: Move pull request to open
+channel_tabs.4edda1a: Move resource down
+channel_tabs.2129c4f: Move resource up
 channel_tabs.47e40b5: Move tab down
 channel_tabs.1713d09: Move tab up
 channel_tabs.a7e1276: Move to folder
@@ -5437,15 +5438,17 @@ channel_tabs.d11a2fc: Post folder updates to channel
 channel_tabs.e963907: Remove
 channel_tabs.5cf9405: Remove from this channel
 channel_tabs.1b46238: Remove tab
-channel_tabs.a1b0c6e: Rename artifact
 channel_tabs.ebe08b9: Rename folder
+channel_tabs.ebba0b5: Rename resource
 channel_tabs.21c5e58: Rename tab
-channel_tabs.c95142e: Reorder, add, remove, and hide artifacts in this app.
+channel_tabs.8140272: Reorder, add, remove, and hide resources in this app.
 channel_tabs.2c238c9: Reorder, add, remove, and hide tabs in this app.
-channel_tabs.4970f6b: Reorder, add, remove, and hide the artifacts that everyone sees in this channel.
+channel_tabs.2cab738: Reorder, add, remove, and hide the resources that everyone sees in this channel.
 channel_tabs.5e928eb: Reorder, add, remove, and hide the tabs that everyone sees in this channel.
 channel_tabs.5dde27e: Request review
 channel_tabs.e2d4b30: Resolve the merge conflicts between {prUrl} and its base branch, then push the fix.
+channel_tabs.9293271: Resources in this channel can only be updated by a Channel Manager. <link>See all channel managers.</link>
+channel_tabs.c789783: Resources in this channel can only be updated by the Channel Creator or Workspace Admins/Owner.
 channel_tabs.ee7b408: Search by agent name or description
 channel_tabs.b527299: Select agents
 channel_tabs.797579a: Select channel
@@ -5453,7 +5456,7 @@ channel_tabs.c52c0c7: Set Up
 channel_tabs.4ca602c: Set as default for huddle notes
 channel_tabs.e0a318f: Share record
 channel_tabs.50a279d: Show all
-channel_tabs.1ca04d1: Show artifact
+channel_tabs.dc8e298: Show resource
 channel_tabs.8c63478: Show tab
 channel_tabs.df85741: Something’s gone wrong. Mind trying again in a moment?
 channel_tabs.74a78f4: Suggested agents
@@ -10300,8 +10303,6 @@ guided_trials.baa2819: AI meeting notes
 guided_trials.575819d: AI summarization
 guided_trials.4a1fb5e: Access to customer support
 guided_trials.15a4043: Access your Salesforce list views in Slack for easy editing.
-guided_trials.45cb2a7: Add accounts
-guided_trials.b9c735e: Add people
 guided_trials.ca59827: Add-on available
 guided_trials.e24266c: Address customer issues in real-time, and resolve issues fast.
 guided_trials.9d80d0c: Admin analytics API
@@ -10310,8 +10311,6 @@ guided_trials.b8be3d1: Administration
 guided_trials.bd0a72c: Advanced AI features
 guided_trials.38b9f76: Align on any topic, share knowledge, and take action.
 guided_trials.a1824f4: Align teams and track actions to drive deals forward.
-guided_trials.d154e4e: All Accounts
-guided_trials.1f48daa: All Contacts
 guided_trials.ded5673: Apps & automations
 guided_trials.9f6fa37: Apps and automations
 guided_trials.e3bc240: Audio and video clips
@@ -10482,7 +10481,6 @@ guided_trials.0cd0ae1: See Plans
 guided_trials.c462b3b: See Upgrade Options
 guided_trials.561fef0: See full comparison
 guided_trials.04e7217: See what you can do
-guided_trials.dc76163: Set up contacts
 guided_trials.c7a4bab: Set up data policies
 guided_trials.bce4937: Shared channels icon
 guided_trials.9cd5b7e: Single Sign-On
@@ -17775,7 +17773,6 @@ promotions.99f99a7: Explore Pro Features
 promotions.2cd8811: Explore new features
 promotions.e6a4bab: Explore the premium features available to your team.
 promotions.05f95d6: Explore your premium AI features
-promotions.b7d2491: Explore your trial
 promotions.8fe511c: Export data from public channels, private channels, and direct messages.
 promotions.47788e3: Faster, smarter results
 promotions.0f7066d: File summaries
@@ -17788,7 +17785,6 @@ promotions.278b42c: Focus on the conversation and let Slack do the note taking f
 promotions.d12f417: For teams distributed across the globe, choose the region where certain types of data at rest will be stored.
 promotions.d852d9e: Free customer management in Slack
 promotions.fab6d1a: Free for {numDays, plural, =1 {# day} other {# days}}
-promotions.d3292d0: Free for {trialLength} days
 promotions.193f340: Free, always-on resources and essential support — live help via Help Agent and chat, with 2-business-day target case response.
 promotions.3489954: Get Pro for {discountPct}% Off
 promotions.ab13cd0: Get a bird’s eye view of engagement
@@ -17821,7 +17817,6 @@ promotions.d805d49: Here’s what your team will miss if you don’t upgrade.
 promotions.cfed893: Huddles
 promotions.2b42754: Huddles notes
 promotions.c53ff83: If your company owns or operates under multiple web domains, Slack can help you claim them.
-promotions.97d7aba: Import company contacts and give your team access
 promotions.a615f34: Included in your plan
 promotions.f47fe29: Including AI assistants
 promotions.e7d7957: Information barriers
@@ -17918,7 +17913,6 @@ promotions.8327e8e: Security and compliance
 promotions.e77bb01: See All Workflows
 promotions.c462b3b: See Upgrade Options
 promotions.d4de75a: See all Plan Benefits
-promotions.04e7217: See what you can do
 promotions.2c42621: Session duration
 promotions.c52c0c7: Set Up
 promotions.2056e20: Set up SAML-SSO
@@ -17928,7 +17922,6 @@ promotions.03bcdeb: Set up a template to take tedious tasks off your plate
 promotions.40cd685: Set up an overview for a key channel
 promotions.779efd7: Set up channel post and comment permissions
 promotions.6cb727b: Set up daily recaps
-promotions.cd119c7: Set up your CRM
 promotions.494a12d: Sign in to Slack through an IDP of your choice for additional security and convenience. Choose from up to 12 SSO configurations including OneLogin, Google, Microsoft Azure, and Okta.
 promotions.40fea94: Signature Success Plan
 promotions.3dc8740: Simplified customer relationship tools
@@ -18058,7 +18051,6 @@ promotions.737ddb5: {count, plural, =1 {# thing left to try} other {# things lef
 promotions.72aa6ba: {count} Installed
 promotions.ababb99: {currentCard} of {totalCards}
 promotions.30eade9: {currentStep} of {totalSteps}
-promotions.490d565: {daysRemaining, plural, =1 {# day} other {# days}} left in trial
 promotions.ebfa2dd: {daysRemaining, plural, =1 {# day} other {# days}} left on this offer
 promotions.4071058: {feature1} and {feature2} are turned on for {teamName}. <learnMoreLink>Learn more</learnMoreLink>
 promotions.5591da7: {feature1} is turned on for {teamName}. <learnMoreLink>Learn more</learnMoreLink>
@@ -18205,7 +18197,6 @@ quip_collab.cf05eca: Add reaction
 quip_collab.e30eff9: Alt
 quip_collab.13eb288: Anchor Link Not Copied
 quip_collab.3dcc5ef: Another User
-quip_collab.abde7a7: App icon
 quip_collab.b5fdccd: Applied {style_name}
 quip_collab.befde54: Apr
 quip_collab.a039390: April
@@ -18234,7 +18225,6 @@ quip_collab.2cc16b0: Callouts cannot contain collapsed sections.
 quip_collab.8a80d45: Callouts cannot contain columns or other callouts.
 quip_collab.77dfd21: Cancel
 quip_collab.6575d3c: Canvas link
-quip_collab.28f526c: Canvas not found
 quip_collab.443c9a4: Canvas preview
 quip_collab.4d4ce73: Card
 quip_collab.a8f9add: Card View
@@ -18411,7 +18401,6 @@ quip_collab.442dd36: Links cannot span multiple sections.
 quip_collab.a1fffaa: List
 quip_collab.b8a965c: List icon
 quip_collab.8cad8be: List link
-quip_collab.e18715f: List not found
 quip_collab.9dbe7b6: List preview
 quip_collab.227f6ae: List record icon
 quip_collab.8328e23: List record link
@@ -18426,6 +18415,7 @@ quip_collab.b5148a6: Magenta40
 quip_collab.98d9de2: Magenta5
 quip_collab.f2008a7: Magenta60
 quip_collab.6384162: Magenta70
+quip_collab.d4c2398: Magic Wand Icon
 quip_collab.c4ba082: Mar
 quip_collab.433632e: March
 quip_collab.23e67fc: Markdown
@@ -19085,6 +19075,7 @@ salesforce-kit.861edba: Suggestions
 salesforce-kit.4548321: Type to search…
 salesforce-kit.badd385: View details
 salesforce-kit.ed5a029: View details for {label}
+salesforce-kit.3393687: {count, plural, =1 {# character over the limit} other {# characters over the limit}}
 salesforce-record-attachment-mention.2c21856: Deleted record
 salesforce-record-attachment-mention.cc1316d: Save Draft
 salesforce_connections.4143582: <a-prefs>Manage all your Salesforce orgs in your preferences</a-prefs>.
@@ -19754,7 +19745,6 @@ search.e55aa1d: Filter by type
 search.54fe68f: Filter by {name}
 search.3f1cdf5: Filter channels
 search.88d10c0: Filter connectors
-search.1c07a41: Filter files
 search.d5d9612: Filter groups
 search.b48edb7: Filter huddles
 search.7618753: Filter invitations
@@ -20194,6 +20184,8 @@ search.b3347d4: Share your hot highlight
 search.d37f8af: Share your persona
 search.7002fc6: Share your signature emoji
 search.90e9899: Share your top Channels
+search.a5fe3b3: Shared by
+search.3764e18: Shared in
 search.f40ca84: Shared with me
 search.83454bd: Show all threads
 search.f82278e: Show as a left Sidebar
@@ -20593,6 +20585,7 @@ setup_page.74f1d29: <b>Get a shareable invite link</b> <strong>instead</strong>
 setup_page.9f7fd9e: <b>How to Search in Slack</b> Access the right information instantly
 setup_page.1bb5074: <b>Preview of Slack CRM</b>
 setup_page.1ea9ac3: <b>Preview of your {name} template</b>
+setup_page.ac0df8b: <b>Using Slack</b> Learn how Slack works from top to bottom
 setup_page.530e77a: <strong>You can also </strong> <b>use an invite link</b>
 setup_page.20f1c35: <strong>{channelName}</strong> is where you’ll work with {invitingMember} and others from <strong>{invitingTeam}</strong>.
 setup_page.a16b881: <strong>{channelName}</strong> is where you’ll work with {invitingMember} and others from <strong>{invitingTeam}</strong>. You can post and reply to messages, but you’ll need to get approval before you can add any other people to the channel.
@@ -26217,8 +26210,8 @@ tabbed-channel.26bba8c: Add Source
 tabbed-channel.13d8a22: Add Tab
 tabbed-channel.e97f15f: Add a bookmark
 tabbed-channel.56e6692: Add a link
+tabbed-channel.ad3dc64: Add a resource
 tabbed-channel.c7f902b: Add a tab
-tabbed-channel.9c3cda8: Add an artifact
 tabbed-channel.ea13c55: Add existing canvas
 tabbed-channel.dcf76ac: Add file as a tab?
 tabbed-channel.57517bd: Add file or link to folder
@@ -26239,7 +26232,6 @@ tabbed-channel.90558f9: All files & links
 tabbed-channel.a5c9713: All huddles
 tabbed-channel.4671987: All media
 tabbed-channel.3fc62be: Any files that are saved or shared will show up here.
-tabbed-channel.a5b79f5: Artifacts
 tabbed-channel.84027ac: Ask a channel manager to update agent sources
 tabbed-channel.41d8a72: At the request of your administrator, file uploads have been disabled on this workspace.
 tabbed-channel.a2a752c: Auto-generated from Structured Intelligence
@@ -26320,9 +26312,9 @@ tabbed-channel.014bcd6: Links
 tabbed-channel.a1fffaa: List
 tabbed-channel.01321f8: List results
 tabbed-channel.b0bb80d: List views
-tabbed-channel.344c46a: Loading artifacts…
 tabbed-channel.b661621: Loading file details
 tabbed-channel.e961280: Loading older huddles…
+tabbed-channel.9868ad6: Loading resources…
 tabbed-channel.06dd1ba: Loading threads…
 tabbed-channel.715012f: Maximum number of tabs added.
 tabbed-channel.0c77aee: Media
@@ -26335,7 +26327,7 @@ tabbed-channel.71b35d4: Most relevant
 tabbed-channel.a7e1276: Move to folder
 tabbed-channel.c0a3ef6: Move to…
 tabbed-channel.91cdbbd: Moved {fileName} to folder <link>{folderName}</link>
-tabbed-channel.3450ea3: New Artifact
+tabbed-channel.1bfea76: New Resource
 tabbed-channel.bbeec6f: New Tab
 tabbed-channel.fa52776: New blank canvas
 tabbed-channel.a711999: New folder
@@ -26384,6 +26376,7 @@ tabbed-channel.d164738: Removed {fileName} from folder <link>{folderName}</link>
 tabbed-channel.ebe08b9: Rename folder
 tabbed-channel.21c5e58: Rename tab
 tabbed-channel.0fa5cfd: Request Access
+tabbed-channel.87df60d: Resources
 tabbed-channel.eafb69d: Reusable flows people can run instead of sending a message.
 tabbed-channel.2defefb: Salesforce list
 tabbed-channel.efc007a: Save
@@ -27849,6 +27842,7 @@ view.4ef507f: Related Channels List
 view.3857d09: Related Threads List
 view.b87a192: Reminder
 view.9ee36da: Replace split view
+view.87df60d: Resources
 view.954daa8: Right
 view.d0edfb6: Sales
 view.8fdb33b: Sales Hub
@@ -28487,7 +28481,6 @@ workflow_builder.479b61f: Any file type
 workflow_builder.55201ac: Any status
 workflow_builder.8b89522: Anything else you want to add?
 workflow_builder.31c83eb: App ID:
-workflow_builder.abde7a7: App icon
 workflow_builder.7bc477c: Apply conditional filtering so that you’re left with objects that meet your criteria.
 workflow_builder.91db069: Approval requested
 workflow_builder.7b2c7f1: Approve
