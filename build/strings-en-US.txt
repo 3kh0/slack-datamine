@@ -1931,16 +1931,17 @@ app_launcher.22e3fb7: All workspaces
 app_launcher.b123684: Also, your team admin must approve an app before it can be installed. <Link>Learn more</Link>
 app_launcher.41b81eb: Approved
 app_launcher.d9a3685: Apps
-app_launcher.d0a0d80: Awaiting approval
-app_launcher.eda0dad: Awaiting approval for {teamName}
 app_launcher.1c441a5: Bring all your tools into Slack
 app_launcher.68f7373: Browse Slack Marketplace
 app_launcher.98e11fe: Browse agents
+app_launcher.84d8abf: Cancel Request
+app_launcher.467a077: Cancel request?
 app_launcher.f840ac6: Canceled
 app_launcher.6ccb600: Categories
 app_launcher.18e5ff2: Filter apps
 app_launcher.abd44ca: Get more value from your Atlassian tools
 app_launcher.b648590: Go to app
+app_launcher.028fa93: If you change your mind, you can request {appName} again later.
 app_launcher.fd6c3eb: Install
 app_launcher.7bb4405: Installed
 app_launcher.56e2f5d: Later
@@ -1948,10 +1949,12 @@ app_launcher.b993b0c: No results
 app_launcher.8411324: One-click access to AI tools in Slack
 app_launcher.8ee6637: Open in Slack Marketplace
 app_launcher.03a322d: Open in split view
+app_launcher.d59bb53: Request already closed
 app_launcher.c462b3b: See Upgrade Options
 app_launcher.2941c5c: See all
 app_launcher.25911d4: Show more
 app_launcher.9c5462b: Slack makes the tools you already use even better by adding apps from Atlassian like Jira, Trello, and more.
+app_launcher.73ecfe1: That didn’t work. Try again in a moment.
 app_launcher.621521f: Untitled
 app_launcher.a9e7f8d: Upgrade for unlimited apps
 app_launcher.86f6306: Upgrade for unlimited apps. <Link>Learn more</Link>
@@ -2168,6 +2171,7 @@ assistant.a1bf92e: Cancelled
 assistant.a3f80b8: Canvas
 assistant.8703a74: Catch up
 assistant.522be4d: Catch up <count>— summarized {messageCount, plural, =1 {# message} other {# messages}}</count>
+assistant.771b3cf: Changes to recap saved
 assistant.04ea3c5: Channel list
 assistant.34662b0: Channel summary
 assistant.7b675e7: Choose Channels
@@ -2234,6 +2238,7 @@ assistant.d9b6d60: Enable mic in browser address bar
 assistant.c8de761: End call
 assistant.6936bb1: End date (ex. {dateExample})
 assistant.bb05539: Enjoy with a snack
+assistant.b7e86f2: Error occurred, changes to recap not saved
 assistant.38572e5: Exit Setup
 assistant.9869e50: Expand
 assistant.da6a0bc: Explain this file to me: 
@@ -5483,10 +5488,10 @@ channels.f9b8d9e: {channelName}
 chat_commands.aa6f937: remind
 checklist_block.5bcf4db: Add item
 checklist_block.61b2946: Checklist
-checklist_block.17b09da: Completed ({count})
 checklist_block.edf31ea: Heads up
 checklist_block.9a445d9: In Progress ({count})
 checklist_block.f68ca37: Item added
+checklist_block.1763987: Item removed
 checklist_block.8709df2: List item
 checklist_block.a1e34f9: More actions
 checklist_block.76ecba1: Remove item
@@ -5498,7 +5503,6 @@ checklist_block.46e39f6: Something went wrong, try again
 checklist_block.453c1a1: This field cannot be edited
 checklist_block.e2f1326: This item couldn’t be added
 checklist_block.97cf4e8: View checklist
-checklist_block.05a9285: {completed, plural, one {# of {total} completed} other {# of {total} completed}}
 checkout_abandonment.202c92a: Looks like you started upgrading to a more powerful paid plan, but didn’t make it all the way through. <a>Finish checkout</a>
 checkout_v2.7e5111d: By redeeming this offer, you agree that these offer terms form part of and modify Slack’s <mainServicesLink>Customer Terms of Service</mainServicesLink> (or the terms of your written agreement regarding your use of Slack’s services) (your “Agreement”) entered into between you and the Slack entity identified in the Agreement and that, after the Discount Period, Slack’s then-current standard pricing set forth on Slack’s <pricingPageLink>Pricing Page</pricingPageLink> will apply to the remainder of your plan and to any plan renewals. Please see the terms of your Agreement for information on how to cancel or downgrade your paid subscription prior to any such renewal.
 checkout_v2.453fd5f: By redeeming this offer, you agree that these offer terms form part of and modify Slack’s <mainServicesLink>Customer Terms of Service</mainServicesLink> (or the terms of your written agreement regarding your use of Slack’s services) (your “Agreement”) entered into between you and the Slack entity identified in the Agreement. You further agree that, after the Discount Period, you will be subject to the Slack Business+ standard pricing that is current as of the date the Discount Period ends, as set forth on Slack’s <pricingPageLink>Pricing Page</pricingPageLink>, including all or part of any plan renewals. For clarity, after the Discount Period, if you continue with the Slack Business+ plan at the conclusion of the Discount Period, you will be charged at the standard rate for the Slack Business+ plan you have selected unless and until you cancel your subscription. If you redeem this offer and then cancel or downgrade your paid Slack Business+ plan at any time during the Discount Period, this offer will no longer be available to you.
@@ -17653,7 +17657,6 @@ promotions.22ac41e: Connect the tools and services you use every day right into 
 promotions.c4a9287: Connect your SSO to any identity provider
 promotions.ba8877c: Connect your calendar to Slack
 promotions.d482590: Connected calendar, AI tools, and essay drafts in a single place
-promotions.2f83cdd: Consumption based
 promotions.7a0a9bd: Contact Sales
 promotions.8bd0476: Continue with Free
 promotions.dcdf6c2: Copy and paste Salesforce record links into Slack, creating rich previews that surface key details without having to open a new browser tab.
@@ -17942,7 +17945,6 @@ promotions.f3ba387: Upgrade to keep access to:
 promotions.2bdca9b: Upgrade to keep working with {externalOrgName}
 promotions.04e041a: Upgrade to keep {productName} access
 promotions.36f9838: Upon Request
-promotions.54a0088: Usage limits
 promotions.a271780: Use AI in workflows
 promotions.8a808a8: Use SAML SSO to automate onboarding and make your workspace more secure.
 promotions.2379761: Use Template
@@ -21417,6 +21419,7 @@ shortcuts_flexpane.ba4e722: Forward
 shortcuts_flexpane.97302de: Forward in history
 shortcuts_flexpane.482959d: Forward message
 shortcuts_flexpane.cfed893: Huddles
+shortcuts_flexpane.b7399fc: Insert file
 shortcuts_flexpane.4d4ac9a: Insert link
 shortcuts_flexpane.1616e2e: Italic
 shortcuts_flexpane.3a014a3: Jump to…
@@ -22996,6 +22999,7 @@ slack-docs.3a55dfc: If the problem persists, please <a>drop us a line.</a>
 slack-docs.cdcd3e8: Includes ways to feature Salesforce record information
 slack-docs.95802da: Insert
 slack-docs.f8611e0: Insert a variable
+slack-docs.56d3696: Insertion options
 slack-docs.b1e4afe: Insufficient permissions
 slack-docs.9192923: Insufficient record access
 slack-docs.1ebf32a: Invalid session
@@ -23621,6 +23625,8 @@ slack_docs.b2feb2b: Good response
 slack_docs.cfed893: Huddles
 slack_docs.50e19fd: Image
 slack_docs.95802da: Insert
+slack_docs.f1d30eb: Insert checklist
+slack_docs.b7399fc: Insert file
 slack_docs.cb0188e: Insert table
 slack_docs.485b57a: Italian
 slack_docs.9239c22: Japanese
@@ -23642,6 +23648,8 @@ slack_docs.a3098b8: Mark Complete
 slack_docs.df0cd04: Medium heading
 slack_docs.f1702b4: Messages
 slack_docs.a979c1e: Open AI menu
+slack_docs.6f0eade: Open formatting menu
+slack_docs.b2b46f4: Open insert menu
 slack_docs.931303e: Open layouts menu
 slack_docs.6b5d4e1: Ordered list
 slack_docs.05058e0: Paragraph

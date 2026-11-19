@@ -176,6 +176,7 @@ apps.actions.v2.execute: action_id, app_id, client_token, context, team_id
 apps.actions.v2.list: action_type, resource_id, resource_type
 apps.activities.list: app_id, component_id, trace_id
 apps.approvals.requestedApps.list: app_ids, cursor
+apps.approvals.requests.cancel: request_id, team_id
 apps.approvals.requests.create: reason
 apps.auth.external.authMapping.update: app_id, external_token_id, mapping_owner_type, provider_key, workflow_id
 apps.auth.external.delete: external_token_id
