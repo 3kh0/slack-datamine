@@ -1056,6 +1056,7 @@ agents.b52b36b: Back
 agents.cb6bd77: Back to Skills
 agents.7aab4d5: Bring your favorite skills from other platforms
 agents.14649e4: Browse Skills
+agents.98e11fe: Browse agents
 agents.3874b09: Browse skills
 agents.7bc2d21: Build from scratch
 agents.8af5dea: Build with Slackbot
@@ -1208,7 +1209,6 @@ agents.472d469: No available apps
 agents.1756acc: No one at your organization will be able to use this skill unless you reactivate it.
 agents.c2e3ac1: No results for "{query}"
 agents.a393b15: No sessions match this filter.
-agents.9d7789c: No sessions yet
 agents.926a64f: No skills added yet
 agents.f01097f: No skills found
 agents.fbae275: No skills match
@@ -1273,7 +1273,6 @@ agents.72b68db: See {agentName}’s info, sessions, and settings
 agents.2311486: Send prompt
 agents.4b5e201: Send to {agentName}
 agents.e11e37a: Sessions
-agents.fa6e32f: Sessions you start with this agent show up here.
 agents.c7f73bb: Settings
 agents.09ca55c: Share
 agents.dc96bbc: Share skill
@@ -1643,6 +1642,7 @@ all_unreads.d58ac28: Load more messages
 all_unreads.84ef5a7: Loading more messages…
 all_unreads.a5fee36: Loading unread messages…
 all_unreads.f71edd8: Lovely!
+all_unreads.65a3041: Mark All Messages Read
 all_unreads.6d86712: New messages
 all_unreads.52786e4: Newest to oldest
 all_unreads.5d3fbc4: No more unreads in {sectionName}.
@@ -1690,9 +1690,11 @@ all_unreads.9258bd1: You’ve read everything in {sectionName}.
 all_unreads.485b382: separator
 all_unreads.abee5c4: {channelName} section
 all_unreads.accd9c4: {count, plural, =1 {# new message} other {# new messages}}
+all_unreads.c60341e: {date} Start of unread messages.
 all_unreads.312b0ca: {filterLabelSection}
 all_unreads.05d24b0: {messageCount, plural, =1 {# message} other {# messages}}
 all_unreads.762eca0: {messageCount, plural, =1 {# message} other {# messages}} marked read
+all_unreads.5479294: {messageCount, plural, =1 {#+ message} other {#+ messages}}
 all_unreads.3a29c72: {messageCount} new {messageCount, plural, =1 {message} other {messages}}
 all_unreads.f4fd910: {newUnreadMsgCount, plural, =1 {# new message} other {# new messages}}
 answer_comparison.3da4745: Skip
@@ -1703,12 +1705,10 @@ answer_comparison.307b27d: Writing two answers. You can choose once both are don
 answer_comparison.3aac9d6: {answer} is still being written
 app-config.bb54db5: Accept
 app-config.a3abad3: Activity Log
-app-config.77fccce: Admin setting
 app-config.b52b36b: Back
 app-config.77dfd21: Cancel
 app-config.2d3a460: Heads up, this workflow has {remaining_step_count, plural, one {# step} other {# steps}} remaining before reaching the {max_number_of_steps}-step limit
 app-config.3da4745: Skip
-app-config.a693bf2: This was locked by a system administrator
 app-config.2fab0fb: This workflow has reached the {max_number_of_steps}-step limit. To add more steps, you need to remove some first.
 app-config.dda6ac2: Verify
 app_action_picker.d3a0a22: Add a custom MCP server
@@ -6064,7 +6064,6 @@ code-channels-browser.d97e732: A code channel was already started from that mess
 code-channels-browser.a733b80: Active
 code-channels-browser.ec83cd2: Add a prompt describing what you’d like the agent to do.
 code-channels-browser.5ce2e6f: Agent
-code-channels-browser.cde5696: Agent conversation results
 code-channels-browser.05989d8: Agent sessions
 code-channels-browser.b2fc5bc: Agent thread · {ago}
 code-channels-browser.ad2571a: Agent threads
@@ -14086,6 +14085,7 @@ message.f963e8a: <a>{user}</a> joined {channel}. They’re also new to {team}.
 message.7f85459: <actor>{actorName}</actor> archived {channelName}. The contents will still be browsable and available in search.
 message.d64b804: <actor>{actorName}</actor> archived {channelName}. The messages and files in this channel are still browsable and available in search. You can unarchive this channel anytime from Channel Details.
 message.67d28d6: <actor>{actorName}</actor> moved {channelName} to another {orgName} workspace. The contents up until this point are still browsable and available in search.
+message.43e9f12: <firstRequester>{firstRequesterName}</firstRequester> and {otherCount, plural, one {# other} other {# others}} requested to join this channel.
 message.1bcda8a: <requester>{requesterName}</requester> requested to join this channel.
 message.0f45926: A deactivated user
 message.51d916f: According to your organization’s policy, you can’t share this file with external people.
@@ -17044,6 +17044,7 @@ prefs.d660049: Accessibility
 prefs.e5a176a: Active only
 prefs.61cc55a: Add
 prefs.83445b6: Add a channel
+prefs.5554c99: Add a delegate
 prefs.2a5ee7b: Add a workspace
 prefs.cf05eca: Add reaction
 prefs.5b1df7d: Add some cool to your workspace with this jazz-inspired Slack theme: {hexCodes}
@@ -17059,6 +17060,7 @@ prefs.b36ed0c: All new posts
 prefs.7843a67: Allow Slack AI to search the web
 prefs.d56a559: Allow animations
 prefs.c66846f: Allow notifications:
+prefs.756c491: Allow others to send messages on your behalf in specific channels. Delegates you add here will see a “From” option in their message composer.
 prefs.0c8123c: Alphabetically
 prefs.d5bf2d0: Already shown
 prefs.246c6d4: Also include {atChannel} and {atHere}
@@ -17073,7 +17075,6 @@ prefs.89e2391: Applies to emoji animation, GIFs, and reactions & effects in hudd
 prefs.cfea419: Apply
 prefs.87b56ec: Are you sure you want to set your verbosity settings to default?
 prefs.410bf23: Are you sure?
-prefs.6d920a5: Ask if I want to toggle my away status when I log in after having set myself away
 prefs.c09e9de: Attachment count
 prefs.21a58f7: Audio & video
 prefs.5fda23d: Author
@@ -17110,7 +17111,6 @@ prefs.36a5cc4: Cmd
 prefs.983524e: Color Mode
 prefs.a93c477: Color hex code
 prefs.1df39aa: Compact
-prefs.2c4b31d: Confirmations and warnings
 prefs.b65463c: Connect
 prefs.c9f72c9: Connect Gmail to log your emails with contacts and leads.
 prefs.0943da7: Connected accounts
@@ -17130,6 +17130,8 @@ prefs.ae1ef01: Dark
 prefs.dae0896: Darker sidebars
 prefs.07c9c3a: Date and time
 prefs.73e6b75: Default translation language
+prefs.12ab214: Delegate
+prefs.7dcccba: Delegates
 prefs.fbcd883: Desktop notifications 
 prefs.baba478: Desktop notifications are disabled
 prefs.d3f0b43: Discard changes?
@@ -17141,6 +17143,7 @@ prefs.7b0aa6d: Does Slack feel noisy?
 prefs.08482ad: Dogfood
 prefs.e9b450d: Done
 prefs.5301648: Edit
+prefs.8a1fc72: Edit channels
 prefs.7c516a7: Edit your last message
 prefs.2e1ca75: Edit {label} color
 prefs.978e8c3: Edited
@@ -17254,6 +17257,7 @@ prefs.09c8ea4: New activity within the last 30 days
 prefs.b7f92f6: New huddles
 prefs.816c52f: No
 prefs.2805395: No VIPs added yet
+prefs.4d85328: No channels added yet. Choose “Edit channels” to add channels this person can send to.
 prefs.d1018aa: No experiments matching <strong>{query}</strong>
 prefs.41c06c1: No one
 prefs.6eef664: None
@@ -17313,12 +17317,14 @@ prefs.e9fdd16: Save Preferences
 prefs.0cd9450: Saved for later
 prefs.aad317c: Screen reader
 prefs.1ef4d3f: Screen reader announcements
+prefs.f73c820: Search for a person to add as a delegate
 prefs.5616c87: Search options
 prefs.9b2261a: Search to add people, apps and workflows
 prefs.c884b97: See more emoji
 prefs.1ed0b58: Selected items
 prefs.7213cc9: Send a notification for
 prefs.f85d29f: Send notifications to my <t1>mobile devices</t1>:
+prefs.3254cc5: Send on behalf
 prefs.17b874d: Sender
 prefs.c07cf13: Set Email Notifications
 prefs.32177b7: Set a default time for reminder notifications:
@@ -17328,9 +17334,9 @@ prefs.09ca55c: Share
 prefs.cfc0f27: Share file…
 prefs.469d5b1: Shift
 prefs.114b300: Show a badge in your channel list ({mentionBadge}) for every message sent
+prefs.30f4d6a: Show attribution when a delegate sends a message on your behalf
 prefs.c240333: Show automatic summary of uploaded files
 prefs.f0f0971: Show icon in macOS menu bar
-prefs.894e1d8: Show me a confirmation when I use {modifierKey}{zKey} to unsend a message I just sent
 prefs.c38872a: Show one-click reactions on messages
 prefs.6e780f3: Show workspaces in {currentTeamName}
 prefs.51b35f6: Single color
@@ -17353,6 +17359,8 @@ prefs.24fae0b: Sync across workspaces
 prefs.f9c56b4: System navigation
 prefs.fa7af7d: Team photo
 prefs.1bdc8f3: Tell us what you’d generally like to be notified about. You can also set specific rules for specific conversations.
+prefs.56d708b: That access has already been removed.
+prefs.0b9fe7c: The delegate is not in the channel you specified.
 prefs.5894841: The last message you sent will be selected and in editing mode
 prefs.16eb2de: The most recent message in the list will be selected
 prefs.a797e30: Theme
@@ -17360,6 +17368,7 @@ prefs.4035d33: Theme colors
 prefs.94d5186: Themes
 prefs.6158788: These act like mentions but can be set for topics that are important to you. <a>Learn more.</a>
 prefs.81ae19f: These appear as a banner on your desktop or mobile device.
+prefs.49f5015: This person can’t be added as a delegate.
 prefs.d56662b: Thread replies
 prefs.76031dd: Thursday
 prefs.eea79af: Time zone
@@ -17389,9 +17398,6 @@ prefs.025dce7: Use this setting to choose whether you want light or dark sidebar
 prefs.944b88d: VIP
 prefs.6491e3d: View your organization’s policies.
 prefs.bc8d25e: Vision assistive
-prefs.e17618b: Warn me about potentially malicious links
-prefs.fb6fc48: Warn me when sharing canvases with external organizations
-prefs.aa7dd10: Warn me when sharing files with external organizations
 prefs.89efa12: We can automatically prompt you to add alt text to your images before sending messages. You can always turn these reminders on or off in the Accessibility section of Preferences.
 prefs.ee4ff35: We noticed you’re in a lot channels. You’re also getting notified about every message in every channel. Want to change that?
 prefs.4c33f40: We turned down the noise
@@ -17414,7 +17420,12 @@ prefs.5397e05: Yes
 prefs.552b22b: You can also press F7 to turn this on or off
 prefs.caa8542: You can improve the way you use Slack by learning our {keyboardShortcutsLink}.
 prefs.e9e6dd4: You can manage translation settings in {languageRegionLink}
+prefs.94a3e70: You can only add delegates in channels.
+prefs.4a4a014: You can’t add yourself as a delegate.
+prefs.43b2ebc: You have reached the maximum of {max_delegates} delegates.
+prefs.27ebed7: You haven’t added any delegates yet. Add someone above to get started.
 prefs.dcf07a3: Your browser does not support desktop notifications. <a>Try using our app instead.</a>
+prefs.b98c933: Your delegates
 prefs.de598e8: Your emails with contacts and leads are saved to the matching records.
 prefs.7597767: Your emails with contacts and leads aren’t logged.
 prefs.de25818: Your manager
@@ -24276,9 +24287,11 @@ slackbot-ai.0b00c20: Finds messages you haven’t answered and drafts replies
 slackbot-ai.b9af02b: Follow-up reminders
 slackbot-ai.3f66052: From
 slackbot-ai.9239ee2: General
+slackbot-ai.bd2cb05: Get Started
 slackbot-ai.fa4f455: Get a briefing on your day, prep for meetings, and more. Click here to say hi.
 slackbot-ai.255ce2a: Get action plan
 slackbot-ai.90e40d5: Get started
+slackbot-ai.38879e9: Get things done automatically
 slackbot-ai.aeb4d6f: Give it another try in a few minutes.
 slackbot-ai.b0d1e1a: Give me a daily sales update from my CRM data every morning.
 slackbot-ai.973bcc3: Give this agent a prompt and a schedule. It runs the prompt for you and sends you what it finds, so you don’t have to ask again.
@@ -24517,6 +24530,7 @@ slackbot-ai.f2f8570: Updated
 slackbot-ai.3ab0d73: Updating…
 slackbot-ai.a6f47e0: Upgrade
 slackbot-ai.3e15a02: Upgrade to Business+
+slackbot-ai.447f94f: Use Tasks to automate a prompt with a schedule.
 slackbot-ai.9ec93a1: Use {calendar} instead
 slackbot-ai.8401143: Use {name} in Slackbot conversations
 slackbot-ai.2caff60: View Skill
@@ -25062,6 +25076,7 @@ slackforce.2b226c7: Ascending
 slackforce.310efbc: Ask Slackbot
 slackforce.e5f90fb: Ask Slackbot to update details or log events.
 slackforce.acdac20: Audio
+slackforce.a589dc7: Available once Slackbot is ready.
 slackforce.b52b36b: Back
 slackforce.5ba07a3: Below
 slackforce.1f5ee9c: Browse recent activity and full record details, and click into fields to make changes.
@@ -25097,13 +25112,13 @@ slackforce.5741fe5: Connect email
 slackforce.1f1ab54: Connect email for your team
 slackforce.a921d52: Connect your Gmail and log emails with your contacts and leads.
 slackforce.03a6aa5: Connect your email
+slackforce.2b20484: Connecting to Salesforce
 slackforce.b37456c: Contact
 slackforce.222e058: Contact an admin to make changes.
 slackforce.e8c84ed: Contact your admin if you continue to see this error.
 slackforce.cceed25: Contact · New
 slackforce.b0dd615: Contacts
 slackforce.2e02623: Continue
-slackforce.959a0cf: Continue to setup
 slackforce.ebde28c: Convert Lead
 slackforce.ed70e7e: Convert lead to opportunity
 slackforce.2f84eea: Copy link
@@ -25512,7 +25527,6 @@ slackforce.81f0542: Turn on email logging
 slackforce.c160945: Turn on logging for your connected Gmail to log emails with your contacts and leads.
 slackforce.3deb745: Type
 slackforce.ab5297f: Type to search
-slackforce.01229c1: Type: {count}
 slackforce.2466c33: Uh oh…
 slackforce.79ae9db: Unable to change owner. Please try again.
 slackforce.f48dfad: Unable to load video. Please try again later.
@@ -25573,6 +25587,7 @@ slackforce.7150d22: Your connected Gmail account changed. Close this email and o
 slackforce.27b445f: Your contacts list is ready to go.
 slackforce.1dd9776: Your email may have been sent. Check your Gmail Sent folder before trying again.
 slackforce.f1e299c: Your emails are being logged.
+slackforce.f5709b3: Your tasks will show up here as soon as setup finishes. It usually takes a few moments.
 slackforce.267dc60: Your team has a Salesforce integration to make viewing data and updating info easier without leaving Slack.
 slackforce.f19e382: You’ll get its messages from now on.
 slackforce.de97cfe: You’ll need to upgrade your plan to access Sales Hub.
