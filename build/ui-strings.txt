@@ -118,7 +118,7 @@
 1D separable convolution is not implemented yet.
 2. Paste the response below, or paste your exported memory file.
 30 seconds left. Dictation will auto-submit.
-:(D?(0,v.SR)(t,F):void 0)??
+:(F?(0,v.SR)(t,D):void 0)??
 :(L?(0,v.SR)(i,P):void 0)??
 :(P?(0,C.SR)(t,!1):void 0)??
 :(ad?(0,eL.SR)(ej,ac):void 0)??
@@ -916,6 +916,7 @@ All files collapsed
 All files expanded
 All folders
 All huddles
+All installed agents and apps
 All invites failed to send. Please try again.
 All items
 All layers in a Sequential model should have a single input tensor. For multi-input layers, use the functional API.
@@ -1277,6 +1278,7 @@ Ask anything. Answers come back as cards you can act on, like replying or checki
 Ask as a card instead
 Ask before actions
 Ask before editing
+Ask before turning on caret browsing with F7
 Ask each time
 Ask for any view. Singer builds it.
 Ask for the omniswitcher Slackbot mode switch hint after the search modal header reload
@@ -2723,6 +2725,20 @@ Composer message is not sendable. Client is offline
 Composer message is not sendable. Draft is not provided or draft does not have draftId
 Composer message is not sendable. This may be due to a missing destination, missing text, or posting restrictions
 Composer primary actions
+Composing a canvas
+Composing a chart
+Composing a checklist
+Composing a conversation
+Composing a list of messages
+Composing a list of people
+Composing a record
+Composing a table
+Composing a visual
+Composing an agenda
+Composing an answer
+Composing an overview
+Composing the key numbers
+Composing the latest status
 Compute Pressure API is not supported.
 Compute pressure delivering; CPU signal source is now pressure
 Computed an empty scene during teardown;
@@ -2764,6 +2780,7 @@ Connect Google Workspace
 Connect Outlook
 Connect Outlook (opens in a new tab)
 Connect Salesforce records (such as accounts, cases, opportunities, leads, etc.) to dedicated Slack channels so customer conversations, context, and data are all side-by-side.
+Connect Salesforce to create this integration.
 Connect Salesforce to map Lead fields.
 Connect Slack to Google Workspace
 Connect Your Account
@@ -2981,6 +2998,7 @@ Copperplate Gothic Bold
 Copperplate Gothic Light
 Copy AI explanation
 Copy Email Address
+Copy Example Request
 Copy GitHub link
 Copy Link
 Copy Org Chart Deep Link
@@ -3337,6 +3355,7 @@ Creates and updates if required the provided calendar event
 Creating and sending emails to customers
 Creating channels
 Creating desktop delegate
+Creating integration
 Creating new background worker video transform device
 Creating notes
 Creating project
@@ -4541,6 +4560,7 @@ Ex: Project Beta
 Ex: Q4 budget, autumn campaign
 Ex: Request Form
 Example HTTP body
+Example request copied to clipboard.
 Example text
 Example workflow link
 Examples on record
@@ -5270,8 +5290,6 @@ Filter Slack activity
 Filter Sources
 Filter account type
 Filter agent sessions
-Filter agents
-Filter agents & apps
 Filter and sort
 Filter apps
 Filter by
@@ -6516,6 +6534,7 @@ Insufficient information.
 Insufficient permissions
 Insufficient record access
 Integrate tools and services into Slack
+Integration created
 Integrations with other apps
 Intentionally closing socket to simulate flakiness
 Intentionally throwing error to simulate flakiness
@@ -7732,6 +7751,8 @@ Malgun Gothic
 Malgun Gothic Bold
 Manage AI
 Manage AI Permissions
+Manage Access
+Manage Access (opens in new tab)
 Manage Agentforce
 Manage Agents
 Manage Audit Logs
@@ -9999,6 +10020,7 @@ Post messages, add members, collect information with a canvas, or browse the ful
 Posting is restricted in this channel
 Posting permissions
 Posts message into the composer
+Posts new leads from a webhook into this channel.
 Posts to #test-feedback-search instead of the feedback hose
 Power Slack with your apps
 Power Slackbot with your tools
@@ -10360,6 +10382,7 @@ Read emoji reactions received in a huddle
 Read more
 Read only
 Read state tracking
+Read the caret browsing 
 Read the view a live voice call starts from
 Read whether huddle sounds are muted
 Readiness checker finished
@@ -11450,6 +11473,7 @@ Search a channel
 Search across people, channels, files, workflows, and more
 Search activity
 Search agents
+Search agents & apps
 Search agents and apps
 Search all GIFs on Giphy
 Search all Google Drive files
@@ -11520,7 +11544,6 @@ Search in this section
 Search in thread
 Search is closing without query while on Search: Clear query session immediately
 Search is closing without query: Clear search session immediately
-Search is opening and session is already active: Clearing timer
 Search is opening in the empty state: Starting new search session
 Search keyboard shortcuts
 Search lists
@@ -11814,6 +11837,7 @@ Send a reviewed Singer message to its selected Slack destination
 Send a scheduled message
 Send a slash command to the API
 Send a summary of due items in channel
+Send a test from your tool, or use the example request below to post one yourself.
 Send additional information to agent
 Send an 
 Send an emoji reaction
@@ -11855,7 +11879,6 @@ Sending to a channel has been turned off by an administrator.
 Sending to a public channel has been turned off by an administrator.
 Sending your verification code
 SendingAudioFailure health policy maximum warnings breached. Falling back to reporting healthy.
-Sends a request to generate a CSV member list which will be downloadable by Slackbot
 Sends a summary to a channel
 Sends all delayed marks to the API
 Sends shared channel invite by email
@@ -12768,6 +12791,7 @@ Something went wrong adding your domain. Please try again.
 Something went wrong creating the channel, please try again.
 Something went wrong creating the session channel. Please try again.
 Something went wrong creating this prompt.
+Something went wrong creating your integration. Try again.
 Something went wrong deleting that memory. Please try again.
 Something went wrong deleting the field. Please try again.
 Something went wrong generating an answer
@@ -13090,6 +13114,7 @@ Step 1 of 2
 Step 1 of 3
 Step 2 of 2
 Step 2 of 3
+Step 3 of 3
 Step delete failed
 Step details
 Step duplicated
@@ -13788,6 +13813,7 @@ This canvas was deleted.
 This canvas was not found.
 This canvas was retired
 This changed just now. Open Versions and pick again.
+This channel already has a lead integration.
 This channel already has the maximum number of skills.
 This channel cannot be archived.
 This channel is linked to a record
@@ -14156,6 +14182,7 @@ Toggle a saved message complete
 Toggle a saved message completed state in redux and call the API
 Toggle all agents
 Toggle audio-only mode
+Toggle caret browsing
 Toggle editor debug overlay
 Toggle mention sub-filters
 Toggle microphone from current value to opposite value
@@ -14327,6 +14354,7 @@ Triggers a side-effect that opens the Request to Purchase Modal
 Triggers a side-effect that opens the ShareAssigneeDialog in client (noop)
 Triggers a side-effect that opens the ShareContactModal in client (noop)
 Triggers a side-effect that opens the Skill Catalog modal (noop)
+Triggers a side-effect that opens the Slackbot Skills modal (noop)
 Triggers a side-effect that opens the Slackbot Tasks modal (noop)
 Triggers a side-effect that opens the SolutionsSetupFlowModal in client (noop)
 Triggers a side-effect that opens the Story Viewer modal in client (noop)
@@ -16056,6 +16084,7 @@ Your huddle is taking notes
 Your huddle is taking notes from its captions. Stop them from the huddle.
 Your huddle link is ready.
 Your inbox, summarized
+Your integration is live. Slack created a webhook and a background workflow for this channel.
 Your internet connection appears to be offline. Your changes have not been saved. Click to retry.
 Your latest edits to this clip weren
 Your latest mentions

@@ -1020,7 +1020,6 @@ agents.c7fdb45: "{skillName}" duplicated
 agents.0736c21: "{skillName}" has been turned off
 agents.68bbc5b: "{skillName}" has been turned on
 agents.376b51d: "{skillName}" removed from Slackbot
-agents.b6e8be0: "{skillSetName}" copied
 agents.a043f53: A scan found potentially unsafe instructions in this skill. Review the full instructions carefully before making a copy.
 agents.50d6325: A-Z
 agents.6b21fb7: About
@@ -1030,7 +1029,6 @@ agents.fb2c404: Add a shared skill
 agents.766aa04: Add a skill to Slackbot
 agents.9cbb3e6: Add an example prompt
 agents.6e95c79: Add new skills
-agents.d61f09b: Add skill
 agents.d531d05: Add to Slackbot
 agents.6b2fa0f: Add your first skill
 agents.aa3a255: Added to Slackbot.
@@ -1079,7 +1077,6 @@ agents.e8e82df: Contains {count, plural, one {# skill} other {# skills}}
 agents.0e73834: Copied to clipboard
 agents.b7c3ca0: Copied!
 agents.2f84eea: Copy link
-agents.a896165: Copy of {skillSetName}
 agents.2ce3176: Copy this link to share the skill
 agents.d946478: Couldn’t create a share link. Please try again.
 agents.1715565: Couldn’t deactivate the skill. Please try again.
@@ -1096,7 +1093,6 @@ agents.aa609a0: Create external link
 agents.03d1805: Create from scratch
 agents.f7fc4f0: Create skill
 agents.3cde32a: Create with Slackbot
-agents.7474aae: Create your own
 agents.5d73cc3: Created by
 agents.d3f0ec6: Created by Slack
 agents.8c29271: Created by you
@@ -1145,7 +1141,6 @@ agents.2856a4c: External links revoked
 agents.bdfa7dc: Failed to add skill set. Please try again.
 agents.6d2ddee: Failed to add skill. Please try again.
 agents.88d7798: Failed to copy link. Please try again.
-agents.3e91f94: Failed to copy skill set. Please try again.
 agents.57033ba: Failed to create skill set. Please try again.
 agents.ae413b7: Failed to create skill. Please try again.
 agents.1dfd031: Failed to duplicate skill. Please try again.
@@ -1203,15 +1198,12 @@ agents.71b35d4: Most relevant
 agents.8b11f91: Needs your input
 agents.bb1fb35: New Conversation
 agents.7f031b1: New conversation
-agents.a7b4904: New skill
 agents.5422db6: New skill created
 agents.472d469: No available apps
 agents.1756acc: No one at your organization will be able to use this skill unless you reactivate it.
 agents.c2e3ac1: No results for "{query}"
 agents.a393b15: No sessions match this filter.
-agents.926a64f: No skills added yet
 agents.f01097f: No skills found
-agents.fbae275: No skills match
 agents.f11224d: No templates found
 agents.6eef664: None
 agents.8b02f3d: Not connected
@@ -1267,7 +1259,6 @@ agents.efc007a: Save
 agents.c0ae8f6: Saved
 agents.c57df54: Search skill templates
 agents.502b0d6: Search skills
-agents.dbcf499: Search your skills
 agents.1a6a5ba: Searching…
 agents.72b68db: See {agentName}’s info, sessions, and settings
 agents.2311486: Send prompt
@@ -1334,7 +1325,6 @@ agents.768e0c1: Title
 agents.e580145: To share this prompt, add a space before the slash “/”.
 agents.24345a1: Today
 agents.cef2fe0: Try Again
-agents.8b38093: Try a different search or clear your filters.
 agents.2aec248: Try this skill
 agents.8807c2b: Turn off
 agents.a0144ae: Turn regular tasks into reusable skills
@@ -1362,7 +1352,6 @@ agents.4a46181: View Instructions
 agents.5559dd0: View only
 agents.519fd31: View profile for {name}
 agents.ca42112: View skill
-agents.ee0c10d: View skill set
 agents.e9901dc: View version history
 agents.f88b55b: View your skills
 agents.38c7397: Want to share your own prompt?
@@ -3773,6 +3762,7 @@ channel_details.3f09874: Available agents
 channel_details.b52b36b: Back
 channel_details.dadf25f: Back to members
 channel_details.0882a07: Be your productivity partner
+channel_details.99613c7: Blocked
 channel_details.c13af6d: Bring the tools you need into this channel to pull reports, start calls, file tickets and more.
 channel_details.069b469: Bring the tools you need into this conversation to pull reports, start calls, file tickets and more.
 channel_details.14649e4: Browse Skills
@@ -4697,7 +4687,6 @@ channel_insights.f231bd9: Channel views
 channel_insights.728298d: Daily
 channel_insights.c65ea4a: Date range
 channel_insights.808d7dc: Default
-channel_insights.f086f5c: Engagement trends
 channel_insights.dc352d2: Exporting channel insights
 channel_insights.99d6336: Last 24 hours
 channel_insights.9f79684: Last 3 months
@@ -4709,13 +4698,12 @@ channel_insights.53bc967: Membership
 channel_insights.f612d56: Message posts
 channel_insights.6d752d4: Message reactions
 channel_insights.d31edb7: Monthly
-channel_insights.c9f9a2d: Next chart
 channel_insights.fd9b359: No activity in this date range.
+channel_insights.d802d23: No data
 channel_insights.1bf30ec: No membership data in this date range
 channel_insights.84f13de: People posted
 channel_insights.9716227: People reacted
 channel_insights.3ac682c: People viewed
-channel_insights.93ca10a: Previous chart
 channel_insights.a2a5bde: Sort by
 channel_insights.ebd62be: Total activity
 channel_insights.547d453: Unable to load Activity
@@ -4726,12 +4714,9 @@ channel_insights.c170aa3: Updated {time}
 channel_insights.69bd4ef: View
 channel_insights.158f3da: Weekly
 channel_insights.9ef0a58: carousel
-channel_insights.69ffaa7: {chartName}, {current} of {total}
-channel_insights.7b03378: {chartName}, {current} of {total}. Channel activity data is available starting {date}
 channel_insights.03cd6f5: {count, plural, =1 {# member} other {# members}}
 channel_insights.cecb29d: {count, plural, =1 {# reaction} other {# reactions}}
 channel_insights.45d5eeb: {count, plural, =1 {# reply} other {# replies}}
-channel_insights.9af014d: {count, plural, =1 {# view} other {# views}}
 channel_insights.2dc96d9: {seriesName} hidden
 channel_insights.194a73a: {seriesName} shown
 channel_invite.0a72f7a: <strong>{invitingUser}</strong> will be notified that their request to invite <strong>{requestedInviteeEmail}</strong> has been denied. You can optionally add a reason for the denial below.
@@ -5829,6 +5814,7 @@ client.b396d1e: Couldn’t send message. You may need to remove formatting or re
 client.0e8e35d: DMs
 client.c10e83c: Data residency
 client.68a4194: Docs
+client.c97501d: Don’t ask me again
 client.22a31d8: Drafts
 client.50f1964: Drafts & sent
 client.bd86ebf: Drafts and sent
@@ -6538,13 +6524,14 @@ code_channels.e4b5a0e: GitHub organization not approved
 code_channels.04091c0: Loading view
 code_channels.9682754: Session channel views
 code_channels.69782c0: Unable to load this view. Please try again later.
+color_picker.0beef3a: Use up and down to move the slider along the Y axis, left and right to move along the X axis.
+color_picker.1fa3bc4: color wheel
 comments.60b9e1c: Hide older comments
 comments.ae00334: Save this file comment
 comments.f560b67: See older comments
 comments.2ff0fa5: Show more actions
 comments.09fc140: Unsave this file comment
 comments.870984d: {date} at {time}
-comms_impact.7501fc7: + {count}
 comms_impact.2d8a6f7: 1 day
 comms_impact.f030c3d: 1 hour
 comms_impact.fdb8d5c: 1 week
@@ -13927,9 +13914,12 @@ menu.48ce9cd: Leave huddle
 menu.33ce417: Loading…
 menu.5495ac3: Manage Salesforce orgs
 menu.6504edd: Manage VIPs
+menu.5b7111c: Manage apps
 menu.bd145d0: Manage conversations
 menu.93307b6: Manage memories
 menu.6e08f35: Manage section
+menu.7568ed8: Manage skills
+menu.f2c2a80: Manage tasks
 menu.1b83163: Mark all as read
 menu.c1ee860: Mark as read
 menu.0c01849: Mark complete
@@ -14925,6 +14915,7 @@ modernselling.c7afdd6: Add missing details
 modernselling.a201440: Add option
 modernselling.f6b9f96: Add people by CSV file
 modernselling.5525beb: Add people individually
+modernselling.0b0ee25: Add people to Slack CRM
 modernselling.730c3b9: Add sort
 modernselling.96f14af: Add team members to help your sales team stay in the know with less effort.
 modernselling.7de2155: Add with Slackbot
@@ -15022,6 +15013,7 @@ modernselling.f579347: Close date changes to…
 modernselling.b99fcb4: Close date has passed
 modernselling.79aa7d8: Close date is within
 modernselling.930c9fd: Close deals faster with your team
+modernselling.ee63709: Close deals faster with your team. People you add can view and manage every sales record in Slack CRM, including the Sales Tracker.
 modernselling.e8ad397: Close deals faster — right here
 modernselling.ef8d2ac: Closing within the next …
 modernselling.6dc658f: Collaborate with my team on deals and accounts
@@ -15259,6 +15251,8 @@ modernselling.3b5db9e: Make sure switching to a new integration is necessary bef
 modernselling.78a664c: Make sure you’re searching by the name of the Salesforce list, or checking for typos.<br></br>You can also head to Salesforce to create a new list.
 modernselling.db877a1: Make time to celebrate with your team
 modernselling.bf58d17: Manage
+modernselling.4921ed7: Manage Access
+modernselling.51fa8e3: Manage Access (opens in new tab)
 modernselling.eb3dcea: Manage Integrations
 modernselling.32133a0: Manage Notifications
 modernselling.7c075aa: Manage Salesforce Users
@@ -17075,6 +17069,7 @@ prefs.89e2391: Applies to emoji animation, GIFs, and reactions & effects in hudd
 prefs.cfea419: Apply
 prefs.87b56ec: Are you sure you want to set your verbosity settings to default?
 prefs.410bf23: Are you sure?
+prefs.c8e8b26: Ask before turning on caret browsing with F7
 prefs.c09e9de: Attachment count
 prefs.21a58f7: Audio & video
 prefs.5fda23d: Author
@@ -17099,7 +17094,6 @@ prefs.18e03e2: Channels
 prefs.643678e: Channels set to “All new posts”
 prefs.b1d1f32: Channels with notifications set to “All new posts”
 prefs.5b31933: Choose if Slack’s appearance should be light or dark, or follow your computer’s settings.
-prefs.e572837: Choose the default language you’d like to translate into.
 prefs.cc64a82: Choose the language you’d like to use with Slack.
 prefs.98f022e: Choose which parts of a message to include and the order in which they are announced.
 prefs.7b00373: Choose your preferred settings for dictating with Steno.
@@ -17124,12 +17118,17 @@ prefs.c78612e: Ctrl+Shift+O
 prefs.081ae3f: Custom
 prefs.c38c6a2: Custom Font
 prefs.ce49566: Custom theme
+prefs.fc7c29a: Customize quick reaction slot 1 of 3, {emoji}
+prefs.c66a102: Customize quick reaction slot 2 of 3, {emoji}
+prefs.2dfaa0d: Customize quick reaction slot 3 of 3, {emoji}
+prefs.784326a: Customize slot 1
+prefs.bc17947: Customize slot 2
+prefs.2791ff4: Customize slot 3
 prefs.81b886d: Customize your screen reader experience
 prefs.689626f: DMs and group DMs
 prefs.ae1ef01: Dark
 prefs.dae0896: Darker sidebars
 prefs.07c9c3a: Date and time
-prefs.73e6b75: Default translation language
 prefs.12ab214: Delegate
 prefs.7dcccba: Delegates
 prefs.fbcd883: Desktop notifications 
@@ -17210,7 +17209,6 @@ prefs.6662c40: Keyboard
 prefs.2666954: Keyboard shortcuts
 prefs.89b86ab: Language
 prefs.3e8dace: Language & region
-prefs.f185e6f: Languages you know
 prefs.824d76b: Learn more
 prefs.767d650: Learn more about Slack Connect
 prefs.df18c0d: Leo Hao
@@ -17404,7 +17402,6 @@ prefs.4c33f40: We turned down the noise
 prefs.381cedd: Web search
 prefs.5656b9b: Wednesday
 prefs.4ffc67b: Weekdays
-prefs.6fd7bf0: We’ll hide the Translate button for messages in these languages. Nice work, polyglot.
 prefs.eb07e10: We’ve turned down the noise
 prefs.32d0e22: What to notify you about
 prefs.4538e18: What to show in Activity
@@ -19546,6 +19543,7 @@ search.844df14: All channels
 search.f7857dc: All files
 search.5a3bbbe: All folders
 search.a5c9713: All huddles
+search.a833fa0: All installed agents and apps
 search.7aeeec0: All people
 search.2c61fbb: All photos and videos
 search.585be06: All pull requests
@@ -19776,9 +19774,6 @@ search.72c84e1: Filter End Date
 search.adcfc52: Filter Sources
 search.1b92c39: Filter Start Date
 search.c54f402: Filter account type
-search.9b26f6c: Filter agents
-search.93303bb: Filter agents & apps
-search.18e5ff2: Filter apps
 search.5b8d97f: Filter by
 search.ea918c0: Filter by Salesforce org
 search.a97f418: Filter by channel type
@@ -20139,7 +20134,10 @@ search.4bbd163: Search DMs
 search.97e32d1: Search DMs at {teamName}
 search.8a4c571: Search across people, channels, files, workflows, and more
 search.9313854: Search actions
+search.f1ff540: Search agents
+search.14edf04: Search agents & apps
 search.2615a44: Search all files
+search.ca3ce8f: Search apps
 search.9c7483f: Search channels
 search.fa3f2bf: Search channels at {teamName}
 search.9ffb52f: Search connectors
@@ -21925,6 +21923,7 @@ singer.29f9bf5: Asking
 singer.b9692bb: Asleep
 singer.f980fb0: Astro
 singer.19ba82e: Astro Singer
+singer.b04189a: At risk
 singer.1afff01: Attach
 singer.05016fb: Attach Singer to the window where your meeting chat is open.
 singer.bbbfbe6: Attach, current step
@@ -21947,6 +21946,8 @@ singer.1a9c58d: Back to {title}
 singer.00544f7: Bad response
 singer.7b05bab: Beta freeze moved to next Thursday.
 singer.3466a48: Blast
+singer.99613c7: Blocked
+singer.7ed5336: Blocker
 singer.54e403a: Bright and friendly.
 singer.3bc880e: Bring Slackbot to your meetings
 singer.0ed5751: Bring Slackbot to {title}?
@@ -22144,6 +22145,7 @@ singer.2cc92f6: End Quiet
 singer.c8de761: End call
 singer.e25cf14: End voice chat
 singer.1f7a4f9: Esc
+singer.aff666f: Escalated
 singer.8a1ddb6: Everything is set to Keep
 singer.10ff9f4: Everything’s frozen in place.
 singer.09fef5d: Failed
@@ -22426,10 +22428,12 @@ singer.2d1a58d: Now paste it in the meeting chat and press Send.
 singer.a48ad17: Now that’s a run.
 singer.9ce3bd4: OK
 singer.e3de5ab: Off
+singer.a045dfa: Off track
 singer.e01fa71: Offline
 singer.3996ed6: Offsite plan
 singer.e0049a6: On
 singer.6268b28: On it. Your card is on its way.
+singer.38350e8: On track
 singer.c8e633f: Oops
 singer.cf9b770: Open
 singer.e505acd: Open Browser
@@ -22572,6 +22576,7 @@ singer.657d274: Review in Chat
 singer.86a9586: Review requested
 singer.6481492: Review your message in Slack to finish sending.
 singer.5804431: Right ⌘
+singer.5a8f23f: Risk
 singer.9cb5732: Rocks ahead. Probably.
 singer.b1b3926: Run
 singer.73989d9: Running
@@ -22982,6 +22987,7 @@ singer.8d3026c: {timeRange} · {provider}
 singer.797dfd0: {time} local time
 singer.19b6d8b: {time} · {count, plural, =0 {nothing open} one {# open} other {# open}} · worst {severity}
 singer.9566c9b: {title} kept in the island
+singer.a93004d: {title}, {count, plural, one {# item} other {# items}}
 singer.a054d47: {title}, {date}
 singer.4ed1c68: {title}: {state}
 singer-file-drop-feedback.5ff5dd8: Adding to your message…
@@ -23896,6 +23902,7 @@ slack_first_crm.04a2122: Confirm
 slack_first_crm.4821ed1: Confirm Salesforce permissions
 slack_first_crm.19e2fd5: Connect Email
 slack_first_crm.aa27afd: Connect Gmail
+slack_first_crm.07f7b26: Connect Salesforce to create this integration.
 slack_first_crm.58d19a6: Connect Salesforce to map Lead fields.
 slack_first_crm.d670a8d: Connect Your Account
 slack_first_crm.c4dcf59: Connect Your Support Email
@@ -23908,11 +23915,13 @@ slack_first_crm.b0dd615: Contacts
 slack_first_crm.fc26554: Content type should be application/json.
 slack_first_crm.2e02623: Continue
 slack_first_crm.af74f7c: Copy
+slack_first_crm.4c4b35e: Copy Example Request
 slack_first_crm.8d60834: Copy forwarding email
 slack_first_crm.d6b45b1: Couldn’t verify email
 slack_first_crm.28e3e33: Create Integration
 slack_first_crm.3f20694: Create a web form at any time by clicking on the channel name and opening the Integrations tab.
 slack_first_crm.cfc0611: Create new key
+slack_first_crm.f6678d8: Creating integration
 slack_first_crm.70afe9e: Dismiss
 slack_first_crm.e9b450d: Done
 slack_first_crm.a479c9c: Download
@@ -23927,6 +23936,7 @@ slack_first_crm.4e04230: Enter a valid key nickname. Nickname can only contain u
 slack_first_crm.6fac5c2: Enter a valid reCAPTCHA key.
 slack_first_crm.031efe8: Enter a valid secret key.
 slack_first_crm.3fa170e: Example HTTP body
+slack_first_crm.f83312e: Example request copied to clipboard.
 slack_first_crm.cf3df62: Example text
 slack_first_crm.001ee79: Failed to update reCAPTCHA setting. Please try again.
 slack_first_crm.f08ab39: Field name
@@ -23947,6 +23957,7 @@ slack_first_crm.c8a4874: Got It
 slack_first_crm.88b48f3: If you haven’t received the verification email, please double-check your email address or check your spam folder.
 slack_first_crm.a4449ad: If your provider didn’t send a confirmation, you’re all set! Send a test email to your support address to make sure it comes into Slack as a case.
 slack_first_crm.02931f7: Incoming field
+slack_first_crm.5df7b08: Integration created
 slack_first_crm.0323bf6: Invite teammates
 slack_first_crm.722fe78: Invite your team
 slack_first_crm.a88452d: I’ll Do This Later
@@ -23979,10 +23990,12 @@ slack_first_crm.bc98198: Next
 slack_first_crm.9ed0f73: No Salesforce Lead fields are available to map.
 slack_first_crm.3c580a4: No forwarding address was found.
 slack_first_crm.baa14a2: Now that your email is verified, you’ll need to set up email forwarding to receive support emails in Slack. Go to your email provider’s settings to set up email forwarding to this email address:
+slack_first_crm.a068d07: Paste this URL into your lead tool’s outbound webhook settings. Send application/json.
 slack_first_crm.8961d3b: Phone number
 slack_first_crm.da7d302: Please complete EAC connection process.
 slack_first_crm.1526a03: Please enter a valid email address (e.g., support@example.com).
 slack_first_crm.a190753: Plus, send email without leaving Slack.
+slack_first_crm.4e7a8cd: Posts new leads from a webhook into this channel.
 slack_first_crm.dd8eaa0: Prevent spam submissions
 slack_first_crm.11da192: Preview in channel
 slack_first_crm.61a505d: Provide your ReCAPTCHA API keys to enable spam prevention in this form. Keys can be set up for free at <link>developers.google.com</link>.
@@ -23998,6 +24011,7 @@ slack_first_crm.cbfc6e9: Salesforce field
 slack_first_crm.341f53d: Secret key
 slack_first_crm.fd6294a: Select a field
 slack_first_crm.7dbc65b: Select reCaptcha key nickname
+slack_first_crm.ee3756e: Send a test from your tool, or use the example request below to post one yourself.
 slack_first_crm.58744ee: Send email without leaving Slack
 slack_first_crm.c3063ef: Set Up Integration
 slack_first_crm.17965c3: Set Up Web Form
@@ -24015,9 +24029,11 @@ slack_first_crm.6db4dd3: Site key
 slack_first_crm.3da4745: Skip
 slack_first_crm.df19c2b: Some email providers, like Gmail, require you to confirm your support address before it’s connected. We’ll send instructions to #{channelName}.
 slack_first_crm.8d886c0: Something went wrong
+slack_first_crm.3e928a9: Something went wrong creating your integration. Try again.
 slack_first_crm.9a3ea05: Something went wrong. Please try again.
 slack_first_crm.575dca3: Step 1 of 3
 slack_first_crm.d80610a: Step 2 of 3
+slack_first_crm.195a1d5: Step 3 of 3
 slack_first_crm.ff5cfec: Stop logging emails in your preferences.
 slack_first_crm.2dacf65: Submit
 slack_first_crm.017868e: Support email
@@ -24029,6 +24045,7 @@ slack_first_crm.3186f37: There was a problem removing your email connection. Giv
 slack_first_crm.ff7c8ea: There was a problem setting up your email connection. Give it a moment and try again.
 slack_first_crm.5bb1f3d: There was a problem updating permissions, please try again.
 slack_first_crm.0257eed: There was a problem verifying your email. Try connecting your inbox again.
+slack_first_crm.c972319: This channel already has a lead integration.
 slack_first_crm.8035d8d: This channel is for everything {channelName}. Use it to collaborate on lead qualification, assignment, and follow-up strategies to move prospects through the pipeline.
 slack_first_crm.7a2ed34: This channel is for everything {channelName}. Use it to coordinate responses, escalate issues, and track the complete support lifecycle from initial contact to resolution.
 slack_first_crm.f3bcef3: This email domain does not match your organization’s verified domain. Any emails sent by your team will be delivered by a substituted email address unless you verify the new domain.
@@ -24039,6 +24056,7 @@ slack_first_crm.042c862: Try again
 slack_first_crm.bfbbe4c: Try later
 slack_first_crm.a5aa418: Turn On
 slack_first_crm.d1f2942: Turn it off anytime
+slack_first_crm.16554d8: URL copied to clipboard.
 slack_first_crm.bd2ddd7: Use a webhook and new leads will be automatically posted in this channel. Connect any tool that can send a web request, like form builders, dialers, or marketing platforms.
 slack_first_crm.0a21ab2: Use data that comes in with the web request. We’ll create a variable for each field you map.
 slack_first_crm.de9f5c3: Variables are replaced with each lead’s values when the message posts.
@@ -24048,6 +24066,7 @@ slack_first_crm.7ce9cbf: Waiting for verification…
 slack_first_crm.cb978ef: We can’t load your Salesforce fields. Close setup and try again.
 slack_first_crm.63f08b2: We can’t load your Salesforce fields. Reconnect Salesforce or ask an admin for access, then try again.
 slack_first_crm.e5b8f14: We had some trouble connecting. Please try again.
+slack_first_crm.b8386b4: Web request URL
 slack_first_crm.3ac2826: Webhook
 slack_first_crm.f8cae6b: Welcome to {channelName}
 slack_first_crm.6b258cb: We’re syncing your data to Slack
@@ -24057,6 +24076,8 @@ slack_first_crm.5a9e7e1: Your Gmail connection doesn’t allow sending yet. Reco
 slack_first_crm.d5f9672: Your Gmail is connected. Turn on logging to save emails to the matching records.
 slack_first_crm.27b445f: Your contacts list is ready to go.
 slack_first_crm.87c9498: Your emails with contacts and leads are now saved to the matching records.
+slack_first_crm.2747fa7: Your integration is live. Slack created a webhook and a background workflow for this channel.
+slack_first_crm.3bcce82: Your message includes fields that aren’t mapped, so posted leads will show them with no value. Remove them from the message, or map the fields.
 slack_first_crm.20c24e8: Your support address is verified
 slack_first_crm.32ec213: Your team can read logged emails
 slack_first_crm.f8fa76e: You’ll sign in to Google next.
@@ -27989,6 +28010,7 @@ view-header.cde3c02: About {userGroupName}
 view-header.b9b41b0: Add channels
 view-header.a5b79f5: Artifacts
 view-header.9e1f19f: Artifacts ({count})
+view-header.99613c7: Blocked
 view-header.bbfa773: Close
 view-header.88d86b7: Closed
 view-header.92f5b68: Currently in Starred

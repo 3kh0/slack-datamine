@@ -505,6 +505,7 @@ functions.workflows.permissions.copy.list: workflow_id
 functions.workflows.permissions.copy.set: permission_type, workflow_id
 functions.workflows.publish: workflow_id
 functions.workflows.restoreFromVersion: workflow_id, workflow_version_id
+functions.workflows.steps.add: after_step_id, input_parameters, step, workflow_id
 functions.workflows.steps.aiFilePrecheck: file_size, mimetype
 functions.workflows.steps.delete: step_id, workflow_id
 functions.workflows.steps.inputs.dynamicOptions.get: function, hierarchical_parameter_name, inputs, option_type, step_function_id, trigger_type, workflow_id, workflow_step_id
@@ -930,7 +931,7 @@ workflows.templates.localize: template_id, template_type
 workflows.templates.setStatus: status, template_id, template_type
 workflows.templates.update: categories, description, icon, madlibs_config, name, steps_configuration, template_id, trigger_configuration, workflow_id
 workflows.templates.validate: name
-workflows.triggers.create: team_id
+workflows.triggers.create: inputs, name, team_id, type, webhook, workflow, workflow_app_id
 workflows.triggers.delete: trigger_id
 workflows.triggers.info: include_workflow_details, trigger_id
 workflows.triggers.list: app_id
@@ -940,4 +941,4 @@ workflows.triggers.prefs.get: workflow_id
 workflows.triggers.preview: trigger_ids
 workflows.triggers.summarize: goal, trigger_description, workflow_description
 workflows.triggers.trip: client_token, context, run_precheck, url
-workflows.triggers.update: name, rotate_webhook_secret, trigger_id, type, workflow
+workflows.triggers.update: inputs, name, rotate_webhook_secret, trigger_id, type, webhook, workflow
