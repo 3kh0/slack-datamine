@@ -89,7 +89,7 @@
 ) are ignored.
 ) is not supported yet.
 ) that performed expensive computation.
-)&&(eH(!1),a4(void 0),ez(so?
+)&&(eH(!1),a2(void 0),ez(so?
 ))),e((0,c.R3)(h)),e((0,c.p4)(h?a:void 0)),p(h?
 ). If you meant to render a collection of children, use an array instead.
 )?l.makeImage(e.slice(8),new u.Ay(t,r,n,i),o?
@@ -839,6 +839,8 @@ Agent or app name
 Agent prompt blocks.actions callback failed
 Agent reasoning
 Agent replies when it can be helpful
+Agent responds automatically
+Agent responds to @mentions
 Agent response
 Agent selection
 Agent session
@@ -863,6 +865,8 @@ Agents and apps
 Agents and apps in channel
 Agents and apps in this channel
 Agents and tools
+Agents respond automatically
+Agents respond to @mentions
 Agents search results
 Agents with temporary access
 Agents with temporary access to this conversation
@@ -1121,6 +1125,7 @@ Anything else you want to add?
 Anything for me?
 Anything important?
 Anything unanswered?
+Anytime they think a message needs a reply.
 Apache Conf
 Aperture priority
 App ACL channel hydration: transient failures, retry required
@@ -3438,7 +3443,6 @@ Customers and clients
 Customizable sections
 Customizable security settings
 Customizable security settings and user roles
-Customize Focused
 Customize Sales Tracker stages
 Customize Your Template
 Customize notifications
@@ -4534,7 +4538,6 @@ Everforest Dark
 Everforest Light
 Every [[recurring_date]], send an activity notification to assignee when an item is not complete and its due date is [[due_date_filter]]
 Every answer is a card
-Every channel and DM, in your sections
 Every contact has a collaborative detail page where your team can log activity, track conversations, and update key info.
 Every day
 Every model is scored with your draft thresholds and boosts. Bold tiers differ from your draft.
@@ -7999,6 +8002,7 @@ Maybe attending
 Maybe automatically redeem a trial during mobile trial team creation
 Maybe automatically redeem a trial for solutions gallery
 Maybe automatically redeem an experiment trial
+Maybe automatically redeem the golden gate Biz+ reverse trial for creator guided setup
 Maybe clog search engagement clickthrough
 Maybe disable screenshare of self
 Maybe hide the green screenshare border on SSB
@@ -9930,6 +9934,7 @@ Pin a view for the current user
 Pin an agent
 Pin anything to the top of your sidebar
 Pin conversation
+Pin or move channel
 Pin or unpin a view for the current user
 Pin or unpin an item in the Focused sidebar view
 Pin participant
@@ -9952,7 +9957,6 @@ Pinned by unknown user.
 Pinned by you
 Pinned by your admin
 Pinned is full
-Pinned, important and recent
 Pins a Slackbot AI NUX kickoff thread ts so its root message can be hidden
 Pins which model serves Slackbot AI turns, or null for the default routing
 Pipeline capacity and transport
@@ -10424,6 +10428,7 @@ Read more
 Read only
 Read state tracking
 Read the caret browsing 
+Read the channel header
 Read the view a live voice call starts from
 Read whether huddle sounds are muted
 Read-only fetch failed
@@ -10832,6 +10837,7 @@ Remove list
 Remove list item
 Remove list?
 Remove meeting transcript
+Remove member
 Remove memory
 Remove mention
 Remove messages by message ID of the form channelId-ts
@@ -13369,6 +13375,7 @@ Switch Google account
 Switch agent
 Switch avatar
 Switch back to production assets
+Switch back to the classic sidebar
 Switch integrations
 Switch or update the workflow trigger
 Switch to Bar Chart
@@ -13587,13 +13594,9 @@ The Primary meeting credentials provided are no longer valid. chime::DeleteAtten
 The ReactIs.isAsyncMode() alias has been deprecated, and will be removed in React 17+. Update your code to use ReactIs.isConcurrentMode() instead. It has the exact same API.
 The URL will be created after you save this information.
 The agent may have been uninstalled or you do not have permission to view it.
-The agent will automatically respond to all messages it thinks need a reply.
 The agent will forward messages to this channel when people request more help.
-The agent will only respond when @-mentioned.
 The agent will use everything from a channel as sources.
-The agents will automatically respond to all messages they think need a reply.
 The agents will only reply when @-mentioned
-The agents will only respond when @-mentioned.
 The amount of computational work that your system performs
 The announcement calls it a new group. It says one hire was meant to restart Enron
 The app is approved. Now you can install it.
@@ -14762,6 +14765,7 @@ Unknown file.
 Unknown initialization error
 Unknown item
 Unknown kind 
+Unknown member
 Unknown message received:
 Unknown node. There is an unknown node in the supplied edges.
 Unknown option 

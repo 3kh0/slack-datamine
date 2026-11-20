@@ -730,7 +730,7 @@ sfdc.getImportObjectAvailableFields: object_type, salesforce_org_id
 sfdc.getImportObjectCSVSample: object_type
 sfdc.getListViews: as_integration_user, sobject_api_name
 sfdc.getListViewsV2: developer_names, limit, object_type, salesforce_org_id, sort_by
-sfdc.getObjectFields: as_integration_user, listview_id, page_size, salesforce_org_id, sort_by_column_key
+sfdc.getObjectFields: as_integration_user, date_last_fetched, listview_id, page_size, salesforce_org_id, sort_by_column_key
 sfdc.getObjectsOfType: object_type, salesforce_org_id
 sfdc.getOpportunity: id, salesforce_org_id
 sfdc.getOwnerChangeOptions: current_owner_id, record_id, salesforce_org_id, sobject_api_name
