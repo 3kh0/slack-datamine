@@ -21927,6 +21927,7 @@ singer.fc4a695: App
 singer.b98aa75: Applying your changes
 singer.7b2c7f1: Approve
 singer.54a5817: Approve Plan
+singer.105328b: Approve plan
 singer.41b81eb: Approved
 singer.089661a: Approved, go ahead.
 singer.1d788ea: Arc Lamp, $54
@@ -21960,6 +21961,7 @@ singer.35f483e: Away, notifications snoozed
 singer.b52b36b: Back
 singer.3860116: Back to Input
 singer.4855132: Back to Messages
+singer.4e47f50: Back to Now
 singer.3630488: Back to Slackbot
 singer.1a9c58d: Back to {title}
 singer.00544f7: Bad response
@@ -22021,6 +22023,9 @@ singer.ccdc6ae: Check your microphone
 singer.802cc3c: Checking for your note.
 singer.098eddc: Checking for your note…
 singer.1fe81d2: Checking if browsing is available for you…
+singer.69aba24: Checks failed
+singer.3097054: Checks passed
+singer.b750554: Checks {done} of {total}
 singer.72cad85: Choose Attach to use this window.
 singer.d2d135c: Choose a skill, then add your context.
 singer.d3da8bd: Choose another window
@@ -22088,6 +22093,7 @@ singer.75a9fcd: Couldn’t load your skills
 singer.d4df57f: Couldn’t open that conversation. Try again.
 singer.517b3bf: Couldn’t open that item. Try again.
 singer.e1f58c2: Couldn’t open this activity. Try again.
+singer.1efcfee: Couldn’t reach the agent. Try again.
 singer.d92b74e: Couldn’t save · open the canvas to edit
 singer.052b8ee: Couldn’t send. Try again.
 singer.ac8f6a8: Countdown’s up to you.
@@ -22376,6 +22382,7 @@ singer.6403f2b: New
 singer.e4cc33d: New Meeting
 singer.10d95f6: New activity lands here when it arrives.
 singer.0eb6323: New activity will show up here.
+singer.3cb7ea0: New file
 singer.1ed2e7b: New message
 singer.3bbfb55: New personal best.
 singer.bc98198: Next
@@ -22443,6 +22450,7 @@ singer.cf9b770: Open
 singer.e505acd: Open Browser
 singer.54d8497: Open Conversation
 singer.a0796da: Open Mini
+singer.3a8319d: Open PR #{number}
 singer.d1da16b: Open Singer
 singer.eec851c: Open Slack
 singer.4e13562: Open System Settings
@@ -22450,6 +22458,7 @@ singer.0671514: Open Thread
 singer.a25d647: Open as chat
 singer.5e59500: Open canvas
 singer.ed441ab: Open channel
+singer.fdee0b0: Open for review
 singer.a70ff38: Open in Salesforce
 singer.6fa88ea: Open in Singer
 singer.3386d02: Open in Slack
@@ -22545,6 +22554,7 @@ singer.edee82b: Recording your microphone. Computer audio is unavailable.
 singer.6025e93: Reduce Motion is on in macOS.
 singer.4a7e2a2: Reduced
 singer.56e3bad: Refresh
+singer.0a35045: Refresh this with the latest data
 singer.2c69f6a: Remember my last choice
 singer.255c9a4: Remember sign-ins
 singer.9bdd931: Remind Me
@@ -22734,6 +22744,7 @@ singer.80c5e79: Stop Task
 singer.962101f: Stop and hide
 singer.ee0d9dc: Stop recording
 singer.8eb277d: Stop talking
+singer.2a6b619: Stop task?
 singer.51e9111: Stopped
 singer.2c856a9: Stopped at the 2-hour limit. Creating notes.
 singer.72f0f48: Stopped listening. Creating notes
@@ -22887,6 +22898,7 @@ singer.fe0710a: Wrap-ups
 singer.5397e05: Yes
 singer.da24830: Yesterday
 singer.905cb32: You
+singer.5434201: You asked
 singer.8e7d0d0: You can’t send messages here. Open in Slack to check access.
 singer.3d1eb4c: You can’t view this file here.
 singer.384d50c: You don’t have access
@@ -22964,11 +22976,11 @@ singer.e553892: {count, plural, =1 {# other} other {# others}}
 singer.2f9a86c: {count, plural, =1 {# person} other {# people}}
 singer.45d5eeb: {count, plural, =1 {# reply} other {# replies}}
 singer.10e31fa: {count, plural, =1 {# result} other {# results}}
+singer.66b7f52: {count, plural, one {# more source} other {# more sources}}
 singer.808dc33: {count, plural, one {# new activity item} other {# new activity items}}
 singer.da61d4b: {count, plural, one {# other} other {# others}}
 singer.07c9e92: {count, plural, one {# skill found} other {# skills found}}
 singer.4492438: {count, plural, one {# task update} other {# task updates}}
-singer.f1388c2: {count} min ago
 singer.fdc6966: {count} new
 singer.98a8d2b: {head} → {base}
 singer.cb2812d: {hours}h
@@ -22983,6 +22995,8 @@ singer.a22da57: {status} until {date}
 singer.8d3026c: {timeRange} · {provider}
 singer.797dfd0: {time} local time
 singer.19b6d8b: {time} · {count, plural, =0 {nothing open} one {# open} other {# open}} · worst {severity}
+singer.a53e9bb: {time}, {count, plural, =0 {nothing open} one {# open} other {# open}}
+singer.e162890: {time}, {count, plural, =0 {nothing open} one {# open} other {# open}}, worst {severity}
 singer.9566c9b: {title} kept in the island
 singer.a054d47: {title}, {date}
 singer.4ed1c68: {title}: {state}
@@ -26998,7 +27012,6 @@ toast.bbfa773: Close
 toast.7f2f6a1: Error
 toast.0eb5ed5: Information
 toast.e9c4556: Warning
-today.d8f2daa: ,rL=new ed.Ay(
 today.854783f: <strong>Missing out on something?</strong> Ask Slackbot to edit your daily briefing.
 today.7cc1d08: A peek at your day
 today.a14a086: AI suggested to-dos are paused.
