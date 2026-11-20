@@ -3145,6 +3145,7 @@ browsers.bd3d2ce: Bring your team members into Slack to start working better tog
 browsers.e2d397a: Canvases
 browsers.6dac438: Canvases and Documents
 browsers.381c4bf: Clear Filters
+browsers.c2db1e0: Close filters
 browsers.e86dc23: Collect and share information with a canvas, or track your next project in a list.
 browsers.2a60704: Collect, share information, and track your next project with a canvas
 browsers.9bbbe36: Collect, share information, and track your next project with a list
@@ -3163,6 +3164,7 @@ browsers.fd6fa78: Easily @mention departments or teams all at once by bundling t
 browsers.4735583: Emails
 browsers.1bcce3a: Fewest members
 browsers.d7decf1: Filter
+browsers.72fad09: Filter options are open
 browsers.6f13fff: Filter results have been updated
 browsers.2f668da: Filter, {filterCount} {filterCount, plural, =1 {filter} other {filters}} applied
 browsers.96e5782: Filters
@@ -9564,7 +9566,6 @@ file.f334cf9: View transcript
 file.89a286c: Workflow options
 file.870984d: {date} at {time}
 file.26d4d69: {name} (you)
-file.c11481b: };var lr=a(
 file.7cbc1b0: ⌘ Click
 file.362e018: ⌘ Opt Click
 file-collection.50d6325: A-Z
@@ -20684,6 +20685,8 @@ setup_page.d42293f: Couldn’t send an invitation to {email}.
 setup_page.61eafdf: Couldn’t send invitations to {emailOne} and {emailTwo}.
 setup_page.6f3c48d: Couldn’t send invitations to {emails}, and {remainingEmailsNum, plural, =1{# other} other{# others}}.
 setup_page.d56f703: Creating your workspace…
+setup_page.6f57834: Data residency for Slack
+setup_page.6c1d226: Data residency for Slack allows global teams to choose the region where certain types of data at rest are stored. Customers must store all Slack data in a single region.
 setup_page.e7596a0: Direct messages
 setup_page.91ea4d3: Dismiss message suggestions
 setup_page.3456bcb: Do later
@@ -20698,6 +20701,7 @@ setup_page.19fce65: Email template
 setup_page.0cf1da7: Enter email addresses, Example: {email1}, {email2}
 setup_page.5c4c2f1: Enter your full name
 setup_page.1913a38: Ex: Acme Marketing or Acme Co
+setup_page.ae92b05: Ex: Q4 budget, autumn campaign
 setup_page.6ce6c51: Files
 setup_page.9e37afd: Fill in your profile
 setup_page.7c49bc0: Financial Services
@@ -20707,6 +20711,7 @@ setup_page.c0d883b: First and last name
 setup_page.834c4d4: For some reason, that didn’t work. Please try again to continue.
 setup_page.1ef70d2: From here, you can message any coworker or channel.
 setup_page.89df370: From here, you can message any coworker or channel. Not seeing the right person in the list above? <a>Add people to Slack</a>
+setup_page.eaabce3: Give your {name} template a name
 setup_page.193a6d5: Go to next step
 setup_page.c8a4874: Got It
 setup_page.e321d24: HORIZONTAL_RULE
@@ -20761,6 +20766,7 @@ setup_page.b37554f: People
 setup_page.c445e21: People added here will have access to your Slack workspace, where they can collaborate with you and each other.
 setup_page.f97147f: Please search by name instead
 setup_page.e82cd59: Project brief
+setup_page.23c01cc: Project name, example: Q4 budget, autumn campaign
 setup_page.4d89a20: Project tracker
 setup_page.6f1764e: Public Sector
 setup_page.58f6c1d: Ready to send your message?
@@ -20779,6 +20785,7 @@ setup_page.9278dcf: Skip this step
 setup_page.fffa0bf: Skip without inviting?
 setup_page.ff8e63c: Slack CRM will be part of your Slack workspace. Choose a name that your team will recognize, like the name of your company or team. You can always update it later.
 setup_page.e21da9e: Slack Connect
+setup_page.7e41dcc: Slack can only handle letters, numbers, spaces, and dashes here, with up to 80 characters. Try again?
 setup_page.f9ee69b: Slack is a simple and fast way for teams to work together — whether you’re sitting side-by-side or scattered across the globe.
 setup_page.ad8448a: Slack works better with more people. Add your core collaborators.
 setup_page.bc471cb: Something went wrong. Try again please.
@@ -20789,11 +20796,15 @@ setup_page.daa9a9f: Start taking advantage of free access to your team’s full 
 setup_page.5874903: Step {stepNumber} of {totalStepsCount}
 setup_page.f275147: Ta-da! Your team’s on a free trial of Slack
 setup_page.d018b08: Technology
+setup_page.d47d1f3: The template you selected will be used to create a channel. Give it a name your teammates will recognize.
 setup_page.b21c97f: This channel will be added to your {otherWorkspaceName} workspace.
+setup_page.2b34226: This could be anything: a campaign, event, or the deal you’re trying to close.
+setup_page.48bfcb3: This could be anything: a project, campaign, event, or the deal you’re trying to close.
 setup_page.ab90d9d: This field is required.
 setup_page.3f25365: This invitation is no longer available. You may want to reach out to the person who sent you this link for help.
 setup_page.3e0d550: This is Slack, a messaging app built for work
 setup_page.9da1708: This is your team — choose a few people you know
+setup_page.789d61b: This name will be the first thing your team sees in reference to your template.
 setup_page.2d0ab40: This will be the name of your Slack workspace.
 setup_page.bb12e8a: Threads
 setup_page.47f64cb: To get started you can only select 10 external people. Don’t worry, you can always start conversations with more people later on!
@@ -20813,9 +20824,11 @@ setup_page.f197e4b: Welcome! Get up to speed by…
 setup_page.1f52262: Welcome! Let’s use this list to manage our tasks: 
 setup_page.de5d60a: Welcome! Let’s use this list to…
 setup_page.6aa2ae7: We’ll put their names in your sidebar, so you can easily start a conversation. (This won’t message or notify them, though.)
+setup_page.b1a2017: What are you working on?
 setup_page.7bcb831: What do you want to call your Slack workspace?
 setup_page.391732c: What does this mean
 setup_page.041e6ec: What’s your name?
+setup_page.485a093: What’s your team working on right now?
 setup_page.acf1543: Where should we store your workspace data?
 setup_page.667fe3c: While you wait for approval, <a>send {member} a message</a> to let them know you accepted the invite.
 setup_page.f9094d6: Who else is on the <t1>{teamName}</t1> team?
@@ -25970,6 +25983,7 @@ solutions.7981a4e: templates
 solutions.899531e: workflow
 solutions.7f47769: workflow icon
 solutions.7335252: {channelName} is ready
+solutions.52aca42: {name} template features:
 solutions.e2c9d5d: {teamName} template
 solutions.9af6499: {teamName} templates
 solutions_onboarding.f9a12b0:  Add a few tasks from your project to get started. If you invite teammates to Slack, you can assign tasks to them from here.
@@ -26269,7 +26283,6 @@ stories_av.3817098: sent an audio clip and a message, "{messageText}"
 stories_av.bd2c65b: top left
 stories_av.c72457b: top right
 stories_av.399e68d: {speed}x
-stories_av.c11481b: };var lr=a(
 stories_av.548653e: ✨ Effects
 string_format.39fc721: Undo
 suggested_channel_preview.c1b8def: {count, plural, =1 {# person is} other {# people are}} part of the conversation in 

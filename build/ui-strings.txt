@@ -98,7 +98,7 @@
 , to keep your task list focused.
 , weights must be provided.
 ,counter:0,seen:new Map,cycles:e?.cycles??
-,e.includeFieldLabel??!1);break;case 45:this.convertVariable_(e.recordId,e.fieldLabel,e.fieldApiName??
+,e.includeFieldLabel??!1);break;case l.LS.CONVERT_VARIABLE:this.convertVariable_(e.recordId,e.fieldLabel,e.fieldApiName??
 ,onClick:k?x:void 0,onKeyDown:k?w:void 0,role:k?
 ,stateArg:null,context:new Context(a?
 ,teamId:n??void 0,responseType:s?.responseType??
@@ -4573,7 +4573,11 @@ Exception during decorator
 Exception during error handler
 Exception during hook
 Exception during transient decorator
+Exception in a connection state listener
+Exception listening to a workspace connection
+Exception recording a connection change
 Exception recording a paste
+Exception stopping a workspace connection listener
 Exclude ANY of these keywords
 Exclude automations
 Exclude bot messages

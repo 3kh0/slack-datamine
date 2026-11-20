@@ -607,7 +607,7 @@ mpim.list: get_latest
 onboarding.fetch: include_team_data, require_invite_list
 onboarding.updateTeam: field_name, field_value
 onboarding.updateUser: field_name, field_value
-payments.cost.get: product_id, promotion_coupon_code
+payments.cost.get: product_id, promotion_coupon_code, user_count
 pins.add: channel
 pins.list: channel
 pins.remove: channel
