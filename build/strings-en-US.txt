@@ -3030,6 +3030,7 @@ block_kit.3094d0e: {caption}, table with {columnCount, plural, =1 {# column} oth
 block_kit.ee168fb: {chartType}: {title}
 block_kit.9e04b10: {count, plural, one {# result} other {# results}}
 block_kit.7e20641: {current} of {total}
+block_kit.92ac54c: {enter_icon} Press 'enter' to submit
 block_kit.e08f461: {fileCount, plural, =1 {# file uploaded.} other {# files uploaded.}}
 block_kit.55f37e1: {fileName} uploaded successfully.
 block_kit.a3b21e6: {label} Slackbot skill.
@@ -22111,6 +22112,7 @@ singer.23d33e2: Draft
 singer.95caac6: Draft PR
 singer.77522ab: Draft a reply to {name}
 singer.32c30b7: Draft added. Review it before sending.
+singer.a706abd: Draft saved
 singer.84e7338: Draft with Slackbot
 singer.9076dbd: Drag Singer onto the meeting window
 singer.2ffeefd: Drag Singer onto the meeting window if this isn’t correct
@@ -26222,6 +26224,8 @@ stories_av.548653e: ✨ Effects
 string_format.39fc721: Undo
 suggested_channel_preview.c1b8def: {count, plural, =1 {# person is} other {# people are}} part of the conversation in 
 suggested_channel_preview.77d6f27: {inviterName} {count, plural, =0 {is} =1 {and # other is} other {and # others are}} part of the conversation in 
+surface-tab.93cccf5: Add a person or channel
+surface-tab.92d41f5: Back to Current
 surface-tab.77dfd21: Cancel
 surface-tab.bbfa773: Close
 surface-tab.fce06e2: Comments
@@ -26233,6 +26237,8 @@ surface-tab.f971d95: Couldn’t make this version current.
 surface-tab.1fb4e21: Couldn’t open this version.
 surface-tab.4a2419d: Couldn’t rename this dashboard.
 surface-tab.997e901: Couldn’t rename this report.
+surface-tab.cafe8fd: Couldn’t send the message, so it’s saved as a draft.
+surface-tab.209fe7a: Couldn’t write a draft. You can write your own.
 surface-tab.4fc0e2b: Current
 surface-tab.6d8211c: Dashboard refreshed
 surface-tab.2fa37cc: Dashboard title
@@ -26242,15 +26248,21 @@ surface-tab.c5fb7da: Delete dashboard
 surface-tab.efc8fda: Delete surface
 surface-tab.2bc49ff: Delete this version?
 surface-tab.c99ba17: Delete version {title}
+surface-tab.a706abd: Draft saved
 surface-tab.9996af5: Enter a title.
 surface-tab.09fef5d: Failed
 surface-tab.7d3291f: Failed to load surface
 surface-tab.02e3c3e: Generated {dateTime}
+surface-tab.f870973: Last refreshed {ago}
 surface-tab.b8043fa: Loading versions…
+surface-tab.16fd2e0: Make Current
+surface-tab.68f4145: Message
+surface-tab.9cf1b68: Message sent
 surface-tab.86c0a35: More options
 surface-tab.e2d0d4a: No comments on this surface yet.
 surface-tab.9035ed3: No data sources were recorded for this surface.
 surface-tab.d8fcfe9: No earlier versions yet.
+surface-tab.28d886f: Only you can see this. Others see the current version.
 surface-tab.a75732d: Open in new window
 surface-tab.03a322d: Open in split view
 surface-tab.c0a8060: Original
@@ -26266,6 +26278,9 @@ surface-tab.02f5c8e: Report title
 surface-tab.b1b3926: Run
 surface-tab.26bb502: Run this skill?
 surface-tab.efc007a: Save
+surface-tab.cc1316d: Save Draft
+surface-tab.9bc2575: Send
+surface-tab.dc2661e: Send a message
 surface-tab.09ca55c: Share
 surface-tab.163d817: Showing
 surface-tab.2eb56be: Sources
@@ -26287,10 +26302,13 @@ surface-tab.84c3359: This data source’s tool isn’t available.
 surface-tab.983db17: This link can’t be opened from a dashboard.
 surface-tab.ba66621: This version is now current.
 surface-tab.710e638: This will run “{name}” in your Slackbot conversation.
+surface-tab.ae79ea1: To
 surface-tab.e5fd9aa: Unknown error
 surface-tab.07b032b: Unread
 surface-tab.6135054: Version deleted.
 surface-tab.a239107: Versions
+surface-tab.1c8b33a: Writing a draft…
+surface-tab.5ff5cd7: Your admins haven’t turned on Slackbot’s AI for you, so write this message yourself.
 surface-tab.522c3ee: {count, plural, =0 {No replies yet} =1 {# reply} other {# replies}}
 surface-tab.27a52a8: {failed} of {total} data sources didn’t refresh.
 surface-tab.9595c4c: {failed} of {total} data sources didn’t refresh. The dashboard was last fully refreshed {ago}.

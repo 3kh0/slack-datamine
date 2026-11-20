@@ -144,6 +144,7 @@ ai.alpha.summarize.channelUnreads: channel, channel_summary_type, end_ts, last_u
 ai.alpha.summarize.feedback: additional_feedback, canvas_id, channel_digest_id, file_id, include_message_content, rating, summary_channel, summary_id, summary_type
 ai.alpha.summarize.thread: channel, initiated_by, latest_ts, thread_ts, variant
 ai.alpha.surfaces.deleteVersion: file_id, version_id
+ai.alpha.surfaces.generateActionDraft: action, card_context, file_id
 ai.alpha.surfaces.getContent: file_id, version_id
 ai.alpha.surfaces.getData: file_id, source
 ai.alpha.surfaces.listVersions: file_id
