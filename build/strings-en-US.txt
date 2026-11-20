@@ -1032,6 +1032,7 @@ agents.7aab4d5: Bring your favorite skills from other platforms
 agents.14649e4: Browse Skills
 agents.98e11fe: Browse agents
 agents.3874b09: Browse skills
+agents.6d9e4bc: Browse templates
 agents.7bc2d21: Build from scratch
 agents.8af5dea: Build with Slackbot
 agents.1d960ec: By Slack
@@ -6036,7 +6037,6 @@ code-channels-browser.5ce2e6f: Agent
 code-channels-browser.05989d8: Agent sessions
 code-channels-browser.b2fc5bc: Agent thread · {ago}
 code-channels-browser.ad2571a: Agent threads
-code-channels-browser.8d3d657: Agent: {agent}
 code-channels-browser.6a72085: All
 code-channels-browser.6a5f390: All sessions
 code-channels-browser.6405179: All statuses
@@ -6063,8 +6063,6 @@ code-channels-browser.4e2f50a: Create a Code Channel
 code-channels-browser.e49132c: Create a Session Channel
 code-channels-browser.8c29271: Created by you
 code-channels-browser.817b79b: Creator
-code-channels-browser.9b6f8fb: Creator: You
-code-channels-browser.61e19c3: Creator: {name}
 code-channels-browser.56db6a4: Describe the task you’d like the agent to help with.
 code-channels-browser.dc3decb: Details
 code-channels-browser.e9b450d: Done
@@ -9020,6 +9018,7 @@ enterprise_dashboard.cfea419: Apply
 enterprise_dashboard.44aaaaa: Approve who can use or request {appName} in workflows. Your choice will apply to the listed workflow options, and it will be the default setting for future {appName} additions.
 enterprise_dashboard.df24c94: Apps to connect
 enterprise_dashboard.b52b36b: Back
+enterprise_dashboard.6d9e4bc: Browse templates
 enterprise_dashboard.7bc2d21: Build from scratch
 enterprise_dashboard.77dfd21: Cancel
 enterprise_dashboard.814b7e2: Can’t approve {appName}. Please try again.
@@ -9054,9 +9053,11 @@ enterprise_dashboard.d7decf1: Filter
 enterprise_dashboard.0940563: Filter by channel name
 enterprise_dashboard.4781eeb: Filter by name…
 enterprise_dashboard.be8b62a: Filter by workspace
+enterprise_dashboard.f45cf16: Get more info
 enterprise_dashboard.32357ac: Give Slack permission to automatically connect people’s accounts to their Google Workspace account for this domain.
 enterprise_dashboard.e3e3a56: Global Administrator access required. Share <a>this link</a> with your Global Administrator to get set up.
 enterprise_dashboard.53af77c: Global Administrator access required. Share this link with your Global Administrator to get set up.
+enterprise_dashboard.6a63d5a: Got repetitive tasks? Try workflows.
 enterprise_dashboard.b2acc20: Grant Slack access to Google
 enterprise_dashboard.6b45d93: Grant Slack access to Office 365
 enterprise_dashboard.2a17b82: IDP
@@ -19486,10 +19487,6 @@ search.6218311: 3 characters required
 search.7ff2a8e: <b>Connected!</b> Results from connected apps will now start appearing in search. Manage or connect more apps here, anytime.
 search.ef4ef01: <b>Connected!</b> Results from connected apps will now start appearing in search. Manage them here, any time.
 search.96c5217: <slackbotLabel>Ask Slackbot</slackbotLabel> <description>in your own words to search differently across more sources.</description>
-search.b49ef4c: <strong>{count, plural, =1 {# match} other {# matches}}</strong> found. <link>View full search results</link>
-search.b670cd6: <strong>{count, plural, =1 {# result} other {# results}}</strong> found. Hit enter to expand search.
-search.ae7c0a7: <strong>{count}+ matches</strong> found. <link>View full search results</link>
-search.feb5f55: <strong>{count}+ results</strong> found. Hit enter to expand search.
 search.2a9c572: <strong>{count}</strong> results found
 search.dff3386: A DM with someone
 search.ae40845: A channel
@@ -19664,8 +19661,6 @@ search.0bf03b1: Could we ask you a few quick questions about your most recent se
 search.8250067: Could we ask you a few quick questions about your most recent search?
 search.cf3209c: Couldn’t join {channelName}.
 search.a3f6f56: Couldn’t leave {channelName}.
-search.11992d1: Couldn’t search this channel. Try again in a moment.
-search.090da8d: Couldn’t search this conversation. Try again in a moment.
 search.6e157c5: Create
 search.daaf089: Create Channel
 search.3d1ee95: Create New Section
@@ -19955,18 +19950,14 @@ search.79e5467: Newer result
 search.d044282: Newest
 search.96836a4: Newest channel
 search.bc98198: Next
-search.d2f0cc5: Next result
 search.a6fd981: No agents or apps are available in this workspace.
 search.7fee04a: No direct messages match your search.
 search.ac1fe62: No matches in this channel
-search.11afd03: No matches in this channel. <link>Search everywhere</link>
 search.ea67822: No matches in this conversation
-search.df0c52e: No matches in this conversation. <link>Search everywhere</link>
 search.c8ece08: No matches in your suggested records
 search.0f112c9: No matching sessions or workflows
 search.bb60f28: No recent agents
 search.651e0e7: No recent matches
-search.c7aefbd: No recent matches. Hit enter to search all messages.
 search.b993b0c: No results
 search.658e79f: No results found
 search.3155fc9: No workflows or tasks are available in this workspace.
@@ -20052,7 +20043,6 @@ search.25c4116: Presentations
 search.a678bed: Press enter to search
 search.c735517: Press enter to search. Use delete to remove keywords or Esc to exit search
 search.f1fbb2b: Preview
-search.1e1f77c: Previous result
 search.9db108b: Privacy Policy
 search.237dfa0: Private
 search.1747dcb: Problem getting records from Salesforce
@@ -20172,7 +20162,6 @@ search.6e913a6: Search workspaces
 search.1b4a285: Search {channelName}
 search.775f7ad: Search {keywords} {channelName}
 search.787447b: Search: {query}
-search.6920b90: Searching for more results…
 search.6dfac97: Searching in this conversation
 search.1a6a5ba: Searching…
 search.8050cd9: Section actions
@@ -20516,6 +20505,7 @@ search.66071ef: {label}, {count} selected
 search.c4a0bf4: {label}, {summary}
 search.8c14b8a: {label}, {unreadCount, plural, =1 {# unread} other {# unreads}}
 search.468ddec: {label}: {value}
+search.80c5267: {matchCount, plural, =1 {# match in your sidebar} other {# matches in your sidebar}}, {count, plural, =1 {# related result} other {# related results}}
 search.ae02600: {name} (Deactivated)
 search.c6cdc67: {name} workspace
 search.d8dd14f: {name}: {value}
@@ -23045,6 +23035,7 @@ slack-docs.ff34d15: Automate processes like creating briefs, assembling reports 
 slack-docs.a15fde5: Automation
 slack-docs.b52b36b: Back
 slack-docs.95e1b62: Back to all templates view
+slack-docs.6d9e4bc: Browse templates
 slack-docs.1d960ec: By Slack
 slack-docs.77dfd21: Cancel
 slack-docs.a3f80b8: Canvas
@@ -24362,6 +24353,7 @@ slackbot-ai.cac330d: No projects yet
 slackbot-ai.6cb412d: No recent conversations
 slackbot-ai.658e79f: No results found
 slackbot-ai.578f60a: No runs yet
+slackbot-ai.d7c07a0: No tasks found
 slackbot-ai.1562a21: No tasks yet
 slackbot-ai.6eef664: None
 slackbot-ai.e457149: Not now
@@ -24607,8 +24599,8 @@ slackbot-ai.c445a5f: {title}, awaiting action
 slackbot-ai.d4c72fe: {title}, in a project
 slackbot-ai.d9c9a5e: {title}, responding
 slackbot-ai.f909122: {title}, unread
+slackbot-ai.4a77481: {usedRuns}/{totalRuns} daily runs
 slackbot-ai.9554580: {usesRemaining, plural, =1 {# message} other {# messages}} left in your preview.
-slackbot-ai.512dbd3: “{prompt}”
 slackbot-ai-conversation-tab-view.364e701: New Chat
 slackbot-ai-conversation-tab-view.a75732d: Open in new window
 slackbot-ai-conversation-tab-view.03a322d: Open in split view
@@ -26353,7 +26345,6 @@ tabbed-channel.a2a752c: Auto-generated from Structured Intelligence
 tabbed-channel.5ccecb7: Automate everyday tasks
 tabbed-channel.ca3cddd: Bookmarks
 tabbed-channel.e7ebd04: Both you and {member} will have access to what you add here.
-tabbed-channel.7bc2d21: Build from scratch
 tabbed-channel.77dfd21: Cancel
 tabbed-channel.3de65b9: Cannot add tab.
 tabbed-channel.a3f80b8: Canvas
@@ -26379,6 +26370,7 @@ tabbed-channel.9438458: Delete link
 tabbed-channel.dc3decb: Details
 tabbed-channel.fc7f864: Direct message
 tabbed-channel.df0e254: Discover new skills for Slackbot here
+tabbed-channel.70afe9e: Dismiss
 tabbed-channel.6d8d09f: Draft a meeting agenda
 tabbed-channel.94dbf85: Draft it quick with AI
 tabbed-channel.d9869a5: Draft meeting agenda for {channelName}
@@ -26436,6 +26428,7 @@ tabbed-channel.71b35d4: Most relevant
 tabbed-channel.a7e1276: Move to folder
 tabbed-channel.c0a3ef6: Move to…
 tabbed-channel.91cdbbd: Moved {fileName} to folder <link>{folderName}</link>
+tabbed-channel.6403f2b: New
 tabbed-channel.1bfea76: New Resource
 tabbed-channel.bbeec6f: New Tab
 tabbed-channel.fa52776: New blank canvas
@@ -26470,6 +26463,7 @@ tabbed-channel.d7a3c8f: Questions or feedback? Visit <channelLink>#feedback-stru
 tabbed-channel.1c4fed9: Recap my past week in Slack
 tabbed-channel.ba2509b: Recap past week in {channelName}
 tabbed-channel.f70f386: Recent huddles
+tabbed-channel.9ef9375: Recommended
 tabbed-channel.75e1bf0: Reconnect account
 tabbed-channel.1c54132: Record
 tabbed-channel.1b56311: Record details
@@ -26501,6 +26495,8 @@ tabbed-channel.d4d25bc: Share this file?
 tabbed-channel.fcea0d7: Share this list?
 tabbed-channel.62dea05: Share this surface?
 tabbed-channel.50d0d8d: Shared
+tabbed-channel.4c852b2: Show less
+tabbed-channel.25911d4: Show more
 tabbed-channel.e09212c: Skills
 tabbed-channel.99de3e9: Some people can’t view this canvas
 tabbed-channel.417f137: Some people can’t view this list

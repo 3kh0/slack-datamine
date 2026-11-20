@@ -688,7 +688,7 @@ search.autocomplete.triggers: current_channel_id, query, strict_exposure_rules, 
 search.autocomplete: limit, query, query_suggestion_limit, type, use_hash
 search.delete: hash, terms, type
 search.enterprise: count, cursor_mark, include_bots, include_counts, include_dangling, include_deleted, query, sort, sort_dir
-search.inline: channel, count, cursor, extract_len, find_in_thread, query, thread_replies, thread_ts, token
+search.inline: channel, count, cursor, find_in_channel, find_in_thread, query, thread_ts, token
 search.modules.channels: browse, channel_type, count, cursor, exclude_my_channels, module, query, sort, sort_dir
 search.modules.external: app_id, client_req_id, cursor, highlight, query, query_rewrite_disabled, search_app_args
 search.modules.files: canvas_template_type_filter, count, exclude_org_visible, file_title_only, filters, module, only_org_visible, page, query, search_exclude_bots, skip_excluding_canned_templates, sort, sort_dir
