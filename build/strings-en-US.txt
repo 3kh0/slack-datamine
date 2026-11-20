@@ -16165,6 +16165,10 @@ msg_input.2d20629: Remove link preview
 msg_input.591e0e8: Send comment
 msg_input.9e98160: Show attachment
 msg_input.0424f6e: Table
+msg_input.5126368: Table with 1 row and 1 column
+msg_input.4efbe64: Table with 1 row and {columns} columns
+msg_input.897b1f7: Table with {rows} rows and 1 column
+msg_input.865f394: Table with {rows} rows and {columns} columns
 msg_input.5065dad: That’s a bit too long to paste
 msg_input.2b78fac: This conversation shows automated updates from Slackbot. <link>Start a new conversation.</link>
 msg_input.cc4feec: To keep things running smoothly, there’s a limit on the number of characters you can paste into Slack.
@@ -18228,7 +18232,6 @@ quip_collab.cf05eca: Add reaction
 quip_collab.e30eff9: Alt
 quip_collab.13eb288: Anchor Link Not Copied
 quip_collab.3dcc5ef: Another User
-quip_collab.b5fdccd: Applied {style_name}
 quip_collab.befde54: Apr
 quip_collab.a039390: April
 quip_collab.1afff01: Attach
@@ -18260,6 +18263,8 @@ quip_collab.443c9a4: Canvas preview
 quip_collab.4d4ce73: Card
 quip_collab.a8f9add: Card View
 quip_collab.5b36c5a: Card view
+quip_collab.0d3fd26: Cells merged
+quip_collab.ff8de49: Cells unmerged
 quip_collab.66c7734: Chart
 quip_collab.8fbe23d: Check a list item
 quip_collab.9f6811e: Checkbox checked
@@ -18280,7 +18285,6 @@ quip_collab.adac693: Code
 quip_collab.e8e529b: Code Block
 quip_collab.c7bd2af: Code block
 quip_collab.6b2e25a: Code block style
-quip_collab.93797c4: Code formatting
 quip_collab.fa473a7: Collapse or expand section
 quip_collab.61607a0: Comments cannot span multiple sections.
 quip_collab.04a2122: Confirm
@@ -18304,8 +18308,8 @@ quip_collab.2c906f0: Copy link to message
 quip_collab.244fac8: Copy link to section
 quip_collab.ac04308: Copy link to video
 quip_collab.fcc2d7d: Copy object
+quip_collab.fe1bea5: Could not display table.
 quip_collab.075b00c: Create a Workflow
-quip_collab.17b9094: Created horizontal rule
 quip_collab.dd6a02a: Ctrl
 quip_collab.629d54b: Custom font color
 quip_collab.38d13bd: Cut
@@ -18403,12 +18407,13 @@ quip_collab.716f63b: Icon
 quip_collab.50e19fd: Image
 quip_collab.007f5d8: Indent a list item
 quip_collab.4b77fb6: Inline View
+quip_collab.b64cad9: Insert column
 quip_collab.4d4ac9a: Insert link
+quip_collab.a8c2d02: Insert row
 quip_collab.b1e4afe: Insufficient permissions
 quip_collab.9192923: Insufficient record access
 quip_collab.1ebf32a: Invalid session
 quip_collab.1616e2e: Italic
-quip_collab.3b9b072: Italics
 quip_collab.efed369: Jan
 quip_collab.7a22d73: January
 quip_collab.b737558: Jul
@@ -18462,7 +18467,6 @@ quip_collab.e36f592: More Options
 quip_collab.14373e5: Move a list item down
 quip_collab.67ae66a: Move a list item up
 quip_collab.6403f2b: New
-quip_collab.252f486: New Style
 quip_collab.103101b: Next Result
 quip_collab.56b5224: Next line
 quip_collab.fac121f: No primary action available for this content
@@ -18496,6 +18500,7 @@ quip_collab.372a2b4: Paste options menu hidden
 quip_collab.f91f868: Paste options menu showing
 quip_collab.170a28a: Period
 quip_collab.ed212fa: Placeholder
+quip_collab.1548ded: Placeholder: {base_name}
 quip_collab.bbb40a6: Plain Text
 quip_collab.eb40c96: Preview of uploading file
 quip_collab.27e1667: Previous Page
@@ -18538,6 +18543,7 @@ quip_collab.d6356f4: Replace in document
 quip_collab.fea438b: Replace mode enabled
 quip_collab.eed6bfb: Required
 quip_collab.6e5f72d: Requires Sales Elevate access
+quip_collab.e14b8fb: Row {start_row} column {start_column} to row {end_row} column {end_column} selected
 quip_collab.1ee39fb: Salesforce Data Format
 quip_collab.b5daec3: Salesforce Data Mention
 quip_collab.77985e5: Salesforce List
@@ -18580,6 +18586,11 @@ quip_collab.f56c11c: Switch to URL
 quip_collab.01c07e4: Switch to card
 quip_collab.fe06eb6: Tab
 quip_collab.0424f6e: Table
+quip_collab.ec252d8: Table selection cleared
+quip_collab.5126368: Table with 1 row and 1 column
+quip_collab.4efbe64: Table with 1 row and {columns} columns
+quip_collab.897b1f7: Table with {rows} rows and 1 column
+quip_collab.865f394: Table with {rows} rows and {columns} columns
 quip_collab.5b99997: Take Over
 quip_collab.ed59b2f: Tap to {edit} or {create_a_list}
 quip_collab.3ec1ae0: Template
@@ -18659,20 +18670,33 @@ quip_collab.a26aafc: insert
 quip_collab.a7f8e7c: just now
 quip_collab.4f0aa52: link
 quip_collab.38b62be: list
+quip_collab.96cdd53: list record
 quip_collab.6f9b9af: message
 quip_collab.c9bc849: now
 quip_collab.943992d: private channel
 quip_collab.085f484: reader view
+quip_collab.383d2e9: row {row} column {column}
+quip_collab.5df5e5b: spans {col_span} columns
+quip_collab.2324558: spans {row_span} rows
 quip_collab.2dd2bed: today
 quip_collab.7f3aa7f: today {time}
 quip_collab.12dea96: user
 quip_collab.00bc16f: view only
+quip_collab.d685fbd: with commented content
+quip_collab.ce20fa2: with interactive content
+quip_collab.d1cd3d2: with locked content
 quip_collab.1aa96b8: yesterday
 quip_collab.d74f1c4: yesterday at {time}
 quip_collab.937d628: yesterday {time}
 quip_collab.111222e: {bg_color} highlight
+quip_collab.19baf8e: {count, plural, one {1 column} other {{count} columns}}
+quip_collab.f816bc7: {count, plural, one {1 row} other {{count} rows}}
 quip_collab.261b4ba: {count, plural, one {<b>1 match</b> found} other {<b>{count} matches</b> found}}
 quip_collab.c7fa526: {count, plural, one {<b>{position} of {count}</b> match} other {<b>{position} of {count}</b> matches}}
+quip_collab.1ca6cde: {count, plural, one {Inserted 1 column} other {Inserted {count} columns}}
+quip_collab.c642526: {count, plural, one {Inserted 1 row} other {Inserted {count} rows}}
+quip_collab.000b02a: {count, plural, one {Removed 1 column} other {Removed {count} columns}}
+quip_collab.6ba0966: {count, plural, one {Removed 1 row} other {Removed {count} rows}}
 quip_collab.f72503f: {count} instances replaced
 quip_collab.92e1961: {count} instances replaced.
 quip_collab.e49c038: {count} instances skipped.
@@ -25226,7 +25250,6 @@ slackforce.7666588: Give teammates access to Slack CRM
 slackforce.821fcc7: Gmail connected, but logging didn’t turn on. Try again.
 slackforce.15c7686: Gmail connected. Your emails are being logged.
 slackforce.b43864a: Gmail is connected for your team. Turn on email logging to save emails with your contacts and leads automatically.
-slackforce.f03e2d0: Go Back
 slackforce.5b8027f: Got it
 slackforce.0aeb051: Great! I’m going to look for recent conversations, messages, or events related to sales. I’ll use what I find to add records to the Sales Tracker.
 slackforce.ebb7e14: Group name
@@ -25301,6 +25324,7 @@ slackforce.bc98198: Next
 slackforce.ea33854: No filters available
 slackforce.58348de: No matching updates from past 30 days
 slackforce.78996e5: No sales-related conversations found.
+slackforce.fac5d99: No suggestions found in Slack
 slackforce.b1e5359: Not Now
 slackforce.98aa8fe: Nothing to show for these filters.
 slackforce.f0217a3: Notify the new owner
@@ -25395,6 +25419,7 @@ slackforce.735ceb6: Saving to Salesforce
 slackforce.bce0641: Search
 slackforce.0a6a01b: Search accounts
 slackforce.4210f27: Search contacts
+slackforce.e2e904a: Search failed
 slackforce.6c948ed: Search for Salesforce info
 slackforce.7dd919e: Search for new owner
 slackforce.c5be552: Search for sales data in Slack
@@ -25502,7 +25527,7 @@ slackforce.e3e503e: This file cannot be previewed.
 slackforce.939ee45: This file is too big to open in Slack.
 slackforce.46b8c9f: This lead’s owner is inactive. Please contact your administrator to reassign ownership.
 slackforce.7f6da10: This list can’t be viewed in Slack
-slackforce.e9b7996: This might be a moment — feel free to continue using Slack and we’ll bring you back here.
+slackforce.fe7deec: This might be a moment — feel free to continue using Slack and we’ll let you know when it completes.
 slackforce.4a636dd: This might take a moment. Feel free to use Slack, and we’ll take you back here when I’m done.
 slackforce.1be58c0: This tool uses AI to generate responses, so some information may be inaccurate.
 slackforce.1fffbd9: This {objectLabel} has already been deleted.
