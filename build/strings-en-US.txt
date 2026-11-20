@@ -931,6 +931,8 @@ advanced_security.d193465: Set up SCIM user management
 advanced_security.5e6c24a: Sign in with your IDP of choice, like Okta, Google, or Azure. Without SSO, your team relies on passwords — harder to manage and secure.
 advanced_security.e0f92e0: Strengthen security for your workspace
 advanced_security.3e15a02: Upgrade to Business+
+agent-composer-toolbar.1a9fe9d: Send next
+agent-composer-toolbar.02f4a3c: Steer
 agent-view-tab.a479c9c: Download
 agent-view-tab.774025d: Download file
 agent-view-tab.5fbd666: HTML file created by @{agent_name}
@@ -2494,9 +2496,11 @@ assistant.9a3ea05: Something went wrong. Please try again.
 assistant.adc4e96: Sort
 assistant.d952db5: Sort by {sortLabel}
 assistant.12c0612: Speaking speed: {speed, number}x
+assistant.0685d51: Speaking…
 assistant.e61561a: Starred
 assistant.2d9a33d: Start New Call
 assistant.ccdaf21: Start date (ex. {dateExample})
+assistant.448b232: Start live voice call
 assistant.65d0752: Stay in the loop on channels you care about
 assistant.febf9ab: Stop Recaps
 assistant.0708f58: Stop receiving recaps
@@ -2543,6 +2547,8 @@ assistant.5a822cf: Summary took too long
 assistant.5621678: Summary was returned quickly
 assistant.3e44c92: Switch
 assistant.8c6cd86: Take the work out of work with Slackbot
+assistant.7937b32: Talk instead of typing
+assistant.7b5637e: Talk through your day, get quick answers, draft messages, and more with Slackbot voice mode.
 assistant.7bb0ddf: Task
 assistant.62ed4cf: Task conversation
 assistant.090ec5f: Tasks
@@ -2583,6 +2589,7 @@ assistant.a75a21f: Transcript was inaccurate
 assistant.97ff72e: Transcription failed. Please try again.
 assistant.0c7c4bd: Translate summary
 assistant.cef2fe0: Try Again
+assistant.8469938: Try It
 assistant.3f79fc2: Try adding channels you like to keep tabs on to your Slack AI recap to automatically get a daily summary.
 assistant.7044c31: Unmute
 assistant.20d0248: Unmute All
@@ -2603,6 +2610,7 @@ assistant.1fb5ada: Use the Meeting prep skill to prep me for my next meeting wit
 assistant.b7814b1: View AI Terms and Conditions
 assistant.cd83a0e: View full summary
 assistant.6a610bf: View summary
+assistant.43a05e8: Voice call failed. Try again.
 assistant.c5734de: Voice calls aren’t supported in this browser.
 assistant.24ac374: Voice chat with Slackbot
 assistant.2dd6967: Voice conversation failed
@@ -6568,6 +6576,7 @@ composer.1616e2e: Italic
 composer.d051707: Link
 composer.7a032c9: Make longer
 composer.e1f0179: Make shorter
+composer.8712175: Markdown preview
 composer.df0cd04: Medium heading
 composer.86c0a35: More options
 composer.a75732d: Open in new window
@@ -7654,6 +7663,7 @@ data_deletio_notifications.745e7c6: Learn more about this policy
 data_deletio_notifications.d59b07b: On {start_date}, messages and files older than a year will be permanently deleted, and will not be restorable for {teamName}.
 data_deletio_notifications.29107a1: Save your message history with Slack Pro
 data_deletio_notifications.7421445: Upgrade to Pro now to save your content and get <b>50% off your first three months.</b>
+data_deletio_notifications.323efc2: Upgrade to Pro now to save your content and get <b>{discountPercentage}% off your first {discountDuration, plural, =1 {month} other {# months}}.</b>
 data_deletion_notifications.7a1a59f: <strong>In {daysRemaining} days, content older than one year will be deleted. Upgrade to retain your data.</strong> <Link>Learn more</Link>
 data_deletion_notifications.d2d8ba4: <strong>Messages and files older than a year will be deleted on {startDate}. The deletion date previously communicated has been extended.</strong> <div>Get 50% off your first three months and save your content when you upgrade to Pro.</div><div><Link>Upgrade to Pro</Link></div>
 data_deletion_notifications.242e3aa: <strong>Messages and files older than a year will be deleted on {start_date}. The deletion date previously communicated has been extended.</strong> <div>Get 50% off your first three months and save your content when you upgrade to Pro. <Link>Learn more</Link></div>
@@ -7665,6 +7675,7 @@ data_deletion_notifications.edaa7df: <strong>Upgrade to retain your data. Conten
 data_deletion_notifications.24f8c25: <strong>Upgrade today to retain your data. Content older than a year will begin deleting tomorrow.</strong> <Link>Learn more</Link>
 data_deletion_notifications.0bb9551: Data deletion sidebar banner bell image
 data_deletion_notifications.d29412d: Get 50% off Slack Pro
+data_deletion_notifications.4860d58: Get {discountPercentage}% off Slack Pro
 data_deletion_notifications.2c1c5ea: Last day of this offer
 data_deletion_notifications.5792718: Offer available through {formattedDate}
 data_deletion_notifications.24de936: Upgrade to Pro
@@ -7928,7 +7939,6 @@ drafts.77dfd21: Cancel
 drafts.50cf4e7: Cancel schedule and save to drafts
 drafts.fc50e56: Cannot send message to this channel
 drafts.9cf188d: Collapse
-drafts.24ebee7: Collapse composer
 drafts.4432df7: Composer actions
 drafts.5477033: Create new
 drafts.be03e3a: Custom time
@@ -7962,9 +7972,6 @@ drafts.8e0536c: Enlarge message composer
 drafts.a0a73dc: Enter someone’s email address to start a conversation using Slack Connect
 drafts.780c96d: Even if your teammates aren’t in Slack yet, you can still benefit from having your conversations and context in one place.
 drafts.172f95c: Everything you send, draft, and schedule can now be found here.
-drafts.2654731: Expand composer
-drafts.d826351: Find previous messages you drafted in this channel, or save new ones.
-drafts.a31bd46: Find previous messages you drafted in this conversation, or save new ones.
 drafts.841f832: Formatting
 drafts.7dff45c: From another organization
 drafts.c4d63e4: From:
@@ -8026,6 +8033,7 @@ drafts.4d8d3b1: Reschedule message
 drafts.efc007a: Save
 drafts.77d9d75: Save as draft
 drafts.179359b: Save changes
+drafts.b860e6f: Save to drafts
 drafts.4824424: Saved a moment ago
 drafts.fdfcba7: Saved {lastEdited}
 drafts.7edaf75: Schedule Message
@@ -8044,6 +8052,7 @@ drafts.2f05bc5: Send later
 drafts.c70a890: Send message
 drafts.dae3301: Send now
 drafts.888c6e6: Send now?
+drafts.7f7e603: Send reply
 drafts.e2d6f6d: Send this now?
 drafts.10f7cd7: Send {date} at {time}
 drafts.7265146: Sending {invitesCount, plural, =1 {invite} other {invites}}…
@@ -8095,7 +8104,6 @@ drafts.719ea35: Tomorrow at 1:00 PM
 drafts.7d94234: Tomorrow at 9:00 AM
 drafts.258e027: Tomorrow at {timeString}
 drafts.61ca215: Video file
-drafts.3c16151: View and save draft messages
 drafts.e0b9b1c: We’re not sure what happened, but your message couldn’t be scheduled. It’s been saved in your Drafts so you can try again.
 drafts.8deec66: Write now, send later
 drafts.8bdd200: You can email one person at a time.
@@ -13517,7 +13525,6 @@ live_unfurling.430b38b: Slack
 live_unfurling.0424f6e: Table
 live_unfurling.7dc7934: Table preview
 live_unfurling.3ec1ae0: Template
-live_unfurling.278845a: This preview failed to load.
 live_unfurling.b05d96b: Unknown file
 live_unfurling.ff3c42f: Your admins have turned off previews for this link, so it won’t unfurl.
 make_channel_manager_modal.77dfd21: Cancel
