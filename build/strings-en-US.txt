@@ -1886,23 +1886,38 @@ app_launcher.c77828d: All app types
 app_launcher.22e3fb7: All workspaces
 app_launcher.b123684: Also, your team admin must approve an app before it can be installed. <Link>Learn more</Link>
 app_launcher.41b81eb: Approved
+app_launcher.0f6d796: Approved for {teamName}
 app_launcher.d9a3685: Apps
+app_launcher.4d39f3c: Ask your admin
+app_launcher.d0a0d80: Awaiting approval
+app_launcher.eda0dad: Awaiting approval for {teamName}
 app_launcher.1c441a5: Bring all your tools into Slack
 app_launcher.68f7373: Browse Slack Marketplace
 app_launcher.98e11fe: Browse agents
 app_launcher.84d8abf: Cancel Request
+app_launcher.fcb0fa2: Cancel request for {appName}
 app_launcher.467a077: Cancel request?
 app_launcher.f840ac6: Canceled
+app_launcher.176c23b: Canceled for {teamName}
 app_launcher.6ccb600: Categories
 app_launcher.a8b899f: Couldn’t load more requests. Try again.
+app_launcher.63b16bd: Denied
+app_launcher.8cec9b4: Denied for {teamName}
 app_launcher.18e5ff2: Filter apps
 app_launcher.abd44ca: Get more value from your Atlassian tools
 app_launcher.b648590: Go to app
 app_launcher.028fa93: If you change your mind, you can request {appName} again later.
 app_launcher.fd6c3eb: Install
+app_launcher.dd39f58: Install {appName}, opens in new window
 app_launcher.7bb4405: Installed
+app_launcher.8c61394: Installed for {teamName}
 app_launcher.56e2f5d: Later
 app_launcher.c81e172: Loading more requests…
+app_launcher.b16dd2f: Needs approval again
+app_launcher.a4b7b83: Needs approval again for {teamName}
+app_launcher.74bbe59: Never Mind
+app_launcher.5e81276: No approval needed
+app_launcher.7286656: No approval needed for {teamName}
 app_launcher.b993b0c: No results
 app_launcher.8411324: One-click access to AI tools in Slack
 app_launcher.8ee6637: Open in Slack Marketplace
@@ -1910,12 +1925,18 @@ app_launcher.03a322d: Open in split view
 app_launcher.d59bb53: Request already closed
 app_launcher.4fd31fd: Requested {ago}
 app_launcher.aafe554: Requests ({count}+)
+app_launcher.aa2a08d: Restricted
+app_launcher.0f38d74: Restricted for {teamName}
 app_launcher.c462b3b: See Upgrade Options
 app_launcher.2941c5c: See all
 app_launcher.25911d4: Show more
 app_launcher.9c5462b: Slack makes the tools you already use even better by adding apps from Atlassian like Jira, Trello, and more.
 app_launcher.73ecfe1: That didn’t work. Try again in a moment.
 app_launcher.621521f: Untitled
+app_launcher.f8aec85: Update needs approval
+app_launcher.b4a5d92: Update needs approval for {teamName}
+app_launcher.9726a88: Update pending
+app_launcher.2e083bf: Update pending for {teamName}
 app_launcher.a9e7f8d: Upgrade for unlimited apps
 app_launcher.86f6306: Upgrade for unlimited apps. <Link>Learn more</Link>
 app_launcher.205b456: Workspaces
@@ -10033,6 +10054,7 @@ files.7aabe41: Restore file
 files.635bf9e: Restore {fileType, select, quip {canvas} other {list}}
 files.94488e0: Restore {fileType, select, quip {canvas} other {list}} {title}
 files.b54d624: Restored
+files.aa2a08d: Restricted
 files.0be7207: Revoke
 files.277e2db: Revoke It
 files.5f9545e: Revoke public file link
@@ -19960,6 +19982,7 @@ search.88fe9d2: Link copied!
 search.4564c94: Linked channels only
 search.a1fffaa: List
 search.57c9502: Lists
+search.aa89600: Live huddles
 search.dfe60ca: Load more
 search.e9d8880: Loading agents
 search.4bb7abc: Loading browser…
@@ -20135,6 +20158,8 @@ search.52cea28: Recent channels
 search.de00d58: Recent direct messages
 search.95c6a85: Recent files
 search.1666190: Recent people
+search.01c73e3: Recent places
+search.a73d291: Recent searches
 search.a0e09ed: Recent workflows
 search.c15ad19: Recently deleted
 search.ac6bdcf: Recently edited workflows
@@ -20409,6 +20434,7 @@ search.39fc721: Undo
 search.b05d96b: Unknown file
 search.09bd824: Unlimited AI answers are available on our Business+ plan.
 search.fb1c2ac: Unlock AI Search
+search.34a3414: Unreads & drafts
 search.c99407b: Untitled conversation
 search.648291c: Use Slackbot to search Slack for relevant info
 search.1b74405: Use this form to share feedback with the Slack team about your anniversary celebration. If you need help, please contact our <contact>Support team</contact> or visit our <helpCenter>Help Center</helpCenter>.
