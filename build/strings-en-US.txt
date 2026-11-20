@@ -18660,6 +18660,7 @@ quip_collab.e47791d: Yesterday {time}
 quip_collab.cffa50a: and
 quip_collab.7aa1583: canvas
 quip_collab.fbe7d7b: channel
+quip_collab.5ff5d33: create a list
 quip_collab.49f033e: date button
 quip_collab.aa1f83f: date button with reminder set
 quip_collab.f1c573b: date button with reminder set for {reminder_text}
@@ -21938,7 +21939,6 @@ singer.fc4a695: App
 singer.b98aa75: Applying your changes
 singer.7b2c7f1: Approve
 singer.54a5817: Approve Plan
-singer.105328b: Approve plan
 singer.41b81eb: Approved
 singer.089661a: Approved, go ahead.
 singer.1d788ea: Arc Lamp, $54
@@ -21972,11 +21972,7 @@ singer.35f483e: Away, notifications snoozed
 singer.b52b36b: Back
 singer.3860116: Back to Input
 singer.4855132: Back to Messages
-singer.4e47f50: Back to Now
 singer.3630488: Back to Slackbot
-singer.f7b0ca1: Back to catch up
-singer.9a2b781: Back to conversations
-singer.1a9c58d: Back to {title}
 singer.00544f7: Bad response
 singer.7b05bab: Beta freeze moved to next Thursday.
 singer.3466a48: Blast
@@ -22003,6 +21999,7 @@ singer.0371c15: Call disconnected
 singer.65b3f06: Calm and even.
 singer.1e7a4ac: Calm over here.
 singer.77dfd21: Cancel
+singer.f840ac6: Canceled
 singer.a3f80b8: Canvas
 singer.918b48a: Can’t check from here
 singer.3d9784b: Can’t check this screenshot
@@ -22037,9 +22034,6 @@ singer.ccdc6ae: Check your microphone
 singer.802cc3c: Checking for your note.
 singer.098eddc: Checking for your note…
 singer.1fe81d2: Checking if browsing is available for you…
-singer.69aba24: Checks failed
-singer.3097054: Checks passed
-singer.b750554: Checks {done} of {total}
 singer.72cad85: Choose Attach to use this window.
 singer.d2d135c: Choose a skill, then add your context.
 singer.d3da8bd: Choose another window
@@ -22054,7 +22048,6 @@ singer.c3d6666: Close Astro Singer
 singer.fd71a50: Close Browser
 singer.8962525: Close conversation
 singer.11d16ea: Close meeting controls
-singer.fa0b7b3: Close panel
 singer.cd78b1d: Close quick switcher
 singer.88d86b7: Closed
 singer.a14881f: Closing browser…
@@ -22109,7 +22102,6 @@ singer.75a9fcd: Couldn’t load your skills
 singer.d4df57f: Couldn’t open that conversation. Try again.
 singer.517b3bf: Couldn’t open that item. Try again.
 singer.e1f58c2: Couldn’t open this activity. Try again.
-singer.1efcfee: Couldn’t reach the agent. Try again.
 singer.d92b74e: Couldn’t save · open the canvas to edit
 singer.052b8ee: Couldn’t send. Try again.
 singer.ac8f6a8: Countdown’s up to you.
@@ -22136,7 +22128,6 @@ singer.e20d5fb: Default duration
 singer.fd14281: Deletes Slackbot’s saved browser profile, including sign-ins and site data for every site.
 singer.f27d86c: Deletes saved sign-ins and site data for every site. Open browsers can stay signed in, but won’t save those sign-ins again. This can’t be undone.
 singer.dc3decb: Details
-singer.47f0c5a: Dictate a message
 singer.5d3bb50: Did {title} end? Stopping in {countdown}.
 singer.fc7f864: Direct message
 singer.e7596a0: Direct messages
@@ -22328,8 +22319,6 @@ singer.01d1180: Look at you go.
 singer.0312266: Looking for your note in the chat…
 singer.f71edd8: Lovely!
 singer.8b8ec14: Make me a kanban board of my open asks in Slack
-singer.ecb7e36: Make panel larger
-singer.7769590: Make panel smaller
 singer.f03a88b: Manage in huddle
 singer.4b38b55: Mark Unread
 singer.1b83163: Mark all as read
@@ -22400,10 +22389,8 @@ singer.e51f426: Needs your attention
 singer.ab027dc: Needs your okay
 singer.6403f2b: New
 singer.e4cc33d: New Meeting
-singer.e176200: New Slackbot conversation
 singer.10d95f6: New activity lands here when it arrives.
 singer.0eb6323: New activity will show up here.
-singer.3cb7ea0: New file
 singer.1ed2e7b: New message
 singer.3bbfb55: New personal best.
 singer.bc98198: Next
@@ -22453,7 +22440,6 @@ singer.3f8b4e0: Nothing left in Activity.
 singer.199afe0: Nothing moves until you do.
 singer.3298bd1: Nothing new needs you right now.
 singer.373df07: Nothing new right now.
-singer.5a2f5ac: Nothing to chart yet
 singer.cb02233: Nothing to see here
 singer.6146165: Nothing to see. Yet.
 singer.c67a89d: Nothing turned up
@@ -22479,7 +22465,6 @@ singer.0671514: Open Thread
 singer.a25d647: Open as chat
 singer.5e59500: Open canvas
 singer.ed441ab: Open channel
-singer.fdee0b0: Open for review
 singer.a70ff38: Open in Salesforce
 singer.6fa88ea: Open in Singer
 singer.3386d02: Open in Slack
@@ -22507,13 +22492,13 @@ singer.c9f2042: Panel width
 singer.781961b: Pause
 singer.b03d2ec: Pause Notifications
 singer.2e9dcf1: Pause Singer notices. Slack still delivers everything.
+singer.c96ee61: Pause animation
 singer.cff1f00: Pause notifications for {duration}
 singer.c7dfb6f: Paused
 singer.6915f76: Pausing…
 singer.e46248a: Peaceful in here.
 singer.96f608c: Pending
 singer.b37554f: People
-singer.eb78686: Percent of total
 singer.77064d5: Phone
 singer.9c91841: Pin
 singer.f931216: Pinned
@@ -22650,7 +22635,6 @@ singer.1dc0143: Send note, done
 singer.717009c: Send note, needs attention
 singer.043d0bf: Send note, not started
 singer.c631089: Send this note in the meeting chat, then add a screenshot of the chat.
-singer.309d88e: Send to {recipient}
 singer.cf76551: Sending…
 singer.35f49dc: Sent
 singer.559c29d: Sent privately to {agent}
@@ -22661,8 +22645,6 @@ singer.fa67a39: Settings…
 singer.b93760c: Shared by {name}
 singer.a82b2d5: Show More Skills
 singer.cf0f51d: Show New Activity
-singer.11071cf: Show as chart
-singer.ef38f0f: Show as table
 singer.4c852b2: Show less
 singer.ded0a5d: Show me
 singer.9bfd43e: Show message text when your Slack privacy settings allow it.
@@ -22763,7 +22745,6 @@ singer.80c5e79: Stop Task
 singer.962101f: Stop and hide
 singer.ee0d9dc: Stop recording
 singer.8eb277d: Stop talking
-singer.2a6b619: Stop task?
 singer.51e9111: Stopped
 singer.2c856a9: Stopped at the 2-hour limit. Creating notes.
 singer.72f0f48: Stopped listening. Creating notes
@@ -22813,6 +22794,7 @@ singer.d08d8da: Thinking
 singer.b35e277: This browser session has closed.
 singer.cc4ede9: This file is hidden by your workspace’s storage limit.
 singer.35f7092: This file was deleted.
+singer.7eee224: This illustration can’t be shown here.
 singer.ce3ffd5: This message was deleted.
 singer.afeaf6f: This preview isn’t available in this workspace.
 singer.ee53df5: This saved reply has attachments and can’t be sent from the preview.
@@ -22855,7 +22837,6 @@ singer.915648f: Unlocks when Slack finds your note in the screenshot
 singer.7044c31: Unmute
 singer.2eba6a0: Unpin
 singer.07b032b: Unread
-singer.192715c: Unread Slack activity
 singer.c99407b: Untitled conversation
 singer.fb91e24: Update
 singer.f2f8570: Updated
@@ -22863,7 +22844,6 @@ singer.61c8f71: Updated just now
 singer.05dc73d: Use Draft
 singer.eed023d: Use My Mic Only
 singer.3bb3465: Use a Screenshot Instead
-singer.352af95: Use the arrow keys to move between items, and Enter to ask about one.
 singer.9c7b544: User group
 singer.944b88d: VIP
 singer.b61e603: VIP activity
@@ -22918,7 +22898,6 @@ singer.fe0710a: Wrap-ups
 singer.5397e05: Yes
 singer.da24830: Yesterday
 singer.905cb32: You
-singer.5434201: You asked
 singer.8e7d0d0: You can’t send messages here. Open in Slack to check access.
 singer.3d1eb4c: You can’t view this file here.
 singer.384d50c: You don’t have access
@@ -22971,13 +22950,11 @@ singer.fbe7d7b: channel
 singer.b82b40b: chart
 singer.e820952: fn + left ⌘
 singer.4798363: fn + right ⌘
-singer.64292b1: group
 singer.5d398ce: image__WDpA8
 singer.a7f8e7c: just now
 singer.57f9ee9: lamps.example
 singer.c9bc849: now
 singer.b6a61f6: replied to a thread
-singer.ca29f29: someone
 singer.f06013c: the agent
 singer.2dac81d: tomorrow
 singer.c316f6a: until tomorrow
@@ -22996,7 +22973,6 @@ singer.e553892: {count, plural, =1 {# other} other {# others}}
 singer.2f9a86c: {count, plural, =1 {# person} other {# people}}
 singer.45d5eeb: {count, plural, =1 {# reply} other {# replies}}
 singer.10e31fa: {count, plural, =1 {# result} other {# results}}
-singer.66b7f52: {count, plural, one {# more source} other {# more sources}}
 singer.808dc33: {count, plural, one {# new activity item} other {# new activity items}}
 singer.da61d4b: {count, plural, one {# other} other {# others}}
 singer.07c9e92: {count, plural, one {# skill found} other {# skills found}}
@@ -23006,7 +22982,6 @@ singer.98a8d2b: {head} → {base}
 singer.cb2812d: {hours}h
 singer.f713e25: {label}. Open
 singer.b2f03ad: {label}. Open the card
-singer.ae7ba37: {label}. {prompt}
 singer.b1603e9: {minutes}m
 singer.d8dd14f: {name}: {value}
 singer.340a84f: {pixels}px
@@ -23014,9 +22989,6 @@ singer.bd51187: {score, plural, one {# point} other {# points}}
 singer.a22da57: {status} until {date}
 singer.8d3026c: {timeRange} · {provider}
 singer.797dfd0: {time} local time
-singer.19b6d8b: {time} · {count, plural, =0 {nothing open} one {# open} other {# open}} · worst {severity}
-singer.a53e9bb: {time}, {count, plural, =0 {nothing open} one {# open} other {# open}}
-singer.e162890: {time}, {count, plural, =0 {nothing open} one {# open} other {# open}}, worst {severity}
 singer.9566c9b: {title} kept in the island
 singer.a054d47: {title}, {date}
 singer.4ed1c68: {title}: {state}
