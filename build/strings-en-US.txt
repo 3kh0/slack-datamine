@@ -3581,6 +3581,7 @@ channel-sidebar-unread-threads.c1ee860: Mark as read
 channel-sidebar-unread-threads.68f4145: Message
 channel-sidebar-unread-threads.949184b: Message actions
 channel-sidebar-unread-threads.a1e34f9: More actions
+channel-sidebar-unread-threads.1caf1cf: No unread activity
 channel-sidebar-unread-threads.b3b4d9e: Open in main view
 channel-sidebar-unread-threads.a75732d: Open in new window
 channel-sidebar-unread-threads.03a322d: Open in split view
@@ -3590,9 +3591,11 @@ channel-sidebar-unread-threads.bfa17ca: Summarize thread
 channel-sidebar-unread-threads.7863f75: Thread
 channel-sidebar-unread-threads.d11556e: Turn off notifications for replies
 channel-sidebar-unread-threads.3b9c3d6: Unread thread
+channel-sidebar-unread-threads.a3f32e0: Unreads for you
 channel-sidebar-unread-threads.374ffdd: Unsubscribe from thread
 channel-sidebar-unread-threads.7a3e66c: View all threads
 channel-sidebar-unread-threads.12f139d: {count, plural, =1 {# mention} other {# mentions}}
+channel-sidebar-unread-threads.009e1a4: {count, plural, =1 {# mention} other {# mentions}} in this section
 channel-sidebar-unread-threads.0473ea8: {count, plural, =1 {# unread thread} other {# unread threads}}
 channel-sidebar-unread-threads.da1ced3: {mentionCount, plural, =1 {# mention} other {# mentions}} and {threadCount, plural, =1 {# unread thread} other {# unread threads}}
 channel-threads-prototype.bbfa773: Close
@@ -4965,16 +4968,15 @@ channel_sidebar.aeac7ce: Compare models
 channel_sidebar.34537f2: Connect apps
 channel_sidebar.2a20c75: Conversation
 channel_sidebar.14d7133: Conversation type: {filter}
-channel_sidebar.60d9501: Conversation with {agentName}
 channel_sidebar.c42e662: Conversations in <strong>{usergroupName}</strong> section will move back to the Channels section of your Home sidebar.<br></br><br></br>And don’t worry- you won’t be removed from {channelCount,plural, =1 {this channel} other {any of these {channelCount} channels}} and you can add the section back again in <strong>Preferences</strong>.
 channel_sidebar.81b425a: Conversations in this section will move back to the Channels section of your Home sidebar.
 channel_sidebar.584038e: Conversations to pin
 channel_sidebar.856fa95: Couldn’t reset sections.
 channel_sidebar.8045489: Couldn’t save your sidebar. Try again.
+channel_sidebar.37a25a1: Couldn’t update the section.
 channel_sidebar.3ac4864: Create a channel
 channel_sidebar.b2feca2: Create a new channel
 channel_sidebar.330c574: Create a section
-channel_sidebar.337d3f1: Create a section.
 channel_sidebar.7d3bd16: Created by me
 channel_sidebar.e00aa5d: Created {channelSection}.
 channel_sidebar.4fc0e2b: Current
@@ -4988,6 +4990,7 @@ channel_sidebar.239dce6: Customize
 channel_sidebar.4f2b432: Customize Focused
 channel_sidebar.0e8e35d: DMs
 channel_sidebar.3e15f7c: DMs and recent files
+channel_sidebar.53ff6d0: Daily tools
 channel_sidebar.808d7dc: Default
 channel_sidebar.d536cfe: Delete message?
 channel_sidebar.216d02b: Deleted {channelSection}.
@@ -5198,7 +5201,10 @@ channel_sidebar.5616c87: Search options
 channel_sidebar.cfa1b08: Search {teamName}
 channel_sidebar.7534fb5: Search: “{query}”
 channel_sidebar.8050cd9: Section actions
+channel_sidebar.f39ef09: Section removed.
+channel_sidebar.fae2790: Section reset.
 channel_sidebar.ff178c9: Section settings
+channel_sidebar.0ca4c48: Section updated.
 channel_sidebar.b5c7883: Sections are a great way to share multiple channels at once.
 channel_sidebar.cc2be5a: Sections reset.
 channel_sidebar.2941c5c: See all
@@ -10810,6 +10816,7 @@ huddles.9e85782: (No title)
 huddles.9838569: (Optional) Open your device’s system preferences and grant camera access to Slack. If you’ve already done so, quit and reopen Slack.
 huddles.3f001b6: (Optional) Please enable your camera in your browser’s address bar.
 huddles.1d06e4b: (Optional) Your camera is unavailable. Make sure it`s connected and that you`ve granted permission to share video with Slack.
+huddles.e94c2ca: ,id:k,children:dY.t(
 huddles.02386d9: 1 minute before
 huddles.b1e2cdb: 10 minutes before
 huddles.4bba5a7: 15 minutes before
@@ -12763,6 +12770,7 @@ lists.04f4379: Collaboratively manage projects, prioritize issues, organize requ
 lists.84eb913: Collect responses in a form
 lists.1d0c830: Color
 lists.fce06e2: Comments
+lists.b0678b9: Comments on {recordName}
 lists.c07bfa8: Comments only
 lists.ea96354: Compare Plans
 lists.1f5a1ab: Complete
@@ -21491,6 +21499,7 @@ shortcuts_flexpane.ba4e722: Forward
 shortcuts_flexpane.97302de: Forward in history
 shortcuts_flexpane.482959d: Forward message
 shortcuts_flexpane.cfed893: Huddles
+shortcuts_flexpane.f75b86e: Important unreads
 shortcuts_flexpane.b7399fc: Insert file
 shortcuts_flexpane.4d4ac9a: Insert link
 shortcuts_flexpane.1616e2e: Italic
