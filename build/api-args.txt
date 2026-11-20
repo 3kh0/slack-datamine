@@ -837,6 +837,7 @@ today.ignoreChannels: channel_ids
 today.items.blocks.dismiss: block_id, channel_id, message_ts
 today.items.clear: item_ids
 today.items.delete: item_id
+today.items.list: read_only
 today.items.markRead: item_ids
 today.items.markUnread: item_ids
 today.items.update: item_id, slackbot_thread_ts
