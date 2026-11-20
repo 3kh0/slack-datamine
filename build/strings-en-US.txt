@@ -1031,7 +1031,6 @@ agents.7aab4d5: Bring your favorite skills from other platforms
 agents.14649e4: Browse Skills
 agents.98e11fe: Browse agents
 agents.3874b09: Browse skills
-agents.6d9e4bc: Browse templates
 agents.7bc2d21: Build from scratch
 agents.8af5dea: Build with Slackbot
 agents.1d960ec: By Slack
@@ -1675,7 +1674,6 @@ app-config.2d3a460: Heads up, this workflow has {remaining_step_count, plural, o
 app-config.3da4745: Skip
 app-config.2fab0fb: This workflow has reached the {max_number_of_steps}-step limit. To add more steps, you need to remove some first.
 app-config.dda6ac2: Verify
-app-config.fd60a1a: })}renderAuthor(){return(0,eL.jsx)(xB.A,{icon:void 0,isDistinct:!0,name:this.props.authorName})}renderFooter(){let{clogLinkClick:e,documentUnfurlTsText:t,fromUrl:n,serviceName:a,ts:s,serviceIcon:i}=this.props;return(0,eL.jsx)(xH.A,{text:a,icon:i||
 app_action_picker.d3a0a22: Add a custom MCP server
 app_action_picker.e8b8f97: Add files and tools
 app_action_picker.d9a3685: Apps
@@ -1870,6 +1868,8 @@ app_dialog.b16c7ac: (optional)
 app_dialog.2dacf65: Submit
 app_dialog.ab90d9d: This field is required.
 app_dialog.26dc55d: We had some trouble connecting. <a>Try again?</a>
+app_dialog.38ffdb9: You can't enter more than {maxLength, plural, =1 {# character} other {# characters}}.
+app_dialog.d800655: You must enter at least {minLength, plural, =1 {# character} other {# characters}}.
 app_home.f0ee13e: Access restricted
 app_home.378cbbf: Learn More
 app_home.cce7155: Reload
@@ -2904,6 +2904,14 @@ block_kit.f8bb4a4: An email address is required
 block_kit.6bcd919: And more.
 block_kit.2b226c7: Ascending
 block_kit.10644b0: Bar chart
+block_kit.f7cf975: Call declined. You declined this call.
+block_kit.ad59aed: Call declined. {name} declined this call.
+block_kit.faeb017: Call ended, {participantCount, plural, =1 {# person} other {# people}} joined.
+block_kit.ad3bb04: Call ended.
+block_kit.b91fb85: Call started, {participantCount, plural, =1 {# person} other {# people}} joined.
+block_kit.6b02af8: Call started.
+block_kit.74efe63: Calling you.
+block_kit.9599c88: Calling.
 block_kit.cbb08e5: Carousel.
 block_kit.66c7734: Chart
 block_kit.b58e8f9: Checkbox group
@@ -2944,6 +2952,8 @@ block_kit.8cbb5df: Legacy workflows are no longer available.
 block_kit.5b92de6: Line chart
 block_kit.630b962: Loading.
 block_kit.89c8a28: Memory
+block_kit.b205065: Message from {author}.
+block_kit.9cd0231: Missed call.
 block_kit.a1e34f9: More actions
 block_kit.86c0a35: More options
 block_kit.07dbad0: More options for {primary_text}
@@ -2965,6 +2975,9 @@ block_kit.d1d16e0: Quote: {quoteText} End quote.
 block_kit.c6dc647: Radio group
 block_kit.6437b7b: Rating
 block_kit.38bd55c: Salesforce record
+block_kit.325da91: Salesforce record.
+block_kit.7fceea4: Salesforce {objectLabel}.
+block_kit.bc672ee: Scheduled call.
 block_kit.4080395: Search table
 block_kit.0e2b8f4: Select a channel
 block_kit.1acb49b: Select a conversation
@@ -3052,16 +3065,24 @@ block_kit.0134330: {label}, {selectionText}
 block_kit.dc70958: {label}: {control}
 block_kit.c4cbff2: {language} code block.
 block_kit.5e5f65a: {name} button
+block_kit.bcafb30: {name} call, {participantCount, plural, =1 {# person} other {# people}} joined.
+block_kit.32b8da8: {name} call.
 block_kit.1e38b98: {name} checkbox group
 block_kit.7e20e62: {name} combo box
+block_kit.5b4b3ac: {name} contact card.
 block_kit.b41fbe5: {name} date and time picker
 block_kit.69d0dba: {name} date picker
+block_kit.4b809f4: {name} file.
 block_kit.10b43b8: {name} group
 block_kit.e243986: {name} menu button
 block_kit.9472292: {name} radio group
+block_kit.ba7b523: {recordName} Salesforce record.
+block_kit.190a7a7: {recordName} {objectLabel}.
 block_kit.3420971: {selectedItemCount} selected
+block_kit.a98204c: {title} canvas.
 block_kit.b63ba0f: {title} event, cancelled.
 block_kit.cede471: {title} event, {date} at {startTime} to {endTime}.
+block_kit.ba892e0: {title} list.
 block_kit.16aefbc: {title} workflow.
 block_kit.87bdc57: 😕 No channel found
 block_kit.ef60a3a: 😕 No channel matches these keywords.
@@ -13874,6 +13895,8 @@ menu.c0774ce: Browse apps
 menu.2190a3b: Browse channels
 menu.124c499: Browse external connections
 menu.524932e: Browse files
+menu.057d9b3: By most recent
+menu.d3a672b: By most recent (Default)
 menu.7bd6043: Canvas details
 menu.c1ecc60: Change to a private channel
 menu.c24b99e: Channel details
@@ -14103,6 +14126,7 @@ message.75387d9: Add a reminder
 message.ee6d4d1: Add emojis…
 message.ced5d57: Add message
 message.348b89f: Add reaction…
+message.2f24a92: Admins are reviewing this message because it was flagged by the data loss prevention (DLP) rules set by one of the organizations in this channel.
 message.32fdf7f: Also sent as direct message, 
 message.f000750: Also sent as direct message.
 message.8489ca4: Also sent to the channel, 
@@ -14213,15 +14237,10 @@ message.ffe481a: Mark above as read
 message.623bab0: Mark unread
 message.949184b: Message actions
 message.6c15f7e: Message attachment editing is disabled
-message.190dfdb: Message deleted.
 message.1ddca1c: Message deletion failed
 message.4df0f94: Message editing failed
-message.30dc69b: Message flagged by data loss prevention rules.
 message.0e18101: Message has been flagged
-message.659bf5a: Message hidden.
 message.56a1ff0: Message not shared with Slackbot
-message.8b9035a: Message removed.
-message.b318629: Message with your mention hidden.
 message.a1e34f9: More actions
 message.86c9264: More message shortcuts…
 message.3a4727a: Mute channel
@@ -14372,7 +14391,6 @@ message.ce3ffd5: This message was deleted.
 message.c0b3624: This message was removed.
 message.8c23107: This thread has been removed by an admin.
 message.269292c: Thread in {channelName}
-message.24fec6f: Thread removed.
 message.3bbd925: Thread response: {broadcastText}
 message.768e0c1: Title
 message.d05ace6: To-do added
@@ -14698,6 +14716,7 @@ message_kit.757e18d: {appName} is working.
 message_kit.6702b32: {appName} is working…
 message_kit.870984d: {date} at {time}
 message_kit.c4f8e1e: {replyCount, plural, =1 {# reply} other {# replies}}
+message_kit.12c0393: {totalReactionCount, plural, =1 {# reaction} other {# reactions}}
 message_pane_foreword.e6fb16a: 'Project Plan' canvas template with sections for Team, Documents, and Milestones
 message_pane_foreword.ee0920a: <b>There’s more to this conversation.</b> To see and search this conversation’s full history, upgrade to one of our paid plans.
 message_pane_foreword.235d280: A flat illustration of three diverse people celebrating with a group high-five amidst falling confetti.
@@ -17103,6 +17122,7 @@ prefs.20ec7e3: A–Z
 prefs.f03b60f: Beta
 prefs.30fdbdc: Blend <strong>Window background</strong> and <strong>Selected items</strong> colors together in window backgrounds.
 prefs.a83a52c: Bring emails into Slack
+prefs.057d9b3: By most recent
 prefs.b6803af: Calendar notifications
 prefs.3284641: Can be reordered, but not turned off.
 prefs.77dfd21: Cancel
@@ -20577,6 +20597,7 @@ search.7cbc1b0: ⌘ Click
 search.362e018: ⌘ Opt Click
 search_menu.2dd2bed: today
 search_menu.1aa96b8: yesterday
+security_compliance.9bb9542: This app has the following certifications & compliances:
 segmented_team_creation.4550f68: Choose a plan
 segmented_team_creation.b0bf6d1: Recommended for you
 select.3ce26a0: (invalid selection)
@@ -22006,6 +22027,7 @@ singer.76490ca: Built by {agent} · runs in a sandbox
 singer.65eca79: Built for this task
 singer.adab509: Calendar
 singer.0371c15: Call disconnected
+singer.ad3bb04: Call ended.
 singer.65b3f06: Calm and even.
 singer.1e7a4ac: Calm over here.
 singer.77dfd21: Cancel
