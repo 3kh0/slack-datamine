@@ -119,7 +119,7 @@ ai.alpha.slackbot.skills.activate: skill_id
 ai.alpha.slackbot.skills.addToLibrary: builtin_skill_id, force_copy, skill_id, source
 ai.alpha.slackbot.skills.adminDeactivate: deactivation_reason, skill_file_id
 ai.alpha.slackbot.skills.adminReactivate: skill_file_id
-ai.alpha.slackbot.skills.browse: created_by_user, cursor, in_library, is_org_template, item_type, limit, order_by, query
+ai.alpha.slackbot.skills.browse: created_by_user, cursor, in_library, is_browse_grid, is_org_template, item_type, limit, order_by, query
 ai.alpha.slackbot.skills.canGrantAdminEditAccess: skill_file_id
 ai.alpha.slackbot.skills.deactivate: skill_id
 ai.alpha.slackbot.skills.getBuiltinInfo: builtin_skill_id
@@ -342,7 +342,7 @@ conversations.members: channel, limit
 conversations.permissions.accountTypes.list: channel_id, permissions
 conversations.permissions.accountTypes.set: account_type, channel_id, permissions
 conversations.preview: channel_id
-conversations.recommend: channels_info, include_latest_ts, include_purpose, include_scores, limit, query, source, teammate_member_id
+conversations.recommend: channels_info, include_latest_ts, include_purpose, include_scores, limit, query, source, team_id, teammate_member_id
 conversations.removeTab: channel_id, id, keep_file_share
 conversations.rename: channel, name, skip_rename_message, validate
 conversations.replies: channel, include_tombstones, limit, oldest, ts

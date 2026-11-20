@@ -1138,6 +1138,7 @@ agents.55f6cc2: From your admin
 agents.a1b9c30: Gathering information…
 agents.9be6b90: Generating response…
 agents.c7cefb8: Get more from {skillName}
+agents.410bbfd: Give Slackbot instructions on how you work. Slackbot applies the right skill automatically when it’s relevant.
 agents.086158f: Give feedback
 agents.3c382cc: Help me create a new skill: {description}
 agents.f8c2483: Hide details
@@ -1168,6 +1169,7 @@ agents.a1e34f9: More actions
 agents.aaf2ce0: More actions for skill set
 agents.9110744: More actions for {skillName}
 agents.e3904de: More actions for {skillSetName}
+agents.61ef448: More results loaded
 agents.5adbdd0: Most popular
 agents.71b35d4: Most relevant
 agents.8b11f91: Needs your input
@@ -4808,6 +4810,7 @@ channel_invite.e6b021b: Ex. This is not for a legitimate business purpose
 channel_invite.7dff45c: From another organization
 channel_invite.f03e2d0: Go Back
 channel_invite.c8a4874: Got It
+channel_invite.3d5baff: Hide email preview
 channel_invite.8374304: Hmm, something went wrong. Try again?
 channel_invite.899a38b: Invalid email
 channel_invite.49b8bd5: Keep typing a full email
@@ -4835,6 +4838,7 @@ channel_invite.9320afb: Select {name}
 channel_invite.2cd9d04: Selected {name}
 channel_invite.a7191c3: Send Invitation
 channel_invite.1a17071: Send Invitations
+channel_invite.fcc097c: Show email preview
 channel_invite.4c852b2: Show less
 channel_invite.490df2e: Skip for Now
 channel_invite.db9943c: Slack will archive the existing channel and automatically invite all of its members to a new channel.
@@ -6560,8 +6564,6 @@ code_channels.e4b5a0e: GitHub organization not approved
 code_channels.04091c0: Loading view
 code_channels.9682754: Session channel views
 code_channels.69782c0: Unable to load this view. Please try again later.
-color_picker.0beef3a: Use up and down to move the slider along the Y axis, left and right to move along the X axis.
-color_picker.1fa3bc4: color wheel
 comments.60b9e1c: Hide older comments
 comments.ae00334: Save this file comment
 comments.f560b67: See older comments
@@ -6742,6 +6744,7 @@ contextual_help.f39b8ff: {ctrlKey}+{f6Key}
 conversations_archive.2aac3a4: Channel archive suggestion
 conversations_leave_recommendations_api.8f0c948: No new recommendations right now, but check back later for updates.
 conversations_leave_recommendations_api.6eb8af0: Your list looks fresh! <clap></clap>
+countries.928b7c4: ${op.mY}
 countries.c691536: Afghanistan
 countries.79b9d27: Albania
 countries.bd6acc8: Algeria
@@ -8429,7 +8432,7 @@ emoji.22dbe88: {size} {emojiName} {size, plural, =1 {emoji} other {emojis}} with
 emoji_button.5090a9e: Emoji
 emoji_button.95ca80d: Emoji and GIFs
 emoji_button.4c2f242: Right click to<br></br>customize skin tones
-emoji_keywords.d252f0e: ,e},handleApi=(e,t,n)=>{if(e instanceof s.A&&["user_removed_from_team","invalid_auth","not_authed","userLogin"].includes(e?.data?.error)&&!e.doNotFetchAuth)return(0,m.tw)();beaconErrorAndMaybeDisplayErrorView(decorateApiErrorWithDescription(e),"api",t,{shouldDisplayErrorView:!0,...n})},handleRunSetup=(e,t,n)=>beaconErrorAndMaybeDisplayErrorView(e,"run_setup",t,{shouldDisplayErrorView:!0,...n}),handleDefaultError=(e,t,n)=>beaconErrorAndMaybeDisplayErrorView(e,"default",t,{shouldDisplayErrorView:!0,...n}),p={api:handleApi,run_setup:handleRunSetup,boot_app:(e,t,n)=>beaconErrorAndMaybeDisplayErrorView(e,"boot_app",t,{shouldDisplayErrorView:!0,...n}),boot_team:(e,t,n)=>beaconErrorAndMaybeDisplayErrorView(e,"boot_team",t,{shouldDisplayErrorView:!0,...n}),multi_team_setup:(e,t,n)=>beaconErrorAndMaybeDisplayErrorView(e,"multi_team_setup",t,{shouldDisplayErrorView:!1,...n}),boot_complete:(e,t,n)=>beaconErrorAndMaybeDisplayErrorView(e,"boot_complete",t,{shouldDisplayErrorView:!1,...n}),default:handleDefaultError},f={};Object.defineProperty(f,"decorateApiErrorWithDescription",{get:()=>decorateApiErrorWithDescription,set:e=>{decorateApiErrorWithDescription=e}}),Object.defineProperty(f,"handleApi",{get:()=>handleApi,set:e=>{handleApi=e}}),Object.defineProperty(f,"handleRunSetup",{get:()=>handleRunSetup,set:e=>{handleRunSetup=e}}),Object.defineProperty(f,"handleDefaultError",{get:()=>handleDefaultError,set:e=>{handleDefaultError=e}}),Object.defineProperty(f,"renderClientErrorView",{get:()=>renderClientErrorView,set:e=>{renderClientErrorView=e}})}),Na49:(function(e,t,n){"use strict";n.d(t,{IA:()=>eE,Fe:()=>createGantryInstance,z4:()=>getGantryInstance});var a,i=n("9Tf0"),r=n("FaJ2"),s=n("eIaA"),o=n("T68h"),l=n("5Ctd"),d=n("RrBV"),c=n("suqy"),u=n("tTLk"),m=n("wuSk"),h=n("dREx"),p=n("6rtz"),f=n("9BpC"),g=n("LdEJ"),_=n("lHkH");let promiseProps=async e=>Object.fromEntries(await Promise.all(Object.entries(e).map(async([e,t])=>[e,await t])));var y=n("27YP"),b=n("bJKC");let GantryHook=class GantryHook{taps;tapIntercepts;callIntercepts;constructor(){this.taps=[],this.tapIntercepts=[],this.callIntercepts=[],this.callPlugins=this.callPlugins.bind(this)}tap(e,t){let n={name:e,plugin:t};for(let e of this.tapIntercepts)n=e(n);this.taps.push(n)}async call(e){if(!this.taps.length)return e;let t=this.callPlugins;for(let e of this.callIntercepts)t=e(t);return t(e)}async callPlugins(e){let t=Promise.resolve(e);for(let e of this.taps)t=t.then(t=>e.plugin(t));return t}addTapIntercept(e){this.tapIntercepts.push(e)}addCallIntercept(e){this.callIntercepts.push(e)}};var S=n("SXWZ");function setupRenderTiming(e){let t=S.J.performance.timeOrigin+S.J.performance.now();e.hooks.beforeDynamicImportsStart.addCallIntercept(e=>startTimeToRenderTrace(e,t)),e.hooks.beforeDynamicImportsStart.tap("Start render timing",async e=>e),e.hooks.renderApp.addCallIntercept(e=>endTimeToRenderTrace(e)),e.hooks.renderApp.addCallIntercept(e=>reportTimeToRenderComplete(e,t))}function startTimeToRenderTrace(e,t){return n=>{let{getTracer:a,setTrace:i,rootTrace:r,tags:s}=n.contextualInfo.getTraceMeta(),o=a().createTrace({traceName:"boot:time_to_start_render",autoCreateRootSpan:!1,parentSpanId:r.getRootSpanId(),traceId:r.getTraceId(),tags:s});return o.startSpan("boot:time_to_start_render",{setAsRootSpan:!0,startTime:S.J.boot_render_start??t}),i(o),e(n)}}function endTimeToRenderTrace(e){return async t=>{let{isBootingWarm:n,getTraceMeta:a,isForegroundTeam:i}=t.contextualInfo,{getTracer:r,getTrace:s,setTrace:o,rootTrace:l}=a(),d=r(),c=s();if(c===l)return e(t);let u=await n?"warm":"cold";return c.addTags({boot_type:u,is_foreground_team:i}),d.reportTrace(c),o(l),e(t)}}function reportTimeToRenderComplete(e,t){return async n=>{let a=await e(n),i=S.J.performance.timeOrigin+S.J.performance.now(),{isBootingWarm:r,isForegroundTeam:s}=n.contextualInfo,{getTracer:o,rootTrace:l,tags:d}=n.contextualInfo.getTraceMeta(),c=o(),u=c.createTrace({traceName:"boot:time_to_complete_render",autoCreateRootSpan:!1,parentSpanId:l.getRootSpanId(),traceId:l.getTraceId(),tags:d}),m=u.startSpan("boot:time_to_complete_render",{setAsRootSpan:!0,startTime:S.J.boot_render_start??t}),h=await r?"warm":"cold";u.addTags({boot_type:h,is_foreground_team:s}),m.close(S.J.performance.timeOrigin+S.J.performance.now()),c.reportTrace(u);let p=l.getRootSpan();if(p?.getTags().includes_navigation){let e=c.createTrace({traceName:"boot:time_to_complete_render_from_initial_nav",autoCreateRootSpan:!1,parentSpanId:l.getRootSpanId(),traceId:l.getTraceId(),tags:{...d,boot_type:h,is_foreground_team:s}});e.startSpan("boot:time_to_complete_render_from_initial_nav",{setAsRootSpan:!0,startTime:p.getStartTimeMs(),closeTime:i}),c.reportTrace(e)}return a}}var A=n("D4WO"),v=n("wo1y"),w=n("uVRc"),T=n("9RKb"),I=n("kgOc"),E=n("eMjC"),k=n("xrl7"),C=n("lBe3");let R={},D=null;function handleDisallowedIp(e){R[e]||(R[e]=!0,D=setTimeout(()=>{R[e]=!1,D=null},3e4),(0,C.zJ)(e),(0,I.hf)(e)&&(0,I.fO)(void 0,e),!(0,E.y3)()&&(0,k.A)("sessionStorage")&&sessionStorage.setItem("signin_warning","disallowed_ip_address"),(0,T.ly)())}Object.defineProperty({},"isNavigatingForDisallowedIpForTeamId",{get:()=>R,set:e=>{R=e,!e&&D&&(clearTimeout(D),D=null)}});let O={alwaysSendCredentials:!0,disableLegacyTokenFallback:!0,validateTeamOrEnterpriseId:function(e){if(!(0,w.Am)(e))throw Error("Cannot use 
+emoji_keywords.928b7c4: ${op.mY}
 emoji_keywords.356a192: 1
 emoji_keywords.b1d5781: 10
 emoji_keywords.310b86e: 100
@@ -12269,14 +12272,22 @@ invite-to-workspace.9151e9e:  — expires today
 invite-to-workspace.481e95e:  — never expires
 invite-to-workspace.2d8a6f7: 1 day
 invite-to-workspace.7d4278a: 30 days
+invite-to-workspace.46be8e4: 60 days
+invite-to-workspace.0a8dd6a: 7 days
 invite-to-workspace.105a75e: <strong>Add a message</strong>
 invite-to-workspace.4cd9c2c: <strong>Add to channels</strong> (optional)
 invite-to-workspace.5877700: <strong>Add to channels</strong> (required)
 invite-to-workspace.8252c10: <strong>Add to team channels</strong> (optional)
 invite-to-workspace.7798a92: <strong>Add to team channels</strong> (required)
 invite-to-workspace.233a6d3: <strong>Does your team use Google?</strong> Use Google directory to find your coworkers’ email addresses.
+invite-to-workspace.c461a30: <strong>Link copied</strong> - expires in over 30 days
+invite-to-workspace.4ae7daf: <strong>Link copied</strong> - expires in {daysRemainingOnLink, plural, =1 {# day} other {# days}}
+invite-to-workspace.fdea3b9: <strong>Link copied</strong> - expires today
+invite-to-workspace.553e25e: <strong>Link copied</strong> - never expires
 invite-to-workspace.206ff38: <strong>Multi-channel guests</strong> will be billed as full members. Single channel guests are free but limited in quantity.
 invite-to-workspace.74a4328: <strong>Reason for request</strong> (optional)
+invite-to-workspace.f2f5ee1: <strong>Set an expiration date</strong>
+invite-to-workspace.60d15e0: <strong>Set an expiration date</strong> (required)
 invite-to-workspace.e3320c2: Add a message
 invite-to-workspace.f6e0ba0: Add a note for your admin
 invite-to-workspace.5bd195c: Add from Google Workspace
@@ -12285,6 +12296,7 @@ invite-to-workspace.d3a716e: Allow them to be added to more channels. Guests who
 invite-to-workspace.d641310: Anyone in your entire organization
 invite-to-workspace.b52b36b: Back
 invite-to-workspace.77dfd21: Cancel
+invite-to-workspace.ac898d8: Center the QR code in the camera view — a link to join the workspace should appear.
 invite-to-workspace.9318ca9: Close Google Directory banner
 invite-to-workspace.2d9ff85: Continue with Google Workspace
 invite-to-workspace.af74f7c: Copy
@@ -12294,10 +12306,13 @@ invite-to-workspace.6692153: Copy QR code
 invite-to-workspace.1cad13c: Copy invite link
 invite-to-workspace.7d26e98: Couldn’t generate an invite link
 invite-to-workspace.081ae3f: Custom
+invite-to-workspace.5ba495d: Custom expiration date
+invite-to-workspace.3695864: Deactivate on {date}
 invite-to-workspace.06fb314: Edit link settings
 invite-to-workspace.aea819e: Edit settings
 invite-to-workspace.84add5b: Email
 invite-to-workspace.50e2fdc: Email addresses
+invite-to-workspace.9d84184: For your organization, this must be {orgPrefMaxGuestDuration,plural,=1{# day}other{# days}} or less.
 invite-to-workspace.8fa46b4: Frontline
 invite-to-workspace.0b4b5d3: Frontline <span className="p-invite_type_select_option_label_description">— limited to this workspace and 10 channels</span>
 invite-to-workspace.23450ea: Frontline members can be added to a maximum of {maxChannels} channels.
@@ -12306,6 +12321,7 @@ invite-to-workspace.cc5cee4: Google Workspace
 invite-to-workspace.face83e: Guest
 invite-to-workspace.5a58660: Guest <span className="p-invite_type_select_option_label_description">– limited to select channels, files and directory.</span>
 invite-to-workspace.69d179f: Guests not allowed
+invite-to-workspace.3d5baff: Hide email preview
 invite-to-workspace.e13954e: Invite More People
 invite-to-workspace.b10e2b5: Invite as
 invite-to-workspace.40790ad: Invite as guests or external partners
@@ -12324,11 +12340,14 @@ invite-to-workspace.6853c98: Member
 invite-to-workspace.7f0d157: More invite options
 invite-to-workspace.bc98198: Next
 invite-to-workspace.b4fdc42: No channels found
+invite-to-workspace.10850b9: No limit
 invite-to-workspace.f579c52: OR
+invite-to-workspace.cb07b1e: Open the default camera on a mobile device.
 invite-to-workspace.9a24c48: Optional (Add a message)
 invite-to-workspace.4d3e1ab: Or add from:
 invite-to-workspace.702ac1c: Preview Your Invitation
 invite-to-workspace.7c92c92: QR code copied
+invite-to-workspace.e2172bf: QR code for workspace invite link
 invite-to-workspace.09a57af: Reason for request
 invite-to-workspace.88daf3e: Request invitations to {workspaceName}
 invite-to-workspace.efc007a: Save
@@ -12337,18 +12356,25 @@ invite-to-workspace.ceba12e: Select a workspace to invite people to.
 invite-to-workspace.9c6d505: Select channels
 invite-to-workspace.ec6cac7: Select the invite type (member, frontline, guest)
 invite-to-workspace.dd35e9e: Select the invite type (member, guest)
+invite-to-workspace.4c3d3d5: Select when the frontline accounts will expire
+invite-to-workspace.dbc3173: Select when the guest accounts will expire
 invite-to-workspace.9bc2575: Send
 invite-to-workspace.590b375: Send Request
 invite-to-workspace.ce47bae: Send invite to {workspaceName}
+invite-to-workspace.b854663: Send these instructions to your team:
 invite-to-workspace.b98cc23: Send to
 invite-to-workspace.a5b70f2: Share link in LINE WORKS
 invite-to-workspace.aae06ed: Share this link anywhere to easily invite people to your workspace
 invite-to-workspace.e05d200: Share this link anywhere to easily invite people to {workspaceName}
+invite-to-workspace.fcc097c: Show email preview
 invite-to-workspace.c51c7f2: Sign in method:
 invite-to-workspace.8fc091e: Single Sign-On (SSO)
 invite-to-workspace.e9ba60e: Something went wrong. We couldn’t generate an invite link.
 invite-to-workspace.aab2e56: Step {currentStepIndex} of {totalSteps}
 invite-to-workspace.44b3913: Suggested:
+invite-to-workspace.d1c7aaf: Tap the link to join.
+invite-to-workspace.30ce059: These frontline accounts will expire at 11:59 PM on the date you select.
+invite-to-workspace.b16802c: These guest accounts will expire at 11:59 PM on the date you select.
 invite-to-workspace.7e7fbc8: To:
 invite-to-workspace.621521f: Untitled
 invite-to-workspace.19299fd: Use Google Workspace directory <span className="sk_foreground_high_solid">to find your coworkers’ email addresses.</span>
@@ -17230,6 +17256,7 @@ prefs.701d315: Also notify you about:
 prefs.55a21e7: Also sent to conversation
 prefs.f65b78c: Alt text reminders
 prefs.a91bcce: Always
+prefs.d092cd7: Always allow notifications from VIPs
 prefs.a9a1db8: Always use dark color mode when in focus mode.
 prefs.8377716: An AI file summary preview will appear when files are shared in conversations, and will be available in file details.
 prefs.41def7a: Appearance
@@ -17257,6 +17284,7 @@ prefs.4a5c25d: Capture is turned off by admin
 prefs.9622983: Caret browsing
 prefs.6ccb600: Categories
 prefs.b47bd31: Celebrate the music of Miles Davis
+prefs.46cffa8: Change the sound for VIP notifications from {vipModalLink}
 prefs.e3dcfd8: Change your notification default: 
 prefs.71466a0: Channel keywords
 prefs.9b3ce53: Channel member suggestions
@@ -17282,6 +17310,7 @@ prefs.de984c4: Connected to {eacConnectedEmail}
 prefs.8e3df45: Copied
 prefs.b7c3ca0: Copied!
 prefs.af74f7c: Copy
+prefs.ea8b9ad: Create VIP unreads section
 prefs.dd6a02a: Ctrl
 prefs.ea8134b: Ctrl Ctrl
 prefs.c78612e: Ctrl+Shift+O
@@ -17293,6 +17322,7 @@ prefs.689626f: DMs and group DMs
 prefs.ae1ef01: Dark
 prefs.dae0896: Darker sidebars
 prefs.07c9c3a: Date and time
+prefs.5e72634: Decide who or what you want prioritized at the top of your Home, DMs and Activity.
 prefs.12ab214: Delegate
 prefs.7dcccba: Delegates
 prefs.fbcd883: Desktop notifications 
@@ -17445,6 +17475,7 @@ prefs.d8fe45f: Paste your legacy theme colors
 prefs.f3d580e: Permanently show hover actions
 prefs.06e24bc: Pick a color
 prefs.f931216: Pinned
+prefs.c8253e9: Play Preview
 prefs.32f3858: Play an audio recording of the meeting note consent when joining a meeting.
 prefs.16a4155: Please select an option
 prefs.9dfd349: Preferences
@@ -17513,6 +17544,7 @@ prefs.9a3ea05: Something went wrong. Please try again.
 prefs.108b931: Sort conversations by:
 prefs.dfc8309: Sounds & appearance
 prefs.88d8206: Start time
+prefs.88dc2b2: Still get message notifications from your VIPs, even when general notifications are paused
 prefs.e4e4b36: Stream summary results
 prefs.1e83255: Streaming
 prefs.bc5dd04: Sunday
@@ -17531,6 +17563,7 @@ prefs.94d5186: Themes
 prefs.6158788: These act like mentions but can be set for topics that are important to you. <a>Learn more.</a>
 prefs.81ae19f: These appear as a banner on your desktop or mobile device.
 prefs.49f5015: This person can’t be added as a delegate.
+prefs.7ab74ab: This section will appear at the top of your sidebar so you never miss a mention or message.
 prefs.d56662b: Thread replies
 prefs.76031dd: Thursday
 prefs.eea79af: Time zone
@@ -17600,6 +17633,7 @@ prefs.9b3cbed: Zoom
 prefs.c7ba743: handy keyboard shortcuts
 prefs.a1e71ee: message components
 prefs.a20bf93: mobile device notifications
+prefs.4e119ca: your notification sound settings
 prefs.35e1ef1: {features} summaries will appear in real time as they’re generated.
 prefs.eefa363: {font} (Default)
 prefs.063ebf7: {font} (System)
@@ -18249,7 +18283,6 @@ promotions.3981da5: a channel
 promotions.1d14f79: per person/month
 promotions.ef89a3a: rocket
 promotions.3ace8cd: {additionalRequestersCount, plural, =0 {<b>{name}</b> requested Business+. Start today. Cancel anytime.} =1 {<b>{name}</b> and <b># other</b> requested Business+. Start today. Cancel anytime.} other {<b>{name}</b> and <b># others</b> requested Business+. Start today. Cancel anytime.}}
-promotions.1d08b49: {additionalRequestersCount, plural, =0 {<b>{name}</b> requested Business+} =1 {<b>{name}</b> and <b># other</b> requested Business+} other {<b>{name}</b> and <b># other people</b> requested Business+}}
 promotions.80ac298: {count, plural, =1 {# external channel} other {# external channels}} will disconnect
 promotions.737ddb5: {count, plural, =1 {# thing left to try} other {# things left to try}}
 promotions.72aa6ba: {count} Installed
@@ -18893,8 +18926,10 @@ quip_collab.01ba688: {value} selected ({index} of {total})
 quip_collab.2da33c4: {weekday}
 quip_collab.92825ab: {weekday} at {time}
 quip_collab.7dd522f: {year}
+quip_delegate.a0758ac: Couldn’t find that part of the canvas
 quip_delegate.0973946: File sharing has been disabled in canvases using Slack Connect
 quip_delegate.f0ad3c2: Some content wasn’t pasted because this table reached its cell limit.
+quip_delegate.66ab2d1: That part of the canvas was deleted
 quip_delegate.c914ca1: This table has reached the maximum number of cells allowed in a canvas.
 quip_embedded_ui.3fae218: Based on this content
 quip_embedded_ui.776db20: Edit with AI
@@ -19936,7 +19971,6 @@ search.2a52884: Exclude deactivated
 search.80001eb: Exclude deactivated accounts
 search.9869e50: Expand
 search.0d3216e: External & Invitations
-search.7b4f95a: External organizations and invitations
 search.94ddc39: Feature request
 search.5c3a35e: February
 search.c8d7677: Feedback
@@ -19945,7 +19979,6 @@ search.1bcce3a: Fewest members
 search.2c3cafa: File
 search.9e1b94c: File actions
 search.7072340: File type
-search.0205534: File types
 search.51a4c58: File: {title}
 search.6ce6c51: Files
 search.eaa79f3: Files & directories
@@ -20222,7 +20255,6 @@ search.fb06270: Page
 search.781961b: Pause
 search.b37554f: People
 search.f01250d: People & Groups
-search.40d9365: People and user groups
 search.fb0ef1e: Person: {name}
 search.9c91841: Pin
 search.f931216: Pinned
@@ -20422,7 +20454,6 @@ search.430b38b: Slack
 search.93f80e0: Slack AI doesn’t have a good answer for that right now
 search.a3eb343: Slack AI has an answer for you
 search.95fd553: Slack AI results have been updated
-search.db44b10: Slack Connect space
 search.4bb8241: Slack automatically sorts your results to surface the most relevant files and messages every time you search. You can also save your last sort selection for the next time you search, if that’s your cup of tea. 🫖
 search.cf8fdf1: Slack can show up to {maxRecords} records in search, so there might be records that match your search but aren’t shown here.
 search.cdd5bfc: Slack now automatically sorts your results to surface the most relevant files and messages every time you search
@@ -20624,6 +20655,7 @@ search.64bc097: Your one-on-one and group conversations show up here.
 search.6efa353: Your organization requires everyone to be in it, so no one misses important info.
 search.3700008: Your organization requires everyone to be in this channel.
 search.2b2f8b9: Your pull requests
+search.5d92198: Your recent searches will show up here.
 search.2b90e99: Your results
 search.724b62a: Your search experience
 search.ec823d5: Your search query will be included with your survey responses to help Slack improve search.
@@ -22052,7 +22084,6 @@ singer.96df1ed: Accessibility: so Slack can confirm you sent the recording note.
 singer.a733b80: Active
 singer.95bf7a4: Active, notifications snoozed
 singer.81c0d91: Activity
-singer.5b1c8a4: Activity dismissed. Messages stay unread.
 singer.2a7a995: Activity has nothing for you right now.
 singer.788afb5: Activity has nothing left for you.
 singer.732a2d8: Activity will fill in as things arrive.
@@ -22076,6 +22107,7 @@ singer.2fe784d: All caught up here.
 singer.5185fa4: All clear here.
 singer.ab45f5e: All clear.
 singer.81eaf8b: All clear. You’re good to go.
+singer.ac3c7fb: All code channels in Slack
 singer.a24c12b: All done here.
 singer.aa837cb: All quiet.
 singer.74904c1: All read here.
@@ -22170,7 +22202,6 @@ singer.5625817: Can’t turn that recording into text. Try speaking again or typ
 singer.2a7e4be: Card stack
 singer.885b7b6: Cards from Singer
 singer.131cf57: Catch me up
-singer.fad94e1: Catch me up on these unread updates. Highlight what needs my attention and link to the messages. Keep it brief.
 singer.8703a74: Catch up
 singer.7534779: Catching up
 singer.9be1668: Changes requested
@@ -22418,7 +22449,6 @@ singer.b136609: Invite
 singer.d98add1: Invite people to your huddle
 singer.3326258: Invited guest
 singer.7573b84: Invited member
-singer.69e5b48: Island activity muted for {minutes, plural, one {# minute} other {# minutes}}. Messages stay unread.
 singer.e727da6: It may still be on.
 singer.ecdda59: Item
 singer.da4257c: It’s been quiet for 5 minutes. Still in the meeting?
@@ -22492,6 +22522,7 @@ singer.d404968: Medium
 singer.17dc9a8: Meeting
 singer.f8a8cd8: Meeting assistant
 singer.9118d70: Meeting assistant · your DM with Slackbot
+singer.4ad330c: Meeting audio is being recorded.
 singer.100ed08: Meeting controls
 singer.8466b2b: Meeting microphone
 singer.ae3cd65: Meeting notes
@@ -22631,7 +22662,6 @@ singer.052269b: Open in browser
 singer.9ef6078: Open message in Singer
 singer.4ab962a: Open notes
 singer.2076205: Open reply
-singer.eed3aed: Open the conversation to read this message.
 singer.9bd2618: Open transcript
 singer.233ecea: Open voice details
 singer.7bac799: Open {name}
@@ -23096,6 +23126,7 @@ singer.853c388: Your sidebar is tidy
 singer.60b3ab6: Your sign-in was saved for future tasks.
 singer.541f836: Your skills
 singer.e239c82: Your tasks
+singer.0d8c0b8: Your tasks will appear here.
 singer.181b32c: Your transcript is saved
 singer.cb00c9e: You’ll see a capsule whenever Slackbot is listening, even when Singer is folded.
 singer.2266fe4: You’re all caught up
@@ -27181,9 +27212,6 @@ timeline_condensed.dceaaeb: Collapse timeline
 timeline_condensed.6ee783c: Expand timeline
 timeline_condensed.87fa9b7: View sources
 toast.bbfa773: Close
-toast.7f2f6a1: Error
-toast.0eb5ed5: Information
-toast.e9c4556: Warning
 today.854783f: <strong>Missing out on something?</strong> Ask Slackbot to edit your daily briefing.
 today.7cc1d08: A peek at your day
 today.a14a086: AI suggested to-dos are paused.
