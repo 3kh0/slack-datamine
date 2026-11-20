@@ -66,7 +66,7 @@ agents.sessions.stop: bot_user_id, channel, thread_ts
 agents.socialProof.info: bot_user_id, limit
 agents.threads.archive: channel, thread_ts
 agents.threads.rename: channel, name, thread_ts
-ai.agents.channelAgent.configure: additional_source_channel_ids, additional_source_scope, channel_id, custom_instructions, include_all_files, include_all_messages, proactive_replies, skip_simple_array_serialization_in_get_form_data
+ai.agents.channelAgent.configure: channel_id, custom_instructions, include_all_files, include_all_messages, proactive_replies
 ai.agents.channelAgent.getConfiguration: channel_id
 ai.alpha.agents.channels.list: cursor, include_closed, limit
 ai.alpha.agents.diveDeeper: channel, message_ts, thread_ts

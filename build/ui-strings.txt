@@ -89,7 +89,7 @@
 ) are ignored.
 ) is not supported yet.
 ) that performed expensive computation.
-)&&(eH(!1),a2(void 0),ez(so?
+)&&(eH(!1),a5(void 0),ez(sl?
 ))),e((0,c.R3)(h)),e((0,c.p4)(h?a:void 0)),p(h?
 ). If you meant to render a collection of children, use an array instead.
 )?l.makeImage(e.slice(8),new u.Ay(t,r,n,i),o?
@@ -103,7 +103,7 @@
 ,onClick:k?x:void 0,onKeyDown:k?w:void 0,role:k?
 ,stateArg:null,context:new Context(a?
 ,teamId:n??void 0,responseType:s?.responseType??
-,threadTs:n||void 0,tsLink:s?
+,threadTs:n||void 0,tsLink:i?
 . Are you sure it was registered?
 . Skipping it!
 . Use the Call summary skill.
@@ -169,6 +169,7 @@ A field that tracks agent work has too many options to add the ones it needs. De
 A field that tracks agent work was changed to a different type. Delete that field and try again.
 A file attached to a message
 A file not attached to a message
+A focus transition is still pending after returning to the opener
 A h:mm:ss
 A head start for your next task
 A huddle happened
@@ -414,6 +415,7 @@ ActivityIA4: Sets selected tab
 ActivityIA4: Update unread activity item by channel id
 ActivityIA4: Update unread activity item by inviteId for SC invites
 ActivityIA4: Update unread activity item by thread key
+Acts as users
 Adam Bryant
 Add 1 lead or up to 50 contacts
 Add Agent or App
@@ -625,8 +627,8 @@ Add files from your workspace and any connected sources for AI to reference.
 Add files, lists, channels, or canvases Slackbot can reference in this project.
 Add filter
 Add from Dropbox
+Add from Google Contacts
 Add from Google Drive
-Add from Google Workspace
 Add from OneDrive & SharePoint
 Add group
 Add group channels as a section in Home
@@ -907,6 +909,7 @@ All caught up
 All caught up here.
 All channel types
 All channels
+All channels except specific channels
 All checks
 All clear here.
 All clear.
@@ -1144,6 +1147,7 @@ App Notification
 App Peak Memory (MB):
 App Private Memory (B):
 App Total Memory (MB):
+App access
 App activity
 App agents & assistants
 App collaborators
@@ -1181,7 +1185,10 @@ Applying your changes
 Approval 
 Approval Work Item
 Approval desktop notification shown
+Approve Connector
+Approve Install
 Approve Plan
+Approve Update
 Approve a pending channel join request
 Approve plan
 Approve the $1.1M vendor renewal in #fin-forecast-and-controls
@@ -1497,6 +1504,7 @@ Back to Message
 Back to Messages
 Back to Now
 Back to Projects
+Back to Review
 Back to Slackbot
 Back to Slackbot thread
 Back to all templates view
@@ -1864,6 +1872,7 @@ Cancel huddle summary, delete transcript after prompt
 Cancel recording
 Cancel request?
 Cancel schedule and save to drafts
+Cancel this request?
 Cancel upload
 Canceled by user
 Canceled for 
@@ -2326,6 +2335,7 @@ Choose which workflows post here
 Choose who can add, remove, and reorder resources
 Choose who can add, remove, and reorder tabs
 Choose who can manage the Channel Agent
+Choose who can use it and where. You can change either one now or later.
 Choose who to connect email for.
 Choose your 1:1 layout
 Choose your account and review access in your browser. Then come back here.
@@ -2836,7 +2846,6 @@ Connect to Salesforce in Sales Home to use this step and publish this workflow.
 Connect to Slack to load your skills. Your draft is still here.
 Connect to apps
 Connect to desktop store
-Connect to socket
 Connect to test this step
 Connect to try
 Connect with external partners
@@ -3182,6 +3191,7 @@ Could not load the thread for the media viewer
 Could not load threads for the Find Threads pane
 Could not locate submit user variable in step
 Could not locate trigger event timestamp
+Could not look up the request on the admin list
 Could not measure the persistence write
 Could not open Mini after Singer was unavailable
 Could not open Slack from the menu bar icon
@@ -3728,7 +3738,6 @@ Deserialization of a Bidirectional layer with numConstants present is not suppor
 Design review prep
 Desktop API unavailable; skipping
 Desktop ID request not found in pref
-Desktop app requested a reload
 Desktop below the legacy Slackbot mini min version; skipping
 Desktop notification shown
 Desktop perf metrics collection failed
@@ -3873,6 +3882,7 @@ Dismiss window suggestion
 Dismissable Error State
 Dismisses a failed calendar-first onboarding attempt for this session
 Dispatch clogMessageClick when clicking the play button
+Dispatch experiment overrides from persisted dispatched data on warm boot
 Display Name
 Display a toast prompting a refresh after configuring an app in another tab
 Display a toast when a productivity app becomes connected via domain-wide auth
@@ -3908,7 +3918,6 @@ Do more with Business+
 Do not pause
 Do not reset extensions outside of unit tests
 Do you also want to log out of your Tableau Next session?
-Do you want people to see and hear you?
 Do you work with people at other companies?
 DocEditor object not set
 Dock the Slackbot thread a canvas edit link was clicked in into the split view
@@ -4290,7 +4299,6 @@ Enable Clog debug mode
 Enable Recording
 Enable Slack Connect to work with other companies
 Enable and update a user group
-Enable automatic tracing
 Enable camera in browser address bar
 Enable debug mode
 Enable email imports to this workspace
@@ -4300,7 +4308,6 @@ Enable keyboard shortcut
 Enable member provisioning for your team.
 Enable mic in browser address bar
 Enable noise suppression
-Enable smart quotes and symbols
 Enable the direct-contents-write feature of Squirrel.Mac on Mac SSB
 Enable the right people on your team to gain access to the correct Salesforce products and services.
 Enabled Cmd+Shift+O global shortcut
@@ -4995,7 +5002,6 @@ Failed to save email draft
 Failed to save include all files setting
 Failed to save include messages setting
 Failed to save media progress with media.progress.update
-Failed to save multi-channel source settings
 Failed to save proactive instructions
 Failed to save skill set description
 Failed to save task
@@ -5352,6 +5358,7 @@ Filter options
 Filter options are open
 Filter organizations
 Filter people
+Filter permissions
 Filter pull requests
 Filter recent conversations and workflows
 Filter recents
@@ -5432,7 +5439,6 @@ Finish the year strong with a boost for your team.
 Finish this request or draft, then attach again.
 Finish this request or draft, then try Attach again.
 Finish up by adding your details
-Finish waiting for boot data
 Finish your current request or draft before sharing another window.
 Finish your review
 Finish your setup
@@ -5811,7 +5817,6 @@ Gets user group matches for a given search term
 Gettext PO
 Getting Started
 Getting Work Done
-Getting a Quip client requires a team id
 Getting our stacktrace
 Getting ready to turn meeting stress into meeting success!
 Getting started actions
@@ -6019,7 +6024,6 @@ Handling notification click
 Handling request
 Handling signal
 Hands holding a mobile phone
-Hang tight
 Happening now
 Happy New Year
 Happy anniversary!
@@ -6165,6 +6169,7 @@ Hides a custom status entry
 High gain down
 High gain up
 High priority
+High risk
 High saturation
 High tier minimum
 Highlight Handler
@@ -6469,7 +6474,6 @@ Inactive channels
 Include ALL of these keywords
 Include Slack Connect external channels
 Include channels in Recap
-Include content from other channels
 Include conversation history from a custom start date?
 Include conversation history from today?
 Include conversation history?
@@ -6490,7 +6494,6 @@ Increments scroll to search tooltip dismissals count
 Index ingestion is paused, setting most recent index as pending
 Index load error
 IndexedDB not available
-Indicate whether we
 Indicates a required field
 Indicates that the given workspace has completed migrating to an org
 Indicates that the given workspace has its access limited on this network
@@ -7235,7 +7238,6 @@ Load all recently viewed lists
 Load app profiles into Redux
 Load apps actions and slash commands for the client
 Load apps.profile.check for the Agentforce members in a search result
-Load emoji translations
 Load failed
 Load megaphone notification data
 Load megaphone notification data after a random delay
@@ -8718,7 +8720,6 @@ No active recorder found.
 No active recording or not currently paused
 No active selection for event
 No activity in this date range.
-No additional channels
 No additional comments on this page.
 No advanced AI
 No agent sessions in this conversation yet
@@ -9049,7 +9050,6 @@ No workflows or tasks are available in this workspace.
 No workflows yet
 No workspace found
 No workspaces have been selected
-No, Continue Without Camera and Mic
 No, thanks
 No-SIMD timing:
 No-op: starred files are loaded with file collections
@@ -9307,6 +9307,8 @@ Onboarding options
 Onboarding prompts
 Onboarding video iframe load timed out
 Once added, you can ask Slackbot to use this skill
+Once installed, it can be added to selected workspaces, and you can limit it to specific groups, people or channels.
+Once installed, you can limit it to specific groups, people or channels.
 One Dark Pro
 One December 2000 announcement.
 One Drive File Picker
@@ -9656,6 +9658,7 @@ Option not searched
 Optional (Add a message)
 Optional checks failing
 Optional override for the inner iframe
+Optional. Uncheck to leave it out
 Or add from:
 Or just ask me anything else!
 Orchestrated microphone setup failed
@@ -9691,9 +9694,9 @@ Other Members
 Other answer text
 Other display options
 Other industry
-Other media options
 Other models to compare
 Other options
+Other permissions
 Other queries
 Other related matches
 Other unreads
@@ -10395,6 +10398,7 @@ Rate limited
 Rate this answer
 Rate this description
 Rate-limited open-link request
+Rated High risk in your scope ratings.
 Rather say it? Talk to Singer and the answer lands on a card, just like typing.
 Rating Options
 Raw frecency score (normalized 0-100) before bonus points
@@ -10670,6 +10674,7 @@ Region captured
 Region drag started
 Region selected, capturing
 Register Service Worker timed out
+Register event handlers
 Register observers for performance monitoring
 Register the service worker
 Registering icon pack:
@@ -11143,6 +11148,7 @@ Retrieve files by search query
 Retrieve search autocomplete intent model.
 Retrieve search autocomplete model.
 Retrieve search autocomplete offline features.
+Retry Deny
 Retry Singer
 Retry a code channel AI summary request that failed
 Retry calendar events window fetch
@@ -11201,6 +11207,7 @@ Review your mentions
 Review your message in Slack to finish sending.
 Review your notifications
 Review your overview
+Reviewed before listing on the Slack Marketplace
 Reviewed, still open
 Reviewing draft video
 Revoke external links
@@ -11280,6 +11287,7 @@ Run use case
 Run workflow
 Running a department or program
 Running an operational team
+Runs a benchmark on a RTM event
 Runs one search on a fresh Searcher
 Runs only when its trigger fires
 Russian Federation
@@ -11813,7 +11821,6 @@ Select channels
 Select channels for workflow to start in
 Select channels to exclude
 Select channels to monitor
-Select channels...
 Select date
 Select everything matching these filters.
 Select fewer channels and try again.
@@ -12006,7 +12013,6 @@ Set Salesforce organizations received from sfdc.integration.listOrgs
 Set Status
 Set Teams as your default calling provider
 Set Topic
-Set Trigger Run Permissions
 Set UI Status of OAuth for Add Datasource step
 Set UI status of Add Datasource step.
 Set UI status of Create Datasource step
@@ -12055,7 +12061,6 @@ Set focus and mark workspace booted
 Set focus music playing state
 Set focus music song key
 Set highlight column in the item flexpane
-Set initial state (and rehydrating cached data during a warm boot)
 Set list history
 Set list history version by list id
 Set local views for optimistic updates
@@ -12217,7 +12222,6 @@ Settings & permissions
 Setup Store
 Setup Team Name
 Setup tasks
-Setup team-level Redux Store
 Several people joined
 Several steps require admin configuration
 SfdcDataBlockCard: failed to parse rich text JSON
@@ -12519,6 +12523,7 @@ Sign in with another workspace
 Sign out
 Sign-in needed
 Sign-in page hidden
+Signal that the store has been hydrated
 Signal to message pane that app space is open
 Signal to the desktop that all delegates are ready
 Signature Success Plan
@@ -12663,6 +12668,7 @@ Slack Huddle
 Slack Huddles
 Slack Kit Debug
 Slack Kit Playground
+Slack Marketplace
 Slack Ochin
 Slack Pro
 Slack Scribe dictionary save failed
@@ -12863,7 +12869,6 @@ Something went wrong loading your stages. Please try again.
 Something went wrong moving this conversation. Please try again.
 Something went wrong removing that memory. Please try again.
 Something went wrong responding to the invite.
-Something went wrong saving your channel sources. Please try again.
 Something went wrong saving your instructions. Please try again.
 Something went wrong setting up this huddle. Ask for a new link to try again.
 Something went wrong signing in with Google. Try again.
@@ -12874,6 +12879,7 @@ Something went wrong updating skills. Please try again.
 Something went wrong when trying to fetch dynamic options:
 Something went wrong when trying to fetch the template list.
 Something went wrong while converting this lead. Please try again.
+Something went wrong while denying this request. Try again in a few minutes.
 Something went wrong while generating your meeting notes.
 Something went wrong while opening this template. Close and reopen the template to try again.
 Something went wrong while previewing this template. Please try again or contact support.
@@ -12974,12 +12980,12 @@ Sparkle - left
 Speaker notes
 Special words for signal handlers including property change.
 Specific User Groups
+Specific channels
 Specific people
 Specific people and groups can use the app.
 Specific people and workspaces
 Specific people can use the app.
 Specific people, channels, and workspaces
-Specific public channels
 Specific roles
 Specified list of YAML types (or a single Type object) contains a non-Type object.
 Speculoos Cookie Butter
@@ -13389,7 +13395,6 @@ Switch to Bar Chart
 Switch to Enhanced Text
 Switch to Line Chart
 Switch to Text
-Switch to This Tab
 Switch to dev build
 Switch to enhanced text output?
 Switch to text output?
@@ -13602,7 +13607,6 @@ The ReactIs.isAsyncMode() alias has been deprecated, and will be removed in Reac
 The URL will be created after you save this information.
 The agent may have been uninstalled or you do not have permission to view it.
 The agent will forward messages to this channel when people request more help.
-The agent will use everything from a channel as sources.
 The agents will only reply when @-mentioned
 The amount of computational work that your system performs
 The announcement calls it a new group. It says one hire was meant to restart Enron
@@ -14017,6 +14021,7 @@ This record was deleted.
 This record was updated elsewhere. Please try again.
 This record was updated in Salesforce after you started editing. Saving now will overwrite those changes.
 This record was updated in Salesforce. Sync the latest version to continue.
+This request has already been handled.
 This restore preview is no longer valid. Please close and try again.
 This result may be incomplete because the AI answer is blocked by guardrails
 This result may be incomplete because the AI answering failed
@@ -14162,6 +14167,7 @@ Time when workflow started
 Time zone
 Timed out
 Timed out waiting for code channel AI summary
+Timed out waiting for sandbox proxy iframe to be ready
 Timed out waiting for session.ready
 Timeout while fetching work object entity
 Times New Roman
@@ -14517,7 +14523,6 @@ Trying to wrap non-literal object
 Tucson Electric
 Tucson Electric Power
 Tune importance scoring
-Tunes to jam to while you wait
 Tungsten (incandescent light)
 Tuntematon avain
 Tuntemattomat avaimet
@@ -14947,7 +14952,6 @@ Update every week
 Update focus state for a view
 Update from desktop for keys 
 Update local collapsed grids
-Update local config with lastColdBootTs as current date on cold boot
 Update local field visibility
 Update local filters
 Update local group by
@@ -15106,7 +15110,6 @@ Use approved third-party apps to export or act on messages and files from Slack.
 Use arrow keys to move the call between corners
 Use arrow keys to move the docked player between corners
 Use audio and video to bring your work to life. Record a quick idea with an audio clip, or share your screen in a video clip, all without leaving Slack.
-Use camera only
 Use channels to keep projects organized
 Use channels to keep work organized
 Use channels to keep your chats organized
@@ -15117,7 +15120,6 @@ Use header row
 Use huddles in channels to get the whole team aligned.
 Use in your next request
 Use message source
-Use microphone only
 Use of the macro doesn
 Use only letters, numbers, dashes, and underscores.
 Use saved to squirrel away non-urgent items for reference, so your to-do list stays tidy.
@@ -15199,7 +15201,6 @@ VIP messages
 VIP unreads
 VIPs only
 Validate message link
-Validate that the locale we are loading into is valid
 Validation errors
 Validation failed.
 Validations passed in much be an object defining all param validations
@@ -15234,6 +15235,7 @@ Verbose mode is not implemented yet.
 Verbose predictLoop() is not implemented yet.
 Verbosity settings
 Verification account has no email
+Verified by Slack
 Verified by your admin
 Verified skill
 Verify Email
@@ -15509,8 +15511,6 @@ Waiting for an update
 Waiting for blur event to reload
 Waiting for connection (offline)
 Waiting for huddle to end to reload
-Waiting for someone to let you in
-Waiting for someone to start the huddle and let you in
 Waiting for workspace credentials
 Waiting on review
 Waiting on you
@@ -15714,6 +15714,7 @@ Whenever you visit your Sales Tracker, call on Slackbot to jump into action, or 
 Where can this app be used?
 Where do you usually work with your team?
 Where is my pipeline coming from?
+Where it can be used
 Where your team is talking
 Whether it is OK to interrupt a focus transition
 Which answer do you prefer?
@@ -15736,6 +15737,7 @@ Who can find and use this workflow?
 Who can find this workflow?
 Who can join your calendar huddles
 Who can see 
+Who can use it
 Who can use this app?
 Who do you want to message?
 Who is involved
@@ -15815,6 +15817,7 @@ Worker not available, falling back to original stream
 Worker not initialized
 Workflow Actions
 Workflow Builder
+Workflow Builder steps
 Workflow Builder window never opened. Released its claimed slot.
 Workflow Builder window opened
 Workflow Builder window rejected due to being closed
@@ -15922,7 +15925,6 @@ Yes, Clear All!
 Yes, I found exactly what I needed
 Yes, I use my other CRM tools less
 Yes, Remove Photo
-Yes, Turn On Camera and Mic
 Yes, try again
 You added a new workflow
 You already have a conversation with this name. Consider using a unique name to tell them apart.
@@ -15992,7 +15994,6 @@ You have not created any sidekicks yet.
 You have successfully connected
 You have unsaved changes that will be lost.
 You have unsaved changes. Close without saving?
-You joined in a different tab.
 You look nice today
 You made it
 You marked this as important.
