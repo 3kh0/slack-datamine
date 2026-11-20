@@ -28,11 +28,11 @@ admin.apps.restrict: app_id, enterprise_id, team_id
 admin.apps.restricted.list: legacy_integrations, limit
 admin.canvases.publishTemplate: file_id, publish_sales_template
 admin.canvases.unpublishTemplate: file_id, unset_org_sharing_setting
-admin.conversations.archive: channel_id
+admin.conversations.archive: channel_id, target_team
 admin.conversations.convertToPrivate: channel_id
 admin.conversations.convertToPublic: channel_id
-admin.conversations.delete: channel_id
-admin.conversations.disconnectShared: channel_id
+admin.conversations.delete: channel_id, target_team
+admin.conversations.disconnectShared: channel_id, target_team
 admin.conversations.getConversationPrefs: channel_id
 admin.conversations.getCustomRetention: channel_id
 admin.conversations.getTeams: channel_id, cursor, limit
@@ -43,7 +43,7 @@ admin.conversations.search: connected_team_ids, cursor, limit, query, search_cha
 admin.conversations.setConversationPrefs: channel_id, prefs
 admin.conversations.setCustomRetention: channel_id, duration_days
 admin.conversations.setProperties: channel_id, props
-admin.conversations.unarchive: channel_id
+admin.conversations.unarchive: channel_id, target_team
 admin.enterpriseSearch.connectors.deleteConfig: app_id, name, token
 admin.enterpriseSearch.connectors.setConfig: app_id, config_value, name, token
 admin.functions.list: app_ids, include_non_distributed_functions, limit
