@@ -1699,6 +1699,7 @@ app-config.2d3a460: Heads up, this workflow has {remaining_step_count, plural, o
 app-config.3da4745: Skip
 app-config.2fab0fb: This workflow has reached the {max_number_of_steps}-step limit. To add more steps, you need to remove some first.
 app-config.dda6ac2: Verify
+app-config.fd60a1a: })}renderAuthor(){return(0,eL.jsx)(xB.A,{icon:void 0,isDistinct:!0,name:this.props.authorName})}renderFooter(){let{clogLinkClick:e,documentUnfurlTsText:t,fromUrl:n,serviceName:a,ts:s,serviceIcon:i}=this.props;return(0,eL.jsx)(xH.A,{text:a,icon:i||
 app_action_picker.d3a0a22: Add a custom MCP server
 app_action_picker.e8b8f97: Add files and tools
 app_action_picker.d9a3685: Apps
@@ -2516,6 +2517,7 @@ assistant.3dc5e24: Something went wrong on our end. Try closing and reopening th
 assistant.9a3ea05: Something went wrong. Please try again.
 assistant.adc4e96: Sort
 assistant.d952db5: Sort by {sortLabel}
+assistant.12c0612: Speaking speed: {speed, number}x
 assistant.e61561a: Starred
 assistant.2d9a33d: Start New Call
 assistant.ccdaf21: Start date (ex. {dateExample})
@@ -3761,7 +3763,6 @@ channel_details.3f09874: Available agents
 channel_details.b52b36b: Back
 channel_details.dadf25f: Back to members
 channel_details.0882a07: Be your productivity partner
-channel_details.99613c7: Blocked
 channel_details.c13af6d: Bring the tools you need into this channel to pull reports, start calls, file tickets and more.
 channel_details.069b469: Bring the tools you need into this conversation to pull reports, start calls, file tickets and more.
 channel_details.14649e4: Browse Skills
@@ -5660,6 +5661,7 @@ classic_nav.c47ae15: Help
 classic_nav.c05ea34: Help, with {unreads, plural, =1 {# unread} other {# unreads}}
 classic_nav.eff152e: Hide workspace switcher
 classic_nav.90ccd64: History
+classic_nav.615e0f7: History Navigation
 classic_nav.8c99a8e: How does this impact your current use of Slack or how could it potentially improve your use of Slack in the future?
 classic_nav.2e29f8d: How would you describe the search results you’re seeing?
 classic_nav.a0767c2: Huddle
@@ -5708,6 +5710,7 @@ classic_nav.08d7aa3: Select an option
 classic_nav.4971b0f: Session channel
 classic_nav.02d1eda: Set yourself as <strong>{presenceLabel}</strong>
 classic_nav.bef780e: Share your feedback on Search
+classic_nav.82f7a72: Show Workspace Switcher
 classic_nav.1c69e35: Show history
 classic_nav.b318b8b: Show workspace switcher
 classic_nav.ada2e9e: Sign in
@@ -5898,12 +5901,17 @@ client.27129a2: {viewName} collapsed
 client_error_screens.c828370: <a>Check the Slack service</a> to make sure it’s not a Slack issue.
 client_error_screens.1cfdfef: <a>Restart Slack</a>. Sometimes that’s all it takes.
 client_error_screens.bcb2fef: <a>Try our suggestions for troubleshooting</a> connection issues.
+client_error_screens.a02101f: Browse Workspaces
+client_error_screens.e6de983: Continue to Your Workspace
 client_error_screens.dee8e91: From your organization:
 client_error_screens.cce7155: Reload
 client_error_screens.34b1507: Reload Slack
 client_error_screens.db89a00: Review Terms of Service
 client_error_screens.7e08abd: This is one of those times when we’re not sure what went wrong, but we do have some suggestions that might help.
+client_error_screens.ac37626: Time to join a workspace
 client_error_screens.16f9d38: To continue using Slack, please review and agree to your organization’s terms of service. Once accepted, please reload Slack.
+client_error_screens.06b4e2e: To work with {orgName}, join a workspace and you’ll be on your way.
+client_error_screens.d6180bf: Welcome to {enterprisePlanName}!
 client_error_screens.5c545dd: We’re having trouble loading your workspace
 client_error_screens.9ef3c0e: You can only access Slack during your shift
 client_error_screens.d66b5c6: You need to agree to your organization’s terms of service.
@@ -9076,6 +9084,7 @@ enterprise_dashboard.e3e3a56: Global Administrator access required. Share <a>thi
 enterprise_dashboard.53af77c: Global Administrator access required. Share this link with your Global Administrator to get set up.
 enterprise_dashboard.b2acc20: Grant Slack access to Google
 enterprise_dashboard.6b45d93: Grant Slack access to Office 365
+enterprise_dashboard.2a17b82: IDP
 enterprise_dashboard.8fe6084: Icon for {appName}
 enterprise_dashboard.5a99784: Icon must be a .gif, .jpg, or .png
 enterprise_dashboard.b137f44: Icon must be at least {minimumIconWidth} x {minimumIconHeight} pixels
@@ -9102,7 +9111,9 @@ enterprise_dashboard.baefd7e: No channels were found matching <b>{query}</b>
 enterprise_dashboard.a05b579: No file chosen
 enterprise_dashboard.718d942: No members to assign to this permission
 enterprise_dashboard.41c06c1: No one
+enterprise_dashboard.fdd8747: No results found matching <b>{groupsSearchTerm}</b>.
 enterprise_dashboard.cd51f18: No results found matching <b>{membersSearchTerm}</b>.
+enterprise_dashboard.8a53b25: No user groups to assign to this permission
 enterprise_dashboard.848c28c: No workspaces have been selected
 enterprise_dashboard.0f4d889: Not a <b>Global Administrator</b> for <b>{domain}</b>? Share <a>this link</a> with your workspace’s Global Administrator to get set up.
 enterprise_dashboard.74a889c: Not a <b>super admin</b> for <b>{domain}</b>? Share <a>this link</a> with your workspace super admin to get set up.
@@ -9199,6 +9210,7 @@ enterprise_dashboard.9622962: {appName} is now connected.
 enterprise_dashboard.5a83c48: {appName} uninstalled.
 enterprise_dashboard.cd65fda: {count, plural, =1 {# channel} other {# channels}}
 enterprise_dashboard.ddf19c4: {count, plural, =1 {# filtered result} other {# filtered results}}
+enterprise_dashboard.e9099aa: {count, plural, =1 {# group} other {# groups}}
 enterprise_dashboard.03cd6f5: {count, plural, =1 {# member} other {# members}}
 enterprise_dashboard.3358be7: {count, plural, one {# skill} other {# skills}}
 enterprise_dashboard.eba622f: {memberName} couldn’t be removed from this channel.
@@ -12115,9 +12127,6 @@ ia4.c88696b: {todoCount, plural, =1 {# overdue to-do} other {# overdue to-dos}} 
 ia4.3438496: {todoCount, plural, =1 {# overdue to-do} other {# overdue to-dos}} and {notificationCount, plural, =1 {# unread notification} other {# unread notifications}}
 ia4.b66a9ff: {workspaceName}, has new messages
 ia4_peeks.08482ad: Dogfood
-ia4_peeks.7684b09: Past events
-ia4_peeks.6e28c84: See tomorrow
-ia4_peeks.9c93cef: See yesterday
 im_foreword.77dfd21: Cancel
 im_foreword.d6bc57a: Help your new teammate feel welcome. Share a channel where they can get to know the rest of the team.
 im_foreword.b3c8845: Image of a hand holding welcome card
@@ -13685,12 +13694,13 @@ meeting-assistant.1da09c4: We haven’t detected any audio for {count} minutes. 
 meeting-assistant.a12ec90: What decisions have been made?
 meeting-assistant.0841a58: You joined mid-conversation.
 meetings.6f3b15f: Join Meeting
+megaphone_journey_internal_dummy.e9b450d: Done
 megaphone_journey_internal_dummy.1703068: Dummy journey
 megaphone_journey_internal_dummy.8787649: Dummy journey nudge, day {day}
 megaphone_journey_internal_dummy.1d6c4e1: Dummy journey tip, day {day}
 megaphone_journey_internal_dummy.a7497d2: Dummy journey: {daysLeft, plural, =1 {# day left} other {# days left}}
 megaphone_journey_internal_dummy.bc98198: Next
-megaphone_journey_internal_dummy.e1ed130: Step {step}, day {day}. Close this to move to the next page of the walkthrough.
+megaphone_journey_internal_dummy.2c4e947: Step {step}, day {day}. This is the only page of your walkthrough; close it to finish.
 member_profile.70dd239: A contact from other organizations
 member_profile.1c0580c: A coworker
 member_profile.a3b911c: A coworker at {orgName}
@@ -14032,7 +14042,6 @@ menu.80b8479: View in Slack Marketplace
 menu.4d66568: View members
 menu.225220d: View paused workflows
 menu.b98795a: View profile
-menu.7f25898: View {quipLabel} details
 menu.d7a4841: Workflow
 menu.9dda926: Workflow options ready
 menu.ee43020: Workflows with Salesforce data
@@ -14171,6 +14180,8 @@ message.b571b97: Has draft reply.
 message.6ed27e8: Hide instructions
 message.0d641a0: Hide message
 message.880a11b: Hide profile
+message.a89e766: How important and urgent is this?
+message.f0458df: Importance
 message.d9fdd6e: Invited you to become owner of this template <a>canvas</a>
 message.9f69c90: Invited you to edit this template: <a>canvas</a>
 message.fb331eb: Invited you to use this template: <a>canvas</a>
@@ -14249,6 +14260,7 @@ message.33f385b: Profile photo
 message.8a2abaf: Pronouns
 message.7dd81d5: Quote reply
 message.0657655: R
+message.cd800aa: Rate importance and urgency…
 message.4d1f996: React
 message.1c10968: React to say hi!
 message.0c8fb2d: React with emoji
@@ -14373,6 +14385,7 @@ message.43dbf37: Un-pin from this conversation
 message.376ab8f: Unhide profile
 message.40f19e8: Update our customer records based on this message: {permalink}
 message.ad0d060: Upload failed
+message.89afbdb: Urgency
 message.178d2f2: Use these emoji to respond quickly and get work done. 
 message.fab4187: View Saved
 message.bd308a5: View message activity…
@@ -14805,6 +14818,7 @@ messages_action_items.c551b66: Report to Slack
 messages_action_items.ec85297: Restore response
 messages_action_items.00e8abf: Summarize message
 messages_action_items.bfa17ca: Summarize thread
+migration_blocker_page.e6de983: Continue to Your Workspace
 migration_blocker_page.a0a573b: Your workspace is joining an organization!
 mobile_app_promos.70afe9e: Dismiss
 mobile_app_promos.e6974d4: Download the Slack mobile app
@@ -16840,7 +16854,6 @@ platform-admin.e57f74b: Channels loaded.
 platform-admin.ea96354: Compare Plans
 platform-admin.2e02623: Continue
 platform-admin.0fff07c: Continue to Groups
-platform-admin.74780a8: Continue to People
 platform-admin.05d0162: Couldn’t load channels. Try again in a few minutes.
 platform-admin.dfdb7ac: Couldn’t load groups. Try again in a few minutes.
 platform-admin.16506ef: Couldn’t load more channels.
@@ -16853,10 +16866,8 @@ platform-admin.5e50eae: Everyone except specific people or groups
 platform-admin.0940563: Filter by channel name
 platform-admin.90e40d5: Get started
 platform-admin.e2722c7: Get unlimited apps, including AI assistants
-platform-admin.6878f62: Learn how to get started connecting your IDP to Slack
 platform-admin.be5f086: Load More Channels
 platform-admin.61afdda: Loading channels
-platform-admin.978ae10: Loading groups
 platform-admin.cf310ac: Loading more channels…
 platform-admin.4f739b5: Loading people
 platform-admin.41bd67a: Manage app access
@@ -16883,8 +16894,6 @@ platform-admin.14c3a74: Sorry, something went wrong. Try again in a moment.
 platform-admin.2d750dd: Specific people
 platform-admin.10e4b6f: Specific people and groups can use the app.
 platform-admin.8007984: Specific people can use the app.
-platform-admin.111cbbd: There are no groups from your identity provider.
-platform-admin.6c68b7e: This app doesn’t allow any groups
 platform-admin.ea1a27d: This app doesn’t allow any people
 platform-admin.f372b05: To reconnect workflows, upgrade to a paid plan. <cta></cta>
 platform-admin.7b15e9e: Too many users to display. You may only add users here. To remove users, please use the API.
@@ -16901,10 +16910,10 @@ platform-admin.155b3f7: You can delete specific people but cannot add people to 
 platform-admin.ba76df8: You’ve reached your limit of 10 installed apps. With Slack Pro, you can install unlimited apps including AI assistants. {bannerCta}
 platform-admin.aa075f0: {channelCount, plural, =1 {# channel} other {# channels}} selected
 platform-admin.cd65fda: {count, plural, =1 {# channel} other {# channels}}
-platform-admin.5a1463d: {count, plural, =1 {# excluded group} other {# excluded groups}} couldn’t be loaded and will no longer be blocked if you save.
-platform-admin.2de9038: {count, plural, =1 {# group} other {# groups}} this app allows couldn’t be loaded.
+platform-admin.e9099aa: {count, plural, =1 {# group} other {# groups}}
 platform-admin.2f9a86c: {count, plural, =1 {# person} other {# people}}
-platform-admin.4c0adf4: {count, plural, =1 {# previously-permitted group} other {# previously-permitted groups}} couldn’t be loaded and will lose access if you save.
+platform-admin.962677a: {groupCount, plural, =0 {No groups} =1 {# group} other {# groups}} and {memberCount, plural, =0 {no people} =1 {# person} other {# people}} selected
+platform-admin.9a1985c: {memberCount, plural, =0 {No people selected} =1 {# person selected} other {# people selected}}
 platform-admin.1b95d2b: {name} (group)
 platform-admin.fc7f746: {personCount, plural, =0 {} =1 {# excluded person} other {# excluded people}}{both, select, true { and } other {}}{groupCount, plural, =0 {} =1 {# excluded group} other {# excluded groups}} couldn’t be loaded and will no longer be blocked if you save.
 platform-admin.b20728a: {personCount, plural, =0 {} =1 {# previously-permitted person} other {# previously-permitted people}}{both, select, true { and } other {}}{groupCount, plural, =0 {} =1 {# previously-permitted group} other {# previously-permitted groups}} couldn’t be loaded and will lose access if you save.
@@ -17052,7 +17061,6 @@ prefs.9b6c1f2: All new messages
 prefs.b36ed0c: All new posts
 prefs.7843a67: Allow Slack AI to search the web
 prefs.d56a559: Allow animations
-prefs.c66846f: Allow notifications:
 prefs.756c491: Allow others to send messages on your behalf in specific channels. Delegates you add here will see a “From” option in their message composer.
 prefs.0c8123c: Alphabetically
 prefs.d5bf2d0: Already shown
@@ -17117,12 +17125,6 @@ prefs.c78612e: Ctrl+Shift+O
 prefs.081ae3f: Custom
 prefs.c38c6a2: Custom Font
 prefs.ce49566: Custom theme
-prefs.fc7c29a: Customize quick reaction slot 1 of 3, {emoji}
-prefs.c66a102: Customize quick reaction slot 2 of 3, {emoji}
-prefs.2dfaa0d: Customize quick reaction slot 3 of 3, {emoji}
-prefs.784326a: Customize slot 1
-prefs.bc17947: Customize slot 2
-prefs.2791ff4: Customize slot 3
 prefs.81b886d: Customize your screen reader experience
 prefs.689626f: DMs and group DMs
 prefs.ae1ef01: Dark
@@ -17297,7 +17299,6 @@ prefs.ae8c393: Reminders
 prefs.b899848: Reminders from Later
 prefs.ba486a5: Reminders from to-dos
 prefs.6fee3d5: Reminders when Later item due dates arrive
-prefs.807fae6: Reminders you set
 prefs.e963907: Remove
 prefs.6c2bb73: Reply
 prefs.d87b600: Reply count
@@ -17324,7 +17325,6 @@ prefs.f85d29f: Send notifications to my <t1>mobile devices</t1>:
 prefs.3254cc5: Send on behalf
 prefs.17b874d: Sender
 prefs.c07cf13: Set Email Notifications
-prefs.32177b7: Set a default time for reminder notifications:
 prefs.4ccdfc0: Set email notifications, including for when you’re not active on desktop, in your account settings
 prefs.9022934: Set up mobile overrides
 prefs.09ca55c: Share
@@ -17400,7 +17400,6 @@ prefs.ee4ff35: We noticed you’re in a lot channels. You’re also getting noti
 prefs.4c33f40: We turned down the noise
 prefs.381cedd: Web search
 prefs.5656b9b: Wednesday
-prefs.4ffc67b: Weekdays
 prefs.eb07e10: We’ve turned down the noise
 prefs.32d0e22: What to notify you about
 prefs.4538e18: What to show in Activity
@@ -17443,7 +17442,6 @@ prefs.7cbd8ab: {icon} Dark
 prefs.42b0bd8: {icon} Light
 prefs.bd1866f: {icon} System
 prefs.429bbd8: {icon} {action}
-prefs.2f42eb0: {learnMoreLink} for a specific day (like “tomorrow”) will be sent at the time you select.
 prefs.18f628e: {name}
 prefs.1fb04bc: ⌘+Shift+O
 presence.a733b80: Active
@@ -21863,6 +21861,7 @@ singer.96df1ed: Accessibility: so Slack can confirm you sent the recording note.
 singer.a733b80: Active
 singer.95bf7a4: Active, notifications snoozed
 singer.81c0d91: Activity
+singer.5b1c8a4: Activity dismissed. Messages stay unread.
 singer.2a7a995: Activity has nothing for you right now.
 singer.788afb5: Activity has nothing left for you.
 singer.732a2d8: Activity will fill in as things arrive.
@@ -21908,7 +21907,6 @@ singer.f11e5dc: An admin turned off transcription for {workspace}, so Slackbot c
 singer.666ebb3: Answer style
 singer.ac09f16: Answered by {name}
 singer.d785411: Any time
-singer.4cda7d3: Anything Slackbot already changed stays changed. An action in progress may still finish.
 singer.fc4a695: App
 singer.b98aa75: Applying your changes
 singer.7b2c7f1: Approve
@@ -21931,7 +21929,6 @@ singer.29f9bf5: Asking
 singer.b9692bb: Asleep
 singer.f980fb0: Astro
 singer.19ba82e: Astro Singer
-singer.b04189a: At risk
 singer.1afff01: Attach
 singer.05016fb: Attach Singer to the window where your meeting chat is open.
 singer.bbbfbe6: Attach, current step
@@ -21948,17 +21945,12 @@ singer.b52b36b: Back
 singer.3860116: Back to Input
 singer.4855132: Back to Messages
 singer.3630488: Back to Slackbot
-singer.f7b0ca1: Back to catch up
-singer.9a2b781: Back to conversations
 singer.1a9c58d: Back to {title}
 singer.00544f7: Bad response
 singer.7b05bab: Beta freeze moved to next Thursday.
 singer.3466a48: Blast
-singer.99613c7: Blocked
-singer.7ed5336: Blocker
 singer.54e403a: Bright and friendly.
 singer.3bc880e: Bring Slackbot to your meetings
-singer.0ed5751: Bring Slackbot to {title}?
 singer.2f3b5c5: Browse
 singer.b6924d9: Browse skills in Slack
 singer.90ee700: Browse your library in Slack to find an available skill.
@@ -21989,7 +21981,6 @@ singer.5625817: Can’t turn that recording into text. Try speaking again or typ
 singer.2a7e4be: Card stack
 singer.885b7b6: Cards from Singer
 singer.131cf57: Catch me up
-singer.fad94e1: Catch me up on these unread updates. Highlight what needs my attention and link to the messages. Keep it brief.
 singer.8703a74: Catch up
 singer.7534779: Catching up
 singer.9be1668: Changes requested
@@ -22009,7 +22000,6 @@ singer.4f936b7: Check Tasks
 singer.cc58f4d: Check draft request
 singer.dcb413e: Check needed
 singer.6fe44a0: Check skipped. Share this note in the meeting chat yourself.
-singer.1bafc07: Check your earlier messages in Slack before sending more. Your draft is saved here.
 singer.eb9f4e4: Check your mic, or stop and try again.
 singer.ccdc6ae: Check your microphone
 singer.802cc3c: Checking for your note.
@@ -22029,7 +22019,6 @@ singer.c3d6666: Close Astro Singer
 singer.fd71a50: Close Browser
 singer.8962525: Close conversation
 singer.11d16ea: Close meeting controls
-singer.fa0b7b3: Close panel
 singer.cd78b1d: Close quick switcher
 singer.88d86b7: Closed
 singer.a14881f: Closing browser…
@@ -22083,10 +22072,8 @@ singer.75a9fcd: Couldn’t load your skills
 singer.d4df57f: Couldn’t open that conversation. Try again.
 singer.517b3bf: Couldn’t open that item. Try again.
 singer.e1f58c2: Couldn’t open this activity. Try again.
-singer.9e20b19: Couldn’t open this reply. Dismiss the update to get back to Slackbot.
 singer.d92b74e: Couldn’t save · open the canvas to edit
 singer.052b8ee: Couldn’t send. Try again.
-singer.4d3df55: Couldn’t send. Your message is still here. Try again when you’re connected.
 singer.ac8f6a8: Countdown’s up to you.
 singer.d3f8c92: Cozy Knit
 singer.bab2d26: Create Canvas
@@ -22111,7 +22098,6 @@ singer.e20d5fb: Default duration
 singer.fd14281: Deletes Slackbot’s saved browser profile, including sign-ins and site data for every site.
 singer.f27d86c: Deletes saved sign-ins and site data for every site. Open browsers can stay signed in, but won’t save those sign-ins again. This can’t be undone.
 singer.dc3decb: Details
-singer.47f0c5a: Dictate a message
 singer.5d3bb50: Did {title} end? Stopping in {countdown}.
 singer.fc7f864: Direct message
 singer.e7596a0: Direct messages
@@ -22153,7 +22139,6 @@ singer.2cc92f6: End Quiet
 singer.c8de761: End call
 singer.e25cf14: End voice chat
 singer.1f7a4f9: Esc
-singer.aff666f: Escalated
 singer.8a1ddb6: Everything is set to Keep
 singer.10ff9f4: Everything’s frozen in place.
 singer.09fef5d: Failed
@@ -22226,7 +22211,6 @@ singer.ddb36ec: Huddle invites
 singer.b27e958: Huddle notes
 singer.9ee66f5: Huddle notes on
 singer.7e966cf: Huddle transcript
-singer.9fa0541: I checked the website
 singer.cc1ebdd: Idle
 singer.e9a5edc: If anyone can, it’s you
 singer.50e19fd: Image
@@ -22240,6 +22224,7 @@ singer.b136609: Invite
 singer.d98add1: Invite people to your huddle
 singer.3326258: Invited guest
 singer.7573b84: Invited member
+singer.69e5b48: Island activity muted for {minutes, plural, one {# minute} other {# minutes}}. Messages stay unread.
 singer.e727da6: It may still be on.
 singer.ecdda59: Item
 singer.da4257c: It’s been quiet for 5 minutes. Still in the meeting?
@@ -22258,7 +22243,6 @@ singer.fc018de: Keep Going
 singer.fcbba3a: Keep Recording
 singer.12a4498: Keep Slackbot or Speck selected after you send.
 singer.7d740fb: Keep holding to play Astro Singer, or press Shift+Space.
-singer.44eeee6: Keys go to the website · Shift+Esc returns to Singer
 singer.16761fc: Kindness always comes around
 singer.738fd1d: Large
 singer.56e2f5d: Later
@@ -22303,8 +22287,6 @@ singer.01d1180: Look at you go.
 singer.0312266: Looking for your note in the chat…
 singer.f71edd8: Lovely!
 singer.8b8ec14: Make me a kanban board of my open asks in Slack
-singer.ecb7e36: Make panel larger
-singer.7769590: Make panel smaller
 singer.f03a88b: Manage in huddle
 singer.4b38b55: Mark Unread
 singer.1b83163: Mark all as read
@@ -22318,6 +22300,7 @@ singer.d404968: Medium
 singer.17dc9a8: Meeting
 singer.f8a8cd8: Meeting assistant
 singer.9118d70: Meeting assistant · your DM with Slackbot
+singer.4ad330c: Meeting audio is being recorded.
 singer.100ed08: Meeting controls
 singer.8466b2b: Meeting microphone
 singer.ae3cd65: Meeting notes
@@ -22325,12 +22308,10 @@ singer.58b0531: Meeting notes are off
 singer.fb8d903: Meeting notes are ready
 singer.3e63bfe: Meeting recording
 singer.6289926: Meeting recording continues
-singer.32d7428: Meeting reminder dismissed. You can still find it in Today.
 singer.cf829f1: Meeting reminders
 singer.1a04629: Meeting thread
 singer.7d09a73: Meeting thread with Slackbot
 singer.de22a5e: Meeting thread, {count} new
-singer.46efbb1: Meeting window
 singer.b23a193: Meetings
 singer.85e12bc: Mentions
 singer.ea8f0d0: Merge
@@ -22375,7 +22356,6 @@ singer.e51f426: Needs your attention
 singer.ab027dc: Needs your okay
 singer.6403f2b: New
 singer.e4cc33d: New Meeting
-singer.e176200: New Slackbot conversation
 singer.10d95f6: New activity lands here when it arrives.
 singer.0eb6323: New activity will show up here.
 singer.1ed2e7b: New message
@@ -22436,12 +22416,10 @@ singer.2d1a58d: Now paste it in the meeting chat and press Send.
 singer.a48ad17: Now that’s a run.
 singer.9ce3bd4: OK
 singer.e3de5ab: Off
-singer.a045dfa: Off track
 singer.e01fa71: Offline
 singer.3996ed6: Offsite plan
 singer.e0049a6: On
 singer.6268b28: On it. Your card is on its way.
-singer.38350e8: On track
 singer.c8e633f: Oops
 singer.cf9b770: Open
 singer.e505acd: Open Browser
@@ -22565,7 +22543,6 @@ singer.764ace3: Replace your saved message with this draft?
 singer.c0f85d6: Replay
 singer.c8a103c: Replies
 singer.6c2bb73: Reply
-singer.edde538: Reply in chat to continue.
 singer.7f16c8d: Reply in thread
 singer.75fe0ad: Reply ready
 singer.defdba4: Reply…
@@ -22582,9 +22559,7 @@ singer.e29a79f: Review
 singer.d49825d: Review and edit before sending
 singer.657d274: Review in Chat
 singer.86a9586: Review requested
-singer.6481492: Review your message in Slack to finish sending.
 singer.5804431: Right ⌘
-singer.5a8f23f: Risk
 singer.9cb5732: Rocks ahead. Probably.
 singer.b1b3926: Run
 singer.73989d9: Running
@@ -22627,7 +22602,6 @@ singer.717009c: Send note, needs attention
 singer.043d0bf: Send note, not started
 singer.c631089: Send this note in the meeting chat, then add a screenshot of the chat.
 singer.0fe84f1: Send this note in the meeting chat.
-singer.309d88e: Send to {recipient}
 singer.cf76551: Sending…
 singer.35f49dc: Sent
 singer.559c29d: Sent privately to {agent}
@@ -22640,6 +22614,7 @@ singer.a82b2d5: Show More Skills
 singer.cf0f51d: Show New Activity
 singer.11071cf: Show as chart
 singer.ef38f0f: Show as table
+singer.5810ece: Show in Chat
 singer.4c852b2: Show less
 singer.ded0a5d: Show me
 singer.9bfd43e: Show message text when your Slack privacy settings allow it.
@@ -22741,7 +22716,6 @@ singer.80c5e79: Stop Task
 singer.962101f: Stop and hide
 singer.ee0d9dc: Stop recording
 singer.8eb277d: Stop talking
-singer.01ca109: Stop this task?
 singer.51e9111: Stopped
 singer.2c856a9: Stopped at the 2-hour limit. Creating notes.
 singer.72f0f48: Stopped listening. Creating notes
@@ -22773,7 +22747,6 @@ singer.8b41273: Talk to Slackbot is using your mic.
 singer.2151950: Tap and say it
 singer.1cc0805: Task output
 singer.090ec5f: Tasks
-singer.31f2ce0: Tell me about this window.
 singer.6298140: Thanks for the feedback
 singer.e054b40: That didn’t go through. Try again.
 singer.348527a: That didn’t work. Try again.
@@ -22834,7 +22807,6 @@ singer.915648f: Unlocks when Slack finds your note in the screenshot
 singer.7044c31: Unmute
 singer.2eba6a0: Unpin
 singer.07b032b: Unread
-singer.192715c: Unread Slack activity
 singer.c99407b: Untitled conversation
 singer.fb91e24: Update
 singer.f2f8570: Updated
@@ -22910,7 +22882,6 @@ singer.7ada587: Your chat, recap and notes go to a thread in your DM with Slackb
 singer.590994b: Your draft is safe. Give it another try.
 singer.0bf29fe: Your huddle is taking notes
 singer.f30447a: Your huddle is taking notes from its captions. Stop them from the huddle.
-singer.5a35be6: Your message is still sending. Check the conversation before trying again.
 singer.8836647: Your mic
 singer.794d8bc: Your mic is in use
 singer.36c57e9: Your mic is working.
@@ -22995,13 +22966,20 @@ singer.8d3026c: {timeRange} · {provider}
 singer.797dfd0: {time} local time
 singer.19b6d8b: {time} · {count, plural, =0 {nothing open} one {# open} other {# open}} · worst {severity}
 singer.9566c9b: {title} kept in the island
-singer.a93004d: {title}, {count, plural, one {# item} other {# items}}
 singer.a054d47: {title}, {date}
 singer.4ed1c68: {title}: {state}
 singer-file-drop-feedback.5ff5dd8: Adding to your message…
 singer-file-drop-feedback.38abf08: Drop to attach
 singer-window-attachment.1afff01: Attach
+singer-window-attachment.7aba744: Attached window
+singer-window-attachment.77d607f: Attaching window…
+singer-window-attachment.c351af2: Attaching…
+singer-window-attachment.c7310d3: Detach window
+singer-window-attachment.8206bfd: Dismiss window suggestion
+singer-window-attachment.08fb1d0: Finish this request or draft, then try Attach again.
+singer-window-attachment.1f29de7: Use in your next request
 singer-window-attachment.41dfc0a: Window
+singer-window-attachment.097a3f4: Window changed. Move Singer over it again.
 singer-window-conversation.1b29cf6: Allow Editing
 singer-window-conversation.5b2b09d: Allow Screen Recording for Slack, then try your request again.
 singer-window-conversation.218d4be: Apply Edit
@@ -26985,8 +26963,6 @@ today.d8f2daa: ,rL=new ed.Ay(
 today.854783f: <strong>Missing out on something?</strong> Ask Slackbot to edit your daily briefing.
 today.7cc1d08: A peek at your day
 today.a14a086: AI suggested to-dos are paused.
-today.028ec04: Add Huddle
-today.d8de514: Add huddle to talk with your team right in Slack
 today.243c942: Add messages or write your own to-dos, and get the satisfaction of checking them off your list. Saved is now a separate spot to store things for reference.
 today.140b367: Add to-do
 today.9ce55c1: Added by you
@@ -27039,7 +27015,6 @@ today.804eb5a: Good morning, {firstName}!
 today.c8a4874: Got It
 today.5b8027f: Got it
 today.75b8883: Guests ({numGuests})
-today.abc0ea9: Happening now
 today.68edd11: Head back to Home
 today.3534844: Hello, {firstName}!
 today.8fab06d: Hide past events
@@ -27120,12 +27095,10 @@ today.8d886c0: Something went wrong
 today.e61561a: Starred
 today.952f375: Start
 today.87588fb: Start Huddle
-today.db14bf2: Starting {timeAgo}
 today.e835f68: Stay in the loop on important conversations.
 today.2dacf65: Submit
 today.01d94f4: Summaries of your most important unreads.
 today.588c583: Summarize this meeting
-today.23e7c72: The best memories are sometimes created in the calmest moments
 today.e7da927: The important bits from your Gmail inbox
 today.02285b9: The important bits from your Outlook inbox
 today.d19ceca: Tip
@@ -27167,8 +27140,6 @@ today.bc67a44: {count} selected
 today.7cd0ac6: {emoji} Action items you might have missed
 today.00a8132: {emoji} Agenda
 today.52f27c3: {emoji} Recent highlights
-today.d11d6cb: {eventTime}
-today.6229e1c: {eventTime} {isImHuddle, plural, =1 {with} other {in}} {channelName}
 today.6d806e6: {icon} Join {meetingName}
 today.d8f2daa: {otherMemberName} and {numMembersMinusOne, plural, =1 {# other is} other {# others are}} in the huddle
 today.c39c537: {otherMemberName} and {numMembersMinusOne} others are invited
@@ -27900,7 +27871,6 @@ view.c1418c2: New Workflow
 view.1ed2e7b: New message
 view.0caea46: No facts about you yet.
 view.cac330d: No projects yet
-view.c7649c9: Nothing needs you
 view.b54a538: Nothing saved yet
 view.c18f8f2: Notification
 view.753a22b: Notifications
@@ -27986,7 +27956,6 @@ view.1f0c0fc: Use the arrow keys to move the panel
 view.9f8a238: User
 view.4add952: User groups
 view.10a47da: What’s New
-view.1cce3cc: When your agent starts on something from the chat, or someone needs an answer from you, it shows up here.
 view.00040ba: Work
 view.b3e3b7a: Workflow Builder
 view.e38e3ca: Workflow Creation
@@ -28018,7 +27987,6 @@ view-header.cde3c02: About {userGroupName}
 view-header.b9b41b0: Add channels
 view-header.a5b79f5: Artifacts
 view-header.9e1f19f: Artifacts ({count})
-view-header.99613c7: Blocked
 view-header.bbfa773: Close
 view-header.88d86b7: Closed
 view-header.92f5b68: Currently in Starred
@@ -30338,6 +30306,7 @@ workflows.9b4457e: Forward workflow
 workflows.a1e34f9: More actions
 workflows.8cea91f: This workflow no longer exists.
 workflows.badd385: View details
+workspace_apps_manage.8158d20: Allow this app to install managed agent apps
 workspace_apps_manage.7b2c7f1: Approve
 workspace_apps_manage.77dfd21: Cancel
 workspace_apps_manage.53577bb: Deny
@@ -30345,6 +30314,7 @@ workspace_apps_manage.a0d641b: Domains
 workspace_apps_manage.9f5cd8a: Retry
 workspace_apps_manage.efc007a: Save
 workspace_apps_manage.44ff383: Send information to these domains:
+workspace_apps_manage.f7f4ce3: When enabled, {appName} can install managed apps built with the agent builder platform for {appName}, without requiring admin approval for each one. Managed apps are limited to bot scopes only, and this permission can be revoked at any time from your automated app approval rules.
 workspace_directory.6b21fb7: About
 workspace_directory.82cf8a5: Account settings
 workspace_directory.09e12ea: Awaiting admin approval
