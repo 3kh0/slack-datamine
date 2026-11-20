@@ -21951,7 +21951,7 @@ singer.05016fb: Attach Singer to the window where your meeting chat is open.
 singer.bbbfbe6: Attach, current step
 singer.2f70892: Attach, done
 singer.5e1e06d: Attach, needs attention
-singer.11fb4bc: Attached to {app}. Send the note in the meeting chat.
+singer.2570d97: Attached to {app}. Copy the note, then paste and send it in the meeting chat.
 singer.acdac20: Audio
 singer.1765276: Audio clip
 singer.8aa95f1: Audio unavailable
@@ -21963,12 +21963,15 @@ singer.3860116: Back to Input
 singer.4855132: Back to Messages
 singer.4e47f50: Back to Now
 singer.3630488: Back to Slackbot
+singer.f7b0ca1: Back to catch up
+singer.9a2b781: Back to conversations
 singer.1a9c58d: Back to {title}
 singer.00544f7: Bad response
 singer.7b05bab: Beta freeze moved to next Thursday.
 singer.3466a48: Blast
 singer.54e403a: Bright and friendly.
 singer.3bc880e: Bring Slackbot to your meetings
+singer.0ed5751: Bring Slackbot to {title}?
 singer.2f3b5c5: Browse
 singer.b6924d9: Browse skills in Slack
 singer.90ee700: Browse your library in Slack to find an available skill.
@@ -22040,6 +22043,7 @@ singer.c3d6666: Close Astro Singer
 singer.fd71a50: Close Browser
 singer.8962525: Close conversation
 singer.11d16ea: Close meeting controls
+singer.fa0b7b3: Close panel
 singer.cd78b1d: Close quick switcher
 singer.88d86b7: Closed
 singer.a14881f: Closing browser…
@@ -22071,6 +22075,7 @@ singer.0203cb9: Copy link for {title}
 singer.9975d23: Copy link to profile
 singer.78aaebc: Copy member ID
 singer.138ab00: Copy name
+singer.b8b18b3: Copy this note, then paste and send it in the meeting chat.
 singer.bf7dc87: Couldn’t ask Slackbot. Your message is still here.
 singer.e0d4218: Couldn’t attach that meeting. Try again.
 singer.ab1ee8f: Couldn’t check if browsing is available. This is a sample.
@@ -22120,6 +22125,7 @@ singer.e20d5fb: Default duration
 singer.fd14281: Deletes Slackbot’s saved browser profile, including sign-ins and site data for every site.
 singer.f27d86c: Deletes saved sign-ins and site data for every site. Open browsers can stay signed in, but won’t save those sign-ins again. This can’t be undone.
 singer.dc3decb: Details
+singer.47f0c5a: Dictate a message
 singer.5d3bb50: Did {title} end? Stopping in {countdown}.
 singer.fc7f864: Direct message
 singer.e7596a0: Direct messages
@@ -22311,6 +22317,8 @@ singer.01d1180: Look at you go.
 singer.0312266: Looking for your note in the chat…
 singer.f71edd8: Lovely!
 singer.8b8ec14: Make me a kanban board of my open asks in Slack
+singer.ecb7e36: Make panel larger
+singer.7769590: Make panel smaller
 singer.f03a88b: Manage in huddle
 singer.4b38b55: Mark Unread
 singer.1b83163: Mark all as read
@@ -22336,6 +22344,7 @@ singer.cf829f1: Meeting reminders
 singer.1a04629: Meeting thread
 singer.7d09a73: Meeting thread with Slackbot
 singer.de22a5e: Meeting thread, {count} new
+singer.46efbb1: Meeting window
 singer.b23a193: Meetings
 singer.85e12bc: Mentions
 singer.ea8f0d0: Merge
@@ -22380,6 +22389,7 @@ singer.e51f426: Needs your attention
 singer.ab027dc: Needs your okay
 singer.6403f2b: New
 singer.e4cc33d: New Meeting
+singer.e176200: New Slackbot conversation
 singer.10d95f6: New activity lands here when it arrives.
 singer.0eb6323: New activity will show up here.
 singer.3cb7ea0: New file
@@ -22629,7 +22639,7 @@ singer.1dc0143: Send note, done
 singer.717009c: Send note, needs attention
 singer.043d0bf: Send note, not started
 singer.c631089: Send this note in the meeting chat, then add a screenshot of the chat.
-singer.0fe84f1: Send this note in the meeting chat.
+singer.309d88e: Send to {recipient}
 singer.cf76551: Sending…
 singer.35f49dc: Sent
 singer.559c29d: Sent privately to {agent}
@@ -22642,7 +22652,6 @@ singer.a82b2d5: Show More Skills
 singer.cf0f51d: Show New Activity
 singer.11071cf: Show as chart
 singer.ef38f0f: Show as table
-singer.5810ece: Show in Chat
 singer.4c852b2: Show less
 singer.ded0a5d: Show me
 singer.9bfd43e: Show message text when your Slack privacy settings allow it.
@@ -22659,7 +22668,6 @@ singer.99c9c6d: Singer
 singer.63e219d: Singer can’t confirm the recording
 singer.d1971dd: Singer chose Offsite plan. Sample answer: Just the venue.
 singer.8cc6463: Singer is typing…
-singer.c8d7e2d: Singer moving onto a sample meeting window
 singer.9cd8f6e: Singer offers you a heart
 singer.711064e: Singer options
 singer.c6c7248: Singer sees only the window you choose. macOS may ask for permission first.
@@ -22836,6 +22844,7 @@ singer.915648f: Unlocks when Slack finds your note in the screenshot
 singer.7044c31: Unmute
 singer.2eba6a0: Unpin
 singer.07b032b: Unread
+singer.192715c: Unread Slack activity
 singer.c99407b: Untitled conversation
 singer.fb91e24: Update
 singer.f2f8570: Updated
@@ -23002,16 +23011,19 @@ singer.a054d47: {title}, {date}
 singer.4ed1c68: {title}: {state}
 singer-file-drop-feedback.5ff5dd8: Adding to your message…
 singer-file-drop-feedback.38abf08: Drop to attach
+singer-share-window.70c9a3b: Bring this window to the front on Singer’s display, then try again.
+singer-share-window.77dfd21: Cancel
+singer-share-window.97ed8c1: Can’t list windows. You can still drag Singer onto a window.
+singer-share-window.0120bdb: Finish your current request or draft before sharing another window.
+singer-share-window.96374a1: Loading windows…
+singer-share-window.e89b131: No windows found. Open a window, then try again.
+singer-share-window.fe3cf62: Selecting window…
+singer-share-window.59aac5a: Share a window
+singer-share-window.6b4c57b: Singer reads the window when you send your request.
+singer-share-window.042c862: Try again
+singer-share-window.26d9c28: Windows
 singer-window-attachment.1afff01: Attach
-singer-window-attachment.7aba744: Attached window
-singer-window-attachment.77d607f: Attaching window…
-singer-window-attachment.c351af2: Attaching…
-singer-window-attachment.c7310d3: Detach window
-singer-window-attachment.8206bfd: Dismiss window suggestion
-singer-window-attachment.08fb1d0: Finish this request or draft, then try Attach again.
-singer-window-attachment.1f29de7: Use in your next request
 singer-window-attachment.41dfc0a: Window
-singer-window-attachment.097a3f4: Window changed. Move Singer over it again.
 singer-window-conversation.1b29cf6: Allow Editing
 singer-window-conversation.5b2b09d: Allow Screen Recording for Slack, then try your request again.
 singer-window-conversation.218d4be: Apply Edit
@@ -23038,6 +23050,7 @@ singer-window-conversation.a4c8902: To edit this window, allow Accessibility for
 singer-window-conversation.09615d9: Undo Edit
 singer-window-conversation.e858861: Undo didn’t run. Allow Accessibility for Slack in System Settings, then try Undo Edit again.
 singer-window-conversation.da93ad6: Undo didn’t run. That attempt changed nothing.
+singer-window-conversation.7587119: Window detached. You can continue this conversation with Slackbot.
 singer-window-conversation.ba70c0a: Your draft is saved. Wait for this request to finish before sending another.
 sk_banner.bbfa773: Close
 sk_banner.70afe9e: Dismiss
