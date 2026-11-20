@@ -6025,9 +6025,6 @@ cmd_handlers.b415e16: topic
 cmd_handlers.f2a8775: your message
 coachmarks.45d891b: Just type and press Enter
 coachmarks.326fe72: Your coworkers will see your messages when they join. Feel free to use your own words instead!
-code-channel-pr-comments.587e74c: Connect to {provider}
-code-channel-pr-comments.dc13f7c: Couldn’t load comments.
-code-channel-pr-comments.1b06a35: Loading comments
 code-channel-pr-comments.63bd63f: PR feedback
 code-channel-pr-comments.9f5cd8a: Retry
 code-channel-pr-comments.35f49dc: Sent
@@ -6035,11 +6032,6 @@ code-channel-pr-comments.5643f7d: {count, plural, one {# comment} other {# comme
 code-channel-pr-comments.da61d4b: {count, plural, one {# other} other {# others}}
 code-channel-pr-comments.1db130a: {provider} connected
 code-channel-review-request.eb3b730: Summarizing…
-code-channel-review-request.384b0fe: Summary of the work
-code-channel-review-request.0f56f9d: Summary of the work is ready
-code-channel-review-request.6a49261: View PR #{prNumber}
-code-channel-review-request.5d5e06a: Your review couldn’t be requested on {provider} because your account isn’t connected to Slack. <link>Connect</link>
-code-channel-review-request.7407055: {name} tried to request your review on {provider}, but your account isn’t connected to Slack. <link>Connect</link>
 code-channel-review-request.1db130a: {provider} connected
 code-channel-review-request.0d603c3: {reviewers}, you’ve been asked by {requester} to review PR {pr}.
 code-channel-review-submitted.9be1668: Changes requested
@@ -6319,6 +6311,8 @@ code-review-submit-button.d471236: You approved this pull request
 code-review-submit-button.929f340: You can’t submit reviews from Slack yet.
 code-review-submit-button.8e01b5c: You requested changes on this pull request
 code-review-submit-button.1e68e7e: Your GitHub account doesn’t have permission to review this pull request.
+code-review-submit-button.746dc6d: Your comment includes something your org doesn’t allow. Edit it and try again.
+code-review-submit-button.f98a74f: Your comment may include sensitive info. Edit it and try again.
 code-review-submit-button.90e6597: Your pending review is on an older commit. Submit or discard it on GitHub first.
 code-review-submit-button.7e3a7c7: {count, plural, =1 {1 pending comment will be submitted with this review.} other {# pending comments will be submitted with this review.}}
 code-review-submit-button.0596aae: {count, plural, =1 {Review Changes, 1 pending comment} other {Review Changes, # pending comments}}
@@ -6344,7 +6338,6 @@ code-tab.b024afd: Comment updated
 code-tab.74536b5: Commits
 code-tab.5eb9d05: Commits to show
 code-tab.73ea9a9: Comparing {base} ← {head}
-code-tab.587e74c: Connect to {provider}
 code-tab.ff4aceb: Connect your GitHub account to change this pull request’s status.
 code-tab.2b56f45: Connect your GitHub account to delete this comment.
 code-tab.614f319: Connect your GitHub account to edit this comment.
@@ -19270,6 +19263,7 @@ saved_for_later.70afe9e: Dismiss
 saved_for_later.22a31d8: Drafts
 saved_for_later.4c1aeeb: Due date
 saved_for_later.7ec3e6c: Due {dateString}
+saved_for_later.13cb39a: Due {date}
 saved_for_later.81fc03d: Earliest date created
 saved_for_later.5301648: Edit
 saved_for_later.1c3c423: Edit reminder
@@ -22126,6 +22120,7 @@ singer.0f732f6: Drink some water:potable_water:
 singer.dada5c7: Drop Singer right on the window.
 singer.9ecc5ed: Drop, paste or choose a screenshot
 singer.02c0ce3: Dropping Singer on a window isn’t available here yet. This is a sample.
+singer.13cb39a: Due {date}
 singer.c8e8e21: Each task gets a private code channel. Write your task in the input; the agent will ask if it needs you.
 singer.13f7aee: Earlier
 singer.5301648: Edit
