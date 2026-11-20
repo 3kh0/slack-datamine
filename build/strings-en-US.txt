@@ -9,31 +9,11 @@ a11y.f641b7f: New channel invitation, {name}, {date} at {time}: {message}
 a11y.9a65a56: New channel invitation, {name}: {message}
 a11y.a919796: New channel invitation, {name}: {message} At {time}.
 a11y.5caac54: New channel invitation, {name}: {message} {date} at {time}.
-a11y.21ed163: New reply, {name} in {channel}, at {time}: {message}
-a11y.ef5c798: New reply, {name} in {channel}, {date} at {time}: {message}
-a11y.904f011: New reply, {name} in {channel}: {message}
-a11y.8080de3: New reply, {name} in {channel}: {message} At {time}.
-a11y.f5f470d: New reply, {name} in {channel}: {message} {date} at {time}.
-a11y.863907a: New, Slack, at {time}: {message}
-a11y.5d7e240: New, Slack, {date} at {time}: {message}
-a11y.23d1617: New, Slack: {message}
-a11y.5f2439e: New, Slack: {message} At {time}.
-a11y.58de996: New, Slack: {message} {date} at {time}.
 a11y.1c45427: New, {name} app notification, at {time}: {message}
 a11y.c801429: New, {name} app notification, {date} at {time}: {message}
 a11y.f160cfd: New, {name} app notification: {message}
 a11y.93fd250: New, {name} app notification: {message} At {time}.
 a11y.3fe8a19: New, {name} app notification: {message} {date} at {time}.
-a11y.b1d8614: New, {notificationType}, at {time}: {message}
-a11y.eb36300: New, {notificationType}, {date} at {time}: {message}
-a11y.0d439e0: New, {notificationType}: {message}
-a11y.a7fddcf: New, {notificationType}: {message} At {time}.
-a11y.08389a9: New, {notificationType}: {message} {date} at {time}.
-a11y.bf1de2c: Slack, at {time}: {message}
-a11y.8214a24: Slack, {date} at {time}: {message}
-a11y.4fccdd7: Slack: {message}
-a11y.2cc6bf5: Slack: {message} At {time}.
-a11y.61cddf9: Slack: {message} {date} at {time}.
 a11y.f04df52: SlackConnectInstructionSection
 a11y.8f47c1b: Sorted into {section}
 a11y.751a4f8: To {recipients} at {time}: {message}
@@ -341,11 +321,6 @@ a11y.bf35d59: {name} ({userInfo}), status: {status}
 a11y.310b44c: {name} ({userInfo}), status: {status} ({context})
 a11y.92bb48c: {name}, status: {status}
 a11y.e5c3a22: {name}, status: {status} ({context})
-a11y.e89d4b1: {notificationType}, at {time}: {message}
-a11y.0cd83a9: {notificationType}, {date} at {time}: {message}
-a11y.a3d97b3: {notificationType}: {message}
-a11y.0159f2f: {notificationType}: {message} At {time}.
-a11y.3ab7f4a: {notificationType}: {message} {date} at {time}.
 a11y.f89fcb6: {senderName} to {recipients} at {time}: {message}
 a11y.2bc396a: {senderName} to {recipients} {date} at {time}: {message}
 a11y.4258cb6: {senderName} to {recipients}: {message} At {time}.
@@ -2075,6 +2050,7 @@ aria_msg_summary.f985bf7: {count, plural, =1 {# link} other {# links}}.
 aria_msg_summary.fb6c088: {count, plural, =1 {# reaction} other {# reactions}}, 
 aria_msg_summary.20fb5b7: {count, plural, =1 {# reaction} other {# reactions}}.
 aria_msg_summary.870984d: {date} at {time}
+aria_msg_summary.64d1cfa: {senderName} via {appName}
 aria_msg_summary.1db5227: {sender}:
 aria_msg_summary.63d5045: {slackbotName} is typing…
 aria_msg_summary.da5199c: {time}.
