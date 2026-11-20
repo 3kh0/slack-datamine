@@ -3041,8 +3041,10 @@ block_kit.6071cba: Share chart
 block_kit.a7d58e5: Share table
 block_kit.2948f5b: Slackbot skill.
 block_kit.adc4e96: Sort
+block_kit.213824c: Spin button
 block_kit.47e9a49: Table added as an attachment.
 block_kit.f943335: Table with {columnCount, plural, =1 {# column} other {# columns}} and {rowCount, plural, =1 {# row} other {# rows}}.
+block_kit.fd2d7f0: Text box
 block_kit.0c9fd24: The file type you attempted to upload is not supported
 block_kit.4827421: The people who can edit this automation will also have access to any files shared here
 block_kit.05ddab0: The {numberOfTooLargeFiles, plural, =1 {file} other {files}} {numberOfTooLargeFiles, plural, =1 {{singleFileName}} other {{allFileNamesExceptLast} and {lastFileName}}} {numberOfTooLargeFiles, plural, =1 {is} other {are}} too large. Our max file size is {maxFileSize}.
@@ -3126,6 +3128,8 @@ block_kit.4b809f4: {name} file.
 block_kit.10b43b8: {name} group
 block_kit.e243986: {name} menu button
 block_kit.9472292: {name} radio group
+block_kit.3cfa627: {name} spin button
+block_kit.aed0b84: {name} text box
 block_kit.ba7b523: {recordName} Salesforce record.
 block_kit.190a7a7: {recordName} {objectLabel}.
 block_kit.3420971: {selectedItemCount} selected
@@ -3639,17 +3643,36 @@ categories_section.6ccb600: Categories
 champion_welcome_dm.509db51: <strong>Say hello to your new teammate</strong> and help them get up to speed in Slack.
 champion_welcome_dm.988ff8e: Dismiss Suggested Message
 champion_welcome_dm.f12b92d: Welcome! Here are some tips…
+channel-agent-sessions.a733b80: Active
+channel-agent-sessions.5ce2e6f: Agent
 channel-agent-sessions.6a5f390: All sessions
+channel-agent-sessions.eddc813: Archived
+channel-agent-sessions.c043160: Clear all
 channel-agent-sessions.dd6947b: Code channels
+channel-agent-sessions.817b79b: Creator
+channel-agent-sessions.e9b450d: Done
+channel-agent-sessions.35202c4: Filter by agent
+channel-agent-sessions.7fd246c: Filter by creator
+channel-agent-sessions.f43653d: Filter by status
+channel-agent-sessions.dfb4386: Filters reset
+channel-agent-sessions.09af574: Inactive
+channel-agent-sessions.a126722: Needs attention
 channel-agent-sessions.d044282: Newest
+channel-agent-sessions.a215144: No matching agent sessions
 channel-agent-sessions.fdea8ac: PR #{number}
 channel-agent-sessions.886cbff: Priority
 channel-agent-sessions.5f0500c: Recently updated
+channel-agent-sessions.44c57ab: Reset
+channel-agent-sessions.5655310: Reset filters
 channel-agent-sessions.25911d4: Show more
 channel-agent-sessions.4047bc6: Sort: {sort}
+channel-agent-sessions.bae7d5b: Status
+channel-agent-sessions.76fb765: Status: {status}
 channel-agent-sessions.bb12e8a: Threads
 channel-agent-sessions.042c862: Try again
+channel-agent-sessions.3deb745: Type
 channel-agent-sessions.1f72214: Updated {ago}
+channel-agent-sessions.366b768: {count, plural, =1 {# agent session found} other {# agent sessions found}}
 channel-email-addresses.8649c34:  about sending email to Slack.
 channel-email-addresses.d26cbba: :wave: I’ve set up an email address for this channel:
 channel-email-addresses.21210b3: Any email sent or forwarded to this address will be posted directly to {channelDisplayName} :sparkles:
@@ -6151,6 +6174,7 @@ code-channels-browser.aef3650: In
 code-channels-browser.5ddd0af: In: #{channel}
 code-channels-browser.09af574: Inactive
 code-channels-browser.14de9dc: Leave this blank and the agent will name the channel for you.
+code-channels-browser.42c9975: Loading latest message…
 code-channels-browser.5c91419: Loading more code channels
 code-channels-browser.798d4d6: Loading pull requests
 code-channels-browser.a1e34f9: More actions
@@ -6236,6 +6260,7 @@ code-channels-browser.95a9a7e: e.g. Add dark mode
 code-channels-browser.f59487b: e.g. Describe a bug, issue, new feature…
 code-channels-browser.8af56de: you
 code-channels-browser.3ee5ecf: {agent} is no longer available
+code-channels-browser.ded5cc7: {ago} · {count, plural, =1 {# member} other {# members}}
 code-channels-browser.366b768: {count, plural, =1 {# agent session found} other {# agent sessions found}}
 code-channels-browser.0d92cb0: {count, plural, =1 {# code channel found} other {# code channels found}}
 code-channels-browser.8e01e6c: {count, plural, =1 {# more code channel loaded} other {# more code channels loaded}}
@@ -19479,6 +19504,8 @@ saved_for_later.736ef06: Couldn’t clear the saved item. The item couldn’t be
 saved_for_later.090deca: Couldn’t clear the saved item. Try again?
 saved_for_later.0e7fddb: Couldn’t clear your to-do. The item couldn’t be found.
 saved_for_later.3d72f42: Couldn’t clear your to-do. Try again?
+saved_for_later.a04921a: Couldn’t delete your to-do. The item couldn’t be found.
+saved_for_later.b6356f0: Couldn’t delete your to-do. Try again?
 saved_for_later.be4986a: Couldn’t move to Saved. The item couldn’t be found.
 saved_for_later.3ce8245: Couldn’t move to Saved. Try again?
 saved_for_later.7ef6f6c: Couldn’t move to your to-dos. The item couldn’t be found.
@@ -19487,6 +19514,7 @@ saved_for_later.dce04fd: Custom…
 saved_for_later.a17c709: DM with yourself
 saved_for_later.3184e99: DM with {name}
 saved_for_later.18cf079: Delete reminder
+saved_for_later.348dd0e: Delete to-do
 saved_for_later.55f8ebc: Description
 saved_for_later.70afe9e: Dismiss
 saved_for_later.22a31d8: Drafts
@@ -19613,6 +19641,8 @@ saved_for_later.7939660: To-do
 saved_for_later.1ca90f1: To-do actions
 saved_for_later.d05ace6: To-do added
 saved_for_later.109b11e: To-do cleared
+saved_for_later.c721bd3: To-do deleted
+saved_for_later.c627389: To-do deleted. The message stays in the conversation.
 saved_for_later.6fb60e8: To-do details
 saved_for_later.68f01d4: To-do marked complete
 saved_for_later.af1924f: To-do marked incomplete
@@ -19648,6 +19678,7 @@ saved_for_later.08ede1d: sent a video clip
 saved_for_later.d298a2b: sent an audio clip
 saved_for_later.d123b11: shared a GIF
 saved_for_later.cfec020: {count, plural, =1 {# overdue} other {# overdue}}
+saved_for_later.6c40863: {count} to-dos deleted
 saved_for_later.fe629e8: {count} to-dos marked incomplete
 saved_for_later.870984d: {date} at {time}
 saved_for_later.4ee6d3a: {errorText} {followUpLink}
@@ -24872,6 +24903,8 @@ slackbot-ai-nux.d37f208: Tell me about what you can do.
 slackbot-ai-nux.94aca23: Your AI partner is always just a click away — find all your Slackbot conversations here.
 slackbot-ai-nux-splash.deefbca: Hey there! I’m Slackbot.
 slackbot-ai-nux-splash.3a98093: Let me reintroduce myself…
+slackbot-ai-nux-splash.c6f4982: Let me show you what I can do.
+slackbot-ai-nux-splash.7e11425: You now have access to the new Slackbot
 slackbot-ai-paywall.b7540d2: Brainstorm talking points for my next meeting.
 slackbot-ai-paywall.ea96354: Compare Plans
 slackbot-ai-paywall.7a0a9bd: Contact Sales
@@ -24971,6 +25004,7 @@ slackbot-ai-paywall.1e82a06: You’ve reached your Slackbot limit.
 slackbot-ai-sampling-nux-zero-state.a3889b9: Hi, I’m Slackbot!
 slackbot-ai-sampling-nux-zero-state.3cd17dc: I’m all set up with context from your team, so I can be your trusty guide for just about anything.
 slackbot-ai-sampling-nux-zero-state.505be18: Suggested prompts
+slackbot-ai-sampling-nux-zero-state.50cf376: Think of me as your personal AI assistant. I’m all set up with context from your docs and channels and ready to jump in with you.
 slackbot-ai-sampling-nux-zero-state.325b56e: What happened in Slack this week?
 slackbot-ai-sampling-nux-zero-state.7b10966: What needs my attention today?
 slackbot-ai-thread-zero-state.ac9080f: Declutter your channel list to find stuff faster.
@@ -25186,6 +25220,8 @@ slackbot-skills-announcement-pro.076e9b9: Use {skillName} to always sound your b
 slackbot-skills-announcement-pro.89e40ad: Want to try another skill?
 slackbot-skills-announcement-pro.e9a9e98: What are my priorities for today?
 slackbot-skills-announcement-pro.031857a: Writing Coach
+slackbot-test-as-member-button.3cb6f30: See how Slackbot answers members of your org, without your admin tools. Search results and connected apps still use your own access.
+slackbot-test-as-member-button.866ee22: Test as member
 slackbot_3p_handoff.9c016f8: Agent suggestion dismissed
 slackbot_3p_handoff.f428b3c: Handed off
 slackbot_3p_handoff.d22f78e: Handing off…
@@ -25496,7 +25532,6 @@ slackforce.6b32985: Last 30 days
 slackforce.14d5436: Last 6 months
 slackforce.df833fe: Last 7 days
 slackforce.6b7efc4: Last synced {timeAgo}
-slackforce.92f5271: Last updated {ago}
 slackforce.c9867eb: Last updated {date}
 slackforce.c6f71d8: Lead
 slackforce.824d76b: Learn more
@@ -25595,7 +25630,6 @@ slackforce.5bb392e: Recent updates
 slackforce.d8ffffd: Recipient email address
 slackforce.4faa65b: Recommendations
 slackforce.1c54132: Record
-slackforce.04d8864: Record changes
 slackforce.7fd8ba6: Record files
 slackforce.4cda33b: Record preview
 slackforce.5d64904: Records created
@@ -27312,7 +27346,6 @@ today.da2dced: No to-dos at the moment.
 today.c4835c4: Not going
 today.00d18f9: Note: You will not receive a reply. If you need help, please contact our <contact>Support team</contact> or visit our <helpCenter>Help Center</helpCenter>.
 today.e3b8204: Now
-today.3d197b7: Now integrated with Today :sun_with_face:
 today.b61777d: One quick and easy reference point for your daily to-dos, calendars, summaries of important unreads.
 today.ac64a95: Open in calendar
 today.a75732d: Open in new window
@@ -27324,7 +27357,6 @@ today.46a252f: RSVP: Maybe
 today.1ae63d9: RSVP: No
 today.29eb766: RSVP: No response
 today.720575b: RSVP: Yes
-today.9e308c2: Recent items from your last 4 days or messages with a reminder will show up in Today with your other action items.
 today.56e3bad: Refresh
 today.80983da: Refresh Today
 today.a2a8a8e: Remind Me Later
