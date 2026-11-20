@@ -2700,6 +2700,7 @@ assistant.d03fa79: {startDate} from {startTime} to {stopTime}
 assistant.e22d643: {startTime} to {stopTime}
 assistant.9dabc64: {stepNumber} of {totalStepCount}
 assistant.f909122: {title}, unread
+assistant.ee0d9dc: }));let{apps:t}=await e(oH({appIds:n,reason:
 atlas_org_chart.8a2074f: Copy link to org chart
 atlas_org_chart.a1e34f9: More actions
 attachment-reference.83a5624: Attachment
@@ -2791,7 +2792,31 @@ automatic_x_device_signin.75710fa: Want to add {workspacesCount, plural, =1 {thi
 automatic_x_device_signin.bf84e27: You recently signed in to {teamName} on your mobile device. Add it now for easy access on desktop.
 automatic_x_device_signin.1ec4ee5: You recently signed in to {workspacesCount} other workspaces on your mobile device. Choose which ones you’d like to add on desktop.
 automatic_x_device_signin.209c52d: paper plane
+availability_prefs.678acfd: <b>{afterWorkingHoursEmoji} Outside work hours</b> for outside working hours
+availability_prefs.481e210: <b>{calendarEmoji} In a meeting</b> for scheduled meetings
+availability_prefs.33f333c: <b>{focusEmoji} In focus mode</b> for focus mode
+availability_prefs.aa661fe: <b>{huddleEmoji} In a huddle</b> for huddles
+availability_prefs.7c01d33: <b>{oooEmoji} Out of office</b> for scheduled time away
 availability_prefs.bd2f4e0: Additional options
+availability_prefs.452009c: Automatic statuses
+availability_prefs.681b5b5: Availability
+availability_prefs.6cc41ca: Calendar sync required
+availability_prefs.9a2af5e: Focus mode
+availability_prefs.516afc5: Get caught up on what you missed while you were in focus mode.
+availability_prefs.3f6caca: Google Calendar sync required
+availability_prefs.fc71ca8: Let people know when responses might be delayed. If you already have a status set, Slack won’t change it.
+availability_prefs.bf55587: Send a recap after focus mode ends
+availability_prefs.dda86d3: Set status to:
+availability_prefs.c6db2da: To enable this preference, connect Google Calendar
+availability_prefs.a3ddb66: To enable this preference, connect a calendar app
+availability_prefs.f9c6f4c: To enable this preference, re-authorize your calendar app in your calendar app settings
+availability_prefs.6306ea0: To enable this preference, turn on calendar status sync first
+availability_prefs.2fc9456: Turn on focus mode when:
+availability_prefs.d9e27fc: VIPs
+availability_prefs.85fd412: Working hours
+availability_prefs.2c072b8: Your calendar has a focus block
+availability_prefs.27c8c35: You’ll only receive notifications in the hours you choose. Outside of those times, notifications will be paused except for {vipsLink}.
+availability_prefs.bfc0330: You’ll only receive notifications in the hours you choose. Outside of those times, notifications will be paused.
 avatar.8963b0f: CV
 avatar.e059228: Channel visitor
 avatar.8d10c69: External
@@ -3631,6 +3656,7 @@ channel_browser_coachmark.5b3a684: Delete this section?
 channel_browser_coachmark.e7596a0: Direct messages
 channel_browser_coachmark.3a261fe: List views you added to <strong>{inlineChannelSection}</strong> will move back to the Salesforce section.
 channel_browser_coachmark.5f4b3e9: Salesforce
+channel_browser_coachmark.f474e7a: Section options
 channel_details.f030c3d: 1 hour
 channel_details.878b234: <b>Something went wrong.</b> Sorry about that — please try again later, and contact Slack if this problem persists.
 channel_details.ab78f16: <link>Learn more</link>
@@ -4899,7 +4925,6 @@ channel_sidebar.94bc95f: <strong>{channelEntity} muted until tomorrow.</strong>
 channel_sidebar.5d2d5e7: <strong>{channelEntity} muted.</strong>
 channel_sidebar.c11adfd: @you, @channel, @here
 channel_sidebar.6fab524: A little bit of everything
-channel_sidebar.dd62ef3: A new kind of channel, built for AI coding
 channel_sidebar.677490c: A new section for {channelSectionName}
 channel_sidebar.9a2ac73: A simpler sidebar
 channel_sidebar.61cc55a: Add
@@ -4994,7 +5019,6 @@ channel_sidebar.53ff6d0: Daily tools
 channel_sidebar.808d7dc: Default
 channel_sidebar.d536cfe: Delete message?
 channel_sidebar.216d02b: Deleted {channelSection}.
-channel_sidebar.6a77f20: Designed for coding with agents, code channels bring your repos, PRs, and code into Slack alongside your team’s conversation.
 channel_sidebar.fc7f864: Direct message
 channel_sidebar.e7596a0: Direct messages
 channel_sidebar.1029544: Directories
@@ -5349,6 +5373,7 @@ channel_sidebar.8b35716: {hours, plural, =1 {# hour} other {# hours}}
 channel_sidebar.82badf9: {maxPicks} of {maxPicks} selected. Uncheck a conversation to pick a different one.
 channel_sidebar.09a22c2: {minutes} min
 channel_sidebar.26d4d69: {name} (you)
+channel_sidebar.a9d2f4b: {numFiles, plural, =1 {# file} other {# files}}
 channel_sidebar.3b2e865: {numMutedChannels} channels are now hidden
 channel_sidebar.835c272: {numSelected} of {maxPicks} selected
 channel_sidebar.f977930: {numUnreads, plural, =1 {# conversation} other {# conversations}} with unread messages, including {numBadges, plural, =1 {# mention or keyword} other {# mentions and keywords}}.
@@ -6043,6 +6068,7 @@ code-channels-browser.5ce2e6f: Agent
 code-channels-browser.05989d8: Agent sessions
 code-channels-browser.b2fc5bc: Agent thread · {ago}
 code-channels-browser.ad2571a: Agent threads
+code-channels-browser.8d3d657: Agent: {agent}
 code-channels-browser.6a72085: All
 code-channels-browser.6a5f390: All sessions
 code-channels-browser.6405179: All statuses
@@ -6069,6 +6095,8 @@ code-channels-browser.4e2f50a: Create a Code Channel
 code-channels-browser.e49132c: Create a Session Channel
 code-channels-browser.8c29271: Created by you
 code-channels-browser.817b79b: Creator
+code-channels-browser.9b6f8fb: Creator: You
+code-channels-browser.61e19c3: Creator: {name}
 code-channels-browser.56db6a4: Describe the task you’d like the agent to help with.
 code-channels-browser.dc3decb: Details
 code-channels-browser.e9b450d: Done
@@ -6092,7 +6120,9 @@ code-channels-browser.cc1ebdd: Idle
 code-channels-browser.aef3650: In
 code-channels-browser.5ddd0af: In: #{channel}
 code-channels-browser.09af574: Inactive
+code-channels-browser.7b1b83a: Last message {ago} · Code channel
 code-channels-browser.14de9dc: Leave this blank and the agent will name the channel for you.
+code-channels-browser.42c9975: Loading latest message…
 code-channels-browser.5c91419: Loading more code channels
 code-channels-browser.798d4d6: Loading pull requests
 code-channels-browser.a1e34f9: More actions
@@ -6182,6 +6212,7 @@ code-channels-browser.95a9a7e: e.g. Add dark mode
 code-channels-browser.f59487b: e.g. Describe a bug, issue, new feature…
 code-channels-browser.8af56de: you
 code-channels-browser.3ee5ecf: {agent} is no longer available
+code-channels-browser.ded5cc7: {ago} · {count, plural, =1 {# member} other {# members}}
 code-channels-browser.366b768: {count, plural, =1 {# agent session found} other {# agent sessions found}}
 code-channels-browser.0d92cb0: {count, plural, =1 {# code channel found} other {# code channels found}}
 code-channels-browser.8e01e6c: {count, plural, =1 {# more code channel loaded} other {# more code channels loaded}}
@@ -8327,7 +8358,6 @@ edit_profile.7bbe802: Your photo is subject to the <a>Slack Engagement Policy</a
 edit_profile.38b1caa: {count, plural, =0 {You aren’t in any external conversations yet.} =1 {It will be visible in # external conversation:} other {It will be visible in # external conversations:}}
 education.6403f2b: New
 education.d19ceca: Tip
-education.7e20641: {current} of {total}
 education_kit.70afe9e: Dismiss
 email-file-details.6771ade: Attachments
 email-file-details.1fd6a88: Cc
@@ -8376,6 +8406,7 @@ emoji.22dbe88: {size} {emojiName} {size, plural, =1 {emoji} other {emojis}} with
 emoji_button.5090a9e: Emoji
 emoji_button.95ca80d: Emoji and GIFs
 emoji_button.4c2f242: Right click to<br></br>customize skin tones
+emoji_keywords.d252f0e: ,e},handleApi=(e,t,n)=>{if(e instanceof s.A&&["user_removed_from_team","invalid_auth","not_authed","userLogin"].includes(e?.data?.error)&&!e.doNotFetchAuth)return(0,m.tw)();beaconErrorAndMaybeDisplayErrorView(decorateApiErrorWithDescription(e),"api",t,{shouldDisplayErrorView:!0,...n})},handleRunSetup=(e,t,n)=>beaconErrorAndMaybeDisplayErrorView(e,"run_setup",t,{shouldDisplayErrorView:!0,...n}),handleDefaultError=(e,t,n)=>beaconErrorAndMaybeDisplayErrorView(e,"default",t,{shouldDisplayErrorView:!0,...n}),p={api:handleApi,run_setup:handleRunSetup,boot_app:(e,t,n)=>beaconErrorAndMaybeDisplayErrorView(e,"boot_app",t,{shouldDisplayErrorView:!0,...n}),boot_team:(e,t,n)=>beaconErrorAndMaybeDisplayErrorView(e,"boot_team",t,{shouldDisplayErrorView:!0,...n}),multi_team_setup:(e,t,n)=>beaconErrorAndMaybeDisplayErrorView(e,"multi_team_setup",t,{shouldDisplayErrorView:!1,...n}),boot_complete:(e,t,n)=>beaconErrorAndMaybeDisplayErrorView(e,"boot_complete",t,{shouldDisplayErrorView:!1,...n}),default:handleDefaultError},f={};Object.defineProperty(f,"decorateApiErrorWithDescription",{get:()=>decorateApiErrorWithDescription,set:e=>{decorateApiErrorWithDescription=e}}),Object.defineProperty(f,"handleApi",{get:()=>handleApi,set:e=>{handleApi=e}}),Object.defineProperty(f,"handleRunSetup",{get:()=>handleRunSetup,set:e=>{handleRunSetup=e}}),Object.defineProperty(f,"handleDefaultError",{get:()=>handleDefaultError,set:e=>{handleDefaultError=e}}),Object.defineProperty(f,"renderClientErrorView",{get:()=>renderClientErrorView,set:e=>{renderClientErrorView=e}})}),Na49:(function(e,t,n){"use strict";n.d(t,{IA:()=>eE,Fe:()=>createGantryInstance,z4:()=>getGantryInstance});var a,i=n("9Tf0"),r=n("FaJ2"),s=n("eIaA"),o=n("T68h"),l=n("5Ctd"),d=n("RrBV"),c=n("suqy"),u=n("tTLk"),m=n("wuSk"),h=n("dREx"),p=n("6rtz"),f=n("9BpC"),g=n("LdEJ"),_=n("lHkH");let promiseProps=async e=>Object.fromEntries(await Promise.all(Object.entries(e).map(async([e,t])=>[e,await t])));var y=n("27YP"),b=n("bJKC");let GantryHook=class GantryHook{taps;tapIntercepts;callIntercepts;constructor(){this.taps=[],this.tapIntercepts=[],this.callIntercepts=[],this.callPlugins=this.callPlugins.bind(this)}tap(e,t){let n={name:e,plugin:t};for(let e of this.tapIntercepts)n=e(n);this.taps.push(n)}async call(e){if(!this.taps.length)return e;let t=this.callPlugins;for(let e of this.callIntercepts)t=e(t);return t(e)}async callPlugins(e){let t=Promise.resolve(e);for(let e of this.taps)t=t.then(t=>e.plugin(t));return t}addTapIntercept(e){this.tapIntercepts.push(e)}addCallIntercept(e){this.callIntercepts.push(e)}};var S=n("SXWZ");function setupRenderTiming(e){let t=S.J.performance.timeOrigin+S.J.performance.now();e.hooks.beforeDynamicImportsStart.addCallIntercept(e=>startTimeToRenderTrace(e,t)),e.hooks.beforeDynamicImportsStart.tap("Start render timing",async e=>e),e.hooks.renderApp.addCallIntercept(e=>endTimeToRenderTrace(e)),e.hooks.renderApp.addCallIntercept(e=>reportTimeToRenderComplete(e,t))}function startTimeToRenderTrace(e,t){return n=>{let{getTracer:a,setTrace:i,rootTrace:r,tags:s}=n.contextualInfo.getTraceMeta(),o=a().createTrace({traceName:"boot:time_to_start_render",autoCreateRootSpan:!1,parentSpanId:r.getRootSpanId(),traceId:r.getTraceId(),tags:s});return o.startSpan("boot:time_to_start_render",{setAsRootSpan:!0,startTime:S.J.boot_render_start??t}),i(o),e(n)}}function endTimeToRenderTrace(e){return async t=>{let{isBootingWarm:n,getTraceMeta:a,isForegroundTeam:i}=t.contextualInfo,{getTracer:r,getTrace:s,setTrace:o,rootTrace:l}=a(),d=r(),c=s();if(c===l)return e(t);let u=await n?"warm":"cold";return c.addTags({boot_type:u,is_foreground_team:i}),d.reportTrace(c),o(l),e(t)}}function reportTimeToRenderComplete(e,t){return async n=>{let a=await e(n),i=S.J.performance.timeOrigin+S.J.performance.now(),{isBootingWarm:r,isForegroundTeam:s}=n.contextualInfo,{getTracer:o,rootTrace:l,tags:d}=n.contextualInfo.getTraceMeta(),c=o(),u=c.createTrace({traceName:"boot:time_to_complete_render",autoCreateRootSpan:!1,parentSpanId:l.getRootSpanId(),traceId:l.getTraceId(),tags:d}),m=u.startSpan("boot:time_to_complete_render",{setAsRootSpan:!0,startTime:S.J.boot_render_start??t}),h=await r?"warm":"cold";u.addTags({boot_type:h,is_foreground_team:s}),m.close(S.J.performance.timeOrigin+S.J.performance.now()),c.reportTrace(u);let p=l.getRootSpan();if(p?.getTags().includes_navigation){let e=c.createTrace({traceName:"boot:time_to_complete_render_from_initial_nav",autoCreateRootSpan:!1,parentSpanId:l.getRootSpanId(),traceId:l.getTraceId(),tags:{...d,boot_type:h,is_foreground_team:s}});e.startSpan("boot:time_to_complete_render_from_initial_nav",{setAsRootSpan:!0,startTime:p.getStartTimeMs(),closeTime:i}),c.reportTrace(e)}return a}}var A=n("D4WO"),v=n("wo1y"),w=n("uVRc"),T=n("9RKb"),I=n("kgOc"),E=n("eMjC"),k=n("xrl7"),C=n("lBe3");let R={},D=null;function handleDisallowedIp(e){R[e]||(R[e]=!0,D=setTimeout(()=>{R[e]=!1,D=null},3e4),(0,C.zJ)(e),(0,I.hf)(e)&&(0,I.fO)(void 0,e),!(0,E.y3)()&&(0,k.A)("sessionStorage")&&sessionStorage.setItem("signin_warning","disallowed_ip_address"),(0,T.ly)())}Object.defineProperty({},"isNavigatingForDisallowedIpForTeamId",{get:()=>R,set:e=>{R=e,!e&&D&&(clearTimeout(D),D=null)}});let O={alwaysSendCredentials:!0,disableLegacyTokenFallback:!0,validateTeamOrEnterpriseId:function(e){if(!(0,w.Am)(e))throw Error("Cannot use 
 emoji_keywords.356a192: 1
 emoji_keywords.b1d5781: 10
 emoji_keywords.310b86e: 100
@@ -10209,10 +10240,13 @@ flexpane.1e80870: Expand view
 flexpane.1c59135: Primary view actions
 flexpane.95d06fe: Secondary view actions
 flexpane.a09052c: View options
-form.51f4a9d: Choose an option…
+form.a63cbaf: Enter a coworker’s <span class="sk_primary_foreground bold">name</span> or <span class="sk_primary_foreground bold">email address</span>, or search for a <span class="sk_primary_foreground bold">specific workspace</span>.
+form.527cebf: Enter a coworker’s <span class="sk_primary_foreground bold">name</span> or <span class="sk_primary_foreground bold">email address</span>.
 form.f4e1241: No items
 form.47719d7: No items matched <strong>{filterQuery}</strong>
+form.34eee02: No workspaces found matching <span class="sk_primary_foreground bold">{query}</span>.
 form.6e913a6: Search workspaces
+form.9b4b629: Try searching for another workspace or searching for a coworker’s workspace.
 form.a4352f4: {queryLength, plural, =0 {Start typing to see results…} other {Keep typing to see results…}}
 form_inputs.61cc55a: Add
 form_inputs.77dfd21: Cancel
@@ -10816,7 +10850,6 @@ huddles.9e85782: (No title)
 huddles.9838569: (Optional) Open your device’s system preferences and grant camera access to Slack. If you’ve already done so, quit and reopen Slack.
 huddles.3f001b6: (Optional) Please enable your camera in your browser’s address bar.
 huddles.1d06e4b: (Optional) Your camera is unavailable. Make sure it`s connected and that you`ve granted permission to share video with Slack.
-huddles.e94c2ca: ,id:k,children:dY.t(
 huddles.02386d9: 1 minute before
 huddles.b1e2cdb: 10 minutes before
 huddles.4bba5a7: 15 minutes before
@@ -11846,7 +11879,7 @@ huddles_audio_video_prefs.fb28c69: Microphone permission denied
 huddles_audio_video_prefs.df0134a: Mute my microphone
 huddles_audio_video_prefs.ec21b7d: Play music
 huddles_audio_video_prefs.16a4155: Please select an option
-huddles_audio_video_prefs.e4f6af0: Prompt to leave after 10 minutes
+huddles_audio_video_prefs.267f76c: Prompt to leave after 20 minutes
 huddles_audio_video_prefs.14cd238: Send a warning if you’re starting a huddle in a channel with more than {huddleWarningCount} members
 huddles_audio_video_prefs.a5a59e8: Set my status to “{huddleEmoji} In a huddle…”
 huddles_audio_video_prefs.e0fabc1: Show audio and video preview
@@ -17039,6 +17072,7 @@ prefs.bd2f4e0: Additional options
 prefs.4d06472: Advanced
 prefs.63c9e0b: Advanced options
 prefs.2e8bbf3: Advanced settings
+prefs.3b1037a: After I’ve been inactive for {value, plural, =1 {# minute} other {# minutes}}
 prefs.6a72085: All
 prefs.9b6c1f2: All new messages
 prefs.b36ed0c: All new posts
@@ -17059,12 +17093,14 @@ prefs.89e2391: Applies to emoji animation, GIFs, and reactions & effects in hudd
 prefs.cfea419: Apply
 prefs.87b56ec: Are you sure you want to set your verbosity settings to default?
 prefs.410bf23: Are you sure?
+prefs.5860691: As soon as I’m inactive
 prefs.c8e8b26: Ask before turning on caret browsing with F7
 prefs.c09e9de: Attachment count
 prefs.21a58f7: Audio & video
 prefs.5fda23d: Author
 prefs.2a002e7: Automatically mute channels
 prefs.cc86990: Automatically play consent message
+prefs.681b5b5: Availability
 prefs.20ec7e3: A–Z
 prefs.f03b60f: Beta
 prefs.30fdbdc: Blend <strong>Window background</strong> and <strong>Selected items</strong> colors together in window backgrounds.
@@ -17176,6 +17212,7 @@ prefs.88a7229: If you disconnect {eacConnectedEmail}, future emails and events f
 prefs.f034e50: If you want desktop or mobile notifications for thread replies, update your settings in <a>Preferences</a>.
 prefs.5c59f3f: If you want to be notified about <strong>everything</strong>, you’ll need to turn desktop or mobile notifications on.
 prefs.dff1854: Image alt text
+prefs.58a66e6: Immediately, even if I’m active
 prefs.d6fbc9d: Import
 prefs.d041191: Import Slack theme strings. We’ll adapt the colors as best we can to preserve contrast. 
 prefs.42c00e6: Import theme
@@ -17305,6 +17342,7 @@ prefs.c884b97: See more emoji
 prefs.1ed0b58: Selected items
 prefs.7213cc9: Send a notification for
 prefs.f85d29f: Send notifications to my <t1>mobile devices</t1>:
+prefs.1d37b89: Send notifications to my mobile devices:
 prefs.3254cc5: Send on behalf
 prefs.17b874d: Sender
 prefs.c07cf13: Set Email Notifications
@@ -18717,6 +18755,7 @@ quip_delegate.c914ca1: This table has reached the maximum number of cells allowe
 quip_embedded_ui.3fae218: Based on this content
 quip_embedded_ui.776db20: Edit with AI
 quip_embedded_ui.82ba629: Quick edits
+quip_embedded_ui.f474e7a: Section options
 quip_embedded_ui.206911c: Write with AI
 quip_shortcut_handlers.560040c: AI
 quip_shortcut_handlers.e11174a: Add a summary
@@ -19091,6 +19130,7 @@ rimeto_user_profile.6a48dbc: {tagsLeft} tag left
 rimeto_user_profile.d1a203e: {tagsLeft} tags left
 rimeto_user_profile.7bb7b43: {years, plural, =1 {{years} year } =0 {} other {{years} years }}{months, plural, =0 {} =1 {{months} month} other {{months} months}} ago
 rimeto_user_profile.aa6a9e6: {years, selectordinal, one {#st} two {#nd} few {#rd} other {#th}} anniversary
+rimeto_user_profile.ee0d9dc: }));let{apps:t}=await e(oH({appIds:n,reason:
 rxns.440d506: A single message can’t have more than 50 unique reactions. When we asked the engineers why they said, “we have to set limits somewhere,” and then we tried to frown but this error popped up. So that’s where we’re at.
 rxns.58169cc: Alas! Slack only allows each message a grand total of 50 emoji reactions.
 rxns.1ad8ba3: Emotions! We all have them — but on Slack, you’re limited to 23 reactions per message.
@@ -19726,6 +19766,7 @@ search.9936beb: Double check that you are a premium Asana user. Slack enterprise
 search.012e1b9: Double-check this link
 search.0714614: Download Image
 search.dc12eba: Edit default
+search.3295fc3: Edit search
 search.4735583: Emails
 search.20063ad: Enable
 search.9dc5837: Enable app
@@ -22821,6 +22862,7 @@ singer.3bb3465: Use a Screenshot Instead
 singer.9c7b544: User group
 singer.944b88d: VIP
 singer.b61e603: VIP activity
+singer.d9e27fc: VIPs
 singer.8dce170: Value
 singer.5f11525: Venue — To be decided
 singer.dda6ac2: Verify
@@ -22966,6 +23008,7 @@ singer.797dfd0: {time} local time
 singer.9566c9b: {title} kept in the island
 singer.a054d47: {title}, {date}
 singer.4ed1c68: {title}: {state}
+singer.ee0d9dc: }));let{apps:t}=await e(oH({appIds:n,reason:
 singer-file-drop-feedback.5ff5dd8: Adding to your message…
 singer-file-drop-feedback.38abf08: Drop to attach
 singer-share-window.70c9a3b: Bring this window to the front on Singer’s display, then try again.
@@ -24930,6 +24973,7 @@ slackbot-mini.4172c65: This will stop transcribing audio from your microphone an
 slackbot-mini.381cedd: Web search
 slackbot-mini.fe0e3a5: Window actions
 slackbot-mini.372a7cb: You’ve reached your Slackbot message limit. <a>Learn more</a>
+slackbot-mini.ee0d9dc: }));let{apps:t}=await e(oH({appIds:n,reason:
 slackbot-omni-nux.7155c8e: Open Slackbot
 slackbot-omni-nux.cdf3899: See what else Slackbot can do
 slackbot-omni-nux.24938bd: Whenever you visit your Sales Tracker, call on Slackbot to jump into action, or to see what else you can do with Slack CRM.
@@ -26231,6 +26275,7 @@ stories_av.3817098: sent an audio clip and a message, "{messageText}"
 stories_av.bd2c65b: top left
 stories_av.c72457b: top right
 stories_av.399e68d: {speed}x
+stories_av.ee0d9dc: }));let{apps:t}=await e(oH({appIds:n,reason:
 stories_av.548653e: ✨ Effects
 string_format.39fc721: Undo
 suggested_channel_preview.c1b8def: {count, plural, =1 {# person is} other {# people are}} part of the conversation in 
@@ -28675,7 +28720,6 @@ workflow_builder.7dcab27: Choose a step to add with the form, and we’ll use it
 workflow_builder.faaaf2b: Choose an agent
 workflow_builder.70724f3: Choose an event
 workflow_builder.dba4320: Choose an event to start the workflow, and then add the steps that will follow.
-workflow_builder.51f4a9d: Choose an option…
 workflow_builder.48a88e0: Choose how AI returns its response.
 workflow_builder.d5d81b6: Choose how the target should be compared to the value, such as equals, contains, or does not equal.
 workflow_builder.5695013: Choose how to start the workflow
