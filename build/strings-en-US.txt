@@ -6060,6 +6060,7 @@ code-channels-browser.5ce2e6f: Agent
 code-channels-browser.05989d8: Agent sessions
 code-channels-browser.b2fc5bc: Agent thread · {ago}
 code-channels-browser.ad2571a: Agent threads
+code-channels-browser.8d3d657: Agent: {agent}
 code-channels-browser.6a72085: All
 code-channels-browser.6a5f390: All sessions
 code-channels-browser.6405179: All statuses
@@ -6086,6 +6087,8 @@ code-channels-browser.4e2f50a: Create a Code Channel
 code-channels-browser.e49132c: Create a Session Channel
 code-channels-browser.8c29271: Created by you
 code-channels-browser.817b79b: Creator
+code-channels-browser.9b6f8fb: Creator: You
+code-channels-browser.61e19c3: Creator: {name}
 code-channels-browser.56db6a4: Describe the task you’d like the agent to help with.
 code-channels-browser.dc3decb: Details
 code-channels-browser.e9b450d: Done
@@ -6261,7 +6264,6 @@ code-review-comment-composer.77dfd21: Cancel
 code-review-comment-composer.0d7ce3c: Comment added to your message draft in Messages
 code-review-comment-composer.de0256b: Comment on GitHub…
 code-review-comment-composer.cd8476c: Comment posted
-code-review-comment-composer.f305e74: Comments are synced with GitHub
 code-review-comment-composer.d2213cf: Connect your GitHub account to comment.
 code-review-comment-composer.d81599a: GitHub doesn’t allow comments on this line.
 code-review-comment-composer.aad611d: GitHub isn’t available for your organization.
@@ -6279,17 +6281,13 @@ code-review-comment-composer.595a1e5: This thread no longer exists on GitHub.
 code-review-comment-composer.76af01d: Your GitHub account doesn’t have permission to comment on this pull request.
 code-review-comment-composer.90e6597: Your pending review is on an older commit. Submit or discard it on GitHub first.
 code-review-comment-composer.f71026f: Your review changed on GitHub. Reload the Code tab and try again.
-code-review-merge-button.646e5ca: Add to Merge Queue
 code-review-merge-button.751910f: Auto-merge is on, but GitHub hasn’t added this to the merge queue yet.
 code-review-merge-button.304585f: Connect your GitHub account to merge this pull request.
-code-review-merge-button.25ef135: Enable Auto-Merge
 code-review-merge-button.94556cd: GitHub can’t merge this pull request yet. Check it on GitHub.
 code-review-merge-button.ea8f0d0: Merge
-code-review-merge-button.215a3fb: Merge PR
 code-review-merge-button.b3390c0: Merge started
 code-review-merge-button.0c44559: Merged
 code-review-merge-button.40de0d4: Merging
-code-review-merge-button.d80c1e4: Merging…
 code-review-merge-button.afe14d1: Pull request merged
 code-review-merge-button.6a59987: Queued
 code-review-merge-button.cdd296a: There was a problem merging this pull request. Give it another try.
@@ -21879,7 +21877,6 @@ singer.b21e139: Add People
 singer.b4144e1: Add a screenshot of your note in the meeting chat.
 singer.976ab44: Add a skill in Slack and it’ll be ready here whenever you need it.
 singer.cf05eca: Add reaction
-singer.646e5ca: Add to Merge Queue
 singer.891e9d6: Agenda
 singer.5ce2e6f: Agent
 singer.ddb41b2: All Activity Loaded
@@ -25024,6 +25021,7 @@ slackbot_nux_carousel.490528f: there
 slackbotpagesidebarlink.2b166e1: Meet Slackbot
 slackforce.d35fd9d: (no content)
 slackforce.49b20da: (no subject)
+slackforce.50b46e4: **{actor}** removed the amount on **{deal}**
 slackforce.69f96a4: <strong>Add this list view to a section</strong>
 slackforce.66da033: <strong>Couldn’t attach file</strong>. Files of this type can’t be shared via email.
 slackforce.61d8731: <strong>Daily email limit reached</strong>. Your team has sent the maximum number of emails ({maxEmailsAllowedPerDay}) for today. You can still receive email. Try sending again tomorrow.
@@ -25262,7 +25260,9 @@ slackforce.6b32985: Last 30 days
 slackforce.14d5436: Last 6 months
 slackforce.df833fe: Last 7 days
 slackforce.6b7efc4: Last synced {timeAgo}
+slackforce.92f5271: Last updated {ago}
 slackforce.c9867eb: Last updated {date}
+slackforce.c6f71d8: Lead
 slackforce.824d76b: Learn more
 slackforce.96d00ca: Let’s get you up to speed on Slack CRM
 slackforce.99f1a4a: Let’s set up the Sales Tracker, where we’ll manage your pipeline and close deals faster.
@@ -25458,6 +25458,7 @@ slackforce.f37703a: Slackbot found {count} records based on conversations in you
 slackforce.31881a0: Slackbot is AI and can make mistakes.
 slackforce.0e766c5: Slackbot will search in Slack and connected accounts for people and companies that might have been mentioned in a sales context. It will create new leads or opportunities based on that info.
 slackforce.e8b0dc6: Some types of records can’t be viewed in Slack. To see this list, open it in Salesforce.
+slackforce.35bb097: Someone
 slackforce.8d886c0: Something went wrong
 slackforce.bc8bb4b: Something went wrong drafting the email
 slackforce.95dc0cf: Something went wrong while converting this lead. Please try again.
