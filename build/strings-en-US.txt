@@ -1884,10 +1884,11 @@ app_details.1d06648: {appName} is installed on {teamName}
 app_details.2a4c7f0: ‘{appName}’ will be able to do
 app_details.96cb78d: ‘{appName}’ will be able to view
 app_dialog.b16c7ac: (optional)
-app_dialog.0997bad: Header Icon
 app_dialog.2dacf65: Submit
 app_dialog.ab90d9d: This field is required.
 app_dialog.26dc55d: We had some trouble connecting. <a>Try again?</a>
+app_dialog.38ffdb9: You can't enter more than {maxLength, plural, =1 {# character} other {# characters}}.
+app_dialog.d800655: You must enter at least {minLength, plural, =1 {# character} other {# characters}}.
 app_home.f0ee13e: Access restricted
 app_home.378cbbf: Learn More
 app_home.cce7155: Reload
@@ -5726,6 +5727,7 @@ classic_nav.c47ae15: Help
 classic_nav.c05ea34: Help, with {unreads, plural, =1 {# unread} other {# unreads}}
 classic_nav.eff152e: Hide workspace switcher
 classic_nav.90ccd64: History
+classic_nav.615e0f7: History Navigation
 classic_nav.8c99a8e: How does this impact your current use of Slack or how could it potentially improve your use of Slack in the future?
 classic_nav.2e29f8d: How would you describe the search results you’re seeing?
 classic_nav.a0767c2: Huddle
@@ -11026,7 +11028,6 @@ huddles.1201f5b: Captions
 huddles.879f0b1: Channel
 huddles.466a509: Channel suggestions
 huddles.18e03e2: Channels
-huddles.2d0ac56: Checking who’s in the huddle…
 huddles.a68ccc4: Choose a song
 huddles.e0d0c0c: Choose if all huddles in this channel will be summarized by default. {whoCanManage} can change this setting.
 huddles.4467a26: Choose if all huddles in this channel will be transcribed and summarized by default. {whoCanManage} can change this setting.
@@ -11148,7 +11149,6 @@ huddles.c8a4874: Got It
 huddles.5b8027f: Got it
 huddles.a2d4f4d: Great job!
 huddles.bc43592: Gym
-huddles.54d4df9: Hang tight
 huddles.ac53bc2: Happy Bass
 huddles.d83b652: Has
 huddles.0c092f0: Has {count, plural, =1 {{count} file type} other {{count} file types}}
@@ -11238,7 +11238,6 @@ huddles.4bba5c1: Join huddle with {senderName}
 huddles.92fb4ec: Join on this device
 huddles.186866d: Join when ready.
 huddles.810c18e: Join when you’re ready!
-huddles.32439b4: Join whenever you’re ready
 huddles.d3eea13: Join without microphone
 huddles.43a1c62: Joined
 huddles.2f7f2f8: Joined on another device
@@ -11482,7 +11481,6 @@ huddles.c746693: Stop sharing your screen
 huddles.be45ba6: Subway Music
 huddles.7fcd8d4: Suggested
 huddles.8b6d400: Summarize the huddle discussion so far\n
-huddles.f76c3e4: Switch to This Tab
 huddles.2849f68: Switch to this device
 huddles.4615308: Switch to this huddle?
 huddles.71cbafb: Take meeting notes
@@ -11496,7 +11494,6 @@ huddles.b4e4669: Thanks for letting us know! Your feedback helps us keep the goo
 huddles.50405cb: Thanks for your feedback!
 huddles.793c6f1: The Huddle has ended.
 huddles.590deaf: The huddle has ended.
-huddles.8488eca: The huddle hasn’t started yet
 huddles.0698b05: The huddle language applies to AI notes and captions.
 huddles.2758395: The huddle language applies to AI notes, transcription and captions.
 huddles.b65e8fb: The huddle language applies to transcription and captions.
@@ -11519,7 +11516,6 @@ huddles.1a9deb1: This huddle hasn’t started
 huddles.b60caac: This huddle is from a private conversation
 huddles.57f053a: This huddle is in a private conversation, but you can join with permission.
 huddles.9028bfe: This huddle isn’t available
-huddles.3b26c11: This huddle isn’t available anymore
 huddles.04d9fde: This link has already been used
 huddles.f3349e0: This link has been turned off
 huddles.a6b1739: This link has expired
@@ -11607,8 +11603,6 @@ huddles.b91f1ae: View {memberCount, plural, =1 {participant} other {participants
 huddles.9679341: Viewing in another window
 huddles.b7e0a9d: Waiting Room
 huddles.f9b2643: Waiting for others…
-huddles.b8bbdf2: Waiting for someone to let you in
-huddles.bcdd73a: Waiting for someone to start the huddle and let you in
 huddles.da907ce: Waiting for {memberName}
 huddles.08b2591: We couldn’t load the members of a selected group. Please try again.
 huddles.b8ce620: We ended the huddle since you were the only one there for a bit.
@@ -11680,7 +11674,6 @@ huddles.7538a93: You huddled here in { channelName } for { huddleDuration }
 huddles.96dd2e4: You huddled here with { channelName } for { huddleDuration }
 huddles.fb22e4c: You huddled here { count, plural, =1 { # time } other { # times }} in the last week
 huddles.4159a44: You huddled with { peerName } { count, plural, =1 { # time } other { # times }} in the last week
-huddles.d128db4: You joined in a different tab.
 huddles.1ece452: You joined the huddle
 huddles.150f737: You joined {huddleTopic}
 huddles.cb8caea: You look nice today
@@ -11719,12 +11712,8 @@ huddles.47bc2ea: You’re already in a huddle in {channel}.
 huddles.2a58b96: You’re already in a huddle with {listOfPersons}.
 huddles.e1ee076: You’re already in a huddle.
 huddles.8179605: You’re already in a huddle. Would you like to leave it and request access to this huddle?
-huddles.4feac1b: You’re already in this huddle
-huddles.911203a: You’re already in this huddle. You joined in a different tab.
-huddles.e0269d4: You’re approved. Join the huddle when you’re ready.
 huddles.084ad36: You’re connected to multiple calendars. To configure notifications, use the settings page in each calendar’s respective app.
 huddles.aeb96e7: You’re connected.
-huddles.286b78b: You’re in
 huddles.76c0f92: You’re in the huddle
 huddles.5dd411d: You’re in this huddle on a different device
 huddles.5e87214: You’re in this huddle on multiple devices
@@ -11763,7 +11752,6 @@ huddles.f9b8d9e: {channelName}
 huddles.25f4461: {channelTopic}<wrapper>in</wrapper>{channelName}
 huddles.c1f8c09: {count, plural, =1 {# person is} other {# people are}} requesting to join
 huddles.cd1f97c: {count, plural, =1 {# person} other {# people}} here {count, plural, =1 {isn’t} other {aren’t}} in your workspace. Remember to not share any private information. <a>Learn more</a>
-huddles.f088f0b: {count, plural, =1 {Someone is already in the huddle.} other {There are # people already in the huddle.}}
 huddles.5f3fd97: {count, plural, =1 {This person is not a member} other {These people are not members}} of {channelName}
 huddles.a6becaa: {count} {count, plural, =1 {invitee} other {invitees}}
 huddles.0f124ce: {emoji} Bring external meetings into Slack
@@ -14128,6 +14116,7 @@ menu.80b8479: View in Slack Marketplace
 menu.4d66568: View members
 menu.225220d: View paused workflows
 menu.b98795a: View profile
+menu.7f25898: View {quipLabel} details
 menu.d7a4841: Workflow
 menu.9dda926: Workflow options ready
 menu.ee43020: Workflows with Salesforce data
@@ -21666,17 +21655,11 @@ shared_channels.690a451: <strong>{numExternalMembers} external {totalExtMembers,
 shared_channels.86ed774: <strong>{numExternalMembers} external {totalExtMembers, plural, =1 {person} other {people}}</strong> {totalExtMembers, plural, =1 {is} other {are}} from {teamName}{showTrailingPeriod}
 shared_channels.239e887: <strong>{teamName}</strong> can view this channel, connected through your free trial through <strong>{trialEndDate}</strong>{showTrailingPeriod}
 shared_channels.5751171: <strong>{teamName}</strong> can view this channel{showTrailingPeriod}
-shared_channels.b783be0: Ask in DM
-shared_channels.45d82c9: Ask your workspace owner to enable AI search
 shared_channels.77dfd21: Cancel
-shared_channels.4058649: Change Settings
 shared_channels.672d82d: Copy Link
 shared_channels.2ee30cf: Edit Message
-shared_channels.45d2649: Enable AI search for your workspace <link>Manage access</link>
-shared_channels.17b5a7b: Got it. We won’t ask again.
 shared_channels.60809f9: Is it OK to send this?
 shared_channels.c2e9847: Link copied
-shared_channels.7c36f14: Manage Shared Channels
 shared_channels.72bb708: Manage Slack Connect Invitations
 shared_channels.50160ef: Remove Organization
 shared_channels.9c20c86: Remove your organization
@@ -21687,7 +21670,6 @@ shared_channels.2d19925: Send a Message
 shared_channels.2f05bc5: Send later
 shared_channels.dae3301: Send now
 shared_channels.e2d6f6d: Send this now?
-shared_channels.f14ec8f: Share a File
 shared_channels.56c43f3: To rejoin this channel in the future, you’ll need to be added by {ownerTeam} again
 shared_channels.29536b1: Upgrade before your trial ends on {formattedTrialEndDate} to stay connected
 shared_channels.907b3be: View Details
@@ -28089,7 +28071,6 @@ view.a8c64a7: Code Channels
 view.1df39aa: Compact
 view.4f9be05: Content
 view.578ad30: Couldn’t save that mark. Try again.
-view.107eb3f: Couldn’t split these pages. Try again.
 view.3c7746e: Created by agents
 view.1641c52: Ctrl Alt Click
 view.fc762b5: Ctrl Click
@@ -28112,6 +28093,7 @@ view.5f3c026: Facts used ({count})
 view.c8d7677: Feedback
 view.6ce6c51: Files
 view.eaa79f3: Files & directories
+view.feb0ffa: Focus on {name}
 view.30baa24: Folder
 view.19adc47: Folders
 view.7e13d94: For you
@@ -28129,13 +28111,12 @@ view.cfed893: Huddles
 view.af97733: Icons and text
 view.7eefba1: Icons only
 view.b6bd42e: In progress
+view.3033391: In {unit}
 view.7b23670: Item view
-view.0bd61c2: Joined from: {name}
-view.373c6da: Joined from: {name}, because of the same Salesforce record
-view.69a5570: Joined from: {name}, because of the same Slack account
 view.9caf661: Joined from: {name}, because of the same email
 view.b465751: Keyboard Shortcuts
 view.56e2f5d: Later
+view.ac197cd: Leads {unit}
 view.d051707: Link
 view.a1fffaa: List
 view.57c9502: Lists
@@ -28163,12 +28144,12 @@ view.37a612d: My stuff
 view.c1418c2: New Workflow
 view.1ed2e7b: New message
 view.0caea46: No facts about you yet.
+view.cd120d4: No one on record yet
 view.cac330d: No projects yet
-view.6fac1b7: Not the same
 view.b54a538: Nothing saved yet
 view.c18f8f2: Notification
 view.753a22b: Notifications
-view.7e439c3: On this page
+view.92e155c: On record as reporting to themself
 view.6ab14bd: One line is enough
 view.57d4066: OneDrive & SharePoint
 view.a75732d: Open in new window
@@ -28188,11 +28169,13 @@ view.881e743: Pull request
 view.a49698c: Recap
 view.fd316b7: Recently viewed
 view.8438010: Recents
-view.917df91: Related
 view.4ef507f: Related Channels List
 view.3857d09: Related Threads List
 view.b87a192: Reminder
 view.9ee36da: Replace split view
+view.f838145: Reports to one of the people named {name}
+view.9f3bb98: Reports to {name}, in a circle the chart breaks here
+view.7c9675e: Reports to {name}, not on the chart
 view.87df60d: Resources
 view.954daa8: Right
 view.d0edfb6: Sales
@@ -28243,6 +28226,7 @@ view.7e13bd1: Topic
 view.5bcd602: Transcript
 view.042c862: Try again
 view.39fc721: Undo
+view.c7c73d9: Unit not on record
 view.95ed8c1: Unread Messages
 view.e6ba0dd: Unreads
 view.1f72214: Updated {ago}
@@ -28275,10 +28259,12 @@ view.86a3db1: {app_name} has turned off direct messaging, so you won’t be able
 view.bae2c62: {channelName} (Channel)
 view.cc9bf27: {channelName} (DM)
 view.45f4a1c: {channel_or_group} was moved to another workspace.
+view.0002d22: {count} under {name}
 view.468ddec: {label}: {value}
 view.02612bf: {listTitle}, List template
 view.9af6499: {teamName} templates
 view.5f6c4fd: {totalUnreadHighlights, plural, =1 {# new item} other {# new items}}
+view.6b6f16d: {unit}, {count} on the chart
 view.7cbc1b0: ⌘ Click
 view.362e018: ⌘ Opt Click
 view-header.cde3c02: About {userGroupName}
