@@ -147,6 +147,7 @@ ai.alpha.surfaces.deleteVersion: file_id, version_id
 ai.alpha.surfaces.generateActionDraft: action, card_context, file_id
 ai.alpha.surfaces.getContent: file_id, version_id
 ai.alpha.surfaces.getData: file_id, source
+ai.alpha.surfaces.getDraft: thread_ts, version
 ai.alpha.surfaces.listVersions: file_id
 ai.alpha.surfaces.openCardComment: card_id, card_title, file_id
 ai.alpha.surfaces.rename: file_id, title
