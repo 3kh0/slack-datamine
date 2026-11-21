@@ -10714,11 +10714,8 @@ hermes_builtin_workflow_templates.eeb4a34: <strong>Needs attention.</strong> The
 hermes_builtin_workflow_templates.782a74a: AI content review is auto-approved for this step
 hermes_builtin_workflow_templates.e9cc996: AI-generated content will be reviewed before this step runs
 hermes_builtin_workflow_templates.763f352: Complete — {title}
-hermes_builtin_workflow_templates.351ea4f: Custom Step
 hermes_builtin_workflow_templates.8542fe3: Duplicate branch rules — These rules are the same as another branch. Since workflows only run on the first matching branch, consider updating the rules to make them unique.
-hermes_builtin_workflow_templates.c7c2b01: Step primary actions
 hermes_builtin_workflow_templates.4ea3d85: Step requires configuration in order to run.
-hermes_builtin_workflow_templates.80a090f: Third Party Step
 hermes_builtin_workflow_templates.e710a77: This step might not open, because a form’s response can’t carry over a branch. Add a “Send a message” step with a button at the start of this branch.
 hermes_builtin_workflow_templates.bab15db: This trigger has been restricted by an admin. Please reach out to your admin for help.
 hermes_builtin_workflow_templates.4c264ca: Turn Off Auto-Approve
@@ -28920,7 +28917,6 @@ workflow_builder.0f6f94b: Choose a category…
 workflow_builder.359ac68: Choose a form
 workflow_builder.bb67559: Choose a name without these special characters: <b>{characters}</b> 
 workflow_builder.7dcab27: Choose a step to add with the form, and we’ll use its info to create fields.
-workflow_builder.faaaf2b: Choose an agent
 workflow_builder.70724f3: Choose an event
 workflow_builder.dba4320: Choose an event to start the workflow, and then add the steps that will follow.
 workflow_builder.48a88e0: Choose how AI returns its response.
@@ -29070,8 +29066,6 @@ workflow_builder.73d8824: Delete this step?
 workflow_builder.f544858: Delete workflow
 workflow_builder.fa7cc3c: Delete {emojiName} emoji
 workflow_builder.214d485: Delete {label}
-workflow_builder.a363d06: Delete {stepTitle}
-workflow_builder.0294209: Delete {stepTitle} step
 workflow_builder.7cdc1bc: Deleted {fileType}
 workflow_builder.d46c75d: Deleting a list item
 workflow_builder.53577bb: Deny
@@ -29106,11 +29100,8 @@ workflow_builder.f305225: Download responses
 workflow_builder.23d33e2: Draft
 workflow_builder.fc2d12b: Dropdown
 workflow_builder.63a3e37: Dropdown options must be unique.
-workflow_builder.972d573: Duplicate
 workflow_builder.8542fe3: Duplicate branch rules — These rules are the same as another branch. Since workflows only run on the first matching branch, consider updating the rules to make them unique.
 workflow_builder.31db64f: Duplicate workflow
-workflow_builder.26d8439: Duplicate {stepTitle}
-workflow_builder.c375233: Duplicate {stepTitle} step
 workflow_builder.ac8e719: ENTERPRISE+
 workflow_builder.24bb14b: Each form can have a maximum of {maxQuestionCount} questions
 workflow_builder.5301648: Edit
@@ -29125,8 +29116,6 @@ workflow_builder.9d3e5f5: Edit workflow segment
 workflow_builder.89b863b: Edit workflow title, description, or avatar
 workflow_builder.529c8a8: Edit {buttonName} button
 workflow_builder.3358e4f: Edit {label}
-workflow_builder.c9f602c: Edit {stepTitle}
-workflow_builder.c02427b: Edit {stepTitle} step
 workflow_builder.46d5eb7: Edit {title}
 workflow_builder.346a83a: Editor loaded
 workflow_builder.c4340df: Eek
@@ -29382,10 +29371,6 @@ workflow_builder.496db9e: Move branches here
 workflow_builder.260ff8a: Move down
 workflow_builder.52134b0: Move step here
 workflow_builder.b4f57cd: Move up
-workflow_builder.21131c0: Move {stepTitle} down
-workflow_builder.39d9764: Move {stepTitle} step down
-workflow_builder.e06f04e: Move {stepTitle} step up
-workflow_builder.ab3eaf4: Move {stepTitle} up
 workflow_builder.08b5326: Moving channels by metadata
 workflow_builder.530dc45: Moving channels conditionally
 workflow_builder.740922a: Multiple
@@ -30148,8 +30133,6 @@ workflow_builder.840d13c: View activity log
 workflow_builder.fe7315d: View in Slack Automations
 workflow_builder.8bddb4c: View trigger
 workflow_builder.c841cb4: View workflow segment
-workflow_builder.61e9980: View {stepTitle}
-workflow_builder.dcad67b: View {stepTitle} step
 workflow_builder.348e703: Want each button to do something different? Turn them into workflow branches in one click.
 workflow_builder.5e15fda: Want each emoji reaction to do something different? Turn them into workflow branches in one click.
 workflow_builder.c6b2c68: Want to manage existing workflows?
@@ -30424,7 +30407,6 @@ workflow_builder.12af8bd: {appName} step requires admin configuration
 workflow_builder.94001ff: {appName} was successfully denied
 workflow_builder.720e2d7: {ariaLabel} (optional)
 workflow_builder.30ac489: {branchCount, plural, =1 {# branch} other {# branches}}
-workflow_builder.6f5e26c: {branchName} branch
 workflow_builder.d81172d: {category} {type} require admin configuration.
 workflow_builder.961c96f: {category} {type} require configuration. <button>Request help from an admin</button>
 workflow_builder.17a0727: {category} {type} require configuration. Your Admin has already been notified.
