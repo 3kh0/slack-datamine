@@ -25292,6 +25292,7 @@ slackforce.0c0d196: <strong>File too large</strong>. The size limit for attachme
 slackforce.822a4fc: <strong>Files too large</strong>. The size limit for attachments is {maxEmailAttachmentsSizeLimitInMb}MB total. One or more files can’t be uploaded.
 slackforce.d70e281: <strong>Keep this list view in your sidebar for quick access</strong>
 slackforce.1651f2c: <strong>Monthly email limit reached</strong>. Your team has sent the maximum number of emails ({maxEmailsAllowedPerMonth}) for this month. You can still receive email. The limit resets on the first day of every month.
+slackforce.e8cac14: A Slack admin setting doesn’t allow Slackbot to read Salesforce records for you. Ask a Slack admin to change this.
 slackforce.46c0d09: A matching contact or account already exists. Please select an existing record.
 slackforce.417a1a5: A matching contact was found and pre-selected.
 slackforce.65c4d2d: A peek at your recent sales activity
@@ -25398,6 +25399,7 @@ slackforce.9627b28: Couldn’t load activities from Salesforce. <RetryLink>Retry
 slackforce.d881b04: Couldn’t load fields.
 slackforce.ee30d74: Couldn’t load files
 slackforce.1f8665c: Couldn’t load files from Salesforce. <RetryLink>Retry</RetryLink>
+slackforce.4b9da08: Couldn’t load more. <TryAgainLink>Try again</TryAgainLink>
 slackforce.730de4f: Couldn’t load objects.
 slackforce.84cafa9: Couldn’t load preview
 slackforce.749b73f: Couldn’t load records.
@@ -25524,6 +25526,7 @@ slackforce.6b32985: Last 30 days
 slackforce.14d5436: Last 6 months
 slackforce.df833fe: Last 7 days
 slackforce.6b7efc4: Last synced {timeAgo}
+slackforce.92f5271: Last updated {ago}
 slackforce.c9867eb: Last updated {date}
 slackforce.c6f71d8: Lead
 slackforce.824d76b: Learn more
@@ -25533,6 +25536,7 @@ slackforce.8706711: Let’s try a different way — you can send me spreadsheets
 slackforce.fb2120f: Let’s use this channel for 
 slackforce.7cc38d3: Let’s use this channel for…
 slackforce.6423068: List view shared with {destination}
+slackforce.dfe60ca: Load more
 slackforce.d98cd74: Loading more activity
 slackforce.feb9b06: Loading more files
 slackforce.e396956: Loading record…
@@ -25565,7 +25569,6 @@ slackforce.94d9e5e: New {sfObjectLabel}
 slackforce.e01b028: New {subject}
 slackforce.bc98198: Next
 slackforce.ea33854: No filters available
-slackforce.58348de: No matching updates from past 30 days
 slackforce.78996e5: No sales-related conversations found.
 slackforce.fac5d99: No suggestions found in Slack
 slackforce.b1e5359: Not Now
@@ -25622,6 +25625,7 @@ slackforce.5bb392e: Recent updates
 slackforce.d8ffffd: Recipient email address
 slackforce.4faa65b: Recommendations
 slackforce.1c54132: Record
+slackforce.04d8864: Record changes
 slackforce.7fd8ba6: Record files
 slackforce.4cda33b: Record preview
 slackforce.5d64904: Records created
@@ -25668,7 +25672,6 @@ slackforce.7dd919e: Search for new owner
 slackforce.c5be552: Search for sales data in Slack
 slackforce.fc286fc: Search for sales records in Slack
 slackforce.26f6910: Search in progress
-slackforce.24efee9: Search recent updates
 slackforce.787447b: Search: {query}
 slackforce.786c9aa: Searching for existing records
 slackforce.e84d31f: Searching for sales context…
@@ -25705,7 +25708,6 @@ slackforce.84b8a08: Show fewer details
 slackforce.6d79faa: Show more details
 slackforce.fb18328: Show past events
 slackforce.f51980f: Show up prepared to every meeting
-slackforce.45eb3ac: Showing updates from past 30 days
 slackforce.ada2e9e: Sign in
 slackforce.489f076: Sign in to Salesforce
 slackforce.c6e6077: Slack 101
@@ -25715,7 +25717,7 @@ slackforce.04d9893: Slack logo
 slackforce.9fbb94b: Slackbot
 slackforce.c464a00: Slackbot can create records from spreadsheets, notes, emails, or anything you want to share.
 slackforce.980c5db: Slackbot can review your pipeline each week, update records from recent Slack conversations, and suggest next steps.
-slackforce.5049c18: Slackbot couldn’t check your admin’s settings, so it didn’t load this record. Try again in a few minutes.
+slackforce.9fbe5e4: Slackbot couldn’t check your Slack admin’s settings, so it didn’t load this record. Try again in a few minutes.
 slackforce.b548eab: Slackbot created lead and opportunity records for you. Open the Sales Tracker to check them out.
 slackforce.bbc5200: Slackbot found info that could be used to set up your Sales Tracker.
 slackforce.50325d0: Slackbot found info that could be used to set up your Sales Tracker. Taking you there shortly.
@@ -25849,7 +25851,6 @@ slackforce.c0e01b1: Your Sales Hub is ready to go.
 slackforce.2059f37: Your Sales Tracker is ready to go.
 slackforce.9b051b4: Your Salesforce org doesn’t have a converted lead status configured. Please contact your administrator.
 slackforce.44bc6ca: Your Slack onboarding checklist
-slackforce.e73fc64: Your admin doesn’t allow Slackbot to read Salesforce records for you. Ask a Slack admin to change this.
 slackforce.9a2b669: Your admin turned off email logging.
 slackforce.167b85d: Your attempt to delete this record could not be completed.
 slackforce.7150d22: Your connected Gmail account changed. Close this email and open it again to send.
@@ -25871,8 +25872,6 @@ slackforce.7e82e52: {accountName} - New Business
 slackforce.50c8361: {attachmentCount, plural, =1 {# file} other {# files}}
 slackforce.324794f: {attachmentCount, plural, =1 {Toggle file} other {Toggle # files}}
 slackforce.6a1e97c: {count, plural, =1 {# suggestion} other {# suggestions}}
-slackforce.3822f98: {count, plural, other {No matching updates in your # most recent}}
-slackforce.edb4c65: {count, plural, other {Showing your # most recent updates}}
 slackforce.30eade9: {currentStep} of {totalSteps}
 slackforce.8e101a3: {filterCount} applied
 slackforce.784c365: {label}, read only
@@ -26253,7 +26252,9 @@ ssb-in-product-survey.b52b36b: Back
 ssb-in-product-survey.bc98198: Next
 start_call.ffeb7f7: Please allow pop-ups in your browser to make a call. You can <{url}|contact Slack> if you need help.
 stock_ticker_snapshots.a26db42: Finnhub · Quote from {date}
+stock_ticker_snapshots.38cb51a: Metrics may be delayed and use different reporting periods.
 stock_ticker_snapshots.9c0068d: Prices may be delayed. Quotes may stay unchanged after market close. This snapshot doesn’t refresh automatically.
+stock_ticker_snapshots.2c9c1f7: Unavailable
 stories_av.0a9b013: (Optional) Check your <a>system preferences</a> to make sure Slack has permission to access your camera, and try again.
 stories_av.5b4cfa0: (Optional) Check your <a>system settings</a> to make sure Slack has permission to access your camera, and try again.
 stories_av.2bf43af: (Optional) Check your browser settings to make sure Slack has permission to access your camera, and try again.
