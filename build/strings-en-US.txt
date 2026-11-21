@@ -4997,8 +4997,8 @@ channel_sidebar.7bd227f: <strong>{channelEntity} muted for 1 hour.</strong>
 channel_sidebar.94bc95f: <strong>{channelEntity} muted until tomorrow.</strong>
 channel_sidebar.5d2d5e7: <strong>{channelEntity} muted.</strong>
 channel_sidebar.c11adfd: @you, @channel, @here
-channel_sidebar.6fab524: A little bit of everything
 channel_sidebar.677490c: A new section for {channelSectionName}
+channel_sidebar.fd2e1d1: A section made for you
 channel_sidebar.9a2ac73: A simpler sidebar
 channel_sidebar.61cc55a: Add
 channel_sidebar.1248403: Add apps
@@ -5021,7 +5021,6 @@ channel_sidebar.64acf7e: Agents
 channel_sidebar.3d1167e: Agents & apps
 channel_sidebar.6a72085: All
 channel_sidebar.b36ed0c: All new posts
-channel_sidebar.ca28b16: All your DMs, recent files and what’s unread
 channel_sidebar.fc4a695: App
 channel_sidebar.96de16e: App categories
 channel_sidebar.f4b11fb: App list
@@ -5029,7 +5028,6 @@ channel_sidebar.cfea419: Apply
 channel_sidebar.d9a3685: Apps
 channel_sidebar.d532d52: Archive inactive channels
 channel_sidebar.264057b: Archived channel
-channel_sidebar.310efbc: Ask Slackbot
 channel_sidebar.2304233: Ask Slackbot to customize
 channel_sidebar.20ec7e3: A–Z
 channel_sidebar.077fe9c: Base
@@ -5040,7 +5038,6 @@ channel_sidebar.96d4298: Browse all apps
 channel_sidebar.af00489: Browse all channels
 channel_sidebar.c265687: Browse all people
 channel_sidebar.2190a3b: Browse channels
-channel_sidebar.b9212ed: By type
 channel_sidebar.77dfd21: Cancel
 channel_sidebar.a3f80b8: Canvas
 channel_sidebar.4f32719: Canvas options
@@ -5068,30 +5065,27 @@ channel_sidebar.14d7133: Conversation type: {filter}
 channel_sidebar.c42e662: Conversations in <strong>{usergroupName}</strong> section will move back to the Channels section of your Home sidebar.<br></br><br></br>And don’t worry- you won’t be removed from {channelCount,plural, =1 {this channel} other {any of these {channelCount} channels}} and you can add the section back again in <strong>Preferences</strong>.
 channel_sidebar.81b425a: Conversations in this section will move back to the Channels section of your Home sidebar.
 channel_sidebar.584038e: Conversations to pin
+channel_sidebar.22b9092: Conversations you opened lately
 channel_sidebar.856fa95: Couldn’t reset sections.
-channel_sidebar.8045489: Couldn’t save your sidebar. Try again.
 channel_sidebar.37a25a1: Couldn’t update the section.
 channel_sidebar.3ac4864: Create a channel
 channel_sidebar.b2feca2: Create a new channel
 channel_sidebar.330c574: Create a section
 channel_sidebar.7d3bd16: Created by me
 channel_sidebar.e00aa5d: Created {channelSection}.
-channel_sidebar.4fc0e2b: Current
 channel_sidebar.b93c63f: Currently in <span>Starred</span>
 channel_sidebar.c2269f2: Currently in <span>{sectionName}</span>
 channel_sidebar.92f5b68: Currently in Starred
 channel_sidebar.e0bc011: Currently in {sectionName}
 channel_sidebar.2e3bede: Custom model
 channel_sidebar.dda3472: Custom sections are no longer available
-channel_sidebar.239dce6: Customize
 channel_sidebar.0e8e35d: DMs
-channel_sidebar.3e15f7c: DMs and recent files
-channel_sidebar.808d7dc: Default
 channel_sidebar.d536cfe: Delete message?
 channel_sidebar.216d02b: Deleted {channelSection}.
 channel_sidebar.fc7f864: Direct message
 channel_sidebar.e7596a0: Direct messages
 channel_sidebar.1029544: Directories
+channel_sidebar.36fff63: Discard
 channel_sidebar.29a78b0: Dismiss suggestion
 channel_sidebar.d8458d4: Document options
 channel_sidebar.d660fd8: Document unavailable
@@ -5101,15 +5095,16 @@ channel_sidebar.22a31d8: Drafts
 channel_sidebar.a57e1ba: Drag and drop important stuff here
 channel_sidebar.9f237f0: Each boost adds to a conversation’s score when its signal is present.
 channel_sidebar.edfe0b5: Edit default preferences
-channel_sidebar.d7ab942: Edit sidebar
 channel_sidebar.4a66d14: Everything
 channel_sidebar.b31a999: Everything else
+channel_sidebar.d5c5f1d: Everything else that’s unread
 channel_sidebar.1414032: External Connections
 channel_sidebar.dd85482: Failed to send message
 channel_sidebar.05821d7: Failed to update your pinned conversations.
 channel_sidebar.ae31ad5: Featured
 channel_sidebar.215455e: Feel free to move things around to your liking. We love an organized sidebar.
 channel_sidebar.6ce6c51: Files
+channel_sidebar.05b0a6c: Files and canvases you opened lately
 channel_sidebar.d7decf1: Filter
 channel_sidebar.4781eeb: Filter by name…
 channel_sidebar.5d8bd5f: Filter conversations by name
@@ -5149,6 +5144,7 @@ channel_sidebar.11c54a5: Include
 channel_sidebar.e1eb97a: Invite people
 channel_sidebar.dd5e2fb: Invite to workspace
 channel_sidebar.7684c07: Just mentions
+channel_sidebar.ced7d4a: Keep Editing
 channel_sidebar.417add4: Last reply today at {time}
 channel_sidebar.d4b940d: Latest activity
 channel_sidebar.501e012: Latest activity, unreads first
@@ -5181,10 +5177,12 @@ channel_sidebar.578665f: More session channels
 channel_sidebar.6958499: More unread threads
 channel_sidebar.b0d2f82: More unreads
 channel_sidebar.c27176b: Move channel
+channel_sidebar.260ff8a: Move down
 channel_sidebar.71450cc: Move to Section
 channel_sidebar.2951b94: Move to new section
 channel_sidebar.98d183e: Move to section
 channel_sidebar.c0a3ef6: Move to…
+channel_sidebar.b4f57cd: Move up
 channel_sidebar.ab72ff5: Moved {channel} to {channelSection}.
 channel_sidebar.72e905b: Moved {channel}.
 channel_sidebar.2a6a789: Moved {entityLabel} {entityType} to {channelSection}.
@@ -5218,7 +5216,6 @@ channel_sidebar.e892255: Nothing here yet
 channel_sidebar.40249da: Nothing new. Recent sessions will show up here.
 channel_sidebar.2466eb7: Nothing to see here — you’re caught up on your less important unreads.
 channel_sidebar.27759e7: Now that your workspace is on a free plan, all your conversations are organized in default sections. You can also still star any conversations you’d like.
-channel_sidebar.32ea296: Only what’s important
 channel_sidebar.311a5ee: Open DM
 channel_sidebar.4945534: Open Slackbot on the side
 channel_sidebar.e23fa2c: Open in floating window
@@ -5264,6 +5261,7 @@ channel_sidebar.e9480d4: Remove from Starred
 channel_sidebar.5787553: Remove from {section}
 channel_sidebar.e7eaff7: Remove section
 channel_sidebar.5ca4b4d: Remove this section?
+channel_sidebar.79a1950: Remove {section}
 channel_sidebar.fff7912: Removed a thread in {channel} from {section}.
 channel_sidebar.2f139d4: Removed {channel} from {channelSection}.
 channel_sidebar.b2a0440: Removed {count, plural, =1{# conversation} other {# conversations}} from {section}.
@@ -5277,7 +5275,6 @@ channel_sidebar.c1ad1c4: Reset section
 channel_sidebar.4a197b0: Reset section changes
 channel_sidebar.299ef4a: Reset to Defaults
 channel_sidebar.efc007a: Save
-channel_sidebar.62f6212: Save and ask Slackbot
 channel_sidebar.b259cc1: Scoring model
 channel_sidebar.28abc03: Search by name
 channel_sidebar.88e9fb2: Search by name.
@@ -5308,7 +5305,6 @@ channel_sidebar.25911d4: Show more
 channel_sidebar.ccb8204: Show recents
 channel_sidebar.0f38ffa: Show {count} more
 channel_sidebar.8f30fab: Showing all channels.
-channel_sidebar.994ab17: Sidebar saved.
 channel_sidebar.740ce0a: Sidebar view
 channel_sidebar.9fbb94b: Slackbot
 channel_sidebar.bee54c9: Something went wrong.
@@ -5341,6 +5337,7 @@ channel_sidebar.773cc72: Thread options
 channel_sidebar.47f32c3: Thread:
 channel_sidebar.bb12e8a: Threads
 channel_sidebar.9d1641a: Threads older than {days} days
+channel_sidebar.9fcf637: Threads you follow with new replies
 channel_sidebar.3374e46: Tier thresholds
 channel_sidebar.d19ceca: Tip
 channel_sidebar.b25928c: Total
@@ -5356,12 +5353,13 @@ channel_sidebar.2eba6a0: Unpin
 channel_sidebar.5490ce9: Unpin from your sidebar
 channel_sidebar.07b032b: Unread
 channel_sidebar.ccc39a0: Unread DMs
-channel_sidebar.8a880ef: Unread DMs, threads and important conversations first
+channel_sidebar.0a9cfd1: Unread conversations that matter most
+channel_sidebar.f0607eb: Unread conversations that mention you
 channel_sidebar.c35cc2a: Unread mentions
+channel_sidebar.4a33ce3: Unread messages from people
 channel_sidebar.3b9c3d6: Unread thread
 channel_sidebar.390cfdb: Unread thread over its channel
 channel_sidebar.b42b0b6: Unread threads
-channel_sidebar.e6ba0dd: Unreads
 channel_sidebar.855822a: Until tomorrow
 channel_sidebar.c99407b: Untitled conversation
 channel_sidebar.e32fc01: Update Section
@@ -5377,7 +5375,7 @@ channel_sidebar.647d0ad: View list details
 channel_sidebar.71a810f: Waiting for you to accept
 channel_sidebar.2be8005: Want to hide muted channels?
 channel_sidebar.2bf6ca2: We’ve tidied up icons and reorganized menus, but all your conversations are right where you left them.
-channel_sidebar.070e169: What would you like to see?
+channel_sidebar.ab0e643: What you pinned, always first
 channel_sidebar.3deea5b: When on, each conversation’s base is its rank among your conversations, so the top one scores 1. When off, the recommendation score is used as-is.
 channel_sidebar.d7a4841: Workflow
 channel_sidebar.89a286c: Workflow options
@@ -5389,8 +5387,8 @@ channel_sidebar.7825db2: You talk with these people often.
 channel_sidebar.9b62b01: You talk with this person often.
 channel_sidebar.4a84382: You use this channel often.
 channel_sidebar.750eb6e: Your experiment assignment
-channel_sidebar.f54f5d4: Your setup
-channel_sidebar.d19c1ee: Your sidebar was changed somewhere else while this was open. Saving replaces those changes.
+channel_sidebar.a446b02: Your latest messages with people
+channel_sidebar.ec063f7: Your sections
 channel_sidebar.2bb6b98: active
 channel_sidebar.aa9a2c5: audio and video calls with people outside Slack
 channel_sidebar.f416d44: away
@@ -5436,7 +5434,6 @@ channel_sidebar.3420971: {selectedItemCount} selected
 channel_sidebar.82cb91d: {title}, needs your input
 channel_sidebar.f909122: {title}, unread
 channel_sidebar.3bea691: {title}, working
-channel_sidebar.f67f42f: {view}, with your changes
 channel_sidebar.9351d2d: “{afterWorkingHoursEmoji} Outside work hours” is set to show up automatically. If you’d rather it didn’t, you can turn this off in <Link>Preferences</Link>. 
 channel_sidebar.ec51aa3: “{focusEmoji} In focus mode” is set to show up automatically. If you’d rather it didn’t, you can turn this off in <Link>Preferences</Link>. 
 channel_tabs.87f6242: A Slack Admin hasn’t added {agentName} to this workspace yet, so it can’t be added to this channel.
@@ -11971,7 +11968,6 @@ ia4.e965edc: Do more with Business+
 ia4.e9b450d: Done
 ia4.52612f9: Easily jump into DMs and catch up on your notifications.
 ia4.28ad756: Edit and reorder workspaces
-ia4.d7ab942: Edit sidebar
 ia4.77c33ad: Edit workspace details
 ia4.5090a9e: Emoji
 ia4.293ab83: Even more time-saving tools
@@ -20128,6 +20124,7 @@ search.88fe9d2: Link copied!
 search.4564c94: Linked channels only
 search.a1fffaa: List
 search.57c9502: Lists
+search.aa89600: Live huddles
 search.dfe60ca: Load more
 search.e9d8880: Loading agents
 search.4bb7abc: Loading browser…
@@ -20302,6 +20299,8 @@ search.52cea28: Recent channels
 search.de00d58: Recent direct messages
 search.95c6a85: Recent files
 search.1666190: Recent people
+search.01c73e3: Recent places
+search.a73d291: Recent searches
 search.a0e09ed: Recent workflows
 search.c15ad19: Recently deleted
 search.ac6bdcf: Recently edited workflows
@@ -20575,6 +20574,7 @@ search.39fc721: Undo
 search.b05d96b: Unknown file
 search.09bd824: Unlimited AI answers are available on our Business+ plan.
 search.fb1c2ac: Unlock AI Search
+search.34a3414: Unreads & drafts
 search.c99407b: Untitled conversation
 search.648291c: Use Slackbot to search Slack for relevant info
 search.1b74405: Use this form to share feedback with the Slack team about your anniversary celebration. If you need help, please contact our <contact>Support team</contact> or visit our <helpCenter>Help Center</helpCenter>.
@@ -20739,7 +20739,6 @@ search.66071ef: {label}, {count} selected
 search.c4a0bf4: {label}, {summary}
 search.8c14b8a: {label}, {unreadCount, plural, =1 {# unread} other {# unreads}}
 search.468ddec: {label}: {value}
-search.80c5267: {matchCount, plural, =1 {# match in your sidebar} other {# matches in your sidebar}}, {count, plural, =1 {# related result} other {# related results}}
 search.ae02600: {name} (Deactivated)
 search.c6cdc67: {name} workspace
 search.d8dd14f: {name}: {value}
@@ -20884,7 +20883,6 @@ setup_page.d56f703: Creating your workspace…
 setup_page.6f57834: Data residency for Slack
 setup_page.6c1d226: Data residency for Slack allows global teams to choose the region where certain types of data at rest are stored. Customers must store all Slack data in a single region.
 setup_page.e7596a0: Direct messages
-setup_page.c8190ed: Direct messages section
 setup_page.91ea4d3: Dismiss message suggestions
 setup_page.3456bcb: Do later
 setup_page.e9b450d: Done
@@ -20949,7 +20947,6 @@ setup_page.23972c6: New channel
 setup_page.bc98198: Next
 setup_page.2746cc2: No matches found - Try searching for a different teammate
 setup_page.10edcb1: No matches found - Try using their email instead
-setup_page.615f87d: No one’s been added yet. <br></br>You can add up to 15 people.
 setup_page.5f5c438: No, thanks
 setup_page.67c4d05: Not applicable
 setup_page.9ce3bd4: OK
@@ -20962,7 +20959,6 @@ setup_page.6e6a6f2: Other
 setup_page.8607943: Other coworkers who received this invite from {invitingMemberName} at {invitingTeamName} may have a harder time finding and joining this workspace.
 setup_page.b37554f: People
 setup_page.c445e21: People added here will have access to your Slack workspace, where they can collaborate with you and each other.
-setup_page.a70b5d2: People section
 setup_page.f97147f: Please search by name instead
 setup_page.e82cd59: Project brief
 setup_page.23c01cc: Project name, example: Q4 budget, autumn campaign
@@ -20974,9 +20970,7 @@ setup_page.d0edfb6: Sales
 setup_page.9762a89: Sales Tracker
 setup_page.28abc03: Search by name
 setup_page.db074aa: Search by name or email
-setup_page.83cb601: See {extraItemsCount} more
 setup_page.81a5f00: Selected channels
-setup_page.3005f8b: Selected channels section
 setup_page.6dcd151: Send Message
 setup_page.a0630b0: Share invite link
 setup_page.53498db: Share link with email template
