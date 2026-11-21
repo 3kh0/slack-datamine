@@ -17067,6 +17067,7 @@ platform-admin.789c821: Everyone with app access, except {usergroupCount, plural
 platform-admin.0940563: Filter by channel name
 platform-admin.90e40d5: Get started
 platform-admin.e2722c7: Get unlimited apps, including AI assistants
+platform-admin.4fa0338: If you don’t unpublish the workflow it will continue to run but it won’t appear in the workflows tab. Unpublishing will stop the workflow from running until you publish it again in workflow builder.
 platform-admin.6878f62: Learn how to get started connecting your IDP to Slack
 platform-admin.be5f086: Load More Channels
 platform-admin.61afdda: Loading channels
@@ -17086,6 +17087,8 @@ platform-admin.9bd7a98: Not seeing your workflows? Workflows are a paid feature,
 platform-admin.a7d83b8: Only specific channels
 platform-admin.031691a: Only specific people or groups
 platform-admin.4642502: Please select a person or choose no one can use this step.
+platform-admin.ffb4cbc: Remove & Unpublish
+platform-admin.75c6b02: Remove Only
 platform-admin.efc007a: Save
 platform-admin.943a4ee: Save anyway
 platform-admin.9c6d505: Select channels
@@ -17114,6 +17117,7 @@ platform-admin.abad5d1: Who can use {appName}?
 platform-admin.679a33a: With Slack Pro, you can install unlimited apps, including AI assistants. {bannerCta}
 platform-admin.f837044: With Slack’s Pro plan, you can effortlessly embed conversations with AI assistants.
 platform-admin.205b456: Workspaces
+platform-admin.4dc3277: Would you also like to unpublish?
 platform-admin.155b3f7: You can delete specific people but cannot add people to the list
 platform-admin.ba76df8: You’ve reached your limit of 10 installed apps. With Slack Pro, you can install unlimited apps including AI assistants. {bannerCta}
 platform-admin.6d34d64: {appName} was approved, but the access you chose wasn’t set because the app already has access settings. To change who can use it, go to Member Permissions.
@@ -17133,7 +17137,9 @@ platform-admin.5129522: {shownText} and {remaining, plural, =1 {# other} other {
 platform-admin.58f233d: {text}, opens in new window
 platform-admin.0edc8b1: {unresolvedCount, plural, =1 {# previously-configured channel couldn’t be loaded and will be removed if you save.} other {# previously-configured channels couldn’t be loaded and will be removed if you save.}}
 platform-admin.4b9addc: {usergroupCount, plural, =1 {# group} other {# groups}} and {userCount, plural, =1 {# person} other {# people}}
+platform-admin.1acd3e9: {workflowName} will be removed from all workspaces in your organization, and people won’t be able to use it anymore.
 platform-admin.2864df0: {workflow} has been removed from bookmarks
+platform-admin.50f51ff: {workflow} has been unpublished
 platform_ai.b7d1ca2: AI in Slack is still learning and might not always hit the mark <LearnMoreLink>Learn more</LearnMoreLink>
 platform_ai.6d73be4: About building workflows with AI
 platform_ai.a5bbeb0: Ask for meeting items and update a canvas
@@ -26259,8 +26265,8 @@ sponsored_connections.bf66ddd: Slack Connect is a paid feature — but this one 
 ssb-in-product-survey.b52b36b: Back
 ssb-in-product-survey.bc98198: Next
 start_call.ffeb7f7: Please allow pop-ups in your browser to make a call. You can <{url}|contact Slack> if you need help.
-stock_ticker_snapshots.076367f: Sample data · Not live
-stock_ticker_snapshots.019c5b0: {exchange} · {symbol} · USD
+stock_ticker_snapshots.66d786d: Finnhub · As of {date}
+stock_ticker_snapshots.698718b: Prices may be delayed
 stories_av.0a9b013: (Optional) Check your <a>system preferences</a> to make sure Slack has permission to access your camera, and try again.
 stories_av.5b4cfa0: (Optional) Check your <a>system settings</a> to make sure Slack has permission to access your camera, and try again.
 stories_av.2bf43af: (Optional) Check your browser settings to make sure Slack has permission to access your camera, and try again.
