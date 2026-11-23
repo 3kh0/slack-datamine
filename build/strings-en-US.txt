@@ -1771,6 +1771,7 @@ app_card.f7cc1d2: {appName} is installed on {appHomeTeamDisplayName}.
 app_card.d8c05ca: {installer} added this custom integration to this workspace.
 app_card.715da18: {installer} added {appName} to this workspace.
 app_card.cc74b71: {installer} configured {appName} to post in this channel.
+app_connections.d42d5b7: Awaiting admin approval to add this app to {workspaceName}.
 app_connections.c1f3b71: Connecting
 app_connections.3ca4794: Manage connection
 app_connections.2f2bbaa: {isConnecting, select, true {Connecting…} other {Connect}}
@@ -1797,8 +1798,21 @@ app_details.3711f05: App home
 app_details.bac4438: App not found
 app_details.2fc6d6d: App permissions and security
 app_details.e2ab2a9: App website
+app_details.c1c35cc: Approved in another workspace, but denied in {deniedWorkspaceName}.
+app_details.b036906: Approved in another workspace, but restricted in {restrictedWorkspaceName}.
+app_details.d164c25: Approved in another workspace, but still awaiting admin approval in {pendingWorkspaceName}.
+app_details.f26558c: Approved in {approvedWorkspaceName}, but denied in another workspace.
+app_details.0283adf: Approved in {approvedWorkspaceName}, but denied in {deniedWorkspaceName}.
+app_details.d5d49cc: Approved in {approvedWorkspaceName}, but restricted in {restrictedWorkspaceName}.
+app_details.1b2cb65: Approved in {approvedWorkspaceName}, but still awaiting admin approval in {pendingWorkspaceName}.
 app_details.2737f9b: Approved in {workspaceName}. Now you can install it.
 app_details.f3ef89c: Ask each time
+app_details.725e0c5: Ask your admin to approve an update to this app in {workspaceName}. Until then, the app keeps its current permissions.
+app_details.5e2820f: Ask your admin to approve an update to this app. Until then, the app keeps its current permissions.
+app_details.ef567ba: Awaiting admin approval for this app to act on your behalf in {workspaceName}.
+app_details.679e040: Awaiting admin approval for this app’s new permissions in {workspaceName}. Until then, the app keeps its current permissions.
+app_details.aca410b: Awaiting admin approval for this app’s new permissions. Until then, the app keeps its current permissions.
+app_details.d42d5b7: Awaiting admin approval to add this app to {workspaceName}.
 app_details.77dfd21: Cancel
 app_details.82c8b7b: Can’t add {name} to {channels}. A Slack admin hasn’t added {name} to the workspace for {count, plural, one {that channel} other {those channels}} yet.
 app_details.b3d4f81: Can’t add {name} to {channels}. Channel settings don’t allow adding members.
@@ -1826,6 +1840,14 @@ app_details.822c10a: Managed by {owners} via {managerApp}
 app_details.68f4145: Message
 app_details.86c0a35: More options
 app_details.da2163a: No approval needed for new DMs
+app_details.d86eeb2: No approval needed in another workspace, but denied in {deniedWorkspaceName}.
+app_details.bb81801: No approval needed in another workspace, but restricted in {restrictedWorkspaceName}.
+app_details.65e82b4: No approval needed in another workspace, but still awaiting admin approval in {pendingWorkspaceName}.
+app_details.95a2ea6: No approval needed in {approvedWorkspaceName}, but denied in {deniedWorkspaceName}.
+app_details.1e93650: No approval needed in {approvedWorkspaceName}, but restricted in {restrictedWorkspaceName}.
+app_details.9d2ce19: No approval needed in {approvedWorkspaceName}, but still awaiting admin approval in {pendingWorkspaceName}.
+app_details.b9fcc52: No approval needed in {workspaceName}. Now you can install it.
+app_details.250dde0: No approval needed. Now you can install it.
 app_details.265a9a7: Open App
 app_details.2479782: Optional permissions
 app_details.742a428: Owners of {appName}
@@ -1836,6 +1858,9 @@ app_details.db56b97: Remove from VIP
 app_details.01f666d: Remove from top bar
 app_details.1e88602: Remove this app from channel…
 app_details.3745251: Request canceled
+app_details.aab3078: Requests for this app were denied in {firstWorkspaceName} and {secondWorkspaceName}.
+app_details.71086b8: Requests for this app were denied in {workspaceName} and {otherCount, plural, =1 {# other workspace} other {# other workspaces}}.
+app_details.36c01c3: Requests for this app were denied in {workspaceName}.
 app_details.3e43db4: Require approval for each new DM
 app_details.c43f715: Required permissions
 app_details.b15fe11: Screenshot of {appName}
@@ -1846,6 +1871,7 @@ app_details.25911d4: Show more
 app_details.efce77d: Slash commands
 app_details.505be18: Suggested prompts
 app_details.e072d98: The agent may have been uninstalled or you do not have permission to view it.
+app_details.f6ff659: The app is approved. Now you can install it.
 app_details.e75323c: The app may have been uninstalled or you do not have permission to view it.
 app_details.fb91e24: Update
 app_details.73f5c54: Update {appName} (opens in a new window)
