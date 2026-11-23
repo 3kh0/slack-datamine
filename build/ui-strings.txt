@@ -6,7 +6,6 @@
  Invitation has expired.
  Invitation no longer active.
  Open a channel to run commands.
- Please make sure the server is serving valid JSON for this request.
  Press F7 to turn off.
  Something went wrong.
  There is an issue accessing a knowledge source.
@@ -44,11 +43,8 @@
  is used but not imported.
  missing?
  module. Are you sure you registered it?
- must match.
  not exists.
  not found.
- not present in program.
- not supported on this browser.
  of your Business+ trial. Once your trial ends, canvases outside of conversations will become view only.
  of your Business+ trial. Once your trial ends, huddles will be limited to two participants, and AI notes will no longer be available.
  on the shared prompt, their Slackbot library will reference the canvas directly (no copy). If you edit the canvas later, recipients see your updates.
@@ -61,7 +57,6 @@
  prop to Announcer API component.
  property with non-empty string value.
  property.
- shape, except the last dimension.
  tab shows the render times of every component.
  to always sound your best.
  to ask again.
@@ -88,9 +83,8 @@
  workspace.
 %cTip: This selector is causing unnecessary re-renders. Consider using a shallow equality check or empty constants. Note that deeper equality checks come with added performance cost.
 ) are ignored.
-) is not supported yet.
 ) that performed expensive computation.
-)&&(eq(!1),sc(void 0),ez(sx?
+)&&(eq(!1),sS(void 0),ez(s$?
 ))),e((0,m.R3)(g)),e((0,m.p4)(g?a:void 0)),_(g?
 ). If you meant to render a collection of children, use an array instead.
 )?l.makeImage(e.slice(8),new u.Ay(t,r,n,i),o?
@@ -99,7 +93,6 @@
 , other JavaScript not part of React, or work the browser has to do to update the DOM and draw the next frame.
 , post a report including a screenshot and a link to the previous message if this is a public channel.
 , to keep your task list focused.
-, weights must be provided.
 ,counter:0,seen:new Map,cycles:e?.cycles??
 ,e.includeFieldLabel??!1);break;case l.LS.CONVERT_VARIABLE:this.convertVariable_(e.recordId,e.fieldLabel,e.fieldApiName??
 ,onClick:k?x:void 0,onKeyDown:k?w:void 0,role:k?
@@ -120,7 +113,6 @@
 1 instance within a formula skipped.
 1 instance within a mention skipped.
 1 or more enterprise search apps need setup. Select Configure to finish.
-1D separable convolution is not implemented yet.
 2. Paste the response below, or paste your exported memory file.
 30 seconds left. Dictation will auto-submit.
 :(F?(0,v.SR)(t,D):void 0)??
@@ -133,7 +125,7 @@
 :e instanceof Map?
 :e instanceof Set?
 :point_up: I found an existing summary for this file.
-:void 0),o.current?.info(ep,e?
+:void 0),o.current?.info(em,e?
 :void 0)||(y?
 :void 0,className:e?
 :void 0,credentialless:ed?
@@ -146,7 +138,6 @@ A DM with someone
 A December 2000 announcement, an October 2001 organizational memo, email signatures, and customer and organizational threads.
 A GIF is worth a thousand words
 A JavaScript expression as value.
-A Promise cannot resolve to itself
 A QML object as value.
 A Salesforce Org ID must be passed when multi org is on
 A Salesforce channel for this record is already being created in an earlier step. Remove this step to continue.
@@ -914,7 +905,6 @@ All Slackbot conversations
 All Suggested Records
 All Threads
 All Unreads
-All WebGL1 implementations are expected to offer OES_vertex_array_object.
 All activity
 All agents
 All agents & apps
@@ -949,8 +939,6 @@ All huddles
 All installed agents and apps
 All invites failed to send. Please try again.
 All items
-All layers in a Sequential model should have a single input tensor. For multi-input layers, use the functional API.
-All layers in a Sequential model should have a single output tensor. For multi-output layers, use the functional API.
 All lists
 All logs
 All media
@@ -977,8 +965,6 @@ All sidekicks
 All statuses
 All tasks complete
 All templates
-All tensors passed to stack must have matching dtypes
-All tensors passed to stack must have matching shapes
 All the companies you sell to, in one place
 All these features are included with your current plan
 All threads
@@ -1279,7 +1265,6 @@ Are you sure you want to remove this photo? People outside your organization wil
 Are you sure you want to save?
 Are you sure you want to undo your changes?
 Are you sure?
-Arguments to apply() must be all SymbolicTensors or all Tensors
 Arial Rounded MT Bold
 Arial Unicode MS
 Arm the Sales Tracker extraction nudge on entering the manual import flow
@@ -1389,7 +1374,6 @@ Attempted to save cleaned up document
 Attempted to set a section dirty while read-only.
 Attempted to unregister a locale callback that does not exist.
 Attempted to update an already finished hash.
-Attempted to use disposed GPGPUContext.
 Attempting initial connection to primary region
 Attempting to change an outdated document.  Use Automerge.clone() if you wish to make a writable copy.
 Attempting to close
@@ -1469,6 +1453,7 @@ Automatically log your emails with contacts and leads
 Automatically play consent message
 Automatically read new messages in the current conversation
 Automatically sync your calendar to your Slack status
+Automatically turn on Privacy Mode
 Automatically turn on when I share or record my screen
 Automatically updates
 Automation Groups
@@ -1571,9 +1556,6 @@ BaseSocketManager constructed by a non-Gantry page
 Based on this content
 Baskerville Old Face
 Batch File
-Batch normalization gradient requires mean and offset to have equal ranks.
-Batch normalization gradient requires mean and scale to have equal ranks.
-Batch normalization gradient requires mean and variance to have equal ranks.
 Batch timing timeout
 Bauhaus 93
 Be there soon
@@ -1604,6 +1586,7 @@ Block action failed
 Block invitations from this person
 Block quote style
 Block selection cleared
+Blocked Slack Connect invitations
 Blocking canvas from template: an admin restricted canvas creation
 Blocking canvas tab creation: an admin restricted canvas creation
 Blocking huddles init since a huddlesSdk is already active
@@ -1882,12 +1865,10 @@ Can edit, publish, and delete this template
 Can find this workflow
 Can manage records
 Can manage records and customize lists
-Can not convert infinite data stream to array.
 Can not get id list for null key
 Can not properly manage the returned segmentation mask
 Can only polyfill class components
 Can only post
-Can only specifiy one unknown dimension.
 Can post & invite
 Can view
 Canadian MSA
@@ -1925,16 +1906,12 @@ Cannot call drop while not dragging.
 Cannot call endDrag while not dragging.
 Cannot call hover after drop.
 Cannot call hover while not dragging.
-Cannot call resetStates() on an RNN Layer that is not stateful.
-Cannot call the resetStates() method of a non-stateful Layer object.
 Cannot change GL context once initialized
 Cannot check all if section is not a checklist
 Cannot check whether to reload when using js_path. Skipping client.checkVersion call.
 Cannot check whether to reload when using js_path. Skipping client.shouldReload call.
 Cannot compute cosine similarity between quantized and float embeddings.
 Cannot compute cosine similarity on embedding with 0 norm.
-Cannot construct Tensor with more than 4 channels from pixels.
-Cannot construct a complex64 tensor directly. Please use tf.complex(real, imag).
 Cannot contain the invalid character 
 Cannot convert undefined or null to object
 Cannot copy empty string to clipboard
@@ -1945,7 +1922,6 @@ Cannot delete multi-container range
 Cannot determine position in section because the editing container is null
 Cannot dispatch openHuddleErrorModal: no huddle team ID
 Cannot enqueue task message: taskStore and taskMessageQueue are not configured
-Cannot exit frame, the context is empty
 Cannot fetch from Slack API without a valid token. Please include one in args.
 Cannot find module 
 Cannot find this item
@@ -1955,12 +1931,8 @@ Cannot get bounds for node
 Cannot get close time for this span because it has not closed.
 Cannot get duration for this span because it has not closed.
 Cannot get name of Unknown Type
-Cannot get rows and columns of an empty shape array.
-Cannot get the stopTraining property of a sequential model before it is compiled.
 Cannot getSocketUrl with out a token
-Cannot handle VALUE_ROWIDS in first dimension.
 Cannot hash more than 2^53 - 1 bits
-Cannot increase frame iteration, the context is empty
 Cannot initialize encryption: localStorage is unavailable
 Cannot initialize encryption: unavailable on this platform
 Cannot initialize the same private elements twice on an object
@@ -1981,7 +1953,6 @@ Cannot provide both keypoint and scribble.
 Cannot read more than 32 bits at a time
 Cannot read so many bytes!
 Cannot register abstract class
-Cannot release a texture that was never provided by this texture manager
 Cannot remove checked items if section is not a checklist
 Cannot revert an ineligible control to text
 Cannot revert mentions in a protected selection
@@ -1993,7 +1964,6 @@ Cannot set both baseOptions.modelAssetPath and baseOptions.modelAssetBuffer
 Cannot set parent in a non-compound graph
 Cannot set read only for this section
 Cannot set server token without a server
-Cannot set the stopTraining property of a sequential model before it is compiled.
 Cannot set timelineOffset after playlists are loaded
 Cannot share Sales Tracker: no connected Salesforce org id
 Cannot show JIT notification, permission denied
@@ -2003,8 +1973,6 @@ Cannot show missed huddle invite notification, permission denied
 Cannot show notification, missing arguments
 Cannot show notification, permission denied
 Cannot sort alpha if section is not a list
-Cannot specify batchSize if batchInputShape is specified when creating an InputLayer.
-Cannot start training because another fit() call is ongoing.
 Cannot store model context without a channel and thread
 Cannot switch workspaces because canUserSwitchWorkspaces returned false.
 Cannot uncheck all if section is not a checklist
@@ -2386,7 +2354,6 @@ City of Glendale
 City of Palo Alto
 Claim Education Discount
 Claim Offer and Check Out
-Class being registered does not have the static className property defined.
 Class extends value 
 Class not found: 
 Classifier prompt
@@ -2927,7 +2894,6 @@ Connector Approval Needed
 Connector suggestions dismissed
 Connie Lo
 Console (terminal window)
-Constants support is not implemented in RNN yet.
 Constraints not re-applied no video track available
 Constraints not re-applied no video track settings available
 Constraints re-applied to content share (resolution overwrite applied)
@@ -2940,6 +2906,7 @@ Contact an admin to use Slack Connect
 Contact for security issues
 Contact information
 Contact name or email
+Contact sharing
 Contact us in #feedback-channel-agent.
 Contact your admin to add or remove Salesforce orgs.
 Contact your workspace admin.
@@ -2988,7 +2955,6 @@ Control (entity)
 Control ID
 Control strip
 Controller Collab Autocomplete Handler
-ConvRNN2D cell does not support constants
 Conversation actions
 Conversation archived
 Conversation details
@@ -3196,11 +3162,9 @@ Could not get VoiceFocusTransformDevice
 Could not get a connection URL
 Could not get canvas 2d context
 Could not get canvas context
-Could not get context for WebGL version
 Could not get endpoints from storage
 Could not hide Mini after opening Singer
 Could not hide Mini before opening Slack
-Could not initialize any backends, all backend initializations failed.
 Could not initialize shaders
 Could not load Agentforce agents. Try again.
 Could not load DMs for the Find DMs pane
@@ -3446,7 +3410,6 @@ Curly Braces
 Curlz MT
 Current Value
 Current document text
-Current environment is not a web browser
 Current plan
 Current quote
 Current user is null
@@ -3562,14 +3525,12 @@ Data field error
 Data flow diagram data store
 Data hosting company
 Data hosting details
-Data is not on GPU but on CPU.
 Data management
 Data not OK
 Data residency
 Data retention policies
 Data retention policies and data exports for all messages.
 Data retention policy
-Data should be at least 1 dimensional but received scalar
 Data size has to be less than 2048 bytes
 Data storage policy
 Data storage region
@@ -3765,7 +3726,6 @@ Description updated
 Deselect all rows
 Deselect link object to edit
 Deselect link object to paste
-Deserialization of a Bidirectional layer with numConstants present is not supported yet.
 Design review prep
 Desktop API unavailable; skipping
 Desktop ID request not found in pref
@@ -3984,7 +3944,6 @@ Does not support SharedArrayBuffer.
 Does not support WASM
 Does not support WASM streaming compilation
 Does not support Worker
-Does not support reading texture for complex64 dtype.
 Domain claiming
 Dominican Republic
 Done and done
@@ -3993,7 +3952,6 @@ Done configuring settings in the other tab? Refresh to continue.
 Done for now
 Done today
 Done, no node has children
-Dot layer does not support tensors of 4D or higher rank yet.
 Double Circle
 Double check that this is not a personal account. Slack enterprise search only supports accounts associated with your organization.
 Double-check this link
@@ -4054,12 +4012,14 @@ Drafts & sent
 Drafts clear and concise answers to common questions based on provided context or knowledge.
 Drafts in this channel
 Drafts in this conversation
+Drag Singer anywhere. Bring it near the top and it snaps back home.
 Drag Singer onto the meeting window
 Drag Singer onto the window.
 Drag and drop a .md file here
 Drag and drop important stuff here
 Drag and drop into the composer
 Drag and drop your photo
+Drag it anywhere. Bring it near the top and it snaps back home.
 Drag to move it, or press Space, then the arrow keys
 Drag to reorder slide
 Drag to take a screenshot
@@ -4091,7 +4051,6 @@ Due to the retention policies of an organization in this channel, all their mess
 Dummy coachmark
 Dummy journey
 Dummy request detected
-Duplicate callback constructor.
 Duplicate entries
 Duplicate item
 Duplicate skill
@@ -4266,7 +4225,6 @@ Education and Research
 Edward Sacks
 Edward Sacks, Sara Shackleton, Kim Ward
 Edwardian Script ITC
-EffectRenderer WebGL context lost
 Einstein Activity Capture already logs your email.
 Einstein Activity Capture already logs your emails.
 Einstein Copilot
@@ -4457,7 +4415,6 @@ Error analyzing device records:
 Error attempting to init audio device
 Error attempting to postMessage on an iframe that is not ready.
 Error beaconing trace
-Error binding framebuffer: 
 Error bookmarking workflow
 Error calling persistDB.get in getStoredStateFromIdb
 Error calling purgeStoredModelsExceptForTeamIds
@@ -4495,21 +4452,12 @@ Error generating preview
 Error getting preferred devices from local storage
 Error handling device list change event
 Error in PropertyObserver callback:
-Error in absoluteDifference: 
 Error in additional trace reporter
 Error in cose-bilkent layout algorithm:
-Error in cosineDistance: 
-Error in hingeLoss: 
-Error in huberLoss: 
 Error in initial PropertyObserver callback:
-Error in meanSquaredError: 
 Error in pre-reload tasks; continuing with reload
 Error in processPendingMetrics
-Error in resizeBilinear: If halfPixelCenters is true, alignCorners must be false.
 Error in scheduled batch
-Error in sigmoidCrossEntropy: 
-Error in sigmoidCrossEntropyWithLogits: 
-Error in softmaxCrossEntropy: 
 Error instantiating WakeLockManager,
 Error launching calls gantry app
 Error loading content
@@ -4556,7 +4504,6 @@ Error updating connection references on reconnection:
 Error updating segmentation state machine
 Error uploading files.
 Error uploading the file.
-Error when getting WebGL context: 
 Error when submitting timestamp
 Error while destroying the Voice Focus instance: 
 Error while fetching call info, (error.data is undefined): 
@@ -4680,13 +4627,11 @@ Expand toolbar
 Expand topic
 Expand view
 Expected 
-Expected JSON model topology, received ArrayBuffer.
 Expected a control sequence
 Expected a valid source ID.
 Expected a valid target ID.
 Expected an existing source.
 Expected an existing target.
-Expected at least one fetch, got none
 Expected block to have an id
 Expected channelId to be a String
 Expected count to be a Number.
@@ -4699,7 +4644,6 @@ Expected sourceIds to be registered.
 Expected targetIds to be an array.
 Expected targetIds to be registered.
 Expected targetIds to be unique in the passed array.
-Expected tensor to be at least 1D, but received a 0D tensor (scalar).
 Expected userIds to be an Array of Strings
 Expected value
 Expected: 
@@ -4824,8 +4768,6 @@ Failed to clear the default device controller output
 Failed to close conversation
 Failed to close the segmentation questionnaire
 Failed to collect screenshare stats
-Failed to compile fragment shader.
-Failed to compile vertex shader.
 Failed to convert markdown to canvas
 Failed to convert to canvas. Please try again.
 Failed to copy email to clipboard
@@ -4927,7 +4869,6 @@ Failed to kick off the welcome thread
 Failed to launch Meeting Assistant
 Failed to launch meeting controls
 Failed to leave some user channels
-Failed to link vertex and fragment shaders.
 Failed to list external huddle invitees
 Failed to load clog enum tables for debugging
 Failed to load custom skill categories
@@ -4955,7 +4896,6 @@ Failed to look up the window at release
 Failed to look up the window under Singer
 Failed to mark thread
 Failed to minimize main window before opening Slackbot mini
-Failed to obtain IndexedDB factory because the current environmentis not a web browser.
 Failed to open DM in send message summary
 Failed to open Slackbot mini from NUX
 Failed to open allowed microphone
@@ -5381,7 +5321,6 @@ Filter channels
 Filter code channels
 Filter columns
 Filter conditions
-Filter connectors
 Filter conversations
 Filter conversations by
 Filter conversations by:
@@ -5390,27 +5329,20 @@ Filter debug options
 Filter developer commands
 Filter files
 Filter for option list
-Filter groups
-Filter huddles
-Filter invitations
 Filter options
 Filter options are open
-Filter organizations
-Filter people
 Filter permissions
 Filter pull requests
 Filter recent conversations and workflows
 Filter recents
 Filter results have been updated
 Filter skills
-Filter tasks
 Filtered Fields
 Filtering from recent notifications.
 Filters channels by workspace, private, archived, etc
 Filters must be a valid array
 Filters reset
 Final display position in the autocomplete list
-Final length of result must be equal to firstDimension.
 Finalizes an upload start with files.getUploadURL
 Financial Options
 Financial derivatives
@@ -5489,7 +5421,6 @@ Firefox iOS
 First Char Optimization
 First Name
 First and last name
-First argument to String.prototype.includes must not be a regular expression
 First name
 First publish workflow details save failed
 First unread message.
@@ -5621,7 +5552,6 @@ Forward workflow
 Forwarded message
 Forwarding email
 Forwarding redux payload to desktop
-Found an unpaired surrogate
 Found block
 Found block-beta
 Found comment
@@ -5678,27 +5608,18 @@ Full suite of productivity and collaboration tools
 Fullscreen API not supported in popout window.
 Fun and new
 Fun facts
-Function call
 Function not implemented.
 Function.prototype.bind called on incompatible 
 Funky Fresh
 Funnel chart
-FusedConv2d and DepthwiseConv2d with FusedBatchNorm is not supported
 Futura Bk BT
 Futura Md BT
 GDPR commitment
 GIFs are unavailable while they get a quick update. Check back a little later.
 GIFs will be right back
-GL context does not support color renderable floats
-GL context does not support color renderable half floats, yet the environment flag WEBGL_FORCE_F16_TEXTURES is set to true.
-GL context does not support half float textures, yet the environment flag WEBGL_FORCE_F16_TEXTURES is set to true.
-GL: Failed to create WebGL program
 GL: Failed to create buffer positionBuffer
 GL: Failed to create buffer texCoordBuffer
-GL: Failed to create framebuffer
 GL: Failed to create shader
-GL: Failed to create texture
-GPGPUProgram does not support complex64 input. For complex64 dtypes, please separate the program into real and imaginary parts.
 GPT-6 Luna
 GPT-6 Luna (OpenAI)
 GPT-6 Sol
@@ -5743,7 +5664,6 @@ Generating document title with fullscreen enabled
 Generating invite link
 Generating workflow details failed
 Generator is already executing.
-Generator is already running
 Gesture Blocking Overlay
 Gesture Blocking Window
 Get 50% off Slack Pro
@@ -5977,7 +5897,6 @@ Got migration error before store was initialized
 Goudy Old Style
 Government Affairs
 Gradient Type
-Gram-Schmidt process: input must not be null, undefined, or empty
 Grammar Resolving
 Grammar Validations
 Grant Kolling, Raveen Maan, Monica Padilla
@@ -6155,6 +6074,7 @@ Here, take this apple
 Here, take this: :apple:
 Hi! Good to meet you.
 Hidden Fields
+Hidden people
 Hide Advanced Settings
 Hide Page
 Hide Pinned
@@ -6234,6 +6154,7 @@ Hold to speak. Release to listen. The voice button works with the shortcut off.
 Hold to talk
 Holding position.
 Holds one page read from the brain
+Home base
 Home channel
 Home settings
 Honey Walnut Shrimp
@@ -6403,7 +6324,6 @@ Icons for Google Drive, Outlook, Zoom, DocuSign, Adobe and Jira connected to Sla
 Icons only
 Identify specific Salesforce organization and object to configure a workflow when a Salesforce channel is created.
 Identity URL (optional)
-Identity matrix initializer can only be used for 2D square matrices.
 If a channel containing a broadcast was just marked, maybe we can mark the thread too
 If a request is not in progress and the canvas canned templates have not yet been fetched, calls canvasesGetCannedTemplatesFetcher API
 If a thread with a broadcast was just marked, maybe we can mark the channel too
@@ -6568,11 +6488,9 @@ InlineChannelEntity should not display IMs or MPIMs
 InnovateHub - Tech Expansion
 InnovateWare - Progressive Software Solutions
 Input Counts
-Input Shape
 Input cleared
 Input level:
 Input options
-Input x must be non-negative!
 Insert a canvas
 Insert a channel notification override on the client only
 Insert a list
@@ -6669,7 +6587,6 @@ Invalid existing canvas ID format
 Invalid extension access syntax
 Invalid file
 Invalid file argument provided to getPendingFileData
-Invalid first partition input. Tensor requires at least one element.
 Invalid format.
 Invalid grammar state
 Invalid hostname
@@ -6694,8 +6611,6 @@ Invalid quip entityId passed toQuipActivityHistory. It must be encoded with Qp:
 Invalid quip entityId passed toQuipCommentThread. It must be encoded with Qp:
 Invalid render type
 Invalid response from configured generateRequest filter
-Invalid row ids.
-Invalid row split size.
 Invalid session
 Invalid size returned for cell 
 Invalid size: 
@@ -6782,7 +6697,6 @@ Issue invitations for internal and external emails in the add people modal
 Issue member invites through the add people modal for free teams
 Issue shared channel invites through the add people modal
 It all starts here
-It is not possible at the moment to stack convolutional cells.
 It is not possible to have actors with the same id, even if one is destroyed before the next is created. Use 
 It looks like not everyone on this huddle has access to this feature just yet.
 It looks like your browser is blocking pop-ups. Please enable popups in order to open the OneDrive file picker.
@@ -7087,8 +7001,6 @@ Launch in Slack
 Launches the trial welcome to pro modal with pro features list
 Laurie Koenig
 Laurie Koenig, Suzanne Vann, Roger Ponce
-Layer invocation in the presence of activity regularizer(s) is not supported yet.
-LayersModel invocation with concrete Tensor value(s) in the presence of activity regularizer(s) is not supported yet.
 Layout Parent
 Layout data is required
 Layout density
@@ -7102,7 +7014,6 @@ Lead form
 Lead marked 
 Lead message
 Lead statuses
-Leading dimension of 
 Leads, contacts, or users
 Lean Left
 Lean Right
@@ -7159,6 +7070,7 @@ Let Slackbot organize your wins and updates
 Let Slackbot search the web
 Let VIPs speak up in Quiet
 Let a Coworker Set It Up
+Let everyone know by sending this note to the huddle thread.
 Let go, then choose Attach.
 Let me know how I can help with this list.
 Let me show you what I can do.
@@ -7318,7 +7230,6 @@ Loading group names...
 Loading history
 Loading how your team uses this agent
 Loading link preview
-Loading loss_weights is not supported yet.
 Loading meeting thread
 Loading more comments
 Loading more files
@@ -7330,14 +7241,12 @@ Loading project memory
 Loading project report
 Loading projects
 Loading required assets for the VideoFxProcessor
-Loading sample_weight_mode is not supported yet.
 Loading servers
 Loading suggestions
 Loading surface preview
 Loading threads
 Loading tools
 Loading view
-Loading weight_metrics is not supported yet.
 Loading workflows
 Loads a new page of channels and adds them to the store
 Loads a single channel by id and upserts it into the channel-mgmt store
@@ -8161,7 +8070,6 @@ Memoized component that skips re-renders if props are the same
 Memory :brain: - Personalize what Slackbot remembers about your unique work.
 Memory deleted
 Memory removed
-Memory usage by string tensors is approximate (2 bytes per character)
 Menlo,Consolas,Monaco,Liberation Mono,Lucida Console,monospace
 Mention @Slackbot whenever your team needs to do research, build a report or answer a question.
 Mention in a list item
@@ -8497,7 +8405,6 @@ Multiple SAML configurations
 Multiple agents are working
 Multiple celebrations
 Multiple choice
-Multiple ellipses in slice is not allowed.
 Multiple root nodes are not allowed in a treemap.
 Municipality, governed by its city council
 Municipality, with a Water & Power department
@@ -8741,7 +8648,6 @@ No ADTS header found in AAC PES
 No Background
 No Channel Managers found
 No EditorDocument instance found for element
-No GPU program is currently set.
 No Guests found
 No Label Found
 No MCP servers available.
@@ -8812,7 +8718,6 @@ No audio stream available. Synthesizing an audio stream.
 No available apps
 No available options
 No available workspaces
-No backend found in registry.
 No base head set
 No base sequence set
 No blockers reported.
@@ -9013,7 +8918,6 @@ No results found. Search for another step, or build your own form.
 No results? Try finding your team member by their name.
 No root message for setThreadLastRead
 No routes defined. Call defineRoutes to configure your app
-No row_partition_types given.
 No runners could handle the spec, a dialog will not be shown
 No sales-related conversations found.
 No salesforceOrgId provided to searchRecords
@@ -9441,7 +9345,6 @@ Only people who can post in this channel can schedule a huddle in it.
 Only people with access to the list will be notified when mentioned. You can share this list with individuals, channels, or user groups
 Only people you add can see it
 Only post
-Only provide the inputShape OR batchInputShape argument to inputLayer, not both at the same time.
 Only reply to questions about health insurance benefits and the vacation policy
 Only run when a related object matches (optional)
 Only run when these people start a huddle
@@ -9697,7 +9600,6 @@ Opens the schedule message dialog
 Opens the thread flexpane if the message is threadable
 Opens the transcript flexpane for an inline video
 Opens the user group details flexpane
-Operands could not be broadcast together with shapes 
 Operating System
 Operation cancelled
 Operation cancelled before start
@@ -9777,7 +9679,6 @@ Outlook Calendar
 Output format
 Output format mode
 Output saved. Add another output.
-Output shape
 OutputSchemaTreatment prompt branch missing required props
 Outside work hours
 Outside work hours status
@@ -9844,8 +9745,6 @@ Parser stack is not empty after parsing
 Parser worker is busy
 Part of your organization
 Partial rendering: stale eviction record
-Pass at least one tensor to concat
-Pass at least one tensor to tf.stack
 Passed client side effects into a non-client store. This is a programming error and the app will not work properly.
 Past events
 Past month
@@ -10261,10 +10160,12 @@ Print canvas
 Priorities right now
 Prioritize what you need to do and what can wait.
 Priority is not optional for beforeRender
+Privacy & visibility
 Privacy Mode
 Privacy Mode is off.
 Privacy Mode is on
 Privacy Mode is on. Sensitive content stays blurred.
+Privacy Mode keyboard shortcut
 Privacy Mode preferences
 Privacy Mode settings
 Privacy Shield notice
@@ -10349,7 +10250,6 @@ Protocol Buffer 3
 Prototype on a blank canvas
 Provide Inputs
 Provide additional guidance to help Channel Agent decide when to respond.
-Provide either a layer name or layer index
 Provide some details or suggest improvements
 Provide some details or suggest improvements (300 chars max)
 Provide the below inputs to test run this step
@@ -11287,8 +11187,6 @@ Right click to edit, rename or delete this view. Drag and drop to reorder.
 Right click to open menu
 Right skin tone modifier
 Right when I join
-Ring buffer is empty.
-Ring buffer is full.
 Ripple scatter plot
 Rob Walls
 Robert Bruce
@@ -11360,7 +11258,6 @@ SDK detected good connection
 SDK detected poor connection
 SDK options not available
 SDK suggested stop video, maybe poor connection
-SGD optimizer does not have settable weights.
 SIDX has hierarchical references (not supported)
 SIMD timing:
 SOC attestation
@@ -11661,12 +11558,15 @@ Search for sales data in Slack
 Search for sales records in Slack
 Search for the quick share suggested recipients
 Search for this type is not available yet.
+Search groups
+Search huddles
 Search in Slack
 Search in channel
 Search in conversation
 Search in progress
 Search in this section
 Search in thread
+Search invitations
 Search is closing without query while on Search: Clear query session immediately
 Search is closing without query: Clear search session immediately
 Search is opening in the empty state: Starting new search session
@@ -11676,6 +11576,7 @@ Search media
 Search members
 Search messages
 Search or Ask Slackbot
+Search organizations
 Search pages
 Search params (e.g. query, filter) have changed, re-fetch results
 Search people
@@ -11695,6 +11596,7 @@ Search suggestions
 Search surface
 Search surfaces
 Search table
+Search tasks
 Search templates
 Search the conversations the Pinned picker can list
 Search the way you speak
@@ -11942,6 +11844,7 @@ Send Invite
 Send Invites
 Send Later
 Send Message
+Send Note to Huddle
 Send Request
 Send Summary To My Sales Home
 Send Summary To My Salesforce App
@@ -11990,6 +11893,7 @@ Send reply
 Send reply to this channel
 Send reply to this conversation
 Send status updates, track decisions, and keep all tasks and files related to a project in one spot. Everyone can collaborate without switching tabs.
+Send the recording disclosure in the active huddle thread
 Send this note
 Send this note in the meeting chat, then add a screenshot of the chat.
 Send this now?
@@ -12032,7 +11936,6 @@ Sep 2001 signature
 Sep 2001 signature; Sep 27 2001 signature block
 Sep 26 2001 email; Jan 2 2001 email saying he had just joined the gas team; Sep 26 2001 internal email
 Sep 27 2001 email address; Jul, Aug and Oct 2001 signature blocks
-Sequential model cannot be built: model is empty. Add some layers first.
 Seravek ExtraLight
 Seravek Light
 Serializing desktop client ids
@@ -12291,7 +12194,6 @@ Setup tasks
 Several people joined
 Several steps require admin configuration
 SfdcDataBlockCard: failed to parse rich text JSON
-Shader program validation failed.
 Shape Layer 1
 Shape Layer 10
 Shape Layer 12
@@ -12305,9 +12207,6 @@ Shape Layer 3
 Shape Layer 4
 Shape Layer 5
 Shape Layer 7
-Shape mismatch in v and x
-Shape mismatch: 
-Shape must be at least 2D.
 Shape the future of Slack CRM
 Share AI answer
 Share AI blocks: missing summaryId
@@ -12619,6 +12518,8 @@ Singer display is unavailable.
 Singer has a question
 Singer intro
 Singer island
+Singer lives up top
+Singer lives up top.
 Singer message unavailable
 Singer moving onto a sample meeting window
 Singer needs you in the chat
@@ -12720,6 +12621,7 @@ Slack Connect Private Channel
 Slack Connect Public Channel
 Slack Connect channels
 Slack Connect channels require a paid plan
+Slack Connect discoverability
 Slack Connect invitations
 Slack Connect is disabled
 Slack Dark
@@ -12732,6 +12634,7 @@ Slack Huddles
 Slack Kit Debug
 Slack Kit Playground
 Slack Marketplace
+Slack Marketplace, opens in new window
 Slack Ochin
 Slack Pro
 Slack Scribe dictionary save failed
@@ -12858,7 +12761,6 @@ Slackbot will use your view as context again
 Slackbot-orbit 8
 SlackbotPromptInput not rendered: missing treatment props despite skills experiments on
 Slash commands
-Slicing scalar is not possible
 Slide body
 Slide heading
 Slide left
@@ -13012,7 +12914,6 @@ Sort work objects
 Sort your pull requests
 Sorted alphabetically
 Sorted by recommended order
-Sorted input argument must be at least 2-dimensional
 Sorted like your sidebar
 Sorted newest to oldest
 Sorted oldest to newest
@@ -13058,7 +12959,6 @@ Spiced Cider (out of season)
 Splash state machine fetch timed out
 Split info parent heads are not a JSON list of strings.
 Split panel width
-Split tensors must not be scalars
 Split view
 Splunk Query Language
 Spooky themes just dropped
@@ -13420,8 +13320,6 @@ Supercharge your workflows with the Generate AI Response step
 Superseded by a newer tool call
 Support customers or clients
 Support for HIPAA compliance
-Support for constants in Bidirectional layers is not implemented yet.
-Support sampleWeight is not implemented yet
 Supported languages
 Supported: PDF, Word, PowerPoint, Excel, and text files such as TXT, Markdown, CSV, and JSON.
 Supporting Details
@@ -13622,9 +13520,6 @@ Templates made for your team, by your team.
 Temporarily unavailable, back online soon.
 Temporary channels
 Tend to your threads
-Tensor is disposed.
-TensorArray shape mismatch: 
-TensorList shape mismatch: 
 Term suggestions collapsed
 Terms of service
 Test Speaker
@@ -13680,9 +13575,7 @@ The amount of computational work that your system performs
 The announcement calls it a new group. It says one hire was meant to restart Enron
 The app is approved. Now you can install it.
 The app may have been uninstalled or you do not have permission to view it.
-The args passed in customGrad(f)(x1, x2,...) must all be tensors
 The argument must be a React element, but you passed 
-The array must have only 1 element.
 The attached window is no longer available.
 The attendee couldn
 The attendee joined from another device.
@@ -13713,7 +13606,6 @@ The display mode being requested.
 The display mode that was actually set. May differ from requested if not supported.
 The edit was not applied because approval expired.
 The edit was not applied because approval was unavailable.
-The ellipsis notation (
 The encoded transform worker manager failed. The connection will be reconnected without transforms.
 The entire thread, including all replies and reactions, will not be visible to anyone in your organization. Proceed with caution, as this cannot be undone.
 The entry you are trying to update has changed.
@@ -13730,8 +13622,6 @@ The huddle language applies to transcription and captions.
 The huddle language is the same for everyone on the huddle, and applies to transcription and captions.
 The indeterminate prop is only supported for the controlled Checkbox. Please provide the checked prop.
 The initial call to search Google Directory groups indicates that the user does not have group access.
-The initial state of a Bidirectional layer cannot be specified as a mix of symbolic and non-symbolic tensors
-The input tensor must be at least 1D
 The interesting threads are always here when you want them.
 The invite will be sent from 
 The last message of the agent conversation
@@ -13749,7 +13639,6 @@ The message format is invalid. Please try again.
 The message is not sent by a VIP user
 The message will only go to people already on Slack.
 The microphone selection changed. Try again.
-The model needs to be compiled before being used.
 The more I know about your work, the more I can take off your plate. Add any personal details about your role or your projects to this chat.
 The name of the pilot feature you are giving feedback about.
 The name of type. First letter must be uppercase.
@@ -13758,8 +13647,6 @@ The native edit could not be verified.
 The network timeout happened in suspiciously less time than our fixed timeout length
 The next day
 The note to Jay is saved in the chat; TBD has no way to send it.
-The number of values should be positive.
-The only valid scalar shape tensor is the fully unknown shape specified as -1.
 The org you logged into has already been added
 The original Slack sidekick
 The original reply will still be visible in its thread.
@@ -13777,10 +13664,8 @@ The real-time API failed. This status code might indicate that the callback you 
 The received response has neither a result nor an error property.
 The record could not be updated. Try again later.
 The record doesn
-The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less.
 The request was aborted.
 The resources in this channel are AI generated and visible to everyone who joins the channel. Feel free to personalize it to your team.
-The rnn() functoin of the deeplearn.js backend does not support constants yet.
 The same day
 The scheduled time must be in the future.
 The scheduled time must be within one year.
@@ -13806,7 +13691,6 @@ The user is in a different region from the Huddle host, potentially causing incr
 The value is over 8192 bytes as JSON
 The value must be JSON-serializable
 The value must be at least 2 characters long
-The varList passed in variableGrads(f, varList) must be an array of variables
 The window changed or is no longer available. Keep it open and ask again.
 The work continued through 2001. By November 2001 it was uncertain.
 The workflow builder needs to reconnect their Salesforce account for this workflow. Please contact the workflow owner to resolve this issue.
@@ -13826,7 +13710,6 @@ There are no eligible automations to choose from
 There are no eligible automations to choose from, try creating one with a template
 There are no eligible workflows to choose from
 There are no eligible workflows to choose from, try creating one with a template
-There are no layers in the model.
 There are no open windows, persisting an empty scene.
 There are no recent messages in this channel to move this message to.
 There are no workflows configured for this channel
@@ -13834,7 +13717,6 @@ There are not any sidekicks available for you to use just yet.
 There aren
 There is a missing data reference.
 There is an issue accessing a connected data source.
-There is no data on GPU or CPU.
 There is no line 
 There was a problem adding these agents. Give it another try in a few minutes.
 There was a problem adding these canvases. Give it another try.
@@ -14070,8 +13952,6 @@ This message was deleted.
 This message was flagged for review by DLP scanning
 This message was removed.
 This might take a minute, but an organized list is worth it.
-This model execution did not contain any nodes with control flow or dynamic output shapes. You can use model.execute() instead.
-This model has never been called, thus its weights have not been created yet. So no summary can be displayed. Build the model first (e.g., by calling it on some test data).
 This number is too large.
 This number is too small.
 This only works with the Slack desktop app.
@@ -14371,7 +14251,6 @@ Total published workflows or integrations with other apps
 Total reactions
 Total replies
 Total shares
-Total size of new array must be unchanged.
 Total views
 Touch base on the go, without all the typing
 Tracing is not sampled by default for this session.
@@ -14592,8 +14471,6 @@ Try with Slack lists, or search for a step from an external app.
 Trying to fetch a module that does not exist
 Trying to fix table layout for local history 
 Trying to nudge playhead over buffer-hole
-Trying to pop from an empty list.
-Trying to push element into a full list.
 Trying to save an Error which is not a RecognitionException
 Trying to wrap non-literal object
 Tucson Electric
@@ -14679,7 +14556,6 @@ Typed in component location
 Typed session
 Typed the requested text into the attached window.
 U.S. Virgin Islands
-UI might be locked temporarily as data is being downloaded
 UNDO-SEND-MSG: onCmdZWhenEmpty
 UNDO-SEND-MSG: onCmdZWhenEmpty: Exiting as TS is no longer valid
 UNDO-SEND-MSG: onCmdZWhenEmpty: Exiting as channel ID does not match
@@ -14708,17 +14584,11 @@ Unable to allocate new unsigned int vector on heap.
 Unable to apply stream because VoiceFocus worker has been destroyed
 Unable to assign Notification event handlers
 Unable to change permissions right now. Refresh and try again later.
-Unable to create WebGLBuffer
-Unable to create WebGLFramebuffer.
-Unable to create WebGLProgram.
-Unable to create WebGLTexture.
 Unable to create email token
 Unable to create external huddle link. Use your existing links to free up space for new ones.
-Unable to create fragment WebGLShader.
 Unable to create list from form
 Unable to create list from workflow template
 Unable to create preview.
-Unable to create vertex WebGLShader.
 Unable to delete workflow
 Unable to do anything with api response
 Unable to fetch Salesforce org ID
@@ -14819,7 +14689,6 @@ Unexpected node for section %s
 Unexpected null model
 Unexpected partition
 Unexpected rejection while reconciling global Activity sort
-Unexpected state: 
 Unexpected syntax 
 Unfreeze all columns
 Unfurls an attachment for a given URL in an optional channel context
@@ -14949,7 +14818,6 @@ Unrecognized endpoint parameter instruction:
 Unrecognized modifier name: 
 Unresolve Conversation
 Unresolving conversation
-Unrolling is not possible with convolutional RNNs.
 Unsave this file comment
 Unsaved state duration exceeds threshold
 Unselected. 
@@ -15179,6 +15047,7 @@ Use Slack on the go
 Use Slackbot to search for and find things, create and manage content, and be your partner in productivity.
 Use Tasks to automate a prompt with a schedule.
 Use Template
+Use This Huddle
 Use UDP port 3478 experiment enabled. Will not munge UDP port for readiness checker.
 Use Up and Down arrow keys to change the position of the image. Press Enter or Space to save position changes. Press Escape to cancel position changes.
 Use a Screenshot Instead
@@ -15270,7 +15139,6 @@ Using urlRewriterMulti for dual UDP support
 Using video only transceiver controller
 Utilities, cities and state agencies that ship gas
 Utility and energy company. Citizens Communications reported $7 billion in assets, $1.8 billion in revenue and $509 million in adjusted EBITDA at the end of 2000.
-VAO changed between setProgram and executeProgram!
 VF not enabled because device is not expected to be able to perform adequately
 VIDEO CONNECTIVITY READINESS - Completed
 VIDEO CONNECTIVITY READINESS - Running
@@ -15294,7 +15162,6 @@ Value Difference %
 Value is invalid for this field.
 Value of WeakMap is not a non-null object.
 Values for these inputs will be determined by another workflow and if not present, will be provided by the user at runtime.
-Values passed to engine.makeTensor() are null
 Variable Name
 Variable name can only contain letters, numbers, and underscores
 Variable name is required
@@ -15316,8 +15183,6 @@ Vector 7
 Vector 7 (Stroke)
 Vector 8
 Vector 9
-Verbose mode is not implemented yet.
-Verbose predictLoop() is not implemented yet.
 Verbosity settings
 Verification account has no email
 Verified by Slack
@@ -15656,7 +15521,6 @@ WebAudio device ID detected, suppressing device selection check.
 WebAudio is not enabled, mixIntoAudioInput will not work
 WebCrypto AES decrypt
 WebGL context unavailable
-WebGL is not supported on this device
 WebGLBackend.sync: clientWaitSync returned WAIT_FAILED
 WebSocket connection error
 WebSocket connection failed
@@ -15784,12 +15648,10 @@ When adding a listener with a context, you should remove it with the same contex
 When an emoji reaction is used
 When copying a message, the text will use GitHub Flavored Markdown formatting.
 When enabled, Slack AI can search the web to help provide more comprehensive and up-to-date answers.
-When inputs is an array, neither initialState or constants should be provided
 When should the summary be sent
 When someone clicks the workflow link
 When to mark as read
 When turned on, Slackbot can search sources outside of Slack to help provide more comprehensive and up-to-date answers
-When using zeroDebias: true, step is required.
 When you delete this workflow, it
 When you save this step, we will create a new slack list for you.
 When you share a canvas here, anyone in this conversation can access it.
@@ -16367,18 +16229,13 @@ addRedundantAudioRecoveryMetricsObserver is deprecated. Access encodedTransformW
 also sent to the channel.
 also sent to the group.
 are you still there?
-browserDownloads() cannot proceed because the current environment is not a browser.
-cell property is missing for the constructor of RNN.
 changed editing permissions for the channel canvas.
 client.checkVersion should only be used in the client.
-complex64 dtype TensorBuffers are not supported. Please create a TensorBuffer for the real and imaginary parts separately and call tf.complex(real, imag).
 controls.set() should only be called after a component has mounted. Consider calling within a useEffect hook.
 controls.start() should only be called after a component has mounted. Consider calling within a useEffect hook.
-convolutions greater than 3D are not implemented yet.
 create a new workspace.
 create-canvas-and-navigate-to-tab: canvas and tab fully creating, navigating away from placeholder.
 cursor_pos is out of bounds!
-customTexShape is too small. Row * Column * 4 should be equal or larger than the size of the tensor data.
 data-block-source contained unparseable JSON; possible serialization bug in copy handler.
 disallowed character in attribute name.
 disallowed character in entity name.
@@ -16391,8 +16248,6 @@ e.g., huddles, canvas, etc.
 edited this item.
 est disponible que sur ordinateur.
 every second instead of every 30 seconds.
-getWeights() is not implemented for Adamax yet.
-gradients() received an empty list of xs.
 ha inviato un biglietto di auguri. Felice anno nuovo!
 handlerIds, when specified, must be an array of strings.
 how did this happen?
@@ -16406,7 +16261,6 @@ in t?t.skill_ref:t.skillRef,fallbackLabel:t.fallback?.text??
 in t?t.value??
 in u?u.aliases:[],...
 invite them first.
-learningRate for RMSPropOptimizer must be defined.
 leaving the last known layout in place.
 ll be lost and the editor will close.
 ll lose any unsaved changes to the record.
@@ -16424,7 +16278,6 @@ no whitespace between attributes.
 node end ...
 numpad .
 onWorkspaceLaunch - Detected that user is logged in via the SSB.
-only stride 1 allowed on non-range indexing.
 parentWindow.matchMedia hook failed; system theme will not be updated.
 people are members.
 pinned by private user.
@@ -16450,7 +16303,6 @@ s context for future turns.
 s credit worksheet are still owed.
 s credit worksheet. Status: not shown as signed.
 s device is running on battery power, which could limit device performance and cause audio, video, or application lag. If they report such issues, suggest they connect their device to a power source.
-s dtype must be an int32.
 s edge list!
 s language and region preference in BCP 47 format.
 s missing from my profile?
@@ -16469,18 +16321,11 @@ s snippet. Also, the possessive affix is localized, but please move it before or
 s timezone in IANA format.
 s top Rule!
 s units, alongside ENA.
-sample weight is not supported yet.
-saveAllInputs is true, expected inputs to be an array.
-scheme must not be undefined or null.
-segmentIds and indices should have same size.
 selectFirstWorkflowId can only be used with single workflow state!
 sent a holiday card. Happy New Year!
 series.data or dataset.source must be an array.
 setAudioPayloadTypes is deprecated. Access encodedTransformWorkerManager directly via meeting session context.
-setOutputPackedMatrixWriteRegion not implemented.
-setWeights() is not implemented for Adamax yet.
 started screen sharing.
-stepsPerEpoch mode is not implemented yet.
 stopped screen sharing.
 subteam_created: No message event provided, or no subteam provided in the message event.
 subteam_deleted: No message event provided, or no subteam provided in the message event.
@@ -16493,24 +16338,20 @@ t be able to use it again.
 t be published because the start date has already passed. Edit the date and try publishing again.
 t be undone.
 t been checked yet were left out.
-t create a ring buffer of unknown capacity.
 t describe what Glendale buys or sells beyond the ISDA. Its City Council had approved entering into financial transactions and an ISDA with Enron (reported October 8, 2001).
 t fully parsed.
-t get item at a negative index.
 t have any narration.
 t have any responses yet. When responses come in, you can download them here.
 t have permission to create private channels in this workspace.
 t link that to the review.
 t load the preview right now.
 t load this right now.
-t make a batch of zero elements.
 t match the number of args!
 t name EES directly.
 t on record.
 t prematurely end the comment block.
 t save the recording. Please try again.
 t say what concerns prompted it.
-t set item at a negative index.
 t start recording. Please try again.
 t start the camera. Please try again.
 t start the local video because the maximum video capacity was reached.
@@ -16528,7 +16369,6 @@ translation available.
 updateToken threw an error, time to refetch credentials instead!
 url or json or rows or columns is required.
 useInvertedScale is deprecated and will be removed in 3.0. Use the layout prop instead.
-validationData including sample weights is not supported yet.
 ve already granted permissions, quit and reopen Slack.
 ve entered so far if you leave now.
 ve hit your usage limit.

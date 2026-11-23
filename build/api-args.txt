@@ -257,7 +257,7 @@ chat.attachmentSuggestion: app_id, payload, service_id
 chat.delete: channel, ts
 chat.deleteBulkJoinLeave: channel_id, first_message_ts, last_message_ts
 chat.moveMessageToThread: channel, thread_ts, ts
-chat.postMessage: blocks, channel, text
+chat.postMessage: blocks, channel, text, thread_ts
 chat.refreshUnfurl: channel, entity_id, ts
 chat.removeFile: channel, file, ts
 chat.removeUnfurlLink: url
