@@ -2095,6 +2095,7 @@ assistant.13ab187:  using the Salesforce Research Skill
 assistant.966723b: 's information
 assistant.3bc3855: <b>Your microphone is muted by your system settings</b>. Go to your <a>system settings</a> to unmute your microphone.
 assistant.3068e72: <div>You’ve unlocked the CRM experience.</div><div>I’m here to support your contact management, research, and meeting prep.</div>
+assistant.c8cd656: <strong>Hit enter to search</strong> using this sample question.
 assistant.ae6156d: <strong>Tip:</strong> We recommend adding ones you like to keep tabs on but aren’t active in, because those tend to be okay to catch up on once a day.
 assistant.394351f: <t1>:rocket:</t1> <b>Want more powerful AI answers??</b> <a>Connect other work apps</a> to unlock knowledge across your company.
 assistant.b431ef5: <t1>:star:</t1> <b>Find everything about “{searchText}”</b><br></br><a1>Connect</a1> all your work tools so the information you need is just one Slack search away.
@@ -4722,8 +4723,6 @@ channel_details_custom_mcp.473b95a: {count, plural, =1 {# tool} other {# tools}}
 channel_header.64acf7e: Agents
 channel_header.0323bf6: Invite teammates
 channel_header.4d67cf8: Slack works better when you use it together.
-channel_header.8d4e9b8: View all agents & apps of this channel
-channel_header.00681e8: View all agents & apps of this channel<t1>Includes {agents}</t1>
 channel_header.e255057: View all members of this {entity}<t1>Includes {users}</t1>
 channel_header.3044650: View {memberCount, plural, =1 {# member} other {all # members}}. Includes {users}.
 channel_header.8af56de: you
@@ -13617,7 +13616,6 @@ matching_domain_workspaces.fdcfc00: This was the last workspace you signed into 
 matching_domain_workspaces.d46e34b: View your other workspaces
 matching_domain_workspaces.87debd6: Welcome to {teamName}!
 matching_domain_workspaces.8cf79b8: You’re joining {activeUserCount} of your teammates with {teamEmailDomain} domains.
-matching_domain_workspaces.e85b764: {teamName}
 mcp_app_block.33ce417: Loading…
 mcp_app_block.b193627: Something went wrong loading content from this app.
 media_viewer.ddd93b2: View file summary
@@ -19486,14 +19484,10 @@ sc_trial_onboarding.a35975b: Welcome to Slack
 sc_trial_onboarding.041e6ec: What’s your name?
 sc_trial_onboarding.9a1d057: You’ve been added to <strong>#{channelName}</strong> by <strong>{invitingTeamDomain}</strong>. We created a workspace for <strong>{emailDomain}</strong>.
 sc_trial_onboarding.fa1f17c: You’ve been added to <strong>#{channelName}</strong> by <strong>{invitingTeamDomain}</strong>. We created a workspace for you.
-search.776cdc1:  (agent)
-search.24522de:  (app)
 search.87b7455:  (formerly {icon}{name})
 search.15cbce2:  ({appName})
-search.a093cb2:  ({teamName})
 search.fa92957:  — Ask
 search.f2b18ba:  — Open
-search.8c47c42:  — Search
 search.c53994e: (Optional)
 search.c8ed86b: (Required)
 search.128aefc: (archived)
@@ -19501,10 +19495,8 @@ search.6346544: (formerly {names})
 search.141e450: +{filtersAppliedCount, plural, =1 {# filter} other {# filters}}
 search.5a0d910: , Remove from recently viewed
 search.44c897a: , Remove from {collection}
-search.8c9111d: , deactivated
 search.a7d298f: , opens in a new tab
 search.94aa291: , {fileType}
-search.ee5ef3e: , {unreadCount, plural, =1 {# unread} other {# unreads}}
 search.6218311: 3 characters required
 search.7ff2a8e: <b>Connected!</b> Results from connected apps will now start appearing in search. Manage or connect more apps here, anytime.
 search.96c5217: <slackbotLabel>Ask Slackbot</slackbotLabel> <description>in your own words to search differently across more sources.</description>
@@ -19661,11 +19653,9 @@ search.91ff360: Continued in thread
 search.07c59b4: Conversations
 search.ab4a8cc: Copy handle
 search.2f84eea: Copy link
-search.d3b3e01: Copy search query
 search.90939ee: Copy the handle {handle}
 search.60dde76: Copy the link to the {file} {fileType}
 search.c63379e: Copy the link to the {workflow} workflow
-search.0ddd0b2: Copy the search query {query}
 search.38cfa15: Could we ask you a few quick questions about your most recent navigation experience?
 search.7215c51: Could we ask you a few quick questions about your most recent navigation query: {query}?
 search.0bf03b1: Could we ask you a few quick questions about your most recent search for: {query}?
@@ -19699,7 +19689,6 @@ search.eb9a4bc: Date
 search.314a1ad: Deactivated
 search.65640c6: December
 search.f6fdbe4: Delete
-search.728a88f: Delete the search query {query} from your query history
 search.441bda6: Deleted
 search.db40106: Department
 search.b4cdfab: Describe what you’re looking for…
@@ -19792,13 +19781,11 @@ search.96e5782: Filters
 search.e0cd16e: Filters {filterCount, plural, =0 {} other {(#)}}
 search.6a5b436: Find action items from my conversations in the last 2 days
 search.f9aaf18: Find everything about <highlight>“{searchText}”</highlight>
-search.ec80936: Find in DMs
 search.4bf0c7c: Find in channel
 search.cb8e862: Find in channel ({shortcut})
 search.dddf4e4: Find in conversation
 search.4457abc: Find in conversation ({shortcut})
 search.1c64d2a: Find in saved items
-search.e9d801e: Find in sent messages
 search.125b3ab: Find links and files shared with me about my latest project
 search.64d13ab: Find what’s happening in my important channels today
 search.b6ee7fa: Find your recent searches here
@@ -20009,12 +19996,9 @@ search.03a322d: Open in split view
 search.eed7d59: Open in…
 search.d2de1a2: Open link
 search.12a3c42: Open the group message with you, {members} in a new window
-search.646230c: Open the {channel} channel in a new window
 search.69aa213: Open the {file} {fileType} in a new window
 search.ee36ad4: Open the {tab} tab in a new window
 search.126de8c: Open the {view} view in a new window
-search.72a00d8: Open {app} app details in a new window
-search.7aa8996: Open {user} profile in a new window
 search.9890885: Org Chart
 search.f959dc3: Org admins
 search.2cd7504: Org chart
@@ -20055,7 +20039,6 @@ search.f6ee06b: Provide some details or suggest improvements
 search.fbd70ee: Psst! Something big is coming next week…
 search.dc5eb70: Public
 search.a618b4b: Query
-search.9f57fb6: Query copied!
 search.6bab4fa: Quick filters
 search.a16c5bb: Range
 search.2164a9d: Range…
@@ -20147,7 +20130,6 @@ search.fcb367b: Search in channel
 search.5355946: Search in channel ({shortcut})
 search.d8f281a: Search in conversation
 search.a480b4a: Search in the group message with you, {members}
-search.e20fb5d: Search in the {channel} channel
 search.373f96c: Search isn’t available in this view. Use Filters to browse templates.
 search.ea066e4: Search messages at {teamName}
 search.a5ab82b: Search messages in this channel ({shortcut})
@@ -20351,9 +20333,6 @@ search.0750f73: Very dissatisfied
 search.7b44610: Very satisfied
 search.56b71e8: Videos
 search.69bd4ef: View
-search.837f543: View all conversations with
-search.be8e8a7: View all conversations with {memberNamesText}
-search.affb70b: View all conversations with {mpimNamesForAriaLabel}
 search.a52fc2a: View all results
 search.36d9162: View all {totalCountStr} results
 search.acdf387: View app details
@@ -20361,9 +20340,6 @@ search.21cffcf: View as dense
 search.12e66ad: View as detailed
 search.22829a6: View full search
 search.b98795a: View profile
-search.c5501a4: View the details of the Salesforce record {channel}
-search.7ce7c51: View the details of the {app} app
-search.60e4467: View the profile of {user}
 search.f311c7d: Want to see more? Connect <app-icon>appIcon</app-icon> <app-name>appName</app-name> to see all results beyond what’s shared in Slack. <Link>Connect here.</Link>
 search.d413d19: Want your team to upgrade so you get full access? Show that you’re interested!
 search.5656b9b: Wednesday
@@ -20491,7 +20467,6 @@ search.9ff282d: {fileName}, {owner}{fileType}
 search.eac5e6b: {fileName}{fileType}
 search.d931e20: {iconOffline} <strong>No connection.</strong> Search is not available while offline, and navigating to conversations may be limited.
 search.bcffd3b: {id} in Slack, {count, plural, =0 {no results found} one {# result found} other {# results found}}
-search.09f8a95: {key} to open
 search.5a588fb: {label}, Canvas
 search.7e06c85: {label}, Folder
 search.d37043d: {label}, List
@@ -20503,7 +20478,6 @@ search.c6cdc67: {name} workspace
 search.d8dd14f: {name}: {value}
 search.9300987: {numRemaining} remaining
 search.fb39e42: {queryLabel} <b>{searchText}</b>
-search.104e003: {realName}{maybeApp}{maybeTeam}, Direct Message{maybeUnreads}{maybeDeactivated}{maybePresence}
 search.b80ac7a: {replies} · last reply {ago}
 search.b493356: {sender} in a direct message
 search.169f123: {sender} in {conversation}
@@ -20512,13 +20486,11 @@ search.1db5227: {sender}:
 search.adc9d5d: {startDate} - {endDate}
 search.bbee91a: {step} of {total}
 search.687de28: {suggestion}, 1 of {totalSuggestions} suggestions
-search.e85b764: {teamName}
 search.9642493: {titleVerb} in {monthName}
 search.e13562d: {titleVerb} this month
 search.222e51d: {titleVerb} this week
 search.499a81d: {title}, selected
 search.799f296: {type}, more types
-search.41e44f4: {workflowName}, Workflow
 search.7cbc1b0: ⌘ Click
 search.362e018: ⌘ Opt Click
 search_menu.2dd2bed: today
@@ -20695,6 +20667,7 @@ setup_page.e9ec172: Let {inviterName} know you’re here
 setup_page.d79a120: Let’s Do It
 setup_page.7cc38d3: Let’s use this channel for…
 setup_page.7fcdcee: Loading invitation…
+setup_page.58d4528: Looking for a particular message, doc, or decision? If it happened in Slack, you can find it in search.
 setup_page.0c77aee: Media
 setup_page.68f4145: Message
 setup_page.23965b2: Message #project
@@ -20729,6 +20702,7 @@ setup_page.d0edfb6: Sales
 setup_page.9762a89: Sales Tracker
 setup_page.28abc03: Search by name
 setup_page.db074aa: Search by name or email
+setup_page.4069d3a: Search messages, files and more
 setup_page.81a5f00: Selected channels
 setup_page.6dcd151: Send Message
 setup_page.a0630b0: Share invite link
@@ -26725,7 +26699,6 @@ team.4637e40: Write me a haiku about my week
 team.453cb01: You don’t have access to this channel (ex. it’s private or in a workspace you’re not a part of), so its name isn’t shown
 team.6e79d70: You don’t have access to this message (it may be private, in a workspace you’re not a part of, or deleted)
 team.8e2dee3: You don’t share any channels with {memberName}.
-team.8b5695d: {realName}, Profile
 team_creation.573dc95: Code confirmation timed out, can you <link>please enter your email again</link>
 team_creation.2a082e3: Oops! Looks like something went wrong.
 team_creation.7ce01f6: Success!
