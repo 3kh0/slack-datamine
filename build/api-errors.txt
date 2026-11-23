@@ -66,6 +66,7 @@ drafts.create: attached_draft_exists, both_blocks_and_text_provided, both_user_i
 drafts.delete: draft_delete_invalid, draft_has_conflict, draft_not_found, unable_to_delete_draft
 emailConnectorSelfServe.emails.list: auth_failed, feature_not_available, fetch_failed, provider_access_blocked, provider_not_connected, rate_limited
 emoji.add: emoji_limit_reached, error_bad_format, error_bad_name_i18n, error_bad_upload, error_bad_wide, error_invalid_alias, error_lower_case_names_only, error_missing_name, error_name_taken, error_name_taken_i18n, error_no_image, error_too_big, failed_to_add_emoji, invalid_mode, no_alias_selected, no_image_uploaded, no_permission, no_url_image, no_url_provided, rate_limited, resized_but_still_too_large, too_many_frames, unable_to_enqueue, unable_to_fetch_emoji, unknown_method
+enterprise.teams.join: email_is_taken, invalid_team, invalid_user, missing_argument, not_an_enterprise, rate_limited, team_is_not_open, user_already_team_member, user_is_restricted_user
 enterpriseSearch.getEntity: connector_not_found, function_disabled, function_not_found, invalid_record_id, not_connected
 files.disableCrossWorkspaceLinkSharing: access_degradation_detected, access_denied, file_not_found, filetype_not_supported, invalid_parameters, skill_is_auto_enabled, team_not_found, unknown_method
 files.external.getOrCreate: access_denied, file_not_found, invalid_target_team, provider_not_connected, restricted_action, team_not_found, unknown_error

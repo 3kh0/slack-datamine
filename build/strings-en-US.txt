@@ -10257,9 +10257,13 @@ flexpane.1e80870: Expand view
 flexpane.1c59135: Primary view actions
 flexpane.95d06fe: Secondary view actions
 flexpane.a09052c: View options
+form.a63cbaf: Enter a coworker’s <span class="sk_primary_foreground bold">name</span> or <span class="sk_primary_foreground bold">email address</span>, or search for a <span class="sk_primary_foreground bold">specific workspace</span>.
+form.527cebf: Enter a coworker’s <span class="sk_primary_foreground bold">name</span> or <span class="sk_primary_foreground bold">email address</span>.
 form.f4e1241: No items
 form.47719d7: No items matched <strong>{filterQuery}</strong>
+form.34eee02: No workspaces found matching <span class="sk_primary_foreground bold">{query}</span>.
 form.6e913a6: Search workspaces
+form.9b4b629: Try searching for another workspace or searching for a coworker’s workspace.
 form.a4352f4: {queryLength, plural, =0 {Start typing to see results…} other {Keep typing to see results…}}
 form_inputs.61cc55a: Add
 form_inputs.77dfd21: Cancel
@@ -10322,12 +10326,6 @@ govslack.80aa824: Don’t share ITAR protected data here.
 govslack.c8a4874: Got It
 govslack.0baf234: These teams are using GovSlack.
 govslack.e78f4c0: This team is using GovSlack.
-grid_onboarding.ddef86d: Search Again
-grid_onboarding.2734f6d: View all {orgName} workspaces
-grid_onboarding.1e4c67e: We ran into some trouble fetching {memberName}’s workspaces
-grid_onboarding.41b12dc: {memberName} hasn’t joined a workspace
-grid_onboarding.ce275ad: {memberName} is in {numWorkspaces, plural, =1 {# workspace} other {# workspaces}}
-grid_onboarding.1080fcb: {memberName} isn’t in a workspace you have access to
 groups.1a01934: By leaving this channel, you may need to request to rejoin later.
 groups.77dfd21: Cancel
 groups.054ef1f: Leave Channel
@@ -13861,6 +13859,7 @@ member_profile.74da170: Workspace Admin
 member_profile.345f223: Workspace Owner
 member_profile.df0b06f: [AWAY] Set yourself active
 member_profile.870984d: {date} at {time}
+member_profile.f48e99b: {emailAddressLabel} copied!
 member_profile.46b5b15: {name}, {presence}
 member_profile.fba6bab: {statusText}
 member_profile.c3af7bb: {statusText} until {returningDate}
@@ -24526,7 +24525,7 @@ slackbot-ai.f4b0369: Give {agentName} a prompt and a schedule. It runs the promp
 slackbot-ai.e76c619: Group related conversations around a topic and give Slackbot custom instructions so every chat picks up where the last one left off.
 slackbot-ai.4eb2fde: Help me respond to this thread: {permalink}
 slackbot-ai.bd5db47: Help me set up a new task.
-slackbot-ai.094fc81: Hi, I’m Slackbot, your AI teammate.
+slackbot-ai.d332f62: Hi, I’m Slackbot, your AI assistant.
 slackbot-ai.90ccd64: History
 slackbot-ai.741bb4e: How Tasks Work
 slackbot-ai.305549b: I found {count, plural, one {# thing} other {# things}} I can take off your plate.
@@ -26242,7 +26241,9 @@ stock_ticker_snapshots.148a50b: An upcoming earnings date isn’t available righ
 stock_ticker_snapshots.6d8bcc8: Expected earnings for {symbol} loaded.
 stock_ticker_snapshots.7bee70c: Expected {date} · {session}
 stock_ticker_snapshots.4cef112: Loading earnings date…
+stock_ticker_snapshots.e3e95dc: Manual refresh may return cached data.
 stock_ticker_snapshots.de0e3f4: May be delayed
+stock_ticker_snapshots.38cb51a: Metrics may be delayed and use different reporting periods.
 stock_ticker_snapshots.3501e6b: Next earnings
 stock_ticker_snapshots.4b059c0: Prices may be delayed or unchanged after market close. No automatic refresh.
 stock_ticker_snapshots.2c9c1f7: Unavailable
@@ -30591,15 +30592,10 @@ workspace_apps_manage.3e2fe6a: {count, plural, =1 {# workspace} other {# workspa
 workspace_apps_manage.5129522: {shownText} and {remaining, plural, =1 {# other} other {# others}}
 workspace_directory.6b21fb7: About
 workspace_directory.82cf8a5: Account settings
-workspace_directory.a17ecbe: Active members
 workspace_directory.09e12ea: Awaiting admin approval
 workspace_directory.571a187: Awaiting admin approval to join
 workspace_directory.9b93616: Browse {numWorkspaces, plural, =1 {# workspace} other {# workspaces}}
-workspace_directory.7efe6ce: Close Workspace Directory Banner
-workspace_directory.ca33bb8: Get in touch with {memberName} to be invited to a workspace they’re in, or try <a>searching for someone else</a> on your team.
-workspace_directory.ccab98f: Leave this workspace
 workspace_directory.18f7215: No workspaces found matching “{searchQuery}”
-workspace_directory.246edb0: No workspaces found matching “{searchTerm}”
 workspace_directory.cf9b770: Open
 workspace_directory.7bac799: Open {name}
 workspace_directory.f90d117: Request Sent
@@ -30607,24 +30603,12 @@ workspace_directory.b762a7c: Request to Join
 workspace_directory.79fa256: Requested access on {requestDate}
 workspace_directory.c025528: Requires an invite to join
 workspace_directory.bce0641: Search
-workspace_directory.9970f80: Search by coworker ({num})
-workspace_directory.5e75618: Search for a coworker
 workspace_directory.8598222: Select
 workspace_directory.9320afb: Select {name}
-workspace_directory.685ffe4: Try <a>searching for another workspace</a> or searching for a teammate’s workspaces.
-workspace_directory.bc81642: Try <a>searching for someone else</a> on your team, or for a specific workspace
 workspace_directory.907b3be: View Details
-workspace_directory.2734f6d: View all {orgName} workspaces
-workspace_directory.3ec313c: What is a workspace?
 workspace_directory.9ee21ac: Workspace admins
-workspace_directory.0ceec52: Workspace couldn’t be left. Please reload and try again.
-workspace_directory.47a35af: Workspaces are where you and your coworkers communicate and get work done. To get started, find your team’s workspace.
-workspace_directory.d0294ed: Workspaces at {name}
 workspace_directory.87516bf: Your Workspaces
-workspace_directory.c9a036d: {activeMembers}
-workspace_directory.293bc79: {memberName} hasn’t joined any workspaces
 workspace_directory.fda55dd: {memberName} is in {workspaceCount, plural, =1 {# workspace} other {# workspaces}}
-workspace_directory.1080fcb: {memberName} isn’t in a workspace you have access to
 workspace_directory.18f628e: {name}
 workspace_directory.956b06a: {workspaceCount, plural, =1 {# workspace} other {# workspaces}} matching “{searchQuery}”
 workspace_directory.cebcd80: {workspaceCount, plural, =1 {# workspace} other {# workspaces}} matching “{workspaceName}”
