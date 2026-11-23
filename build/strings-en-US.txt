@@ -5265,6 +5265,8 @@ channel_sidebar.25911d4: Show more
 channel_sidebar.ccb8204: Show recents
 channel_sidebar.0f38ffa: Show {count} more
 channel_sidebar.8f30fab: Showing all channels.
+channel_sidebar.29211e0: Showing fewer canvases and lists.
+channel_sidebar.c868907: Showing more canvases and lists.
 channel_sidebar.740ce0a: Sidebar view
 channel_sidebar.9fbb94b: Slackbot
 channel_sidebar.bee54c9: Something went wrong.
@@ -5360,24 +5362,27 @@ channel_sidebar.6d3a200: has a draft message
 channel_sidebar.b21e6ea: has unread messages
 channel_sidebar.fd18d0a: has unreads
 channel_sidebar.4dc31fe: has unsent messages
+channel_sidebar.468aa1c: huddle in session
 channel_sidebar.e4b074a: muted
 channel_sidebar.943992d: private channel
 channel_sidebar.4762ca5: recap channel
 channel_sidebar.f9ecef2: shared channel
 channel_sidebar.8af56de: you
 channel_sidebar.6e201aa: {agentName} conversations
+channel_sidebar.f430633: {appName}, opens in app marketplace
 channel_sidebar.6db181e: {authorName}: {preview}
 channel_sidebar.c2c005b: {badgeCount} unread {badgeCount, plural, =1 {invite} other {invites}}
+channel_sidebar.3df1ef7: {channelName}, {count, plural, =1 {# mention} other {# mentions}}
 channel_sidebar.2d891d6: {channel}, failed to send message
 channel_sidebar.57c546d: {count, plural, =1 {# file} other {# files}}
 channel_sidebar.12f139d: {count, plural, =1 {# mention} other {# mentions}}
+channel_sidebar.3ac3e22: {count, plural, =1 {# mention} other {# mentions}} in a channel you haven’t joined
 channel_sidebar.accd9c4: {count, plural, =1 {# new message} other {# new messages}}
 channel_sidebar.2743d1b: {count, plural, =1 {# unread message} other {# unread messages}}
 channel_sidebar.c5e835b: {count, plural, one {View # more draft} other {View # more drafts}}
 channel_sidebar.9c2f5b0: {count} most recent (Default)
 channel_sidebar.6ae72e0: {count} {count, plural, =1 {unread highlight} other {unread highlights}}
 channel_sidebar.8b35716: {hours, plural, =1 {# hour} other {# hours}}
-channel_sidebar.bb167a8: {limit, plural, =1 {# row} other {# rows}}
 channel_sidebar.82badf9: {maxPicks} of {maxPicks} selected. Uncheck a conversation to pick a different one.
 channel_sidebar.09a22c2: {minutes} min
 channel_sidebar.26d4d69: {name} (you)
@@ -12324,10 +12329,6 @@ joiner_launchpad.3ad79af: view everyone
 joiner_launchpad.fb25919: {channelName}. {channelPurpose}.
 joiner_launchpad.57c546d: {count, plural, =1 {# file} other {# files}}
 jp_pocket_guide.ac7577d: A channel is a dedicated space for a topic or project
-jp_pocket_guide.a40f3b9: A channel shared with people from another company
-jp_pocket_guide.142c7b4: A channel where a team shares messages and files
-jp_pocket_guide.5f19d2b: A huddle where three people talk over a shared screen
-jp_pocket_guide.fa79090: A message with a slide deck shared from a connected app
 jp_pocket_guide.b6ecc2b: Add a team icon
 jp_pocket_guide.eaf432d: Add people directly
 jp_pocket_guide.b4ba0f5: Add your AI agents and apps to Slack
@@ -12335,18 +12336,15 @@ jp_pocket_guide.119e7e8: Add your workspace icon
 jp_pocket_guide.a085703: Align your team, assign tasks, and share updates
 jp_pocket_guide.3bd2111: Almost done
 jp_pocket_guide.b52b36b: Back
-jp_pocket_guide.6e4dbd7: Bring all your apps and documents into Slack to manage your calendar, track projects, and work with AI agents with just a click.
 jp_pocket_guide.2b833f9: Bring coworkers into this workspace so you can start collaborating.
 jp_pocket_guide.8f50fc9: Bring what your team is already working on into Slack
 jp_pocket_guide.77dfd21: Cancel
 jp_pocket_guide.56b3c80: Change icon
 jp_pocket_guide.b6702a2: Channels are usually public, but we made this a private channel for you. Anything you do here is visible only to you.
-jp_pocket_guide.9f6b9cc: Chats take place in channels. Channels are dedicated spaces for your team to discuss specific projects or topics — no email chains or forgotten attachments.
 jp_pocket_guide.876dd5b: Click the question mark icon to open the Help Center whenever you need it.
 jp_pocket_guide.bbfa773: Close
 jp_pocket_guide.1f5a1ab: Complete
 jp_pocket_guide.785450e: Connect an existing project
-jp_pocket_guide.08a6cfb: Connect securely with people outside your company
 jp_pocket_guide.f4f7521: Connect the apps your team uses
 jp_pocket_guide.31532de: Connect your AI tools
 jp_pocket_guide.2107dd0: Connect your work apps
@@ -12361,23 +12359,15 @@ jp_pocket_guide.afbe524: Draft a customizable email to welcome your team to Slac
 jp_pocket_guide.e9ed78b: Email template preview
 jp_pocket_guide.b396d20: Explore tutorials
 jp_pocket_guide.abe410f: Failed to load image. Please try another file.
+jp_pocket_guide.ad565d9: Feature
 jp_pocket_guide.64e2053: File must be less than {maxFileSize} MB.
-jp_pocket_guide.867f175: Find all your apps and tools
 jp_pocket_guide.31df1ec: Find help anytime
 jp_pocket_guide.fe6ee7f: Finishing setup first makes their onboarding better.
 jp_pocket_guide.c4d63e4: From:
-jp_pocket_guide.c1682e9: Get instant feedback from customers, communicate with clients, and get approvals from vendors right where your team is already working.
-jp_pocket_guide.48de7ed: Getting you set up to <highlight>chat with your team</highlight>
-jp_pocket_guide.a4e536e: Getting you set up to <highlight>collaborate with your team and AI agents</highlight>
-jp_pocket_guide.8567cae: Getting you set up to <highlight>consolidate your apps and tools in one place</highlight>
-jp_pocket_guide.27fed80: Getting you set up to <highlight>explore how Slack works</highlight>
-jp_pocket_guide.65b4c0b: Getting you set up to <highlight>track projects</highlight>
-jp_pocket_guide.8878cef: Getting you set up to <highlight>work with clients, vendors, and partners</highlight>
 jp_pocket_guide.eabdf94: Gmail
 jp_pocket_guide.40c0974: Go to Channel
 jp_pocket_guide.f6684a3: Great progress
 jp_pocket_guide.8b531d8: Halfway there
-jp_pocket_guide.dabf0cc: Here’s where you can manage your productivity tools and project management apps. You can also browse additional apps and AI agents to install.
 jp_pocket_guide.47d246c: Hide template preview
 jp_pocket_guide.32594a8: Icon must be a .gif, .jpg, or .png.
 jp_pocket_guide.0c806f0: Icon must be at least {minimumIconWidth} x {minimumIconHeight} pixels.
@@ -12386,14 +12376,13 @@ jp_pocket_guide.04ae957: In browser
 jp_pocket_guide.fd6c3eb: Install
 jp_pocket_guide.fc2e498: Install {appName}
 jp_pocket_guide.7bb4405: Installed
-jp_pocket_guide.ea75d5b: Instantly connect with your team over audio or video calls
 jp_pocket_guide.07cef92: Introduce your colleagues to a simpler way to work.
 jp_pocket_guide.b05680b: Invite Teammates
 jp_pocket_guide.722fe78: Invite your team
 jp_pocket_guide.93be9ce: Learn about channels
 jp_pocket_guide.ee7c61a: Less than {maxFileSize} MB
 jp_pocket_guide.2c9e20b: Let’s organize your team’s projects. How would you like to start?
-jp_pocket_guide.85c1848: Move your chats from email to a shared space
+jp_pocket_guide.ceeaa74: Limited
 jp_pocket_guide.bc98198: Next
 jp_pocket_guide.3e24846: No apps match your search.
 jp_pocket_guide.627a402: Now, it’s time to <link>set up your Slack</link>.
@@ -12408,6 +12397,7 @@ jp_pocket_guide.f4d6b59: Outlook
 jp_pocket_guide.6ca50ee: Private — only specific people
 jp_pocket_guide.be25250: Productivity & Project Management
 jp_pocket_guide.efc007a: Save
+jp_pocket_guide.8327e8e: Security and compliance
 jp_pocket_guide.ce0a0a4: See all apps
 jp_pocket_guide.b349455: Set up a team conversation
 jp_pocket_guide.b04a20b: Set up an external conversation
@@ -12417,12 +12407,12 @@ jp_pocket_guide.490df2e: Skip for Now
 jp_pocket_guide.83b1c78: Slack setup is complete!
 jp_pocket_guide.de9bfa2: Solid background color
 jp_pocket_guide.9a3ea05: Something went wrong. Please try again.
-jp_pocket_guide.313e51b: Start a huddle to talk and share your screen without switching apps.
 jp_pocket_guide.fb17629: Start by creating a channel. A channel is where you can chat about a project, share resources, and work together in a single organized space. It replaces long email threads with real-time conversations.
 jp_pocket_guide.95e3f18: Start by creating a channel. Channels are where you chat about a project, share resources, and work together in a single organized space.
 jp_pocket_guide.f78a740: Start by creating a channel. Channels are where you chat about a project, share resources, and work together in a single organized space. It’s like a virtual office combined with a group chat.
 jp_pocket_guide.7a42fb5: Step 2: <a>Download</a> the Slack apps for desktop and mobile.
 jp_pocket_guide.3bce741: Step 3: Check out the <a1>getting started guide</a1> and learn <a2>how to use Slack</a2>.
+jp_pocket_guide.1136b2d: Step {stepNumber} of {stepCount}
 jp_pocket_guide.cdcae85: Subject:
 jp_pocket_guide.b33601f: Suggested apps aren’t available right now. Search for an app, or see all apps.
 jp_pocket_guide.b08bc5f: To get started, <link>set up your Slack</link> for you and your team.
@@ -12433,9 +12423,9 @@ jp_pocket_guide.77d2668: Upload an icon for your workspace
 jp_pocket_guide.2379761: Use Template
 jp_pocket_guide.6382fbc: Use email template
 jp_pocket_guide.9270289: Use invitation template
+jp_pocket_guide.c51b261: Video calls
 jp_pocket_guide.7d9ff4f: Visibility
 jp_pocket_guide.9977c34: We couldn’t create your channel. Try again.
-jp_pocket_guide.d02487c: We created a project tracker for you
 jp_pocket_guide.8ecb5d5: We encourage you to spend some time exploring Slack on your own. If you have questions about our Slack workspace, please post in the [#{channelName} or another appropriate channel] channel in Slack or send an email to your workspace creator at [email address]. If you have general questions about Slack, their <a>Help Center</a> is a great resource.
 jp_pocket_guide.29d62c6: Welcome to Slack, {name}!
 jp_pocket_guide.4ace4a0: We’re happy you’re here. Let’s set up your workspace. In Slack, a workspace is where your team collaborates. Think of it like your new virtual office. It brings your people, tools, and files into one place, making it easier to work together.
@@ -12443,12 +12433,10 @@ jp_pocket_guide.29f68a3: What do you want to call your chat with external partne
 jp_pocket_guide.1a28672: What do you want to call your team’s chat?
 jp_pocket_guide.a7514d4: What project would you like to track?
 jp_pocket_guide.2c5619c: Which people in {workspaceName} can see {icon}{channelName}?
-jp_pocket_guide.e52f35c: Work more efficiently with connected apps
 jp_pocket_guide.e06bbcc: Workspace icon illustration
 jp_pocket_guide.41a2acd: Workspace icon preview
 jp_pocket_guide.2b0e45d: Workspace successfully created
 jp_pocket_guide.e6ea31f: You can invite your team anytime
-jp_pocket_guide.bff745e: You can use this list to assign tasks, track deadlines, and keep key information up-to-date.
 jp_pocket_guide.b17ffba: Your Slack icon is a logo used in the desktop and mobile apps to help your team identify your workspace. You can always change it later.
 jp_pocket_guide.5c9b493: Your Slack is set up!
 jp_pocket_guide.517050d: Your chats can be public for anyone on your team to find or private for only specific people you invite. (Your external partners always have to be invited.)
@@ -14003,7 +13991,6 @@ menu.d7a4841: Workflow
 menu.9dda926: Workflow options ready
 menu.ee43020: Workflows with Salesforce data
 menu.37acf9d: You do not have permissions. Please contact your admin.
-menu.bb167a8: {limit, plural, =1 {# row} other {# rows}}
 menu.7cbc1b0: ⌘ Click
 menu.362e018: ⌘ Opt Click
 menu_file.a3f80b8: Canvas
@@ -20805,6 +20792,7 @@ setup_straight_to_paid.ca89f1f: Best Value
 setup_straight_to_paid.8173c2a: Best value
 setup_straight_to_paid.eb08c9e: Business+
 setup_straight_to_paid.f7a1dbf: Choose a premium plan and get <span>{discountPercentage}% off</span> for the first {discountDuration, plural, =1 {# month} other {# months}}
+setup_straight_to_paid.3d96a35: Choose the plan that’s right for your team
 setup_straight_to_paid.6d636b7: Claim Offer and Check Out
 setup_straight_to_paid.0ae5920: Compare all features
 setup_straight_to_paid.a4c41c6: Compare plans
@@ -20826,6 +20814,7 @@ setup_straight_to_paid.2877ba0: Make collaborating with outside partners and cli
 setup_straight_to_paid.aa8c6b5: Members connect to Slack securely through a cloud, which unlocks.
 setup_straight_to_paid.5e4d19f: Menu in Slack channel with option to view history from the very beginning
 setup_straight_to_paid.3bcef9a: Not ready for a paid plan?
+setup_straight_to_paid.bcad272: Or start with the basics for free, and upgrade any time.
 setup_straight_to_paid.66d0c5e: Pro
 setup_straight_to_paid.f6cd2f0: Pro plan price includes a <span>{discountPercentage}% off discount</span> on your first {discountDurationMonths, plural, =1 {# month} other {# months}}.
 setup_straight_to_paid.28f6464: Purchase Business+
@@ -20833,6 +20822,8 @@ setup_straight_to_paid.29061b9: Purchase Pro
 setup_straight_to_paid.9ef9375: Recommended
 setup_straight_to_paid.bbe4494: Save {discountPercentage}% for the first {discountDuration, plural, =1 {# month} other {# months}}
 setup_straight_to_paid.779b279: Save {discountPercentage}% for the first {discountDuration, plural, =1 {# month} other {# months}}. Offers end in {dayscount} days
+setup_straight_to_paid.35ce2be: Save {discountPercent}% for the first {discountDuration, plural, =1 {month} other {# months}}.
+setup_straight_to_paid.a7b7eb7: Save {discountPercent}% for the first {discountDuration, plural, =1 {month} other {# months}}. {daysLeft, plural, =1 {Today is the last day of this offer.} other {Offer ends in # days.}}
 setup_straight_to_paid.6b80dcd: Search and view all of your team’s public messages and files, which are stored indefinitely on a paid plan.
 setup_straight_to_paid.e1b9001: See plan details
 setup_straight_to_paid.5c3a03f: Slack interface with names of two different companies in one channel
