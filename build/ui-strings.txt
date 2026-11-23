@@ -35,6 +35,7 @@
  instead.
  into a single discussion.
  is disallowed in char data.
+ is installed for this organization and you have access to the repository.
  is now read.
  is outside of range 0..
  is removed in js-yaml 4. Use yaml.
@@ -636,6 +637,7 @@ Add from Google Drive
 Add from OneDrive & SharePoint
 Add group
 Add group channels as a section in Home
+Add groups
 Add guidance for Slackbot
 Add huddle to talk with your team right in Slack
 Add info from outside of Slack
@@ -1170,6 +1172,7 @@ App integrations capped at 10
 App list
 App not found
 App permissions and security
+App permissions updated
 App suggestions collapsed
 App type
 App website
@@ -1836,7 +1839,6 @@ Callout Layout Handler
 Calls admin.roles.delete and removes the role from the roles store
 Calls calendar.event.copy endpoint to copy event to user
 Calls canvas.getTemplates API and insert the templates to the store
-Calls client.counts endpoint
 Calls files.unshare
 Calls files.uploadExternal
 Calls team.admins.list until no more roles to fetch
@@ -5990,6 +5992,7 @@ Group options
 Group related conversations around a topic and give Slackbot custom instructions so every chat picks up where the last one left off.
 Group this channel with similar conversations in your sidebar and choose when you want to be notified about new messages.
 Group your files with custom sections.
+Groups to exclude
 Groups within groups are not allowed in Kanban diagrams
 Gruvbox Dark Hard
 Gruvbox Dark Medium
@@ -9891,6 +9894,7 @@ People search: update division filter
 People search: update location filter
 People search: update title filter
 People section
+People to exclude
 People viewed
 People you might know
 People, apps, and agents
