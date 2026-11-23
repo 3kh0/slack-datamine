@@ -152,6 +152,9 @@ ai.alpha.surfaces.listVersions: file_id
 ai.alpha.surfaces.openCardComment: card_id, card_title, file_id
 ai.alpha.surfaces.rename: file_id, title
 ai.alpha.surfaces.restoreVersion: file_id, version_id
+ai.alpha.surfaces.storageGet: file_id, key, scope
+ai.alpha.surfaces.storageList: file_id, prefix, scope
+ai.alpha.surfaces.storageSet: file_id, key, scope, value
 ai.alpha.translate.fileSummary: file_id, summary_id, target_language
 ai.alpha.translate.promptSummary: summary, target_language
 ai.alpha.widgets.info: widget_id
@@ -263,7 +266,7 @@ chat.slugifyUrl: channel, skip_simple_array_serialization_in_get_form_data, urls
 chat.unfurlContact: contact_user_id
 chat.update: channel, reply_broadcast, ts
 client.codeChannels.action: action_key, channel_id, client_token
-client.codeChannels.addReviewComment: channel_id, line, path, pending, pr_url, revision, side, text, thread_root_id
+client.codeChannels.addReviewComment: line, path, pending, pr_url, revision, side, text, thread_root_id
 client.codeChannels.browse: agent_user_id, archive_state, cursor, initiator_user_id, limit, origin_channel_id, query
 client.codeChannels.convertThread: channel_id, invitees, name, thread_ts
 client.codeChannels.create: app_id, blocks, entrypoint, is_private, name, origin_channel_id, origin_message_ts, team_id
@@ -272,7 +275,7 @@ client.codeChannels.deleteComment: channel_id, comment_node_id, pr_url
 client.codeChannels.editComment: channel_id, comment_node_id, pr_url, text
 client.codeChannels.editPullRequestDescription: channel_id, expected_body_source, pr_url, text
 client.codeChannels.getDiff: channel_id
-client.codeChannels.getFileLines: channel_id, path, pr_url, ranges, revision
+client.codeChannels.getFileLines: path, pr_url, ranges, revision
 client.codeChannels.getMergeStatus: channel_id, head_sha, pr_url
 client.codeChannels.getPullRequest: channel_id, pr_url
 client.codeChannels.getPullRequestCommits: base_sha, channel_id, head_sha, pr_url

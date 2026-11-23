@@ -532,6 +532,7 @@ Add a tab
 Add a task
 Add a task to have this agent run a prompt on a schedule.
 Add a team icon
+Add a tested channel agent to the channel it was made for
 Add a title
 Add a title to save your changes.
 Add a to-do
@@ -859,6 +860,7 @@ Agent session
 Agent sessions
 Agent settings
 Agent suggestion dismissed
+Agent test channel
 Agent threads
 Agent type
 Agent view
@@ -2856,6 +2858,7 @@ Connect to Google
 Connect to Outlook Calendar
 Connect to Salesforce
 Connect to Salesforce in Sales Home to use this step and publish this workflow.
+Connect to Slack AI features through MCP servers
 Connect to Slack to load your skills. Your draft is still here.
 Connect to apps
 Connect to desktop store
@@ -5878,7 +5881,6 @@ Give it another try in a few minutes.
 Give me a daily sales update from my CRM data every morning.
 Give me my daily briefing
 Give teammates access to Slack CRM
-Give your agent a name
 Give your channel a name to continue. You can always change the name later.
 Give your sidekick a name
 Give your team access
@@ -7312,6 +7314,7 @@ Loading more comments
 Loading more files
 Loading next question
 Loading notification schemas...
+Loading permissions
 Loading project context
 Loading project memory
 Loading project report
@@ -7820,6 +7823,7 @@ Making an introduction?
 Making markers for 
 Malformed Salesforce draft URL: failed to decode path segments
 Malformed WebVTT signature.
+Malformed bridge request
 Malformed hex
 Malgun Gothic
 Malgun Gothic Bold
@@ -9752,6 +9756,7 @@ Out of office coverage
 Out of office status
 Out of this world.
 Out-of-order effect
+Outbound domains
 Outgoing messages
 Outline Re-renders
 Outlook Calendar
@@ -10399,6 +10404,9 @@ Query for awareness state from other users who are subscribed to the topic
 Query if a name is already used by a username, channel, group, or subteam in an Org
 Queueing EOS
 Quick actions
+Quick app storage is not available for a file from another organization
+Quick app storage is not available with data residency
+Quick app storage is not enabled
 Quick edits
 Quick filters
 Quick reactions
@@ -11163,6 +11171,7 @@ Restrict this app from installation?
 Restricted for 
 Restricted from AI steps
 Resubscribe check is paused, setting incoming client metric report as pending
+Result could not be serialized
 Resume AI Notes & Transcription
 Resume AI notes
 Resume AI notes & transcription
@@ -13279,6 +13288,8 @@ Stopping the TTL timer, nothing to watch
 Stopping the dirty broadcast timer, nothing to watch
 Stopping the periodic broadcast timer, nothing to watch
 Stopping video track for transform
+Storage is unavailable just now; try again
+Storage unavailable
 Store an API error for the Edit Member Info dialog
 Store and share the information that keeps your team moving, from meeting notes to project briefs.
 Store closed
@@ -13601,6 +13612,7 @@ Terms of service
 Test Speaker
 Test as member
 Test email
+Test in Private Channel
 Test run
 Test runs use your own connection to each MCP server in this step.
 Testing API connectivity...
@@ -13764,6 +13776,7 @@ The signaling connection failed.
 The skill author will be notified with this info.
 The sky fought back.
 The splice spans text another client removed
+The stored version has changed; read the key again and retry
 The targeted Salesforce org is not available. Contact your admin.
 The teams best prepared for change use modern digital communication tools, feel comfortable learning new ones and continually adapt how they work.
 The template still works, though, so click the button if you want to use it!
@@ -13772,6 +13785,8 @@ The transcript for your meeting couldn
 The two main currencies at work are performance and connections.
 The uploaded file will not be used as a header image because you navigated away.
 The user is in a different region from the Huddle host, potentially causing increased latency and instability. This geographical disparity can
+The value is over 8192 bytes as JSON
+The value must be JSON-serializable
 The value must be at least 2 characters long
 The varList passed in variableGrads(f, varList) must be an array of variables
 The window changed or is no longer available. Keep it open and ask again.
@@ -13890,6 +13905,7 @@ This agent is unavailable
 This answer content is no longer valid. Try generating a new answer.
 This answer is no longer available to share.
 This app
+This app already stores the most keys it may
 This app has no description.
 This app is not approved by Slack. Apps are reviewed to ensure a quality experience.
 This app is unavailable
@@ -15499,6 +15515,7 @@ View your profile
 View your unread updates in Singer
 View-only mode disabled.
 ViewSet with detail view applied
+Viewer unavailable
 Viewing in another window
 Views can be seen by everyone with access to the list.
 Vim Script
@@ -15872,6 +15889,7 @@ Worker not initialized
 Workflow Actions
 Workflow Builder
 Workflow Builder steps
+Workflow Builder steps & triggers
 Workflow Builder window never opened. Released its claimed slot.
 Workflow Builder window opened
 Workflow Builder window rejected due to being closed

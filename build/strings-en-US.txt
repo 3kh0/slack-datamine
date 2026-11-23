@@ -1704,7 +1704,6 @@ app_action_picker.28477b1: Notifications resumed
 app_action_picker.a8bbfcc: Opening {connector_name} in a new window
 app_action_picker.67786fd: Opening {connector_name} settings
 app_action_picker.ffd32b1: Rename this channel
-app_action_picker.633b813: Set yourself a reminder
 app_action_picker.430b38b: Slack
 app_action_picker.d9a37db: Start huddle
 app_action_picker.ef98f1f: Start or join huddle
@@ -4317,7 +4316,6 @@ channel_details.d2c0905: Selected workspaces
 channel_details.b135296: Send emails to this channel
 channel_details.5c220f8: Send emails to this conversation
 channel_details.c52c0c7: Set Up
-channel_details.633b813: Set yourself a reminder
 channel_details.c7f73bb: Settings
 channel_details.99622de: Share <span>{channelName}</span> with all <span>{totalEnterpriseTeams}</span> workspaces in <strong>{orgName}</strong>.
 channel_details.769172d: Share <span>{channelName}</span> with members of {teamNames}.
@@ -16938,7 +16936,6 @@ platform-admin.978ae10: Loading groups
 platform-admin.cf310ac: Loading more channels…
 platform-admin.4f739b5: Loading people
 platform-admin.41bd67a: Manage app access
-platform-admin.afee371: Member Permissions
 platform-admin.1cb449c: Members
 platform-admin.709a232: Name
 platform-admin.bc98198: Next
@@ -16983,7 +16980,6 @@ platform-admin.205b456: Workspaces
 platform-admin.4dc3277: Would you also like to unpublish?
 platform-admin.155b3f7: You can delete specific people but cannot add people to the list
 platform-admin.ba76df8: You’ve reached your limit of 10 installed apps. With Slack Pro, you can install unlimited apps including AI assistants. {bannerCta}
-platform-admin.6d34d64: {appName} was approved, but the access you chose wasn’t set because the app already has access settings. To change who can use it, go to Member Permissions.
 platform-admin.aa075f0: {channelCount, plural, =1 {# channel} other {# channels}} selected
 platform-admin.cd65fda: {count, plural, =1 {# channel} other {# channels}}
 platform-admin.5a1463d: {count, plural, =1 {# excluded group} other {# excluded groups}} couldn’t be loaded and will no longer be blocked if you save.
@@ -21694,11 +21690,9 @@ sidekicks.9e7621a: Add a prompt to test your sidekick.
 sidekicks.44da555: Add instructions to test your agent
 sidekicks.a397ce6: Add instructions to test your sidekick
 sidekicks.5ce2e6f: Agent
-sidekicks.b02d736: Agent settings
 sidekicks.e26c4f0: Agent type
 sidekicks.6a72085: All
-sidekicks.c1fa6e2: Any file you use as a source may be cited in the agent’s response. Cited files will be shared with View access. You can further restrict this access by using Advanced Settings to Limit sharing to owners only.
-sidekicks.594615b: Any file you use as a source may be cited in the sidekick’s response. Cited files will be shared with View access. You can further restrict this access by using Advanced Settings to Limit sharing to owners only.
+sidekicks.b4c05c0: Anyone in your workspace can DM it or @mention it.
 sidekicks.a43ccf7: Apply crop
 sidekicks.3dcc1e4: Auto-enhance Instructions
 sidekicks.c8c1f64: Auto-enhancing instructions…
@@ -21707,21 +21701,17 @@ sidekicks.77dfd21: Cancel
 sidekicks.879f0b1: Channel
 sidekicks.18e03e2: Channels
 sidekicks.6e157c5: Create
-sidekicks.249f8ff: Create New Sidekick
-sidekicks.8aa80e9: Create an agent
 sidekicks.e0f2705: Create an agent for this channel
 sidekicks.8c29271: Created by you
 sidekicks.1f2589b: Crop your photo
 sidekicks.d0cf3ff: Edit Sidekick
-sidekicks.8e424ae: Edit agent
 sidekicks.e818193: Everyone internal in {teamName}
 sidekicks.0ce943b: Failed to auto-enhance instructions fancy. <retry>Try again</retry> or <dismiss>dismiss</dismiss>.
 sidekicks.6ce6c51: Files
-sidekicks.2e4fe9f: Give your agent a name
-sidekicks.5661b88: Give your sidekick a name
-sidekicks.4a4ba91: Goal: (Describe the agent’s goal)\n\nTone: Be friendly, be consise, avoid using jargon.\n\nRemember: If you need more clarification to ensure you’re successful in assisting, its ok to ask clarifying questions before responding.
-sidekicks.2a75b27: How should this agent sound?
+sidekicks.d837337: Find a channel
+sidekicks.3d5e96b: Home channel
 sidekicks.ed58f29: Instructions
+sidekicks.06b7021: Joins one channel and answers when people @mention it there.
 sidekicks.dec1fcc: Knowledge
 sidekicks.5168708: Memories
 sidekicks.0e36f81: Message agent…
@@ -21729,6 +21719,7 @@ sidekicks.455b863: Message sidekick…
 sidekicks.709a232: Name
 sidekicks.05f1c86: Name cannot contain special characters.
 sidekicks.b4fdc42: No channels found
+sidekicks.40f0732: Personal
 sidekicks.6087e38: Pick a different default avatar.
 sidekicks.c74da09: Pick a random default avatar. The current avatar will be replaced.
 sidekicks.f1fbb2b: Preview
@@ -21737,19 +21728,16 @@ sidekicks.e963907: Remove
 sidekicks.defdba4: Reply…
 sidekicks.efc007a: Save
 sidekicks.88dc359: Select people and user groups
-sidekicks.dcac2d4: Sidekick settings
 sidekicks.1b92b5f: Sidekicks results
 sidekicks.48faa2a: Sorry! Something went wrong. Please try again.
-sidekicks.1bb1a94: Specific people, channels, and workspaces
+sidekicks.30bca35: Specialist
+sidekicks.d7e0376: Test in Private Channel
+sidekicks.91b8a1c: Testing <@{agentUserId}> before it joins <#{targetChannelId}>.
+sidekicks.1e65779: The agent is added to this channel when you create it.
 sidekicks.c1a01a8: Untitled Sidekick
 sidekicks.8bdf057: Upload
-sidekicks.8091bb3: Voice: (Describe tone, phrasing, and quirks)\n\nStances: (Perspectives or opinions the agent holds)\n\nLeave empty to use the default voice.
-sidekicks.d8f625c: What actions can the agent take?
-sidekicks.809e345: What actions can the sidekick take?
-sidekicks.1f164a3: What information sources will the agent base its answers on?
-sidekicks.c8b3c35: What information sources will the sidekick base its answers on?
-sidekicks.bff344d: Who can use this agent?
-sidekicks.8421d4e: Who can use this sidekick?
+sidekicks.756e792: Works for you in a DM. Only you can use it.
+sidekicks.58f3068: You can’t add an agent to this channel. Choose another one.
 sign_in.285cc7f: An unknown error occurred.
 sign_in.bff237b: Check the list of emergency backup codes provided when setting up 2FA.
 sign_in.ca75faa: Check your authentication app for your code.
@@ -24179,6 +24167,7 @@ slackbot-ai.df8a04e: Copy email text
 slackbot-ai.5fb9a41: Copy to My Slackbot
 slackbot-ai.74c3816: Couldn’t confirm your update. Your changes are still here.
 slackbot-ai.89c6656: Couldn’t load projects
+slackbot-ai.eb758b2: Couldn’t load this right now.
 slackbot-ai.6e157c5: Create
 slackbot-ai.156c201: Create a Task
 slackbot-ai.b5fec02: Create a task with Slackbot
@@ -24585,8 +24574,6 @@ slackbot-ai-nux.c95fe7b: Surprise me!
 slackbot-ai-nux.d37f208: Tell me about what you can do.
 slackbot-ai-nux-splash.deefbca: Hey there! I’m Slackbot.
 slackbot-ai-nux-splash.3a98093: Let me reintroduce myself…
-slackbot-ai-nux-splash.c6f4982: Let me show you what I can do.
-slackbot-ai-nux-splash.7e11425: You now have access to the new Slackbot
 slackbot-ai-paywall.3630488: Back to Slackbot
 slackbot-ai-paywall.b7540d2: Brainstorm talking points for my next meeting.
 slackbot-ai-paywall.ea96354: Compare Plans
@@ -24699,7 +24686,6 @@ slackbot-ai-paywall.1e82a06: You’ve reached your Slackbot limit.
 slackbot-ai-sampling-nux-zero-state.a3889b9: Hi, I’m Slackbot!
 slackbot-ai-sampling-nux-zero-state.3cd17dc: I’m all set up with context from your team, so I can be your trusty guide for just about anything.
 slackbot-ai-sampling-nux-zero-state.505be18: Suggested prompts
-slackbot-ai-sampling-nux-zero-state.50cf376: Think of me as your personal AI assistant. I’m all set up with context from your docs and channels and ready to jump in with you.
 slackbot-ai-sampling-nux-zero-state.325b56e: What happened in Slack this week?
 slackbot-ai-sampling-nux-zero-state.7b10966: What needs my attention today?
 slackbot-ai-thread-zero-state.ac9080f: Declutter your channel list to find stuff faster.
@@ -30292,6 +30278,7 @@ workspace_apps_manage.d747b8e: Add groups
 workspace_apps_manage.b9c735e: Add people
 workspace_apps_manage.6a72085: All
 workspace_apps_manage.844df14: All channels
+workspace_apps_manage.fb78187: All channels except specific channels
 workspace_apps_manage.8158d20: Allow this app to install managed agent apps
 workspace_apps_manage.79ac60c: Allow {scope}
 workspace_apps_manage.20ab15d: Allow {scope} on behalf of a user
@@ -30301,6 +30288,7 @@ workspace_apps_manage.fac6c6e: Approve {connectorName} for workflows
 workspace_apps_manage.26fb03f: Approving…
 workspace_apps_manage.77dfd21: Cancel
 workspace_apps_manage.84d8abf: Cancel Request
+workspace_apps_manage.7605fa0: Connect to Slack AI features through MCP servers
 workspace_apps_manage.408ec60: Couldn’t cancel this request. Try again in a moment.
 workspace_apps_manage.6700697: Couldn’t load the access requested for this app.
 workspace_apps_manage.53577bb: Deny
@@ -30308,20 +30296,21 @@ workspace_apps_manage.31b6d03: Deny Request
 workspace_apps_manage.8f82e32: Deny {appName}?
 workspace_apps_manage.1076935: Deny {connectorName} for workflows
 workspace_apps_manage.a0d641b: Domains
+workspace_apps_manage.6df3585: Domains of {appName}’s MCP servers
 workspace_apps_manage.e9b450d: Done
 workspace_apps_manage.eaf7b5e: Everyone in {targetName}
 workspace_apps_manage.5bf64a2: Filter permissions
 workspace_apps_manage.ae9629f: Groups
 workspace_apps_manage.088450b: Groups to exclude
-workspace_apps_manage.88fed68: Information {appName} can view
 workspace_apps_manage.fc9225a: Internal
-workspace_apps_manage.7ba7ed5: Loading permissions
+workspace_apps_manage.8d9a304: MCP servers
 workspace_apps_manage.a8e3adb: Manage Permissions
 workspace_apps_manage.a643505: Members will no longer be able to add or edit configurations.
 workspace_apps_manage.6403f2b: New
 workspace_apps_manage.0c6c410: Optional
 workspace_apps_manage.8b639cc: Optional. Uncheck to leave it out
 workspace_apps_manage.c20e08c: Other permissions
+workspace_apps_manage.0830f6b: Outbound domains
 workspace_apps_manage.b37554f: People
 workspace_apps_manage.55a6ec2: People to exclude
 workspace_apps_manage.d06d555: Permissions
@@ -30335,18 +30324,24 @@ workspace_apps_manage.c907671: Showing {count, plural, =1 {# permission} other {
 workspace_apps_manage.430b38b: Slack
 workspace_apps_manage.620581f: Slack Marketplace
 workspace_apps_manage.30d4b7c: Some of the channels for this app no longer exist or aren’t in your organization. Deny the request and ask for a new one with different channel limits.
+workspace_apps_manage.0f3e808: Specific channels
 workspace_apps_manage.bae7d5b: Status
+workspace_apps_manage.cdde4f2: Steps
 workspace_apps_manage.4aedf1e: The access requested for this app can’t be applied. It might include someone or a user group you can’t give access to. Try again. If the problem continues, deny the request and ask for a new one.
 workspace_apps_manage.4a4ce8e: The domains this app has configured aren’t available, so they aren’t listed.
+workspace_apps_manage.bba9bf9: This app has MCP servers. To change who can use it, go to the app’s settings.
 workspace_apps_manage.491a5a6: This request has already been handled.
+workspace_apps_manage.047708b: Triggers
 workspace_apps_manage.cef2fe0: Try Again
 workspace_apps_manage.bc7819b: Unknown
 workspace_apps_manage.f7f4ce3: When enabled, {appName} can install managed apps built with the agent builder platform for {appName}, without requiring admin approval for each one. Managed apps are limited to bot scopes only, and this permission can be revoked at any time from your automated app approval rules.
 workspace_apps_manage.47a5b7a: Where it can be used
 workspace_apps_manage.127d997: Who can use it
 workspace_apps_manage.4d3d35e: Workflow Builder steps
+workspace_apps_manage.5499346: Workflow Builder steps & triggers
 workspace_apps_manage.f8b4643: You changed where this app can be used, and you don’t have permission to manage channels. Keep the requested channels, or ask an admin with that permission to approve this request.
 workspace_apps_manage.aec55a5: You don’t have permission to add a private channel you’re not in. Remove it from where this app can be used, or ask an admin with permission to manage private channels to approve this request.
+workspace_apps_manage.77f4cc3: You don’t have permission to change this.
 workspace_apps_manage.54f4322: You don’t have permission to manage who can use apps. Ask an admin with that permission to approve this request.
 workspace_apps_manage.b339014: Your organization can’t limit where apps can be used, so this request can’t be approved. Deny the request and ask for a new one without channel limits.
 workspace_apps_manage.f141697: {appName} sees what each connected person can see, not only where it’s added.
