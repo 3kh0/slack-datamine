@@ -1704,6 +1704,7 @@ app_action_picker.28477b1: Notifications resumed
 app_action_picker.a8bbfcc: Opening {connector_name} in a new window
 app_action_picker.67786fd: Opening {connector_name} settings
 app_action_picker.ffd32b1: Rename this channel
+app_action_picker.633b813: Set yourself a reminder
 app_action_picker.430b38b: Slack
 app_action_picker.d9a37db: Start huddle
 app_action_picker.ef98f1f: Start or join huddle
@@ -3962,6 +3963,7 @@ channel_details.244e85c: Couldn’t connect to {name}. Try disconnecting and rec
 channel_details.6c3bef3: Couldn’t disable {name}. Try again.
 channel_details.bbd5d41: Couldn’t disconnect {name}. Try again.
 channel_details.b6c3959: Couldn’t load agents.
+channel_details.ccf4872: Couldn’t reload tools. Try again.
 channel_details.55c8426: Couldn’t update sharing settings. Please change permissions manually in Google Docs.
 channel_details.c56dc3a: Create New Web Form
 channel_details.b2feca2: Create a new channel
@@ -3983,7 +3985,6 @@ channel_details.5f83735: Details for channel {channelName}
 channel_details.b61dc7a: Details for conversation with {memberOrAppName}
 channel_details.b1996c9: Details for conversation with {mpdmNames}
 channel_details.41aeee1: Details for {quipLabel} {name}
-channel_details.8cf787b: Disable {name}
 channel_details.f4f4473: Disabled
 channel_details.18b2a46: Disconnect from Salesforce record
 channel_details.02e7917: Disconnect {name}
@@ -4342,6 +4343,7 @@ channel_details.d2c0905: Selected workspaces
 channel_details.b135296: Send emails to this channel
 channel_details.5c220f8: Send emails to this conversation
 channel_details.c52c0c7: Set Up
+channel_details.633b813: Set yourself a reminder
 channel_details.c7f73bb: Settings
 channel_details.99622de: Share <span>{channelName}</span> with all <span>{totalEnterpriseTeams}</span> workspaces in <strong>{orgName}</strong>.
 channel_details.769172d: Share <span>{channelName}</span> with members of {teamNames}.
@@ -4572,7 +4574,6 @@ channel_details.a1b95e5: {memberCount, plural, =1 {# member in this channel} oth
 channel_details.4dacc1b: {memberCount, plural, =1 {# member in this conversation} other {# members in this conversation}}
 channel_details.9a4f69e: {memberCount, plural, =1 {# person in this channel} other {# people in this channel}}
 channel_details.3bec7ee: {memberCount, plural, =1 {# person in this conversation} other {# people in this conversation}}
-channel_details.c347c0b: {name} account
 channel_details.ed12d25: {orgName} has some rules for working with people outside the organization. <link>Read the guidelines</link>
 channel_details.7b2c48e: {server_name} icon
 channel_details.6f3b3c7: {skillCount}/{maxSkills} skills
@@ -4585,15 +4586,21 @@ channel_details.e5214cd: {toolCount} write {toolCount, plural, one {tool} other 
 channel_details.5fbe229: {whoCanManage} can edit this setting.
 channel_details.0258f42: {workspaceCount} workspaces
 channel_details_apps_tab.d3a0a22: Add a custom MCP server
+channel_details_apps_tab.f4f77d2: Add custom integration
 channel_details_apps_tab.b071ba3: App installed
 channel_details_apps_tab.d9a3685: Apps
+channel_details_apps_tab.5e2d4a5: Apps you connect in Slackbot show up here.
 channel_details_apps_tab.c0774ce: Browse apps
 channel_details_apps_tab.563862b: Check your connection and try again.
 channel_details_apps_tab.b65463c: Connect
+channel_details_apps_tab.cf0ecf9: Connect apps to Slackbot
 channel_details_apps_tab.585c533: Connect {appName}
 channel_details_apps_tab.4fd4631: Enterprise Search
+channel_details_apps_tab.f2f1c71: Give Slackbot access to your tools so it can help you across Jira, Figma, and more.
 channel_details_apps_tab.a126722: Needs attention
 channel_details_apps_tab.13a1dff: Needs connection
+channel_details_apps_tab.e7dbe6b: No apps found
+channel_details_apps_tab.1ad6073: No connected apps
 channel_details_apps_tab.8b02f3d: Not connected
 channel_details_apps_tab.3bf1218: Pending admin approval
 channel_details_apps_tab.25d1b4b: Pending approval
@@ -4602,7 +4609,6 @@ channel_details_apps_tab.cce7155: Reload
 channel_details_apps_tab.7240901: Request submitted for admin approval
 channel_details_apps_tab.ca3ce8f: Search apps
 channel_details_apps_tab.c7f73bb: Settings
-channel_details_apps_tab.db6d857: Settings for {appName}
 channel_details_apps_tab.8d886c0: Something went wrong
 channel_details_apps_tab.0ba628a: Try a different search term.
 channel_details_apps_tab.cca4a0d: {appName} icon
@@ -11863,7 +11869,6 @@ ia4.ee86451: Admin tools
 ia4.55d3a1f: Admin tools and settings have moved. You can now access them directly from the sidebar.
 ia4.b8be3d1: Administration
 ia4.2fb458a: Agentforce
-ia4.64acf7e: Agents
 ia4.2719b2b: All docs
 ia4.22e3fb7: All workspaces
 ia4.c1155e6: All {numberOfWorkspaces} workspaces
@@ -11879,7 +11884,6 @@ ia4.2f3b5c5: Browse
 ia4.3f658b9: Browse sections
 ia4.77dfd21: Cancel
 ia4.e2d397a: Canvases
-ia4.954e161: Channel tabs
 ia4.18e03e2: Channels
 ia4.7b58a34: Channels keep your work focused, by giving each topic, project or team its own space. {currentStep} of {totalSteps}
 ia4.ba1ce2f: Channels keep your work focused, by giving each topic, project or team its own space.<steps></steps>
@@ -11945,7 +11949,6 @@ ia4.c2e9847: Link copied
 ia4.57c9502: Lists
 ia4.0d9b55d: Loading your day…
 ia4.30c8fb2: Looking fresh! No new recommendations.
-ia4.7d4a3de: Love it
 ia4.8d9a304: MCP servers
 ia4.40a60bf: Magnifying glass
 ia4.f29bf3a: Manage Agentforce
@@ -11984,7 +11987,6 @@ ia4.ff59e8d: Open Pocket Agent
 ia4.a75732d: Open in new window
 ia4.03a322d: Open in split view
 ia4.53b11f5: Organization settings – {teamDisplayName}
-ia4.6e6a6f2: Other
 ia4.caef14e: Other workspaces have new messages
 ia4.f3534db: PAID
 ia4.b37554f: People
@@ -12027,7 +12029,6 @@ ia4.5982a29: Show sidebar
 ia4.b318b8b: Show workspace switcher
 ia4.7ca4f21: Showing only conversations <strong>without external people</strong>
 ia4.ee217b8: Showing only conversations that <strong>include external people</strong>
-ia4.f5171c9: Sidebar
 ia4.ada2e9e: Sign in
 ia4.dc1649a: Sign out
 ia4.142bf01: Slack 6 didn’t work for you? <a>Tell us what would bring you back</a>.
@@ -12049,7 +12050,6 @@ ia4.6d00569: Switch workspace
 ia4.d10d288: Switch workspace, other workspaces have new messages
 ia4.50405cb: Thanks for your feedback!
 ia4.35ed7de: There was a problem opening your pocket agent. Give it another try.
-ia4.bb12e8a: Threads
 ia4.24345a1: Today
 ia4.7d5fadf: Today - Action Items
 ia4.5b2971b: Today - Agenda
@@ -12067,6 +12067,7 @@ ia4.73cf756: Unlock CRM, advanced security and AI features
 ia4.c32f0ec: Unlock SSO, automated user management, data exports, channel management and more.
 ia4.01e84c8: View app requests
 ia4.aab123b: View full day
+ia4.503e6f2: What area of the product are you sharing feedback about?
 ia4.31d9ba9: Without external people
 ia4.b3e3b7a: Workflow Builder
 ia4.5d7024a: Workflow Editor
@@ -12757,7 +12758,6 @@ lists.04f4379: Collaboratively manage projects, prioritize issues, organize requ
 lists.84eb913: Collect responses in a form
 lists.1d0c830: Color
 lists.fce06e2: Comments
-lists.b0678b9: Comments on {recordName}
 lists.c07bfa8: Comments only
 lists.ea96354: Compare Plans
 lists.1f5a1ab: Complete
@@ -24119,6 +24119,7 @@ slackbot-ai.1b56b1a: App limit reached. Turn one off to add another.
 slackbot-ai.2e429f0: App status
 slackbot-ai.d9a3685: Apps
 slackbot-ai.ac78d09: Apps to install
+slackbot-ai.559bb47: Apps you can connect
 slackbot-ai.7f1f5ff: Are you sure you want to disconnect?
 slackbot-ai.a5b79f5: Artifacts
 slackbot-ai.03282d5: Artifacts results
@@ -24472,6 +24473,7 @@ slackbot-ai.0522b8d: This will stop Slackbot from searching {name}. You can reco
 slackbot-ai.d19ceca: Tip
 slackbot-ai.ae79ea1: To
 slackbot-ai.24345a1: Today
+slackbot-ai.325ca2e: Today’s calendar events
 slackbot-ai.28660e3: Toggle task active state
 slackbot-ai.1948bf2: Tomorrow
 slackbot-ai.97304bf: Topic tracker
