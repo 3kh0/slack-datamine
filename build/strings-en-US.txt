@@ -544,7 +544,6 @@ activity.399d490: Feed Layout
 activity.2c3cafa: File
 activity.d7decf1: Filter
 activity.5b8d97f: Filter by
-activity.e55aa1d: Filter by type
 activity.a70369a: Filter conversations
 activity.5bad0ca: Filter conversations: {option}
 activity.2d8e5df: Filter unreads
@@ -609,7 +608,6 @@ activity.17a7c2a: Mentions, {count, plural, =1 {# kind} other {# kinds}}
 activity.4bab2d8: More
 activity.a1e34f9: More actions
 activity.2ecb68b: More actions for {title}
-activity.bf7117e: More filters
 activity.59b994e: More, {count, plural, =1 {# active} other {# active}}
 activity.c27176b: Move channel
 activity.2951b94: Move to new section
@@ -1561,6 +1559,8 @@ ai_apps.964694b: Your org doesn’t have any agents yet
 ai_apps.0608c40: agent
 ai_apps.3396883: {appName} is working with limited access. You can <update-access-link>update access</update-access-link> anytime.
 ai_apps.2f2bbaa: {isConnecting, select, true {Connecting…} other {Connect}}
+ai_apps.a814b2e: {name} pinned, moved to top
+ai_apps.6603724: {name} unpinned
 ai_apps.a2629ba: {name}, pinned
 ai_apps.60a9601: {visible} of {total} Agents
 ai_workspace_setup.e450199:  Welcome to #{name}
@@ -2019,8 +2019,10 @@ apps.99aaf3a: Don’t Allow
 apps.4731db6: Grant {appName} Access
 apps.4c852b2: Show less
 apps.25911d4: Show more
+apps.3dca670: {appName} would like to do the following in <strong>all channels it’s a member of</strong>:
 apps.798e7d6: {appName} would like to do the following in your direct message with {channelName}:
 apps.28fcf44: {appName} would like to do the following in {channelName}:
+apps.7f5cbfa: {appName} would like to:
 apps_browser.61cc55a: Add
 apps_browser.3ce6301: Add agents and apps to {channelName}
 apps_browser.1ae2c6a: Add app
@@ -2111,7 +2113,6 @@ assistant.eccacc4:  information
 assistant.62cb8c0:  using the Meeting Prep Skill
 assistant.13ab187:  using the Salesforce Research Skill
 assistant.966723b: 's information
-assistant.d15f13d: <b>Try asking a question in search</b>, like talking to a teammate. For example, <t1>"<a>How do I search across apps?</a>"</t1>
 assistant.3bc3855: <b>Your microphone is muted by your system settings</b>. Go to your <a>system settings</a> to unmute your microphone.
 assistant.3068e72: <div>You’ve unlocked the CRM experience.</div><div>I’m here to support your contact management, research, and meeting prep.</div>
 assistant.ae6156d: <strong>Tip:</strong> We recommend adding ones you like to keep tabs on but aren’t active in, because those tend to be okay to catch up on once a day.
@@ -2493,7 +2494,6 @@ assistant.a075340: Search by channel name
 assistant.28abc03: Search by name
 assistant.7087888: Search conversations
 assistant.0144dae: Search results
-assistant.77c2a9c: Search using <strong>AI</strong> with questions like "What is Project Gizmo?" or "How do I request a thingamabob?"
 assistant.7be281a: Searching Slack conversations…
 assistant.2ef9d7e: Searching Slack…
 assistant.6ff0c00: Searching {appNames}, and more…
@@ -5044,13 +5044,14 @@ channel_sidebar.ca56706: Can’t load scores from {model}.
 channel_sidebar.cf4e4cb: Can’t score with a model named {model}. Check the name and try again.
 channel_sidebar.879f0b1: Channel
 channel_sidebar.610e4cf: Channel invitations
+channel_sidebar.da5d596: Channel or user name
 channel_sidebar.18e03e2: Channels
+channel_sidebar.0688ebf: Channels and direct messages
 channel_sidebar.876d683: Choose what to pin…
 channel_sidebar.130cd7f: Classic
 channel_sidebar.fb99bef: Clear out the clutter and hide {numMutedChannels} {numMutedChannels, plural, =1 {muted channel} other {muted channels}} from view. They’ll only pop up again if someone mentions you.
 channel_sidebar.247fd63: Clear selection
 channel_sidebar.a46f533: Close split view
-channel_sidebar.af6f23d: Close workflow
 channel_sidebar.adac693: Code
 channel_sidebar.49bcd35: Code channel
 channel_sidebar.dd6947b: Code channels
@@ -5135,7 +5136,6 @@ channel_sidebar.f0458df: Importance
 channel_sidebar.906707e: Importance scoring reset to defaults.
 channel_sidebar.876d2e4: Importance scoring updated.
 channel_sidebar.f75b86e: Important unreads
-channel_sidebar.1654aec: In this DM
 channel_sidebar.11c54a5: Include
 channel_sidebar.e1eb97a: Invite people
 channel_sidebar.dd5e2fb: Invite to workspace
@@ -5233,11 +5233,9 @@ channel_sidebar.837fa3e: Pin to your sidebar
 channel_sidebar.31a980a: Pin what’s most important to the top
 channel_sidebar.f931216: Pinned
 channel_sidebar.16c9069: Pinned is full
-channel_sidebar.3f5eef9: Press alt + shift + up/down arrow to navigate between unread items.
 channel_sidebar.6f73867: Press delete to remove a direct message from the sidebar
 channel_sidebar.4145f2b: Press delete to remove messages from an app from the sidebar
 channel_sidebar.29d0c43: Press enter to open the section. Press space to expand or collapse it
-channel_sidebar.da83cf0: Press option + shift + up/down arrow to navigate between unread items.
 channel_sidebar.d2f1882: Press {keys} to find or create a channel
 channel_sidebar.13aedf8: Press {keys} to find or create a direct message. Press delete to remove a direct message from the sidebar
 channel_sidebar.886cbff: Priority
@@ -5266,7 +5264,6 @@ channel_sidebar.7654001: Removed {entityLabel} {entityType} from {channelSection
 channel_sidebar.d0c625b: Removed {item} from {section}.
 channel_sidebar.71c287d: Removed {numChannels, plural, =1{conversation} other {# conversations}} from {channelSection}.
 channel_sidebar.a0a74e2: Removed {numEntities, plural, =1{entity} other {# entities}} from {channelSection}.
-channel_sidebar.b9b51f6: Renamed to {channelSection}.
 channel_sidebar.c1ad1c4: Reset section
 channel_sidebar.4a197b0: Reset section changes
 channel_sidebar.299ef4a: Reset to Defaults
@@ -5299,6 +5296,7 @@ channel_sidebar.d5fa83b: Show Pinned
 channel_sidebar.4c852b2: Show less
 channel_sidebar.25911d4: Show more
 channel_sidebar.ccb8204: Show recents
+channel_sidebar.0f38ffa: Show {count} more
 channel_sidebar.8f30fab: Showing all channels.
 channel_sidebar.740ce0a: Sidebar view
 channel_sidebar.9fbb94b: Slackbot
@@ -5395,7 +5393,6 @@ channel_sidebar.6d3a200: has a draft message
 channel_sidebar.b21e6ea: has unread messages
 channel_sidebar.fd18d0a: has unreads
 channel_sidebar.4dc31fe: has unsent messages
-channel_sidebar.468aa1c: huddle in session
 channel_sidebar.e4b074a: muted
 channel_sidebar.943992d: private channel
 channel_sidebar.4762ca5: recap channel
@@ -5404,9 +5401,11 @@ channel_sidebar.8af56de: you
 channel_sidebar.6e201aa: {agentName} conversations
 channel_sidebar.6db181e: {authorName}: {preview}
 channel_sidebar.c2c005b: {badgeCount} unread {badgeCount, plural, =1 {invite} other {invites}}
+channel_sidebar.3df1ef7: {channelName}, {count, plural, =1 {# mention} other {# mentions}}
 channel_sidebar.2d891d6: {channel}, failed to send message
 channel_sidebar.57c546d: {count, plural, =1 {# file} other {# files}}
 channel_sidebar.12f139d: {count, plural, =1 {# mention} other {# mentions}}
+channel_sidebar.3ac3e22: {count, plural, =1 {# mention} other {# mentions}} in a channel you haven’t joined
 channel_sidebar.accd9c4: {count, plural, =1 {# new message} other {# new messages}}
 channel_sidebar.2743d1b: {count, plural, =1 {# unread message} other {# unread messages}}
 channel_sidebar.c5e835b: {count, plural, one {View # more draft} other {View # more drafts}}
@@ -5418,8 +5417,6 @@ channel_sidebar.09a22c2: {minutes} min
 channel_sidebar.26d4d69: {name} (you)
 channel_sidebar.3b2e865: {numMutedChannels} channels are now hidden
 channel_sidebar.835c272: {numSelected} of {maxPicks} selected
-channel_sidebar.f977930: {numUnreads, plural, =1 {# conversation} other {# conversations}} with unread messages, including {numBadges, plural, =1 {# mention or keyword} other {# mentions and keywords}}.
-channel_sidebar.3f2fea4: {numUnreads, plural, =1 {# conversation} other {# conversations}} with unread messages.
 channel_sidebar.c4f8e1e: {replyCount, plural, =1 {# reply} other {# replies}}
 channel_sidebar.bdc61e9: {resultCount, plural, =1 {# conversation} other {# conversations}} found
 channel_sidebar.4f0f8ed: {sectionName}, huddle in session. Press {keyboardShortcut} to join huddle
@@ -5722,7 +5719,6 @@ classic_nav.c47ae15: Help
 classic_nav.c05ea34: Help, with {unreads, plural, =1 {# unread} other {# unreads}}
 classic_nav.eff152e: Hide workspace switcher
 classic_nav.90ccd64: History
-classic_nav.615e0f7: History Navigation
 classic_nav.8c99a8e: How does this impact your current use of Slack or how could it potentially improve your use of Slack in the future?
 classic_nav.2e29f8d: How would you describe the search results you’re seeing?
 classic_nav.a0767c2: Huddle
@@ -5961,12 +5957,17 @@ client.27129a2: {viewName} collapsed
 client_error_screens.c828370: <a>Check the Slack service</a> to make sure it’s not a Slack issue.
 client_error_screens.1cfdfef: <a>Restart Slack</a>. Sometimes that’s all it takes.
 client_error_screens.bcb2fef: <a>Try our suggestions for troubleshooting</a> connection issues.
+client_error_screens.a02101f: Browse Workspaces
+client_error_screens.e6de983: Continue to Your Workspace
 client_error_screens.dee8e91: From your organization:
 client_error_screens.cce7155: Reload
 client_error_screens.34b1507: Reload Slack
 client_error_screens.db89a00: Review Terms of Service
 client_error_screens.7e08abd: This is one of those times when we’re not sure what went wrong, but we do have some suggestions that might help.
+client_error_screens.ac37626: Time to join a workspace
 client_error_screens.16f9d38: To continue using Slack, please review and agree to your organization’s terms of service. Once accepted, please reload Slack.
+client_error_screens.06b4e2e: To work with {orgName}, join a workspace and you’ll be on your way.
+client_error_screens.d6180bf: Welcome to {enterprisePlanName}!
 client_error_screens.5c545dd: We’re having trouble loading your workspace
 client_error_screens.9ef3c0e: You can only access Slack during your shift
 client_error_screens.d66b5c6: You need to agree to your organization’s terms of service.
@@ -6209,6 +6210,7 @@ code-channels-browser.628d911: Select an agent and workspace, then add a prompt 
 code-channels-browser.a2affb3: Select an agent before creating this channel.
 code-channels-browser.97879b8: Session channels are a multiplayer coding environment designed for everyone, not just developers.
 code-channels-browser.4c852b2: Show less
+code-channels-browser.0f38ffa: Show {count} more
 code-channels-browser.6ea3436: Something went wrong creating the code channel. Please try again.
 code-channels-browser.be868e4: Something went wrong creating the session channel. Please try again.
 code-channels-browser.bae7d5b: Status
@@ -6684,7 +6686,6 @@ connected-accounts.e9ee13c: What will change:
 connected-workflow-account.9a7d4e0: Disable
 connected-workflow-account.df174a3: Enabled
 connected-workflow-account.bf58d17: Manage
-connected-workflow-account.f7eb22b: Manage {appName}
 connected-workflow-account-app-row.c2f9b7b: Connected
 connected-workflow-account-confirmation-modal.ec00d47: Are you sure you want to disconnect this {providerName} account?
 connected-workflow-account-confirmation-modal.77dfd21: Cancel
@@ -8173,7 +8174,6 @@ drafts.435306d: This is the start of your message
 drafts.1771e61: This message failed to send
 drafts.9d39b01: This message was flagged for review by DLP scanning
 drafts.269292c: Thread in {channelName}
-drafts.8b52e01: Time zone: {timezone}
 drafts.3e0bac2: To direct message this person, choose a way to connect below:
 drafts.7e7fbc8: To:
 drafts.ec711b4: Tomorrow  at 09:00
@@ -10144,7 +10144,6 @@ files.56b71e8: Videos
 files.69bd4ef: View
 files.35c2f33: View <strong>{fileType}</strong> in Slack
 files.675f8de: View all deleted files
-files.3cf5755: View channel
 files.4f1a723: View in Slack
 files.5559dd0: View only
 files.b98795a: View profile
@@ -10904,8 +10903,6 @@ huddles.8036b2e: <strong>Your connection is unstable. See details by <l>opening 
 huddles.bd805e4: <strong>Your connection to the Huddle was lost. Hang tight while we reconnect you.</strong>
 huddles.69dc6b2: <strong>{firstParticipantName} and {numRemaining, plural, =1 {{numRemaining} other} other {{numRemaining} others}}</strong> are in the huddle.
 huddles.57a4193: <strong>{firstParticipantName} and {numRemaining, plural, =1 {{numRemaining} other} other {{numRemaining} others}}</strong> are talking. Join when ready.
-huddles.b1f3613: <strong>{firstParticipantName}</strong> and {numRemaining, plural, =1 {{numRemaining} other} other {{numRemaining} others}} are already in the huddle.
-huddles.18a83d0: <strong>{firstParticipantName}</strong> is already in the huddle.
 huddles.3f51ed0: <strong>{min}m left</strong> until your huddle will end automatically. {cta}
 huddles.ed0d57d: <strong>{pendingAmount} people</strong> are requesting access to this huddle. <a>View requests</a>.
 huddles.0a67869: <strong>{userName}</strong> is requesting access to this huddle. <a>View request</a>.
@@ -11016,6 +11013,7 @@ huddles.1201f5b: Captions
 huddles.879f0b1: Channel
 huddles.466a509: Channel suggestions
 huddles.18e03e2: Channels
+huddles.2d0ac56: Checking who’s in the huddle…
 huddles.a68ccc4: Choose a song
 huddles.e0d0c0c: Choose if all huddles in this channel will be summarized by default. {whoCanManage} can change this setting.
 huddles.4467a26: Choose if all huddles in this channel will be transcribed and summarized by default. {whoCanManage} can change this setting.
@@ -11137,6 +11135,7 @@ huddles.c8a4874: Got It
 huddles.5b8027f: Got it
 huddles.a2d4f4d: Great job!
 huddles.bc43592: Gym
+huddles.54d4df9: Hang tight
 huddles.ac53bc2: Happy Bass
 huddles.d83b652: Has
 huddles.0c092f0: Has {count, plural, =1 {{count} file type} other {{count} file types}}
@@ -11226,6 +11225,7 @@ huddles.4bba5c1: Join huddle with {senderName}
 huddles.92fb4ec: Join on this device
 huddles.186866d: Join when ready.
 huddles.810c18e: Join when you’re ready!
+huddles.32439b4: Join whenever you’re ready
 huddles.d3eea13: Join without microphone
 huddles.43a1c62: Joined
 huddles.2f7f2f8: Joined on another device
@@ -11372,6 +11372,7 @@ huddles.f70f386: Recent huddles
 huddles.42a38f6: Remote Work
 huddles.e963907: Remove
 huddles.893e7e5: Remove from huddle
+huddles.f48dfed: Remove sticker
 huddles.5ff6c52: Remove {userName} from the huddle?
 huddles.659eba1: Repeat
 huddles.b762a7c: Request to Join
@@ -11400,6 +11401,7 @@ huddles.8b41a4c: See {memberCount, plural, =1 {participant} other {participants}
 huddles.9bc2575: Send
 huddles.c6b719f: Send Invite
 huddles.8bca6e2: Send Invites
+huddles.a9e02c1: Send a reaction
 huddles.c7f73bb: Settings
 huddles.4b2ae87: Several people joined
 huddles.09ca55c: Share
@@ -11407,6 +11409,7 @@ huddles.c4632d0: Share a URL to huddle
 huddles.6b177ec: Share a URL to huddle in {channelName}
 huddles.dcb9761: Share a huddle link with your clients, partners, teammates, and more. Anyone can join, no Slack account required. Your notes and files stay right where you work.
 huddles.a02bc06: Share event
+huddles.351757d: Share files
 huddles.589d014: Share this event
 huddles.6c51990: Share this one-time link with anyone you’d like to meet with, including people outside your org.
 huddles.469d5b1: Shift
@@ -11469,6 +11472,7 @@ huddles.c746693: Stop sharing your screen
 huddles.be45ba6: Subway Music
 huddles.7fcd8d4: Suggested
 huddles.8b6d400: Summarize the huddle discussion so far\n
+huddles.f76c3e4: Switch to This Tab
 huddles.2849f68: Switch to this device
 huddles.4615308: Switch to this huddle?
 huddles.71cbafb: Take meeting notes
@@ -11482,6 +11486,7 @@ huddles.b4e4669: Thanks for letting us know! Your feedback helps us keep the goo
 huddles.50405cb: Thanks for your feedback!
 huddles.793c6f1: The Huddle has ended.
 huddles.590deaf: The huddle has ended.
+huddles.8488eca: The huddle hasn’t started yet
 huddles.0698b05: The huddle language applies to AI notes and captions.
 huddles.2758395: The huddle language applies to AI notes, transcription and captions.
 huddles.b65e8fb: The huddle language applies to transcription and captions.
@@ -11504,6 +11509,7 @@ huddles.1a9deb1: This huddle hasn’t started
 huddles.b60caac: This huddle is from a private conversation
 huddles.57f053a: This huddle is in a private conversation, but you can join with permission.
 huddles.9028bfe: This huddle isn’t available
+huddles.3b26c11: This huddle isn’t available anymore
 huddles.04d9fde: This link has already been used
 huddles.f3349e0: This link has been turned off
 huddles.a6b1739: This link has expired
@@ -11591,6 +11597,8 @@ huddles.b91f1ae: View {memberCount, plural, =1 {participant} other {participants
 huddles.9679341: Viewing in another window
 huddles.b7e0a9d: Waiting Room
 huddles.f9b2643: Waiting for others…
+huddles.b8bbdf2: Waiting for someone to let you in
+huddles.bcdd73a: Waiting for someone to start the huddle and let you in
 huddles.da907ce: Waiting for {memberName}
 huddles.08b2591: We couldn’t load the members of a selected group. Please try again.
 huddles.b8ce620: We ended the huddle since you were the only one there for a bit.
@@ -11662,6 +11670,7 @@ huddles.7538a93: You huddled here in { channelName } for { huddleDuration }
 huddles.96dd2e4: You huddled here with { channelName } for { huddleDuration }
 huddles.fb22e4c: You huddled here { count, plural, =1 { # time } other { # times }} in the last week
 huddles.4159a44: You huddled with { peerName } { count, plural, =1 { # time } other { # times }} in the last week
+huddles.d128db4: You joined in a different tab.
 huddles.1ece452: You joined the huddle
 huddles.150f737: You joined {huddleTopic}
 huddles.cb8caea: You look nice today
@@ -11700,8 +11709,12 @@ huddles.47bc2ea: You’re already in a huddle in {channel}.
 huddles.2a58b96: You’re already in a huddle with {listOfPersons}.
 huddles.e1ee076: You’re already in a huddle.
 huddles.8179605: You’re already in a huddle. Would you like to leave it and request access to this huddle?
+huddles.4feac1b: You’re already in this huddle
+huddles.911203a: You’re already in this huddle. You joined in a different tab.
+huddles.e0269d4: You’re approved. Join the huddle when you’re ready.
 huddles.084ad36: You’re connected to multiple calendars. To configure notifications, use the settings page in each calendar’s respective app.
 huddles.aeb96e7: You’re connected.
+huddles.286b78b: You’re in
 huddles.76c0f92: You’re in the huddle
 huddles.5dd411d: You’re in this huddle on a different device
 huddles.5e87214: You’re in this huddle on multiple devices
@@ -11740,6 +11753,7 @@ huddles.f9b8d9e: {channelName}
 huddles.25f4461: {channelTopic}<wrapper>in</wrapper>{channelName}
 huddles.c1f8c09: {count, plural, =1 {# person is} other {# people are}} requesting to join
 huddles.cd1f97c: {count, plural, =1 {# person} other {# people}} here {count, plural, =1 {isn’t} other {aren’t}} in your workspace. Remember to not share any private information. <a>Learn more</a>
+huddles.f088f0b: {count, plural, =1 {Someone is already in the huddle.} other {There are # people already in the huddle.}}
 huddles.5f3fd97: {count, plural, =1 {This person is not a member} other {These people are not members}} of {channelName}
 huddles.a6becaa: {count} {count, plural, =1 {invitee} other {invitees}}
 huddles.0f124ce: {emoji} Bring external meetings into Slack
@@ -12110,8 +12124,6 @@ ia4.d10d288: Switch workspace, other workspaces have new messages
 ia4.5d11826: Tell us more
 ia4.50405cb: Thanks for your feedback!
 ia4.35ed7de: There was a problem opening your pocket agent. Give it another try.
-ia4.0dd63e7: This is the only available workspace for all members.
-ia4.6916a81: This workspace selection is required by your org.
 ia4.bb12e8a: Threads
 ia4.24345a1: Today
 ia4.7d5fadf: Today - Action Items
@@ -12416,7 +12428,6 @@ joiner_launchpad.b34266c: There was an issue retrieving suggestions.
 joiner_launchpad.84f26e4: Upload Photo
 joiner_launchpad.4b676a0: View Channel
 joiner_launchpad.948e8a3: View all channels
-joiner_launchpad.3cf5755: View channel
 joiner_launchpad.e213714: View everyone
 joiner_launchpad.05e6fc2: Welcome, <span className="c-joiner_launchpad__header-highlight">{joinerName}</span>! Ready to dive in?
 joiner_launchpad.908b3a4: You can always explore more in “More”
@@ -13308,7 +13319,6 @@ lists.4386eaf: Set assignee
 lists.46aef6f: Set date
 lists.720287c: Set up workflows to collect items with forms, send due date reminders to assignees, and keep your team aligned with automatic summaries.
 lists.09ca55c: Share
-lists.7c6508a: Share item
 lists.80bb8cf: Share list
 lists.6a31885: Share list to ensure people get notified
 lists.7810722: Share list view
@@ -13926,6 +13936,8 @@ menu.c0774ce: Browse apps
 menu.2190a3b: Browse channels
 menu.124c499: Browse external connections
 menu.524932e: Browse files
+menu.057d9b3: By most recent
+menu.d3a672b: By most recent (Default)
 menu.7bd6043: Canvas details
 menu.c1ecc60: Change to a private channel
 menu.c24b99e: Channel details
@@ -14022,7 +14034,6 @@ menu.80cec9c: Mute and hide
 menu.3a4727a: Mute channel
 menu.d261547: Mute conversation
 menu.ec5a2c9: Muted conversations
-menu.a22cfe2: New activity within the last 3 days
 menu.09c8ea4: New activity within the last 30 days
 menu.a388818: New window
 menu.522fe5b: No messages in at least 30 days
@@ -14104,7 +14115,6 @@ menu.80b8479: View in Slack Marketplace
 menu.4d66568: View members
 menu.225220d: View paused workflows
 menu.b98795a: View profile
-menu.7f25898: View {quipLabel} details
 menu.d7a4841: Workflow
 menu.9dda926: Workflow options ready
 menu.ee43020: Workflows with Salesforce data
@@ -14881,6 +14891,7 @@ messages_action_items.c551b66: Report to Slack
 messages_action_items.ec85297: Restore response
 messages_action_items.00e8abf: Summarize message
 messages_action_items.bfa17ca: Summarize thread
+migration_blocker_page.e6de983: Continue to Your Workspace
 migration_blocker_page.a0a573b: Your workspace is joining an organization!
 mobile_app_promos.70afe9e: Dismiss
 mobile_app_promos.e6974d4: Download the Slack mobile app
@@ -15093,6 +15104,7 @@ modernselling.e8ad397: Close deals faster — right here
 modernselling.ef8d2ac: Closing within the next …
 modernselling.6dc658f: Collaborate with my team on deals and accounts
 modernselling.76e5b1b: Collaborate with your team and track your sales prospects as you move them from being new leads all the way to paying customers.
+modernselling.e86864b: Collapse Sales Tracker
 modernselling.897ff24: Company is a required field. Match a column to Company to continue.
 modernselling.a4c41c6: Compare plans
 modernselling.2f49793: Condition
@@ -15199,6 +15211,7 @@ modernselling.51afbf1: Exclude the person who created the opportunity
 modernselling.4f23c07: Exclude the person who made the update
 modernselling.fd504ca: Existing sales notifications will stop sending to channels not in those workspaces. The people who created the notifications won’t be notified.
 modernselling.f9047ef: Existing sales notifications will stop sending to those channels. The people who created the notifications won’t be notified.
+modernselling.9000764: Expand Sales Tracker
 modernselling.b7d2491: Explore your trial
 modernselling.5f24bd8: Export full member list
 modernselling.b151065: Export started…
@@ -15657,7 +15670,6 @@ modernselling.d00dcbd: Shape the future of Slack CRM
 modernselling.09ca55c: Share
 modernselling.9c8db3f: Share Sales Tracker
 modernselling.4d41a08: Share and Add Salesforce User
-modernselling.7c6508a: Share item
 modernselling.80bb8cf: Share list
 modernselling.afa4349: Share this list view
 modernselling.0e8643c: Share this record
@@ -15669,6 +15681,7 @@ modernselling.409d741: Show a celebratory message to user profiles when they clo
 modernselling.68393c7: Show all fields
 modernselling.2332e2f: Show deal won celebration
 modernselling.4c852b2: Show less
+modernselling.0f38ffa: Show {count} more
 modernselling.f5136d2: Sign in with a <b>system user account</b>.
 modernselling.3da4745: Skip
 modernselling.55e2fd1: Skip import
@@ -15856,7 +15869,6 @@ modernselling.7b44610: Very satisfied
 modernselling.907b3be: View Details
 modernselling.1d11bc0: View Salesforce Lists
 modernselling.dfdb331: View actions
-modernselling.3cf5755: View channel
 modernselling.badd385: View details
 modernselling.b98795a: View profile
 modernselling.53a2b8a: Viewed {time}
@@ -17268,6 +17280,7 @@ prefs.20ec7e3: A–Z
 prefs.f03b60f: Beta
 prefs.30fdbdc: Blend <strong>Window background</strong> and <strong>Selected items</strong> colors together in window backgrounds.
 prefs.a83a52c: Bring emails into Slack
+prefs.057d9b3: By most recent
 prefs.b6803af: Calendar notifications
 prefs.3284641: Can be reordered, but not turned off.
 prefs.77dfd21: Cancel
@@ -19017,8 +19030,6 @@ recordchannels.f18fc15: Approver
 recordchannels.a1aff3d: As a guest, you don’t have access to Salesforce {itemPlural} in Slack. You can still view the {item} in Salesforce.
 recordchannels.310efbc: Ask Slackbot
 recordchannels.e24e824: Assigned
-recordchannels.359fffe: Bring the team together in a channel
-recordchannels.cc0c4f4: Bring the team, conversation and Salesforce data together in one place to get work done. 
 recordchannels.77dfd21: Cancel
 recordchannels.f840ac6: Canceled
 recordchannels.5562509: Can’t access this record in Slack
@@ -19028,7 +19039,6 @@ recordchannels.e5244a7: Catch up on channel conversations fast with AI summaries
 recordchannels.d5eb68f: Channel Name
 recordchannels.c670974: Channel managers can limit channel access to the people who can access the record or allow everyone in your organization to find the record.
 recordchannels.18e03e2: Channels
-recordchannels.5bbed4b: Channels bring the team, conversation and Salesforce data together in one place to get work done.
 recordchannels.49bcd35: Code channel
 recordchannels.b37456c: Contact
 recordchannels.2e02623: Continue
@@ -19036,8 +19046,6 @@ recordchannels.07c59b4: Conversations
 recordchannels.65b2145: Copy link to record
 recordchannels.99b8ad4: Copy link to {objectLabel}
 recordchannels.daaf089: Create Channel
-recordchannels.fbd4b88: Create a channel for this {label}
-recordchannels.740f42e: Create a channel for this {recordLabel}
 recordchannels.b2feca2: Create a new channel
 recordchannels.3921a1c: Delete {objectLabel}
 recordchannels.dc3decb: Details
@@ -19098,7 +19106,6 @@ recordchannels.4048fc0: Reloading data
 recordchannels.0fa5cfd: Request Access
 recordchannels.859ca6c: Request access
 recordchannels.168996e: Request sent
-recordchannels.5f4b3e9: Salesforce
 recordchannels.9127d48: Salesforce Record
 recordchannels.2defefb: Salesforce list
 recordchannels.38bd55c: Salesforce record
@@ -19111,7 +19118,6 @@ recordchannels.c277ade: See all {total}
 recordchannels.9f74b69: See all {total} fields
 recordchannels.bcff88e: See all {total} {itemSeeAllType}
 recordchannels.47c77bf: See less
-recordchannels.c1225e2: See the conversation related to this {label}
 recordchannels.09ca55c: Share
 recordchannels.e0a318f: Share record
 recordchannels.e8db64c: Shoot. It looks like this {recordLabel} may have moved or been deleted. You can try searching in Salesforce to find where it went.
@@ -19141,7 +19147,6 @@ recordchannels.4faa748: Unable to sync record.
 recordchannels.bc7819b: Unknown
 recordchannels.e0b3a22: Unknown Record
 recordchannels.a8d7394: Use the <strong>{recordTypeLabel} details</strong> tab to view and edit Salesforce data right in Slack. The changes you make here will be synced with Salesforce, keeping both systems up to date.
-recordchannels.4b676a0: View Channel
 recordchannels.c5eb4ff: We added the list of {recordName} {relatedListLabel} to get you started. Add tabs for other related Salesforce records that you and your team want easy access to in Slack.
 recordchannels.dbd28b0: We’re not quite sure what, but please try again in a bit.
 recordchannels.959b83c: When you do this, the channel won’t have Salesforce data from the {recordName} {recordLabel}, but the messages, channel members and other content will stay. You’ll also need a new channel name.
@@ -19169,7 +19174,6 @@ recordchannels.86761b6: records
 recordchannels.ef89a3a: rocket
 recordchannels.69cae4c: {count, plural, =1 {<link># agent</link> is} other {<link># agents</link> are}} in this channel.
 recordchannels.57d9916: {recordLabel} in
-recordchannels.7e9342e: {recordLabel} on
 recordchannels.06a9518: {recordName} will no longer be connected to this channel.
 recordchannels.27d682f: {recordType} team
 referral_welcome_modal.64a324d: Easily create custom workflows
@@ -19425,14 +19429,11 @@ saved_for_later.03c8413: Add to saved
 saved_for_later.140b367: Add to-do
 saved_for_later.9ce55c1: Added by you
 saved_for_later.ff9c3e4: Added by you ({count})
-saved_for_later.ef30278: Added to Saved
 saved_for_later.6a72085: All
 saved_for_later.8217ffd: All of your saved items will be moved to your to-do list.
 saved_for_later.cdf4f3d: All overdue to-do items will be marked as completed. This can’t be undone.
-saved_for_later.d865ac8: All saved items removed
 saved_for_later.d46dfd8: All to-do items overdue by 30+ days will be marked as completed. This can’t be undone.
 saved_for_later.4a74bba: All to-do items will be marked as completed. This can’t be undone.
-saved_for_later.932bdfa: All to-dos cleared
 saved_for_later.2621c6f: Archive
 saved_for_later.eddc813: Archived
 saved_for_later.9ed50a6: Archived items from Later have been moved here. Everything else is in To-dos. Start fresh by clearing things out, or move tasks to To-dos.
@@ -19456,22 +19457,10 @@ saved_for_later.087aeb2: Complete to-do
 saved_for_later.457f59f: Complete to-dos
 saved_for_later.bcda5a2: Complete to-dos overdue 30+ days?
 saved_for_later.1798b3b: Completed
-saved_for_later.6d550e1: Completed to-dos cleared
 saved_for_later.0dd02fc: Completed, {count}
 saved_for_later.2e02623: Continue
-saved_for_later.0f0e3e1: Couldn’t add to your to-dos. The description is too long.
-saved_for_later.e634ff2: Couldn’t add to your to-dos. The item couldn’t be found.
-saved_for_later.dc25ea2: Couldn’t add to your to-dos. Try again?
-saved_for_later.736ef06: Couldn’t clear the saved item. The item couldn’t be found.
-saved_for_later.090deca: Couldn’t clear the saved item. Try again?
-saved_for_later.0e7fddb: Couldn’t clear your to-do. The item couldn’t be found.
-saved_for_later.3d72f42: Couldn’t clear your to-do. Try again?
 saved_for_later.a04921a: Couldn’t delete your to-do. The item couldn’t be found.
 saved_for_later.b6356f0: Couldn’t delete your to-do. Try again?
-saved_for_later.be4986a: Couldn’t move to Saved. The item couldn’t be found.
-saved_for_later.3ce8245: Couldn’t move to Saved. Try again?
-saved_for_later.7ef6f6c: Couldn’t move to your to-dos. The item couldn’t be found.
-saved_for_later.beb6bc3: Couldn’t move to your to-dos. Try again?
 saved_for_later.dce04fd: Custom…
 saved_for_later.a17c709: DM with yourself
 saved_for_later.3184e99: DM with {name}
@@ -19502,7 +19491,6 @@ saved_for_later.b6bd42e: In progress
 saved_for_later.93cdd40: In progress ({count})
 saved_for_later.51fb94e: In progress, {count}
 saved_for_later.501c79e: In-progress
-saved_for_later.12073ef: In-progress to-dos cleared
 saved_for_later.53eeca7: Item in {name}
 saved_for_later.ced7d4a: Keep Editing
 saved_for_later.df833fe: Last 7 days
@@ -19523,7 +19511,6 @@ saved_for_later.7e3df3d: Move all saved items to to-dos?
 saved_for_later.9baad34: Move to Saved
 saved_for_later.7d7a340: Move to To-dos
 saved_for_later.8c07a91: Move to-dos to Saved
-saved_for_later.2eeb631: Moved to to-dos
 saved_for_later.e47cb95: My day
 saved_for_later.6697079: My day sections
 saved_for_later.37a612d: My stuff
@@ -19540,7 +19527,6 @@ saved_for_later.af10986: Open Drafts in split view
 saved_for_later.4ff01e6: Open Meetings in split view
 saved_for_later.e551f40: Open To-dos in split view
 saved_for_later.2c3a6f0: Open another To-do?
-saved_for_later.cea6044: Open in Home
 saved_for_later.5a99577: Open in Slackbot
 saved_for_later.a75732d: Open in new window
 saved_for_later.03a322d: Open in split view
@@ -19551,7 +19537,6 @@ saved_for_later.0efc2e6: Overview
 saved_for_later.1ac6b9e: Remind me about this
 saved_for_later.7ea1037: Remind me to…
 saved_for_later.b87a192: Reminder
-saved_for_later.1590c85: Reminder set for {dueDate}
 saved_for_later.ae8c393: Reminders
 saved_for_later.e963907: Remove
 saved_for_later.3dd6697: Remove canvas
@@ -19569,8 +19554,6 @@ saved_for_later.efc007a: Save
 saved_for_later.ff62b50: Save a message to keep it here.
 saved_for_later.d882158: Save for later
 saved_for_later.c0ae8f6: Saved
-saved_for_later.f35b56c: Saved item cleared
-saved_for_later.24ea002: Saved items moved to to-dos
 saved_for_later.7dca82c: Saved message actions
 saved_for_later.43aba96: Section in {name}
 saved_for_later.928b12a: See all drafts
@@ -19593,7 +19576,6 @@ saved_for_later.734c65a: This canvas was deleted
 saved_for_later.69ed5af: This canvas was not found
 saved_for_later.3cfc6dc: This file was deleted
 saved_for_later.9070de8: This file was not found
-saved_for_later.8529630: This is already in your to-dos.
 saved_for_later.64c151c: This list item was deleted
 saved_for_later.6701d77: This list item was not found
 saved_for_later.e579a05: This message was deleted
@@ -19602,18 +19584,11 @@ saved_for_later.6c82e6d: Time
 saved_for_later.7939660: To-do
 saved_for_later.1ca90f1: To-do actions
 saved_for_later.d05ace6: To-do added
-saved_for_later.109b11e: To-do cleared
 saved_for_later.c721bd3: To-do deleted
 saved_for_later.c627389: To-do deleted. The message stays in the conversation.
 saved_for_later.6fb60e8: To-do details
-saved_for_later.68f01d4: To-do marked complete
-saved_for_later.af1924f: To-do marked incomplete
-saved_for_later.d7d615e: To-do moved to Saved
 saved_for_later.6ce08d6: To-dos
-saved_for_later.b3cbbd4: To-dos for deleted messages removed
 saved_for_later.37ec956: To-dos is for tasks, and Saved is for everything else
-saved_for_later.551c583: To-dos moved to Saved
-saved_for_later.f7f27c7: To-dos moved to Saved. Salesforce tasks stay in To-dos.
 saved_for_later.9ca56a9: To-dos whose message was deleted will be removed, both in-progress and completed. Your other to-dos are left alone. This can’t be undone.
 saved_for_later.9186306: Turn anything into a to-do
 saved_for_later.3deb745: Type
@@ -19623,13 +19598,11 @@ saved_for_later.8954a5c: Untitled item
 saved_for_later.6a34ef3: Untitled to-do
 saved_for_later.567bfc4: Up next
 saved_for_later.17a2983: Upcoming reminders
-saved_for_later.4a0ca4f: View saved
 saved_for_later.a0bb7e2: View to-dos
 saved_for_later.95dea2f: What’s on your to-do list?
 saved_for_later.769bb19: When
 saved_for_later.905cb32: You
 saved_for_later.90709a5: You are currently editing this To-do
-saved_for_later.e2479e9: You don’t have permission to do that.
 saved_for_later.f008c9d: You will lose any unsaved changes to your to-do.
 saved_for_later.1a3f934: Your archived items have been moved to <link>Saved</link>, to keep your task list focused.
 saved_for_later.28dedd7: Your filters are hiding all your to-dos.
@@ -19641,13 +19614,8 @@ saved_for_later.d298a2b: sent an audio clip
 saved_for_later.d123b11: shared a GIF
 saved_for_later.cfec020: {count, plural, =1 {# overdue} other {# overdue}}
 saved_for_later.6c40863: {count} to-dos deleted
-saved_for_later.fe629e8: {count} to-dos marked incomplete
 saved_for_later.870984d: {date} at {time}
-saved_for_later.4ee6d3a: {errorText} {followUpLink}
 saved_for_later.8209404: {fileType}
-saved_for_later.98e5556: {label} · {followUpLink}
-saved_for_later.5919377: {label} · {viewSavedLink}
-saved_for_later.aea1900: {label} · {viewTodosLink}
 saved_for_later.26d4d69: {name} (you)
 saved_items.29cabd8: <strong>{file}</strong> removed from saved items.
 saved_items.81b661a: Add messages and files to come back to later
@@ -19704,7 +19672,6 @@ search.94aa291: , {fileType}
 search.ee5ef3e: , {unreadCount, plural, =1 {# unread} other {# unreads}}
 search.6218311: 3 characters required
 search.7ff2a8e: <b>Connected!</b> Results from connected apps will now start appearing in search. Manage or connect more apps here, anytime.
-search.ef4ef01: <b>Connected!</b> Results from connected apps will now start appearing in search. Manage them here, any time.
 search.96c5217: <slackbotLabel>Ask Slackbot</slackbotLabel> <description>in your own words to search differently across more sources.</description>
 search.2a9c572: <strong>{count}</strong> results found
 search.dff3386: A DM with someone
@@ -19767,7 +19734,6 @@ search.29d3374: All workflows managed by you
 search.22e3fb7: All workspaces
 search.2fae84b: All you have to do is ask
 search.c3c4fae: An admin has restricted this channel’s content for use in AI answers.
-search.498b3d8: Another workspace
 search.f10b4a5: Any account type
 search.421ca1a: Any channel type
 search.479b61f: Any file type
@@ -19779,18 +19745,13 @@ search.d9a3685: Apps
 search.a039390: April
 search.eddc813: Archived
 search.e3ed10e: Are there any recent messages about "{searchText}"?
-search.5955413: As a frontline member, you can’t leave the channel you were invited to.
-search.e6e3df1: As a guest, you can’t leave the channel you were invited to.
-search.d46495a: As a guest, you need to be in at least one channel.
 search.310efbc: Ask Slackbot
 search.bf1ae3f: Ask Slackbot a followup
 search.06373ee: Ask Slackbot about {topic}
 search.fc52535: Ask Slackbot:
-search.9b43c38: Ask Slackbot: {query}
 search.ea23b05: Ask Slackbot: {question}
 search.eda5d05: Ask Slackbot…
 search.89dd6c5: Ask a different question
-search.027d408: Ask a question like “What did I accomplish this week?”
 search.cac5d74: Assigned to you
 search.6771ade: Attachments
 search.acdac20: Audio
@@ -19823,7 +19784,6 @@ search.98cc6bf: Canvas templates
 search.e2d397a: Canvases
 search.bed5703: Canvases & Posts
 search.b0fbf21: Can’t ask Slackbot. Try again.
-search.ab7f431: Can’t leave
 search.c03ff88: Can’t load MCP connectors.
 search.cf9c012: Can’t load results.
 search.b09768b: Celebration
@@ -19844,7 +19804,6 @@ search.c043160: Clear all
 search.4122267: Clear filters
 search.67300d0: Clear search
 search.247fd63: Clear selection
-search.1913553: Clear text
 search.2305f59: Click the ⭐ star on any canvas or list to add it here for later.
 search.f7ec5fe: Click the ⭐ star on any file to add it here for later.
 search.bbfa773: Close
@@ -19856,8 +19815,6 @@ search.b65463c: Connect
 search.4a7f6f5: Connect app
 search.76d2303: Connect cloud app
 search.4f24234: Connect to {appName}
-search.b457853: Connect your accounts to see even more information in Slack search results. Anything you can find there, you’ll be able to find here, too. The below have been approved by your administrator.
-search.32106e6: Connect your accounts to use them with Slackbot. The below have been approved by your administrator.
 search.585c533: Connect {appName}
 search.70416d4: Connected!
 search.82eb296: Connecting your account will let you see {appName} here in search.
@@ -19981,11 +19938,10 @@ search.72c84e1: Filter End Date
 search.adcfc52: Filter Sources
 search.1b92c39: Filter Start Date
 search.c54f402: Filter account type
+search.2f9e8f2: Filter applied: {filterLabel}
 search.5b8d97f: Filter by
 search.ea918c0: Filter by Salesforce org
 search.a97f418: Filter by channel type
-search.e55aa1d: Filter by type
-search.54fe68f: Filter by {name}
 search.3f1cdf5: Filter channels
 search.88d10c0: Filter connectors
 search.d5d9612: Filter groups
@@ -20020,14 +19976,11 @@ search.9d9f523: Follow up reminder
 search.a3e2206: For 1 week
 search.360ba56: For 48 hours
 search.bdc0f3b: For questions or further feedback, you can <link>contact us</link>.
-search.03191a5: For some reason, Slack wasn’t able to fetch info about this channel.
-search.45c3dcf: For some reason, you can’t currently change your membership for {channelName}.
 search.7e13d94: For you
 search.d166e84: Friday
 search.3f66052: From
 search.2da47d9: From huddles
-search.6689f41: From me
-search.84e52cd: From someone
+search.e44bb9f: From our Help Center
 search.8fa46b4: Frontline
 search.4ca4ff3: Generating AI summary…
 search.086158f: Give feedback
@@ -20071,7 +20024,6 @@ search.09e871c: Images
 search.aef3650: In
 search.334b838: In Activity
 search.c75d097: In a thread
-search.1654aec: In this DM
 search.9359a2b: In this channel
 search.fd70341: In {count, plural, =1 {{count} place} other {{count} places}}
 search.48f9919: Includes me
@@ -20125,7 +20077,6 @@ search.80d0ba1: Manage agents, apps, and workflows
 search.5b7111c: Manage apps
 search.fab5cd5: Manage connected accounts
 search.9fddcff: Manage your team’s workspace
-search.f7eb22b: Manage {appName}
 search.6311650: Managed by you
 search.433632e: March
 search.9457229: Match in a link: {link}
@@ -20146,7 +20097,6 @@ search.19a532c: Modified
 search.932eeb1: Monday
 search.4bab2d8: More
 search.a1e34f9: More actions
-search.bf7117e: More filters
 search.86c0a35: More options
 search.a94019b: More reactions
 search.6d41770: More replies
@@ -20159,6 +20109,7 @@ search.82c0f5d: Mostly, I found something close
 search.c0a3ef6: Move to…
 search.51c1d56: Moved {count, plural, =1 {# file} other {# files}}.
 search.24a3adc: Name hidden
+search.479d4d6: Narrow your search
 search.15447d6: Neither satisfied nor dissatisfied
 search.abd5d17: New Canvas
 search.10d98b5: New List
@@ -20171,6 +20122,7 @@ search.96836a4: Newest channel
 search.bc98198: Next
 search.a6fd981: No agents or apps are available in this workspace.
 search.7fee04a: No direct messages match your search.
+search.e775340: No exact matches. {suggestion}, 1 of {totalSuggestions} suggestions
 search.ac1fe62: No matches in this channel
 search.ea67822: No matches in this conversation
 search.c8ece08: No matches in your suggested records
@@ -20179,6 +20131,7 @@ search.bb60f28: No recent agents
 search.651e0e7: No recent matches
 search.b993b0c: No results
 search.658e79f: No results found
+search.dcf747f: No workflows found.
 search.3155fc9: No workflows or tasks are available in this workspace.
 search.6eef664: None
 search.b1e5359: Not Now
@@ -20213,7 +20166,6 @@ search.6514e3a: Only your workflows
 search.639bea4: On…
 search.cf9b770: Open
 search.051bf3c: Open Slackbot conversation: {topic}
-search.cea6044: Open in Home
 search.052269b: Open in browser
 search.c103886: Open in home
 search.b3b4d9e: Open in main view
@@ -20279,12 +20231,16 @@ search.16d1d6a: Reactions
 search.ad086cf: Read more
 search.76eec76: Recent
 search.d523f84: Recent Agents
+search.6d2bcae: Recent Slackbot conversations
 search.202fbc0: Recent agents
 search.8c61b2e: Recent agents & tools
 search.eb8697c: Recent agents, apps, and connectors
 search.52cea28: Recent channels
 search.de00d58: Recent direct messages
 search.95c6a85: Recent files
+search.6c0d052: Recent messages
+search.2a4acd5: Recent messages in {channelName}
+search.3e3396f: Recent messages with {channelName}
 search.1666190: Recent people
 search.01c73e3: Recent places
 search.a73d291: Recent searches
@@ -20334,7 +20290,6 @@ search.bce0641: Search
 search.4bbd163: Search DMs
 search.97e32d1: Search DMs at {teamName}
 search.8a4c571: Search across people, channels, files, workflows, and more
-search.9313854: Search actions
 search.f1ff540: Search agents
 search.14edf04: Search agents & apps
 search.2615a44: Search all files
@@ -20344,7 +20299,6 @@ search.fa3f2bf: Search channels at {teamName}
 search.9ffb52f: Search connectors
 search.7087888: Search conversations
 search.0e33f42: Search details: 
-search.4a63147: Search external connections
 search.ee29173: Search far and wide
 search.ec88257: Search files
 search.5e49181: Search files at {teamName}
@@ -20361,7 +20315,6 @@ search.d8f281a: Search in conversation
 search.a480b4a: Search in the group message with you, {members}
 search.e20fb5d: Search in the {channel} channel
 search.373f96c: Search isn’t available in this view. Use Filters to browse templates.
-search.abea65a: Search messages
 search.ea066e4: Search messages at {teamName}
 search.a5ab82b: Search messages in this channel ({shortcut})
 search.3b06bee: Search messages in this channel {shortcut}
@@ -20372,7 +20325,6 @@ search.b565ea6: Search people
 search.f2b67bc: Search people at {teamName}
 search.2495e62: Search records
 search.0144dae: Search results
-search.0363909: Search suggestions
 search.08b9a69: Search templates
 search.c13a61a: Search with Slackbot like asking a teammate — the classic who, what, where, or when will do. Just search the way you talk.
 search.021b95d: Search without filters
@@ -20382,7 +20334,6 @@ search.6e913a6: Search workspaces
 search.1b4a285: Search {channelName}
 search.775f7ad: Search {keywords} {channelName}
 search.787447b: Search: {query}
-search.6dfac97: Searching in this conversation
 search.1a6a5ba: Searching…
 search.8050cd9: Section actions
 search.7ff5a6d: Sections
@@ -20394,7 +20345,6 @@ search.0f68b94: See all {section}
 search.f735126: See what’s available in your org
 search.8598222: Select
 search.913afff: Select all
-search.ec48c7c: Select how you want to access sources
 search.c01d8e1: Select which sources are used to generate the AI answer.
 search.8fec252: Send to Slackbot
 search.1c542e7: September
@@ -20407,7 +20357,6 @@ search.530aae8: Share Hot Highlight
 search.989d719: Share Signature Emoji
 search.6d7e07e: Share Your Anniversary
 search.41ea80c: Share anyway
-search.7c6508a: Share item
 search.3ff7b9c: Share the output below with a friendly neighborhood Search Friend in {feedbackChannel}
 search.c76afd4: Share this AI Answer
 search.416f9dc: Share this item
@@ -20421,7 +20370,6 @@ search.a5fe3b3: Shared by
 search.3764e18: Shared in
 search.f40ca84: Shared with me
 search.83454bd: Show all threads
-search.f82278e: Show as a left Sidebar
 search.0bd80a1: Show as a left sidebar
 search.d94dfbe: Show fewer
 search.4f6de2f: Show fewer unreads and drafts
@@ -20431,9 +20379,9 @@ search.7f83353: Show me the latest messages where I’m tagged
 search.25911d4: Show more
 search.1b978d5: Show on top as a filter
 search.ca5404d: Show results for:
-search.6163112: Show results for: {query}
 search.2bf8e04: Show results in this channel for:
 search.72f96a9: Show search history
+search.0f38ffa: Show {count} more
 search.21307cf: Show {count} more unreads and drafts
 search.f5171c9: Sidebar
 search.87dbc62: Sidebar section
@@ -20448,6 +20396,7 @@ search.a3eb343: Slack AI has an answer for you
 search.95fd553: Slack AI results have been updated
 search.4bb8241: Slack automatically sorts your results to surface the most relevant files and messages every time you search. You can also save your last sort selection for the next time you search, if that’s your cup of tea. 🫖
 search.cf8fdf1: Slack can show up to {maxRecords} records in search, so there might be records that match your search but aren’t shown here.
+search.1e8daf6: Slack couldn’t find anything by that name. You might try…
 search.cdd5bfc: Slack now automatically sorts your results to surface the most relevant files and messages every time you search
 search.6110557: Slack only generates search results based on content you can already access. You can’t see other people’s private messages and files (whether they live in Slack or a connected app) and they can’t see yours.
 search.9fbb94b: Slackbot
@@ -20529,23 +20478,20 @@ search.00f4104: Threads you’re involved in will be collected right here.
 search.76031dd: Thursday
 search.d19ceca: Tip
 search.768e0c1: Title
-search.cc43b52: To join this channel, you’ll need to switch to the {channelTeamName} workspace.
 search.a91a7ca: To keep your data safe and secure, we never use it to train our large language models. Plus, we never index results from connected apps.
-search.49898c3: To leave this channel, you’ll need to switch to the {channelTeamName} workspace.
 search.6ce08d6: To-dos
 search.24345a1: Today
 search.4fa8cc8: Tools
-search.62d7300: Top filter
 search.97304bf: Topic tracker
 search.4cb51ea: Track and manage projects
 search.ac26a7a: Translation
 search.047708b: Triggers
 search.19958f0: Try AI Search
-search.cf9409c: Try AI search
 search.6eb1f1b: Try Business+ at No Extra Cost
 search.8469938: Try It
 search.042c862: Try again
 search.0e76a5c: Try asking <b>Slackbot:</b>
+search.d915480: Try asking…
 search.bebc883: Try changing the record filter from <strong>All suggested records</strong> to the specific kind of record you’re looking for.
 search.11f546d: Try changing the record filter from <strong>All suggested records</strong> to the specific kind of record you’re looking for. Or try asking <b>Slackbot:</b>
 search.23adca2: Try disconnecting, then reconnecting the app to try again.
@@ -20579,9 +20525,7 @@ search.36d9162: View all {totalCountStr} results
 search.acdf387: View app details
 search.21cffcf: View as dense
 search.12e66ad: View as detailed
-search.3cf5755: View channel
 search.22829a6: View full search
-search.59a4bca: View in {appName}
 search.b98795a: View profile
 search.c5501a4: View the details of the Salesforce record {channel}
 search.7ce7c51: View the details of the {app} app
@@ -20624,8 +20568,8 @@ search.da24830: Yesterday
 search.905cb32: You
 search.3a425cd: You are previewing AI search
 search.70eecbc: You can search for information from this source right in Slack if you’d like.
-search.7645937: You can’t join an archived channel, but you can view and search its contents.
 search.5caecd4: You don’t have any threads with VIPs
+search.4054c10: You haven’t run any workflows recently. Try searching.
 search.e5dac54: You made it!
 search.e800137: You may want to try adjusting your filters.
 search.adb24d0: You may want to try different keywords, check for typos, or adjust your filters.
@@ -20645,10 +20589,8 @@ search.3f5ed76: Your navigation experience
 search.210ea0b: Your navigation query will be included with your survey responses to help Slack improve navigation.
 search.64bc097: Your one-on-one and group conversations show up here.
 search.6efa353: Your organization requires everyone to be in it, so no one misses important info.
-search.3700008: Your organization requires everyone to be in this channel.
 search.2b2f8b9: Your pull requests
 search.5d92198: Your recent searches will show up here.
-search.2b90e99: Your results
 search.724b62a: Your search experience
 search.ec823d5: Your search query will be included with your survey responses to help Slack improve search.
 search.a83e54b: Your signature emoji
@@ -20661,7 +20603,6 @@ search.987c85d: You’re leaving Slack
 search.94cd30e: You’re seeing this because you asked a question or used at least four words in your search.
 search.13105f4: Z to A
 search.c0fc188: ^{keyboardNumber}
-search.0bf4170: activity
 search.405906c: after
 search.a186bae: anyone on Slack
 search.3536f72: channels
@@ -20720,10 +20661,8 @@ search.09f8a95: {key} to open
 search.5a588fb: {label}, Canvas
 search.7e06c85: {label}, Folder
 search.d37043d: {label}, List
-search.2446a60: {label}, {countNotifications, plural, =1 {# notification} other {# notifications}}
 search.66071ef: {label}, {count} selected
 search.c4a0bf4: {label}, {summary}
-search.8c14b8a: {label}, {unreadCount, plural, =1 {# unread} other {# unreads}}
 search.468ddec: {label}: {value}
 search.ae02600: {name} (Deactivated)
 search.c6cdc67: {name} workspace
@@ -20738,6 +20677,7 @@ search.b099fb4: {sender} replied in a thread
 search.1db5227: {sender}:
 search.adc9d5d: {startDate} - {endDate}
 search.bbee91a: {step} of {total}
+search.687de28: {suggestion}, 1 of {totalSuggestions} suggestions
 search.e85b764: {teamName}
 search.9642493: {titleVerb} in {monthName}
 search.e13562d: {titleVerb} this month
@@ -20818,7 +20758,6 @@ setup_page.74f1d29: <b>Get a shareable invite link</b> <strong>instead</strong>
 setup_page.9f7fd9e: <b>How to Search in Slack</b> Access the right information instantly
 setup_page.1bb5074: <b>Preview of Slack CRM</b>
 setup_page.1ea9ac3: <b>Preview of your {name} template</b>
-setup_page.ac0df8b: <b>Using Slack</b> Learn how Slack works from top to bottom
 setup_page.530e77a: <strong>You can also </strong> <b>use an invite link</b>
 setup_page.20f1c35: <strong>{channelName}</strong> is where you’ll work with {invitingMember} and others from <strong>{invitingTeam}</strong>.
 setup_page.a16b881: <strong>{channelName}</strong> is where you’ll work with {invitingMember} and others from <strong>{invitingTeam}</strong>. You can post and reply to messages, but you’ll need to get approval before you can add any other people to the channel.
@@ -21640,11 +21579,17 @@ shared_channels.690a451: <strong>{numExternalMembers} external {totalExtMembers,
 shared_channels.86ed774: <strong>{numExternalMembers} external {totalExtMembers, plural, =1 {person} other {people}}</strong> {totalExtMembers, plural, =1 {is} other {are}} from {teamName}{showTrailingPeriod}
 shared_channels.239e887: <strong>{teamName}</strong> can view this channel, connected through your free trial through <strong>{trialEndDate}</strong>{showTrailingPeriod}
 shared_channels.5751171: <strong>{teamName}</strong> can view this channel{showTrailingPeriod}
+shared_channels.b783be0: Ask in DM
+shared_channels.45d82c9: Ask your workspace owner to enable AI search
 shared_channels.77dfd21: Cancel
+shared_channels.4058649: Change Settings
 shared_channels.672d82d: Copy Link
 shared_channels.2ee30cf: Edit Message
+shared_channels.45d2649: Enable AI search for your workspace <link>Manage access</link>
+shared_channels.17b5a7b: Got it. We won’t ask again.
 shared_channels.60809f9: Is it OK to send this?
 shared_channels.c2e9847: Link copied
+shared_channels.7c36f14: Manage Shared Channels
 shared_channels.72bb708: Manage Slack Connect Invitations
 shared_channels.50160ef: Remove Organization
 shared_channels.9c20c86: Remove your organization
@@ -21655,6 +21600,7 @@ shared_channels.2d19925: Send a Message
 shared_channels.2f05bc5: Send later
 shared_channels.dae3301: Send now
 shared_channels.e2d6f6d: Send this now?
+shared_channels.f14ec8f: Share a File
 shared_channels.56c43f3: To rejoin this channel in the future, you’ll need to be added by {ownerTeam} again
 shared_channels.29536b1: Upgrade before your trial ends on {formattedTrialEndDate} to stay connected
 shared_channels.907b3be: View Details
@@ -23290,7 +23236,6 @@ slack-docs.6d1dce8: Done adding variables?
 slack-docs.5301648: Edit
 slack-docs.aea819e: Edit settings
 slack-docs.9e10a7a: Edit variable
-slack-docs.d860889: Every channel has its own canvas. Open a blank channel canvas to see more templates.
 slack-docs.9fad5ac: Expand card to see more
 slack-docs.91f2ca2: Explore more…
 slack-docs.1b6f787: Explore templates
@@ -23433,7 +23378,6 @@ slack-docs.692ba49: There was a problem creating a new template. {tryAgain}
 slack-docs.1085c18: There was an error creating your workflow. Please try again.
 slack-docs.35f7092: This file was deleted.
 slack-docs.bab1116: This workflow will use variables to:
-slack-docs.9713cc8: Tip: 
 slack-docs.f7209dd: To customize the form, build it in <span>Workflow Builder</span>. Heads up-once you get to Workflow Builder, you’ll have to finish your workflow there.
 slack-docs.cef2fe0: Try Again
 slack-docs.8469938: Try It
@@ -24620,6 +24564,7 @@ slackbot-ai.20c7c55: Ready
 slackbot-ai.4487732: Ready to use
 slackbot-ai.aec1322: Ready when you are
 slackbot-ai.76eec76: Recent
+slackbot-ai.6d2bcae: Recent Slackbot conversations
 slackbot-ai.2eff3a4: Recent conversations
 slackbot-ai.5f0500c: Recently updated
 slackbot-ai.8438010: Recents
@@ -25628,7 +25573,6 @@ slackforce.fcc9a72: Sales Hub is no longer available. The Salesforce org was dis
 slackforce.9762a89: Sales Tracker
 slackforce.513cb1a: Sales Tracker is no longer available. The Salesforce org was disconnected.
 slackforce.9fc4092: Sales tracker setup ready. Press continue to proceed.
-slackforce.ee96043: Salesforce and Slack are fully integrated, so you can find records by searching right in Slack.
 slackforce.2397b02: Salesforce and Slack. Better Together 🙌
 slackforce.25b544f: Salesforce channels bring record details and team conversation together. No switching between tools.
 slackforce.b09a7ee: Salesforce logo
@@ -25641,7 +25585,6 @@ slackforce.bce0641: Search
 slackforce.0a6a01b: Search accounts
 slackforce.4210f27: Search contacts
 slackforce.e2e904a: Search failed
-slackforce.6c948ed: Search for Salesforce info
 slackforce.7dd919e: Search for new owner
 slackforce.c5be552: Search for sales data in Slack
 slackforce.fc286fc: Search for sales records in Slack
@@ -26832,7 +26775,6 @@ tabcomplete.c1c0e4b: Not in list
 tabcomplete.43ff311: Not on Slack
 tabcomplete.b37554f: People
 tabcomplete.faf6a32: Posting is restricted in this channel
-tabcomplete.0363909: Search suggestions
 tabcomplete.90c9352: Shortcuts
 tabcomplete.e09212c: Skills
 tabcomplete.861edba: Suggestions
@@ -27249,7 +27191,6 @@ today.a3eea0c: Caught up on important unreads.
 today.18e03e2: Channels
 today.3747707: Clear to-do
 today.bbfa773: Close
-today.e4115be: Coming soon
 today.165cef1: Conversation highlights keep you in the loop
 today.8dc7b2b: Daily briefing
 today.dc3decb: Details
@@ -27365,8 +27306,6 @@ today.2dacf65: Submit
 today.01d94f4: Summaries of your most important unreads.
 today.588c583: Summarize this meeting
 today.23e7c72: The best memories are sometimes created in the calmest moments
-today.e7da927: The important bits from your Gmail inbox
-today.02285b9: The important bits from your Outlook inbox
 today.d19ceca: Tip
 today.6ce08d6: To-dos
 today.acae6f6: To-dos is the new home for tasks
@@ -27392,7 +27331,6 @@ today.14c0186: Write a new one
 today.da24830: Yesterday
 today.bd6f51f: You and {otherMemberName} are in the huddle
 today.b635ba3: You haven’t interacted with them in 14+ days, so we stopped auto-generating them. {unpauseLink}
-today.23cbe5a: Your daily email briefing
 today.4515b6c: Your day
 today.18a5bbb: Your day at a glance
 today.0756b8c: You’ll still be notified in Activity at your requested time.
@@ -27923,7 +27861,7 @@ user-feedback.77dfd21: Cancel
 user-feedback.bbfa773: Close
 user-feedback.ffb36b2: Get help or support
 user-feedback.8c99a8e: How does this impact your current use of Slack or how could it potentially improve your use of Slack in the future?
-user-feedback.533d5d7: I understand that this feedback goes to our product team only, and that I won’t receive a response from Slack support.
+user-feedback.a06bab1: I understand that this feedback goes to the Slack product team, and that I won’t receive a response from Slack support
 user-feedback.c349b28: Note: Please don’t include sensitive or proprietary information.
 user-feedback.08d7aa3: Select an option
 user-feedback.13ada97: Share product feedback
@@ -28067,7 +28005,6 @@ view.8703a74: Catch up
 view.879f0b1: Channel
 view.66c7734: Chart
 view.2ced57f: Chat
-view.f477cb9: Check facts
 view.7ed2590: Check the facts about you
 view.bbfa773: Close
 view.749776f: Close Channel
@@ -28097,7 +28034,6 @@ view.5f3c026: Facts used ({count})
 view.c8d7677: Feedback
 view.6ce6c51: Files
 view.eaa79f3: Files & directories
-view.feb0ffa: Focus on {name}
 view.30baa24: Folder
 view.19adc47: Folders
 view.7e13d94: For you
@@ -28115,11 +28051,10 @@ view.cfed893: Huddles
 view.af97733: Icons and text
 view.7eefba1: Icons only
 view.b6bd42e: In progress
-view.3033391: In {unit}
 view.7b23670: Item view
+view.9caf661: Joined from: {name}, because of the same email
 view.b465751: Keyboard Shortcuts
 view.56e2f5d: Later
-view.ac197cd: Leads {unit}
 view.d051707: Link
 view.a1fffaa: List
 view.57c9502: Lists
@@ -28147,12 +28082,10 @@ view.37a612d: My stuff
 view.c1418c2: New Workflow
 view.1ed2e7b: New message
 view.0caea46: No facts about you yet.
-view.cd120d4: No one on record yet
 view.cac330d: No projects yet
 view.b54a538: Nothing saved yet
 view.c18f8f2: Notification
 view.753a22b: Notifications
-view.92e155c: On record as reporting to themself
 view.6ab14bd: One line is enough
 view.57d4066: OneDrive & SharePoint
 view.a75732d: Open in new window
@@ -28176,9 +28109,6 @@ view.4ef507f: Related Channels List
 view.3857d09: Related Threads List
 view.b87a192: Reminder
 view.9ee36da: Replace split view
-view.f838145: Reports to one of the people named {name}
-view.9f3bb98: Reports to {name}, in a circle the chart breaks here
-view.7c9675e: Reports to {name}, not on the chart
 view.87df60d: Resources
 view.954daa8: Right
 view.d0edfb6: Sales
@@ -28229,7 +28159,6 @@ view.7e13bd1: Topic
 view.5bcd602: Transcript
 view.042c862: Try again
 view.39fc721: Undo
-view.c7c73d9: Unit not on record
 view.95ed8c1: Unread Messages
 view.e6ba0dd: Unreads
 view.1f72214: Updated {ago}
@@ -28239,7 +28168,6 @@ view.1f0c0fc: Use the arrow keys to move the panel
 view.9f8a238: User
 view.4add952: User groups
 view.10a47da: What’s New
-view.4f983a6: Wiki
 view.00040ba: Work
 view.b3e3b7a: Workflow Builder
 view.e38e3ca: Workflow Creation
@@ -28257,17 +28185,14 @@ view.bcf43d4: You don’t have permission to message this conversation.
 view.ac1e950: You don’t have permission to message {member}.
 view.adcfed3: Your templates
 view.732f940: Your two organizations are no longer connected.
-view.0c1a054: replaced {date}
 view.86a3db1: {app_name} has turned off direct messaging, so you won’t be able to respond to these messages.
 view.bae2c62: {channelName} (Channel)
 view.cc9bf27: {channelName} (DM)
 view.45f4a1c: {channel_or_group} was moved to another workspace.
-view.0002d22: {count} under {name}
 view.468ddec: {label}: {value}
 view.02612bf: {listTitle}, List template
 view.9af6499: {teamName} templates
 view.5f6c4fd: {totalUnreadHighlights, plural, =1 {# new item} other {# new items}}
-view.6b6f16d: {unit}, {count} on the chart
 view.7cbc1b0: ⌘ Click
 view.362e018: ⌘ Opt Click
 view-header.cde3c02: About {userGroupName}
@@ -28550,7 +28475,6 @@ work-objects.93a77c8: View content
 work-objects.21020c9: View conversations
 work-objects.badd385: View details
 work-objects.b18b4eb: View in App
-work-objects.59a4bca: View in {appName}
 work-objects.d9ba895: View latest details
 work-objects.7f624fb: View messages older than 90 days
 work-objects.96645e2: View real-time details and see what others are saying about this file right within Slack.
@@ -30113,7 +30037,6 @@ workflow_builder.c3a43a0: Variables allow you to insert data from previous steps
 workflow_builder.c6d05ab: Variables containing multiple items must be alone
 workflow_builder.9ccdc98: Variables containing multiple items must not be mixed with other items of the same type
 workflow_builder.c6364ca: Variables not allowed
-workflow_builder.38d5493: Variables used in sources
 workflow_builder.69bd4ef: View
 workflow_builder.2ff63a6: View Error
 workflow_builder.840d13c: View activity log
