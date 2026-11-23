@@ -1696,6 +1696,8 @@ app_action_picker.2e0db25: Join huddle
 app_action_picker.48ce9cd: Leave huddle
 app_action_picker.40de3c4: Manage Connectors
 app_action_picker.5b7111c: Manage apps
+app_action_picker.412d8f8: Mute this DM
+app_action_picker.14052c0: Mute this group DM
 app_action_picker.472d469: No available apps
 app_action_picker.c58c9bd: No connectors
 app_action_picker.28477b1: Notifications resumed
@@ -1707,7 +1709,11 @@ app_action_picker.430b38b: Slack
 app_action_picker.d9a37db: Start huddle
 app_action_picker.ef98f1f: Start or join huddle
 app_action_picker.c90c34e: Tip: double click to upload
+app_action_picker.603714f: Unfollow thread
 app_action_picker.3421434: Unfollowed thread
+app_action_picker.4928b8e: Unmute this DM
+app_action_picker.e7f9206: Unmute this channel
+app_action_picker.7863efd: Unmute this group DM
 app_action_picker.6ffdfad: Update your status
 app_action_picker.43e92d7: You’re set to active
 app_action_picker.f150453: You’re set to away
@@ -1861,6 +1867,8 @@ app_dialog.b16c7ac: (optional)
 app_dialog.2dacf65: Submit
 app_dialog.ab90d9d: This field is required.
 app_dialog.26dc55d: We had some trouble connecting. <a>Try again?</a>
+app_dialog.38ffdb9: You can't enter more than {maxLength, plural, =1 {# character} other {# characters}}.
+app_dialog.d800655: You must enter at least {minLength, plural, =1 {# character} other {# characters}}.
 app_home.f0ee13e: Access restricted
 app_home.378cbbf: Learn More
 app_home.cce7155: Reload
@@ -14727,6 +14735,7 @@ messages.242accc: Messages to {member} will be delivered via email. When they re
 messages.da00102: Missing messages? They’ll show up shortly when your workspace’s migration is complete.
 messages.6403f2b: New
 messages.6d86712: New messages
+messages.4c4c583: No connection.
 messages.66ead5c: No recent messages
 messages.083a0d5: Notify anyway?
 messages.849c24a: Oldest unread message
@@ -14984,7 +14993,6 @@ modernselling.e8ad397: Close deals faster — right here
 modernselling.ef8d2ac: Closing within the next …
 modernselling.6dc658f: Collaborate with my team on deals and accounts
 modernselling.76e5b1b: Collaborate with your team and track your sales prospects as you move them from being new leads all the way to paying customers.
-modernselling.e86864b: Collapse Sales Tracker
 modernselling.897ff24: Company is a required field. Match a column to Company to continue.
 modernselling.a4c41c6: Compare plans
 modernselling.2f49793: Condition
@@ -15091,7 +15099,6 @@ modernselling.51afbf1: Exclude the person who created the opportunity
 modernselling.4f23c07: Exclude the person who made the update
 modernselling.fd504ca: Existing sales notifications will stop sending to channels not in those workspaces. The people who created the notifications won’t be notified.
 modernselling.f9047ef: Existing sales notifications will stop sending to those channels. The people who created the notifications won’t be notified.
-modernselling.9000764: Expand Sales Tracker
 modernselling.b7d2491: Explore your trial
 modernselling.5f24bd8: Export full member list
 modernselling.b151065: Export started…
@@ -16109,6 +16116,7 @@ msg_input.3467921: Jot something down
 msg_input.0019cdf: Message not scheduled
 msg_input.625c269: Message not sent
 msg_input.e457061: Message {msg}{govSlackSuffix}
+msg_input.4c4c583: No connection.
 msg_input.39a4360: Now you can easily share charts and graphs, tables, and more in your messages.
 msg_input.9ce3bd4: OK
 msg_input.1f9fa96: Only certain people can post in this channel. <a>Learn more</a>
@@ -16125,6 +16133,7 @@ msg_input.8d48d1f: Remove link
 msg_input.2d20629: Remove link preview
 msg_input.591e0e8: Send comment
 msg_input.9e98160: Show attachment
+msg_input.7016176: Suggested reply inserted: {suggestion}
 msg_input.0424f6e: Table
 msg_input.5065dad: That’s a bit too long to paste
 msg_input.2b78fac: This conversation shows automated updates from Slackbot. <link>Start a new conversation.</link>
@@ -16134,10 +16143,12 @@ msg_input.b77115a: Trying to add a link? Use {commandKey} + {vKey} instead
 msg_input.2899ad0: Trying to add a link? Use {modifierKey} + V instead.
 msg_input.0e2d9b0: URL
 msg_input.0535bda: Your team isn’t able to send messages right now. Review any apps or webhooks that may be sending a high-volume of messages. <learnMoreLink>Learn more</learnMoreLink> about message limits.
+msg_input.d1211a9: You’ll be able to send messages as soon as you’re back online.
 msg_input.820fdaa: [Name]
 msg_input.3134da9: [channel purpose]
 msg_input.e4aa54d: [next steps]
 msg_input.874ad8d: composer
+msg_input.3e359a9: {cardCount, plural, =1 {{name} link preview added to your message} other {{name} and {otherCardCount} more link previews added to your message}}
 msg_input.57459dc: {waveEmoji} Hi @{inviterMemberName}, thanks for inviting me! I’m here and ready to get started.
 msg_input.dcdbd92: {waveEmoji} Hi team, thanks for inviting me! I’m here and ready to get started.
 multi_channel_guest_invite_modal.b16c7ac: (optional)
@@ -16486,6 +16497,7 @@ oauth_account_picker.cb32300: This account lets Slack connect to {providerName} 
 oauth_account_picker.26ed9f9: You don’t have permission to use this workflow. Ask a workflow manager to update who can use it.
 oauth_account_picker.8348692: Your work will not be saved.
 offline_mode.e338999: No connection
+offline_mode.4c4c583: No connection.
 onboarding-joiner-with-slackbot.084e8c5: Ask Slackbot about how your workspace uses Slack.
 onboarding-joiner-with-slackbot.868c8f8: Check out what happened this week
 onboarding-joiner-with-slackbot.6c3f686: Find popular channels
@@ -18802,7 +18814,6 @@ quip_shortcut_handlers.05535ec: summary
 quip_shortcut_handlers.12dea96: user
 quip_view.b5bb2f9: Canvas Actions
 quip_view.bbfa773: Close
-quote_reply.d171eab: <author></author>: “<quote></quote>”
 quote_reply.83a5624: Attachment
 quote_reply.50e19fd: Image
 quote_reply.99d615e: Remove quote reply
@@ -21402,17 +21413,11 @@ shared_channels.690a451: <strong>{numExternalMembers} external {totalExtMembers,
 shared_channels.86ed774: <strong>{numExternalMembers} external {totalExtMembers, plural, =1 {person} other {people}}</strong> {totalExtMembers, plural, =1 {is} other {are}} from {teamName}{showTrailingPeriod}
 shared_channels.239e887: <strong>{teamName}</strong> can view this channel, connected through your free trial through <strong>{trialEndDate}</strong>{showTrailingPeriod}
 shared_channels.5751171: <strong>{teamName}</strong> can view this channel{showTrailingPeriod}
-shared_channels.b783be0: Ask in DM
-shared_channels.45d82c9: Ask your workspace owner to enable AI search
 shared_channels.77dfd21: Cancel
-shared_channels.4058649: Change Settings
 shared_channels.672d82d: Copy Link
 shared_channels.2ee30cf: Edit Message
-shared_channels.45d2649: Enable AI search for your workspace <link>Manage access</link>
-shared_channels.17b5a7b: Got it. We won’t ask again.
 shared_channels.60809f9: Is it OK to send this?
 shared_channels.c2e9847: Link copied
-shared_channels.7c36f14: Manage Shared Channels
 shared_channels.72bb708: Manage Slack Connect Invitations
 shared_channels.50160ef: Remove Organization
 shared_channels.9c20c86: Remove your organization
@@ -21423,7 +21428,6 @@ shared_channels.2d19925: Send a Message
 shared_channels.2f05bc5: Send later
 shared_channels.dae3301: Send now
 shared_channels.e2d6f6d: Send this now?
-shared_channels.f14ec8f: Share a File
 shared_channels.56c43f3: To rejoin this channel in the future, you’ll need to be added by {ownerTeam} again
 shared_channels.29536b1: Upgrade before your trial ends on {formattedTrialEndDate} to stay connected
 shared_channels.907b3be: View Details
@@ -21616,7 +21620,6 @@ shortcuts_gallery.825ce9e: Workflows
 shortcuts_gallery.c2845d7: Workflows Educational Video
 shortcuts_gallery.849e121: Workflows Tabs
 shortcuts_gallery.eff15f6: Workflows managed by you
-shortcuts_gallery.b2d57b1: You aren’t managing any workflows yet
 shortcuts_gallery.b456ffb: You haven’t created any workflows yet.
 shortcuts_gallery.e0ab304: You haven’t used any workflows yet
 shortcuts_gallery.e800137: You may want to try adjusting your filters.
@@ -28481,6 +28484,8 @@ workflow_builder.eb84cdf: Add a Source
 workflow_builder.5df0e8b: Add a branch
 workflow_builder.ef155f0: Add a button
 workflow_builder.e7a7ad9: Add a canvas tab to channel
+workflow_builder.e4c6fd9: Add a destination
+workflow_builder.f8c156a: Add a failure alert destination
 workflow_builder.f475c9e: Add a form for this step
 workflow_builder.6db0d60: Add a form for this step?
 workflow_builder.dbdffd1: Add a message step with a "Continue Workflow" button before this interactive step in order to use it.
@@ -28525,6 +28530,7 @@ workflow_builder.254dee1: Add to
 workflow_builder.9790eb5: Add to Channel
 workflow_builder.f347a8d: Add user
 workflow_builder.fd9ba1c: Add words or phrases
+workflow_builder.f555704: Added to the daily digest.
 workflow_builder.d17f58f: Adding a bookmark
 workflow_builder.10f297c: Adding a canvas tab to a channel
 workflow_builder.32485fa: Adding a channel manager
@@ -28542,6 +28548,8 @@ workflow_builder.dfee530: After a set number of occurrences
 workflow_builder.d682699: Afternoon
 workflow_builder.0ebe23e: Agent response
 workflow_builder.64acf7e: Agents
+workflow_builder.f3bf982: Alert for every failure (similar failures grouped)
+workflow_builder.b51ebf5: Alert routing failed ({detail}). Only the owners were notified.
 workflow_builder.8dfc711: All <strong>Send to Salesforce App</strong> and <strong>Send to Sales Home</strong> steps in this workflow must have the same recipient.
 workflow_builder.3a7853c: All Salesforce steps must use an account in the same Salesforce organization.
 workflow_builder.660e094: All Send to Salesforce App and Send to Sales Home steps in this workflow must have the same recipient.
@@ -28552,6 +28560,8 @@ workflow_builder.ce28036: All skin tones
 workflow_builder.b390ab3: All tools
 workflow_builder.56d4288: Allow Slackbot to continue the workflow
 workflow_builder.d5ee94e: Also include connected, external organizations to find and run. 
+workflow_builder.21024e3: Also send alerts to
+workflow_builder.a62293d: Always notified
 workflow_builder.ddc1b04: An admin has disabled external file access for AI workflow steps. Remove external files to continue.
 workflow_builder.156492d: An admin has disabled file access for AI workflow steps. Remove files to continue.
 workflow_builder.c447b4b: An admin has restricted one or more of the selected canvases for use with AI steps. Remove restricted canvases.
@@ -28778,6 +28788,7 @@ workflow_builder.a406db7: Custom steps are only available with specific paid pla
 workflow_builder.81f83be: Customer support
 workflow_builder.e781c1d: Customize how to start the workflow
 workflow_builder.728298d: Daily
+workflow_builder.b0a92ef: Daily digest
 workflow_builder.c946878: Dang
 workflow_builder.59fa00f: Data Variables
 workflow_builder.196acb8: Data management
@@ -28823,7 +28834,9 @@ workflow_builder.55f8ebc: Description
 workflow_builder.388de6f: Description (optional)
 workflow_builder.4fc1a48: Developer tools
 workflow_builder.3f1c632: Diagnose
+workflow_builder.1a1d733: Diagnose my workflow failure: workflow_id={workflow_id}, execution_id={execution_id}
 workflow_builder.1c6d938: Diagnose with Slackbot
+workflow_builder.5b2eb6e: Digest sent
 workflow_builder.c1e9003: Direct Message
 workflow_builder.7a2255d: Disable button on a certain date
 workflow_builder.36fff63: Discard
@@ -28921,6 +28934,8 @@ workflow_builder.50a0adc: FALLBACK
 workflow_builder.09fef5d: Failed
 workflow_builder.0b40184: Failed to export activity log. Please try again later.
 workflow_builder.138dc19: Failed to load tools.
+workflow_builder.f3d4d2f: Failure alerts
+workflow_builder.6925b79: Failure alerts become available once this workflow is published by someone who has them.
 workflow_builder.97cdbdc: False
 workflow_builder.ae31ad5: Featured
 workflow_builder.c326a46: Field
@@ -29057,6 +29072,7 @@ workflow_builder.24ebe97: Lagoon
 workflow_builder.c720647: Language:
 workflow_builder.d1c69a8: Last
 workflow_builder.7858db9: Last activity date
+workflow_builder.155cad8: Last failure · {timeAgo}
 workflow_builder.378cbbf: Learn More
 workflow_builder.ffaa8b6: Learn about managing workflows
 workflow_builder.824d76b: Learn more
@@ -29141,8 +29157,11 @@ workflow_builder.c107752: Next Quarter
 workflow_builder.816c52f: No
 workflow_builder.90a1e23: No MCP servers available.
 workflow_builder.32e90bd: No data sources are available
+workflow_builder.c1dfb1b: No destinations were set then, so only the owners were notified.
+workflow_builder.871d72c: No failures to send yet
 workflow_builder.a45c4ab: No filters. All rows (up to {limit}) will be returned.
 workflow_builder.f4e1241: No items
+workflow_builder.1244499: No other destinations yet.
 workflow_builder.86d682c: No outputs defined.
 workflow_builder.ff161bb: No responses yet
 workflow_builder.e9cc6d0: No results found.
@@ -29154,6 +29173,8 @@ workflow_builder.8890be5: No variables for this field type available. If compati
 workflow_builder.5798946: None selected
 workflow_builder.4ce5647: Not available to you
 workflow_builder.8b02f3d: Not connected
+workflow_builder.040e9ba: Not posted: the same failure already sent an alert in the last hour. The next alert will count it. Saving a change here sends the next failure right away.
+workflow_builder.8430e7c: Not posted: this workflow reached its limit of alerts for the hour.
 workflow_builder.2c924e3: Note
 workflow_builder.3d25b2c: Now with @mentions
 workflow_builder.288e718: Now, choose what to do with the AI response.
@@ -29167,6 +29188,7 @@ workflow_builder.c5e21de: On the last day of the month
 workflow_builder.29495a9: On the {dayOfMonth, selectordinal, one {#st} two {#nd} few {#rd} other {#th}} day
 workflow_builder.d9c7687: Once
 workflow_builder.e5c231f: One or more MCP servers aren’t available to you. If they were removed, this step can’t use them when it runs.
+workflow_builder.6878c9e: One or more destinations can’t receive alerts. Check that the channel, user group, or person still exists, that you can post in the channel, and that user groups have no more than 25 members.
 workflow_builder.5571a7f: One or more selected canvases have restricted sharing. Choose a different canvas or ask the owner for sharing permissions.
 workflow_builder.878829a: One or more selected canvases were not found. Choose a different canvas to continue.
 workflow_builder.75f3337: One or more selected files were not found. Choose a different file to continue.
@@ -29179,6 +29201,7 @@ workflow_builder.45866bc: Only people in this list can find and use this workflo
 workflow_builder.ce9c957: Only people in this list can find this workflow.
 workflow_builder.5bc1e24: Only run when a related object matches (optional)
 workflow_builder.f4315d5: Only run when these people start a huddle
+workflow_builder.066d3b2: Only workflow managers can change where failure alerts go.
 workflow_builder.876e294: Only workflow managers can find and use this workflow
 workflow_builder.b56ced0: Oops! Your workflow was not published
 workflow_builder.28c1758: Oops, there was an error exporting that workflow
@@ -29190,6 +29213,7 @@ workflow_builder.d0e687b: Operator
 workflow_builder.e72184f: Or
 workflow_builder.7564576: Or, start from scratch — choose how the workflow starts and the steps that follow.
 workflow_builder.084e860: Out-of-date Info
+workflow_builder.714ce59: Outcome: {outcome}
 workflow_builder.661496e: Outdated field
 workflow_builder.cdd6290: Outline
 workflow_builder.4bed336: Output
@@ -29206,6 +29230,7 @@ workflow_builder.5bdccc8: Permanently delete the workflow
 workflow_builder.94d0eb1: Permanently delete this template?
 workflow_builder.69288b1: Permanently delete this workflow?
 workflow_builder.d06d555: Permissions
+workflow_builder.8c41ae8: Person
 workflow_builder.813e04e: Person who last interacted with the workflow
 workflow_builder.1a44cf2: Pinned by {senderName}
 workflow_builder.555cd4e: Pinning a message
@@ -29293,6 +29318,7 @@ workflow_builder.66bdfe3: Repeat on
 workflow_builder.a441afa: Repeat step started
 workflow_builder.27d1544: Repeating for each item
 workflow_builder.fe0e71f: Replying to a message in thread
+workflow_builder.6e2c712: Report issue
 workflow_builder.4aed03c: Request
 workflow_builder.859ca6c: Request access
 workflow_builder.a9dfc51: Request this step
@@ -29339,6 +29365,7 @@ workflow_builder.6b782d4: Sat
 workflow_builder.17063c5: Saturday
 workflow_builder.efc007a: Save
 workflow_builder.3d75e5d: Save & Add Another
+workflow_builder.c0ae8f6: Saved
 workflow_builder.369c534: Saving
 workflow_builder.876adad: Saving this step will remove all structured output fields you have defined. This cannot be undone.
 workflow_builder.bce0641: Search
@@ -29428,6 +29455,7 @@ workflow_builder.11a55bf: Select {filterFieldName}…
 workflow_builder.4ee17a7: Selected channels:
 workflow_builder.d25c96b: Selecting channels
 workflow_builder.9bc2575: Send
+workflow_builder.8b02ccd: Send Digest Now
 workflow_builder.e777dbc: Send Summary To My Sales Home
 workflow_builder.4625be9: Send Summary To My Salesforce App
 workflow_builder.4ec339c: Send Summary To Salesforce App
@@ -29740,6 +29768,7 @@ workflow_builder.ef33a41: This variable is not available.
 workflow_builder.0cd4b28: This variable is not supported in this input field.
 workflow_builder.e029798: This variable’s type changed and the saved comparison is no longer valid.
 workflow_builder.5f4ac54: This variable’s type changed and the saved comparison is no longer valid. Select a different comparison.
+workflow_builder.c487d11: This was before you last saved these settings.
 workflow_builder.b24c3e5: This will immediately replace the workflows’s URL with a new one. Regenerating a URL may be needed if it’s no longer secure or accessible.
 workflow_builder.afe0027: This will revert the workflow to the last published version. Any new changes since last publish will be lost.
 workflow_builder.6815850: This workflow cannot be imported because one or more required apps are denied or hidden.
@@ -29852,6 +29881,7 @@ workflow_builder.f433bb9: Use this link in any message, canvas or channel
 workflow_builder.a98da96: Useful for turning text with a channel ID into a channel, or a user ID into a user.
 workflow_builder.9f8a238: User
 workflow_builder.b0e799e: User clicked button: {buttonName}
+workflow_builder.9c7b544: User group
 workflow_builder.4add952: User groups
 workflow_builder.8bcb088: User groups are only available with specific paid plans. To continue using this step, upgrade your plan.
 workflow_builder.db5c67c: User picked option: {dropdownOptionTitle}
@@ -29883,6 +29913,9 @@ workflow_builder.348e703: Want each button to do something different? Turn them 
 workflow_builder.5e15fda: Want each emoji reaction to do something different? Turn them into workflow branches in one click.
 workflow_builder.c6b2c68: Want to manage existing workflows?
 workflow_builder.f052edb: Ways to start
+workflow_builder.6d1a800: We couldn’t load failure alert settings.
+workflow_builder.ae11c2b: We couldn’t save failure alert settings. Try again.
+workflow_builder.04c1543: We couldn’t send the digest. Try again.
 workflow_builder.103b8ba: We had a problem loading your spreadsheet. Learn more about <{gsheetsLink}|Google Sheets for Workflow Builder>.
 workflow_builder.bb7bccf: We will generate a real link here once you publish the workflow.
 workflow_builder.b8386b4: Web request URL
@@ -29916,6 +29949,7 @@ workflow_builder.9b81b80: When a person joins a Salesforce channel
 workflow_builder.a2cd0fc: When a person joins a channel
 workflow_builder.62af8b6: When an emoji reaction is used
 workflow_builder.c0aef80: When should the summary be sent
+workflow_builder.275f2fb: When to send alerts
 workflow_builder.84176ae: When you delete this template, it will be removed form your templates list and you won’t be able to access it again.
 workflow_builder.5b94ceb: When you delete this workflow, it'll stop working for anyone who uses it and you won't be able to use it again.
 workflow_builder.7cef76a: When you save this step, we will create a new spreadsheet for you.
@@ -29957,6 +29991,7 @@ workflow_builder.a57699d: Workflow managers only
 workflow_builder.089bf9e: Workflow managers, plus specific people, channels, and workspaces
 workflow_builder.c0ad97c: Workflow names can’t support special characters (i.e. !#$%&).
 workflow_builder.35831a4: Workflow names can’t use punctuation marks and certain special characters, for example: ! ? @ # % + & $ * : " , / [ ]
+workflow_builder.2eafccf: Workflow owners always get a direct message when this workflow fails. You can also send alerts to up to {max} other places.
 workflow_builder.cfff72a: Workflow start has been updated
 workflow_builder.e7a7d12: Workflow starting
 workflow_builder.281c576: Workflow title
@@ -30053,6 +30088,7 @@ workflow_builder.45b7df2: You’ll need to add a message step with a button here
 workflow_builder.6997476: You’ll need to add a message step with a button to use the function in the next step.
 workflow_builder.c5e6323: You’ll need to pick a person or a user group.
 workflow_builder.49066ee: You’re not a member of the selected channel. To edit this step, rejoin the channel or select a different one.
+workflow_builder.ce1aff1: You’ve added the maximum of {max} destinations.
 workflow_builder.1c3c04c: You’ve imported a workflow
 workflow_builder.7f336f4: Zoe Maxwell
 workflow_builder.1c31f25: _blank_
