@@ -1168,6 +1168,7 @@ App list
 App not found
 App permissions and security
 App permissions updated
+App request was already handled.
 App suggestions collapsed
 App type
 App website
@@ -1456,7 +1457,6 @@ Automatically sync your calendar to your Slack status
 Automatically turn on Privacy Mode
 Automatically turn on when I share or record my screen
 Automatically updates
-Automation Groups
 Automation tools
 Automations only
 Automerge.use() not called
@@ -2197,6 +2197,7 @@ Channels can only have 100 Channel Managers.
 Channels in Slack keep work focused around a team, topic, or project. Files, conversations, and anything else you share here are easy for teammates (and agents) to find later.
 Channels loaded.
 Channels results loaded successfully
+Channels to exclude
 Channels where the workflow starts are not imported. To continue importing, select at least one channel where the workflow will start.
 Channels, DMs and threads you visit in Slack will appear here.
 Character, outfit, and size changes save to your Slack account.
@@ -3801,7 +3802,6 @@ Disable Web-Socket Updates
 Disable WebSocket Receive
 Disable WebSocket Send
 Disable button on a certain date
-Disable group
 Disable link
 Disable preview
 Disabled all legacy desktop shortcut mechanisms
@@ -4297,7 +4297,6 @@ Enable camera in browser address bar
 Enable debug mode
 Enable email imports to this workspace
 Enable for Slackbot
-Enable group
 Enable keyboard shortcut
 Enable member provisioning for your team.
 Enable mic in browser address bar
@@ -4901,6 +4900,7 @@ Failed to open Slackbot mini from NUX
 Failed to open allowed microphone
 Failed to open or render the huddle host draw window
 Failed to open or render the huddle mini panel
+Failed to open the app request review
 Failed to outline the attached window
 Failed to parse URL for debug_clogs param
 Failed to parse launch_connect_apps_modal action value
@@ -5334,6 +5334,7 @@ Filter options are open
 Filter permissions
 Filter pull requests
 Filter recent conversations and workflows
+Filter recent workflows
 Filter recents
 Filter results have been updated
 Filter skills
@@ -8834,6 +8835,7 @@ No matching skills
 No matching updates from past 30 days
 No matching updates loaded yet
 No matching views
+No matching workflows
 No media found for this channel
 No media found for this channel.
 No media results for 
@@ -9309,6 +9311,7 @@ Only admins and channel managers can change this.
 Only admins and specific people can post
 Only admins can add
 Only admins can post
+Only admins can review app requests.
 Only badge the channel when someone @mentions you
 Only certain people can invite this agent to channels at this time.
 Only certain people can turn on proactive replies.
@@ -9835,7 +9838,6 @@ People, apps, and agents
 Performance APIs not available. Update your Slack app!
 Performs deep link handling for arguments parsed from a slack: URI
 Period covered
-Permanently delete this group?
 Permanently delete this template?
 Permanently delete this workflow?
 Permission actions
@@ -11149,6 +11151,7 @@ Review of confirmations and deal tickets
 Review opportunities with out-of-date info
 Review opportunities with past close dates
 Review permissions for this template
+Review request
 Review requested
 Review summary
 Review text changes before applying them to an attached window.
@@ -12236,10 +12239,8 @@ Share event
 Share file with channel?
 Share files
 Share folder
-Share invite link
 Share item
 Share link in LINE WORKS
-Share link with email template
 Share list
 Share message
 Share more with Slackbot
@@ -13812,7 +13813,6 @@ This app is unavailable
 This app requires permission to access the following resources:
 This automated message was set up by a workspace admin.
 This automated message was set up by someone in your workspace.
-This automation group no longer exists.
 This browser session has closed.
 This cache has already been disposed
 This canvas has been shared with connected external people using Slack Connect.
@@ -15663,6 +15663,7 @@ When your agent starts on something from the chat, or someone needs an answer fr
 Whenever you visit your Sales Tracker, call on Slackbot to jump into action, or to see what else you can do with Slack CRM.
 Where can this app be used?
 Where do you usually work with your team?
+Where editor save blocked: entity-based app has no members
 Where is my pipeline coming from?
 Where it can be used
 Where your team is talking

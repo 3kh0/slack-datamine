@@ -1696,8 +1696,6 @@ app_action_picker.2e0db25: Join huddle
 app_action_picker.48ce9cd: Leave huddle
 app_action_picker.40de3c4: Manage Connectors
 app_action_picker.5b7111c: Manage apps
-app_action_picker.412d8f8: Mute this DM
-app_action_picker.14052c0: Mute this group DM
 app_action_picker.472d469: No available apps
 app_action_picker.c58c9bd: No connectors
 app_action_picker.28477b1: Notifications resumed
@@ -1709,11 +1707,7 @@ app_action_picker.430b38b: Slack
 app_action_picker.d9a37db: Start huddle
 app_action_picker.ef98f1f: Start or join huddle
 app_action_picker.c90c34e: Tip: double click to upload
-app_action_picker.603714f: Unfollow thread
 app_action_picker.3421434: Unfollowed thread
-app_action_picker.4928b8e: Unmute this DM
-app_action_picker.e7f9206: Unmute this channel
-app_action_picker.7863efd: Unmute this group DM
 app_action_picker.6ffdfad: Update your status
 app_action_picker.43e92d7: You’re set to active
 app_action_picker.f150453: You’re set to away
@@ -1890,6 +1884,7 @@ app_details.1d06648: {appName} is installed on {teamName}
 app_details.2a4c7f0: ‘{appName}’ will be able to do
 app_details.96cb78d: ‘{appName}’ will be able to view
 app_dialog.b16c7ac: (optional)
+app_dialog.0997bad: Header Icon
 app_dialog.2dacf65: Submit
 app_dialog.ab90d9d: This field is required.
 app_dialog.26dc55d: We had some trouble connecting. <a>Try again?</a>
@@ -2615,7 +2610,6 @@ assistant.253c6f8: The selected channel could not be found.
 assistant.821bd64: There was an issue summarizing this file. This may be because of the format, or because it’s password protected.
 assistant.160f880: This answer content is no longer valid. Try generating a new answer.
 assistant.0ea79de: This answer is no longer available to share.
-assistant.5bd01a6: This automation group no longer exists.
 assistant.993da52: This feature is not available for your account.
 assistant.29f5b59: This hour has its own kind of focus.
 assistant.18a682f: This tool uses AI to generate workflows and may not always get it right. Let us know how it went.
@@ -6362,8 +6356,10 @@ code-review-success-toast.47d34f2: View in channel
 code-tab.d34ffd3: Add a reaction
 code-tab.cf05eca: Add reaction
 code-tab.85174b7: All changes
+code-tab.df81c5b: All files collapsed
 code-tab.41b81eb: Approved
 code-tab.e1e6574: Auto-merge on
+code-tab.f3a4aa0: Branch {branch}
 code-tab.77dfd21: Cancel
 code-tab.fe25abc: Changed files
 code-tab.9be1668: Changes requested
@@ -6376,6 +6372,7 @@ code-tab.ff337dc: Comment deleted
 code-tab.b024afd: Comment updated
 code-tab.74536b5: Commits
 code-tab.5eb9d05: Commits to show
+code-tab.73ea9a9: Comparing {base} ← {head}
 code-tab.ff4aceb: Connect your GitHub account to change this pull request’s status.
 code-tab.2b56f45: Connect your GitHub account to delete this comment.
 code-tab.614f319: Connect your GitHub account to edit this comment.
@@ -6392,12 +6389,14 @@ code-tab.8c0451d: Copy GitHub link
 code-tab.2f84eea: Copy link
 code-tab.a310281: Couldn’t change this pull request’s status. Give it another try.
 code-tab.8cf663d: Couldn’t load more comments.
+code-tab.70859e0: Couldn’t load the changes in these commits.
 code-tab.de77bd4: Couldn’t load the latest commits
 code-tab.f6fdbe4: Delete
 code-tab.4be7edc: Delete comment
 code-tab.687c1cb: Delete comment?
 code-tab.556c939: Description updated
 code-tab.38c1b65: Diff display options
+code-tab.01beb79: Diff truncated — too many files or changes to display
 code-tab.23d33e2: Draft
 code-tab.3b16825: Edit comment
 code-tab.2ebe5b3: Edit description
@@ -6415,7 +6414,9 @@ code-tab.d338d08: Jump to file
 code-tab.972ad8d: Layout
 code-tab.fcf82cb: Load more comments
 code-tab.2470ebc: Loading commits…
+code-tab.41a5c16: Loading diff
 code-tab.04999e3: Loading more comments
+code-tab.3a25ab1: Loading the commits’ changes
 code-tab.6a3b6a2: Merge conflicts
 code-tab.0c44559: Merged
 code-tab.4bab2d8: More
@@ -6455,31 +6456,40 @@ code-tab.73989d9: Running
 code-tab.efc007a: Save
 code-tab.ccc7c45: Saving comment
 code-tab.ed27be4: Saving description
+code-tab.a414274: Show All Changes
 code-tab.f5b60f4: Show file tree
 code-tab.4c852b2: Show less
 code-tab.25911d4: Show more
 code-tab.7237359: Show resolved
+code-tab.d4a36c1: Showing changes from some commits. Comments are hidden.
 code-tab.30c9bdc: Some comments aren’t shown. View the pull request on GitHub to see them all.
+code-tab.ee6f63c: Something went wrong fetching the diff. Please try again later.
 code-tab.fc8230b: Split
 code-tab.f55f74b: Tab size
+code-tab.2fdec01: The changes in these commits are too large to show.
 code-tab.cad84dc: There was a problem deleting this comment. Give it another try.
 code-tab.592a3e0: There was a problem resolving this conversation. Give it another try.
 code-tab.a115c77: There was a problem saving this comment. Give it another try.
 code-tab.1fdb66d: There was a problem saving this description. Give it another try.
 code-tab.b78e420: There was a problem unresolving this conversation. Give it another try.
+code-tab.cd287d8: These commits don’t change any files.
 code-tab.a2cd3f2: This also deletes the comment on GitHub. This can’t be undone.
 code-tab.c8e66c7: This comment no longer exists on GitHub.
 code-tab.35b46ef: This conversation no longer exists on GitHub.
 code-tab.c27f171: This conversation was marked as resolved.
 code-tab.a0ddf21: This description was changed on GitHub. Reload the Code tab to edit the latest version.
+code-tab.08b90ac: This is a merge commit.
+code-tab.ad2239f: This pull request can’t be shown here yet
 code-tab.0925258: This pull request has already merged.
 code-tab.d19ceca: Tip
 code-tab.cef2fe0: Try Again
 code-tab.042c862: Try again
+code-tab.9afdcac: Unable to load diff
 code-tab.287fda8: Unified
 code-tab.88cab05: Unresolve Conversation
 code-tab.97e5ac0: Unresolving conversation
 code-tab.334d9a1: View Comments
+code-tab.c511e1c: View it on GitHub
 code-tab.23a6732: View message
 code-tab.0c77991: View on GitHub
 code-tab.e9c4556: Warning
@@ -6494,6 +6504,9 @@ code-tab.bf43146: {author} on {location}: {comment}
 code-tab.db03f19: {count, plural, =1 {Review changes (1 pending comment)} other {Review changes (# pending comments)}}
 code-tab.5643f7d: {count, plural, one {# comment} other {# comments}}
 code-tab.c0ccea2: {count, plural, one {# commit} other {# commits}}
+code-tab.dd7e868: {count, plural, one {# earlier commit isn’t included because it comes before a merge commit.} other {# earlier commits aren’t included because they come before a merge commit.}}
+code-tab.f35d82c: {count, plural, one {# earlier commit isn’t included because it comes before a merge from {base}.} other {# earlier commits aren’t included because they come before a merge from {base}.}}
+code-tab.525dedc: {count, plural, one {# file changed} other {# files changed}}
 code-tab.fd1d44e: {count, plural, one {# new commit} other {# new commits}}
 code-tab.97d3b45: {count, plural, one {Files Changed, # file} other {Files Changed, # files}}
 code-tab.59a7d03: {count, plural, one {First # commit} other {First # commits}}
@@ -12123,6 +12136,7 @@ includes_client.c9aea15: Mention someone
 includes_client.87a9243: Show formatting
 inline-agent-view-canvas-block.232f7ea: Open {title}
 inline-agent-view-html-block.232f7ea: Open {title}
+inline-code-diff-block.525dedc: {count, plural, one {# file changed} other {# files changed}}
 inline_attachments.e963907: Remove
 inline_attachments.645831c: Remove preview?
 inline_member.8b26e30: (Unavailable)
@@ -12253,6 +12267,7 @@ invite-to-workspace.f2b4c81: Invite people to {workspaceName}
 invite-to-workspace.1b5849e: Invite someone else to help you build out the workspace.
 invite-to-workspace.6fbed9e: Invite your coworkers with this link
 invite-to-workspace.0059a0e: Learn more about guests
+invite-to-workspace.d7c3adb: Let’s try working together in Slack. We can chat, share resources, and keep our work organized in one place. Join here: {link}
 invite-to-workspace.0d2968b: Limited to select channels, files, and directory
 invite-to-workspace.c2e9847: Link copied
 invite-to-workspace.52b5c2d: Make sure your teammates are in the right conversations from the get go.
@@ -13834,6 +13849,8 @@ menu.c0774ce: Browse apps
 menu.2190a3b: Browse channels
 menu.124c499: Browse external connections
 menu.524932e: Browse files
+menu.057d9b3: By most recent
+menu.d3a672b: By most recent (Default)
 menu.7bd6043: Canvas details
 menu.c1ecc60: Change to a private channel
 menu.c24b99e: Channel details
@@ -13930,6 +13947,7 @@ menu.80cec9c: Mute and hide
 menu.3a4727a: Mute channel
 menu.d261547: Mute conversation
 menu.ec5a2c9: Muted conversations
+menu.a22cfe2: New activity within the last 3 days
 menu.09c8ea4: New activity within the last 30 days
 menu.a388818: New window
 menu.522fe5b: No messages in at least 30 days
@@ -15765,7 +15783,6 @@ modernselling.1d11bc0: View Salesforce Lists
 modernselling.dfdb331: View actions
 modernselling.badd385: View details
 modernselling.b98795a: View profile
-modernselling.53a2b8a: Viewed {time}
 modernselling.fec9183: Viewing this list is limited in Slack
 modernselling.d283122: Visible to everyone in your organization, including guests, but not to Slack Connect users.
 modernselling.9c66c89: Visit Sales to see more
@@ -17178,6 +17195,7 @@ prefs.20ec7e3: A–Z
 prefs.f03b60f: Beta
 prefs.30fdbdc: Blend <strong>Window background</strong> and <strong>Selected items</strong> colors together in window backgrounds.
 prefs.a83a52c: Bring emails into Slack
+prefs.057d9b3: By most recent
 prefs.b6803af: Calendar notifications
 prefs.3284641: Can be reordered, but not turned off.
 prefs.77dfd21: Cancel
@@ -19806,6 +19824,7 @@ search.a97f418: Filter by channel type
 search.3f1cdf5: Filter channels
 search.44f4b87: Filter pull requests
 search.0121e51: Filter recent conversations and workflows
+search.156799e: Filter recent workflows
 search.3d06461: Filter sources
 search.96e5782: Filters
 search.e0cd16e: Filters {filterCount, plural, =0 {} other {(#)}}
@@ -19979,6 +19998,7 @@ search.ac1fe62: No matches in this channel
 search.ea67822: No matches in this conversation
 search.c8ece08: No matches in your suggested records
 search.0f112c9: No matching sessions or workflows
+search.30b0af7: No matching workflows
 search.bb60f28: No recent agents
 search.651e0e7: No recent matches
 search.b993b0c: No results
@@ -20646,8 +20666,6 @@ setup_page.d42293f: Couldn’t send an invitation to {email}.
 setup_page.61eafdf: Couldn’t send invitations to {emailOne} and {emailTwo}.
 setup_page.6f3c48d: Couldn’t send invitations to {emails}, and {remainingEmailsNum, plural, =1{# other} other{# others}}.
 setup_page.d56f703: Creating your workspace…
-setup_page.6f57834: Data residency for Slack
-setup_page.6c1d226: Data residency for Slack allows global teams to choose the region where certain types of data at rest are stored. Customers must store all Slack data in a single region.
 setup_page.e7596a0: Direct messages
 setup_page.91ea4d3: Dismiss message suggestions
 setup_page.3456bcb: Do later
@@ -20662,7 +20680,6 @@ setup_page.19fce65: Email template
 setup_page.0cf1da7: Enter email addresses, Example: {email1}, {email2}
 setup_page.5c4c2f1: Enter your full name
 setup_page.1913a38: Ex: Acme Marketing or Acme Co
-setup_page.ae92b05: Ex: Q4 budget, autumn campaign
 setup_page.6ce6c51: Files
 setup_page.9e37afd: Fill in your profile
 setup_page.7c49bc0: Financial Services
@@ -20672,7 +20689,6 @@ setup_page.c0d883b: First and last name
 setup_page.834c4d4: For some reason, that didn’t work. Please try again to continue.
 setup_page.1ef70d2: From here, you can message any coworker or channel.
 setup_page.89df370: From here, you can message any coworker or channel. Not seeing the right person in the list above? <a>Add people to Slack</a>
-setup_page.eaabce3: Give your {name} template a name
 setup_page.193a6d5: Go to next step
 setup_page.c8a4874: Got It
 setup_page.e321d24: HORIZONTAL_RULE
@@ -20728,7 +20744,6 @@ setup_page.b37554f: People
 setup_page.c445e21: People added here will have access to your Slack workspace, where they can collaborate with you and each other.
 setup_page.f97147f: Please search by name instead
 setup_page.e82cd59: Project brief
-setup_page.23c01cc: Project name, example: Q4 budget, autumn campaign
 setup_page.4d89a20: Project tracker
 setup_page.6f1764e: Public Sector
 setup_page.58f6c1d: Ready to send your message?
@@ -20748,7 +20763,6 @@ setup_page.9278dcf: Skip this step
 setup_page.fffa0bf: Skip without inviting?
 setup_page.ff8e63c: Slack CRM will be part of your Slack workspace. Choose a name that your team will recognize, like the name of your company or team. You can always update it later.
 setup_page.e21da9e: Slack Connect
-setup_page.7e41dcc: Slack can only handle letters, numbers, spaces, and dashes here, with up to 80 characters. Try again?
 setup_page.f9ee69b: Slack is a simple and fast way for teams to work together — whether you’re sitting side-by-side or scattered across the globe.
 setup_page.ad8448a: Slack works better with more people. Add your core collaborators.
 setup_page.bc471cb: Something went wrong. Try again please.
@@ -20759,15 +20773,11 @@ setup_page.daa9a9f: Start taking advantage of free access to your team’s full 
 setup_page.5874903: Step {stepNumber} of {totalStepsCount}
 setup_page.f275147: Ta-da! Your team’s on a free trial of Slack
 setup_page.d018b08: Technology
-setup_page.d47d1f3: The template you selected will be used to create a channel. Give it a name your teammates will recognize.
 setup_page.b21c97f: This channel will be added to your {otherWorkspaceName} workspace.
-setup_page.2b34226: This could be anything: a campaign, event, or the deal you’re trying to close.
-setup_page.48bfcb3: This could be anything: a project, campaign, event, or the deal you’re trying to close.
 setup_page.ab90d9d: This field is required.
 setup_page.3f25365: This invitation is no longer available. You may want to reach out to the person who sent you this link for help.
 setup_page.3e0d550: This is Slack, a messaging app built for work
 setup_page.9da1708: This is your team — choose a few people you know
-setup_page.789d61b: This name will be the first thing your team sees in reference to your template.
 setup_page.2d0ab40: This will be the name of your Slack workspace.
 setup_page.bb12e8a: Threads
 setup_page.47f64cb: To get started you can only select 10 external people. Don’t worry, you can always start conversations with more people later on!
@@ -20787,11 +20797,9 @@ setup_page.f197e4b: Welcome! Get up to speed by…
 setup_page.1f52262: Welcome! Let’s use this list to manage our tasks: 
 setup_page.de5d60a: Welcome! Let’s use this list to…
 setup_page.6aa2ae7: We’ll put their names in your sidebar, so you can easily start a conversation. (This won’t message or notify them, though.)
-setup_page.b1a2017: What are you working on?
 setup_page.7bcb831: What do you want to call your Slack workspace?
 setup_page.391732c: What does this mean
 setup_page.041e6ec: What’s your name?
-setup_page.485a093: What’s your team working on right now?
 setup_page.acf1543: Where should we store your workspace data?
 setup_page.667fe3c: While you wait for approval, <a>send {member} a message</a> to let them know you accepted the invite.
 setup_page.f9094d6: Who else is on the <t1>{teamName}</t1> team?
@@ -24155,7 +24163,6 @@ slackbot-ai.6a3c2f0: Ask Slackbot: {prompt}
 slackbot-ai.f1b316a: Ask it to do things for you, like prep for meetings and draft replies.
 slackbot-ai.6771ade: Attachments
 slackbot-ai.5fda23d: Author
-slackbot-ai.771edd6: Automation Groups
 slackbot-ai.b79a6a2: Available to install
 slackbot-ai.b52b36b: Back
 slackbot-ai.e0ad198: Bring {name} into your Slackbot conversations
@@ -24229,13 +24236,10 @@ slackbot-ai.5b72d01: Daily/Weekly Briefing
 slackbot-ai.808d7dc: Default
 slackbot-ai.afe853a: Delegate to Slackbot
 slackbot-ai.f6fdbe4: Delete
-slackbot-ai.b6f15b2: Delete group
 slackbot-ai.af1456f: Delete project
 slackbot-ai.55f8ebc: Description
 slackbot-ai.dc3decb: Details
 slackbot-ai.3ad84a8: Didn’t finish? Try again, or choose Skip.
-slackbot-ai.8c594db: Disable group
-slackbot-ai.f4f4473: Disabled
 slackbot-ai.36fff63: Discard
 slackbot-ai.d3f0b43: Discard changes?
 slackbot-ai.02e7917: Disconnect {name}
@@ -24259,7 +24263,6 @@ slackbot-ai.3ec414f: Email draft updated
 slackbot-ai.d696749: Email not sent. Sending from Slack isn’t available, but you can still open or copy this draft.
 slackbot-ai.82a8f06: Email sent
 slackbot-ai.ee3eca1: Email {current} of {total}, {subject}
-slackbot-ai.d1a904c: Enable group
 slackbot-ai.ff9d950: End-of-day wrap-up
 slackbot-ai.438a8eb: Enter the prompt that you want the task to run
 slackbot-ai.cba3a11: Enterprise search
@@ -24568,7 +24571,6 @@ slackbot-ai.aac8075: {count, plural, =1 {# message} other {# messages}}
 slackbot-ai.ed26324: {count, plural, =1 {# task found} other {# tasks found}}
 slackbot-ai.473b95a: {count, plural, =1 {# tool} other {# tools}}
 slackbot-ai.49f452f: {count, plural, =1 {{totalCountStr} result found} other {{totalCountStr} results found}}
-slackbot-ai.6b37fe8: {count, plural, one {# automation} other {# automations}}
 slackbot-ai.c598756: {count, plural, one {# conversation found} other {# conversations found}}
 slackbot-ai.bc8d0df: {count, plural, one {# person you work with uses} other {# people you work with use}} Slackbot tasks
 slackbot-ai.7edf653: {count, plural, one {# source} other {# sources}}
@@ -25924,7 +25926,6 @@ solutions.f09f666: onboarding-template
 solutions.7981a4e: templates
 solutions.899531e: workflow
 solutions.7335252: {channelName} is ready
-solutions.52aca42: {name} template features:
 solutions.e2c9d5d: {teamName} template
 solutions.9af6499: {teamName} templates
 solutions_onboarding.f9a12b0:  Add a few tasks from your project to get started. If you invite teammates to Slack, you can assign tasks to them from here.
@@ -30319,11 +30320,12 @@ workflows.badd385: View details
 workspace_apps_manage.c53994e: (Optional)
 workspace_apps_manage.a1fdf1d: (on behalf of a user)
 workspace_apps_manage.0078c20: <b>{appConfigurations,plural,=1{# existing configuration}other{# existing configurations}}</b> will remain until removed.
+workspace_apps_manage.ac15c99: Acts as users
+workspace_apps_manage.b9b41b0: Add channels
 workspace_apps_manage.d747b8e: Add groups
 workspace_apps_manage.b9c735e: Add people
 workspace_apps_manage.6a72085: All
 workspace_apps_manage.844df14: All channels
-workspace_apps_manage.fb78187: All channels except specific channels
 workspace_apps_manage.8158d20: Allow this app to install managed agent apps
 workspace_apps_manage.79ac60c: Allow {scope}
 workspace_apps_manage.20ab15d: Allow {scope} on behalf of a user
@@ -30333,9 +30335,12 @@ workspace_apps_manage.fac6c6e: Approve {connectorName} for workflows
 workspace_apps_manage.26fb03f: Approving…
 workspace_apps_manage.77dfd21: Cancel
 workspace_apps_manage.84d8abf: Cancel Request
+workspace_apps_manage.18e03e2: Channels
 workspace_apps_manage.7605fa0: Connect to Slack AI features through MCP servers
 workspace_apps_manage.408ec60: Couldn’t cancel this request. Try again in a moment.
 workspace_apps_manage.6700697: Couldn’t load the access requested for this app.
+workspace_apps_manage.26e7286: Couldn’t load this app’s channels. Close this and try again.
+workspace_apps_manage.1db6eae: Couldn’t load this request.
 workspace_apps_manage.53577bb: Deny
 workspace_apps_manage.31b6d03: Deny Request
 workspace_apps_manage.8f82e32: Deny {appName}?
@@ -30347,11 +30352,13 @@ workspace_apps_manage.eaf7b5e: Everyone in {targetName}
 workspace_apps_manage.5bf64a2: Filter permissions
 workspace_apps_manage.ae9629f: Groups
 workspace_apps_manage.088450b: Groups to exclude
+workspace_apps_manage.667c4ba: High risk
 workspace_apps_manage.fc9225a: Internal
 workspace_apps_manage.8d9a304: MCP servers
 workspace_apps_manage.a8e3adb: Manage Permissions
 workspace_apps_manage.a643505: Members will no longer be able to add or edit configurations.
 workspace_apps_manage.6403f2b: New
+workspace_apps_manage.a7d83b8: Only specific channels
 workspace_apps_manage.0c6c410: Optional
 workspace_apps_manage.8b639cc: Optional. Uncheck to leave it out
 workspace_apps_manage.c20e08c: Other permissions
@@ -30359,8 +30366,13 @@ workspace_apps_manage.0830f6b: Outbound domains
 workspace_apps_manage.b37554f: People
 workspace_apps_manage.55a6ec2: People to exclude
 workspace_apps_manage.d06d555: Permissions
+workspace_apps_manage.136e2fe: Rated High risk in your scope ratings.
+workspace_apps_manage.55ad5df: Request for {appName} approved.
+workspace_apps_manage.f9c9d8c: Request for {appName} cancelled.
+workspace_apps_manage.72ef570: Request for {appName} denied.
 workspace_apps_manage.1dcb017: Restrict this app from installation?
 workspace_apps_manage.9f5cd8a: Retry
+workspace_apps_manage.525f174: Review request
 workspace_apps_manage.efc007a: Save
 workspace_apps_manage.56a2285: Saving…
 workspace_apps_manage.081f97d: Security & compliance
@@ -30369,12 +30381,10 @@ workspace_apps_manage.c907671: Showing {count, plural, =1 {# permission} other {
 workspace_apps_manage.430b38b: Slack
 workspace_apps_manage.620581f: Slack Marketplace
 workspace_apps_manage.30d4b7c: Some of the channels for this app no longer exist or aren’t in your organization. Deny the request and ask for a new one with different channel limits.
-workspace_apps_manage.0f3e808: Specific channels
 workspace_apps_manage.bae7d5b: Status
 workspace_apps_manage.cdde4f2: Steps
 workspace_apps_manage.4aedf1e: The access requested for this app can’t be applied. It might include someone or a user group you can’t give access to. Try again. If the problem continues, deny the request and ask for a new one.
 workspace_apps_manage.4a4ce8e: The domains this app has configured aren’t available, so they aren’t listed.
-workspace_apps_manage.bba9bf9: This app has MCP servers. To change who can use it, go to the app’s settings.
 workspace_apps_manage.491a5a6: This request has already been handled.
 workspace_apps_manage.047708b: Triggers
 workspace_apps_manage.cef2fe0: Try Again
@@ -30386,9 +30396,9 @@ workspace_apps_manage.4d3d35e: Workflow Builder steps
 workspace_apps_manage.5499346: Workflow Builder steps & triggers
 workspace_apps_manage.f8b4643: You changed where this app can be used, and you don’t have permission to manage channels. Keep the requested channels, or ask an admin with that permission to approve this request.
 workspace_apps_manage.aec55a5: You don’t have permission to add a private channel you’re not in. Remove it from where this app can be used, or ask an admin with permission to manage private channels to approve this request.
-workspace_apps_manage.77f4cc3: You don’t have permission to change this.
 workspace_apps_manage.54f4322: You don’t have permission to manage who can use apps. Ask an admin with that permission to approve this request.
 workspace_apps_manage.b339014: Your organization can’t limit where apps can be used, so this request can’t be approved. Deny the request and ask for a new one without channel limits.
+workspace_apps_manage.535abd5: {appName} sees what each connected person can see, and acts in their name.
 workspace_apps_manage.f141697: {appName} sees what each connected person can see, not only where it’s added.
 workspace_apps_manage.3e2fe6a: {count, plural, =1 {# workspace} other {# workspaces}}
 workspace_apps_manage.ea07e7f: {filterName}, {count, plural, =1 {# permission} other {# permissions}}
