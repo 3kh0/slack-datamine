@@ -3360,6 +3360,7 @@ entry_point: dnd_dialog
 entry_point: dnd_disabled_menu
 entry_point: dnd_enabled_menu
 entry_point: domain_match_signup_opt_out
+entry_point: download_toast
 entry_point: downmarket_crm_admin_promo_banner
 entry_point: downmarket_crm_handraise_banner
 entry_point: downmarket_crm_tenured_upgrade_banner
@@ -3482,6 +3483,7 @@ entry_point: open-list
 entry_point: open-thread-share
 entry_point: open_in_new_window
 entry_point: opened_canvas
+entry_point: os_menu
 entry_point: other
 entry_point: pause_notification
 entry_point: paywall_preview_find_something
@@ -3535,6 +3537,7 @@ entry_point: share_channel_by_email_modal
 entry_point: share_dialog
 entry_point: shared_channel_error_ineligible
 entry_point: shortcuts_join_huddle
+entry_point: shortcuts_menu
 entry_point: sidebar
 entry_point: sidebar-huddles-page-sidebar-link
 entry_point: sidebar-slack-connect-page-link
@@ -3621,6 +3624,7 @@ entry_point: upgrade_email_v2
 entry_point: use-email-verification-handlers
 entry_point: use-tabs-item-props-builder
 entry_point: use_slack_connect_ctas
+entry_point: user_menu
 entry_point: vip_preferences_people_entity
 entry_point: vip_prefs
 entry_point: vip_prefs_search_select
@@ -3829,6 +3833,7 @@ step: cmd_z_deleting_message
 step: cmd_z_entry_point
 step: code_channel_rename_edit_button
 step: collapsed
+step: completed
 step: compose_flow_close
 step: compose_flow_create
 step: compose_flow_delete
@@ -3949,6 +3954,7 @@ step: mobile_social_proof_banner
 step: more_actions_menu
 step: mpdm_rename_edit_button
 step: mpim_add_people_history_modal
+step: not_completed
 step: notification_banner_open_preferences
 step: notifications
 step: nux
@@ -4185,11 +4191,13 @@ step_variant: disabled-slack-connect-copy
 step_variant: disconnect_banner
 step_variant: done
 step_variant: draft
+step_variant: empty
 step_variant: end
 step_variant: ephemeral
 step_variant: external_add_people_dead_end_modal
 step_variant: external_member_awareness_banner
 step_variant: flexpane
+step_variant: has_downloads
 step_variant: init_set_user_pref_step
 step_variant: inproduct_team_creation
 step_variant: later_actions_menu_open

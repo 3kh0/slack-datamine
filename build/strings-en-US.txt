@@ -3966,7 +3966,6 @@ channel_details.244e85c: Couldn’t connect to {name}. Try disconnecting and rec
 channel_details.6c3bef3: Couldn’t disable {name}. Try again.
 channel_details.bbd5d41: Couldn’t disconnect {name}. Try again.
 channel_details.b6c3959: Couldn’t load agents.
-channel_details.ccf4872: Couldn’t reload tools. Try again.
 channel_details.55c8426: Couldn’t update sharing settings. Please change permissions manually in Google Docs.
 channel_details.c56dc3a: Create New Web Form
 channel_details.b2feca2: Create a new channel
@@ -3988,6 +3987,7 @@ channel_details.5f83735: Details for channel {channelName}
 channel_details.b61dc7a: Details for conversation with {memberOrAppName}
 channel_details.b1996c9: Details for conversation with {mpdmNames}
 channel_details.41aeee1: Details for {quipLabel} {name}
+channel_details.8cf787b: Disable {name}
 channel_details.f4f4473: Disabled
 channel_details.18b2a46: Disconnect from Salesforce record
 channel_details.02e7917: Disconnect {name}
@@ -4577,6 +4577,7 @@ channel_details.a1b95e5: {memberCount, plural, =1 {# member in this channel} oth
 channel_details.4dacc1b: {memberCount, plural, =1 {# member in this conversation} other {# members in this conversation}}
 channel_details.9a4f69e: {memberCount, plural, =1 {# person in this channel} other {# people in this channel}}
 channel_details.3bec7ee: {memberCount, plural, =1 {# person in this conversation} other {# people in this conversation}}
+channel_details.c347c0b: {name} account
 channel_details.ed12d25: {orgName} has some rules for working with people outside the organization. <link>Read the guidelines</link>
 channel_details.7b2c48e: {server_name} icon
 channel_details.6f3b3c7: {skillCount}/{maxSkills} skills
@@ -4589,21 +4590,15 @@ channel_details.e5214cd: {toolCount} write {toolCount, plural, one {tool} other 
 channel_details.5fbe229: {whoCanManage} can edit this setting.
 channel_details.0258f42: {workspaceCount} workspaces
 channel_details_apps_tab.d3a0a22: Add a custom MCP server
-channel_details_apps_tab.f4f77d2: Add custom integration
 channel_details_apps_tab.b071ba3: App installed
 channel_details_apps_tab.d9a3685: Apps
-channel_details_apps_tab.5e2d4a5: Apps you connect in Slackbot show up here.
 channel_details_apps_tab.c0774ce: Browse apps
 channel_details_apps_tab.563862b: Check your connection and try again.
 channel_details_apps_tab.b65463c: Connect
-channel_details_apps_tab.cf0ecf9: Connect apps to Slackbot
 channel_details_apps_tab.585c533: Connect {appName}
 channel_details_apps_tab.4fd4631: Enterprise Search
-channel_details_apps_tab.f2f1c71: Give Slackbot access to your tools so it can help you across Jira, Figma, and more.
 channel_details_apps_tab.a126722: Needs attention
 channel_details_apps_tab.13a1dff: Needs connection
-channel_details_apps_tab.e7dbe6b: No apps found
-channel_details_apps_tab.1ad6073: No connected apps
 channel_details_apps_tab.8b02f3d: Not connected
 channel_details_apps_tab.3bf1218: Pending admin approval
 channel_details_apps_tab.25d1b4b: Pending approval
@@ -4612,6 +4607,7 @@ channel_details_apps_tab.cce7155: Reload
 channel_details_apps_tab.7240901: Request submitted for admin approval
 channel_details_apps_tab.ca3ce8f: Search apps
 channel_details_apps_tab.c7f73bb: Settings
+channel_details_apps_tab.db6d857: Settings for {appName}
 channel_details_apps_tab.8d886c0: Something went wrong
 channel_details_apps_tab.0ba628a: Try a different search term.
 channel_details_apps_tab.cca4a0d: {appName} icon
@@ -5680,6 +5676,7 @@ classic_nav.f7aac54: <strong>Spooky</strong> themes just dropped
 classic_nav.82cf8a5: Account settings
 classic_nav.a733b80: Active
 classic_nav.dfbc285: Add a topic
+classic_nav.5ce2e6f: Agent
 classic_nav.598f0ee: All Threads
 classic_nav.e4196ea: Ask Slackbot about your trial
 classic_nav.e7a6082: Ask a question or get help with a task
@@ -13917,6 +13914,7 @@ menu.50d6325: A-Z
 menu.e5a176a: Active only
 menu.43c3d1c: Add a workflow
 menu.25d4d70: Add agents to DMs
+menu.d19a3ef: Add an agent to this channel
 menu.d6cfda9: Add app to your top bar
 menu.7744218: Add template to channel
 menu.987ed17: Add to VIP
@@ -21956,30 +21954,46 @@ sidebar_visual_updates_coachmark.cad5272: We tweaked the sidebar
 sidebar_visual_updates_coachmark.b0e68b9: With better indentation, smaller icons, and section menus, your sidebar should now be easier to scan.
 sidekicks.d41f9c2: Actions & Permissions
 sidekicks.44e578a: Add Task
+sidekicks.6430a67: Add a prompt to test your agent.
 sidekicks.9e7621a: Add a prompt to test your sidekick.
+sidekicks.44da555: Add instructions to test your agent
 sidekicks.a397ce6: Add instructions to test your sidekick
+sidekicks.5ce2e6f: Agent
+sidekicks.b02d736: Agent settings
+sidekicks.e26c4f0: Agent type
 sidekicks.6a72085: All
+sidekicks.c1fa6e2: Any file you use as a source may be cited in the agent’s response. Cited files will be shared with View access. You can further restrict this access by using Advanced Settings to Limit sharing to owners only.
 sidekicks.594615b: Any file you use as a source may be cited in the sidekick’s response. Cited files will be shared with View access. You can further restrict this access by using Advanced Settings to Limit sharing to owners only.
 sidekicks.a43ccf7: Apply crop
 sidekicks.3dcc1e4: Auto-enhance Instructions
 sidekicks.c8c1f64: Auto-enhancing instructions…
+sidekicks.93a254b: Build an AI agent that joins this channel and answers questions here.
 sidekicks.77dfd21: Cancel
+sidekicks.879f0b1: Channel
 sidekicks.18e03e2: Channels
 sidekicks.6e157c5: Create
 sidekicks.249f8ff: Create New Sidekick
+sidekicks.8aa80e9: Create an agent
+sidekicks.e0f2705: Create an agent for this channel
 sidekicks.8c29271: Created by you
 sidekicks.1f2589b: Crop your photo
 sidekicks.d0cf3ff: Edit Sidekick
+sidekicks.8e424ae: Edit agent
 sidekicks.e818193: Everyone internal in {teamName}
 sidekicks.0ce943b: Failed to auto-enhance instructions fancy. <retry>Try again</retry> or <dismiss>dismiss</dismiss>.
 sidekicks.6ce6c51: Files
+sidekicks.2e4fe9f: Give your agent a name
 sidekicks.5661b88: Give your sidekick a name
+sidekicks.4a4ba91: Goal: (Describe the agent’s goal)\n\nTone: Be friendly, be consise, avoid using jargon.\n\nRemember: If you need more clarification to ensure you’re successful in assisting, its ok to ask clarifying questions before responding.
+sidekicks.2a75b27: How should this agent sound?
 sidekicks.ed58f29: Instructions
 sidekicks.dec1fcc: Knowledge
 sidekicks.5168708: Memories
+sidekicks.0e36f81: Message agent…
 sidekicks.455b863: Message sidekick…
 sidekicks.709a232: Name
 sidekicks.05f1c86: Name cannot contain special characters.
+sidekicks.b4fdc42: No channels found
 sidekicks.6087e38: Pick a different default avatar.
 sidekicks.c74da09: Pick a random default avatar. The current avatar will be replaced.
 sidekicks.f1fbb2b: Preview
@@ -21991,10 +22005,15 @@ sidekicks.88dc359: Select people and user groups
 sidekicks.dcac2d4: Sidekick settings
 sidekicks.1b92b5f: Sidekicks results
 sidekicks.48faa2a: Sorry! Something went wrong. Please try again.
+sidekicks.1bb1a94: Specific people, channels, and workspaces
 sidekicks.c1a01a8: Untitled Sidekick
 sidekicks.8bdf057: Upload
+sidekicks.8091bb3: Voice: (Describe tone, phrasing, and quirks)\n\nStances: (Perspectives or opinions the agent holds)\n\nLeave empty to use the default voice.
+sidekicks.d8f625c: What actions can the agent take?
 sidekicks.809e345: What actions can the sidekick take?
+sidekicks.1f164a3: What information sources will the agent base its answers on?
 sidekicks.c8b3c35: What information sources will the sidekick base its answers on?
+sidekicks.bff344d: Who can use this agent?
 sidekicks.8421d4e: Who can use this sidekick?
 sign_in.285cc7f: An unknown error occurred.
 sign_in.bff237b: Check the list of emergency backup codes provided when setting up 2FA.
