@@ -4987,7 +4987,6 @@ channel_share.cabf640: If the problem persists, please <a>drop us a line</a>
 channel_share.824d76b: Learn more
 channel_share.bee54c9: Something went wrong.
 channel_share.13ae7c8: You don’t have permission to add external people to this channel.
-channel_sidebar.c1bb574:  Reloading Slack might clear things up. If it doesn’t, <a>drop us a line</a>.
 channel_sidebar.f030c3d: 1 hour
 channel_sidebar.7bd227f: <strong>{channelEntity} muted for 1 hour.</strong>
 channel_sidebar.94bc95f: <strong>{channelEntity} muted until tomorrow.</strong>
@@ -7090,7 +7089,6 @@ creator_guided_setup.5c974bd: Your organization is on the <b>Business+ plan</b>,
 creator_guided_setup.a4cccf6: Your organization is on the <b>Pro plan</b>, which includes some Slack AI features.
 creator_guided_setup.50ccf98: You’re on a free trial of the Business+ plan, our treat. Enjoy access to these features for the next 30 days.
 creator_guided_setup.3c17664: You’re on a free trial of the Pro plan, our treat. Enjoy access to these features for the next 30 days.
-current_status.c1bb574:  Reloading Slack might clear things up. If it doesn’t, <a>drop us a line</a>.
 current_status.f030c3d: 1 hour
 current_status.3e77473: 1:1
 current_status.31bbe88: 30 minutes
@@ -7192,15 +7190,12 @@ current_status.24345a1: Today
 current_status.1948bf2: Tomorrow
 current_status.17a3484: Turn Off
 current_status.a5aa418: Turn On
-current_status.4d79ffe: Unfortunately, that emoji’s been removed from your workspace.
-current_status.4447331: Unfortunately, that name isn’t valid. Try another?
 current_status.fb91e24: Update
 current_status.57c7cfa: View coverage plan
 current_status.801cd11: Visit the calendar app settings to turn off status sync any time.
 current_status.cadd73e: What do you think {user}?
 current_status.5d8e9ad: What’s your status?
 current_status.9710e1b: When this status starts, it will clear {statusLabel}.
-current_status.3a5cd96: You already have a section with this name.
 current_status.79ec10f: You already have a status scheduled at this time
 current_status.42b4638: You already have a status scheduled to start at {time}, which will clear this status.
 current_status.e6c8525: You can only have 5 scheduled statuses at a time.
@@ -13850,8 +13845,6 @@ menu.c0774ce: Browse apps
 menu.2190a3b: Browse channels
 menu.124c499: Browse external connections
 menu.524932e: Browse files
-menu.057d9b3: By most recent
-menu.d3a672b: By most recent (Default)
 menu.7bd6043: Canvas details
 menu.c1ecc60: Change to a private channel
 menu.c24b99e: Channel details
@@ -13948,7 +13941,6 @@ menu.80cec9c: Mute and hide
 menu.3a4727a: Mute channel
 menu.d261547: Mute conversation
 menu.ec5a2c9: Muted conversations
-menu.a22cfe2: New activity within the last 3 days
 menu.09c8ea4: New activity within the last 30 days
 menu.a388818: New window
 menu.522fe5b: No messages in at least 30 days
@@ -17082,8 +17074,6 @@ plug_and_play_sections.913afff: Select all
 plug_and_play_sections.3da4745: Skip
 plug_and_play_sections.41a5750: Social
 plug_and_play_sections.2510514: Step 2 of 2
-plug_and_play_sections.4d79ffe: Unfortunately, that emoji’s been removed from your workspace.
-plug_and_play_sections.4447331: Unfortunately, that name isn’t valid. Try another?
 plug_and_play_sections.e32fc01: Update Section
 plug_and_play_sections.37a79dd: channels and direct messages
 plug_and_play_sections.8507097: channels or people you check in on every day
@@ -17196,7 +17186,6 @@ prefs.20ec7e3: A–Z
 prefs.f03b60f: Beta
 prefs.30fdbdc: Blend <strong>Window background</strong> and <strong>Selected items</strong> colors together in window backgrounds.
 prefs.a83a52c: Bring emails into Slack
-prefs.057d9b3: By most recent
 prefs.b6803af: Calendar notifications
 prefs.3284641: Can be reordered, but not turned off.
 prefs.77dfd21: Cancel
@@ -23407,6 +23396,7 @@ slack_connect.15f62c0: To change who can share your contact info, go to <strong>
 slack_connect.37d5626: Unknown Organization
 slack_connect.92bb8f2: Upgrade to join this channel
 slack_connect.69bd4ef: View
+slack_connect.efd8355: View All
 slack_connect.6a77416: View All Invitations
 slack_connect.23a6732: View message
 slack_connect.dd90008: We noticed there are more Slack Connect channels in <strong>{remainingSuggestedWorkspacesCount, plural, =1 {# other workspace} other {# other workspaces}}</strong> than there are in this one. Do you want to add this channel to another workspace?
@@ -25968,22 +25958,29 @@ sponsored_connections.bf66ddd: Slack Connect is a paid feature — but this one 
 ssb-in-product-survey.b52b36b: Back
 ssb-in-product-survey.bc98198: Next
 start_call.ffeb7f7: Please allow pop-ups in your browser to make a call. You can <{url}|contact Slack> if you need help.
+stock_ticker_snapshots.2c5bef1: 1M
+stock_ticker_snapshots.28234cf: 1Y
+stock_ticker_snapshots.6dce163: 3M
 stock_ticker_snapshots.4ae6368: <identity>{name} ({symbol})</identity> · {exchange} · USD\n<price>{price}</price> · <movement>{amount} ({percent}) from previous close</movement>\nQuote from {date}\nPrices may be delayed.
-stock_ticker_snapshots.ea85e9c: An upcoming earnings date for {symbol} isn’t available.
-stock_ticker_snapshots.148a50b: An upcoming earnings date isn’t available right now.
+stock_ticker_snapshots.ada0419: After market close
+stock_ticker_snapshots.e08dfbb: Before market open
 stock_ticker_snapshots.06acb90: Checks the quote and open details. Cached data may be returned.
 stock_ticker_snapshots.69939d4: Copy snapshot for {symbol}
 stock_ticker_snapshots.e9385a3: Couldn’t copy snapshot. Try again.
 stock_ticker_snapshots.e5933d7: Daily prices · Adjusted for splits · No live updates
-stock_ticker_snapshots.6d8bcc8: Expected earnings for {symbol} loaded.
-stock_ticker_snapshots.7bee70c: Expected {date} · {session}
-stock_ticker_snapshots.4cef112: Loading earnings date…
+stock_ticker_snapshots.d8e0734: During market hours
+stock_ticker_snapshots.e365e26: History through {day} · Closing price: {price}
+stock_ticker_snapshots.3daffbf: Loading price history…
 stock_ticker_snapshots.c8836c3: Loading stock details…
 stock_ticker_snapshots.e3e95dc: Manual refresh may return cached data.
 stock_ticker_snapshots.de0e3f4: May be delayed
-stock_ticker_snapshots.3501e6b: Next earnings
 stock_ticker_snapshots.1827870: Not enough daily prices for this range.
 stock_ticker_snapshots.cb5b802: Open Details
+stock_ticker_snapshots.dbeec2e: Price History
+stock_ticker_snapshots.97f908f: Price history for {symbol} isn’t available.
+stock_ticker_snapshots.680aa7c: Price history for {symbol} loaded.
+stock_ticker_snapshots.45cf152: Price history isn’t available right now.
+stock_ticker_snapshots.5d857bf: Price history range for {symbol}
 stock_ticker_snapshots.4b059c0: Prices may be delayed or unchanged after market close. No automatic refresh.
 stock_ticker_snapshots.a2b0094: Refresh snapshot for {symbol}
 stock_ticker_snapshots.67bd5ad: Search Slack for {cashtag}
@@ -25992,9 +25989,12 @@ stock_ticker_snapshots.58eccaf: Snapshot copied
 stock_ticker_snapshots.85f17a5: Some data couldn’t be refreshed. Previous values are still shown.
 stock_ticker_snapshots.cdfafc3: Stock details
 stock_ticker_snapshots.64373d2: Stock details aren’t available right now.
+stock_ticker_snapshots.b49382a: Time not provided
+stock_ticker_snapshots.b5b22c4: US market date. Schedule may change.
 stock_ticker_snapshots.2c9c1f7: Unavailable
 stock_ticker_snapshots.9c97fac: You can refresh once a minute.
 stock_ticker_snapshots.019c5b0: {exchange} · {symbol} · USD
+stock_ticker_snapshots.c2579a0: {symbol} daily closing prices: {firstPrice} on {firstDay} to {lastPrice} on {lastDay}. Low {low}; high {high}. Adjusted for splits.
 stories_av.0a9b013: (Optional) Check your <a>system preferences</a> to make sure Slack has permission to access your camera, and try again.
 stories_av.5b4cfa0: (Optional) Check your <a>system settings</a> to make sure Slack has permission to access your camera, and try again.
 stories_av.2bf43af: (Optional) Check your browser settings to make sure Slack has permission to access your camera, and try again.
