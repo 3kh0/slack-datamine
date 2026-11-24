@@ -28,7 +28,7 @@ head_json() {
 }
 
 json_arg() {
-  "$RUNTIME" -e "const m=JSON.parse(process.argv[1]); console.log($1 || '')" "$2"
+  "$RUNTIME" -e "const m=JSON.parse(process.argv[2]); const keys=process.argv[1].split('.').slice(1); let v=m; for (const k of keys) v=v&&v[k]; console.log(v || '')" "$1" "$2"
 }
 
 hash_seen() {
