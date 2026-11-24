@@ -1785,6 +1785,8 @@ app_details.5ce2e6f: Agent
 app_details.9ca0c1a: Agent home
 app_details.21b485d: Agent not found
 app_details.41325da: Always allow
+app_details.676acef: An admin has restricted this app. Ask your admin if you need it.
+app_details.e051300: An admin has restricted this app. It’s still installed and keeps working for now. Ask your admin if you have questions.
 app_details.fc4a695: App
 app_details.b8e4dd2: App details
 app_details.3711f05: App home
@@ -1866,6 +1868,10 @@ app_details.505be18: Suggested prompts
 app_details.e072d98: The agent may have been uninstalled or you do not have permission to view it.
 app_details.f6ff659: The app is approved. Now you can install it.
 app_details.e75323c: The app may have been uninstalled or you do not have permission to view it.
+app_details.1853fa5: This app has access restrictions. If you need it, ask your admin.
+app_details.e2011d9: This app is installed, but it has access restrictions. If you need it, ask your admin.
+app_details.23225c0: This app is restricted. If you need it, ask your admin.
+app_details.e9ef590: This app uses Sign in with Slack, which isn’t turned on. If you need it, ask your admin.
 app_details.fb91e24: Update
 app_details.73f5c54: Update {appName} (opens in a new window)
 app_details.944b88d: VIP
@@ -1900,6 +1906,8 @@ app_launcher.3fa88a1: <p>On Slack, apps belong to you and your team. They can he
 app_launcher.89e6de0: <p>On Slack, apps belong to you and your team. Your team’s already using the max you can use with the free version of Slack. <Link>Manage apps</Link></p>
 app_launcher.ab53f92: <p>Your team’s already using the max you can use with the free version of Slack. Upgrade to a paid plan to add as many apps as you’d like. <Link>Manage apps</Link></p>
 app_launcher.89bfeb0: A new app messaging experience makes having conversations with AI-powered agents and assistants a snap. Install apps with an assistant or agent, and put them to work today.
+app_launcher.cc63a23: Access is limited
+app_launcher.88a91a2: Admin has restricted the app
 app_launcher.c77828d: All app types
 app_launcher.22e3fb7: All workspaces
 app_launcher.b123684: Also, your team admin must approve an app before it can be installed. <Link>Learn more</Link>
@@ -1952,6 +1960,7 @@ app_launcher.969f879: Review request for {appName}
 app_launcher.c462b3b: See Upgrade Options
 app_launcher.2941c5c: See all
 app_launcher.25911d4: Show more
+app_launcher.7fac2f8: Sign in with Slack is off
 app_launcher.9c5462b: Slack makes the tools you already use even better by adding apps from Atlassian like Jira, Trello, and more.
 app_launcher.73ecfe1: That didn’t work. Try again in a moment.
 app_launcher.621521f: Untitled
@@ -18131,7 +18140,6 @@ promotions.34dc39a: The all-new Slackbot
 promotions.e0f57cc: These are channels you share with {connectedTeamIds} teams
 promotions.80771d5: These are channels you share with {connectedTeamName}
 promotions.8dd5fb5: Thread and channel summaries
-promotions.7ba9d7e: Tip: Strengthen security for your workspace
 promotions.e3d92a6: Track leads & deals
 promotions.c2c776f: Translate messages and get results in your preferred language.
 promotions.d0a60d6: Translate messages from your teammates with a click
@@ -18162,7 +18170,6 @@ promotions.2bdca9b: Upgrade to keep working with {externalOrgName}
 promotions.04e041a: Upgrade to keep {productName} access
 promotions.36f9838: Upon Request
 promotions.a271780: Use AI in workflows
-promotions.8a808a8: Use SAML SSO to automate onboarding and make your workspace more secure.
 promotions.2379761: Use Template
 promotions.8a697da: Use approved third-party apps to export or act on messages and files from Slack.
 promotions.537213a: Use audio and video to bring your work to life. Record a quick idea with an audio clip, or share your screen in a video clip, all without leaving Slack.
@@ -19546,6 +19553,7 @@ search.c53994e: (Optional)
 search.c8ed86b: (Required)
 search.128aefc: (archived)
 search.6346544: (formerly {names})
+search.7a7938b: +{count} more
 search.141e450: +{filtersAppliedCount, plural, =1 {# filter} other {# filters}}
 search.5a0d910: , Remove from recently viewed
 search.44c897a: , Remove from {collection}
@@ -21734,17 +21742,11 @@ sidebar_visual_updates_coachmark.cad5272: We tweaked the sidebar
 sidebar_visual_updates_coachmark.b0e68b9: With better indentation, smaller icons, and section menus, your sidebar should now be easier to scan.
 sidekicks.d41f9c2: Actions & Permissions
 sidekicks.44e578a: Add Task
-sidekicks.6430a67: Add a prompt to test your agent.
-sidekicks.9e7621a: Add a prompt to test your sidekick.
-sidekicks.44da555: Add instructions to test your agent
-sidekicks.a397ce6: Add instructions to test your sidekick
 sidekicks.5ce2e6f: Agent
 sidekicks.e26c4f0: Agent type
 sidekicks.6a72085: All
 sidekicks.b4c05c0: Anyone in your workspace can DM it or @mention it.
-sidekicks.a43ccf7: Apply crop
 sidekicks.3dcc1e4: Auto-enhance Instructions
-sidekicks.c8c1f64: Auto-enhancing instructions…
 sidekicks.93a254b: Build an AI agent that joins this channel and answers questions here.
 sidekicks.77dfd21: Cancel
 sidekicks.879f0b1: Channel
@@ -21755,7 +21757,6 @@ sidekicks.8c29271: Created by you
 sidekicks.1f2589b: Crop your photo
 sidekicks.d0cf3ff: Edit Sidekick
 sidekicks.e818193: Everyone internal in {teamName}
-sidekicks.0ce943b: Failed to auto-enhance instructions fancy. <retry>Try again</retry> or <dismiss>dismiss</dismiss>.
 sidekicks.6ce6c51: Files
 sidekicks.d837337: Find a channel
 sidekicks.3d5e96b: Home channel
@@ -21763,14 +21764,10 @@ sidekicks.ed58f29: Instructions
 sidekicks.06b7021: Joins one channel and answers when people @mention it there.
 sidekicks.dec1fcc: Knowledge
 sidekicks.5168708: Memories
-sidekicks.0e36f81: Message agent…
-sidekicks.455b863: Message sidekick…
 sidekicks.709a232: Name
 sidekicks.05f1c86: Name cannot contain special characters.
 sidekicks.b4fdc42: No channels found
 sidekicks.40f0732: Personal
-sidekicks.6087e38: Pick a different default avatar.
-sidekicks.c74da09: Pick a random default avatar. The current avatar will be replaced.
 sidekicks.f1fbb2b: Preview
 sidekicks.b6d6841: Private channels are only included in 1:1 DMs with a user that has access to those channels.
 sidekicks.e963907: Remove
