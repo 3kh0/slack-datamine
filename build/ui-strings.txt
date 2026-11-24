@@ -2338,7 +2338,6 @@ Choose who to connect email for.
 Choose your 1:1 layout
 Choose your account and review access in your browser. Then come back here.
 Choose your default skin tone
-Choose your preferred settings for dictating with Steno.
 Choose your workflow steps
 Choosing sub-methods implementations
 Chris Foster
@@ -3783,6 +3782,9 @@ Diagnostic report sending not implemented.
 Diane Anderson
 Dictate a message
 Dictation chunk upload failed
+Dictation dictionary
+Dictation shortcut
+Dictation sounds
 Dictionary entries
 Did not find any windows to persist among the open ones; persisting an empty scene instead.
 Did not have an incoming invite to respond to
@@ -5116,6 +5118,8 @@ Fetch builtin skill metadata and re-map
 Fetch channel section suggestions on channel join
 Fetch company info for a team
 Fetch completed migrations
+Fetch connect invites
+Fetch connect invites with retries
 Fetch connector apps and set edit permissions
 Fetch current and future migrations
 Fetch custom retention data again for a stale channel
@@ -5125,6 +5129,7 @@ Fetch external records via files.external.searchConnector
 Fetch failed
 Fetch field references
 Fetch installed agents from apps.index
+Fetch list mentions
 Fetch list mentions with retries
 Fetch list of authed Salesforce orgs for the user, either from Redux or by fetching from API
 Fetch multiple app profiles by combined IDs
@@ -8454,6 +8459,7 @@ NOT bots
 NOT deactivated
 NOT frontline
 NOT guests
+NOT guests AND NOT external AND NOT workflows
 NOT team
 NUX (dev)
 Nailed it.
@@ -9606,6 +9612,7 @@ Opens the ignore forked modal
 Opens the invite (new users) modal
 Opens the modal to share a contact to a conversation
 Opens the modal to share a list
+Opens the prefs modal
 Opens the rename file dialog
 Opens the rename team modal in the client
 Opens the schedule message dialog
@@ -10731,6 +10738,7 @@ Remove Organization
 Remove Photo for people outside your organization
 Remove Pinned Item
 Remove Preview
+Remove Slackbot
 Remove Task
 Remove Workflow Collaborators
 Remove a channel from a section
@@ -11808,6 +11816,7 @@ Select field
 Select from
 Select from Google Contacts
 Select groups
+Select members
 Select one or more
 Select options
 Select people
@@ -12635,6 +12644,7 @@ Slack Connect Public Channel
 Slack Connect channels
 Slack Connect channels require a paid plan
 Slack Connect discoverability
+Slack Connect invitation
 Slack Connect invitations
 Slack Connect is disabled
 Slack Dark
@@ -12701,6 +12711,7 @@ Slackbot (personal AI agent)
 Slackbot (personal AI companion)
 Slackbot AI
 Slackbot AI permission not granted after provisioning; falling back to legacy
+Slackbot Chime session stopped
 Slackbot MCP connect start failed
 Slackbot MCP discover probe failed
 Slackbot MCP fetch tools failed
@@ -12720,6 +12731,7 @@ Slackbot can create records from spreadsheets, notes, emails, or anything you wa
 Slackbot can help you prep for meetings, too.
 Slackbot can now collaborate in channels
 Slackbot can only use read-only tools in channels. You can still use these when you message Slackbot directly.
+Slackbot could not join the huddle
 Slackbot created lead and opportunity records for you. Open the Sales Tracker to check them out.
 Slackbot does the work for you
 Slackbot edit highlights kept until seen
@@ -12737,6 +12749,7 @@ Slackbot is ready for your response in the Sales Tracker.
 Slackbot is ready. Type a message or choose a suggested skill to begin.
 Slackbot is responding
 Slackbot is showing
+Slackbot leaving the huddle
 Slackbot mini did not open.
 Slackbot moved inside the More tab
 Slackbot needs you to connect an account to continue
@@ -12759,6 +12772,7 @@ Slackbot teaser
 Slackbot uses AI and can make mistakes.
 Slackbot uses this context across conversations in the project and may update it automatically each week.
 Slackbot view
+Slackbot voice playback failed
 Slackbot will ask you before it changes anything.
 Slackbot will build memory from conversations in this project.
 Slackbot will continue after you choose or skip.
@@ -14635,6 +14649,7 @@ Unable to open window
 Unable to parse identity_links_global_prefs JSON string
 Unable to parse resolved Huddle window open from local storage
 Unable to parse storedLayout from local storage
+Unable to perform action. Please try again.
 Unable to persist dismissed agent sessions
 Unable to persist plan acknowledgement
 Unable to persist starred conversations
