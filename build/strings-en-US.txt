@@ -5047,7 +5047,6 @@ channel_sidebar.879f0b1: Channel
 channel_sidebar.610e4cf: Channel invitations
 channel_sidebar.da5d596: Channel or user name
 channel_sidebar.18e03e2: Channels
-channel_sidebar.0688ebf: Channels and direct messages
 channel_sidebar.876d683: Choose what to pin…
 channel_sidebar.130cd7f: Classic
 channel_sidebar.fb99bef: Clear out the clutter and hide {numMutedChannels} {numMutedChannels, plural, =1 {muted channel} other {muted channels}} from view. They’ll only pop up again if someone mentions you.
@@ -5235,9 +5234,11 @@ channel_sidebar.837fa3e: Pin to your sidebar
 channel_sidebar.31a980a: Pin what’s most important to the top
 channel_sidebar.f931216: Pinned
 channel_sidebar.16c9069: Pinned is full
+channel_sidebar.3f5eef9: Press alt + shift + up/down arrow to navigate between unread items.
 channel_sidebar.6f73867: Press delete to remove a direct message from the sidebar
 channel_sidebar.4145f2b: Press delete to remove messages from an app from the sidebar
 channel_sidebar.29d0c43: Press enter to open the section. Press space to expand or collapse it
+channel_sidebar.da83cf0: Press option + shift + up/down arrow to navigate between unread items.
 channel_sidebar.d2f1882: Press {keys} to find or create a channel
 channel_sidebar.13aedf8: Press {keys} to find or create a direct message. Press delete to remove a direct message from the sidebar
 channel_sidebar.886cbff: Priority
@@ -5418,6 +5419,8 @@ channel_sidebar.09a22c2: {minutes} min
 channel_sidebar.26d4d69: {name} (you)
 channel_sidebar.3b2e865: {numMutedChannels} channels are now hidden
 channel_sidebar.835c272: {numSelected} of {maxPicks} selected
+channel_sidebar.f977930: {numUnreads, plural, =1 {# conversation} other {# conversations}} with unread messages, including {numBadges, plural, =1 {# mention or keyword} other {# mentions and keywords}}.
+channel_sidebar.3f2fea4: {numUnreads, plural, =1 {# conversation} other {# conversations}} with unread messages.
 channel_sidebar.c4f8e1e: {replyCount, plural, =1 {# reply} other {# replies}}
 channel_sidebar.bdc61e9: {resultCount, plural, =1 {# conversation} other {# conversations}} found
 channel_sidebar.4f0f8ed: {sectionName}, huddle in session. Press {keyboardShortcut} to join huddle
@@ -11887,7 +11890,6 @@ ia4.e5a176a: Active only
 ia4.81c0d91: Activity
 ia4.1345bce: Add a personal touch
 ia4.ee86451: Admin tools
-ia4.55d3a1f: Admin tools and settings have moved. You can now access them directly from the sidebar.
 ia4.b8be3d1: Administration
 ia4.2fb458a: Agentforce
 ia4.2719b2b: All docs
@@ -11923,7 +11925,6 @@ ia4.bae6013: Create your own…
 ia4.3c7746e: Created by agents
 ia4.ec5cfba: Current plan
 ia4.d7f0ac9: Customization
-ia4.c9a613a: Customize workspace
 ia4.0e8e35d: DMs
 ia4.c6c8549: Data loss prevention
 ia4.e7596a0: Direct messages
@@ -11933,7 +11934,6 @@ ia4.e965edc: Do more with Business+
 ia4.e9b450d: Done
 ia4.52612f9: Easily jump into DMs and catch up on your notifications.
 ia4.28ad756: Edit and reorder workspaces
-ia4.77c33ad: Edit workspace details
 ia4.5090a9e: Emoji
 ia4.293ab83: Even more time-saving tools
 ia4.c756f6a: Everyone
@@ -11972,18 +11972,12 @@ ia4.0d9b55d: Loading your day…
 ia4.30c8fb2: Looking fresh! No new recommendations.
 ia4.8d9a304: MCP servers
 ia4.40a60bf: Magnifying glass
-ia4.f29bf3a: Manage Agentforce
-ia4.0ae4f1b: Manage Audit Logs
-ia4.7c1b8d6: Manage Salesforce MCP
-ia4.5be3444: Manage Salesforce Organizations
 ia4.72bb708: Manage Slack Connect Invitations
 ia4.ad7a4ae: Manage VIP
 ia4.5b7111c: Manage apps
 ia4.a8f311c: Manage billing
 ia4.fd8f622: Manage channels
 ia4.4890549: Manage installed apps
-ia4.0331250: Manage members
-ia4.e2c6ca5: Manage security
 ia4.1f22e9e: Manage workflows
 ia4.183fba9: Maybe Later
 ia4.0c77aee: Media
@@ -12007,7 +12001,6 @@ ia4.cf9b770: Open
 ia4.ff59e8d: Open Pocket Agent
 ia4.a75732d: Open in new window
 ia4.03a322d: Open in split view
-ia4.53b11f5: Organization settings – {teamDisplayName}
 ia4.caef14e: Other workspaces have new messages
 ia4.f3534db: PAID
 ia4.b37554f: People
@@ -12095,7 +12088,6 @@ ia4.5d7024a: Workflow Editor
 ia4.a5a8719: Workflow details
 ia4.4ca0a75: Workspace
 ia4.819c93f: Workspace Info
-ia4.bb0c06c: Workspace analytics
 ia4.58f2630: Workspace filter
 ia4.432fa10: Workspace settings
 ia4.42c4d98: Workspace – {workspaceGroupName}
@@ -19089,7 +19081,6 @@ referral_welcome_modal.a35975b: Welcome to Slack
 referral_welcome_modal.c5bccc1: Your team now has access to advanced AI and other premium features, through your {partnerName} partnership discount.
 related-messages.f1702b4: Messages
 rename_team_in_client.77dfd21: Cancel
-rename_team_in_client.77c33ad: Edit workspace details
 rename_team_in_client.efc007a: Save
 rename_team_in_client.0e2d9b0: URL
 repackaging_announcement.2f0c4da: <a>Read about this change</a>, and about new features coming your way.
