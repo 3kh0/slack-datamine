@@ -25,6 +25,7 @@ already_locked
 already_marked
 already_pinned
 already_published
+already_resolved
 already_reviewed
 already_saved
 already_starred
@@ -32,6 +33,7 @@ another_knock_pending
 api_disabled
 app_access_restricted
 app_creation_failed
+app_dir_only_fail
 app_edit_disabled
 app_error
 app_management_app_not_installed_on_org
@@ -134,6 +136,7 @@ checklist_item_limit_reached
 checklist_remove_items_disabled
 client_update_required
 collision_detected
+comment_required
 communication_disabled
 composer_suggestions_not_enabled
 compute_failed
@@ -146,6 +149,7 @@ connection_failed
 connection_limit_exceeded
 connection_limit_exceeded_pending
 connector_not_found
+connector_requests_disabled
 contact_card_not_found
 contacts_and_leads_not_enabled
 content_document_not_found
@@ -219,6 +223,7 @@ email_to_case_config_creation_failed
 emoji_limit_reached
 empty_permissions
 endpoint_unavailable
+enterprise_is_restricted
 error_bad_format
 error_bad_name_i18n
 error_bad_upload
@@ -755,7 +760,14 @@ proposed_acl_apply_failed
 proposed_acl_channel_not_found
 proposed_acl_channel_restrictions_not_available
 proposed_acl_channels_not_permitted
+proposed_acl_invalid
+proposed_acl_invalid_channels
+proposed_acl_invalid_named_entities
+proposed_acl_not_allowed
 proposed_acl_not_permitted
+proposed_acl_too_large
+proposed_acl_too_many_channels
+proposed_acl_too_many_named_entities
 provider_access_blocked
 provider_not_connected
 provider_not_found
@@ -808,7 +820,6 @@ rich_text_conversion_unavailable
 room_not_found
 runtime_unavailable
 sales_home_user_config_not_found
-salesforce_not_connected
 salesforce_org_blocked
 salesforce_org_not_auto_provisioned
 salesforce_org_not_connected
@@ -889,7 +900,9 @@ team_not_eligible
 team_not_eligible_for_sales_tracker
 team_not_eligible_for_slack_crm
 team_not_found
+team_not_on_enterprise
 template_not_visible
+tester_tokens_not_allowed_on_enterprise
 thread_not_found
 time_in_past
 time_too_far
@@ -985,6 +998,7 @@ uri_not_handled_by_app
 url_in_message
 use_auth_url
 user_already_exists
+user_already_requested
 user_already_team_member
 user_auth_required
 user_cannot_create_channel

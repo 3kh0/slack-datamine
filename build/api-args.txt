@@ -33,14 +33,14 @@ admin.conversations.convertToPrivate: channel_id, target_team
 admin.conversations.convertToPublic: channel_id, target_team
 admin.conversations.delete: channel_id, target_team
 admin.conversations.disconnectShared: channel_id, target_team
-admin.conversations.getConversationPrefs: channel_id
+admin.conversations.getConversationPrefs: channel_id, target_team
 admin.conversations.getCustomRetention: channel_id
-admin.conversations.getTeams: channel_id, cursor, limit
+admin.conversations.getTeams: channel_id, cursor, limit, target_team
 admin.conversations.invite: channel_id, target_team, user_ids
 admin.conversations.kick: channel_id, skip_simple_array_serialization_in_get_form_data, target_team, user_ids
 admin.conversations.removeCustomRetention: channel_id
 admin.conversations.search: connected_team_ids, cursor, limit, query, search_channel_types, sort, sort_dir, target_team, team_ids
-admin.conversations.setConversationPrefs: channel_id, prefs
+admin.conversations.setConversationPrefs: channel_id, prefs, target_team
 admin.conversations.setCustomRetention: channel_id, duration_days
 admin.conversations.setProperties: channel_id, props
 admin.conversations.unarchive: channel_id, target_team
@@ -180,7 +180,7 @@ apps.actions.v2.list: action_type, resource_id, resource_type
 apps.activities.list: app_id, component_id, trace_id
 apps.approvals.requestedApps.list: app_ids, cursor, team_id
 apps.approvals.requests.cancel: request_id, team_id
-apps.approvals.requests.create: reason
+apps.approvals.requests.create: app, originating_team_id, reason
 apps.auth.external.authMapping.update: app_id, external_token_id, mapping_owner_type, provider_key, workflow_id
 apps.auth.external.delete: external_token_id
 apps.auth.external.getFunctionAuth: app_id, step, trigger, workflow_id
@@ -303,7 +303,6 @@ conversations.acceptSharedInvite: channel_name, free_trial_accepted, invite_id, 
 conversations.addTab: after, channel_id, data, label, target_team_id, type
 conversations.archive.recommendations: num_inactive_days
 conversations.archive: channel
-conversations.badgeCount: channel
 conversations.bulkArchive: channel_ids
 conversations.bulkFetchMetadata: channel_ids
 conversations.bulkLeave: channels
@@ -621,7 +620,7 @@ promo.campaigns.eligibilityInfo: campaign_sub_type, campaign_type, context
 promo.campaigns.optOut: campaign_type
 promo.campaigns.redeem: campaign_sub_type, campaign_type, context
 quip.cloneCanvas: file_id, keep_original_title, target_file_created, target_file_id, title
-quip.getCanvasBulkSectionIdsData: file_id, section_ids
+quip.getCanvasBulkSectionIdsData: file_id, include_dependent_sections, section_ids
 quip.getMentions: channel_ids
 quip.history.getVersions: file_id, limit, newest_created_usec, oldest_created_usec
 quip.history.restoreVersion: file_id, sequence, version_id

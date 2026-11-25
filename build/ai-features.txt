@@ -130,6 +130,14 @@ agent_dm_sessions_section_row_title
 agent_dm_sessions_section_see_how_others
 agent_dm_sessions_section_show_all
 agent_dm_sessions_team_usage_try_it
+agent_dm_suggested_prompts
+agent_dm_suggested_prompts_list
+agent_dm_suggested_prompts_message
+agent_dm_suggested_prompts_row
+agent_dm_suggested_prompts_show_less
+agent_dm_suggested_prompts_show_more
+agent_dm_suggested_prompts_title
+agent_dm_suggested_prompts_try_it
 agent_dm_tasks
 agent_dm_tasks_button
 agent_dm_team_usage
@@ -210,6 +218,7 @@ agent_real_name
 agent_remove_failed
 agent_response
 agent_response_rich_text
+agent_sandboxes
 agent_send_overlay
 agent_send_overlay_active
 agent_session
@@ -275,7 +284,6 @@ agentforce_agent_home
 agentforce_agent_status_updated
 agentforce_auto_reply_status
 agentforce_browser
-agentforce_deprecation
 agentforce_feedback_buttons
 agentforce_give_feedback_link
 agentforce_help_request
@@ -287,7 +295,6 @@ agentforce_shareable_prompts_bt_url_redirect
 agentforce_status_syncing_fe
 agentforce_surface_status
 agentforce_tab_feedback_button
-agentic
 agentic_dm_peek
 agentic_edge_tab_peek
 agentic_edge_tab_tile
@@ -444,7 +451,6 @@ ai_apps_list_change
 ai_apps_list_fe_killswitch
 ai_apps_list_pagination
 ai_apps_list_truncated
-ai_apps_loading
 ai_apps_loading_no_shimmer
 ai_apps_menu
 ai_apps_menu_item
@@ -682,6 +688,7 @@ app_3p_agent_tasks
 app_agent_nugget
 app_agent_reply_nugget
 app_profile_suggested_prompt
+app_requests_agentic_ia_browse
 app_update_button_mcp_connect
 approval_prompt_text
 archive_stale_agent_channel
@@ -730,6 +737,9 @@ business_plus_ai_search_banner_trigger
 business_plus_slackbot_promo_q1_fy27_biz_plus_peek_card
 business_plus_slackbot_promo_q1_fy27_control_sidebar_banner
 business_plus_slackbot_promo_q1_fy27_treatment_sidebar_banner
+call_member_agent_sandbox_signin_link
+call_member_agent_sandboxes_create
+call_member_agent_sandboxes_list
 cant_invite_agent
 canvas_ai
 canvas_ai_a11y_preview
@@ -862,6 +872,7 @@ default_ai_item
 default_channel_knowledge_agent
 delete_agent_thread_modal
 delete_mcp_server_modal
+delete_member_agent_sandbox
 digest_overflow_menu_manage_recap
 dismiss_skills_library_hero_banner
 dismissed_app_launcher_ai_agents_promo
@@ -965,6 +976,11 @@ gpt_live_call_bottom_bar_end
 gpt_live_call_bottom_bar_expand
 gpt_live_call_bottom_bar_mute
 gpt_live_call_bottom_bar_status
+gpt_live_call_dock
+gpt_live_call_dock_end_call
+gpt_live_call_dock_mute
+gpt_live_call_dock_speed
+gpt_live_call_dock_status
 gpt_live_call_error_toast
 gpt_live_call_go_to_conversation
 gpt_live_call_minimize
@@ -1058,7 +1074,6 @@ ia_slackbot_survey_timestamp_48h
 ia_slackbot_survey_timestamp_7d
 idlexbr_assistant
 im_foreword_suggested_prompt
-im_foreword_suggested_prompts_grid
 include_slack_ai
 include_slackbot
 inline_agent_view_canvas_block
@@ -1164,6 +1179,10 @@ meeting_assistant_open
 meeting_assistant_record_button
 meeting_assistant_user_attribution
 meetings_prompts_summarize
+member_agent_sandbox_create_title
+member_agent_sandbox_list_title
+member_agent_sandbox_name
+member_agent_sandbox_template
 member_profile_suggested_prompt
 mention_menu_suggested_agents
 message_agent_prompt_collapsed_body
@@ -1408,9 +1427,6 @@ sb_welcome_mat_next_skills
 screen_sharing_upgrade_prompt
 search_accept_to_render_complete_slackbot_search_query
 search_ai_answer
-search_answer_ask_slackbot_btn
-search_answer_ask_slackbot_button
-search_answer_ask_slackbot_followup_btn
 search_answers_slackbot_handoff_next
 search_omniswitcher_slackbot_mode_nux_modal
 search_omniswitcher_slackbot_mode_switch_hint
@@ -1930,6 +1946,7 @@ slackbot_follow_up_button
 slackbot_free_teams_segmented_offer
 slackbot_history
 slackbot_history_opened
+slackbot_huddle_face
 slackbot_huddle_voice
 slackbot_im
 slackbot_in_channels
@@ -2115,6 +2132,7 @@ slackbot_suggested_prompt_ask_in_thread
 slackbot_suggested_prompt_item
 slackbot_suggested_prompts_menu
 slackbot_supported
+slackbot_surface_auto_open
 slackbot_surface_share_dialog
 slackbot_surface_sources
 slackbot_surfaces_creation_mode

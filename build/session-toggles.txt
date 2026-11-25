@@ -11,6 +11,7 @@ conditional_keyboard_focus_reads
 defer_window_focus_work
 desktop_message_consistency_metric
 desktop_override_has_focus
+detach_right_clicked_nodes
 disable_span_report_limit
 dont_delay_marks_for_old_messages
 emoji_search_worker
@@ -20,7 +21,6 @@ foreground_tag_respects_visibility
 foreground_tag_shadow_args
 gantry_skip_redundant_users_info
 gs_member_subscribe_refusals
-hot_path_stable_shapes
 keyed_message_pane_caches
 kill_backgroundable_connect
 lazy_styles
@@ -59,4 +59,3 @@ virtual_list_gpu_scroll
 vlist_clear_pending_scroll
 vlist_deferred_scroll_correction
 warm_reload_on_uptime
-workspace_frame_corner_caps

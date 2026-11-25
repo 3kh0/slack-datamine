@@ -54,6 +54,7 @@ agent_peek_view: on
 agent_prevent_fake_thread_roots: on
 agent_private_mention: on
 agent_profiles: on
+agent_sandboxes: on
 agent_sessions_child_window: on
 agent_sessions_pr_synth: on
 agent_sessions_synth_view: on
@@ -66,7 +67,6 @@ agent_ux_august2026_release_translations2: on
 agent_ux_august2026_release_translations: on
 agent_whispers: on
 agentforce_agent_home: on
-agentforce_deprecation: on
 agentforce_feedback_buttons: on
 agentforce_mention_single_agent: on
 agentforce_new_strings: on
@@ -112,7 +112,6 @@ ai_apps_animated_streaming_roots_fe: on
 ai_apps_featured_workflows_in_thread: on
 ai_apps_final_i18n: on
 ai_apps_list_fe_killswitch: on
-ai_apps_loading: on
 ai_apps_loading_no_shimmer: on
 ai_apps_tabs_fix: on
 ai_channel_exclusions: on
@@ -204,6 +203,7 @@ browser_tab_favicon_badging: treatment
 builder_template_creator: on
 bulk_leave_channels_from_sidebar: on
 bus_plus_team_upgrade_slackbotdm: control, treatment
+calapp_rewrite_connect: on
 calendar2webapp_agenda: on
 calendar2webapp_calendar: on
 calendar2webapp_create_event: on
@@ -340,7 +340,6 @@ code_channels_pr_markdown_it: on
 code_channels_pr_state_picker: on
 code_diff_comments: on
 code_review_requested_in_activity: on
-cold_channel_history_prefetch
 composer_control_simplification_expansion: on
 composer_control_simplifications_emoji_gifs: on
 composer_control_simplifications_expanded_resize_popout: on
@@ -392,7 +391,6 @@ desktop_transcript_reading_integrity_metric: on
 detect_go_links: on
 disable_existing_window_refocus: on
 dlp_message_update_async_scan: on
-dm_history_prefetch
 dm_recency_sort_rollout: with_edu, without_edu
 dnd_debug_logs: on
 docx_js_renderer: on
@@ -422,6 +420,8 @@ emoji_exact_match_boost: on
 emoji_picker_debug_scores: on
 emoji_skin_tone_picker_improvement: on
 emoji_v17: on
+enable_canvas_govslack: on
+enable_canvas_govslack_defense: on
 enable_native_channel_expert: on
 enable_ncea_proactive_reply: on
 enable_new_channel_settings: on
@@ -614,6 +614,7 @@ huddles_voice_focus_model_ladder: on
 huddles_voice_focus_swap_timeout: on
 huddles_winter: on
 ia4_admin_and_settings_translations: on
+ia4_admin_tools_menu_groups: on
 ia4_bloops: on
 ia4_day_glance: on
 ia4_slash_command_fe: on
@@ -667,6 +668,7 @@ lists_done_checkbox: on
 lists_enable_freemium_access: on
 lists_export_enrichment: on
 lists_file_backed_templates: on
+lists_file_field_unified_picker: on
 lists_filter_groups: on
 lists_friends_of: on
 lists_friends_of_teams: on
@@ -722,7 +724,6 @@ message_stash: treatment
 message_unfurl_interleaving: on
 messaging_max_width: on
 meta_huddle_events_consent: on
-miles_davis_themes: on
 ml_autocomplete_ignore_file_fuzzy_score: treatment
 ml_autocomplete_nav_query_history: treatment
 ml_autocomplete_search_filter_self_boost: treatment
@@ -757,6 +758,7 @@ new_year_promo_fy27: control, treatment
 nl_switcher: treatment
 notification_management_sidekicks: on
 omni_agent_pin: on
+omni_clear_stale_query: on
 omni_date_quick_filters: on
 omni_filter_autoslug: on
 omni_slackbot_mode: on
@@ -783,9 +785,7 @@ pilot_feedback_collector_strings: on
 plan_block_coding_enhancements: on
 plan_block_sidebar: on
 platform_tech_arch_slackbot_mcp_client_ema: on
-platform_ts_conversion_batch_1: on
 pnp_session_duration_device_settings: on
-pointerdown_history_prefetch: treatment
 portable_content_composer: treatment
 portable_content_i18n: on
 post_wfb_ga_content: on
@@ -899,7 +899,6 @@ search_normalize_visible_external_users: on
 search_semantic_only_results_banner: treatment
 search_slackbot_keyword_routing_top_results: on
 search_slackbot_no_results_handoff: treatment1, treatment3
-search_summary_redesign: variant_scroll_pill, variant_sticky_composer
 seasonal_delight_push: on
 secondary_view_default_width: on
 section_create_ai_channel_recommendations: on
@@ -939,7 +938,6 @@ sharable_threads: on
 sharable_threads_view: on
 share_and_copy_blocks: on
 shareable_folders: on
-shortcuts_gallery_templates: on
 show_as_agent: on
 show_known_issues_on_help: on
 sidebar_app_nux: control, treatment
@@ -972,7 +970,6 @@ slack6_clogging_visit_attribution: on
 slack6_cmdk_thread_recents: on
 slack6_search_find_in_channel_popover: on
 slack6_search_srp_polish: on
-slack6_search_switcher_over_sidebar: on
 slack6_todo_badging: on
 slack_ai_file_summaries: on
 slack_ai_search_fus_migration: on
@@ -1192,7 +1189,6 @@ snake_case_view_apis: on
 spaceship_posts_migration: on
 spreadsheet_viewer_translations: on
 spreadsheet_xml_rendering: on
-squirrel_mac_direct_contents_write: on
 ssb_dogfood_automatic_promotion: on
 ssb_dogfood_friends: on
 standalone_huddles_copy_link: on
@@ -1241,7 +1237,6 @@ tableau_workobject_live_dashboard_preview: on
 tableau_workobject_live_visualization_preview: on
 tableau_workobject_sdk_extended_timeout: on
 team_creation_holdout: control
-team_creation_segmentation: control, treatment_segmentation_mandatory
 team_plan_change_refetch_jitter: on
 temp_join_channel_edu: on
 temp_mute: on
@@ -1359,9 +1354,7 @@ wfb_ambient_agent: on
 wfb_ambient_agent_cost_optimizations: on
 wfb_auto_hitl: on
 wfb_automations_tab_in_channel: on
-wfb_back_to_basics_iris_release: on
 wfb_back_to_basics_jalapeno_release: on
-wfb_back_to_basics_kimchi_release: on
 wfb_back_to_basics_lasagna_release: on
 wfb_back_to_basics_muhallebi_release: on
 wfb_back_to_basics_nanaimo_release: on

@@ -102,6 +102,7 @@ org: channel_email_addresses_enabled
 org: content_review_enabled
 org: default_channel_creation_enabled
 org: default_create_private_channel
+org: developer_sandbox_org
 org: disable_email_ingestion
 org: disable_file_uploads
 org: disallow_public_file_urls
@@ -135,6 +136,7 @@ org: onedrive_enabled_team
 org: read_only_canvas_subteam_ids
 org: saml_enable
 org: sensitivity_labels
+org: sign_in_with_slack_disabled
 org: single_user_exports
 org: slack_ai_disabled
 org: slack_ai_image_alt_text_automatic_opt_out
@@ -470,8 +472,6 @@ user: huddles_autoinvite
 user: huddles_cc_by_default
 user: huddles_disconnect_on_lock
 user: huddles_global_mute
-user: huddles_miles_davis_effects_highlight_seen
-user: huddles_miles_davis_songs_seen
 user: huddles_music_player_song_key
 user: huddles_mute_by_default
 user: huddles_play_music_timeout
@@ -526,7 +526,6 @@ user: meeting_assistant_auto_play_consent
 user: mentions_exclude_reactions
 user: mentions_real_names_override
 user: messages_theme
-user: miles_davis_theme_cta_dismissed
 user: msg_input_formatting_bar_state
 user: msg_input_send_btn
 user: msg_input_send_btn_auto_set
