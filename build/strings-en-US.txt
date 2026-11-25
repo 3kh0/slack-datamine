@@ -906,13 +906,13 @@ advanced_security.e0f92e0: Strengthen security for your workspace
 advanced_security.3e15a02: Upgrade to Business+
 agent-composer-toolbar.1a9fe9d: Send next
 agent-composer-toolbar.02f4a3c: Steer
+agent-view-tab.e002a2c: Couldn’t load this view. Try again.
 agent-view-tab.a479c9c: Download
 agent-view-tab.774025d: Download file
 agent-view-tab.5fbd666: HTML file created by @{agent_name}
 agent-view-tab.04091c0: Loading view
 agent-view-tab.09ca55c: Share
 agent-view-tab.e1822dc: Share file
-agent-view-tab.69782c0: Unable to load this view. Please try again later.
 agent_canvas_shelf.3c7746e: Created by agents
 agent_canvas_shelf.2941c5c: See all
 agent_canvas_shelf.31fd0ab: {agentCanvasCount, plural, =1 {# new canvas from an agent} other {# new canvases from agents}}
@@ -1852,6 +1852,7 @@ app_details.423844d: Can’t send your prompt. Please try again.
 app_details.18e03e2: Channels
 app_details.7541648: Configuration
 app_details.711a59f: DM access
+app_details.c4c88bb: Denied in {workspaceName}. You can request it again.
 app_details.55f8ebc: Description
 app_details.b6dc9f9: Go online to load details.
 app_details.9469de1: Install Agent
@@ -1914,6 +1915,11 @@ app_details.80b8479: View in Slack Marketplace
 app_details.1cc190a: View in slack marketplace
 app_details.58b9dcc: You are connected, manage connection
 app_details.a8cf967: You can add {name} to up to {max} channels at a time.
+app_details.a08e58b: You canceled this request in {workspaceName}.
+app_details.8446548: You canceled this request.
+app_details.f1e64d4: Your approval in {workspaceName} no longer covers this app. Request it again.
+app_details.bca116e: Your approval no longer covers this app. Request it again.
+app_details.463cbb9: Your request was denied. You can request it again.
 app_details.b0fa28a: by {developerName}
 app_details.9ef0a58: carousel
 app_details.ed2bbc3: {agent} can now join your DMs when you mention it.
@@ -1944,6 +1950,7 @@ app_launcher.88a91a2: Admin has restricted the app
 app_launcher.c77828d: All app types
 app_launcher.22e3fb7: All workspaces
 app_launcher.b123684: Also, your team admin must approve an app before it can be installed. <Link>Learn more</Link>
+app_launcher.8d5e38d: An admin already approved or denied this app
 app_launcher.7b2c7f1: Approve
 app_launcher.6218162: Approve request for {appName}
 app_launcher.41b81eb: Approved
@@ -1989,9 +1996,9 @@ app_launcher.03a322d: Open in split view
 app_launcher.f219cc0: Reason
 app_launcher.5a9e942: Request Again
 app_launcher.7b04340: Request again
+app_launcher.b3fe1a9: Request again for {appName}
 app_launcher.d59bb53: Request already closed
 app_launcher.168996e: Request sent
-app_launcher.a1eff31: Request {appName} again
 app_launcher.4fd31fd: Requested {ago}
 app_launcher.aafe554: Requests ({count}+)
 app_launcher.aa2a08d: Restricted
@@ -6431,6 +6438,7 @@ code-tab.2f84eea: Copy link
 code-tab.a310281: Couldn’t change this pull request’s status. Give it another try.
 code-tab.8cf663d: Couldn’t load more comments.
 code-tab.70859e0: Couldn’t load the changes in these commits.
+code-tab.4c39728: Couldn’t load the changes. Try again.
 code-tab.de77bd4: Couldn’t load the latest commits
 code-tab.f6fdbe4: Delete
 code-tab.4be7edc: Delete comment
@@ -6504,7 +6512,6 @@ code-tab.25911d4: Show more
 code-tab.7237359: Show resolved
 code-tab.d4a36c1: Showing changes from some commits. Comments are hidden.
 code-tab.30c9bdc: Some comments aren’t shown. View the pull request on GitHub to see them all.
-code-tab.ee6f63c: Something went wrong fetching the diff. Please try again later.
 code-tab.fc8230b: Split
 code-tab.f55f74b: Tab size
 code-tab.2fdec01: The changes in these commits are too large to show.
@@ -6596,6 +6603,7 @@ code_channels.2178df3: Collapse view
 code_channels.b65463c: Connect
 code_channels.5944cb2: Connect your account to view and review pull requests from this channel.
 code_channels.03f43e5: Connect {provider}
+code_channels.e002a2c: Couldn’t load this view. Try again.
 code_channels.49958fc: Couldn’t start connecting to GitHub Enterprise. Try again later.
 code_channels.1e80870: Expand view
 code_channels.426b501: Files and links
@@ -6604,7 +6612,6 @@ code_channels.6f63f19: GitHub Enterprise connected. GitHub organization not appr
 code_channels.e4b5a0e: GitHub organization not approved
 code_channels.04091c0: Loading view
 code_channels.9682754: Session channel views
-code_channels.69782c0: Unable to load this view. Please try again later.
 comments.60b9e1c: Hide older comments
 comments.ae00334: Save this file comment
 comments.f560b67: See older comments
