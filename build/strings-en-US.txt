@@ -5525,9 +5525,7 @@ channel_tabs.b20c506: Loading Agentforce agents
 channel_tabs.db3a9a9: Loading agents and apps
 channel_tabs.c97f6f6: Manage resources
 channel_tabs.a857eb4: Manage tabs
-channel_tabs.4bab2d8: More
 channel_tabs.f1d2795: More options for {name}
-channel_tabs.a73e639: More pinned resources
 channel_tabs.7a54925: Move pull request to open
 channel_tabs.4edda1a: Move resource down
 channel_tabs.2129c4f: Move resource up
@@ -5542,9 +5540,6 @@ channel_tabs.a70ff38: Open in Salesforce
 channel_tabs.a75732d: Open in new window
 channel_tabs.423b393: Open tab in secondary view
 channel_tabs.438fe75: Open tab in split view
-channel_tabs.7f0f4fd: Pin to channel
-channel_tabs.862f0a3: Pin {tabName} to channel
-channel_tabs.d415046: Pinned resources
 channel_tabs.76859a9: Pins
 channel_tabs.8d8c194: Post canvas updates to channel
 channel_tabs.d11a2fc: Post folder updates to channel
@@ -5577,10 +5572,7 @@ channel_tabs.e63f8ca: Tabs in this channel can only be updated by a Channel Mana
 channel_tabs.3e7d325: Tabs in this channel can only be updated by the Channel Creator or Workspace Admins/Owner.
 channel_tabs.96eed5f: There are no Agentforce agents available to add. You can only add agents from <b>Salesforce</b> to this channel
 channel_tabs.36323dc: There was a problem adding these agents. Give it another try in a few minutes.
-channel_tabs.2eba6a0: Unpin
-channel_tabs.bf0d075: Unpin from channel
 channel_tabs.74a9416: You can only add agents from <b>Salesforce</b> to this channel.
-channel_tabs.84eaad4: You can pin up to {maxCount, plural, =1 {# resource} other {# resources}}
 channel_tabs.4401054: Your organization’s Agentforce agents are built to handle specific aspects of your team’s work. Add now to bring them into the Slack conversation
 channel_token.1f5a1ab: Complete
 channel_token.19a0374: Content from app group.
@@ -11891,44 +11883,35 @@ huddles-readiness-checker.2428053: Microphone
 huddles-readiness-checker.816c52f: No
 huddles-readiness-checker.96f608c: Pending
 huddles-readiness-checker.d016004: Permission denied
+huddles-readiness-checker.e2c342b: Run an audio, video and screensharing test.
+huddles-readiness-checker.6ecaed9: Run test
 huddles-readiness-checker.73989d9: Running
 huddles-readiness-checker.7c23b0d: Speaker
 huddles-readiness-checker.bae7d5b: Status
 huddles-readiness-checker.640ab2b: Test
 huddles-readiness-checker.285ec85: Troubleshooting
 huddles-readiness-checker.5397e05: Yes
-huddles_audio_video_prefs.c60d70e: <span className="sk_foreground_max">If you already have a status set, Slack won’t change it.</span>
 huddles_audio_video_prefs.27c3430: Allow keyboard shortcut to mute
 huddles_audio_video_prefs.8cb5140: Automatically leave huddles
-huddles_audio_video_prefs.80e1643: Automatically turn on captions when you’re in a huddle
-huddles_audio_video_prefs.c8159af: Blur your video background when you’re in a huddle with your camera on
 huddles_audio_video_prefs.4da9c9a: Camera
 huddles_audio_video_prefs.71fb8eb: Camera devices
 huddles_audio_video_prefs.3bca281: Camera permission denied
-huddles_audio_video_prefs.e424b67: Default my calendar huddles to start recording when the huddle begins
-huddles_audio_video_prefs.019b09c: Enable automatic gain control
 huddles_audio_video_prefs.8e03c97: Enable noise suppression
-huddles_audio_video_prefs.088af1b: Input level:
 huddles_audio_video_prefs.2428053: Microphone
 huddles_audio_video_prefs.ff3da96: Microphone devices
 huddles_audio_video_prefs.fb28c69: Microphone permission denied
-huddles_audio_video_prefs.df0134a: Mute my microphone
 huddles_audio_video_prefs.ec21b7d: Play music
 huddles_audio_video_prefs.16a4155: Please select an option
 huddles_audio_video_prefs.267f76c: Prompt to leave after 20 minutes
-huddles_audio_video_prefs.14cd238: Send a warning if you’re starting a huddle in a channel with more than {huddleWarningCount} members
-huddles_audio_video_prefs.a5a59e8: Set my status to “{huddleEmoji} In a huddle…”
 huddles_audio_video_prefs.e0fabc1: Show audio and video preview
 huddles_audio_video_prefs.7c23b0d: Speaker
 huddles_audio_video_prefs.af317e9: Speaker devices
 huddles_audio_video_prefs.d890e6d: Test Speaker
 huddles_audio_video_prefs.74dcd0d: This feature has been set to request only by your admin. Contact your administrator to change this.
 huddles_audio_video_prefs.00dee2c: This will be the default for all huddles you host from your calendar. You can adjust these settings per event in your calendar.
-huddles_audio_video_prefs.4ab3198: Turn off my video
 huddles_audio_video_prefs.63e4663: Use {shortcut} to mute or unmute your mic.
 huddles_audio_video_prefs.f8fc76e: When Slack is in the background:
 huddles_audio_video_prefs.79ee96f: When alone in a huddle…
-huddles_audio_video_prefs.f415a1c: When joining a huddle…
 huddles_audio_video_prefs.36458c9: When your screen saver starts or computer locks…
 huddles_audio_video_prefs.a594666: Who can join your calendar huddles
 ia4.560040c: AI
@@ -26660,8 +26643,6 @@ tabbed-channel.a75732d: Open in new window
 tabbed-channel.03a322d: Open in split view
 tabbed-channel.dc9d458: Paid
 tabbed-channel.b1aa0ef: Pin messages your team likes to have on hand — helpful or humorous.
-tabbed-channel.7f0f4fd: Pin to channel
-tabbed-channel.f931216: Pinned
 tabbed-channel.76859a9: Pins
 tabbed-channel.012c98e: Private workflow
 tabbed-channel.bf5c694: Project brief outline for {channelName}
@@ -26702,7 +26683,6 @@ tabbed-channel.9f0bce8: Share this canvas?
 tabbed-channel.d4d25bc: Share this file?
 tabbed-channel.fcea0d7: Share this list?
 tabbed-channel.62dea05: Share this surface?
-tabbed-channel.50d0d8d: Shared
 tabbed-channel.4c852b2: Show less
 tabbed-channel.25911d4: Show more
 tabbed-channel.e09212c: Skills
@@ -26729,7 +26709,6 @@ tabbed-channel.bb12e8a: Threads
 tabbed-channel.78437fe: To add this file as a tab, you’ll need to connect to {appName}.
 tabbed-channel.82f4718: To add this file as a tab, you’ll need to request access to view it.
 tabbed-channel.042c862: Try again
-tabbed-channel.bf0d075: Unpin from channel
 tabbed-channel.eb5aa0a: Unset as default for huddle notes?
 tabbed-channel.bcf09d4: Unsetting the huddle notes canvas will remove it as the default canvas for the current huddle. Are you sure you want to unset it now?
 tabbed-channel.621521f: Untitled
