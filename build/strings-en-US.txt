@@ -1984,7 +1984,7 @@ app_details.1d06648: {appName} is installed on {teamName}
 app_details.2a4c7f0: ‘{appName}’ will be able to do
 app_details.96cb78d: ‘{appName}’ will be able to view
 app_dialog.b16c7ac: (optional)
-app_dialog.3a4245a: Learn more about {appName}
+app_dialog.0997bad: Header Icon
 app_dialog.2dacf65: Submit
 app_dialog.ab90d9d: This field is required.
 app_dialog.26dc55d: We had some trouble connecting. <a>Try again?</a>
@@ -10297,6 +10297,7 @@ files.f54a4a2: {numberChosen, plural, =1 {# Type} other {# Types}}
 files.65260fa: {overCount, plural, =1 {# other} other {# others}}
 files.58d1b81: {shortSummary} {addtlText}
 files.88e9f53: {title} restored.
+files-explorer.cb20a35: :if(d)break;e((0,XC.U)({}));break;case
 files-explorer.de5b204: Add existing
 files-explorer.21063d1: Build me a new surface
 files-explorer.98cc6bf: Canvas templates
@@ -12061,6 +12062,7 @@ ia4.52bfb42: Invite people to {teamDisplayName}
 ia4.1affe8b: It all starts here
 ia4.e0d7314: Join
 ia4.da8b8bf: Join or leave workspaces
+ia4.e6602b1: Join {duration} early
 ia4.66af0bc: Join {title}
 ia4.1496844: Keep chatting
 ia4.2666954: Keyboard shortcuts
@@ -12203,6 +12205,8 @@ ia4.4cec49b: {draftsCount, plural, =1 {# draft} other {# drafts}}
 ia4.b1603e9: {minutes}m
 ia4.87e605b: {notificationCount, plural, =1 {# unread notification, new since your last visit} other {# unread notifications, with new ones since your last visit}}
 ia4.890e4a7: {notificationCount, plural, =1 {# unread notification} other {# unread notifications}}
+ia4.9ca9234: {startsIn}, join early
+ia4.ae4fbcf: {startsIn}, join {title} early
 ia4.dde3b41: {teamDisplayName} Actions
 ia4.8d3026c: {timeRange} · {provider}
 ia4.a054d47: {title}, {date}
@@ -12556,7 +12560,6 @@ jp_pocket_guide.667977b: external-chat
 jp_pocket_guide.9845cf5: team-chat
 jp_pocket_guide.d54dfea: team-project
 jp_pocket_guide.60c4aa9: {completedCount} of {totalCount} tasks completed
-jp_pocket_guide.47fb457: {count, plural, =1 {# app found} other {# apps found}}
 jp_pocket_guide.0fa7422: {minimumIconWidth} x {minimumIconHeight} pixels minimum
 jp_pocket_guide.9ae495b: {remainingTasks, plural, =1 {# task left} other {# tasks left}}
 jp_pocket_guide.76dfa4b: {title}, completed
@@ -13407,6 +13410,7 @@ lists.5956e04: This person doesn’t have access to this list, but you can <link
 lists.e493ea3: This person doesn’t have access to this list.
 lists.e2abd3d: This person wasn’t notified because they’re not in this list.
 lists.7856ef5: This person wasn’t notified because they’re not in this list. <link>Share it with them</link>.
+lists.3ca4a5d: This record can’t be restored because it would bring back files, and your admin has turned off file uploads in Slack Connect conversations this list is shared in.
 lists.61acea6: This record will be updated to match the version last edited by {author} {date} at {time}
 lists.cc9966f: This restore preview is no longer valid. Please close and try again.
 lists.52d9d23: This version can’t be restored because it would bring back files, and your admin has turned off file uploads in Slack Connect conversations this list is shared in.
@@ -13635,7 +13639,6 @@ live_unfurling.7dc7934: Table preview
 live_unfurling.3ec1ae0: Template
 live_unfurling.b05d96b: Unknown file
 live_unfurling.ff3c42f: Your admins have turned off previews for this link, so it won’t unfurl.
-loading_button.14b85fa: loading
 make_channel_manager_modal.77dfd21: Cancel
 make_channel_manager_modal.ccc2565: Make Channel Manager
 make_channel_manager_modal.bb2bbdc: Make {memberName} a Channel Manager of {channelName}?
@@ -20743,26 +20746,14 @@ search_menu.2dd2bed: today
 search_menu.1aa96b8: yesterday
 segmented_team_creation.4550f68: Choose a plan
 segmented_team_creation.b0bf6d1: Recommended for you
-select.3ce26a0: (invalid selection)
-select.6933ebf: (invalid selection, validating…)
-select.fd087dd: (validating…)
-select.6a4b24e: ({states})
-select.ee83696: ({states}…)
-select.c375fe9: , {selectedTokenCount, plural, =1 {# item} other {# items}}{errorCount, plural, =0 {} other {, # invalid}}
 select.247fd63: Clear selection
 select.6e157c5: Create
-select.44d25b5: Items
 select.7b52c18: Keep typing…
 select.97a3774: Missing edit permissions
 select.f4e1241: No items
 select.b993b0c: No results
 select.08d7aa3: Select an option
 select.4548321: Type to search…
-select.7d82e29: invalid selection
-select.14b85fa: loading
-select.858762d: validating
-select.a7ff0e9: {label}, {selectedTokenCount, plural, =1 {# item} other {# items}}{errorCount, plural, =0 {} other {, # invalid}}
-select.444a2fa: {tokenLabel} removed
 send_btn.c74e0f4: Don’t like the change? You can always switch back in <Link>your preferences</Link>.
 send_btn.c8a4874: Got It
 send_btn.25e74af: Just for Japan: a button for sending
@@ -29811,6 +29802,8 @@ workflow_builder.be72bf4: Slack user email
 workflow_builder.c3ba234: Slackbot Response
 workflow_builder.340b175: Slackbot will send you a direct message when your request is processed.
 workflow_builder.5c88bda: Some organizations are not allowed to use this workflow.
+workflow_builder.7878681: Some sources are restricted from AI access. Remove them to continue.
+workflow_builder.407793b: Some sources have restricted sharing. Remove them to continue.
 workflow_builder.6eab97e: Something short and descriptive
 workflow_builder.8d886c0: Something went wrong
 workflow_builder.2c558ee: Something went wrong, and we couldn’t copy this workflow as a template. Try again in a few minutes
