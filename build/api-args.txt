@@ -914,7 +914,6 @@ workObjects.performDraftAction: action_id, channel_id, entity_id, message_ts, st
 workObjects.publishEntity: channel_id, entity_id, message_ts, state
 workflows.activity.export: filters, workflow_id
 workflows.activity.get: workflow_execution_id, workflow_id
-workflows.activity.list: filters, workflow_id
 workflows.ai.feedback: additional_feedback, rating, source, user_prompt, workflow_generation_id
 workflows.ai.generate: prompt
 workflows.ai.generateDetails: workflow_id

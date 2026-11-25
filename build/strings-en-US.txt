@@ -657,6 +657,7 @@ activity.6db7104: Restore notification
 activity.92a74f8: Reviewed, still open
 activity.425f77f: Right click to edit, rename or delete this view. Drag and drop to reorder.
 activity.bad05b4: Salesforce Channels
+activity.13c4759: Salesforce task
 activity.efc007a: Save
 activity.e2f2287: Save as …
 activity.9a086ec: Save custom views
@@ -2149,6 +2150,7 @@ aria_msg_summary.870984d: {date} at {time}
 aria_msg_summary.64d1cfa: {senderName} via {appName}
 aria_msg_summary.1db5227: {sender}:
 aria_msg_summary.63d5045: {slackbotName} is typing…
+aria_msg_summary.64bc21b: {text}
 aria_msg_summary.da5199c: {time}.
 aria_msg_summary.a330ad4: {time}:
 ask_user_question.e0aafff: Answered
@@ -2165,6 +2167,8 @@ assistant.eccacc4:  information
 assistant.62cb8c0:  using the Meeting Prep Skill
 assistant.13ab187:  using the Salesforce Research Skill
 assistant.966723b: 's information
+assistant.8a0cf47: <b>Pick a voice</b> to get started.
+assistant.d15f13d: <b>Try asking a question in search</b>, like talking to a teammate. For example, <t1>"<a>How do I search across apps?</a>"</t1>
 assistant.3bc3855: <b>Your microphone is muted by your system settings</b>. Go to your <a>system settings</a> to unmute your microphone.
 assistant.3068e72: <div>You’ve unlocked the CRM experience.</div><div>I’m here to support your contact management, research, and meeting prep.</div>
 assistant.c8cd656: <strong>Hit enter to search</strong> using this sample question.
@@ -2414,6 +2418,7 @@ assistant.3a4f3b7: Left {channelName}
 assistant.9d81860: Less detail
 assistant.8a0f0ad: Let Slack AI send daily recaps of channels you can’t always make time for, and mute them in your sidebar for better focus.
 assistant.8c35c92: Let me know how I can help with this list.
+assistant.1bf3a6e: Let’s Start
 assistant.6953ce0: Let’s dive in
 assistant.a8e97c7: Level of detail was helpful
 assistant.cf544a8: Link copied to clipboard
@@ -2502,6 +2507,7 @@ assistant.81b3a55: Or just ask me anything else!
 assistant.b37554f: People
 assistant.acad07a: Perfect moment for a quick win — or a long rabbit hole.
 assistant.d7dc005: Plans are made for changing…
+assistant.296b90e: Play {voice}
 assistant.4e2b169: Pleasant perusing
 assistant.dde71b2: Please enable your microphone in your browser’s address bar.
 assistant.76ae82e: Please give feedback — it matters, a lot.
@@ -2560,6 +2566,7 @@ assistant.a075340: Search by channel name
 assistant.28abc03: Search by name
 assistant.7087888: Search conversations
 assistant.0144dae: Search results
+assistant.77c2a9c: Search using <strong>AI</strong> with questions like "What is Project Gizmo?" or "How do I request a thingamabob?"
 assistant.7be281a: Searching Slack conversations…
 assistant.2fce269: See original
 assistant.f25e57c: See your summaries in a predictable order or just focus on the newest.
@@ -2653,6 +2660,7 @@ assistant.5621678: Summary was returned quickly
 assistant.3e44c92: Switch
 assistant.8c6cd86: Take the work out of work with Slackbot
 assistant.7937b32: Talk instead of typing
+assistant.b754161: Talk through your day, get quick answers, and have Slackbot draft messages and follow-ups, hands-free.
 assistant.7b5637e: Talk through your day, get quick answers, draft messages, and more with Slackbot voice mode.
 assistant.7bb0ddf: Task
 assistant.62ed4cf: Task conversation
@@ -2726,6 +2734,7 @@ assistant.418bab2: We recommend channels you like to keep tabs on, but aren’t 
 assistant.b47f256: Welcome back — let’s ease in
 assistant.c67ca89: Welcome back — recap has you covered
 assistant.feb3011: Welcome back — you’ve got this
+assistant.9bc5750: Welcome to Slackbot voice mode
 assistant.45c6f16: Welcome to Slackbot!
 assistant.f8cae6b: Welcome to {channelName}
 assistant.ba9a1fd: We’re not able to display this summary, but Slack AI can make a new one.
@@ -3933,6 +3942,7 @@ channel_details.a135bc3: Channel members are not available yet
 channel_details.3be87bd: Channel name
 channel_details.5e0eb2f: Channel owner
 channel_details.c0e3a55: Channel permissions
+channel_details.b31b682: Channel responses don’t use your private conversations.
 channel_details.0a9e798: Channel visibility
 channel_details.805d5ad: Channels can have up to {maxSkillSets} skill sets.
 channel_details.99574d7: Channels can have up to {maxSkills} skills.
@@ -3949,6 +3959,7 @@ channel_details.080f814: Collaborating organizations
 channel_details.7541648: Configuration
 channel_details.792c81a: Configure
 channel_details.a6576a8: Configure memory and skills
+channel_details.4f3be75: Configured for {channelName}
 channel_details.04a2122: Confirm
 channel_details.b65463c: Connect
 channel_details.ed29ecd: Connect your Google Account
@@ -4367,6 +4378,7 @@ channel_details.cf65823: Share link to <t1></t1>
 channel_details.da8dd64: Share settings
 channel_details.fcdeab3: Share this channel with external people, and work together right in Slack.
 channel_details.b93760c: Shared by {name}
+channel_details.d03f6aa: Shared with everyone here, using the skills and context set up for this channel.
 channel_details.e39f81a: Sharing & file downloads
 channel_details.313570e: Sharing and downloading are allowed in this channel.
 channel_details.b73f0cf: Sharing and downloading are not allowed in this channel.
@@ -4507,6 +4519,8 @@ channel_details.d8a3740: User not found. Check the user settings and try again.
 channel_details.944b88d: VIP
 channel_details.253b4dd: View Settings
 channel_details.9491981: View Settings for Slackbot
+channel_details.a7f4ff1: View Shared Settings
+channel_details.7f1e659: View and Configure
 channel_details.badd385: View details
 channel_details.dac6cd8: View full profile
 channel_details.80b8479: View in Slack Marketplace
@@ -5065,6 +5079,7 @@ channel_sidebar.130cd7f: Classic
 channel_sidebar.fb99bef: Clear out the clutter and hide {numMutedChannels} {numMutedChannels, plural, =1 {muted channel} other {muted channels}} from view. They’ll only pop up again if someone mentions you.
 channel_sidebar.247fd63: Clear selection
 channel_sidebar.a46f533: Close split view
+channel_sidebar.af6f23d: Close workflow
 channel_sidebar.adac693: Code
 channel_sidebar.49bcd35: Code channel
 channel_sidebar.dd6947b: Code channels
@@ -5277,7 +5292,6 @@ channel_sidebar.7654001: Removed {entityLabel} {entityType} from {channelSection
 channel_sidebar.d0c625b: Removed {item} from {section}.
 channel_sidebar.71c287d: Removed {numChannels, plural, =1{conversation} other {# conversations}} from {channelSection}.
 channel_sidebar.a0a74e2: Removed {numEntities, plural, =1{entity} other {# entities}} from {channelSection}.
-channel_sidebar.b9b51f6: Renamed to {channelSection}.
 channel_sidebar.c1ad1c4: Reset section
 channel_sidebar.4a197b0: Reset section changes
 channel_sidebar.299ef4a: Reset to Defaults
@@ -5418,11 +5432,9 @@ channel_sidebar.8af56de: you
 channel_sidebar.6e201aa: {agentName} conversations
 channel_sidebar.6db181e: {authorName}: {preview}
 channel_sidebar.c2c005b: {badgeCount} unread {badgeCount, plural, =1 {invite} other {invites}}
-channel_sidebar.3df1ef7: {channelName}, {count, plural, =1 {# mention} other {# mentions}}
 channel_sidebar.2d891d6: {channel}, failed to send message
 channel_sidebar.57c546d: {count, plural, =1 {# file} other {# files}}
 channel_sidebar.12f139d: {count, plural, =1 {# mention} other {# mentions}}
-channel_sidebar.3ac3e22: {count, plural, =1 {# mention} other {# mentions}} in a channel you haven’t joined
 channel_sidebar.accd9c4: {count, plural, =1 {# new message} other {# new messages}}
 channel_sidebar.2743d1b: {count, plural, =1 {# unread message} other {# unread messages}}
 channel_sidebar.c5e835b: {count, plural, one {View # more draft} other {View # more drafts}}
@@ -5432,7 +5444,6 @@ channel_sidebar.8b35716: {hours, plural, =1 {# hour} other {# hours}}
 channel_sidebar.82badf9: {maxPicks} of {maxPicks} selected. Uncheck a conversation to pick a different one.
 channel_sidebar.09a22c2: {minutes} min
 channel_sidebar.26d4d69: {name} (you)
-channel_sidebar.5934935: {name}, Slack Connect invitation
 channel_sidebar.3b2e865: {numMutedChannels} channels are now hidden
 channel_sidebar.835c272: {numSelected} of {maxPicks} selected
 channel_sidebar.c4f8e1e: {replyCount, plural, =1 {# reply} other {# replies}}
@@ -6712,8 +6723,12 @@ connected-accounts.17a3484: Turn Off
 connected-accounts.931e1a4: View all
 connected-accounts.e9ee13c: What will change:
 connected-workflow-account.9a7d4e0: Disable
+connected-workflow-account.7bbfdd5: Disable {appName}
 connected-workflow-account.df174a3: Enabled
 connected-workflow-account.bf58d17: Manage
+connected-workflow-account.f7eb22b: Manage {appName}
+connected-workflow-account.13916c3: This type of account is not supported.
+connected-workflow-account.37fc06e: {count} connected accounts
 connected-workflow-account-app-row.c2f9b7b: Connected
 connected-workflow-account-confirmation-modal.ec00d47: Are you sure you want to disconnect this {providerName} account?
 connected-workflow-account-confirmation-modal.77dfd21: Cancel
@@ -6727,9 +6742,13 @@ connected-workflow-account-confirmation-modal.e9ee13c: What will change:
 connected-workflow-account-confirmation-modal.8b8060f: Workflows that use this account for a data source will stop running.
 connected-workflow-account-confirmation-modal.43183fb: You will need to sign in again when you run a workflow that uses this account.
 connected-workflow-account-confirmation-modal.55c30b0: You’ll have to sign in with {app_name} to see information from it in search.
+connected-workflow-accounts-list.170f448: No accounts found
 connected-workflow-manage-modal.6855920: Added by your administrator
+connected-workflow-manage-modal.d19d920: Are you sure you want to disable {name}?
 connected-workflow-manage-modal.77dfd21: Cancel
+connected-workflow-manage-modal.5fa2016: Connect Another Account
 connected-workflow-manage-modal.c2f9b7b: Connected
+connected-workflow-manage-modal.f9acf45: Connected {providerName} Accounts
 connected-workflow-manage-modal.9a7d4e0: Disable
 connected-workflow-manage-modal.ed28e06: Disconnect
 connected-workflow-manage-modal.e9b450d: Done
@@ -6737,7 +6756,9 @@ connected-workflow-manage-modal.5ae3e84: Double check that this is not a persona
 connected-workflow-manage-modal.20063ad: Enable
 connected-workflow-manage-modal.37d5df1: Enable {appName}
 connected-workflow-manage-modal.22d5e82: Information about how certain search-related data (such as queries) may be available to app owners.
-connected-workflow-manage-modal.92bbd20: You’ve reached the maximum of {count} connected accounts.
+connected-workflow-manage-modal.af1333a: Manage {userId}
+connected-workflow-manage-modal.170f448: No accounts found
+connected-workflow-manage-modal.a652f00: This will remove the app from appearing in AI answers and search results. You can re-enable it anytime by selecting Manage.
 context-bar-agent-channel.8772370: @-mention
 context-bar-agent-channel.5ce2e6f: Agent
 context-bar-agent-channel.1d91202: Agent responds automatically
@@ -7063,6 +7084,7 @@ create_channel_modal.bb7fd71: Your organization’s settings only allow Admins t
 create_channel_modal.509e995: You’re on the most popular premium plan, Slack Pro — with features designed to help teams work better, together — through { freeTrialExpirationDate }, absolutely free.
 create_channel_modal.c1ce3b2: {icon}{channel}
 create_section_modal.77dfd21: Cancel
+create_section_modal.037287b: Ex: Project Beta
 creator_guided_setup.e6fb16a: 'Project Plan' canvas template with sections for Team, Documents, and Milestones
 creator_guided_setup.4e2e857: AI Search, translations, workflow generation, and more
 creator_guided_setup.a2bb4ae: Add your whole team
@@ -8190,6 +8212,7 @@ drafts.435306d: This is the start of your message
 drafts.1771e61: This message failed to send
 drafts.9d39b01: This message was flagged for review by DLP scanning
 drafts.269292c: Thread in {channelName}
+drafts.8b52e01: Time zone: {timezone}
 drafts.3e0bac2: To direct message this person, choose a way to connect below:
 drafts.7e7fbc8: To:
 drafts.ec711b4: Tomorrow  at 09:00
@@ -10159,6 +10182,7 @@ files.56b71e8: Videos
 files.69bd4ef: View
 files.35c2f33: View <strong>{fileType}</strong> in Slack
 files.675f8de: View all deleted files
+files.3cf5755: View channel
 files.4f1a723: View in Slack
 files.5559dd0: View only
 files.b98795a: View profile
@@ -11517,6 +11541,7 @@ huddles.f3349e0: This link has been turned off
 huddles.a6b1739: This link has expired
 huddles.4814723: This link isn’t tied to any channel, and will expire in 60 days
 huddles.c49ee5a: This link no longer works
+huddles.cb3439d: This person isn’t in your workspace
 huddles.7b72883: This week
 huddles.7863f75: Thread
 huddles.777fb98: Time check
@@ -12376,6 +12401,7 @@ joiner_launchpad.b34266c: There was an issue retrieving suggestions.
 joiner_launchpad.84f26e4: Upload Photo
 joiner_launchpad.4b676a0: View Channel
 joiner_launchpad.948e8a3: View all channels
+joiner_launchpad.3cf5755: View channel
 joiner_launchpad.e213714: View everyone
 joiner_launchpad.05e6fc2: Welcome, <span className="c-joiner_launchpad__header-highlight">{joinerName}</span>! Ready to dive in?
 joiner_launchpad.908b3a4: You can always explore more in “More”
@@ -12610,11 +12636,13 @@ linkify_emails.d484b4a: Invite to {currentTeamName}
 linkify_emails.0ae01d2: Outside your organization
 linkify_emails.476e892: Start a DM
 listbox_with_contextual_actions.a1e34f9: More actions
+listbox_with_contextual_actions.7955a7e: More actions for {label}
 listbox_with_contextual_actions.260ff8a: Move down
 listbox_with_contextual_actions.b4f57cd: Move up
 listbox_with_contextual_actions.1acd7cb: Moved {optionLabel} after {prevOptionLabel}, in position {position} of {numOptions}
 listbox_with_contextual_actions.ccbf9ba: Moved {optionLabel} before {nextOptionLabel}, in position {position} of {numOptions}
 listbox_with_contextual_actions.44dcc9e: Moved {optionLabel} between {prevOptionLabel} and {nextOptionLabel}, in position {position} of {numOptions}
+listbox_with_contextual_actions.bb70a04: {modifierKey} + up, move {label} up
 lists.0661992:  (Archive)
 lists.f86e3ae:  (Archived)
 lists.607f2de:  of 
@@ -13257,6 +13285,7 @@ lists.4386eaf: Set assignee
 lists.46aef6f: Set date
 lists.720287c: Set up workflows to collect items with forms, send due date reminders to assignees, and keep your team aligned with automatic summaries.
 lists.09ca55c: Share
+lists.7c6508a: Share item
 lists.80bb8cf: Share list
 lists.6a31885: Share list to ensure people get notified
 lists.7810722: Share list view
@@ -13340,6 +13369,10 @@ lists.f1878bf: This list is already being updated. Try again in a moment.
 lists.ac75922: This list is no longer available.
 lists.154830b: This list view was deleted
 lists.35a8bda: This may clear item data.
+lists.5956e04: This person doesn’t have access to this list, but you can <link>share it with them</link>.
+lists.e493ea3: This person doesn’t have access to this list.
+lists.e2abd3d: This person wasn’t notified because they’re not in this list.
+lists.7856ef5: This person wasn’t notified because they’re not in this list. <link>Share it with them</link>.
 lists.61acea6: This record will be updated to match the version last edited by {author} {date} at {time}
 lists.cc9966f: This restore preview is no longer valid. Please close and try again.
 lists.52d9d23: This version can’t be restored because it would bring back files, and your admin has turned off file uploads in Slack Connect conversations this list is shared in.
@@ -13736,6 +13769,7 @@ member_profile.e8055c3: Found in profile
 member_profile.60b851e: Here to help you do your best work in Slack.
 member_profile.9535925: Hide {prefCompliantMemberName}
 member_profile.a0767c2: Huddle
+member_profile.0fd4646: If you wanted to report prohibited content or behavior by this member elsewhere in Slack, hover over the content you’d like to report, click the three dots on the message or file, and select the option to Report to Slack from there.
 member_profile.a2a7b8d: Invited By
 member_profile.6fcd109: Invited Guest
 member_profile.c464961: Invited Member
@@ -13763,6 +13797,7 @@ member_profile.14c21d4: Protect your account with a passkey
 member_profile.9bdd931: Remind Me
 member_profile.25df3f7: Remind me
 member_profile.db56b97: Remove from VIP
+member_profile.8624d34: Report the contents of this profile?
 member_profile.c551b66: Report to Slack
 member_profile.c510d6c: See more
 member_profile.8df7f81: Set a status
@@ -13795,6 +13830,7 @@ member_profile.a9c76ba: Viewing As Coworker
 member_profile.b8d60d7: Viewing as External
 member_profile.74da170: Workspace Admin
 member_profile.345f223: Workspace Owner
+member_profile.88e831a: You are reporting the contents of this profile, including the user’s name and profile photo.
 member_profile.df0b06f: [AWAY] Set yourself active
 member_profile.870984d: {date} at {time}
 member_profile.f48e99b: {emailAddressLabel} copied!
@@ -14051,7 +14087,6 @@ menu.80b8479: View in Slack Marketplace
 menu.4d66568: View members
 menu.225220d: View paused workflows
 menu.b98795a: View profile
-menu.7f25898: View {quipLabel} details
 menu.d7a4841: Workflow
 menu.9dda926: Workflow options ready
 menu.ee43020: Workflows with Salesforce data
@@ -15601,6 +15636,7 @@ modernselling.d00dcbd: Shape the future of Slack CRM
 modernselling.09ca55c: Share
 modernselling.9c8db3f: Share Sales Tracker
 modernselling.4d41a08: Share and Add Salesforce User
+modernselling.7c6508a: Share item
 modernselling.80bb8cf: Share list
 modernselling.afa4349: Share this list view
 modernselling.0e8643c: Share this record
@@ -15800,6 +15836,7 @@ modernselling.7b44610: Very satisfied
 modernselling.907b3be: View Details
 modernselling.1d11bc0: View Salesforce Lists
 modernselling.dfdb331: View actions
+modernselling.3cf5755: View channel
 modernselling.badd385: View details
 modernselling.b98795a: View profile
 modernselling.fec9183: Viewing this list is limited in Slack
@@ -17172,6 +17209,7 @@ prefs.9ecc7d3: <span className="p-prefs_modal--quick_reactions_label_text p-pref
 prefs.6766354: <span className="p-prefs_modal--quick_reactions_radio_and_text">Click below to choose the emoji you’d like.</span>
 prefs.4d73f76: <span className="p-prefs_modal--quick_reactions_radio_and_text">The emoji shown will change based on your usage.</span>
 prefs.a488d0b: <strong>Note:</strong> You can set notification keywords and change your workspace-wide settings in your <a>Preferences</a>.
+prefs.fb76972: <strong>{label}</strong> Default
 prefs.c11adfd: @you, @channel, @here
 prefs.dbadfe6: A Workspace Owner has restricted who can post to {channelName} to admins and/or owners. These notifications can not be ignored.
 prefs.095ba8b: A maximum of {MAX_KEYWORDS_COUNT} keywords are allowed.
@@ -19297,6 +19335,9 @@ salesforce_record.114ef02: Open record
 saved.1d9c1a0: Saved items
 saved_for_later.a3e0872: +{count}
 saved_for_later.f030c3d: 1 hour
+saved_for_later.63d26e8: 3 hours
+saved_for_later.1aeb5f5: 30 mins
+saved_for_later.5484f94: <p class="p-saved_for_later_page__empty_title">No to-dos yet</p>
 saved_for_later.6dcd4ce: A
 saved_for_later.bace411: A canvas you added as a to-do was deleted. Remove it from To-dos?
 saved_for_later.b009284: A canvas you added as a to-do was not found. Remove it from To-dos?
@@ -19319,6 +19360,7 @@ saved_for_later.c3cd636: Actions
 saved_for_later.4c2f2a5: Activity item actions
 saved_for_later.61cc55a: Add
 saved_for_later.859005b: Add To-do
+saved_for_later.ad9de5b: Add a new to-do from a message with or without a reminder — or write your own.
 saved_for_later.79b2d52: Add a to-do
 saved_for_later.e2df96b: Add a to-do from any message, or write your own.
 saved_for_later.201c76e: Add reminder
@@ -19327,22 +19369,35 @@ saved_for_later.03c8413: Add to saved
 saved_for_later.140b367: Add to-do
 saved_for_later.9ce55c1: Added by you
 saved_for_later.ff9c3e4: Added by you ({count})
+saved_for_later.ef30278: Added to Saved
 saved_for_later.6a72085: All
+saved_for_later.fafcf1a: All completed to-do items will be removed from your to-do list. This can’t be undone.
+saved_for_later.a68a054: All in-progress to-do items will be removed from your to-do list. This can’t be undone.
 saved_for_later.8217ffd: All of your saved items will be moved to your to-do list.
 saved_for_later.cdf4f3d: All overdue to-do items will be marked as completed. This can’t be undone.
+saved_for_later.fa57f1a: All saved items
+saved_for_later.d865ac8: All saved items removed
 saved_for_later.d46dfd8: All to-do items overdue by 30+ days will be marked as completed. This can’t be undone.
 saved_for_later.4a74bba: All to-do items will be marked as completed. This can’t be undone.
+saved_for_later.4df3542: All to-do items, including completed ones, will be removed from your to-do list. This can’t be undone.
+saved_for_later.932bdfa: All to-dos cleared
 saved_for_later.2621c6f: Archive
+saved_for_later.5367698: Archive messages from <strong>In Progress</strong> if you want to come back to them often.
 saved_for_later.eddc813: Archived
 saved_for_later.9ed50a6: Archived items from Later have been moved here. Everything else is in To-dos. Start fresh by clearing things out, or move tasks to To-dos.
 saved_for_later.f3f2bfa: Bring all archived items to To-dos
 saved_for_later.77dfd21: Cancel
 saved_for_later.a3f80b8: Canvas
+saved_for_later.6fa3c7c: Canvas section
 saved_for_later.f9489b3: Clean up
 saved_for_later.719ea39: Clear
 saved_for_later.335c3b1: Clear All Saved
 saved_for_later.381c4bf: Clear Filters
 saved_for_later.c043160: Clear all
+saved_for_later.faa3027: Clear all completed to-dos?
+saved_for_later.637a2dd: Clear all in-progress to-dos?
+saved_for_later.f82e2b9: Clear all to-dos?
+saved_for_later.e27238f: Clear completed items
 saved_for_later.41888e0: Clear reminder
 saved_for_later.3747707: Clear to-do
 saved_for_later.aa52703: Clear to-dos
@@ -19355,10 +19410,23 @@ saved_for_later.087aeb2: Complete to-do
 saved_for_later.457f59f: Complete to-dos
 saved_for_later.bcda5a2: Complete to-dos overdue 30+ days?
 saved_for_later.1798b3b: Completed
+saved_for_later.6d550e1: Completed to-dos cleared
 saved_for_later.0dd02fc: Completed, {count}
 saved_for_later.2e02623: Continue
+saved_for_later.0f0e3e1: Couldn’t add to your to-dos. The description is too long.
+saved_for_later.e634ff2: Couldn’t add to your to-dos. The item couldn’t be found.
+saved_for_later.dc25ea2: Couldn’t add to your to-dos. Try again?
+saved_for_later.736ef06: Couldn’t clear the saved item. The item couldn’t be found.
+saved_for_later.090deca: Couldn’t clear the saved item. Try again?
+saved_for_later.0e7fddb: Couldn’t clear your to-do. The item couldn’t be found.
+saved_for_later.3d72f42: Couldn’t clear your to-do. Try again?
 saved_for_later.a04921a: Couldn’t delete your to-do. The item couldn’t be found.
 saved_for_later.b6356f0: Couldn’t delete your to-do. Try again?
+saved_for_later.be4986a: Couldn’t move to Saved. The item couldn’t be found.
+saved_for_later.3ce8245: Couldn’t move to Saved. Try again?
+saved_for_later.7ef6f6c: Couldn’t move to your to-dos. The item couldn’t be found.
+saved_for_later.beb6bc3: Couldn’t move to your to-dos. Try again?
+saved_for_later.cc1b7b3: Create Reminder
 saved_for_later.dce04fd: Custom…
 saved_for_later.a17c709: DM with yourself
 saved_for_later.3184e99: DM with {name}
@@ -19375,6 +19443,7 @@ saved_for_later.5301648: Edit
 saved_for_later.1c3c423: Edit reminder
 saved_for_later.5ab0bf0: Edit to-do
 saved_for_later.cea7f1c: Edit your to-do
+saved_for_later.601474b: Enjoy a little moment to yourself.
 saved_for_later.2c3cafa: File
 saved_for_later.d7decf1: Filter
 saved_for_later.a222540: Filter and sort
@@ -19382,6 +19451,7 @@ saved_for_later.5b8d97f: Filter by
 saved_for_later.9793cab: Filter: {count, plural, =0 {no filters selected} one {# filter selected} other {# filters selected}}
 saved_for_later.96e5782: Filters
 saved_for_later.1fff289: Going somewhere else in Slack?
+saved_for_later.15b1ed5: Hide upcoming reminders
 saved_for_later.57e831c: In 1 hour
 saved_for_later.d773ae9: In 3 hours
 saved_for_later.f65854b: In 30 mins
@@ -19389,8 +19459,11 @@ saved_for_later.b6bd42e: In progress
 saved_for_later.93cdd40: In progress ({count})
 saved_for_later.51fb94e: In progress, {count}
 saved_for_later.501c79e: In-progress
+saved_for_later.12073ef: In-progress to-dos cleared
 saved_for_later.53eeca7: Item in {name}
 saved_for_later.ced7d4a: Keep Editing
+saved_for_later.bf13fe6: Last 15 days
+saved_for_later.012deaa: Last 3 days
 saved_for_later.df833fe: Last 7 days
 saved_for_later.56e2f5d: Later
 saved_for_later.1d856ad: Latest date created
@@ -19403,28 +19476,41 @@ saved_for_later.01d3d54: Looking for things you saved for later?
 saved_for_later.0c01849: Mark complete
 saved_for_later.3ae756e: Mark incomplete
 saved_for_later.b23a193: Meetings
+saved_for_later.00f99d0: Monday at {reminderPref}
 saved_for_later.a1e34f9: More actions
 saved_for_later.49c7c47: Move all
 saved_for_later.7e3df3d: Move all saved items to to-dos?
+saved_for_later.35aed17: Move saved items from
+saved_for_later.d62b72a: Move saved items to to-dos
 saved_for_later.9baad34: Move to Saved
 saved_for_later.7d7a340: Move to To-dos
+saved_for_later.7263b67: Move to in progress
+saved_for_later.ec400a1: Move to saved
+saved_for_later.69b4f98: Move to to-do with reminder
+saved_for_later.cc03078: Move to to-dos
 saved_for_later.8c07a91: Move to-dos to Saved
+saved_for_later.2eeb631: Moved to to-dos
 saved_for_later.e47cb95: My day
 saved_for_later.6697079: My day sections
 saved_for_later.37a612d: My stuff
 saved_for_later.11cf33d: My stuff sections
+saved_for_later.43fbcfb: New reminder
 saved_for_later.7432483: No destination
 saved_for_later.d770232: No drafts
+saved_for_later.fb23e7b: No more wasting time searching for messages. Archive messages you come back to often.
 saved_for_later.5e39630: No reminder scheduled
 saved_for_later.193f524: No to-dos yet
 saved_for_later.b54a538: Nothing saved yet
 saved_for_later.cb02233: Nothing to see here
+saved_for_later.6b308c6: Only completed
+saved_for_later.205f5c2: Only in-progress
 saved_for_later.cc692d8: Only overdue
 saved_for_later.871063f: Only overdue by 30+ days
 saved_for_later.af10986: Open Drafts in split view
 saved_for_later.4ff01e6: Open Meetings in split view
 saved_for_later.e551f40: Open To-dos in split view
 saved_for_later.2c3a6f0: Open another To-do?
+saved_for_later.cea6044: Open in Home
 saved_for_later.5a99577: Open in Slackbot
 saved_for_later.a75732d: Open in new window
 saved_for_later.03a322d: Open in split view
@@ -19435,8 +19521,12 @@ saved_for_later.0efc2e6: Overview
 saved_for_later.1ac6b9e: Remind me about this
 saved_for_later.7ea1037: Remind me to…
 saved_for_later.b87a192: Reminder
+saved_for_later.1590c85: Reminder set for {dueDate}
 saved_for_later.ae8c393: Reminders
 saved_for_later.e963907: Remove
+saved_for_later.4100ef4: Remove all
+saved_for_later.685982b: Remove all saved items
+saved_for_later.767a4ec: Remove all saved items?
 saved_for_later.3dd6697: Remove canvas
 saved_for_later.980b354: Remove deleted messages
 saved_for_later.304b14b: Remove file
@@ -19447,14 +19537,18 @@ saved_for_later.576c97b: Remove message
 saved_for_later.06aaa6c: Remove saved item
 saved_for_later.3be626d: Remove to-do
 saved_for_later.fcac47f: Remove to-dos for deleted messages?
+saved_for_later.13c4759: Salesforce task
 saved_for_later.c0cfc41: Salesforce tasks
 saved_for_later.efc007a: Save
 saved_for_later.ff62b50: Save a message to keep it here.
 saved_for_later.d882158: Save for later
 saved_for_later.c0ae8f6: Saved
+saved_for_later.f35b56c: Saved item cleared
+saved_for_later.24ea002: Saved items moved to to-dos
 saved_for_later.7dca82c: Saved message actions
 saved_for_later.43aba96: Section in {name}
 saved_for_later.928b12a: See all drafts
+saved_for_later.2602f58: See all the things you’ve completed in one place. Sometimes you need a reminder of how awesome you are.
 saved_for_later.4afda05: See all to-dos
 saved_for_later.913afff: Select all
 saved_for_later.35f49dc: Sent
@@ -19464,16 +19558,22 @@ saved_for_later.7901f96: Set reminder
 saved_for_later.c7f73bb: Settings
 saved_for_later.a0e7ca5: Shared {name}
 saved_for_later.4c852b2: Show less
+saved_for_later.696333d: Show messages in progress
+saved_for_later.2dbe2fb: Show my to-dos
+saved_for_later.1319be5: Show upcoming reminders
+saved_for_later.f37ced5: Snooze…
 saved_for_later.9a3ea05: Something went wrong. Please try again.
 saved_for_later.adc4e96: Sort
 saved_for_later.a2a5bde: Sort by
 saved_for_later.bae7d5b: Status
 saved_for_later.1cba192: Table: {table}
 saved_for_later.70c111e: The future is yours.
+saved_for_later.7502eb9: This action can’t be undone. All of your saved items will be permanently removed.
 saved_for_later.734c65a: This canvas was deleted
 saved_for_later.69ed5af: This canvas was not found
 saved_for_later.3cfc6dc: This file was deleted
 saved_for_later.9070de8: This file was not found
+saved_for_later.8529630: This is already in your to-dos.
 saved_for_later.64c151c: This list item was deleted
 saved_for_later.6701d77: This list item was not found
 saved_for_later.e579a05: This message was deleted
@@ -19482,12 +19582,20 @@ saved_for_later.6c82e6d: Time
 saved_for_later.7939660: To-do
 saved_for_later.1ca90f1: To-do actions
 saved_for_later.d05ace6: To-do added
+saved_for_later.109b11e: To-do cleared
 saved_for_later.c721bd3: To-do deleted
 saved_for_later.c627389: To-do deleted. The message stays in the conversation.
 saved_for_later.6fb60e8: To-do details
+saved_for_later.68f01d4: To-do marked complete
+saved_for_later.af1924f: To-do marked incomplete
+saved_for_later.d7d615e: To-do moved to Saved
 saved_for_later.6ce08d6: To-dos
+saved_for_later.b3cbbd4: To-dos for deleted messages removed
 saved_for_later.37ec956: To-dos is for tasks, and Saved is for everything else
+saved_for_later.551c583: To-dos moved to Saved
+saved_for_later.f7f27c7: To-dos moved to Saved. Salesforce tasks stay in To-dos.
 saved_for_later.9ca56a9: To-dos whose message was deleted will be removed, both in-progress and completed. Your other to-dos are left alone. This can’t be undone.
+saved_for_later.a31731f: Tomorrow at {reminderPref}
 saved_for_later.9186306: Turn anything into a to-do
 saved_for_later.3deb745: Type
 saved_for_later.35e71c2: Unarchive
@@ -19496,11 +19604,14 @@ saved_for_later.8954a5c: Untitled item
 saved_for_later.6a34ef3: Untitled to-do
 saved_for_later.567bfc4: Up next
 saved_for_later.17a2983: Upcoming reminders
+saved_for_later.4a0ca4f: View saved
 saved_for_later.a0bb7e2: View to-dos
 saved_for_later.95dea2f: What’s on your to-do list?
 saved_for_later.769bb19: When
 saved_for_later.905cb32: You
 saved_for_later.90709a5: You are currently editing this To-do
+saved_for_later.06eda4a: You checked everything off your list.
+saved_for_later.e2479e9: You don’t have permission to do that.
 saved_for_later.f008c9d: You will lose any unsaved changes to your to-do.
 saved_for_later.1a3f934: Your archived items have been moved to <link>Saved</link>, to keep your task list focused.
 saved_for_later.28dedd7: Your filters are hiding all your to-dos.
@@ -19512,10 +19623,26 @@ saved_for_later.08ede1d: sent a video clip
 saved_for_later.d298a2b: sent an audio clip
 saved_for_later.d123b11: shared a GIF
 saved_for_later.cfec020: {count, plural, =1 {# overdue} other {# overdue}}
+saved_for_later.02d2d69: {count} saved items cleared
+saved_for_later.351f280: {count} to-dos cleared
 saved_for_later.6c40863: {count} to-dos deleted
+saved_for_later.fe629e8: {count} to-dos marked incomplete
 saved_for_later.870984d: {date} at {time}
+saved_for_later.52b0b0c: {emoji}<p class="p-saved_for_later_page__empty_title">All clear!</p>
+saved_for_later.60a4559: {emoji}<p class="p-saved_for_later_page__empty_title">All done</p>
+saved_for_later.a7075e1: {emoji}<p class="p-saved_for_later_page__empty_title">Feels good to check things off your to-do list</p>
+saved_for_later.2392c57: {emoji}<p class="p-saved_for_later_page__empty_title">Nothing here</p>
+saved_for_later.0995493: {emoji}<p class="p-saved_for_later_page__empty_title">Nothing rattling around in here</p>
+saved_for_later.a0eef02: {emoji}<p class="p-saved_for_later_page__empty_title">Out of sight, but not out of mind</p>
+saved_for_later.9f01b37: {emoji}<p class="p-saved_for_later_page__empty_title">You made a lot of progress</p>
+saved_for_later.4ee6d3a: {errorText} {followUpLink}
 saved_for_later.8209404: {fileType}
+saved_for_later.98e5556: {label} · {followUpLink}
+saved_for_later.5919377: {label} · {viewSavedLink}
+saved_for_later.aea1900: {label} · {viewTodosLink}
 saved_for_later.26d4d69: {name} (you)
+saved_for_later.c294e6f: {removedActionText} Remove it from Later?
+saved_for_later.64bc21b: {text}
 saved_items.29cabd8: <strong>{file}</strong> removed from saved items.
 saved_items.81b661a: Add messages and files to come back to later
 saved_items.ac9ff3e: Comment from <strong>{file}</strong> removed from saved items.
@@ -19566,6 +19693,7 @@ search.a7d298f: , opens in a new tab
 search.94aa291: , {fileType}
 search.6218311: 3 characters required
 search.7ff2a8e: <b>Connected!</b> Results from connected apps will now start appearing in search. Manage or connect more apps here, anytime.
+search.ef4ef01: <b>Connected!</b> Results from connected apps will now start appearing in search. Manage them here, any time.
 search.136972b: <b>Now searching with Slackbot</b> — ask a full question in your own words
 search.25279b7: <b>Now searching with Slackbot</b> — great for natural language searches like this one
 search.96c5217: <slackbotLabel>Ask Slackbot</slackbotLabel> <description>in your own words to search differently across more sources.</description>
@@ -19632,6 +19760,7 @@ search.29d3374: All workflows managed by you
 search.22e3fb7: All workspaces
 search.2fae84b: All you have to do is ask
 search.c3c4fae: An admin has restricted this channel’s content for use in AI answers.
+search.498b3d8: Another workspace
 search.f10b4a5: Any account type
 search.421ca1a: Any channel type
 search.479b61f: Any file type
@@ -19643,12 +19772,16 @@ search.d9a3685: Apps
 search.a039390: April
 search.eddc813: Archived
 search.e3ed10e: Are there any recent messages about "{searchText}"?
+search.5955413: As a frontline member, you can’t leave the channel you were invited to.
+search.e6e3df1: As a guest, you can’t leave the channel you were invited to.
+search.d46495a: As a guest, you need to be in at least one channel.
 search.310efbc: Ask Slackbot
 search.06373ee: Ask Slackbot about {topic}
 search.fc52535: Ask Slackbot:
 search.ea23b05: Ask Slackbot: {question}
 search.eda5d05: Ask Slackbot…
 search.89dd6c5: Ask a different question
+search.027d408: Ask a question like “What did I accomplish this week?”
 search.cac5d74: Assigned to you
 search.6771ade: Attachments
 search.acdac20: Audio
@@ -19681,6 +19814,7 @@ search.98cc6bf: Canvas templates
 search.e2d397a: Canvases
 search.bed5703: Canvases & Posts
 search.b0fbf21: Can’t ask Slackbot. Try again.
+search.ab7f431: Can’t leave
 search.c03ff88: Can’t load MCP connectors.
 search.cf9c012: Can’t load results.
 search.b09768b: Celebration
@@ -19711,6 +19845,8 @@ search.b65463c: Connect
 search.4a7f6f5: Connect app
 search.76d2303: Connect cloud app
 search.4f24234: Connect to {appName}
+search.b457853: Connect your accounts to see even more information in Slack search results. Anything you can find there, you’ll be able to find here, too. The below have been approved by your administrator.
+search.32106e6: Connect your accounts to use them with Slackbot. The below have been approved by your administrator.
 search.585c533: Connect {appName}
 search.70416d4: Connected!
 search.82eb296: Connecting your account will let you see {appName} here in search.
@@ -19773,7 +19909,6 @@ search.d345254: Direct message with {name}
 search.e7596a0: Direct messages
 search.9a7d4e0: Disable
 search.f4f4473: Disabled
-search.ed28e06: Disconnect
 search.529dba0: Display as
 search.6eaed50: Display options
 search.eac7a00: Dissatisfied
@@ -19838,6 +19973,7 @@ search.5b8d97f: Filter by
 search.ea918c0: Filter by Salesforce org
 search.a97f418: Filter by channel type
 search.e55aa1d: Filter by type
+search.54fe68f: Filter by {name}
 search.3f1cdf5: Filter channels
 search.44f4b87: Filter pull requests
 search.0121e51: Filter recent conversations and workflows
@@ -19863,6 +19999,8 @@ search.9d9f523: Follow up reminder
 search.a3e2206: For 1 week
 search.360ba56: For 48 hours
 search.bdc0f3b: For questions or further feedback, you can <link>contact us</link>.
+search.03191a5: For some reason, Slack wasn’t able to fetch info about this channel.
+search.45c3dcf: For some reason, you can’t currently change your membership for {channelName}.
 search.7e13d94: For you
 search.d166e84: Friday
 search.3f66052: From
@@ -19959,6 +20097,7 @@ search.80d0ba1: Manage agents, apps, and workflows
 search.5b7111c: Manage apps
 search.fab5cd5: Manage connected accounts
 search.9fddcff: Manage your team’s workspace
+search.f7eb22b: Manage {appName}
 search.6311650: Managed by you
 search.433632e: March
 search.9457229: Match in a link: {link}
@@ -20053,6 +20192,7 @@ search.6514e3a: Only your workflows
 search.639bea4: On…
 search.cf9b770: Open
 search.051bf3c: Open Slackbot conversation: {topic}
+search.cea6044: Open in Home
 search.052269b: Open in browser
 search.c103886: Open in home
 search.b3b4d9e: Open in main view
@@ -20236,6 +20376,7 @@ search.0f68b94: See all {section}
 search.f735126: See what’s available in your org
 search.8598222: Select
 search.913afff: Select all
+search.ec48c7c: Select how you want to access sources
 search.c01d8e1: Select which sources are used to generate the AI answer.
 search.8fec252: Send to Slackbot
 search.1c542e7: September
@@ -20248,6 +20389,7 @@ search.530aae8: Share Hot Highlight
 search.989d719: Share Signature Emoji
 search.6d7e07e: Share Your Anniversary
 search.41ea80c: Share anyway
+search.7c6508a: Share item
 search.3ff7b9c: Share the output below with a friendly neighborhood Search Friend in {feedbackChannel}
 search.c76afd4: Share this AI Answer
 search.416f9dc: Share this item
@@ -20261,6 +20403,7 @@ search.a5fe3b3: Shared by
 search.3764e18: Shared in
 search.f40ca84: Shared with me
 search.83454bd: Show all threads
+search.f82278e: Show as a left Sidebar
 search.0bd80a1: Show as a left sidebar
 search.d94dfbe: Show fewer
 search.4f6de2f: Show fewer unreads and drafts
@@ -20365,14 +20508,18 @@ search.00f4104: Threads you’re involved in will be collected right here.
 search.76031dd: Thursday
 search.d19ceca: Tip
 search.768e0c1: Title
+search.cc43b52: To join this channel, you’ll need to switch to the {channelTeamName} workspace.
+search.49898c3: To leave this channel, you’ll need to switch to the {channelTeamName} workspace.
 search.6ce08d6: To-dos
 search.24345a1: Today
 search.4fa8cc8: Tools
+search.62d7300: Top filter
 search.97304bf: Topic tracker
 search.4cb51ea: Track and manage projects
 search.ac26a7a: Translation
 search.047708b: Triggers
 search.19958f0: Try AI Search
+search.cf9409c: Try AI search
 search.6eb1f1b: Try Business+ at No Extra Cost
 search.8469938: Try It
 search.042c862: Try again
@@ -20409,7 +20556,9 @@ search.36d9162: View all {totalCountStr} results
 search.acdf387: View app details
 search.21cffcf: View as dense
 search.12e66ad: View as detailed
+search.3cf5755: View channel
 search.22829a6: View full search
+search.59a4bca: View in {appName}
 search.b98795a: View profile
 search.c5501a4: View the details of the Salesforce record {channel}
 search.7ce7c51: View the details of the {app} app
@@ -20451,6 +20600,7 @@ search.da24830: Yesterday
 search.905cb32: You
 search.3a425cd: You are previewing AI search
 search.70eecbc: You can search for information from this source right in Slack if you’d like.
+search.7645937: You can’t join an archived channel, but you can view and search its contents.
 search.5caecd4: You don’t have any threads with VIPs
 search.4054c10: You haven’t run any workflows recently. Try searching.
 search.e5dac54: You made it!
@@ -20472,6 +20622,7 @@ search.3f5ed76: Your navigation experience
 search.210ea0b: Your navigation query will be included with your survey responses to help Slack improve navigation.
 search.64bc097: Your one-on-one and group conversations show up here.
 search.6efa353: Your organization requires everyone to be in it, so no one misses important info.
+search.3700008: Your organization requires everyone to be in this channel.
 search.2b2f8b9: Your pull requests
 search.5d92198: Your recent searches will show up here.
 search.724b62a: Your search experience
@@ -21583,7 +21734,6 @@ shortcuts_gallery.30c8a0f: All types
 shortcuts_gallery.261c330: Automate your everyday tasks
 shortcuts_gallery.c05c73f: Browse workflows
 shortcuts_gallery.6b1d010: Build Workflow
-shortcuts_gallery.f840ac6: Canceled
 shortcuts_gallery.4c8f6ee: Collect feedback, schedule messages, and so much more with Workflows.
 shortcuts_gallery.b2c26d5: Create Workflow
 shortcuts_gallery.075b00c: Create a Workflow
@@ -21600,7 +21750,6 @@ shortcuts_gallery.d7decf1: Filter
 shortcuts_gallery.5142dca: Filter workflows
 shortcuts_gallery.aeb4d6f: Give it another try in a few minutes.
 shortcuts_gallery.46fc1ad: Help center
-shortcuts_gallery.f61eada: In Progress
 shortcuts_gallery.c49bceb: In review
 shortcuts_gallery.fc9225a: Internal
 shortcuts_gallery.824d76b: Learn more
@@ -21622,9 +21771,7 @@ shortcuts_gallery.012c98e: Private workflow
 shortcuts_gallery.483bf20: Published
 shortcuts_gallery.15bf422: Published to {workspaceName}
 shortcuts_gallery.c957cb9: Ready-to-use workflow templates to automate some of the most common everyday tasks.
-shortcuts_gallery.a78f23a: Recently completed
 shortcuts_gallery.32399a8: Recently edited
-shortcuts_gallery.305b7c8: Recently failed
 shortcuts_gallery.cc5bc92: Recently used
 shortcuts_gallery.9f5cd8a: Retry
 shortcuts_gallery.0350ac2: Save time with workflows and automate some of the most common everyday tasks.
@@ -21669,10 +21816,6 @@ shortcuts_gallery.e800137: You may want to try adjusting your filters.
 shortcuts_gallery.adcfed3: Your templates
 shortcuts_gallery.289f364: Your workflow templates
 shortcuts_gallery.13105f4: Z to A
-shortcuts_gallery.9d0b580: {count} completed
-shortcuts_gallery.5967335: {count} failed
-shortcuts_gallery.e3bb04c: {count} processing
-shortcuts_gallery.e1dba12: {count} waiting for response
 shortcuts_speedbump.77dfd21: Cancel
 shortcuts_speedbump.34b6ac1: Run Shortcut
 shortcuts_speedbump.a77bce4: Run Slash Command
@@ -25391,6 +25534,7 @@ slackforce.fcc9a72: Sales Hub is no longer available. The Salesforce org was dis
 slackforce.9762a89: Sales Tracker
 slackforce.513cb1a: Sales Tracker is no longer available. The Salesforce org was disconnected.
 slackforce.9fc4092: Sales tracker setup ready. Press continue to proceed.
+slackforce.ee96043: Salesforce and Slack are fully integrated, so you can find records by searching right in Slack.
 slackforce.2397b02: Salesforce and Slack. Better Together 🙌
 slackforce.25b544f: Salesforce channels bring record details and team conversation together. No switching between tools.
 slackforce.b09a7ee: Salesforce logo
@@ -25403,6 +25547,7 @@ slackforce.bce0641: Search
 slackforce.0a6a01b: Search accounts
 slackforce.4210f27: Search contacts
 slackforce.e2e904a: Search failed
+slackforce.6c948ed: Search for Salesforce info
 slackforce.7dd919e: Search for new owner
 slackforce.c5be552: Search for sales data in Slack
 slackforce.fc286fc: Search for sales records in Slack
@@ -26662,6 +26807,7 @@ tableau.35fce25: Yes, Let’s Go
 tableau.6313663: Yes, Reload
 tableau.f90453e: dashboard
 team.9fd0d8a: <link>Doesn’t have list access</link>
+team.5041126: <strong>This person wasn’t notified</strong> because the canvas has not been shared with them.
 team.b3dd46b: A place for important notifications
 team.6b21fb7: About
 team.c3cd636: Actions
@@ -26691,6 +26837,7 @@ team.b564109: Find a time to meet with {name}
 team.7abc0a1: Frontline Member
 team.6087f7a: Frontline Members see a partial directory and can only access messages and files from selected channels.
 team.195fa87: Give me my daily briefing
+team.98df2c8: Installed in #{channelName}
 team.d694cdd: Invited Frontline Member
 team.3326258: Invited guest
 team.7573b84: Invited member
@@ -26709,6 +26856,7 @@ team.24a3adc: Name hidden
 team.43ff311: Not on Slack
 team.e29a79f: Review
 team.c29c858: Share Canvas
+team.e9a1d2b: Share canvas with user
 team.e3834e9: Single-Channel Guest
 team.f024d1d: Single-Channel Guests see a partial directory and can only access messages and files from selected channels.
 team.a8f5121: Slack and Salesforce are disconnected. Contact a Slack admin for help.
@@ -27126,6 +27274,7 @@ today.23a9769: Remove from list
 today.3be626d: Remove to-do
 today.278c3e3: Request Access to Today
 today.4286b31: Request Today Access
+today.13c4759: Salesforce task
 today.36a33cb: Saved is for everything else
 today.273825b: Saved item
 today.8fec252: Send to Slackbot
@@ -28321,6 +28470,7 @@ work-objects.93a77c8: View content
 work-objects.21020c9: View conversations
 work-objects.badd385: View details
 work-objects.b18b4eb: View in App
+work-objects.59a4bca: View in {appName}
 work-objects.d9ba895: View latest details
 work-objects.7f624fb: View messages older than 90 days
 work-objects.96645e2: View real-time details and see what others are saying about this file right within Slack.
