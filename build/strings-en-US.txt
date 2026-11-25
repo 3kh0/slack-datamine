@@ -5277,6 +5277,7 @@ channel_sidebar.7654001: Removed {entityLabel} {entityType} from {channelSection
 channel_sidebar.d0c625b: Removed {item} from {section}.
 channel_sidebar.71c287d: Removed {numChannels, plural, =1{conversation} other {# conversations}} from {channelSection}.
 channel_sidebar.a0a74e2: Removed {numEntities, plural, =1{entity} other {# entities}} from {channelSection}.
+channel_sidebar.b9b51f6: Renamed to {channelSection}.
 channel_sidebar.c1ad1c4: Reset section
 channel_sidebar.4a197b0: Reset section changes
 channel_sidebar.299ef4a: Reset to Defaults
@@ -5417,9 +5418,11 @@ channel_sidebar.8af56de: you
 channel_sidebar.6e201aa: {agentName} conversations
 channel_sidebar.6db181e: {authorName}: {preview}
 channel_sidebar.c2c005b: {badgeCount} unread {badgeCount, plural, =1 {invite} other {invites}}
+channel_sidebar.3df1ef7: {channelName}, {count, plural, =1 {# mention} other {# mentions}}
 channel_sidebar.2d891d6: {channel}, failed to send message
 channel_sidebar.57c546d: {count, plural, =1 {# file} other {# files}}
 channel_sidebar.12f139d: {count, plural, =1 {# mention} other {# mentions}}
+channel_sidebar.3ac3e22: {count, plural, =1 {# mention} other {# mentions}} in a channel you haven’t joined
 channel_sidebar.accd9c4: {count, plural, =1 {# new message} other {# new messages}}
 channel_sidebar.2743d1b: {count, plural, =1 {# unread message} other {# unread messages}}
 channel_sidebar.c5e835b: {count, plural, one {View # more draft} other {View # more drafts}}
@@ -5429,6 +5432,7 @@ channel_sidebar.8b35716: {hours, plural, =1 {# hour} other {# hours}}
 channel_sidebar.82badf9: {maxPicks} of {maxPicks} selected. Uncheck a conversation to pick a different one.
 channel_sidebar.09a22c2: {minutes} min
 channel_sidebar.26d4d69: {name} (you)
+channel_sidebar.5934935: {name}, Slack Connect invitation
 channel_sidebar.3b2e865: {numMutedChannels} channels are now hidden
 channel_sidebar.835c272: {numSelected} of {maxPicks} selected
 channel_sidebar.c4f8e1e: {replyCount, plural, =1 {# reply} other {# replies}}
@@ -10644,6 +10648,7 @@ gx_surveys.6eef664: None
 gx_surveys.6e6a6f2: Other
 gx_surveys.2dacf65: Submit
 gx_surveys.29c3140: Survey
+gx_surveys.0a11209: Tell us more (optional)
 gx_surveys.71fa63b: Thank you for your feedback!
 gx_surveys.d35b0b1: The difference between Slack and Teams
 gx_surveys.ee05149: While we work on improvements, here is some information that can help.
@@ -12514,27 +12519,71 @@ keyboard_key.4200997: up arrow
 keyboard_shortcuts.2f03709: {shortcutTitle}: {keyNames}
 latest_message_preview.905cb32: You
 launch_market_segmentation_modal.356a192: 1
+launch_market_segmentation_modal.fee1558: 1-10
+launch_market_segmentation_modal.dcbd040: 11-49
+launch_market_segmentation_modal.878cbf3: 50-499
+launch_market_segmentation_modal.daf5121: 500+
 launch_market_segmentation_modal.242fd79: <lead>To get you started…</lead><headline>Enjoy a free 30-day premium trial</headline>
 launch_market_segmentation_modal.653b88b: AI works across all of it.
+launch_market_segmentation_modal.1eda237: Administrator
 launch_market_segmentation_modal.e69873e: And Slack becomes where work gets done.
 launch_market_segmentation_modal.9c55147: Chat and Collaboration
+launch_market_segmentation_modal.5a91c17: Chat with my team
+launch_market_segmentation_modal.af5c450: Collaborate with people and AI agents
+launch_market_segmentation_modal.a490af2: Collaborating on a class project
+launch_market_segmentation_modal.1b07e5d: Communicating with a class
+launch_market_segmentation_modal.8fc2905: Communicating with a research team
+launch_market_segmentation_modal.605c510: Communicating within/across departments
+launch_market_segmentation_modal.35b4c55: Consolidate my apps and tools in one place
+launch_market_segmentation_modal.880e76e: Construction and Real Estate
+launch_market_segmentation_modal.7b0304e: Coordinating campus initiatives
 launch_market_segmentation_modal.aaf87fe: Education
+launch_market_segmentation_modal.2249e77: Education and Research
+launch_market_segmentation_modal.7494949: Educator
 launch_market_segmentation_modal.c5497bc: Events
 launch_market_segmentation_modal.43824e4: For customer and client communication
+launch_market_segmentation_modal.89c5873: Friends or family chat
 launch_market_segmentation_modal.90e40d5: Get started
 launch_market_segmentation_modal.6c55dff: Get the best of Slack, free for 30 days.
+launch_market_segmentation_modal.d5f3ba2: Hobbies, volunteering or other special interests
+launch_market_segmentation_modal.685c83c: How big is your org?
+launch_market_segmentation_modal.66c44f9: How do you want to use Slack?
+launch_market_segmentation_modal.2e5e9c0: How familiar are you with Slack?
 launch_market_segmentation_modal.3068a95: I just want to check it out
+launch_market_segmentation_modal.78a6f4a: I’m just testing it out
+launch_market_segmentation_modal.ba87811: I’ve managed Slack workspaces
+launch_market_segmentation_modal.59f71cd: I’ve used Slack before
 launch_market_segmentation_modal.09b2882: Let’s Go
 launch_market_segmentation_modal.f4a105f: Loading next question
+launch_market_segmentation_modal.eee9e18: Managing a student organization
+launch_market_segmentation_modal.f5a5a33: Managing teaching assistants
+launch_market_segmentation_modal.e71f214: Manufacturing and Engineering
 launch_market_segmentation_modal.f95e683: Market segmentation modal
 launch_market_segmentation_modal.3671c08: New to Slack
 launch_market_segmentation_modal.bc98198: Next
 launch_market_segmentation_modal.3a01f52: No commitments. Your Business+ plan reverts to the free version of Slack when the trial ends.
 launch_market_segmentation_modal.6e6a6f2: Other
+launch_market_segmentation_modal.a515280: Other industry
+launch_market_segmentation_modal.24720de: Professional Services
+launch_market_segmentation_modal.93823d9: Professional community or network
 launch_market_segmentation_modal.dd64c0f: Project Management
+launch_market_segmentation_modal.dadedec: Running a department or program
+launch_market_segmentation_modal.7717d63: Running an operational team
 launch_market_segmentation_modal.3da4745: Skip
+launch_market_segmentation_modal.4447250: Software and Technology
+launch_market_segmentation_modal.42b3279: Student
+launch_market_segmentation_modal.5b97d4f: Supporting student organizations
+launch_market_segmentation_modal.0a11209: Tell us more (optional)
 launch_market_segmentation_modal.3de3cef: To explore AI tools and apps
+launch_market_segmentation_modal.77b1b2c: Track projects
+launch_market_segmentation_modal.4531874: We’ll suggest the right setup for your goals.
+launch_market_segmentation_modal.9199952: We’ll tailor recommendations based on your experience.
+launch_market_segmentation_modal.3c55714: We’ll use this information to plan future improvements.
+launch_market_segmentation_modal.3779ca0: What does your organization do?
+launch_market_segmentation_modal.7dd7afe: Which best describes you?
+launch_market_segmentation_modal.00040ba: Work
 launch_market_segmentation_modal.6b168f9: Work starts with a message.
+launch_market_segmentation_modal.f739980: Work with clients, vendors, and partners
 launch_market_segmentation_modal.3bc45fa: Working with partners and vendors
 launch_market_segmentation_modal.c4902a1: Your apps work alongside it.
 launch_market_segmentation_modal.a7c1d9f: chat and collaborate
@@ -27968,6 +28017,7 @@ view.1f0c0fc: Use the arrow keys to move the panel
 view.9f8a238: User
 view.4add952: User groups
 view.10a47da: What’s New
+view.00040ba: Work
 view.b3e3b7a: Workflow Builder
 view.e38e3ca: Workflow Creation
 view.5d7024a: Workflow Editor
@@ -28580,6 +28630,8 @@ workflow_builder.c9b21fd: Build adaptable workflows that guide teammates and aut
 workflow_builder.f20b352: Build your own
 workflow_builder.db07f48: Builder user ID:
 workflow_builder.be0982f: Business operations
+workflow_builder.309034b: Button can only be clicked once
+workflow_builder.347b2ac: Button label
 workflow_builder.a127631: By canvas title
 workflow_builder.2efebe9: By channel
 workflow_builder.8db8b1d: CHANGE_LINK_SHARING
@@ -28748,6 +28800,7 @@ workflow_builder.e781c1d: Customize how to start the workflow
 workflow_builder.728298d: Daily
 workflow_builder.b0a92ef: Daily digest
 workflow_builder.c946878: Dang
+workflow_builder.5944e4c: Danger (red)
 workflow_builder.59fa00f: Data Variables
 workflow_builder.196acb8: Data management
 workflow_builder.eb9a4bc: Date
@@ -28869,6 +28922,7 @@ workflow_builder.3fa170e: Example HTTP body
 workflow_builder.3c8c5c9: Example HTTP body copied to clipboard.
 workflow_builder.cf3df62: Example text
 workflow_builder.84f58f2: Example workflow link
+workflow_builder.19ae59a: Example: Continue
 workflow_builder.9e57dea: Exclude ANY of these keywords
 workflow_builder.618a28d: Excluded keywords
 workflow_builder.f0684b3: Expand branch {branchIndex}
@@ -29193,6 +29247,7 @@ workflow_builder.813e04e: Person who last interacted with the workflow
 workflow_builder.1a44cf2: Pinned by {senderName}
 workflow_builder.555cd4e: Pinning a message
 workflow_builder.f977cff: Please add a title for this form.
+workflow_builder.a7648b0: Please choose a different label, this one already exists.
 workflow_builder.5ec5a13: Please enter a reason
 workflow_builder.25cb7fe: Please make sure your file is in the expected JSON format and try again.
 workflow_builder.e2356d2: Please replace all placeholder variables with defined variables.
@@ -29214,6 +29269,7 @@ workflow_builder.c415ba9: Preview form
 workflow_builder.5f37cd2: Previous Fiscal Year
 workflow_builder.71b8566: Previous Month
 workflow_builder.8d39075: Previous Quarter
+workflow_builder.2ab267d: Primary (green)
 workflow_builder.8137500: Private channels are disabled for this trigger. Contact an admin for access or remove private channels to continue.
 workflow_builder.3cd82eb: Private to Template Managers
 workflow_builder.984b632: Proceed to next step
@@ -29478,6 +29534,7 @@ workflow_builder.39eb41a: Show more permissions
 workflow_builder.fac0592: Show reasoning trace
 workflow_builder.8c72a70: Sign in to Salesforce in the Salesforce App to publish a workflow using this step.
 workflow_builder.dd11868: Single
+workflow_builder.ff53200: Single-click
 workflow_builder.3aca143: Skip the manual form set up — let us create a form using this step’s data for you.
 workflow_builder.430b38b: Slack
 workflow_builder.b7f1c7b: Slack AI Feedback
@@ -29549,7 +29606,6 @@ workflow_builder.1b8962f: Summarize channel
 workflow_builder.57e2197: Summarize channels
 workflow_builder.5e00c4e: Summarize the last {dayCount} {dayCount, plural, =1 {day} other {days}} of {channelLabel}
 workflow_builder.2d45a22: Summarizing channels
-workflow_builder.5ea6a82: Summarizing public channels
 workflow_builder.6832172: Summarizing search results
 workflow_builder.12b71c3: Summary
 workflow_builder.48c98ca: Sun
@@ -29671,6 +29727,7 @@ workflow_builder.67c35f5: This feature is available upon renewal.
 workflow_builder.041fb91: This feature is available with an upgrade.
 workflow_builder.2428d19: This field dynamically populates additional fields based on your choice, so variables are not available.
 workflow_builder.ab90d9d: This field is required.
+workflow_builder.7042b91: This is a preview of how your button looks in a message!
 workflow_builder.69e5b82: This is how the workflow will appear in Slack messages and canvases
 workflow_builder.8c6dbd5: This is how your notification will appear in Sales Home
 workflow_builder.887f895: This is just a preview
