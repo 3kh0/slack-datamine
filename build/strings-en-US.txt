@@ -1944,9 +1944,6 @@ app_details.db56b97: Remove from VIP
 app_details.01f666d: Remove from top bar
 app_details.1e88602: Remove this app from channel…
 app_details.3745251: Request canceled
-app_details.aab3078: Requests for this app were denied in {firstWorkspaceName} and {secondWorkspaceName}.
-app_details.71086b8: Requests for this app were denied in {workspaceName} and {otherCount, plural, =1 {# other workspace} other {# other workspaces}}.
-app_details.36c01c3: Requests for this app were denied in {workspaceName}.
 app_details.3e43db4: Require approval for each new DM
 app_details.c43f715: Required permissions
 app_details.b15fe11: Screenshot of {appName}
@@ -1976,7 +1973,10 @@ app_details.a08e58b: You canceled this request in {workspaceName}.
 app_details.8446548: You canceled this request.
 app_details.f1e64d4: Your approval in {workspaceName} no longer covers this app. Request it again.
 app_details.bca116e: Your approval no longer covers this app. Request it again.
+app_details.cebe9a4: Your request was denied in {workspaceName}.
 app_details.463cbb9: Your request was denied. You can request it again.
+app_details.f7d19e6: Your requests were denied in {firstWorkspaceName} and {secondWorkspaceName}.
+app_details.001167b: Your requests were denied in {workspaceName} and {otherCount, plural, =1 {# other workspace} other {# other workspaces}}.
 app_details.b0fa28a: by {developerName}
 app_details.9ef0a58: carousel
 app_details.ed2bbc3: {agent} can now join your DMs when you mention it.
@@ -18529,12 +18529,6 @@ quip_collab.fa473a7: Collapse or expand section
 quip_collab.61607a0: Comments cannot span multiple sections.
 quip_collab.04a2122: Confirm
 quip_collab.33db592: Content preview from {host}
-quip_collab.1ed02a9: Content with comments
-quip_collab.4e8556d: Content with comments and reactions
-quip_collab.f054367: Content with comments and reactions by {name}
-quip_collab.bb4879b: Content with comments by {name}
-quip_collab.5b12bf6: Content with reactions
-quip_collab.5d06635: Content with reactions by {name}
 quip_collab.af74f7c: Copy
 quip_collab.a1f1cfb: Copy Anchor Link
 quip_collab.672d82d: Copy Link
