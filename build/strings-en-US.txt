@@ -1048,7 +1048,6 @@ agents.a9dc36a: Assemble your <span>Agentforce</span> team
 agents.6972aea: Automate this
 agents.a24278a: Available to Slackbot
 agents.4fae892: Away
-agents.b52b36b: Back
 agents.cb6bd77: Back to Skills
 agents.7aab4d5: Bring your favorite skills from other platforms
 agents.14649e4: Browse Skills
@@ -1984,10 +1983,11 @@ app_details.1d06648: {appName} is installed on {teamName}
 app_details.2a4c7f0: ‘{appName}’ will be able to do
 app_details.96cb78d: ‘{appName}’ will be able to view
 app_dialog.b16c7ac: (optional)
-app_dialog.0997bad: Header Icon
 app_dialog.2dacf65: Submit
 app_dialog.ab90d9d: This field is required.
 app_dialog.26dc55d: We had some trouble connecting. <a>Try again?</a>
+app_dialog.38ffdb9: You can't enter more than {maxLength, plural, =1 {# character} other {# characters}}.
+app_dialog.d800655: You must enter at least {minLength, plural, =1 {# character} other {# characters}}.
 app_home.f0ee13e: Access restricted
 app_home.378cbbf: Learn More
 app_home.cce7155: Reload
@@ -2082,6 +2082,7 @@ app_launcher.86f6306: Upgrade for unlimited apps. <Link>Learn more</Link>
 app_launcher.205b456: Workspaces
 app_launcher.b97c4ca: You might want to try using different keywords, checking for typos or adjusting your filters.
 app_launcher.38c0052: Your request couldn’t be sent. Try again.
+app_launcher.73f5594: Your request for {appName} is already closed
 app_launcher.a8273bd: Your team hasn’t installed any apps from this category yet. Some of the most popular ones on Slack are listed below. Give one a try!
 app_launcher.4a77bcb: Your team hasn’t installed any apps from this category yet. Your admin can install apps on Slack for you to use.
 app_mention_create_channel.b52b36b: Back
@@ -13968,14 +13969,12 @@ menu.c0774ce: Browse apps
 menu.2190a3b: Browse channels
 menu.124c499: Browse external connections
 menu.524932e: Browse files
-menu.7bd6043: Canvas details
 menu.c1ecc60: Change to a private channel
 menu.c24b99e: Channel details
 menu.164ed0a: Channel options
 menu.bbfa773: Close
 menu.8962525: Close conversation
 menu.2dad455: Close conversation: {title}
-menu.78b2866: Conversation details
 menu.db62f1e: Conversation options
 menu.af74f7c: Copy
 menu.dc6bf85: Copy channel email address
@@ -14070,10 +14069,6 @@ menu.753a22b: Notifications
 menu.a97e173: Notify you about…
 menu.abac53b: Only badge the channel when someone @mentions you
 menu.6cd2cfc: Only get notified if someone @mentions you personally
-menu.2b2df31: Open app details
-menu.fc8e543: Open canvas details
-menu.489fd24: Open channel details
-menu.61ec70d: Open conversation details
 menu.5a99577: Open in Slackbot
 menu.e23fa2c: Open in floating window
 menu.c103886: Open in home
@@ -14134,7 +14129,6 @@ menu.59cdce6: Unreads only
 menu.10dad62: Unstar channel
 menu.7c11f7e: Unstar conversation
 menu.02fc0cf: View agents & apps
-menu.acdf387: View app details
 menu.fa4fe5f: View channel details
 menu.da9ea9a: View channel insights
 menu.2c07fc7: View conversation details
@@ -14143,7 +14137,6 @@ menu.80b8479: View in Slack Marketplace
 menu.4d66568: View members
 menu.225220d: View paused workflows
 menu.b98795a: View profile
-menu.7f25898: View {quipLabel} details
 menu.d7a4841: Workflow
 menu.9dda926: Workflow options ready
 menu.37acf9d: You do not have permissions. Please contact your admin.
@@ -16747,7 +16740,9 @@ page_client.9f5cd8a: Retry
 page_client.f1ec2b1: Show in Finder
 page_client.3f7c503: View all downloads
 page_client.f463ac5: You can’t download a canvas, but you can always <a>find them saved</a> in Slack
+page_pricing.73f43de: +1 (555) 555-5555
 page_pricing.9f1bcea: 1 - 15
+page_pricing.1da6c47: 1-800-522-7997
 page_pricing.d975ce2: 1001+
 page_pricing.92767dc: 101 - 500
 page_pricing.7fc1be7: 16 - 100
@@ -16786,6 +16781,8 @@ page_pricing.f3cc9fa: Group external messages
 page_pricing.801d002: Group meetings
 page_pricing.a1be950: Hawaii
 page_pricing.4c8ef27: Hi {teamName}
+page_pricing.7b31777: How big is your team?
+page_pricing.fa6aeb6: How can our sales team help you?
 page_pricing.d3a5a98: I agree to the <a1>Privacy Statement</a1> and to the <a2>handling of my personal information</a2>. In particular, I consent to the transfer of my personal information to other countries, including the United States, for the purpose of hosting and processing the information as set forth in the Privacy Statement.
 page_pricing.18334cc: Idaho
 page_pricing.31b9d2e: Illinois
@@ -16827,6 +16824,7 @@ page_pricing.d318c17: Ohio
 page_pricing.86daa48: Oklahoma
 page_pricing.f9f742e: Ontario
 page_pricing.75dd53a: Oops! That looks like an invalid email address.
+page_pricing.bb062e3: Or give us a call
 page_pricing.07719ac: Oregon
 page_pricing.dff756e: Pennsylvania
 page_pricing.8961d3b: Phone number
@@ -16847,6 +16845,9 @@ page_pricing.26da45e: Rhode Island
 page_pricing.c3f104d: Role
 page_pricing.754843b: SAML-based single sign-on
 page_pricing.59faf25: Saskatchewan
+page_pricing.69cc521: Select a country
+page_pricing.c234150: Select a state
+page_pricing.7cfb9fe: Select your company size
 page_pricing.a018d39: Slackbot (personal AI companion)
 page_pricing.48faa2a: Sorry! Something went wrong. Please try again.
 page_pricing.ac6a600: South Carolina
@@ -16870,6 +16871,7 @@ page_pricing.027fb4b: Virginia
 page_pricing.a27a664: Washington
 page_pricing.f59b051: West Virginia
 page_pricing.52b2489: Wisconsin
+page_pricing.4320576: Work email
 page_pricing.ed190c7: Wyoming
 page_pricing.bf963a0: Yes, I would like to receive marketing communications about the Salesforce family of companies' products, services, and events. I can unsubscribe at any time.
 page_pricing.581b4de: Yukon
@@ -20584,7 +20586,6 @@ search.be8e8a7: View all conversations with {memberNamesText}
 search.affb70b: View all conversations with {mpimNamesForAriaLabel}
 search.a52fc2a: View all results
 search.36d9162: View all {totalCountStr} results
-search.acdf387: View app details
 search.21cffcf: View as dense
 search.12e66ad: View as detailed
 search.3cf5755: View channel
@@ -26977,7 +26978,6 @@ team_creation.7ce01f6: Success!
 team_creation.07c7e76: That code’s no longer valid. <a>Request a new code</a> and try again.
 team_creation.a20f57d: There were too many attempts to submit an email address. Try again in a few minutes.
 team_creation.8a6783f: digit {inputIndex} of {numberOfInputs}
-team_creation_setup.78c44c5: Hi everyone. Here’s a space for our {channelName} conversations!
 team_picker.e27938a: &Finish signing in
 team_picker.b332843: &Leave
 team_picker.763c2eb: &Remove
