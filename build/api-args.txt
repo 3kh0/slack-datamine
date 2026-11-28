@@ -58,6 +58,14 @@ admin.slackbot.channelExclusions.list: cursor, limit
 admin.users.sendEmailToPending: channel_id, message_ts, team_id
 admin.workflows.search: app_id, limit
 admin.workflows.unpublish: workflow_ids
+agents.a2a.add: agent_card_url, credential_header_name, credential_secret, oauth_config
+agents.a2a.preview: agent_card_url
+agents.a2a.request: agent_card_url
+agents.bindings.add: binding
+agents.bindings.detect: url
+agents.bindings.draft: mode, url
+agents.bindings.request: binding
+agents.bindings.test: binding, message
 agents.mcp.settings.list: agent_app_id
 agents.mcp.settings.listTools: agent_app_id, cursor, server_id
 agents.mcp.settings.setServerEnabled: agent_app_id, is_enabled, server_id

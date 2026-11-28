@@ -11,6 +11,7 @@
  There is an issue accessing a knowledge source.
  Use the Call summary skill.
  YAML type.
+ and enter it.
  are already in the huddle.
  as a string.
  as prefix.
@@ -62,6 +63,7 @@
  to always sound your best.
  to ask again.
  to get started.
+ to it under Advanced.
  to keep all of your message and file history searchable.
  to keep edit access for all your canvases.
  to keep group huddles and AI notes.
@@ -71,10 +73,12 @@
  to learn exactly which functions took the longest to execute.
  to see exactly what functions took the longest to execute.
  to share files from here, or copy the link to your file to share it in Slack.
+ to the URL, a header or the request under Advanced.
  to unmute your microphone.
  turned off automatic AI huddle notes in this channel. Manage this setting in Channel Settings.
  turned on automatic AI huddle notes in this channel. Manage this setting in Channel Settings.
  type was not found.
+ under Advanced.
  until the drop event.
  use additive animation on looped animation.
  was undefined when updating Entity, but is always required. The PB update bundle is corrupt.
@@ -82,14 +86,17 @@
  when started fetching a list of available admin Salesforce orgs.
  when started fetching a list of available user Salesforce orgs.
  when the performance problem arises.
+ with an ID Slack gives the thread.
  workspace.
 %cTip: This selector is causing unnecessary re-renders. Consider using a shallow equality check or empty constants. Note that deeper equality checks come with added performance cost.
 ) are ignored.
 ) that performed expensive computation.
-)&&(eH(!1),sx(void 0),ez(sP?
+)&&(eY(!1),s_(void 0),eO(sF?
 ))),e((0,m.R3)(g)),e((0,m.p4)(g?a:void 0)),_(g?
 ). If you meant to render a collection of children, use an array instead.
 )?l.makeImage(e.slice(8),new u.Ay(t,r,n,i),o?
+, all at once.
+, as it streams in.
 , but denied in another workspace.
 , or there is other JavaScript running during this interaction that took up the majority of the time.
 , other JavaScript not part of React, or work the browser has to do to update the DOM and draw the next frame.
@@ -136,6 +143,8 @@
 :void 0,credentialless:m?
 :void 0,overlayClassName:e?
 :void 0,skipDoneDialog:!0,buttonClassName:t?
+?a:void 0)?
+?t.header:void 0)??e?.header??nh,keyPrefix:t?.prefix??e?.prefix??
 ?void 0:v.observedStatus)??f??v?.observedStatus??(v?.summaryDone?
 A DM with someone
 A December 2000 announcement, an October 2001 organizational memo, email signatures, and customer and organizational threads.
@@ -178,6 +187,7 @@ A huddle happened with
 A huddle is happening
 A huddle link has been shared
 A huddle where three people talk over a shared screen
+A key or token
 A lead integration is already set up in this channel.
 A list as value.
 A list for your sales contacts
@@ -223,9 +233,11 @@ A style must have a core reference
 A tainted cluster node XBX1
 A thumbs-down on a wiki line was answered or failed
 A thumbs-down on a wiki line was sent: a read begun before it lands nothing until its answer
+A username and password
 A valid channel name is required.
 A valid frequency is required
 A variable with this name already exists
+A2A agent
 ACTIVE_EXPERIENCE state machine fetch timed out
 ADBE AnchorPoint
 ADBE Color Control
@@ -314,10 +326,14 @@ AI-powered Slackbot
 AI-powered bird
 AI-powered work
 ALERT: Audio input will be muted until the start muted barrier is released
+API Endpoint
+API description
+API key (sent with every request)
 API queue client timeout handler threw
 API returned malformed JSON preferences
 API returned not ok
 API returned unparseable preferences, falling back to localStorage
+API style
 API timestamp of the reacted message
 API usage
 ARIA application usage
@@ -358,11 +374,13 @@ Access Today Tab
 Access denied
 Access granted.
 Access is limited
+Access key
 Access logs
 Access proposals are no longer available. Refresh the page and try again.
 Access ready-to-use templates with powerful automation built in. The Grid plan includes the ability to publish custom templates for your company.
 Access resumed after successful client.init
 Access to customer support
+Access token for testing
 Accessibility in Slack
 Account & preferences
 Account ID
@@ -370,6 +388,7 @@ Account Name
 Account for Workflow building
 Account for workflow building and workflow use
 Account for workflow use
+Account identifier
 Account name
 Account settings
 Account type
@@ -380,6 +399,7 @@ Accounts are for keeping tabs on the details of your customers. Accounts can be 
 Acme Co.
 Acquisition cancelled before attempt
 Acquisition cancelled during retry delay
+Act as an AI assistant
 Action Button
 Action Data:
 Action handler for
@@ -418,8 +438,10 @@ ActivityIA4: Update unread activity item by thread key
 Acts as users
 Adam Bryant
 Add 1 lead or up to 50 contacts
+Add Agent
 Add Agent or App
 Add Agentforce Agent
+Add Anyway
 Add Apps
 Add Automation
 Add Automation as Member
@@ -465,6 +487,7 @@ Add a Field
 Add a Google Drive file
 Add a Link
 Add a Profile
+Add a Prompt
 Add a Salesforce list
 Add a Salesforce record
 Add a Source
@@ -513,6 +536,7 @@ Add a prompt to test your agent.
 Add a prompt to test your sidekick.
 Add a reaction
 Add a reason.
+Add a reason. This workspace asks for one with every request.
 Add a record to a list
 Add a reminder
 Add a resource
@@ -790,6 +814,7 @@ Additions to your channel
 Adds a custom skill category, or renames it if already present
 Adds a reminder for a message via API call
 Adds a step to a workflow
+Adds a third-party A2A agent by its Agent Card URL, then refreshes the agent list on success
 Adds app to channel
 Adds item to folder and shows success toast
 Adds membership values to updated flannel channels
@@ -825,6 +850,7 @@ Advanced channel permissions
 Advanced options
 Advanced permission controls
 Advanced settings
+Advanced: edit as JSON
 Aerial view of the Bixby Bridge and coastline of the Big Sur area in California.
 Affected opportunities still show the previous stage name and can be updated manually on the Sales Tracker.
 After 1 minute
@@ -843,8 +869,10 @@ Agent Browser Tabs
 Agent MCP server deep link failed
 Agent Permissions
 Agent Sessions
+Agent URL
 Agent URLs
 Agent and app search results
+Agent card URL
 Agent conversations
 Agent details
 Agent details sections
@@ -1053,7 +1081,9 @@ Amazon Voice Focus support check inside iframe: not supported.
 American Samoa
 Amount changed
 An AI file summary preview will appear when files are shared in conversations, and will be available in file details.
+An OpenAPI document that opens without signing in.
 An activity was logged
+An admin already approved or declined this agent.
 An admin has disabled external file access for AI workflow steps. Remove external files to continue.
 An admin has disabled file access for AI workflow steps. Remove files to continue.
 An admin has restricted this app. Ask your admin if you need it.
@@ -1129,11 +1159,13 @@ Any decisions?
 Any details for the invite?
 Any file type
 Any files that are saved or shared will show up here.
+Any other API, like a custom chat endpoint. You describe it in a later step.
 Any other priorities I should be aware of?
 Any templates you build or manage will show up here.
 Any time
 Any time in the past
 Any type
+Anyone here can message or mention it, and it signs in as you for all of them.
 Anyone in your entire organization
 Anyone in your workspace can DM it or @mention it.
 Anyone who can see a contact or lead can read the emails logged to it.
@@ -1299,6 +1331,7 @@ ArrowUp ArrowDown Backspace Delete
 Art by Haley Tippmann
 Art by Hudson Christie
 Art by Luis Mendo
+As a bearer token
 As hybrid workplaces become the norm, maintaining employee satisfaction and a positive culture is more important than ever.
 Ask Agentforce for Analytics
 Ask Singer
@@ -1325,6 +1358,7 @@ Ask a question or get help with a task
 Ask about this meeting
 Ask about this record, prep for a customer meeting, or make quick updates.
 Ask about this window
+Ask an admin of this workspace to add the agent for you.
 Ask an admin to install it from the Slack Marketplace.
 Ask an admin to reinstall it so Slackbot gets the access it needs.
 Ask anything
@@ -1347,6 +1381,7 @@ Ask your admin to approve an update to this app in
 Ask your admin to approve an update to this app. Until then, the app keeps its current permissions.
 Ask your admin to enable 
 Asked Singer
+Asked to stop
 Asking for microphone deferred until unmute
 Assigned to you
 Associating channel
@@ -1444,6 +1479,9 @@ Aug 27 2001 email placing her in
 August 2001
 Aurora X
 Auth Me Now
+Auth scopes
+Auth type
+Authorization URL
 Authorized IP ranges
 Auto white balance
 Auto-close old channels according to certain rules
@@ -1527,6 +1565,7 @@ Ayu Light
 Ayu Mirage
 BIRD2 Configuration
 Back in history
+Back to Agents
 Back to All channels
 Back to Current
 Back to Filters
@@ -1598,6 +1637,7 @@ Best value
 Beta freeze moved to next Thursday.
 Big Business
 Bill Williams III
+Binding JSON
 Binds a pending Slackbot auto-init target to its generated client message ID
 BitMatrix size must be defined and greater than 0
 Bitstream Vera Sans Mono
@@ -1660,6 +1700,7 @@ Bring Slackbot to your meetings
 Bring all archived items to To-dos
 Bring all your apps and documents into Slack to manage your calendar, track projects, and work with AI agents with just a click.
 Bring all your tools into Slack
+Bring an agent you use to Slack by its URL. Slack works out how to talk to it, and you can try it before you add it.
 Bring both your teams into the same room
 Bring communication out of silos and into one place
 Bring emails into Slack
@@ -2106,6 +2147,7 @@ Change download location
 Change draft pending block unfurls to sending
 Change draft pending gif unfurls to sending
 Change formatting
+Change how Slack signs in
 Change limited access group
 Change notification settings
 Change region
@@ -2227,6 +2269,7 @@ Chart my Jira issues by status
 Chart my open PRs by days in review
 Chart my pipeline by stage
 Chart type
+Chat Completions
 Chat about this
 Chat and Collaboration
 Chat with Slackbot
@@ -2235,16 +2278,19 @@ Chat with external partners
 Check Audio
 Check It Out
 Check Tasks
+Check URL
 Check again
 Check back in on your lists, any time
 Check draft request
 Check facts
+Check how Slack talks to the agent
 Check if users in a channel can join huddle
 Check list
 Check needed
 Check out these help articles about individual features. 
 Check out what happened this week
 Check skipped. Share this note in the meeting chat yourself.
+Check the OAuth client ID and secret.
 Check the facts about you
 Check unreads after the user sends a message
 Check upcoming close dates
@@ -2311,6 +2357,7 @@ Choose a frightful theme
 Choose a huddle theme
 Choose a journey
 Choose a markdown file to upload
+Choose a method
 Choose a plan
 Choose a reaction
 Choose a schedule
@@ -2323,12 +2370,14 @@ Choose an agent
 Choose an event
 Choose an option
 Choose an option to kickstart your work:
+Choose another way to sign in, or ask an admin to add this agent.
 Choose another window
 Choose background
 Choose channels
 Choose channels for your recap
 Choose default skin tone
 Choose how AI returns its response.
+Choose how Slack signs in
 Choose how Slackbot helps everyone in this conversation.
 Choose how the target should be compared to the value, such as equals, contains, or does not equal.
 Choose how to configure this step
@@ -2481,6 +2530,7 @@ Clicking Salesforce previews
 Client ID
 Client boot completed
 Client cancelled task execution.
+Client secret
 Client server capabilities not available
 Clipboard not pasted
 Clipboard pasted as PB
@@ -2787,6 +2837,7 @@ Configure memory and skills
 Configure these tabs in the navigation bar. At smaller window sizes, not all selected tabs may appear.
 Configure these tabs in the navigation bar:
 Configure your Slack notifications
+Configured for you
 Confirm Salesforce permissions
 Confirm and Finish
 Confirm and Start Listening
@@ -2827,7 +2878,9 @@ Connect a calendar to Slack to schedule an external huddle.
 Connect a support address to respond to a case
 Connect account
 Connect accounts
+Connect an A2A agent
 Connect an account to continue
+Connect an agent to Slack by its URL. Slack works out how to talk to it, and you can try it before anyone else can use it.
 Connect an email account to import emails
 Connect an existing project
 Connect another org
@@ -2841,6 +2894,7 @@ Connect each MCP server to use it in this step. Test runs use your connection.
 Connect email
 Connect email for your team
 Connect email provider
+Connect over A2A
 Connect securely with people outside your company
 Connect the apps your team uses
 Connect to Gmail
@@ -2862,6 +2916,7 @@ Connect your Gmail account?
 Connect your Gmail and log emails with your contacts and leads.
 Connect your One Drive account
 Connect your SSO to any identity provider.
+Connect your Salesforce account to add this agent.
 Connect your account
 Connect your account at any time
 Connect your account in Salesforce connection settings
@@ -2954,6 +3009,7 @@ Continue this conversation in a huddle
 Continue to Checkout
 Continue to Groups
 Continue to Your Workspace
+Continue to set it up from its Agent Card.
 Continue to setup
 Continue with Free
 Continue without saving changes?
@@ -3412,6 +3468,8 @@ Creating your Google Drive file
 Creative feedback requested in #ext-agency-tyconet
 Creative program
 Creator: You
+Credential header name
+Credential secret
 Credit team
 Crisp and upbeat.
 Critical Apps image
@@ -3734,6 +3792,9 @@ Describe how Channel Agent should respond in this channel.
 Describe how Slackbot should respond in this channel.
 Describe how you want your sidebar to look
 Describe how your team plans to use this list
+Describe the API or paste a link to its docs below, or write the setup yourself.
+Describe the API or paste a link to its docs, or write the setup yourself, before going on.
+Describe the API, or paste a link to its docs
 Describe the task you
 Describe the types of messages that should start this workflow (e.g., 
 Describe this folder
@@ -4035,6 +4096,7 @@ Draft ready. Review the form before you create the agent.
 Draft replies in my tone
 Draft replies to my VIP messages
 Draft saved
+Draft the Setup
 Draft with Slackbot
 Drafting your agent
 Drafts & sent
@@ -4093,6 +4155,7 @@ Duration parsed from mp4 should be greater than zero
 During market hours
 Dynamic Client Registration settings
 Dynamic catch values are not supported in JSON Schema
+Dynamic client registration
 Dynamic documents
 E.164 broj
 E.164 number
@@ -4108,7 +4171,12 @@ ERROR: missing pairwise overlap information
 EU division
 Each group can have up to 20 conditions
 Each link or QR code works for up to 400 people. To keep your workspace secure, only share the invite with people in your organization.
+Each person signs in
+Each person signs in the first time they use the agent. To test it now, paste an access token for testing.
+Each person signs in to the agent
+Each person signs in with their own account
 Each task gets a private code channel. Write your task in the input; the agent will ask if it needs you.
+Each user signs in (OAuth 2.0)
 Earlier changes
 Earliest date created
 Early connection closed; discarding signaling task.
@@ -4163,6 +4231,7 @@ Edit all profile details
 Edit all sections
 Edit alt text
 Edit and reorder workspaces
+Edit as JSON
 Edit canceled
 Edit channel managers
 Edit channel topic
@@ -4319,6 +4388,7 @@ Empty files cannot be uploaded.
 Empty quote
 Enable Auto-Merge
 Enable Clog debug mode
+Enable PKCE for enhanced security during the authorization code flow.
 Enable Recording
 Enable Slack Connect to work with other companies
 Enable and update a user group
@@ -4356,6 +4426,7 @@ End your current voice call?
 End your voice call with Slackbot?
 End-of-week recap
 Ending search session
+Endpoint to fetch user identity after authentication.
 Ends in 1 day
 Enforce security policies such as blocking jailbroken devices, blocking file downloads on desktop, and blocking file downloads and message copying on mobile.
 Engagement trends
@@ -4394,14 +4465,21 @@ Ensure the unread threads popover rows are loaded
 EnsureAppViewType default-tab resolution
 Enter a folder name
 Enter a link to a Google Doc, Google Slides, or uploaded Google Drive file.
+Enter a name for the agent.
 Enter a name for the category.
 Enter a name or email
 Enter a name, email, or user group
 Enter a project name
+Enter a public https link to the docs.
 Enter a title.
 Enter a variable name
 Enter agent description
+Enter an https URL.
+Enter an https URL. Slack connects to agents only over HTTPS.
 Enter at least 3 characters to search for a list in Salesforce
+Enter both the credential header name and secret, or leave both empty.
+Enter client ID
+Enter client secret
 Enter email address
 Enter email content here
 Enter folder name for link.
@@ -4409,10 +4487,18 @@ Enter full screen mode?
 Enter link URL
 Enter new topic
 Enter text
+Enter the URL Slack gets a token from.
+Enter the authorization URL, where people sign in.
+Enter the client ID.
+Enter the client secret.
 Enter the code we sent you
 Enter the domain you want to connect. Everyone with an email address on this domain will get access.
+Enter the name of the URL parameter the key goes in.
+Enter the name of the header the key goes in.
 Enter the number of days or months for which the field has not changed
+Enter the password.
 Enter the prompt that you want the task to run
+Enter the username Slack signs in with.
 Enter to call again.
 Enter to call back.
 Enter to decline the call
@@ -4521,6 +4607,8 @@ Error setting seen_onboarding_banner user pref
 Error stopping background worker device during cleanup
 Error storing app stats in local Storage
 Error storing redux in local Storage
+Error thrown when dispatching a thunk loadUserInteractions from useMigrateUsersLaterCoachmark
+Error thrown when dispatching a thunk recordUserInteraction from useMigrateUsersLaterCoachmark
 Error trying to parse base URL.
 Error trying to parse relative URL.
 Error unpublishing workflow: 
@@ -4568,6 +4656,7 @@ Everyone can post
 Everyone can reply to messages
 Everyone except guests can post
 Everyone except specific people or groups
+Everyone in the workspace
 Everyone in this conversation can use Slackbot.
 Everyone in this conversation will get an invite.
 Everyone must knock, including people who are invited.
@@ -4587,6 +4676,7 @@ Everything you need to know to get started and get to work in Slack.
 Evict archived records from store
 Evicted objects:
 Ex. #project-unicorn
+Ex. $.id, $.email, $.user.id
 Ex. Director
 Ex. Hello!
 Ex. New York
@@ -4601,6 +4691,7 @@ Ex: Project Beta
 Ex: Q4 budget, autumn campaign
 Ex: Request Form
 Example HTTP body
+Example prompts
 Example request copied to clipboard.
 Example text
 Example workflow link
@@ -5313,6 +5404,7 @@ Files you recently viewed or modified will appear here.
 Files, links, and AI notes from huddles in this channel will show up here.
 Files, links, and AI notes from huddles will show up here.
 Files, links, and media from this conversation will show up here.
+Fill in how Slack sends a message and reads the reply under Advanced, then try the agent.
 Fill this in first
 Filled Circle
 Filled Rectangle
@@ -5391,6 +5483,7 @@ Find in channel
 Find in sent messages
 Find in sheet
 Find in thread
+Find it under Apps to message it. It signs in as you, so only you can message or mention it.
 Find links and files shared with me about my latest project
 Find members
 Find members that match a search query
@@ -5403,6 +5496,7 @@ Find questions asked in this channel in the last day that nobody has answered ye
 Find skills here anytime
 Find someone
 Find the Right Plan for You
+Find the agent
 Find the conversations that matter to your team.
 Find workspaces
 Find your Salesforce records
@@ -5443,8 +5537,10 @@ First name
 First publish workflow details save failed
 First unread message.
 First, add variables
+Fix It with Slack AI
 Fix Replacing with XXX
 Fix request ready to send
+Fix the JSON under Advanced before going on.
 Fix the errors on the Leads and Opportunities tabs to save.
 Fix the errors on the Leads tab to save.
 Fix the errors on the Opportunities tab to save.
@@ -5520,6 +5616,8 @@ Food & Drink
 Footlight MT Light
 For 1 hour
 For 2 hours
+For an API that expects a word like Token before the key.
+For an API that reads its key from a header like X-Api-Key.
 For customer and client communication
 For example: Answer questions about our on-call rotation from the on-call canvas, and tag whoever is on call when something is urgent.
 For myself
@@ -5569,6 +5667,11 @@ Forward workflow
 Forwarded message
 Forwarding email
 Forwarding redux payload to desktop
+Found a setup the agent publishes for Slack
+Found a sign-in server
+Found an A2A Agent Card
+Found an API description
+Found an OpenAI-compatible API
 Found block
 Found block-beta
 Found comment
@@ -5847,6 +5950,7 @@ Go To Slack Help Center
 Go ahead, start writing!
 Go back in history
 Go back one entry in the history stack for this window
+Go back to Find and enter a public https URL for the agent.
 Go back to step 2 and reinstall Slack, or wait a few minutes and try verifying again.
 Go forth
 Go forth and do great things.
@@ -5864,6 +5968,7 @@ Go to App
 Go to Channel
 Go to DM
 Go to Lists
+Go to Sign In
 Go to Your Workflows
 Go to app
 Go to channel
@@ -6016,6 +6121,7 @@ Have the CRM features in Slack changed how you use other CRM tools?
 Head back to Home
 Head here if you want to add other sections, leave inactive channels, or otherwise clean things up.
 Header Icon
+Header name
 Heading 1
 Heading 1 style
 Heading 2
@@ -6100,6 +6206,7 @@ Hide Slackbot in the navigation bar
 Hide This Person
 Hide all threads
 Hide canvas
+Hide client secret
 Hide comment
 Hide conversation
 Hide details
@@ -6112,8 +6219,10 @@ Hide formatting
 Hide from companion
 Hide image
 Hide instructions
+Hide key
 Hide manage automations
 Hide muted conversations
+Hide password
 Hide past events
 Hide preview
 Hide profile
@@ -6132,6 +6241,7 @@ Hide the facts
 Hide thread
 Hide thread & transcript
 Hide thread?
+Hide token
 Hide version history
 Hide voice call controls
 Hide workspace switcher
@@ -6191,6 +6301,8 @@ Hover card join failed
 Hover card refetch after a join threw
 Hovering in place.
 How Singer sounds on your next call. Tap a voice to hear it.
+How Slack connects to the sign-in server
+How Slack reaches the agent. Changes here update the summary above.
 How am I tracking against quota?
 How are people in my workspace getting the most out of Slack? What best practices, norms, and tips and tricks can I adopt?
 How big is your company?
@@ -6335,6 +6447,7 @@ Icons and text
 Icons for Google Drive, Outlook, Zoom, DocuSign, Adobe and Jira connected to Slack icon
 Icons only
 Identify specific Salesforce organization and object to configure a workflow when a Salesforce channel is created.
+Identity URL
 Identity URL (optional)
 If a channel containing a broadcast was just marked, maybe we can mark the thread too
 If a request is not in progress and the canvas canned templates have not yet been fetched, calls canvasesGetCannedTemplatesFetcher API
@@ -6414,6 +6527,7 @@ In 3 hours
 In 30 mins
 In Canvas expected
 In January 2001 Enron
+In a header
 In a huddle
 In a huddle status
 In a meeting status
@@ -6429,6 +6543,8 @@ In less than 1 min
 In progress
 In progress: 
 In reply to: Anyone available for a review?
+In the Authorization header. Most APIs work this way.
+In the URL
 In the next 7 days
 In the summary.
 In this DM
@@ -6708,10 +6824,12 @@ Issue invitations for internal and external emails in the add people modal
 Issue member invites through the add people modal for free teams
 Issue shared channel invites through the add people modal
 It all starts here
+It has an OpenAPI document, which Slack drafts the setup from.
 It is not possible to have actors with the same id, even if one is destroyed before the next is created. Use 
 It looks like not everyone on this huddle has access to this feature just yet.
 It looks like your browser is blocking pop-ups. Please enable popups in order to open the OneDrive file picker.
 It may still be on.
+It signs in as you, so only you can message or mention it.
 Item actions
 Item added
 Item conversations
@@ -6726,12 +6844,14 @@ Item unavailable
 Items added
 JS AES decrypt
 JSON Lines
+JSON from your agent platform
 JSON niz
 JSON satr
 JSON strengur
 JSON string
 JSON tekst
 JSON with Comments
+JSONPath to the user identifier in the response (ex. $.id, $.email, $.user.id).
 James Steffes
 Jan 1, 1990, 1:30 PM
 Jan 1, 1990, 1:30:22 PM
@@ -6881,10 +7001,12 @@ Keeps the changes made to the session list until no agent sessions fetch is in f
 Keith Holst
 Ken Rice
 Kenneth Lay
+Kept the session
 Kevin Meredith
 Key Metrics
 Key Updates
 Key features
+Key or token
 Key pressed on activity item
 Key updates
 Keyboard Shortcuts
@@ -7304,6 +7426,11 @@ Look at you go.
 Look up Salesforce Task details, again for any Task marked stale during the lookup
 Look up my current sidebar display rules and suggest ways I could customize my Focused sidebar view.
 Looking for Workflow Builder?
+Looking for a setup the agent publishes for Slack
+Looking for a sign-in server
+Looking for an A2A Agent Card
+Looking for an API description (OpenAPI)
+Looking for an OpenAI-compatible model list
 Looking for things you saved for later?
 Looking for your note in the chat
 Looking fresh! No new recommendations.
@@ -7849,6 +7976,7 @@ Managing teaching assistants
 Mandarin Orange Chicken
 Manual File
 Manual Input
+Manual OAuth
 Manual Operation
 Manual file operation
 Manual warm reload via slackDebug.warmReload.reloadNow()
@@ -8085,6 +8213,7 @@ Mention @Slackbot whenever your team needs to do research, build a report or ans
 Mention in a list item
 Mention in a thread
 Mention: 
+Mentioned in channels
 Mentions and direct messages
 Mentions only
 Menu bar icon clicked, Mini unavailable; opening Slack
@@ -8320,6 +8449,7 @@ More room to work
 More session channels
 More sidekicks sidebar
 More skill set actions
+More than one connected Salesforce org can reach this agent. Try again later.
 More than one list section container
 More thread actions
 More trial task options
@@ -8468,6 +8598,8 @@ Name hidden
 Name is required.
 Name pronunciation
 Name recording
+Name the agent and add it
+Name the agent and request it
 Name the channel tab
 Name this channel
 Name this channel for your team
@@ -8645,13 +8777,20 @@ Next steps
 Next week
 Next workspace
 Next year
+Next, check how Slack talks to it and try it.
+Next, choose how Slack signs in, and Slack checks again.
+Next, choose how Slack signs in, then describe how the API works.
+Next, choose how Slack signs in.
+Next, choose how Slack signs in. Then Slack AI drafts the setup from the description Slack found.
 Nice flying.
 Nice! Organize your channel list anytime.
 Night Owl
 Night Owl Light
 Night mode in Slack is a whole mood.
 Night scene
+No A2A Agent Card
 No ADTS header found in AAC PES
+No API description
 No Background
 No Channel Managers found
 No EditorDocument instance found for element
@@ -8659,6 +8798,7 @@ No Guests found
 No Label Found
 No MCP servers available.
 No Members found
+No OpenAI-compatible model list
 No OpenGL canvas configured.
 No Salesforce Lead fields are available to map.
 No Salesforce connections found. Contact your admin to add connections.
@@ -8874,6 +9014,7 @@ No offset parent for bubble
 No one at your organization will be able to use this skill unless you reactivate it.
 No one can reply to messages
 No one found
+No one has signed in to this agent yet. Add it now?
 No one is sharing their screen
 No one on record yet
 No one will be able to send new messages.
@@ -8945,9 +9086,12 @@ No sessions match these filters.
 No sessions match this filter.
 No sessions yet
 No sessions yet.
+No setup published for Slack
 No shared working hours. You should expect a delayed response.
 No sidekicks
 No sidekicks created by you
+No sign-in
+No sign-in server
 No skills added to this channel yet.
 No skills added yet in this channel.
 No skills added yet. Slackbot can use skills you add here in this channel.
@@ -9040,6 +9184,7 @@ Node is not incident with this edge
 Node is null!
 Node must be an AstNode.
 Node not in owner node list!
+None (public)
 None added yet
 None available
 None on record.
@@ -9120,6 +9265,7 @@ Not sent yet
 Not sent yet. These stay unread.
 Not sent: the plan changed
 Not set yet
+Not set yet. Say where the reply is under Advanced.
 Not setting a timer as all schedules are stale
 Not signed into any teams
 Not sold at 
@@ -9129,6 +9275,7 @@ Not supported.
 Not sure about muting?
 Not sure how to respond? A GIF could do the trick. You can find and share GIFs without leaving Slack.
 Not sure where to begin? Start from an example:
+Not the reply? Choose another part of the response
 Not the results you expected?
 Not the same
 Not using hls
@@ -9147,6 +9294,8 @@ Notes by Gemini
 Notes go to a new Slack canvas.
 Notes or voiceover script for this slide
 Notes that RTM changed a session thread root while an agent sessions fetch was in flight
+Nothing answered at this address
+Nothing asked Slack to sign in, so it sends messages without a key.
 Nothing changed
 Nothing found
 Nothing found. Filtering from recent notifications.
@@ -9185,8 +9334,10 @@ Nothing to show yet.
 Nothing to summarize
 Nothing turned up
 Nothing waiting on your review
+Nothing was found at the address Slack sent the message to. Check the URL.
 Nothing written yet
 Nothing yet. Slackbot remembers feedback people give it in this channel.
+Nothing. Slack sends each message on its own.
 Notification ID copied to clipboard.
 Notification settings
 Notification sound
@@ -9231,6 +9382,7 @@ Numbered List
 Numbered list item
 Numbers the agent sessions fetch being sent, one past the last
 OAuth Scopes
+OAuth client
 OAuth scopes
 ODBCdotTable decimallessFloat zerolessFloat binaryNumber hexNumber doubleQuote nCharCast charsetCast commentHash commentSpaceRequired
 ODBCdotTable decimallessFloat zerolessFloat binaryNumber hexNumber nCharCast charsetCast
@@ -9342,6 +9494,7 @@ Only internal people
 Only lists that track agent work keep rows up to date with their thread. The message will still be added to this list.
 Only my channels
 Only my threads
+Only owners and admins can add agents.
 Only owners can share this canvas.
 Only owners can share this folder.
 Only owners will be able to share this canvas with additional people or channels.
@@ -9368,6 +9521,7 @@ Only specific channels
 Only specific content you add (uploaded files, canvases or lists)
 Only specific people can post
 Only specific people or groups
+Only the agent card requires an API key
 Only the channel owner can add people to this channel.
 Only the list owner can change field types
 Only the list owner can restore this list to an earlier version.
@@ -9567,6 +9721,7 @@ Open workflow details
 Open workflow in new window
 Open workspace switcher
 Open world
+OpenAI-compatible API
 OpenSignalingConnectionTask got canceled while waiting to open signaling connection
 Opened message-by-email invite modal for draft, skip inline invite
 Opened setup guide
@@ -9618,6 +9773,7 @@ Opting out, no graph
 Option not searched
 Optional (Add a message)
 Optional checks failing
+Optional information
 Optional override for the inner iframe
 Optional. Uncheck to leave it out
 Or add from:
@@ -9740,6 +9896,7 @@ Panel width
 Paper Tape
 Papua New Guinea
 Paragraph (normal text) style
+Parameter name
 Parent node is null!
 Parse error on line 
 Parsed message
@@ -9760,6 +9917,8 @@ Paste as text instead?
 Paste failed: Maximum of 100 cells reached. Please reduce your paste size and try again.
 Paste options menu hidden
 Paste options menu showing
+Paste the Agent card URL to connect it. You may need to add authentication info too.
+Paste the card
 Paste this URL in any channel, bookmarks bar or space to run this workflow from anywhere.
 Patrick Kane
 Pattern noted
@@ -9804,10 +9963,12 @@ People can set sales notifications to send to private channels, except Slack Con
 People can set sales notifications to send to private channels, including Slack Connect external channels.
 People can set sales notifications to send to public channels, except Slack Connect external channels.
 People can set sales notifications to send to public channels, including Slack Connect external channels.
+People connect their own account the first time they use the agent, and it acts as them.
 People from
 People from workspaces you select can be added to this channel.
 People from workspaces you select can find and be added to this channel.
 People in your organization still see your profile photo.
+People may get errors when they message it. Try it first to check that Slack can read its replies.
 People only
 People or agent name
 People outside your company
@@ -9961,6 +10122,7 @@ Please connect your account to add a call
 Please enter a reason
 Please enter a valid Google Drive URL.
 Please enter a valid URL
+Please enter a valid URL.
 Please enter a valid email address (e.g., support@example.com).
 Please enter a valid phone number.
 Please enter one or more keywords.
@@ -10031,6 +10193,7 @@ Position must be a non-negative integer.
 Position path
 Post Email
 Post and invite
+Post messages
 Post messages, add members, collect information with a canvas, or browse the full library of steps to optimize your Salesforce channel.
 Posting is restricted in this channel
 Posting permissions
@@ -10274,6 +10437,7 @@ Publish template?
 Publish workflow from template internal
 Publish workflows
 Published Automations
+Published setup
 Puerto Rico
 Pull Quote
 Pull out action items
@@ -10379,6 +10543,7 @@ Re-runs the widget based on the placement id to get updated blocks.
 Re-using existing voice focus node
 Re-validate knowledge source files after file store update
 Reach out to your Salesforce admin to update your permissions for this org.
+Reached the agent
 React Router caught the following error during render
 React Scan
 React and mark done
@@ -10395,10 +10560,13 @@ Reactivate skill
 Reactivate thread
 Reactivating skill
 Reactivation Requested
+Read Docs
 Read along
 Read any good books lately?
 Read conversations
 Read emoji reactions received in a huddle
+Read its reply
+Read mentions
 Read more
 Read only
 Read state tracking
@@ -10412,10 +10580,12 @@ Readiness checker finished
 Readiness checker started
 Reading device selection history from local storage
 Reading time
+Reads the card and may connect the agent.
 Ready for review
 Ready for you
 Ready to confirm
 Ready to connect
+Ready to connect. Each person signs in with their own account the first time they use this agent.
 Ready to customize your sidebar
 Ready to get started?
 Ready to get the day started?
@@ -10956,6 +11126,7 @@ Republic of the Congo
 Request Access
 Request Access to Today
 Request Again
+Request Anyway
 Request Calendar Access
 Request Changes
 Request Comment Access
@@ -11007,6 +11178,7 @@ Requesting window restoration persistence to run shortly
 Requests Without User Action Tracer
 Requests section closed
 Requests section opened
+Requests to this agent run as the service account tied to this credential, not as individual Slack users.
 Require approval for each new DM
 Required columns
 Required data not provided for incoming entity PB
@@ -11064,6 +11236,7 @@ Restart Slack
 Restart Slack for this preference to take effect.
 Restart and update Slack?
 Restart slideshow
+Restarted an expired session
 Restarting West gas marketing from Houston
 Restore This Version
 Restore Workflow from Version
@@ -11167,6 +11340,7 @@ Review the values in the thread to continue the workflow.
 Review these links before making a copy. Be cautious with unfamiliar websites or unexpected destinations.
 Review this message before sharing
 Review type
+Review your AI agent
 Review your channel resources
 Review your information
 Review your mentions
@@ -11298,6 +11472,7 @@ Sales Tracker stage settings
 Sales notifications
 Sales template with deal tracking and client management features
 Sales tracker setup ready. Press continue to proceed.
+Salesforce (each user connects their own account)
 Salesforce Approvals
 Salesforce Channels
 Salesforce Data Format
@@ -11307,6 +11482,7 @@ Salesforce List
 Salesforce Lists views
 Salesforce MCP Servers
 Salesforce MCP servers
+Salesforce Org
 Salesforce Org Authed
 Salesforce Org Disconnected
 Salesforce Production
@@ -11462,6 +11638,7 @@ Scheduled messages
 Scheduled status duration
 Scheduled to start in the past. Select a time today or on a future date.
 Schema is missing a method literal
+Scopes to request during authorization.
 Score debugger
 Scoring model
 Scott Tackett
@@ -11859,13 +12036,16 @@ Send Summary To Salesforce App
 Send This Message
 Send Verification Email
 Send Without Attachments
+Send a Follow-Up
 Send a GIF
 Send a Message
 Send a conversation
+Send a follow-up to check that the agent keeps the conversation
 Send a message
 Send a message in this conversation first, then try again.
 Send a message to a channel
 Send a message to a person
+Send a message to check that Slack reaches the agent
 Send a message to get things going
 Send a notification for
 Send a reaction
@@ -11883,6 +12063,7 @@ Send an emoji reaction
 Send an invitation to connect
 Send an owned Singer message through the existing message pipeline
 Send call data to call window
+Send client credentials in an HTTP Basic auth header instead of the POST body.
 Send comment
 Send emails to this channel
 Send emails to this conversation
@@ -11921,6 +12102,7 @@ Sending your verification code
 SendingAudioFailure health policy maximum warnings breached. Falling back to reporting healthy.
 Sends a summary to a channel
 Sends all delayed marks to the API
+Sends messages to
 Sends the invitation email to a target member
 Senior Director
 Senior Director, Marketing
@@ -12105,6 +12287,7 @@ Set up a lead integration
 Set up a web form later
 Set up a workflow in seconds
 Set up advanced security
+Set up authentication
 Set up channel post and comment permissions
 Set up data policies
 Set up the fields people will use to update info in this step.
@@ -12383,6 +12566,7 @@ Show audio and video preview
 Show automatic summary of uploaded files
 Show captions
 Show channels in Activity
+Show client secret
 Show comments in a synced state
 Show conversations
 Show data queries
@@ -12415,6 +12599,7 @@ Show in Chat
 Show in Finder
 Show instructions
 Show just in time calendar notification
+Show key
 Show less
 Show link previews
 Show me how
@@ -12436,6 +12621,7 @@ Show notifications from
 Show onboarding tasks reminder notification
 Show only
 Show only deleted
+Show password
 Show past events
 Show prejoin DM welcome party web push notification
 Show preview
@@ -12457,6 +12643,7 @@ Show the off-shift blocker without expiring workspace credentials
 Show the work object in a synced state
 Show thread
 Show thread & transcript
+Show token
 Show unreads only
 Show up prepared to every meeting
 Show voice call controls
@@ -12509,8 +12696,11 @@ Signal that the store has been hydrated
 Signal to message pane that app space is open
 Signal to the desktop that all delegates are ready
 Signature Success Plan
+Signing in to this agent needs an OAuth client entered by hand, which only an admin can do. Ask an admin to add it.
+Signing in to this agent needs an OAuth client entered by hand, which only an admin can do. Choose another way to sign in, or ask an admin to add it.
 Signing out in single-team mode
 Signing out of the only workspace we are signed into
+Signs in
 Silent Sidebar Blue Theme
 Silent Sidebar Brown Theme
 Silent Sidebar Gray Theme
@@ -12628,8 +12818,15 @@ Slack - Huddle Preview
 Slack 6 Preview
 Slack AI
 Slack AI Feedback
+Slack AI changed the setup
+Slack AI drafted this from what you described. Check it, then try the agent.
 Slack AI fills in the name, instructions, knowledge, and tools. You can change anything before you create the agent.
 Slack AI has an answer for you
+Slack AI is changing the setup to match it.
+Slack AI is reading the description.
+Slack AI is reading the docs.
+Slack AI is reading what the agent sent back.
+Slack AI is writing the setup: what Slack sends the agent, and where it finds the reply.
 Slack AI results have been updated
 Slack AI results ready
 Slack CRM will be part of your Slack workspace. Choose a name that your team will recognize, like the name of your company or team. You can always update it later.
@@ -12666,7 +12863,9 @@ Slack Texty rich text pasted nothing, so pasting its HTML
 Slack and Salesforce are disconnected.
 Slack applied suggested filters and keywords to show the most relevant results.
 Slack built templates
+Slack can
 Slack can be configured to support protected health information (PHI) within uploaded files and message content.
+Slack can check for more once it signs in
 Slack can only handle letters, numbers, spaces, and dashes here, with up to 80 characters. Try again?
 Slack can only keep messages for up to 99 years, but thanks for your vote of confidence.
 Slack can use my message history and any connected calendars to create Salesforce records
@@ -12674,30 +12873,51 @@ Slack can use them to find answers and get work done for you.
 Slack can:
 Slack channel
 Slack checks the chat on this Mac. Nothing from the meeting window is saved or sent.
+Slack checks what Slack AI wrote and asks it to fix any mistakes. This can take up to a minute.
 Slack conducts a brief review of apps in Slack Marketplace and does not endorse or certify these apps. If you encounter inappropriate content or behavior please report it.
 Slack connects to this agent at these URLs:
 Slack event trigger description
 Slack file suggestions collapsed
+Slack first talks to it when someone messages it and signs in. To check it now, paste an access token under Try the agent.
+Slack gets a token with a client ID and secret, and renews it when it runs out.
+Slack gives each thread an ID the agent uses
 Slack huddles
 Slack interface with names of two different companies in one channel
 Slack is best with 3+ people
 Slack is busy right now. Try again in a moment.
 Slack is committed to security and privacy
 Slack is offline
+Slack is reading the docs at the link.
 Slack is trying to connect.
 Slack logo
 Slack needs permissions
+Slack needs somewhere to send the thread ID. Add 
 Slack notifications
 Slack now automatically sorts your results to surface the most relevant files and messages every time you search
+Slack reached the agent
+Slack read its reply
+Slack read the docs and put their text in the box, so you can add detail and try again.
+Slack reads the reply once the agent answers
+Slack registers itself
 Slack request to getSlackObjects timed out
+Slack sends it as a header on every request to the agent, including the one for its card.
+Slack sends messages without a key. Choose this only for an agent anyone can use.
+Slack sends requests to the agent without a credential.
+Slack sends the earlier messages each time
+Slack sends the same key with every message, so the agent sees one account.
+Slack sent the earlier messages with a follow-up
+Slack sent the same conversation ID with a follow-up
 Slack setup is complete!
 Slack signed you out. Sign back in, then try again.
+Slack signs in as an app
+Slack signs in as one account for everyone.
 Slack template
 Slack themes
 Slack tools for hybrid work
 Slack tools for working in person
 Slack tools for working remotely
 Slack user
+Slack uses it to read the card while adding the agent and doesn
 Slack uses your time zone to send summary and notification emails, for times in your activity feeds, and for reminders.
 Slack wants to access your Google Account
 Slack workspace settings have updated
@@ -13087,6 +13307,7 @@ Start me where I left off, and mark the channel read
 Start muted barrier active
 Start muted barrier released
 Start new conversation
+Start of the response
 Start of unread messages.
 Start off simple with templates
 Start or end a Slackbot voice call
@@ -13139,6 +13360,7 @@ Starting timers for metrics collection
 Starting unconstrained content share with chime API
 Starting. Meeting thread opened.
 Starts a new Slackbot conversation
+Starts each conversation with
 Starts from a button
 Starts reading one page from the brain
 Starts reading the first page of the brain
@@ -13251,6 +13473,7 @@ Stroke align: Outside
 Stuck save in progress indefinitely
 Sublime Ice Cream Sandwiches
 Submit Pilot Feedback
+Submit Request
 Submit addition or removal of a reactions for a reaction key
 Submit feedback
 Submit for review
@@ -13550,13 +13773,16 @@ Term suggestions collapsed
 Terms of service
 Test Speaker
 Test as member
+Test conversation
 Test email
 Test in Private Channel
+Test message
 Test run
 Test runs use your own connection to each MCP server in this step.
 Testing API connectivity...
 Text Block
 Text Body
+Text before the key
 Text card
 Text copied.
 Text edit change is not configured to manage change annotations.
@@ -13594,9 +13820,24 @@ The PR changed since you looked. Check it again first.
 The Primary meeting credentials provided are no longer valid. chime::DeleteAttendee may have been called on them.
 The ReactIs.isAsyncMode() alias has been deprecated, and will be removed in React 17+. Update your code to use ReactIs.isConcurrentMode() instead. It has the exact same API.
 The URL will be created after you save this information.
+The account identifier must be a JSONPath expression, like $.id.
 The admin list refused to look the request up
+The agent answered with an error. Check Details to see what it said.
+The agent answered, but not in a form Slack could read. Check Details to see what came back.
+The agent card needs to be a single JSON object, not a list or a value.
 The agent is added to this channel when you create it.
+The agent is limiting requests right now. Wait a moment, then try again.
+The agent keeps a session (Slack saves its ID for each thread)
+The agent keeps a session, and Slack saves its ID for each thread
+The agent kept its session for a follow-up
 The agent may have been uninstalled or you do not have permission to view it.
+The agent publishes this for Slack. Check it, then try the agent.
+The agent rejected the credential. Check the header name and secret.
+The agent turned away the sign-in Slack sent
+The agent turned the message away as too large.
+The agent turned the message away. Check Details to see why.
+The agent turned this key away. Check the key and where it goes, then try again.
+The agent turned this username and password away. Check them, then try again.
 The agent will forward messages to this channel when people request more help.
 The agents will only reply when @-mentioned
 The amount of computational work that your system performs
@@ -13610,10 +13851,12 @@ The attendee joined from another device.
 The attendee left the meeting.
 The attendee was not present.
 The audio connection failed.
+The authorization URL must be a valid HTTPS URL.
 The automation will join this channel and stay a member for future runs.
 The background segmentation processor has been destroyed
 The base score comes from this model, refreshed when Slack starts or reconnects. Models score on different scales, so you may need to adjust the tier thresholds after switching.
 The big picture
+The binding must be a JSON object, in curly braces.
 The blocks do not contain any mentions
 The browser blocked the data source sign-in window
 The call reached its time limit.
@@ -13627,6 +13870,7 @@ The client disconnected while promoted, which will automatically demote. The att
 The connection failed due to an internal server error.
 The connection failed due to incompatible SDP.
 The connection failed. See the error message for more details.
+The credential header name or secret contains characters that aren
 The data contains invalid contents. Try again after editing.
 The day loads, one unread message at a time.
 The delegate is not in the channel you specified.
@@ -13649,6 +13893,7 @@ The huddle has ended.
 The huddle language applies to AI notes, transcription and captions.
 The huddle language applies to transcription and captions.
 The huddle language is the same for everyone on the huddle, and applies to transcription and captions.
+The identity URL must be a valid HTTPS URL on the same domain as the authorization URL.
 The indeterminate prop is only supported for the controlled Checkbox. Please provide the checked prop.
 The initial call to search Google Directory groups indicates that the user does not have group access.
 The interesting threads are always here when you want them.
@@ -13668,6 +13913,7 @@ The message format is invalid. Please try again.
 The message is not sent by a VIP user
 The message will only go to people already on Slack.
 The microphone selection changed. Try again.
+The model Slack asks the API for. Each model is added as its own agent.
 The more I know about your work, the more I can take off your plate. Add any personal details about your role or your projects to this chat.
 The name of the pilot feature you are giving feedback about.
 The name of type. First letter must be uppercase.
@@ -13702,6 +13948,7 @@ The section name is too long
 The selected channel could not be found.
 The selected channel has been archived. Clear your selection or choose another channel.
 The selected duration is invalid.
+The setup has problems Slack needs fixed before it can send a message.
 The sign-in window is taking too long. Try connecting again.
 The signaling channel was closed unexpectedly. This may be due to a network change or backend detected failure.
 The signaling connection failed.
@@ -13713,6 +13960,8 @@ The targeted Salesforce org is not available. Contact your admin.
 The teams best prepared for change use modern digital communication tools, feel comfortable learning new ones and continually adapt how they work.
 The template still works, though, so click the button if you want to use it!
 The thread will still be visible
+The token URL must be a valid HTTPS URL on the same domain as the authorization URL.
+The token server turned this client away. Check the client ID, secret and token URL, then try again.
 The transcript for your meeting couldn
 The two main currencies at work are performance and connections.
 The uploaded file will not be used as a header image because you navigated away.
@@ -13817,19 +14066,31 @@ Things you visit will show up here
 Think of me as your personal AI assistant. I
 Third party services used by this app
 Third-party connection needed
+This Agent Card doesn
 This HTML file could not be loaded.
 This HTML file is too large to preview here. Download it to view in a browser.
 This Object indicates the Parser is during Recording Phase
 This PR is closed.
+This URL doesn
 This access proposal is too large. Select fewer people, groups, or channels and try again.
 This account has been deactivated.
 This action is blocked by your connector preferences.
 This adds seven fields to this list to track agent work: Work status, Agent, Agent status, Needs from, Waiting on, Summary and Link. They stay on the list if you stop tracking.
+This agent
 This agent cannot be invited to this channel.
+This agent has already been added. Remove it before adding it again.
+This agent is already connected. Remove the existing one before connecting it again.
 This agent is already in the channel
+This agent is already in this workspace. Find it under Apps.
 This agent is not eligible for a direct conversation.
 This agent is temporarily unavailable, but should be back online soon.
 This agent is unavailable
+This agent needs a key or a sign-in client set up before Slack can use it, which only an admin can do. Ask an admin to add it.
+This agent needs its key or password. Go back to Sign in to enter it.
+This agent now requires a sign-in or API key to connect. If it uses an API key, choose 
+This agent requires a sign-in or API key to connect. If it uses an API key, check the box below that fits and enter it.
+This agent requires a sign-in or access key to share its card. Choose an option under Access information.
+This agent requires an API key
 This answer content is no longer valid. Try generating a new answer.
 This answer is no longer available to share.
 This app
@@ -13939,6 +14200,7 @@ This is a message from a private conversation
 This is a paid feature, available with an upgrade
 This is a paid feature, available with your free trial
 This is an internal app. It has no description.
+This is how people see the agent in Slack. You can change it later.
 This is how the workflow will appear in Slack messages and canvases
 This is not a Google Workspace account
 This is not a valid URL.
@@ -13972,6 +14234,7 @@ This list is no longer available.
 This list is restricted from use with AI steps.
 This list view was deleted
 This list was deleted
+This looks like a Salesforce agent, but no connected Salesforce org hosts it.
 This meeting already ended. Check Slackbot for the latest.
 This meeting belongs to a different Slack account.
 This meeting transcript is no longer available.
@@ -14017,6 +14280,7 @@ This section has missing fields.
 This section is no longer in your sidebar
 This selection includes locked content. To make changes, unlock edits.
 This setting only changes the island. Slack notifications, sounds, badges and unread counts stay the same.
+This setup has problems to fix
 This sheet is too large to preview.
 This shortcut is reserved by the system. Try a different one.
 This should only take a moment.
@@ -14096,6 +14360,7 @@ This workflow uses a private channel in its trigger. Ask an admin to allow priva
 This workflow uses steps from other apps that require sign in to run.
 This workflow will start on a set date and time. Also, you can set this workflow to repeat automatically
 This workspace is not meant to support building apps or regular conversation. Work may not be saved.
+This workspace only allows apps from the Slack Marketplace, so an admin has to add this agent.
 Thomas Boettcher
 Thread ID was not set; cannot save document
 Thread Reply
@@ -14239,6 +14504,8 @@ Toggle mute for channel
 Toggle saved for later state on a list record
 Toggle screen share
 Toggle view-only mode
+Token URL
+Token request URL
 Token states (Butter Chicken)
 Tokyo Night
 Tokyo Sight
@@ -14453,6 +14720,7 @@ Try Business+ for Free
 Try Business+ for the price of Pro
 Try Channel Expert here to test how it works with the sources you
 Try Huddles
+Try It First
 Try It Free
 Try It could not open the DM before filling its composer
 Try Pro for Free
@@ -14494,6 +14762,7 @@ Try reopening Google Admin, check the client ID and scopes, then save and verify
 Try scanning Slack again
 Try skills to see what Slackbot can do
 Try smarter search results for your whole team with Business+
+Try the agent
 Try this prompt yourself to explore what this agent can do.
 Try this skill
 Try today
@@ -14597,7 +14866,9 @@ URL Params
 URL Type
 URL codificata in base64
 URL copied to clipboard.
+URL to exchange the authorization code for an access token.
 URL to open in the host
+URL to start the OAuth handshake and show the consent screen.
 URL-64-ume kodita karaktraro
 US market date. Schedule may change.
 UTC date
@@ -15066,8 +15337,10 @@ Use Blank Canvas
 Use Draft
 Use Emergency Backup Code
 Use Emoji
+Use HTTP Basic authentication
 Use Microphone
 Use My Mic Only
+Use PKCE (Proof Key for Code Exchange)
 Use Slack AI
 Use Slack Connect for channels and loop everyone in to the conversation, no matter where they work. Give it a try while your team is on a trial.
 Use Slack on the go
@@ -15079,14 +15352,17 @@ Use UDP port 3478 experiment enabled. Will not munge UDP port for readiness chec
 Use Up and Down arrow keys to change the position of the image. Press Enter or Space to save position changes. Press Escape to cancel position changes.
 Use a Screenshot Instead
 Use a canvas in Slack
+Use a client I enter
 Use a custom prompt
 Use a different profile photo in external-facing conversations
+Use a shared API key
 Use a time of day instead
 Use a webhook and new leads will be automatically posted in this channel. Connect any tool that can send a web request, like form builders, dialers, or marketing platforms.
 Use an emoji reaction to respond to and manage support requests
 Use approved third-party apps to export or act on messages and files from Slack.
 Use arrow keys to move the call between corners
 Use arrow keys to move the docked player between corners
+Use as the Reply
 Use audio and video to bring your work to life. Record a quick idea with an audio clip, or share your screen in a video clip, all without leaving Slack.
 Use channels to keep projects organized
 Use channels to keep work organized
@@ -15594,6 +15870,9 @@ West Origination. The record doesn
 West desk
 Western Sahara
 What Singer can do
+What Slack AI drafted
+What Slack asks to be allowed to do. Separate them with spaces.
+What Slack sent
 What Slackbot has learned
 What Slackbot has learned here
 What a ride.
@@ -15621,6 +15900,7 @@ What did I miss in #proj-aurora?
 What did I miss in Slack?
 What did I miss in the last few minutes?
 What did I miss today?
+What did I say first?
 What did the last speaker say?
 What did you like about this article?
 What do people in this thread need from me?
@@ -15643,7 +15923,10 @@ What is digital culture?
 What is this workflow for?
 What is wrong?
 What is your feedback?
+What it can do in Slack
+What it can respond to in Slack
 What it does
+What kind of agent is it?
 What needs my attention today?
 What other CRM tool(s) do you use? (optional)
 What other feature would be valuable?
@@ -15694,11 +15977,13 @@ When you share a template here, anyone in this conversation can access it.
 When you turn replies on, new messages or emoji reactions can be added to the thread. You can turn replies off at any time.
 When your agent starts on something from the chat, or someone needs an answer from you, it shows up here.
 Whenever you visit your Sales Tracker, call on Slackbot to jump into action, or to see what else you can do with Slack CRM.
+Where Slack gets a token to sign in with.
 Where can this app be used?
 Where do you usually work with your team?
 Where editor save blocked: entity-based app has no members
 Where is my pipeline coming from?
 Where it can be used
+Where the key goes
 Where your team is talking
 Whether it is OK to interrupt a focus transition
 Which answer do you prefer?
@@ -15708,6 +15993,7 @@ Which messages should I respond to first?
 Which months and volumes should the 2002 term sheet price?
 Which of my open PRs have waited longest for review?
 Which of the following did you experience? Select all that apply.
+Which part of the response is the reply?
 Which people in 
 While we work on improvements, here is some information that can help.
 While you were quiet
@@ -15736,6 +16022,7 @@ Whoops! That name is reserved.
 Whoops! Workflow names cannot have emojis.
 Why are you flagging this?
 Why did you switch back from Slack 6?
+Why do you need it?
 Why it started
 Why these tools are turned off
 Why? (optional)
@@ -15764,14 +16051,18 @@ Wingdings 3
 Witching Hour
 With Slack Connect channels, you can:
 With a fresh set of tools, Slackbot now has a dedicated page where you can dig into more complex work.
+With a key, sent as a bearer token
 With a qualifying educational email address
 With canvases, you can:
 With everything you need together in one spot, you can make the most out of in-office collaboration.
 With everything you need together in one spot, you can stay connected and keep work moving forward.
 With more people, you can:
+With these headers
+With this body
 With unlimited message history and AI channel summaries.
 Within your org, people in your workspace can join automatically. Other workspaces must request.
 Without external people
+Without signing in
 Woman waving hello
 Won stage
 Word file icon
@@ -15900,6 +16191,7 @@ Write me a haiku about my week
 Write now, send later
 Write something
 Write something, or get a head start:
+Write the Setup Yourself
 Write the message that posts for every new lead. Use Insert a variable to add lead fields.
 Write the sidebar_display_rules pref through the shared write queue
 Write with AI
@@ -15967,6 +16259,7 @@ You can reconnect anytime.
 You can still build a form manually connect it to this step later.
 You can still find any item you had previously cleared.
 You can still upgrade to try out these features:
+You can try this agent, but only an admin can add agents to this workspace.
 You can use this list to assign tasks, track deadlines, and keep key information up-to-date.
 You can view your chat history with Slackbot anytime.
 You can view your metrics here, and add to or edit them as your needs change
@@ -16078,6 +16371,7 @@ Your admins have disabled file uploads in this Slack Connect list
 Your admins have not enabled your organization to change this permission.
 Your admins have not shared the permission required to manage this setting.
 Your admins have turned off previews for this domain.
+Your admins see this with your request.
 Your agency contact tagged you in #ext-agency-tyconet waiting on creative feedback for the upcoming campaign launch.
 Your agent groups related work into projects as it goes. The first one shows up here.
 Your agent keeps what it learns about you, your projects and your people here.
@@ -16196,6 +16490,7 @@ Your profile photo
 Your pull requests
 Your question
 Your recap preview is about to end. It can keep you informed with daily channel recaps, and save you some reading time.
+Your recent answers. Pin one to keep it on your desktop.
 Your recent searches will show up here.
 Your recently viewed or updated canvases will show up here.
 Your recently viewed or updated files will be shown here.
@@ -16241,6 +16536,7 @@ Your trial ends in 1 day
 Your trial has ended
 Your trigger has too many filter conditions. Simplify your filters to continue.
 Your two-factor authentication code was incorrect. Please try again.
+Your unsaved changes will be lost.
 Your update was saved, but you no longer have access to view this record.
 Your updates to this will be lost. We hate to see hard work go to waste.
 Your video is being processed and will be available to download soon.
@@ -16273,6 +16569,7 @@ Zoom Reset
 Zoom out
 [QUIP] Loading models.
 [React Scan] Failed to load. Must import React Scan before React runs.
+]:void 0)??(t?E[e??
 ^(?:start|create|open|kick off|spin up|make) (?:a |an |new |a new )?
 addRedundantAudioRecoveryMetricsObserver is deprecated. Access encodedTransformWorkerManager directly via meeting session context.
 also sent to the channel.
@@ -16362,6 +16659,7 @@ s permissions you can visit the App page of the Slack Marketplace.
 s position for a new draft ISDA. In September 2001 Enron reopened a collar spread analysis for TEP to cover all of 2002. In October 2001 there were dinner plans with TEP.
 s power management settings.
 s project. Report what the mail shows and flag what it does not; no outreach to CDWR.
+s provider automatically, so enter an OAuth client from the provider to let people sign in.
 s public messages and files.
 s recent search history for use in the blank slate UI.
 s routes!
@@ -16383,10 +16681,13 @@ subteam_self_removed: No message event provided, or no subteam id provided in th
 t add one of these canvases. Check that you can still view it.
 t add one of these channels. Check that you still have access to it.
 t add one of these lists. Check that you can still view it.
+t add this agent. Check the URL and try again.
 t be able to use it again.
 t be published because the start date has already passed. Edit the date and try publishing again.
 t be undone.
 t been checked yet were left out.
+t check whether this agent is already connected. Try again.
+t connect this agent. Try again.
 t describe what Glendale buys or sells beyond the ISDA. Its City Council had approved entering into financial transactions and an ISDA with Enron (reported October 8, 2001).
 t fully parsed.
 t have any narration.
@@ -16399,6 +16700,7 @@ t match the number of args!
 t name EES directly.
 t on record.
 t prematurely end the comment block.
+t reach an agent at this URL. Check the URL and try again.
 t save the recording. Please try again.
 t say what concerns prompted it.
 t start recording. Please try again.

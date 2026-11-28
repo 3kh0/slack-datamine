@@ -8533,7 +8533,6 @@ emoji.f4e5834: {size} {emojiName} {size, plural, =1 {emoji} other {emojis}}
 emoji.22dbe88: {size} {emojiName} {size, plural, =1 {emoji} other {emojis}} with {skinToneDescription}
 emoji_button.5090a9e: Emoji
 emoji_button.4c2f242: Right click to<br></br>customize skin tones
-emoji_keywords.8b68618: ,gC=new ec.Ay(
 emoji_keywords.356a192: 1
 emoji_keywords.b1d5781: 10
 emoji_keywords.310b86e: 100
@@ -20336,6 +20335,7 @@ search.b3bd0b5: Resume
 search.9f5cd8a: Retry
 search.d0edfb6: Sales
 search.5f4b3e9: Salesforce
+search.190da9b: Salesforce Org
 search.01408b5: Salesforce channels
 search.539132e: Salesforce channels only
 search.f2d37f5: Salesforce results, page {page} of {pageCount}
@@ -22050,6 +22050,7 @@ singer.96df1ed: Accessibility: so Slack can confirm you sent the recording note.
 singer.a733b80: Active
 singer.95bf7a4: Active, notifications snoozed
 singer.81c0d91: Activity
+singer.5b1c8a4: Activity dismissed. Messages stay unread.
 singer.2a7a995: Activity has nothing for you right now.
 singer.788afb5: Activity has nothing left for you.
 singer.732a2d8: Activity will fill in as things arrive.
@@ -22125,6 +22126,8 @@ singer.b52b36b: Back
 singer.4855132: Back to Messages
 singer.3630488: Back to Slackbot
 singer.00e2696: Back to card
+singer.f7b0ca1: Back to catch up
+singer.9a2b781: Back to conversations
 singer.1a9c58d: Back to {title}
 singer.00544f7: Bad response
 singer.7b05bab: Beta freeze moved to next Thursday.
@@ -22163,7 +22166,6 @@ singer.5625817: Can’t turn that recording into text. Try speaking again or typ
 singer.2a7e4be: Card stack
 singer.885b7b6: Cards from Singer
 singer.131cf57: Catch me up
-singer.fad94e1: Catch me up on these unread updates. Highlight what needs my attention and link to the messages. Keep it brief.
 singer.8703a74: Catch up
 singer.7534779: Catching up
 singer.9be1668: Changes requested
@@ -22204,6 +22206,7 @@ singer.c3d6666: Close Astro Singer
 singer.fd71a50: Close Browser
 singer.8962525: Close conversation
 singer.11d16ea: Close meeting controls
+singer.fa0b7b3: Close panel
 singer.88d86b7: Closed
 singer.a14881f: Closing browser…
 singer.adac693: Code
@@ -22282,6 +22285,7 @@ singer.e20d5fb: Default duration
 singer.fd14281: Deletes Slackbot’s saved browser profile, including sign-ins and site data for every site.
 singer.f27d86c: Deletes saved sign-ins and site data for every site. Open browsers can stay signed in, but won’t save those sign-ins again. This can’t be undone.
 singer.dc3decb: Details
+singer.47f0c5a: Dictate a message
 singer.5d3bb50: Did {title} end? Stopping in {countdown}.
 singer.fc7f864: Direct message
 singer.e7596a0: Direct messages
@@ -22412,6 +22416,7 @@ singer.b136609: Invite
 singer.d98add1: Invite people to your huddle
 singer.3326258: Invited guest
 singer.7573b84: Invited member
+singer.69e5b48: Island activity muted for {minutes, plural, one {# minute} other {# minutes}}. Messages stay unread.
 singer.e727da6: It may still be on.
 singer.ecdda59: Item
 singer.da4257c: It’s been quiet for 5 minutes. Still in the meeting?
@@ -22473,6 +22478,8 @@ singer.01d1180: Look at you go.
 singer.0312266: Looking for your note in the chat…
 singer.f71edd8: Lovely!
 singer.8b8ec14: Make me a kanban board of my open asks in Slack
+singer.ecb7e36: Make panel larger
+singer.7769590: Make panel smaller
 singer.f03a88b: Manage in huddle
 singer.4b38b55: Mark Unread
 singer.1b83163: Mark all as read
@@ -22486,6 +22493,7 @@ singer.d404968: Medium
 singer.17dc9a8: Meeting
 singer.f8a8cd8: Meeting assistant
 singer.9118d70: Meeting assistant · your DM with Slackbot
+singer.4ad330c: Meeting audio is being recorded.
 singer.100ed08: Meeting controls
 singer.8466b2b: Meeting microphone
 singer.ae3cd65: Meeting notes
@@ -22543,6 +22551,7 @@ singer.e51f426: Needs your attention
 singer.ab027dc: Needs your okay
 singer.6403f2b: New
 singer.e4cc33d: New Meeting
+singer.e176200: New Slackbot conversation
 singer.10d95f6: New activity lands here when it arrives.
 singer.0eb6323: New activity will show up here.
 singer.1ed2e7b: New message
@@ -22773,6 +22782,7 @@ singer.1dc0143: Send note, done
 singer.717009c: Send note, needs attention
 singer.043d0bf: Send note, not started
 singer.c631089: Send this note in the meeting chat, then add a screenshot of the chat.
+singer.309d88e: Send to {recipient}
 singer.f4335d8: Sending your question…
 singer.cf76551: Sending…
 singer.35f49dc: Sent
@@ -22898,6 +22908,8 @@ singer.1316b36: Summarize the status of #{channel}
 singer.76e2986: Summarize with Slackbot
 singer.62d8d30: Sunday Sailor
 singer.e8c986e: Sweet potato!
+singer.342972e: Switched to Ask Singer
+singer.5c83ee8: Switched to Slackbot
 singer.9d8d380: System default
 singer.db2022c: Ta-da!
 singer.5b99997: Take Over
@@ -22918,6 +22930,7 @@ singer.e054b40: That didn’t go through. Try again.
 singer.348527a: That didn’t work. Try again.
 singer.9d41e71: That draft isn’t ready to use. Check your connection and access.
 singer.1115c1f: That one’s going on the fridge.
+singer.597e22c: That transcript is no longer available. Try attaching the meeting again.
 singer.47072b6: That’s a wrap.
 singer.8af7d0d: That’s everything here.
 singer.bfbe63d: That’s everything in Activity.
@@ -22972,6 +22985,7 @@ singer.915648f: Unlocks when Slack finds your note in the screenshot
 singer.7044c31: Unmute
 singer.2eba6a0: Unpin
 singer.07b032b: Unread
+singer.192715c: Unread Slack activity
 singer.c99407b: Untitled conversation
 singer.fb91e24: Update
 singer.f2f8570: Updated
@@ -23068,6 +23082,7 @@ singer.853c388: Your sidebar is tidy
 singer.60b3ab6: Your sign-in was saved for future tasks.
 singer.541f836: Your skills
 singer.e239c82: Your tasks
+singer.0d8c0b8: Your tasks will appear here.
 singer.181b32c: Your transcript is saved
 singer.cb00c9e: You’ll see a capsule whenever Slackbot is listening, even when Singer is folded.
 singer.2266fe4: You’re all caught up
@@ -23090,6 +23105,7 @@ singer.a7f8e7c: just now
 singer.57f9ee9: lamps.example
 singer.c9bc849: now
 singer.b6a61f6: replied to a thread
+singer.f06013c: the agent
 singer.2dac81d: tomorrow
 singer.c316f6a: until tomorrow
 singer.8af56de: you
@@ -28076,6 +28092,7 @@ video_player.6761b8a: Turn on captions
 video_scrubber.371f46f: Time scrubber
 view.81c0d91: Activity
 view.61cc55a: Add
+view.5642921: Add an agent
 view.4e7afeb: Admin
 view.5ce2e6f: Agent
 view.c033824: Agent Browser
@@ -30597,84 +30614,452 @@ workflows.badd385: View details
 workspace_apps_manage.c53994e: (Optional)
 workspace_apps_manage.bf5b990: (opens in a new tab)
 workspace_apps_manage.0078c20: <b>{appConfigurations,plural,=1{# existing configuration}other{# existing configurations}}</b> will remain until removed.
+workspace_apps_manage.3b8ca78: A Salesforce agent’s card can’t be pasted. Slack reads it through your connected Salesforce org.
+workspace_apps_manage.e4c109a: API Endpoint
+workspace_apps_manage.51578e7: API key (sent with every request)
+workspace_apps_manage.1311035: Access token for testing
+workspace_apps_manage.6b9778f: Account identifier
+workspace_apps_manage.7328726: Add Agent
+workspace_apps_manage.9183fca: Add Anyway
+workspace_apps_manage.ff26862: Add a Prompt
+workspace_apps_manage.f10dac5: Add a reason. This workspace asks for one with every request.
+workspace_apps_manage.2fd97f5: Add agent
+workspace_apps_manage.5642921: Add an agent
 workspace_apps_manage.b9b41b0: Add channels
 workspace_apps_manage.d747b8e: Add groups
 workspace_apps_manage.b9c735e: Add people
+workspace_apps_manage.7b519ad: Add the agent card JSON.
+workspace_apps_manage.7e4a94a: Add this redirect URL to the OAuth client at the agent’s provider.
 workspace_apps_manage.fdfef25: Add workspaces
+workspace_apps_manage.4f522dc: Adding the agent…
+workspace_apps_manage.5ce2e6f: Agent
+workspace_apps_manage.5c177ee: Agent URL
+workspace_apps_manage.77bbea2: Agent card found.
+workspace_apps_manage.40db3c8: Agent details
+workspace_apps_manage.64acf7e: Agents
 workspace_apps_manage.6a72085: All
 workspace_apps_manage.844df14: All channels
 workspace_apps_manage.fb78187: All channels except specific channels
+workspace_apps_manage.61cd52f: An OpenAPI document that opens without signing in.
+workspace_apps_manage.40e2db2: An admin already approved or declined this agent.
+workspace_apps_manage.b8c4eee: An admin approves agents in this workspace. This is how people see it in Slack once it’s approved.
+workspace_apps_manage.2af8096: Anyone here can message or mention it, and it signs in as you for all of them.
 workspace_apps_manage.ca73a25: App collaborators
 workspace_apps_manage.7b2c7f1: Approve
 workspace_apps_manage.db3fa03: Approve this app for installation?
 workspace_apps_manage.fac6c6e: Approve {connectorName} for workflows
+workspace_apps_manage.d4259fc: Ask an admin of this workspace to add the agent for you.
+workspace_apps_manage.b2fb017: Auth scopes
+workspace_apps_manage.ee1acfa: Authentication
+workspace_apps_manage.6b8fec8: Authorization URL
 workspace_apps_manage.8f64847: Automatic update · {timeAgo}
+workspace_apps_manage.b52b36b: Back
+workspace_apps_manage.c71766d: Back to Agents
+workspace_apps_manage.dc9fe0f: Bring an agent you use to Slack by its URL. Slack works out how to talk to it, and you can try it before you add it.
 workspace_apps_manage.77dfd21: Cancel
 workspace_apps_manage.84d8abf: Cancel Request
+workspace_apps_manage.2162fc3: Can’t reach an agent at this URL. Check the URL and try again.
+workspace_apps_manage.ca09c54: Capabilities
+workspace_apps_manage.e51b7a9: Change how Slack signs in
 workspace_apps_manage.18e03e2: Channels
 workspace_apps_manage.0427d7c: Channels to exclude
+workspace_apps_manage.0e9111a: Check URL
+workspace_apps_manage.90f52b8: Check how Slack talks to the agent
+workspace_apps_manage.cc42103: Check the OAuth client ID and secret.
+workspace_apps_manage.83d6233: Check the credential. The header name can’t contain spaces or be a standard header like Host, and the secret must be on one line.
+workspace_apps_manage.cea631d: Check the key and header name. The header name can’t contain spaces or be a standard header like Host, and the key must be on one line.
+workspace_apps_manage.1f8d345: Checking that the agent’s server answers
+workspace_apps_manage.59885fb: Checking the URL…
+workspace_apps_manage.e09a906: Checking the sign-in with the agent…
+workspace_apps_manage.1ec5eb5: Choose another way to sign in, or ask an admin to add this agent.
+workspace_apps_manage.719ea39: Clear
+workspace_apps_manage.a766cd7: Client ID
+workspace_apps_manage.4b468ec: Client secret
+workspace_apps_manage.04a2122: Confirm
+workspace_apps_manage.b65463c: Connect
+workspace_apps_manage.c9f71da: Connect an A2A agent
+workspace_apps_manage.614fb34: Connect an agent to Slack by its URL. Slack works out how to talk to it, and you can try it before anyone else can use it.
 workspace_apps_manage.7605fa0: Connect to Slack AI features through MCP servers
+workspace_apps_manage.9dfd396: Connect your Salesforce account to add this agent.
+workspace_apps_manage.6512ee1: Connection
+workspace_apps_manage.2e02623: Continue
+workspace_apps_manage.fd6df2c: Continue to set it up from its Agent Card.
+workspace_apps_manage.2a20c75: Conversation
+workspace_apps_manage.8e3df45: Copied
+workspace_apps_manage.af74f7c: Copy
+workspace_apps_manage.c0bce50: Couldn’t add this agent. Check the URL and try again.
+workspace_apps_manage.1547d5c: Couldn’t add this agent. Try again.
 workspace_apps_manage.408ec60: Couldn’t cancel this request. Try again in a moment.
+workspace_apps_manage.cd4f557: Couldn’t check this URL. Check your connection and try again.
+workspace_apps_manage.f75d5a5: Couldn’t check whether this agent has already been added. Try again.
+workspace_apps_manage.2c05c3f: Couldn’t check whether this agent is already connected. Try again.
+workspace_apps_manage.0a640ad: Couldn’t connect this agent. Try again.
 workspace_apps_manage.6700697: Couldn’t load the access requested for this app.
 workspace_apps_manage.021d50d: Couldn’t load the domains this app has configured.
 workspace_apps_manage.26e7286: Couldn’t load this app’s channels. Close this and try again.
 workspace_apps_manage.1db6eae: Couldn’t load this request.
+workspace_apps_manage.2675884: Couldn’t preview this agent card. Try again.
+workspace_apps_manage.0d8456b: Couldn’t reach an agent at this URL. Check the URL and try again.
+workspace_apps_manage.fa5f76a: Couldn’t read its reply
+workspace_apps_manage.0ade016: Couldn’t read the docs. Check your connection and try again.
+workspace_apps_manage.65ba1c0: Couldn’t register Slack with the agent’s sign-in server. Go back to Sign in and enter a client ID and secret.
+workspace_apps_manage.4fec8c0: Couldn’t save the OAuth client, so the agent wasn’t connected. Try again.
+workspace_apps_manage.be88d32: Couldn’t save the credential, so the agent wasn’t connected. Try again.
+workspace_apps_manage.2cc6b45: Couldn’t save the key, so the agent wasn’t added. Try again.
 workspace_apps_manage.4a261a2: Couldn’t save where this app can be used. Try again.
 workspace_apps_manage.e9e57c8: Couldn’t save who can use this app in workflows. Try again.
+workspace_apps_manage.0c00f3a: Couldn’t send the test message. Check your connection and try again.
+workspace_apps_manage.edf1cf7: Couldn’t send your request. Try again.
+workspace_apps_manage.72ddcb2: Couldn’t set up sign-in with this agent’s authorization server. Slack needs the server to support dynamic client registration to connect this agent.
+workspace_apps_manage.ec9299c: Credential header name
+workspace_apps_manage.d43564c: Credential secret
 workspace_apps_manage.53577bb: Deny
 workspace_apps_manage.31b6d03: Deny Request
 workspace_apps_manage.8f82e32: Deny {appName}?
 workspace_apps_manage.1076935: Deny {connectorName} for workflows
+workspace_apps_manage.2b2aa0b: Describe the API or paste a link to its docs below, or write the setup yourself.
+workspace_apps_manage.2a02ed5: Describe the API or paste a link to its docs, or write the setup yourself, before going on.
+workspace_apps_manage.d192659: Describe the API, or paste a link to its docs
+workspace_apps_manage.55f8ebc: Description
+workspace_apps_manage.dc3decb: Details
+workspace_apps_manage.5fd80cf: Didn’t get a session ID back
+workspace_apps_manage.23b73ff: Didn’t reach the agent
+workspace_apps_manage.e7596a0: Direct messages
+workspace_apps_manage.d3f0b43: Discard changes?
 workspace_apps_manage.6df3585: Domains of {appName}’s MCP servers
 workspace_apps_manage.e9b450d: Done
+workspace_apps_manage.3cedb68: Draft the Setup
+workspace_apps_manage.b351514: Each person signs in the first time they use the agent. To test it now, paste an access token for testing.
+workspace_apps_manage.5d3026e: Each person signs in the first time they use the agent. To try it now, paste an access token. It isn’t saved.
+workspace_apps_manage.aa82268: Edit as JSON
+workspace_apps_manage.bdb3385: Enable PKCE for enhanced security during the authorization code flow.
+workspace_apps_manage.4f39a56: Endpoint to fetch user identity after authentication.
+workspace_apps_manage.bf4c02a: Enter a name for the agent.
+workspace_apps_manage.7fd8a6c: Enter a public https link to the docs.
+workspace_apps_manage.543c425: Enter a valid public URL, like https://agent.example.com/v1.
+workspace_apps_manage.6579c59: Enter an https URL.
+workspace_apps_manage.579f66f: Enter an https URL. Slack connects to agents only over HTTPS.
+workspace_apps_manage.446472c: Enter both the credential header name and secret, or leave both empty.
+workspace_apps_manage.ca306a2: Enter client ID
+workspace_apps_manage.db10739: Enter client secret
+workspace_apps_manage.a41b858: Enter key
+workspace_apps_manage.72328d9: Enter the URL Slack gets a token from.
+workspace_apps_manage.00283cd: Enter the agent’s key or token.
+workspace_apps_manage.e2ba203: Enter the authorization URL, where people sign in.
+workspace_apps_manage.9a4030d: Enter the client ID.
+workspace_apps_manage.ffb3009: Enter the client secret.
+workspace_apps_manage.daf8f33: Enter the name of the URL parameter the key goes in.
+workspace_apps_manage.46a9a71: Enter the name of the header the key goes in.
+workspace_apps_manage.69b805c: Enter the password.
+workspace_apps_manage.f127c39: Enter the username Slack signs in with.
+workspace_apps_manage.1c1222c: Enter your provider’s OAuth details to connect your A2A agent to Slack. <a>Learn about manual OAuth</a>
+workspace_apps_manage.cd00391: Enter your provider’s access key details to connect your A2A agent to Slack. <a>Learn about access key.</a>
 workspace_apps_manage.c756f6a: Everyone
+workspace_apps_manage.8e6e6f9: Everyone in the workspace
+workspace_apps_manage.ca34f81: Ex. $.id, $.email, $.user.id
+workspace_apps_manage.41a8988: Ex. https://provider.com/oauth/authorize
+workspace_apps_manage.5b83c32: Ex. https://provider.com/oauth/token
+workspace_apps_manage.9356f00: Ex. https://provider.com/userinfo
+workspace_apps_manage.4294832: Example prompts
+workspace_apps_manage.5a21d11: Fill in how Slack sends a message and reads the reply under Advanced, then try the agent.
+workspace_apps_manage.df251b0: Find
+workspace_apps_manage.e428d5f: Find the agent
+workspace_apps_manage.b74bdee: Finish
+workspace_apps_manage.7d38bd8: Fix It with Slack AI
+workspace_apps_manage.159f532: Fix the JSON under Advanced before going on.
+workspace_apps_manage.66d93de: For a client you’ve registered for Slack with the agent’s provider.
+workspace_apps_manage.9a91888: Found a setup the agent publishes for Slack
+workspace_apps_manage.6565798: Found a sign-in server
+workspace_apps_manage.3350609: Found an A2A Agent Card
+workspace_apps_manage.19a0803: Found an API description
+workspace_apps_manage.6594cc5: Found an OpenAI-compatible API
+workspace_apps_manage.08848fd: Go back to Find and enter a public https URL for the agent.
+workspace_apps_manage.f6b5a81: Go to Sign In
 workspace_apps_manage.ae9629f: Groups
 workspace_apps_manage.088450b: Groups to exclude
+workspace_apps_manage.9884cf5: Guests can’t add agents to this workspace.
+workspace_apps_manage.b46f85a: Header name
+workspace_apps_manage.f7ff9e8: Hello
+workspace_apps_manage.59c6a64: Hide token
+workspace_apps_manage.d809f2e: How Slack connects to the sign-in server
+workspace_apps_manage.f7cbbce: Identity URL
 workspace_apps_manage.fc9225a: Internal
+workspace_apps_manage.483961f: It signs in as you, so only you can message or mention it.
+workspace_apps_manage.031a4e7: JSON
+workspace_apps_manage.38d5d11: JSONPath to the user identifier in the response (ex. $.id, $.email, $.user.id).
+workspace_apps_manage.bd30115: Kept the session
+workspace_apps_manage.c67dd20: Key
+workspace_apps_manage.dc3d879: Link to the API’s docs
+workspace_apps_manage.7c63bb6: Loading agent card…
+workspace_apps_manage.12d6b14: Looking for a setup the agent publishes for Slack
+workspace_apps_manage.376abd3: Looking for a sign-in server
+workspace_apps_manage.0922dda: Looking for an A2A Agent Card
+workspace_apps_manage.9d6cc2a: Looking for an API description (OpenAPI)
+workspace_apps_manage.7ca0c9c: Looking for an OpenAI-compatible model list
 workspace_apps_manage.8d9a304: MCP servers
 workspace_apps_manage.a8e3adb: Manage Permissions
 workspace_apps_manage.a643505: Members will no longer be able to add or edit configurations.
+workspace_apps_manage.4b53f7a: Message {name}
+workspace_apps_manage.68c2cc7: Model
+workspace_apps_manage.34f3cb4: More than one connected Salesforce org can reach this agent. Try again later.
+workspace_apps_manage.709a232: Name
+workspace_apps_manage.6eae048: Name the agent and add it
+workspace_apps_manage.2a1bea9: Name the agent and request it
 workspace_apps_manage.6403f2b: New
+workspace_apps_manage.bc98198: Next
+workspace_apps_manage.081b3b5: Next, choose how Slack signs in, and Slack checks again.
+workspace_apps_manage.efcc1a8: Next, choose how Slack signs in, then describe how the API works.
+workspace_apps_manage.42a2a57: Next, choose how Slack signs in. Then Slack AI drafts the setup from the description Slack found.
+workspace_apps_manage.4988060: No A2A Agent Card
+workspace_apps_manage.287559a: No API description
+workspace_apps_manage.816ee07: No OpenAI-compatible model list
 workspace_apps_manage.41c06c1: No one
+workspace_apps_manage.aaa612a: No one has signed in to this agent yet. Add it now?
+workspace_apps_manage.de78c78: No setup published for Slack
+workspace_apps_manage.b34f1ac: No sign-in server
+workspace_apps_manage.ca6e642: Not the reply? Choose another part of the response
+workspace_apps_manage.f161d05: Nothing answered at this address
+workspace_apps_manage.3f54c59: Nothing asked Slack to sign in, so it sends messages without a key.
+workspace_apps_manage.0b6c2b6: Nothing was found at the address Slack sent the message to. Check the URL.
+workspace_apps_manage.bdb0caf: Nothing. Slack sends each message on its own.
+workspace_apps_manage.1d146e2: OAuth client
+workspace_apps_manage.608770f: Only an admin can add agents to this workspace, and it doesn’t take requests. Ask an admin to add this one.
+workspace_apps_manage.7631b14: Only me
+workspace_apps_manage.4c43dfd: Only owners and admins can add agents.
 workspace_apps_manage.a7d83b8: Only specific channels
+workspace_apps_manage.2697c51: Only the agent card requires an API key
 workspace_apps_manage.0c6c410: Optional
 workspace_apps_manage.c20e08c: Other permissions
 workspace_apps_manage.0830f6b: Outbound domains
+workspace_apps_manage.fca3101: Paste a curl command, an example request and reply, or a link to the API’s docs or OpenAPI document. Slack removes keys and tokens before Slack AI reads anything.
+workspace_apps_manage.d88671f: Paste a link to the API’s docs first.
+workspace_apps_manage.0bd5781: Paste a link to the API’s docs, a curl command or an example first.
+workspace_apps_manage.c9143de: Paste the agent’s URL. Slack checks what’s there and works out how to talk to it.
 workspace_apps_manage.b37554f: People
 workspace_apps_manage.c2ae6eb: People can’t use {appName} in DMs when only specific channels are allowed.
+workspace_apps_manage.4e1ba7e: People may get errors when they message it. Try it first to check that Slack can read its replies.
 workspace_apps_manage.55a6ec2: People to exclude
 workspace_apps_manage.d06d555: Permissions
+workspace_apps_manage.2b92ba0: Please enter a valid URL.
+workspace_apps_manage.ad04fcc: Prompt {number}
+workspace_apps_manage.f86dfde: Reached the agent
+workspace_apps_manage.17ec20d: Read Docs
+workspace_apps_manage.fe13d79: Read its reply
+workspace_apps_manage.ad086cf: Read more
+workspace_apps_manage.97b0a0d: Ready to connect. Each person signs in with their own account the first time they use this agent.
+workspace_apps_manage.1007c4f: Redirect URL
+workspace_apps_manage.fdcc910: Redirect URL copied
+workspace_apps_manage.4b0b86f: Remembers
+workspace_apps_manage.b7913d1: Remove prompt {number}
+workspace_apps_manage.966eaca: Request Anyway
 workspace_apps_manage.55ad5df: Request for {appName} approved.
 workspace_apps_manage.f9c9d8c: Request for {appName} cancelled.
 workspace_apps_manage.72ef570: Request for {appName} denied.
+workspace_apps_manage.658a1de: Requests to this agent run as the service account tied to this credential, not as individual Slack users.
+workspace_apps_manage.5a4b2f5: Restarted an expired session
 workspace_apps_manage.1dcb017: Restrict this app from installation?
 workspace_apps_manage.9f5cd8a: Retry
 workspace_apps_manage.525f174: Review request
+workspace_apps_manage.175b411: Review your AI agent
+workspace_apps_manage.27f4a61: Salesforce (each user connects their own account)
+workspace_apps_manage.190da9b: Salesforce Org
 workspace_apps_manage.efc007a: Save
 workspace_apps_manage.56a2285: Saving…
+workspace_apps_manage.c23540e: Scopes
+workspace_apps_manage.3c7ef22: Scopes to request during authorization.
 workspace_apps_manage.081f97d: Security & compliance
+workspace_apps_manage.9bc2575: Send
+workspace_apps_manage.79ce7d3: Send a Follow-Up
+workspace_apps_manage.76ae85c: Send a follow-up to check that the agent keeps the conversation
+workspace_apps_manage.794cbe2: Send a message to check that Slack can reach {name} and read its replies. Nothing is added yet.
+workspace_apps_manage.32512d3: Send a message to check that Slack reaches the agent
+workspace_apps_manage.7c90b21: Send client credentials in an HTTP Basic auth header instead of the POST body.
+workspace_apps_manage.d00fb78: Sending the test message…
+workspace_apps_manage.5c27006: Sending your request…
+workspace_apps_manage.270fb97: Sends messages to
+workspace_apps_manage.bb64b90: Set up authentication
+workspace_apps_manage.281a695: Setup steps
+workspace_apps_manage.9575876: Show token
+workspace_apps_manage.87a47ee: Shown in the agent’s DM to help people get started. Up to 4.
+workspace_apps_manage.ada2e9e: Sign in
+workspace_apps_manage.532ba7f: Signing in for each person isn’t available here yet. Go back to Sign in and choose another way.
+workspace_apps_manage.54bb67d: Signing in to this agent needs an OAuth client entered by hand, which only an admin can do. Ask an admin to add it.
+workspace_apps_manage.e7780c1: Signing in to this agent needs an OAuth client entered by hand, which only an admin can do. Choose another way to sign in, or ask an admin to add it.
+workspace_apps_manage.5e078e1: Signs in
+workspace_apps_manage.e09212c: Skills
 workspace_apps_manage.430b38b: Slack
+workspace_apps_manage.5fda0fc: Slack AI changed the setup
+workspace_apps_manage.7a43377: Slack AI changed the setup.
+workspace_apps_manage.ca87818: Slack AI couldn’t work out the API this time. Add more detail and try again.
+workspace_apps_manage.8e36d6d: Slack AI drafted how to talk to the agent. Check the summary.
+workspace_apps_manage.82665b0: Slack AI drafted this from what you described. Check it, then try the agent.
+workspace_apps_manage.c6256c5: Slack AI is changing the setup to match it.
+workspace_apps_manage.b829f95: Slack AI is looking for a fix…
+workspace_apps_manage.fefb789: Slack AI is reading the description.
+workspace_apps_manage.a376af3: Slack AI is reading the docs.
+workspace_apps_manage.2fbf605: Slack AI is reading what the agent sent back.
+workspace_apps_manage.83c9609: Slack AI is working out the API…
+workspace_apps_manage.a617475: Slack AI is writing the setup: what Slack sends the agent, and where it finds the reply.
+workspace_apps_manage.7beb712: Slack AI isn’t available here, so paste a link to an OpenAPI document, or write the setup yourself.
+workspace_apps_manage.11909d7: Slack AI isn’t available here. Write the setup yourself under Advanced.
 workspace_apps_manage.620581f: Slack Marketplace
+workspace_apps_manage.461207c: Slack can check for more once it signs in
+workspace_apps_manage.0cbfe7c: Slack can talk to {name}. Continue to name it and add it.
+workspace_apps_manage.0bcd869: Slack can’t register with this agent’s provider automatically, so enter an OAuth client from the provider to let people sign in.
+workspace_apps_manage.39685f4: Slack checks what Slack AI wrote and asks it to fix any mistakes. This can take up to a minute.
+workspace_apps_manage.17dfbd5: Slack couldn’t reach the agent
+workspace_apps_manage.477abc6: Slack couldn’t reach the agent. Check that the address is right and the server is running.
+workspace_apps_manage.6150b6c: Slack couldn’t read anything at that link. Check that it opens without signing in.
+workspace_apps_manage.3c290ee: Slack couldn’t read its reply
+workspace_apps_manage.ed0672f: Slack couldn’t read this agent card. Check the JSON and try again.
+workspace_apps_manage.ab4f105: Slack couldn’t work the API out from these docs on its own, and Slack AI isn’t available. Write the setup yourself.
+workspace_apps_manage.519ee35: Slack couldn’t work this API out on its own. Describe it or paste a link to its docs below, or write the setup yourself.
+workspace_apps_manage.9d8ffd0: Slack couldn’t work this API out on its own. Paste a link to its OpenAPI document below, or write the setup yourself.
+workspace_apps_manage.7de45aa: Slack drafted how to talk to the agent from the docs. Check the summary.
+workspace_apps_manage.9ce07d3: Slack drafted this from the API’s description. Check it, then try the agent.
+workspace_apps_manage.7877378: Slack first talks to it when someone messages it and signs in. To check it now, paste an access token under Try the agent.
+workspace_apps_manage.02e9a21: Slack found a description of this API but couldn’t work it out on its own. It’s filled in below for Slack AI to read.
+workspace_apps_manage.7a16f0d: Slack gives each thread an ID the agent uses
+workspace_apps_manage.1645ea9: Slack hasn’t seen this agent reply yet. Add it anyway?
+workspace_apps_manage.736a797: Slack hasn’t seen this agent reply yet. Request it anyway?
+workspace_apps_manage.1a42740: Slack is reading the docs at the link.
+workspace_apps_manage.195e7a1: Slack keeps only the start of a long response, so it can’t list this one’s parts. Set where the reply is under Advanced, in response.text.
+workspace_apps_manage.7b55d10: Slack reached the agent
+workspace_apps_manage.b58f962: Slack read its reply
+workspace_apps_manage.49adf86: Slack read the docs and put their text in the box, so you can add detail and try again.
+workspace_apps_manage.b13806a: Slack read {title} and put its text in the box, so you can add detail and try again.
+workspace_apps_manage.17c3430: Slack reads the reply once the agent answers
+workspace_apps_manage.7a94212: Slack registers itself
+workspace_apps_manage.24e4e7c: Slack sends it as a header on every request to the agent, including the one for its card.
+workspace_apps_manage.510ebda: Slack sends the earlier messages each time
+workspace_apps_manage.05df3c8: Slack sent the earlier messages with a follow-up
+workspace_apps_manage.4c5a9ba: Slack sent the same conversation ID with a follow-up
+workspace_apps_manage.4adc7a0: Slack uses it to read the card while adding the agent and doesn’t save it.
+workspace_apps_manage.1932084: Slack worked this out from the agent’s API. Check it, then try the agent.
 workspace_apps_manage.30d4b7c: Some of the channels for this app no longer exist or aren’t in your organization. Deny the request and ask for a new one with different channel limits.
+workspace_apps_manage.ecbeb10: Someone already asked for this agent, and an admin hasn’t decided yet.
+workspace_apps_manage.48f88ac: Something else
 workspace_apps_manage.2d750dd: Specific people
 workspace_apps_manage.b16c9d3: Specific people and workspaces
+workspace_apps_manage.dc3c6d2: Start Over
+workspace_apps_manage.81da1b3: Start of the response
 workspace_apps_manage.bae7d5b: Status
 workspace_apps_manage.cdde4f2: Steps
+workspace_apps_manage.d001574: Submit Request
+workspace_apps_manage.7fcd8d4: Suggested
+workspace_apps_manage.505be18: Suggested prompts
+workspace_apps_manage.6f666c8: Test conversation
+workspace_apps_manage.cc58fe5: Test failed. {error}
+workspace_apps_manage.8de39b4: Test message
 workspace_apps_manage.4aedf1e: The access requested for this app can’t be applied. It might include someone or a user group you can’t give access to. Try again. If the problem continues, deny the request and ask for a new one.
+workspace_apps_manage.494beff: The account identifier must be a JSONPath expression, like $.id.
+workspace_apps_manage.b838120: The address of the agent’s API, or of the site it runs on.
+workspace_apps_manage.2e8ba77: The agent answered with an error. Check Details to see what it said.
+workspace_apps_manage.9fef5f5: The agent answered, but Slack didn’t find a reply where it looked. Check Details to see what came back.
+workspace_apps_manage.9707fc9: The agent answered, but not in a form Slack could read. Check Details to see what came back.
+workspace_apps_manage.1b6cc42: The agent card can’t be larger than 1 MB.
+workspace_apps_manage.8827f40: The agent card needs to be a single JSON object, not a list or a value.
+workspace_apps_manage.e199884: The agent didn’t accept this credential. Check the header name and secret.
+workspace_apps_manage.c824f05: The agent didn’t accept this key. Check the key and header name.
+workspace_apps_manage.45deb1f: The agent didn’t answer in time. Try again, or check that it’s running.
+workspace_apps_manage.e0111cf: The agent didn’t send back a session ID, so each message starts over
+workspace_apps_manage.8f183c4: The agent is limiting requests right now. Wait a moment, then try again.
+workspace_apps_manage.536b4ba: The agent keeps a session, and Slack saves its ID for each thread
+workspace_apps_manage.a22cbc9: The agent kept its session for a follow-up
+workspace_apps_manage.2c9cf48: The agent publishes this for Slack. Check it, then try the agent.
+workspace_apps_manage.928515b: The agent rejected the credential. Check the header name and secret.
+workspace_apps_manage.e7b8014: The agent turned Slack’s sign-in away. Go back to Sign in to check the key and where it goes.
+workspace_apps_manage.0705a70: The agent turned away the sign-in Slack sent
+workspace_apps_manage.de3e842: The agent turned the message away as too large.
+workspace_apps_manage.58d52b7: The agent turned the message away. Check Details to see why.
+workspace_apps_manage.e982bce: The agent turned this key away. Check the key and where it goes, then try again.
+workspace_apps_manage.7b3eb4d: The agent turned this username and password away. Check them, then try again.
+workspace_apps_manage.9d6bc20: The agent won’t see earlier messages. Slack sends each one on its own. To change that, choose under Remembers.
+workspace_apps_manage.f2a0aa3: The agent’s address must be a public https URL.
+workspace_apps_manage.84319c4: The agent’s reply was too large for Slack to read.
+workspace_apps_manage.fd59582: The agent’s server answers
+workspace_apps_manage.a878777: The agent’s server answers, and wants Slack to sign in
+workspace_apps_manage.adce96c: The agent’s server had a problem answering. Try again, or check the server.
+workspace_apps_manage.6736300: The agent’s server turned away the sign-in Slack sent
+workspace_apps_manage.72eb783: The authorization URL must be a valid HTTPS URL.
+workspace_apps_manage.6dc1719: The client details aren’t valid. Go back to Sign in to check them.
+workspace_apps_manage.ee39282: The credential header name or secret contains characters that aren’t allowed.
 workspace_apps_manage.4a4ce8e: The domains this app has configured aren’t available, so they aren’t listed.
+workspace_apps_manage.0678063: The identity URL must be a valid HTTPS URL on the same domain as the authorization URL.
+workspace_apps_manage.c6786e9: The key or header name has characters that can’t be sent. Check for spaces or line breaks.
+workspace_apps_manage.ce3d7e1: The setup has problems Slack needs fixed before it can send a message.
+workspace_apps_manage.c342f81: The setup isn’t valid. Go back to Conversation to see what to fix.
+workspace_apps_manage.adfe3fa: The setup it publishes has mistakes you can fix in a later step. {next, select, conversation {Next, check how Slack talks to it and try it.} other {Next, choose how Slack signs in.}}
+workspace_apps_manage.20a0fd9: The sign-in server lets Slack set itself up, so there’s nothing to enter.
+workspace_apps_manage.a737c68: The test didn’t work. Check Details to see what happened.
+workspace_apps_manage.51d17d0: The token URL must be a valid HTTPS URL on the same domain as the authorization URL.
+workspace_apps_manage.c209d52: The token server turned this client away. Check the client ID, secret and token URL, then try again.
+workspace_apps_manage.ca4ca6d: This Agent Card doesn’t list an endpoint Slack can connect to.
+workspace_apps_manage.eab28f6: This URL doesn’t look quite right. Enter an https URL that ends in .json.
+workspace_apps_manage.180e9f0: This URL doesn’t look quite right. Enter an https URL.
+workspace_apps_manage.264e082: This URL doesn’t point to a valid Agent Card. Check the URL and try again.
+workspace_apps_manage.33d371b: This URL doesn’t point to a valid agent card. Check the URL and try again.
+workspace_apps_manage.d1a4d27: This agent has already been added. Remove it before adding it again.
+workspace_apps_manage.1a410d8: This agent is already connected. Remove the existing one before connecting it again.
+workspace_apps_manage.34df966: This agent is already in this workspace. Find it under Apps.
+workspace_apps_manage.a5ee355: This agent needs a key or a sign-in client set up before Slack can use it, which only an admin can do. Ask an admin to add it.
+workspace_apps_manage.6dcf858: This agent needs its key or password. Go back to Sign in to enter it.
+workspace_apps_manage.bf6bded: This agent now requires a sign-in or API key to connect. If it uses an API key, choose “Use a shared API key” and enter it.
+workspace_apps_manage.30eda82: This agent requires a sign-in or API key to connect. If it uses an API key, check the box below that fits and enter it.
+workspace_apps_manage.f0d7461: This agent requires a sign-in or access key to share its card. Choose an option under Access information.
+workspace_apps_manage.b3c9146: This agent requires an API key
+workspace_apps_manage.9a46607: This is how people see the agent in Slack. You can change it later.
+workspace_apps_manage.b500dcf: This isn’t valid JSON. Check the card and try again.
+workspace_apps_manage.c2ade53: This looks like a Salesforce agent, but no connected Salesforce org hosts it.
 workspace_apps_manage.491a5a6: This request has already been handled.
+workspace_apps_manage.020cd98: This setup doesn’t send a key. Go back to Sign in and choose how Slack signs in.
+workspace_apps_manage.d200b07: This setup has problems to fix
+workspace_apps_manage.4e69426: This workspace only allows apps from the Slack Marketplace, so an admin has to add this agent.
+workspace_apps_manage.979bb1a: Token URL
+workspace_apps_manage.10fad03: Token request URL
 workspace_apps_manage.047708b: Triggers
 workspace_apps_manage.cef2fe0: Try Again
+workspace_apps_manage.34ac019: Try It First
+workspace_apps_manage.4b4dcc4: Try the agent
+workspace_apps_manage.3deb745: Type
+workspace_apps_manage.7ea431c: URL to exchange the authorization code for an access token.
+workspace_apps_manage.a4de48b: URL to start the OAuth handshake and show the consent screen.
+workspace_apps_manage.39fc721: Undo
 workspace_apps_manage.bc7819b: Unknown
+workspace_apps_manage.c2a6b40: Use HTTP Basic authentication
+workspace_apps_manage.9be7214: Use PKCE (Proof Key for Code Exchange)
+workspace_apps_manage.dc8e575: Use a client I enter
+workspace_apps_manage.dc76bb9: Waiting for a reply…
+workspace_apps_manage.a540fe3: What Slack AI drafted
+workspace_apps_manage.b149485: What Slack sent
+workspace_apps_manage.784c835: What did I say first?
+workspace_apps_manage.127d997: Who can use it
+workspace_apps_manage.fd2139b: Why do you need it?
+workspace_apps_manage.9ffcd6e: With a key in the {header} header
+workspace_apps_manage.c1e6064: With a key, sent as a bearer token
+workspace_apps_manage.73b6584: Without signing in
 workspace_apps_manage.4d3d35e: Workflow Builder steps
 workspace_apps_manage.5499346: Workflow Builder steps & triggers
 workspace_apps_manage.205b456: Workspaces
+workspace_apps_manage.5212511: Write the Setup Yourself
+workspace_apps_manage.905cb32: You
+workspace_apps_manage.0e8328c: You can try this agent, but only an admin can add agents to this workspace.
+workspace_apps_manage.9399be0: You can’t add agents here
 workspace_apps_manage.f8b4643: You changed where this app can be used, and you don’t have permission to manage channels. Keep the requested channels, or ask an admin with that permission to approve this request.
 workspace_apps_manage.aec55a5: You don’t have permission to add a private channel you’re not in. Remove it from where this app can be used, or ask an admin with permission to manage private channels to approve this request.
+workspace_apps_manage.8173977: You don’t have permission to connect this agent. Ask a workspace admin for help.
 workspace_apps_manage.54f4322: You don’t have permission to manage who can use apps. Ask an admin with that permission to approve this request.
+workspace_apps_manage.a2d02ef: Your admins see this with your request.
 workspace_apps_manage.b339014: Your organization can’t limit where apps can be used, so this request can’t be approved. Deny the request and ask for a new one without channel limits.
+workspace_apps_manage.239d1c1: Your unsaved changes will be lost.
+workspace_apps_manage.3c33735: You’ve already asked for this agent. Slack lets you know when an admin decides.
+workspace_apps_manage.171447c: e.g. X-API-Key
+workspace_apps_manage.f06013c: the agent
 workspace_apps_manage.f141697: {appName} sees what each connected person can see, not only where it’s added.
 workspace_apps_manage.3e2fe6a: {count, plural, =1 {# workspace} other {# workspaces}}
+workspace_apps_manage.6765d82: {name} replied: {reply}
+workspace_apps_manage.8a94b95: {next, select, conversation {Next, check how Slack talks to it and try it.} other {Next, choose how Slack signs in.}}
+workspace_apps_manage.98acde6: {seconds, plural, =1 {# second} other {# seconds}}
 workspace_apps_manage.5129522: {shownText} and {remaining, plural, =1 {# other} other {# others}}
 workspace_directory.6b21fb7: About
 workspace_directory.82cf8a5: Account settings
