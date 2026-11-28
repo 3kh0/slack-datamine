@@ -4917,7 +4917,6 @@ channel_invite.e6b021b: Ex. This is not for a legitimate business purpose
 channel_invite.7dff45c: From another organization
 channel_invite.f03e2d0: Go Back
 channel_invite.c8a4874: Got It
-channel_invite.3d5baff: Hide email preview
 channel_invite.8374304: Hmm, something went wrong. Try again?
 channel_invite.899a38b: Invalid email
 channel_invite.49b8bd5: Keep typing a full email
@@ -4945,7 +4944,6 @@ channel_invite.9320afb: Select {name}
 channel_invite.2cd9d04: Selected {name}
 channel_invite.a7191c3: Send Invitation
 channel_invite.1a17071: Send Invitations
-channel_invite.fcc097c: Show email preview
 channel_invite.4c852b2: Show less
 channel_invite.490df2e: Skip for Now
 channel_invite.db9943c: Slack will archive the existing channel and automatically invite all of its members to a new channel.
@@ -12293,22 +12291,14 @@ invite-to-workspace.9151e9e:  — expires today
 invite-to-workspace.481e95e:  — never expires
 invite-to-workspace.2d8a6f7: 1 day
 invite-to-workspace.7d4278a: 30 days
-invite-to-workspace.46be8e4: 60 days
-invite-to-workspace.0a8dd6a: 7 days
 invite-to-workspace.105a75e: <strong>Add a message</strong>
 invite-to-workspace.4cd9c2c: <strong>Add to channels</strong> (optional)
 invite-to-workspace.5877700: <strong>Add to channels</strong> (required)
 invite-to-workspace.8252c10: <strong>Add to team channels</strong> (optional)
 invite-to-workspace.7798a92: <strong>Add to team channels</strong> (required)
 invite-to-workspace.233a6d3: <strong>Does your team use Google?</strong> Use Google directory to find your coworkers’ email addresses.
-invite-to-workspace.c461a30: <strong>Link copied</strong> - expires in over 30 days
-invite-to-workspace.4ae7daf: <strong>Link copied</strong> - expires in {daysRemainingOnLink, plural, =1 {# day} other {# days}}
-invite-to-workspace.fdea3b9: <strong>Link copied</strong> - expires today
-invite-to-workspace.553e25e: <strong>Link copied</strong> - never expires
 invite-to-workspace.206ff38: <strong>Multi-channel guests</strong> will be billed as full members. Single channel guests are free but limited in quantity.
 invite-to-workspace.74a4328: <strong>Reason for request</strong> (optional)
-invite-to-workspace.f2f5ee1: <strong>Set an expiration date</strong>
-invite-to-workspace.60d15e0: <strong>Set an expiration date</strong> (required)
 invite-to-workspace.e3320c2: Add a message
 invite-to-workspace.f6e0ba0: Add a note for your admin
 invite-to-workspace.5bd195c: Add from Google Workspace
@@ -12317,7 +12307,6 @@ invite-to-workspace.d3a716e: Allow them to be added to more channels. Guests who
 invite-to-workspace.d641310: Anyone in your entire organization
 invite-to-workspace.b52b36b: Back
 invite-to-workspace.77dfd21: Cancel
-invite-to-workspace.ac898d8: Center the QR code in the camera view — a link to join the workspace should appear.
 invite-to-workspace.9318ca9: Close Google Directory banner
 invite-to-workspace.2d9ff85: Continue with Google Workspace
 invite-to-workspace.af74f7c: Copy
@@ -12327,13 +12316,10 @@ invite-to-workspace.6692153: Copy QR code
 invite-to-workspace.1cad13c: Copy invite link
 invite-to-workspace.7d26e98: Couldn’t generate an invite link
 invite-to-workspace.081ae3f: Custom
-invite-to-workspace.5ba495d: Custom expiration date
-invite-to-workspace.3695864: Deactivate on {date}
 invite-to-workspace.06fb314: Edit link settings
 invite-to-workspace.aea819e: Edit settings
 invite-to-workspace.84add5b: Email
 invite-to-workspace.50e2fdc: Email addresses
-invite-to-workspace.9d84184: For your organization, this must be {orgPrefMaxGuestDuration,plural,=1{# day}other{# days}} or less.
 invite-to-workspace.8fa46b4: Frontline
 invite-to-workspace.0b4b5d3: Frontline <span className="p-invite_type_select_option_label_description">— limited to this workspace and 10 channels</span>
 invite-to-workspace.23450ea: Frontline members can be added to a maximum of {maxChannels} channels.
@@ -12342,7 +12328,6 @@ invite-to-workspace.cc5cee4: Google Workspace
 invite-to-workspace.face83e: Guest
 invite-to-workspace.5a58660: Guest <span className="p-invite_type_select_option_label_description">– limited to select channels, files and directory.</span>
 invite-to-workspace.69d179f: Guests not allowed
-invite-to-workspace.3d5baff: Hide email preview
 invite-to-workspace.e13954e: Invite More People
 invite-to-workspace.b10e2b5: Invite as
 invite-to-workspace.40790ad: Invite as guests or external partners
@@ -12362,14 +12347,11 @@ invite-to-workspace.6853c98: Member
 invite-to-workspace.7f0d157: More invite options
 invite-to-workspace.bc98198: Next
 invite-to-workspace.b4fdc42: No channels found
-invite-to-workspace.10850b9: No limit
 invite-to-workspace.f579c52: OR
-invite-to-workspace.cb07b1e: Open the default camera on a mobile device.
 invite-to-workspace.9a24c48: Optional (Add a message)
 invite-to-workspace.4d3e1ab: Or add from:
 invite-to-workspace.702ac1c: Preview Your Invitation
 invite-to-workspace.7c92c92: QR code copied
-invite-to-workspace.e2172bf: QR code for workspace invite link
 invite-to-workspace.09a57af: Reason for request
 invite-to-workspace.88daf3e: Request invitations to {workspaceName}
 invite-to-workspace.efc007a: Save
@@ -12378,25 +12360,18 @@ invite-to-workspace.ceba12e: Select a workspace to invite people to.
 invite-to-workspace.9c6d505: Select channels
 invite-to-workspace.ec6cac7: Select the invite type (member, frontline, guest)
 invite-to-workspace.dd35e9e: Select the invite type (member, guest)
-invite-to-workspace.4c3d3d5: Select when the frontline accounts will expire
-invite-to-workspace.dbc3173: Select when the guest accounts will expire
 invite-to-workspace.9bc2575: Send
 invite-to-workspace.590b375: Send Request
 invite-to-workspace.ce47bae: Send invite to {workspaceName}
-invite-to-workspace.b854663: Send these instructions to your team:
 invite-to-workspace.b98cc23: Send to
 invite-to-workspace.a5b70f2: Share link in LINE WORKS
 invite-to-workspace.aae06ed: Share this link anywhere to easily invite people to your workspace
 invite-to-workspace.e05d200: Share this link anywhere to easily invite people to {workspaceName}
-invite-to-workspace.fcc097c: Show email preview
 invite-to-workspace.c51c7f2: Sign in method:
 invite-to-workspace.8fc091e: Single Sign-On (SSO)
 invite-to-workspace.e9ba60e: Something went wrong. We couldn’t generate an invite link.
 invite-to-workspace.aab2e56: Step {currentStepIndex} of {totalSteps}
 invite-to-workspace.44b3913: Suggested:
-invite-to-workspace.d1c7aaf: Tap the link to join.
-invite-to-workspace.30ce059: These frontline accounts will expire at 11:59 PM on the date you select.
-invite-to-workspace.b16802c: These guest accounts will expire at 11:59 PM on the date you select.
 invite-to-workspace.7e7fbc8: To:
 invite-to-workspace.621521f: Untitled
 invite-to-workspace.19299fd: Use Google Workspace directory <span className="sk_foreground_high_solid">to find your coworkers’ email addresses.</span>
@@ -15005,6 +14980,7 @@ modernselling.039c631: Add field
 modernselling.2e01970: Add individually
 modernselling.0a6b5a8: Add metric
 modernselling.c7afdd6: Add missing details
+modernselling.002a248: Add new field?
 modernselling.a201440: Add option
 modernselling.f6b9f96: Add people by CSV file
 modernselling.5525beb: Add people individually
@@ -15243,6 +15219,7 @@ modernselling.b74bdee: Finish
 modernselling.957b5cb: Follow opportunities through the sales cycle
 modernselling.d78b8dc: Follow up with leads and track deals without leaving Slack
 modernselling.6de58d3: For more fields, you’ll be able to use them in advanced options or in Workflow Builder when configuring notifications.
+modernselling.041a5de: Format
 modernselling.ba4e722: Forward
 modernselling.b28dca9: Forward notification
 modernselling.6fa8226: Forward record update
@@ -15500,6 +15477,7 @@ modernselling.2950571: Opportunity in {account_name}
 modernselling.3772c15: Opportunity in {account_name}, <b>{salesforceOrgName}</b>
 modernselling.4dc1c86: Opportunity object
 modernselling.939697d: Opportunity owner
+modernselling.6bf5da9: Options
 modernselling.1d75774: Order
 modernselling.fc514a6: Org Filter
 modernselling.455aeda: Organize contacts and account information in one place
@@ -15658,8 +15636,10 @@ modernselling.7ab41f2: Select an integration for {orgName}
 modernselling.205941a: Select an opportunity object first to start mapping opportunity fields.
 modernselling.8aa2111: Select field…
 modernselling.1862e58: Select member
+modernselling.766c0fe: Select number format
 modernselling.1489f2b: Select one or more
 modernselling.c576593: Select operator…
+modernselling.8ea0c22: Select text format
 modernselling.3c8d4c6: Select user profile
 modernselling.349ac8f: Select…
 modernselling.9bc2575: Send
@@ -15765,6 +15745,7 @@ modernselling.9e695ae: Syncing from {orgName}…
 modernselling.621ffb5: Take a Tour
 modernselling.1ad607f: Take a quick survey (4 questions)
 modernselling.b0a8b77: The entry you are trying to update has changed.
+modernselling.f7830c0: The field will be visible to everyone with access to the list.
 modernselling.eff3735: The first row of your file should be column names. Be sure to include "Last Name" and "Company".
 modernselling.710078a: The first row of your file should be column names. Be sure to include "Last Name".
 modernselling.c3ed1e3: The imported file exceeds the maximum allowed size of {maxImportFileSizeInMb}MB. <a>Upload another file</a>
@@ -19031,6 +19012,7 @@ recordchannels.f840ac6: Canceled
 recordchannels.5562509: Can’t access this record in Slack
 recordchannels.93a46db: Can’t add to channel
 recordchannels.9254c4b: Case
+recordchannels.e5244a7: Catch up on channel conversations fast with AI summaries about this channel and related channels.
 recordchannels.d5eb68f: Channel Name
 recordchannels.c670974: Channel managers can limit channel access to the people who can access the record or allow everyone in your organization to find the record.
 recordchannels.18e03e2: Channels
@@ -19140,6 +19122,8 @@ recordchannels.9a0fa8b: Unable to add {memberName}
 recordchannels.4faa748: Unable to sync record.
 recordchannels.bc7819b: Unknown
 recordchannels.e0b3a22: Unknown Record
+recordchannels.a8d7394: Use the <strong>{recordTypeLabel} details</strong> tab to view and edit Salesforce data right in Slack. The changes you make here will be synced with Salesforce, keeping both systems up to date.
+recordchannels.c5eb4ff: We added the list of {recordName} {relatedListLabel} to get you started. Add tabs for other related Salesforce records that you and your team want easy access to in Slack.
 recordchannels.dbd28b0: We’re not quite sure what, but please try again in a bit.
 recordchannels.959b83c: When you do this, the channel won’t have Salesforce data from the {recordName} {recordLabel}, but the messages, channel members and other content will stay. You’ll also need a new channel name.
 recordchannels.ab014c3: Withdrawn
@@ -20765,6 +20749,7 @@ select.7b52c18: Keep typing…
 select.97a3774: Missing edit permissions
 select.f4e1241: No items
 select.b993b0c: No results
+select.6bf5da9: Options
 select.08d7aa3: Select an option
 select.4548321: Type to search…
 send_btn.c74e0f4: Don’t like the change? You can always switch back in <Link>your preferences</Link>.
@@ -25419,7 +25404,6 @@ slackforce.774025d: Download file
 slackforce.2d1ad2d: Download the mobile app
 slackforce.2018a59: Drafting email…
 slackforce.a51bf58: Easily keep records up to date
-slackforce.f0a231e: Easily update record details
 slackforce.3496db1: Easily update records
 slackforce.5301648: Edit
 slackforce.c06a9a6: Edit view
@@ -25673,7 +25657,6 @@ slackforce.cb562f9: Select Keep to use this draft or Discard to revert.
 slackforce.051ff33: Select a Salesforce org to see its objects
 slackforce.061429a: Select a field to see its related fields
 slackforce.aab14d1: Select a record to see its fields
-slackforce.063c557: Select a record to view and update Salesforce info without leaving Slack.
 slackforce.15515ee: Select an object to see its records
 slackforce.be4e8e2: Send Email
 slackforce.e615fcf: Send email without any content?
@@ -25794,7 +25777,6 @@ slackforce.de5c425: Upcoming and Overdue
 slackforce.4301f16: Upcoming and overdue
 slackforce.5288a3b: Update a customer’s details
 slackforce.bea7122: Update and research your CRM in the flow of work. <link>Take the tour</link>
-slackforce.ff6dd09: Update record details
 slackforce.5932090: Update {recordName} information
 slackforce.91f1e41: Update {recordName}'s information
 slackforce.3ee96d8: Upgrade to manage sales in Slack
@@ -29505,6 +29487,7 @@ workflow_builder.d2de1a2: Open link
 workflow_builder.894ddf6: Open resource
 workflow_builder.c9d5687: Open workflow details
 workflow_builder.d0e687b: Operator
+workflow_builder.6bf5da9: Options
 workflow_builder.e72184f: Or
 workflow_builder.7564576: Or, start from scratch — choose how the workflow starts and the steps that follow.
 workflow_builder.084e860: Out-of-date Info
